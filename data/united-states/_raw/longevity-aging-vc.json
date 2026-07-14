@@ -1,0 +1,748 @@
+[
+  {
+    "id": "us-healthspan-capital",
+    "name": { "en": "Healthspan Capital" },
+    "type": "vc",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "El Cerrito",
+    "offices": [{ "country": "United States", "city": "El Cerrito" }],
+    "website": "https://www.healthspancapital.vc/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/healthspan-capital",
+      "crunchbase": "https://www.crunchbase.com/organization/healthspan-capital"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "global"],
+      "sector_focus": ["longevity-aging", "therapeutics", "diagnostics", "digital-health"],
+      "thesis": "Early-stage longevity-biotech ('LongBio') and regenerative-medicine fund treating aging itself as a therapeutic target; structured as a publicly accessible rolling fund on AngelList. Direct biomedical nexus: backs therapeutics, diagnostics and tools targeting the biology of aging (senescence, epigenetic reprogramming)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "cell-therapy", "gene-therapy", "ai-ml-platform"],
+      "indications": ["aging-longevity"],
+      "company_creation": false,
+      "science_platform_notes": "Rolling-fund vehicle on AngelList; founders run adjacent longevity-biotech media (Longevity Marketcap, The Longevity Biotech Show, On Deck Longevity Biotech)."
+    },
+    "track_record": {
+      "portfolio_count": "25+",
+      "notable_investments": [
+        { "company": "Shift Bioscience", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Deciduous Therapeutics", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Repair Biotechnologies", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Oisin Biotechnologies", "sector": "longevity-aging", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Sebastian Brunemeier", "role": "General Partner / Co-founder", "background": "DPhil (Oxford) in aging biochemistry; co-founder of Cambrian Biopharma; CEO of ImmuneAGE" },
+      { "name": "Nathan Cheng", "role": "General Partner / Co-founder", "background": "Founder of Longevity Marketcap newsletter; program director, On Deck Longevity Biotech" },
+      { "name": "Michael Chinen", "role": "General Partner / Co-founder", "background": "Software / ML engineer (ex-Google)" }
+    ],
+    "tags": ["longevity", "rolling-fund", "angellist", "senescence", "regenerative-medicine"],
+    "summary": {
+      "en": "Publicly accessible early-stage rolling fund investing in longevity ('LongBio') and regenerative-medicine startups that target the biology of aging.",
+      "local": "位於加州 El Cerrito 的長壽生技早期滾動式基金,專注投資針對衰老生物學的療法、診斷與再生醫學新創。"
+    },
+    "sources": [
+      {
+        "url": "https://www.healthspancapital.vc/",
+        "title": "Healthspan Capital",
+        "publisher": "Healthspan Capital",
+        "accessed": "undefined",
+        "supports": "Thesis, LongBio focus, portfolio (25+ companies), El Cerrito CA HQ",
+        "quote": "Investing in early-stage longevity biotech (\"LongBio\") and regenerative medicine startups to extend healthy human lifespan."
+      },
+      {
+        "url": "https://startupintros.com/orgs/healthspan-capital",
+        "title": "Healthspan Capital: Funding, Team & Investors",
+        "publisher": "Startup Intros",
+        "accessed": "undefined",
+        "supports": "Founded 2021 by Brunemeier, Cheng, Chinen; rolling-fund structure",
+        "quote": "Healthspan Capital ... was established in 2021 by Sebastian Brunemeier, Nathan Cheng, and Michael Chinen."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Thesis and portfolio confirmed on official site; founder names and 2021 founding are from secondary aggregators. Fund size/AUM not disclosed (rolling fund).",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-age1",
+    "name": { "en": "age1" },
+    "aka": ["The Longevity Fund", "AGE1"],
+    "type": "vc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [{ "country": "United States", "city": "San Francisco" }],
+    "website": "https://age1.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/age1vc"
+    },
+    "capital": {
+      "current_fund": { "raw": "$35M", "usd": 35000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "$500,000 to $4M", "usd_min": 500000, "usd_max": 4000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["longevity-aging", "therapeutics", "ai-drug-discovery"],
+      "thesis": "Successor to Laura Deming's The Longevity Fund; first-money-in pre-seed/seed fund catalyzing founder-led longevity biotech. Biomedical nexus: therapeutics, tools and technologies targeting aging and age-related disease to extend healthy lifespan."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "cell-therapy", "gene-therapy", "ai-ml-platform"],
+      "indications": ["aging-longevity"],
+      "company_creation": true,
+      "science_platform_notes": "Evolved from the 2018-2019 AGE1 accelerator into a full pre-seed venture fund; GP Alex Colville is a PhD in the biology of aging (Stanford)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Loyal", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Gordian Biotechnology", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Fauna Bio", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Rubedo Life Sciences", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Spring Discovery", "sector": "longevity-aging", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Laura Deming", "role": "General Partner / Co-founder", "background": "Founder of The Longevity Fund; Thiel Fellow; began aging research in Cynthia Kenyon's UCSF lab at age 12" },
+      { "name": "Alex Colville", "role": "General Partner / Co-founder", "background": "PhD, biology of aging (Stanford); previously ran biotech investing at Starbloom Capital and the Amaranth Foundation" }
+    ],
+    "tags": ["longevity", "pre-seed", "company-creation", "laura-deming"],
+    "summary": {
+      "en": "San Francisco pre-seed/seed venture firm (successor to The Longevity Fund) backing founder-led longevity biotech; initial fund closed at $35M in 2023.",
+      "local": "舊金山的長壽生技早期基金,為 Laura Deming「The Longevity Fund」的接續者,2023 年首關募得 3,500 萬美元。"
+    },
+    "sources": [
+      {
+        "url": "https://age1.com/",
+        "title": "age1",
+        "publisher": "age1",
+        "accessed": "undefined",
+        "supports": "Check size, earliest-stage focus, San Francisco office",
+        "quote": "We write checks anywhere from $500,000 to $4M. The exact number depends on round dynamics."
+      },
+      {
+        "url": "https://longevity.technology/news/venture-firm-age1-launches-with-35-million-to-extend-healthy-lifespan/",
+        "title": "age1 launches with $35 million to extend healthy lifespan",
+        "publisher": "Longevity.Technology",
+        "accessed": "undefined",
+        "supports": "$35M initial close (2023); founders Deming & Colville; portfolio (Loyal, Gordian, Fauna Bio, Rubedo, Spring Discovery)",
+        "quote": "age1 ... held an initial closing for $35 million to invest in companies with the highest potential to shift the current paradigm of sick care to health preservation and extension."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Some outlets cite a $50M fund target vs the $35M initial close reported at launch; $35M is the sourced figure. HQ is a downtown San Francisco office per age1.com.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-r42-group",
+    "name": { "en": "R42 Group" },
+    "aka": ["R42", "R42 AI and Longevity Fund", "R42 Institute"],
+    "type": "vc",
+    "subtypes": ["micro-vc", "family-office"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "offices": [{ "country": "United States", "city": "Palo Alto" }],
+    "website": "https://www.r42group.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/r42"
+    },
+    "capital": {
+      "funds": [
+        { "name": "R42 AI and Longevity Fund", "size": { "raw": "$16 million", "usd": 16000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["longevity-aging", "ai-drug-discovery", "therapeutics"],
+      "thesis": "Palo Alto VC (grown from founder Ronjon Nag's family office) investing 'at the intersection of AI and longevity', assembling portfolio companies into a multi-intervention longevity platform (AI drug discovery, CRISPR, mitochondrial bioreactors, biomarker wearables, senescent-cell clearance)."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "gene-editing", "wearables-sensors"],
+      "indications": ["aging-longevity"],
+      "company_creation": false,
+      "science_platform_notes": "Runs the R42 Institute programs (Longevity Series, AI & Longevity Club, Younger Ageing Competition); founder is a Stanford adjunct professor of genetics."
+    },
+    "track_record": {
+      "portfolio_count": "50+"
+    },
+    "people": [
+      { "name": "Ronjon Nag", "role": "Founder", "background": "Adjunct professor of genetics, Stanford; AI pioneer who co-founded/advised companies acquired by Motorola, BlackBerry and Apple" }
+    ],
+    "tags": ["longevity", "ai", "family-office", "stanford", "seed"],
+    "summary": {
+      "en": "Palo Alto seed VC (from Ronjon Nag's family office) backing companies at the intersection of AI and longevity; runs a ~$16M AI & Longevity seed fund.",
+      "local": "帕羅奧圖的種子期創投,源自 Ronjon Nag 的家族辦公室,專注 AI 與長壽交會處,設有約 1,600 萬美元的 AI 與長壽基金。"
+    },
+    "sources": [
+      {
+        "url": "https://www.r42group.com/",
+        "title": "R42 Group | Venture Capital",
+        "publisher": "R42 Group",
+        "accessed": "undefined",
+        "supports": "AI/Deep Science/Biotech focus; stages pre-seed to growth; longevity programs; 50+ portfolio",
+        "quote": "We invent, invest and inform ... from the pre-seed inventing stage through to growth stage."
+      },
+      {
+        "url": "https://longevity.technology/news/r42-launches-14-million-longevity-fund/",
+        "title": "R42 launches $16 million Longevity fund",
+        "publisher": "Longevity.Technology",
+        "accessed": "undefined",
+        "supports": "$16M AI & Longevity seed fund; AI + longevity thesis",
+        "quote": "The R42 AI and Longevity Fund is a $16 million seed fund targeting early stage investments in companies \"at the intersection of mathematics and biology.\""
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Palo Alto, CA HQ and founder Ronjon Nag confirmed via secondary sources; official site does not state HQ or fund size. Fund headline figure quoted as $16M (some earlier coverage said ~$14M).",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-longevity-vision-fund",
+    "name": { "en": "Longevity Vision Fund" },
+    "aka": ["LVF", "Longevity Vision Holding"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [{ "country": "United States", "city": "New York" }],
+    "website": "https://sergeyyoung.com/investments",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/longevityvisionfund",
+      "crunchbase": "https://www.crunchbase.com/organization/longevity-vision-fund",
+      "other": ["https://longevity.vision/"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$100M", "usd": 100000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "check_size": { "raw": "$1M–$10M", "usd_min": 1000000, "usd_max": 10000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "global"],
+      "sector_focus": ["longevity-aging", "ai-drug-discovery", "diagnostics", "therapeutics"],
+      "thesis": "$100M fund founded by Sergey Young to 'accelerate longevity breakthroughs and make them more accessible and affordable to everyone', investing in preventive medicine & early detection, medtech, AI in healthcare, and longevity/regenerative therapies."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "gene-therapy"],
+      "indications": ["aging-longevity", "oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 18,
+      "notable_investments": [
+        { "company": "Insilico Medicine", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Freenome", "sector": "diagnostics", "outcome": "active" },
+        { "company": "LyGenesis", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "Deep Longevity", "sector": "longevity-aging", "outcome": "acquired" }
+      ]
+    },
+    "people": [
+      { "name": "Sergey Young", "role": "Founder", "background": "20 years managing PE/VC funds; board member of the American Federation for Aging Research (AFAR); XPRIZE innovation board member; author of 'The Science and Technology of Growing Young'" }
+    ],
+    "tags": ["longevity", "healthspan", "preventive-medicine", "sergey-young"],
+    "summary": {
+      "en": "New York-based ~$100M fund founded by Sergey Young (2019) investing in technologies that extend healthy human lifespan across therapeutics, AI diagnostics and regenerative medicine.",
+      "local": "位於紐約、由 Sergey Young 於 2019 年創立的約 1 億美元基金,投資延長健康壽命的療法、AI 診斷與再生醫學技術。"
+    },
+    "sources": [
+      {
+        "url": "https://sergeyyoung.com/investments",
+        "title": "Longevity Vision Fund",
+        "publisher": "Sergey Young",
+        "accessed": "undefined",
+        "supports": "Mission/thesis; portfolio (Insilico Medicine, Freenome, LyGenesis, Deep Longevity, Juvenescence, Life Biosciences, Exo Imaging, 4DMT)",
+        "quote": "accelerate longevity breakthroughs and to make them more accessible and affordable to everyone"
+      },
+      {
+        "url": "https://www.privateequityinternational.com/institution-profiles/longevity-vision-fund.html",
+        "title": "Longevity Vision Fund | Institution Profile",
+        "publisher": "Private Equity International",
+        "accessed": "undefined",
+        "supports": "$100M fund size, 2019 founding, New York HQ (555 Madison Avenue)",
+        "quote": "Longevity Vision Fund is a $100M investment fund ... founded ... in 2019"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Headline fund size widely reported as $100M and founding year 2019; one secondary listing (Cure) inflates AUM to '$2 billion', which is not corroborated by primary sources and was not used. HQ 555 Madison Avenue, New York per secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-formic-ventures",
+    "name": { "en": "Formic Ventures" },
+    "type": "vc",
+    "subtypes": ["family-office"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [{ "country": "United States", "city": "San Francisco" }],
+    "website": "https://formic.vc/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "~$7M/yr into early-stage seed/Series A (of ~$20-25M/yr total)", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["longevity-aging", "ai-drug-discovery", "life-science-tools"],
+      "thesis": "Mission-driven fund of Oculus co-founder Michael Antonov; ~70% of investments in longevity, plus computational biology and scientific tools that accelerate discovery. Biomedical nexus: early-stage biotech targeting human aging."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "indications": ["aging-longevity"],
+      "company_creation": true,
+      "science_platform_notes": "Antonov also co-founded Deep Origin (computational biology tooling); Formic has a 'Scientist in Residence' with a PhD in the biology of aging (ex-Buck Institute)."
+    },
+    "people": [
+      { "name": "Michael Antonov", "role": "Founder", "background": "Co-founder & Chief Software Architect of Oculus (acquired by Facebook) and Scaleform (acquired by Autodesk); founded Formic in June 2020" }
+    ],
+    "tags": ["longevity", "computational-biology", "oculus", "single-lp-fund"],
+    "summary": {
+      "en": "San Francisco longevity-focused fund founded by Oculus co-founder Michael Antonov; ~70% of investments in longevity biotech, computational biology and discovery tools.",
+      "local": "舊金山的長壽導向基金,由 Oculus 共同創辦人 Michael Antonov 於 2020 年創立,約七成投資投入長壽生技、計算生物與研究工具。"
+    },
+    "sources": [
+      {
+        "url": "https://formic.vc/about.html",
+        "title": "Formic Ventures | About",
+        "publisher": "Formic Ventures",
+        "accessed": "undefined",
+        "supports": "Longevity focus; founder Michael Antonov / Oculus; San Francisco",
+        "quote": "early stage investments in biotechnology startups focused on human longevity as well as technology startups and companies that make human lives more meaningful."
+      },
+      {
+        "url": "https://longevity.technology/news/michael-antonov-longevity-is-all-about-tackling-true-unknowns/",
+        "title": "Michael Antonov: longevity is all about tackling true unknowns",
+        "publisher": "Longevity.Technology",
+        "accessed": "undefined",
+        "supports": "~70% longevity allocation; ~$20-25M/yr, ~$7M into early-stage seed/Series A",
+        "quote": "He expects to invest $20-25m a year, including around $7m into early-stage businesses at seed capital or A round stage. ... About 70% of his investments are in the longevity space."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Single-LP (founder-funded) vehicle; total fund size not formally disclosed, so annual deployment figures are used instead. San Francisco HQ per official site.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-bold-capital-partners",
+    "name": { "en": "BOLD Capital Partners" },
+    "aka": ["BOLD Longevity Growth Fund", "BLG"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Santa Monica",
+    "offices": [
+      { "country": "United States", "city": "Santa Monica" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://boldcapitalpartners.com/",
+    "links": {
+      "other": ["https://blg.vc/"]
+    },
+    "capital": {
+      "aum": { "raw": "$600M+ into longevity startups and exponential tech", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "global"],
+      "sector_focus": ["longevity-aging", "generalist-health", "ai-drug-discovery"],
+      "thesis": "Peter Diamandis's venture platform backing exponential-tech and longevity companies; runs a dedicated BOLD Longevity Growth Fund and co-created the $101M XPRIZE Healthspan. Biomedical nexus: longevity therapeutics, AI drug discovery and preventive diagnostics (e.g. Insilico Medicine, Fountain Life)."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "small-molecule"],
+      "indications": ["aging-longevity"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Insilico Medicine", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Colossal Biosciences", "sector": "genomics-omics", "outcome": "active" },
+        { "company": "Centivax", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Peter Diamandis", "role": "Co-founder / General Partner", "background": "MD (Harvard), MS aeronautics (MIT); founder of XPRIZE Foundation, Human Longevity Inc. and Singularity University; launched the $101M XPRIZE Healthspan" }
+    ],
+    "tags": ["longevity", "exponential-tech", "growth", "xprize", "peter-diamandis"],
+    "summary": {
+      "en": "Santa Monica venture platform led by Peter Diamandis, with a dedicated BOLD Longevity Growth Fund deploying capital into longevity and exponential-tech companies.",
+      "local": "位於聖塔莫尼卡、由 Peter Diamandis 領軍的創投平台,設有專門的 BOLD Longevity Growth Fund,投資長壽與指數型科技公司。"
+    },
+    "sources": [
+      {
+        "url": "https://boldcapitalpartners.com/",
+        "title": "BOLD Capital Partners",
+        "publisher": "BOLD Capital Partners",
+        "accessed": "undefined",
+        "supports": "Santa Monica + Boston offices; portfolio incl. Insilico Medicine, Colossal, Centivax; BOLD Longevity Growth (blg.vc)",
+        "quote": "225 Santa Monica Blvd, Suite 900 ... 100 Cambridge Street"
+      },
+      {
+        "url": "https://www.crunchbase.com/person/peter-diamandis",
+        "title": "Peter Diamandis - Co-Founder @ BOLD Longevity Growth Fund",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founder of BOLD Longevity Growth Fund; $600M+ into longevity startups and exponential tech",
+        "quote": "Peter's venture fund, BOLD Capital Partners, is deploying $600M+ into longevity startups and exponential tech."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "BOLD Capital is a broad exponential-tech investor with a dedicated longevity arm (BOLD Longevity Growth Fund, blg.vc); the '$600M+ into longevity startups and exponential tech' figure is a blended platform figure, not a discrete longevity-only fund size. Included for its dedicated longevity growth vehicle and healthspan track record.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-methuselah-fund",
+    "name": { "en": "Methuselah Fund" },
+    "aka": ["M Fund", "Methuselah Funds, LLC"],
+    "type": "venture-philanthropy",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Washington",
+    "website": "https://www.methuselahfund.com/",
+    "links": {
+      "other": ["https://www.mfoundation.org/"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["longevity-aging", "therapeutics", "cell-gene-therapy", "life-science-tools"],
+      "thesis": "Mission-first venture arm of the non-profit Methuselah Foundation ('making 90 the new 50 by 2030'); provides seed capital and business counsel to breakthrough longevity biotech, protecting the aging mission from premature commercial pivots. Biomedical nexus: senolytics, organ preservation, tissue engineering, cellular rejuvenation."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "small-molecule"],
+      "indications": ["aging-longevity"],
+      "company_creation": true,
+      "science_platform_notes": "Pursues seven anti-aging strategies (new organ creation, genetic-code restoration, structural rebuilding, senescent-cell removal, stem-cell replenishment, circulatory restoration, restored sensory/physical capacity)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Oisin Biotechnologies", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Turn Bio", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "X-Therma", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Leucadia Therapeutics", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Viscient Biosciences", "sector": "life-science-tools", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "David Gobel", "role": "CEO / Co-founder", "background": "Founder of the Methuselah Foundation; coined 'longevity escape velocity'; serial entrepreneur and futurist" },
+      { "name": "Sergio Ruiz", "role": "Co-founder / Managing Director", "background": "10+ years non-profit management" }
+    ],
+    "tags": ["longevity", "venture-philanthropy", "senolytics", "regenerative-medicine", "mission-driven"],
+    "summary": {
+      "en": "Venture arm (est. 2017) of the non-profit Methuselah Foundation, seeding mission-critical longevity biotech in senolytics, organ preservation and tissue engineering.",
+      "local": "非營利 Methuselah Foundation 於 2017 年成立的創投臂,種子投資使命導向的長壽生技(衰老細胞清除、器官保存、組織工程)。"
+    },
+    "sources": [
+      {
+        "url": "https://www.methuselahfund.com/",
+        "title": "Methuselah Fund",
+        "publisher": "Methuselah Fund",
+        "accessed": "undefined",
+        "supports": "Mission ('making 90 the new 50 by 2030'); seven anti-aging strategies; portfolio (Oisin, Turn Bio, X-Therma, Leucadia, Viscient)",
+        "quote": "making 90 the new 50 by 2030"
+      },
+      {
+        "url": "https://www.fightaging.org/archives/2017/03/methuselah-foundation-launches-methuselah-fund/",
+        "title": "Methuselah Foundation Launches Methuselah Fund",
+        "publisher": "Fight Aging!",
+        "accessed": "undefined",
+        "supports": "M Fund created in 2017 as an LLC subsidiary of the Methuselah Foundation to invest in early-stage longevity companies",
+        "quote": "The Methuselah Fund (M Fund) was created in 2017 as an LLC subsidiary of the Methuselah Foundation to incubate and invest in early-stage companies."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Parent Methuselah Foundation is US-based (Washington, D.C. area / Springfield, VA per secondary sources); exact HQ city not stated on the fund site. Fund size not disclosed. Classified venture-philanthropy given its non-profit-foundation origin and mission-first mandate, with incubator subtype.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-cambrian-bio",
+    "name": { "en": "Cambrian Bio" },
+    "aka": ["Cambrian Biopharma"],
+    "type": "venture-studio",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [{ "country": "United States", "city": "New York" }],
+    "website": "https://www.cambrianbio.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/cambrianbio",
+      "crunchbase": "https://www.cbinsights.com/investor/cambrian-biopharma"
+    },
+    "capital": {
+      "aum": { "raw": "~$160 million raised across three rounds", "usd": 160000000, "currency": "USD" },
+      "funds": [
+        { "name": "Series C", "vintage_year": 2021, "size": { "raw": "$100 million", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["longevity-aging", "therapeutics"],
+      "thesis": "New York 'Distributed Drug Development Company' (DisCo) that builds a portfolio of majority-owned subsidiaries developing precision therapeutics against pathways that decline with age (AMPK, mTOR), aiming to extend healthspan. Roivant/Atai-like company-creation model for the biology of aging."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "indications": ["aging-longevity", "metabolic-obesity"],
+      "company_creation": true,
+      "science_platform_notes": "DisCo model: central capital raise distributed across multiple wholly/majority-owned drug programs; lead asset ATX-304 (AMPK network activator) in the clinic."
+    },
+    "track_record": {
+      "portfolio_count": "12+ programs",
+      "notable_investments": [
+        { "company": "ATX-304 (lead asset)", "sector": "metabolic-obesity", "outcome": "Phase 1b" }
+      ]
+    },
+    "people": [
+      { "name": "James Peyer", "role": "CEO / Co-founder", "background": "PhD in stem-cell biology; previously Founder & Managing Partner of Apollo Ventures (early longevity VC); ex-McKinsey biotech R&D (New York)" }
+    ],
+    "tags": ["longevity", "healthspan", "disco", "company-creation", "diseases-of-aging"],
+    "summary": {
+      "en": "New York longevity company-builder (DisCo model) creating majority-owned subsidiaries that develop therapeutics against the biology of aging; ~$160M raised.",
+      "local": "位於紐約的長壽公司創建平台(DisCo 模式),以多數持股子公司開發抗衰老療法,累計募資約 1.6 億美元。"
+    },
+    "sources": [
+      {
+        "url": "https://www.cambrianbio.com/",
+        "title": "Cambrian Bio | Catalyzing breakthroughs",
+        "publisher": "Cambrian Bio",
+        "accessed": "undefined",
+        "supports": "Healthspan mission; AMPK/mTOR aging pathways; lead asset ATX-304",
+        "quote": "ATX-304, our lead asset, is the first AMPK Network Activator to enter clinical development, with positive Phase 1b data in obesity and prediabetes."
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/cambrian-secures-100m-series-c-for-atai-roivant-like-approach-to-building-up-biotechs-14",
+        "title": "Cambrian secures $100M series C for Roivant-like approach to biotech creation with goal to slow down human aging",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "$100M Series C (2021); ~$160M total; DisCo/Roivant-like company creation targeting aging",
+        "quote": "Cambrian raised $100 million in Series C financing, bringing total funding to about $160 million."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Structurally a company builder / venture studio rather than a classic fund (raises centrally, distributes into owned subsidiaries), hence 'venture-studio'. Now advancing a clinical lead asset (ATX-304), blurring the company/investor line. NYC HQ per Fierce Biotech and CEO's ex-McKinsey New York background.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-apollo-health-ventures",
+    "name": { "en": "Apollo Health Ventures" },
+    "aka": ["Apollo Ventures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [
+      { "country": "United States", "city": "Boston" },
+      { "country": "Germany", "city": "Berlin" }
+    ],
+    "website": "https://www.apollo.vc/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/apollovc",
+      "crunchbase": "https://www.crunchbase.com/organization/apollo-health-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "over $300 million", "usd": 300000000, "currency": "USD" },
+      "funds": [
+        { "name": "Apollo Health Ventures Fund I", "vintage_year": 2021, "size": { "raw": "US$180 million", "usd": 180000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "$500K–$10 million", "usd_min": 500000, "usd_max": 10000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["longevity-aging", "therapeutics", "ai-drug-discovery"],
+      "thesis": "Transatlantic early-stage VC (Berlin HQ, US hub in Boston/Cambridge) that co-founds and invests in age-related-disease and aging-biology companies (Alzheimer's, heart disease, sarcopenia, frailty, cancer), targeting increased healthy human lifespan via hypothesis-driven company building."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "ai-ml-platform"],
+      "indications": ["aging-longevity", "neurology", "cardiovascular", "oncology"],
+      "company_creation": true,
+      "science_platform_notes": "Works with scientists/entrepreneurs to create new ventures (company co-founding) around mitochondrial biology and aging mechanisms."
+    },
+    "people": [
+      { "name": "Nils Regge", "role": "Founding / Managing Partner", "background": "Co-founder of Apollo Health Ventures" }
+    ],
+    "tags": ["longevity", "healthspan", "company-creation", "transatlantic", "age-related-disease"],
+    "summary": {
+      "en": "Transatlantic early-stage longevity VC headquartered in Berlin with a US hub in Boston/Cambridge; over $300M AUM co-founding and backing aging-biology biotech.",
+      "local": "橫跨歐美的早期長壽創投,總部在柏林、美國據點在波士頓/劍橋,管理資產逾 3 億美元,共創並投資衰老生物學生技。"
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/biotech/apollo-s-mission-to-extend-human-health-span-gets-180m-boost-giving-vc-fund-a-launchpad-for",
+        "title": "Apollo's mission to extend human health span gets $180M boost",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "First fund of US$180M (2021); age-related disease launchpad",
+        "quote": "Apollo Health Ventures closed its first fund of US$180 million in 2021."
+      },
+      {
+        "url": "https://wewillcure.com/insights/investment/longevity-and-healthspan/vcs-funding-longevity-startups-in-2026",
+        "title": "7 VCs Funding Longevity Startups in 2026",
+        "publisher": "Cure.",
+        "accessed": "undefined",
+        "supports": "Over $300M AUM; Berlin HQ with US hub in Boston/Cambridge; pre-seed–Series A; $500K–$10M checks",
+        "quote": "Headquartered in Berlin, with a U.S. hub in the Boston and Cambridge area ... with over $300 million in assets under management."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Primary HQ is Berlin, Germany; included in the US slice because of its dedicated US hub in Boston/Cambridge. Founding year 2016 and $300M AUM are from secondary sources; the $180M Fund I close is corroborated by Fierce Biotech.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-longevity-venture-partners",
+    "name": { "en": "Longevity Venture Partners" },
+    "type": "vc",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Baltimore",
+    "offices": [{ "country": "United States", "city": "Baltimore" }],
+    "website": "https://www.longevityventurepartners.com/",
+    "links": {
+      "other": ["https://pitchbook.com/profiles/investor/467286-22"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "israel"],
+      "sector_focus": ["longevity-aging", "digital-health", "healthcare-services", "consumer-health"],
+      "thesis": "Baltimore fund investing in early-stage Silvertech, healthcare and wellness startups that improve the quality and longevity of the older/aging population, leveraging the founders' CommuniCare senior-care operating network for pilots. Aging/healthspan nexus via care technology rather than longevity biotech."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "wearables-sensors", "ai-ml-platform"],
+      "indications": ["aging-longevity"],
+      "company_creation": false,
+      "science_platform_notes": "Provides portfolio companies access to the CommuniCare Family of Companies pilot ecosystem; invests ~4-6 Israeli companies per year."
+    },
+    "people": [
+      { "name": "Stephen Rosedale", "role": "Co-founder", "background": "Healthcare/senior-care operator (CommuniCare network)" },
+      { "name": "Ronald Wilheim", "role": "Co-founder", "background": "Healthcare/senior-care operator (CommuniCare network)" }
+    ],
+    "tags": ["aging", "silvertech", "agetech", "senior-care", "digital-health"],
+    "summary": {
+      "en": "Baltimore-based early-stage fund investing in Silvertech, healthcare and wellness startups for the aging population, backed by the CommuniCare senior-care network.",
+      "local": "位於巴爾的摩的早期基金,投資服務高齡人口的銀髮科技、醫療與健康新創,並由 CommuniCare 長照網絡支持試點。"
+    },
+    "sources": [
+      {
+        "url": "https://www.longevityventurepartners.com/about",
+        "title": "About — Longevity Venture Partners",
+        "publisher": "Longevity Venture Partners",
+        "accessed": "undefined",
+        "supports": "Founders (Rosedale, Wilheim); Baltimore MD; Silvertech/Healthcare/Wellness focus; 4-6 Israeli companies/yr; CommuniCare pilot ecosystem",
+        "quote": "The fund invests in four to six Israeli companies per year"
+      },
+      {
+        "url": "https://agetechworld.co.uk/market/new-venture-capital-firm-to-fund-next-generation-of-longevity-companies/",
+        "title": "New venture capital firm to fund next generation of longevity companies",
+        "publisher": "AgeTech World",
+        "accessed": "undefined",
+        "supports": "Founded 2020; aging-population / Silvertech investment focus",
+        "quote": "Longevity Venture Partners ... invests in early-stage Silvertech and healthcare startups in the U.S., enhancing independence for the aging population."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Aging/silvertech (care technology for older adults) rather than longevity biotech — included as the aging end of the segment. Fund size and check size not disclosed. Sources co-invests in Israeli agetech but is US-headquartered in Baltimore, MD.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  },
+  {
+    "id": "us-amaranth-foundation",
+    "name": { "en": "Amaranth Foundation" },
+    "type": "venture-philanthropy",
+    "subtypes": ["family-office"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Philadelphia",
+    "offices": [{ "country": "United States", "city": "Philadelphia" }],
+    "website": "https://amaranth.foundation/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/amaranthfoundation",
+      "other": ["https://www.guidestar.org/profile/23-7743235"]
+    },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["longevity-aging", "mental-health"],
+      "thesis": "Philadelphia private foundation / family office funding and investing in the biology of aging and neuroscience; grants to leading academic labs plus a biotech investment arm, backing initiatives such as Impetus Grants, E11 Bio, Forest Neurotech and the AFAR SuperAgers cohort. Biomedical nexus: aging biology, brain aging, centenarian genetics."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "neurotech-bci"],
+      "indications": ["aging-longevity", "neurology"],
+      "company_creation": false,
+      "science_platform_notes": "Blends non-profit research grants with an in-house biotech investment arm; focus areas include neuroAI, brain aging and centenarian genetics."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "E11 Bio", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "Forest Neurotech", "sector": "mental-health", "outcome": "active" },
+        { "company": "Impetus Grants", "sector": "longevity-aging", "outcome": "program" }
+      ]
+    },
+    "tags": ["longevity", "neuroscience", "family-office", "brain-aging", "centenarian-genetics"],
+    "summary": {
+      "en": "Philadelphia family-office foundation funding aging-biology and neuroscience research plus a biotech investment arm, backing Impetus Grants, E11 Bio, Forest Neurotech and the AFAR SuperAgers cohort.",
+      "local": "位於費城的家族辦公室基金會,資助衰老生物學與神經科學研究並設有生技投資臂,支持 Impetus Grants、E11 Bio、Forest Neurotech 與 AFAR SuperAgers 世代研究。"
+    },
+    "sources": [
+      {
+        "url": "https://amaranth.foundation/",
+        "title": "Amaranth Foundation - Longevity and Neuroscience",
+        "publisher": "Amaranth Foundation",
+        "accessed": "undefined",
+        "supports": "$50M+ committed to research; longevity + neuroscience focus; grantees (Impetus Grants, E11 Bio, Forest Neurotech, AFAR SuperAgers)",
+        "quote": "donated and committed over $50M to research spanning neuroAI, brain aging, centenarian genetics, and next-gen neurotechnologies"
+      },
+      {
+        "url": "https://www.causeiq.com/organizations/amaranth-foundation,237743235/",
+        "title": "Amaranth Foundation | Philadelphia, PA",
+        "publisher": "Cause IQ",
+        "accessed": "undefined",
+        "supports": "Private foundation located in Philadelphia, PA",
+        "quote": "Amaranth Foundation | Philadelphia, PA"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Primarily a research-funding foundation/family office with an associated biotech investment arm (reported to manage $100M+, not independently confirmed here). Founder referred to only as 'James' on official materials (widely reported to be crypto/tech investor James Fickel) — surname not confirmed from a primary source. Included at low confidence for the aging-biology investment nexus.",
+    "last_updated": "undefined",
+    "researched_by": "longevity-aging-vc"
+  }
+]

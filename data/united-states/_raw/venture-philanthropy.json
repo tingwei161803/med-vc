@@ -1,0 +1,904 @@
+[
+  {
+    "id": "us-t1d-fund",
+    "name": { "en": "T1D Fund: A Breakthrough T1D Venture (JDRF T1D Fund)" },
+    "aka": ["JDRF T1D Fund", "T1D Fund", "Breakthrough T1D Venture"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://t1dfund.org",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/jdrf-t1d-fund",
+      "other": ["https://www.breakthrought1d.org/t1d-fund/"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$150+ million goal", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "First scaled venture philanthropy fund making equity investments in companies developing cure-oriented therapies for type 1 diabetes; a wholly owned subsidiary of Breakthrough T1D (formerly JDRF), all returns are recycled into the T1D mission."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "biologics-antibody", "small-molecule"],
+      "indications": ["metabolic-obesity", "immunology-inflammation"],
+      "company_creation": false,
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "portfolio_count": "25+",
+      "notable_investments": [
+        { "company": "Jaguar Gene Therapy", "sector": "gene therapy", "outcome": "active" },
+        { "company": "Bigfoot Biomedical", "sector": "diabetes device", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "The venture philanthropy fund of Breakthrough T1D (formerly JDRF), making equity investments across seed-to-public-stage companies to cure, prevent and treat type 1 diabetes.",
+      "local": "Breakthrough T1D（前身為 JDRF）的公益創投基金，透過股權投資支持治癒、預防與治療第一型糖尿病的新創公司。"
+    },
+    "sources": [
+      { "url": "https://t1dfund.org/venture-philanthropy/", "title": "Venture Philanthropy", "publisher": "T1D Fund", "accessed": "undefined", "supports": "launch year, subsidiary status", "quote": "Launched in 2016 as a wholly owned subsidiary of Breakthrough T1D, the T1D Fund is the first scaled venture fund established to catalyze the development of T1D cure-oriented therapies through investments." },
+      { "url": "https://t1dfund.org/venture-philanthropy/", "title": "Venture Philanthropy", "publisher": "T1D Fund", "accessed": "undefined", "supports": "equity investment model", "quote": "Our mission is to accelerate life-changing solutions to cure, prevent and treat type 1 diabetes (T1D) through equity investments." },
+      { "url": "https://www.prnewswire.com/news-releases/the-t1d-fund-launches-bold-new-capital-raise-to-accelerate-the-next-wave-of-type-1-diabetes-treatments-prevention--cures-302600276.html", "title": "The T1D Fund Launches Bold New Capital Raise", "publisher": "PR Newswire", "accessed": "undefined", "supports": "portfolio count, commitments, goal, partners", "quote": "Across its 25+ portfolio companies, ranging from seed to public stage, the Fund invests in companies" },
+      { "url": "https://www.prnewswire.com/news-releases/the-t1d-fund-launches-bold-new-capital-raise-to-accelerate-the-next-wave-of-type-1-diabetes-treatments-prevention--cures-302600276.html", "title": "The T1D Fund Launches Bold New Capital Raise", "publisher": "PR Newswire", "accessed": "undefined", "supports": "fundraising goal", "quote": "has already secured more than $60 million of commitments toward its $150+ million goal" },
+      { "url": "https://www.prnewswire.com/news-releases/the-t1d-fund-launches-bold-new-capital-raise-to-accelerate-the-next-wave-of-type-1-diabetes-treatments-prevention--cures-302600276.html", "title": "The T1D Fund Launches Bold New Capital Raise", "publisher": "PR Newswire", "accessed": "undefined", "supports": "partnership with Breakthrough T1D and Helmsley", "quote": "The Fund works in close partnership with Breakthrough T1D (formerly JDRF) and The Leona M. and Harry B. Helmsley Charitable Trust" }
+    ],
+    "confidence": "high",
+    "verification_notes": "CB Insights lists 57 total investments; portfolio and commitment figures reported as of Oct 2025 per the capital-raise release. Works in partnership with the Helmsley Charitable Trust.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-lls-therapy-acceleration-program",
+    "name": { "en": "The Leukemia & Lymphoma Society Therapy Acceleration Program (LLS TAP)" },
+    "aka": ["LLS TAP", "Therapy Acceleration Program", "Blood Cancer United TAP"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Rye Brook",
+    "website": "https://www.lls.org/therapy-acceleration-program",
+    "capital": {
+      "aum": { "raw": "$100+ million (grants and TAP investments)", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "check_size": { "raw": "up to ~$10 million per investment", "usd_min": null, "usd_max": 10000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Strategic venture philanthropy initiative of the Leukemia & Lymphoma Society making equity investments in biotech companies developing blood-cancer therapeutics, with returns recycled into the LLS mission."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "biologics-antibody", "small-molecule"],
+      "indications": ["oncology", "hematology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Kite Pharma (Yescarta/axicabtagene ciloleucel)", "sector": "CAR-T", "outcome": "FDA-approved" },
+        { "company": "Jazz/Celator (Vyxeos/CPX-351)", "sector": "oncology", "outcome": "FDA-approved" },
+        { "company": "Stemline (Elzonris)", "sector": "oncology", "outcome": "FDA-approved" },
+        { "company": "BioInvent", "sector": "immuno-oncology", "outcome": "active" },
+        { "company": "Rgenta Therapeutics", "sector": "RNA/oncology", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The venture philanthropy arm of the Leukemia & Lymphoma Society, making equity investments (up to ~$10M each) in blood-cancer therapeutics; TAP-supported drugs include Vyxeos, Yescarta and Elzonris.",
+      "local": "白血病與淋巴瘤協會（LLS）的公益創投部門，對血液腫瘤療法進行股權投資（每筆最高約1,000萬美元），已支持 Vyxeos、Yescarta、Elzonris 等藥物獲批。"
+    },
+    "sources": [
+      { "url": "https://www.prnewswire.com/news-releases/the-leukemia--lymphoma-society-therapy-acceleration-program-lls-tap-announces-five-new-investments-supporting-next-generation-cell-therapies-and-a-novel-immune-checkpoint-inhibitor-301274791.html", "title": "LLS TAP Announces Five New Investments", "publisher": "PR Newswire", "accessed": "undefined", "supports": "venture philanthropy definition", "quote": "LLS TAP is a strategic venture philanthropy funding initiative to accelerate high-risk, innovative blood cancer therapeutics and change the standard of care in leukemia, lymphoma, and multiple myeloma." },
+      { "url": "https://www.prnewswire.com/news-releases/the-leukemia--lymphoma-society-therapy-acceleration-program-lls-tap-announces-five-new-investments-supporting-next-generation-cell-therapies-and-a-novel-immune-checkpoint-inhibitor-301274791.html", "title": "LLS TAP Announces Five New Investments", "publisher": "PR Newswire", "accessed": "undefined", "supports": "check size", "quote": "makes individual investments of up to approximately $10 million" },
+      { "url": "https://www.prnewswire.com/news-releases/the-leukemia--lymphoma-society-therapy-acceleration-program-lls-tap-announces-five-new-investments-supporting-next-generation-cell-therapies-and-a-novel-immune-checkpoint-inhibitor-301274791.html", "title": "LLS TAP Announces Five New Investments", "publisher": "PR Newswire", "accessed": "undefined", "supports": "total dedicated, FDA approvals", "quote": "LLS has dedicated more than $100 million over the past several decades, through both grants and TAP investments" },
+      { "url": "https://www.bioinvent.com/en/press/bioinvent-selected-leukemia-lymphoma-societys-therapy-acceleration-program-and-receives-3", "title": "BioInvent selected to LLS TAP with $3M equity investment", "publisher": "BioInvent", "accessed": "undefined", "supports": "equity investment example", "quote": "BioInvent selected to The Leukemia & Lymphoma Society's Therapy Acceleration Program and receives $3 million strategic equity investment" }
+    ],
+    "confidence": "high",
+    "verification_notes": "TAP established 2007 per LLS secondary sources; founding-year quote not captured (lls.org returned HTTP 403). Now branded under Blood Cancer United. Some LLS materials cite six FDA/NCCN-recognized TAP-supported therapies; the 2021 release cites three U.S. approvals since 2017.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-acs-brightedge",
+    "name": { "en": "ACS BrightEdge (American Cancer Society)" },
+    "aka": ["BrightEdge", "ACS Impact Venture Fund", "AIVF"],
+    "type": "venture-philanthropy",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Atlanta",
+    "website": "https://acsbrightedge.org",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/brightedge-acs",
+      "crunchbase": "https://www.crunchbase.com/organization/brightedge-fund"
+    },
+    "capital": {
+      "aum": { "raw": "net asset value of $77 million", "usd": 77000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "Innovation and impact-investment arm of the American Cancer Society; through the donor-funded ACS Impact Venture Fund it invests in for-profit, early-stage companies developing cancer-focused therapeutics, diagnostics, devices and technologies, with returns reinvested in the fund and ACS programs."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule", "cell-therapy"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 21,
+      "notable_investments": [
+        { "company": "Mercy BioAnalytics", "sector": "early cancer detection", "outcome": "active" },
+        { "company": "Modifi Bio", "sector": "brain cancer", "outcome": "active" },
+        { "company": "Clasp Therapeutics", "sector": "immunotherapy", "outcome": "active" },
+        { "company": "CellCentric", "sector": "oncology therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["Third Rock Ventures"]
+    },
+    "summary": {
+      "en": "The venture-capital and impact-investment arm of the American Cancer Society, investing donor capital in early-stage cancer therapeutics, diagnostics and devices; $43M deployed across 21 companies through 2023.",
+      "local": "美國癌症協會的創投與影響力投資部門，運用捐款投資早期癌症療法、診斷與醫材；截至2023年已投資21家公司、部署4,300萬美元。"
+    },
+    "sources": [
+      { "url": "https://acsbrightedge.org/", "title": "ACS BrightEdge", "publisher": "American Cancer Society", "accessed": "undefined", "supports": "impact investment arm of ACS", "quote": "As the innovation and impact investment arm of the American Cancer Society (ACS's), we leverage our legacy in cancer research and patient support to identify and thoughtfully invest in actionable and scalable solutions" },
+      { "url": "https://www.prnewswire.com/news-releases/american-cancer-society-brightedge-annual-report-reveals-impact-of-43-million-deployed-to-advance-innovation-and-healthcare-access-302288687.html", "title": "BrightEdge Annual Report: $43 Million Deployed", "publisher": "PR Newswire", "accessed": "undefined", "supports": "total invested and portfolio count", "quote": "Since inception through EOY 2023, BrightEdge has invested a total of $43 million in 21 companies" },
+      { "url": "https://www.prnewswire.com/news-releases/american-cancer-society-brightedge-annual-report-reveals-impact-of-43-million-deployed-to-advance-innovation-and-healthcare-access-302288687.html", "title": "BrightEdge Annual Report", "publisher": "PR Newswire", "accessed": "undefined", "supports": "investment sectors", "quote": "BrightEdge invests in for-profit, early-stage companies developing cancer-focused therapeutics, diagnostics, devices, and technologies." },
+      { "url": "https://acsbrightedge.org/news/third-rock-ventures-teams-up-with-american-cancer-societys-venture-fund/", "title": "Third Rock Ventures Teams Up with ACS Venture Fund", "publisher": "ACS BrightEdge", "accessed": "undefined", "supports": "Third Rock co-investment collaboration", "quote": "Third Rock Ventures Teams Up With American Cancer Society's Venture Fund" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Net asset value of $77M reported in secondary coverage of the 2024 annual report (includes a $40M additional investment from ACS); the PR release confirms $43M invested in 21 companies with an active portfolio of 16.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-alzheimers-drug-discovery-foundation",
+    "name": { "en": "Alzheimer's Drug Discovery Foundation (ADDF)" },
+    "aka": ["ADDF"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.alzdiscovery.org",
+    "capital": {
+      "aum": { "raw": "more than $400 million awarded", "usd": 400000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "check_size": { "raw": "roughly $100,000 to $3 million+", "usd_min": 100000, "usd_max": 3000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "diagnostics", "ai-drug-discovery"],
+      "thesis": "Venture philanthropy foundation that makes investments (convertible notes or equity), not grants, in Alzheimer's and neurodegeneration drug discovery, biomarker and clinical programs; all returns are reinvested into the science."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["neurology", "aging-longevity"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "792 programs funded",
+      "notable_investments": [
+        { "company": "Coya Therapeutics", "sector": "neurodegeneration", "outcome": "public/active" }
+      ]
+    },
+    "summary": {
+      "en": "Co-founded by Leonard and Ronald Lauder, the ADDF uses a venture philanthropy model to invest (equity/convertible notes) in Alzheimer's drug discovery and biomarker programs; over $400M awarded across 792 programs in 21 countries.",
+      "local": "由 Lauder 家族創立的阿茲海默症藥物研發基金會，以公益創投模式（股權/可轉換票據）投資阿茲海默症與神經退化性疾病的藥物與生物標記計畫，累計逾4億美元、792個計畫。"
+    },
+    "sources": [
+      { "url": "https://www.alzdiscovery.org/about-addf/our-impact", "title": "Our Impact", "publisher": "Alzheimer's Drug Discovery Foundation", "accessed": "undefined", "supports": "total awarded, programs, countries", "quote": "The ADDF has awarded more than $400 million to fund over 792 Alzheimer's drug discovery programs, biomarker programs and clinical trials in 21 countries." },
+      { "url": "https://www.alzdiscovery.org/about-addf/our-impact", "title": "Our Impact", "publisher": "Alzheimer's Drug Discovery Foundation", "accessed": "undefined", "supports": "venture philanthropy model", "quote": "We make investments, not grants, in research. Employing a venture philanthropy model, the ADDF is helping to shape the Alzheimer's research pipeline through both scientific leadership and providing venture capital for innovative, often underfunded research areas." },
+      { "url": "https://ir.coyatherapeutics.com/news/news-details/2024/Coya-Therapeutics-Announces-5-Million-Strategic-Investment-by-the-Alzheimers-Drug-Discovery-Foundation-ADDF/default.aspx", "title": "Coya Therapeutics Announces $5 Million Strategic Investment by the ADDF", "publisher": "Coya Therapeutics", "accessed": "undefined", "supports": "equity investment example", "quote": "Coya Therapeutics Announces $5 Million Strategic Investment by the Alzheimer's Drug Discovery Foundation (ADDF)" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Check-size range ($100K-$3M+) reported on the ADDF funding-opportunities page; the $5M Coya investment (603,136 shares at $8.29) is an example of a public-equity purchase. ADDF founded 1998 (secondary).",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-cystic-fibrosis-foundation-mission-ventures",
+    "name": { "en": "Cystic Fibrosis Foundation - Mission Ventures (CFFT)" },
+    "aka": ["CF Foundation Mission Ventures", "Cystic Fibrosis Foundation Therapeutics", "CFFT"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Bethesda",
+    "website": "https://missionventures.cff.org",
+    "links": { "other": ["https://www.cff.org/about-us/our-venture-philanthropy-model"] },
+    "capital": {
+      "current_fund": { "raw": "$600M+ commitment to venture investments", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "genomics-omics"],
+      "thesis": "The venture philanthropy pioneer: the Cystic Fibrosis Foundation (via CFFT / Mission Ventures) invests in companies developing CF therapies, from symptom relief to genetic therapies; its Kalydeco/Vertex royalty was sold to Royalty Pharma for $3.3B, recycled into the mission."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "gene-editing", "small-molecule", "rna-therapeutics"],
+      "indications": ["rare-disease", "respiratory"],
+      "company_creation": false,
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Vertex Pharmaceuticals (Kalydeco/Trikafta)", "sector": "CF therapeutics", "outcome": "FDA-approved; $3.3B royalty exit" }
+      ]
+    },
+    "summary": {
+      "en": "The archetypal disease-foundation venture philanthropy program; the Cystic Fibrosis Foundation invested ~$150M into Vertex's Kalydeco and later sold the royalty rights for $3.3 billion, funding a multibillion-dollar mission endowment.",
+      "local": "疾病基金會公益創投的典範。囊狀纖維化基金會投資約1.5億美元於 Vertex 的 Kalydeco，後以33億美元出售權利金，締造數十億美元的使命資本。"
+    },
+    "sources": [
+      { "url": "https://thenonprofittimes.com/npt_articles/3-3-billion-investment-payout-cystic-fibrosis/", "title": "$3.3 Billion Investment Payout For Cystic Fibrosis", "publisher": "The NonProfit Times", "accessed": "undefined", "supports": "royalty sale value", "quote": "selling future royalty rights for $3.3 billion — 10 times the revenue that the" },
+      { "url": "https://thenonprofittimes.com/npt_articles/3-3-billion-investment-payout-cystic-fibrosis/", "title": "$3.3 Billion Investment Payout For Cystic Fibrosis", "publisher": "The NonProfit Times", "accessed": "undefined", "supports": "investment in Kalydeco", "quote": "Kalydeco, investing some $150 million over the years." },
+      { "url": "https://thenonprofittimes.com/npt_articles/3-3-billion-investment-payout-cystic-fibrosis/", "title": "$3.3 Billion Investment Payout For Cystic Fibrosis", "publisher": "The NonProfit Times", "accessed": "undefined", "supports": "CFFT affiliate created 2000", "quote": "Through its affiliate Cystic Fibrosis Foundation Therapeutics (CFFT) created in 2000, the" },
+      { "url": "https://www.cff.org/about-us/our-venture-philanthropy-model", "title": "Our Venture Philanthropy Model", "publisher": "Cystic Fibrosis Foundation", "accessed": "undefined", "supports": "Mission Ventures venture investing model", "quote": "CF Foundation Mission Ventures harnesses the Foundation's robust scientific infrastructure and employs venture investment best practices to source, evaluate, fund, and manage projects that advance its mission." }
+    ],
+    "confidence": "high",
+    "verification_notes": "cff.org venture-philanthropy pages returned HTTP 403 to the fetcher; the model quote and $600M+ commitment figure are from search-surfaced official page text and Penn LDI coverage. Founded_year (2000) refers to the CFFT/venture arm; the parent Foundation dates to 1955.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-rd-fund-foundation-fighting-blindness",
+    "name": { "en": "RD Fund - Retinal Degeneration Fund (Foundation Fighting Blindness)" },
+    "aka": ["RD Fund", "Retinal Degeneration Fund"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Columbia",
+    "website": "https://www.retinaldegenerationfund.org",
+    "capital": {
+      "aum": { "raw": "$130 million under management", "usd": 130000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "The venture arm of the Foundation Fighting Blindness, making mission-related investments (equity, debt, royalty and/or co-funding) in companies developing therapies for inherited retinal diseases and dry AMD, with all proceeds returned to the Foundation."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "cell-therapy", "small-molecule"],
+      "indications": ["ophthalmology", "rare-disease"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Perceive Biotherapeutics", "sector": "gene therapy for dry AMD", "outcome": "active ($78M Series B)" }
+      ]
+    },
+    "summary": {
+      "en": "The venture arm of the Foundation Fighting Blindness (launched 2018, ~$130M AUM), investing via equity/debt/royalty in companies developing therapies for blinding retinal diseases such as retinitis pigmentosa, Usher syndrome and dry AMD.",
+      "local": "抗盲基金會（Foundation Fighting Blindness）的創投部門（2018年成立，約1.3億美元管理規模），以股權/債權/權利金投資治療視網膜退化疾病（如色素性視網膜炎、乾性黃斑部病變）的公司。"
+    },
+    "sources": [
+      { "url": "https://www.retinaldegenerationfund.org/about-us/", "title": "About Us", "publisher": "Retinal Degeneration Fund", "accessed": "undefined", "supports": "venture arm, launch year", "quote": "The RD (Retinal Degeneration) Fund is a 501(c)(3) not-for-profit subsidiary of the Foundation Fighting Blindness. Launched in 2018 as the venture arm of the Foundation" },
+      { "url": "https://www.retinaldegenerationfund.org/about-us/", "title": "About Us", "publisher": "Retinal Degeneration Fund", "accessed": "undefined", "supports": "assets under management", "quote": "with $130 million under management, the RD Fund focuses on making mission-related investments in companies with projects nearing clinical testing." },
+      { "url": "https://www.retinaldegenerationfund.org/about-us/", "title": "About Us", "publisher": "Retinal Degeneration Fund", "accessed": "undefined", "supports": "investment structures", "quote": "The RD Fund is flexible in how it structures investments leveraging equity, debt, royalty, and/or project co-funding." },
+      { "url": "https://www.prnewswire.com/news-releases/the-retinal-degeneration-fund-invests-in-a-78m-series-b-for-perceive-biotherapeutics-301715147.html", "title": "RD Fund invests in $78M Series B for Perceive Biotherapeutics", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Perceive Bio investment", "quote": "The Retinal Degeneration Fund invests in a $78M Series B for Perceive Biotherapeutics" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Launched 2018 with $122M initial funding per press release; the About page now states $130M under management. RD Fund 2 fundraising is underway. Deploys via a Core Fund and Discovery Fund.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-gates-foundation-strategic-investment-fund",
+    "name": { "en": "Gates Foundation Strategic Investment Fund (SIF)" },
+    "aka": ["Gates SIF", "Strategic Investment Fund", "Bill & Melinda Gates Foundation Strategic Investments"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Seattle",
+    "website": "https://sif.gatesfoundation.org",
+    "capital": {
+      "aum": { "raw": "$2.5 billion", "usd": 2500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "United Kingdom", "Europe", "South Asia", "Sub-Saharan Africa"],
+      "sector_focus": ["therapeutics", "diagnostics", "life-science-tools"],
+      "thesis": "The impact-first strategic investment arm of the Gates Foundation; a $2.5B venture capital, debt and guarantee fund that makes equity and other investments in drugs, vaccines, biologics, gene therapies and diagnostics for global health, where returns further the foundation's programmatic goals rather than income."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "biologics-antibody", "gene-therapy", "gene-editing", "cell-therapy"],
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": true
+    },
+    "summary": {
+      "en": "The $2.5B impact-first strategic investment arm of the Gates Foundation, making equity, debt and guarantee investments in life-science companies developing paradigm-shifting vaccines, drugs, biologics and diagnostics for global health.",
+      "local": "蓋茲基金會25億美元的策略投資部門，以股權、債權與擔保方式投資開發全球健康疫苗、藥物、生物製劑與診斷技術的生命科學公司，以推進使命而非追求收益。"
+    },
+    "sources": [
+      { "url": "https://sif.gatesfoundation.org/our-focus/life-sciences/", "title": "Life Sciences", "publisher": "Gates Foundation Strategic Investment Fund", "accessed": "undefined", "supports": "fund size", "quote": "Vanessa Bhark is a Principal at the Gates Foundation's $2.5 billion Strategic Investment Fund" },
+      { "url": "https://sif.gatesfoundation.org/our-focus/life-sciences/", "title": "Life Sciences", "publisher": "Gates Foundation Strategic Investment Fund", "accessed": "undefined", "supports": "life-science focus", "quote": "We invest in new frontiers of science to address global health challenges through paradigm-shifting drugs, vaccines, biologics, and gene therapies." },
+      { "url": "https://www.gatesfoundation.org/about/how-we-work/strategic-investments", "title": "How We Work: Strategic Investments", "publisher": "Gates Foundation", "accessed": "undefined", "supports": "impact-first investment purpose", "quote": "The purpose of investments is to further progress toward the foundation's programmatic goals, not to generate income" }
+    ],
+    "confidence": "high",
+    "verification_notes": "SIF describes itself as a venture capital, debt and guarantee fund; the FAQ states it makes equity investments, invests in funds, and can do royalty-based transactions or guarantees. The last quote is paraphrased from the strategic-investments page / Devex interview.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-myeloma-investment-fund",
+    "name": { "en": "Myeloma Investment Fund (Multiple Myeloma Research Foundation)" },
+    "aka": ["MIF", "MMRF Venture Philanthropy Fund"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Norwalk",
+    "website": "https://myelomainvestmentfund.org",
+    "capital": {
+      "aum": { "raw": "$23 million invested", "usd": 23000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery"],
+      "thesis": "The wholly owned, evergreen venture philanthropy subsidiary of the Multiple Myeloma Research Foundation, investing in oncology companies, clinical assets and technologies to accelerate multiple myeloma therapies; all profits are reinvested into research."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "biologics-antibody", "small-molecule"],
+      "indications": ["oncology", "hematology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 20,
+      "notable_investments": [
+        { "company": "NexImmune", "sector": "immunotherapy", "outcome": "active" },
+        { "company": "Envisagenics", "sector": "AI drug discovery", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The venture philanthropy fund of the Multiple Myeloma Research Foundation; has invested $23M in 20 oncology companies, advanced six treatments to clinical trials and generated 2-4x returns on three, all recycled into a cure for myeloma.",
+      "local": "多發性骨髓瘤研究基金會（MMRF）的公益創投基金，已投資2,300萬美元於20家腫瘤公司，推動六項療法進入臨床試驗，其中三家獲得2至4倍回報，全數再投入研究。"
+    },
+    "sources": [
+      { "url": "https://myelomainvestmentfund.org/about/", "title": "About", "publisher": "Myeloma Investment Fund", "accessed": "undefined", "supports": "venture philanthropy definition", "quote": "The Myeloma Investment Fund® (MIF) is a venture philanthropy fund that invests in promising companies, clinical assets, and technologies in oncology to drive the development of new therapies for multiple myeloma." },
+      { "url": "https://myelomainvestmentfund.org/about/", "title": "About", "publisher": "Myeloma Investment Fund", "accessed": "undefined", "supports": "profits reinvested", "quote": "all profits will be reinvested back into research for more effective treatments until there is a cure for every patient." },
+      { "url": "https://themmrf.org/mmrf-blogs/why-the-myeloma-investment-fund-is-more-important-than-ever/", "title": "Why the Myeloma Investment Fund Is More Important Than Ever", "publisher": "MMRF", "accessed": "undefined", "supports": "amount invested, companies, treatments", "quote": "the MIF has helped advance six treatments to clinical trials, invested $23 million in 20 companies" },
+      { "url": "https://themmrf.org/mmrf-blogs/why-the-myeloma-investment-fund-is-more-important-than-ever/", "title": "Why the Myeloma Investment Fund Is More Important Than Ever", "publisher": "MMRF", "accessed": "undefined", "supports": "returns", "quote": "generated a two-to-fourfold return on its initial investment in three of those companies" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund launched 2019 (MMRF 'Launches Innovative Fund' press release); the blog states results were achieved 'over the last six years,' consistent with a 2019 start. MIF is a wholly owned MMRF subsidiary.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-alpha-1-project",
+    "name": { "en": "The Alpha-1 Project (TAP) - Alpha-1 Foundation" },
+    "aka": ["The Alpha-1 Project", "TAP"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Miami",
+    "website": "https://alpha1.org/the-alpha-1-project-tap/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "The wholly-owned venture philanthropy subsidiary of the Alpha-1 Foundation, investing in pharma/biotech companies developing therapies and tools for Alpha-1 Antitrypsin Deficiency (liver disease and COPD/emphysema), de-risking early drug development."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "small-molecule", "rna-therapeutics"],
+      "indications": ["rare-disease", "respiratory", "gastroenterology-hepatology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "12 therapies + 4 tools",
+      "notable_investments": [
+        { "company": "AGTC (Applied Genetic Technologies)", "sector": "gene therapy", "outcome": "active" },
+        { "company": "Inhibrx", "sector": "augmentation therapy", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The venture philanthropy arm of the Alpha-1 Foundation, investing in biotech/pharma developing drugs and tools for Alpha-1 Antitrypsin Deficiency; has backed 12 therapies (five in clinical trials) and four development tools.",
+      "local": "Alpha-1 基金會的公益創投部門，投資開發 Alpha-1 抗胰蛋白酶缺乏症（肝病與COPD）藥物與工具的生技/製藥公司，已支持12項療法（五項進入臨床）與四項開發工具。"
+    },
+    "sources": [
+      { "url": "https://alpha1.org/the-alpha-1-project-tap/", "title": "The Alpha-1 Project (TAP)", "publisher": "Alpha-1 Foundation", "accessed": "undefined", "supports": "investment focus", "quote": "TAP funds drug discovery and development in Alpha-1 by investing in pharmaceutical and biotech companies aiming to eradicate liver disease and COPD." },
+      { "url": "https://alpha1.org/the-alpha-1-project-tap/", "title": "The Alpha-1 Project (TAP)", "publisher": "Alpha-1 Foundation", "accessed": "undefined", "supports": "portfolio count", "quote": "To date, TAP has invested in 12 therapies directly targeting Alpha-1—five of which are in active clinical trials—and four tools that assist in the therapeutic development process." },
+      { "url": "https://www.alpha1.org/investigators/other-programs/the-alpha-1-project/", "title": "The Alpha-1 Project", "publisher": "Alpha-1 Foundation", "accessed": "undefined", "supports": "wholly-owned subsidiary status", "quote": "TAP is a wholly-owned subsidiary of the Alpha-1 Foundation, Inc." }
+    ],
+    "confidence": "high",
+    "verification_notes": "AGTC described as TAP's first investment. Alpha-1 Foundation is headquartered in Miami/Coral Gables, Florida.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-cureduchenne-ventures",
+    "name": { "en": "CureDuchenne Ventures" },
+    "aka": ["CureDuchenne Ventures, LLC"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Newport Beach",
+    "website": "https://cureduchenne.org/ventures/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "The investment/venture arm of the nonprofit CureDuchenne, making equity investments in biotech companies developing therapies for Duchenne muscular dystrophy; 90% of proceeds from equity positions are reinvested into next-generation research."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "gene-editing", "rna-therapeutics", "cell-therapy"],
+      "indications": ["rare-disease", "musculoskeletal-orthopedics", "neurology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Prosensa", "sector": "exon skipping", "outcome": "acquired by BioMarin for $680M" },
+        { "company": "Entos Pharmaceuticals", "sector": "gene therapy", "outcome": "active" },
+        { "company": "Dyne Therapeutics", "sector": "muscle-targeting", "outcome": "public/active" },
+        { "company": "hC Bioscience", "sector": "tRNA therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The venture arm of nonprofit CureDuchenne, making equity investments in Duchenne muscular dystrophy therapeutics; formed in 2014 after exiting Prosensa (acquired by BioMarin for $680M) and has leveraged $4.6B+ in follow-on financing.",
+      "local": "非營利組織 CureDuchenne 的創投部門，對裘馨氏肌肉失養症（DMD）療法進行股權投資；2014年因成功退出 Prosensa（BioMarin 以6.8億美元收購）而成立，已槓桿逾46億美元後續融資。"
+    },
+    "sources": [
+      { "url": "https://cureduchenne.org/ventures/", "title": "CureDuchenne Ventures", "publisher": "CureDuchenne", "accessed": "undefined", "supports": "investment arm identity", "quote": "CureDuchenne Ventures, LLC is the investment arm of CureDuchenne, a national nonprofit dedicated to curing Duchenne muscular dystrophy, the most common and lethal form of muscular dystrophy." },
+      { "url": "https://cureduchenne.org/ventures/", "title": "CureDuchenne Ventures", "publisher": "CureDuchenne", "accessed": "undefined", "supports": "follow-on financing leveraged", "quote": "Investments from CureDuchenne Ventures have successfully leveraged more than $4.6 billion in follow-on financing from venture capital, biotech, and pharmaceutical companies, and have resulted in several successful exits." },
+      { "url": "https://cureduchenne.org/ventures/", "title": "CureDuchenne Ventures", "publisher": "CureDuchenne", "accessed": "undefined", "supports": "founding year and Prosensa exit", "quote": "formed in 2014 after the successful exit from an equity investment in Prosensa (acquired by BioMarin Pharmaceuticals for $680M)." },
+      { "url": "https://cureduchenne.org/ventures/", "title": "CureDuchenne Ventures", "publisher": "CureDuchenne", "accessed": "undefined", "supports": "reinvestment of proceeds", "quote": "90% of proceeds from equity positions in companies are reinvested to support research into next-generation technologies." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Early CureDuchenne grant funding (2010) helped lead to Sarepta's Exondys 51, the first FDA-approved DMD drug.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-ibd-ventures-crohns-colitis-foundation",
+    "name": { "en": "IBD Ventures (Crohn's & Colitis Foundation)" },
+    "aka": ["IBD Ventures", "Entrepreneurial Investing Initiative"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.crohnscolitisfoundation.org/research/grants-fellowships/entrepreneurial-investing",
+    "capital": {
+      "current_fund": { "raw": "up to $500,000 per project per year", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "up to $500,000 per project per year", "usd_min": null, "usd_max": 500000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health"],
+      "thesis": "The venture philanthropy / entrepreneurial-investing program of the Crohn's & Colitis Foundation, funding early-stage products (drugs, diagnostics, devices, digital tools) for inflammatory bowel disease on a milestone basis, with partial return payments on exit/commercialization rather than an equity stake."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "software-samd"],
+      "indications": ["immunology-inflammation", "gastroenterology-hepatology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "30 companies and academic institutions",
+      "notable_investments": [
+        { "company": "Palisade Bio", "sector": "IBD therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The venture philanthropy program of the Crohn's & Colitis Foundation, funding early-stage IBD product development (up to $500K/project/year) on a milestone basis with return payments to the Foundation on exit or commercialization; 30 companies/institutions backed since 2017.",
+      "local": "克隆氏症與潰瘍性結腸炎基金會的公益創投計畫，以里程碑方式資助早期 IBD 產品開發（每案每年最高50萬美元），退出或商業化時向基金會回饋部分收益；自2017年起已支持30家公司與學術機構。"
+    },
+    "sources": [
+      { "url": "https://www.crohnscolitisfoundation.org/research/grants-fellowships/entrepreneurial-investing", "title": "IBD Ventures", "publisher": "Crohn's & Colitis Foundation", "accessed": "undefined", "supports": "funding cap and program", "quote": "The Crohn's & Colitis Foundation's IBD Ventures program accelerates the development of products for IBD patients, offering funding up to $500,000 per project per year." },
+      { "url": "https://www.crohnscolitisfoundation.org/research/grants-fellowships/entrepreneurial-investing", "title": "IBD Ventures", "publisher": "Crohn's & Colitis Foundation", "accessed": "undefined", "supports": "portfolio count since 2017", "quote": "Since 2017, IBD Ventures has invested in 30 companies and academic institutions to advance new product opportunities." },
+      { "url": "https://finance.yahoo.com/news/palisade-bio-announces-strategic-equity-131500054.html", "title": "Palisade Bio Announces Strategic Equity Investment from IBD Ventures", "publisher": "Yahoo Finance / Palisade Bio", "accessed": "undefined", "supports": "equity investment example", "quote": "Palisade Bio Announces Strategic Equity Investment from the Crohn's & Colitis Foundation's IBD Ventures Program to Advance PALI-2108" }
+    ],
+    "confidence": "high",
+    "verification_notes": "crohnscolitisfoundation.org returned HTTP 403 to the fetcher; funding cap and portfolio count are from search-surfaced official page text. Foundation FAQ states it takes milestone/return-payment structures and generally 'will not take equity interest nor IP ownership,' though the Palisade Bio deal was announced as a strategic equity investment—so structures vary by deal.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-mda-venture-philanthropy",
+    "name": { "en": "MDA Venture Philanthropy (Muscular Dystrophy Association)" },
+    "aka": ["MVP", "MDA Venture Philanthropy Program"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.mda.org/science/mda-venture-philanthropy",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "The venture philanthropy program of the Muscular Dystrophy Association, investing in early-stage companies with drug or device technologies for neuromuscular diseases to de-risk their platforms, attract larger VC, and seek a return on investment."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "rna-therapeutics", "small-molecule"],
+      "indications": ["rare-disease", "neurology", "musculoskeletal-orthopedics"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Myosana Therapeutics", "sector": "non-viral gene therapy (DMD)", "outcome": "active" },
+        { "company": "AavantiBio", "sector": "gene therapy (Friedreich's Ataxia)", "outcome": "active" },
+        { "company": "Locana", "sector": "RNA-targeting therapy", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The venture philanthropy arm of the Muscular Dystrophy Association, investing in early-stage drug/device companies for neuromuscular diseases with an explicit return-on-investment focus to de-risk platforms and attract follow-on VC.",
+      "local": "肌肉萎縮症協會（MDA）的公益創投部門，投資神經肌肉疾病的早期藥物/醫材公司，明確以投資回報為導向，協助去風險並吸引後續創投資金。"
+    },
+    "sources": [
+      { "url": "https://www.mda.org/science/mda-venture-philanthropy", "title": "MDA Venture Philanthropy (MVP) Program", "publisher": "Muscular Dystrophy Association", "accessed": "undefined", "supports": "investment focus", "quote": "MDA invests in early-stage companies with promising technologies (drug or device) for neuromuscular diseases" },
+      { "url": "https://www.mda.org/science/mda-venture-philanthropy", "title": "MDA Venture Philanthropy (MVP) Program", "publisher": "Muscular Dystrophy Association", "accessed": "undefined", "supports": "de-risking strategy", "quote": "serving to de-risk their platform and to help attract larger venture capital investments" },
+      { "url": "https://www.mda.org/science/mda-venture-philanthropy", "title": "MDA Venture Philanthropy (MVP) Program", "publisher": "Muscular Dystrophy Association", "accessed": "undefined", "supports": "return-on-investment orientation", "quote": "The MVP review process is characterized by an emphasis on a strategy resulting in a commercially viable drug or device therapy and a return on investment" },
+      { "url": "https://www.mda.org/press-releases/mdas-venture-philanthropy-program-announces-investment-in-non-viral-gene-therapy", "title": "MDA's Venture Philanthropy Program Announces Investment in Non-viral Gene Therapy", "publisher": "Muscular Dystrophy Association", "accessed": "undefined", "supports": "Myosana investment", "quote": "Muscular Dystrophy Association's Venture Philanthropy Program Announces Investment in Non-viral Gene Therapy" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "MVP was first launched around 2003; recent named investments (Myosana ~$650K, AavantiBio >$1M) confirm continued activity. Specific total invested and fund size not disclosed on the site.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-parker-institute-cancer-immunotherapy",
+    "name": { "en": "Parker Institute for Cancer Immunotherapy (PICI)" },
+    "aka": ["PICI", "Parker Institute"],
+    "type": "venture-philanthropy",
+    "subtypes": ["venture-studio", "university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.parkerici.org",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/parker-institute-for-cancer-immunotherapy" },
+    "capital": {
+      "current_fund": { "raw": "$250 million founding gift", "usd": 250000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "ai-drug-discovery"],
+      "thesis": "A nonprofit cancer-immunotherapy research institute (founded 2016 with a $250M gift from Sean Parker) that uses a hybrid philanthropy/venture model: it takes equity stakes in and spins out biotech startups based on its research network, with returns funding additional research grants."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "biologics-antibody", "ai-ml-platform"],
+      "indications": ["oncology", "immunology-inflammation"],
+      "company_creation": true
+    },
+    "track_record": {
+      "portfolio_count": 17,
+      "notable_investments": [
+        { "company": "Dispatch Bio", "sector": "solid-tumor immunotherapy", "outcome": "active ($216M seed+A)" }
+      ],
+      "co_investors": ["ARCH Venture Partners", "Bristol Myers Squibb", "National Resilience"]
+    },
+    "summary": {
+      "en": "A nonprofit cancer-immunotherapy institute founded in 2016 with a $250M gift from Sean Parker; it holds equity stakes in 17 biotech startups and co-creates companies (e.g., with National Resilience), recycling returns into research grants.",
+      "local": "由 Sean Parker 於2016年以2.5億美元捐款創立的非營利癌症免疫治療研究機構；持有17家生技新創的股權並共同創建公司（如與 National Resilience 合作），將回報再投入研究補助。"
+    },
+    "sources": [
+      { "url": "https://www.parkerici.org/the-latest/parker-institute-commits-additional-125m-for-audacious-mission-to-cure-cancer/", "title": "Parker Institute Commits Additional $125M", "publisher": "Parker Institute for Cancer Immunotherapy", "accessed": "undefined", "supports": "founding year and gift", "quote": "Founded in 2016 through a $250 million gift from Silicon Valley entrepreneur and philanthropist Sean Parker" },
+      { "url": "https://www.parkerici.org/the-latest/parker-institute-commits-additional-125m-for-audacious-mission-to-cure-cancer/", "title": "Parker Institute Commits Additional $125M", "publisher": "Parker Institute for Cancer Immunotherapy", "accessed": "undefined", "supports": "number of company investments", "quote": "PICI has invested in 17 biotech startup companies working on next-generation cancer immunotherapies." },
+      { "url": "https://www.parkerici.org/the-latest/parker-institute-commits-additional-125m-for-audacious-mission-to-cure-cancer/", "title": "Parker Institute Commits Additional $125M", "publisher": "Parker Institute for Cancer Immunotherapy", "accessed": "undefined", "supports": "returns fund research", "quote": "Returns generated from these investments will support additional research grants, creating a sustainable cycle of innovation and discovery." },
+      { "url": "https://www.statnews.com/2019/07/09/parker-institute-cancer-immunotherapy-looks-to-grow/", "title": "The Parker Institute looks to grow, leveraging outside donors and equity stakes", "publisher": "STAT News", "accessed": "undefined", "supports": "equity-stake model", "quote": "The Parker Institute looks to grow, leveraging outside donors and equity stakes" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Straddles research-institute and venture-philanthropy; classified as venture-philanthropy given its equity-stake/return model. A 5-year alliance with National Resilience commits up to $50M to fund and spin out new companies. STAT article is paywalled but its headline supports the equity-stake model.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-mark-foundation-cancer-research",
+    "name": { "en": "The Mark Foundation for Cancer Research" },
+    "aka": ["Mark Foundation"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://themarkfoundation.org",
+    "links": { "other": ["https://pitchbook.com/profiles/investor/265484-08"] },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "United Kingdom", "Europe"],
+      "sector_focus": ["therapeutics", "diagnostics", "ai-drug-discovery"],
+      "thesis": "A cancer-research foundation that pairs grantmaking with venture philanthropy, providing venture capital funding to companies developing breakthrough cancer therapeutics and diagnostics at Seed/Series A/B, with all portfolio returns recycled into new grants or investments."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "A cancer-research foundation (founded 2017) that combines grants with venture philanthropy, investing venture capital in Seed-to-Series-B cancer therapeutics and diagnostics companies and reinvesting all returns into cancer research.",
+      "local": "2017年成立的癌症研究基金會，結合補助與公益創投，於種子至 B 輪投資癌症療法與診斷公司，並將所有回報再投入癌症研究。"
+    },
+    "sources": [
+      { "url": "https://themarkfoundation.org/investments/", "title": "Investments", "publisher": "The Mark Foundation for Cancer Research", "accessed": "undefined", "supports": "venture capital funding model", "quote": "We provide venture capital funding to companies with rigorous research programs that have transformative potential across multiple cancer indications." },
+      { "url": "https://themarkfoundation.org/investments/", "title": "Investments", "publisher": "The Mark Foundation for Cancer Research", "accessed": "undefined", "supports": "investment stages", "quote": "We initially invest at the Seed, Series A, and Series B stages and continue to support our portfolio companies with follow-on investment as well as strategic and operational resources." },
+      { "url": "https://themarkfoundation.org/investments/", "title": "Investments", "publisher": "The Mark Foundation for Cancer Research", "accessed": "undefined", "supports": "returns reinvested", "quote": "All returns realized from our portfolio are put back into The Mark Foundation to enable additional support for cutting edge cancer research in the form of new grants or investments." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2017 (secondary/press); received an additional $500M commitment. Secondary coverage cites >$120M in grants and >$10M invested in companies since 2017; those figures are not quoted here from a primary source.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-american-heart-association-ventures",
+    "name": { "en": "American Heart Association Ventures" },
+    "aka": ["AHA Ventures", "Cardeation Capital", "Go Red for Women Venture Fund", "Social Impact Fund", "Studio Red"],
+    "type": "venture-philanthropy",
+    "subtypes": ["cvc", "venture-studio"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Dallas",
+    "website": "https://www.heart.org/en/aha-ventures",
+    "capital": {
+      "funds": [
+        { "name": "Cardeation Capital", "vintage_year": 2018, "size": { "raw": "$30 million", "usd": 30000000, "currency": "USD" } },
+        { "name": "Go Red for Women Venture Fund", "vintage_year": null, "size": { "raw": "$75 million goal", "usd": 75000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "medtech-devices", "healthcare-services", "diagnostics"],
+      "thesis": "The venture arm of the American Heart Association, overseeing four vehicles—Go Red for Women Venture Fund, Cardeation Capital, the Social Impact Fund, and the Studio Red venture incubator—that invest in and co-create heart- and brain-health technologies grounded in science."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "medical-hardware", "wearables-sensors", "digital-therapeutics"],
+      "indications": ["cardiovascular", "neurology", "metabolic-obesity"],
+      "company_creation": true
+    },
+    "summary": {
+      "en": "The venture arm of the American Heart Association, running four vehicles (Go Red for Women Venture Fund ~$75M goal, the $30M Cardeation Capital, the Social Impact Fund, and Studio Red incubator) investing in cardiovascular and brain-health technologies.",
+      "local": "美國心臟協會的創投部門，旗下有四個投資載具（Go Red for Women 創投基金約7,500萬美元目標、3,000萬美元的 Cardeation Capital、Social Impact Fund，以及 Studio Red 育成器），投資心血管與腦部健康技術。"
+    },
+    "sources": [
+      { "url": "https://www.heart.org/en/aha-ventures", "title": "American Heart Association Ventures", "publisher": "American Heart Association", "accessed": "undefined", "supports": "investment focus", "quote": "We invest in companies working to translate evidence-based science, research and clinical know-how into commercially actionable and sustainable products and services." },
+      { "url": "https://www.heart.org/en/aha-ventures/go-red-for-women-venture-fund", "title": "Go Red for Women Venture Fund", "publisher": "American Heart Association", "accessed": "undefined", "supports": "Go Red fund focus", "quote": "The fund invests in and advances the market for solutions that recognize the unique cardiovascular, brain and related health needs of women." },
+      { "url": "https://www.fiercehealthcare.com/tech/american-heart-association-upmc-philips-mobile-apps-venture-fund-cardeation-capital", "title": "AHA, UPMC, Philips launch $30M venture fund", "publisher": "Fierce Healthcare", "accessed": "undefined", "supports": "Cardeation Capital $30M, 2018", "quote": "American Heart Association, UPMC, Philips launch $30M venture fund for cardiovascular health startups" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Cardeation Capital ($30M, 2018) is co-managed with Aphelion Capital and backed by Philips, UPMC Enterprises and RTC Ventures. Go Red for Women Venture Fund cited with a $75M fundraising goal in AHA/Femtech Insider coverage. Studio Red is a company-creation incubator.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-chcf-innovation-fund",
+    "name": { "en": "CHCF Innovation Fund (California Health Care Foundation)" },
+    "aka": ["California Health Care Foundation Innovation Fund"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Oakland",
+    "website": "https://www.chcf.org/network/chcf-innovation-fund/",
+    "strategy": {
+      "stages": ["seed", "growth"],
+      "check_size": { "raw": "$50,000-$250,000 seed; up to $1,000,000 growth; up to $3,000,000 over a company's life", "usd_min": 50000, "usd_max": 3000000 },
+      "lead_or_follow": "follow",
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it"],
+      "thesis": "The impact-investing arm of the California Health Care Foundation, deploying program-related investments (PRIs) into early-stage health-tech and care-delivery companies that improve access, quality and affordability of care for low-income (Medi-Cal) Californians."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform"],
+      "indications": [],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "20+ startups"
+    },
+    "summary": {
+      "en": "The program-related-investment (PRI) arm of the California Health Care Foundation, backing early-stage digital-health and care-delivery companies that improve access and value for low-income Californians; check sizes $50K-$1M, up to $3M per company.",
+      "local": "加州醫療保健基金會的計畫相關投資（PRI）部門，投資改善低收入加州人（Medi-Cal）就醫可近性與價值的早期數位健康與照護公司；單筆5萬至100萬美元，單一公司累計上限300萬美元。"
+    },
+    "sources": [
+      { "url": "https://www.chcf.org/network/chcf-innovation-fund/faq/", "title": "CHCF Innovation Fund FAQ", "publisher": "California Health Care Foundation", "accessed": "undefined", "supports": "PRI mechanism", "quote": "PRIs are like grants in that foundations use them to give money for charitable activities." },
+      { "url": "https://www.chcf.org/network/chcf-innovation-fund/faq/", "title": "CHCF Innovation Fund FAQ", "publisher": "California Health Care Foundation", "accessed": "undefined", "supports": "check size", "quote": "The original investment likely between $50,000 and $250,000 for companies at the seed stage and up to $1,000,000 for growth stage." },
+      { "url": "https://www.chcf.org/network/chcf-innovation-fund/faq/", "title": "CHCF Innovation Fund FAQ", "publisher": "California Health Care Foundation", "accessed": "undefined", "supports": "lifetime investment cap and mission gate", "quote": "We will make investments of up to $3,000,000 over the life of a company." },
+      { "url": "https://www.chcf.org/network/chcf-innovation-fund/faq/", "title": "CHCF Innovation Fund FAQ", "publisher": "California Health Care Foundation", "accessed": "undefined", "supports": "portfolio reach", "quote": "In 2021, the fund's portfolio of companies served over five million Medi-Cal enrollees at over 250 hospitals and 100 clinics in California." }
+    ],
+    "confidence": "high",
+    "verification_notes": "A health (not disease-specific) foundation's venture-philanthropy/impact arm; in scope as a philanthropy making return-seeking PRIs in health companies. Focus is digital health and care delivery rather than biomedical therapeutics.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-emilys-entourage",
+    "name": { "en": "Emily's Entourage" },
+    "aka": ["EE"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Philadelphia",
+    "website": "https://www.emilysentourage.org",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "A 501(c)(3) that uses a venture philanthropy model to provide early-stage / venture capital funding to companies developing therapies for the final ~10% of the cystic fibrosis community (rare and nonsense mutations) who do not benefit from existing CFTR modulators."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "gene-editing", "rna-therapeutics"],
+      "indications": ["rare-disease", "respiratory"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Spirovant Sciences (formerly Talee Bio)", "sector": "CF gene therapy", "outcome": "acquired (Sumitomo)" }
+      ]
+    },
+    "summary": {
+      "en": "A cystic fibrosis nonprofit using venture philanthropy to fund companies developing therapies for the final ~10% of CF patients with rare/nonsense mutations; seeded the launch of Spirovant Sciences (Talee Bio) in 2016.",
+      "local": "一個囊狀纖維化非營利組織，以公益創投資助為攜帶罕見/無義突變、無法受惠於現有 CFTR 調節劑的最後約10% CF 患者開發療法的公司；2016年種子投資催生 Spirovant Sciences（前 Talee Bio）。"
+    },
+    "sources": [
+      { "url": "https://www.emilysentourage.org/venture-philanthropy-investments/", "title": "Venture Philanthropy Investments", "publisher": "Emily's Entourage", "accessed": "undefined", "supports": "venture capital funding for final 10%", "quote": "We provide venture capital funding to companies with rigorous research programs that have the potential to develop transformative therapies for individuals in the final 10% of the CF population that do not benefit from currently available CFTR modulators, including those with rare and nonsense mutations." },
+      { "url": "https://www.emilysentourage.org/venture-philanthropy-investments/", "title": "Venture Philanthropy Investments", "publisher": "Emily's Entourage", "accessed": "undefined", "supports": "Spirovant seed funding", "quote": "In 2016, EE provided seed funding to launch Spirovant Sciences (formerly Talee Bio), a biopharmaceutical company focused on developing gene therapy for CF." },
+      { "url": "https://www.emilysentourage.org/venture-philanthropy-investments/", "title": "Venture Philanthropy Investments", "publisher": "Emily's Entourage", "accessed": "undefined", "supports": "early-stage funding model", "quote": "Using this entrepreneurial approach, we provide early-stage funding to companies to expedite the development of promising therapies and a cure for people with CF who do not benefit from the currently available CFTR modulator therapies." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Small nonprofit (raised >$10M all-time by 2021). Spirovant was subsequently acquired twice, most recently by Sumitomo Dainippon Pharma.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-global-health-investment-fund",
+    "name": { "en": "Global Health Investment Fund (GHIF) / Global Health Investment Corporation (GHIC)" },
+    "aka": ["GHIF", "GHIC"],
+    "type": "venture-philanthropy",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://ghicfunds.org",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/the-global-health-investment-fund-ghif" },
+    "capital": {
+      "aum": { "raw": "$108 million social impact fund", "usd": 108000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global", "Sub-Saharan Africa", "South Asia"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "A social-impact investment fund (structured by J.P. Morgan and the Gates Foundation, now managed by the Global Health Investment Corporation) that invests in companies developing vaccines, diagnostics, devices and drugs for diseases—HIV/AIDS, malaria, TB, cholera—that disproportionately burden low- and middle-income countries, while targeting financial returns."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "biologics-antibody", "drug-delivery"],
+      "indications": ["infectious-disease"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 12
+    },
+    "summary": {
+      "en": "A $108M social-impact fund (structured by J.P. Morgan and the Gates Foundation, managed by GHIC) that invested in twelve companies developing vaccines, diagnostics, devices and therapeutics for diseases burdening low- and middle-income countries.",
+      "local": "由摩根大通與蓋茲基金會設立、GHIC 管理的1.08億美元社會影響力基金，投資12家開發疫苗、診斷、醫材與療法的公司，鎖定影響中低收入國家的疾病（HIV、瘧疾、結核、霍亂）。"
+    },
+    "sources": [
+      { "url": "https://ghicfunds.org/global-health-investment-fund/", "title": "Global Health Investment Fund", "publisher": "Global Health Investment Corporation", "accessed": "undefined", "supports": "fund size and portfolio count", "quote": "Our namesake $108 million social impact fund (GHIF) invested in twelve companies" },
+      { "url": "https://ghicfunds.org/global-health-investment-fund/", "title": "Global Health Investment Fund", "publisher": "Global Health Investment Corporation", "accessed": "undefined", "supports": "investment focus", "quote": "developing clinical diagnostics, devices, vaccines, and therapeutics targeting diseases that disproportionately burden people living in low- and middle-income countries" },
+      { "url": "https://ghicfunds.org/global-health-investment-fund/", "title": "Global Health Investment Fund", "publisher": "Global Health Investment Corporation", "accessed": "undefined", "supports": "products delivered", "quote": "The fund's portfolio companies have successfully commercialized more than a dozen products that have been delivered to over 500 million people" }
+    ],
+    "confidence": "high",
+    "verification_notes": "GHIF was structured by J.P. Morgan and the Bill & Melinda Gates Foundation (2013) with LPs including Grand Challenges Canada and the Children's Investment Fund Foundation; it appears in the Gates SIF portfolio. Now managed by the Global Health Investment Corporation (GHIC). Blended finance / impact-first with return targets.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-national-ms-society-fast-forward",
+    "name": { "en": "Fast Forward (National MS Society)" },
+    "aka": ["Fast Forward LLC", "NMSS Commercial Research Funding"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.nationalmssociety.org/about-the-society/who-we-are/research-we-fund/fast-forward-commercial",
+    "links": { "crunchbase": "https://www.cbinsights.com/investor/fast-forward" },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "The commercial-research / venture philanthropy funding arm of the National MS Society, providing funding to biotech and pharma companies (as well as academic researchers) to accelerate MS drug development and bridge academia to commercial development."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["neurology", "immunology-inflammation"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "The commercial research / venture philanthropy funding entity of the National MS Society, funding biotech and academic MS drug-development programs to bridge the gap between research and commercial development.",
+      "local": "美國全國多發性硬化症協會的商業研究/公益創投資助部門，資助生技公司與學術界的 MS 藥物開發，銜接研究與商業化。"
+    },
+    "sources": [
+      { "url": "https://www.cbinsights.com/investor/fast-forward", "title": "National Multiple Sclerosis Society (Fast Forward) investor profile", "publisher": "CB Insights", "accessed": "undefined", "supports": "listed as an investor with portfolio and exits", "quote": "National Multiple Sclerosis Society Portfolio Investments, National Multiple Sclerosis Society Funds, National Multiple Sclerosis Society Exits" },
+      { "url": "https://en.wikipedia.org/wiki/National_Multiple_Sclerosis_Society", "title": "National Multiple Sclerosis Society", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Fast Forward funds commercial entities for MS drug development", "quote": "Fast Forward is a commercial research funding entity under the NMSS which provides funding for drug development and MS research being conducted through commercial entities" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The official Fast Forward pages truncated in the fetcher and did not yield a verbatim statement of investment instrument (equity vs milestone); CB Insights lists Fast Forward as an investor with portfolio companies and exits, and NMSS/secondary sources describe it as a venture philanthropy program funding commercial MS drug development. Founded around 2005.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "us-delsia-autism-speaks",
+    "name": { "en": "DELSIA - Delivering Scientific Innovation for Autism (Autism Speaks)" },
+    "aka": ["DELSIA", "Delivering Scientific Innovation for Autism LLC"],
+    "type": "venture-philanthropy",
+    "status": "unknown",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.autismspeaks.org",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "digital-health", "medtech-devices", "diagnostics"],
+      "thesis": "The not-for-profit venture philanthropy affiliate of Autism Speaks, partnering with for-profit companies to fund development of drugs, diagnostics and therapeutic/assistive devices aligned with the unmet medical and behavioral-health needs of the autism community."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "small-molecule", "software-samd"],
+      "indications": ["neurology", "psychiatry-mental-health", "pediatrics"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Seaside Therapeutics", "sector": "autism biomarkers/therapeutics", "outcome": "shutdown" },
+        { "company": "Akili Interactive Labs", "sector": "digital therapeutics", "outcome": "active/acquired" }
+      ]
+    },
+    "summary": {
+      "en": "The venture philanthropy affiliate of Autism Speaks (est. 2012), funding for-profit development of autism drugs, diagnostics and devices; early investments included a $2M award to Seaside Therapeutics and a collaboration with Akili Interactive.",
+      "local": "Autism Speaks 的公益創投附屬機構（2012年成立），資助自閉症藥物、診斷與醫材的商業開發；早期投資包括對 Seaside Therapeutics 的200萬美元資助，以及與 Akili Interactive 的合作。"
+    },
+    "sources": [
+      { "url": "https://www.prnewswire.com/news-releases/akili-interactive-labs-announces-clinical-collaboration-agreement-with-autism-speaks-affiliate-delsia-llc-300042879.html", "title": "Akili Interactive Labs Announces Clinical Collaboration with Autism Speaks' Affiliate DELSIA LLC", "publisher": "PR Newswire", "accessed": "undefined", "supports": "DELSIA is a venture philanthropy affiliate of Autism Speaks", "quote": "Akili Interactive Labs Announces Clinical Collaboration Agreement with Autism Speaks' Affiliate DELSIA LLC" },
+      { "url": "https://www.eurekalert.org/news-releases/712175", "title": "Autism Speaks $2 million grant to DELSIA/Seaside Therapeutics", "publisher": "EurekAlert!", "accessed": "undefined", "supports": "first DELSIA investment ($2M, Seaside)", "quote": "Autism Speaks $2 million grant to DELSIA/Seaside Therapeutics to develop autism biomarkers" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "DELSIA (Delivering Scientific Innovation for Autism LLC) was established October 2012 as Autism Speaks' venture philanthropy affiliate; recent activity is unclear, so status is marked unknown. No standalone active website located.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  }
+]

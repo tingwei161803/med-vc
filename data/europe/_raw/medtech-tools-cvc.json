@@ -1,0 +1,490 @@
+[
+  {
+    "id": "eu-philips-ventures",
+    "name": { "en": "Philips Ventures" },
+    "aka": ["Philips Health Technology Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Eindhoven",
+    "offices": [
+      { "country": "Netherlands", "city": "Amsterdam" },
+      { "country": "United States", "city": "Cambridge, MA" }
+    ],
+    "website": "https://www.philips.com/a-w/about/innovation/philips-ventures.html",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "check_size": { "raw": "$2M–$5M initial investment", "usd_min": 2000000, "usd_max": 5000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["Global"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics", "healthcare-it"],
+      "thesis": "Corporate venture arm of Royal Philips making early- to growth-stage investments in health technology start-ups (digital health, diagnostics, connected/monitoring devices) that strategically align with Philips' healthcare businesses, pairing capital with regulatory, clinical and commercialization support."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "medical-hardware", "wearables-sensors", "ai-ml-platform"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": []
+    },
+    "summary": {
+      "en": "Philips Ventures is Royal Philips' corporate venture arm, investing $2–5M initial checks in early- to growth-stage health-technology start-ups across digital health, diagnostics and connected care that strategically complement Philips' medtech businesses."
+    },
+    "sources": [
+      {
+        "url": "https://www.philips.com/a-w/about/innovation/philips-ventures.html",
+        "title": "Philips Ventures",
+        "publisher": "Philips",
+        "accessed": "undefined",
+        "supports": "existence, mission, focus, stage",
+        "quote": "At Philips Ventures, we collaborate with health technology start-ups that share our passion to improve outcomes, reduce costs and transform the healthcare experience for patients and clinicians. We specialize in early- and growth-stage investments in healthcare technology companies addressing unmet needs that align with Philips' businesses."
+      },
+      {
+        "url": "https://www.openvc.app/fund/Philips%20Health%20Technology%20Ventures",
+        "title": "Philips Health Technology Ventures | Investor Profile",
+        "publisher": "OpenVC",
+        "accessed": "undefined",
+        "supports": "check size range",
+        "quote": "offering initial investments ranging from $2 million to $5 million USD, targeting companies at the Series A/B stage"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "eu-b-braun-new-ventures",
+    "name": { "en": "B. Braun New Ventures" },
+    "type": "cvc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Freiburg im Breisgau",
+    "website": "https://bbraun-nv.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Europe", "Global"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "digital-health"],
+      "thesis": "In-house venture-building unit of B. Braun (Germany) developing sensor-, robotics- and AI-enabled solutions to automate medical procedures (surgical navigation, digital surgery, medical robotics) across B. Braun's device businesses; runs alongside B. Braun's separate 'Corporate Investment and Collaborations' program, which makes direct equity investments in external medtech start-ups."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "company_creation": true,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "B. Braun New Ventures is B. Braun's Freiburg-based corporate venture-building unit creating sensor-, robotics- and AI-driven medical-procedure-automation ventures, sitting alongside B. Braun's wider corporate investment and collaboration activity with external medtech start-ups."
+    },
+    "sources": [
+      {
+        "url": "https://bbraun-nv.com/",
+        "title": "B. Braun New Ventures",
+        "publisher": "B. Braun New Ventures",
+        "accessed": "undefined",
+        "supports": "existence, founding, focus",
+        "quote": "B. Braun New Ventures was founded in 2020"
+      },
+      {
+        "url": "https://www.bbraun.com/en/about-us/company/innovation-hub/corporate-investment-and-collaborations.html",
+        "title": "Corporate Investment and Collaborations",
+        "publisher": "B. Braun",
+        "accessed": "undefined",
+        "supports": "broader CVC-style investing beyond New Ventures unit",
+        "quote": "Through strategic capital investments in startups, B. Braun seeks to expand its product portfolio and strengthen its competitive position, with a focus on startups that complement and expand its leading device-based ecosystems."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "B. Braun New Ventures is primarily an internal venture-building/innovation unit (robotics, digital surgery, medical automation) rather than a pure external-startup investment fund; B. Braun's direct equity investing in outside medtech start-ups runs through a separate 'Corporate Investment and Collaborations' program referenced on B. Braun's main site. Included as a known anchor for this slice; treated as a hybrid CVC/venture-studio entity.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "eu-siemens-healthineers-ventures",
+    "name": { "en": "Siemens Healthineers Ventures" },
+    "aka": ["Siemens Healthineers Digital Incubator", "Ventures & Business Development (Siemens Healthineers)"],
+    "type": "cvc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Erlangen",
+    "offices": [{ "country": "United States", "city": "Mountain View, CA" }],
+    "website": "https://www.siemens-healthineers.com/innovations/how-we-innovate",
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Global"],
+      "sector_focus": ["medical-imaging", "diagnostics", "digital-health", "healthcare-it"],
+      "thesis": "Corporate venture and business-development arm of Siemens Healthineers, combining strategic venture investing with an M&A pipeline and a Silicon Valley 'Digital Incubator' to back start-ups in medical imaging, diagnostics and digital-health services that extend Siemens Healthineers' precision-medicine portfolio."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "ScreenPoint Medical", "sector": "medical-imaging", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Siemens Healthineers' Ventures & Business Development team pairs strategic venture investing with M&A and a Silicon Valley Digital Incubator to back imaging, diagnostics and digital-health start-ups relevant to Siemens Healthineers' business units."
+    },
+    "sources": [
+      {
+        "url": "https://www.siemens-healthineers.com/innovations/how-we-innovate",
+        "title": "How we innovate",
+        "publisher": "Siemens Healthineers",
+        "accessed": "undefined",
+        "supports": "existence of venture-client/incubator innovation model"
+      },
+      {
+        "url": "https://johngannonblog.com/vc-careers/vc-vice-president-siemens-healthineers-in-mountain-view-ca/",
+        "title": "VC Vice President @ Siemens Healthineers in Mountain View, CA",
+        "publisher": "John Gannon's Blog",
+        "accessed": "undefined",
+        "supports": "team name, mandate (M&A pipeline + strategic VC investing)",
+        "quote": "Ventures and Business Development Team focuses on the inorganic growth of the global portfolio by developing the M&A pipeline and by strategic venture capital investing."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No single official public 'Ventures' landing page with full portfolio disclosure was found; existence and mandate confirmed via Siemens Healthineers innovation pages and Ventures & Business Development careers postings, plus a cited investment in ScreenPoint Medical.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "eu-fresenius-medical-care-ventures",
+    "name": { "en": "Fresenius Medical Care Ventures" },
+    "aka": ["FMCV"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Bad Homburg",
+    "website": "https://freseniusmedicalcare.com/en/about-us/fmcv/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Global"],
+      "sector_focus": ["medtech-devices", "healthcare-services", "digital-health"],
+      "thesis": "Corporate venture arm of Fresenius Medical Care investing from seed to later stage in medical devices, digital health and healthcare-services companies relevant to chronic kidney disease, dialysis, intensive-care medicine and cardiovascular disease."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": ["nephrology-urology", "cardiovascular", "metabolic-obesity"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 15,
+      "notable_investments": [
+        { "company": "eGenesis", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Fresenius Medical Care Ventures (est. 2016, Bad Homburg) is the corporate venture arm of dialysis and renal-care group Fresenius Medical Care, investing seed-to-growth in medical devices, digital health and services tied to chronic kidney disease, dialysis and cardiovascular care."
+    },
+    "sources": [
+      {
+        "url": "https://freseniusmedicalcare.com/en/about-us/fmcv/",
+        "title": "Ventures | Fresenius Medical Care",
+        "publisher": "Fresenius Medical Care",
+        "accessed": "undefined",
+        "supports": "existence, focus, stage",
+        "quote": "Fresenius Medical Care Ventures (FMCV) invests in start-ups and early-stage companies in the healthcare sector."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/fresenius-medical-care-ventures",
+        "title": "Fresenius Medical Care Ventures Portfolio Investments",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "portfolio count, latest investment",
+        "quote": "Fresenius Medical Care Ventures has made 15 investments, with their latest investment in eGenesis as part of their Series D on September 04, 2024."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "eu-we-venture-capital",
+    "name": { "en": "We Venture Capital" },
+    "aka": ["WE Venture Capital", "Werfen Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "website": "https://weventurecapital.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "€1M–€3M initial investment" },
+      "lead_or_follow": "both",
+      "geo_focus": ["Global"],
+      "sector_focus": ["diagnostics", "life-science-tools", "digital-health"],
+      "thesis": "Corporate venture capital arm of Werfen, a Spanish specialized-diagnostics group, investing globally in diagnostics start-ups plus adjacent life-science tools and digital solutions; an evergreen fund targeting 15–20 portfolio companies over time."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Deepull", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Axithra", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "We Venture Capital is the 2023-launched, Barcelona-based corporate venture arm of diagnostics group Werfen, deploying €1–3M evergreen-fund checks into diagnostics, digital-health and life-science-tools start-ups such as sepsis-diagnostics company Deepull."
+    },
+    "sources": [
+      {
+        "url": "https://weventurecapital.com/",
+        "title": "We Venture Capital – Investing globally in diagnostics start-ups",
+        "publisher": "We Venture Capital",
+        "accessed": "undefined",
+        "supports": "existence, parent, focus",
+        "quote": "Investing globally in diagnostics start-ups, as well as digital solutions and life science tools disrupting the diagnostics arena. We are the corporate venture arm of Werfen, a worldwide leader in Specialized Diagnostics."
+      },
+      {
+        "url": "https://globalventuring.com/corporate/europe/medical-diagnostics-firm-werfen-launches-cvc/",
+        "title": "Medical diagnostics firm Werfen launches CVC",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "founding year, check size, stage, target portfolio size",
+        "quote": "The evergreen fund will invest initially between €1m and €3m in companies at series A stage... It aims to have between 15 and 20 companies in its portfolio over time."
+      },
+      {
+        "url": "https://www.werfen.com/en/werfen-launches-we-venture-capital-invest-disruptive-technologies-will-shape-future-diagnostics",
+        "title": "Werfen launches We Venture Capital",
+        "publisher": "Werfen",
+        "accessed": "undefined",
+        "supports": "parent company confirmation, launch"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "eu-sartorius-ventures",
+    "name": { "en": "Sartorius Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Göttingen",
+    "website": "https://www.sartorius.com/en/company/innovation",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Global"],
+      "sector_focus": ["life-science-tools", "pharma-services"],
+      "thesis": "Corporate investment unit of Sartorius, the German bioprocessing and lab-technology group, taking minority equity stakes in early-stage life-science-tools and bioanalytics start-ups that extend its instrumentation and consumables portfolio."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 4,
+      "notable_investments": [
+        { "company": "SPARTA Biodiscovery", "sector": "life-science-tools", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Sartorius Ventures is the corporate investment unit of life-science-tools group Sartorius, taking minority stakes in early-stage bioanalytics start-ups such as SPARTA Biodiscovery (up to GBP 3.5M for a nanoparticle-analysis platform)."
+    },
+    "sources": [
+      {
+        "url": "https://www.sartorius.com/en/company/newsroom/corporate-news/sartorius-forms-partnership-with-sparta-biodiscovery-on-novel-nanoparticle-analysis-platform-1479602",
+        "title": "Sartorius forms partnership with SPARTA Biodiscovery on novel nanoparticle analysis platform",
+        "publisher": "Sartorius",
+        "accessed": "undefined",
+        "supports": "existence of Sartorius Ventures unit, investment amount",
+        "quote": "Sartorius Ventures invested up to 3.5 million British pounds in a minority shareholding in SPARTA Biodiscovery."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/sartorius",
+        "title": "Sartorius Portfolio Investments",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "portfolio count",
+        "quote": "Sartorius has made 4 investments, with their latest investment being in Sparta Biodiscovery as part of a Seed round on September 28, 2023."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sartorius does not maintain a prominent public-facing 'Sartorius Ventures' portal; existence and deal terms are confirmed via a corporate-news press release and third-party investor trackers. Sartorius also sponsors the separate 'Life Science Factory' startup incubator/co-working space (not counted as its CVC).",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "eu-zeiss-ventures",
+    "name": { "en": "ZEISS Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Oberkochen",
+    "website": "https://www.zeiss.com/corporate/en/about-zeiss/future/new-business-at-zeiss/zeiss-ventures.html",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "€500K–€5M initial investment", "usd_min": 500000, "usd_max": 5000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["Global"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "medical-imaging", "life-science-tools"],
+      "thesis": "Deep-tech corporate venture arm of Carl Zeiss AG investing at pre-Series A/Series A into MedTech & Life Sciences start-ups (AI diagnostics, microscopy, ophthalmology, surgical robotics) alongside photonics/optics and industrial-tech deals, leveraging ZEISS's ophthalmic-device and microscopy franchises (incl. Carl Zeiss Meditec)."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "ai-ml-platform", "lab-automation"],
+      "indications": ["ophthalmology"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Surgify Medical", "sector": "surgical-robotics", "outcome": "active" },
+        { "company": "Custom Surgical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Maculaser", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "ZEISS Ventures is Carl Zeiss AG's deep-tech corporate venture arm, writing €0.5–5M pre-Series A/Series A checks into MedTech & Life Sciences start-ups spanning ophthalmology, microscopy and surgical robotics, alongside photonics and industrial-tech deals."
+    },
+    "sources": [
+      {
+        "url": "https://www.zeiss.com/corporate/en/about-zeiss/future/new-business-at-zeiss/zeiss-ventures.html",
+        "title": "ZEISS Ventures",
+        "publisher": "ZEISS",
+        "accessed": "undefined",
+        "supports": "focus areas, stage, check size",
+        "quote": "ZEISS Ventures is a Deep Tech investor with particular interest in Industrial Tech, Med Tech and Life Sciences... typical ticket sizes between 500k – 5 million Euros for initial investments."
+      },
+      {
+        "url": "https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2025/zeiss-leads-funding-round-for-surgify-medical.html",
+        "title": "ZEISS leads funding round for Surgify Medical to drive safety in surgical procedures",
+        "publisher": "ZEISS",
+        "accessed": "undefined",
+        "supports": "notable investment, round size",
+        "quote": "ZEISS Ventures led a EUR 7 million Series A funding round for Surgify Medical, with participation from Lednil, Cascara Ventures and the European Innovation Council Fund."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "eu-biomerieux-corporate-ventures",
+    "name": { "en": "bioMérieux Corporate Venture Investments", "local": "bioMérieux" },
+    "aka": ["bioMérieux Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Marcy-l'Étoile",
+    "website": "https://www.biomerieux.com",
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Global"],
+      "sector_focus": ["diagnostics", "life-science-tools"],
+      "thesis": "French in vitro diagnostics leader bioMérieux makes direct corporate strategic equity investments in diagnostics and adjacent life-science-tools start-ups (e.g. Oxford Nanopore, Quanterix, Allergen Alert, Proxim Diagnostics) to access next-generation sequencing, sepsis-diagnostics and allergen-testing technology, and also invests via an internal intrapreneurship program."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "software-samd"],
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Oxford Nanopore Technologies", "sector": "life-science-tools", "outcome": "IPO" },
+        { "company": "Allergen Alert", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Quanterix", "sector": "diagnostics", "outcome": "IPO" },
+        { "company": "Proxim Diagnostics", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "bioMérieux, the French in vitro diagnostics group, makes direct corporate strategic investments in diagnostics and life-science-tools start-ups — including a GBP70M stake in Oxford Nanopore and backing for sepsis/allergen-testing start-ups — rather than through one single named CVC fund."
+    },
+    "sources": [
+      {
+        "url": "https://www.biomerieux.com/us/en/journalists/press-releases/strategic-investment-Oxford-Nanopore.html",
+        "title": "bioMérieux makes strategic investment in Oxford Nanopore",
+        "publisher": "bioMérieux",
+        "accessed": "undefined",
+        "supports": "notable investment, existence of direct strategic investing"
+      },
+      {
+        "url": "https://www.biomerieux.com/us/en/who-we-are/company-news/allergen-alert-investment.html",
+        "title": "bioMérieux invests in Allergen Alert, a startup resulting from its intrapreneurship program",
+        "publisher": "bioMérieux",
+        "accessed": "undefined",
+        "supports": "intrapreneurship-linked investment"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "bioMérieux does not brand a single named CVC fund; strategic equity investments are made directly by the corporate group (and via its intrapreneurship program). Distinct from Mérieux Partners / Mérieux Innovation, family-office-style funds of parent Institut Mérieux group, which were flagged but not independently verified as in-scope within this research pass.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "eu-william-demant-invest",
+    "name": { "en": "William Demant Invest" },
+    "type": "cvc",
+    "subtypes": ["family-office"],
+    "status": "active",
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Smørum",
+    "website": "https://www.demantinvest.com/",
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Global"],
+      "sector_focus": ["medtech-devices", "diagnostics", "medical-imaging"],
+      "thesis": "Evergreen investment company wholly owned by the charitable William Demant Foundation, holding majority stakes in medtech operating businesses (Demant hearing-care/diagnostics group, Embla Medical, Vision RT) and significant minority stakes in adjacent medtech/healthtech companies (Vitrolife, CellaVision, Revenio, Invisio, GN Store Nord); functions as the strategic corporate investment arm for the Demant medtech group."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "wearables-sensors"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Vision RT", "sector": "medical-imaging", "outcome": "acquired" },
+        { "company": "Vitrolife", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "CellaVision", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "William Demant Invest is the Denmark-based, foundation-owned evergreen holding and investment company behind the Demant hearing-care/diagnostics group, holding majority stakes in medtech operating businesses (Demant, Vision RT) and minority stakes in medtech peers such as Vitrolife and CellaVision."
+    },
+    "sources": [
+      {
+        "url": "https://www.demantinvest.com/",
+        "title": "William Demant Invest A/S",
+        "publisher": "William Demant Invest",
+        "accessed": "undefined",
+        "supports": "structure, ownership, portfolio",
+        "quote": "William Demant Invest is a highly respected evergreen investment company, wholly owned by the charitable William Demant Foundation and the holding company for William Demant Foundation's investment activities."
+      },
+      {
+        "url": "https://visionrt.com/news/william-demant-invest-acquires-majority-shareholding-in-vision-rt-alongside-the-companys-founders/",
+        "title": "William Demant Invest Acquires Majority Shareholding in Vision RT",
+        "publisher": "Vision RT",
+        "accessed": "undefined",
+        "supports": "notable investment"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Structured as a charitable-foundation-owned holding/investment company rather than a classic single-operating-company CVC arm; included because it functions as the strategic investment vehicle for the Demant medtech (hearing-care and diagnostic equipment) group and actively invests in adjacent medtech/diagnostics companies.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  }
+]

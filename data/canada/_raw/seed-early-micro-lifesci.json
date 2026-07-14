@@ -1,0 +1,527 @@
+[
+  {
+    "id": "ca-bdc-capital-life-sciences-venture-fund",
+    "name": { "en": "BDC Capital Life Sciences Venture Fund" },
+    "aka": ["BDC Life Sciences Venture Fund"],
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2026,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.bdc.ca/en/bdc-capital/venture-capital/funds/life-sciences-venture-fund",
+    "capital": {
+      "current_fund": { "raw": "$150 million", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$1M–$3M at seed; $5M–$8M at Series A", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Provides patient capital to seed and Series A Canadian companies developing biotechnology-based Therapeutic Products and Medical Technologies (medical devices, diagnostic tools, imaging, surgical robotics)."
+    },
+    "people": [
+      { "name": "Parimal Nathwani", "role": "Managing Partner" }
+    ],
+    "tags": ["government-backed", "crown-corporation", "seed", "series-a"],
+    "summary": {
+      "en": "A $150M fund launched by BDC Capital, Canada's Crown-corporation venture platform, dedicated to seed and Series A biotech and medtech companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.bdc.ca/en/bdc-capital/venture-capital/funds/life-sciences-venture-fund",
+        "title": "Life Sciences Venture Fund",
+        "publisher": "BDC",
+        "accessed": "undefined",
+        "supports": "fund existence, focus areas, stage",
+        "quote": "The fund focuses on Therapeutic Products (biotechnology-based innovations) and Medical Technologies (medical devices, diagnostic tools, imaging technologies, surgical robotics)."
+      },
+      {
+        "url": "https://www.canhealth.com/2026/04/15/bdc-launches-150m-life-sciences-venture-fund/",
+        "title": "BDC launches $150M life sciences venture fund",
+        "publisher": "Canadian Healthcare Technology",
+        "accessed": "undefined",
+        "supports": "launch date, managing partner, check sizes",
+        "quote": "The fund writes cheques between $1 million and $3 million at the seed stage, and between $5 million and $8 million at the Series A stage."
+      },
+      {
+        "url": "https://betakit.com/bdc-launches-150-million-life-sciences-fund/",
+        "title": "BDC launches $150-million life sciences fund",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "fund size, general description"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Newly launched fund (reported April 2026); exact launch/founded date inferred from publication date of coverage, not a formal 'founded' disclosure.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "ca-amplitude-ventures",
+    "name": { "en": "Amplitude Ventures" },
+    "aka": ["Amplitude Venture Capital"],
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "offices": [
+      { "country": "Canada", "city": "Montreal" },
+      { "country": "Canada", "city": "Toronto" },
+      { "country": "Canada", "city": "Vancouver" }
+    ],
+    "website": "https://amplitudevc.com/en",
+    "capital": {
+      "current_fund": { "raw": "$263 million (Fund II)", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "Seed rounds $6.6M–$12M (round size, not sole check)", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "ai-drug-discovery"],
+      "thesis": "Builds Canadian-rooted precision-medicine and next-generation medical-technology companies, with Fund II targeting early-stage high-value therapies, medical technology, and AI/ML healthcare applications."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "medical-hardware"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "tags": ["precision-medicine", "medtech", "emerging-manager"],
+    "summary": {
+      "en": "Montreal-founded (2018) venture capital firm investing seed through Series B in precision medicine and next-generation medical technology, with offices in Montreal, Toronto and Vancouver."
+    },
+    "sources": [
+      {
+        "url": "https://amplitudevc.com/en",
+        "title": "Amplitude Ventures",
+        "publisher": "Amplitude Ventures",
+        "accessed": "undefined",
+        "supports": "thesis, offices, focus"
+      },
+      {
+        "url": "https://mtec-sc.org/life-sciences/amplitude-ventures",
+        "title": "Amplitude Ventures",
+        "publisher": "MTEC",
+        "accessed": "undefined",
+        "supports": "founded year, stage focus",
+        "quote": "founded in 2018, that seeks to invest in companies operating in the healthcare and life sciences sectors across Canada"
+      },
+      {
+        "url": "https://shizune.co/investors/biotech-vc-funds-canada",
+        "title": "Top 50 Biotech VC Funds in Canada",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "round size range",
+        "quote": "Round size: Seed $6.6M–$12M"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund II ($263M) is large relative to typical micro-VC; included because the firm was founded 2018 (emerging manager) and actively invests at seed/Series A alongside Series B.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "ca-igan-partners",
+    "name": { "en": "iGan Partners" },
+    "type": "vc",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://iganpartners.com/",
+    "capital": {
+      "funds": [
+        { "name": "iGan Fund I", "vintage_year": 2018, "size": { "raw": "CAD $100 million", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$1–5 million", "usd_min": 1000000, "usd_max": 5000000 },
+      "geo_focus": ["Canada", "United States"],
+      "sector_focus": ["medtech-devices", "digital-health"],
+      "thesis": "Healthcare-dedicated VC providing post-seed and Series A capital to AI-enabled MedTech and Digital Health companies in North America."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"]
+    },
+    "people": [
+      { "name": "Sam Ifergan", "role": "Founder" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "eSight", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "MolecuLight", "sector": "medical-imaging", "outcome": "active" },
+        { "company": "Exact Imaging", "sector": "medical-imaging", "outcome": "active" }
+      ],
+      "exits": []
+    },
+    "tags": ["healthtech", "medtech", "digital-health"],
+    "summary": {
+      "en": "Toronto-based, healthcare-dedicated venture capital firm founded by Sam Ifergan that closed a CAD $100M Fund I in 2018 and makes post-seed/Series A investments of $1–5M in AI-enabled MedTech and digital health companies."
+    },
+    "sources": [
+      {
+        "url": "https://iganpartners.com/about-us",
+        "title": "About Us",
+        "publisher": "iGan Partners",
+        "accessed": "undefined",
+        "supports": "founding, focus, founder"
+      },
+      {
+        "url": "https://betakit.com/healthtech-focused-igan-partners-adds-50-million-to-fund-i/",
+        "title": "Healthtech-focused iGan Partners adds $50 million to Fund I",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "fund size, timing"
+      },
+      {
+        "url": "https://www.venturecapitaljournal.com/health-tech-investor-igan-partners-closes-first-fund-at-100-mln/",
+        "title": "Health tech investor iGan Partners closes first fund at $100 mln",
+        "publisher": "Venture Capital Journal",
+        "accessed": "undefined",
+        "supports": "Fund I close amount, year",
+        "quote": "iGan Partners raised CAD $100 million for its iGan Fund I in April 2018."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "ca-genesys-capital",
+    "name": { "en": "Genesys Capital" },
+    "aka": ["Genesys Capital Partners"],
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.genesyscapital.com/",
+    "capital": {
+      "funds": [
+        { "name": "Genesys University Seed Fund", "vintage_year": 2026, "size": { "raw": "over $30 million first close, targeting up to $40 million", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "pharma-services"],
+      "thesis": "Dedicated early-stage life sciences seed fund, created with the University of Toronto and McMaster University, to translate university-based biomedical research into venture-backed companies addressing critical health challenges."
+    },
+    "tags": ["university-spinout", "seed-fund", "life-sciences"],
+    "summary": {
+      "en": "Toronto life-sciences VC (founded 2000) that in 2026 launched the Genesys University Seed Fund with the University of Toronto, McMaster University, Venture Ontario and RBC to fund early-stage biomedical spinouts."
+    },
+    "sources": [
+      {
+        "url": "https://www.genesyscapital.com/",
+        "title": "Genesys Capital",
+        "publisher": "Genesys Capital",
+        "accessed": "undefined",
+        "supports": "firm identity, focus"
+      },
+      {
+        "url": "https://www.utoronto.ca/news/u-t-together-mcmaster-announces-early-stage-life-sciences-venture-fund-genesys-capital",
+        "title": "U of T, together with McMaster, announces early-stage life sciences venture fund with Genesys Capital",
+        "publisher": "University of Toronto",
+        "accessed": "undefined",
+        "supports": "fund creation, partners, purpose"
+      },
+      {
+        "url": "https://pulse2.com/genesys-university-seed-fund-holds-first-close-with-over-30-million-in-commitments/amp/",
+        "title": "Genesys University Seed Fund Holds First Close With Over $30 Million In Commitments",
+        "publisher": "Pulse 2.0",
+        "accessed": "undefined",
+        "supports": "fund size",
+        "quote": "it has held a first close representing over $30 million of commitments"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Genesys Capital the firm was founded in 2000 (not itself an emerging manager); included because it just launched a new dedicated pre-seed/seed life-sciences vehicle (Genesys University Seed Fund, first close 2026).",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "ca-esplanade-ventures",
+    "name": { "en": "Esplanade Ventures" },
+    "aka": ["Esplanade HealthTech Ventures"],
+    "type": "micro-vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "offices": [
+      { "country": "Canada", "city": "Montreal" },
+      { "country": "Canada", "city": "Toronto" }
+    ],
+    "website": "https://esplanadeventures.com/",
+    "capital": {
+      "funds": [
+        { "name": "Esplanade HealthTech Fund I", "vintage_year": 2021, "size": { "raw": "over $21 million CAD", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "CAD $500K–$5M, sweet spot ~$1.5M", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Canada", "United States"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Canada's digital-health-dedicated micro-VC, investing early in technology companies transforming care delivery across the U.S. and Canada."
+    },
+    "people": [
+      { "name": "Dr. Sheldon Elman", "role": "Founder", "background": "Founder of Medisys Health Group" }
+    ],
+    "tags": ["digital-health", "emerging-manager", "micro-vc"],
+    "summary": {
+      "en": "Montreal/Toronto digital-health micro-VC formed in 2019 by the founders of Medisys Health Group and Persistence Capital Partners; closed an oversubscribed $21M+ CAD inaugural fund investing $500K–$5M in early-stage healthtech."
+    },
+    "sources": [
+      {
+        "url": "https://esplanadeventures.com/",
+        "title": "Esplanade Ventures – Healthcare Innovation Capital",
+        "publisher": "Esplanade Ventures",
+        "accessed": "undefined",
+        "supports": "thesis, geography"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/esplanade-healthtech-ventures-announces-oversubscribed-closing-of-its-inaugural-digital-health-fund-301311808.html",
+        "title": "Esplanade HealthTech Ventures Announces Oversubscribed Closing of its Inaugural Digital Health Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "fund size, founders",
+        "quote": "The inaugural digital health fund secured over $21 million CAD in total commitments"
+      },
+      {
+        "url": "https://betakit.com/esplanade-healthtech-ventures-highlights-fund-i-portfolio-growth-as-firm-prepares-to-raise-fund-ii/",
+        "title": "Esplanade HealthTech Ventures highlights Fund I portfolio growth as firm prepares to raise Fund II",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "check size, portfolio activity"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "ca-admare-bioinnovations",
+    "name": { "en": "adMare BioInnovations" },
+    "type": "venture-studio",
+    "subtypes": ["accelerator", "incubator"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "canada",
+    "country": "Canada",
+    "offices": [
+      { "country": "Canada", "city": "Vancouver" },
+      { "country": "Canada", "city": "Montreal" },
+      { "country": "Canada", "city": "Toronto" }
+    ],
+    "website": "https://www.admarebio.com/en/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools"],
+      "thesis": "Pan-Canadian life-science venture-creation organization that invests pre-seed capital alongside industrial R&D, IP and business-development expertise to turn differentiated Canadian science into venture-fundable companies."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Operates 200,000+ sq ft of turnkey wet-lab facilities and an accelerator/executive-training program across Montreal, Vancouver and Toronto."
+    },
+    "track_record": {
+      "portfolio_count": 39
+    },
+    "tags": ["company-creation", "wet-lab", "pan-canadian"],
+    "summary": {
+      "en": "Pan-Canadian life-science venture-creation organization (formed 2019, incorporating the former CDRD and Centre for Drug Research and Development networks) that has helped create 39 companies with $2.5B in follow-on risk capital raised."
+    },
+    "sources": [
+      {
+        "url": "https://www.admarebio.com/en/who-we-are",
+        "title": "Who we are",
+        "publisher": "adMare BioInnovations",
+        "accessed": "undefined",
+        "supports": "mission, model"
+      },
+      {
+        "url": "https://www.admarebio.com/en/",
+        "title": "adMare BioInnovations",
+        "publisher": "adMare BioInnovations",
+        "accessed": "undefined",
+        "supports": "founded year, track record",
+        "quote": "adMare has helped create 39 companies that have attracted $2.5 billion in risk capital, achieved a combined value of $5.8 billion"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "ca-accel-rx-health-sciences-accelerator",
+    "name": { "en": "Accel-Rx Health Sciences Accelerator" },
+    "type": "accelerator",
+    "subtypes": [],
+    "status": "merged",
+    "founded_year": 2014,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Vancouver",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Nation-wide seed-capital accelerator that bridged the financing gap for commercializing life-science innovations in pharmaceuticals, medical devices and diagnostics, stewarding companies to Series-A readiness."
+    },
+    "tags": ["merged-into-admare", "seed-capital", "historical"],
+    "summary": {
+      "en": "Vancouver-founded (2014) nationwide life-sciences seed accelerator that merged into adMare BioInnovations on January 9, 2020; included for lineage as a formerly independent seed-stage program."
+    },
+    "sources": [
+      {
+        "url": "https://www.admarebio.com/en/press-release-details/admare-bioinnovations-accel-rx-unite-to-advance-the-canadian-life-sciences-sector",
+        "title": "adMare BioInnovations & Accel-Rx Unite to Advance the Canadian Life Sciences Sector",
+        "publisher": "adMare BioInnovations",
+        "accessed": "undefined",
+        "supports": "merger date"
+      },
+      {
+        "url": "https://www.nce-rce.gc.ca/NetworksCentres-CentresReseaux/CECR-CECR/AccelRx_eng.asp",
+        "title": "Accel-Rx Health Sciences Accelerator",
+        "publisher": "Networks of Centres of Excellence (Government of Canada)",
+        "accessed": "undefined",
+        "supports": "program description, founding"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Inactive as an independent entity since its January 2020 merger into adMare BioInnovations; retained here for historical completeness of the seed-stage life-sciences ecosystem.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "ca-greensky-ventures",
+    "name": { "en": "GreenSky Ventures" },
+    "type": "micro-vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://greensky.vc/",
+    "capital": {
+      "funds": [
+        { "name": "GreenSky Fund VI", "vintage_year": null, "size": { "raw": "CDN$23.5 million", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["Canada"],
+      "sector_focus": ["digital-health", "healthcare-it", "ai-drug-discovery", "generalist-health"],
+      "thesis": "Generalist Toronto seed-stage B2B tech investor with a recurring healthcare vertical, backing genomic health-record software (PhenoTips), AI-driven medical-record processing (Wisedocs) and AI drug discovery (Cyclica, acquired)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "PhenoTips", "sector": "digital-health", "outcome": "active" },
+        { "company": "Wisedocs", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Cyclica", "sector": "ai-drug-discovery", "outcome": "acquired" },
+        { "company": "Akira Health", "sector": "digital-health", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["generalist-with-health-vertical", "seed-stage"],
+    "summary": {
+      "en": "Toronto seed-stage generalist VC (founded 2015, six funds, largest CDN$23.5M) with a consistent healthcare-software track record spanning genomic health records, medical-record AI, and AI drug discovery."
+    },
+    "sources": [
+      {
+        "url": "https://greensky.vc/fund/fund-v/",
+        "title": "Fund V",
+        "publisher": "GreenSky Ventures",
+        "accessed": "undefined",
+        "supports": "fund existence"
+      },
+      {
+        "url": "https://greensky.vc/phenotips-secures-a-2m-seed-round-led-by-greensky-ventures-to-scale-its-genomic-health-record-platform/",
+        "title": "PhenoTips secures a $2M seed round led by Greensky Ventures",
+        "publisher": "GreenSky Ventures",
+        "accessed": "undefined",
+        "supports": "healthcare investment example"
+      },
+      {
+        "url": "https://greenskycapital.com/greensky-fund-iv-invests-in-wisedocs-ai-to-expand-into-us/",
+        "title": "GreenSky Fund IV invests in Wisedocs AI to expand into US",
+        "publisher": "GreenSky Ventures",
+        "accessed": "undefined",
+        "supports": "healthcare-IT investment example, fund size",
+        "quote": "GreenSky Ventures recently announced the final close of its sixth fund and largest fund of CDN$23.5 million."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "GreenSky is a generalist seed-stage tech investor (AI, SaaS, fintech, energy, etc.), not exclusively medical; included because it has a sustained, verifiable healthcare-software and AI-drug-discovery investment pattern. Primary type kept as micro-vc; healthcare is a secondary but recurring vertical, not the sole thesis.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "ca-medteq-plus",
+    "name": { "en": "MEDTEQ+" },
+    "aka": ["Quebec Consortium for Industrial Research and Innovation in Medical Technology", "MEDTEQ Invest"],
+    "type": "government-program",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.medteq.ca/en/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "Target companies raising $1 million to $10 million", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Quebec", "Canada"],
+      "sector_focus": ["medtech-devices", "digital-health", "healthcare-it"],
+      "thesis": "Quebec-based health-technology innovation consortium that blends dilutive grants, equity investment through its MEDTEQ Invest fund, and clinical/commercial support to advance pre-seed, seed and Series A Canadian health-tech SMEs."
+    },
+    "track_record": {
+      "portfolio_count": 24
+    },
+    "tags": ["nce-cecr", "co-investment", "medtech", "quebec"],
+    "summary": {
+      "en": "Montreal-based health-technology innovation consortium (NCE-CECR network) whose MEDTEQ Invest fund has deployed over $124M CAD across 24+ Canadian health-tech SMEs, combining equity, grants and clinical/commercial expertise for pre-seed through Series A companies.",
+      "local": "Consortium québécois de recherche et d'innovation industrielle en technologies médicales, dont le fonds MEDTEQ Invest finance des PME canadiennes de la santé en phase de démarrage."
+    },
+    "sources": [
+      {
+        "url": "https://www.medteq.ca/en/service/financing/",
+        "title": "Financing and Expertise in Healthcare Technologies",
+        "publisher": "MEDTEQ+",
+        "accessed": "undefined",
+        "supports": "financing model, stage focus"
+      },
+      {
+        "url": "https://invest.medteq.ca/en/home/",
+        "title": "MEDTEQ Invest, Investment Fund",
+        "publisher": "MEDTEQ+",
+        "accessed": "undefined",
+        "supports": "fund purpose"
+      },
+      {
+        "url": "https://www.medteq.ca/en/medteqs-investment-fund-announces-8-investments-in-canadian-health-technology-companies/",
+        "title": "MEDTEQ's Investment Fund announces 8 investments in Canadian health technology companies",
+        "publisher": "MEDTEQ+",
+        "accessed": "undefined",
+        "supports": "portfolio count, total invested",
+        "quote": "The MEDTEQ+ portfolio now includes over $124 million worth of investments in over 24 Canadian SMEs."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded year not verified from sources found; originally established as a federally-recognized NCE-CECR network (Networks of Centres of Excellence – Centres of Excellence for Commercialization and Research), later rebranded MEDTEQ+.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  }
+]

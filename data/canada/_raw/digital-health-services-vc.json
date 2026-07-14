@@ -1,0 +1,488 @@
+[
+  {
+    "id": "ca-esplanade-ventures",
+    "name": { "en": "Esplanade Ventures" },
+    "aka": ["Esplanade HealthTech Ventures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "offices": [
+      { "country": "Canada", "city": "Montreal" },
+      { "country": "Canada", "city": "Toronto" }
+    ],
+    "website": "https://esplanadeventures.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Esplanade HealthTech Ventures I (Fund I)",
+          "vintage_year": null,
+          "size": { "raw": "C$21M+", "usd": null, "currency": "CAD" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "CAD $500K–$5M (sweet spot ~CAD $1.5M)", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada", "United States"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Canada's leading digital-health-dedicated VC, backing seed-to-Series-A technology companies transforming care delivery in the U.S. and Canada; prefers AI-enabled software and explicitly does not invest in invasive devices or biotech."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform"],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Founded by the founders of Medisys Health Group and Persistence Capital Partners (Canada's largest healthcare private equity firm); team of healthcare operators, founders and investors."
+    },
+    "team_size": null,
+    "tags": ["digital health", "healthtech", "seed", "series A"],
+    "summary": {
+      "en": "Montreal/Toronto-based venture capital firm exclusively focused on digital health, investing seed-to-Series-A in software/AI companies transforming care delivery across Canada and the U.S."
+    },
+    "sources": [
+      {
+        "url": "https://esplanadeventures.com/",
+        "title": "Esplanade Ventures - Healthcare Innovation Capital",
+        "publisher": "Esplanade Ventures",
+        "accessed": "undefined",
+        "supports": "Digital health focus, geography, stage, founding background",
+        "quote": "Esplanade Ventures is Canada's leading digital health VC, investing early in technology companies transforming care across the U.S. and Canada."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/esplanade-healthtech-ventures-announces-oversubscribed-closing-of-its-inaugural-digital-health-fund-301311808.html",
+        "title": "Esplanade Healthtech Ventures Announces Oversubscribed Closing of its Inaugural Digital Health Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund I size, formed 2019, check size, founders",
+        "quote": "Esplanade's inaugural venture fund, Esplanade HealthTech Ventures I (\"Fund I\"), closed with commitments totaling more than C$21M."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund I close year not precisely stated in sources reviewed (firm formed 2019); check-size range and 'sweet spot' figure come from a secondary aggregator summary of firm's stated strategy, not independently confirmed on the primary site page fetched.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "ca-igan-partners",
+    "name": { "en": "iGan Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://iganpartners.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "iGan Fund I",
+          "vintage_year": 2018,
+          "size": { "raw": "CAD $100M (plus a later CAD $50M add-on)", "usd": null, "currency": "CAD" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["digital-health", "medtech-devices"],
+      "thesis": "One of Canada's largest healthcare-dedicated VC firms, investing seed through Series A (with follow-on to exit) in AI-enabled MedTech and Digital Health companies, providing smart capital and co-investor network access."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "medical-hardware", "software-samd"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 62,
+      "notable_investments": [
+        { "company": "eSight", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "MolecuLight", "sector": "medical-imaging", "outcome": "active" },
+        { "company": "Exact Imaging", "sector": "medical-imaging", "outcome": "active" }
+      ]
+    },
+    "tags": ["digital health", "medtech", "healthtech", "seed", "series A"],
+    "summary": {
+      "en": "Toronto-based, one of Canada's largest healthcare-dedicated VC firms, backing AI-enabled MedTech and digital health companies from seed through Series A and beyond."
+    },
+    "sources": [
+      {
+        "url": "https://iganpartners.com/about-us",
+        "title": "iGan Partners - Healthcare Dedicated Venture Capital Firm Investing In Canada",
+        "publisher": "iGan Partners",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, sector focus, stage focus",
+        "quote": "iGan Partners empowers visionary founders with early-stage capital and resources required to grow extraordinary, high-impact companies in AI-enabled MedTech and Digital Health."
+      },
+      {
+        "url": "https://betakit.com/healthtech-focused-igan-partners-adds-50-million-to-fund-i/",
+        "title": "Healthtech-focused iGan Partners adds $50 million to Fund I",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "Fund I size and vintage, add-on capital",
+        "quote": "iGan Partners raised CAD $100 million for its iGan Fund I in April 2018"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio count (62 investments / 22 exits) and named notable investments sourced from a secondary aggregator (CBInsights) summary rather than a primary iGan page fetched directly; treat portfolio_count as approximate.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "ca-cross-border-impact-ventures",
+    "name": { "en": "Cross-Border Impact Ventures" },
+    "aka": ["CBIV"],
+    "type": "vc",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.crossborder.ventures/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Women's and Children's Health Technology Fund",
+          "vintage_year": 2024,
+          "size": { "raw": "$90M+ USD / $135M CAD", "usd": 90000000, "currency": "USD" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["North America", "Europe"],
+      "sector_focus": ["digital-health", "medtech-devices", "diagnostics", "femtech-womens-health"],
+      "thesis": "Women-owned, women-led impact VC firm investing in early-growth-stage health technology companies commercializing medical devices, diagnostics, therapeutics and digital-health innovations (leveraging AI/ML) that serve women's, children's and adolescents' health needs."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "medical-hardware", "software-samd"],
+      "indications": ["womens-health", "pediatrics"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "people": [],
+    "tags": ["digital health", "women's health", "pediatric health", "impact investing", "medtech"],
+    "summary": {
+      "en": "Toronto-based women-led impact VC firm, spun out of Grand Challenges Canada, investing in health-technology (including digital health) companies serving women's, children's and adolescents' health globally; closed its first fund at $135M CAD in 2024."
+    },
+    "sources": [
+      {
+        "url": "https://www.crossborder.ventures/",
+        "title": "Cross-Border Impact Ventures",
+        "publisher": "Cross-Border Impact Ventures",
+        "accessed": "undefined",
+        "supports": "Firm description, HQ, investment focus",
+        "quote": "Cross-Border Impact Ventures (CBIV) is a women-owned, women-led impact venture capital firm based in Toronto, Canada."
+      },
+      {
+        "url": "https://betakit.com/cbiv-surpasses-135-million-cad-in-final-close-to-back-women-children-focused-healthtech-startups/",
+        "title": "CBIV surpasses $135 million CAD in final close to back women, children-focused healthtech startups",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "Fund size, geographic scope, investment focus",
+        "quote": "Toronto-based Cross-Border Impact Ventures (CBIV) has closed its first fund, securing over $90 million USD ($135 million CAD) in total commitments."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year is ambiguous across sources: CBIV originated inside Grand Challenges Canada around 2019 before spinning out as a standalone private firm around 2021; fund vintage_year (2024) reflects the final close of its first fund per BetaKit, not the firm's founding.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "ca-pender-ventures",
+    "name": { "en": "Pender Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Vancouver",
+    "offices": [
+      { "country": "Canada", "city": "Vancouver" },
+      { "country": "Canada", "city": "Toronto" },
+      { "country": "Canada", "city": "Montreal" },
+      { "country": "Canada", "city": "Calgary" }
+    ],
+    "website": "https://www.penderventures.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Pender Technology Inflection Fund II",
+          "vintage_year": 2024,
+          "size": { "raw": "$100M+ CAD", "usd": null, "currency": "CAD" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "check_size": { "raw": "$2M–$5M CAD", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "thesis": "Venture arm of PenderFund Capital Management investing in Canadian B2B software and healthtech companies that have reached an 'inflection stage'; allocates roughly half of its latest fund to healthtech versus other B2B software verticals."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "healthcare-it"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "DrugBank", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Swift Medical", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "tags": ["healthtech", "B2B software", "digital health", "series A/B"],
+    "summary": {
+      "en": "Vancouver-based VC investing in early-stage Canadian B2B software and healthtech startups; closed its second fund, the $100M+ Pender Technology Inflection Fund II, in late 2024, with roughly half allocated to healthtech."
+    },
+    "sources": [
+      {
+        "url": "https://www.penderventures.com/",
+        "title": "Home - Pender Ventures",
+        "publisher": "Pender Ventures",
+        "accessed": "undefined",
+        "supports": "Sector focus, HQ, offices",
+        "quote": "Invests in B2B software and health tech startups with offices in Vancouver, Toronto, Montreal, and Calgary."
+      },
+      {
+        "url": "https://betakit.com/pender-ventures-closes-second-b2b-software-healthtech-focused-vc-fund-at-100-million/",
+        "title": "Pender Ventures closes second B2B software, healthtech-focused VC fund at $100 million",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "Fund II size, check size, healthtech allocation, notable investments",
+        "quote": "Pender Ventures has allocated half of its latest fund to new investments and half to follow-on support, with an equivalent breakdown going towards B2B healthtech versus software in other verticals. Pender Ventures' healthtech investments include Edmonton-based DrugBank and Toronto's Swift Medical."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Modality tag 'healthcare-it' used loosely for lifesci.modalities as a placeholder for enterprise health software since it is not a listed modality slug in taxonomy.json; sector_focus 'healthcare-it' is the correct taxonomy slug. Firm invests across both healthtech and non-health B2B software, so this entity is only partially health-dedicated.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "ca-diagram-ventures",
+    "name": { "en": "Diagram Ventures" },
+    "aka": ["Diagram"],
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://diagram.vc/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["North America"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Montreal venture studio/VC that conceives, builds and funds technology companies from scratch; historically built the digital-health/virtual-care company Dialogue from a CA$4M seed round to a TSX-listed company. Current public focus has shifted primarily to fintech and climatetech, with health as a secondary, legacy vertical."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics"],
+      "company_creation": true,
+      "invests_public_markets": false,
+      "science_platform_notes": "Uses an in-house venture-building process to ideate, validate and launch companies (Flagship/Third Rock-style company creation model), including in health alongside fintech, insurance and climatetech."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Dialogue", "sector": "digital-health", "outcome": "IPO" }
+      ]
+    },
+    "tags": ["venture studio", "company creation", "digital health", "virtual care", "fintech"],
+    "summary": {
+      "en": "Montreal-based venture studio/VC founded in 2016 that builds companies from scratch; best known in health for creating Dialogue, a virtual-care company that IPO'd on the TSX, though its current stated focus is primarily fintech and climatetech."
+    },
+    "sources": [
+      {
+        "url": "https://diagram.vc/",
+        "title": "Home - Diagram | EN",
+        "publisher": "Diagram Ventures",
+        "accessed": "undefined",
+        "supports": "Current stated focus areas, founding, venture count",
+        "quote": "We build and invest in Fintech and Climatetech companies."
+      },
+      {
+        "url": "https://www.forbes.com/sites/rebeccaszkutak/2021/06/08/diagram-ventures-raises-ca120-million-opportunity-fund-to-double-down-in-its-successful-studio-bets/",
+        "title": "Diagram Ventures Raises CA$120 Million Opportunity Fund To Double-Down On Its Successful Studio Bets",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "Dialogue IPO, Diagram's seed investment and stake",
+        "quote": "When Dialogue listed on Toronto's stock exchange in April, Diagram owned about 10% at IPO, and at a market cap north of CA$600 million, Diagram's stake from the company's CA$4 million seed round in 2017 delivered a significant return."
+      },
+      {
+        "url": "https://betakit.com/diagram-ventures-closes-100-million-for-latest-fund-as-it-continues-to-bet-on-fintech/",
+        "title": "Diagram Ventures closes $100-million for latest fund as it continues to bet on FinTech",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "Founding year, founders, venture-builder description",
+        "quote": "Diagram is a venture builder that conceives and launches technology companies in the financial services, insurance, and health industries."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Health is not Diagram's current primary stated focus (fintech/climatetech per its own website as of this research); included because it created and seeded Dialogue, a major Canadian digital-health/virtual-care company, and health remains a listed vertical in third-party descriptions of its venture-building model. lifesci.modalities values are inferred from Dialogue's virtual-care product, not an explicit firm statement.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "ca-persistence-capital-partners",
+    "name": { "en": "Persistence Capital Partners" },
+    "aka": ["PCP"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.persistencecapital.com/",
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["healthcare-services", "digital-health"],
+      "thesis": "Canada's only private-equity firm focused exclusively on high-growth healthcare opportunities, backing growth-and-service-oriented healthcare businesses (clinics, pharmacy roll-ups, aesthetics) via buyouts, management-buy-out support and growth capital; team of former healthcare owners, operators and regulators."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 68,
+      "notable_investments": [
+        { "company": "Neighbourly Pharmacy", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "Glow Medical Aesthetics", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "tags": ["healthcare services", "private equity", "growth equity", "clinics", "pharmacy roll-up"],
+    "summary": {
+      "en": "Montreal-based private-equity firm, founded 2008, exclusively focused on high-growth Canadian healthcare-services businesses such as clinic and pharmacy roll-ups; its founders also co-founded digital-health VC Esplanade Ventures."
+    },
+    "sources": [
+      {
+        "url": "https://www.persistencecapital.com/",
+        "title": "Persistence Capital Partners",
+        "publisher": "Persistence Capital Partners",
+        "accessed": "undefined",
+        "supports": "Firm focus, HQ",
+        "quote": "Persistence Capital Partners is Canada's only private equity firm focused exclusively on high-growth opportunities in healthcare."
+      },
+      {
+        "url": "https://www.privateequitywire.co.uk/persistence-capital-partners-creates-canadas-first-dedicated-health-care-private-equity-f/",
+        "title": "Persistence Capital Partners creates Canada's first dedicated health care private equity fund",
+        "publisher": "Private Equity Wire",
+        "accessed": "undefined",
+        "supports": "Founding year, founders, investment strategy",
+        "quote": "Founded in 2008 by Dr. Sheldon Elman and Stuart M. Elman, Persistence Capital Partners is comprised of former owners, operators, and regulators of healthcare businesses in Canada and around the world."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio count (68 investments) and named notable deals sourced from a secondary aggregator (Tracxn/CBInsights-style profile) summary rather than a primary PCP page fetched directly; entity type mapped to 'growth-equity' since schema has no dedicated 'private-equity' slug and PCP's model (buyouts, growth capital in healthcare services) fits closest there.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "ca-grand-challenges-canada",
+    "name": { "en": "Grand Challenges Canada" },
+    "aka": ["GCC"],
+    "type": "venture-philanthropy",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.grandchallenges.ca/",
+    "strategy": {
+      "lead_or_follow": "follow",
+      "geo_focus": ["Global (priority: low- and middle-income countries)"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "thesis": "Government of Canada-backed non-profit impact investor that funds and anchor-invests in global-health innovations, including a dedicated digital-health priority area, and seeds impact-investing vehicles (e.g. it anchored the Global Health Investment Fund and helped create/spin out Cross-Border Impact Ventures) to scale health innovations for underserved populations."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Operates a Venture Advisor Program offering coaching to digital-health and other global-health innovators, in addition to anchoring third-party investment funds."
+    },
+    "tags": ["global health", "digital health", "impact investing", "government-backed", "venture philanthropy"],
+    "summary": {
+      "en": "Toronto-based, Government of Canada-funded non-profit that grants and invests in global-health innovations — including a dedicated digital-health program — and has anchored impact investment funds such as the Global Health Investment Fund and Cross-Border Impact Ventures."
+    },
+    "sources": [
+      {
+        "url": "https://www.grandchallenges.ca/what-we-do/how-we-fund/investment-funds/",
+        "title": "Investment funds - Grand Challenges Canada",
+        "publisher": "Grand Challenges Canada",
+        "accessed": "undefined",
+        "supports": "Role as anchor investor in impact funds, capital mobilized",
+        "quote": "Grand Challenges Canada is an anchor investor in a $108M innovative equity fund, helping validate a new model for global health investing."
+      },
+      {
+        "url": "https://www.grandchallenges.ca/digital-health/",
+        "title": "Digital Health - Grand Challenges Canada",
+        "publisher": "Grand Challenges Canada",
+        "accessed": "undefined",
+        "supports": "Dedicated digital-health program",
+        "quote": "Digital Health - Grand Challenges Canada"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "GCC is primarily a grant-making/impact-investing non-profit whose portfolio spans many global-health domains (not exclusively digital health) and whose geography is mostly low- and middle-income countries rather than Canada itself; included because it is Canada-HQ'd, government-backed, and runs a dedicated digital-health funding stream. Founding year not confirmed in sources reviewed this session, so left blank.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "ca-panache-ventures",
+    "name": { "en": "Panache Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "canada",
+    "country": "Canada",
+    "offices": [
+      { "country": "Canada", "city": "Toronto" },
+      { "country": "Canada", "city": "Montreal" },
+      { "country": "Canada", "city": "Calgary" }
+    ],
+    "website": "https://www.panache.vc/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Generalist pre-seed/seed VC that names digital health as one of five core target verticals (alongside AI, fintech, enterprise software and blockchain) reflecting areas it views as Canadian strengths; not exclusively health-focused."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["seed VC", "digital health", "generalist", "AI", "fintech"],
+    "summary": {
+      "en": "Pan-Canadian early-stage VC (Toronto/Montreal/Calgary) that names digital health as one of its five target sectors alongside AI, fintech, enterprise software and blockchain."
+    },
+    "sources": [
+      {
+        "url": "https://www.ventureontario.ca/panache-ventures",
+        "title": "Panache Ventures",
+        "publisher": "VentureOntario",
+        "accessed": "undefined",
+        "supports": "Founding year, offices, sector focus",
+        "quote": "Established in 2018 with offices in Toronto, Montreal, and Calgary, Panache Ventures has a strong focus on digital health."
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/panache-ventures",
+        "title": "Panache Ventures - Crunchbase Company Profile & Funding",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Sector list including digital health",
+        "quote": "Panache targets early-stage and seed-stage investment opportunities in the areas of e-commerce, enterprise software, deep tech, digital health, and fintech, with a concentration on companies located in Canada."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Digital health is one of five stated target sectors for this generalist seed fund, not its primary focus; included per the medical-nexus requirement but should be weighted as a secondary/partial fit for this slice. Official website URL not independently confirmed via direct fetch in this session.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  }
+]

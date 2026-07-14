@@ -1,0 +1,785 @@
+[
+  {
+    "id": "us-sosv-indiebio",
+    "name": { "en": "SOSV (IndieBio)" },
+    "aka": ["IndieBio", "SOSV SF", "SOSV NY", "SOSV"],
+    "type": "accelerator",
+    "subtypes": ["incubator", "vc"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://indiebio.co/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/synbio-axlr8r",
+      "other": ["https://sosv.com/"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "life-science-tools", "diagnostics"],
+      "thesis": "The first startup accelerator dedicated to synthetic biology and life science, providing on-site bio-labs and pre-seed capital to scientist-founders; program remit has since broadened across deep tech (chemistry, physics, AI). Part of SOSV."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Operates wet-lab / bio-lab space on site in San Francisco and New York for founders to build companies from scratch."
+    },
+    "program": {
+      "length_weeks": 16,
+      "investment": { "raw": "$250,000 (up to $525,000)", "usd": 250000, "currency": "USD" },
+      "equity_taken_pct": "8%",
+      "format": "in-person",
+      "location": "San Francisco & New York",
+      "lab_space": true,
+      "demo_day": true
+    },
+    "track_record": {
+      "portfolio_count": 961,
+      "notable_investments": [
+        { "company": "UPSIDE Foods", "sector": "cultivated meat / synbio", "outcome": "unicorn" },
+        { "company": "NotCo", "sector": "food tech / synbio", "outcome": "unicorn" },
+        { "company": "Memphis Meats", "sector": "cultivated meat", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "SOSV's IndieBio (rebranded SOSV SF / SOSV NY in 2026) is the world's first synthetic-biology-focused startup accelerator, providing on-site bio-labs and pre-seed checks to scientist-founders in therapeutics, food and industrial bio."
+    },
+    "sources": [
+      {
+        "url": "https://indiebio.co/",
+        "title": "Homepage - IndieBio",
+        "publisher": "IndieBio / SOSV",
+        "accessed": "undefined",
+        "supports": "accelerator model, bio-labs, founding, locations, follow-on funding, rebrand",
+        "quote": "Silicon Valley's first biotech program to offer bio-labs on site as well as pre-seed investment to scientists ready to launch startups."
+      },
+      {
+        "url": "https://indiebio.co/",
+        "title": "Homepage - IndieBio",
+        "publisher": "IndieBio / SOSV",
+        "accessed": "undefined",
+        "supports": "graduate count and follow-on capital",
+        "quote": "Between 2015 and 2025, IndieBio's 310 graduates raised $3.6 billion"
+      },
+      {
+        "url": "https://www.peony.ink/blog/top-10-biotech-startup-accelerators",
+        "title": "10 Best Biotech Accelerators and Incubators in 2026",
+        "publisher": "Peony",
+        "accessed": "undefined",
+        "supports": "investment amount/equity, SOSV AUM and company count, unicorn portfolio",
+        "quote": "IndieBio offers an investment of up to $525,000, which includes $250,000 in initial funding in exchange for an 8% equity stake ... Part of SOSV ($1.5B AUM, 961 companies), IndieBio's portfolio includes unicorns NotCo and UPSIDE Foods"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "IndieBio widely cited as founded 2014 (world's first synbio accelerator); the official site dates the San Francisco program launch to 2015. Rebranded to SOSV SF / SOSV NY in early 2026; parent SOSV founded 1995. Program length ~4 months (16 weeks) per multiple secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-fifty-years",
+    "name": { "en": "Fifty Years" },
+    "aka": ["50Y", "Fifty Years VC"],
+    "type": "vc",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://fiftyyears.com/",
+    "links": {
+      "other": ["https://www.vcsheet.com/fund/fifty-years", "https://f4.fund/firms/fifty-years"]
+    },
+    "capital": {
+      "aum": { "raw": "$200M+", "currency": "USD" },
+      "current_fund": { "raw": "$90M (2021)", "usd": 90000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "~$2.7M avg" },
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "generalist-health"],
+      "thesis": "Backs founders using deep technology to solve major global problems including infectious disease, malnutrition and the climate crisis; particular strength in synthetic biology and food/bio manufacturing."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "indications": ["infectious-disease"]
+    },
+    "track_record": {
+      "portfolio_count": 152,
+      "notable_investments": [
+        { "company": "Solugen", "sector": "synbio / bio-based chemicals", "outcome": "unicorn" },
+        { "company": "Upside Foods", "sector": "cultivated meat / synbio", "outcome": "unicorn" },
+        { "company": "Geltor", "sector": "synbio / biomaterials", "outcome": "active" },
+        { "company": "Living Carbon", "sector": "synbio / climate", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "San Francisco pre-seed/seed deep-tech fund backed by dozens of unicorn founders, with a pronounced synthetic-biology thesis spanning infectious disease, biomanufacturing and food tech."
+    },
+    "sources": [
+      {
+        "url": "https://startupintros.com/orgs/fifty-years",
+        "title": "Fifty Years: Funding, Team & Investors",
+        "publisher": "Startup Intros",
+        "accessed": "undefined",
+        "supports": "AUM, 2021 fund size, stage, thesis, portfolio, investor base",
+        "quote": "Fifty Years has $200M+ in AUM, and the firm raised a notable $90 million fund in 2021 backed by dozens of unicorn founders."
+      },
+      {
+        "url": "https://www.vcsheet.com/fund/fifty-years",
+        "title": "Fifty Years - VC Fund Breakdown",
+        "publisher": "VC Sheet",
+        "accessed": "undefined",
+        "supports": "deal count, average check, portfolio names",
+        "quote": "deployed capital across 152 investments to date, with a historical average check size of $2.7 million ... Upside Foods, Solugen, Astranis, and Geltor"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official site (fiftyyears.com) returned HTTP 403 during research; figures rely on reputable secondary aggregators (Startup Intros, VC Sheet). Founders Seth Bannon and Ela Madej widely reported but not confirmed here, so founded_year omitted.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-cantos-ventures",
+    "name": { "en": "Cantos" },
+    "aka": ["Cantos Ventures"],
+    "type": "vc",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United States", "city": "Los Angeles" }
+    ],
+    "website": "https://cantos.vc/",
+    "links": {
+      "other": ["https://www.vcsheet.com/fund/cantos", "https://www.deep-tech-week.com/organizations/cantos-ventures"]
+    },
+    "capital": {
+      "aum": { "raw": "$120M+", "currency": "USD" },
+      "funds": [
+        { "name": "Fund III", "vintage_year": 2022, "size": { "raw": "$50M", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "generalist-health"],
+      "thesis": "Provides initial capital and counsel to founders transforming the physical world across abundance, resilience and advantage (energy, defense, infrastructure, space, advanced manufacturing and biotech); a meaningful engineered-biology / therapeutics slice sits under its 'health' path."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "biologics-antibody", "lab-automation"]
+    },
+    "track_record": {
+      "portfolio_count": 71,
+      "notable_investments": [
+        { "company": "Solugen", "sector": "synbio / bio-based chemicals", "outcome": "unicorn" },
+        { "company": "Nabla Bio", "sector": "AI protein / antibody design", "outcome": "active" },
+        { "company": "Glyphic Biotechnologies", "sector": "protein sequencing", "outcome": "active" },
+        { "company": "Debut Biotech", "sector": "cell-free synbio", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Ian Rountree", "role": "Founder & General Partner" }
+    ],
+    "summary": {
+      "en": "San Francisco deep-tech seed firm founded in 2016 by Ian Rountree, backing frontier founders in the physical world including a cluster of engineered-biology, protein-design and therapeutics companies."
+    },
+    "sources": [
+      {
+        "url": "https://cantos.vc/",
+        "title": "Cantos | For Legends in the Making",
+        "publisher": "Cantos",
+        "accessed": "undefined",
+        "supports": "founding year, founder, thesis paths, stage, HQ",
+        "quote": "Ian founded Cantos in 2016 to invest in innovation outside of Silicon Valley's comfort zone."
+      },
+      {
+        "url": "https://www.vcsheet.com/fund/cantos",
+        "title": "Cantos - VC Fund Breakdown",
+        "publisher": "VC Sheet",
+        "accessed": "undefined",
+        "supports": "AUM, Fund III size, portfolio count, biotech portfolio names",
+        "quote": "actively deploying from its $120M+ under management (Fund III: $50M closed in 2022) ... Debut Biotech, Faaeth Therapeutics, Glyphic Biotechnologies, Nabla Bio ... Solugen"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year, founder, thesis and HQ confirmed on official site; AUM ($120M+), Fund III ($50M) and portfolio count (71 as of Oct 2025) from VC Sheet secondary aggregator.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-playground-global",
+    "name": { "en": "Playground Global" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "website": "https://www.playground.vc/",
+    "capital": {
+      "aum": { "raw": "more than $1.2 billion", "usd": 1200000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund III", "vintage_year": 2023, "size": { "raw": "$410 million", "usd": 410000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$1 million to $20 million", "usd_min": 1000000, "usd_max": 20000000 },
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "ai-drug-discovery", "life-science-tools", "genomics-omics"],
+      "thesis": "Early-stage deep-tech and science firm; its life-science thesis backs founder-led engineered-biology startups building emerging-modality therapeutics and AI/ML workflows to refactor drug development, investing at the nexus of next-gen compute, AI, synbio, automation and data-generation tools."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "rna-therapeutics", "cell-therapy", "gene-editing"],
+      "science_platform_notes": "Life-science vertical led by GP Jory Bell; invests at the intersection of compute/AI and engineered biology to build the 'biotech ecosystem of the future'."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Strand Therapeutics", "sector": "programmable mRNA therapeutics", "outcome": "active" },
+        { "company": "Manifold Bio", "sector": "protein therapeutics / barcoding", "outcome": "active" },
+        { "company": "Outpace Bio", "sector": "engineered cell therapy", "outcome": "active" },
+        { "company": "Amber Bio", "sector": "RNA gene editing", "outcome": "active" },
+        { "company": "Ultima Genomics", "sector": "sequencing / life-science tools", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Palo Alto deep-tech firm (founded 2015, $1.2B+ AUM) whose engineered-biology thesis funds emerging-modality therapeutics and compute/AI-driven drug-development platforms at seed and Series A."
+    },
+    "sources": [
+      {
+        "url": "https://blog.playground.vc/playground-global-raises-410-million-to-accelerate-the-time-to-impact-for-deep-tech-and-science-companies/",
+        "title": "Playground Global Raises $410 Million to Accelerate the Time-to-Impact for Deep Tech and Science Companies",
+        "publisher": "Playground Global",
+        "accessed": "undefined",
+        "supports": "fund size, AUM, founding, HQ, check size, stage, synbio thesis, portfolio",
+        "quote": "raised $410 million in new capital, bringing the firm's assets under management to more than $1.2 billion ... Founded in 2015 and headquartered in Palo Alto, CA ... investing at the nexus of next-gen compute, AI, synbio, automation and complex data generation tools to build the biotech ecosystem of the future"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20231214676152/en/Playground-Global-Raises-$410-Million-to-Accelerate-the-Time-to-Impact-for-Deep-Tech-and-Science-Companies",
+        "title": "Playground Global Raises $410 Million",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "check size, stage, engineered biology focus areas",
+        "quote": "capital deployments in Fund III will focus on Seed and Series A companies with initial investments ranging from $1 million to $20 million across next-gen computing, logistics, automation, infrastructure, decarbonization, and engineered biology"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "All key figures from Playground's own $410M-raise announcement (2023).",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-dcvc-bio",
+    "name": { "en": "DCVC Bio" },
+    "aka": ["Data Collective Bio", "DCVC"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "offices": [
+      { "country": "United States", "city": "Palo Alto" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.dcvc.com/bio/",
+    "capital": {
+      "funds": [
+        { "name": "DCVC Bio III", "vintage_year": 2024, "size": { "raw": "$400 million", "usd": 400000000, "currency": "USD" } },
+        { "name": "DCVC Bio II", "vintage_year": 2020, "size": { "raw": "$350 million", "usd": 350000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "ai-drug-discovery", "therapeutics", "genomics-omics", "life-science-tools"],
+      "thesis": "Backs early-stage life-science companies exploiting computation and breakthroughs in synthetic biology, microfluidics and other fields to bring breakthrough medicines to the clinic and commercialize novel products across human health, agriculture and synthetic biology."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "biologics-antibody"],
+      "science_platform_notes": "The dedicated bio arm of deep-tech firm DCVC; thesis centered on AI/large-data models untangling gene and protein networks."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AbCellera", "sector": "antibody discovery platform", "outcome": "IPO" },
+        { "company": "Recursion Pharmaceuticals", "sector": "AI drug discovery", "outcome": "IPO" },
+        { "company": "MycoWorks", "sector": "synbio / mycelium materials", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The dedicated life-science arm of deep-tech firm DCVC (est. 2018), investing in computational and synthetic-biology companies bringing medicines to the clinic; closed a $400M Fund III in 2024."
+    },
+    "sources": [
+      {
+        "url": "https://www.dcvc.com/bio/",
+        "title": "DCVC Bio",
+        "publisher": "DCVC",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, thesis, synthetic biology focus",
+        "quote": "we established DCVC Bio in 2018 ... Investing in human health, agriculture, and synthetic biology ... we back innovators and entrepreneurs exploiting computation and breakthroughs in synthetic biology, microfluidics, and other fields"
+      },
+      {
+        "url": "https://www.synbiobeta.com/read/dcvc-bio-closes-400-million-fund-iii-to-accelerate-breakthroughs-in-life-sciences-and-deep-tech",
+        "title": "DCVC Bio Closes $400 Million Fund III to Accelerate Breakthroughs in Life Sciences and Deep Tech",
+        "publisher": "SynBioBeta",
+        "accessed": "undefined",
+        "supports": "Fund III size (2024), prior fund size (2020)",
+        "quote": "closed its oversubscribed third fund at $400 million in September 2024, following a previous $350 million deep-tech life sciences fund raised in 2020"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year, HQ and synbio thesis confirmed on official DCVC Bio page; fund sizes from SynBioBeta (secondary). Parent firm DCVC reported at ~$4B total AUM.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-refactor-capital",
+    "name": { "en": "Refactor Capital" },
+    "type": "micro-vc",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://refactor.com/",
+    "capital": {
+      "aum": { "raw": "$300M across five funds", "usd": 300000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund V", "size": { "raw": "$50 million", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed"],
+      "check_size": { "raw": "$1–2M", "usd_min": 1000000, "usd_max": 2000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "generalist-health", "femtech-womens-health"],
+      "thesis": "Solo-GP seed hard-tech fund 'backing founders refactoring the real world: atoms, not bits'; applied-bio, health and fertility sit alongside aerospace, energy and materials in its focus areas."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Solugen", "sector": "synbio / bio-based chemicals", "outcome": "unicorn" }
+      ],
+      "portfolio_count": "6 unicorns backed"
+    },
+    "people": [
+      { "name": "Zal Bilimoria", "role": "Solo GP / Founding Partner" }
+    ],
+    "summary": {
+      "en": "Solo-GP seed fund (since 2015) run by Zal Bilimoria writing $1-2M checks into hard-tech founders 'building atoms, not bits', including applied-bio, health and fertility companies such as synbio unicorn Solugen."
+    },
+    "sources": [
+      {
+        "url": "https://refactor.com/",
+        "title": "Refactor Capital | Seed-Stage Hard Tech VC",
+        "publisher": "Refactor Capital",
+        "accessed": "undefined",
+        "supports": "check size, stage, solo GP, AUM/fund structure, focus areas, founding",
+        "quote": "I invest $1–2M in seed stage hard tech startups across the US ... One investor managing $300M across five funds ... Applied Bio ... Health ... Backing the hard but not impossible since 2015."
+      },
+      {
+        "url": "https://www.vcsheet.com/fund/refactor-capital",
+        "title": "Refactor Capital - VC Fund Breakdown",
+        "publisher": "VC Sheet",
+        "accessed": "undefined",
+        "supports": "fund cap $50M, unicorn track record incl Solugen",
+        "quote": "Refactor Capital just closed a $50 million fifth fund ... backed six unicorns, including the green-chemicals maker Solugen"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Check size, stage, solo-GP structure, focus areas and 2015 start confirmed on official site; the '$300M across five funds' figure with each fund capped at $50M is reconciled with VC Sheet reporting. Founder Zal Bilimoria named on official site.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-kdt-ventures",
+    "name": { "en": "KdT Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Austin",
+    "website": "https://www.kdtvc.com/",
+    "capital": {
+      "aum": { "raw": "exceeding $250 million across four funds", "usd": 250000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund IV", "size": { "raw": "$100M", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "ai-drug-discovery", "cell-gene-therapy", "life-science-tools"],
+      "thesis": "Early-stage frontier-science firm 'reprogramming chemistry and biology using creative technology platforms'; often the first institutional check, leading pre-seed and seed rounds in companies engineering matter at the molecular level."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "ai-ml-platform", "lab-automation"],
+      "science_platform_notes": "Deeply technical partnership (multiple MD-PhDs) focused on the physical layer of chemistry, biology and materials."
+    },
+    "track_record": {
+      "portfolio_count": 65,
+      "notable_investments": [
+        { "company": "Dyno Therapeutics", "sector": "AI-designed AAV gene-therapy vectors", "outcome": "active" },
+        { "company": "Solugen", "sector": "synbio / bio-based chemicals", "outcome": "unicorn" },
+        { "company": "Terray Therapeutics", "sector": "AI drug discovery", "outcome": "active" },
+        { "company": "Elegen", "sector": "gene synthesis / synbio tools", "outcome": "active" },
+        { "company": "Tierra Biosciences", "sector": "cell-free synbio", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Cain McClary", "role": "Co-founder & Managing Partner", "background": "MD" }
+    ],
+    "summary": {
+      "en": "Austin-based frontier-science VC (founded 2017, $250M+ AUM across four funds) that leads pre-seed/seed rounds 'reprogramming chemistry and biology', spanning synthetic biology, gene therapy and computational drug discovery."
+    },
+    "sources": [
+      {
+        "url": "https://www.kdtvc.com/",
+        "title": "KdT Ventures",
+        "publisher": "KdT Ventures",
+        "accessed": "undefined",
+        "supports": "thesis, stage (first check, lead pre-seed/seed)",
+        "quote": "the firm positions itself as 'often the first institutional check' and 'lead or co-lead pre-seed and seed rounds' ... platforms that can engineer matter, energy, and information in entirely new ways"
+      },
+      {
+        "url": "https://www.synbiobeta.com/read/kdt-ventures-closes-100m-fund-iv-to-fuel-early-stage-science-startups",
+        "title": "KdT Ventures Closes $100M Fund IV to Fuel Early-Stage Science Startups",
+        "publisher": "SynBioBeta",
+        "accessed": "undefined",
+        "supports": "founding, HQ, AUM, Fund IV size, portfolio count, portfolio names, founder",
+        "quote": "founded in 2017 by Cain McClary, MD. The firm is headquartered in Austin, TX ... total assets under management exceeding $250 million across four funds ... over 65 companies ... Solugen ... Dyno Therapeutics ... Tierra Biosciences"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Thesis and stage from official site; founding year, HQ, AUM, Fund IV ($100M), portfolio count and names, and founder from SynBioBeta.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-civilization-ventures",
+    "name": { "en": "Civilization Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.civilizationventures.com/",
+    "capital": {
+      "aum": { "raw": "over $200M in capital", "usd": 200000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "genomics-omics", "diagnostics", "digital-health", "cell-gene-therapy", "therapeutics"],
+      "thesis": "Backs founders building 'preventative, personalized, and regenerative' healthcare across genomics + diagnostics, digital health and synthetic biology (including gene + cell therapies)."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "cell-therapy", "gene-editing", "ai-ml-platform"],
+      "science_platform_notes": "Team of experienced biopharma executives and founder-operators supporting portfolio companies."
+    },
+    "track_record": {
+      "portfolio_count": 75,
+      "notable_investments": [
+        { "company": "BillionToOne", "sector": "molecular diagnostics", "outcome": "unicorn" },
+        { "company": "Rocket Pharmaceuticals", "sector": "gene therapy", "outcome": "IPO" },
+        { "company": "Rewrite Therapeutics", "sector": "genome editing", "outcome": "acquired" },
+        { "company": "Foresight Diagnostics", "sector": "cancer diagnostics", "outcome": "active" }
+      ],
+      "exits": [
+        { "company": "Rocket Pharmaceuticals", "type": "IPO", "year": 2018 },
+        { "company": "Rewrite Therapeutics", "type": "M&A", "year": 2022 }
+      ]
+    },
+    "people": [
+      { "name": "Shahram Seyedin-Noor", "role": "Founder & General Partner", "background": "25+ years in life sciences and venture capital" }
+    ],
+    "summary": {
+      "en": "San Francisco life-science VC (founded 2017, $200M+ AUM) backing genomics, diagnostics, digital health and synthetic biology including gene and cell therapies; 75 investments with 17 exits and 3 unicorns."
+    },
+    "sources": [
+      {
+        "url": "https://www.civilizationventures.com/",
+        "title": "Civilization Ventures",
+        "publisher": "Civilization Ventures",
+        "accessed": "undefined",
+        "supports": "thesis, focus areas, AUM, portfolio and exit counts, notable exits",
+        "quote": "genomics + diagnostics, digital health and synthetic biology (including gene + cell therapies) ... over $200M in capital ... 75 Investments, 17 Exits, 3 Unicorns in 7 Years"
+      },
+      {
+        "url": "https://startupintros.com/orgs/civilization-ventures",
+        "title": "Civilization Ventures: Funding, Team & Investors",
+        "publisher": "Startup Intros",
+        "accessed": "undefined",
+        "supports": "founding year, founder, AUM, portfolio names",
+        "quote": "founded in 2017 by Shahram Seyedin-Noor ... manages over $200 million in total assets under management ... BillionToOne, Omada Health, Foresight Diagnostics"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Thesis, focus areas, AUM and portfolio/exit counts from official site; founder and founding year from Startup Intros (secondary).",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-boom-capital",
+    "name": { "en": "Boom Capital" },
+    "aka": ["BOOM Capital", "Boom Capital Ventures"],
+    "type": "micro-vc",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://boomcap.co/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/boomcapital",
+      "other": ["https://pitchbook.com/profiles/investor/223960-33"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "genomics-omics", "therapeutics", "generalist-health"],
+      "thesis": "Invests early — 'often before anyone else is a believer' — in deeply technical founders building at the frontiers of science: healthcare, genomics, machine intelligence, aerospace and new chemistries."
+    },
+    "lifesci": {
+      "modalities": ["gene-editing", "ai-ml-platform", "biologics-antibody"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Mammoth Biosciences", "sector": "CRISPR / synbio", "outcome": "unicorn" },
+        { "company": "A-Alpha Bio", "sector": "synbio / protein-protein interactions", "outcome": "active" },
+        { "company": "Fauna Bio", "sector": "comparative genomics drug discovery", "outcome": "active" },
+        { "company": "Nabla Bio", "sector": "AI antibody design", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Celestine Schnugg", "role": "Founder", "background": "ex-Innovation Endeavors, ex-Apple; 2019 WSJ 'Women to Watch' in VC" }
+    ],
+    "summary": {
+      "en": "San Francisco pre-seed firm (founded 2017 by Celestine Schnugg) writing first checks into deeply technical, under-networked founders in genomics, synthetic biology and healthcare — first investor in Mammoth Biosciences, A-Alpha Bio and Nabla Bio."
+    },
+    "sources": [
+      {
+        "url": "https://boomcap.co/",
+        "title": "BOOM Capital",
+        "publisher": "Boom Capital",
+        "accessed": "undefined",
+        "supports": "thesis, focus areas, early-stage positioning",
+        "quote": "Boom Capital invests early in founders building at the frontiers of science: healthcare, genomics, machine intelligence, aerospace and new chemistries."
+      },
+      {
+        "url": "https://www.forbes.com/sites/johncumbers/2023/05/10/these-10-women-investors-are-betting-big-on-synthetic-biology-future/",
+        "title": "These 10 Women Investors Are Betting Big On Synthetic Biology Future",
+        "publisher": "Forbes / SynBioBeta",
+        "accessed": "undefined",
+        "supports": "founding year, founder background, HQ, first-investor track record",
+        "quote": "Boom Capital ... founded in 2017 by Celestine Schnugg (formerly at Innovation Endeavors and Apple) ... first investor in Mammoth Biosciences, Fauna Bio, A-Alpha Bio, and Nabla Bio."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Thesis and focus areas confirmed on official site; founder, founding year and first-investor track record from Forbes/SynBioBeta (secondary). HQ (San Francisco) per secondary sources; official site does not state location.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-petri",
+    "name": { "en": "Petri" },
+    "aka": ["Petri Bio"],
+    "type": "accelerator",
+    "subtypes": ["incubator", "venture-studio"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://petri.bio/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/petri-bio",
+      "linkedin": "https://www.linkedin.com/company/petribio",
+      "other": ["https://www.pillar.vc/venture-capital/why-we-built-petri/"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "ai-drug-discovery", "life-science-tools"],
+      "thesis": "A first-of-its-kind accelerator supporting early-stage founders working on breakthroughs at the frontier of biology and engineering; created by Pillar VC with leaders behind Ginkgo Bioworks, Twist Bioscience, Flagship and MIT."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Provides turnkey BSL2 lab space and shared office space in Boston plus 12+ months of one-on-one founder support."
+    },
+    "program": {
+      "length_weeks": 52,
+      "investment": { "raw": "$250,000 equity investment (in some cases more)", "usd": 250000, "currency": "USD" },
+      "format": "in-person",
+      "location": "Boston",
+      "lab_space": true,
+      "eligibility": "Formation-stage founders at the intersection of biology and engineering (graduate students, postdocs, or those leaving large companies)."
+    },
+    "track_record": {
+      "portfolio_count": 11
+    },
+    "people": [
+      { "name": "Tony Kulesa", "role": "Co-founder", "background": "MIT PhD" },
+      { "name": "Jamie Goldstein", "role": "Co-founder", "background": "Pillar VC founding partner" },
+      { "name": "Brian Baynes", "role": "Co-founder", "background": "Flagship Pioneering serial founder/investor" }
+    ],
+    "summary": {
+      "en": "Boston pre-seed/seed accelerator launched by Pillar VC in 2019 for formation-stage founders at the biology-and-engineering frontier, offering a $250K investment, BSL2 lab space and a 12-month program."
+    },
+    "sources": [
+      {
+        "url": "https://www.pillar.vc/venture-capital/why-we-built-petri/",
+        "title": "Why We Built Petri",
+        "publisher": "Pillar VC",
+        "accessed": "undefined",
+        "supports": "model, investment amount, program length, lab space, founders",
+        "quote": "Petri is a first-of-its-kind accelerator that supports early-stage founders working on breakthroughs at the frontier of biology and engineering ... $250,000 equity investment (in some cases more) ... turnkey BSL2 lab space in Boston"
+      },
+      {
+        "url": "https://www.forbes.com/sites/johncumbers/2019/09/13/boston-tech-investors-launch-petr-accelerator-fund-synthetic-biology-entrepreneurs-startups-innovation/",
+        "title": "Boston Tech Investors Launch Petri Accelerator To Fund Synthetic Biology Entrepreneurs",
+        "publisher": "Forbes / SynBioBeta",
+        "accessed": "undefined",
+        "supports": "2019 launch, synthetic biology focus, Ginkgo/Twist/Beyond Meat pedigree",
+        "quote": "Petri is co-founded by Pillar VC and leaders behind of Gingko Bioworks, Beyond Meat, Twist Biosciences and more."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Model, investment amount, 12-month program, BSL2 lab space and founders confirmed on Pillar VC's official page; 2019 launch and synbio pedigree from Forbes. Portfolio count (~11) reflects an earlier public statement and may be higher now. Website https://petri.bio/ inferred from Crunchbase/LinkedIn handles; not directly fetched.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-flagship-pioneering",
+    "name": { "en": "Flagship Pioneering" },
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "website": "https://www.flagshippioneering.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "synthetic-biology", "ai-drug-discovery", "genomics-omics"],
+      "thesis": "Venture-creation firm that conceives, founds and builds its own bioplatform companies to change human health and the planet; originator of Moderna and a pipeline of first-of-their-kind medicines platforms."
+    },
+    "lifesci": {
+      "modalities": ["rna-therapeutics", "biologics-antibody", "gene-editing", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Runs an internal exploratory-science and company-foundry process (ProtoCos / NewCos) building platform biotechs from first principles."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Moderna", "sector": "mRNA therapeutics & vaccines", "outcome": "IPO" },
+        { "company": "Tessera Therapeutics", "sector": "gene writing / editing", "outcome": "active" },
+        { "company": "Generate:Biomedicines", "sector": "generative-AI protein therapeutics", "outcome": "active" },
+        { "company": "Inari Agriculture", "sector": "synbio / seed design", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Cambridge, MA venture-creation firm (25+ years) that invents and builds its own platform biotechs — most famously Moderna — spanning mRNA, gene writing, generative-biology therapeutics and synthetic biology."
+    },
+    "sources": [
+      {
+        "url": "https://www.flagshippioneering.com/",
+        "title": "Flagship Pioneering",
+        "publisher": "Flagship Pioneering",
+        "accessed": "undefined",
+        "supports": "company-creation model, tenure, notable companies",
+        "quote": "For over 25 years, Flagship Pioneering has endeavored to make the impossible possible ... Inventing and building companies that change the world ... Moderna (Founded: 2010) ... Tessera Therapeutics ... Generate:Biomedicines ... Inari Agriculture"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Company-creation model, tenure ('over 25 years' → founded ~2000) and flagship companies confirmed on official site. Founder/CEO Noubar Afeyan and total capital/AUM widely reported but not captured from a primary source here, so omitted. Primarily therapeutics-focused; included for its bioplatform/company-creation and synthetic-biology work (Inari, Moderna).",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  },
+  {
+    "id": "us-engine-ventures",
+    "name": { "en": "Engine Ventures" },
+    "aka": ["The Engine", "The Engine Ventures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "website": "https://engineventures.com/",
+    "capital": {
+      "aum": { "raw": "more than $1 billion", "usd": 1000000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund III", "vintage_year": 2024, "size": { "raw": "$398 million", "usd": 398000000, "currency": "USD" } },
+        { "name": "Fund I", "size": { "raw": "$200 million", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "diagnostics", "life-science-tools", "generalist-health"],
+      "thesis": "Invests in 'Tough Tech' founders translating breakthrough science and engineering from lab to market across three areas — climate, human health and advanced systems — including engineered/synthetic biology and biomanufacturing."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "gene-editing", "lab-automation"],
+      "science_platform_notes": "Spun out of MIT ('The Engine') with deep university, commercial and government networks and long-horizon capital for capital-intensive science."
+    },
+    "track_record": {
+      "portfolio_count": 56
+    },
+    "summary": {
+      "en": "MIT-born 'Tough Tech' VC (founded 2016, $1B+ AUM) backing capital-intensive science from lab to market across climate, human health and advanced systems, including engineered/synthetic biology and biomanufacturing."
+    },
+    "sources": [
+      {
+        "url": "https://engineventures.com/industries/biotech-life-sciences-2",
+        "title": "Biotech, Life Sciences and TechBio | Engine Ventures",
+        "publisher": "Engine Ventures",
+        "accessed": "undefined",
+        "supports": "Tough Tech mission, biotech/life-science focus",
+        "quote": "Engine Ventures is a venture firm that invests in the next generation of Tough Tech founders by providing capital, operational expertise, and a powerful academic, commercial, and governmental network"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20240618546662/en/Translating-Breakthroughs-from-Lab-to-Market-The-Engine-Ventures-Scales-its-Pioneering-Tough-Tech-Investment-Model",
+        "title": "The Engine Ventures Scales its Pioneering Tough Tech Investment Model",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Fund III size, total AUM, focus areas, portfolio count",
+        "quote": "raised a $398 million Fund III, bringing the firm's total assets under management to more than $1 billion ... focuses on three areas: climate, human health, and advanced systems ... backed 56 transformational companies"
+      },
+      {
+        "url": "https://news.mit.edu/2017/the-engine-announces-investments-first-group-startups-0919",
+        "title": "The Engine announces investments in first group of startups",
+        "publisher": "MIT News",
+        "accessed": "undefined",
+        "supports": "MIT origin, formation as The Engine (2016), Tough Tech asset class",
+        "quote": "Formed in 2016 as The Engine built by MIT, the firm's mission is to unlock commercialization in Tough Tech"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Tough Tech mission and human-health focus from official site and MIT News; Fund III ($398M), $1B+ AUM and 56-company count from Business Wire (2024). Broad deep-tech mandate (climate + health + advanced systems); included for its substantial engineered-biology/biomanufacturing and human-health practice.",
+    "last_updated": "undefined",
+    "researched_by": "synbio-deeptech-vc"
+  }
+]

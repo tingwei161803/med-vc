@@ -1,0 +1,771 @@
+[
+  {
+    "id": "eu-epidarex-capital",
+    "name": { "en": "Epidarex Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Edinburgh",
+    "offices": [
+      { "country": "United Kingdom", "city": "Edinburgh" },
+      { "country": "United States", "city": "Bethesda" }
+    ],
+    "capital": {
+      "funds": [
+        { "name": "Epidarex Fund IV", "vintage_year": 2026, "size": { "raw": "$145M", "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Transatlantic life-science VC headquartered in Edinburgh (with a Bethesda, MD office) backing early-stage therapeutics companies spun out of UK, Ireland and US research institutions across oncology, cardiometabolic, autoimmune and neurological disease."
+    },
+    "lifesci": {
+      "indications": ["oncology", "cardiovascular", "metabolic-obesity", "immunology-inflammation", "neurology"]
+    },
+    "tags": ["seed", "therapeutics", "transatlantic"],
+    "summary": { "en": "Edinburgh/Bethesda-based life-science VC investing seed-to-Series A in UK, Ireland and US biotech; closed a $145M Fund IV in January 2026." },
+    "sources": [
+      { "url": "https://www.ellty.com/investors/cambridge-biotech-investors", "title": "Cambridge Biotech Investors: 14 Active VCs Funding Life Science in 2026", "publisher": "Ellty", "accessed": "undefined", "supports": "Fund IV size and close date; HQ locations", "quote": "Epidarex Capital - HQ: Edinburgh and Bethesda, USA - Focus: \"Oncology, cardiometabolic, autoimmune, neurological\" - Fund size: Fund IV at $145M (closed Jan 2026)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Known anchor seed for this slice; dual-HQ Edinburgh/Bethesda MD confirmed via secondary aggregator, not yet cross-checked against Epidarex's own site.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-o2h-ventures",
+    "name": { "en": "o2h Ventures" },
+    "type": "vc",
+    "subtypes": ["venture-studio", "incubator"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Cambridge",
+    "website": "https://o2hventures.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "SEIS/EIS-eligible specialist fund investing only in biotech therapeutics and the intersection of biotech with AI/ML, incubating early-stage companies out of its own SciTech Park lab space."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Operates a proprietary 2.7-acre 'The Mill' SciTech Park to incubate portfolio biotechs, with sourcing links to Start Codon, Wellcome Trust and UK university tech-transfer offices."
+    },
+    "track_record": { "portfolio_count": "28+" },
+    "tags": ["seis-eis", "venture-builder", "cambridge"],
+    "summary": { "en": "Cambridge-based SEIS/EIS biotech fund and venture builder launched in 2018, providing pre-seed/seed capital and incubation to UK biotech therapeutics startups; over 28 companies backed to date." },
+    "sources": [
+      { "url": "https://o2hventures.com/", "title": "o2h Ventures | UK SEIS/EIS & Specialist Biotech Fund", "publisher": "o2h Ventures", "accessed": "undefined", "supports": "existence, focus, SEIS/EIS structure" },
+      { "url": "https://o2hventures.com/about", "title": "About - o2h Ventures", "publisher": "o2h Ventures", "accessed": "undefined", "supports": "founding year, portfolio count, SciTech Park model", "quote": "o2h ventures operate from their proprietary 2.7 acre The Mill SciTech Park where they are developing a unique model for incubating small life science companies." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Known anchor seed for this slice; verified via official site.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-start-codon",
+    "name": { "en": "Start Codon" },
+    "type": "venture-studio",
+    "subtypes": ["accelerator", "incubator"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Cambridge",
+    "website": "https://www.cic.vc/startcodon/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Life-sciences venture builder / accelerator, wholly owned by Cambridge Innovation Capital, that invests in and builds disruptive therapeutics, medtech and healthtech companies out of the Cambridge ecosystem."
+    },
+    "program": {
+      "location": "Cambridge, UK",
+      "format": "in-person"
+    },
+    "track_record": { "portfolio_count": 28 },
+    "tags": ["venture-builder", "accelerator", "cambridge"],
+    "summary": { "en": "Cambridge life-sciences venture builder/accelerator wholly owned by Cambridge Innovation Capital; has invested in 28 early-stage therapeutics, medtech and healthtech companies across the UK." },
+    "sources": [
+      { "url": "https://www.cic.vc/startcodon/", "title": "Start Codon - Cambridge Innovation Capital", "publisher": "Cambridge Innovation Capital", "accessed": "undefined", "supports": "existence, ownership by CIC, portfolio count", "quote": "Start Codon is a Life Sciences venture builder which has invested in 28 disruptive therapeutics, medtech and healthtech companies across the UK." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Known anchor seed for this slice. Secondary to Cambridge Innovation Capital (also listed separately in this file).",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-mercia-asset-management",
+    "name": { "en": "Mercia Asset Management" },
+    "aka": ["Mercia Ventures", "Mercia Fund Managers"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "website": "https://www.mercia.co.uk/",
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "UK regional (largely outside-London) asset manager whose Mercia Ventures practice backs founders developing therapeutics, medical technologies and healthcare innovations, alongside digital and deep-tech investing."
+    },
+    "tags": ["regional", "midlands", "generalist-with-lifesci-practice"],
+    "summary": { "en": "UK regional venture and growth capital manager (known anchor: 'Mercia life sciences') with a dedicated life-sciences investment track record spanning therapeutics, medtech and healthcare innovation, largely outside London." },
+    "sources": [
+      { "url": "https://merciaventures.co.uk/sector/health-life-sciences", "title": "Life Sciences – Mercia Ventures", "publisher": "Mercia Ventures", "accessed": "undefined", "supports": "life-sciences investment focus", "quote": "Mercia Asset Management has an investment track record in the life sciences, digital and deeptech sectors, with investments largely outside of London. At Mercia Ventures, they invest in founders developing therapeutics, medical technologies and healthcare innovations with the potential to make a meaningful difference." },
+      { "url": "https://privateequitywire.co.uk/2020/07/06/287193/downing-ventures-bgf-mercia-and-calculus-make-joint-investment-mip-diagnostics", "title": "Downing Ventures, BGF, Mercia and Calculus make joint investment in MIP Diagnostics", "publisher": "Private Equity Wire", "accessed": "undefined", "supports": "example diagnostics co-investment" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Known anchor seed for this slice ('Mercia (life sciences)'). Mercia is a generalist regional manager; life sciences is one of several practice areas, included per brief to note secondary subtypes.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-bgf",
+    "name": { "en": "BGF" },
+    "aka": ["Business Growth Fund"],
+    "type": "growth-equity",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://bgf.co.uk/",
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "£3M–£30M" },
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "digital-health"],
+      "geo_focus": ["United Kingdom", "Ireland"],
+      "thesis": "UK & Ireland's largest growth-capital investor runs a dedicated Healthcare & Life Sciences team backing scale-ups across pharma services, medtech, diagnostics and healthcare delivery."
+    },
+    "track_record": { "portfolio_count": "600+ (all sectors)" },
+    "tags": ["growth-capital", "evergreen"],
+    "summary": { "en": "UK-wide evergreen growth-equity investor (known anchor: 'BGF healthcare') with a dedicated healthcare/life-sciences sector team, typically writing £3M–£30M growth checks." },
+    "sources": [
+      { "url": "https://bgf.co.uk/sectors/healthcare", "title": "Portfolio Companies - BGF", "publisher": "BGF", "accessed": "undefined", "supports": "healthcare sector team, portfolio focus" },
+      { "url": "https://www.ellty.com/investors/cambridge-biotech-investors", "title": "Cambridge Biotech Investors: 14 Active VCs Funding Life Science in 2026", "publisher": "Ellty", "accessed": "undefined", "supports": "check size range", "quote": "BGF - HQ: UK-wide - Focus: Biotech scale-ups, Cambridge healthtech - Check size: £3M-£30M - Stage: Growth (Series A+)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Known anchor seed for this slice ('BGF healthcare'). BGF is a generalist growth investor; healthcare/life-sciences is one of its named sector teams.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-parkwalk-advisors",
+    "name": { "en": "Parkwalk Advisors" },
+    "type": "vc",
+    "subtypes": ["micro-vc", "university-hospital-fund"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "capital": { "aum": { "raw": "£450M+", "currency": "GBP" } },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Invests EIS-eligible capital as first checks into IP-rich university spinouts from Oxford, Cambridge and Imperial College, with medtech and life sciences as a core vertical alongside deep tech."
+    },
+    "tags": ["eis", "university-spinouts"],
+    "summary": { "en": "London-based EIS fund manager with £450M+ AUM investing in UK university (Oxford/Cambridge/Imperial) spinouts across medtech, life sciences and deep tech." },
+    "sources": [
+      { "url": "https://shizune.co/investors/life-science-vc-funds-united-kingdom", "title": "Top 50 Life Science VC Funds & Investors in United Kingdom", "publisher": "Shizune", "accessed": "undefined", "supports": "HQ, focus, stage", "quote": "Parkwalk Advisors - London, England | Focus: Biotechnology, Healthcare, Software | Stage: Seed-Series B" },
+      { "url": "https://www.ellty.com/investors/cambridge-biotech-investors", "title": "Cambridge Biotech Investors: 14 Active VCs Funding Life Science in 2026", "publisher": "Ellty", "accessed": "undefined", "supports": "AUM figure", "quote": "Parkwalk Advisors - HQ: London with Cambridge focus - Focus: Cambridge life sciences, genomics, EIS-eligible - Fund size: £450M+ AUM" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-oxford-science-enterprises",
+    "name": { "en": "Oxford Science Enterprises" },
+    "aka": ["OSE", "formerly Oxford Sciences Innovation"],
+    "type": "venture-studio",
+    "subtypes": ["university-hospital-fund"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Oxford",
+    "capital": { "aum": { "raw": "£600M+", "currency": "GBP" } },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "University-partnered venture firm with an exclusive relationship with the University of Oxford, building and funding companies across life science, healthcare, AI/software and deep tech."
+    },
+    "lifesci": { "company_creation": true },
+    "tags": ["university-partner", "oxford"],
+    "summary": { "en": "Oxford's exclusive university-partnered venture firm, raised over £600M to build life-science, healthcare and deep-tech companies from Oxford research." },
+    "sources": [
+      { "url": "https://shizune.co/investors/life-science-vc-funds-united-kingdom", "title": "Top 50 Life Science VC Funds & Investors in United Kingdom", "publisher": "Shizune", "accessed": "undefined", "supports": "existence, AUM", "quote": "Oxford Science Enterprises - Oxford, Oxfordshire | Focus: Healthcare, Biotech, Software | Stage: Seed-Series B | raised over £600M" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Multi-sector university venture partner; life sciences/healthcare is one of several named focus areas.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-cambridge-innovation-capital",
+    "name": { "en": "Cambridge Innovation Capital" },
+    "aka": ["CIC"],
+    "type": "vc",
+    "subtypes": ["university-hospital-fund"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Cambridge",
+    "capital": {
+      "aum": { "raw": "£600M+", "currency": "GBP" },
+      "funds": [ { "name": "CIC Opportunity Fund", "vintage_year": 2025, "size": { "raw": "£100M", "currency": "GBP" } } ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "genomics-omics", "medtech-devices"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Patient, long-term capital for the Cambridge ecosystem across biotech, genomics, medtech and deep tech; wholly owns venture builder Start Codon."
+    },
+    "tags": ["cambridge", "university-ecosystem"],
+    "summary": { "en": "Cambridge-based investor managing £600M+ across biotech, genomics, medtech and deep tech, and sole owner of life-sciences venture builder Start Codon." },
+    "sources": [
+      { "url": "https://www.ellty.com/investors/cambridge-biotech-investors", "title": "Cambridge Biotech Investors: 14 Active VCs Funding Life Science in 2026", "publisher": "Ellty", "accessed": "undefined", "supports": "AUM, new fund, focus", "quote": "Cambridge Innovation Capital (CIC) - HQ: Cambridge, UK - Focus: \"Biotech, genomics, medtech, deep tech\" - Fund size: £600M+ across multiple funds - Stage: Seed to Series B" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-syncona",
+    "name": { "en": "Syncona" },
+    "aka": ["Syncona Partners LLP", "Syncona Limited"],
+    "type": "crossover-fund",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "sector_focus": ["cell-gene-therapy", "therapeutics"],
+      "geo_focus": ["United Kingdom", "United States"],
+      "thesis": "London-listed investment company that both funds and actively builds life-science companies from academic spinouts, with a particular strength in cell and gene therapy, and holds positions through to public markets."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "company_creation": true,
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Autolus Therapeutics", "sector": "cell-gene-therapy", "outcome": "IPO" },
+        { "company": "Freeline Therapeutics", "sector": "cell-gene-therapy", "outcome": "IPO" },
+        { "company": "Gyroscope Therapeutics", "sector": "cell-gene-therapy", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["listed-investment-trust", "company-creation", "cell-and-gene-therapy"],
+    "summary": { "en": "London-listed crossover investment company and company-builder specializing in advanced therapeutics, especially cell and gene therapy, with portfolio exits including Autolus, Freeline and Gyroscope Therapeutics." },
+    "sources": [
+      { "url": "https://shizune.co/investors/life-science-vc-funds-united-kingdom", "title": "Top 50 Life Science VC Funds & Investors in United Kingdom", "publisher": "Shizune", "accessed": "undefined", "supports": "existence, HQ, sector", "quote": "Syncona Partners LLP - London, England | Focus: Biotech, Medical, Healthcare | Stage: Seed-Series B" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-sv-health-investors",
+    "name": { "en": "SV Health Investors" },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [ { "country": "United Kingdom", "city": "London" }, { "country": "United States", "city": "Boston" } ],
+    "capital": { "aum": { "raw": "$4B", "currency": "USD" } },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": ["United Kingdom", "United States", "Europe"],
+      "thesis": "Transatlantic life-science investor across therapeutics, medtech and digital health from Series A through growth."
+    },
+    "tags": ["transatlantic"],
+    "summary": { "en": "London/Boston dual-HQ life-science investor with roughly $4B AUM across therapeutics, medtech and digital health." },
+    "sources": [
+      { "url": "https://www.ellty.com/investors/cambridge-biotech-investors", "title": "Cambridge Biotech Investors: 14 Active VCs Funding Life Science in 2026", "publisher": "Ellty", "accessed": "undefined", "supports": "HQ, AUM, focus", "quote": "SV Health Investors - HQ: London and Boston - Focus: Therapeutics, medtech, digital health - Fund size: $4B AUM - Stage: Series A to growth" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-4bio-capital",
+    "name": { "en": "4BIO Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.4biocapital.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["cell-gene-therapy"],
+      "geo_focus": ["United Kingdom", "Europe", "United States"],
+      "thesis": "London-based specialist investor exclusively in advanced therapies — cell therapy, gene therapy, RNA-based therapy and microbiome — that led Cytospire Therapeutics' oversubscribed £61M Series A in May 2026."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "rna-therapeutics", "microbiome"]
+    },
+    "tags": ["advanced-therapies", "cell-and-gene-therapy"],
+    "summary": { "en": "London-based specialist VC investing exclusively in advanced therapies (cell, gene, RNA and microbiome), backing companies such as Cytospire Therapeutics." },
+    "sources": [
+      { "url": "https://www.4biocapital.com/", "title": "4BIO Capital | Venture Investment | Greater London", "publisher": "4BIO Capital", "accessed": "undefined", "supports": "existence, HQ, focus" },
+      { "url": "https://www.4biocapital.com/gene-therapy", "title": "Gene Therapy | 4BIO Capital | London", "publisher": "4BIO Capital", "accessed": "undefined", "supports": "modality focus" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-ip-group",
+    "name": { "en": "IP Group" },
+    "type": "vc",
+    "subtypes": ["growth-equity", "university-hospital-fund"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "London-listed IP-commercialization investor that builds and funds university spinouts, with a substantial biotech/therapeutics portfolio alongside deep tech and cleantech."
+    },
+    "lifesci": { "company_creation": true },
+    "tags": ["listed", "ip-commercialization", "university-spinouts"],
+    "summary": { "en": "London-listed permanent-capital investor commercializing university IP; biotech/therapeutics is a major portfolio vertical alongside deep tech and cleantech." },
+    "sources": [
+      { "url": "https://shizune.co/investors/life-science-vc-funds-united-kingdom", "title": "Top 50 Life Science VC Funds & Investors in United Kingdom", "publisher": "Shizune", "accessed": "undefined", "supports": "existence, HQ, sector", "quote": "IP Group - London, England | Focus: Healthcare, Biotech, Therapeutics | Stage: Seed-Series A" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Multi-sector investor (also deep tech, cleantech); life sciences/therapeutics is a major but not exclusive vertical.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-uki2s",
+    "name": { "en": "UK Innovation & Science Seed Fund" },
+    "aka": ["UKI2S", "Rainbow Seed Fund"],
+    "type": "vc",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Harwell",
+    "website": "https://ukinnovationscienceseedfund.co.uk/",
+    "capital": { "aum": { "raw": "£150M", "currency": "GBP" } },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["life-science-tools", "synthetic-biology"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Government-backed national seed fund (successor to the Rainbow Seed Fund) investing in science & technology spinouts, with engineering biology / life sciences as one of its core specializations."
+    },
+    "tags": ["government-backed", "spinouts", "harwell"],
+    "summary": { "en": "Harwell-based, government-backed pre-seed/seed fund with £150M AUM, one of the UK's largest science-spinout investors and historically a major backer of biotech spinouts from UK research councils." },
+    "sources": [
+      { "url": "https://ukinnovationscienceseedfund.co.uk/", "title": "UKI2S – Investing in innovations that transform our future", "publisher": "UKI2S", "accessed": "undefined", "supports": "existence, focus areas" },
+      { "url": "https://www.ukri.org/what-we-do/browse-our-areas-of-investment-and-support/uk-innovation-and-science-seed-fund/", "title": "UK innovation and science seed fund – UKRI", "publisher": "UKRI", "accessed": "undefined", "supports": "government backing" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Current stated specializations (engineering biology, defence & security, fusion, space) are broader than pure life sciences, but the fund's biotech/life-science-tools nexus is well documented historically (Rainbow Seed Fund heritage).",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-advent-life-sciences",
+    "name": { "en": "Advent Life Sciences" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [ { "country": "United Kingdom", "city": "London" }, { "country": "United States", "city": "Boston" }, { "country": "France", "city": "Paris" } ],
+    "website": "https://adventls.com/",
+    "capital": {
+      "funds": [ { "name": "Advent Life Sciences funds (2021 close)", "vintage_year": 2021, "size": { "raw": "$215M combined", "currency": "USD" } } ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": ["United Kingdom", "United States", "Europe"],
+      "thesis": "Transatlantic venture firm translating early-stage biomedical research into medicines, investing in biotech, pharma, medtech and digital health."
+    },
+    "tags": ["transatlantic"],
+    "summary": { "en": "London-headquartered transatlantic life-science VC (also Boston, Paris) investing in early- to mid-stage biotech, medtech and digital health; closed two funds totalling $215M in Feb 2021." },
+    "sources": [
+      { "url": "https://adventls.com/", "title": "Home | Advent Life Sciences", "publisher": "Advent Life Sciences", "accessed": "undefined", "supports": "existence, HQ, offices, focus" },
+      { "url": "https://www.prnewswire.com/news-releases/advent-life-sciences-announces-close-of-two-new-funds-totalling-215-million-to-translate-early-stage-research-into-impactful-medicines-for-patients-301230092.html", "title": "Advent Life Sciences Announces Close of Two New Funds Totalling $215 million to Translate Early-Stage Research into Impactful Medicines for Patients", "publisher": "PR Newswire", "accessed": "undefined", "supports": "fund size and close date", "quote": "Advent Life Sciences Announces Close of Two New Funds Totalling $215 million to Translate Early-Stage Research into Impactful Medicines for Patients" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-lifearc",
+    "name": { "en": "LifeArc" },
+    "aka": ["LifeArc Ventures"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://lifearcventures.com/",
+    "strategy": {
+      "sector_focus": ["therapeutics"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Self-funded UK medical research charity that deploys venture capital through LifeArc Ventures into biotech translating early science into new medicines, with a focus including rare diseases."
+    },
+    "lifesci": { "indications": ["rare-disease"] },
+    "tags": ["charity", "venture-philanthropy"],
+    "summary": { "en": "UK self-funded medical research charity that invests venture capital (via LifeArc Ventures) into biotech translating early-stage science into medicines." },
+    "sources": [
+      { "url": "https://lifearcventures.com/", "title": "Life Arc Ventures – Investing in Life Changing Science.", "publisher": "LifeArc", "accessed": "undefined", "supports": "existence, venture arm of LifeArc charity" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size and specific portfolio not verified within research budget; existence and structure confirmed via official site only.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-apollo-therapeutics",
+    "name": { "en": "Apollo Therapeutics" },
+    "type": "venture-studio",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "europe",
+    "country": "United Kingdom",
+    "strategy": {
+      "sector_focus": ["therapeutics"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Venture-creation vehicle jointly formed by the tech-transfer offices of Cambridge, Imperial College London and UCL together with AstraZeneca, GSK and Johnson & Johnson Innovation to translate university biomedical research into drug candidates."
+    },
+    "lifesci": {
+      "indications": ["oncology", "immunology-inflammation", "rare-disease"],
+      "company_creation": true,
+      "science_platform_notes": "Draws deal flow exclusively from University of Cambridge, Imperial College London and UCL research; funded by pharma co-founders plus Patient Square Capital, Rock Springs Capital, Reimagined Ventures and UCL Technology Fund."
+    },
+    "capital": {
+      "funds": [
+        { "name": "Apollo Therapeutics Fund I", "vintage_year": 2016, "size": { "raw": "£40M", "currency": "GBP" } },
+        { "name": "Apollo Therapeutics Fund II", "vintage_year": 2021, "size": { "raw": "£100M", "currency": "GBP" } }
+      ]
+    },
+    "track_record": { "portfolio_count": "15+ therapeutic programs" },
+    "tags": ["company-creation", "pharma-consortium", "university-translational"],
+    "summary": { "en": "UK venture-creation consortium of Cambridge, Imperial College London and UCL with AstraZeneca, GSK and J&J Innovation, translating academic biomedical research into new drug candidates; raised a $226.5M Series C in 2023." },
+    "sources": [
+      { "url": "https://www.ucl.ac.uk/news/2016/jan/ucl-joins-consortium-launch-ps40-million-apollo-therapeutics-fund", "title": "UCL joins consortium to launch £40 million Apollo Therapeutics Fund", "publisher": "UCL", "accessed": "undefined", "supports": "founding structure, first fund size" },
+      { "url": "https://www.cam.ac.uk/news/apollo-therapeutics-launches-with-ps100m-investment", "title": "Apollo Therapeutics launches with £100m investment", "publisher": "University of Cambridge", "accessed": "undefined", "supports": "second fund size" },
+      { "url": "https://www.cam.ac.uk/news/apollo-therapeutics-secures-226-5-million-to-translate-fundamental-research-into-medicines", "title": "Apollo Therapeutics secures $226.5 million to translate fundamental research into medicines", "publisher": "University of Cambridge", "accessed": "undefined", "supports": "Series C amount, pipeline, investors", "quote": "Apollo has over 15 therapeutic programs in development today across oncology, major inflammatory disorders and rare disease." },
+      { "url": "https://www.imperial.ac.uk/research-and-innovation/apollo/", "title": "Apollo Therapeutics Fund | Research | Imperial College London", "publisher": "Imperial College London", "accessed": "undefined", "supports": "consortium membership" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-northern-gritstone",
+    "name": { "en": "Northern Gritstone" },
+    "type": "vc",
+    "subtypes": ["growth-equity", "university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "europe",
+    "country": "United Kingdom",
+    "capital": { "funds": [ { "name": "Northern Gritstone Fund", "vintage_year": 2023, "size": { "raw": "£312M ($400M)", "currency": "GBP" } } ] },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Investment company backing spinouts from the Universities of Leeds, Manchester and Sheffield, with life sciences as one of three core sectors (alongside deep tech and fintech); has backed life-science spinouts such as Imperagen (University of Manchester)."
+    },
+    "tags": ["university-spinouts", "northern-england"],
+    "summary": { "en": "Northern-England investment company (Leeds/Manchester/Sheffield universities) that closed a £312M ($400M) fund in Nov 2023; life sciences is one of three dedicated investment verticals." },
+    "sources": [
+      { "url": "https://www.northern-gritstone.com/", "title": "Northern Gritstone", "publisher": "Northern Gritstone", "accessed": "undefined", "supports": "existence, university consortium" },
+      { "url": "https://www.northern-gritstone.com/news/northern-gritstone-backs-spin-out-of-imperagen-a-university-of-manchester-life-science-business", "title": "Northern Gritstone backs spin out of Imperagen, a University of Manchester Life Science Business", "publisher": "Northern Gritstone", "accessed": "undefined", "supports": "example life-science investment" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Multi-sector investor; life sciences is one of three named core verticals alongside deep tech and fintech. £312M fund-close figure sourced from aggregated search snippets, not independently confirmed against a primary press release within budget.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-angels-in-medcity",
+    "name": { "en": "Angels in MedCity" },
+    "type": "angel-network",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "strategy": {
+      "stages": ["seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Partnership between MedCity, London Business Angels and Angels4LifeSciences that trains and connects angel investors specifically to London/Golden-Triangle life-sciences deal flow."
+    },
+    "tags": ["angel-network", "london", "medcity"],
+    "summary": { "en": "London life-sciences angel network/programme (partnership of MedCity, London Business Angels and Angels4LifeSciences) connecting new and experienced angels to biotech/medtech deal flow." },
+    "sources": [
+      { "url": "https://shizune.co/investors/life-science-vc-funds-united-kingdom", "title": "Top 50 Life Science VC Funds & Investors in United Kingdom", "publisher": "Shizune", "accessed": "undefined", "supports": "existence, HQ", "quote": "Angels in MedCity - London, England | Focus: Healthcare, Biotech, Medical | Stage: Seed, Angel" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-techstart-ventures",
+    "name": { "en": "Techstart Ventures" },
+    "type": "vc",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Belfast",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["generalist-health"],
+      "geo_focus": ["Scotland", "Northern Ireland"],
+      "thesis": "Leading seed-capital investor across Scotland and Northern Ireland; a documented backer of Northern Ireland's life & health sciences startup ecosystem alongside its broader generalist tech mandate."
+    },
+    "tags": ["northern-ireland", "regional", "generalist-with-lifesci-portfolio"],
+    "summary": { "en": "Belfast-based seed VC for Scotland & Northern Ireland; generalist mandate but a documented investor supporting Northern Ireland's life and health sciences startup ecosystem." },
+    "sources": [
+      { "url": "https://www.fiercepharma.com/sponsored/venture-capital-shines-spotlight-northern-ireland-life-and-health-sciences", "title": "Venture Capital Shines Spotlight on Northern Ireland Life and Health Sciences", "publisher": "Fierce Pharma", "accessed": "undefined", "supports": "role in NI life sciences ecosystem", "quote": "Support from investors such as QUBIS, Techstart and Clarendon, as well as the region's economic development agency Invest Northern Ireland, have enabled the trial." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist regional seed investor, not life-sciences exclusive; included for its documented role in the Northern Ireland life & health sciences ecosystem per the 'deep local dive' brief for this slice.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-amadeus-capital-partners",
+    "name": { "en": "Amadeus Capital Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Cambridge",
+    "offices": [ { "country": "United Kingdom", "city": "Cambridge" }, { "country": "United Kingdom", "city": "London" } ],
+    "capital": { "aum": { "raw": "$1.3B+", "currency": "USD" } },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "sector_focus": ["ai-drug-discovery", "digital-health"],
+      "geo_focus": ["United Kingdom", "Europe"],
+      "thesis": "Generalist deep-tech investor with a dedicated TechBio/AI-biotech and digital-health practice (APEX Fund), backing AI-driven healthcare and medical technology companies."
+    },
+    "tags": ["techbio", "generalist-with-lifesci-fund"],
+    "summary": { "en": "Cambridge/London deep-tech VC (~$1.3B+ AUM) with a dedicated AI-biotech/digital-health investing arm (APEX Fund)." },
+    "sources": [
+      { "url": "https://www.ellty.com/investors/cambridge-biotech-investors", "title": "Cambridge Biotech Investors: 14 Active VCs Funding Life Science in 2026", "publisher": "Ellty", "accessed": "undefined", "supports": "AUM, focus", "quote": "Amadeus Capital Partners - HQ: Cambridge and London - Focus: \"TechBio, AI biotech, advanced computing\" - Fund size: $1.3B+ - Stage: Seed-Series C" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist deep-tech investor; included for its dedicated life-sciences/digital-health (APEX) fund, which is a secondary practice.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-cambridge-enterprise",
+    "name": { "en": "Cambridge Enterprise" },
+    "aka": ["Cambridge Enterprise Ventures"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Cambridge",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "£30K–£500K" },
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "University of Cambridge's technology-transfer and seed-investment arm, providing pre-seed/seed capital to Cambridge academic spinouts, a large share of which are biotech and life-science-tools companies."
+    },
+    "tags": ["university-fund", "cambridge", "tech-transfer"],
+    "summary": { "en": "University of Cambridge's commercialization and seed-fund arm, backing Cambridge academic spinouts including a significant share of life-science and biotech ventures." },
+    "sources": [
+      { "url": "https://www.ellty.com/investors/cambridge-biotech-investors", "title": "Cambridge Biotech Investors: 14 Active VCs Funding Life Science in 2026", "publisher": "Ellty", "accessed": "undefined", "supports": "existence, check size, focus", "quote": "Cambridge Enterprise Ventures - HQ: Cambridge, UK - Focus: University of Cambridge spinouts - Fund size: Pre-seed (£30K-£500K)" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-ucl-technology-fund",
+    "name": { "en": "UCL Technology Fund" },
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["therapeutics"],
+      "geo_focus": ["United Kingdom"],
+      "thesis": "Fund investing in University College London life-science and technology spinouts; an institutional co-funder of the Apollo Therapeutics drug-translation consortium."
+    },
+    "tags": ["university-fund", "ucl"],
+    "summary": { "en": "UCL's dedicated spinout investment fund, backing UCL life-science and tech ventures and co-funding the Apollo Therapeutics translational consortium." },
+    "sources": [
+      { "url": "https://www.ucl.ac.uk/news/2016/jan/ucl-joins-consortium-launch-ps40-million-apollo-therapeutics-fund", "title": "UCL joins consortium to launch £40 million Apollo Therapeutics Fund", "publisher": "UCL", "accessed": "undefined", "supports": "existence, role as Apollo co-funder" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Own fund size not independently verified within budget; role confirmed as an Apollo Therapeutics institutional investor.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-fountain-healthcare-partners",
+    "name": { "en": "Fountain Healthcare Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "europe",
+    "country": "Ireland",
+    "hq_city": "Dublin",
+    "offices": [ { "country": "Ireland", "city": "Dublin" }, { "country": "United States", "city": "New York" } ],
+    "capital": {
+      "funds": [
+        { "name": "Fountain Healthcare Partners Fund III", "vintage_year": 2020, "size": { "raw": "€125M", "currency": "EUR" } }
+      ],
+      "aum": { "raw": ">€300M across funds", "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "geo_focus": ["Ireland", "Europe", "United States"],
+      "thesis": "Ireland's largest dedicated life-science VC, investing across specialty pharma, medical devices, biotechnology and diagnostics, deploying most capital in Europe with a strong Irish focus."
+    },
+    "tags": ["dublin", "life-science-specialist"],
+    "summary": { "en": "Dublin/New York life-science VC founded in 2008, Ireland's largest dedicated life-sciences fund; closed Fund III at €125M in 2020, bringing AUM to over €300M." },
+    "sources": [
+      { "url": "https://www.businesswire.com/news/home/20201103005264/en/Fountain-Healthcare-Partners-Announces-Final-Close-of-%E2%82%AC125-million-for-Fund-III", "title": "Fountain Healthcare Partners Announces Final Close of €125 million for Fund III", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund III size and close" },
+      { "url": "https://isif.ie/news/fountain-healthcare-partners-raises-118m-for-third-fund", "title": "Fountain Healthcare Partners Raises €118M for Third Fund", "publisher": "ISIF", "accessed": "undefined", "supports": "interim raise figure for Fund III" },
+      { "url": "https://www.fiercebiotech.com/biotech/launch-of-fountain-healthcare-partners-a-life-science-venture-capital-firm", "title": "Launch of Fountain Healthcare Partners, a Life Science Venture Capital Firm", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "founding, sector focus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Sources show slightly different Fund III figures (€118M interim vs €125M final close) and varying total-AUM claims (€294M–€425M across different secondary sources); used the €125M final-close figure from the primary Business Wire release.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-seroba",
+    "name": { "en": "Seroba" },
+    "aka": ["Seroba Life Sciences", "Seroba Lifesciences", "Seroba Kernel Life Sciences"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Ireland",
+    "hq_city": "Dublin",
+    "offices": [ { "country": "Ireland", "city": "Dublin" }, { "country": "France", "city": "Paris" }, { "country": "Italy", "city": "Milan" } ],
+    "website": "https://serobavc.com/",
+    "capital": { "funds": [ { "name": "Seroba Fund IV", "vintage_year": 2024, "size": { "raw": "€123M ($134M)", "currency": "EUR" } } ] },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "€5M–€10M" },
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": ["Ireland", "Europe", "North America"],
+      "thesis": "European life-sciences VC headquartered in Dublin backing early-stage biotech and medtech addressing unmet medical needs, predominantly in Western Europe."
+    },
+    "track_record": { "portfolio_count": 32, "notable_investments": [ { "company": "Perfuze", "sector": "medtech-devices", "outcome": "active" }, { "company": "Deciphex", "sector": "diagnostics", "outcome": "active" } ] },
+    "tags": ["dublin", "life-science-specialist"],
+    "summary": { "en": "Dublin-headquartered European life-sciences VC (offices Paris, Milan); closed a €123M Fund IV in 2024, investing €5M–€10M seed/Series A tickets in biotech and medtech." },
+    "sources": [
+      { "url": "https://serobavc.com/seroba-announces-final-close-of-its-fund-iv_press-release/", "title": "Seroba announces final close of its Fund IV", "publisher": "Seroba", "accessed": "undefined", "supports": "Fund IV size, strategy, check size" },
+      { "url": "https://siliconcanals.com/life-sciences-vc-firm-closes-fund-iv-at-123m/", "title": "Irish life sciences VC firm Seroba closes its Fund IV at €123M; will target up to 12 investments", "publisher": "Silicon Canals", "accessed": "undefined", "supports": "Fund IV close amount", "quote": "Seroba announced the final close of its Seroba Fund IV at €123M ($134M)." }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-lightstone-ventures",
+    "name": { "en": "Lightstone Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "europe",
+    "country": "Ireland",
+    "hq_city": "Dublin",
+    "offices": [ { "country": "United States", "city": "Menlo Park" }, { "country": "United States", "city": "Boston" }, { "country": "Ireland", "city": "Dublin" } ],
+    "website": "https://www.lightstonevc.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": ["Europe", "Australia", "United States"],
+      "thesis": "Life-science venture fund translating novel scientific breakthroughs into clinically and commercially meaningful therapies; maintains a dedicated Dublin office alongside its US bases, focused partly on European and Australian healthcare deal flow."
+    },
+    "track_record": { "portfolio_count": 107, "notable_investments": [ { "company": "Carrick Therapeutics", "sector": "oncology", "outcome": "active" } ] },
+    "tags": ["transatlantic", "dublin-office"],
+    "summary": { "en": "Life-science VC primarily based in Menlo Park/Boston with a dedicated Dublin office, investing in early- and late-stage healthcare, medtech and biopharma companies in Europe and Australia." },
+    "sources": [
+      { "url": "https://www.lightstonevc.com/", "title": "Lightstone Ventures – Investing in Medical Breakthroughs", "publisher": "Lightstone Ventures", "accessed": "undefined", "supports": "existence, focus" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Primary HQ is Menlo Park, California with a Boston office; included in this UK/Ireland slice specifically for its dedicated Dublin, Ireland office and Europe-focused healthcare investing mandate.",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-enterprise-ireland",
+    "name": { "en": "Enterprise Ireland" },
+    "type": "government-program",
+    "status": "active",
+    "region": "europe",
+    "country": "Ireland",
+    "hq_city": "Dublin",
+    "website": "https://www.enterprise-ireland.com/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "geo_focus": ["Ireland"],
+      "thesis": "Irish state agency for the development of indigenous enterprise; provides seed and co-investment funding plus High Potential Start-Up supports to Irish life-science and medtech companies, and is an LP in Irish VC funds."
+    },
+    "tags": ["government-agency", "state-agency"],
+    "summary": { "en": "Irish government enterprise-development agency that funds and co-invests in Irish life-science and medtech startups, alongside broader indigenous-business supports." },
+    "sources": [
+      { "url": "https://www.enterprise-ireland.com/en/invest-in-emerging-companies/source-of-private-capital/venture-capital-funds.html", "title": "Helping Irish Business Go Global | Enterprise Ireland", "publisher": "Enterprise Ireland", "accessed": "undefined", "supports": "role as capital source for Irish enterprise" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  },
+  {
+    "id": "eu-isif",
+    "name": { "en": "Ireland Strategic Investment Fund" },
+    "aka": ["ISIF"],
+    "type": "government-program",
+    "status": "active",
+    "region": "europe",
+    "country": "Ireland",
+    "hq_city": "Dublin",
+    "website": "https://isif.ie/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "geo_focus": ["Ireland"],
+      "thesis": "Ireland's sovereign development fund, investing commercial capital on a double-bottom-line basis; runs a dedicated Life Sciences & Healthcare investment strategy and is an anchor LP in Irish life-science VC funds such as Fountain Healthcare Partners and Seroba."
+    },
+    "tags": ["sovereign-fund", "state-agency", "lp"],
+    "summary": { "en": "Ireland's sovereign development investment fund with a dedicated Life Sciences and Healthcare strategy, and an anchor LP behind Irish life-science VC funds." },
+    "sources": [
+      { "url": "https://isif.ie/life-sciences-and-healthcare", "title": "Life Sciences and Healthcare | ISIF", "publisher": "ISIF", "accessed": "undefined", "supports": "dedicated life sciences/healthcare strategy" },
+      { "url": "https://isif.ie/venture-capital", "title": "Venture Capital | ISIF", "publisher": "ISIF", "accessed": "undefined", "supports": "role as VC fund LP" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "uk-ireland-lifesci"
+  }
+]

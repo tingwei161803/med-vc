@@ -1,0 +1,644 @@
+[
+  {
+    "id": "eu-gilde-healthcare",
+    "name": { "en": "Gilde Healthcare" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Utrecht",
+    "offices": [
+      { "country": "Germany", "city": "Frankfurt" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://gildehealthcare.com/",
+    "capital": {
+      "current_fund": { "raw": "€600M" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics", "therapeutics", "healthcare-services"],
+      "thesis": "Specialized healthcare investor running two fund strategies (Venture & Growth, and Private Equity) that backs companies across medtech, digital health, diagnostics and therapeutics enabling better care at lower cost."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "90+"
+    },
+    "summary": {
+      "en": "Utrecht-headquartered healthcare investor with offices in Frankfurt and Boston, managing Venture & Growth and Private Equity fund strategies that include medical-device companies alongside digital health, diagnostics and therapeutics."
+    },
+    "sources": [
+      {
+        "url": "https://siliconcanals.com/utrecht-gilde-healthcare-launches-new-fund/",
+        "title": "Utrecht-based Gilde Healthcare launches new fund at €600M; focuses on Europe and North America",
+        "publisher": "Silicon Canals",
+        "accessed": "undefined",
+        "supports": "current fund size, HQ, geo focus",
+        "quote": "Utrecht-based Gilde Healthcare launches new fund at €600M; focuses on Europe and North America"
+      },
+      {
+        "url": "https://gildehealthcare.com/",
+        "title": "Gilde Healthcare",
+        "publisher": "Gilde Healthcare",
+        "accessed": "undefined",
+        "supports": "office locations, sector focus",
+        "quote": "headquarters are in Utrecht, the Netherlands with local offices in Frankfurt, Germany and Boston, US"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Reported AUM varies across secondary sources (€1.4B vs €2.6B depending on measurement date/fund scope); only the directly-quoted €600M new-fund figure and office locations are asserted here with confidence. Medtech/medical devices is one of several sectors alongside digital health, diagnostics and therapeutics.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-shs-capital",
+    "name": { "en": "SHS Capital", "local": "SHS Gesellschaft für Beteiligungsmanagement mbH" },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 1993,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Tübingen",
+    "website": "https://www.shs-capital.eu/",
+    "capital": {
+      "current_fund": { "raw": "EUR 270 million (Fund VI)" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "€10M–€50M" },
+      "lead_or_follow": "both",
+      "geo_focus": ["Europe"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "healthcare-services"],
+      "thesis": "German healthcare growth-equity specialist backing fast-growing European companies in MedTech, HealthTech and healthcare-adjacent robotics, typically writing €10-50M equity checks and helping them become category leaders."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"]
+    },
+    "summary": {
+      "en": "Tübingen-based healthcare growth investor founded in 1993, focused on scaling European MedTech, robotics and healthcare-services companies; closed its sixth fund generation at EUR 270 million."
+    },
+    "sources": [
+      {
+        "url": "https://www.shs-capital.eu/healthcare-specialist-shs-capital-announces-final-closing-of-its-oversubscribed-sixth-fund-generation-totaling-eur-270-million/",
+        "title": "Healthcare Specialist SHS Capital announces Final Closing of its oversubscribed Sixth Fund Generation totaling EUR 270 million",
+        "publisher": "SHS Capital",
+        "accessed": "undefined",
+        "supports": "current fund size",
+        "quote": "Healthcare Specialist SHS Capital announces Final Closing of its oversubscribed Sixth Fund Generation totaling EUR 270 million"
+      },
+      {
+        "url": "https://www.shs-capital.eu/",
+        "title": "SHS Gesellschaft für Beteiligungsmanagement mbH",
+        "publisher": "SHS Capital",
+        "accessed": "undefined",
+        "supports": "founded year, HQ, sector focus, check size",
+        "quote": "SHS GmbH invests in companies and startups in Robotics, Sports/SportsTech, Transportation, Education, Edtech, Healthcare Services, Marketing and Advertising, MedTech, HealthTech, SaaS, Energy."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "SHS invests across several verticals (sports tech, edtech, mobility) beyond healthcare; included here for its explicit and long-running MedTech/HealthTech/Robotics practice. A separately reported ~$400M AUM figure could not be traced to a quotable primary source and was omitted.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-wellington-partners-life-sciences",
+    "name": { "en": "Wellington Partners Life Sciences" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1998,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "offices": [
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "Switzerland", "city": "Zurich" },
+      { "country": "United States", "city": "Palo Alto" }
+    ],
+    "website": "https://wellington-partners.com/",
+    "capital": {
+      "current_fund": { "raw": "€210 million (WPLS V, 2019)" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "check_size": { "raw": "€2M–€20M" },
+      "lead_or_follow": "lead",
+      "geo_focus": ["Europe", "German-speaking Europe", "North America", "Asia (selective)"],
+      "sector_focus": ["medtech-devices", "diagnostics", "therapeutics", "digital-health"],
+      "thesis": "Pan-European life-sciences investor backing early- and growth-stage companies in medical devices, diagnostics, digital health and industrial biotechnology addressing unmet medical needs, usually leading or co-leading rounds."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "58+ investments, 27 exits"
+    },
+    "summary": {
+      "en": "Munich-headquartered pan-European life-sciences VC (offices also in London, Zurich and Palo Alto) investing €2-20M per company across medical devices, diagnostics, digital health and therapeutics; raised its largest life-sciences vehicle, WPLS V, at €210M in 2019."
+    },
+    "sources": [
+      {
+        "url": "https://www.eu-startups.com/2019/08/wellington-partners-raises-e210-to-invest-in-european-life-sciences-startups-addressing-unmet-medical-needs/",
+        "title": "Wellington Partners closes €210 million fund to invest in European life sciences startups addressing unmet medical needs",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "current fund size, thesis",
+        "quote": "Wellington Partners closes €210 million fund to invest in European life sciences startups addressing unmet medical needs"
+      },
+      {
+        "url": "https://www.life-sciences-germany.com/organisation/wellington-partners-venture-capital-gmbh-group-1998-muenchen-2001-12144.html",
+        "title": "Wellington Partners Venture Capital GmbH",
+        "publisher": "Life-Sciences-Germany.com",
+        "accessed": "undefined",
+        "supports": "founded year, offices, sector focus, check size",
+        "quote": "Wellington Partners was founded in 1998 and is headquartered in Munich, Germany... focusing on innovative companies in therapeutics, medical devices, diagnostics, digital health, and industrial biotechnology"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-earlybird-health",
+    "name": { "en": "Earlybird Health" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Berlin",
+    "offices": [
+      { "country": "Germany", "city": "Munich" },
+      { "country": "United Kingdom", "city": "London" }
+    ],
+    "website": "https://health.earlybird.com/",
+    "capital": {
+      "current_fund": { "raw": "€173M" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Europe"],
+      "sector_focus": ["medtech-devices", "digital-health", "therapeutics"],
+      "thesis": "Dedicated healthcare fund of Berlin-based Earlybird Venture Capital, investing across MedTech, Digital Health and Biopharma including medical devices and diagnostics; part of a pan-European platform with EUR 2 billion AUM across all fund streams."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"]
+    },
+    "track_record": {
+      "portfolio_count": 18
+    },
+    "summary": {
+      "en": "The dedicated healthcare unit of Berlin's Earlybird Venture Capital, closing its latest healthcare fund at EUR 173M and investing across MedTech, digital health and biopharma with an 18-company active portfolio."
+    },
+    "sources": [
+      {
+        "url": "https://siliconcanals.com/earlybird-health-closes-173m-fund/",
+        "title": "Germany's Earlybird Health closes €173M healthcare fund; aims to invest in these healthcare sectors",
+        "publisher": "Silicon Canals",
+        "accessed": "undefined",
+        "supports": "current fund size, portfolio count, founding year of the health unit",
+        "quote": "Earlybird Health, a unit of Berlin-based VC firm Earlybird Venture Capital, announced that it has closed its latest healthcare fund at €173M."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Parent firm Earlybird was founded in 1997; the dedicated Earlybird Health fund line dates to 2016.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-panakes-partners",
+    "name": { "en": "Panakès Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "europe",
+    "country": "Italy",
+    "hq_city": "Milan",
+    "website": "https://www.panakes.it/",
+    "capital": {
+      "current_fund": { "raw": "€175 million (Purple Fund)" },
+      "funds": [
+        { "name": "Panakès Partners Fund I", "vintage_year": 2016, "size": { "raw": "over €80 million" } },
+        { "name": "Purple Fund", "vintage_year": null, "size": { "raw": "€175 million" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Europe"],
+      "sector_focus": ["medtech-devices", "diagnostics", "healthcare-it"],
+      "thesis": "Milan-based VC dedicated exclusively to MedTech, financing innovative early-stage and SME companies in therapeutic medical devices, diagnostic devices/kits and healthcare IT, run by a team combining VC experience with scientific and medtech operating backgrounds."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"]
+    },
+    "track_record": {
+      "portfolio_count": "12+ (Fund I)"
+    },
+    "summary": {
+      "en": "Milan-headquartered venture capital firm founded in 2015 that invests exclusively in MedTech - therapeutic medical devices, diagnostics and healthcare IT - across Europe; its second vehicle, the Purple Fund, closed at €175M."
+    },
+    "sources": [
+      {
+        "url": "https://www.panakes.it/News?ni=44",
+        "title": "PANAKÈS PARTNERS ANNOUNCES THE FINAL CLOSING OF THE \"PURPLE\" FUND AT 175 MILLION EUROS",
+        "publisher": "Panakès Partners",
+        "accessed": "undefined",
+        "supports": "Purple Fund size",
+        "quote": "PANAKÈS PARTNERS ANNOUNCES THE FINAL CLOSING OF THE \"PURPLE\" FUND AT 175 MILLION EUROS"
+      },
+      {
+        "url": "https://www.panakes.it/",
+        "title": "Panakès Partners",
+        "publisher": "Panakès Partners",
+        "accessed": "undefined",
+        "supports": "founding year, sector focus, thesis",
+        "quote": "The venture firm finances highly innovative companies in the Medtech sector, innovating in particular in therapeutic medical devices, diagnostic devices and kits and healthcare IT companies."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-vesalius-biocapital",
+    "name": { "en": "Vesalius Biocapital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Luxembourg",
+    "hq_city": "Strassen",
+    "website": "https://vesaliusbiocapital.com/",
+    "capital": {
+      "current_fund": { "raw": "EUR 95 million (Fund IV, first close)" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Europe"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "therapeutics"],
+      "thesis": "Luxembourg-based life-sciences investor focused on later-stage, best-in-class European companies spanning drug development, medical devices & diagnostics and eHealth/mHealth (digital health)."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"]
+    },
+    "summary": {
+      "en": "Strassen (Luxembourg)-headquartered life-sciences VC investing in later-stage European medical-device, diagnostics, digital-health and drug-development companies; raised over EUR 95M in the first close of its fourth fund."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/vesalius-biocapital-announces-first-close-of-fourth-fund-raising-eur-95-million-301866628.html",
+        "title": "Vesalius Biocapital Announces First Close of Fourth Fund Raising EUR 95 Million",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "current fund size",
+        "quote": "Vesalius Biocapital Announces First Close of its Fourth Fund Raising EUR 95 Million"
+      },
+      {
+        "url": "https://vesaliusbiocapital.com/",
+        "title": "Vesalius Biocapital Partners Sàrl",
+        "publisher": "Vesalius Biocapital Partners Sàrl",
+        "accessed": "undefined",
+        "supports": "HQ location, sector focus",
+        "quote": "Vesalius Biocapital is headquartered in Luxembourg at 1B rue Thomas Edison, Strassen, Luxembourg"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Predecessor funds (Vesalius Biocapital III, €120M final close in 2019) also target medical devices & diagnostics; exact founding year not confirmed in sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-truffle-capital-biomedtech",
+    "name": { "en": "Truffle Capital (BioMedTech)" },
+    "aka": ["Truffle Capital BioMedTech"],
+    "type": "vc",
+    "subtypes": ["accelerator", "venture-studio"],
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "website": "https://www.truffle.com/biomedtech/about-biomedtech",
+    "capital": {
+      "current_fund": { "raw": "€250 million (BioMedTech fund)" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["France", "Europe"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "diagnostics"],
+      "thesis": "Paris-based business-builder fund/accelerator that itself creates and seeds MedTech startups in smart implants, minimally-invasive surgery, interventional radiology, micro-robotics and AI, with a focus on cardiology, neurology, oncology, dermo-cosmetics, gastroenterology and orthopedics."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "ai-ml-platform"],
+      "indications": ["cardiovascular", "neurology", "oncology", "dermatology", "gastroenterology-hepatology", "musculoskeletal-orthopedics"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "HoliStick Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Artedrone", "sector": "surgical-robotics", "outcome": "active" },
+        { "company": "PKMed", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Bariatek", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Truffle Capital's dedicated BioMedTech vehicle, a €250M Paris-based fund that founds and builds its own MedTech startups (implants, minimally-invasive surgery, micro-robotics) via an in-house accelerator, mainly in France."
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/medtech/truffle-capital-sniffs-out-eu250-million-for-its-biomedtech-startup-fund",
+        "title": "Truffle Capital sniffs out €250M for its BioMedTech startup fund",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "fund size, thesis, notable investments",
+        "quote": "Disruptive innovations sourced by Truffle Capital will combine smart implants, mini-invasive surgery, interventional radiology, AI, micro-robotics and the harnessing of human physiology."
+      },
+      {
+        "url": "https://www.truffle.com/actualites/truffle-capital-inaugure-son-accelerateur-biomedtech-en-plein-coeur-de-paris",
+        "title": "Truffle Capital Launches its BioMedTech Accelerator in the Heart of Paris",
+        "publisher": "Truffle Capital",
+        "accessed": "undefined",
+        "supports": "accelerator/company-creation subtype",
+        "quote": "Truffle Capital Launches its BioMedTech Accelerator in the Heart of Paris"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "BioMedTech is one fund/vertical within Truffle Capital, which also invests in fintech and insurtech via separate funds; this entry covers only the BioMedTech (medtech-device) activity.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-andera-partners",
+    "name": { "en": "Andera Partners" },
+    "aka": ["Edmond de Rothschild Investment Partners", "EdRIP"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2001,
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "offices": [
+      { "country": "Belgium", "city": "Antwerp" },
+      { "country": "Spain", "city": "Madrid" },
+      { "country": "Italy", "city": "Milan" },
+      { "country": "Germany", "city": "Munich" }
+    ],
+    "website": "https://www.anderapartners.com/",
+    "capital": {
+      "aum": { "raw": "approaching €4 billion (firm-wide, all practices)" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Europe", "United States"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "Paris-based investment manager whose BioDiscovery fund family (Andera Life Sciences), one of the largest in Europe dedicated to biotech and medical technologies, has backed more than 75 biotech and medtech companies on both sides of the Atlantic."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "biologics-antibody", "small-molecule"]
+    },
+    "track_record": {
+      "portfolio_count": "75+ (BioDiscovery/Life Sciences practice)"
+    },
+    "summary": {
+      "en": "Paris-headquartered investment firm (formerly Edmond de Rothschild Investment Partners) whose Andera Life Sciences / BioDiscovery fund line is one of Europe's largest dedicated biotech-and-medtech investors, alongside separate growth/buyout and infrastructure practices."
+    },
+    "sources": [
+      {
+        "url": "https://www.life-sciences-europe.com/news/andera-partners-reports-year-edmond-rothschild-investment-edrip-2001-121153.html",
+        "title": "Andera Partners Approaches 4 Billion Euros in Assets Under Management and Announces a New 2028 Target of 6 to 8 Billion Euros",
+        "publisher": "Life-Sciences-Europe.com",
+        "accessed": "undefined",
+        "supports": "founded year, firm-wide AUM",
+        "quote": "Andera Partners. (2/16/23). \"Press Release: Ahead of Its Business Plan, Andera Partners Approaches 4 Billion Euros in Assets Under Management and Announces a New 2028 Target of 6 to 8 Billion Euros\""
+      },
+      {
+        "url": "https://www.anderapartners.com/en/edrip-becomes-andera-partners/",
+        "title": "EdRIP becomes ANDERA PARTNERS",
+        "publisher": "Andera Partners",
+        "accessed": "undefined",
+        "supports": "name change, life sciences practice, medtech backing",
+        "quote": "Andera's BioDiscovery funds have backed more than 75 biotech and medtech firms on both sides of the Atlantic."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AUM figure (~€4B) is firm-wide across all Andera practices (life sciences, mid-cap growth/buyout, mezzanine, infrastructure), not specific to the medtech-focused BioDiscovery/Life Sciences fund; exact BioDiscovery fund size not independently confirmed in sources reviewed this session.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-seroba-life-sciences",
+    "name": { "en": "Seroba" },
+    "aka": ["Seroba Life Sciences", "Seroba Kernel Life Sciences"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2002,
+    "region": "europe",
+    "country": "Ireland",
+    "hq_city": "Dublin",
+    "offices": [
+      { "country": "France", "city": "Paris" },
+      { "country": "Italy", "city": "Milan" }
+    ],
+    "website": "https://serobavc.com/",
+    "capital": {
+      "current_fund": { "raw": "€123 million (Fund IV)" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Western Europe", "North America (selective)"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "Dublin-headquartered life-sciences VC backing early-stage biotech and medtech companies across Europe; has brought 20 new medical devices and 8 new therapeutics to market across 32 portfolio companies since inception."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"]
+    },
+    "track_record": {
+      "portfolio_count": 32
+    },
+    "summary": {
+      "en": "Dublin-based (also Paris and Milan) life-sciences venture firm founded in 2002 that has funded 32 European biotech and medtech companies, bringing 20 new medical devices to market; latest fund, Seroba Fund IV, closed at €123M."
+    },
+    "sources": [
+      {
+        "url": "https://siliconcanals.com/life-sciences-vc-firm-closes-fund-iv-at-123m/",
+        "title": "Irish life sciences VC firm Seroba closes its Fund IV at €123M; will target up to 12 investments",
+        "publisher": "Silicon Canals",
+        "accessed": "undefined",
+        "supports": "current fund size, geo focus",
+        "quote": "Irish life sciences VC firm Seroba closes its Fund IV at €123M; will target up to 12 investments"
+      },
+      {
+        "url": "https://serobavc.com/",
+        "title": "Homepage – Seroba Lifesciences",
+        "publisher": "Seroba",
+        "accessed": "undefined",
+        "supports": "founded year, HQ, offices, track record",
+        "quote": "Since its launch Seroba has invested in thirty-two innovative life sciences companies, bringing to market twenty new medical devices and eight new therapeutics to date."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-415-capital",
+    "name": { "en": "415 Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "website": "https://415capital.com/",
+    "capital": {
+      "current_fund": { "raw": "€150 million target (Fund II)" },
+      "funds": [
+        { "name": "415 Capital Fund I", "vintage_year": 2020, "size": { "raw": "$100 million (first closing target)" } },
+        { "name": "415 Capital Fund II", "vintage_year": 2024, "size": { "raw": "€150 million target" } }
+      ]
+    },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Europe", "United States", "Israel"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "medical-imaging"],
+      "thesis": "Munich-based VC dedicated exclusively to MedTech, focused on cardiovascular and neurovascular breakthroughs plus selective bets on neuromodulation, medical robotics and the intersection of patient monitoring, medical imaging and AI."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "neurotech-bci"],
+      "indications": ["cardiovascular", "neurology"]
+    },
+    "summary": {
+      "en": "Munich-headquartered specialist MedTech VC investing across Europe, the US and Israel in cardiovascular and neurovascular devices, medical robotics and neuromodulation; closed its second fund with a €150M target, backed by EIF and KfW Capital."
+    },
+    "sources": [
+      {
+        "url": "https://med-tech.world/news/415-capital-medtech-investment-150m-second-fund/",
+        "title": "415 Capital Doubles Down on MedTech with €150 Million Second Fund",
+        "publisher": "Med-Tech World",
+        "accessed": "undefined",
+        "supports": "Fund II size, sector focus",
+        "quote": "415 Capital Doubles Down on MedTech with €150 Million Second Fund"
+      },
+      {
+        "url": "https://businesswire.com/news/home/20200115005768/en/415-CAPITAL-Announces-Closing-Targeted-100-Million",
+        "title": "415 CAPITAL Announces First Closing of Targeted $100 Million New 'MedTech Venture Capital Fund'",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Fund I size and vintage",
+        "quote": "415 CAPITAL Announces First Closing of Targeted $100 Million New 'MedTech Venture Capital Fund'"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-biomedpartners",
+    "name": { "en": "BioMedPartners", "local": "BiomedVC" },
+    "aka": ["BiomedVC", "BioMedPartners AG"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "website": "https://biomedvc.com/",
+    "capital": {
+      "funds": [
+        { "name": "BioMedInvest III", "vintage_year": 2018, "size": { "raw": "CHF 100 million" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Switzerland", "Germany", "European Union"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "Basel-based independent VC, one of continental Europe's first life-sciences-only early-stage investors, financing private early- to mid-stage biotechnology, pharmaceutical and medical-technology companies as lead or co-lead investor."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "small-molecule", "biologics-antibody"]
+    },
+    "summary": {
+      "en": "Basel-headquartered life-sciences VC (rebranded BiomedVC), one of the first European early-stage investors focused exclusively on biotech, pharma and medical technology; its BioMedInvest III fund closed at CHF 100M and BioMedInvest IV is currently being raised."
+    },
+    "sources": [
+      {
+        "url": "https://www.swissbiotech.org/listing/biomedpartners-close-their-new-healthcare-venture-fund-biomedinvest-iii-at-chf-100-million/",
+        "title": "BioMedPartners Close Their New Healthcare Venture Fund BioMedInvest III at CHF 100 Million",
+        "publisher": "Swiss Biotech Association",
+        "accessed": "undefined",
+        "supports": "fund size and vintage",
+        "quote": "BioMedPartners AG, based in Basel, Switzerland, announced on 1 March 2018 the final closing of BioMedInvest III, their third equity venture capital fund, at CHF 100 million."
+      },
+      {
+        "url": "https://biomedvc.com/",
+        "title": "Home - BiomedVC",
+        "publisher": "BiomedVC",
+        "accessed": "undefined",
+        "supports": "rebrand, current fundraising",
+        "quote": "BiomedVC (the successor firm of BioMedPartners) is advancing BiomedInvest IV towards a second close in 2026."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Firm rebranded from BioMedPartners AG to BiomedVC; BioMedInvest IV target size not confirmed in sources reviewed this session.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "eu-meridian-health-ventures",
+    "name": { "en": "Meridian Health Ventures" },
+    "aka": ["KHP Ventures"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.meridianhealthventures.com/",
+    "capital": {
+      "current_fund": { "raw": "€44.7 million" }
+    },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["United Kingdom", "United States"],
+      "sector_focus": ["medtech-devices", "digital-health", "healthcare-services"],
+      "thesis": "NHS-anchored, transatlantic London VC that invests in clinical innovators and MedTech/digital-health ventures with a credible path to scale within the NHS, then fast-tracks their growth into the US market."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"]
+    },
+    "summary": {
+      "en": "London-based, NHS-anchored venture fund (formerly KHP Ventures) backing UK MedTech and digital-health startups that can scale within the NHS, then supporting their transatlantic expansion; closed the first NHS-anchored transatlantic HealthTech fund at €44.7M."
+    },
+    "sources": [
+      {
+        "url": "https://www.eu-startups.com/2025/05/london-based-vc-meridian-health-ventures-announces-the-worlds-first-transatlantic-healthtech-fund-with-e44-million/",
+        "title": "London-based VC Meridian Health Ventures announces the world's first transatlantic HealthTech fund with €44 million",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "fund size, NHS anchoring, geo focus",
+        "quote": "London-based VC Meridian Health Ventures announces the world's first transatlantic HealthTech fund with €44 million"
+      },
+      {
+        "url": "https://www.meridianhealthventures.com/",
+        "title": "Meridian Health Ventures",
+        "publisher": "Meridian Health Ventures",
+        "accessed": "undefined",
+        "supports": "investment thesis, sector focus",
+        "quote": "investing in clinical innovators and helping ambitious founders and health tech ventures to thrive domestically in the UK while fast-tracking their growth in the US"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund invests across digital health, enterprise healthcare and MedTech broadly, not exclusively medical devices; included for its explicit MedTech mandate. Formerly known as KHP Ventures.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  }
+]

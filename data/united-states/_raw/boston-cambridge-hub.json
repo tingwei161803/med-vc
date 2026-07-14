@@ -1,0 +1,639 @@
+[
+  {
+    "id": "us-massventures",
+    "name": { "en": "MassVentures" },
+    "aka": ["Massachusetts Technology Development Corporation"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 1978,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Waltham",
+    "website": "https://www.mass-ventures.com/",
+    "capital": {
+      "aum": { "raw": "over $115 million invested in more than 185 companies since founding" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$250,000 to $500,000" },
+      "geo_focus": ["Massachusetts"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "Massachusetts' quasi-public venture capital agency funds early-stage, high-growth Massachusetts startups -- including biotech and life-sciences spinouts -- at capital gaps between seed, post-seed, and Series A/B, deploying alongside private co-investors."
+    },
+    "track_record": {
+      "portfolio_count": "185+ (since 1978)"
+    },
+    "sources": [
+      {
+        "url": "https://www.mass-ventures.com/",
+        "title": "MassVentures - Fueling Early Stage Companies in Massachusetts",
+        "publisher": "MassVentures",
+        "accessed": "undefined",
+        "supports": "mission, sector focus, HQ",
+        "quote": "MassVentures helps academic spinouts and seed stage companies in Massachusetts drive breakthroughs in quantum computing, clean energy, AI, biotech, advanced materials, and more."
+      },
+      {
+        "url": "https://mtec-sc.org/life-sciences/massventures",
+        "title": "MassVentures | MTEC",
+        "publisher": "MTEC",
+        "accessed": "undefined",
+        "supports": "founding year 1978, track record",
+        "quote": "Established in 1978 as the Massachusetts Technology Development Corporation, it operates as one of the oldest venture capital firms in the country."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact current AUM/fund size not disclosed; cumulative capital deployed since 1978 (~$115M into 185+ companies) is the figure available. Life sciences is one of several sectors (alongside robotics, AI, advanced manufacturing) MassVentures funds, not an exclusive focus. Not covered by sibling government-program slice (that file covers Massachusetts Life Sciences Center, a separate entity).",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-excel-venture-management",
+    "name": { "en": "Excel Venture Management" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2007,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "http://www.excelvm.com/",
+    "capital": {
+      "funds": [{ "name": "Excel Medical Fund", "size": { "raw": "$125 million" } }]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "check_size": { "raw": "$1 million to $5 million" },
+      "sector_focus": ["healthcare-it", "medtech-devices", "diagnostics", "life-science-tools"],
+      "thesis": "Boston-based life-sciences VC investing in transformative technologies across healthcare IT and services, diagnostics, medical devices, and life-science platforms, often with applicability to adjacent industries."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Aileron Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Molecular Templates", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/biotech/excel-venture-management-launches-125-million-debut-life-sciences-fund",
+        "title": "Excel Venture Management Launches $125 Million Debut Life Sciences Fund",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "fund name and size, focus",
+        "quote": "Excel Medical Fund, a $125 million fund that will be invested in early- to late-stage companies with transformative life science technologies that can address multiple markets."
+      },
+      {
+        "url": "http://www.excelvm.com/",
+        "title": "Excel Venture Management",
+        "publisher": "Excel Venture Management",
+        "accessed": "undefined",
+        "supports": "sector focus, HQ",
+        "quote": "transformative life science technologies"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 2007 and $125M debut fund figure sourced from Fierce Biotech coverage; firm's own site provides limited public detail on current fund size or AUM.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-advent-life-sciences",
+    "name": { "en": "Advent Life Sciences" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2006,
+    "region": "united-states",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "Princeton" },
+      { "country": "France", "city": "Paris" }
+    ],
+    "website": "https://adventls.com/",
+    "capital": {
+      "funds": [{ "name": "Advent Life Sciences (two funds, 2021 close)", "size": { "raw": "$215 million" } }]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Transatlantic life-sciences VC founding and investing in early- to mid-stage biotech, pharma, medtech and digital-health companies with first- or best-in-class approaches to unmet medical needs; maintains a dedicated Boston, Massachusetts office for its US dealflow."
+    },
+    "sources": [
+      {
+        "url": "https://adventls.com/",
+        "title": "Home | Advent Life Sciences",
+        "publisher": "Advent Life Sciences",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, office locations, sector focus",
+        "quote": "new drug discovery across all modalities, med tech, enabling technologies and vaccines"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/advent-life-sciences-announces-close-of-two-new-funds-totalling-215-million-to-translate-early-stage-research-into-impactful-medicines-for-patients-301230092.html",
+        "title": "Advent Life Sciences Announces Close of Two New Funds Totalling $215 million",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "fund size",
+        "quote": "Advent Life Sciences Announces Close of Two New Funds Totalling $215 million to Translate Early-Stage Research into Impactful Medicines for Patients"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Global headquarters is London, UK (founded 2006); included in this Boston/Cambridge slice because the firm maintains a dedicated Massachusetts office actively used for its US life-science dealflow, per instructions to note foreign HQ.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-springtide-ventures",
+    "name": { "en": "SpringTide Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [
+      { "country": "United States", "city": "Salt Lake City" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.springtide.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["digital-health", "medtech-devices", "healthcare-services"],
+      "thesis": "Boston-based healthcare VC leading early-stage financings for digital health, medical device and tech-enabled care-delivery companies, with an embedded Chief Medical Officer and clinical operators supporting founders tackling structurally underserved patient populations."
+    },
+    "sources": [
+      {
+        "url": "https://www.springtide.com/about-us",
+        "title": "About Us — SpringTide",
+        "publisher": "SpringTide Ventures",
+        "accessed": "undefined",
+        "supports": "HQ, focus",
+        "quote": "SpringTide leads early-stage financings for healthcare companies"
+      },
+      {
+        "url": "https://f4.fund/firms/springtide-ventures",
+        "title": "SpringTide Ventures — Investment Thesis & Preferences",
+        "publisher": "f4.fund",
+        "accessed": "undefined",
+        "supports": "founding year, locations, sector focus",
+        "quote": "SpringTide Ventures is a venture capital firm founded in 2018 and based in Boston, Massachusetts."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Detailed fund size / AUM not publicly disclosed on the firm's site at time of research.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-hub-angels-investment-group",
+    "name": { "en": "Hub Angels Investment Group" },
+    "aka": ["Hub Angels"],
+    "type": "angel-network",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://www.hubangels.com/",
+    "strategy": {
+      "stages": ["seed"],
+      "geo_focus": ["Northeastern United States"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "One of the oldest angel groups in the Boston area, syndicating seed investments in life sciences alongside IT, mobile/media and electronics through a series of Hub Funds; life sciences is one of the group's core sector tracks."
+    },
+    "track_record": {
+      "portfolio_count": "50+ across six Hub Funds"
+    },
+    "sources": [
+      {
+        "url": "https://www.hubangels.com/",
+        "title": "Hub Angels Investment Group LLC",
+        "publisher": "Hub Angels",
+        "accessed": "undefined",
+        "supports": "founding year, sector focus, capital deployed",
+        "quote": "one of the oldest and most experienced angel groups in the Boston area, making investments in young tech and life science companies in the Northeastern United States since March 2000"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist angel network with life sciences as one of several stated sectors (alongside mobile/media, internet/web, software, electronics); included for its explicit life-science investment track and Boston HQ.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-mit-alumni-angels-boston-life-sciences",
+    "name": { "en": "MIT Alumni Angels of Boston - Life Sciences Track" },
+    "aka": ["MITAAB Life Sciences"],
+    "type": "angel-network",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "website": "https://mitlifesciangels.com/",
+    "strategy": {
+      "stages": ["seed"],
+      "geo_focus": ["Northeastern United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "A dedicated life-sciences angel-investing track within MIT Alumni Angels of Boston, bringing together roughly 47 healthcare angel investors -- entrepreneurs, professors, and executives -- to fund MIT-affiliated life-sciences startups presenting quarterly in Kendall Square."
+    },
+    "people": [
+      { "name": "Patrick Rivelli", "role": "Life Sciences Track Lead / Co-Director", "background": "Medical device entrepreneur and investor for over 25 years" }
+    ],
+    "sources": [
+      {
+        "url": "https://mitlifesciangels.com/about",
+        "title": "About — MIT Alumni Angels of Boston",
+        "publisher": "MIT Alumni Angels of Boston",
+        "accessed": "undefined",
+        "supports": "membership size, focus, location",
+        "quote": "The Life Sciences Track brings together MIT alumni...with a membership of 47 experienced healthcare angel investors to help daring MIT founders build pioneering life sciences companies."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year of the Life Sciences Track specifically was not found; parent MIT Alumni Angels of Boston network predates it.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-deshpande-center",
+    "name": { "en": "Deshpande Center for Technological Innovation" },
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "website": "https://deshpande.mit.edu/",
+    "capital": {
+      "aum": { "raw": "over $21 million in grants awarded since 2002" }
+    },
+    "strategy": {
+      "stages": ["pre-seed"],
+      "check_size": { "raw": "$100,000 to $250,000 per project grant" },
+      "sector_focus": ["generalist-health"],
+      "thesis": "MIT School of Engineering gap-funding program that awards non-dilutive grants (and Momentum Grants via MIT HEALS) to MIT faculty commercializing biotech, biomedical-device and other deep-tech research; among its 62+ spinouts are biotech companies such as Kronos Bio, Myomo, and Pervasis Therapeutics."
+    },
+    "track_record": {
+      "portfolio_count": "62+ spinouts since 2002",
+      "notable_investments": [
+        { "company": "Kronos Bio", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Myomo", "sector": "medtech-devices", "outcome": "IPO" },
+        { "company": "Pervasis Therapeutics", "sector": "therapeutics", "outcome": "acquired" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://deshpande.mit.edu/",
+        "title": "Deshpande Center for Technological Innovation - MIT",
+        "publisher": "MIT",
+        "accessed": "undefined",
+        "supports": "mission, grant size, sector focus",
+        "quote": "supports a wide range of emerging technologies including biotechnology, biomedical devices, information technology, new materials, tiny tech, and energy innovations"
+      },
+      {
+        "url": "https://deshpande.mit.edu/spinouts/",
+        "title": "Spinouts - Deshpande Center for Technological Innovation - MIT",
+        "publisher": "MIT",
+        "accessed": "undefined",
+        "supports": "spinout count, capital raised",
+        "quote": "Since 2002, the Deshpande Center has helped spur the creation of 62 spinout companies that have raised over $1.5 billion in capital."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Biotech/biomedical is one of several technology areas funded (alongside energy, materials, tiny tech); included for its verified track record of biomedical spinouts (Kronos Bio, Myomo, Pervasis Therapeutics, AbscoTx, Spheric Bio).",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-binney-street-capital",
+    "name": { "en": "Binney Street Capital" },
+    "type": "university-hospital-fund",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://bsc.dana-farber.org/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$250,000 to $2 million per investment" },
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health"],
+      "lead_or_follow": "both",
+      "thesis": "Dana-Farber Cancer Institute's first-ever venture fund, investing in oncology-focused startups founded on Dana-Farber intellectual property or co-founded by a Dana-Farber investigator, with returns recycled into Institute research."
+    },
+    "lifesci": {
+      "indications": ["oncology"]
+    },
+    "people": [
+      { "name": "Luba Greenwood", "role": "Managing Partner", "background": "Life sciences, tech and healthcare executive and investor; prior experience at Roche and Verily" }
+    ],
+    "sources": [
+      {
+        "url": "https://www.dana-farber.org/newsroom/news-releases/2021/dana-farber-cancer-institute-launches-investment-fund-to-support-startup-companies",
+        "title": "Dana-Farber Cancer Institute launches investment fund to support startup companies",
+        "publisher": "Dana-Farber Cancer Institute",
+        "accessed": "undefined",
+        "supports": "founding year, check size, focus, leadership",
+        "quote": "We plan to invest in eight to 10 companies over the next three years, with $250K - $2M per investment."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Primary-source press release from Dana-Farber; total fund size (AUM) not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-acunova-life-sciences",
+    "name": { "en": "Acunova Life Sciences" },
+    "aka": ["Acunova Life Sciences ALS LLP"],
+    "type": "family-office",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "ai-drug-discovery", "healthcare-services"],
+      "geo_focus": ["North America", "Asia"],
+      "thesis": "Boston-based, healthcare-focused family office investing directly and indirectly in healthcare, medtech, life-science and techbio startups, with a footprint spanning Asia and North America."
+    },
+    "sources": [
+      {
+        "url": "https://activefamilyoffices.com/blogs/from-the-active-family-offices-database/5-top-active-family-offices-from-boston",
+        "title": "5 top active family offices from Boston",
+        "publisher": "Active Family Offices",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus",
+        "quote": "Acunova Life Sciences ALS LLP invests in healthcare, medtech, lifescience and tech-bio startups directly and indirectly."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Single source found (secondary family-office directory); no official firm website or primary source located to independently confirm details such as founding year or AUM.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-slater-technology-fund",
+    "name": { "en": "Slater Technology Fund" },
+    "type": "government-program",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "founded_year": 1997,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Providence",
+    "website": "https://slaterfund.com/",
+    "capital": {
+      "current_fund": { "raw": "$12 million awarded by RI Commerce for venture development" }
+    },
+    "strategy": {
+      "stages": ["seed"],
+      "geo_focus": ["Rhode Island"],
+      "sector_focus": ["therapeutics", "life-science-tools", "generalist-health"],
+      "thesis": "Rhode Island's evergreen, not-for-profit seed fund leading or co-investing in university-affiliated life-science, software and energy startups; the state's most active seed-stage investor, with a biotech portfolio spanning oncology and CNS therapeutics."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Bolden Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Alcinous Pharmaceuticals", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://slaterfund.com/",
+        "title": "Slater Technology Fund",
+        "publisher": "Slater Technology Fund",
+        "accessed": "undefined",
+        "supports": "founding year, mission, geography",
+        "quote": "Slater is an evergreen not-for-profit seed fund dedicated to supporting new venture development in Rhode Island."
+      },
+      {
+        "url": "https://ri-bio.org/slater-technology-fund-invests-in-pharmaceutical-startup-developing-novel-cancer-therapeutics/",
+        "title": "Slater Technology Fund Invests in Pharmaceutical Startup Developing Novel Cancer Therapeutics",
+        "publisher": "RI Bio",
+        "accessed": "undefined",
+        "supports": "biotech portfolio focus",
+        "quote": "Bolden Therapeutics, a biotechnology company developing first-in-class therapeutics aimed at increasing neurogenesis to treat central nervous system diseases such as Alzheimer's disease and ischemic stroke"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Rhode Island is part of the New England region within this slice's scope; life sciences/biotech is one of several sectors (alongside software, energy, blue tech) the fund backs.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-umass-chan-bridge",
+    "name": { "en": "UMass Chan BRIDGE Innovation and Business Development" },
+    "aka": ["BRIDGE @ UMass Chan"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Worcester",
+    "website": "https://www.umassmed.edu/",
+    "capital": {
+      "aum": { "raw": "$1 million in 2019, expected to reach $3 million in 2025" }
+    },
+    "strategy": {
+      "stages": ["pre-seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "The commercialization hub at UMass Chan Medical School that funds faculty-led biomedical research and facilitates spin-out formation from Institute science; has contributed to 14 new company launches since 2020."
+    },
+    "track_record": {
+      "portfolio_count": "14 companies launched since 2020"
+    },
+    "sources": [
+      {
+        "url": "https://wbjournal.com/article/umass-chan-innovation-fund-invests-2m-in-faculty-research/",
+        "title": "UMass Chan innovation fund invests $2M in faculty research",
+        "publisher": "Worcester Business Journal",
+        "accessed": "undefined",
+        "supports": "capital figures, mission",
+        "quote": "BRIDGE funding totaled $1 million in 2019, and is expected to reach $3 million in 2025"
+      },
+      {
+        "url": "https://www.umassmed.edu/news/articles/2026/06/biotech-executives-and-venture-capitalists-come-to-umass-chan-to-hear-faculty-start-up-pitches/",
+        "title": "Biotech executives and venture capitalists come to UMass Chan to hear faculty start-up pitches",
+        "publisher": "UMass Chan Medical School",
+        "accessed": "undefined",
+        "supports": "spinout count",
+        "quote": "Since 2020, technologies and discoveries emerging from UMass Chan research have contributed to the launch of 14 new companies, including four in fiscal year 2025."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Internal commercialization office rather than a discrete external fund; capital figures reflect gap/proof-of-concept funding, not a traditional AUM. Worcester, MA is part of the broader New England / Massachusetts biomedical hub in scope for this slice.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-boston-harbor-angels",
+    "name": { "en": "Boston Harbor Angels" },
+    "type": "angel-network",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://bostonharborangels.com/",
+    "strategy": {
+      "stages": ["seed"],
+      "check_size": { "raw": "$250K to $1.5M" },
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "Boston angel group active since 2004 with Life Sciences as its leading portfolio sector (21 investments), typically taking a lead-investor role in diagnostics, biotech, medical device and regenerative-medicine deals and syndicating with other angel groups and early-stage funds."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "GelMEDIX", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "First Light Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "ImmuneXcite", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://bostonharborangels.com/boston-harbor-angels-celebrates-20-years-of-angel-investing/",
+        "title": "Boston Harbor Angels Celebrates 20 Years of Angel Investing",
+        "publisher": "Boston Harbor Angels",
+        "accessed": "undefined",
+        "supports": "founding year",
+        "quote": "Since 2004, their portfolio has included companies in information technology and life sciences."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Life sciences is the group's top sector by deal count per third-party portfolio trackers, but the firm's own site gives limited quantitative detail (no disclosed total capital deployed).",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-locust-walk-capital",
+    "name": { "en": "Locust Walk Capital" },
+    "aka": ["Locust Walk"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [
+      { "country": "United States", "city": "New York" },
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "Japan", "city": "Tokyo" }
+    ],
+    "website": "https://www.locustwalk.com/locust-walk-capital/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "sector_focus": ["therapeutics"],
+      "thesis": "The co-founding investment arm of life-sciences advisory/investment-bank Locust Walk; invests only where the firm takes a material co-founding role, building a concentrated portfolio of roughly two new biopharma ventures a year through its Banyan BioInnovations platform."
+    },
+    "lifesci": {
+      "company_creation": true
+    },
+    "sources": [
+      {
+        "url": "https://www.locustwalk.com/",
+        "title": "Locust Walk",
+        "publisher": "Locust Walk",
+        "accessed": "undefined",
+        "supports": "founding, HQ, offices",
+        "quote": "17-year history with local teams embedded in Boston, San Francisco, Tokyo, Shanghai, and Beijing"
+      },
+      {
+        "url": "https://www.locustwalk.com/locust-walk-capital/",
+        "title": "Locust Walk Capital",
+        "publisher": "Locust Walk",
+        "accessed": "undefined",
+        "supports": "investment model",
+        "quote": "can only invest where we are intimately involved with a material co-founding role"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Locust Walk is primarily a life-sciences strategic advisory / investment bank; Locust Walk Capital is its newer, smaller co-founding investment arm. No disclosed fund size.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-solasta-ventures",
+    "name": { "en": "Solasta Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://solasta-ventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "$1 million to $10 million" },
+      "sector_focus": ["therapeutics"],
+      "thesis": "Boston-based life-sciences VC and wholly-owned US investment subsidiary of South Korean firm Aju IB Investment, backing early-stage novel-science startups addressing unmet medical needs and bridging US and Korean pharma/strategic partnerships."
+    },
+    "track_record": {
+      "portfolio_count": 26
+    },
+    "sources": [
+      {
+        "url": "https://solasta-ventures.com/",
+        "title": "Solasta Ventures",
+        "publisher": "Solasta Ventures",
+        "accessed": "undefined",
+        "supports": "HQ address, sector focus",
+        "quote": "advance the standard of care for diseases with unmet medical needs"
+      },
+      {
+        "url": "https://mtec-sc.org/life-sciences/solasta-ventures-inc",
+        "title": "Solasta Ventures, Inc. | MTEC",
+        "publisher": "MTEC",
+        "accessed": "undefined",
+        "supports": "founding year, HQ address, parent company, check size, portfolio count",
+        "quote": "Solasta Ventures was established in 2019 and operates from its office located at Prudential Tower, 800 Boylston Street, Suite 2510, Boston, MA 02199."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Wholly-owned subsidiary of Aju IB Investment (South Korea); the Boston office functions as its operating HQ for US life-science investing.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  },
+  {
+    "id": "us-norwich-ventures",
+    "name": { "en": "Norwich Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Waltham",
+    "website": "https://www.norwichventures.com/",
+    "capital": {
+      "funds": [{ "name": "Medtech Convergence Fund", "size": { "raw": "$90 million" } }]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["medtech-devices", "diagnostics"],
+      "thesis": "Waltham, MA-based early-stage medtech VC investing in entrepreneurs solving large unmet medical needs across fields 'from electrophysiology to genomics to women's health'; closed its $90M Medtech Convergence Fund in 2023."
+    },
+    "people": [
+      { "name": "Aaron Sandoski", "role": "Co-Founder and Managing Director" },
+      { "name": "Marlin Miller", "role": "Co-Founder and Senior Advisor" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Ionpath", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Podimetrics", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Rhythmia Medical", "sector": "medtech-devices", "outcome": "acquired by Boston Scientific" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.norwichventures.com/",
+        "title": "Norwich Ventures",
+        "publisher": "Norwich Ventures",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus, thesis",
+        "quote": "agnostic about the field of medicine"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year (2004), fund name/size ($90M Medtech Convergence Fund closed April 2023) and founders sourced from secondary aggregator coverage; not independently re-confirmed via a primary press release in this research pass.",
+    "last_updated": "undefined",
+    "researched_by": "boston-cambridge-hub"
+  }
+]

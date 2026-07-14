@@ -1,0 +1,801 @@
+[
+  {
+    "id": "eu-heal-capital",
+    "name": { "en": "Heal Capital", "local": "heal.capital" },
+    "aka": ["heal.capital"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Berlin",
+    "website": "https://www.healcapital.com/",
+    "capital": {
+      "aum": { "raw": "EUR 200m+", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "€1.5M–€5M", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Germany", "Europe"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "thesis": "Launched and backed by 25+ German private health insurers (PKV) to fund digital-health-only startups (software, AI, digitally-enabled care models) that improve German healthcare delivery."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics", "ai-ml-platform"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 27
+    },
+    "tags": ["digital-health", "germany", "PKV-backed"],
+    "summary": {
+      "en": "Berlin-based, healthtech-only VC backed by 25+ German private health insurers, investing €1.5-5M seed-to-Series-A tickets in digital health, telemedicine and digital prevention startups.",
+      "local": "Berliner VC-Fonds, finanziert von über 25 privaten Krankenversicherern, investiert ausschließlich in digitale Gesundheitslösungen (Software, KI, Telemedizin)."
+    },
+    "sources": [
+      {
+        "url": "https://www.healcapital.com/",
+        "title": "Heal Capital | Backing Founders Who Redefine Healthcare",
+        "publisher": "healcapital.com",
+        "accessed": "undefined",
+        "supports": "existence, focus area, HQ",
+        "quote": "Heal Capital focuses on healthtech only — software, AI, and digitally-enabled care models."
+      },
+      {
+        "url": "https://www.eu-startups.com/2019/09/german-health-insurance-group-to-launch-e100-million-fund-heal-capital-to-invest-in-digital-health-startups/",
+        "title": "German health insurance group to launch €100 million fund, heal capital, to invest in digital health startups",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "founding, backers, initial fund target",
+        "quote": "The German Private Health Insurance Association (PKV) launched heal capital, with participating private health insurance companies providing a target volume of €100 million"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-mtip",
+    "name": { "en": "MTIP (Medtech Innovation Partners)" },
+    "aka": ["MTIP AG", "Medtech Innovation Partners"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "website": "https://www.mtip.ch/",
+    "capital": {
+      "funds": [
+        { "name": "MTIP Fund II", "vintage_year": null, "size": { "raw": "$250 million", "usd": 250000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "healthcare-it", "medtech-devices"],
+      "thesis": "Growth and buyout investor focused exclusively on European healthcare technology — AI-enabled and software-driven companies spanning hospital information systems, clinical decision support, life-science technology and digital therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 18,
+      "notable_investments": [
+        { "company": "Tyto Care", "sector": "digital-health", "outcome": "active" },
+        { "company": "Oviva", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "tags": ["digital-health", "growth-equity", "switzerland", "b-corp"],
+    "summary": {
+      "en": "Basel-based specialist growth and buyout investor focused solely on European healthcare technology, investing in AI-enabled and software-driven digital health and connected medical device companies.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.mtip.ch/",
+        "title": "MTIP | The European healthcare technology investor",
+        "publisher": "mtip.ch",
+        "accessed": "undefined",
+        "supports": "existence, focus, HQ",
+        "quote": "MTIP is a Swiss-based specialist growth and buyout investor focused on European healthcare technology."
+      },
+      {
+        "url": "https://www.mobihealthnews.com/news/emea/mtip-closes-second-healthtech-growth-fund-above-target",
+        "title": "MTIP closes second healthtech growth fund above target",
+        "publisher": "MobiHealthNews",
+        "accessed": "undefined",
+        "supports": "fund size, portfolio count",
+        "quote": "MTIP closed its MTIP Fund II at $250 million in capital commitments, with the oversubscribed fund exceeding its target of $225 million."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-calm-storm-ventures",
+    "name": { "en": "Calm/Storm Ventures" },
+    "aka": ["Calm/Storm"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Austria",
+    "hq_city": "Vienna",
+    "website": "https://www.calmstorm.vc/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "femtech-womens-health", "mental-health"],
+      "thesis": "Community-focused pre-seed and seed investor backing healthtech founders, with a dedicated focus on femtech, sexual wellness and 'tabootech'."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "software-samd"],
+      "indications": ["womens-health", "psychiatry-mental-health"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "femtech", "mental-health", "austria"],
+    "summary": {
+      "en": "Vienna-based pre-seed/seed VC known as a KNOWN ANCHOR in this slice, focused on digital health with particular emphasis on femtech, sexual wellness and mental health startups.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.calmstorm.vc/",
+        "title": "Calm/Storm",
+        "publisher": "calmstorm.vc",
+        "accessed": "undefined",
+        "supports": "existence, HQ, focus",
+        "quote": "Calm/Storm: Based in Vienna, a community-focused pre-seed and seed investor backing entrepreneurs particularly in healthtech, with a dedicated focus on femtech and tabootech."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Confirmed via search snippet describing the firm and its own co-investor page listing (calmstorm.vc/co-investors/heal-capital); site not independently fetched for full detail.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-speedinvest-health",
+    "name": { "en": "Speedinvest (Health team)" },
+    "aka": ["Speedinvest Health"],
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "region": "europe",
+    "country": "Austria",
+    "hq_city": "Vienna",
+    "website": "https://www.speedinvest.com/health",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "ai-drug-discovery"],
+      "thesis": "Dedicated health vertical within pan-European multi-stage generalist VC Speedinvest, backing founders combining AI/ML and product expertise with healthcare workflow and regulatory knowledge; one of the most active pre-seed/seed digital health investors in Europe."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd", "digital-therapeutics"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "15+ (health vertical, per 2021 data)"
+    },
+    "tags": ["digital-health", "generalist-vc-with-health-team", "austria"],
+    "summary": {
+      "en": "Speedinvest is a large pan-European multi-vertical VC (fintech, deep tech, etc.) headquartered in Vienna with a dedicated Health & TechBio team investing pre-seed/seed in AI-driven healthcare and life-sciences startups across Europe.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.speedinvest.com/health",
+        "title": "VC for Health Tech, Bio & Life Sciences AI | Speedinvest",
+        "publisher": "speedinvest.com",
+        "accessed": "undefined",
+        "supports": "existence, focus, HQ",
+        "quote": "Speedinvest's health team focuses on backing ambitious founders who fuse world-class AI/ML and product expertise with deep healthcare workflow, regulatory, and incentive knowledge"
+      },
+      {
+        "url": "https://www.speedinvest.com/blog/digital-health-in-europe",
+        "title": "Digital Health in Europe",
+        "publisher": "Speedinvest",
+        "accessed": "undefined",
+        "supports": "portfolio scale",
+        "quote": "Speedinvest invested in pre-seed and seed Digital Health startups and are proud shareholders in 15 Digital Health startups from six European countries"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Speedinvest itself is a generalist multi-vertical VC (fintech, deep tech, etc.); listed here for its dedicated Health/TechBio investment team and vertical, per the slice's known anchors.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-nina-capital",
+    "name": { "en": "Nina Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "website": "https://www.nina.capital/",
+    "capital": {
+      "aum": { "raw": "over €100 million (across three funds)", "usd": null, "currency": "EUR" },
+      "current_fund": { "raw": "€50 million (Fund III)", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "€250K–€1.5M", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Europe", "North America", "Israel", "Australia"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "thesis": "Female-founded, healthtech-exclusive VC investing pre-seed to Series A in digital health and AI-in-healthcare startups globally, HQ'd in Barcelona."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd", "digital-therapeutics"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "50+"
+    },
+    "tags": ["digital-health", "female-founded", "spain"],
+    "summary": {
+      "en": "Barcelona-based, female-led VC exclusively dedicated to healthtech, investing €250K-€1.5M at pre-seed to Series A in digital health and AI-in-healthcare companies; closed a €50M Fund III in 2025.",
+      "local": "VC con sede en Barcelona, liderada por mujeres y dedicada exclusivamente a la tecnología sanitaria (healthtech) y la salud digital."
+    },
+    "sources": [
+      {
+        "url": "https://www.nina.capital/",
+        "title": "Nina Capital | Investing in Health Tech",
+        "publisher": "nina.capital",
+        "accessed": "undefined",
+        "supports": "existence, focus, HQ",
+        "quote": "Nina Capital: Operating from Barcelona, a specialist VC firm exclusively dedicated to healthtech, investing in early-stage companies across Europe and globally."
+      },
+      {
+        "url": "https://www.eu-startups.com/2025/02/female-founded-healthtech-vc-firm-nina-capital-closes-e50-million-fund-iii/",
+        "title": "Female-founded HealthTech VC firm Nina Capital closes €50 million Fund III",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "fund size, check size, AUM",
+        "quote": "Nina Capital has launched €50 million Fund III, increasing its total assets under management to over €100 million... investments ranging from €250,000 to €1.5 million."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-redalpine",
+    "name": { "en": "Redalpine Venture Partners" },
+    "aka": ["Redalpine"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2007,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Zurich",
+    "website": "https://www.redalpine.com/about",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "€500K–€5M", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "thesis": "Early-stage European VC with a dual ICT / Health Tech focus, backing healthcare-IT, digital care, diagnostics and patient-management startups aiming to digitalize healthcare delivery."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "deeptech", "switzerland"],
+    "summary": {
+      "en": "Zurich-based early-stage VC (est. 2007) investing in highly scalable ICT and Health Tech startups across Europe, with a Health Tech Fellowship program and portfolio spanning digital care, diagnostics and healthcare IT.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.redalpine.com/about",
+        "title": "redalpine | about | our vision & focus areas",
+        "publisher": "redalpine.com",
+        "accessed": "undefined",
+        "supports": "existence, focus, HQ, founding year",
+        "quote": "Redalpine Venture Partners was founded in 2007 and is based in Zurich, Switzerland... a focus on highly-scalable ICT and Health Tech start-ups."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Redalpine invests across both ICT/deeptech and Health Tech; included here for its explicit, longstanding Health Tech vertical (incl. a dedicated Health Tech Fellowship program) rather than as a pure-play digital health fund.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-albionvc",
+    "name": { "en": "AlbionVC" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1996,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://albion.vc/healthtech-hub/",
+    "capital": {
+      "aum": { "raw": "approximately $1 billion of venture funds", "usd": 1000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["United Kingdom", "Europe"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "thesis": "UK growth-stage generalist VC (B2B software, fintech, healthtech) running a dedicated Healthtech Hub connecting London's health district with digital-care and digital-pharma startups, e.g. Oviva, uMotif, NuvoAir."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics", "ai-ml-platform"],
+      "indications": ["metabolic-obesity"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Oviva", "sector": "digital-health", "outcome": "active" },
+        { "company": "uMotif", "sector": "digital-health", "outcome": "active" },
+        { "company": "NuvoAir", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "tags": ["digital-health", "generalist-vc-with-health-hub", "united-kingdom"],
+    "summary": {
+      "en": "London-based growth-stage VC (~$1B AUM) running a dedicated Healthtech Hub for digital care and digital pharma startups, with portfolio companies including Oviva, uMotif and NuvoAir.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://albion.vc/healthtech-hub/",
+        "title": "Healthtech Hub - AlbionVC",
+        "publisher": "albion.vc",
+        "accessed": "undefined",
+        "supports": "existence, focus, portfolio",
+        "quote": "AlbionVC has selected just over 1,000 high-growth startups and scaleups across digital care and digital pharma transforming European healthcare... Oviva, a healthtech company transforming the treatment of diet- and lifestyle-related conditions"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AlbionVC is a generalist B2B software/fintech/healthtech growth VC; included for its dedicated Healthtech Hub initiative and digital-health-focused portfolio rather than as a pure-play digital health fund.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-karista",
+    "name": { "en": "Karista" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2001,
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "website": "https://www.karista.vc/health",
+    "capital": {
+      "funds": [
+        { "name": "Karista (HealthTech fund)", "vintage_year": 2021, "size": { "raw": "EUR 38 million", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "€500K–€2.5M initial, up to €10M follow-on", "usd_min": null, "usd_max": null },
+      "geo_focus": ["France", "Europe"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "thesis": "Paris VC running a dedicated HealthTech fund (Karista V) investing in digital health broadly defined as patient monitoring, DTx, clinical decision support, companion diagnostics and GenAI healthcare solutions."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "software-samd", "ai-ml-platform"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "france", "healthtech"],
+    "summary": {
+      "en": "Paris-based early-stage VC (est. 2001) with a dedicated HealthTech fund investing seed/Series A in DTx, patient monitoring, clinical decision support and AI-driven digital health startups; also publishes an annual European digital health funds mapping.",
+      "local": "VC parisien avec un fonds dédié à la HealthTech, investissant en amorçage et série A dans la santé numérique (DTx, télésurveillance, IA en santé)."
+    },
+    "sources": [
+      {
+        "url": "https://www.karista.vc/health",
+        "title": "Health - Karista",
+        "publisher": "karista.vc",
+        "accessed": "undefined",
+        "supports": "focus definition, existence",
+        "quote": "At Karista, Digital Health is defined as technologies that enhance patient care, such as patient monitoring, DTx, clinical decision support systems, companion diagnostics, robotics, GenAI solutions."
+      },
+      {
+        "url": "https://tech.eu/2023/03/14/parisian-vc-firm-karista-says-french-uk-and-german-funds-remain-top-healthtech-investors/",
+        "title": "Parisian VC firm Karista says French, UK, and German funds remain top healthtech investors",
+        "publisher": "Tech.eu",
+        "accessed": "undefined",
+        "supports": "fund size, vintage",
+        "quote": "One of Karista's funds has a size of EUR 38 million and was raised on 2021-10-19."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Karista runs multiple funds (HealthTech and a separate SpaceTech fund co-sponsored by CNES); the €38M figure is attributed to 'one of Karista's funds' in secondary sources and could not be confirmed as specifically the HealthTech vehicle.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-courage-vc",
+    "name": { "en": "Courage VC" },
+    "aka": ["Courage Ventures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "europe",
+    "country": "Finland",
+    "hq_city": "Helsinki",
+    "website": "https://couragevc.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "$250K–$1M", "usd_min": 250000, "usd_max": 1000000 },
+      "geo_focus": ["Nordics", "Baltics"],
+      "sector_focus": ["digital-health"],
+      "thesis": "The first purely digital-health-focused VC fund in the Nordics, backing pre-seed/seed digital health startups across the Nordic and Baltic region."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics", "ai-ml-platform"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "nordics", "baltics", "finland"],
+    "summary": {
+      "en": "Helsinki-based VC founded in 2014, described as the first purely digital-health-focused fund in the Nordics, investing $250K-$1M at pre-seed/seed across the Nordic and Baltic region.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://couragevc.com/",
+        "title": "Courage VC - Nordic Digital Health, Venture Capital",
+        "publisher": "couragevc.com",
+        "accessed": "undefined",
+        "supports": "existence, focus, HQ, positioning",
+        "quote": "Courage Ventures is the first purely digital health focused venture capital fund in the Nordics."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size/AUM not disclosed in available sources.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-gilde-healthcare",
+    "name": { "en": "Gilde Healthcare" },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Utrecht",
+    "offices": [
+      { "country": "Germany", "city": "Frankfurt" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://gildehealthcare.com/",
+    "capital": {
+      "funds": [
+        { "name": "Gilde Healthcare Venture & Growth Fund VI", "vintage_year": null, "size": { "raw": "€740 million", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "check_size": { "raw": "€10M–€70M", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["digital-health", "medtech-devices", "therapeutics"],
+      "thesis": "Utrecht-based healthcare investor whose venture & growth strategy explicitly spans digital healthcare, MedTech and therapeutics, targeting fast-growing companies delivering better care at lower cost."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "medtech", "netherlands"],
+    "summary": {
+      "en": "Utrecht-based healthcare investor managing a €740M Venture & Growth fund investing €10-70M per company across digital health, MedTech and therapeutics in Europe and North America.",
+      "local": "Investeerder in gezondheidszorg met hoofdkantoor in Utrecht; het Venture & Growth-fonds investeert in digitale gezondheidszorg, medtech en therapeutica."
+    },
+    "sources": [
+      {
+        "url": "https://gildehealthcare.com/news/all/gilde-healthcare-closes-new-venturegrowth-fund-at-e740-million-hard-cap/",
+        "title": "Gilde Healthcare closes new Venture&Growth fund at €740 million hard cap",
+        "publisher": "gildehealthcare.com",
+        "accessed": "undefined",
+        "supports": "fund size, check size, sector focus, HQ",
+        "quote": "Gilde Healthcare invests in companies in Europe and North America active in digital healthcare, medical technology (MedTech) and therapeutics... will invest €10-70 million per new portfolio company."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Gilde Healthcare is a broad healthcare investor (digital health is one of three explicit strategy pillars alongside MedTech and therapeutics), not a digital-health-exclusive fund; included for its explicit digital-health mandate.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-eit-health",
+    "name": { "en": "EIT Health" },
+    "type": "government-program",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "website": "https://eithealth.eu/",
+    "strategy": {
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "medtech-devices", "diagnostics", "therapeutics"],
+      "thesis": "EU-funded (EIT) pan-European network funding and accelerating healthcare innovation, combining grants, an EIC Accelerator equity pathway (up to €15M equity) and an 80+ investor Investor Network connecting digital-health, medtech and biotech startups to private capital."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "co_investors": []
+    },
+    "tags": ["digital-health", "eu-program", "accelerator", "grants-and-equity"],
+    "summary": {
+      "en": "EU-backed (EIT) innovation network funding and accelerating European healthtech, medtech and digital-health startups via grants, EIC Accelerator equity facilitation (up to €15M), and an 80+ investor Investor Network that has closed €38M in deals.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://eithealth.eu/news-article/three-sources-of-funding-for-your-health-innovation-start-up/",
+        "title": "Three sources of funding for your health innovation start-up",
+        "publisher": "EIT Health",
+        "accessed": "undefined",
+        "supports": "equity facilitation, investor network, deal volume",
+        "quote": "EIT Health facilitates access to the EIC Accelerator, providing up to €2.5 million in grants and €15 million in equity investments... first pan-European consortium of more than 80 healthcare investors across 21 countries. To date the programme has closed €38 million in deals."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "EIT Health is a grant/accelerator-led EU innovation community rather than a direct-investing VC fund; included because it facilitates equity investment into digital health startups via the EIC Accelerator and its Investor Network. HQ city listed as Munich per general EIT Health knowledge; one secondary source (Vestbee) lists Brussels — not independently reconciled within this research pass.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-ananda-impact-ventures",
+    "name": { "en": "Ananda Impact Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "capital": {
+      "funds": [
+        { "name": "Ananda fund", "vintage_year": null, "size": { "raw": "€108M", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "Munich-based impact VC investing in impact-driven ventures across health, climate and sustainability; health is one of its core verticals alongside climate and education."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "impact-investing", "germany"],
+    "summary": {
+      "en": "Munich-based impact VC (€108M fund) investing seed-to-Series-A in impact-driven ventures, with health as one of its core thematic verticals alongside climate and education.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.vestbee.com/insights/articles/top-health-tech-vc-funds-investing-in-europe",
+        "title": "Top HealthTech VC Funds Investing In Europe 2025",
+        "publisher": "Vestbee",
+        "accessed": "undefined",
+        "supports": "existence, HQ, fund size, focus",
+        "quote": "Ananda Impact Ventures | Munich, Germany | \"impact-driven ventures in health, climate, sustainability\" | €108M fund; seed to Series A"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced only from a single secondary directory listing (Vestbee); health is one of several impact verticals rather than the firm's exclusive focus. Official website not independently verified in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-panakes-partners",
+    "name": { "en": "Panakes Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Italy",
+    "hq_city": "Milan",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "€500K–€1.5M initial", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Europe"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics"],
+      "thesis": "Milan-based life-sciences VC investing across biotech, medtech and digital health at early stage."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "medtech", "italy"],
+    "summary": {
+      "en": "Milan-based early-stage life-sciences VC investing €500K-1.5M initial tickets across biotech, medtech and digital health.",
+      "local": "VC con sede a Milano che investe in fase iniziale su biotech, medtech e salute digitale."
+    },
+    "sources": [
+      {
+        "url": "https://www.vestbee.com/insights/articles/top-health-tech-vc-funds-investing-in-europe",
+        "title": "Top HealthTech VC Funds Investing In Europe 2025",
+        "publisher": "Vestbee",
+        "accessed": "undefined",
+        "supports": "existence, HQ, focus, check size",
+        "quote": "Panakes Partners | Milan, Italy | \"biotech, medtech, digital health\" | €500K-€1.5M initial"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced only from a single secondary directory listing; digital health is one of three stated foci (alongside biotech and medtech), not the firm's primary focus. Official website not independently verified in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-yzr-capital",
+    "name": { "en": "YZR Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "growth"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Munich-based healthtech-focused VC investing from pre-seed through growth stage."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "germany"],
+    "summary": {
+      "en": "Munich-based VC described as healthtech-focused, investing across stages from pre-seed to growth.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.vestbee.com/insights/articles/top-health-tech-vc-funds-investing-in-europe",
+        "title": "Top HealthTech VC Funds Investing In Europe 2025",
+        "publisher": "Vestbee",
+        "accessed": "undefined",
+        "supports": "existence, HQ, focus, stage range",
+        "quote": "YZR Capital | Munich, Germany | Healthtech focused | Pre-seed to growth"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced only from a single secondary directory listing; not independently corroborated via an official site fetch in this research pass.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-thuja-capital",
+    "name": { "en": "Thuja Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Utrecht",
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "medtech-devices", "therapeutics"],
+      "thesis": "Utrecht-based life-sciences VC investing from early to late stage across biotech, medtech, nutraceuticals and digital health."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "netherlands"],
+    "summary": {
+      "en": "Utrecht-based life-sciences VC investing across biotech, medtech, nutraceuticals and digital health from early to late stage.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.vestbee.com/insights/articles/top-health-tech-vc-funds-investing-in-europe",
+        "title": "Top HealthTech VC Funds Investing In Europe 2025",
+        "publisher": "Vestbee",
+        "accessed": "undefined",
+        "supports": "existence, HQ, focus",
+        "quote": "Thuja Capital | Utrecht, Netherlands | \"biotech, medtech, nutraceuticals, digital health\" | Early to late stages"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced only from a single secondary directory listing; digital health is one of several stated foci, not the firm's primary focus. Official website not independently verified in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-inkef-capital",
+    "name": { "en": "INKEF Capital" },
+    "aka": ["Inkef VC"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Amsterdam",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "medtech-devices", "therapeutics"],
+      "thesis": "Amsterdam-based VC investing seed to Series A across therapeutics, digital health and medical devices."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "tags": ["digital-health", "netherlands"],
+    "summary": {
+      "en": "Amsterdam-based VC investing seed-to-Series-A across therapeutics, digital health and medical devices.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.vestbee.com/insights/articles/top-health-tech-vc-funds-investing-in-europe",
+        "title": "Top HealthTech VC Funds Investing In Europe 2025",
+        "publisher": "Vestbee",
+        "accessed": "undefined",
+        "supports": "existence, HQ, focus, stage",
+        "quote": "Inkef VC | Amsterdam, Netherlands | \"therapeutics, digital health, medical devices\" | Seed to Series A"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced only from a single secondary directory listing; digital health is one of several stated foci. Official website not independently verified in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  },
+  {
+    "id": "eu-nlc-health-ventures",
+    "name": { "en": "NLC Health Ventures" },
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Amsterdam",
+    "strategy": {
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health", "medtech-devices", "therapeutics"],
+      "thesis": "Amsterdam-based healthtech venture builder that creates and co-builds new ventures across biotech, medtech and digital health rather than investing purely as a passive fund."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "25+ ventures per year (builds)"
+    },
+    "tags": ["digital-health", "venture-studio", "netherlands", "company-creation"],
+    "summary": {
+      "en": "Amsterdam-based healthtech venture builder/studio co-creating new ventures across biotech, medtech and digital health, building 25+ ventures per year.",
+      "local": ""
+    },
+    "sources": [
+      {
+        "url": "https://www.vestbee.com/insights/articles/top-health-tech-vc-funds-investing-in-europe",
+        "title": "Top HealthTech VC Funds Investing In Europe 2025",
+        "publisher": "Vestbee",
+        "accessed": "undefined",
+        "supports": "existence, HQ, focus, venture-building model",
+        "quote": "NLC Health Ventures | Amsterdam, Netherlands | \"healthtech, biotech, medtech, digital health\" | Builds 25+ ventures yearly"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced only from a single secondary directory listing; company-creation/venture-studio model (not a conventional VC fund) means fund economics fields are largely unavailable. Official website not independently verified in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-vc"
+  }
+]

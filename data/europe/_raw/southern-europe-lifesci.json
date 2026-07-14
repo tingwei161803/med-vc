@@ -1,0 +1,737 @@
+[
+  {
+    "id": "eu-ysios-capital",
+    "name": { "en": "Ysios Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "San Sebastián",
+    "offices": [
+      { "country": "Spain", "city": "San Sebastián" },
+      { "country": "Spain", "city": "Barcelona" }
+    ],
+    "website": "https://ysioscapital.com/",
+    "capital": {
+      "aum": { "raw": "more than €400 million", "usd": null, "currency": "EUR" },
+      "current_fund": { "raw": "€100 million (InceptionBio fund)", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Spain", "Europe", "Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Spain's largest life-science VC, investing globally in innovative therapeutic drug developers; recently launched InceptionBio, a €100M fund dedicated to founding and incubating new Spanish biotech companies."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "40+",
+      "notable_investments": [
+        { "company": "Stat-Dx", "sector": "diagnostics", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["biotech", "therapeutics", "spain", "company-creation"],
+    "summary": {
+      "en": "Ysios Capital is Spain's largest dedicated life-science VC (>€400M AUM), backing therapeutics-focused biotech companies globally from San Sebastián and Barcelona, and recently launched a €100M biotech company-creation fund (InceptionBio)."
+    },
+    "sources": [
+      {
+        "url": "https://ysioscapital.com/",
+        "title": "Leading life sciences investor - Ysios Capital",
+        "publisher": "Ysios Capital",
+        "accessed": "undefined",
+        "supports": "existence, focus",
+        "quote": "Leading life sciences investor"
+      },
+      {
+        "url": "https://www.eu-startups.com/2026/03/ysios-capital-launches-e100-million-inceptionbio-fund-to-boost-biotech-startup-creation-in-spain/",
+        "title": "Spanish VC firm Ysios Capital launches €100 million InceptionBio fund to boost BioTech startup creation",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "InceptionBio fund size, company-creation focus",
+        "quote": "Ysios Capital launches €100 million InceptionBio fund to boost BioTech startup creation in Spain"
+      },
+      {
+        "url": "https://www.biocat.cat/en/current-news/insights-articles/specialized-investors-bioregion-catalonia-whos-who",
+        "title": "Specialized investors in the BioRegion of Catalonia: Who's who?",
+        "publisher": "Biocat",
+        "accessed": "undefined",
+        "supports": "AUM, exit track record",
+        "quote": "Fund II (Ysios BioFund II Innvierte): €126.4 million; Notable exit: Stat-Dx sale to Qiagen for €154 million"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "One secondary source (Biocat) describes Ysios as an 'early 2000s' veteran fund while other sources state founded 2008; used 2008 per company/press description.",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-alta-life-sciences",
+    "name": { "en": "Alta Life Sciences" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "capital": {
+      "current_fund": { "raw": "€100 million (target)", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Spain", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "genomics-omics", "digital-health"],
+      "thesis": "Multistage life-sciences VC acting as a bridge between the Spanish life-sciences ecosystem and Silicon Valley venture capital, investing across biotech, medical devices, diagnostics, genomics and digital health."
+    },
+    "people": [
+      { "name": "Guy Nohra", "role": "Founder" }
+    ],
+    "tags": ["biotech", "medtech", "diagnostics", "spain"],
+    "summary": {
+      "en": "Barcelona-based multistage life-sciences VC founded by Guy Nohra in 2016, investing across biotech, medtech, diagnostics, genomics and digital health, and bridging Spain to Silicon Valley VC networks."
+    },
+    "sources": [
+      {
+        "url": "https://startupintros.com/orgs/alta-life-sciences",
+        "title": "Alta Life Sciences: Funding, Team & Investors",
+        "publisher": "Startup Intros",
+        "accessed": "undefined",
+        "supports": "founding, HQ, sector focus",
+        "quote": "Alta Life Sciences is a leading multistage venture capital firm focused on investing in life sciences companies across all development stages, covering biotechnology, medical devices, diagnostics, genomics, and digital health."
+      },
+      {
+        "url": "https://www.biocat.cat/en/current-news/insights-articles/specialized-investors-bioregion-catalonia-whos-who",
+        "title": "Specialized investors in the BioRegion of Catalonia: Who's who?",
+        "publisher": "Biocat",
+        "accessed": "undefined",
+        "supports": "founding year, target fund size, parent company",
+        "quote": "Alta Life Sciences: Founded: 2017; Target fund size: €100 million; Parent company: Altamar Capital Partners (€6 billion AUM)"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sources differ on founding year (2016 per Startup Intros vs 2017 per Biocat); could not verify official website URL directly.",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-columbus-venture-partners",
+    "name": { "en": "Columbus Venture Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Valencia",
+    "website": "https://columbusvp.com/en/",
+    "capital": {
+      "aum": { "raw": "more than €800 million", "usd": null, "currency": "EUR" },
+      "current_fund": { "raw": "up to €220 million (latest biotech/life-sciences fund)", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Spain", "Europe", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Valencia-founded VC specializing in biotechnology and life sciences, with the strongest track record in Spanish biotech venture capital and a differentiated therapeutics-focused investment model."
+    },
+    "tags": ["biotech", "therapeutics", "spain"],
+    "summary": {
+      "en": "Columbus Venture Partners is a Valencia-founded, biotech/life-sciences-specialist VC with over €800M AUM, which closed its largest fund to date at up to €220M."
+    },
+    "sources": [
+      {
+        "url": "https://columbusvp.com/en/",
+        "title": "Columbus Venture Partners",
+        "publisher": "Columbus Venture Partners",
+        "accessed": "undefined",
+        "supports": "existence, focus",
+        "quote": "Impulsamos la biotecnología que cambia vidas y genera retornos sólidos"
+      },
+      {
+        "url": "https://capital-riesgo.es/en/articles/columbus-venture-partners-closes-its-largest-biotechnology-and-life-sciences-fund-sized-at-up-to-220-million/",
+        "title": "Columbus Venture Partners closes its largest biotechnology and life sciences fund, sized at up to €220 million",
+        "publisher": "Capital-Riesgo.es",
+        "accessed": "undefined",
+        "supports": "fund size, founding, AUM",
+        "quote": "Columbus Venture Partners is a Spanish venture capital firm specializing in biotechnology and life sciences, founded in Valencia in 2016. With more than €800 million in assets under management..."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-asabys-partners",
+    "name": { "en": "Asabys Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "website": "https://asabys.com/",
+    "capital": {
+      "funds": [
+        { "name": "Sabadell Asabys Health Innovation Investments (Fund I)", "vintage_year": 2019, "size": { "raw": "€80M+ target", "usd": null, "currency": "EUR" } },
+        { "name": "Sabadell Asabys II Health Innovation Investments", "vintage_year": 2023, "size": { "raw": "€200 million", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "€3M–€10M (first cheque, Fund II)" },
+      "lead_or_follow": "both",
+      "geo_focus": ["Spain", "Europe", "Israel"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Barcelona-based healthcare-only VC investing across medtech, digital therapeutics and biotech, backed by Banc Sabadell and Alantra."
+    },
+    "track_record": {
+      "portfolio_count": "31+"
+    },
+    "tags": ["biotech", "medtech", "digital-health", "spain"],
+    "summary": {
+      "en": "Asabys Partners is a Barcelona healthcare-dedicated VC (backed by Banc Sabadell) investing in early-stage biotech, medtech and digital-health companies, having closed a €200M second fund in 2023."
+    },
+    "sources": [
+      {
+        "url": "https://asabys.com/asabys-launches-a-new-e200m-fund-to-invest-in-biotech-healthtech/",
+        "title": "Asabys launches a new €200m fund to invest in biotech & healthtech",
+        "publisher": "Asabys Partners",
+        "accessed": "undefined",
+        "supports": "fund size, sector focus",
+        "quote": "Asabys Partners recently closed its second fund, Sabadell Asabys II Health Innovation Investments SCR, SA, at an impressive €200 million in July 2023."
+      },
+      {
+        "url": "https://www.eu-startups.com/investor/asabys-partners/",
+        "title": "Asabys Partners",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "founding, portfolio count",
+        "quote": "Asabys Partners has backed more than 31 startups, with 7 new investments in the last 12 months alone."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-criteria-capital-risc",
+    "name": { "en": "Criteria Capital Risc" },
+    "aka": ["Caixa Capital Risc"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "website": "https://www.caixacapitalrisc.es",
+    "capital": {
+      "aum": { "raw": "€300 million (Iberian BioTech and DeepTech, post-rebrand)", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "€500,000–€5 million per company" },
+      "lead_or_follow": "both",
+      "geo_focus": ["Spain", "Portugal", "Iberia"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "CriteriaCaixa's VC arm; its Criteria Bio Ventures vehicle specializes in BioTech and health, funding companies developing new therapies for unmet medical needs, typically Series A/B or seed for breakthrough technology."
+    },
+    "track_record": {
+      "portfolio_count": "~30 healthcare companies"
+    },
+    "tags": ["biotech", "medtech", "spain", "corporate-backed"],
+    "summary": {
+      "en": "Criteria Capital Risc (formerly Caixa Capital Risc) is CriteriaCaixa's Barcelona VC arm; through its Criteria Bio Ventures vehicle it invests €0.5–5M in early/growth-stage BioTech and health companies addressing unmet medical needs."
+    },
+    "sources": [
+      {
+        "url": "https://www.eu-startups.com/2026/07/e300-million-for-iberian-biotech-and-deeptech-as-criteriacaixa-rebrands-its-vc-arm/",
+        "title": "€300 million for Iberian BioTech and DeepTech as CriteriaCaixa rebrands its VC arm",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "rebrand, AUM, Criteria Bio Ventures vehicle",
+        "quote": "Through its two specialized vehicles, Criteria Bio Ventures and Criteria Venture Tech, Criteria Capital Risc actively manages its investments... Criteria Bio Ventures is the investment fund of Criteria Capital Risc specializing in BioTech and health"
+      },
+      {
+        "url": "https://www.biocat.cat/en/current-news/insights-articles/specialized-investors-bioregion-catalonia-whos-who",
+        "title": "Specialized investors in the BioRegion of Catalonia: Who's who?",
+        "publisher": "Biocat",
+        "accessed": "undefined",
+        "supports": "AUM, check size, portfolio count",
+        "quote": "Caixa Capital Risc — Manages: €200+ million; Investment range: €500,000–€5 million per company; Portfolio: ~30 healthcare companies"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Firm rebranded from Caixa Capital Risc to Criteria Capital Risc in 2026; both AUM figures (€200M+ pre-rebrand, €300M post-rebrand) are reported and reflect this timeline.",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-invivo-partners",
+    "name": { "en": "Invivo Partners" },
+    "aka": ["Invivo Ventures"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "website": "https://invivo.partners/",
+    "capital": {
+      "current_fund": { "raw": "€100 million target (Invivo Ventures III)", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Spain", "Europe"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "ai-drug-discovery"],
+      "thesis": "Barcelona VC investing in early-stage life-science companies at the intersection of advanced therapies, synthetic biology and artificial intelligence."
+    },
+    "people": [
+      { "name": "Luis Pareras", "role": "Co-founder" },
+      { "name": "Albert Ferrer", "role": "Co-founder" }
+    ],
+    "track_record": {
+      "exits": [
+        { "company": "Sanifit", "type": "M&A", "year": 2022 },
+        { "company": "Versantis", "type": "M&A", "year": 2022 }
+      ]
+    },
+    "tags": ["biotech", "cell-gene-therapy", "ai-drug-discovery", "spain"],
+    "summary": {
+      "en": "Invivo Partners is a Barcelona-based life-sciences VC (backed by EIF, Fond-ICO Global, ICF) investing in advanced therapies, synthetic biology and AI-driven drug development, preparing a third €100M fund."
+    },
+    "sources": [
+      {
+        "url": "https://invivo.partners/2024/03/05/invivo-partners-is-preparing-to-launch-a-e100m-invivo-ventures-iii-fund-to-invest-in-leading-edge-life-sciences/",
+        "title": "Invivo Partners is preparing to launch a €100M Invivo Ventures III Fund to invest in Leading-Edge Life Sciences",
+        "publisher": "Invivo Partners",
+        "accessed": "undefined",
+        "supports": "fund size, focus",
+        "quote": "Invivo Partners is preparing the launch of its latest fund, Invivo Ventures III, with a target volume of €100 million."
+      },
+      {
+        "url": "https://www.biopharmadive.com/news/invivo-partners-venture-capital-fund/709514/",
+        "title": "European VC Invivo readies its latest fund to back new biotechs",
+        "publisher": "BioPharma Dive",
+        "accessed": "undefined",
+        "supports": "founders, focus, track record",
+        "quote": "Invivo Partners is a Spanish venture capital firm co-founded by Dr. Luis Pareras and Albert Ferrer, investing in early-stage life science companies at the intersection of advanced therapies, synthetic biology, and artificial intelligence."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-inveready",
+    "name": { "en": "Inveready" },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "capital": {
+      "aum": { "raw": "€200 million (across all sectors)", "usd": null, "currency": "EUR" },
+      "funds": [
+        { "name": "Inveready Life Sciences Fund III", "size": { "raw": "€30 million", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Spain"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Multi-strategy Spanish VC platform operating a dedicated Life Sciences Fund (drug development and medical technology) alongside its tech and growth-equity vehicles."
+    },
+    "tags": ["biotech", "medtech", "spain", "generalist-with-lifesci-fund"],
+    "summary": {
+      "en": "Inveready is a Barcelona multi-sector VC/growth platform whose dedicated Inveready Life Sciences Fund III (€30M) backs seed and Series A drug-development and medtech companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.biocat.cat/en/current-news/insights-articles/specialized-investors-bioregion-catalonia-whos-who",
+        "title": "Specialized investors in the BioRegion of Catalonia: Who's who?",
+        "publisher": "Biocat",
+        "accessed": "undefined",
+        "supports": "fund size, sector focus, stage focus",
+        "quote": "Inveready — Manages: €200 million total (across sectors); Life Sciences Fund III: €30 million; Focus: Seed and Series A stage companies; drug development and medical technology"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Inveready is a generalist multi-vertical investment platform (tech, real estate, growth) included here specifically for its dedicated Life Sciences Fund vertical.",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-panakes-partners",
+    "name": { "en": "Panakès Partners", "local": "Panakès Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "europe",
+    "country": "Italy",
+    "hq_city": "Milan",
+    "website": "https://www.panakes.it/",
+    "capital": {
+      "aum": { "raw": "€250 million", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Italy", "Europe"],
+      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics"],
+      "thesis": "Milan life-sciences-dedicated VC investing in ambitious teams developing revolutionary medtech, diagnostics and biotech products to improve patients' lives."
+    },
+    "people": [
+      { "name": "Fabrizio Landi", "role": "Co-founder" },
+      { "name": "Alessio Beverina", "role": "Co-founder" },
+      { "name": "Diana Saraceni", "role": "Co-founder" }
+    ],
+    "tags": ["medtech", "biotech", "italy"],
+    "summary": {
+      "en": "Panakès Partners is a Milan-based, life-sciences-dedicated VC founded in 2015 with roughly €250M under management, investing in medtech, diagnostics and biotech companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.panakes.it/",
+        "title": "Panakès Partners",
+        "publisher": "Panakès Partners",
+        "accessed": "undefined",
+        "supports": "existence, HQ, focus",
+        "quote": "Panakès Partners is a Venture Capital firm, based in Milan, which invests in the most ambitious companies and teams, developing revolutionary technologies and products, in the field of life sciences"
+      },
+      {
+        "url": "https://shizune.co/investors/life-science-vc-funds-italy",
+        "title": "Top 15 Life Science VC (Venture Capital) Funds in Italy",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "founders, AUM",
+        "quote": "Panakès was founded in 2015 by Fabrizio Landi, Alessio Beverina and Diana Saraceni, and has 250 million under management."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-claris-ventures",
+    "name": { "en": "Claris Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "europe",
+    "country": "Italy",
+    "hq_city": "Turin",
+    "capital": {
+      "aum": { "raw": "€85 million", "usd": null, "currency": "EUR" },
+      "funds": [
+        { "name": "Claris Biotech I", "vintage_year": 2020 },
+        { "name": "Claris Biotech II", "vintage_year": 2025 }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Italy", "Europe", "Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Turin-based biotech-focused VC investing in high-potential biopharma companies arising from the Italian R&D ecosystem, both local and international."
+    },
+    "tags": ["biotech", "therapeutics", "italy"],
+    "summary": {
+      "en": "Claris Ventures is a Turin biotech-dedicated VC (€85M AUM across two funds, Claris Biotech I and II) backing high-potential biopharma companies rooted in the Italian R&D ecosystem."
+    },
+    "sources": [
+      {
+        "url": "https://investorlist.com/investor/claris-ventures",
+        "title": "Claris Ventures",
+        "publisher": "Investorlist",
+        "accessed": "undefined",
+        "supports": "HQ, AUM, funds",
+        "quote": "Claris Ventures SGR SpA is a biotech-focused venture capital firm based in Turin (Italy), with €85m under management. Its first fund, raised in 2021, is dedicated to high-potential biopharma companies arisen from the Italian R&D ecosystem"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund I vintage described inconsistently (2020 vs 2021 in different aggregator sources); could not confirm via primary claris ventures website in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-indaco-venture-partners",
+    "name": { "en": "Indaco Venture Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "europe",
+    "country": "Italy",
+    "website": "https://www.indacosgr.com",
+    "capital": {
+      "aum": { "raw": "over €350 million invested through six funds", "usd": null, "currency": "EUR" },
+      "funds": [
+        { "name": "Indaco Venture I", "vintage_year": 2018, "size": { "raw": "€134 million", "usd": null, "currency": "EUR" } },
+        { "name": "Indaco BIO", "size": { "raw": "€95 million (first closing)", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Italy", "Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "One of the largest independent Italian VC managers; runs the dedicated Indaco BIO fund alongside generalist tech/growth funds, actively investing in Italian life-sciences and biotech companies."
+    },
+    "tags": ["biotech", "medtech", "italy", "generalist-with-bio-fund"],
+    "summary": {
+      "en": "Indaco Venture Partners is a large independent Italian VC manager (€350M+ deployed across six funds) whose dedicated Indaco BIO fund (€95M first close) targets life-sciences and biotech companies."
+    },
+    "sources": [
+      {
+        "url": "https://shizune.co/investors/biotechnology-vc-funds-italy",
+        "title": "Top 50 Biotechnology VC (Venture Capital) Funds in Italy",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "AUM, fund sizes",
+        "quote": "Indaco Venture Partners SGR (\"Indaco SGR\") is one of the largest Italian independent venture capital managers with over €350m of capital invested through six funds including Indaco Venture I – launched in 2018 – which raised €134m and Indaco BIO which recently made its first closing at €95m."
+      },
+      {
+        "url": "https://www.indacosgr.com/portfolio-item/vertis-venture/",
+        "title": "Vertis Venture - INDACO",
+        "publisher": "Indaco Venture Partners",
+        "accessed": "undefined",
+        "supports": "official domain confirmation",
+        "quote": "INDACO"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist multi-fund VC included primarily for its dedicated Indaco BIO life-sciences fund; HQ city not independently confirmed in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-vertis-sgr",
+    "name": { "en": "Vertis SGR" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2007,
+    "region": "europe",
+    "country": "Italy",
+    "offices": [
+      { "country": "Italy", "city": "Naples" },
+      { "country": "Italy", "city": "Milan" }
+    ],
+    "website": "https://www.vertis.it/en/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Italy"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Southern-Italy-rooted generalist VC/PE manager taking stakes in university spin-offs and startups; healthcare and biotechnology are among its core sectors, with portfolio companies including gene-therapy spinout Glomeria Therapeutics and Sibylla Biotech."
+    },
+    "track_record": {
+      "portfolio_count": 52,
+      "notable_investments": [
+        { "company": "Sibylla Biotech", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Glomeria Therapeutics", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "tags": ["biotech", "spinoff", "italy", "generalist-with-health-portfolio"],
+    "summary": {
+      "en": "Vertis SGR is a Naples/Milan generalist VC/PE manager (est. 2007) that channels risk capital into Southern Italy's startup ecosystem, including biotech and healthcare spin-offs such as Sibylla Biotech and Glomeria Therapeutics."
+    },
+    "sources": [
+      {
+        "url": "https://www.vertis.it/en/the-company/",
+        "title": "The Company - Vertis SGR SpA",
+        "publisher": "Vertis SGR",
+        "accessed": "undefined",
+        "supports": "founding, HQ, focus",
+        "quote": "Vertis is an independent asset management company, established in 2007 with operational offices in Naples and Milan, authorized by the Bank of Italy, which has launched 9 closed-end investment funds... taking stakes in research projects, university spin-offs, startups, scaleups and SMEs."
+      },
+      {
+        "url": "https://tracxn.com/d/private-equity/vertis-sgr/__FRgRJzdBAxxh57fWGKgOH5OKqaQ6teMtjmjeNcq1Yjk",
+        "title": "Vertis SGR - Investor Profile, Portfolio, Team & Exits",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "portfolio count, notable investments",
+        "quote": "As of July 2025, Vertis SGR is an active investor with a portfolio of 52 companies... Vertis SGR has invested in 49 companies, including Radical Storage & Sibylla Biotech."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Vertis is a broad, multi-sector Southern Italy VC/PE fund; included because biotech/healthcare is one of its named core sectors with real portfolio companies (Sibylla Biotech, Glomeria Therapeutics), but health is not its exclusive focus.",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-biovelocita",
+    "name": { "en": "BiovelocITA" },
+    "type": "accelerator",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "europe",
+    "country": "Italy",
+    "hq_city": "Milan",
+    "website": "https://www.biovelocita.com/en/",
+    "capital": {
+      "funds": [
+        { "name": "BiovelocITA (seed)", "vintage_year": 2015, "size": { "raw": "€6 million", "usd": null, "currency": "EUR" } },
+        { "name": "Biovelocita II", "size": { "raw": "€165 million", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Italy", "United Kingdom", "Denmark", "France"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Italy's first biotech accelerator/company-creation platform (created by Sofinnova Partners), transforming promising academic biotech research into proof-of-concept-stage companies; its successor fund Biovelocita II expanded the model pan-European."
+    },
+    "lifesci": {
+      "company_creation": true
+    },
+    "people": [
+      { "name": "Silvano Spinelli", "role": "Chairman" },
+      { "name": "Gabriella Camboni", "role": "CEO" }
+    ],
+    "tags": ["biotech", "accelerator", "company-creation", "italy"],
+    "summary": {
+      "en": "BiovelocITA is Italy's first biotech accelerator, launched in Milan in 2015 by Paris-based Sofinnova Partners with €6M seed funding to transform academic research into medical biotech startups; its successor fund Biovelocita II (€165M) expanded the strategy across Europe."
+    },
+    "sources": [
+      {
+        "url": "https://sofinnovapartners.com/news/sofinnova-launches-biovelocita-the-first-biotech-accelerator-in-italy",
+        "title": "Sofinnova launches BiovelocITA: the first biotech accelerator in Italy",
+        "publisher": "Sofinnova Partners",
+        "accessed": "undefined",
+        "supports": "founding, seed funding, location",
+        "quote": "The new accelerator dedicated to medical biotech is to be set up in Milan with seed funding of €6 million from the Paris-Based venture capital firm Sofinnova Partners."
+      },
+      {
+        "url": "https://sciencebusiness.net/news/77322/Italian-biotech-accelerator-launched-with-%E2%82%AC6M-VC-investment",
+        "title": "Italian biotech accelerator launched with €6M VC investment",
+        "publisher": "Science|Business",
+        "accessed": "undefined",
+        "supports": "leadership, mission",
+        "quote": "The accelerator was co-founded and will be managed by two Italian repeat entrepreneurs... Silvano Spinelli, Chairman, and Gabriella Camboni, CEO."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Parent Sofinnova Partners is headquartered in Paris (out of this slice's scope); BiovelocITA/Biovelocita II is included here as a Milan-based, Italy-created dedicated biotech accelerator entity.",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-portugal-ventures",
+    "name": { "en": "Portugal Ventures" },
+    "type": "vc",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "europe",
+    "country": "Portugal",
+    "hq_city": "Porto",
+    "website": "https://www.portugalventures.pt/en/",
+    "capital": {
+      "aum": { "raw": "€282 million", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Portugal"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "State-backed VC (part of the Banco Português de Fomento group) investing pre-seed to Series A in Portuguese startups with international potential across four strategic sectors, one of which is a dedicated Life Sciences vertical."
+    },
+    "track_record": {
+      "portfolio_count": 164,
+      "notable_investments": [
+        { "company": "Insignals Neurotech", "sector": "neurotech-bci", "outcome": "active" }
+      ]
+    },
+    "tags": ["life-sciences", "state-backed", "portugal"],
+    "summary": {
+      "en": "Portugal Ventures is Porto-based, state-backed VC (part of Banco Português de Fomento) managing €282M, with a dedicated Life Sciences vertical spanning ~20 portfolio companies, including University of Porto neurotech spin-off Insignals Neurotech."
+    },
+    "sources": [
+      {
+        "url": "https://www.portugalventures.pt/en/",
+        "title": "Portugal Ventures | Venture Capital Investor",
+        "publisher": "Portugal Ventures",
+        "accessed": "undefined",
+        "supports": "existence, sector focus, HQ",
+        "quote": "Portugal Ventures... targets startups with high internationalization potential across four strategic sectors: Digital, Engineering & Manufacturing, Life Sciences, and Tourism."
+      },
+      {
+        "url": "https://www.portugalventures.pt/en/portfolio/",
+        "title": "Portfolio - Portugal Ventures",
+        "publisher": "Portugal Ventures",
+        "accessed": "undefined",
+        "supports": "AUM, portfolio count, life sciences portfolio detail",
+        "quote": "Portugal Ventures currently manages 282 million euros and has 164 portfolio companies... a portfolio including 20 companies offering solutions in Life Sciences... Insignals Neurotech, a spin-off from the University of Porto"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  },
+  {
+    "id": "eu-kos-biotechnology-partners",
+    "name": { "en": "Kos Biotechnology Partners" },
+    "aka": ["Kos BP"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2025,
+    "region": "europe",
+    "country": "Greece",
+    "website": "https://www.kosbp.com/",
+    "capital": {
+      "current_fund": { "raw": "$123 million / €106 million (third closing of inaugural fund)", "usd": 123000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Greece", "Europe", "Global"],
+      "sector_focus": ["therapeutics", "pharma-services"],
+      "thesis": "The first Greece-based VC firm dedicated to life sciences, investing from company formation through Series C in novel therapeutics, pharma services, and technology-enabled life-sciences platforms, backed by Hellenic Development Bank of Investments."
+    },
+    "people": [
+      { "name": "Simos Simeonidis", "role": "Co-founder", "background": "Biomedical training, Columbia & Harvard Medical Schools; ex-Morgan Stanley, Cowen & Co, RBC biotech equity analyst" },
+      { "name": "Alex Tzoukas", "role": "Co-founder" },
+      { "name": "Nikos Kostaras", "role": "Partner", "background": "Former Greece country head, IQVIA" }
+    ],
+    "tags": ["biotech", "therapeutics", "greece", "life-sciences-first"],
+    "summary": {
+      "en": "Kos Biotechnology Partners is the first Greece-based venture capital firm dedicated to life sciences, having raised $123M (€106M) in its inaugural fund as of mid-2026 — the largest debut VC fund ever raised in Greece — to back novel therapeutics, pharma services and tech-enabled life-sciences platforms."
+    },
+    "sources": [
+      {
+        "url": "https://www.kosbp.com/",
+        "title": "Kos Biotechnology Partners",
+        "publisher": "Kos Biotechnology Partners",
+        "accessed": "undefined",
+        "supports": "existence, positioning",
+        "quote": "Kos Biotechnology Partners is the first Greece-based venture capital firm dedicated to life sciences"
+      },
+      {
+        "url": "https://www.biospace.com/press-releases/kos-biotechnology-partners-announces-third-closing-of-global-life-sciences-fund-at-123-million",
+        "title": "Kos Biotechnology Partners Announces Third Closing of Global Life Sciences Fund at $123 Million",
+        "publisher": "BioSpace",
+        "accessed": "undefined",
+        "supports": "fund size, founders, investment strategy",
+        "quote": "Kos announced the third closing of its inaugural global life sciences fund, bringing total capital commitments to $123M (€106M)... backing from a syndicate of prominent institutional investors including lead investor Hellenic Development Bank of Investments (HDBI)"
+      },
+      {
+        "url": "https://www.therecursive.com/kos-biotechnology-partners-first-greek-life-sciences-fund/",
+        "title": "Two Greek-American Investors Return to Greece to Raise €106M for Its First Life Sciences Fund",
+        "publisher": "The Recursive",
+        "accessed": "undefined",
+        "supports": "founders' background",
+        "quote": "Two Greek-American Investors Return to Greece to Raise €106M for Its First Life Sciences Fund"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "southern-europe-lifesci"
+  }
+]

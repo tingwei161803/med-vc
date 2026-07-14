@@ -1,0 +1,723 @@
+[
+  {
+    "id": "us-bellco-capital",
+    "name": { "en": "Bellco Capital" },
+    "aka": ["Arie Belldegrun Family Office", "Bellco Capital LLC"],
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2003,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Los Angeles",
+    "website": "https://www.bellcocapital.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/bellco-capital-llc",
+      "other": ["https://en.wikipedia.org/wiki/Arie_Belldegrun"]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Single-family office of oncologist-entrepreneur Arie Belldegrun (founder of Kite Pharma and Allogene) and Rebecka Belldegrun; capital derived from cancer-immunotherapy exits is recycled primarily into biotech ventures, plus life-science real estate via the Breakthrough Properties JV with Tishman Speyer."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "biologics-antibody"],
+      "indications": ["oncology"],
+      "company_creation": true,
+      "science_platform_notes": "Belldegrun co-founded and chairs multiple portfolio companies (Kite Pharma, Allogene, Kronos Bio, Vida Ventures, Breakthrough Properties, Symbiotic Capital); wealth base is CAR-T / cell & gene therapy."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Kite Pharma", "sector": "cell therapy (CAR-T)", "outcome": "acquired by Gilead for $11.9B (2017)" },
+        { "company": "Allogene Therapeutics", "sector": "allogeneic CAR-T", "outcome": "IPO" },
+        { "company": "Sutro Biopharma", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "AskBio (Asklepios BioPharmaceutical)", "sector": "AAV gene therapy", "outcome": "acquired by Bayer" },
+        { "company": "Pionyr Immunotherapeutics", "sector": "cancer immunotherapy", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Arie Belldegrun", "role": "Co-founder / Chairman", "background": "MD; founder of Kite Pharma and Allogene; former UCLA urologic oncology professor" },
+      { "name": "Rebecka Belldegrun", "role": "Co-founder / CEO", "background": "MD" }
+    ],
+    "summary": {
+      "en": "Los Angeles single-family office of biotech entrepreneurs Arie and Rebecka Belldegrun, funded by cancer cell-therapy exits (Kite Pharma) and investing heavily in oncology, cell & gene therapy, and life-science real estate."
+    },
+    "sources": [
+      { "url": "https://www.bellcocapital.com/", "title": "Bellco Capital", "publisher": "Bellco Capital", "accessed": "undefined", "supports": "official website, existence, contact", "quote": "Bellco Capital" },
+      { "url": "https://familyofficehub.io/news/arie-belldegrun-single-family-office-invests-in-biotech-real-estate/", "title": "Arie Belldegrun Single Family Office Invests In Biotech Real Estate", "publisher": "Family Office Hub", "accessed": "undefined", "supports": "founding year, HQ, wealth source", "quote": "Rebecka Belldegrun and Arie Belldegrun established Bellco Capital in 2003. Bellco is headquartered in the Greater Los Angeles Area... Arie Belldegrun sold his company Kite Pharma for $11.9B to Gilead Sciences in 2017, which increased the assets under management of his single family office 'Bellco Capital'." },
+      { "url": "https://www.fintrx.com/blog/3-family-offices-investing-in-pharmaceutical-companies", "title": "3 Family Offices Investing in Pharmaceutical Companies", "publisher": "FINTRX", "accessed": "undefined", "supports": "biotech portfolio companies", "quote": "Pionyr Immunotherapeutics (cancer immunotherapies, 2017); Allogene Therapeutics (AlloCAR T therapies, 2018); Sutro Biopharma (drug discovery/development, 2018); Asklepios BioPharmaceutical/AskBio (AAV gene therapy, 2019)" },
+      { "url": "https://www.fiercebiotech.com/biotech/ties-arie-belldegruns-bellco-credit-firm-symbiotic-capital-unveils-600m", "title": "With ties to Arie Belldegrun's Bellco, credit firm Symbiotic Capital unveils with $600M", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "ongoing biotech activity", "quote": "With ties to Arie Belldegrun's Bellco, credit firm Symbiotic Capital unveils with $600M" }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM not publicly disclosed. Belldegrun's active biotech vehicles (Vida Ventures, Kronos Bio, Symbiotic Capital) may be institutionalized funds better placed in the VC slice; Bellco Capital itself is the personal single-family office.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-wildcat-capital-management",
+    "name": { "en": "Wildcat Capital Management" },
+    "aka": ["David Bonderman Family Office"],
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.wildcatcap.com/",
+    "links": {
+      "other": ["https://www.wildcatcap.com/team", "https://mergr.com/investor/wildcat-capital-management"]
+    },
+    "capital": {
+      "aum": { "raw": "north of $2.5 billion", "usd": 2500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "check_size": { "raw": "up to $150 million per transaction", "usd_max": 150000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["healthcare-services", "therapeutics"],
+      "thesis": "Single-family office of TPG co-founder David Bonderman; makes concentrated equity investments in founder-owned companies including healthcare-services and life-science businesses (e.g., Spring Fertility clinics, Hubble contact lenses, and an early stake in Kite Pharma). CEO/CIO Len Potter also co-founded life-science fund Vida Ventures."
+    },
+    "lifesci": {
+      "indications": ["womens-health"],
+      "science_platform_notes": "Healthcare exposure via founder-led companies rather than a dedicated biotech thesis; leadership overlaps with Vida Ventures life-science fund."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Kite Pharma", "sector": "cell therapy", "outcome": "acquired by Gilead" },
+        { "company": "Spring Fertility", "sector": "fertility / healthcare services", "outcome": "active" },
+        { "company": "Hubble", "sector": "consumer health (contact lenses)", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "David Bonderman", "role": "Principal", "background": "Founding partner of TPG Capital" },
+      { "name": "Len Potter", "role": "CEO / CIO", "background": "Co-founder and Senior Managing Director of Vida Ventures life-science fund; co-founded the Basser Center at Penn for BRCA cancers" }
+    ],
+    "summary": {
+      "en": "New York single-family office of TPG founder David Bonderman with ~$2.5B AUM, holding healthcare-services and life-science stakes (Spring Fertility, Hubble, Kite Pharma) and led by Len Potter, a co-founder of life-science fund Vida Ventures."
+    },
+    "sources": [
+      { "url": "https://familyofficehub.io/blog/the-david-bonderman-family-office-wildcat-capital-management/", "title": "The David Bonderman family office: Wildcat Capital Management", "publisher": "Family Office Hub", "accessed": "undefined", "supports": "founding, HQ, AUM, check size, healthcare holdings", "quote": "Wildcat was founded in 2011 as the single-family office for David Bonderman... They currently have AUM north of $2.5 billion... committing up to $150 million of equity per transaction... the family office of David Bonderman owns... the contact lens company Hubble, the fertility clinics of Spring Fertility" },
+      { "url": "https://www.wildcatcap.com/team", "title": "Wildcat Capital Management | Meet Our Team", "publisher": "Wildcat Capital Management", "accessed": "undefined", "supports": "Len Potter life-science background", "quote": "Len Potter... co-founded and serves as a Senior Managing Director of Vida Ventures, a next-generation life sciences investment fund." },
+      { "url": "https://www.wildcatcap.com/", "title": "Wildcat Capital Management", "publisher": "Wildcat Capital Management", "accessed": "undefined", "supports": "official website, existence", "quote": "Wildcat Capital Management" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AUM and check-size figures come from a secondary aggregator (Family Office Hub) echoing the firm's own disclosures. Medical nexus is via healthcare-services/consumer-health holdings and leadership overlap with Vida Ventures rather than a dedicated biotech program.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-pritzker-vlock-family-office",
+    "name": { "en": "Pritzker Vlock Family Office" },
+    "aka": ["PVFO", "Pritzker & Vlock Family Office"],
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New Haven",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/pritzker-vlock-family-office",
+      "other": ["https://www.cbinsights.com/investor/pritzker-vlock-family-office-1"]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "New Haven single-family office of the Karen Pritzker and Michael Vlock branch; invests in capital-efficient Series A/B biotech and medical-device companies alongside a broader public-equity and real-estate portfolio."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "indications": ["musculoskeletal-orthopedics", "metabolic-obesity"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Biorez", "sector": "regenerative medicine (soft-tissue scaffolds / ACL)", "outcome": "acquired by CONMED" },
+        { "company": "Retia Medical", "sector": "hemodynamic monitoring devices", "outcome": "active" },
+        { "company": "Gelesis", "sector": "obesity / metabolic (oral hydrogel)", "outcome": "went public (SPAC)" }
+      ]
+    },
+    "summary": {
+      "en": "Connecticut single-family office of the Karen Pritzker / Michael Vlock branch investing in capital-efficient Series A/B biotech and medical-device companies such as Biorez, Retia Medical, and Gelesis."
+    },
+    "sources": [
+      { "url": "https://www.cbinsights.com/investor/pritzker-vlock-family-office-1", "title": "Pritzker Vlock Family Office Portfolio Investments", "publisher": "CB Insights", "accessed": "undefined", "supports": "founding year, HQ, asset base, medical-device focus", "quote": "Founded in 2002, Pritzker Vlock Family Office is a United States-based family office that owns and manages a broad portfolio of public equities, consumer, biotech, industrial, medical equipment and technology businesses" },
+      { "url": "https://www.caplight.com/investor/pritzker-vlock-family-office", "title": "Pritzker Vlock Family Office | Portfolio, Investments & AUM", "publisher": "Caplight", "accessed": "undefined", "supports": "portfolio companies, stage focus, Retia Series B", "quote": "The office made a $15M Series B round investment in Retia Medical on July 18, 2022... Biorez: A clinical-stage regenerative medicine company... for soft tissue regeneration" },
+      { "url": "https://familyofficehub.io/blog/list-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcarelist-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcare/", "title": "List of 5 US Single Family Offices That Invest in Biotech and Healthcare", "publisher": "Family Office Hub", "accessed": "undefined", "supports": "Gelesis investment, New Haven HQ", "quote": "Pritzker Vlock Family Office (PVFO)... Location: New Haven, Connecticut... Portfolio Company: Gelesis (oral smart pill for weight management and diabetes treatment)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No official website located; details from investor-database aggregators (CB Insights, Caplight) and a family-office list. Related to (and sometimes conflated with) LaunchCapital, the direct-venture arm of the same Karen Pritzker / Michael Vlock family.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-launchcapital",
+    "name": { "en": "LaunchCapital" },
+    "aka": ["Karen Pritzker and Michael Vlock Family Office venture arm"],
+    "type": "family-office",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New Haven",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "consumer-health"],
+      "thesis": "Direct seed-stage investment and venture arm of the Karen Pritzker and Michael Vlock family office; backs early-stage pharmaceutical, therapeutic and consumer-health startups among other sectors."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "indications": ["infectious-disease", "ophthalmology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Bioxiness Pharmaceuticals", "sector": "antimicrobial therapeutics", "outcome": "active" },
+        { "company": "TearSolutions", "sector": "dry-eye therapeutics", "outcome": "active" },
+        { "company": "Carpe", "sector": "consumer health (antiperspirant)", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Elon Boms", "role": "Managing Director", "background": "Co-founder of LaunchCapital" }
+    ],
+    "summary": {
+      "en": "New Haven seed-stage venture arm of the Karen Pritzker / Michael Vlock family office, backing early pharmaceutical (Bioxiness, TearSolutions) and consumer-health startups."
+    },
+    "sources": [
+      { "url": "https://www.fintrx.com/blog/3-family-offices-investing-in-pharmaceutical-companies", "title": "3 Family Offices Investing in Pharmaceutical Companies", "publisher": "FINTRX", "accessed": "undefined", "supports": "HQ, family affiliation, pharma portfolio", "quote": "LaunchCapital - Principal/Family: Karen Pritzker and Michael Vlock Family Office - HQ Location: New Haven, Connecticut - Bioxiness Pharmaceuticals (antimicrobial compounds, 2011); TearSolutions (dry eye therapy, 2015); Carpe (sweat-stopping products, 2018)" },
+      { "url": "https://familyofficehub.io/blog/list-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcarelist-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcare/", "title": "List of 5 US Single Family Offices That Invest in Biotech and Healthcare", "publisher": "Family Office Hub", "accessed": "undefined", "supports": "LaunchCapital founders and family affiliation", "quote": "LaunchCapital, founded by Elon Boms, Karen Pritzker, and Michael Vlock in 2008, is a New Haven, Connecticut-based single-family office serving as the direct investment and venture arm of the Karen Pritzker and Michael Vlock Family Office." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No independently confirmed official website located during research. Operates as the venture arm of the same family behind Pritzker Vlock Family Office; listed as a distinct vehicle but the two overlap.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-tao-capital-partners",
+    "name": { "en": "Tao Capital Partners" },
+    "aka": ["Joby Pritzker Family Office"],
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.taocap.com/",
+    "links": {
+      "other": ["https://altss.com/profile/tao-capital-partners-joby-pritzker-family-office"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "check_size": { "raw": "mid- to high-seven figures for Seed and Series A, up to nine-figure co-investments" },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "diagnostics", "life-science-tools", "digital-health"],
+      "thesis": "Direct-investment family office of Nicholas J. and Joby Pritzker (Hyatt branch); invests permanent family capital across mobility, energy transition, healthcare and life sciences, with a substantial life-science portfolio spanning diagnostics, tools and therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "indications": ["oncology", "neurology"],
+      "science_platform_notes": "Life-science holdings include diagnostics and single-cell / spatial-biology tools (Vizgen, Ultivue, Encodia), sleep/neuro therapeutics (Apnimed), and surgical robotics (Activ Surgical)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Truvian Sciences", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Vizgen", "sector": "spatial genomics tools", "outcome": "active" },
+        { "company": "Apnimed", "sector": "sleep-apnea therapeutics", "outcome": "IPO" },
+        { "company": "Kallyope", "sector": "gut-brain therapeutics", "outcome": "active" },
+        { "company": "Activ Surgical", "sector": "surgical robotics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Joby Pritzker", "role": "Managing Director of Investments", "background": "Pritzker family (Hyatt branch)" },
+      { "name": "Nicholas J. Pritzker", "role": "Principal" }
+    ],
+    "summary": {
+      "en": "San Francisco direct-investment family office of Nicholas and Joby Pritzker (Hyatt branch), with a broad life-science portfolio across diagnostics, research tools, and therapeutics (Truvian, Vizgen, Apnimed, Kallyope, Activ Surgical)."
+    },
+    "sources": [
+      { "url": "https://www.taocap.com/", "title": "Tao Capital Partners", "publisher": "Tao Capital Partners", "accessed": "undefined", "supports": "official website, existence, focus areas", "quote": "Tao Capital Partners" },
+      { "url": "https://altss.com/profile/tao-capital-partners-joby-pritzker-family-office", "title": "Tao Capital Partners (Joby Pritzker Family Office) Overview", "publisher": "Altss", "accessed": "undefined", "supports": "family affiliation, HQ, incorporation year, healthcare portfolio, external-capital policy", "quote": "Tao Capital Partners is the direct-investment family office of Nicholas J. Pritzker and his son Joby Pritzker... headquartered in San Francisco... Healthcare investments include... Truvian... Activ Surgical... Vizgen... Kallyope... The firm exclusively manages the Pritzker family's wealth and does not raise capital from external investors" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare/life sciences is one of several verticals (alongside mobility and energy transition). Founding/incorporation year (2013) and check-size band come from a secondary aggregator (Altss); official site confirms existence and focus but not the figures.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-tarsadia-investments",
+    "name": { "en": "Tarsadia Investments" },
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 1976,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Newport Beach",
+    "website": "https://tarsadia.com/",
+    "links": {
+      "other": ["https://tarsadia.com/our-strategies/", "https://tarsadia.com/portfolio/"]
+    },
+    "capital": {
+      "aum": { "raw": "approximately $2 billion", "usd": 2000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "check_size": { "raw": "$5 to $75 million", "usd_min": 5000000, "usd_max": 75000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Newport Beach family office (private-investment vehicle of the Patel family) with a dedicated life-sciences strategy; invests in drug-delivery technologies and preclinical-to-clinical assets across CNS, inflammation/immunology, oncology and biosimilars."
+    },
+    "lifesci": {
+      "modalities": ["drug-delivery", "small-molecule", "biologics-antibody"],
+      "indications": ["neurology", "immunology-inflammation", "oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Asana BioSciences", "sector": "drug discovery (oncology, pain, inflammation)", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Newport Beach single-family office (~$2B AUM) with a dedicated life-sciences arm investing in drug delivery and preclinical/clinical assets across CNS, immunology, oncology and biosimilars."
+    },
+    "sources": [
+      { "url": "https://tarsadia.com/our-strategies/", "title": "Our Strategies - Tarsadia", "publisher": "Tarsadia Investments", "accessed": "undefined", "supports": "life-science therapeutic focus", "quote": "Their portfolio spans drug delivery technologies and early-stage assets in several key areas: CNS, inflammation/immunology, oncology, and biosimilars." },
+      { "url": "https://tarsadia.com/", "title": "Tarsadia", "publisher": "Tarsadia Investments", "accessed": "undefined", "supports": "official website, existence", "quote": "Tarsadia" },
+      { "url": "https://www.fintrx.com/blog/3-family-offices-investing-in-pharmaceutical-companies", "title": "3 Family Offices Investing in Pharmaceutical Companies", "publisher": "FINTRX", "accessed": "undefined", "supports": "HQ, AUM, check size, Asana BioSciences", "quote": "Tarsadia Investments - Location: Newport Beach, California - AUM: Approximately $2 billion - Investment Range: $5–200 million per deal - Portfolio Company: Asana Biosciences (drug discovery in oncology, pain, and inflammation)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 1976; AUM ~$2B and check-size figures from FINTRX/secondary sources (FINTRX cites $5-200M; the official venture/growth arm cites $5-75M). Life-sciences check sizes not separately disclosed on the official site.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-raptor-group",
+    "name": { "en": "Raptor Group" },
+    "aka": ["Pallotta Family Office", "The Raptor Group"],
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://www.raptorgroup.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/raptorgroup"
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["healthcare-services", "medical-imaging", "digital-health"],
+      "thesis": "Single-family office of hedge-fund investor Jim Pallotta (ex-Tudor); allocates permanent capital across venture, growth and public strategies, with healthcare as one of its core verticals (e.g., cardiac-imaging company Genetesis)."
+    },
+    "lifesci": {
+      "indications": ["cardiovascular"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Genetesis", "sector": "non-invasive cardiac imaging", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Jim Pallotta", "role": "Chairman / Managing Director", "background": "Former Vice Chairman of Tudor Investment Corporation" }
+    ],
+    "summary": {
+      "en": "Boston single-family office of investor Jim Pallotta, investing across venture, growth and public markets with healthcare as a core vertical (e.g., cardiac-imaging startup Genetesis)."
+    },
+    "sources": [
+      { "url": "https://www.raptorgroup.com/about/", "title": "About - Raptor Group", "publisher": "Raptor Group", "accessed": "undefined", "supports": "focus areas including healthcare, multi-stage strategy", "quote": "we source and invest in companies across various stages and asset classes, ranging from early stage to both private and public equity to funds... technology, fintech, sports, consumer, media, entertainment, and healthcare" },
+      { "url": "https://familyofficehub.io/blog/list-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcarelist-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcare/", "title": "List of 5 US Single Family Offices That Invest in Biotech and Healthcare", "publisher": "Family Office Hub", "accessed": "undefined", "supports": "principal, Boston HQ, Genetesis", "quote": "Raptor Group - Principal: Jim Palotta - Location: Boston, Massachusetts - Portfolio Company: Genetesis (non-invasive cardiac imaging technology)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare is one of several verticals; Genetesis is the clearest biomedical holding surfaced. Founding year (2009) from secondary sources; official 'About' page does not state it.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-schooner-capital",
+    "name": { "en": "Schooner Capital" },
+    "aka": ["Schooner Capital LLC"],
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 1971,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://www.schoonercapital.com/",
+    "links": {
+      "other": ["https://www.schoonercapital.com/vin-ryan"]
+    },
+    "capital": {
+      "aum": { "raw": "approximately $300 million", "usd": 300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Boston family office founded by Vin Ryan in 1971; invests across venture capital, growth equity and public securities with healthcare and biotech among its key industries (e.g., SRS Medical for urology, Remedy Plan Therapeutics for cancer stem cells)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "medical-hardware"],
+      "indications": ["oncology", "nephrology-urology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Remedy Plan Therapeutics", "sector": "oncology (cancer stem cells)", "outcome": "active" },
+        { "company": "SRS Medical Systems", "sector": "urology devices (male LUTS)", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Vincent (Vin) Ryan", "role": "Founder / Chairman", "background": "Founder of Schooner Capital (1971); former director of Iron Mountain" }
+    ],
+    "summary": {
+      "en": "Boston family office founded by Vin Ryan in 1971 (~$300M AUM) investing across private and public markets, with healthcare and biotech as key sectors (Remedy Plan Therapeutics, SRS Medical)."
+    },
+    "sources": [
+      { "url": "https://www.schoonercapital.com/vin-ryan", "title": "Vin Ryan - SCHOONER CAPITAL", "publisher": "Schooner Capital", "accessed": "undefined", "supports": "founder, founding year", "quote": "Vin is Founder and Chairman of Schooner, a firm which he started in 1971 and has managed for more than five decades." },
+      { "url": "https://familyofficehub.io/blog/list-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcarelist-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcare/", "title": "List of 5 US Single Family Offices That Invest in Biotech and Healthcare", "publisher": "Family Office Hub", "accessed": "undefined", "supports": "Boston HQ, principal, Remedy Plan", "quote": "Schooner Capital - Principal: Vin Ryan - Location: Boston, Massachusetts - Portfolio Company: Remedy Plan Therapeutics (cancer stem cell targeting therapeutics)" },
+      { "url": "https://www.schoonercapital.com/", "title": "Schooner Capital", "publisher": "Schooner Capital", "accessed": "undefined", "supports": "AUM, healthcare/biotech focus, SRS Medical", "quote": "the firm manages approximately $300 million in assets... healthcare and biotech are two of their key industries... In October 2018, Schooner Capital directly invested in SRS Medical Systems" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AUM (~$300M) from a secondary aggregator; founder/founding-year confirmed on the official site. SRS Medical and Remedy Plan Therapeutics are the clearest biomedical holdings.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-bezos-expeditions",
+    "name": { "en": "Bezos Expeditions" },
+    "aka": ["Jeff Bezos family investment office"],
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2005,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Seattle",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "longevity-aging", "cell-gene-therapy"],
+      "thesis": "Jeff Bezos's personal family investment office; a major individual backer of longevity, cell-engineering and neurodegeneration biotech, including cornerstone funding of Altos Labs (cellular reprogramming) and stakes in Unity Biotechnology, Denali Therapeutics and Sana Biotechnology."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "indications": ["aging-longevity", "neurology", "oncology"],
+      "invests_public_markets": true,
+      "science_platform_notes": "Aging/longevity science is a defining theme; anchored Altos Labs' ~$3B launch alongside Yuri Milner and invested pre-IPO in Denali (blood-brain-barrier neurodegeneration)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Altos Labs", "sector": "longevity / cellular reprogramming", "outcome": "active (raised ~$3B)" },
+        { "company": "Unity Biotechnology", "sector": "senescence / aging", "outcome": "IPO" },
+        { "company": "Denali Therapeutics", "sector": "neurodegeneration", "outcome": "IPO (2017)" },
+        { "company": "Sana Biotechnology", "sector": "cell engineering", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Jeff Bezos", "role": "Principal", "background": "Founder of Amazon; funds personal venture/longevity bets via Bezos Expeditions" }
+    ],
+    "summary": {
+      "en": "Jeff Bezos's personal family investment office and one of the largest individual bettors on longevity and cell/gene therapy biotech, anchoring Altos Labs and backing Unity, Denali and Sana Biotechnology."
+    },
+    "sources": [
+      { "url": "https://marketrealist.com/p/jeff-bezos-biotech-investment/", "title": "Jeff Bezos Looks to the Future, Focuses on Biotech Investments", "publisher": "Market Realist", "accessed": "undefined", "supports": "Bezos Expeditions as family investment office, formation year, biotech deals", "quote": "Bezos Expeditions is a family investment office that oversees Bezos's venture capital investments. Since Bezos Expeditions formed in 2005... Denali Therapeutics... Sana Biotechnology" },
+      { "url": "https://www.cbsnews.com/news/jeff-bezos-altos-labs-startup-trying-to-extend-human-life-reprogramming-stem-cells/", "title": "Jeff Bezos reportedly invests in Altos Labs, the latest startup trying to extend human life", "publisher": "CBS News", "accessed": "undefined", "supports": "Altos Labs longevity investment", "quote": "Jeff Bezos reportedly invests in Altos Labs, the latest startup trying to extend human life" },
+      { "url": "https://www.technologyreview.com/2021/09/04/1034364/altos-labs-silicon-valleys-jeff-bezos-milner-bet-living-forever/", "title": "Meet Altos Labs, Silicon Valley's latest wild bet on living forever", "publisher": "MIT Technology Review", "accessed": "undefined", "supports": "Altos Labs reprogramming, Bezos/Milner backing", "quote": "Altos Labs, Silicon Valley's... bet on living forever" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Several longevity bets (e.g., Altos Labs) are reported as Bezos's personal investments and are not always formally attributed to Bezos Expeditions; specific ticket sizes are undisclosed. Bezos Expeditions is based in Seattle though Bezos personally relocated to Miami.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-rivas-capital",
+    "name": { "en": "Rivas Capital" },
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "links": {
+      "other": ["https://altss.com/profile/rivas-capital", "https://www.crunchbase.com/organization/rivas-capital"]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery"],
+      "thesis": "Cambridge, MA family office founded by Carlos Gonzalez (wealth from Latin American food businesses); makes long-term principal investments in biotechnology and agtech, often taking active board roles (e.g., GreenLight Biosciences, NextRNA Therapeutics)."
+    },
+    "lifesci": {
+      "modalities": ["rna-therapeutics"],
+      "indications": ["oncology"],
+      "science_platform_notes": "RNA-focused biotech exposure: GreenLight Biosciences (cell-free mRNA bioprocessing) and NextRNA Therapeutics (long non-coding RNA therapeutics)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "GreenLight Biosciences", "sector": "RNA / mRNA platform", "outcome": "went public (SPAC)" },
+        { "company": "NextRNA Therapeutics", "sector": "lncRNA therapeutics", "outcome": "active" },
+        { "company": "Regenacy Pharmaceuticals", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Carlos Gonzalez", "role": "Founder", "background": "Family wealth from Latin American food businesses" }
+    ],
+    "summary": {
+      "en": "Cambridge, MA family office of Carlos Gonzalez making long-term principal biotech investments, with an RNA emphasis (GreenLight Biosciences, NextRNA Therapeutics)."
+    },
+    "sources": [
+      { "url": "https://altss.com/profile/rivas-capital", "title": "Rivas Capital | Cambridge Multi Family Office", "publisher": "Altss", "accessed": "undefined", "supports": "founding year, HQ, founder, biotech focus", "quote": "Rivas Capital is a Cambridge, MA-based multi-family office founded in 2012... founded by Carlos Gonzalez... focuses on long-term principal investments across biotechnology, agtech and other high-growth technology sectors" },
+      { "url": "https://www.fintrx.com/blog/5-family-offices-investing-in-biotechnology-companies", "title": "5 Family Offices Investing in Biotechnology Companies", "publisher": "FINTRX", "accessed": "undefined", "supports": "biotech portfolio companies", "quote": "Rivas Capital... Biotech Investments: Greenlight Biosciences (Series D, 2017; post-IPO rounds 2022); NextRNA Therapeutics (Series A, March 2022); Clarify Health Solutions; Regenacy Pharmaceuticals" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Described variously as a single- and multi-family office. No official website surfaced; details from FINTRX and Altss aggregators. Founder name spelled Gonzalez/Gonzales across sources.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-lauder-partners",
+    "name": { "en": "Lauder Partners, LLC" },
+    "aka": ["Gary Lauder Family Office"],
+    "type": "family-office",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Atherton",
+    "website": "https://www.lauderpartners.com/",
+    "links": {
+      "other": ["https://lauderpartners.com/investments/index.html"]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Canada"],
+      "sector_focus": ["medical-imaging", "diagnostics", "therapeutics"],
+      "thesis": "Atherton, CA single-family office of Gary Lauder (Estée Lauder heir and VC since 1985); alongside technology it has completed 10+ direct biotechnology and health-tech deals since 2000 (e.g., NVision Imaging hyperpolarized MRI, Othram forensic genomics)."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "ai-ml-platform"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "NVision Imaging Technologies", "sector": "hyperpolarized MRI imaging (cancer)", "outcome": "active" },
+        { "company": "Othram", "sector": "forensic genomics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Gary Lauder", "role": "Managing Director", "background": "Venture capitalist since 1985; Estée Lauder family; 150+ private-company investments" }
+    ],
+    "summary": {
+      "en": "Atherton single-family office of Estée Lauder heir Gary Lauder, with a track record of 10+ direct biotech/health-tech deals since 2000 (NVision Imaging, Othram) alongside technology."
+    },
+    "sources": [
+      { "url": "https://www.lauderpartners.com/", "title": "Lauder Partners", "publisher": "Lauder Partners", "accessed": "undefined", "supports": "official website, existence", "quote": "Lauder Partners" },
+      { "url": "https://www.fintrx.com/blog/5-family-offices-investing-in-biotechnology-companies", "title": "5 Family Offices Investing in Biotechnology Companies", "publisher": "FINTRX", "accessed": "undefined", "supports": "HQ, family, biotech deals", "quote": "Lauder Partners, LLC - Principal/Family: Gary Lauder Family - HQ Location: Atherton, CA - Biotech Investments: Othram (Series A); NVision Imaging Technologies (Series A, December 2020; $30M Series A, June 2023)" },
+      { "url": "https://altss.com/profile/lauder-partners-llc-gary-lauder-family-office", "title": "Lauder Partners, LLC (Gary Lauder Family Office) Overview", "publisher": "Altss", "accessed": "undefined", "supports": "wealth source, sector focus, biotech deal count", "quote": "Lauder Partners... managing the wealth of Gary Lauder and his family. The underlying wealth traces to the Estée Lauder cosmetics business... over 10 direct deals in this sector since 2000" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Firm founding year not clearly stated (Gary Lauder investing since 1985); official site confirms existence but the biotech-deal detail is from FINTRX/Altss secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-clayton-associates",
+    "name": { "en": "Clayton Associates" },
+    "aka": ["McWhorter Family Office"],
+    "type": "family-office",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1996,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Nashville",
+    "website": "http://www.claytonassociates.com/",
+    "links": {
+      "other": ["https://www.venturenashville.com/tags/171/clayton-associates"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it", "life-science-tools"],
+      "thesis": "Nashville family office of the McWhorter family (legacy of R. Clayton McWhorter, founder of HealthTrust and an HCA executive); makes seed/angel/venture investments in healthcare and technology, having spun out institutional funds FCA Venture Partners and Altitude Ventures."
+    },
+    "lifesci": {
+      "science_platform_notes": "Healthcare-services and digital-health heritage from HCA/HealthTrust roots; also backed life-science tools (KeraFast reagents)."
+    },
+    "track_record": {
+      "portfolio_count": "100+ venture deals",
+      "notable_investments": [
+        { "company": "Sharecare", "sector": "digital health", "outcome": "went public (SPAC)" },
+        { "company": "Clinical Ink", "sector": "clinical-trial technology", "outcome": "active" },
+        { "company": "WebMD", "sector": "healthcare IT", "outcome": "IPO / acquired" },
+        { "company": "KeraFast", "sector": "life-science reagents", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "R. Clayton McWhorter", "role": "Founder", "background": "Founding president/chairman of HealthTrust; ex-Hospital Corporation of America" },
+      { "name": "Stuart McWhorter", "role": "Co-founder", "background": "Healthcare investor; later Tennessee state commissioner" }
+    ],
+    "summary": {
+      "en": "Nashville family office of the McWhorter family (HealthTrust/HCA legacy) making seed-to-venture healthcare and health-tech investments (Sharecare, Clinical Ink, WebMD), and parent of funds FCA Venture Partners and Altitude Ventures."
+    },
+    "sources": [
+      { "url": "http://www.claytonassociates.com/", "title": "Clayton Associates", "publisher": "Clayton Associates", "accessed": "undefined", "supports": "official website, existence", "quote": "Clayton Associates" },
+      { "url": "https://www.venturenashville.com/tags/171/clayton-associates", "title": "Clayton Associates - Venture Nashville", "publisher": "Venture Nashville", "accessed": "undefined", "supports": "family office, McWhorter, healthcare focus", "quote": "Clayton Associates is a Nashville based investment firm that makes seed, angel, and venture investments in healthcare and technology companies. It is a family office of the McWhorter family." },
+      { "url": "https://www.fintrx.com/blog/3-family-offices-investing-in-life-sciences", "title": "3 Family Offices Investing in Life Sciences", "publisher": "FINTRX", "accessed": "undefined", "supports": "life-science investing, KeraFast", "quote": "Clayton Associates... Invests across healthcare, life sciences, pharmaceuticals, and biotechnology sectors. Direct investments in KeraFAST (Boston-based reagent company for scientific research, 2012, 2016)." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Straddles family-office and VC: Clayton Associates itself is the McWhorter family office, but it spun out institutional funds (FCA Venture Partners, Altitude Ventures) that belong to the VC slice. Focus skews digital-health / tech-enabled healthcare services rather than therapeutics.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-bosarge-family-office",
+    "name": { "en": "Bosarge Family Office" },
+    "aka": ["Capital Technologies, Inc.", "Black Beret Life Sciences"],
+    "type": "family-office",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Houston",
+    "website": "https://www.edbosarge.com/",
+    "links": {
+      "other": ["https://houstonhealthspan.com/", "https://www.crunchbase.com/organization/the-bosarge-family-office"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "longevity-aging", "cell-gene-therapy"],
+      "thesis": "Houston family office of Dr. Ed Bosarge; its life-sciences arm Black Beret Life Sciences invests in regenerative medicine, anti-aging and immunotherapy aimed at extending healthy lifespan, and it launched the Houston Healthspan Innovation Group accelerator."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy"],
+      "indications": ["aging-longevity", "metabolic-obesity", "oncology", "musculoskeletal-orthopedics"],
+      "company_creation": true,
+      "science_platform_notes": "Black Beret Life Sciences (BBLS) is the investment/management arm; Houston Healthspan Innovation Group is an in-house accelerator for early-stage regenerative-medicine companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Okyanos Heart Institute", "sector": "regenerative / cardiac cell therapy", "outcome": "active" },
+        { "company": "Diasome Pharmaceuticals", "sector": "diabetes / insulin delivery", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Ed Bosarge", "role": "Founder", "background": "PhD; quantitative-trading entrepreneur turned regenerative-medicine investor" }
+    ],
+    "summary": {
+      "en": "Houston family office of Dr. Ed Bosarge whose life-sciences arm Black Beret Life Sciences backs regenerative medicine, anti-aging and immunotherapy, and which runs the Houston Healthspan Innovation Group accelerator."
+    },
+    "sources": [
+      { "url": "https://www.edbosarge.com/", "title": "News - Ed Bosarge", "publisher": "Ed Bosarge", "accessed": "undefined", "supports": "regenerative-medicine focus, Houston", "quote": "New Houston program focuses on regenerative medicine startups" },
+      { "url": "https://houstonhealthspan.com/houston-healthspan-innovation-group-launches-to-transform-regenerative-medicine-research-and-development/", "title": "Houston Healthspan Innovation Group Launches", "publisher": "Houston Healthspan Innovation Group", "accessed": "undefined", "supports": "accelerator, regenerative-medicine focus, Bosarge founder", "quote": "Houston Healthspan Innovation Group is a new accelerator for early stage life sciences and biotech companies focused on the research, development and commercialization of new therapies and technologies in the expanding field of regenerative medicine. The brainchild of CEO and Founder Dr. Ed Bosarge" },
+      { "url": "https://www.fintrx.com/blog/3-family-offices-investing-in-life-sciences", "title": "3 Family Offices Investing in Life Sciences", "publisher": "FINTRX", "accessed": "undefined", "supports": "family office structure, Okyanos, Diasome", "quote": "Bosarge Family Office (Capital Technologies Inc.)... Okyanos Heart Institute (regenerative medicine) and Diasome (insulin delivery technology for diabetes patients)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Black Beret Life Sciences established 2014 per its own materials; the family office (Capital Technologies, Inc.) is longer-standing. Ed Bosarge has faced personal legal disputes that are unrelated to the biomedical scope.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-emerson-collective",
+    "name": { "en": "Emerson Collective" },
+    "type": "family-office",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "website": "https://www.emersoncollective.com/",
+    "links": {
+      "other": ["https://www.emersoncollective.com/our-work/venture-capital"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "thesis": "For-profit LLC founded by Laurene Powell Jobs blending venture investing and philanthropy; health is a focus area, with digital-health/services bets (e.g., Devoted Health) and a former biotech portfolio that spun out in 2023 as the standalone oncology fund Yosemite."
+    },
+    "lifesci": {
+      "indications": ["oncology"],
+      "science_platform_notes": "Emerson Collective Health legacy (therapeutics/diagnostics) was spun off in 2023 into Yosemite, an independent $200M+ oncology fund; Emerson itself continues in digital health."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Devoted Health", "sector": "digital health / Medicare Advantage", "outcome": "unicorn (active)" }
+      ]
+    },
+    "people": [
+      { "name": "Laurene Powell Jobs", "role": "Founder / President", "background": "Founder of Emerson Collective; philanthropist and investor" }
+    ],
+    "summary": {
+      "en": "Laurene Powell Jobs's for-profit family LLC combining venture investing and philanthropy, active in digital health (Devoted Health) and formerly in oncology biotech, which it spun out in 2023 as the independent fund Yosemite."
+    },
+    "sources": [
+      { "url": "https://www.emersoncollective.com/our-work/venture-capital", "title": "Venture Capital - Emerson Collective", "publisher": "Emerson Collective", "accessed": "undefined", "supports": "venture investing including digital health", "quote": "As venture investors, Emerson Collective focuses on where the biggest market opportunities meet the most meaningful levers of impact, including digital health" },
+      { "url": "https://www.prnewswire.com/news-releases/emerson-collective-health-spins-off-to-form-new-investment-fund-yosemite-announces-first-close-of-oversubscribed-200m-fund-to-accelerate-transformative-cancer-ventures-301890424.html", "title": "Emerson Collective Health Spins Off to Form New Investment Fund, Yosemite", "publisher": "PR Newswire", "accessed": "undefined", "supports": "health arm spin-off into Yosemite oncology fund", "quote": "Emerson Collective Health Spins Off to Form New Investment Fund, Yosemite; Announces First Close of Oversubscribed $200M+ Fund to Accelerate Transformative Cancer Ventures" },
+      { "url": "https://www.emersoncollective.com/about-us", "title": "About Us - Emerson Collective", "publisher": "Emerson Collective", "accessed": "undefined", "supports": "founder, structure", "quote": "Laurene Powell Jobs (Founder and President)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The dedicated biotech/therapeutics program left Emerson Collective in 2023 as the standalone fund Yosemite (which belongs in the VC slice). Emerson Collective's remaining medical nexus is digital-health/services investing; founding year is inconsistently reported (commonly 2004) so it is omitted.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "us-baruch-future-ventures",
+    "name": { "en": "Baruch Future Ventures" },
+    "aka": ["BFV"],
+    "type": "family-office",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.baruch.vc/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/baruch-future-ventures"
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["diagnostics", "therapeutics"],
+      "thesis": "San Francisco family investment office of veteran VC Tom Baruch; primarily climate/resources-focused, with healthcare diagnostics and therapeutics as one of five explicit focus areas (e.g., microbiome/phage-therapy company BiomX)."
+    },
+    "lifesci": {
+      "modalities": ["microbiome"],
+      "indications": ["gastroenterology-hepatology", "oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "BiomX", "sector": "microbiome / phage therapy", "outcome": "went public" }
+      ]
+    },
+    "people": [
+      { "name": "Tom Baruch", "role": "Founder / Managing Partner", "background": "Founder of CMEA Capital and Formation 8/8VC; 30+ years in climate/resources and synthetic-biology investing" }
+    ],
+    "summary": {
+      "en": "San Francisco family investment office of veteran VC Tom Baruch; primarily climate-tech but with healthcare diagnostics and therapeutics as a stated focus area (e.g., microbiome company BiomX)."
+    },
+    "sources": [
+      { "url": "https://www.baruch.vc/", "title": "Baruch Future Ventures", "publisher": "Baruch Future Ventures", "accessed": "undefined", "supports": "official website, existence, focus areas", "quote": "Baruch Future Ventures" },
+      { "url": "https://f4.fund/firms/baruch-future-ventures-bfv", "title": "Baruch Future Ventures (BFV) - Investment Thesis & Preferences", "publisher": "F4 Fund", "accessed": "undefined", "supports": "family office structure, founding, health focus area", "quote": "Baruch Future Ventures (BFV) is a pioneering climate-tech focused family investment office founded in 2012... 5. health care diagnostics and therapeutics" },
+      { "url": "https://familyofficehub.io/blog/list-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcarelist-of-5-us-single-family-offices-that-invest-in-biotech-and-healthcare/", "title": "List of 5 US Single Family Offices That Invest in Biotech and Healthcare", "publisher": "Family Office Hub", "accessed": "undefined", "supports": "BiomX investment", "quote": "Baruch Future Ventures... Portfolio Company: BiomX (microbiome-based phage therapies for inflammatory bowel disease and colorectal cancer)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Primary mandate is climate/resources; healthcare is one of five focus areas, so inclusion is on the strength of a genuine but secondary health practice (BiomX). Could alternatively be treated as an emerging-manager VC.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  }
+]

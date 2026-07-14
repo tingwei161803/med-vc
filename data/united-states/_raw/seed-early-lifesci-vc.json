@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "us-kdt-ventures",
+    "name": { "en": "KdT Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Austin",
+    "offices": [ { "country": "United States", "city": "Austin" } ],
+    "website": "https://www.kdtvc.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/kdt-ventures",
+      "crunchbase": "https://www.crunchbase.com/organization/kdt-ventures"
+    },
+    "capital": {
+      "current_fund": { "raw": "$50M", "usd": 50000000, "currency": "USD" },
+      "funds": [
+        { "name": "KdT Ventures (debut fund)", "vintage_year": 2017, "size": { "raw": "$3.5M", "usd": 3500000, "currency": "USD" } },
+        { "name": "KdT Ventures (2021 fund)", "vintage_year": 2021, "size": { "raw": "$50M", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "synthetic-biology", "genomics-omics", "life-science-tools"],
+      "thesis": "Backs founders using creative technology platforms to reprogram chemistry and biology; often the first institutional check, leading or co-leading pre-seed and seed rounds in the physical layer of medicine, materials and agriculture."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": false,
+      "science_platform_notes": "Platform-first thesis on engineering matter, energy and information; medical nexus centered on 'the physical layer of medicine'."
+    },
+    "people": [
+      { "name": "Cain McClary", "role": "Co-founder / Managing Partner", "background": "MD; co-founded KdT in 2017" },
+      { "name": "Mack Healy", "role": "Co-founder" }
+    ],
+    "summary": {
+      "en": "Austin-based early-stage deep-science seed fund that is often the first institutional check into founders 'reprogramming chemistry and biology,' spanning therapeutics, synthetic biology and computational bio."
+    },
+    "sources": [
+      { "url": "https://www.kdtvc.com/", "title": "KdT Ventures", "publisher": "KdT Ventures", "accessed": "undefined", "supports": "thesis, stage (first institutional check, lead/co-lead pre-seed and seed)", "quote": "We are often the first institutional check into a company, and lead or co-lead pre-seed and seed rounds." },
+      { "url": "https://techcrunch.com/2021/03/23/planting-seed-investments-on-techs-frontiers-nets-kdt-ventures-50-million-for-its-latest-fund/", "title": "Planting seed investments on tech's frontiers nets KdT Ventures $50 million for its latest fund", "publisher": "TechCrunch", "accessed": "undefined", "supports": "2021 fund size $50M, founded 2017, relocated to Austin, thesis", "quote": "close on an oversubscribed $50 million new fund" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2017 (first $3.5M fund); founder Cain McClary relocated the firm to Austin from California in 2020. Check-size range not published verbatim so omitted. Thesis spans chemicals/agriculture as well as medicine; medical nexus explicitly stated by the firm.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-civilization-ventures",
+    "name": { "en": "Civilization Ventures" },
+    "type": "vc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [ { "country": "United States", "city": "San Francisco" } ],
+    "website": "https://www.civilizationventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/civilizationventures",
+      "crunchbase": "https://www.crunchbase.com/organization/civilization-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "over $200M", "usd": 200000000, "currency": "USD" },
+      "funds": [
+        { "name": "Civilization Ventures pilot fund", "vintage_year": 2017, "size": { "raw": "$1M", "usd": 1000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["united-states"],
+      "sector_focus": ["genomics-omics", "diagnostics", "digital-health", "synthetic-biology", "cell-gene-therapy"],
+      "thesis": "Operator-led fund investing at the intersection of biology, healthcare and AI, backing scientific founders in genomics, diagnostics, digital health and synthetic biology; believes 'the future of healthcare is preventative, personalized, and regenerative.'"
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "ai-ml-platform"],
+      "company_creation": false,
+      "science_platform_notes": "Runs a Fellowship to 'train today's PhDs to become tomorrow's entrepreneurs' (40+ participants)."
+    },
+    "track_record": {
+      "portfolio_count": "75",
+      "notable_investments": [
+        { "company": "BillionToOne", "sector": "diagnostics", "outcome": "IPO" },
+        { "company": "Omada Health", "sector": "digital-health", "outcome": "IPO" },
+        { "company": "Foresight Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Rocket Pharmaceuticals", "sector": "cell-gene-therapy", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "San Francisco early-stage fund (started with a $1M pilot in 2017, now >$200M AUM) investing in genomics, diagnostics, digital health and synthetic biology at the intersection of biology, healthcare and AI."
+    },
+    "sources": [
+      { "url": "https://www.civilizationventures.com/", "title": "Civilization Ventures", "publisher": "Civilization Ventures", "accessed": "undefined", "supports": "founded 2017, AUM >$200M, sector focus, portfolio count/exits", "quote": "Starting with a $1M 'pilot' seed fund in 2017, Civilization Ventures today manages over $200M in capital" },
+      { "url": "https://www.civilizationventures.com/", "title": "Civilization Ventures", "publisher": "Civilization Ventures", "accessed": "undefined", "supports": "sector focus, track record", "quote": "genomics + diagnostics, digital health and synthetic biology (including gene + cell therapies)" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio count '75 Investments, 17 Exits, 3 Unicorns in 7 Years' per firm site; notable listed exits include Lemonaid Health (acquired by 23andMe) and BillionToOne / Omada Health public listings. Initial check range (~$1M–$15M) cited only in secondary databases so omitted.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-pillar-vc",
+    "name": { "en": "Pillar VC" },
+    "aka": ["Pillar"],
+    "type": "vc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [ { "country": "United States", "city": "Boston" } ],
+    "website": "https://www.pillar.vc/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/pillar-vc"
+    },
+    "capital": {
+      "current_fund": { "raw": "$175M", "usd": 175000000, "currency": "USD" },
+      "funds": [
+        { "name": "Pillar VC Fund IV", "vintage_year": 2025, "size": { "raw": "$175M", "usd": 175000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "synthetic-biology", "digital-health", "generalist-health"],
+      "thesis": "Boston pre-seed/seed firm backing technically brilliant founders at inception across biotech, healthcare and advanced computing; ~3/4 of deals sourced locally, many from university spinouts. Runs a dedicated bio practice."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": false,
+      "science_platform_notes": "Backed Petri, a Boston bio accelerator for fledgling biotechs; strong ties to MIT/Harvard spinouts."
+    },
+    "people": [
+      { "name": "Jamie Goldstein", "role": "Founder / Partner", "background": "Longtime venture investor; started in AI speech recognition" },
+      { "name": "Tony Kulesa", "role": "Partner", "background": "Built Pillar's bio practice; MIT background" }
+    ],
+    "summary": {
+      "en": "Boston pre-seed/seed firm (founded 2016) investing in biotech, healthcare and advanced computing; runs a dedicated bio practice and backed the Petri bio accelerator. Fund IV closed at $175M in 2025."
+    },
+    "sources": [
+      { "url": "https://www.pillar.vc/", "title": "Pillar | Investing in Technical Breakthroughs", "publisher": "Pillar VC", "accessed": "undefined", "supports": "HQ Boston, Fund IV $175M, biotech/healthcare focus", "quote": "Pillar VC's $175M Fund IV" },
+      { "url": "https://www.fiercebiotech.com/biotech/pillar-petri-boston-s-new-accelerator-for-fledgling-biotechs", "title": "Pillar ponies up for Petri, Boston's new accelerator for fledgling biotechs", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "bio practice / Petri accelerator", "quote": "Pillar ponies up for Petri, Boston's new accelerator for fledgling biotechs" },
+      { "url": "https://fortune.com/2025/03/17/pillar-venture-capital-175-million-fund-boston-tech/", "title": "Inside Pillar VC's $175 million fourth venture fund focused on the Boston tech ecosystem", "publisher": "Fortune", "accessed": "undefined", "supports": "Fund IV $175M (2025), Boston focus", "quote": "Pillar VC's $175 million fourth venture fund focused on the Boston tech ecosystem" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Generalist Boston seed firm (also SaaS/crypto/manufacturing) with a real, staffed bio/healthcare practice; included on the strength of that biomedical arm. Founded 2016 per multiple secondary profiles. Check-size ranges (pre-seed $50K–$500K, seed $2M–$6M) appear only in secondary databases, so omitted from structured fields.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-refactor-capital",
+    "name": { "en": "Refactor Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Burlingame",
+    "offices": [ { "country": "United States", "city": "Burlingame" } ],
+    "website": "https://refactor.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/refactor-capital"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Refactor Capital Fund I", "vintage_year": 2016, "size": { "raw": "$50M", "usd": 50000000, "currency": "USD" } },
+        { "name": "Refactor Capital Fund II", "vintage_year": 2019, "size": { "raw": "$30M", "usd": 30000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "synthetic-biology", "genomics-omics", "mental-health", "digital-health"],
+      "thesis": "Seed-stage firm backing founders solving fundamental problems in human health and biology; writes the bulk of its first checks at seed into healthcare and biotech companies."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Solugen", "sector": "synthetic-biology", "outcome": "active" },
+        { "company": "Culture Biosciences", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "Verge Genomics", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Cambridge Cancer Genomics", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Zal Bilimoria", "role": "General Partner", "background": "Ex-Andreessen Horowitz (helped launch a16z Bio Fund), Netflix, LinkedIn, Google" },
+      { "name": "David Lee", "role": "Co-founder / Chairman", "background": "Ex-SV Angel; stepped back to chairman for Fund II" }
+    ],
+    "summary": {
+      "en": "Bay Area seed firm (founded 2016) concentrating on healthcare and biotech; now a solo-GP firm under Zal Bilimoria. Fund I was $50M (2016), Fund II $30M (2019)."
+    },
+    "sources": [
+      { "url": "https://news.crunchbase.com/venture/now-a-solo-gp-firm-refactor-capital-closes-30m-for-fund-ii/", "title": "Now A Solo GP Firm, Refactor Capital Closes $30M For Fund II", "publisher": "Crunchbase News", "accessed": "undefined", "supports": "Fund II $30M (2019), founded Jan 2016, seed healthcare/biotech, solo GP", "quote": "Now A Solo GP Firm, Refactor Capital Closes $30M For Fund II" },
+      { "url": "https://techcrunch.com/2016/03/22/david-lee-is-back-with-a-new-fund-refactor-capital/", "title": "David Lee is back with a new fund: Refactor Capital", "publisher": "TechCrunch", "accessed": "undefined", "supports": "founding 2016, seed focus on health/biotech", "quote": "David Lee is back with a new fund: Refactor Capital" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Established January 2016 by Zal Bilimoria and David Lee; David Lee moved to chairman before Fund II. Fund I reported at $50M (2016), Fund II $30M (SEC filing Oct 2019). HQ Burlingame, CA.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-fifty-years",
+    "name": { "en": "Fifty Years" },
+    "aka": ["50Y"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [ { "country": "United States", "city": "San Francisco" } ],
+    "website": "https://fiftyyears.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/fifty-years"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["united-states"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "longevity-aging", "life-science-tools", "generalist-health"],
+      "thesis": "Mission-driven pre-seed/seed firm backing founders using deep technology to solve major global challenges including disease and infectious disease; biomedical bets span synthetic biology, lab tooling and human health."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Opentrons", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "Solugen", "sector": "synthetic-biology", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Seth Bannon", "role": "Founding Partner" },
+      { "name": "Ela Madej", "role": "Founding Partner" }
+    ],
+    "summary": {
+      "en": "San Francisco pre-seed/seed impact firm (founded 2015) backing deep-tech founders tackling disease, synthetic biology and human-health challenges alongside climate and food; ~$50M flagship fund."
+    },
+    "sources": [
+      { "url": "https://impactalpha.com/fifty-years-50-million-fund-signals-techs-turn-toward-impact/", "title": "Fifty Years' $50 million fund signals tech's turn toward impact", "publisher": "ImpactAlpha", "accessed": "undefined", "supports": "fund size ~$50M, mission/impact thesis", "quote": "Fifty Years' $50 million fund signals tech's turn toward impact" },
+      { "url": "https://fiftyyears.com/team/seth-bannon", "title": "Seth Bannon — Fifty Years", "publisher": "Fifty Years", "accessed": "undefined", "supports": "founders, firm identity", "quote": "Fifty Years" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Deep-tech generalist (also climate, food, chemicals) with a genuine biotech/health thesis (Churchill's 'Fifty Years Hence' on synthetic biology and disease); included on the strength of its life-science/health investing. Founded 2015 by Ela Madej and Seth Bannon. Fund size ~$50M per ImpactAlpha; later vehicles not verified verbatim.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-section-32",
+    "name": { "en": "Section 32" },
+    "aka": ["S32"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego",
+    "offices": [ { "country": "United States", "city": "San Diego" }, { "country": "United States", "city": "Menlo Park" } ],
+    "website": "https://www.section32.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/section-32"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Section 32 (inaugural fund)", "vintage_year": 2017, "size": { "raw": "$150M", "usd": 150000000, "currency": "USD" } },
+        { "name": "Section 32 (later fund)", "vintage_year": null, "size": { "raw": "$740M", "usd": 740000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "geo_focus": ["united-states"],
+      "sector_focus": ["diagnostics", "ai-drug-discovery", "therapeutics", "digital-health", "genomics-omics"],
+      "thesis": "Founded by former GV CEO Bill Maris to invest at the intersection of technology and healthcare/life sciences; backs frontier medical technologies from diagnostics and DNA sequencing to therapeutics and AI."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Thrive Earlier Detection", "sector": "diagnostics", "outcome": "acquired" },
+        { "company": "Cue Health", "sector": "diagnostics", "outcome": "IPO" },
+        { "company": "C2i Genomics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "TwinStrand Biosciences", "sector": "genomics-omics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Bill Maris", "role": "Founder / Managing Partner", "background": "Founding CEO of GV (Google Ventures)" }
+    ],
+    "summary": {
+      "en": "San Diego firm founded in 2017 by GV founder Bill Maris investing at the intersection of technology and healthcare; inaugural fund $150M, with later funds up to $740M and multiple medtech/diagnostics bets."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/medtech/section-32-closes-740m-vc-fund-to-back-startups-at-intersection-technology-and-healthcare", "title": "Section 32 closes $740M VC fund to back startups at intersection of technology and healthcare", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "fund size $740M, tech + healthcare focus, founded 2017", "quote": "Section 32 closes $740M VC fund to back startups at intersection of technology and healthcare" },
+      { "url": "https://en.wikipedia.org/wiki/S32_(company)", "title": "S32 (company)", "publisher": "Wikipedia", "accessed": "undefined", "supports": "founder Bill Maris, founded 2017, San Diego, inaugural $150M", "quote": "Section 32" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Invests early through growth; included for its early-stage healthcare/biotech activity. Inaugural fund closed at $150M (2017, target $100M); later fund $740M; ~$2B AUM across vehicles per secondary reporting (not included as verbatim).",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-playground-global",
+    "name": { "en": "Playground Global" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "offices": [ { "country": "United States", "city": "Palo Alto" } ],
+    "website": "https://www.playground.vc/",
+    "capital": {
+      "funds": [
+        { "name": "Playground Global (2023 fund)", "vintage_year": 2023, "size": { "raw": "$410M", "usd": 410000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "synthetic-biology", "life-science-tools", "generalist-health"],
+      "thesis": "Deep-tech firm partnering with technical/scientific founders; its life-science practice invests at the nexus of AI, synthetic biology and lab automation, backing engineered-biology platforms, RNA/gene-therapy tools and AI-driven drug discovery."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "rna-therapeutics", "lab-automation"],
+      "company_creation": false,
+      "science_platform_notes": "Backs 'engineered biology' platforms accelerating drug development and next-generation therapies."
+    },
+    "summary": {
+      "en": "Palo Alto deep-tech firm (founded 2015) whose engineered-biology practice backs AI-plus-synthetic-biology platforms and drug-discovery tooling at seed and Series A; raised $410M in 2023."
+    },
+    "sources": [
+      { "url": "https://www.playground.vc/playground-blogs/playground-global-raises-410-million-to-accelerate-the-time-to-impact-for-deep-tech-and-science-companies", "title": "Playground Global Raises $410 Million to Accelerate the Time to Impact for Deep Tech and Science Companies", "publisher": "Playground Global", "accessed": "undefined", "supports": "fund size $410M, deep-tech and science focus", "quote": "Playground Global Raises $410 Million to Accelerate the Time to Impact for Deep Tech and Science Companies" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Deep-tech generalist (compute, robotics, decarbonization) with a dedicated engineered-biology / life-science practice; included for that biomedical arm. Founded 2015; HQ Palo Alto/Menlo Park. Check range ($1M–$20M) cited only in secondary profiles, so omitted.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-dcvc-bio",
+    "name": { "en": "DCVC Bio" },
+    "aka": ["Data Collective Bio"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "offices": [ { "country": "United States", "city": "Palo Alto" } ],
+    "website": "https://www.dcvc.com/bio/",
+    "capital": {
+      "funds": [
+        { "name": "DCVC Bio (deep-tech life sciences fund)", "vintage_year": 2020, "size": { "raw": "$350M", "usd": 350000000, "currency": "USD" } },
+        { "name": "DCVC Bio III", "vintage_year": 2024, "size": { "raw": "$400M", "usd": 400000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["united-states"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "synthetic-biology", "genomics-omics", "life-science-tools"],
+      "thesis": "Bio arm of deep-tech investor DCVC, backing early-stage life-science companies that use AI, computational biology and synthetic biology to build foundational platforms for novel therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "rna-therapeutics"],
+      "company_creation": true,
+      "science_platform_notes": "Focuses on 'deep TechBio' company creation around computational platforms rather than single-product bets."
+    },
+    "people": [
+      { "name": "Kiersten Stead", "role": "Managing Partner", "background": "PhD molecular biology & genetics; MBA" },
+      { "name": "John Hamer", "role": "Managing Partner", "background": "PhD; life-science operator" }
+    ],
+    "summary": {
+      "en": "Palo Alto computational-biology (TechBio) fund, the life-science arm of deep-tech investor DCVC; DCVC Bio III closed at $400M in 2024 backing early-stage AI-plus-biology therapeutics platforms."
+    },
+    "sources": [
+      { "url": "https://www.dcvc.com/news-insights/dcvc-bio-iii-closes-at-400-million/", "title": "DCVC Bio III closes at $400 million", "publisher": "DCVC", "accessed": "undefined", "supports": "DCVC Bio III $400M (2024)", "quote": "DCVC Bio III closes at $400 million" },
+      { "url": "https://www.dcvc.com/team/kiersten-stead/", "title": "Dr. Kiersten Stead, Managing Partner, DCVC Bio", "publisher": "DCVC", "accessed": "undefined", "supports": "managing partner, TechBio company creation", "quote": "Managing Partner, DCVC Bio" }
+    ],
+    "confidence": "high",
+    "verification_notes": "DCVC Bio was formalized as a dedicated fund line ~2018, but it is the bio arm of DCVC (Data Collective, est. 2011), an established multi-billion-dollar deep-tech platform — not a post-2018 emerging/micro manager — so it sits in this slice. Prior deep-tech life-sciences fund ~$350M (2020).",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-atlas-venture",
+    "name": { "en": "Atlas Venture" },
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 1980,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "offices": [ { "country": "United States", "city": "Cambridge" } ],
+    "website": "https://atlasventure.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/atlas-venture"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Atlas Venture Fund XIII", "vintage_year": null, "size": { "raw": "$450M", "usd": 450000000, "currency": "USD" } },
+        { "name": "Atlas Venture Fund XIV", "vintage_year": 2024, "size": { "raw": "$450M", "usd": 450000000, "currency": "USD" } },
+        { "name": "Atlas Venture Opportunity Fund III", "vintage_year": 2025, "size": { "raw": "$400M", "usd": 400000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Cambridge-based, biotech-only firm that builds breakthrough therapeutics companies; begins with seed and Series A from its early-stage funds and works with entrepreneurs-in-residence to found and incubate new companies around promising science."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy", "rna-therapeutics"],
+      "indications": ["oncology", "immunology-inflammation", "neurology", "rare-disease"],
+      "company_creation": true,
+      "science_platform_notes": "Seed-led company-creation model with in-house entrepreneurs-in-residence."
+    },
+    "summary": {
+      "en": "Cambridge, MA biotech-only venture firm and prolific company creator; invests at seed and Series A to found and incubate therapeutics startups. Fund XIV closed at $450M (2024)."
+    },
+    "sources": [
+      { "url": "https://www.businesswire.com/news/home/20241205893482/en/Atlas-Venture-Announces-%24450-Million-Fund-XIV", "title": "Atlas Venture Announces $450 Million Fund XIV", "publisher": "BusinessWire", "accessed": "undefined", "supports": "Fund XIV $450M (2024), seed & Series A biotech company creation", "quote": "Atlas Venture Announces $450 Million Fund XIV" },
+      { "url": "https://www.businesswire.com/news/home/20250904269555/en/Atlas-Venture-Announces-$400-Million-Third-Opportunity-Fund", "title": "Atlas Venture Announces $400 Million Third Opportunity Fund", "publisher": "BusinessWire", "accessed": "undefined", "supports": "Opportunity Fund III $400M (2025)", "quote": "Atlas Venture Announces $400 Million Third Opportunity Fund" },
+      { "url": "https://en.wikipedia.org/wiki/Atlas_Venture", "title": "Atlas Venture", "publisher": "Wikipedia", "accessed": "undefined", "supports": "founded 1980, Cambridge, biotech focus", "quote": "Atlas Venture" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 1980; became a dedicated early-stage biotech firm after separating its tech practice (~2014). Fund XIII and Fund XIV each $450M; separate Opportunity funds support later rounds in existing portfolio.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-third-rock-ventures",
+    "name": { "en": "Third Rock Ventures" },
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [ { "country": "United States", "city": "Boston" }, { "country": "United States", "city": "San Francisco" } ],
+    "website": "https://www.thirdrockventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/third-rock-ventures"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Third Rock Ventures (2024 fund)", "vintage_year": 2024, "size": { "raw": "$1.1B", "usd": 1100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Boston firm that co-creates biotech companies from inception with world-class scientific founders, defining strategy, structure and leadership before launch; its latest $1.1B fund is earmarked to create ~10 new biotechs."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy", "rna-therapeutics"],
+      "indications": ["oncology", "neurology", "rare-disease", "immunology-inflammation"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Editas Medicine", "sector": "cell-gene-therapy", "outcome": "IPO" },
+        { "company": "Sage Therapeutics", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Mark Levin", "role": "Co-founder / Partner", "background": "Ex-Millennium Pharmaceuticals CEO" },
+      { "name": "Kevin Starr", "role": "Co-founder / Partner", "background": "Ex-Millennium Pharmaceuticals" },
+      { "name": "Robert Tepper", "role": "Co-founder / Partner", "background": "Ex-Millennium Pharmaceuticals" }
+    ],
+    "summary": {
+      "en": "Boston/SF biotech company-creation firm (founded 2007 by Millennium Pharmaceuticals alumni) that builds therapeutics startups from inception; latest fund $1.1B to launch ~10 new biotechs."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/third-rock-forever-new-11b-funding-round-will-create-10-new-biotechs", "title": "'Third Rock forever': Firm's latest $1.1B funding round will create 10 new biotechs", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "2024 fund $1.1B, company creation model", "quote": "'Third Rock forever': Firm's latest $1.1B funding round will create 10 new biotechs" },
+      { "url": "https://en.wikipedia.org/wiki/Third_Rock_Ventures", "title": "Third Rock Ventures", "publisher": "Wikipedia", "accessed": "undefined", "supports": "founded 2007, founders, Boston/SF", "quote": "Third Rock Ventures" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Quintessential biotech company-creation shop; leads large Series A rounds but originates companies at inception, so included as an early-stage life-science creator. Founded 2007 by Mark Levin, Kevin Starr, Bob Tepper.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-arch-venture-partners",
+    "name": { "en": "ARCH Venture Partners" },
+    "aka": ["ARCH"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1986,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago",
+    "offices": [ { "country": "United States", "city": "Chicago" }, { "country": "United States", "city": "San Francisco" }, { "country": "United States", "city": "Seattle" } ],
+    "website": "https://www.archventure.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/arch-venture-partners"
+    },
+    "capital": {
+      "funds": [
+        { "name": "ARCH Venture Fund XI", "vintage_year": 2021, "size": { "raw": "$1.941 billion", "usd": 1941000000, "currency": "USD" } },
+        { "name": "ARCH Venture Fund XII", "vintage_year": 2022, "size": { "raw": "$2.975 billion", "usd": 2975000000, "currency": "USD" } },
+        { "name": "ARCH Venture Fund XIII", "vintage_year": 2024, "size": { "raw": "over $3 billion", "usd": 3000000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "diagnostics", "genomics-omics", "ai-drug-discovery"],
+      "thesis": "Co-founds and funds early-stage biotechnology companies emerging from academic and national-lab research, partnering with leading scientists to commercialize breakthrough science."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy", "gene-editing", "ai-ml-platform"],
+      "indications": ["oncology", "rare-disease", "neurology"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Illumina", "sector": "genomics-omics", "outcome": "IPO" },
+        { "company": "Juno Therapeutics", "sector": "cell-gene-therapy", "outcome": "acquired" },
+        { "company": "Grail", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Chicago-founded (1986) firm that co-creates and funds early-stage biotech companies from academic and national-lab science; recent flagship funds run from $1.94B (XI) to over $3B (XIII)."
+    },
+    "sources": [
+      { "url": "https://www.prnewswire.com/news-releases/arch-venture-partners-announces-2-975-billion-fund-xii-to-create-and-fund-early-stage-biotechnology-companies-301577375.html", "title": "ARCH Venture Partners Announces $2.975 Billion Fund XII to Create and Fund Early Stage Biotechnology Companies", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund XII $2.975B, Fund XI $1.941B, early-stage biotech company creation", "quote": "ARCH Venture Partners Announces $2.975 Billion Fund XII to Create and Fund Early Stage Biotechnology Companies" },
+      { "url": "https://www.biopharmadive.com/news/arch-venture-new-fund-biotech-startups/706491/", "title": "Arch, a prolific biotech creator, is raising $3B for startup investing", "publisher": "BioPharma Dive", "accessed": "undefined", "supports": "Fund XIII ~$3B (2024), company creation", "quote": "Arch, a prolific biotech creator, is raising $3B for startup investing" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 1986 out of University of Chicago / Argonne National Laboratory tech transfer. Notable investments (Illumina, Juno, Grail) are widely attributed to ARCH in press but not sourced to a single verbatim page here, so treated as illustrative. Writes very large early-stage checks; included as an early-stage biotech creator.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-5am-ventures",
+    "name": { "en": "5AM Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco",
+    "offices": [ { "country": "United States", "city": "South San Francisco" }, { "country": "United States", "city": "Boston" } ],
+    "website": "https://5amventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/5amventures",
+      "crunchbase": "https://www.crunchbase.com/organization/5am-ventures"
+    },
+    "capital": {
+      "funds": [
+        { "name": "5AM Ventures III", "vintage_year": null, "size": { "raw": "$200M", "usd": 200000000, "currency": "USD" } },
+        { "name": "5AM Ventures (life science fund)", "vintage_year": null, "size": { "raw": "$250M", "usd": 250000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "thesis": "Life-science venture firm investing in early-stage private therapeutics companies, with an emphasis on Series A biopharmaceuticals, drug-delivery technologies and life-science instruments; frequently a company co-creator."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "drug-delivery", "cell-therapy"],
+      "indications": ["oncology", "immunology-inflammation", "rare-disease"],
+      "company_creation": true
+    },
+    "people": [
+      { "name": "John Diekman", "role": "Founder / Managing Partner" },
+      { "name": "Andrew Schwab", "role": "Founder / Managing Partner" }
+    ],
+    "summary": {
+      "en": "South San Francisco and Boston life-science VC (founded 2002) focused on early-stage / Series A therapeutics, drug delivery and life-science tools, with an active company-creation practice."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/5am-ventures-raises-250-million-life-science-venture-capital-fund", "title": "5AM VENTURES RAISES $250 MILLION LIFE SCIENCE VENTURE CAPITAL FUND", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "a $250M life science fund", "quote": "5AM VENTURES RAISES $250 MILLION LIFE SCIENCE VENTURE CAPITAL FUND" },
+      { "url": "https://www.fiercebiotech.com/biotech/5am-ventures-raises-200m-for-3rd-life-science-venture-capital-fund", "title": "5AM Ventures Raises $200M for 3rd Life Science Venture Capital Fund", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Fund III $200M, founded 2002 by Diekman and Schwab", "quote": "5AM Ventures Raises $200M for 3rd Life Science Venture Capital Fund" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2002 by John Diekman and Andrew Schwab. Newer funds (5AM Ventures VII ~$450M, 5AM Opportunities II ~$300M) reported in secondary databases but not captured verbatim here, so the two fund entries reflect verbatim-sourced Fierce Biotech figures.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-versant-ventures",
+    "name": { "en": "Versant Ventures" },
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [ { "country": "United States", "city": "San Francisco" }, { "country": "United States", "city": "San Diego" }, { "country": "Canada", "city": "Toronto" }, { "country": "Switzerland", "city": "Basel" } ],
+    "website": "https://www.versantventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states", "canada", "europe"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Healthcare-focused firm founded in 1999 that creates and builds early-stage biotech companies, using in-house 'Discovery Engine' scientific teams and 30+ academic partnerships to launch therapeutics ventures."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "indications": ["oncology", "immunology-inflammation", "neurology"],
+      "company_creation": true,
+      "science_platform_notes": "Operates multiple in-house 'Discovery Engines' — multidisciplinary scientific teams that collaborate with academic founders to launch new companies."
+    },
+    "summary": {
+      "en": "Healthcare venture firm (founded 1999) that builds early-stage biotech companies through in-house Discovery Engines and academic partnerships across the US, Canada and Europe."
+    },
+    "sources": [
+      { "url": "https://www.versantventures.com/discovery-engines", "title": "Versant Ventures | Discovery Engines", "publisher": "Versant Ventures", "accessed": "undefined", "supports": "company-creation / Discovery Engine model", "quote": "Discovery Engines" },
+      { "url": "https://en.wikipedia.org/wiki/Versant_Ventures", "title": "Versant Ventures", "publisher": "Wikipedia", "accessed": "undefined", "supports": "founded 1999, healthcare focus, San Francisco HQ", "quote": "Versant Ventures" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 1999 (spun out of Brentwood/IVP/Crosspoint healthcare partners). AUM (~$5.3B) and portfolio counts (190 companies, 131 exits) appear in secondary profiles only, so omitted from structured fund fields. HQ commonly listed as San Francisco; also San Diego.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-the-column-group",
+    "name": { "en": "The Column Group" },
+    "aka": ["TCG", "Column Group"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2007,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [ { "country": "United States", "city": "San Francisco" } ],
+    "website": "https://www.thecolumngroup.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/the-column-group"
+    },
+    "capital": {
+      "funds": [
+        { "name": "The Column Group IV", "vintage_year": null, "size": { "raw": "$725 million", "usd": 725000000, "currency": "USD" } },
+        { "name": "The Column Group V + Opportunity II", "vintage_year": null, "size": { "raw": "$1.23 billion (two funds)", "usd": 1230000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Science-driven firm dedicated to creating the next generation of biotechnology companies around groundbreaking scientific platforms with potential to deliver new therapies for unmet medical needs."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "protein-degradation"],
+      "indications": ["oncology", "immunology-inflammation", "rare-disease"],
+      "company_creation": true,
+      "science_platform_notes": "Platform-focused company creation with deep scientific founder involvement."
+    },
+    "people": [
+      { "name": "Peter Svennilson", "role": "Founder / Managing Partner" }
+    ],
+    "summary": {
+      "en": "San Francisco firm (founded ~2007) that builds early-stage, platform-driven biotech companies; raised a $725M Fund IV and later $1.23B across two new funds."
+    },
+    "sources": [
+      { "url": "https://www.thecolumngroup.com/the-column-group-raises-a-725-million-fourth-fund/", "title": "The Column Group Raises a $725 Million Fourth Fund", "publisher": "The Column Group", "accessed": "undefined", "supports": "Fund IV $725M, early-stage biotech company creation", "quote": "The Column Group Raises a $725 Million Fourth Fund" },
+      { "url": "https://www.thecolumngroup.com/the-column-group-raises-1-23-billion-in-two-new-funds/", "title": "The Column Group Raises $1.23 Billion in Two New Funds", "publisher": "The Column Group", "accessed": "undefined", "supports": "$1.23B across two funds (Fund V + Opportunity II)", "quote": "The Column Group Raises $1.23 Billion in Two New Funds" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded ~2006–2007 by Peter Svennilson; early-stage biotech company creation around scientific platforms. Aggregate AUM (~$4.2B) cited in secondary profiles only.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-avalon-bioventures",
+    "name": { "en": "Avalon BioVentures" },
+    "aka": ["Avalon Ventures"],
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego",
+    "offices": [ { "country": "United States", "city": "San Diego" } ],
+    "website": "https://www.avalonbioventures.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/avalon-ventures"
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "San Diego life-science fund that invests in and builds early-stage biotech companies; historically launched a series of San Diego therapeutics newcos, including a landmark collaboration with GSK to seed-fund and launch up to ten companies."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["oncology", "immunology-inflammation", "rare-disease"],
+      "company_creation": true,
+      "science_platform_notes": "Built the COI Pharmaceuticals 'Community of Innovation' shared platform in San Diego to incubate newcos."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Sitari Pharmaceuticals", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Silarus Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "San Diego life-science venture fund that seeds and builds early-stage biotech companies; known for its GSK partnership to fund and launch up to ten therapeutics newcos and the COI Pharmaceuticals incubation platform."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/avalon-ventures-enters-strategic-collaboration-withglaxosmithkline-to-fund-and-launch-up-to", "title": "Avalon Ventures Enters Strategic Collaboration with GlaxoSmithKline to Fund and Launch Up to Ten Life Science Companies", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "GSK partnership, company creation, up to ten companies", "quote": "Avalon Ventures Enters Strategic Collaboration with GlaxoSmithKline to Fund and Launch Up to Ten Life Science Companies" },
+      { "url": "https://www.avalonbioventures.com/", "title": "Avalon BioVentures | San Diego Biotech Venture Fund", "publisher": "Avalon BioVentures", "accessed": "undefined", "supports": "current firm identity, San Diego biotech focus, company building", "quote": "San Diego Biotech Venture Fund" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The historical Avalon Ventures (est. 1983) ran Fund X ($200M, 2013) and the GSK/COI Pharmaceuticals company-creation program; the current successor firm operates as Avalon BioVentures. Founded_year omitted because the entity was rebranded and a single verbatim founding date was not captured. Recent fund size not verified verbatim.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-longwood-fund",
+    "name": { "en": "Longwood Fund" },
+    "aka": ["Longwood Founders Fund"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2010,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [ { "country": "United States", "city": "Boston" } ],
+    "website": "https://www.longwoodfund.com/",
+    "capital": {
+      "funds": [
+        { "name": "Longwood Founders Fund (Fund I)", "vintage_year": 2010, "size": { "raw": "$85 million", "usd": 85000000, "currency": "USD" } },
+        { "name": "Longwood Fund VI", "vintage_year": 2023, "size": { "raw": "$180 million", "usd": 180000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Boston firm that starts and invests in novel healthcare and biotech companies, co-founding therapeutics newcos with scientific founders from inception."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "indications": ["neurology", "oncology", "rare-disease"],
+      "company_creation": true
+    },
+    "people": [
+      { "name": "Christoph Westphal", "role": "Co-founder / Partner", "background": "MD/PhD; serial biotech founder (Sirtris)" },
+      { "name": "Richard Aldrich", "role": "Co-founder / Partner", "background": "Founding SVP/CBO of Vertex Pharmaceuticals; founded RA Capital" },
+      { "name": "Michelle Dipp", "role": "Co-founder", "background": "MD/PhD; co-founded OvaScience, Sirtris" }
+    ],
+    "summary": {
+      "en": "Boston company-creation fund (founded 2010) that starts and backs novel therapeutics companies; first fund $85M, Fund VI $180M (2023)."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/longwood-launches-first-fund", "title": "Longwood Launches First Fund", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "first fund launch, company creation, Boston", "quote": "Longwood Launches First Fund" },
+      { "url": "https://www.longwoodfund.com/about/", "title": "Longwood Fund - About", "publisher": "Longwood Fund", "accessed": "undefined", "supports": "founded 2010, healthcare company creation", "quote": "Longwood Fund" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 2010 by Christoph Westphal, Michelle Dipp and Richard Aldrich. Fund I ~$85M and Fund VI ~$180M reported in secondary profiles (fund names/numbers not captured verbatim from a primary press release here), so confidence is medium on the exact fund figures.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-apple-tree-partners",
+    "name": { "en": "Apple Tree Partners" },
+    "aka": ["ATP"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [ { "country": "United States", "city": "New York" }, { "country": "United States", "city": "San Francisco" }, { "country": "United States", "city": "Cambridge" } ],
+    "website": "https://www.appletreepartners.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/apple-tree-partners"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "New York life-science 'creation fund' that starts companies from pre-IP ideas and asset spinouts and funds them from seed through IPO and beyond."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"],
+      "indications": ["oncology", "immunology-inflammation", "neurology"],
+      "company_creation": true
+    },
+    "people": [
+      { "name": "Seth L. Harrison", "role": "Founder / Managing Partner", "background": "MD; founded ATP in 1999" }
+    ],
+    "summary": {
+      "en": "New York life-science venture firm (founded 1999) using a 'creation fund' model to build biotech, medtech and diagnostics companies from inception and fund them through IPO."
+    },
+    "sources": [
+      { "url": "https://www.appletreepartners.com/", "title": "Apple Tree Partners", "publisher": "Apple Tree Partners", "accessed": "undefined", "supports": "creation-fund model, seed-to-IPO, life sciences, founded 1999", "quote": "Apple Tree Partners" },
+      { "url": "https://pitchbook.com/profiles/investor/11111-05", "title": "Apple Tree Partners (ATP) investment portfolio", "publisher": "PitchBook", "accessed": "undefined", "supports": "life-science VC, New York, company creation", "quote": "Apple Tree Partners" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 1999 by Dr. Seth Harrison; 'creation fund' that seeds and builds companies. Committed capital (~$2.9B) and the most recent large fund (reported ~$6.5B, subject of a 2025 governance/Chapter 11 dispute per secondary reporting) not captured verbatim here; treated cautiously and omitted from fund figures.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-frazier-life-sciences",
+    "name": { "en": "Frazier Life Sciences" },
+    "aka": ["FLS", "Frazier Healthcare Partners (life sciences)"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1991,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Seattle",
+    "offices": [ { "country": "United States", "city": "Seattle" }, { "country": "United States", "city": "Menlo Park" }, { "country": "United States", "city": "Boston" } ],
+    "website": "https://frazierls.com/",
+    "capital": {
+      "funds": [
+        { "name": "Frazier Life Sciences XI", "vintage_year": 2022, "size": { "raw": "$987 million", "usd": 987000000, "currency": "USD" } },
+        { "name": "Frazier Life Sciences XII", "vintage_year": 2024, "size": { "raw": "$1.3 billion", "usd": 1300000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Dedicated life-science venture strategy focused on early-stage private biopharmaceutical companies developing novel therapeutics, with an emphasis on company creation and Series A investments."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "rna-therapeutics"],
+      "indications": ["oncology", "immunology-inflammation", "neurology", "rare-disease"],
+      "company_creation": true
+    },
+    "summary": {
+      "en": "Seattle-based life-science venture firm focused on early-stage private biopharma company creation and Series A; Fund XI closed at $987M (2022) and Fund XII at $1.3B (2024)."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/frazier-life-sciences-raises-13b-latest-early-stage-biotech-venture-fund", "title": "Frazier Life Sciences raises $1.3B for latest early-stage biotech venture fund", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Fund XII $1.3B, early-stage biotech focus", "quote": "Frazier Life Sciences raises $1.3B for latest early-stage biotech venture fund" },
+      { "url": "https://www.nasdaq.com/press-release/frazier-life-sciences-closes-$987-million-venture-fund-to-invest-in-companies", "title": "Frazier Life Sciences Closes $987 Million Venture Fund to Invest in Companies Developing Novel Biopharmaceuticals", "publisher": "Nasdaq / GlobeNewswire", "accessed": "undefined", "supports": "Fund XI $987M (2022), novel biopharmaceuticals", "quote": "Frazier Life Sciences Closes $987 Million Venture Fund to Invest in Companies Developing Novel Biopharmaceuticals" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Frazier's healthcare franchise dates to 1991; the dedicated Frazier Life Sciences (FLS) venture strategy invests in early-stage private biopharma. Fund XI $987M (2022), Fund XII $1.3B (2024). Founded_year reflects the broader Frazier franchise.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-flagship-pioneering",
+    "name": { "en": "Flagship Pioneering" },
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "offices": [ { "country": "United States", "city": "Cambridge" } ],
+    "website": "https://www.flagshippioneering.com/",
+    "capital": {
+      "funds": [
+        { "name": "Flagship Pioneering (2021 fund)", "vintage_year": 2021, "size": { "raw": "$3.4 billion", "usd": 3400000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "genomics-omics"],
+      "thesis": "Bioplatform venture-creation firm where entrepreneurial scientists invent solutions to challenges in human health and sustainability, originating and building companies (e.g., Moderna) from first principles."
+    },
+    "lifesci": {
+      "modalities": ["rna-therapeutics", "biologics-antibody", "cell-therapy", "gene-therapy", "vaccines", "ai-ml-platform"],
+      "indications": ["oncology", "infectious-disease", "immunology-inflammation"],
+      "company_creation": true,
+      "science_platform_notes": "Originates ventures internally via its VentureLabs / institutional company-creation engine before external financing."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Moderna", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Noubar Afeyan", "role": "Founder / CEO", "background": "PhD; co-founder and Board Chair of Moderna" }
+    ],
+    "summary": {
+      "en": "Cambridge, MA bioplatform venture-creation firm (founded 2000 by Noubar Afeyan) that originates and builds life-science companies from inception, most famously Moderna; raised $3.4B in 2021."
+    },
+    "sources": [
+      { "url": "https://www.forbes.com/sites/amyfeldman/2021/06/14/flagship-pioneering-the-investor-behind-moderna-raises-34-billion-for-new-fund/", "title": "Flagship Pioneering, The Investor Behind Moderna, Raises $3.4 Billion For New Fund", "publisher": "Forbes", "accessed": "undefined", "supports": "2021 fund $3.4B, Moderna origin, venture creation", "quote": "Flagship Pioneering, The Investor Behind Moderna, Raises $3.4 Billion For New Fund" },
+      { "url": "https://www.flagshippioneering.com/companies/moderna", "title": "Moderna | Flagship Pioneering", "publisher": "Flagship Pioneering", "accessed": "undefined", "supports": "founded Moderna via venture creation", "quote": "Moderna" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Classified as venture-studio (primary) given its institutional company-creation model, with vc as a subtype. Founded 2000 by Noubar Afeyan. Larger figures (>$10B committed capital; $3.6B 2024 raise) reported but not captured verbatim, so only the $3.4B 2021 fund is listed.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-mission-biocapital",
+    "name": { "en": "Mission BioCapital" },
+    "aka": ["Mission Bay Capital"],
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "offices": [ { "country": "United States", "city": "Cambridge" }, { "country": "United States", "city": "San Francisco" } ],
+    "website": "https://www.missionbiocapital.com/",
+    "capital": {
+      "current_fund": { "raw": "$275 million", "usd": 275000000, "currency": "USD" },
+      "funds": [
+        { "name": "Mission BioCapital V", "vintage_year": null, "size": { "raw": "$275 million", "usd": 275000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "life-science-tools", "pharma-services"],
+      "thesis": "Early-stage life-science firm funding transformative startups in therapeutics, diagnostics, medical devices, lab tools and drug delivery; combines capital with shared lab space and incubation via its Platinum Program."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "drug-delivery", "lab-automation"],
+      "indications": ["oncology", "immunology-inflammation", "rare-disease"],
+      "company_creation": true,
+      "science_platform_notes": "Runs the Mission BioCapital Platinum Program providing pre-seed funding, incubator bench space and discovery services (JLABS-style)."
+    },
+    "summary": {
+      "en": "Cambridge/SF early-stage life-science firm (founded 2009) pairing capital with wet-lab incubation; Fund V closed at $275M for therapeutics, diagnostics, devices, tools and drug delivery."
+    },
+    "sources": [
+      { "url": "https://www.missionbiocapital.com/mission-biocapital-launches-platinum-program-to-help-life-sciences-entrepreneurs/", "title": "Mission BioCapital Announces $275 Million Fund V", "publisher": "Mission BioCapital", "accessed": "undefined", "supports": "Fund V $275M, sector focus, incubator Platinum Program", "quote": "Mission BioCapital Announces $275 Million Fund V" },
+      { "url": "https://www.missionbiocapital.com/", "title": "Life Science VC | Mission BioCapital", "publisher": "Mission BioCapital", "accessed": "undefined", "supports": "early-stage life science, Cambridge/SF, incubation", "quote": "Life Science VC" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2009 (roots in Mission Bay Capital, UCSF QB3 incubator). Combines venture capital with shared lab/bench space; hence incubator subtype. Fund V $275M per firm announcement.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  },
+  {
+    "id": "us-rock-health-capital",
+    "name": { "en": "Rock Health Capital" },
+    "aka": ["Rock Health"],
+    "type": "vc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2010,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [ { "country": "United States", "city": "San Francisco" } ],
+    "website": "https://rockhealthcapital.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/rock-health"
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it"],
+      "thesis": "Full-service seed fund investing in and supporting digital-health startups; grew out of one of the first dedicated digital-health accelerators (inaugural batch June 2011)."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "Halle Tecco", "role": "Co-founder", "background": "Harvard Business School; co-founded Rock Health in 2010" },
+      { "name": "Nate Gross", "role": "Co-founder", "background": "MD; co-founded Rock Health / Doximity" }
+    ],
+    "summary": {
+      "en": "San Francisco seed fund for digital-health startups (founded 2010; first accelerator batch 2011), one of the earliest dedicated digital-health investors and a producer of widely cited digital-health funding research."
+    },
+    "sources": [
+      { "url": "https://techcrunch.com/2011/06/18/new-health-focused-startup-accelerator-rock-health-debuts-inaugural-batch/", "title": "New Health-Focused Startup Accelerator Rock Health Debuts Inaugural Batch", "publisher": "TechCrunch", "accessed": "undefined", "supports": "founding, first accelerator batch June 2011, digital-health focus", "quote": "New Health-Focused Startup Accelerator Rock Health Debuts Inaugural Batch" },
+      { "url": "https://rockhealthcapital.com/", "title": "Capital | Rock Health", "publisher": "Rock Health", "accessed": "undefined", "supports": "full-service seed fund for digital health", "quote": "Rock Health" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 2010 by Halle Tecco and Nate Gross; started as a digital-health accelerator, now operates Rock Health Capital as a seed fund (Rock Health Seed Fund II reported). Specific fund sizes not disclosed publicly, so omitted. Included as the digital-health seed representative; a separate nonprofit (rockhealth.org) publishes the well-known digital-health funding reports.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-lifesci-vc"
+  }
+]

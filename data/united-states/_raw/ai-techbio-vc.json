@@ -1,0 +1,897 @@
+[
+  {
+    "id": "us-dimension",
+    "name": { "en": "Dimension" },
+    "aka": ["Dimension Capital", "DIMENSION"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [
+      { "country": "United States", "city": "New York" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.dimensioncap.com/",
+    "links": {
+      "crunchbase": "https://www.dimensioncap.com/",
+      "other": ["https://www.statnews.com/2026/03/17/dimension-vc-biotech-artificial-intelligence/"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$500M", "usd": 500000000, "currency": "USD" },
+      "funds": [
+        { "name": "Dimension I", "vintage_year": 2023, "size": { "raw": "$350M", "usd": 350000000, "currency": "USD" } },
+        { "name": "Dimension II", "vintage_year": 2024, "size": { "raw": "$500M", "usd": 500000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "life-science-tools"],
+      "thesis": "Multistage, research-oriented firm investing at the intersection of computer science and life sciences; backs biotech startups only when a large share of the team are computational biologists, ML practitioners and AI engineers working alongside chemists and biologists on drug discovery."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": false,
+      "science_platform_notes": "Requires that '25%, 30%, even 40% of the team are computational biologists' before investing in a therapeutics startup."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Chai Discovery", "sector": "AI drug discovery / foundation models", "outcome": "active" },
+        { "company": "Enveda Biosciences", "sector": "AI-driven natural-product drug discovery", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Zavain Dar", "role": "Co-founder / General Partner", "background": "Previously general partner at Lux Capital" },
+      { "name": "Adam Goulburn", "role": "Co-founder / General Partner", "background": "Ex-Lux Capital investor" },
+      { "name": "Nan Li", "role": "Co-founder / General Partner", "background": "Obvious Ventures alumnus" }
+    ],
+    "tags": ["techbio", "digital-biology", "ai-drug-discovery", "computational-biology"],
+    "summary": {
+      "en": "New York/SF-based TechBio venture firm bridging computer science and life sciences, funding startups that use AI and computation to create therapeutics and drug-discovery tools; founded 2022 and raised a $500M second fund in 2024."
+    },
+    "sources": [
+      { "url": "https://www.dimensioncap.com/", "title": "DIMENSION", "publisher": "Dimension", "accessed": "undefined", "supports": "Thesis, multistage focus, CA + NY offices", "quote": "a multistage, research oriented, investment firm partnering with companies across the frontiers of science and compute" },
+      { "url": "https://techcrunch.com/2024/12/09/dimension-raises-500m-second-fund-for-investing-at-the-intersection-tech-and-life-sciences/", "title": "Dimension raises $500M second fund for investing at the intersection of tech and life sciences", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund II $500M, Fund I $350M, founding 2022, founders, computational-biologist thesis", "quote": "Dimension will invest in biotech startups only if '25%, 30%, even 40% of the team are computational biologists,' Goulburn said." },
+      { "url": "https://techcrunch.com/2024/12/09/dimension-raises-500m-second-fund-for-investing-at-the-intersection-tech-and-life-sciences/", "title": "Dimension raises $500M second fund", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund sizes and founding year", "quote": "Dimension announced that it raised an oversubscribed $500 million fund, exceeding its $400 million target." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Bi-coastal (CA + NY per official site); hq_city 'New York' is a best estimate. STAT (Mar 2026) reported Dimension was raising a third fund of roughly $700M — not treated as closed here.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-dcvc-bio",
+    "name": { "en": "DCVC Bio" },
+    "aka": ["Data Collective Bio"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "offices": [
+      { "country": "United States", "city": "Palo Alto" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.dcvc.com/bio/",
+    "links": {
+      "other": ["https://www.crunchbase.com/organization/dcvc-bio"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$400 million", "usd": 400000000, "currency": "USD" },
+      "funds": [
+        { "name": "DCVC Bio III", "vintage_year": 2024, "size": { "raw": "$400 million", "usd": 400000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "synthetic-biology", "life-science-tools"],
+      "thesis": "Venture firm at the intersection of life sciences and deep technology; backs computation-enhanced platforms (not single drug candidates) that use AI and large data models to design new medicines, materials and farming methods."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "company_creation": true,
+      "science_platform_notes": "Established 2018 as the dedicated bio arm of deep-tech firm DCVC; co-founded by Managing Partners including Dr. John Hamer and Dr. Kiersten Stead."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AbCellera", "sector": "AI antibody discovery", "outcome": "IPO (Nasdaq: ABCL)" }
+      ]
+    },
+    "tags": ["techbio", "computational-biology", "ai-drug-discovery", "deep-tech"],
+    "summary": {
+      "en": "Palo Alto-based venture firm investing in AI-driven, computation-enhanced life-science platforms across human health, agriculture and synthetic biology; closed an oversubscribed $400M Fund III in 2024." },
+    "sources": [
+      { "url": "https://www.dcvc.com/bio/", "title": "DCVC Bio", "publisher": "DCVC", "accessed": "undefined", "supports": "Established 2018, AI/data-model thesis, Palo Alto + SF offices", "quote": "Recognizing this historic opportunity, we established DCVC Bio in 2018." },
+      { "url": "https://www.synbiobeta.com/read/dcvc-bio-closes-400-million-fund-iii-to-accelerate-breakthroughs-in-life-sciences-and-deep-tech", "title": "DCVC Bio Closes $400 Million Fund III", "publisher": "SynBioBeta", "accessed": "undefined", "supports": "Fund III $400M, AI-platform thesis", "quote": "announced the successful close of its third main fund, raising $400 million oversubscribed." },
+      { "url": "https://www.synbiobeta.com/read/dcvc-bio-closes-400-million-fund-iii-to-accelerate-breakthroughs-in-life-sciences-and-deep-tech", "title": "DCVC Bio Closes $400 Million Fund III", "publisher": "SynBioBeta", "accessed": "undefined", "supports": "Platform, not single-asset, thesis", "quote": "DCVC Bio doesn't focus on individual drug candidates but on computation-enhanced platforms capable of generating entire new categories of treatments and products." }
+    ],
+    "confidence": "high",
+    "verification_notes": "AbCellera outcome (IPO) is well documented; other portfolio (MycoWorks, Elo Life, Sabanto) skew agriculture/materials rather than medical.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-lux-capital",
+    "name": { "en": "Lux Capital" },
+    "aka": ["Lux"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [
+      { "country": "United States", "city": "New York" },
+      { "country": "United States", "city": "Menlo Park" }
+    ],
+    "website": "https://www.luxcapital.com/",
+    "links": {
+      "other": ["https://www.luxcapital.com/companies"]
+    },
+    "capital": {
+      "aum": { "raw": "$7 billion", "usd": 7000000000, "currency": "USD" },
+      "current_fund": { "raw": "$1.5 billion", "usd": 1500000000, "currency": "USD" },
+      "funds": [
+        { "name": "Lux Ventures IX", "vintage_year": 2026, "size": { "raw": "$1.5 billion", "usd": 1500000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "genomics-omics", "life-science-tools"],
+      "thesis": "Deep-science firm deploying across physical, computational and life sciences; its Bio + Tech thesis backs scientist-entrepreneurs who pair the wet bench with GPUs and machine learning to build 'operating systems' for the future of drug discovery and to unbundle the omics stack."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "gene-editing", "cell-therapy"],
+      "company_creation": true,
+      "science_platform_notes": "Publishes a 'Lux Bio + Tech Index'; life-science portfolio spans computational imaging, gene editing and R&D-platform software."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Recursion Pharmaceuticals", "sector": "AI drug discovery", "outcome": "IPO (Nasdaq: RXRX)" },
+        { "company": "Eikon Therapeutics", "sector": "Computational imaging for drug discovery", "outcome": "active" },
+        { "company": "eGenesis", "sector": "Gene editing / xenotransplantation", "outcome": "active" }
+      ]
+    },
+    "tags": ["deep-tech", "bio-plus-tech", "ai-drug-discovery", "computational-biology"],
+    "summary": {
+      "en": "Deep-science venture firm whose Bio + Tech pillar backs computation-driven biology and drug-discovery platforms; closed a firm-record $1.5B Fund IX in January 2026, bringing AUM to about $7B." },
+    "sources": [
+      { "url": "https://www.luxcapital.com/news/this-time-is-different-introducing-lux-bio-tech-tm", "title": "This Time IS Different: Introducing Lux Bio + Tech", "publisher": "Lux Capital", "accessed": "undefined", "supports": "Bio + Tech thesis, computation + wet-bench convergence, drug-discovery operating systems", "quote": "those building 'operating systems' for the future of drug discovery and ultimately even drug development" },
+      { "url": "https://www.luxcapital.com/news/this-time-is-different-introducing-lux-bio-tech-tm", "title": "Introducing Lux Bio + Tech", "publisher": "Lux Capital", "accessed": "undefined", "supports": "Scientist-entrepreneur with ML/compute", "quote": "The modern scientist-entrepreneur not only sits at the wetbench but also has proficiency to deconvolute high dimensional and historically unmanageable data with GPUs, scalable and elastic compute, and the array of advances from machine learning and deep learning." },
+      { "url": "https://techcrunch.com/2026/01/07/lux-capital-lands-1-5-billion-for-its-largest-fund-ever/", "title": "Lux Capital lands $1.5B for its largest fund ever", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund IX $1.5B, $7B AUM, ~25-year-old firm", "quote": "Lux Capital, a 25-year-old VC firm known for its investments in frontier science and defense technology, has closed a $1.5 billion ninth fund, the largest fund in the firm's history." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded_year 2000 inferred from TechCrunch describing Lux as a '25-year-old VC firm' in Jan 2026. Lux is a generalist deep-science firm; included here for its explicit, substantial Bio + Tech / computational-biology practice.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-compound",
+    "name": { "en": "Compound" },
+    "aka": ["Compound VC"],
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://www.compound.vc/",
+    "links": {
+      "other": ["https://www.compound.vc/portfolio"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "$400K–$1.5M", "usd_min": 400000, "usd_max": 1500000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "synthetic-biology", "life-science-tools"],
+      "thesis": "Thesis-driven, research-centric firm practicing 'n-of-1' investing across AI/ML, robotics, bio and crypto; backs technically 'weird' founders solving previously unsolvable problems, including at the intersection of computation and biology."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "science_platform_notes": "Maintains dedicated Venture Partners for Computational Biology (Ron Boger) and Biology (Celeste Holz-Schietinger)."
+    },
+    "tags": ["n-of-1", "computational-biology", "deep-tech", "research-centric"],
+    "summary": {
+      "en": "New York research-centric venture firm making contrarian 'n-of-1' bets across AI, robotics and biology, with dedicated computational-biology and biology venture partners driving its bio investing." },
+    "sources": [
+      { "url": "https://www.compound.vc/about", "title": "About us — Compound", "publisher": "Compound", "accessed": "undefined", "supports": "Thesis-driven / research-centric identity, NY HQ, computational-biology partner", "quote": "We are a team of investors, researchers, and operators." },
+      { "url": "https://www.compound.vc/", "title": "Compound VC", "publisher": "Compound", "accessed": "undefined", "supports": "n-of-1 investing across AI, robotics, bio, crypto; comp-bio venture partner", "quote": "Venture Partner - Computational Biology" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size / founding year not verified from a primary source; check-size range ($400K–$1.5M) is from secondary aggregators. Bio is one of several verticals (AI/ML, robotics, crypto), but the firm staffs dedicated computational-biology/biology partners, establishing a clear bio nexus.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-nfx-bio",
+    "name": { "en": "NFX Bio" },
+    "aka": ["NFX"],
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.nfx.com/bio",
+    "links": {
+      "other": ["https://www.nfx.com/post/launching-nfx-bio"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "synthetic-biology"],
+      "thesis": "Dedicated bio initiative of seed firm NFX, built as 'the home for Scientist-Founders'; funds scientists digitizing biology and using AI/ML and compute-at-scale to build platform bio companies, from pre-seed (scientist with an idea) through early Series A."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "company_creation": false,
+      "science_platform_notes": "Led by biotech Scientist-Founders who help scientists become founders."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Cyclana Bio", "sector": "TechBio", "outcome": "active" },
+        { "company": "Immunebridge", "sector": "TechBio", "outcome": "active" },
+        { "company": "Powerhouse Biology", "sector": "TechBio", "outcome": "active" }
+      ]
+    },
+    "tags": ["techbio", "scientist-founders", "seed", "ai-drug-discovery"],
+    "summary": {
+      "en": "San Francisco seed firm NFX's dedicated bio fund for Scientist-Founders, backing companies that harness the digitization of biology and AI/ML to build platform bio businesses from pre-seed through early Series A." },
+    "sources": [
+      { "url": "https://www.nfx.com/bio", "title": "NFX - Bio", "publisher": "NFX", "accessed": "undefined", "supports": "Scientist-Founder thesis, AI/ML unraveling biology, stages", "quote": "NFX Bio is the home for Scientist-Founders." },
+      { "url": "https://www.nfx.com/bio", "title": "NFX - Bio", "publisher": "NFX", "accessed": "undefined", "supports": "AI/ML and compute in biology", "quote": "The complexity of biology is being unraveled with AI/ML advancements and computing at scale." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "NFX Bio is an initiative/fund of the broader NFX seed firm (San Francisco); firm-wide fund size and NFX founding year not stated with a single reliable verbatim source (sources variously cite 2014/2015), so founded_year omitted.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-innovation-endeavors",
+    "name": { "en": "Innovation Endeavors" },
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2010,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "offices": [
+      { "country": "United States", "city": "Palo Alto" }
+    ],
+    "website": "https://www.innovationendeavors.com/",
+    "links": {
+      "other": ["https://techcrunch.com/2019/04/10/innovation-endeavors-debuts-deep-life-an-incubator-focused-on-intersection-of-life-science-and-computer-science/"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$630 million", "usd": 630000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund V", "vintage_year": 2024, "size": { "raw": "$630 million", "usd": 630000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "diagnostics", "life-science-tools"],
+      "thesis": "Early-stage firm founded by Eric Schmidt investing at the intersection of science and technology ('Super Evolution'); its Deep Life effort applies machine learning and computer science to hard life-science problems in therapeutics and diagnostics."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Runs Deep Life, an incubator at the intersection of life science and computer science."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Zymergen", "sector": "Synthetic biology", "outcome": "IPO (later acquired)" }
+      ]
+    },
+    "people": [
+      { "name": "Eric Schmidt", "role": "Founder", "background": "Former Google/Alphabet CEO" }
+    ],
+    "tags": ["deep-life", "ai-x-biology", "super-evolution", "incubator"],
+    "summary": {
+      "en": "Eric Schmidt's Palo Alto venture firm investing at the science-technology frontier; its Deep Life incubator applies machine learning to life-science problems. Closed a firm-record $630M Fund V in 2024." },
+    "sources": [
+      { "url": "https://techcrunch.com/2024/01/25/innovation-endeavors-630m-fund-science-technology/", "title": "Innovation Endeavors closes $630M for Fund V", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund V $630M, founded 2010, founders", "quote": "This is the firm's fifth fund and a whopping $630 million in capital commitments — the firm's largest fund to date." },
+      { "url": "https://techcrunch.com/2024/01/25/innovation-endeavors-630m-fund-science-technology/", "title": "Innovation Endeavors closes $630M for Fund V", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Founding year and founders", "quote": "Eric Schmidt, the former Google CEO, started the firm in 2010 with Dror Berman, Scott Brady and Rick Scanlon to invest at the intersection of science and technology." },
+      { "url": "https://techcrunch.com/2019/04/10/innovation-endeavors-debuts-deep-life-an-incubator-focused-on-intersection-of-life-science-and-computer-science/", "title": "Innovation Endeavors debuts Deep Life", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Deep Life incubator at life science × computer science", "quote": "an incubator focused on intersection of life science and computer science" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Generalist science-and-technology firm; included for its dedicated Deep Life (life-science × computer-science) practice. Zymergen IPO'd then was acquired by Ginkgo Bioworks.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-aix-ventures",
+    "name": { "en": "AIX Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.aixventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/aixventures",
+      "other": ["https://www.aixventures.com/portfolio"]
+    },
+    "capital": {
+      "aum": { "raw": "$252 million", "usd": 252000000, "currency": "USD" },
+      "current_fund": { "raw": "$202M", "usd": 202000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund II", "vintage_year": null, "size": { "raw": "$202 million", "usd": 202000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "$1M–$5M", "usd_min": 1000000, "usd_max": 5000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics"],
+      "thesis": "Specialist AI fund run by AI practitioners investing exclusively in 'AI-native' companies where AI is the core product; its TechBio thread backs AI-native biotech and protein-design platforms such as Profluent."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "science_platform_notes": "Founded and run by AI researchers (Richard Socher, Christopher Manning, Pieter Abbeel, Anthony Goldbloom)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Profluent", "sector": "Generative-AI protein design / drug development", "outcome": "active" },
+        { "company": "Proxima", "sector": "AI-native biotech", "outcome": "active" }
+      ]
+    },
+    "tags": ["ai-native", "protein-design", "techbio-adjacent"],
+    "summary": {
+      "en": "AI-specialist seed fund run by leading AI researchers; invests in AI-native companies including TechBio/protein-design plays such as Profluent, with $252M across two funds (Fund II closed at $202M)." },
+    "sources": [
+      { "url": "https://www.aixventures.com/content-hub-feed/second-fund-of-202m", "title": "AIX Ventures' Second Fund of $202M Will Fuel AI and the Future of Work", "publisher": "AIX Ventures", "accessed": "undefined", "supports": "Fund II $202M, AI-native focus", "quote": "AIX Ventures' Second Fund of $202M Will Fuel AI and the Future of Work" },
+      { "url": "https://www.profluent.bio/media/profluent-launches-to-design-new-proteins-with-generative-ai", "title": "Profluent launches to design new proteins with generative AI", "publisher": "Profluent", "accessed": "undefined", "supports": "AIX portfolio biotech nexus — Profluent AI protein design for biomedicine", "quote": "Profluent launches to design new proteins with generative AI" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AIX is a generalist AI-native fund, not a bio-dedicated firm; included as a named slice anchor because of a genuine but thin TechBio thread (Profluent protein design; Proxima AI-native biotech). AUM $252M across two funds is from secondary aggregators. HQ shown as SF/Bay Area; exact city uncertain.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-foresite-capital",
+    "name": { "en": "Foresite Capital" },
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.foresitecapital.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/foresite-capital-management",
+      "other": ["https://en.wikipedia.org/wiki/Foresite_Capital"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$900 million", "usd": 900000000, "currency": "USD" },
+      "funds": [
+        { "name": "Foresite Capital Fund VI", "vintage_year": 2024, "size": { "raw": "$900 million", "usd": 900000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "diagnostics", "genomics-omics", "healthcare-services"],
+      "thesis": "Data-science-forward, multi-stage healthcare/life-science investor (private and public) that backs drug developers using genetics and machine learning to identify therapies; a self-described leading TechBio investor and co-founder of AI drug-discovery company Xaira Therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": true,
+      "invests_public_markets": true,
+      "science_platform_notes": "Runs Foresite Labs, a computation-driven company-creation engine; co-led Xaira Therapeutics' launch."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Xaira Therapeutics", "sector": "AI drug discovery", "outcome": "active (co-led ~$1B launch)" }
+      ]
+    },
+    "tags": ["techbio", "crossover", "ai-drug-discovery", "precision-medicine"],
+    "summary": {
+      "en": "San Francisco multi-stage healthcare/life-science firm (private + public) using a data-science approach to back genetics- and ML-driven drug developers; raised a $900M Fund VI in 2024 and co-founded AI drug-discovery company Xaira." },
+    "sources": [
+      { "url": "https://www.biopharmadive.com/news/foresite-950-million-fund-vi-venture-capital/718617/", "title": "Foresite, a biotech venture firm, reloads with $900M fund", "publisher": "BioPharma Dive", "accessed": "undefined", "supports": "Fund VI $900M, founded 2011, ML drug discovery, SF HQ", "quote": "looking for those using genetics and machine learning to identify potential therapies" },
+      { "url": "https://www.biopharmadive.com/news/foresite-950-million-fund-vi-venture-capital/718617/", "title": "Foresite reloads with $900M fund", "publisher": "BioPharma Dive", "accessed": "undefined", "supports": "Founding year 2011", "quote": "Foresite first launched in 2011" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Foresite spans private and public healthcare investing (crossover characteristics) and has a broad life-science remit; included here for its explicit TechBio / ML-drug-discovery identity and Foresite Labs company creation. Foresite Labs raised a separate ~$173M fund.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-alix-ventures",
+    "name": { "en": "Alix Ventures" },
+    "aka": ["Alix"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.alix.vc/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/alix-ventures",
+      "crunchbase": "https://www.crunchbase.com/organization/alix-ventures",
+      "other": ["https://www.alix.vc/overview"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "diagnostics", "life-science-tools", "synthetic-biology"],
+      "thesis": "Thesis-driven early-stage fund focused exclusively on TechBio — companies melding technology and biology across therapeutics, diagnostics and bio-economy infrastructure to drive transformative patient impact."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "science_platform_notes": "Operates the BIOS TechBio media/community platform and a scientific advisory board of PhD founders; runs a year-long Venture Residency training life-science trainees as TechBio VCs."
+    },
+    "tags": ["techbio", "seed", "bios-community", "ai-x-biology"],
+    "summary": {
+      "en": "San Francisco early-stage fund investing exclusively in TechBio platform companies across human health; also operates the BIOS TechBio community and a venture-residency training program." },
+    "sources": [
+      { "url": "https://www.alix.vc/overview", "title": "Alix Ventures — Overview", "publisher": "Alix Ventures", "accessed": "undefined", "supports": "Exclusive TechBio thesis, early-stage focus", "quote": "Life Sciences is experiencing rapid innovation with the rise of new generation of companies known as 'TechBio' (Melding Technology & Biology)" },
+      { "url": "https://www.crunchbase.com/organization/alix-ventures", "title": "Alix Ventures - Crunchbase", "publisher": "Crunchbase", "accessed": "undefined", "supports": "Founded 2019, San Francisco HQ", "quote": "Alix Ventures is a venture capital firm founded in 2019 and based in San Francisco, California." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size not disclosed on official pages; founded-2019/San-Francisco from secondary aggregators. Clearly and narrowly scoped to TechBio, making it a strong fit for this slice.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-kdt-ventures",
+    "name": { "en": "KdT Ventures" },
+    "aka": ["KdT"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.kdtvc.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/kdt-ventures",
+      "crunchbase": "https://www.crunchbase.com/organization/kdt-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "over $250 million", "usd": 250000000, "currency": "USD" },
+      "current_fund": { "raw": "$100 million", "usd": 100000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund IV", "vintage_year": 2024, "size": { "raw": "over $100 million", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "$500,000 to $5 million", "usd_min": 500000, "usd_max": 5000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "synthetic-biology", "life-science-tools"],
+      "thesis": "Early-stage 'frontier science' firm whose thesis is reprogramming chemistry and biology using creative technology platforms; backs technical founders leveraging computation, chemistry and biology, often as the first institutional check."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "company_creation": false,
+      "science_platform_notes": "Every partner holds an MD/PhD or founder/operator background in biotech/medtech."
+    },
+    "track_record": {
+      "portfolio_count": "over 65"
+    },
+    "people": [
+      { "name": "Cain McClary", "role": "Founder / Managing Partner", "background": "MD" }
+    ],
+    "tags": ["frontier-science", "computational-biology", "seed", "first-check"],
+    "summary": {
+      "en": "Early-stage frontier-science firm founded by Cain McClary, MD (2017) backing companies that reprogram chemistry and biology with computational platforms; manages over $250M and closed a $100M Fund IV in 2024." },
+    "sources": [
+      { "url": "https://www.synbiobeta.com/read/kdt-ventures-closes-100m-fund-iv-to-fuel-early-stage-science-startups", "title": "KdT Ventures Closes $100M Fund IV", "publisher": "SynBioBeta", "accessed": "undefined", "supports": "Fund IV $100M, AUM $250M, founded 2017, check size, portfolio count", "quote": "KdT Ventures now manages over $250 million in assets" },
+      { "url": "https://www.synbiobeta.com/read/kdt-ventures-closes-100m-fund-iv-to-fuel-early-stage-science-startups", "title": "KdT Ventures Closes $100M Fund IV", "publisher": "SynBioBeta", "accessed": "undefined", "supports": "Founding and founder", "quote": "Founded by Cain McClary in 2017" },
+      { "url": "https://www.synbiobeta.com/read/kdt-ventures-closes-100m-fund-iv-to-fuel-early-stage-science-startups", "title": "KdT Ventures Closes $100M Fund IV", "publisher": "SynBioBeta", "accessed": "undefined", "supports": "Check size and first-check role", "quote": "KdT often serves as the first institutional investor in a company, making initial investments that range from $500,000 to $5 million" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio spans therapeutics, industrial biotech and climate; medical nexus is therapeutics/computational biology. HQ omitted — KdT is listed in the North Carolina Biotech Center directory and also maintains a West Coast presence; exact HQ city not confirmed from a primary source.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-a16z-bio-health",
+    "name": { "en": "a16z Bio + Health" },
+    "aka": ["Andreessen Horowitz Bio + Health", "a16z Bio Fund"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Menlo Park",
+    "offices": [
+      { "country": "United States", "city": "Menlo Park" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://a16z.com/bio-health/",
+    "links": {
+      "other": ["https://a16z.com/ai-at-the-intersection-the-a16z-investment-thesis-on-ai-in-bio-health/"]
+    },
+    "capital": {
+      "aum": { "raw": "more than $3 billion", "usd": 3000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "digital-health", "healthcare-services", "diagnostics"],
+      "thesis": "The bio/health arm of Andreessen Horowitz, built on the thesis that 'software eats bio'; invests in AI-native and software-driven companies that turn biology into an engineering discipline and shift healthcare from Eroom's law to Moore's law."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd"],
+      "company_creation": false,
+      "science_platform_notes": "Founded 2015 by Vijay Pande (ex-Stanford chemistry/structural biology/CS professor)."
+    },
+    "people": [
+      { "name": "Vijay Pande", "role": "Founding partner (stepped down 2025)", "background": "PhD; former Stanford professor; founder of Folding@Home" }
+    ],
+    "tags": ["software-eats-bio", "ai-x-biology", "bio-plus-health", "multistage"],
+    "summary": {
+      "en": "Andreessen Horowitz's bio/health practice (founded 2015), investing at the intersection of AI and biology on the thesis that computation will transform how therapeutics and care are researched, developed and delivered; manages more than $3B." },
+    "sources": [
+      { "url": "https://a16z.com/ai-at-the-intersection-the-a16z-investment-thesis-on-ai-in-bio-health/", "title": "AI at the Intersection: the a16z Investment Thesis on AI in Bio + Health", "publisher": "Andreessen Horowitz", "accessed": "undefined", "supports": "AI-in-bio/health thesis", "quote": "AI can understand biology beyond the abilities of human scientists." },
+      { "url": "https://en.wikipedia.org/wiki/Vijay_S._Pande", "title": "Vijay S. Pande", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founded 2015 by Pande; AUM > $3B", "quote": "which invests in life sciences and healthcare valued more than $3 billion under management." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Dedicated arm of a16z (firm founded 2009); the Bio Fund launched 2015. Individual bio-fund vintages ($200M 2015, $450M 2017, $750M 2020, $1.5B 2022) appear in secondary summaries but were not confirmed from a single verbatim primary source, so only the '> $3 billion under management' figure is recorded. Spans therapeutics, digital health and care delivery; included for its computation-x-biology thesis (drug discovery), with digital-health overlap noted for sibling slices.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-section-32",
+    "name": { "en": "Section 32" },
+    "aka": ["S32"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego",
+    "offices": [
+      { "country": "United States", "city": "San Diego" }
+    ],
+    "website": "https://www.section32.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/section-32"
+    },
+    "capital": {
+      "aum": { "raw": "$2.3 billion", "usd": 2300000000, "currency": "USD" },
+      "current_fund": { "raw": "$525 million", "usd": 525000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund V", "vintage_year": 2023, "size": { "raw": "$525 million", "usd": 525000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "genomics-omics", "diagnostics"],
+      "thesis": "Frontier tech-and-healthcare firm founded by ex-Google Ventures CEO Bill Maris; takes a science-first approach across AI, precision medicine and computational biology, avoiding commoditized base-model AI in favor of applications like drug discovery."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": false,
+      "science_platform_notes": "Portfolio spans precision medicine, genomics and computational biology alongside deep tech."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Relay Therapeutics", "sector": "Computational / motion-based drug discovery", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Bill Maris", "role": "Founder / Managing Partner", "background": "Founder and former CEO of Google Ventures (GV)" }
+    ],
+    "tags": ["computational-biology", "precision-medicine", "ai-drug-discovery", "deep-tech"],
+    "summary": {
+      "en": "Bill Maris's venture firm investing across the frontiers of technology and healthcare, with an explicit computational-biology and precision-medicine focus; $2.3B AUM with a $525M Fund V (2023)." },
+    "sources": [
+      { "url": "https://techcrunch.com/2023/10/05/section-32-closes-on-525m-fund-says-there-is-a-zone-of-commoditization-that-you-have-to-avoid-while-investing-in-ai/", "title": "Section 32 closes on $525M fund", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund V $525M, AUM $2.3B, founder Bill Maris, computational biology focus", "quote": "now has $2.3 billion in assets under management" },
+      { "url": "https://techcrunch.com/2023/10/05/section-32-closes-on-525m-fund-says-there-is-a-zone-of-commoditization-that-you-have-to-avoid-while-investing-in-ai/", "title": "Section 32 closes on $525M fund", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund V size and founder", "quote": "closed on $525 million in capital commitments across its fifth fund" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2017 by Bill Maris. Generalist frontier-tech firm; included for its named computational-biology and precision-medicine practice (Relay Therapeutics, etc.). HQ commonly cited as San Diego/Palo Alto; San Diego used here with some uncertainty.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-8vc",
+    "name": { "en": "8VC" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Austin",
+    "offices": [
+      { "country": "United States", "city": "Austin" }
+    ],
+    "website": "https://www.8vc.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/section-32",
+      "other": ["https://8vc.com/team/joe-lonsdale"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$880 million", "usd": 880000000, "currency": "USD" },
+      "funds": [
+        { "name": "Flagship fund (2023)", "vintage_year": 2023, "size": { "raw": "$880 million", "usd": 880000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "healthcare-it", "cell-gene-therapy"],
+      "thesis": "Tech-and-life-sciences firm led by Palantir co-founder Joe Lonsdale that has become increasingly focused on the biosciences on the view that much of biology has turned into an information problem solvable with data and compute."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Health tech and life sciences represent over a quarter of 8VC deals; known for backing Altos Labs."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Altos Labs", "sector": "Cellular reprogramming / longevity", "outcome": "active" },
+        { "company": "Senti Bio", "sector": "Synthetic biology / cell therapy", "outcome": "IPO" },
+        { "company": "Vir Biotechnology", "sector": "Immunology / infectious disease", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Joe Lonsdale", "role": "Founder / Managing Partner", "background": "Co-founder of Palantir and Addepar" }
+    ],
+    "tags": ["biosciences", "information-problem", "life-sciences", "data-driven"],
+    "summary": {
+      "en": "Joe Lonsdale's Austin-based tech and life-sciences firm, increasingly concentrated on the biosciences on the thesis that biology has become an information problem; backer of Altos Labs, Senti Bio and Vir." },
+    "sources": [
+      { "url": "https://www.8vc.com/resources/silicon-valley-goes-from-high-tech-to-biotech", "title": "Silicon Valley goes from high tech to biotech", "publisher": "8VC", "accessed": "undefined", "supports": "Biosciences-as-information-problem thesis, HQ Austin", "quote": "In our opinion one of the very biggest changes in the last five years is a lot of the biological sciences have turned into information problems" },
+      { "url": "https://techcrunch.com/2025/01/29/joe-lonsdales-8vc-seeking-1b-for-new-fund/", "title": "Joe Lonsdale's 8VC seeking $1B for new fund", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Prior $880M flagship (Feb 2023), founding ~2015, life-sciences share", "quote": "its previous $880 million flagship vehicle, which closed in February 2023" },
+      { "url": "https://techcrunch.com/2025/01/29/joe-lonsdales-8vc-seeking-1b-for-new-fund/", "title": "Joe Lonsdale's 8VC seeking $1B for new fund", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Life sciences focus share of deals", "quote": "Another big area of focus for the firm is health tech and life sciences, representing over a quarter of 8VC deals" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "8VC is a broad tech + life-sciences firm relocated to Austin (2020); included for its stated pivot toward biosciences. As of the Jan 2025 TechCrunch report it was seeking ~$1B for a sixth fund (not treated as closed). Firm-wide AUM widely reported near $6B but not confirmed from a single verbatim primary source. The crunchbase link in 'links' is a placeholder and may be inaccurate.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-playground-global",
+    "name": { "en": "Playground Global" },
+    "aka": ["Playground"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "offices": [
+      { "country": "United States", "city": "Palo Alto" }
+    ],
+    "website": "https://www.playground.vc/",
+    "links": {
+      "other": ["https://en.wikipedia.org/wiki/Playground_Global"]
+    },
+    "capital": {
+      "aum": { "raw": "more than $1.2 billion", "usd": 1200000000, "currency": "USD" },
+      "current_fund": { "raw": "$410 million", "usd": 410000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund III", "vintage_year": 2023, "size": { "raw": "$410 million", "usd": 410000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "$1 million to $20 million", "usd_min": 1000000, "usd_max": 20000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "synthetic-biology", "life-science-tools"],
+      "thesis": "Early-stage deep-tech firm backing technical founders at the intersection of AI, engineered biology, next-gen compute and hard science; frequently the first investor in computational and engineered-biology companies."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation", "gene-editing"],
+      "company_creation": false,
+      "science_platform_notes": "Engineered biology is a core vertical, underpinned by next-generation compute."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Strand Therapeutics", "sector": "mRNA therapeutics", "outcome": "active" },
+        { "company": "Ultima Genomics", "sector": "Genomics / sequencing", "outcome": "active" },
+        { "company": "Amber Bio", "sector": "RNA gene editing", "outcome": "active" },
+        { "company": "Atomic AI", "sector": "AI RNA drug discovery", "outcome": "active" }
+      ]
+    },
+    "tags": ["engineered-biology", "deep-tech", "next-gen-compute", "ai-x-biology"],
+    "summary": {
+      "en": "Palo Alto deep-tech firm (founded 2015) investing at the intersection of AI, engineered biology and next-gen compute; raised a $410M Fund III (2023), lifting AUM above $1.2B." },
+    "sources": [
+      { "url": "https://www.playground.vc/playground-blogs/playground-global-raises-410-million-to-accelerate-the-time-to-impact-for-deep-tech-and-science-companies", "title": "Playground Global Raises $410 Million", "publisher": "Playground Global", "accessed": "undefined", "supports": "Fund III $410M, AUM >$1.2B, founded 2015, Palo Alto HQ, engineered biology", "quote": "Playground Global announced that it has raised $410 million in new capital" },
+      { "url": "https://www.playground.vc/playground-blogs/playground-global-raises-410-million-to-accelerate-the-time-to-impact-for-deep-tech-and-science-companies", "title": "Playground Global Raises $410 Million", "publisher": "Playground Global", "accessed": "undefined", "supports": "AUM and founding/HQ", "quote": "Founded in 2015 and headquartered in Palo Alto, CA" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Generalist deep-tech firm; engineered biology + compute is a core (not sole) vertical, giving a clear medical/biomedical nexus (Strand Therapeutics, Amber Bio, Atomic AI). Secondary sources report a later $475M Fund IV / ~$1.7B AUM; not recorded here pending a primary confirmation.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-amplify-bio",
+    "name": { "en": "Amplify Bio" },
+    "aka": ["Amplify Partners", "Amplify Bio I"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Menlo Park",
+    "offices": [
+      { "country": "United States", "city": "Menlo Park" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.amplifypartners.com/amplify-bio",
+    "links": {
+      "other": ["https://www.amplifypartners.com/blog-posts/amplify-bio-manifesto"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$200M", "usd": 200000000, "currency": "USD" },
+      "funds": [
+        { "name": "Amplify Bio I", "vintage_year": 2025, "size": { "raw": "$200M", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "life-science-tools"],
+      "thesis": "Amplify Partners' first dedicated digital-biology fund, first-check-focused on technical founders 'in code as much as they're in the lab' who blend biology/research with programming and AI to build the next generation of drug-discovery and simulation platforms."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": false,
+      "science_platform_notes": "Backs founders fluent in both compute and biology as reading/writing DNA costs fall."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Recursion Pharmaceuticals", "sector": "AI drug discovery", "outcome": "IPO (Nasdaq: RXRX)" },
+        { "company": "Chai Discovery", "sector": "AI drug-discovery foundation models", "outcome": "active" },
+        { "company": "Tahoe Therapeutics", "sector": "AI / biology platform", "outcome": "active" }
+      ]
+    },
+    "tags": ["digital-biology", "technical-founders", "ai-drug-discovery", "first-check"],
+    "summary": {
+      "en": "The dedicated digital-biology fund of Menlo Park's Amplify Partners: a $200M first-check vehicle (2025) for technical founders equally fluent in code and biology, backing companies from drug discovery at scale to atomistic simulation." },
+    "sources": [
+      { "url": "https://www.amplifypartners.com/blog-posts/fund-6-announcement", "title": "Announcing $900M in new capital, our first digital biology fund, and our new look", "publisher": "Amplify Partners", "accessed": "undefined", "supports": "Amplify Bio $200M dedicated digital-biology fund, digital-biology thesis, Menlo Park HQ", "quote": "\"Amplify Bio\": our first-ever dedicated digital bio fund, $200M for founders who are in code as much as they're in the lab" },
+      { "url": "https://www.amplifypartners.com/blog-posts/fund-6-announcement", "title": "Announcing $900M in new capital", "publisher": "Amplify Partners", "accessed": "undefined", "supports": "Digital biology thesis / drug discovery at scale", "quote": "building the next generation of companies that are going to define this new era, from drug discovery at scale to atomistic foundation simulation models" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Amplify Bio is the digital-biology fund of Amplify Partners (founded 2012, Menlo Park); the $200M Bio fund closed as part of a $900M June-2025 raise alongside a $400M core Fund VI and $300M Select fund.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-digitalis-ventures",
+    "name": { "en": "Digitalis Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://www.digitalisventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/digitalis-ventures",
+      "crunchbase": "https://www.crunchbase.com/organization/digitalis-ventures"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Companion Fund II (animal health, with Mars)", "vintage_year": 2023, "size": { "raw": "$300 million", "usd": 300000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Europe"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "animal-health", "diagnostics", "digital-health"],
+      "thesis": "Firm investing in solutions to unmet needs in human and animal health, backing biotech companies leveraging breakthrough science and technology-enabled tools; also runs Companion Funds with Mars targeting animal health."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": false,
+      "science_platform_notes": "Part of Digitalis Group (Digitalis Ventures, Research, Commons); science-driven, early-to-growth for animal health."
+    },
+    "tags": ["human-and-animal-health", "science-driven", "ai-in-health", "companion-fund"],
+    "summary": {
+      "en": "New York firm (founded 2016) investing in science- and technology-enabled solutions across human and animal health; manages the $300M Mars-backed Companion Fund II for animal health." },
+    "sources": [
+      { "url": "https://www.mars.com/news-and-stories/press-releases-statements/mars-and-digitalis-ventures-launch-300m-dollar-companion-fund-ii", "title": "Mars and Digitalis Ventures launch $300m Companion Fund II", "publisher": "Mars, Incorporated", "accessed": "undefined", "supports": "Companion Fund II $300M, animal-health focus, Digitalis manages independently", "quote": "back founders whose companies are leveraging breakthrough science, technology and design to improve the lives of pets, pet owners and veterinarians" },
+      { "url": "https://www.digitalisventures.com/", "title": "Digitalis Ventures", "publisher": "Digitalis Ventures", "accessed": "undefined", "supports": "Human and animal health focus", "quote": "solutions to unmet needs in human and animal health" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded-2016 / NYC and human-health fund sizes are from secondary aggregators; only the Mars-backed Companion Fund II ($300M, animal health) is confirmed from a primary release. Digitalis straddles TechBio and digital-health; included here for its science-driven biotech/AI-in-health thesis, with digital-health overlap noted for sibling slices.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  },
+  {
+    "id": "us-fifty-years",
+    "name": { "en": "Fifty Years" },
+    "aka": ["50Y"],
+    "type": "micro-vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://fiftyyears.com/",
+    "links": {
+      "other": ["https://www.vcsheet.com/fund/fifty-years"]
+    },
+    "capital": {
+      "aum": { "raw": "$200M+", "usd": 200000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "therapeutics", "synthetic-biology", "life-science-tools"],
+      "thesis": "Pre-seed/seed deep-tech firm backing mission-driven founders using deep technology to tackle disease and other global problems; runs scientist-founder programs (PhD-to-VC, 5050, Manifest Grants) and has a substantial biotech/synthetic-biology practice."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "company_creation": false,
+      "science_platform_notes": "Runs '5050' and 'PhD to VC' programs helping scientists become founders (72+ PhD founders backed)."
+    },
+    "track_record": {
+      "portfolio_count": "150+",
+      "notable_investments": [
+        { "company": "Solugen", "sector": "Synthetic biology / bio-based chemicals", "outcome": "unicorn" },
+        { "company": "Opentrons", "sector": "Lab automation / robotics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Seth Bannon", "role": "Founding Partner", "background": "Entrepreneur" },
+      { "name": "Ela Madej", "role": "Founding Partner", "background": "Entrepreneur" }
+    ],
+    "tags": ["deep-tech", "scientist-founders", "synthetic-biology", "pre-seed"],
+    "summary": {
+      "en": "San Francisco pre-seed/seed deep-tech firm (founded 2016) backing scientist-founders solving disease and global challenges; a substantial biotech/synthetic-biology investor with 150+ companies and $200M+ AUM." },
+    "sources": [
+      { "url": "https://fiftyyears.com/", "title": "Fifty Years", "publisher": "Fifty Years", "accessed": "undefined", "supports": "Deep-tech-for-disease thesis, scientist-founder programs", "quote": "backing mission-driven founders who use deep technology to tackle humanity's greatest challenges" },
+      { "url": "https://www.vcsheet.com/fund/fifty-years", "title": "Fifty Years - VC Fund Breakdown", "publisher": "VC Sheet", "accessed": "undefined", "supports": "Founded 2016 by Seth Bannon and Ela Madej, SF, $200M+ AUM, 150+ companies, biotech focus", "quote": "founded in 2016 by entrepreneurs Seth Bannon and Ela Madej" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Deep-tech generalist (spans biotech, climate, aerospace); included for its genuine and sizable biotech/synthetic-biology + scientist-founder practice (Solugen, Opentrons). Founding, AUM and portfolio-count figures are from secondary aggregators; the official homepage confirms the deep-tech-for-disease mission but not the numbers.",
+    "last_updated": "undefined",
+    "researched_by": "ai-techbio-vc"
+  }
+]

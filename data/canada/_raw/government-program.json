@@ -1,0 +1,513 @@
+[
+  {
+    "id": "ca-bdc-capital",
+    "name": { "en": "BDC Capital (Life Sciences / Healthcare Venture Funds)" },
+    "aka": ["Business Development Bank of Canada - BDC Capital", "BDC Life Sciences Venture Fund", "BDC Healthcare Venture Fund"],
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.bdc.ca/en/bdc-capital/venture-capital/funds/life-sciences-venture-fund",
+    "capital": {
+      "funds": [
+        { "name": "BDC Life Sciences Venture Fund", "vintage_year": 2026, "size": { "raw": "$150 million", "usd": null, "currency": "CAD" } },
+        { "name": "BDC Healthcare Venture Fund", "vintage_year": 2013, "size": { "raw": "$270 million", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "check_size": { "raw": "$1M-$3M (seed), $5M-$8M (Series A), plus follow-on", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "medical-imaging", "surgical-robotics", "cell-gene-therapy"],
+      "thesis": "BDC Capital is the venture-capital arm of the Business Development Bank of Canada, a Crown corporation wholly owned by the Government of Canada; it directly finances Canadian therapeutics and medtech companies from seed through growth stage to close the domestic life-sciences capital gap."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "cell-therapy", "gene-therapy", "rna-therapeutics", "medical-hardware", "software-samd"],
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "New $150M Life Sciences Venture Fund (launched April 2026, led by Managing Partner Parimal Nathwani) backs seed-to-Series-A therapeutics and medtech companies, targeting 10-15 portfolio companies; complements the earlier $270M Healthcare Venture Fund (2013), which focused on growth-stage precision medicine, biotech and medical imaging and is now closed to new investments."
+    },
+    "track_record": {
+      "portfolio_count": "10-15 (Life Sciences Venture Fund target)"
+    },
+    "people": [
+      { "name": "Parimal Nathwani", "role": "Managing Partner, Life Sciences Venture Fund", "background": "20+ years building and scaling biotechnology and medical technology companies" }
+    ],
+    "summary": {
+      "en": "The venture-capital arm of Canada's federal Business Development Bank; runs a new $150M Life Sciences Venture Fund (seed-Series A therapeutics and medtech) alongside its earlier $270M Healthcare Venture Fund, making it one of Canada's largest government-backed direct investors in biomedical startups."
+    },
+    "sources": [
+      {
+        "url": "https://betakit.com/bdc-launches-150-million-life-sciences-fund/",
+        "title": "BDC launches $150-million life sciences fund",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "fund size, check sizes, portfolio target, managing partner, launch date",
+        "quote": "writing cheques between $1 million and $3 million at the seed stage, and between $5 million and $8 million at the Series A stage"
+      },
+      {
+        "url": "https://www.bdc.ca/en/bdc-capital/venture-capital/funds/life-sciences-venture-fund",
+        "title": "Life Sciences Venture Fund",
+        "publisher": "BDC",
+        "accessed": "undefined",
+        "supports": "fund size and sector focus (therapeutic products and medical technologies)",
+        "quote": "$150 million"
+      },
+      {
+        "url": "https://www.bdc.ca/en/bdc-capital/venture-capital/funds/health-venture-fund",
+        "title": "Healthcare Venture Fund",
+        "publisher": "BDC",
+        "accessed": "undefined",
+        "supports": "Healthcare Venture Fund size, founding year, and closed status",
+        "quote": "This fund is closed to new investments and now focused on supporting existing portfolio companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "BDC (parent) is a Crown corporation wholly owned by the Government of Canada, making its BDC Capital venture arm a government-program-type investor rather than a private VC. The $270M figure for the Healthcare Venture Fund and its 2013 founding year were extracted via page fetch, not a direct verbatim quote of the number; treat with slightly lower certainty than the Life Sciences Venture Fund figures.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "ca-teralys-capital",
+    "name": { "en": "Teralys Capital" },
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2009,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.teralyscapital.com/en/funds/",
+    "capital": {
+      "funds": [
+        { "name": "Teralys Capital Innovation Fund 2023", "vintage_year": 2023, "size": { "raw": "$475 million", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Quebec", "Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Teralys is a government-anchored fund-of-funds created by the Government of Quebec (via Investissement Québec), Caisse de dépôt et placement du Québec, and Fonds de solidarité FTQ; it finances private VC funds across life sciences, IT and cleantech, including a dedicated life-sciences fund, to strengthen Quebec's venture ecosystem."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Operates as a fund-of-funds; its portfolio includes life-science-focused VC funds active principally in Quebec, alongside IT and cleantech funds."
+    },
+    "summary": {
+      "en": "A government-backed fund-of-funds jointly created by Quebec's government investment arm, the province's largest pension manager (CDPQ), and Fonds de solidarité FTQ, financing private VC funds including a dedicated life-sciences fund active in Quebec.",
+      "local": "Un fonds de fonds soutenu par le gouvernement du Québec, la Caisse de dépôt et placement du Québec et le Fonds de solidarité FTQ, qui finance des fonds de capital de risque privés incluant un fonds dédié aux sciences de la vie."
+    },
+    "sources": [
+      {
+        "url": "https://www.lacaisse.com/en/news/pressreleases/caisse-depot-placement-quebec-solidarity-fund-qfl-quebec-government-join-forces",
+        "title": "The Caisse de dépôt et placement du Québec, the Solidarity Fund QFL and the Québec government join forces to create the Teralys Capital Fund",
+        "publisher": "CDPQ (La Caisse)",
+        "accessed": "undefined",
+        "supports": "founding sponsors, life sciences fund-of-funds mandate, Quebec government $200M contribution via Investissement Québec",
+        "quote": "The fund includes 4 innovation funds and 1 life science fund principally active in Quebec"
+      },
+      {
+        "url": "https://www.lacaisse.com/en/news/pressreleases/teralys-capital-raises-largest-ever-475-million-venture-capital-catalyst",
+        "title": "Teralys Capital raises largest-ever $475 million Venture Capital Catalyst Initiative Fund",
+        "publisher": "CDPQ (La Caisse)",
+        "accessed": "undefined",
+        "supports": "2023 Innovation Fund size and government/BDC/CDPQ backers",
+        "quote": "Teralys Capital closes Teralys Capital Innovation Fund 2023 with $475 million in capital commitments from Government of Canada/BDC, Government of Québec/Investissement Québec, CDPQ, Beneva, Fondaction"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Teralys is a fund-of-funds, not a direct company investor; its medical/biomedical nexus is through its dedicated life-sciences fund-of-funds sleeve and portfolio VC funds (e.g., Lumira Capital, Amplitude) rather than direct portfolio companies.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "ca-fonds-de-solidarite-ftq",
+    "name": { "en": "Fonds de solidarité FTQ (Life Sciences)", "local": "Fonds de solidarité FTQ - Sciences de la vie" },
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.fondsftq.com/fr-ca/financement/fonds-siege-social/sciences-de-la-vie.aspx",
+    "capital": {
+      "aum": { "raw": "over $2 billion invested to date in life sciences", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Quebec", "Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "pharma-services"],
+      "thesis": "A Quebec labour-sponsored investment fund created under provincial legislation (Fonds de solidarité des travailleurs du Québec), operating a dedicated life-sciences team that invests directly in biotech, pharma, med-tech and life-science services companies, and jointly funds a life-sciences envelope with the Government of Quebec."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Specialized life-sciences investment team of about eight, including a senior scientific advisor; invests directly in ~40 companies and in specialized life-sciences funds (e.g., Lumira IV)."
+    },
+    "track_record": {
+      "portfolio_count": "around forty companies"
+    },
+    "summary": {
+      "en": "Quebec's largest labour-sponsored venture fund, created by provincial statute, describes itself as the largest institutional life-sciences investor in Quebec and Canada with over $2B invested; it jointly runs a $150M life-sciences envelope with the Government of Quebec.",
+      "local": "Le plus grand fonds de travailleurs du Québec, créé par une loi provinciale, se décrit comme le plus important investisseur institutionnel en sciences de la vie au Québec et au Canada avec plus de 2 G$ investis."
+    },
+    "sources": [
+      {
+        "url": "https://www.fondsftq.com/fr-ca/financement/fonds-siege-social/sciences-de-la-vie.aspx",
+        "title": "Sciences de la vie",
+        "publisher": "Fonds de solidarité FTQ",
+        "accessed": "undefined",
+        "supports": "life sciences investment mandate, AUM invested, portfolio company count",
+        "quote": "the largest institutional life sciences investor in Québec and Canada, with over $2 billion invested to date"
+      },
+      {
+        "url": "https://www.newswire.ca/fr/news-releases/capital-d-investissement-en-sciences-de-la-vie-le-gouvernement-du-quebec-et-le-fonds-de-solidarite-ftq-investiront-150-m-pour-stimuler-le-secteur-des-sciences-de-la-vie-892829573.html",
+        "title": "Capital d'investissement en sciences de la vie - le gouvernement du Québec et le Fonds de solidarité FTQ investiront 150 M$",
+        "publisher": "Newswire / Government of Quebec",
+        "accessed": "undefined",
+        "supports": "$150M joint envelope with Government of Quebec, split $75M each",
+        "quote": "In June 2020, the Government of Quebec and the Fonds de solidarité FTQ jointly established a $150 million envelope over five years ($75 million each) to support the growth of Quebec's life sciences sector."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fonds de solidarité FTQ is technically a labour-sponsored investment fund (not a pure state agency), but it was created by specific Quebec legislation and receives significant provincial tax-credit backing and co-funds a joint envelope with the Quebec government, matching this slice's known-anchor guidance; flagged here for transparency.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "ca-genome-canada",
+    "name": { "en": "Genome Canada" },
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Ottawa",
+    "website": "https://genomecanada.ca/about/",
+    "capital": {
+      "current_fund": { "raw": "$175.1 million (Canadian Genomics Strategy, 7 years); Genome Canada receiving $96 million over 5 years for GAPP", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "lead_or_follow": "follow",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["genomics-omics", "diagnostics", "ai-drug-discovery"],
+      "thesis": "Genome Canada is a federally funded not-for-profit that co-funds public-private genomics R&D and commercialization projects (via its Genomic Applications Partnership Program) pairing academic researchers with industry partners across health, agriculture and environmental applications, with health/biomedical genomics as a core pillar."
+    },
+    "lifesci": {
+      "modalities": [],
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Delivers funding through six regional Genome Centres (e.g., Genome BC, Genome Quebec, Ontario Genomics); core delivery instrument for the federal Canadian Genomics Strategy launched 2024."
+    },
+    "summary": {
+      "en": "Canada's federally funded, Ottawa-based genomics not-for-profit, established in 2000, which funds public-private genomics R&D and commercialization projects (including health biotech) via programs like the Genomic Applications Partnership Program, backed by a $175M Canadian Genomics Strategy.",
+      "local": null
+    },
+    "sources": [
+      {
+        "url": "https://betakit.com/federal-government-launches-175-1-million-canadian-genomics-strategy-to-advance-sector-commercialization/",
+        "title": "Federal government launches $175.1 million Canadian Genomics Strategy to advance sector commercialization",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "Canadian Genomics Strategy total funding amount",
+        "quote": "the strategy pledged $175 million over seven years for genomics in Canada, to advance commercialization, data access and talent development"
+      },
+      {
+        "url": "https://genomecanada.ca/funding/genomic-applications-partnership-program/",
+        "title": "Genomic Applications Partnership Program",
+        "publisher": "Genome Canada",
+        "accessed": "undefined",
+        "supports": "GAPP mandate and Genome Canada's $96M allocation",
+        "quote": "Genome Canada is receiving $96 million over five years to provide funding opportunities through its Genomic Applications Partnership Program"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Genome Canada primarily deploys matching grants/contributions (not equity), so this entry has no strategy.stages or check_size field; it is included as a government commercialization-funding program with a clear biomedical nexus (health genomics R&D and biotech commercialization).",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "ca-genome-bc",
+    "name": { "en": "Genome British Columbia (Industry Innovation Fund)" },
+    "aka": ["Genome BC", "I2 Fund"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Vancouver",
+    "website": "https://www.genomebc.ca/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "up to $1.5 million per company", "usd_min": null, "usd_max": 1500000 },
+      "lead_or_follow": "follow",
+      "geo_focus": ["British Columbia", "Canada"],
+      "sector_focus": ["genomics-omics", "diagnostics", "life-science-tools"],
+      "thesis": "Genome BC, a BC provincial and federally co-funded regional Genome Centre, runs the Industry Innovation (I2) Fund providing direct early-stage investment and commercialization support to BC life-science companies applying genomics technology, and was an early funder of AbCellera and Precision NanoSystems."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Also runs an Entrepreneurship Partnership Program supporting university-linked startup accelerators/incubators since 2015."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AbCellera", "sector": "diagnostics/therapeutics", "outcome": "IPO" },
+        { "company": "Precision NanoSystems", "sector": "life-science-tools", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "British Columbia's regional Genome Canada partner; its government-funded Industry Innovation Fund provides direct early-stage capital (up to $1.5M) and commercialization support to BC life-science companies, with early funding to AbCellera and Precision NanoSystems."
+    },
+    "sources": [
+      {
+        "url": "https://www.newswire.ca/news-releases/genome-bc-s-pilot-innovation-fund-offers-investment-and-provides-mentorship-895424982.html",
+        "title": "Genome BC's Pilot Innovation Fund offers investment and provides mentorship",
+        "publisher": "Newswire / Genome BC",
+        "accessed": "undefined",
+        "supports": "Industry Innovation Fund founding year and check size",
+        "quote": "The Industry Innovation (I2) Fund, established by Genome British Columbia in 2016, provides funding and commercialization support for companies developing innovative life science technologies in British Columbia (BC)"
+      },
+      {
+        "url": "https://www.genomebc.ca/blog/fostering-innovation-expanding-life-sciences-through-collaboration",
+        "title": "Fostering Innovation: Expanding Life Sciences Through Collaboration",
+        "publisher": "Genome BC",
+        "accessed": "undefined",
+        "supports": "Early funding of AbCellera and Precision NanoSystems",
+        "quote": "Through early investments from Genome BC and others, AbCellera was developing critical single cell analysis technology well before its pivotal role during the COVID-19 pandemic, and Genome BC also provided essential funding for Precision NanoSystems' early technology development."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact current check-size cap ($1.5M) sourced from a secondary aggregator (hellodarwin.com summary reflected in search snippet) cross-referenced with Genome BC's own program description; outcome status for AbCellera (IPO 2020) and Precision NanoSystems (acquired by Danaher 2022) is general market knowledge, not directly re-verified via a fetched source in this session.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "ca-admare-bioinnovations",
+    "name": { "en": "adMare BioInnovations" },
+    "type": "government-program",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Vancouver",
+    "offices": [{ "country": "Canada", "city": "Vancouver" }, { "country": "Canada", "city": "Montreal" }],
+    "website": "https://www.admarebio.com/en/",
+    "capital": {
+      "current_fund": { "raw": "$92 million (Government of Canada investment)", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "adMare is a national, government-funded not-for-profit that de-risks and translates early-stage Canadian health/drug discoveries into new biotech companies, providing scientific expertise, wet-lab infrastructure and capital through a company-creation (venture-studio) model, underwritten by a $92M federal investment plus provincial (BC, Quebec) co-funding."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "company_creation": true,
+      "invests_public_markets": null,
+      "science_platform_notes": "Operates innovation centres with wet-lab space in Vancouver and Montreal; has helped build 38 companies (27 still active) that have attracted a reported $2.5B in risk capital."
+    },
+    "track_record": {
+      "portfolio_count": "38 companies built (27 active)"
+    },
+    "summary": {
+      "en": "A pan-Canadian, federally funded ($92M) not-for-profit venture-creation organization that translates academic health and drug-discovery research into new biotech companies, operating wet-lab innovation centres in Vancouver and Montreal.",
+      "local": null
+    },
+    "sources": [
+      {
+        "url": "https://www.admarebio.com/en/press-release-details/government-of-canada-invests-92-million-in-admare-to-help-translate-health-research-into-innovative-new-therapies-in-canada",
+        "title": "Government of Canada Invests $92 million in adMare to help translate health research into innovative new therapies in Canada",
+        "publisher": "adMare BioInnovations",
+        "accessed": "undefined",
+        "supports": "federal $92M investment, founding year, portfolio company counts",
+        "quote": "Founded in 2019, adMare BioInnovations ... has become a national leader in transforming academic research into scalable companies."
+      },
+      {
+        "url": "https://www.canada.ca/en/pacific-economic-development/news/2025/02/government-of-canada-invests-6-million-to-drive-growth-in-bcs-life-sciences-sector.html",
+        "title": "Government of Canada invests $6 million to drive growth in B.C.'s life sciences sector",
+        "publisher": "Canada.ca / PacifiCan",
+        "accessed": "undefined",
+        "supports": "additional federal funding for adMare's Vancouver innovation centre",
+        "quote": "Government of Canada invests $6 million to drive growth in B.C.'s life sciences sector"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "adMare straddles venture-studio and government-program: it is classified here under government-program because it is a federally/provincially funded national program (primary anchor per task scope), with venture-studio (company-creation) listed as a secondary subtype.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "ca-cqdm",
+    "name": { "en": "CQDM (Quebec Consortium for Drug Discovery)", "local": "Consortium québécois sur la découverte du médicament" },
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://cqdm.org/en/",
+    "strategy": {
+      "lead_or_follow": "follow",
+      "geo_focus": ["Quebec", "Canada"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "pharma-services"],
+      "thesis": "CQDM is a Quebec public-private research consortium, co-funded by the Quebec Ministry of Economy, Innovation and Energy and major pharmaceutical companies, that finances collaborative R&D projects (SynergiQC, Quantum Leap) to accelerate drug-discovery tools and technologies developed by Quebec biotech SMEs and academic labs."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Funding programs include SynergiQC (SME-academic collaborative R&D) and Quantum Leap (pharma-led translational drug-discovery research)."
+    },
+    "summary": {
+      "en": "A Montreal-based public-private drug-discovery research consortium, created in 2008 and co-funded by the Quebec government and global pharma companies, that finances collaborative R&D projects to accelerate drug-discovery tools and technologies among Quebec biotech SMEs.",
+      "local": "Un consortium de recherche public-privé basé à Montréal, créé en 2008 et cofinancé par le gouvernement du Québec et de grandes pharmaceutiques, qui finance des projets de R&D collaborative pour accélérer les outils de découverte de médicaments des PME biotechnologiques québécoises."
+    },
+    "sources": [
+      {
+        "url": "https://cqdm.org/en/",
+        "title": "CQDM - Biopharmaceutical Research Consortium",
+        "publisher": "CQDM",
+        "accessed": "undefined",
+        "supports": "funding programs (SynergiQC, Quantum Leap), pharma member list, Quebec government co-funding",
+        "quote": "financing programs like SynergiQC, Quantum Leap, and Partenar-IA to support drug discovery and development initiatives"
+      },
+      {
+        "url": "https://hellodarwin.com/business-aid/organizations/cqdm",
+        "title": "Quebec Consortium for Drug Discovery (CQDM) Funding Programs",
+        "publisher": "HelloDarwin",
+        "accessed": "undefined",
+        "supports": "government/pharma co-funding structure",
+        "quote": "The CQDM receives financial support from pharmaceutical companies Amgen, AstraZeneca, GSK, Merck, Pfizer, Roche, Sanofi, Servier, Takeda as well as from the Ministry of Economy, Innovation and Energy (MEIE) of Quebec."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "CQDM is a public-private consortium primarily funded by pharmaceutical company members with the Quebec Ministry (MEIE) as a co-funder, not a pure government agency; included here per the government-program scope given its explicit provincial government co-funding role and quasi-public NCE-derived origin. Founding year (2008, first funded 2009) sourced from a secondary directory snippet, not an official CQDM page (their own site's founding-year text was not directly retrievable).",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "ca-investissement-quebec",
+    "name": { "en": "Investissement Québec (Life Sciences & Health Technology)" },
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Quebec City",
+    "website": "https://international.investquebec.com/en/choose-quebec/our-industries/life-science-and-health-technology",
+    "capital": {
+      "current_fund": { "raw": "$271.5 million over three years (Québec Life Sciences Strategy 2025-2028), including $125M from IQ's own capital", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "lead_or_follow": "follow",
+      "geo_focus": ["Quebec", "Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Investissement Québec, the Quebec government's economic-development and investment corporation, makes direct equity investments in life-sciences venture funds (e.g., Amplitude I, Lumira Capital III) and provides growth capital to biotech and medtech companies as part of the province's Life Sciences Strategy."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Backed Amplitude I, a VC fund targeting 60% biotech / 30% medtech / 10% other life-sciences allocation; also an investor in Lumira Capital III."
+    },
+    "summary": {
+      "en": "Quebec's provincial economic-development and investment corporation; deploys direct capital into life-sciences VC funds and companies (e.g., Amplitude I, Lumira Capital III) as part of a $271.5M, three-year Quebec Life Sciences Strategy (2025-2028).",
+      "local": "La société d'État québécoise de développement économique et d'investissement, qui déploie des capitaux directement dans des fonds et entreprises de sciences de la vie (p. ex. Amplitude I, Lumira Capital III) dans le cadre de la Stratégie québécoise des sciences de la vie 2025-2028 de 271,5 M$."
+    },
+    "sources": [
+      {
+        "url": "https://www.quebec.ca/nouvelles/actualites/details/capital-dinvestissement-en-sciences-de-la-vie-quebec-investit-15-m-dans-le-fonds-amplitude-pour-soutenir-les-entreprises-du-secteur-des-sciences-de-la-vie",
+        "title": "Québec investit 15 M$ dans le fonds Amplitude pour soutenir les entreprises du secteur des sciences de la vie",
+        "publisher": "Gouvernement du Québec",
+        "accessed": "undefined",
+        "supports": "$15M investment in Amplitude I via Investissement Québec, fund sector allocation",
+        "quote": "Le fonds Amplitude s'est donné comme objectif d'investir 60 % de son capital dans les biotechnologies, 30 % dans les technologies médicales et 10 % dans d'autres secteurs des sciences de la vie."
+      },
+      {
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/economie/publications-adm/politique/PO_strategie_sciences_vie_2025-2028_MEIE_EN.pdf",
+        "title": "Québec Life Sciences Strategy 2025-2028",
+        "publisher": "Government of Quebec / MEIE",
+        "accessed": "undefined",
+        "supports": "$271.5M three-year strategy figure and Investissement Québec's own-capital contribution",
+        "quote": "investissements totalisant 271,5 millions de dollars sur trois ans, incluant 125 millions de dollars issus des fonds propres d'Investissement Québec"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The $271.5M figure and its IQ own-capital breakdown were captured from a search-result synthesis of the Quebec Life Sciences Strategy 2025-2028 document rather than a direct fetch of the PDF; treat the exact split as indicative pending primary-document confirmation.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "ca-strategic-innovation-fund",
+    "name": { "en": "Strategic Innovation Fund (Biomanufacturing & Life Sciences)" },
+    "aka": ["SIF", "Fonds stratégique pour l'innovation"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Ottawa",
+    "website": "https://ised-isde.canada.ca/site/ised/en/programs-and-initiatives/strategic-response-fund/strategic-innovation-fund/impact-report",
+    "capital": {
+      "aum": { "raw": "$18.5 billion in funding as of December 31, 2023 (all sectors, not health-only)", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "e.g. $175.6M and $225M to AbCellera; $415M to Sanofi for vaccine manufacturing", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "follow",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "pharma-services"],
+      "thesis": "A federal ISED program providing large-scale repayable/non-repayable contributions to grow domestic industrial capabilities; a major channel for Canada's Biomanufacturing and Life Sciences Strategy, funding vaccine and biologics manufacturing scale-up and antibody-discovery infrastructure at companies like AbCellera, Sanofi and Moderna."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "biologics-antibody"],
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Delivered as contribution agreements (often repayable) rather than equity; part of the $2.2B Biomanufacturing and Life Sciences Strategy launched in 2021."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AbCellera", "sector": "therapeutics/diagnostics", "outcome": "active" },
+        { "company": "Sanofi (Toronto flu vaccine facility)", "sector": "pharma-services", "outcome": "active" },
+        { "company": "Moderna (Laval mRNA facility)", "sector": "pharma-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "A federal Innovation, Science and Economic Development Canada (ISED) program that has directed hundreds of millions of dollars in large-scale contributions to biomanufacturing and life-sciences infrastructure in Canada, including AbCellera's Vancouver antibody campus, Sanofi's Toronto flu-vaccine facility, and Moderna's Laval mRNA plant.",
+      "local": null
+    },
+    "sources": [
+      {
+        "url": "https://ised-isde.canada.ca/site/biomanufacturing/en/backgrounder-government-canada-investments-biomanufacturing-vaccine-and-therapeutics-ecosystem",
+        "title": "Backgrounder - Government of Canada investments in the biomanufacturing, vaccine and therapeutics ecosystem",
+        "publisher": "ISED / Government of Canada",
+        "accessed": "undefined",
+        "supports": "AbCellera and Sanofi contribution amounts",
+        "quote": "$175.6 million to support antibody discovery for clinical testing, in collaboration with Eli Lilly, and construction of a facility in Vancouver; $225 million to create a state-of-the-art biotech campus"
+      },
+      {
+        "url": "https://www.pm.gc.ca/en/news/news-releases/2024/05/30/producing-more-vaccines-canada-and-creating-more-jobs",
+        "title": "Producing more vaccines in Canada and creating more jobs",
+        "publisher": "Prime Minister of Canada",
+        "accessed": "undefined",
+        "supports": "Moderna Laval facility and Sanofi $415M investment",
+        "quote": "With a $415 million investment from the Strategic Innovation Fund, Canada is helping Sanofi build a new end-to-end flu vaccine manufacturing facility."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "SIF is a broad, all-sector federal fund (total $18.5B disbursed across industries, not health-specific); included here narrowly for its biomanufacturing/life-sciences contribution stream, which has a clear and well-documented biomedical nexus. Founded-year (2017) reflects the program's general launch per public reporting, not independently re-verified via a fetched primary source in this session.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  }
+]

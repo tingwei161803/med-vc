@@ -1,0 +1,794 @@
+[
+  {
+    "id": "us-illumina-ventures",
+    "name": { "en": "Illumina Ventures" },
+    "type": "vc",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Mateo",
+    "offices": [{ "country": "United States", "city": "San Mateo" }],
+    "website": "https://www.illuminaventures.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/illumina-ventures",
+      "linkedin": "https://www.linkedin.com/company/illumina-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "$560 million total capital under management (as of 2021)", "usd": 560000000, "currency": "USD" },
+      "funds": [
+        { "name": "Illumina Ventures Fund II", "vintage_year": 2021, "size": { "raw": "$325 million", "usd": 325000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Europe"],
+      "sector_focus": ["genomics-omics", "diagnostics", "life-science-tools", "therapeutics", "digital-health"],
+      "thesis": "Independently managed, healthcare-focused venture firm operating in strategic partnership with sequencing company Illumina; backs early-stage companies pioneering breakthroughs in life-science tools, clinical diagnostics, therapeutics platforms, digital health and other applications of genomics."
+    },
+    "lifesci": {
+      "modalities": ["gene-editing", "lab-automation", "ai-ml-platform"],
+      "science_platform_notes": "Positions itself as the leader in genomics and precision-health investing; strategic partnership with Illumina gives portfolio companies access to sequencing ecosystem."
+    },
+    "track_record": {
+      "portfolio_count": "83 investments (per CB Insights)",
+      "notable_investments": [
+        { "company": "Stilla Technologies", "sector": "life-science-tools (digital PCR)", "outcome": "acquired 2025" },
+        { "company": "Everest Biolabs", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "San Mateo-based, independently managed venture firm (in strategic partnership with Illumina) investing early-stage in genomics, clinical diagnostics, life-science tools, therapeutics and digital health."
+    },
+    "sources": [
+      {
+        "url": "https://www.illuminaventures.com/resource/news/illumina-ventures-closes-325-million-fund/",
+        "title": "Illumina Ventures Closes $325 Million Fund",
+        "publisher": "Illumina Ventures",
+        "accessed": "undefined",
+        "supports": "Fund II size, total AUM, founding year, management structure, focus",
+        "quote": "closing of its second investment fund with total commitments of $325 million, bringing its total capital under management to $560 million ... Since its launch in 2016, Illumina Ventures has made investments in 25 companies ... an independently-managed, healthcare-focused venture firm ... in a strategic partnership with Illumina ... support early-stage companies that are pioneering breakthroughs in life science tools, clinical diagnostics, therapeutics platforms, digital health, and other applications of genomics"
+      },
+      {
+        "url": "https://www.illuminaventures.com/",
+        "title": "Home - Illumina Ventures",
+        "publisher": "Illumina Ventures",
+        "accessed": "undefined",
+        "supports": "Positioning in genomics / precision health",
+        "quote": "Illumina Ventures is the leader in genomics and precision health investing."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/illumina-ventures",
+        "title": "Illumina Ventures Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Portfolio count and exits (Stilla Technologies, Everest Biolabs)",
+        "quote": "Illumina Ventures has made 83 investments ... Illumina Ventures has 6 portfolio exits, with their latest portfolio exit being Stilla Technologies on February 13, 2025."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Anchor firm, in scope. Described by primary source as 'independently-managed' but in 'strategic partnership with Illumina'; some secondary sources (Global Venturing) label it the CVC arm of Illumina, hence subtype cvc. The $325M fund is Illumina Ventures' second fund (closed Sept 2021); the firm subsequently filed to raise ~$300M for a third fund (target later trimmed). Press release datelined San Francisco; secondary sources (Crunchbase, Tracxn) list HQ as San Mateo, CA.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-foresite-capital",
+    "name": { "en": "Foresite Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://www.foresitecapital.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/foresite-capital",
+      "linkedin": "https://www.linkedin.com/company/foresite-capital-management",
+      "other": ["https://en.wikipedia.org/wiki/Foresite_Capital"]
+    },
+    "capital": {
+      "aum": { "raw": "some $3.5 billion under management", "usd": 3500000000, "currency": "USD" },
+      "current_fund": { "raw": "$900 million (Fund VI, 2024)", "usd": 900000000, "currency": "USD" },
+      "funds": [
+        { "name": "Foresite Capital Fund VI", "vintage_year": 2024, "size": { "raw": "$900 million", "usd": 900000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["diagnostics", "genomics-omics", "therapeutics", "healthcare-services", "generalist-health"],
+      "thesis": "Multi-stage healthcare and life-sciences investment firm backing precision medicine, healthcare delivery and life-sciences infrastructure, including precision diagnostics and molecular testing; invests across private and public biotech (crossover)."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "invests_public_markets": true,
+      "science_platform_notes": "Backs companies using genetics and machine learning to identify therapies and precision-testing companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Natera", "sector": "diagnostics / genetic testing", "outcome": "IPO" },
+        { "company": "10x Genomics", "sector": "life-science-tools", "outcome": "IPO" },
+        { "company": "Foresight Diagnostics", "sector": "diagnostics (cancer detection)", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "San Francisco-based healthcare crossover firm (~$3.5B AUM) investing in precision medicine, diagnostics and life-sciences infrastructure across private and public markets; portfolio includes Natera and 10x Genomics."
+    },
+    "sources": [
+      {
+        "url": "https://www.biopharmadive.com/news/foresite-950-million-fund-vi-venture-capital/718617/",
+        "title": "Foresite, a biotech venture firm, reloads with $900M fund",
+        "publisher": "BioPharma Dive",
+        "accessed": "undefined",
+        "supports": "Fund VI size, AUM, founding year, HQ, focus",
+        "quote": "Foresite Capital, an investment firm that backs life sciences and healthcare companies, has raised a $900 million fund ... Foresite first launched in 2011 and now has some $3.5 billion under management ... the San Francisco-based firm ... will invest in companies focused on precision medicine, healthcare delivery and life sciences infrastructure"
+      },
+      {
+        "url": "https://www.foresitecapital.com/",
+        "title": "Foresite Capital | Investing In Healthcare and Life Sciences",
+        "publisher": "Foresite Capital",
+        "accessed": "undefined",
+        "supports": "Diagnostics / precision-medicine focus and portfolio (Natera, Foresight Diagnostics)",
+        "quote": "The firm has invested in notable diagnostics companies like Natera, which provides genetic testing and diagnostics, and Foresight Diagnostics, which develops ultrasensitive cancer detection tests."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Anchor firm, in scope (strong precision-diagnostics practice). Primary/secondary sources disagree on HQ: BioPharma Dive calls it 'San Francisco-based'; some registries list Larkspur/West Hollywood, CA. Broad healthcare crossover so not exclusively diagnostics/tools, but precision diagnostics and life-science tools are a core practice.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-casdin-capital",
+    "name": { "en": "Casdin Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [{ "country": "United States", "city": "New York" }],
+    "website": "https://www.casdincapital.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/casdin-capital" },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["life-science-tools", "diagnostics", "genomics-omics", "therapeutics", "synthetic-biology"],
+      "thesis": "New York life-sciences investment firm investing across the life-sciences revolution with particular depth in life-science tools, diagnostics, genomics and drug developers; holds both private and public equities."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Adaptive Biotechnologies", "sector": "diagnostics / immune medicine tools", "outcome": "IPO" },
+        { "company": "Standard BioTools (Fluidigm)", "sector": "life-science-tools", "outcome": "public" },
+        { "company": "23andMe", "sector": "genomics / consumer genetics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "New York-based life-sciences crossover firm focused on life-science tools, diagnostics and genomics; portfolio/holdings include Adaptive Biotechnologies, Standard BioTools and 23andMe."
+    },
+    "sources": [
+      {
+        "url": "https://www.casdincapital.com/",
+        "title": "Casdin Capital",
+        "publisher": "Casdin Capital",
+        "accessed": "undefined",
+        "supports": "Focus areas (life-science tools, diagnostics, genomics) and NY location",
+        "quote": "Great medicines make great investments, and Casdin Capital invests in all aspects of today's Life Sciences revolution ... Life Science Tools, Diagnostics, Drug Developers ... 1350 Avenue of the Americas, Suite 2600 | New York, NY 10019"
+      },
+      {
+        "url": "https://fintool.com/app/research/funds/hedge-funds/casdin-capital-llc",
+        "title": "Casdin Capital, LLC 13F Filing",
+        "publisher": "Fintool",
+        "accessed": "undefined",
+        "supports": "Files 13F (holds public equities) - crossover classification",
+        "quote": "Casdin Capital, LLC 13F Filing - Q2 2025 Holdings"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "In scope: explicitly focused on life-science tools, diagnostics and genomics. Founded ~2011-2012 by Eli Casdin (sources conflict on exact year, so founded_year omitted). Secondary sources report AUM of ~$1.6B-$2.4B across strategies; no verbatim primary figure obtained, so capital figures omitted. Files 13F disclosures, hence crossover-fund type.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-civilization-ventures",
+    "name": { "en": "Civilization Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [{ "country": "United States", "city": "San Francisco" }],
+    "website": "https://www.civilizationventures.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/civilization-ventures",
+      "linkedin": "https://www.linkedin.com/company/civilization-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "over $200M in capital", "usd": 200000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["genomics-omics", "diagnostics", "digital-health", "cell-gene-therapy", "synthetic-biology"],
+      "thesis": "Operator-led San Francisco fund backing scientific founders in genomics + diagnostics, digital health and synthetic biology (including gene and cell therapies), leading pre-seed/seed rounds."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "cell-therapy", "digital-therapeutics"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "75 investments, 17 exits, 3 unicorns in 7 years",
+      "notable_investments": [
+        { "company": "BillionToOne", "sector": "diagnostics (molecular counting)", "outcome": "active / unicorn" },
+        { "company": "Foresight Diagnostics", "sector": "diagnostics (cancer detection)", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "San Francisco operator-led venture fund (>$200M AUM) focused on genomics, diagnostics, digital health and synthetic biology; early backer of BillionToOne and Foresight Diagnostics."
+    },
+    "sources": [
+      {
+        "url": "https://www.civilizationventures.com/",
+        "title": "Civilization Ventures",
+        "publisher": "Civilization Ventures",
+        "accessed": "undefined",
+        "supports": "Focus, founding year, AUM, stage, portfolio scale",
+        "quote": "back innovators in genomics + diagnostics, digital health and synthetic biology (including gene + cell therapies) ... Starting with a $1M 'pilot' seed fund in 2017 ... manages over $200M in capital ... 75 Investments, 17 Exits, 3 Unicorns in 7 Years ... lead pre/seed investments"
+      },
+      {
+        "url": "https://www.stanfordbiotechgroup.com/insights/civilization-feature",
+        "title": "Finding a niche within biotech VC: A conversation with Civilization Ventures",
+        "publisher": "Stanford Biotechnology Group",
+        "accessed": "undefined",
+        "supports": "Founder, thesis, digital health / diagnostics / gene therapy emphasis",
+        "quote": "Civilization Ventures is a San Francisco-based venture capital fund focused entirely on biology and healthcare companies with a particular emphasis on digital health, diagnostics, and gene therapy."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "In scope: dedicated genomics/diagnostics thesis. Founded 2017 by Shahram Seyedin-Noor. Initial check size reported by secondary sources as $1M-$15M (no verbatim primary figure, so check_size omitted).",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-genoa-ventures",
+    "name": { "en": "Genoa Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [{ "country": "United States", "city": "San Francisco" }],
+    "website": "https://www.genoavc.com/home",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/genoaventures",
+      "crunchbase": "https://www.crunchbase.com/organization/5-prime-ventures"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Genoa Ventures Fund II", "vintage_year": null, "size": { "raw": "$84 million", "usd": 84000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["life-science-tools", "diagnostics", "synthetic-biology"],
+      "thesis": "Early-stage fund investing where biology and technology converge - research tools, diagnostics, synthetic biology and industrial/consumer bio - leading seed and Series A rounds."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "science_platform_notes": "Founder Dr. Jenny Rooke previously deployed 250M+ at the Gates Foundation across genetic engineering, diagnostics and synthetic biology."
+    },
+    "summary": {
+      "en": "San Francisco early-stage fund investing at the convergence of biology and technology - research tools, diagnostics and synthetic biology; closed an $84M Fund II."
+    },
+    "sources": [
+      {
+        "url": "https://www.synbiobeta.com/read/genoa-ventures-announces-second-fund-to-expand-investing-in-the-convergence-of-biology-and-technology",
+        "title": "Genoa Ventures Announces Second Fund",
+        "publisher": "SynBioBeta",
+        "accessed": "undefined",
+        "supports": "Fund II size, focus areas, stage",
+        "quote": "the successful close of $84 million for Genoa Ventures Fund II ... startups innovating in markets as diverse as research tools, diagnostics, Agri/Food Bio, and industrial bio ... early-stage focus and small incremental investing in Seed and Series A companies"
+      },
+      {
+        "url": "https://www.genoavc.com/home",
+        "title": "Genoa Ventures",
+        "publisher": "Genoa Ventures",
+        "accessed": "undefined",
+        "supports": "Investment thesis (biology + technology convergence)",
+        "quote": "Genoa Ventures invests in life sciences research tools, diagnostics, synthetic biology, industrial biotech, consumer bio and non-invasive medical devices."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "In scope: research tools and diagnostics are core. Also invests in agri/food/industrial bio (breadth noted). Led by Dr. Jenny Rooke. Check sizes reported by secondary sources as ~$500K-$5M (no verbatim primary figure, so check_size omitted). Founded ~2018 (year not verbatim-confirmed, omitted).",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-northpond-ventures",
+    "name": { "en": "Northpond Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Bethesda",
+    "offices": [
+      { "country": "United States", "city": "Bethesda" },
+      { "country": "United States", "city": "Cambridge" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.npv.vc/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/northpond-ventures",
+      "linkedin": "https://www.linkedin.com/company/northpond-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "multi-billion-dollar", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["life-science-tools", "diagnostics", "ai-drug-discovery", "therapeutics", "pharma-services"],
+      "thesis": "Science-driven venture firm that leads and co-leads financings across transformative life-science technologies - computational biology, diagnostics, R&D tooling/solutions, biomanufacturing and therapeutics; heavy emphasis on the enabling-tools and infrastructure layer."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "science_platform_notes": "Launched The Northpond Laboratories with Stanford Medicine to translate academic research; one of the most active lead life-science investors."
+    },
+    "track_record": {
+      "portfolio_count": "led or co-led over 60 financings"
+    },
+    "summary": {
+      "en": "Bethesda-headquartered, multi-billion-dollar science-driven VC that is one of the most active lead investors in life-science tools, diagnostics, computational biology and R&D solutions."
+    },
+    "sources": [
+      {
+        "url": "https://med.stanford.edu/news/all-news/2023/07/northpond-ventures.html",
+        "title": "Stanford Medicine and Northpond Ventures Announce Launch of The Northpond Laboratories",
+        "publisher": "Stanford Medicine",
+        "accessed": "undefined",
+        "supports": "HQ/offices, focus areas, scale, activity",
+        "quote": "Northpond Ventures is a multi-billion-dollar science-driven venture capital firm based in Cambridge, MA; San Francisco, CA; and Bethesda, MD ... the future generation of transformative life science technologies across computational biology, diagnostics, R&D solutions, biomanufacturing and therapeutics ... has led or co-led over 60 financings over the past several years"
+      },
+      {
+        "url": "https://www.npv.vc/",
+        "title": "Advancing Science for the Benefit of Humanity | Northpond Ventures",
+        "publisher": "Northpond Ventures",
+        "accessed": "undefined",
+        "supports": "Mission / science-driven positioning",
+        "quote": "We build and support breakthrough science and technology driven businesses to create a marked impact on humanity."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "In scope: strong life-science tools, diagnostics and R&D-solutions focus (also does therapeutics). Primary source describes it as 'multi-billion-dollar'; secondary sources (Crunchbase/PitchBook) estimate ~$2B AUM (not verbatim, so exact AUM omitted). Founded ~2018 (year not verbatim-confirmed, omitted). Bethesda, MD is generally cited as the main HQ.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-section-32",
+    "name": { "en": "Section 32" },
+    "aka": ["S32"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego",
+    "offices": [
+      { "country": "United States", "city": "San Diego" },
+      { "country": "United States", "city": "Menlo Park" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://www.section32.com/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/section-32" },
+    "capital": {
+      "aum": { "raw": "over $1.8B", "usd": 1800000000, "currency": "USD" },
+      "current_fund": { "raw": "approximately $740 million (Fund 4, 2021)", "usd": 740000000, "currency": "USD" },
+      "funds": [
+        { "name": "Section 32 Fund 4", "vintage_year": 2021, "size": { "raw": "approximately $740 million", "usd": 740000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["diagnostics", "genomics-omics", "therapeutics", "digital-health", "generalist-health"],
+      "thesis": "Venture firm founded by ex-GV head Bill Maris investing at the frontier of technology and healthcare; life-sciences practice targets advanced diagnostics, precision medicine and genomics (alongside broad deep-tech investing)."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "science_platform_notes": "Life-sciences leadership includes Michael Pellini, M.D. (ex-Foundation Medicine) and Steve Kafka, Ph.D."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Thrive Earlier Detection", "sector": "diagnostics (early cancer detection)", "outcome": "acquired by Exact Sciences" },
+        { "company": "Relay Therapeutics", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Bill Maris-founded venture firm (>$1.8B AUM) at the intersection of technology and healthcare; life-sciences bets span advanced diagnostics, precision medicine and genomics, e.g. Thrive Earlier Detection."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/section-32-raises-740-million-venture-fund-301416494.html",
+        "title": "Section 32 Raises $740 Million Venture Fund",
+        "publisher": "PR Newswire / Section 32",
+        "accessed": "undefined",
+        "supports": "Fund 4 size, AUM, founding year, offices, founder, focus",
+        "quote": "Section 32 announced today the closing of its fourth fund, raising approximately $740 million ... The closing of Fund 4 brings assets under management for Section 32 to over $1.8B ... Since its inception in 2017, Section 32 has grown to 16 people ... with offices in San Diego, Silicon Valley and Boston, MA ... biotechnology, therapeutics, advanced diagnostics, precision medicine, genomics and more"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/medtech/section-32-closes-740m-vc-fund-to-back-startups-at-intersection-technology-and-healthcare",
+        "title": "Section 32 closes $740M VC fund to back startups at intersection of technology and healthcare",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Intersection of technology and healthcare, diagnostics portfolio (Thrive)",
+        "quote": "Section 32 closes $740M VC fund to back startups at intersection of technology and healthcare"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Anchor firm. In scope via its advanced-diagnostics/genomics/precision-medicine practice, but note it is a broad tech-and-healthcare generalist (also invests in software, cybersecurity, space, climate, AI). Managing partner Michael Pellini co-founded Foundation Medicine, reinforcing the diagnostics nexus.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-omx-ventures",
+    "name": { "en": "OMX Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "offices": [
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://www.omx.vc/",
+    "links": { "linkedin": "https://www.linkedin.com/company/omx-ventures" },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Europe"],
+      "sector_focus": ["life-science-tools", "diagnostics", "synthetic-biology", "therapeutics", "genomics-omics"],
+      "thesis": "Technology-first venture firm that turns breakthrough discoveries into scalable biotech companies, with a portfolio spanning bio-tools and diagnostics, synthetic biology and therapeutics; partners were early investors in 10x Genomics, Twist Bioscience and QuantaLife."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "science_platform_notes": "Partners' prior track record includes early investments in 10x Genomics, Twist Bioscience, Ginkgo Bioworks and QuantaLife (acquired by Bio-Rad)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "VedaBio", "sector": "diagnostics (CRISPR-based detection)", "outcome": "active" },
+        { "company": "Glyphic Biotechnologies", "sector": "life-science-tools (protein sequencing)", "outcome": "active" },
+        { "company": "Matterworks", "sector": "life-science-tools (metabolomics)", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Technology-first bio venture firm (US/Boston + Europe) focused on bio-tools and diagnostics, synthetic biology and therapeutics; team previously backed 10x Genomics, Twist and QuantaLife."
+    },
+    "sources": [
+      {
+        "url": "https://www.omx.vc/",
+        "title": "OMX Ventures",
+        "publisher": "OMX Ventures",
+        "accessed": "undefined",
+        "supports": "Technology-first thesis, bio-tools & diagnostics focus, transatlantic presence, portfolio",
+        "quote": "Using a technology-first approach, OMX takes groundbreaking discoveries and grows them into scalable biotech companies on both sides of the Atlantic ... BioTools & Diagnostics: Matterworks, VedaBio, Glyphic Biotechnologies"
+      },
+      {
+        "url": "https://startupintros.com/orgs/omx-ventures",
+        "title": "OMX Ventures: Funding, Team & Investors",
+        "publisher": "Startup Intros",
+        "accessed": "undefined",
+        "supports": "Focus on bio-tools/diagnostics; partners' prior investments (10x Genomics, Twist, QuantaLife)",
+        "quote": "leveraging data from novel bio-tools, data, and artificial intelligence to create the next generation of medicines, tools, and solutions, particularly in the fields of therapeutics, bio-tools, diagnostics, and synthetic biology"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "In scope: explicit bio-tools and diagnostics focus. Founded ~2020 and HQ reported by secondary sources as Lincolnshire, IL with a Boston presence (not verbatim-confirmed, so founded_year omitted and hq_city left to office list). Fund size reported by secondary sources as ~$150M (no verbatim primary figure, so omitted).",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-anzu-partners",
+    "name": { "en": "Anzu Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "united-states",
+    "country": "United States",
+    "offices": [
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "San Diego" },
+      { "country": "United States", "city": "Washington" },
+      { "country": "United States", "city": "Tampa" }
+    ],
+    "website": "https://www.anzupartners.com/",
+    "links": { "other": ["https://www.anzupartners.com/portfolio/"] },
+    "capital": {
+      "aum": { "raw": "approximately $1 billion in strategic assets", "usd": 1000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Europe", "Asia Pacific"],
+      "sector_focus": ["life-science-tools", "diagnostics"],
+      "thesis": "Investment firm focused on breakthrough industrial and life-science technology companies; the life-science practice centers on enabling instruments, tools and platforms that transform their industries."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "medical-hardware", "wearables-sensors"],
+      "science_platform_notes": "Deep-tech / instrumentation focus; invests from pre-revenue to post-commercialization where the firm has domain expertise."
+    },
+    "summary": {
+      "en": "Deep-tech investment firm (~$1B AUM, founded 2014) backing breakthrough industrial and life-science technologies, with a life-science practice centered on enabling instruments and tools."
+    },
+    "sources": [
+      {
+        "url": "https://www.anzupartners.com/about/",
+        "title": "About - Anzu Partners",
+        "publisher": "Anzu Partners",
+        "accessed": "undefined",
+        "supports": "Focus, AUM, founding year, geography",
+        "quote": "Anzu Partners is an investment firm that focuses on industrial and life science technology companies with the potential to transform their industries ... Anzu manages approximately $1 billion in strategic assets across three venture funds, a mezzanine revenue-based investing fund ('RBI'), and a special purpose acquisition company ('SPAC') ... Founded in 2014 ... Anzu primarily invests in companies across North America, Europe, and Asia Pacific."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "In scope via its life-science tools/instrumentation practice, but note the firm is a deep-tech generalist that also invests heavily in industrial and clean-tech hardware. Multiple US offices (Boston, San Diego, Washington DC, Tampa); no single HQ city stated on the About page, so hq_city omitted.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-innovatus-life-sciences",
+    "name": { "en": "Innovatus Life Sciences (Innovatus Capital Partners)" },
+    "aka": ["Innovatus Capital Partners"],
+    "type": "growth-equity",
+    "subtypes": ["venture-debt"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [{ "country": "United States", "city": "New York" }],
+    "website": "https://www.innovatuscp.com/about-innovatus-life-sciences",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/innovatus-capital-partners",
+      "other": ["https://www.innovatuscp.com/portfolio-innovatus-life-sciences"]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "$20 to $150 million+", "usd_min": 20000000, "usd_max": 150000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["diagnostics", "genomics-omics", "life-science-tools", "medtech-devices", "therapeutics"],
+      "thesis": "Provides growth capital as senior secured debt and equity to late-stage and commercial-stage life-sciences companies, with a strong presence in diagnostics and cancer genomics alongside devices, tools and biopharma."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "science_platform_notes": "Debt-oriented growth financing; developed a strong presence in diagnostics and cancer genomics."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Personal Genome Diagnostics (PGDx)", "sector": "diagnostics / cancer genomics (IVD)", "outcome": "acquired by Labcorp" }
+      ]
+    },
+    "summary": {
+      "en": "New York life-sciences growth-capital provider (senior secured debt + equity) with a strong diagnostics and cancer-genomics practice; financed Personal Genome Diagnostics."
+    },
+    "sources": [
+      {
+        "url": "https://www.innovatuscp.com/about-innovatus-life-sciences",
+        "title": "Life Sciences - Innovatus Capital Partners",
+        "publisher": "Innovatus Capital Partners",
+        "accessed": "undefined",
+        "supports": "Strategy launch year, capital type, investment size, sector focus",
+        "quote": "Innovatus' Life Sciences strategy was launched in 2017 to support world-class life sciences companies with customized investment solutions ... growth capital in the form of senior secured debt and equity ... biotechnology, pharmaceutical, medical device, diagnostic, and life sciences tools companies ... We seek to invest $20 to $150 million+ in public and private late-stage development and commercial-stage life sciences companies ... approximately $1.5 billion in senior secured debt commitments"
+      },
+      {
+        "url": "https://www.innovatuscp.com/innovatus-life-sciences-announces-investment-in-personal-genome-diagnostics",
+        "title": "Innovatus Life Sciences Announces Investment in Personal Genome Diagnostics",
+        "publisher": "Innovatus Capital Partners",
+        "accessed": "undefined",
+        "supports": "Diagnostics / cancer-genomics presence; PGDx financing",
+        "quote": "Innovatus has developed a strong presence in diagnostics and cancer genomics ... provided up to $42.0 million in capital ... to bring regulated in vitro diagnostic (IVD) genome testing to cancer patients"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Anchor firm. Primarily a growth-capital / senior-secured-debt provider (hence growth-equity type with venture-debt subtype) rather than a classic equity VC; included for its strong diagnostics and cancer-genomics practice. The 2017 date is the launch of the Life Sciences strategy; the parent firm Innovatus Capital Partners was founded in 2016.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-dcvc-bio",
+    "name": { "en": "DCVC Bio" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "offices": [
+      { "country": "United States", "city": "Palo Alto" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.dcvc.com/bio/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/dcvc-bio" },
+    "capital": {
+      "current_fund": { "raw": "$400 million (Fund III, 2024)", "usd": 400000000, "currency": "USD" },
+      "funds": [
+        { "name": "DCVC Bio III", "vintage_year": 2024, "size": { "raw": "an oversubscribed $400 million", "usd": 400000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "life-science-tools", "diagnostics", "therapeutics", "synthetic-biology"],
+      "thesis": "Life-sciences arm of deep-tech firm DCVC, investing in computation-enhanced platforms across drug discovery, diagnostics, synthetic biology and agriculture rather than single drug assets."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "company_creation": false,
+      "science_platform_notes": "Team spans genetics, chemistry, molecular biology, AI and industrial fermentation; thesis centers on AI/ML-enabled computational-biology platforms."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AbCellera", "sector": "life-science-tools / antibody discovery", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Deep-tech life-sciences fund (Fund III $400M, founded 2018) backing computational-biology platforms across drug discovery, diagnostics and synthetic biology; early backer of AbCellera."
+    },
+    "sources": [
+      {
+        "url": "https://www.dcvc.com/news-insights/dcvc-bio-iii-closes-at-400-million/",
+        "title": "DCVC Bio III closes at $400 million",
+        "publisher": "DCVC",
+        "accessed": "undefined",
+        "supports": "Fund III size, founding year, focus, offices",
+        "quote": "We closed the fund this fall at an over­sub­scribed $400 million ... DCVC Bio was founded in 2018 to exploit the promise of AI-enabled platforms to discover new medicines and catalyze a range of other biological break­throughs"
+      },
+      {
+        "url": "https://www.synbiobeta.com/read/dcvc-bio-closes-400-million-fund-iii-to-accelerate-breakthroughs-in-life-sciences-and-deep-tech",
+        "title": "DCVC Bio Closes $400 Million Fund III",
+        "publisher": "SynBioBeta",
+        "accessed": "undefined",
+        "supports": "Focus on diagnostics, synthetic biology and computational platforms",
+        "quote": "companies poised to revolutionize fields such as drug discovery, diagnostics, synthetic biology, and agricultural innovation"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "In scope via its diagnostics and computational-biology tools focus, but note DCVC Bio is a broad techbio/deep-tech fund that also does substantial therapeutics and non-diagnostic platform work.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-kdt-ventures",
+    "name": { "en": "KdT Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "offices": [
+      { "country": "United States", "city": "Raleigh" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.kdtvc.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/kdt-ventures",
+      "linkedin": "https://www.linkedin.com/company/kdt-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "over $250 million in assets", "usd": 250000000, "currency": "USD" },
+      "current_fund": { "raw": "over $100 million (Fund IV, 2024)", "usd": 100000000, "currency": "USD" },
+      "funds": [
+        { "name": "KdT Ventures Fund IV", "vintage_year": 2024, "size": { "raw": "over $100 million", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "$500,000 to $5 million", "usd_min": 500000, "usd_max": 5000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["life-science-tools", "ai-drug-discovery", "diagnostics", "therapeutics", "synthetic-biology"],
+      "thesis": "Early-stage frontier-science fund reprogramming chemistry and biology with computational platforms; frequently the first institutional investor across therapeutics, diagnostics, tools, synthetic biology and adjacent deep science."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation", "gene-therapy"],
+      "science_platform_notes": "Thesis that advances in compute are making molecular-level problems newly addressable; invests at the earliest (often formation) stage."
+    },
+    "summary": {
+      "en": "Frontier-science seed fund (Fund IV $100M+, ~$250M AUM) that is often the first institutional investor in molecular-level companies spanning tools, diagnostics, therapeutics and synthetic biology."
+    },
+    "sources": [
+      {
+        "url": "https://www.synbiobeta.com/read/kdt-ventures-closes-100m-fund-iv-to-fuel-early-stage-science-startups",
+        "title": "KdT Ventures Closes $100M Fund IV",
+        "publisher": "SynBioBeta",
+        "accessed": "undefined",
+        "supports": "Fund IV size, AUM, check size, stage/focus",
+        "quote": "raising over $100 million to support early-stage, science-driven companies ... KdT Ventures now manages over $250 million in assets ... companies applying cutting-edge technologies across a range of sectors, including therapeutics, digital health, industrial biotechnology, and climate ... KdT often serves as the first institutional investor in a company, making initial investments that range from $500,000 to $5 million"
+      },
+      {
+        "url": "https://www.kdtvc.com/",
+        "title": "KdT Ventures",
+        "publisher": "KdT Ventures",
+        "accessed": "undefined",
+        "supports": "Molecular-level / computational-platform thesis",
+        "quote": "reprogramming chemistry and biology using creative technology platforms"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "In scope via life-science tools, diagnostics and computational-biology investing, but note KdT is a broad frontier-science fund that also invests in industrial biotech, materials and climate. HQ reported by secondary sources as Research Triangle, North Carolina (with a San Francisco presence); exact HQ city not verbatim-confirmed, so hq_city omitted. Founded ~2017 (Fund I closed 2018); founded_year omitted for lack of verbatim.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "us-petri",
+    "name": { "en": "Petri" },
+    "type": "accelerator",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [{ "country": "United States", "city": "Boston" }],
+    "website": "https://petri.bio/",
+    "links": { "other": ["https://www.pillar.vc/venture-capital/why-we-built-petri/"] },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["life-science-tools", "synthetic-biology", "diagnostics"],
+      "thesis": "Boston bio accelerator (backed by Pillar VC) for founders at the frontier of biology and engineering, including enabling technologies and tools spanning healthcare, food, industrial chemicals and materials."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "medical-hardware"],
+      "science_platform_notes": "Provides turnkey BSL2 lab space in Boston and mentorship from figures such as George Church and Twist Bioscience CEO Emily Leproust."
+    },
+    "program": {
+      "length_weeks": 52,
+      "investment": { "raw": "at least $250,000", "usd": 250000, "currency": "USD" },
+      "format": "in-person",
+      "location": "Boston, MA",
+      "lab_space": true,
+      "cohort_size": "11 companies in year one",
+      "perks": ["turnkey BSL2 lab space", "coaching from experienced founders and scientists", "peer founder community"]
+    },
+    "summary": {
+      "en": "Boston-based bio accelerator (backed by Pillar VC) investing at least $250K plus lab space in early-stage companies at the frontier of biology and engineering, including life-science tools and enabling technologies."
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/biotech/pillar-petri-boston-s-new-accelerator-for-fledgling-biotechs",
+        "title": "Pillar ponies up for Petri, Boston's new accelerator for fledgling biotechs",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Program terms, backer, focus, mentors, lab space",
+        "quote": "a 12-month program that includes at least $250,000 in seed funding, lab space and access to scientific and entrepreneurial experts including Insitro CEO Daphne Koller, Twist Bioscience CEO Emily Leproust and CRISPR pioneer George Church ... Petri has a three-year $15 million commitment to back companies developing new biotech applications in food, healthcare, industrial chemicals and new materials — along with the enabling technologies to bring these products to market"
+      },
+      {
+        "url": "https://www.pillar.vc/venture-capital/why-we-built-petri/",
+        "title": "Why We Built Petri",
+        "publisher": "Pillar VC",
+        "accessed": "undefined",
+        "supports": "Relationship to Pillar VC; frontier-of-biology-and-engineering focus",
+        "quote": "Petri is a first-of-its-kind accelerator that supports early-stage founders working on breakthroughs at the frontier of biology and engineering."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "In scope via its engineering-biology tools/enabling-technology focus, but note Petri is a broad bio accelerator that also backs food, materials and industrial-chemistry companies (not exclusively diagnostics/genomics/tools). Backed by Boston VC firm Pillar (adds accelerator type diversity to the slice). Launched 2019.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  }
+]

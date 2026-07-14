@@ -1,0 +1,570 @@
+[
+  {
+    "id": "eu-allianz-x",
+    "name": { "en": "Allianz X" },
+    "type": "cvc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/allianzx/"
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["Global"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "thesis": "Allianz X is the digital investment unit of German insurer Allianz Group, backing growth-stage digital companies across mobility, connected property, connected health, wealth/retirement and cyber; its connected-health bets (e.g. a $59.2M strategic investment in telehealth platform American Well, plus BIMA and Halodoc) extend Allianz's insurance ecosystem into virtual care."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "American Well (Amwell)", "sector": "digital-health / telehealth", "outcome": "active" },
+        { "company": "BIMA", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "Halodoc", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Munich-based corporate venture arm of Allianz Group that invests in growth-stage digital companies in insurance-adjacent ecosystems, including connected health platforms such as American Well."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/allianz-invests-59-million-in-strategic-partnership-with-american-well-to-address-global-health-challenges-300578472.html",
+        "title": "Allianz invests $59 million in strategic partnership with American Well to address global health challenges",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "American Well investment amount and strategic health rationale",
+        "quote": "Allianz invests $59 million in strategic partnership with American Well to address global health challenges"
+      },
+      {
+        "url": "https://www.foundersuite.com/firms/allianz-x",
+        "title": "Allianz X | Investor profile",
+        "publisher": "Foundersuite",
+        "accessed": "undefined",
+        "supports": "HQ location, ecosystem focus incl. connected health",
+        "quote": "Allianz X is the digital investment unit of the Allianz Group headquartered in Munich, Germany, and invests in digital growth companies that are part of the ecosystems related to insurance"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Facts drawn from press release and aggregator profiles rather than a direct fetch of allianzx.com; BIMA/Halodoc investments referenced by a secondary search summary.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-axa-venture-partners",
+    "name": { "en": "AXA Venture Partners (AVP)" },
+    "aka": ["AVP", "AXA Strategic Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "website": "https://www.axavp.com",
+    "capital": {
+      "aum": { "raw": "$2.2 billion" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "check_size": { "raw": "$3M–$50M" },
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "thesis": "AVP is the global venture capital arm of French insurer AXA, investing across software, fintech/insurtech, consumer tech and digital health from early to growth stage; its insurer parentage gives portfolio companies a channel into AXA's health and insurance distribution network."
+    },
+    "summary": {
+      "en": "Paris-headquartered corporate VC of insurer AXA, managing roughly $2.2B and investing $3-50M tickets in enterprise software, fintech/insurtech, consumer tech and digital health across Europe and North America.",
+      "local": "Bras de capital-risque d'AXA base a Paris, investissant dans la sante numerique, l'insurtech et la fintech en Europe et en Amerique du Nord."
+    },
+    "sources": [
+      {
+        "url": "https://www.axavp.com/avp-launches-a-new-strategy/",
+        "title": "AVP launches a new strategy",
+        "publisher": "AXA Venture Partners",
+        "accessed": "undefined",
+        "supports": "Target sectors including Digital Health",
+        "quote": "target sectors of Software, Fintech/Insurtech, Digital Health and Consumer technologies in Europe and in North America"
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/axaventurepartners/__oKEG8izrdta3xpb_5BAB4YSOXZ7w0QbJKZlUnnkReMU",
+        "title": "AXA Venture Partners - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "Founded year 2013, Paris HQ, AUM figure",
+        "quote": "The firm was founded in 2013 and is based in Paris, France"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-munich-re-ventures",
+    "name": { "en": "Munich Re Ventures" },
+    "aka": ["MRV"],
+    "type": "cvc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "website": "https://www.munichre.com/mrv/en/investment-areas.html",
+    "capital": {
+      "aum": { "raw": "$1 billion+ across four funds" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "thesis": "Munich Re Ventures is the corporate VC arm of German reinsurer Munich Re; its HealthTech vertical backs companies that help understand health risk and extend access to care and expensive modalities, including insurance-linked financing for cell & gene therapy (Quantile Health) and virtual care (Babylon Health)."
+    },
+    "track_record": {
+      "portfolio_count": "36+ companies across all sectors",
+      "notable_investments": [
+        { "company": "Future Family", "sector": "fertility / digital-health", "outcome": "active" },
+        { "company": "Babylon Health", "sector": "digital-health / telehealth", "outcome": "shutdown" },
+        { "company": "Quantile Health", "sector": "cell & gene therapy financing", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Corporate venture arm of German reinsurer Munich Re, with a HealthTech investment vertical spanning digital health, virtual care and novel financing models for cell & gene therapy access."
+    },
+    "sources": [
+      {
+        "url": "https://www.munichre.com/mrv/en/investment-areas.html",
+        "title": "Investment areas | Munich Re Ventures",
+        "publisher": "Munich Re",
+        "accessed": "undefined",
+        "supports": "Official investment-areas page including HealthTech"
+      },
+      {
+        "url": "https://f4.fund/firms/munich-re-ventures",
+        "title": "Munich Re Ventures — Investment Thesis & Preferences",
+        "publisher": "f4.fund",
+        "accessed": "undefined",
+        "supports": "HealthTech sector focus and portfolio examples",
+        "quote": "Munich Re Ventures targets investments in sectors such as InsurTech, Cybersecurity & Privacy, HealthTech, Built World technologies, and Resilient Future initiatives"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Munich Re Ventures' investment team is commonly reported to operate out of San Francisco, but it is the wholly-owned CVC arm of Munich Re, headquartered in Munich, Germany; included on that basis. munichre.com page could not be fetched directly (403) so facts rely on aggregator confirmation of the same content.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-zurich-global-ventures",
+    "name": { "en": "Zurich Global Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Zurich",
+    "website": "https://www.zurich.com/global-ventures/what-we-do",
+    "strategy": {
+      "sector_focus": ["digital-health", "consumer-health"],
+      "thesis": "Zurich Global Ventures is Zurich Insurance Group's corporate venture and platform-building unit, developing and investing in digital services across travel, cyber and health & wellbeing (e.g. the LiveWell health-monitoring app) and taking equity stakes in insurtechs such as Qover."
+    },
+    "track_record": {
+      "portfolio_count": "61+ investments (all sectors)",
+      "notable_investments": [
+        { "company": "Qover", "sector": "insurtech", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Zurich Insurance's corporate venture and digital-platform unit, building and backing health & wellbeing products (LiveWell) alongside travel and cyber offerings."
+    },
+    "sources": [
+      {
+        "url": "https://www.zurich.com/media/news-releases/2023/2023-0706-01",
+        "title": "Zurich joins forces with insurtech Qover to expand its embedded insurance capabilities",
+        "publisher": "Zurich Insurance",
+        "accessed": "undefined",
+        "supports": "Existence and portfolio scope of Zurich Global Ventures including health and wellbeing",
+        "quote": "Zurich Global Ventures, first launched in 2020, is accelerating development of innovative and digital services with a portfolio comprising solutions in travel, health and wellbeing, employee benefits, cyber, device protection, digital partners and mobility"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/zurich-global-ventures",
+        "title": "Zurich Global Ventures Portfolio Investments",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Founded year and Zurich HQ",
+        "quote": "The company was founded in 2016 and is based in Zurich, Switzerland"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Zurich's own communications date the 'Global Ventures' platform launch to 2020, while CB Insights lists a 2016 founding of the underlying entity; both years reported here without reconciling.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-bupa-ventures-fund",
+    "name": { "en": "Bupa Ventures Fund" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2024,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "capital": {
+      "current_fund": { "raw": "A$20 million (~US$20 million)" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "up to A$2 million per deal" },
+      "geo_focus": ["Australia", "Asia-Pacific"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "thesis": "Bupa Ventures Fund is the corporate venture vehicle of UK-headquartered global health insurer Bupa, backing seed-to-Series A healthcare startups in predictive/preventative care, genomics, home care and remote monitoring."
+    },
+    "summary": {
+      "en": "A$20m corporate venture fund launched in 2024 by UK-headquartered global health insurer Bupa to back early-stage healthcare startups, initially deployed through its Australia/APAC business."
+    },
+    "sources": [
+      {
+        "url": "https://htn.co.uk/2024/02/12/bupa-ventures-fund-launches-with-20m-to-support-healthcare-innovation-start-ups/",
+        "title": "Bupa Ventures Fund launches with $20m to support healthcare innovation start-ups",
+        "publisher": "HTN Health Tech News",
+        "accessed": "undefined",
+        "supports": "Fund size and launch",
+        "quote": "Bupa Ventures Fund launches with $20m to support healthcare innovation start-ups"
+      },
+      {
+        "url": "https://www.insurtechinsights.com/bupa-launches-us20-million-vc-fund-to-support-australian-healthcare-startups/",
+        "title": "Bupa Launches US$20 Million VC Fund to Support Australian Healthcare Startups",
+        "publisher": "Insurtech Insights",
+        "accessed": "undefined",
+        "supports": "Check size and stage focus",
+        "quote": "The corporate VC unit will invest up to A$2m per deal in seed to series A-stage healthcare technology startups"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Bupa Group is headquartered in London, UK, but this specific $20M venture fund was launched and is deployed by Bupa Asia Pacific, targeting Australian/APAC healthcare startups rather than Europe directly; included as the dedicated venture arm of a European-HQ payer per slice instructions, with geo_focus noted accurately.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-swisshealth-ventures",
+    "name": { "en": "SwissHealth Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Lucerne",
+    "website": "https://www.css.ch/en/swisshealth-ventures.html",
+    "capital": {
+      "current_fund": { "raw": "CHF 100 million" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health"],
+      "thesis": "SwissHealth Ventures is the digital-health venture arm of Swiss health insurer CSS, deploying a CHF 100m fund (doubled from CHF 50m) into European health-tech startups such as Berlin-based Humanoo to extend CSS's connected-care ecosystem."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Humanoo", "sector": "digital-health / corporate wellness", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Lucerne-based, CHF 100m corporate venture fund of Swiss health insurer CSS focused on European digital-health startups.",
+      "local": "Von der Schweizer Krankenversicherung CSS getragener Venture-Fonds mit CHF 100 Mio. fuer digitale Gesundheits-Startups in Europa."
+    },
+    "sources": [
+      {
+        "url": "https://www.css.ch/en/swisshealth-ventures.html",
+        "title": "SwissHealth Ventures: digital, innovative, personal",
+        "publisher": "CSS Insurance",
+        "accessed": "undefined",
+        "supports": "Official CVC page of CSS"
+      },
+      {
+        "url": "https://www.startupticker.ch/en/news/swisshealth-ventures-doubles-fund-volume-to-chf-100-million",
+        "title": "SwissHealth Ventures doubles fund volume to CHF 100 million",
+        "publisher": "startupticker.ch",
+        "accessed": "undefined",
+        "supports": "Fund size, founding year and Lucerne HQ",
+        "quote": "SwissHealth Ventures is the venture capital arm of CSS Insurance, founded in 2020 and based in Lucerne, Switzerland"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-helsana-healthinvest",
+    "name": { "en": "Helsana HealthInvest AG" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "europe",
+    "country": "Switzerland",
+    "website": "https://www.helsana.ch/en/helsana-group/about-us/healthinvest.html",
+    "capital": {
+      "current_fund": { "raw": "CHF 100 million (Evergreen)" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "check_size": { "raw": "CHF 1–5 million" },
+      "geo_focus": ["Europe"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Helsana HealthInvest AG is the evergreen corporate venture vehicle of Swiss health insurer Helsana, investing CHF 1-5m Series A-B tickets in digital-health startups and venture funds across Europe since 2021, e.g. co-investing in Humanoo alongside SwissHealth Ventures and Sanitas."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Humanoo", "sector": "digital-health / corporate wellness", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Corporate venture subsidiary of Swiss health insurer Helsana, running a CHF 100m evergreen fund backing digital-health startups and funds across Europe since 2021."
+    },
+    "sources": [
+      {
+        "url": "https://www.helsana.ch/en/helsana-group/about-us/healthinvest.html",
+        "title": "Helsana HealthInvest AG: enabling healthcare innovation",
+        "publisher": "Helsana",
+        "accessed": "undefined",
+        "supports": "Fund size, founding year, ticket size, stage focus",
+        "quote": "Helsana HealthInvest AG, a subsidiary of leading Swiss health insurance provider Helsana, has been investing in start-ups and venture funds in digital health across Europe since 2021"
+      },
+      {
+        "url": "https://www.helsana.ch/en/helsana-group/media-publications/communications/helsana-healthinvest-ag-invests-in-humanoo.html",
+        "title": "Helsana Healthinvest AG invests in digital health solutions from Humanoo",
+        "publisher": "Helsana",
+        "accessed": "undefined",
+        "supports": "Portfolio example (Humanoo) and co-investors",
+        "quote": "Humanoo ... secured $10M Series B Funding, led by SwissHealth Ventures - a CSS Group company. The round was joined by Helsana Health Invest, Sanitas, Verve VC, and existing investors"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-mapfre-alma-mundi-insurtech",
+    "name": { "en": "MAPFRE (Alma Mundi Insurtech)" },
+    "type": "cvc",
+    "status": "active",
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Madrid",
+    "capital": {
+      "current_fund": { "raw": "€350 million" }
+    },
+    "strategy": {
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "thesis": "MAPFRE, Spain's largest insurer, channels corporate-venture activity through Alma Mundi Insurtech (a €350m fund it anchors) and its own 'insur_space' scale-up program, which runs a dedicated health & wellness track offering up to €100k per project to health-focused insurtech startups."
+    },
+    "summary": {
+      "en": "Spanish insurer MAPFRE's corporate-venture activity in health-adjacent insurtech, via the €350m Alma Mundi Insurtech fund it anchors and its in-house insur_space scale-up program's health & wellness track."
+    },
+    "sources": [
+      {
+        "url": "https://www.mapfre.com/en/insights/innovation/venture-capital-platforms-supporting-entrepreneurs/",
+        "title": "Venture capital platforms: supporting entrepreneurs beyond money",
+        "publisher": "MAPFRE",
+        "accessed": "undefined",
+        "supports": "Alma Mundi Insurtech fund size and MAPFRE's role as stakeholder",
+        "quote": "MAPFRE offers access to Alma Mundi Insurtech, a venture capital fund of 350 million euros in which MAPFRE holds a stake"
+      },
+      {
+        "url": "https://www.reinsurancene.ws/mapfre-launches-new-insurtech-scale-up-program/",
+        "title": "MAPFRE launches new insurtech scale-up program",
+        "publisher": "Reinsurance News",
+        "accessed": "undefined",
+        "supports": "insur_space program's health and wellness focus and financing amount",
+        "quote": "MAPFRE has launched a scale-up program for insurtechs that offers up to €100,000 of financing per project, focusing on health and wellness, climate risks, and cybersecurity for SMEs"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Alma Mundi Insurtech is managed by Mundi Ventures with MAPFRE as anchor/lead investor rather than a wholly-owned MAPFRE subsidiary; included because MAPFRE explicitly channels its corporate-venture and startup-scaling activity, including a health & wellness track, through these vehicles.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-fresenius-medical-care-ventures",
+    "name": { "en": "Fresenius Medical Care Ventures" },
+    "aka": ["FMCV"],
+    "type": "cvc",
+    "subtypes": ["medtech-cvc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Bad Homburg",
+    "website": "https://freseniusmedicalcare.com/en/about-us/fmcv/",
+    "strategy": {
+      "sector_focus": ["healthcare-services", "medtech-devices", "digital-health"],
+      "thesis": "Fresenius Medical Care is the world's largest operator of dialysis clinics (a healthcare provider) as well as a device maker; its CVC arm FMCV invests across medical devices, digital healthcare and healthcare services to strengthen its kidney-care provider network, which is why it sits in the provider/payer-adjacent slice rather than purely medtech."
+    },
+    "summary": {
+      "en": "Corporate venture arm (founded 2016, Bad Homburg) of Fresenius Medical Care, the world's largest dialysis-clinic operator, investing across medical devices, digital health and healthcare services."
+    },
+    "sources": [
+      {
+        "url": "https://freseniusmedicalcare.com/en/about-us/fmcv/",
+        "title": "Ventures | Fresenius Medical Care",
+        "publisher": "Fresenius Medical Care",
+        "accessed": "undefined",
+        "supports": "Official FMCV page"
+      },
+      {
+        "url": "https://www.startuphub.ai/investors/fresenius-medical-care-ventures/",
+        "title": "Fresenius Medical Care Ventures",
+        "publisher": "StartupHub.ai",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ city, sector scope",
+        "quote": "Founded in 2016, Fresenius Medical Care Ventures is the corporate venture capital arm of Fresenius Medical Care based in Bad Homburg, Germany. FMCV invests across multiple healthcare sectors, including medical devices, pharmaceuticals, digital healthcare, and healthcare services"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fresenius Medical Care straddles the provider (dialysis-clinic operator) and medtech-device CVC categories; included here under the provider nexus per this slice's scope, with medtech noted as a subtype. A sibling medtech/pharma-CVC slice may also reference this entity.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-bosch-business-innovations",
+    "name": { "en": "Bosch Business Innovations" },
+    "type": "venture-studio",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "capital": {
+      "current_fund": { "raw": "€200 million over five years" }
+    },
+    "strategy": {
+      "sector_focus": ["digital-health"],
+      "thesis": "Bosch Business Innovations is tech giant Robert Bosch GmbH's new corporate venture builder, committing roughly €200m over five years to create about 20 startups by 2030 across health, industrial software and climate tech; in health it plans to leverage Bosch's MEMS sensor leadership and its Robert Bosch Hospital / hospital partnerships to build remote and home health-monitoring companies."
+    },
+    "lifesci": {
+      "modalities": ["wearables-sensors"],
+      "company_creation": true,
+      "science_platform_notes": "Builds startups from concept using Bosch's sensor technology, patents and existing hospital partnerships rather than only writing checks into external founders."
+    },
+    "summary": {
+      "en": "German engineering conglomerate Bosch's new €200m corporate venture-building unit, tasked with creating roughly 20 startups by 2030 including remote/home health-monitoring companies built on Bosch's sensor technology."
+    },
+    "sources": [
+      {
+        "url": "https://globalventuring.com/corporate/healthcare/bosch-commits-e200m-deep-tech-venture-building/",
+        "title": "Bosch commits €200m to deep tech venture building push",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "Fund size, timeframe, health focus area, sensor/hospital rationale",
+        "quote": "Bosch is investing around €200 million over the next five years into Bosch Business Innovations, a corporate venture builder dedicated to creating market-ready startups in sectors where Bosch's technological strengths overlap with fast-moving demand: health, industry, and climate"
+      },
+      {
+        "url": "https://techfundingnews.com/bosch-200m-venture-arm-20-startups-2030/",
+        "title": "Bosch commits €200M to create 20 health, industry, and climate startups by 2030",
+        "publisher": "Tech Funding News",
+        "accessed": "undefined",
+        "supports": "Target of ~20 startups by 2030 including health",
+        "quote": "Bosch commits €200M to create 20 health, industry, and climate startups by 2030"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Newly launched initiative (reported 2026); operates as a venture builder/studio (creates companies from scratch with partner venture studios) rather than a traditional check-writing CVC fund, hence primary type set to venture-studio with cvc as subtype. HQ city omitted (Bosch Group HQ is in the Stuttgart area) since not directly confirmed this session.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-vivalto",
+    "name": { "en": "Vivalto" },
+    "aka": ["Vivalto Partners", "Vivalto Santé", "Vivalto Group"],
+    "type": "cvc",
+    "subtypes": ["family-office", "growth-equity"],
+    "status": "active",
+    "founded_year": 2006,
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "website": "https://www.vivaltopartners.com/en/home-page/",
+    "capital": {
+      "funds": [
+        { "name": "Vivalto Capital I", "vintage_year": 2021, "size": { "raw": "€700 million (final close)" } }
+      ]
+    },
+    "strategy": {
+      "geo_focus": ["France", "Europe"],
+      "sector_focus": ["healthcare-services", "digital-health"],
+      "thesis": "Vivalto is the Caille-family investment holding (founded 2006) that owns France's #3 private hospital group, Vivalto Santé (200+ facilities across 7 countries), and separately deploys growth capital into digital-health startups such as cancer remote-monitoring platform Resilience — giving it both a hospital-provider footprint and a corporate-venture arm in European healthcare."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Resilience", "sector": "digital-health / oncology remote monitoring", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Paris-based, family-owned healthcare investment holding that owns France's #3 private hospital group (Vivalto Santé) and also invests growth capital directly into digital-health startups like Resilience.",
+      "local": "Groupe d'investissement familial base a Paris, proprietaire du 3e groupe hospitalier prive francais (Vivalto Sante) et investisseur direct dans des start-ups de sante numerique comme Resilience."
+    },
+    "sources": [
+      {
+        "url": "https://www.vivaltopartners.com/en/home-page/",
+        "title": "Vivalto Partners, nurturing life together",
+        "publisher": "Vivalto Partners",
+        "accessed": "undefined",
+        "supports": "Official site, healthcare investment focus"
+      },
+      {
+        "url": "https://www.healthcarebusinessinternational.com/frances-regional-hospital-groups-consolidate-as-multiples-increase/",
+        "title": "France's regional hospital groups consolidate as multiples increase",
+        "publisher": "Healthcare Business International",
+        "accessed": "undefined",
+        "supports": "Vivalto Santé's position as France's #3 hospital group and its Resilience partnership",
+        "quote": "Both ELSAN and Vivalto have partnerships with Resilience, a digital health company"
+      },
+      {
+        "url": "https://www.unquote.com/france/news/3026045/vivalto-to-close-first-eur-700m-fund-in-summer",
+        "title": "Vivalto to close first EUR 700m fund in summer",
+        "publisher": "Unquote",
+        "accessed": "undefined",
+        "supports": "Vivalto Capital I fund size"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Structured primarily as a healthcare-focused private-equity/family holding that owns a hospital operator (Vivalto Santé) rather than a pure corporate VC fund of a hospital group; included as the dedicated venture/growth-capital activity of a European hospital group per slice scope. Not to be confused with Vivalto Partners' main buyout activity (out of scope).",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "eu-achmea-innovation-fund",
+    "name": { "en": "Achmea Innovation Fund" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Amsterdam",
+    "website": "https://www.achmeainnovationfund.nl/en/",
+    "capital": {
+      "current_fund": { "raw": "€100 million" }
+    },
+    "strategy": {
+      "geo_focus": ["Europe", "Israel"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "thesis": "Achmea Innovation Fund is the €100m corporate venture arm of Dutch insurer Achmea (parent of health insurer Zilveren Kruis), providing growth capital to startups that make healthcare digital, preventive, accessible and affordable — directly supporting Achmea's ambition to be the Netherlands' largest affordable health insurer."
+    },
+    "summary": {
+      "en": "€100m corporate venture fund (est. 2019) of Dutch insurance group Achmea, backing digital-health and other startups across Europe and Israel that support affordable, preventive healthcare."
+    },
+    "sources": [
+      {
+        "url": "https://www.achmeainnovationfund.nl/en/our-purpose/",
+        "title": "Our purpose - Achmea Innovation Fund",
+        "publisher": "Achmea Innovation Fund",
+        "accessed": "undefined",
+        "supports": "Health-focused investment purpose",
+        "quote": "looking for entrepreneurs who contribute to making healthcare digital, keeping patients fit and other smart healthcare solutions ... to keep healthcare close to the patient, keep healthcare affordable and ultimately make Achmea the largest affordable health insurer in the Netherlands"
+      },
+      {
+        "url": "https://news.achmea.nl/achmea-launches-investment-fund-for-innovative-businesses/",
+        "title": "Achmea launches investment fund for innovative businesses",
+        "publisher": "Achmea",
+        "accessed": "undefined",
+        "supports": "Fund size, founding year, geo focus",
+        "quote": "The Achmea Innovation Fund was founded in 2019 ... The initial size of the fund is €100 million ... prefer to invest in businesses based in Europe & Israel"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  }
+]

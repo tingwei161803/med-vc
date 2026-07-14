@@ -1,0 +1,786 @@
+[
+  {
+    "id": "us-vensana-capital",
+    "name": { "en": "Vensana Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Minneapolis",
+    "offices": [
+      { "country": "United States", "city": "Minneapolis" },
+      { "country": "United States", "city": "McLean" }
+    ],
+    "website": "https://www.vensanacap.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/vensana-capital" },
+    "capital": {
+      "aum": { "raw": "~$1 billion", "usd": 1000000000, "currency": "USD" },
+      "current_fund": { "raw": "$425M", "usd": 425000000, "currency": "USD" },
+      "funds": [
+        { "name": "Vensana Capital Fund I", "vintage_year": 2019, "size": { "raw": "$225M", "usd": 225000000, "currency": "USD" } },
+        { "name": "Vensana Capital Fund II", "vintage_year": 2021, "size": { "raw": "$325M", "usd": 325000000, "currency": "USD" } },
+        { "name": "Vensana Capital Fund III", "vintage_year": 2025, "size": { "raw": "$425M", "usd": 425000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "check_size": { "raw": "$15-50M", "usd_min": 15000000, "usd_max": 50000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "healthcare-services"],
+      "thesis": "Dedicated medtech venture firm investing in late-development and commercial-stage medical device, diagnostics, drug-delivery, digital-health and tech-enabled-services companies. Founded by two former medtech investors who led the medtech practices at NEA and Versant Ventures."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "Justin Klein", "role": "Co-Founder & Managing Director", "background": "MD (Duke), JD (Harvard); former leader of medtech investing practice at NEA" },
+      { "name": "Kirk Nielsen", "role": "Co-Founder & Managing Director", "background": "Former Managing Director leading Versant Ventures' medtech practice; ex-Medtronic (Cardiac Rhythm Management)" }
+    ],
+    "summary": {
+      "en": "Minneapolis-based venture firm investing exclusively in the medtech sector — medical devices, diagnostics, drug delivery, digital health and tech-enabled services — with roughly $1B under management across three funds since 2019."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/medtech/vensana-capital-keeps-momentum-third-medtech-investment-fund-raising-425m", "title": "Vensana Capital keeps up momentum with third medtech investment fund, raising $425M", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Fund III size, ~$1B AUM, check size", "quote": "raising $425M ... bringing its total capital under management to about $1 billion since starting out in 2019 ... commitments in the range of $15-50 million per company" },
+      { "url": "https://www.businesswire.com/news/home/20250109546243/en/Vensana-Capital-Closes-$425-Million-Fund-III-to-Back-Breakthrough-Medical-Technology-Companies", "title": "Vensana Capital Closes $425 Million Fund III to Back Breakthrough Medical Technology Companies", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund III close $425M" },
+      { "url": "https://www.vensanacap.com/our-team/", "title": "Our Team / Vensana Capital", "publisher": "Vensana Capital", "accessed": "undefined", "supports": "Founders, 2019 founding, Minneapolis + Washington DC offices, medtech focus", "quote": "actively investing in late development and commercial stage companies across the medtech sector, including medical devices, diagnostics, drug delivery, digital health, and tech-enabled services" }
+    ],
+    "confidence": "high",
+    "verification_notes": "One aggregator listed HQ as Bay Area, but the firm's own site places HQ in Minneapolis, MN with a Washington, DC-area (McLean, VA) office.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-healthquest-capital",
+    "name": { "en": "HealthQuest Capital" },
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Redwood City",
+    "offices": [{ "country": "United States", "city": "Redwood City" }],
+    "website": "https://www.healthquestcapital.com/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/heathquest-capital-2" },
+    "capital": {
+      "aum": { "raw": "~$2.0 billion", "usd": 2000000000, "currency": "USD" },
+      "funds": [
+        { "name": "HealthQuest Capital I", "vintage_year": 2014, "size": { "raw": "$110 million", "usd": 110000000, "currency": "USD" } },
+        { "name": "HealthQuest Tactical Opportunities Fund", "vintage_year": 2023, "size": { "raw": "$310 million", "usd": 310000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "healthcare-services"],
+      "thesis": "Healthcare-focused growth equity firm investing in commercial-stage innovations across medical devices and technologies, diagnostics/tools, digital health and tech-enabled services that improve patient outcomes while reducing cost."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "OrganOx", "sector": "medtech-devices (organ perfusion)", "outcome": "active — led $142M financing Feb 2025" }
+      ]
+    },
+    "summary": {
+      "en": "Redwood City growth-equity firm managing roughly $2B, backing commercial-stage medical technology, diagnostics, digital health and healthcare-services companies." },
+    "sources": [
+      { "url": "https://growthcapadvisory.com/firms/healthquest-capital/", "title": "HealthQuest Capital", "publisher": "GrowthCap", "accessed": "undefined", "supports": "Founded 2012, ~$2B AUM, Tactical Opportunities Fund $310M, sector focus", "quote": "HealthQuest ... founded in 2012 ... manages approximately $2.0 billion of assets ... launched and closed a Tactical Opportunities Fund in 2023 with $310 million of committed capital" },
+      { "url": "https://www.prnewswire.com/news-releases/healthquest-capital-closes-debut-fund-at-110-million-271810411.html", "title": "HealthQuest Capital Closes Debut Fund at $110 Million", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Debut fund $110M" },
+      { "url": "https://www.healthquestcapital.com/news/organox-completes-142-million-equity-financing-led-by-healthquest-capital", "title": "OrganOx completes $142 million equity financing led by HealthQuest Capital", "publisher": "HealthQuest Capital", "accessed": "undefined", "supports": "OrganOx $142M financing", "quote": "OrganOx ... completed a $142 million primary and secondary equity financing led by HealthQuest Capital" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Also invests in diagnostics/tools; classified here for its heavy medical-technology/device growth practice. Growth-equity rather than early-stage venture.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-sante-ventures",
+    "name": { "en": "Santé Ventures" },
+    "aka": ["Sante Ventures", "Sante"],
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Austin",
+    "offices": [{ "country": "United States", "city": "Austin" }],
+    "website": "https://sante.com/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/sante-ventures" },
+    "capital": {
+      "current_fund": { "raw": "$330 million", "usd": 330000000, "currency": "USD" },
+      "funds": [
+        { "name": "Santé Ventures Fund IV", "vintage_year": 2021, "size": { "raw": "$260 million", "usd": 260000000, "currency": "USD" } },
+        { "name": "Santé Ventures Fund V", "vintage_year": 2026, "size": { "raw": "$330 million", "usd": 330000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "therapeutics", "digital-health", "healthcare-services"],
+      "thesis": "Early-stage healthcare/life-science firm backing innovative medtech, biotech and digitally enabled healthcare companies, focused on areas of clinical complexity, capital inefficiency, or outdated care-delivery models."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "software-samd"], "company_creation": true },
+    "summary": {
+      "en": "Austin, Texas early-stage investor across medtech, biotech and digital health; closed its fifth fund at $330M in 2026, its largest to date." },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/early-stage-investor-sante-ventures-gins-330m-spread-across-biotech-medtech-and-digital", "title": "Santé Ventures closes $330M fund for biotech, medtech and more", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Fund V $330M, medtech/biotech/digital focus, Austin, early-stage" },
+      { "url": "https://sante.com/sante-ventures-raises-330-million-for-fifth-fund-to-advance-breakthrough-healthcare-innovation", "title": "Santé Ventures Raises $330 Million for Fifth Fund", "publisher": "Santé", "accessed": "undefined", "supports": "Fund V $330M largest raise; medtech/biotech/digital health", "quote": "innovative biotechnology, medtech and digitally enabled healthcare companies ... largest raise in the firm's history" },
+      { "url": "https://www.prnewswire.com/news-releases/sante-ventures-raises-260-million-in-fourth-fund-301378469.html", "title": "Santé Ventures Raises $260 Million in Fourth Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund IV $260M (2021)" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Straddles the therapeutics slice (also backs biotech); included here for its dedicated medtech/device practice. Company-creation active.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-us-venture-partners",
+    "name": { "en": "U.S. Venture Partners" },
+    "aka": ["USVP"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1981,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Menlo Park",
+    "offices": [{ "country": "United States", "city": "Menlo Park" }],
+    "website": "https://www.usvp.com/",
+    "links": { "other": ["https://en.wikipedia.org/wiki/U.S._Venture_Partners"] },
+    "capital": {
+      "aum": { "raw": "over $4.3 billion invested since inception", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "check_size": { "raw": "$5M-$10M", "usd_min": 5000000, "usd_max": 10000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States", "Israel"],
+      "sector_focus": ["medtech-devices", "therapeutics", "healthcare-it", "digital-health"],
+      "thesis": "Silicon Valley multi-sector VC (cybersecurity, enterprise, consumer, healthcare) whose dedicated healthcare team focuses on therapeutic medical devices enabling new or less-invasive procedures, plus targeted therapeutics and IT-enabled healthcare services."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "software-samd"] },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Inari Medical", "sector": "medtech-devices (venous thromboembolism)", "outcome": "IPO" },
+        { "company": "Inspire Medical Systems", "sector": "medtech-devices (sleep apnea neurostim)", "outcome": "IPO" },
+        { "company": "Intersect ENT", "sector": "medtech-devices (ENT)", "outcome": "IPO / acquired" },
+        { "company": "Route 92 Medical", "sector": "medtech-devices (neurovascular)", "outcome": "active" },
+        { "company": "HeartFlow", "sector": "medtech-devices (cardiac imaging analysis)", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Menlo Park VC founded in 1981; multi-sector but with a long-standing dedicated healthcare team investing in therapeutic medical devices, biotech and health IT, typically leading Series A/B rounds." },
+    "sources": [
+      { "url": "https://www.usvp.com/about/", "title": "About - USVP", "publisher": "U.S. Venture Partners", "accessed": "undefined", "supports": "Founded 1981, $4.3B invested, 524 companies/93 IPOs, medtech focus, check size, US/Israel", "quote": "USVP healthcare team has a unique competence in investing in medical devices, biotechnology and healthcare information technology ... therapeutic medical devices that enable new or less invasive procedures" },
+      { "url": "https://www.usvp.com/", "title": "U.S. Venture Partners", "publisher": "U.S. Venture Partners", "accessed": "undefined", "supports": "HQ Menlo Park, healthcare among four core sectors" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist Silicon Valley VC; qualifies for this slice via a dedicated healthcare/medical-device practice rather than being a pure device fund. Investment/IPO totals are firm-wide across all sectors.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-accelmed-partners",
+    "name": { "en": "Accelmed Partners" },
+    "aka": ["Accelmed"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [
+      { "country": "United States", "city": "New York" },
+      { "country": "Israel", "city": "Herzliya" }
+    ],
+    "website": "https://accelmed.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/accelmed" },
+    "capital": {
+      "aum": { "raw": "over $630 million of equity capital", "usd": 630000000, "currency": "USD" },
+      "current_fund": { "raw": "$400 million", "usd": 400000000, "currency": "USD" },
+      "funds": [
+        { "name": "Accelmed Partners II", "vintage_year": 2021, "size": { "raw": "$400 million", "usd": 400000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "$10-50M per transaction", "usd_min": 10000000, "usd_max": 50000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "life-science-tools", "digital-health", "healthcare-services"],
+      "thesis": "Lower-middle-market private-equity firm acquiring and investing in mature, U.S.-based commercial-stage HealthTech companies (revenues typically $20M-$70M) across medical devices, diagnostics, tools, digital health and tech-enabled services, with control-oriented, operationally intensive value creation."
+    },
+    "summary": {
+      "en": "New York-based lower-middle-market HealthTech private-equity firm (>$630M equity capital) targeting control-oriented investments in commercial-stage medical-device and healthtech companies; founded by Dr. Uri Geiger." },
+    "sources": [
+      { "url": "https://accelmed.com/about", "title": "Accelmed | About Us", "publisher": "Accelmed", "accessed": "undefined", "supports": "US-based PE, >$630M equity, $10-50M checks, ~20 healthtech companies, founded 2009 by Uri Geiger and Mori Arkin", "quote": "lower middle-market private equity firm focused on acquiring and investing in ... commercial-stage HealthTech companies ... currently manages over $630 million of equity capital" },
+      { "url": "https://www.businesswire.com/news/home/20210317005204/en/Accelmed-Partners-Raises-$400-Million-to-Invest-in-Commercial-Stage-HealthTech", "title": "Accelmed Partners Raises $400 Million to Invest in Commercial Stage HealthTech", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund II $400M; revenue $20-70M targets; medical devices/diagnostics/digital health/services", "quote": "acquiring and investing in mature, U.S. based, commercial-stage HealthTech companies ... revenues typically between $20 million and $70 million" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Israeli-founded group; this row is the U.S. private-equity arm (Accelmed Partners, New York). The separate early-stage Accelmed Ventures is Herzliya, Israel-based and belongs to the Israel slice. Classified as growth-equity/PE, not early-stage VC.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-the-vertical-group",
+    "name": { "en": "The Vertical Group" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1989,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Summit",
+    "offices": [
+      { "country": "United States", "city": "Summit" },
+      { "country": "United States", "city": "San Mateo" }
+    ],
+    "website": "https://www.vertical-group.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/the-vertical-group" },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "Long-established venture firm focused on medical technology (and biotechnology) companies; successor to the venture-capital division of F. Eberstadt & Co., independent since 1988, with principals who have founded and led many medtech companies over 40+ years."
+    },
+    "lifesci": { "modalities": ["medical-hardware"] },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Silk Road Medical", "sector": "medtech-devices (TCAR / stroke prevention)", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "New Jersey-based venture firm (founded 1989) investing in medical-technology and biotech companies, with a multi-decade track record of medtech IPOs and acquisitions." },
+    "sources": [
+      { "url": "https://www.vertical-group.com/", "title": "The Vertical Group - The Company", "publisher": "The Vertical Group", "accessed": "undefined", "supports": "Medtech/biotech focus, successor to F. Eberstadt VC division, independent since 1988", "quote": "The Vertical Group is the successor to the venture capital division of F. Eberstadt & Co., and has been an independent firm since 1988" },
+      { "url": "https://tracxn.com/d/venture-capital/the-vertical-group/__WwVaKUt35dMuiiMjMTb0FW9GUpPY9rn7MQ8SGZG-RNU", "title": "The Vertical Group - Investor Profile", "publisher": "Tracxn", "accessed": "undefined", "supports": "Founded 1989, Summit NJ, medtech focus, IPO/acquisition count" }
+    ],
+    "confidence": "high",
+    "verification_notes": "HQ variously reported as Summit or Basking Ridge, NJ, with a San Mateo, CA office. An aggregator listed Hinge Health/Omada among portfolio, which appear to be data conflation (those are digital-health firms); Silk Road Medical is a verified device holding. Fund sizes not publicly disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-arboretum-ventures",
+    "name": { "en": "Arboretum Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Ann Arbor",
+    "offices": [{ "country": "United States", "city": "Ann Arbor" }],
+    "website": "https://www.arboretumvc.com/",
+    "links": { "other": ["https://michiganvca.org/investor/arboretum-ventures/"] },
+    "capital": {
+      "aum": { "raw": "$1 billion across six funds", "usd": 1000000000, "currency": "USD" },
+      "current_fund": { "raw": "$268 million", "usd": 268000000, "currency": "USD" },
+      "funds": [
+        { "name": "Arboretum Ventures Fund VI", "vintage_year": 2023, "size": { "raw": "$268 million", "usd": 268000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "life-science-tools", "healthcare-services"],
+      "thesis": "Capital-efficient healthcare venture firm investing in medical devices, life-science tools & diagnostics, and tech-enabled care delivery; historically deploys ~75% of capital into 'under-ventured' geographies outside the coastal hubs."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": ["oncology", "cardiovascular", "infectious-disease", "respiratory", "nephrology-urology", "musculoskeletal-orthopedics"]
+    },
+    "track_record": {
+      "portfolio_count": "60+",
+      "notable_investments": [
+        { "company": "NeuMoDx Molecular", "sector": "diagnostics/medtech", "outcome": "acquired by QIAGEN" }
+      ]
+    },
+    "summary": {
+      "en": "Ann Arbor, Michigan healthcare VC (founded 2002) managing ~$1B across six funds, focused on capital-efficient medical device, diagnostics/tools and tech-enabled care-delivery companies, often in Midwest/under-ventured regions." },
+    "sources": [
+      { "url": "https://www.arboretumvc.com/arboretum-ventures-exceeds-target-with-268-million-sixth-fund/", "title": "Arboretum Ventures Exceeds Target with $268 Million Sixth Fund", "publisher": "Arboretum Ventures", "accessed": "undefined", "supports": "Fund VI $268M, ~$1B AUM across six funds", "quote": "$268 million ... $1 billion in capital across its funds" },
+      { "url": "https://www.arboretumvc.com/approach/", "title": "Venture Capital in Healthcare, Med Tech Investors | Arboretum Ventures", "publisher": "Arboretum Ventures", "accessed": "undefined", "supports": "Focus on medical devices, tools & diagnostics, tech-enabled care; 75% under-ventured; founded 2002" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-cultivate-md",
+    "name": { "en": "cultivate(MD)" },
+    "aka": ["Cultivate(MD) Capital", "CultivateMD"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Grand Rapids",
+    "offices": [{ "country": "United States", "city": "Grand Rapids" }],
+    "website": "https://cultivate-md.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/cultivate-md" },
+    "capital": {
+      "funds": [
+        { "name": "cultivate(MD) Capital Fund I", "vintage_year": 2017, "size": { "raw": "$30 million", "usd": 30000000, "currency": "USD" } },
+        { "name": "cultivate(MD) Focus Fund", "vintage_year": 2026, "size": { "raw": "targeting $50 million", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "surgical-robotics"],
+      "thesis": "Medical-device venture fund backing early-stage device and orthopedic-technology companies, leveraging a seasoned clinical/operating team to guide products to market and exit."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "lab-automation"],
+      "indications": ["musculoskeletal-orthopedics"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Virtual Incision", "sector": "surgical-robotics", "outcome": "active — robotic-assisted abdominal surgery" },
+        { "company": "Shoulder Innovations", "sector": "medtech-devices (orthopedics)", "outcome": "active — $42M Series D (2023)" }
+      ]
+    },
+    "summary": {
+      "en": "Grand Rapids, Michigan medical-device VC (founded 2017) investing in early-stage device and orthopedic companies across a family of seed, accelerator and focus funds." },
+    "sources": [
+      { "url": "https://cultivate-md.com/", "title": "cultivate(MD) | A Unique Approach to Medical Device Venture Capital", "publisher": "cultivate(MD)", "accessed": "undefined", "supports": "Medical device VC, Grand Rapids, fund family" },
+      { "url": "https://www.crainsgrandrapids.com/health-care/cgr-cultivatemd-capital-raise-20260521/", "title": "Cultivate(MD)'s fifth venture fund seeks to raise $50 million", "publisher": "Crain's Grand Rapids Business", "accessed": "undefined", "supports": "Focus Fund fifth vehicle targeting $50M; Virtual Incision investment", "quote": "The Grand Rapids-based Cultivate(MD)'s new Focus Fund L.P. has made four investments already ... Virtual Incision Corp." },
+      { "url": "https://www.crainsgrandrapids.com/news/banking-finance/new-30m-vc-fund-aims-to-get-medical-devices-to-market/", "title": "New $30M VC fund aims to get medical devices to market", "publisher": "Crain's Grand Rapids Business", "accessed": "undefined", "supports": "$30M fund, medical device and orthopedic emphasis, founded 2017" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-catalyst-health-ventures",
+    "name": { "en": "Catalyst Health Ventures" },
+    "aka": ["CHV"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1998,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Braintree",
+    "offices": [{ "country": "United States", "city": "Braintree" }],
+    "website": "https://chv.vc/about/",
+    "links": { "crunchbase": "https://www.cbinsights.com/investor/catalyst-health-ventures" },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Early-stage venture firm writing some of the first checks into unproven medical devices; invests in therapeutic and technology-enabled medical devices, diagnostic devices and digital health that enhance patient outcomes."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "software-samd"], "company_creation": true },
+    "people": [
+      { "name": "Darshana Zaveri", "role": "Co-Founder & co-Managing Partner" },
+      { "name": "Joshua Phillips", "role": "co-Managing Partner" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "nVision Medical", "sector": "medtech-devices (women's health)", "outcome": "acquired (Boston Scientific)" },
+        { "company": "Augmenix", "sector": "medtech-devices (radiation oncology)", "outcome": "acquired (Boston Scientific)" },
+        { "company": "Vortex Medical", "sector": "medtech-devices (thrombectomy)", "outcome": "acquired" },
+        { "company": "Sera Prognostics", "sector": "diagnostics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Braintree, Massachusetts early-stage medtech VC investing in therapeutic and technology-enabled medical devices, diagnostics and digital health; among the first-check investors in unproven device startups." },
+    "sources": [
+      { "url": "https://chv.vc/about/", "title": "About – Catalyst Health Ventures", "publisher": "Catalyst Health Ventures", "accessed": "undefined", "supports": "Founded 1998, Braintree MA, first checks into medical devices since 2008, focus areas", "quote": "since 2008, the Managing Partners have been writing some of the first checks into unproven medical devices" },
+      { "url": "https://www.forbes.com/sites/shimiteobialo/2026/06/01/how-catalyst-health-ventures-found-a-sweet-spot-in-early-stage-medtech/", "title": "How Catalyst Health Ventures Found a Sweet Spot In Early-Stage MedTech", "publisher": "Forbes", "accessed": "undefined", "supports": "Early-stage medtech focus" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-rivervest-venture-partners",
+    "name": { "en": "RiverVest Venture Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "St. Louis",
+    "offices": [
+      { "country": "United States", "city": "St. Louis" },
+      { "country": "United States", "city": "San Diego" },
+      { "country": "United States", "city": "Cleveland" }
+    ],
+    "website": "https://rivervest.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/rivervest-venture-partners" },
+    "capital": {
+      "aum": { "raw": "approximately $750 million", "usd": 750000000, "currency": "USD" },
+      "current_fund": { "raw": "$275M", "usd": 275000000, "currency": "USD" },
+      "funds": [
+        { "name": "RiverVest Venture Fund V", "vintage_year": 2021, "size": { "raw": "$275 million", "usd": 275000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "Founds and funds early-stage biopharmaceutical and medical-device companies addressing significant unmet needs; leads financings and provides scientific, clinical, regulatory and reimbursement guidance."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "small-molecule"], "company_creation": true },
+    "track_record": {
+      "portfolio_count": "60+",
+      "exits": [
+        { "company": "Lumena Pharmaceuticals", "type": "M&A", "year": 2014, "value": { "raw": "~$400M to investors", "usd": 400000000, "currency": "USD" } }
+      ]
+    },
+    "summary": {
+      "en": "St. Louis-based life-science VC (founded 2000, ~$750M AUM) that builds and funds early-stage biopharma and medical-device companies, with offices in San Diego and Cleveland." },
+    "sources": [
+      { "url": "https://rivervest.com/about/", "title": "About | RiverVest", "publisher": "RiverVest Venture Partners", "accessed": "undefined", "supports": "Founded 2000, ~$750M AUM, 60+ companies, biopharma + medical devices, offices", "quote": "founded in 2000, the firm builds and funds life-science companies, focused on biopharmaceuticals and medical devices ... assets under management of approximately $750 million" },
+      { "url": "https://rivervest.com/2021/03/23/rivervest-venture-partners-closes-275-million-life-sciences-fund/", "title": "RiverVest Venture Partners Closes $275 Million Life Sciences Fund", "publisher": "RiverVest Venture Partners", "accessed": "undefined", "supports": "Fund V $275M" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Invests in both biopharma and medical devices; medical devices are a core, long-standing part of the strategy.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-aphelion-capital",
+    "name": { "en": "Aphelion Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2005,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Mill Valley",
+    "offices": [{ "country": "United States", "city": "Mill Valley" }],
+    "website": "https://www.aphelioncapital.net/",
+    "links": { "linkedin": "https://www.linkedin.com/company/aphelion-capital" },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "$1-5M on average", "usd_min": 1000000, "usd_max": 5000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "digital-health"],
+      "thesis": "Healthcare VC investing in capital-efficient early- and mid-stage medical-device and digital-health products/services that improve patient outcomes at the same or lower cost, favoring low capital requirements and short timelines to market."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "software-samd"] },
+    "people": [
+      { "name": "Ned Scheetz", "role": "Managing Partner" }
+    ],
+    "summary": {
+      "en": "Mill Valley (SF Bay Area) healthcare VC founded in 2005, investing in capital-efficient early/mid-stage medical device and digital-health companies." },
+    "sources": [
+      { "url": "https://www.aphelioncapital.net/", "title": "Home | Aphelion Capital", "publisher": "Aphelion Capital", "accessed": "undefined", "supports": "Focus on early/mid-stage medical device and digital health; capital-efficiency thesis", "quote": "invests in early and mid stage medical device and digital health companies" },
+      { "url": "https://pitchbook.com/profiles/investor/51480-28", "title": "Aphelion Capital investment portfolio", "publisher": "PitchBook", "accessed": "undefined", "supports": "Founded 2005, Mill Valley CA, check size" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-sightline-partners",
+    "name": { "en": "SightLine Partners" },
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Minneapolis",
+    "offices": [{ "country": "United States", "city": "Minneapolis" }],
+    "website": "https://www.crunchbase.com/organization/sightline-partners",
+    "capital": {
+      "funds": [
+        { "name": "SightLine Healthcare Opportunity Fund II", "vintage_year": 2013, "size": { "raw": "$107 million", "usd": 107000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "check_size": { "raw": "$2M-$8M per transaction", "usd_min": 2000000, "usd_max": 8000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "diagnostics"],
+      "thesis": "Alternative investment manager providing custom equity financing, growth capital, bridge financing and direct secondaries for late-/growth-stage medical-device and diagnostic companies; successor to Piper Jaffray Ventures' healthcare VC operations."
+    },
+    "lifesci": { "modalities": ["medical-hardware"] },
+    "summary": {
+      "en": "Minneapolis growth-capital/secondary firm (formed 2004) providing custom equity financing to late-stage medical-device and diagnostic companies; spun out of Piper Jaffray's healthcare venture arm." },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/medical-devices/sightline-raises-107m-fund-for-med-tech-investments", "title": "SightLine raises $107M fund for med tech investments", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Fund II $107M, medtech focus" },
+      { "url": "https://www.transacted.io/profiles/fund-managers/sightline-partners", "title": "SightLine Partners Profile", "publisher": "Transacted", "accessed": "undefined", "supports": "Minneapolis, late-stage medical device/diagnostics, $2-8M checks, successor to Piper Jaffray Ventures", "quote": "provides late-stage medical device and diagnostic companies with creative financing solutions" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Focuses on growth-stage/secondary financing rather than primary early-stage venture; most recent named fund ($107M) dates to 2013, though the firm continued making investments (e.g., Preceptis Medical, 2026).",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-ajax-health",
+    "name": { "en": "Ajax Health" },
+    "type": "venture-studio",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Menlo Park",
+    "offices": [
+      { "country": "United States", "city": "Menlo Park" },
+      { "country": "United States", "city": "New York" },
+      { "country": "United States", "city": "Los Angeles" },
+      { "country": "United States", "city": "Austin" }
+    ],
+    "website": "https://ajaxhealth.com/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/ajax-health" },
+    "capital": {
+      "funds": [
+        { "name": "Founding investment (KKR, Aisling, Rohlen)", "vintage_year": 2017, "size": { "raw": "$95 million", "usd": 95000000, "currency": "USD" } },
+        { "name": "Series B round", "vintage_year": null, "size": { "raw": "$120M", "usd": 120000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "surgical-robotics"],
+      "thesis": "Medtech company-builder/holding company (backed by KKR) that partners with medical-device leaders to create dedicated platforms aggregating and developing device assets within a therapeutic area — e.g., heart-rhythm electrophysiology and structural heart — targeting fast exits."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "ai-ml-platform"], "company_creation": true, "indications": ["cardiovascular"] },
+    "people": [
+      { "name": "Duke Rohlen", "role": "Founder, Chairman & CEO", "background": "Serial medtech entrepreneur; sold four medtech companies 2007-2019" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Cortex", "sector": "medtech-devices (AFib ablation)", "outcome": "active — established with $90M led by KKR and Hellman & Friedman" }
+      ]
+    },
+    "summary": {
+      "en": "Menlo Park medtech company-builder backed by KKR that founds and scales medical-device platforms (heart-rhythm electrophysiology, structural heart) around a fast-exit innovation model." },
+    "sources": [
+      { "url": "https://ajaxhealth.com/team/", "title": "Team - Ajax Health", "publisher": "Ajax Health", "accessed": "undefined", "supports": "HQ Menlo Park + NYC/LA/Austin offices, leadership, KKR-backed platform model", "quote": "Ajax Health is headquartered in Menlo Park, CA with offices in New York City, Los Angeles, and Austin" },
+      { "url": "https://www.fiercebiotech.com/medtech/ajax-health-raises-another-85m-to-build-out-medtech-companies", "title": "Ajax Health raises another $85M to build out medtech companies", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Company-building model, $95M 2017 formation, funding" },
+      { "url": "https://www.businesswire.com/news/home/20231129739853/en/KKR-Hologic-and-Ajax-Health-Create-New-Platform-to-Accelerate-Medical-Device-Innovation", "title": "KKR, Hologic and Ajax Health Create New Platform to Accelerate Medical Device Innovation", "publisher": "Business Wire", "accessed": "undefined", "supports": "KKR backing, platform-creation model with medtech partners" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Structured as a KKR-backed holding company / company-builder rather than a traditional LP fund; classified as venture-studio with a growth-equity subtype.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-biostar-capital",
+    "name": { "en": "BioStar Capital" },
+    "aka": ["BioStar Ventures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Petoskey",
+    "offices": [{ "country": "United States", "city": "Petoskey" }],
+    "website": "https://www.biostarcapital.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/biostar-capital" },
+    "capital": {
+      "current_fund": { "raw": "$130.3 million", "usd": 130300000, "currency": "USD" },
+      "funds": [
+        { "name": "BioStar Capital Fund V", "vintage_year": 2023, "size": { "raw": "$130.3 million", "usd": 130300000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "surgical-robotics"],
+      "thesis": "Physician-led venture firm focused on transformative medical technologies in cardiovascular disease, orthopedics and robotics; integrates key-opinion-leader physicians ('Medical Venture Partners') directly into the general partnership."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "lab-automation"],
+      "indications": ["cardiovascular", "musculoskeletal-orthopedics"]
+    },
+    "people": [
+      { "name": "Louis Cannon, MD", "role": "Founder", "background": "Interventional cardiologist, innovator and educator" },
+      { "name": "Alan Davis, MD", "role": "Partner", "background": "Orthopedic surgeon, Emeritus Staff, Cleveland Clinic" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Amplitude Vascular Systems", "sector": "medtech-devices (intravascular lithotripsy)", "outcome": "active" },
+        { "company": "Medical Microinstruments (MMI)", "sector": "surgical-robotics (microsurgery robot)", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Petoskey, Michigan physician-led venture firm investing in cardiovascular, orthopedic and robotic medical-device companies; closed its fifth fund at $130.3M in 2023." },
+    "sources": [
+      { "url": "https://www.businesswire.com/news/home/20231206698931/en/BioStar-Capital-Closes-Fund-V-at-%24130.3-Million-Surpassing-Previous-Funds", "title": "BioStar Capital Closes Fund V at $130.3 Million", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund V $130.3M, focus areas, physician-GP model, portfolio", "quote": "focusing on transformative medical technologies primarily in the fields of cardiovascular disease, orthopedics, and robotics ... closed its fifth fund at $130.3 million" },
+      { "url": "https://www.biostarcapital.com/", "title": "BioStar Capital - Visionary Healthcare Investors", "publisher": "BioStar Capital", "accessed": "undefined", "supports": "Physician-led medtech VC; founded 2002; Petoskey MI" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-lightstone-ventures",
+    "name": { "en": "Lightstone Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "Menlo Park" },
+      { "country": "Ireland", "city": "Dublin" }
+    ],
+    "website": "https://www.lightstonevc.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/lightstone-ventures" },
+    "capital": {
+      "aum": { "raw": "$850 million total raised since inception", "usd": 850000000, "currency": "USD" },
+      "current_fund": { "raw": "$375 million", "usd": 375000000, "currency": "USD" },
+      "funds": [
+        { "name": "Lightstone Ventures Fund I", "vintage_year": 2014, "size": { "raw": "$172 million", "usd": 172000000, "currency": "USD" } },
+        { "name": "Lightstone Ventures Fund II", "vintage_year": 2017, "size": { "raw": "$250 million", "usd": 250000000, "currency": "USD" } },
+        { "name": "Lightstone Ventures Fund III", "vintage_year": 2021, "size": { "raw": "$375 million", "usd": 375000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States", "Europe"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "Venture firm backing entrepreneurs building industry-first biotech and medtech products; the medtech/medical-device practice (led from the Boston office) is a dedicated pillar alongside biopharma."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "small-molecule", "biologics-antibody"] },
+    "people": [
+      { "name": "Jean George", "role": "Managing Partner", "background": "Focuses on biopharmaceutical and medical-device investments from the Boston office" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Claret Medical", "sector": "medtech-devices (cerebral embolic protection)", "outcome": "acquired (Boston Scientific)" },
+        { "company": "MicroVention", "sector": "medtech-devices (neurovascular)", "outcome": "acquired (Terumo)" },
+        { "company": "Twelve", "sector": "medtech-devices (transcatheter mitral valve)", "outcome": "acquired (Medtronic)" }
+      ]
+    },
+    "summary": {
+      "en": "Boston/Menlo Park/Dublin venture firm (founded 2012, ~$850M raised) investing in both biotech and medtech, with a dedicated medical-device practice behind exits such as Claret Medical and Twelve." },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/lightstone-snags-its-largest-fund-yet-375m-geared-toward-biotechs-medtechs", "title": "Lightstone snags largest fund yet with $375M geared toward next biotechs, medtechs", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Fund III $375M, biotech + medtech focus, offices, fund history", "quote": "$375M geared toward next biotechs, medtechs ... offices in Boston, Mass., Menlo Park, Calif., and Dublin, Ireland" },
+      { "url": "https://www.lightstonevc.com/", "title": "Lightstone Ventures", "publisher": "Lightstone Ventures", "accessed": "undefined", "supports": "Founded 2012, biotech + medtech thesis" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Invests in both biotech and medtech; included for its dedicated medical-device practice. Also has a Dublin, Ireland office (Europe), but the firm is U.S.-headquartered in Boston.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-sonder-capital",
+    "name": { "en": "Sonder Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Carlos",
+    "offices": [{ "country": "United States", "city": "San Carlos" }],
+    "website": "https://sondercapital.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/sonder-capital" },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "$1-8M (sweet spot ~$5M)", "usd_min": 1000000, "usd_max": 8000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "diagnostics"],
+      "thesis": "Foundational early-stage investor in medical device, diagnostic and healthtech companies, targeting AI-enabled medical robotics, minimally invasive therapies and diagnostics; co-founded by Intuitive Surgical co-founder Fred Moll."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "ai-ml-platform", "software-samd"] },
+    "people": [
+      { "name": "Fred Moll, MD", "role": "Co-Founder", "background": "Co-founder of Intuitive Surgical and Auris Health; pioneer of surgical robotics" },
+      { "name": "Jay Watkins", "role": "Co-Founder" }
+    ],
+    "summary": {
+      "en": "San Carlos (SF Bay Area) seed/Series A medtech VC co-founded in 2019 by surgical-robotics pioneer Fred Moll, investing in AI-enabled medical robotics, minimally invasive therapies and diagnostics." },
+    "sources": [
+      { "url": "https://sondercapital.com/", "title": "Sonder Capital | Investing in early stage medtech startups", "publisher": "Sonder Capital", "accessed": "undefined", "supports": "Seed/Series A medical device, diagnostic, healthtech; robotics/minimally-invasive thesis; founders", "quote": "invests in teams and technologies that can transform healthcare in the medical device, diagnostic and healthtech sectors" },
+      { "url": "https://signal.nfx.com/firms/sonder-capital", "title": "Sonder Capital - Venture Capital Firm", "publisher": "NFX Signal", "accessed": "undefined", "supports": "Founded 2019, San Carlos CA, check size, Fred Moll / Jay Watkins" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-kck-medtech",
+    "name": { "en": "KCK MedTech" },
+    "aka": ["KCK Medical Technologies Group", "KCK Group"],
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.kckmedtech.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/kck-medtech" },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices"],
+      "thesis": "Evergreen family-office capital (KCK Group) investing across all stages of medical-technology companies — from early stage to growth to public — run by a team of former medtech operators, with long-term flexible capital and no fixed fund timeline."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "neurotech-bci"] },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Earlens", "sector": "medtech-devices (hearing)", "outcome": "active — led $87M round" },
+        { "company": "RefleXion Medical", "sector": "medtech-devices (radiotherapy)", "outcome": "active" },
+        { "company": "NeuroPace", "sector": "medtech-devices / neurotech", "outcome": "IPO" },
+        { "company": "Sight Sciences", "sector": "medtech-devices (ophthalmology)", "outcome": "IPO" },
+        { "company": "Mainstay Medical", "sector": "medtech-devices (neurostim)", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Medtech-dedicated arm of the KCK Group family office, an evergreen investor deploying long-term flexible capital across all stages of medical-device companies, staffed by former medtech operators." },
+    "sources": [
+      { "url": "https://www.kckmedtech.com/", "title": "KCK Medtech", "publisher": "KCK MedTech", "accessed": "undefined", "supports": "Evergreen family-office capital, all stages, former-operator team, medtech focus", "quote": "As an evergreen fund, our capital is flexible and long term oriented ... we are all former operators who have spent time in leadership roles at medical technology companies" },
+      { "url": "https://www.gsmedtech.com/GS/NewsDetails/Earlens-Corporation-Raises-$87M-Led-by-KCK-Medical-Technologies-Group", "title": "Earlens Corporation Raises $87M Led by KCK Medical Technologies Group", "publisher": "GS MedTech", "accessed": "undefined", "supports": "Led $87M Earlens round" },
+      { "url": "https://tracxn.com/d/venture-capital/kckmedtech/__9EVH0agwDOV_SPtuv_1kXBT7GomoIBA_NEqFLXIJXyA", "title": "KCK MedTech - Investor Profile", "publisher": "Tracxn", "accessed": "undefined", "supports": "Founded 2015, portfolio companies" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Medtech-investing arm of the KCK Group, a multi-billion-AUM family office; specific U.S. office city not confirmed. Evergreen structure rather than discrete fund vintages.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "us-broadview-ventures",
+    "name": { "en": "Broadview Ventures" },
+    "type": "venture-philanthropy",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [{ "country": "United States", "city": "Boston" }],
+    "website": "https://broadviewventures.org/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/broadview-ventures" },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Europe"],
+      "sector_focus": ["medtech-devices", "diagnostics"],
+      "thesis": "Venture-philanthropy vehicle of the Leducq Charitable Trust providing seed and early-stage equity to companies developing technologies for the diagnosis and treatment of cardiovascular disease and stroke; follow-on capital via affiliated Longview Ventures."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": ["cardiovascular", "neurology"]
+    },
+    "people": [
+      { "name": "Christopher Colecchi", "role": "Lead / Managing Director", "background": "Leads Boston investment team of physicians, scientists and business professionals" }
+    ],
+    "summary": {
+      "en": "Boston-based venture-philanthropy investment vehicle of the Leducq Charitable Trust, funding seed and early-stage cardiovascular and neurovascular (stroke) diagnostic and device technologies." },
+    "sources": [
+      { "url": "https://broadviewventures.org/about-us/", "title": "About Us - Broadview Ventures", "publisher": "Broadview Ventures", "accessed": "undefined", "supports": "Founded 2009, seed/early-stage equity, cardiovascular/stroke device+diagnostics, Leducq Charitable Trust vehicle, Boston team", "quote": "established in 2009 to address the translational gap, providing seed and early-stage funding via equity investments in companies developing innovative technologies for the diagnosis and treatment of cardiovascular disease and stroke" },
+      { "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6113201/", "title": "Broadview Ventures: Investing in the Future of Cardiovascular Technology", "publisher": "JACC: Basic to Translational Science (NIH PMC)", "accessed": "undefined", "supports": "Cardiovascular/neurovascular focus, Longview Ventures follow-on vehicle, Boston team led by Christopher Colecchi" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Investment vehicle of the Leducq Charitable Trust (venture philanthropy) that makes equity investments like a VC; invests in both U.S. and European companies but is Boston-based.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  }
+]

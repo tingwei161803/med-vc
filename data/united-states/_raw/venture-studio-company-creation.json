@@ -1,0 +1,855 @@
+[
+  {
+    "id": "us-flagship-pioneering",
+    "name": { "en": "Flagship Pioneering" },
+    "aka": ["Flagship Ventures", "Flagship Labs"],
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge, Massachusetts",
+    "website": "https://www.flagshippioneering.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/flagship-pioneering",
+      "crunchbase": "https://www.crunchbase.com/organization/flagship-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "$14 billion (as of July 2024)", "usd": 14000000000, "currency": "USD" },
+      "current_fund": { "raw": "$3.6 billion (2024)", "usd": 3600000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund VIII (+ side funds)", "vintage_year": 2024, "size": { "raw": "$3.6 billion", "usd": 3600000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "genomics-omics"],
+      "thesis": "A biotechnology innovation foundry that originates scientific 'explorations' in-house through Flagship Labs, forms hypotheses, and builds platform companies from inception, acting as principal founder and first institutional investor rather than backing external founders. Its most famous creation is Moderna (mRNA vaccines/therapeutics)."
+    },
+    "lifesci": {
+      "modalities": ["rna-therapeutics", "ai-ml-platform", "small-molecule"],
+      "company_creation": true,
+      "science_platform_notes": "Runs internal 'foundries'/Flagship Labs that ideate and validate new science before spinning out operating companies; typically creates 6-8 new companies per year."
+    },
+    "track_record": {
+      "portfolio_count": "100+",
+      "notable_investments": [
+        { "company": "Moderna", "sector": "therapeutics", "outcome": "IPO / COVID-19 vaccine" }
+      ]
+    },
+    "people": [
+      { "name": "Noubar Afeyan", "role": "Founder & CEO", "background": "PhD chemical engineering; serial company-creation investor" }
+    ],
+    "tags": ["company-creation", "platform-biotech", "venture-creation", "foundry"],
+    "summary": {
+      "en": "Cambridge-based biotech venture-creation foundry that invents and builds its own platform companies (e.g. Moderna) in-house rather than investing in external startups; ~$14B AUM as of 2024."
+    },
+    "sources": [
+      { "url": "https://www.flagshippioneering.com/news/press-release/flagship-pioneering-raises-3-6-billion-to-fuel-breakthrough-innovations-that-transform-human-health-and-sustainability", "title": "Flagship Pioneering Raises $3.6 Billion to Fuel Breakthrough Innovations that Transform Human Health and Sustainability", "publisher": "Flagship Pioneering", "accessed": "undefined", "supports": "2024 raise; company-creation mandate", "quote": "Flagship Pioneering Raises $3.6 Billion to Fuel Breakthrough Innovations that Transform Human Health and Sustainability" },
+      { "url": "https://www.biospace.com/business/vc-firm-flagship-raises-3-6b-to-create-support-25-breakthrough-companies", "title": "VC Firm Flagship Raises $3.6B to Create, Support 25 'Breakthrough' Companies", "publisher": "BioSpace", "accessed": "undefined", "supports": "Company creation cadence", "quote": "creating 6-8 new companies each year" },
+      { "url": "https://en.wikipedia.org/wiki/Flagship_Pioneering", "title": "Flagship Pioneering", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founding year, Moderna, >100 ventures", "quote": "Since its launch in 2000, Flagship has originated and fostered more than 100 scientific ventures" }
+    ],
+    "confidence": "high",
+    "verification_notes": "$14B AUM figure is a July 2024 secondary aggregation; the $3.6B 2024 raise comprised ~$2.6B into Fund VIII plus ~$1B in side/strategic funds.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-third-rock-ventures",
+    "name": { "en": "Third Rock Ventures" },
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, Massachusetts",
+    "offices": [
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.thirdrockventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/third-rock-ventures",
+      "crunchbase": "https://www.crunchbase.com/organization/third-rock-ventures"
+    },
+    "capital": {
+      "current_fund": { "raw": "$1.1 billion (Fund VI, 2023)", "usd": 1100000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund VI", "vintage_year": 2023, "size": { "raw": "$1.1 billion", "usd": 1100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Operates a 'Discover-Launch-Build-Transform' company-formation model: instead of investing in fully-formed companies, Third Rock designs a company's strategy, structure and leadership from inception around world-class scientific founders, then funds and builds it."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "gene-editing", "small-molecule"],
+      "indications": ["oncology", "neurology", "psychiatry-mental-health", "cardiovascular", "immunology-inflammation", "rare-disease"],
+      "company_creation": true
+    },
+    "track_record": {
+      "portfolio_count": "73",
+      "notable_investments": [
+        { "company": "Editas Medicine", "sector": "cell-gene-therapy", "outcome": "IPO" },
+        { "company": "Sage Therapeutics", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Agios Pharmaceuticals", "sector": "therapeutics", "outcome": "IPO / FDA-approved" }
+      ]
+    },
+    "people": [
+      { "name": "Mark Levin", "role": "Co-founder & Partner", "background": "Ex-CEO Millennium Pharmaceuticals" },
+      { "name": "Kevin Starr", "role": "Co-founder & Partner", "background": "Ex-Millennium Pharmaceuticals" }
+    ],
+    "tags": ["company-creation", "venture-creation", "therapeutics"],
+    "summary": {
+      "en": "Boston/SF venture-creation firm founded by ex-Millennium Pharmaceuticals executives that builds biotech companies from inception; has raised ~$3.8B since 2007 across 60-70+ companies including Editas, Sage and Agios."
+    },
+    "sources": [
+      { "url": "https://www.thirdrockventures.com/", "title": "Third Rock Ventures — Home", "publisher": "Third Rock Ventures", "accessed": "undefined", "supports": "Model, portfolio count, marketed products", "quote": "Discover. Launch. Build. Transform." },
+      { "url": "https://www.fiercebiotech.com/biotech/third-rock-forever-new-11b-funding-round-will-create-10-new-biotechs", "title": "'Third Rock forever': Firm's latest $1.1B funding round will create 10 new biotechs", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Fund VI size and company-creation intent", "quote": "Firm's latest $1.1B funding round will create 10 new biotechs" },
+      { "url": "https://en.wikipedia.org/wiki/Third_Rock_Ventures", "title": "Third Rock Ventures", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founding, capital raised, portfolio", "quote": "Third Rock Ventures has raised $3.8 billion since it was created and invested in more than 60 companies, including Sage Therapeutics, Editas Medicine, Constellation Pharmaceuticals and Flare Therapeutics." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio count of 73 and '26 marketed products' are from the firm's own site; '~$3.8B raised / 60+ companies' is a secondary (Wikipedia) figure and predates the 2023 Fund VI.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-atlas-venture",
+    "name": { "en": "Atlas Venture" },
+    "type": "venture-studio",
+    "subtypes": ["vc", "incubator"],
+    "status": "active",
+    "founded_year": 1980,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge, Massachusetts",
+    "website": "https://atlasventure.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/atlas-venture",
+      "other": ["https://lifescivc.com/"]
+    },
+    "capital": {
+      "funds": [
+        { "name": "Atlas Venture Fund XIV", "vintage_year": 2024, "size": { "raw": "undisclosed", "usd": null, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "check_size": { "raw": "seed checks from $100Ks to a few $Ms", "usd_min": 100000, "usd_max": 3000000 },
+      "thesis": "'Seed-led' venture creation: partners with scientific and business co-founders to create new biotech companies, writing small seed checks during a 'prove it' incubation phase in Atlas's offices before scaling up capital once key hypotheses are de-risked. Biotech/therapeutics only."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "company_creation": true,
+      "science_platform_notes": "In-house incubation ('Atlas X'/venture creation) where co-founded startups work alongside the firm during the seed 'prove' phase."
+    },
+    "track_record": {
+      "portfolio_count": "92 startups launched",
+      "notable_investments": [
+        { "company": "Nimbus Therapeutics", "sector": "therapeutics", "outcome": "active / partial M&A (Takeda $4B TYK2 deal)" }
+      ],
+      "exits": [
+        { "company": "(portfolio)", "type": "IPO", "year": null }
+      ]
+    },
+    "tags": ["seed-led", "company-creation", "biotech-only", "venture-creation"],
+    "summary": {
+      "en": "Cambridge, MA biotech-only firm built around a seed-led venture-creation model — co-founding therapeutics startups in-house and titrating capital as hypotheses de-risk; reports 92 startups launched, 43 IPOs and 39 M&A exits."
+    },
+    "sources": [
+      { "url": "https://atlasventure.com/", "title": "Atlas Venture — We build breakthrough biotechnology companies", "publisher": "Atlas Venture", "accessed": "undefined", "supports": "Model, track-record metrics", "quote": "We build breakthrough biotechs" },
+      { "url": "https://lifescivc.com/2024/12/atlas-xiv-and-reflections-on-the-vc-math-problem/", "title": "Atlas XIV And Reflections On The VC Math Problem", "publisher": "LifeSciVC (Bruce Booth)", "accessed": "undefined", "supports": "Seed-led venture creation model", "quote": "the firm partners with scientific and business co-founders to create new companies, generally writing small checks initially (from $100Ks to a few $1Ms)" },
+      { "url": "https://en.wikipedia.org/wiki/Atlas_Venture", "title": "Atlas Venture", "publisher": "Wikipedia", "accessed": "undefined", "supports": "HQ, biotech focus", "quote": "Atlas is headquartered in Cambridge, Massachusetts." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Atlas was founded in 1980 as a generalist transatlantic VC and completed a transition to a biotech-only, seed-led venture-creation firm over the 2014-2016 period; track-record metrics (92 startups / 43 IPOs / 39 M&A) are from the firm's own site.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-versant-ventures",
+    "name": { "en": "Versant Ventures" },
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, California",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United States", "city": "San Diego" },
+      { "country": "United States", "city": "New York" },
+      { "country": "Switzerland", "city": "Basel" },
+      { "country": "Canada", "city": "Vancouver" }
+    ],
+    "website": "https://www.versantventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/versant-ventures",
+      "other": ["https://www.versantventures.com/discovery-engines"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["United States", "Europe", "Canada"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Roughly half of capital is deployed into in-house company creation through 'Discovery Engines' — teams of scientists in dedicated lab facilities that translate academic discoveries into launched biotech companies; the other half backs external startups."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "protein-degradation"],
+      "company_creation": true,
+      "science_platform_notes": "Discovery Engines: Inception Sciences (San Diego, est. 2011), Highline Therapeutics (New York, est. 2015), and Ridgeline Discovery (Basel, est. 2017); each launches multiple new companies from academic science."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Monte Rosa Therapeutics", "sector": "therapeutics", "outcome": "IPO (NASDAQ: GLUE)" },
+        { "company": "Black Diamond Therapeutics", "sector": "therapeutics", "outcome": "IPO (NASDAQ: BDTX)" },
+        { "company": "Bright Peak Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "tags": ["discovery-engine", "company-creation", "venture-creation"],
+    "summary": {
+      "en": "Multistage life-science VC whose 'Discovery Engine' labs (Inception in San Diego, Highline in New York, Ridgeline in Basel) build biotech companies in-house from academic discoveries; ~half of capital goes to company creation."
+    },
+    "sources": [
+      { "url": "https://www.versantventures.com/discovery-engines", "title": "Versant Ventures | Discovery Engines", "publisher": "Versant Ventures", "accessed": "undefined", "supports": "In-house company creation model", "quote": "Versant's Discovery Engines comprise in-house teams of multi-disciplinary scientists working in state-of-the-art laboratory facilities to enable the launch of novel biotechnology companies with academic founders." },
+      { "url": "https://ir.monterosatx.com/news-releases/news-release-details/versant-ventures-strengthens-global-team-and-discovery-engine", "title": "Versant Ventures Strengthens Global Team and Discovery Engine Infrastructure", "publisher": "Monte Rosa Therapeutics IR", "accessed": "undefined", "supports": "Discovery Engine companies", "quote": "Ridgeline ... built and operated several new successful companies, including Black Diamond Therapeutics (NASDAQ: BDTX), Bright Peak Therapeutics and Monte Rosa Therapeutics (NASDAQ: GLUE)." },
+      { "url": "https://en.wikipedia.org/wiki/Versant_Ventures", "title": "Versant Ventures", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founding year, dual strategy", "quote": "Versant Ventures employs a dual investment strategy, allocating approximately half of its capital to external investments in established startups and the other half to in-house company creation" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Primarily a multistage life-science VC; included in this slice for its dedicated Discovery Engine company-creation arms. Ridgeline (Basel) and Inception (Vancouver/San Diego) span outside the US, but the firm is US-headquartered (San Francisco) with the Highline engine in New York.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-apple-tree-partners",
+    "name": { "en": "Apple Tree Partners" },
+    "aka": ["ATP"],
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, New York",
+    "website": "https://www.appletreepartners.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/apple-tree-partners",
+      "crunchbase": "https://www.crunchbase.com/organization/apple-tree-partners"
+    },
+    "capital": {
+      "aum": { "raw": "~$6.5 billion fund valuation (2025 filing)", "usd": 6500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Creates and builds life-science companies from pre-IP concepts and academic spinouts through the clinic and IPO, providing flexible capital, entrepreneurs-in-residence and in-house operational resources; founder-controlled evergreen structure."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Supports founded companies with venture partners, EIRs and in-house operational capabilities from concept through commercialization."
+    },
+    "track_record": {
+      "portfolio_count": "~45 companies",
+      "exits": [
+        { "company": "(portfolio)", "type": "IPO", "year": null }
+      ]
+    },
+    "people": [
+      { "name": "Seth L. Harrison", "role": "Founder & Managing Partner", "background": "MD; long-time life-science company creator" }
+    ],
+    "tags": ["company-creation", "evergreen", "therapeutics", "medtech"],
+    "summary": {
+      "en": "New York evergreen life-science firm (est. 1999) that creates and builds biotech, therapeutics and medtech companies from concept through IPO; has invested >$2.5B across ~45 companies."
+    },
+    "sources": [
+      { "url": "https://www.appletreepartners.com/about", "title": "Apple Tree Partners — About", "publisher": "Apple Tree Partners", "accessed": "undefined", "supports": "Company-creation model, founding year", "quote": "Apple Tree Partners (ATP) is a life sciences venture capital firm that creates and builds biotechnology and therapeutics companies." },
+      { "url": "https://www.fiercebiotech.com/biotech/apple-tree-partners-files-chapter-11-bankruptcy-keep-cash-flowing-portfolio-biotechs", "title": "Apple Tree Partners files for bankruptcy to keep cash flowing to portfolio biotechs", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "2025 Chapter 11 status", "quote": "Apple Tree Partners files Chapter 11 bankruptcy to keep cash flowing to portfolio biotechs" },
+      { "url": "https://www.cbinsights.com/investor/apple-tree-partners", "title": "Apple Tree Partners — Investor Profile", "publisher": "CB Insights", "accessed": "undefined", "supports": "Portfolio scale", "quote": "invested over $2.5 billion in approximately 45 biotechnology companies" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "ATP filed for Chapter 11 in 2025 amid a governance dispute, reportedly to keep funding portfolio companies; treated as 'active' but distressed. The ~$6.5B figure is a fund valuation stated at the bankruptcy filing.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-longwood-fund",
+    "name": { "en": "Longwood Fund" },
+    "aka": ["Longwood Founders Fund", "Longwood Founders Management"],
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2010,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, Massachusetts",
+    "website": "https://www.longwoodfund.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/longwood-fund"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Longwood Founders Fund (Fund I)", "vintage_year": 2011, "size": { "raw": "$85 million", "usd": 85000000, "currency": "USD" } },
+        { "name": "Fund V-related commitments", "vintage_year": 2020, "size": { "raw": "$170 million", "usd": 170000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Creates and invests in novel healthcare companies, drawing on the founders' track record of building companies such as Sirtris, Momenta and Alnylam; a founder-led company-creation model in the Boston biotech ecosystem."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "rna-therapeutics", "biologics-antibody"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Sirtris Pharmaceuticals", "sector": "therapeutics", "outcome": "acquired (GSK)" },
+        { "company": "Momenta Pharmaceuticals", "sector": "therapeutics", "outcome": "acquired (J&J)" }
+      ]
+    },
+    "people": [
+      { "name": "Christoph Westphal", "role": "Co-founder & General Partner", "background": "MD/PhD; founder of Sirtris, Alnylam, Momenta" },
+      { "name": "Rich Aldrich", "role": "Co-founder", "background": "Ex-Alkermes; serial biotech company creator" },
+      { "name": "Michelle Dipp", "role": "Co-founder / Partner", "background": "MD/PhD" }
+    ],
+    "tags": ["company-creation", "founder-led", "therapeutics"],
+    "summary": {
+      "en": "Boston venture firm (est. 2010) founded by serial biotech company-creators Christoph Westphal and Rich Aldrich to create and back novel therapeutics companies; first fund $85M, ~$170M in Fund V-related commitments (2020)."
+    },
+    "sources": [
+      { "url": "https://www.longwoodfund.com/about/", "title": "Longwood Fund — About", "publisher": "Longwood Fund", "accessed": "undefined", "supports": "Founding year, company-creation mission", "quote": "dedicated to creating and investing in novel healthcare companies that develop important treatments to help patients" },
+      { "url": "https://www.fiercebiotech.com/biotech/longwood-launches-first-fund", "title": "Longwood Launches First Fund", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "First fund size", "quote": "capped at $85 million" },
+      { "url": "https://www.businesswire.com/news/home/20200723005015/en/Longwood-Fund-Announces-%24170-Million-in-Fund-V-Related-Commitments", "title": "Longwood Fund Announces $170 Million in Fund V-Related Commitments", "publisher": "Business Wire", "accessed": "undefined", "supports": "2020 fund commitments", "quote": "Longwood Fund Announces $170 Million in Fund V-Related Commitments" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders' marquee companies (Sirtris, Momenta, Alnylam) predate the fund and were built by the team; used here to establish the company-creation pedigree.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-column-group",
+    "name": { "en": "The Column Group" },
+    "aka": ["TCG"],
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, California",
+    "website": "https://www.thecolumngroup.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/the-column-group",
+      "crunchbase": "https://www.cbinsights.com/investor/the-column-group"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Science-driven firm that makes significant financial and operational commitments to build early-stage drug-discovery companies around unique scientific platforms, partnering with founders to translate research into companies capable of multiple breakthrough therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "protein-degradation"],
+      "company_creation": true
+    },
+    "track_record": {
+      "portfolio_count": "55 companies started/backed",
+      "exits": [
+        { "company": "(portfolio)", "type": "M&A", "year": null }
+      ]
+    },
+    "people": [
+      { "name": "Peter Svennilson", "role": "Founder & Managing Partner", "background": "Founder of Three Crowns Capital; 30+ years biotech VC" }
+    ],
+    "tags": ["science-first", "company-creation", "platform-biotech"],
+    "summary": {
+      "en": "San Francisco science-first venture firm that co-founds and builds drug-discovery companies around novel scientific platforms; has started/invested in ~55 companies with ~18 exits over two decades."
+    },
+    "sources": [
+      { "url": "https://www.thecolumngroup.com/", "title": "The Column Group | TCG", "publisher": "The Column Group", "accessed": "undefined", "supports": "Company-building model", "quote": "makes significant financial and operational commitments to build early stage drug discovery companies based on their unique scientific platforms" },
+      { "url": "https://www.excedr.com/blog/venture-capital-profile-the-column-group", "title": "Investing in Medicine with The Column Group", "publisher": "Excedr", "accessed": "undefined", "supports": "Founding, track record", "quote": "having started and invested in 55 companies ... 18 company exits" },
+      { "url": "https://www.cbinsights.com/investor/the-column-group", "title": "The Column Group — Investor Profile", "publisher": "CB Insights", "accessed": "undefined", "supports": "Firm profile" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year cited variously as 2006 and 2007; portfolio/exit counts are from secondary profiles, not an audited primary source.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-puretech-health",
+    "name": { "en": "PureTech Health" },
+    "aka": ["PureTech", "PureTech Health plc"],
+    "type": "venture-studio",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2005,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, Massachusetts",
+    "website": "https://www.puretechhealth.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/puretech-health",
+      "other": ["https://news.puretechhealth.com/"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "digital-health"],
+      "thesis": "Publicly-listed 'hub-and-spoke' venture-creation platform that originates companies around specific drug-development programs, retains material equity stakes, and provides centralized R&D and management resources. Founded entities include Karuna (acquired by BMS for $14B) and Seaport Therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "digital-therapeutics", "biologics-antibody"],
+      "indications": ["psychiatry-mental-health", "neurology", "immunology-inflammation", "metabolic-obesity"],
+      "company_creation": true,
+      "science_platform_notes": "Hub-and-spoke model with centralized discovery/operational resources feeding founded 'spoke' companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Karuna Therapeutics", "sector": "therapeutics", "outcome": "IPO / acquired by Bristol Myers Squibb (~$14B, 2023)" },
+        { "company": "Seaport Therapeutics", "sector": "therapeutics", "outcome": "active ($100M Series A, 2024)" },
+        { "company": "Akili Interactive", "sector": "digital-health", "outcome": "public (digital therapeutics)" }
+      ]
+    },
+    "people": [
+      { "name": "Daphne Zohar", "role": "Founder (former CEO)", "background": "Serial biotech entrepreneur; founded PureTech" }
+    ],
+    "tags": ["hub-and-spoke", "company-creation", "founded-entities"],
+    "summary": {
+      "en": "Boston-headquartered, London-listed venture-creation company using a hub-and-spoke model to found biotech and digital-health companies; its founded entity Karuna was acquired by Bristol Myers Squibb for ~$14B in 2023."
+    },
+    "sources": [
+      { "url": "https://en.wikipedia.org/wiki/PureTech_Health", "title": "PureTech Health", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founding, model, founded entities", "quote": "Companies which PureTech Health founded include Karuna Pharmaceuticals, Gelesis ..., Akili Interactive Labs ..., Vedanta Biosciences ..., and Follica" },
+      { "url": "https://news.puretechhealth.com/news-releases/news-release-details/puretech-launches-seaport-therapeutics-with-$100-million-oversubscribed-series-a-and-announces-management-transitions/", "title": "PureTech Launches Seaport Therapeutics with $100 Million Oversubscribed Series A", "publisher": "PureTech Health", "accessed": "undefined", "supports": "Recent founded entity", "quote": "PureTech Launches Seaport Therapeutics with $100 Million Oversubscribed Series A" },
+      { "url": "https://www.biopharmadive.com/news/puretech-biotech-incubator-startup-chowrira-elenko/730058/", "title": "PureTech thinks the 'hub-and-spoke' startup model is still a good bet", "publisher": "BioPharma Dive", "accessed": "undefined", "supports": "Hub-and-spoke company-creation model", "quote": "hub-and-spoke" }
+    ],
+    "confidence": "high",
+    "verification_notes": "PureTech is Boston-headquartered but listed on the London Stock Exchange (and has had a Nasdaq ADS listing); it is an operating/holding company that functions as a venture-creation platform rather than a conventional fund.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-cambrian-biopharma",
+    "name": { "en": "Cambrian Biopharma" },
+    "aka": ["Cambrian Bio"],
+    "type": "venture-studio",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, New York",
+    "website": "https://www.cambrianbio.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/cambrian-biopharma",
+      "crunchbase": "https://www.crunchbase.com/organization/cambrian-biopharma"
+    },
+    "capital": {
+      "aum": { "raw": "~$160 million raised since 2019", "usd": 160000000, "currency": "USD" },
+      "funds": [
+        { "name": "Series C", "vintage_year": 2021, "size": { "raw": "$100 million", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["longevity-aging", "therapeutics"],
+      "thesis": "A 'Distributed Development Company' (DisCo) that builds, directs, operates and finances a portfolio of subsidiary therapeutics companies targeting the biological drivers of aging — combining a VC-style shots-on-goal portfolio with pharma-grade in-house drug-development capabilities."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["aging-longevity", "metabolic-obesity", "oncology"],
+      "company_creation": true,
+      "science_platform_notes": "Centralized drug-development team supporting multiple subsidiary programs; 'DisCo' structure."
+    },
+    "track_record": {
+      "portfolio_count": "12+ therapeutics programs (2 in clinical trials)"
+    },
+    "people": [
+      { "name": "James Peyer", "role": "CEO & Co-founder", "background": "PhD stem-cell biology (UT Southwestern); ex-Apollo Ventures managing partner" }
+    ],
+    "tags": ["longevity", "company-creation", "DisCo", "aging"],
+    "summary": {
+      "en": "New York 'Distributed Development Company' that creates and finances a distributed portfolio of subsidiary therapeutics companies targeting aging/longevity; ~$160M raised since 2019 including a $100M Series C in 2021."
+    },
+    "sources": [
+      { "url": "https://www.cambrianbio.com/news-and-publications/test-press-release-cambrian-biopharma-closes-100-million-series-c-to-advance-healthspan-boosting-therapeutics-to-the-clinic", "title": "Cambrian BioPharma Closes $100 Million Series C", "publisher": "Cambrian Biopharma", "accessed": "undefined", "supports": "Series C size, aging focus", "quote": "Cambrian BioPharma Closes $100 Million Series C to Advance Healthspan-boosting Therapeutics to the Clinic" },
+      { "url": "https://www.finsmes.com/2021/10/cambrian-biopharma-raises-100m-in-series-c-funding.html", "title": "Cambrian Biopharma Raises $100M in Series C Funding", "publisher": "FinSMEs", "accessed": "undefined", "supports": "Total raised, founding year, HQ", "quote": "Cambrian has raised approximately $160 million since the company was founded in 2019" },
+      { "url": "https://www.cambrianbio.com/q-a/q-a-with-james-peyer-phd-ceo-and-cofounder-cambrian-biopharma", "title": "Q&A with James Peyer, CEO and Co-Founder", "publisher": "Cambrian Biopharma", "accessed": "undefined", "supports": "DisCo company-creation model", "quote": "Distributed Development Company (DisCo)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Company-creation platform structured as an operating drug developer (DisCo) rather than a fund; funding total (~$160M) is as of the 2021 Series C and may be higher now.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-curie-bio",
+    "name": { "en": "Curie.Bio" },
+    "type": "venture-studio",
+    "subtypes": ["vc", "accelerator"],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge, Massachusetts",
+    "website": "https://curie.bio/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/curie-bio",
+      "crunchbase": "https://www.crunchbase.com/organization/curie-bio"
+    },
+    "capital": {
+      "aum": { "raw": "$520M launch (2023) + $380M Series A fund", "usd": null, "currency": "USD" },
+      "funds": [
+        { "name": "Launch capital", "vintage_year": 2023, "size": { "raw": "$520 million", "usd": 520000000, "currency": "USD" } },
+        { "name": "Series A fund", "vintage_year": 2024, "size": { "raw": "$380 million", "usd": 380000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery"],
+      "check_size": { "raw": "$7 million – $12 million seed", "usd_min": 7000000, "usd_max": 12000000 },
+      "thesis": "A seed investor plus 'drug discovery co-pilot' that co-founds/backs founder-led biotech startups from ground zero through Series A, pairing capital with an in-house network of drug-discovery experts while letting founders retain more ownership and control."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Two-entity structure: a seed-investing vehicle plus a services unit ('co-pilot') that provides drug-discovery expertise to founders."
+    },
+    "people": [
+      { "name": "Zach Weinberg", "role": "Co-founder & CEO", "background": "Founder of Flatiron Health (acquired by Roche)" },
+      { "name": "Alexis Borisy", "role": "Co-founder / Operating Chair", "background": "Ex-Third Rock partner; serial biotech founder" },
+      { "name": "Christoph Lengauer", "role": "Co-founder / Chief Scientific Officer", "background": "PhD; ex-Third Rock" }
+    ],
+    "tags": ["founder-led", "seed", "drug-discovery-copilot", "company-creation"],
+    "summary": {
+      "en": "Boston-area seed firm and drug-discovery 'co-pilot' launched in 2023 with $520M to co-found and back founder-led biotech startups from ground zero to Series A; typical seed checks of $7-12M."
+    },
+    "sources": [
+      { "url": "https://www.statnews.com/2023/02/14/zach-weinberg-alexis-borisy-curiebio-biotech-funding-model/", "title": "With $520 million in hand, two entrepreneurs try to upend the biotech funding model", "publisher": "STAT News", "accessed": "undefined", "supports": "Launch capital, founders, model", "quote": "With $520 million in hand, two entrepreneurs try to upend the biotech funding model" },
+      { "url": "https://www.fiercebiotech.com/biotech/weinberg-borisy-launch-new-biotech-vc-offer-drug-discovery-copilots", "title": "New biotech VC takes off with $520M ... drug discovery copilots", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Seed check size, co-founders", "quote": "The accelerator typically offers biotechs between $7 million and $12 million in seed funds." },
+      { "url": "https://www.fiercebiotech.com/biotech/alexis-borisy-founded-vc-raises-380m-early-stage-biotechs", "title": "Curie.Bio fuels up with $380M for biotech founders", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Additional $380M Series A fund", "quote": "Curie.Bio fuels up with $380M for biotech founders" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Curie.Bio explicitly positions itself in contrast to the traditional 'venture studio' — it lets founders run the company and keep more ownership. Included in this slice as a company-creation/co-founding seed firm, not as a hands-off VC. Exact HQ city (Boston/Cambridge area) is inferred from its founders' Boston base.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-xontogeny",
+    "name": { "en": "Xontogeny" },
+    "type": "venture-studio",
+    "subtypes": ["accelerator", "incubator"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, Massachusetts",
+    "website": "https://xontogeny.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/xontogeny",
+      "crunchbase": "https://www.crunchbase.com/organization/xontogeny"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Series A (accelerator operating company)", "vintage_year": 2017, "size": { "raw": "$25 million", "usd": 25000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "A life-science accelerator operating company that provides seed capital plus an experienced in-house team and network of consultants to first-time founders, shepherding each program from early development through a compelling clinical proof-of-concept. Tightly coupled to the Perceptive Xontogeny Ventures (PXV) Fund for Series A follow-on."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Hands-on operating team advances programs to clinical proof-of-concept; affiliated Perceptive Advisors PXV Fund provides Series A capital."
+    },
+    "people": [
+      { "name": "Chris Garabedian", "role": "Founder, Chairman & CEO", "background": "Ex-CEO Sarepta Therapeutics; Portfolio Manager, Perceptive Xontogeny Ventures Fund" }
+    ],
+    "tags": ["accelerator", "company-creation", "clinical-proof-of-concept", "first-time-founders"],
+    "summary": {
+      "en": "Boston life-science accelerator/incubator founded in 2016 by ex-Sarepta CEO Chris Garabedian that seeds and hands-on builds early therapeutics/diagnostics/device programs to clinical proof-of-concept; linked to Perceptive's PXV venture fund."
+    },
+    "sources": [
+      { "url": "https://xontogeny.com/", "title": "Xontogeny — Designing Success Into Your Life Sciences Venture", "publisher": "Xontogeny", "accessed": "undefined", "supports": "Accelerator model, focus areas", "quote": "We offer our experienced team and deep network of industry consultants and service providers along with seed investment capital across a variety of technologies, including therapeutics, diagnostics, and devices" },
+      { "url": "https://xontogeny.com/who-we-are/chris-garabedian/", "title": "Chris Garabedian — Xontogeny", "publisher": "Xontogeny", "accessed": "undefined", "supports": "Founding year, founder, PXV relationship", "quote": "Chris Garabedian founded Xontogeny in June of 2016" },
+      { "url": "https://xontogeny.com/news/xontogeny-a-new-accelerator-operating-company-launches-with-a-25-million-series-a-financing-to-advance-early-stage-life-sciences-technology-through-clinical-proof-of-concept/", "title": "Xontogeny, a New Accelerator Operating Company, Launches with a $25 Million Series A", "publisher": "Xontogeny", "accessed": "undefined", "supports": "$25M Series A launch", "quote": "Xontogeny, a New Accelerator Operating Company, Launches with a $25 Million Series A Financing to Advance Early Stage Life Sciences Technology through Clinical Proof-of-Concept" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Self-describes as a life-science accelerator operating company; treated here as venture-studio/company-creation because it seeds and operationally builds programs into companies. Follow-on capital flows through the affiliated Perceptive Xontogeny Ventures (PXV) Fund.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-foresite-labs",
+    "name": { "en": "Foresite Labs" },
+    "type": "venture-studio",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, California",
+    "website": "https://foresitelabs.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/foresite-labs",
+      "other": ["https://www.foresitecapital.com/"]
+    },
+    "capital": {
+      "funds": [
+        { "name": "Foresite Labs company-creation fund", "vintage_year": 2022, "size": { "raw": "$173 million", "usd": 173000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["ai-drug-discovery", "genomics-omics", "digital-health", "diagnostics"],
+      "thesis": "The incubation/company-formation arm of Foresite Capital: founds, builds and scales life-science companies at the intersection of healthcare and data science using in-house data scientists, statistical geneticists, clinicians and engineers; successful incubations graduate to Foresite's main-fund syndicate rounds."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "small-molecule"],
+      "company_creation": true,
+      "science_platform_notes": "In-house data-science 'laboratory for company formation' combining machine learning, big data and genomics; incubated Xaira Therapeutics."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Xaira Therapeutics", "sector": "ai-drug-discovery", "outcome": "active (~$1B launch)" }
+      ]
+    },
+    "people": [
+      { "name": "Vik Bajaj", "role": "Co-founder & Managing Director", "background": "PhD; ex-Verily/Google X" },
+      { "name": "Jim Tananbaum", "role": "Co-founder (Foresite Capital CEO)", "background": "MD/MBA; founder of Foresite Capital" }
+    ],
+    "tags": ["data-science", "company-creation", "AI", "incubation"],
+    "summary": {
+      "en": "The 2019-founded incubation arm of Foresite Capital (South San Francisco) that founds and builds life-science companies at the healthcare/data-science intersection; incubated AI-drug-discovery company Xaira Therapeutics and raised a dedicated $173M fund in 2022."
+    },
+    "sources": [
+      { "url": "https://foresitelabs.com/", "title": "Foresite Labs — Homepage", "publisher": "Foresite Labs", "accessed": "undefined", "supports": "Company-formation model", "quote": "a laboratory for company formation" },
+      { "url": "https://www.businesswire.com/news/home/20220303005413/en/Foresite-Capital-Raises-$173-Million-to-Fund-Foresite-Labs-Incubated-Life-Science-Companies", "title": "Foresite Capital Raises $173 Million to Fund Foresite Labs Incubated Life Science Companies", "publisher": "Business Wire", "accessed": "undefined", "supports": "Dedicated fund size", "quote": "Foresite Capital Raises $173 Million to Fund Foresite Labs Incubated Life Science Companies" },
+      { "url": "https://www.fiercebiotech.com/biotech/foresite-unveils-incubator-focused-nexus-data-science-and-healthcare", "title": "Foresite unveils incubator focused on 'nexus of data science and healthcare'", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Founding, mandate, co-founders", "quote": "Foresite Labs was created in October 2019 to found, build and scale life sciences companies at the intersection of healthcare and data science" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Foresite Labs is the incubation arm of the larger crossover firm Foresite Capital; graduated companies are financed by Foresite's main funds. HQ is with Foresite Capital in South San Francisco.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-aditum-bio",
+    "name": { "en": "Aditum Bio" },
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.aditumbio.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/aditum-bio"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Fund I", "vintage_year": 2020, "size": { "raw": "$135 million", "usd": 135000000, "currency": "USD" } },
+        { "name": "Fund III", "vintage_year": 2025, "size": { "raw": "$428 million", "usd": 428000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Licenses preclinical drug programs just as they exit research and spins each into a dedicated single-asset company with its own management to run Phase 1/2 development. Deliberately targets under-resourced disease areas (e.g. obesity, substance-use disorder) rather than crowded fields."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["metabolic-obesity", "psychiatry-mental-health"],
+      "company_creation": true,
+      "science_platform_notes": "'Spin-out' structure giving each licensed asset a nimble startup with a dedicated management team."
+    },
+    "track_record": {
+      "portfolio_count": "13 companies launched",
+      "notable_investments": [
+        { "company": "Versanis Bio", "sector": "therapeutics", "outcome": "acquired by Eli Lilly (~$1.9B)" }
+      ]
+    },
+    "people": [
+      { "name": "Joe Jimenez", "role": "Co-founder", "background": "Ex-CEO Novartis" },
+      { "name": "Mark Fishman", "role": "Co-founder", "background": "MD; ex-President, Novartis Institutes for BioMedical Research" }
+    ],
+    "tags": ["asset-centric", "company-creation", "spin-out", "clinical-development"],
+    "summary": {
+      "en": "Company-creation firm founded in 2019 by Novartis veterans Joe Jimenez and Mark Fishman that licenses preclinical assets and spins each into a dedicated company for Phase 1/2 work; has launched 13 companies (incl. Versanis, acquired by Lilly for ~$1.9B), deploying a $428M third fund closed in 2025."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/novartis-alums-jimenez-fishman-unveil-their-next-act-aditum-bio", "title": "Novartis alums Jimenez, Fishman unveil their next act: Aditum Bio", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Founding, founders, spin-out model, first fund", "quote": "Its strategy is to pick up preclinical programs and spin them into companies to carry out phase 1 and phase 2 work." },
+      { "url": "https://www.aditumbio.com/news/joe-jiminez-and-mark-fishman-have-133m-for-startups", "title": "$133 Million to Play the Startup Game", "publisher": "Aditum Bio", "accessed": "undefined", "supports": "First fund, model", "quote": "$133 Million to Play the Startup Game" },
+      { "url": "https://superscout.co/investor/aditum-bio", "title": "Aditum Bio: The Early Stage Founder's Guide", "publisher": "SuperScout", "accessed": "undefined", "supports": "13 companies, Fund III size, Versanis exit", "quote": "Aditum Bio has launched a total of 13 companies ... third fund, which closed in early 2025 with a size of $428 million ... Versanis Bio, which was acquired by Eli Lilly for $1.9 billion" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "First fund reported as $135M (also cited as $133M in earlier coverage). Fund III size ($428M) and '13 companies' come from a secondary aggregator; HQ city not confirmed (firm is California/Bay Area-based).",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-fairmount-paragon",
+    "name": { "en": "Paragon Therapeutics (Fairmount)" },
+    "aka": ["Paragon", "Paragon Labs", "Fairmount Funds Management"],
+    "type": "venture-studio",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Waltham, Massachusetts",
+    "offices": [
+      { "country": "United States", "city": "Waltham" },
+      { "country": "United States", "city": "West Conshohocken" }
+    ],
+    "website": "https://www.paragonlabs.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/paragon-therapeutics"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Paragon is Fairmount's in-house discovery engine for best-in-class and complex biologics; using a 'hub-and-spoke' model it validates therapeutic concepts in-house then spins each into a standalone company (often via reverse merger). Spinouts include Apogee, Spyre and Oruka Therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody"],
+      "indications": ["immunology-inflammation", "dermatology"],
+      "company_creation": true,
+      "science_platform_notes": "Dedicated in-house antibody-development team validates concepts before spinning out 'spoke' companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Apogee Therapeutics", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Spyre Therapeutics", "sector": "therapeutics", "outcome": "public (reverse merger)" },
+        { "company": "Oruka Therapeutics", "sector": "therapeutics", "outcome": "public (reverse merger)" }
+      ]
+    },
+    "people": [
+      { "name": "Peter Harwin", "role": "Managing Member, Fairmount (Paragon director)", "background": "Co-founder of Fairmount Funds Management" },
+      { "name": "Tomas Kiselak", "role": "Managing Member, Fairmount", "background": "Co-founder of Fairmount Funds Management" }
+    ],
+    "tags": ["hub-and-spoke", "biologics", "company-creation", "reverse-merger"],
+    "summary": {
+      "en": "Paragon is the biologics discovery engine of healthcare investor Fairmount (est. 2016, West Conshohocken PA); founded in 2021, it uses a hub-and-spoke model to create antibody-focused companies (Apogee, Spyre, Oruka) that reach the public markets."
+    },
+    "sources": [
+      { "url": "https://www.biopharmadive.com/news/arca-oruka-paragon-biotech-reverse-merger/712157/", "title": "Paragon's hub-and-spoke biotech model yields another reverse merger", "publisher": "BioPharma Dive", "accessed": "undefined", "supports": "Hub-and-spoke model; Fairmount relationship; spinouts", "quote": "Paragon's hub-and-spoke biotech model yields another reverse merger" },
+      { "url": "https://www.paragonlabs.com/", "title": "Paragon — Catalyzing breakthrough biologics", "publisher": "Paragon Therapeutics", "accessed": "undefined", "supports": "Founding by Fairmount, biologics discovery engine", "quote": "Paragon was founded by Fairmount in 2021 as the firm's discovery engine for best-in-class biologics and complex biologics." },
+      { "url": "https://startupintros.com/orgs/fairmount", "title": "Fairmount: Funding, Team & Investors", "publisher": "Startup Intros", "accessed": "undefined", "supports": "Fairmount founding, founders, HQ", "quote": "Co-founded in 2016 by managing members Tomas Kiselak and Peter Harwin, Fairmount Funds Management is a registered investment adviser and healthcare-focused hedge fund headquartered in West Conshohocken, Pennsylvania." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Entity represents the Fairmount/Paragon company-creation engine. Fairmount itself is a healthcare-focused crossover/hedge fund (West Conshohocken, PA); Paragon Therapeutics (the discovery engine, Waltham, MA) is the venture-creation arm. paragonlabs.com returned HTTP 403 to automated fetch but the site exists; the founding quote is sourced from search-indexed page text.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-5am-ventures",
+    "name": { "en": "5AM Ventures" },
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, California",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://5amventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/5am-ventures"
+    },
+    "capital": {
+      "funds": [
+        { "name": "5AM Ventures VII", "vintage_year": null, "size": { "raw": "$450 million", "usd": 450000000, "currency": "USD" } },
+        { "name": "5AM Opportunities II", "vintage_year": null, "size": { "raw": "$300 million", "usd": 300000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Science-driven early-stage life-science firm that funds and builds next-generation therapeutics companies. Its internal '4:59' engine discovers, incubates and funds breakthrough science, with the 5AM team taking short-term operating roles to generate the proof-of-concept data that enables a Series A."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "company_creation": true,
+      "science_platform_notes": "'4:59' internal company-creation/incubation effort serving as an extension of founders' operating teams."
+    },
+    "people": [
+      { "name": "Andrew Schwab", "role": "Co-founder & Managing Partner", "background": "Long-time life-science VC" },
+      { "name": "John Diekman", "role": "Co-founder", "background": "PhD; ex-Affymetrix chairman" }
+    ],
+    "tags": ["company-creation", "4:59", "science-driven", "therapeutics"],
+    "summary": {
+      "en": "Science-driven life-science VC (est. 2002; San Francisco + Boston) that builds next-generation therapeutics companies, with an in-house '4:59' engine to discover, incubate and fund breakthrough science; manages $450M (Fund VII) plus $300M Opportunities II."
+    },
+    "sources": [
+      { "url": "https://5amventures.com/strategy/", "title": "5AM Ventures — Strategy", "publisher": "5AM Ventures", "accessed": "undefined", "supports": "Company-building thesis, 4:59 engine", "quote": "4:59 is 5AM's hands-on internal effort to discover, incubate, and fund breakthrough science, often serving as an extension of the operating team to establish proof-of-concept data that will enable Series A Financing." },
+      { "url": "https://www.excedr.com/blog/venture-capitalist-5am-ventures", "title": "How Does 5AM Ventures Support the Life Sciences?", "publisher": "Excedr", "accessed": "undefined", "supports": "Founding, founders, fund sizes", "quote": "5AM Ventures was founded in 2002 by Andrew Schwab and John Diekman ... managing $450M from 5AM Ventures VII and $300M from 5AM Opportunities II." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "5AM is primarily a science-driven early-stage life-science VC; included in this slice for its in-house company-creation engine ('4:59'), so it straddles the general-VC sibling slice. Fund vintages not confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  },
+  {
+    "id": "us-arena-bioworks",
+    "name": { "en": "Arena BioWorks" },
+    "type": "venture-studio",
+    "subtypes": ["incubator"],
+    "status": "inactive",
+    "founded_year": 2024,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge, Massachusetts",
+    "links": {
+      "other": ["https://en.wikipedia.org/wiki/Arena_BioWorks"]
+    },
+    "capital": {
+      "aum": { "raw": "$500 million private funding (2024 launch)", "usd": 500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "A privately funded, for-profit biomedical research institute (Bell Labs-inspired) in Kendall Square that conducted basic disease-mechanism research and, when a mechanism was elucidated, formed a company to translate that insight to the clinic within its resource-rich in-house ecosystem."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "gene-editing", "biologics-antibody"],
+      "company_creation": true,
+      "science_platform_notes": "In-house research institute with company-formation mandate; core scientists included Stuart Schreiber and Keith Joung."
+    },
+    "people": [
+      { "name": "Stuart Schreiber", "role": "Co-founder / Chief Scientist", "background": "Harvard chemist; Broad Institute co-founder" },
+      { "name": "Keith Joung", "role": "Scientist", "background": "CRISPR gene-editing pioneer; ex-Massachusetts General Hospital" }
+    ],
+    "tags": ["research-institute", "company-creation", "for-profit", "kendall-square", "shut-down"],
+    "summary": {
+      "en": "Cambridge, MA for-profit biomedical research institute launched Jan 2024 with ~$500M in billionaire backing to shorten the path from biological insight to therapeutics by forming companies around its discoveries; it shut down in November 2025."
+    },
+    "sources": [
+      { "url": "https://www.prnewswire.com/news-releases/arena-bioworks-launches-as-a-privately-funded-fully-independent-biomedical-institute-to-shorten-the-path-from-insight-to-therapeutics-302033563.html", "title": "Arena BioWorks Launches as a Privately Funded, Fully Independent Biomedical Institute", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Launch, model, company-formation mandate", "quote": "When Arena's human biology approach elucidates a disease mechanism, Arena will form a company to translate that insight to the clinic" },
+      { "url": "https://www.statnews.com/2024/01/13/arena-bioworks-drug-discovery/", "title": "For-profit biomedical institute, backed by billionaires, launches in Cambridge to speed drug discovery", "publisher": "STAT News", "accessed": "undefined", "supports": "Location, funding, founders", "quote": "For-profit biomedical institute, backed by billionaires, launches in Cambridge to speed drug discovery" },
+      { "url": "https://www.bostonglobe.com/2025/11/04/business/arena-bioworks-shutdown-research-institute/", "title": "Arena BioWorks, ambitious biomedical institute backed by billionaires, shuts down", "publisher": "The Boston Globe", "accessed": "undefined", "supports": "November 2025 shutdown", "quote": "Arena BioWorks, ambitious biomedical institute backed by billionaires, shuts down" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Distinctive company-creation model but structured as a research institute; launched Jan 2024 with ~$500M and shut down in November 2025 per the Boston Globe, so marked inactive. No confirmed official website captured.",
+    "last_updated": "undefined",
+    "researched_by": "venture-studio-company-creation"
+  }
+]

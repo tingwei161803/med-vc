@@ -1,0 +1,630 @@
+[
+  {
+    "id": "row-adjuvant-capital",
+    "name": { "en": "Adjuvant Capital" },
+    "aka": ["Adjuvant Global Health Technology Fund"],
+    "type": "vc",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "region": "rest-of-world",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://adjuvantcapital.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Adjuvant Global Health Technology Fund",
+          "vintage_year": 2021,
+          "size": { "raw": "$300 million", "usd": 300000000, "currency": "USD" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "check_size": { "raw": "$10–$25 million", "usd_min": 10000000, "usd_max": 25000000 },
+      "geo_focus": ["Global", "Low- and middle-income countries", "Nigeria", "Bangladesh", "China"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "Life-sciences investment fund backing drugs, vaccines, diagnostics and devices to address high-burden and neglected infectious diseases, maternal/child health, nutrition and reproductive health in low- and middle-income countries, aiming for a 'double-bottom-line' return; founded by a Global Health Investment Fund alum and a former Gates Foundation strategic-investments lead."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "small-molecule", "biologics-antibody"],
+      "indications": ["infectious-disease", "womens-health", "pediatrics"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "New York-based life-sciences venture fund that raised an oversubscribed $300M debut fund (backed by Merck, Novartis, IFC and the Gates Foundation among others) to invest in drugs, vaccines, diagnostics and devices for global public health challenges in underserved markets."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/adjuvant-capital-announces-300-million-venture-fund-designed-to-improve-global-public-health-301230588.html",
+        "title": "Adjuvant Capital Announces $300 Million Venture Fund Designed to Improve Global Public Health",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund size, investor list",
+        "quote": "Adjuvant Capital announced an oversubscribed $300 million fund, with investors including Merck, Novartis, IFC, Bill & Melinda Gates Foundation, Children's Investment Fund Foundation, Dalio Philanthropies, Doris Duke Charitable Foundation, Ford Foundation, and MacArthur Foundation, among others."
+      },
+      {
+        "url": "https://sif.gatesfoundation.org/portfolio/adjuvant-global-health-technology-fund",
+        "title": "Adjuvant Global Health Technology Fund",
+        "publisher": "Gates Foundation Strategic Investment Fund",
+        "accessed": "undefined",
+        "supports": "Sector/thesis, description as life sciences fund",
+        "quote": "Adjuvant is a life sciences investment fund that backs ambitious companies developing drugs, vaccines, diagnostics, medical devices, and other technologies to address critical global public health challenges."
+      },
+      {
+        "url": "https://impactalpha.com/investors-put-300-million-into-adjuvant-capital-as-global-health-innovation-shines/",
+        "title": "Investors put $300 million into Adjuvant Capital as global health innovation shines",
+        "publisher": "ImpactAlpha",
+        "accessed": "undefined",
+        "supports": "HQ location, check size, founders",
+        "quote": "The firm is based in New York... Adjuvant Capital is a life sciences investment firm focused on global health that makes $10-$25 million investments in ambitious companies targeting opportunities in high burden and neglected disease."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year reported inconsistently across secondary sources (2012/2018/2019); adjuvantcapital.com blocked automated fetch (403), so relied on PR Newswire, Gates Foundation SIF portfolio page, and ImpactAlpha coverage.",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-global-health-investment-corporation",
+    "name": { "en": "Global Health Investment Corporation (GHIC)" },
+    "aka": ["GHIC", "Global Health Investment Fund", "GHIF"],
+    "type": "venture-philanthropy",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "rest-of-world",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://ghicfunds.org/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Global Health Investment Fund (GHIF)",
+          "vintage_year": 2012,
+          "size": { "raw": "$108 million", "usd": 108000000, "currency": "USD" }
+        }
+      ]
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "geo_focus": ["Low- and middle-income countries"],
+      "thesis": "Independent nonprofit founded with Gates Foundation and JPMorgan Chase support to mobilize private, public and philanthropic capital into global health product development; its inaugural $108M Global Health Investment Fund financed 12 companies developing diagnostics, devices, vaccines and therapeutics for diseases disproportionately burdening LMICs."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "biologics-antibody"],
+      "indications": ["infectious-disease", "womens-health"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 12,
+      "notable_investments": []
+    },
+    "summary": {
+      "en": "New York nonprofit impact-investment manager created in 2012 by the Gates Foundation and JPMorgan Chase; its $108M Global Health Investment Fund backed 12 companies whose products (diagnostics, vaccines, therapeutics, devices for HIV/AIDS, malaria, TB, cholera and maternal health) reached over 500 million people."
+    },
+    "sources": [
+      {
+        "url": "https://ghicfunds.org/global-health-investment-fund/",
+        "title": "Global Health Investment Fund | GHIC",
+        "publisher": "Global Health Investment Corporation",
+        "accessed": "undefined",
+        "supports": "Fund size, portfolio count, impact reach, disease focus",
+        "quote": "$108 million social impact fund... invested in twelve companies developing clinical diagnostics, devices, vaccines, and therapeutics targeting diseases that disproportionately burden people living in low- and middle-income countries... have successfully commercialized more than a dozen products that have been delivered to over 500 million people."
+      },
+      {
+        "url": "https://ghicfunds.org/about/",
+        "title": "About | Global Health Investment Corporation (GHIC)",
+        "publisher": "Global Health Investment Corporation",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, founders, mission",
+        "quote": "GHIC is a nonprofit organization founded in 2012, and is based in New York... In 2012, the Gates Foundation sponsored the creation of GHIC and the launch of its initial fund, the Global Health Investment Fund, with the support of JP Morgan Chase."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "GHIC (the manager) and GHIF (the fund) treated as one entity; GHIF is reported as closed/fully invested (legacy fund).",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-ifc-health-venture-investments",
+    "name": { "en": "IFC (International Finance Corporation) – Health Investments" },
+    "aka": ["IFC Health", "IFC Venture Capital Group – Health"],
+    "type": "government-program",
+    "status": "active",
+    "region": "rest-of-world",
+    "country": "United States",
+    "hq_city": "Washington, D.C.",
+    "website": "https://www.ifc.org/en/what-we-do/sector-expertise/health",
+    "capital": {
+      "aum": { "raw": "$3.6 billion committed healthcare portfolio", "usd": 3600000000, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["healthcare-services", "therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "geo_focus": ["Emerging markets", "Global"],
+      "thesis": "World Bank Group's private-sector arm; invests debt and equity in healthcare delivery companies and health-tech/venture-stage businesses across emerging markets as part of a $3.6B committed healthcare portfolio, alongside broader venture-capital and fund investments spanning health, education, agribusiness and climate."
+    },
+    "track_record": {
+      "notable_investments": []
+    },
+    "summary": {
+      "en": "World Bank Group member and DFI investing across emerging-market healthcare delivery and health-tech ventures, with a committed healthcare portfolio of $3.6B and health tech as a designated vertical of its Venture Capital & Funds group; also a co-investor in other funds in this list (Adjuvant, LeapFrog)."
+    },
+    "sources": [
+      {
+        "url": "https://www.ifc.org/en/what-we-do/sector-expertise/health",
+        "title": "Strengthening Private Healthcare for Universal Access and Quality | IFC",
+        "publisher": "International Finance Corporation",
+        "accessed": "undefined",
+        "supports": "Committed healthcare portfolio size",
+        "quote": "IFC's current committed healthcare portfolio is $3.6 billion"
+      },
+      {
+        "url": "https://www.ifc.org/en/what-we-do/sector-expertise/venture-capital/portfolio",
+        "title": "IFC Venture Capital Portfolio Highlights",
+        "publisher": "International Finance Corporation",
+        "accessed": "undefined",
+        "supports": "Venture capital group health-tech focus",
+        "quote": "IFC's Venture Capital group invests in ventures and growth stage companies that offer innovative technologies or business models geared at emerging markets"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "IFC is a broad multilateral DFI covering many sectors; only its health-focused venture/portfolio activity is in scope for this segment.",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-gates-foundation-strategic-investment-fund",
+    "name": { "en": "Gates Foundation Strategic Investment Fund (SIF)" },
+    "aka": ["Gates SIF"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "rest-of-world",
+    "country": "United States",
+    "hq_city": "Seattle",
+    "website": "https://sif.gatesfoundation.org/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "digital-health"],
+      "geo_focus": ["Global", "Low- and middle-income countries"],
+      "thesis": "Impact-first strategic investment arm of the Gates Foundation, using equity, debt and guarantee instruments to back paradigm-shifting drugs, vaccines, biologics and gene therapies plus platform technologies for discovery, manufacturing and delivery of lower-cost vaccines, therapeutics and diagnostics for global health."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "gene-therapy", "biologics-antibody"],
+      "indications": ["infectious-disease", "womens-health", "pediatrics"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "Seattle-based impact-investment arm of the Bill & Melinda Gates Foundation that deploys equity, debt and guarantees into life-sciences and healthcare-delivery companies (e.g. Adjuvant Capital, Affinivax, 1mg) advancing global health goals."
+    },
+    "sources": [
+      {
+        "url": "https://sif.gatesfoundation.org/our-focus/life-sciences/",
+        "title": "Life Sciences - Strategic Investment Fund",
+        "publisher": "Gates Foundation",
+        "accessed": "undefined",
+        "supports": "Investment thesis, focus areas",
+        "quote": "The fund invests in new frontiers of science to address global health challenges through paradigm-shifting drugs, vaccines, biologics, and gene therapies"
+      },
+      {
+        "url": "https://sif.gatesfoundation.org/portfolio/",
+        "title": "Our Portfolio - Strategic Investment Fund",
+        "publisher": "Gates Foundation",
+        "accessed": "undefined",
+        "supports": "Portfolio companies, role as impact-first investment arm",
+        "quote": "The Strategic Investment Fund is the impact-first strategic investment arm of the Gates Foundation that backs game-changing developments across focus domains including life sciences and healthcare delivery."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-grand-challenges-canada",
+    "name": { "en": "Grand Challenges Canada" },
+    "aka": ["GCC"],
+    "type": "government-program",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "region": "rest-of-world",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.grandchallenges.ca/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "digital-health", "healthcare-services", "diagnostics"],
+      "geo_focus": ["Global", "Low- and middle-income countries"],
+      "thesis": "Federally funded (Government of Canada) global-health innovation program that grants and invests as an anchor investor in mission-aligned impact funds — including the Global Health Investment Fund and Cross-Border Impact Ventures' Women's and Children's Health Technology Fund — to scale bold ideas in maternal/child, mental and global health."
+    },
+    "summary": {
+      "en": "Toronto-based, Government of Canada-funded global health innovation program; its $20M invested into impact funds (GHIF, Cross-Border Impact Ventures) has mobilized $290M in additional capital for global health ventures."
+    },
+    "sources": [
+      {
+        "url": "https://www.grandchallenges.ca/what-we-do/how-we-fund/investment-funds/",
+        "title": "Investment funds - Grand Challenges Canada",
+        "publisher": "Grand Challenges Canada",
+        "accessed": "undefined",
+        "supports": "Investment activity, capital mobilized, funds backed",
+        "quote": "Grand Challenges Canada's $20M in investments into impact funds has mobilized $290M in additional capital for global health innovation... including the Global Health Investment Fund, Transform Health Fund, and Cross-Border Impact Ventures."
+      },
+      {
+        "url": "https://www.canada.ca/en/global-affairs/news/2026/03/secretary-of-state-sarai-announces-renewed-investment-in-grand-challenges-canada-to-advance-global-health-innovation.html",
+        "title": "Secretary of State Sarai announces renewed investment in Grand Challenges Canada to advance global health innovation",
+        "publisher": "Government of Canada",
+        "accessed": "undefined",
+        "supports": "Government of Canada funding relationship"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-medaccess",
+    "name": { "en": "MedAccess" },
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "rest-of-world",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://medaccess.org/",
+    "capital": {
+      "current_fund": { "raw": "$170 million paid-in capital from British International Investment", "usd": 170000000, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "geo_focus": ["Low- and middle-income countries"],
+      "thesis": "Social enterprise founded by British International Investment (BII, the UK's DFI) to make life-saving vaccines, diagnostics and treatments more accessible and affordable in LMICs via volume guarantees and other de-risking financial instruments for manufacturers."
+    },
+    "lifesci": {
+      "indications": ["infectious-disease", "womens-health"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "London-based social enterprise, founded in 2017 by British International Investment with $170M paid-in capital, that uses volume guarantees and market-shaping deals to speed access to and lower the price of vaccines, diagnostics and treatments in low- and middle-income countries."
+    },
+    "sources": [
+      {
+        "url": "https://medaccess.org/about/funders/",
+        "title": "Funders - MedAccess",
+        "publisher": "MedAccess",
+        "accessed": "undefined",
+        "supports": "Founding, founder, capital amount",
+        "quote": "MedAccess was founded by British International Investment (BII), the UK's development finance institution, in 2017, with BII serving as its anchor investor with $170 million paid-in capital."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding/capital detail sourced from a search-engine-summarized snippet of the MedAccess funders page rather than a direct fetch.",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-leapfrog-investments",
+    "name": { "en": "LeapFrog Investments" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "rest-of-world",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://leapfroginvest.com/",
+    "capital": {
+      "aum": { "raw": "cumulative commitments exceed $3 billion across four flagship funds (as of 2025)", "usd": 3000000000, "currency": "USD" },
+      "funds": [
+        {
+          "name": "Emerging Consumer Fund IV",
+          "vintage_year": 2024,
+          "size": { "raw": "$1.02 billion in primary commitments", "usd": 1020000000, "currency": "USD" }
+        }
+      ]
+    },
+    "strategy": {
+      "sector_focus": ["healthcare-services", "digital-health"],
+      "geo_focus": ["Africa", "Asia"],
+      "thesis": "Profit-with-purpose growth-equity firm backing high-growth financial-services, healthcare and climate companies serving underserved consumers across Africa and Asia; IFC ($50M) and the European Investment Bank ($60M) are among the backers of its ~$1B fund targeting health and financial-services businesses."
+    },
+    "summary": {
+      "en": "London-headquartered impact private-equity firm (founded 2007) investing in healthcare and financial-services companies reaching underserved consumers in Africa and Asia, with cumulative fund commitments exceeding $3B."
+    },
+    "sources": [
+      {
+        "url": "https://www.ifc.org/en/pressroom/2023/ifc-invests-in-new-leapfrog-fund-to-bolster-growth-of-health-and-financial-services-businesses-across-africa-and-asia",
+        "title": "IFC Invests in New LeapFrog Fund to Bolster Growth of Health and Financial Services businesses Across Africa and Asia",
+        "publisher": "IFC",
+        "accessed": "undefined",
+        "supports": "IFC/EIB backing of new $1B fund, sector/geo focus",
+        "quote": "LeapFrog Investments plans to raise $1 billion for a new fund to back financial services and healthcare companies in emerging markets like Africa, with major backers including the European Investment Bank ($60 million) and International Finance Corporation ($50 million)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/LeapFrog_Investments",
+        "title": "LeapFrog Investments - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "HQ, founding year, AUM figures",
+        "quote": "LeapFrog Investments is headquartered in London... established in 2007... Cumulative commitments exceed $3 billion across four flagship funds as of 2025... Emerging Consumer Fund IV closed at $1.02 billion in primary commitments in 2024"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sourced from search-engine snippets (Wikipedia, IFC press room); no direct fetch of leapfroginvest.com performed this session.",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-medical-credit-fund",
+    "name": { "en": "Medical Credit Fund" },
+    "aka": ["MCF"],
+    "type": "venture-philanthropy",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2009,
+    "region": "rest-of-world",
+    "country": "Netherlands",
+    "hq_city": "Amsterdam",
+    "website": "https://www.medicalcreditfund.org/",
+    "capital": {
+      "aum": { "raw": "more than USD 40 million total capital available for loans (after EUR 32.5M MCF II raise, Dec 2021)", "usd": 40000000, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["healthcare-services"],
+      "geo_focus": ["Kenya", "Ghana", "Nigeria", "Tanzania", "Uganda"],
+      "thesis": "Impact fund of the PharmAccess Group providing loans, loan guarantees and digital financing plus technical assistance to small and medium-sized private healthcare businesses across Sub-Saharan Africa, improving access to and quality of care."
+    },
+    "track_record": {
+      "portfolio_count": "1,800+ health SMEs reached",
+      "notable_investments": []
+    },
+    "summary": {
+      "en": "Amsterdam-based fund of the PharmAccess Group (est. 2009) that has provided over 6,500 loans worth more than EUR 120M to healthcare SMEs across Kenya, Ghana, Nigeria, Tanzania and Uganda, with a 96% repayment rate."
+    },
+    "sources": [
+      {
+        "url": "https://www.pharmaccess.org/update/new-financing-round-brings-medical-credit-fund-usd-40m-catalyzing-access-capital-health-smes-africa/",
+        "title": "New financing round brings Medical Credit Fund to more than USD 40m",
+        "publisher": "PharmAccess",
+        "accessed": "undefined",
+        "supports": "Total capital available, purpose",
+        "quote": "The combined investment brings MCF's total capital available for loans to more than USD 40m"
+      },
+      {
+        "url": "https://www.pharmaccess.org/update/medical-credit-fund-raises-eur-32-5-million-to-support-health-entrepreneurs-in-sub-saharan-africa/",
+        "title": "Medical Credit Fund raises EUR 32.5 million to support health entrepreneurs in sub-Saharan Africa",
+        "publisher": "PharmAccess",
+        "accessed": "undefined",
+        "supports": "Founding year, loan track record, geographic focus",
+        "quote": "The Medical Credit Fund is the only fund dedicated to financing small and medium-sized healthcare businesses in Africa, established in 2009 as part of the PharmAccess Group... has provided over 6,500 loans to healthcare providers in Africa, worth over EUR 120 million, with a 96% repayment rate. It has reached 1,800 health small and medium-sized enterprises (SMEs) in Kenya, Ghana, Nigeria, Tanzania and Uganda."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-investment-funds-for-health-in-africa",
+    "name": { "en": "Investment Funds for Health in Africa (IFHA)" },
+    "aka": ["IFHA", "Investment Fund for Health in Africa"],
+    "type": "growth-equity",
+    "status": "active",
+    "region": "rest-of-world",
+    "country": "Netherlands",
+    "hq_city": "Amsterdam",
+    "website": "https://www.ifhafund.com/",
+    "capital": {
+      "aum": { "raw": "€170m", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "sector_focus": ["healthcare-services", "medtech-devices", "pharma-services"],
+      "geo_focus": ["Africa"],
+      "thesis": "Fund manager (African Health Systems Management) running two private-equity funds (IFHA I & II, backed by European DFIs including EIB and FMO) making small-to-medium equity investments in African private healthcare companies across care provision, health insurance/HMOs, pharma manufacturing and distribution."
+    },
+    "track_record": {
+      "portfolio_count": 12
+    },
+    "summary": {
+      "en": "Amsterdam-headquartered manager of two DFI-backed private-equity funds (€170m AUM) making growth equity investments in African healthcare companies — hospitals, clinics, health insurers, pharma manufacturers and distributors — currently holding 12 portfolio investments including 40 clinics and 3 private hospitals."
+    },
+    "sources": [
+      {
+        "url": "https://www.ifhafund.com/",
+        "title": "Investment Funds for Health in Africa",
+        "publisher": "IFHA / African Health Systems Management",
+        "accessed": "undefined",
+        "supports": "Fund structure, size, manager, sector/geo focus, portfolio count",
+        "quote": "Two private equity funds dedicated to small to medium size (equity) investments in private healthcare companies in Africa... € 170m [AUM]... Currently manages 12 portfolio investments operating 40 Clinics and 3 Private Hospitals."
+      },
+      {
+        "url": "https://www.eib.org/en/products/equity/funds/investment-fund-for-health-africa-ii",
+        "title": "Investment Fund for Health in Africa II",
+        "publisher": "European Investment Bank",
+        "accessed": "undefined",
+        "supports": "EIB as a backer of IFHA II, purpose",
+        "quote": "Investment Fund for Health in Africa II (IFHA II) aims to foster better access to private healthcare services in Sub-Saharan Africa"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-transform-health-fund",
+    "name": { "en": "Transform Health Fund" },
+    "type": "growth-equity",
+    "status": "active",
+    "region": "rest-of-world",
+    "country": "Tunisia",
+    "hq_city": "Tunis",
+    "website": "https://fsdafrica.org/investment/transform-health-fund/",
+    "capital": {
+      "current_fund": { "raw": "closed at USD 100m total", "usd": 100000000, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["healthcare-services", "digital-health", "pharma-services"],
+      "geo_focus": ["Sub-Saharan Africa"],
+      "thesis": "Blended-finance vehicle co-managed by AfricInvest and the Health Finance Coalition to bolster healthcare systems in Africa by scaling proven and innovative care-delivery, supply-chain and digital-health models."
+    },
+    "summary": {
+      "en": "Pan-African blended-finance fund (closed at USD 100M) co-managed by AfricInvest and the Health Finance Coalition, seeded with catalytic capital from FSD Africa Investments, targeting healthcare supply-chain transformation, innovative care delivery and digital health innovation across Sub-Saharan Africa."
+    },
+    "sources": [
+      {
+        "url": "https://fsdafrica.org/investment/transform-health-fund/",
+        "title": "Transform Health Fund - FSD Africa",
+        "publisher": "FSD Africa",
+        "accessed": "undefined",
+        "supports": "Fund purpose, size, managers, backers, impact targets",
+        "quote": "A blended finance vehicle that aims to bolster healthcare systems in Africa by scaling proven and innovative healthcare models in Africa... managed by AfricInvest and the Health Finance Coalition... GBP 3.9m committed capital from FSD Africa Investments; the fund closed at USD 100m total."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund is a pan-African, multi-manager blended-finance vehicle without a single dedicated HQ; country/hq_city set to co-manager AfricInvest's headquarters (Tunis, Tunisia) as a best-available anchor — not independently confirmed as the fund's own registered office. Co-manager Health Finance Coalition is Washington, D.C.-based (a PSI initiative).",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-childrens-investment-fund-foundation",
+    "name": { "en": "Children's Investment Fund Foundation (CIFF)" },
+    "aka": ["CIFF"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2002,
+    "region": "rest-of-world",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [
+      { "country": "Ethiopia", "city": "Addis Ababa" },
+      { "country": "China", "city": "Beijing" },
+      { "country": "Kenya", "city": "Nairobi" },
+      { "country": "India", "city": "New Delhi" }
+    ],
+    "website": "https://ciff.org/",
+    "strategy": {
+      "sector_focus": ["healthcare-services"],
+      "geo_focus": ["Global", "Low- and middle-income countries"],
+      "thesis": "UK venture-philanthropy foundation (funded by a share of TCI hedge-fund profits) that deploys large-scale grants and development-finance/outcome-based financing to improve children's and mothers' health, nutrition, and sexual and reproductive health globally."
+    },
+    "lifesci": {
+      "indications": ["womens-health", "pediatrics", "infectious-disease"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "London-headquartered venture-philanthropy foundation (est. 2002, funded by TCI Fund Management profits) that disbursed $468M and committed $772M in 2021 toward children's and maternal health, nutrition, and reproductive-health programs in low- and middle-income countries."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Children%27s_Investment_Fund_Foundation",
+        "title": "The Children's Investment Fund Foundation - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Founding, HQ/offices, disbursement figures, focus areas",
+        "quote": "CIFF was established in 2002 by Sir Chris Hohn and wife, Jamie Cooper-Hohn... offices in Addis Ababa, Beijing, London, Nairobi and New Delhi. In 2021 it disbursed $468 million and committed $772 million in charitable investments."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Relied on Wikipedia and search-snippet summaries; ciff.org not directly fetched this session. Included as venture-philanthropy given its scale, health-outcome focus and development-finance activity, though it is a grantmaking foundation rather than an equity investor.",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-cross-border-impact-ventures",
+    "name": { "en": "Cross-Border Impact Ventures (CBIV)" },
+    "aka": ["CBIV"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "rest-of-world",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.crossborder.ventures/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Women's and Children's Health Technology Fund",
+          "vintage_year": 2024,
+          "size": { "raw": "$90 million USD ($135 million CAD)", "usd": 90000000, "currency": "USD" }
+        }
+      ]
+    },
+    "strategy": {
+      "geo_focus": ["North America", "Europe", "Emerging markets"],
+      "sector_focus": ["digital-health", "medtech-devices", "diagnostics"],
+      "thesis": "Toronto-based fund (incubated by Grand Challenges Canada) investing in medical device, diagnostic and digital-health companies that serve women's, children's and adolescent health needs, targeting global impact including 10 million underserved women and children reached in emerging markets alongside commercial growth in North America and Europe."
+    },
+    "lifesci": {
+      "indications": ["womens-health", "pediatrics"],
+      "company_creation": false
+    },
+    "track_record": {
+      "exits": [
+        { "company": "Sonio", "type": "M&A", "year": 2024 }
+      ]
+    },
+    "summary": {
+      "en": "Toronto-based venture fund, incubated by Grand Challenges Canada, that closed its Women's and Children's Health Technology Fund at over $90M USD to back medtech/digital-health startups improving women's and children's health in North America, Europe and emerging markets; first exit was AI prenatal-imaging company Sonio, acquired by Samsung Medison in 2024."
+    },
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20240125666533/en/Cross-Border-Impact-Ventures-Exceeds-90-Million-in-Final-Close-of-Its-Women%E2%80%99s-and-Children%E2%80%99s-Health-Technology-Fund",
+        "title": "Cross-Border Impact Ventures Exceeds $90 Million in Final Close of Its Women's and Children's Health Technology Fund",
+        "publisher": "BusinessWire",
+        "accessed": "undefined",
+        "supports": "Fund size, HQ, focus",
+        "quote": "Toronto-based Cross-Border Impact Ventures (CBIV) has closed its first fund, securing over $90 million USD ($135 million CAD) in total commitments through its Women's and Children's Health Technology Fund, which invests in tech startups across North America and Europe that address the health needs of women, children, and adolescents or improve health systems."
+      },
+      {
+        "url": "https://www.grandchallenges.ca/what-we-do/how-we-fund/investment-funds/",
+        "title": "Investment funds - Grand Challenges Canada",
+        "publisher": "Grand Challenges Canada",
+        "accessed": "undefined",
+        "supports": "GCC incubation, exit (Sonio)",
+        "quote": "GCC incubated this $90M USD equity fund, the first of its kind dedicated to women's and children's health technologies... Cross-Border Impact Ventures has already achieved its first exit with Sonio, an AI software company improving prenatal care, which was acquired by Samsung Medison in 2024."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  },
+  {
+    "id": "row-dfc-global-health-prosperity-initiative",
+    "name": { "en": "U.S. International Development Finance Corporation (DFC) – Global Health & Prosperity Initiative" },
+    "aka": ["DFC HAPI", "DFC Global Health"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "rest-of-world",
+    "country": "United States",
+    "hq_city": "Washington, D.C.",
+    "website": "https://www.dfc.gov/",
+    "strategy": {
+      "check_size": { "raw": "$5 million to $500 million per eligible project", "usd_min": 5000000, "usd_max": 500000000 },
+      "sector_focus": ["healthcare-services", "therapeutics", "medtech-devices", "diagnostics"],
+      "geo_focus": ["Emerging markets", "Global"],
+      "thesis": "U.S. government development finance institution; through its Health and Prosperity Initiative (HAPI, launched May 2020) it combines equity, debt, political-risk insurance, project development financing and fund investments to strengthen health infrastructure, treat infectious/non-communicable disease, and expand access to care in developing countries."
+    },
+    "summary": {
+      "en": "The U.S. government's DFI; its Health and Prosperity Initiative had approved and committed nearly $2 billion in new healthcare-project investments across 24 transactions worldwide within about two years of its May 2020 launch."
+    },
+    "sources": [
+      {
+        "url": "https://www.dfc.gov/media/press-releases/dfc-strengthens-global-health-infrastructure-and-services-nearly-2-billion-new",
+        "title": "DFC Strengthens Global Health Infrastructure and Services with Nearly $2 Billion in New Health Projects",
+        "publisher": "U.S. International Development Finance Corporation",
+        "accessed": "undefined",
+        "supports": "HAPI launch date, cumulative investment total, transaction count",
+        "quote": "DFC launched its Global Health and Prosperity Initiative (HAPI) in May 2020 at the onset of the COVID-19 pandemic... DFC had approved and committed nearly $2 billion in new healthcare project investments worldwide, across 24 transactions."
+      },
+      {
+        "url": "https://bayareaglobalhealth.org/alliance-news/u-s-dfc-deep-dive/",
+        "title": "DFC Financing 101: What Global Health Leaders Need to Know",
+        "publisher": "Bay Area Global Health Alliance",
+        "accessed": "undefined",
+        "supports": "Check-size range and investment tools",
+        "quote": "The agency seeks to invest between $5 million and $500 million per eligible project through its full range of financial tools, which includes equity and debt financing, political risk insurance, and technical development."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "DFC is a broad multi-sector U.S. DFI; only its dedicated Global Health & Prosperity Initiative (HAPI) is in scope here as the health-focused investment program.",
+    "last_updated": "undefined",
+    "researched_by": "global-health-impact"
+  }
+]

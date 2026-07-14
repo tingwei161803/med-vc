@@ -1,0 +1,887 @@
+[
+  {
+    "id": "us-indiebio-sosv",
+    "name": { "en": "IndieBio (SOSV)" },
+    "aka": ["IndieBio SF", "IndieBio NY", "SOSV SF", "SOSV NY", "SOSV IndieBio"],
+    "type": "accelerator",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://indiebio.co/",
+    "links": { "other": ["https://sosv.com/"] },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "$250K initial, up to ~$525K incl. follow-on", "usd_min": 250000, "usd_max": 525000 },
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "diagnostics", "synthetic-biology", "ai-drug-discovery", "life-science-tools"],
+      "thesis": "Silicon Valley's first biotech accelerator to offer on-site bio-labs plus pre-seed investment to scientists launching startups solving problems in human and planetary health; runs an intensive ~4-month cohort program in SF and NY, part of SOSV."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "modalities": ["cell-therapy", "gene-editing", "rna-therapeutics", "biologics-antibody"],
+      "science_platform_notes": "Provides wet-lab space on site adjacent to program; SOSV provides post-accelerator follow-on funding for graduates."
+    },
+    "program": {
+      "length_weeks": 16,
+      "cohort_size": "10-15",
+      "batches_per_year": 2,
+      "equity_taken_pct": "8",
+      "investment": { "raw": "$250,000 initial (for ~8% equity); up to $525K including follow-on", "usd": 250000, "currency": "USD" },
+      "format": "in-person",
+      "location": "San Francisco & New York",
+      "lab_space": true,
+      "demo_day": true
+    },
+    "track_record": {
+      "portfolio_count": 310,
+      "notable_investments": [
+        { "company": "Memphis Meats / Upside Foods", "sector": "food/biotech", "outcome": "active" },
+        { "company": "NotCo", "sector": "foodtech", "outcome": "unicorn" }
+      ]
+    },
+    "summary": {
+      "en": "SOSV's IndieBio is a leading early-stage biotech accelerator (SF and NY) offering wet-lab space and pre-seed capital; from 2015-2025 its 310 graduates raised $3.6 billion. Rebranded to SOSV SF / SOSV NY in 2026 as scope broadened to deep tech."
+    },
+    "sources": [
+      { "url": "https://indiebio.co/", "title": "IndieBio Homepage", "publisher": "IndieBio / SOSV", "accessed": "undefined", "supports": "identity, on-site labs, pre-seed model, track record", "quote": "Silicon Valley's first biotech program to offer bio-labs on site as well as pre-seed investment to scientists ready to launch startups." },
+      { "url": "https://indiebio.co/", "title": "IndieBio Homepage", "publisher": "IndieBio / SOSV", "accessed": "undefined", "supports": "graduate count and capital raised", "quote": "Between 2015 and 2025, IndieBio's 310 graduates raised $3.6 billion and helped establish SOSV's reputation as a groundbreaking health and climate investor." },
+      { "url": "https://slidebean.com/startup-accelerator-program/sosv-indiebio", "title": "SOSV | IndieBio | Startup Accelerator Program", "publisher": "Slidebean", "accessed": "undefined", "supports": "investment amount, equity, program length, cohort size (secondary aggregator)" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Existence and track record confirmed on official site. Deal terms ($250K for ~8%, up to $525K with follow-on) come from secondary aggregators, not a verbatim primary quote; founded_year 2015 reflects first-cohort year cited on official site (program announced 2014). As of early 2026 the IndieBio brand is transitioning to SOSV SF / SOSV NY.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-medtech-innovator",
+    "name": { "en": "MedTech Innovator" },
+    "aka": ["MTI"],
+    "type": "accelerator",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Los Angeles",
+    "website": "https://medtechinnovator.org/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics"],
+      "thesis": "World's largest nonprofit accelerator and competition for medical device, digital health and diagnostic companies; a four-month, equity-free program focused on de-risking innovation and fast-tracking U.S. market access."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "wearables-sensors"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 16,
+      "cohort_size": 65,
+      "batches_per_year": 1,
+      "equity_taken_pct": "0",
+      "format": "hybrid",
+      "location": "Los Angeles (with programming across the U.S.)",
+      "lab_space": false,
+      "demo_day": true,
+      "acceptance_rate": "~4% of applicants",
+      "eligibility": "Medical device, digital health and diagnostic startups"
+    },
+    "track_record": {
+      "portfolio_count": 838
+    },
+    "summary": {
+      "en": "MedTech Innovator is the world's largest (nonprofit, no-equity) accelerator for medical device, digital health and diagnostic companies; its 2026 cohort of 65 startups was the top ~4% of 1,835 applicants."
+    },
+    "sources": [
+      { "url": "https://medtechinnovator.org/", "title": "MedTech Innovator - World's largest life science accelerator", "publisher": "MedTech Innovator", "accessed": "undefined", "supports": "identity and mission", "quote": "MedTech Innovator is the world's largest accelerator for medical device, digital health, and diagnostic companies." },
+      { "url": "https://medtechinnovator.org/", "title": "MedTech Innovator", "publisher": "MedTech Innovator", "accessed": "undefined", "supports": "mission", "quote": "Our mission is to improve the lives of patients by accelerating the growth of companies that are transforming the healthcare system." },
+      { "url": "https://www.businesswire.com/news/home/20260527931356/en/MedTech-Innovator-Unveils-65-Startups-in-its-2026-Accelerator-Cohort-and-Launches-the-MTI-Index-the-Definitive-Recognition-Platform-for-MedTech-Innovation", "title": "MedTech Innovator Unveils 65 Startups in its 2026 Accelerator Cohort", "publisher": "Business Wire", "accessed": "undefined", "supports": "2026 cohort size (65), top 4% of 1,835 applicants, four-month program, 838 graduates, $12B follow-on, 63 acquisitions" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Nonprofit; takes no equity. 2026 cohort figures (65 startups, top 4% of 1,835 applicants) and cumulative track record (838 graduates, ~$12B follow-on, 63 acquisitions, 500+ products) are from the 2026 Business Wire press release surfaced in search; the release page did not render for verbatim capture, so those numbers are cited as press-release claims.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-illumina-accelerator",
+    "name": { "en": "Illumina Accelerator (Illumina for Startups)" },
+    "aka": ["Illumina for Startups", "Illumina Ventures Labs"],
+    "type": "accelerator",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego",
+    "offices": [
+      { "country": "United States", "city": "San Diego" },
+      { "country": "United States", "city": "San Francisco Bay Area" },
+      { "country": "United States", "city": "Cambridge" }
+    ],
+    "website": "https://www.illumina.com/company/illumina-for-startups.html",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "up to $200,000 in convertible notes (+ sequencing credits)", "usd_min": null, "usd_max": 200000 },
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["genomics-omics", "diagnostics", "therapeutics", "life-science-tools"],
+      "thesis": "Corporate company-creation accelerator for genomics/omics startups, providing seed capital, sequencing systems and reagents, and lab space adjacent to Illumina's campuses; two six-month funding cycles per year."
+    },
+    "lifesci": {
+      "modalities": ["gene-editing", "rna-therapeutics", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Provides fully operational lab space adjacent to Illumina campuses (San Diego / Bay Area and Cambridge) plus Illumina sequencing systems, reagents and sequencing credits."
+    },
+    "program": {
+      "length_weeks": 26,
+      "cohort_size": "up to 5",
+      "batches_per_year": 2,
+      "equity_taken_pct": "7",
+      "investment": { "raw": "up to $200,000 in convertible notes; $40M Accelerator Boost Capital dollar-for-dollar match on $1M-$5M raises", "usd": 200000, "currency": "USD" },
+      "format": "in-person",
+      "location": "San Diego / San Francisco Bay Area and Cambridge, MA",
+      "lab_space": true
+    },
+    "track_record": {
+      "portfolio_count": 74
+    },
+    "summary": {
+      "en": "Illumina's genomics company-creation accelerator provides up to $200K in convertible notes, sequencing access and on-campus lab space over six-month cycles; since inception it has backed 74 genomics startups that have raised over $1 billion."
+    },
+    "sources": [
+      { "url": "https://www.illumina.com/company/illumina-for-startups.html", "title": "Illumina for Startups", "publisher": "Illumina", "accessed": "undefined", "supports": "identity as genomics company-creation accelerator" },
+      { "url": "https://www.illumina.com/content/dam/illumina/gcs/assembled-assets/marketing-literature/illumina-accelerator-faq-m-gl-00639/illumina-accelerator-faq-M-GL-00639.pdf", "title": "Illumina Accelerator FAQ", "publisher": "Illumina", "accessed": "undefined", "supports": "funding structure ($200K convertible notes, Boost Capital, six-month cycles, lab space, 7% equity)" },
+      { "url": "https://www.fiercebiotech.com/medtech/illumina-ventures-launches-refreshed-genomics-startup-accelerator-program", "title": "Illumina Ventures launches refreshed genomics startup accelerator program", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "evolution to Illumina Ventures Labs (2023)" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Terms (up to $200K convertible notes, $40M Boost Capital, six-month cycles twice/year, up to 5 startups/cycle, 74 companies, $1B+ raised) are as reported across Illumina and PR Newswire releases. Since ~2023 the program has evolved under Illumina Ventures as 'Illumina Ventures Labs'; treat exact current terms as approximate.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-cedars-sinai-accelerator",
+    "name": { "en": "Cedars-Sinai Accelerator" },
+    "aka": ["Cedars-Sinai Accelerator powered by Techstars", "CS Accelerator+"],
+    "type": "accelerator",
+    "subtypes": ["university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Los Angeles",
+    "website": "https://www.csaccelerator.com/",
+    "strategy": {
+      "stages": ["seed"],
+      "check_size": { "raw": "$100,000 per company", "usd_min": 100000, "usd_max": 100000 },
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["digital-health", "medtech-devices", "healthcare-it"],
+      "thesis": "Hospital-run three-month health-tech accelerator (historically operated with Techstars) giving startups mentorship from 300+ Cedars-Sinai clinicians and executives plus clinical pilot access."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform", "wearables-sensors"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 13,
+      "batches_per_year": 1,
+      "investment": { "raw": "$100,000 per company", "usd": 100000, "currency": "USD" },
+      "format": "in-person",
+      "location": "Los Angeles",
+      "demo_day": true,
+      "eligibility": "Early-stage health-technology startups"
+    },
+    "summary": {
+      "en": "Cedars-Sinai's three-month health-tech accelerator in Los Angeles invests $100,000 per company and connects startups with 300+ clinicians and executives across the medical center; run in partnership with Techstars."
+    },
+    "sources": [
+      { "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-accelerator-welcomes-10th-class-of-health-tech-startups/", "title": "Cedars-Sinai Accelerator Welcomes 10th Class of Health-Tech Startups", "publisher": "Cedars-Sinai", "accessed": "undefined", "supports": "three-month program, mentorship network", "quote": "During the three-month program, participating companies will have the opportunity to network and seek mentorship from more than 300 clinicians, executives and resources across Cedars-Sinai." },
+      { "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-accelerator-welcomes-10th-class-of-health-tech-startups/", "title": "Cedars-Sinai Accelerator Welcomes 10th Class of Health-Tech Startups", "publisher": "Cedars-Sinai", "accessed": "undefined", "supports": "$100,000 investment per company", "quote": "Each participating company will receive an investment of $100,000 to bolster its product growth and vision." },
+      { "url": "https://www.techstars.com/blog/techstars-healthcare-accelerator-sponsored-by-cedars-sinai-point32health-uci-health-and-united-healthcare", "title": "Techstars Healthcare Accelerator sponsored by Cedars-Sinai", "publisher": "Techstars", "accessed": "undefined", "supports": "Techstars partnership" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Cedars-Sinai Medical Center is the sponsor; the accelerator has been operated in partnership with Techstars. First cohort launched 2015. Some Techstars-branded materials cite the standard $20K-for-equity + $100K note structure; the Cedars-Sinai newsroom states $100,000 per company.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-tmc-innovation",
+    "name": { "en": "TMC Innovation (Texas Medical Center)" },
+    "aka": ["TMCi", "TMC Innovation Factory", "TMC Innovation Institute"],
+    "type": "accelerator",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Houston",
+    "website": "https://www.tmc.edu/innovation/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["medtech-devices", "digital-health", "therapeutics", "healthcare-it"],
+      "thesis": "The innovation arm of the Texas Medical Center runs several cohort accelerators - a six-month HealthTech Accelerator (health IT and medical devices), the CPRIT-funded Accelerator for Cancer Therapeutics, and a one-year Biodesign fellowship - giving startups access to the world's largest medical city."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "small-molecule", "biologics-antibody"],
+      "indications": ["oncology"],
+      "company_creation": true,
+      "science_platform_notes": "Access to Texas Medical Center clinical partners, hospitals and researchers for validation; Biodesign is a company-creation fellowship."
+    },
+    "program": {
+      "length_weeks": 26,
+      "format": "in-person",
+      "location": "Houston (former Nabisco factory / TMC Innovation Factory)",
+      "lab_space": true,
+      "demo_day": true,
+      "eligibility": "Health IT, medical device and cancer therapeutics startups; academic investigators"
+    },
+    "summary": {
+      "en": "Texas Medical Center's innovation arm runs cohort accelerators (six-month HealthTech Accelerator, CPRIT-funded Accelerator for Cancer Therapeutics, one-year Biodesign fellowship) that connect healthtech and life-science startups to TMC's clinical resources in Houston."
+    },
+    "sources": [
+      { "url": "https://www.tmc.edu/innovation/innovation-programs/", "title": "Innovation Programs - TMC Innovation", "publisher": "Texas Medical Center", "accessed": "undefined", "supports": "HealthTech Accelerator identity", "quote": "The accelerator for healthtech advances the development of health IT and medical device companies by connecting visionary entrepreneurs to the abundant resources of the Texas Medical Center." },
+      { "url": "https://www.tmc.edu/innovation/innovation-programs/", "title": "Innovation Programs - TMC Innovation", "publisher": "Texas Medical Center", "accessed": "undefined", "supports": "Accelerator for Cancer Therapeutics and Biodesign", "quote": "TMC Biodesign is a one-year program that unites the talents of innovators with diverse backgrounds to quickly bring breakthrough products to market." },
+      { "url": "https://www.tmc.edu/press-releases/tmc-innovation-welcomes-startups-to-19th-healthtech-accelerator-cohort/", "title": "TMC Innovation Welcomes Startups to 19th HealthTech Accelerator Cohort", "publisher": "Texas Medical Center", "accessed": "undefined", "supports": "HealthTech Accelerator is a six-month program; 19th cohort" }
+    ],
+    "confidence": "high",
+    "verification_notes": "HealthTech Accelerator is reported as a six-month program; Accelerator for Cancer Therapeutics is CPRIT grant-funded for Texas-based academic investigators and early-stage cancer therapeutics companies; Biodesign is a one-year fellowship. TMC also operates lab/incubator space (that pure-incubator function belongs to the sibling slice).",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-masschallenge-healthtech",
+    "name": { "en": "MassChallenge HealthTech" },
+    "aka": ["MCHT", "MassChallenge Healthcare"],
+    "type": "accelerator",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://masschallenge.org/programs-healthtech/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "thesis": "Zero-equity nonprofit digital-health accelerator that matches early-stage ventures with payer, provider, pharma and government 'Champions' for structured pilots; an annual six-month program."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 26,
+      "batches_per_year": 1,
+      "equity_taken_pct": "0",
+      "format": "hybrid",
+      "location": "Boston",
+      "demo_day": true,
+      "eligibility": "Early-stage digital health ventures"
+    },
+    "track_record": {
+      "portfolio_count": 122
+    },
+    "summary": {
+      "en": "MassChallenge HealthTech is a Boston-based, zero-equity six-month digital-health accelerator that matches startups with payer/provider/pharma champions; to date 122 startups have participated and collectively raised more than $770M."
+    },
+    "sources": [
+      { "url": "https://masschallenge.org/programs-healthtech/", "title": "HealthTech Program - MassChallenge", "publisher": "MassChallenge", "accessed": "undefined", "supports": "digital-health accelerator identity, six-month program, champion matchmaking" },
+      { "url": "https://mehi.masstech.org/mass-digital-health-programs/masschallenge-healthtech", "title": "MassChallenge HealthTech", "publisher": "Massachusetts eHealth Institute (MeHI)", "accessed": "undefined", "supports": "annual six-month program; matches payors/providers/pharma with early-stage digital health ventures; 122 participants; >$770M raised" }
+    ],
+    "confidence": "high",
+    "verification_notes": "MassChallenge is a well-known zero-equity nonprofit accelerator. HealthTech launched June 1, 2016. Cumulative figures (122 startups, >$770M raised) from MeHI/MassChallenge; may be dated. In recent years MCHT programming has been run largely in Boston/Texas hubs.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-startup-health",
+    "name": { "en": "StartUp Health" },
+    "type": "accelerator",
+    "subtypes": ["angel-network"],
+    "status": "active",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.startuphealth.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["digital-health", "healthcare-services", "therapeutics"],
+      "thesis": "A long-term 'Health Moonshot' portfolio and community (not a fixed-cohort accelerator) that provides ongoing mentorship, investor introductions and an annual Health Transformer summit to founders tackling defined health moonshots (cancer, T1D, women's health, brain health, etc.)."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics", "ai-ml-platform"],
+      "indications": ["oncology", "metabolic-obesity", "psychiatry-mental-health", "womens-health"],
+      "company_creation": false
+    },
+    "program": {
+      "equity_taken_pct": "does not take equity upfront",
+      "format": "hybrid",
+      "location": "New York (global community)",
+      "eligibility": "Founders aligned to a StartUp Health 'Health Moonshot'"
+    },
+    "track_record": {
+      "portfolio_count": "500+"
+    },
+    "summary": {
+      "en": "StartUp Health (NYC) organizes health founders into long-term 'Health Moonshot' communities rather than fixed cohorts, providing mentorship, investor intros and a Health Transformer summit; since 2011 it has supported 1,000+ founders and 500+ health companies."
+    },
+    "sources": [
+      { "url": "https://www.startuphealth.com/", "title": "StartUp Health", "publisher": "StartUp Health", "accessed": "undefined", "supports": "mission, health moonshot model, since 2011, 1,000+ founders, 500+ companies" },
+      { "url": "https://www.startuphealth.com/membership", "title": "Join a Health Moonshot Community Today", "publisher": "StartUp Health", "accessed": "undefined", "supports": "long-term portfolio / moonshot community model" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Atypical accelerator: no fixed cohorts and no upfront equity; operates a long-term portfolio/moonshot model plus a Moonshots Impact Fund. Classified here as accelerator because it functions as a health-startup development program, but it blurs into an investment platform / community.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-techstars-healthcare",
+    "name": { "en": "Techstars (Healthcare accelerators)" },
+    "aka": ["Techstars Health", "Techstars Healthcare Accelerator", "Techstars AI Health Baltimore", "Techstars Healthcare powered by Permanente Medicine"],
+    "type": "accelerator",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2006,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boulder",
+    "website": "https://www.techstars.com/healthcare",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "$220,000 ($20K for 5% equity + $200K uncapped MFN SAFE)", "usd_min": 220000, "usd_max": 220000 },
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "medtech-devices", "healthcare-services", "ai-drug-discovery"],
+      "thesis": "Techstars runs multiple mentorship-driven, cohort healthcare accelerators with hospital, payer and pharma sponsors (e.g. Cedars-Sinai, Kaiser Permanente/Permanente Medicine, Johns Hopkins/CareFirst AI Health Baltimore), investing $220K per company over a 13-week program."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform", "medical-hardware", "wearables-sensors"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 13,
+      "equity_taken_pct": "5",
+      "investment": { "raw": "$220,000 ($20K for 5% + $200K SAFE)", "usd": 220000, "currency": "USD" },
+      "format": "in-person",
+      "location": "Multiple U.S. cities (Baltimore, Los Angeles, Washington D.C., etc.)",
+      "demo_day": true
+    },
+    "track_record": {
+      "portfolio_count": "600+ healthcare startups"
+    },
+    "summary": {
+      "en": "Techstars operates a family of cohort healthcare accelerators with hospital/payer/pharma sponsors (Cedars-Sinai, Permanente Medicine, Johns Hopkins/CareFirst), each investing $220K over a 13-week program; more than 600 of Techstars' companies are in healthcare."
+    },
+    "sources": [
+      { "url": "https://www.techstars.com/healthcare", "title": "Healthcare Vertical Network | Techstars", "publisher": "Techstars", "accessed": "undefined", "supports": "healthcare accelerator network, 600+ healthcare companies" },
+      { "url": "https://www.techstars.com/accelerators/permanente-medicine", "title": "Techstars Healthcare Accelerator powered by Permanente Medicine", "publisher": "Techstars", "accessed": "undefined", "supports": "$220,000 investment, 3-month mentorship program, partner perks" },
+      { "url": "https://www.medtechdive.com/news/ai-accelerator-johns-hopkins-carefirst-techstar-medtechs/725380/", "title": "Johns Hopkins, CareFirst, Techstars launch healthcare AI accelerator", "publisher": "MedTech Dive", "accessed": "undefined", "supports": "Techstars AI Health Baltimore, 13-week program, up to 12 health tech/medtech/biotech startups, $220K terms" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Techstars (HQ Boulder, CO) is a generalist accelerator, but it runs several dedicated healthcare/medtech/AI-health cohorts with health-system and pharma sponsors; captured here as a single healthcare-vertical entity. Individual programs (e.g. Cedars-Sinai) are also listed separately where they have distinct sponsors/terms.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-health-wildcatters",
+    "name": { "en": "Health Wildcatters" },
+    "type": "accelerator",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Dallas",
+    "website": "https://www.healthwildcatters.com/",
+    "strategy": {
+      "stages": ["seed"],
+      "check_size": { "raw": "$30,000 for 8%; up to $380K total incl. follow-on/convertible notes", "usd_min": 30000, "usd_max": 380000 },
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["digital-health", "medtech-devices", "healthcare-it", "therapeutics"],
+      "thesis": "One of the longest-standing U.S. healthcare accelerators, running a 12-week program in Dallas that invests $30K for 8% (up to $380K with follow-on) across health IT, medical device, digital health and biopharma startups."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "medical-hardware", "ai-ml-platform"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 12,
+      "cohort_size": 11,
+      "batches_per_year": 1,
+      "equity_taken_pct": "8",
+      "investment": { "raw": "$30,000 cash for 8% equity; up to $380K max potential cash investment", "usd": 30000, "currency": "USD" },
+      "format": "hybrid",
+      "location": "Dallas",
+      "demo_day": true
+    },
+    "track_record": {
+      "portfolio_count": 131
+    },
+    "summary": {
+      "en": "Health Wildcatters is a Dallas healthcare accelerator running a 12-week program that invests $30K for 8% (up to $380K with follow-on); its portfolio spans 131 companies over 13 cohorts."
+    },
+    "sources": [
+      { "url": "https://www.healthwildcatters.com/accelerator", "title": "Overview - Health Wildcatters", "publisher": "Health Wildcatters", "accessed": "undefined", "supports": "healthcare accelerator identity, 12-week program, investment terms" },
+      { "url": "https://dallasinnovates.com/11-global-startups-join-health-wildcatters-as-dallas-grows-as-a-health-innovation-hub/", "title": "11 Startups Join Health Wildcatters in Dallas (13th Cohort)", "publisher": "Dallas Innovates", "accessed": "undefined", "supports": "13th cohort of 11 startups (2025), portfolio of 131 companies over 13 years, $30K/8% up to $380K, 12-week fall program" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Investment terms ($30K for 8%, up to $380K max potential incl. follow-on/convertible notes) and portfolio count (131 across 13 cohorts, 2025) from Health Wildcatters and Dallas Innovates. Founded ~2013.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-zeroto510",
+    "name": { "en": "ZeroTo510" },
+    "aka": ["ZeroTo510 Medical Device Accelerator"],
+    "type": "accelerator",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Memphis",
+    "website": "https://www.zeroto510.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "$25,000 (+$25,000 if company locates in Memphis 12+ months)", "usd_min": 25000, "usd_max": 50000 },
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices"],
+      "thesis": "Medical-device accelerator focused on products pursuing the FDA 510(k) pathway; a 13-week program with hands-on regulatory, quality and reimbursement support from ex-FDA advisors."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 13,
+      "batches_per_year": 1,
+      "investment": { "raw": "$25,000 on acceptance; additional $25,000 for locating in Memphis 12+ months", "usd": 25000, "currency": "USD" },
+      "format": "in-person",
+      "location": "Memphis (Memphis Bioworks)",
+      "demo_day": true,
+      "eligibility": "Early-stage medical device startups, especially 510(k) pathway"
+    },
+    "summary": {
+      "en": "ZeroTo510 is a Memphis medical-device accelerator (billed as the first-ever medical device accelerator) focused on the FDA 510(k) pathway, offering a $25K seed (plus $25K for local residency) and a 13-week regulatory-heavy program."
+    },
+    "sources": [
+      { "url": "https://www.zeroto510.com/accelerator-program", "title": "Accelerator Program - ZeroTo510", "publisher": "ZeroTo510", "accessed": "undefined", "supports": "medical device 510(k) focus, 13-week program, $25K + $25K investment, equity investment" },
+      { "url": "https://www.biospace.com/b-zeroto510-b-medical-device-accelerator-accepting-applications", "title": "ZeroTo510 Medical Device Accelerator Accepting Applications", "publisher": "BioSpace", "accessed": "undefined", "supports": "medical device accelerator identity, FDA 510(k) focus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Investment ($25K on acceptance, +$25K for Memphis residency 12+ months), 13-week program and 510(k) focus as reported on ZeroTo510 and BioSpace. Operates within the Memphis Bioworks ecosystem; annual cohort cadence.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-mhub-medtech-accelerator",
+    "name": { "en": "mHUB MedTech Accelerator" },
+    "aka": ["mHUB Chicago MedTech Accelerator"],
+    "type": "accelerator",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago",
+    "website": "https://mhub.org/medtech-accelerator-for-startups",
+    "strategy": {
+      "stages": ["seed"],
+      "check_size": { "raw": "$200,000 ($142,500 cash + ~$60K in-kind) for 6.5% equity", "usd_min": 200000, "usd_max": 200000 },
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "diagnostics"],
+      "thesis": "MedTech vertical of Chicago hardtech innovation center mHUB; a six-month program (with 18 months of follow-on support) investing $200K for 6.5% and access to 11 prototyping labs for medical device / hardware startups."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "wearables-sensors"],
+      "company_creation": false,
+      "science_platform_notes": "Access to $6M of equipment across 11 prototyping labs; focus areas include medicine delivery, remote patient monitoring, wearables, sensing/diagnostics and therapeutic devices."
+    },
+    "program": {
+      "length_weeks": 26,
+      "batches_per_year": 1,
+      "equity_taken_pct": "6.5",
+      "investment": { "raw": "$200,000 initial ($142,500 cash + $60,000 in-kind services) for 6.5% equity", "usd": 200000, "currency": "USD" },
+      "format": "in-person",
+      "location": "Chicago",
+      "lab_space": true,
+      "demo_day": true
+    },
+    "summary": {
+      "en": "mHUB's MedTech Accelerator in Chicago invests $200,000 ($142.5K cash plus in-kind services) for 6.5% equity over a six-month program, giving medical-device and hardware startups access to 11 prototyping labs and 18 months of follow-on support."
+    },
+    "sources": [
+      { "url": "https://mhub.org/medtech-accelerator-for-startups", "title": "MedTech Accelerator and Medical Device Accelerator | mHUB", "publisher": "mHUB", "accessed": "undefined", "supports": "six-month program, $200K ($142.5K cash + $60K in-kind) for 6.5% equity, 11 prototyping labs, focus areas" },
+      { "url": "https://medcitynews.com/2021/08/leading-hardtech-innovation-center-mhub-opens-medtech-accelerator-for-medical-device-startups/", "title": "mHUB opens MedTech accelerator for medical device startups", "publisher": "MedCity News", "accessed": "undefined", "supports": "launch of mHUB MedTech Accelerator (2021), medtech hardware focus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "mHUB is primarily a hardtech innovation center/incubator (that lab-space function overlaps the sibling incubator slice); included here for its distinct cohort MedTech Accelerator with defined investment/equity terms. Program launched 2021.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-matter",
+    "name": { "en": "MATTER" },
+    "aka": ["MATTER Chicago", "MATTER Health"],
+    "type": "accelerator",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago",
+    "website": "https://matter.health/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it"],
+      "thesis": "Chicago healthcare innovation hub that, alongside its incubator, runs cohort accelerator programs including the BARDA-network Paratus Digital Health Accelerator (non-dilutive) and the Health Equity Innovation Accelerator."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"],
+      "company_creation": false
+    },
+    "program": {
+      "batches_per_year": 2,
+      "format": "hybrid",
+      "location": "Chicago",
+      "demo_day": true,
+      "eligibility": "Healthcare and life-science startups; specialized tracks for digital health (BARDA) and health equity"
+    },
+    "track_record": {
+      "portfolio_count": "1,000+ startups incubated"
+    },
+    "summary": {
+      "en": "MATTER is a Chicago healthcare innovation hub that has worked with 1,000+ healthcare and life-science startups; beyond its incubator it runs cohort accelerators such as the BARDA-network Paratus Digital Health Accelerator and a Health Equity Innovation Accelerator."
+    },
+    "sources": [
+      { "url": "https://matter.health/", "title": "MATTER Chicago | Healthcare Incubator", "publisher": "MATTER", "accessed": "undefined", "supports": "healthcare innovation hub identity, opened Feb 2015, 1,000+ startups" },
+      { "url": "https://www.chicagobusiness.com/health-care/matter-part-barda-accelerator-network/", "title": "Matter part of BARDA Accelerator Network as accelerator hub", "publisher": "Crain's Chicago Business", "accessed": "undefined", "supports": "Paratus Digital Health Accelerator / BARDA Accelerator Network (non-dilutive)" },
+      { "url": "https://matter.health/challenges/health-equity-innovation-chicago-business-accelerator/", "title": "Health Equity Innovation: A Chicago Business Accelerator", "publisher": "MATTER", "accessed": "undefined", "supports": "cohort-based Health Equity Innovation accelerator program" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "MATTER's primary identity is a healthcare incubator (overlaps the sibling incubator slice); included here because it runs distinct cohort accelerator programs (Paratus/BARDA digital health, Health Equity Innovation). Opened February 2015.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-nucleate",
+    "name": { "en": "Nucleate" },
+    "aka": ["Nucleate Activator"],
+    "type": "accelerator",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://nucleate.org/",
+    "strategy": {
+      "stages": ["pre-seed"],
+      "check_size": { "raw": "equity-free (no capital taken; subsidized perks, funded fellowships)", "usd_min": 0, "usd_max": 0 },
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "synthetic-biology", "life-science-tools"],
+      "thesis": "Nonprofit, student-run academic biotech venture-creation program; its six-month, equity-free Activator pairs PhD/MD/postdoc founders with mentors, curriculum, legal support and funded fellowships to spin science into companies."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "rna-therapeutics", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Runs across 40+ regions and 200+ academic institutions; Bio Track (human health) and Eco Track (sustainability)."
+    },
+    "program": {
+      "length_weeks": 26,
+      "batches_per_year": 1,
+      "equity_taken_pct": "0",
+      "format": "hybrid",
+      "location": "Boston (national/global chapters)",
+      "demo_day": true,
+      "eligibility": "Academic trainees (PhDs, postdocs, MDs, MBAs, JDs) building life-science startups"
+    },
+    "track_record": {
+      "portfolio_count": "400+ ventures",
+      "notable_investments": [
+        { "company": "NextRNA Therapeutics", "sector": "RNA therapeutics", "outcome": "active ($56M raised)" },
+        { "company": "Manifold Bio", "sector": "biotech", "outcome": "active ($45M raised)" },
+        { "company": "Glyphic Biotechnologies", "sector": "life-science tools", "outcome": "active ($44M+ raised)" }
+      ]
+    },
+    "summary": {
+      "en": "Nucleate is a nonprofit, student-run academic biotech venture-creation organization whose six-month equity-free Activator has served 400+ life-science ventures that have raised over $420M; founded 2019, now across 40+ regions."
+    },
+    "sources": [
+      { "url": "https://nucleate.org/activator/", "title": "Activator - Nucleate", "publisher": "Nucleate", "accessed": "undefined", "supports": "six-month equity-free program for academic biotech founders, curriculum, 400+ ventures, $420M raised" },
+      { "url": "https://www.biospace.com/students-venture-capitalists-launch-equity-free-program-to-support-future-biotech-leaders", "title": "Students, Venture Capitalists Launch Equity-Free Program To Support Future Biotech Leaders", "publisher": "BioSpace", "accessed": "undefined", "supports": "equity-free academic biotech venture creation model, founded 2019" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Equity-free nonprofit; 'investment' is subsidized perks/legal support/funded fellowships rather than cash. Cumulative figures (400+ ventures, $420M raised) from Nucleate. Founded 2019.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-petri",
+    "name": { "en": "Petri" },
+    "aka": ["Petri Bio", "Petri (Pillar VC)"],
+    "type": "accelerator",
+    "subtypes": ["venture-studio"],
+    "status": "unknown",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://www.pillar.vc/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "at least $250,000 in seed funding", "usd_min": 250000, "usd_max": null },
+      "geo_focus": ["United States"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "life-science-tools", "genomics-omics"],
+      "thesis": "Boston bio accelerator backed by Pillar VC for startups at the 'frontier of biology and engineering' (synthetic biology, bioengineering); a 12-month program with seed funding, lab space and access to scientific leaders."
+    },
+    "lifesci": {
+      "modalities": ["gene-editing", "cell-therapy", "lab-automation", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Provides lab space and access to scientific/entrepreneurial leaders (e.g. George Church, Emily Leproust, Daphne Koller)."
+    },
+    "program": {
+      "length_weeks": 52,
+      "equity_taken_pct": null,
+      "investment": { "raw": "at least $250,000 seed funding", "usd": 250000, "currency": "USD" },
+      "format": "in-person",
+      "location": "Boston",
+      "lab_space": true,
+      "eligibility": "Early-stage founders at the intersection of biology and engineering"
+    },
+    "summary": {
+      "en": "Petri, launched 2019 and backed by Boston VC firm Pillar (a three-year $15M commitment), is a 12-month biotech accelerator for startups at the frontier of biology and engineering, offering at least $250K seed plus lab space and scientific mentorship."
+    },
+    "sources": [
+      { "url": "https://www.fiercebiotech.com/biotech/pillar-petri-boston-s-new-accelerator-for-fledgling-biotechs", "title": "Pillar ponies up for Petri, Boston's new accelerator for fledgling biotechs", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Pillar-backed Boston biotech accelerator, 12-month program, $250K seed, lab space" },
+      { "url": "https://techcrunch.com/2019/09/13/boston-gets-a-new-biotech-accelerator-with-the-launch-of-petri/", "title": "Boston gets a new biotech accelerator with the launch of Petri", "publisher": "TechCrunch", "accessed": "undefined", "supports": "launched Sept 2019, three-year $15M commitment, biology + engineering focus" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Petri launched September 2019 with a three-year $15M commitment from Pillar VC; program terms (12-month, >=$250K seed, lab space) from 2019 coverage. Current activity level is uncertain (status set to unknown) - the accelerator may have wound down or been folded into Pillar's broader bio investing; could not confirm an active current cohort.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-dreamit-healthtech",
+    "name": { "en": "Dreamit HealthTech" },
+    "aka": ["Dreamit Ventures", "Dreamit Health"],
+    "type": "accelerator",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Philadelphia",
+    "offices": [
+      { "country": "United States", "city": "Philadelphia" },
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://www.dreamit.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-it", "medtech-devices"],
+      "thesis": "Early-stage accelerator and venture fund with a HealthTech vertical for startups with revenue or pilots ready to scale; a 14-week program emphasizing go-to-market, enterprise sales and fundraising."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 14,
+      "format": "hybrid",
+      "location": "Philadelphia / New York",
+      "demo_day": true,
+      "eligibility": "HealthTech startups with revenue or pilots ready to scale"
+    },
+    "track_record": {
+      "portfolio_count": "300+ companies (across all verticals/funds)"
+    },
+    "summary": {
+      "en": "Dreamit is a Philadelphia-based early-stage accelerator and venture fund (founded 2008) whose HealthTech program runs a 14-week, go-to-market-focused accelerator for digital-health and health-IT startups with revenue or pilots ready to scale."
+    },
+    "sources": [
+      { "url": "https://www.dreamit.com/", "title": "Dreamit Ventures", "publisher": "Dreamit Ventures", "accessed": "undefined", "supports": "accelerator + venture fund, HealthTech/Securetech verticals, revenue/pilot-stage focus" },
+      { "url": "https://www.foundra.ai/accelerators/dreamit-ventures", "title": "Dreamit Ventures: Healthtech & Urbantech Accelerator Guide", "publisher": "Foundra", "accessed": "undefined", "supports": "14-week program, founded 2008 Philadelphia, 300+ companies across four funds" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Dreamit runs verticalized accelerators (HealthTech, SecureTech); it also operates as a venture fund (subtype vc). 14-week program length and 300+ portfolio (all verticals) from Dreamit and Foundra. Founded 2008.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-plug-and-play-health",
+    "name": { "en": "Plug and Play Health" },
+    "aka": ["Plug and Play Health & Wellness", "Plug and Play Tech Center - Health"],
+    "type": "accelerator",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Sunnyvale",
+    "website": "https://www.plugandplaytechcenter.com/industries/health",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "optional $50K-$250K (1-5% equity); many tracks take no equity", "usd_min": 50000, "usd_max": 250000 },
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it"],
+      "thesis": "Corporate-innovation health accelerator connecting digital-health startups with 30+ healthcare corporate partners for pilots and partnerships; three-month programs run twice a year for ~20 startups, mostly without taking equity."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 13,
+      "cohort_size": 20,
+      "batches_per_year": 2,
+      "format": "in-person",
+      "location": "Sunnyvale, CA (and other Plug and Play hubs)",
+      "demo_day": true,
+      "eligibility": "Digital-health startups seeking corporate pilots/partnerships"
+    },
+    "summary": {
+      "en": "Plug and Play Health (Sunnyvale) is a corporate-innovation health accelerator connecting ~20 digital-health startups per batch (two batches/year, three months each) with 30+ healthcare corporate partners for pilots; most tracks take no direct equity."
+    },
+    "sources": [
+      { "url": "https://www.plugandplaytechcenter.com/industries/health", "title": "Plug and Play - Health", "publisher": "Plug and Play Tech Center", "accessed": "undefined", "supports": "corporate-innovation health accelerator, digital health focus, 30+ corporate partners" },
+      { "url": "https://xraise.ai/blog/top-health-tech-healthcare-accelerators/", "title": "Top Health Tech Accelerators (Plug and Play entry)", "publisher": "XRaise", "accessed": "undefined", "supports": "3-month program, optional $50K-$250K for 1-5% equity, ~20 startups, corporate pilot model" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Plug and Play's value is largely curated corporate introductions/pilots; equity terms are optional and vary by track ($50K-$250K for 1-5%, or no equity). Cohort cadence (~20 startups, twice/year, 3 months) from secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-merck-digital-sciences-studio",
+    "name": { "en": "Merck Digital Sciences Studio" },
+    "aka": ["MDSS", "MDS Studio"],
+    "type": "accelerator",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Newark",
+    "offices": [
+      { "country": "United States", "city": "Newark" },
+      { "country": "United States", "city": "Cambridge" }
+    ],
+    "website": "https://www.mds.studio/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "$100,000 SAFE from Merck Global Health Innovation Fund", "usd_min": 100000, "usd_max": 100000 },
+      "geo_focus": ["United States", "Canada"],
+      "sector_focus": ["ai-drug-discovery", "digital-health", "pharma-services"],
+      "thesis": "Merck-backed accelerator (operated with the New Jersey Innovation Institute) for early-stage startups building digital/AI technologies for drug discovery and development; a ~9-10 month program with a $100K SAFE and access to Merck experts."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd"],
+      "company_creation": false,
+      "science_platform_notes": "Focus on preventive health, biologics R&D platforms and 3D translational disease models; startups hosted at NJII's VentureLink incubator (Newark) and in Cambridge, MA."
+    },
+    "program": {
+      "length_weeks": 40,
+      "cohort_size": 12,
+      "equity_taken_pct": "via SAFE",
+      "investment": { "raw": "$100,000 USD SAFE from Merck Global Health Innovation Fund", "usd": 100000, "currency": "USD" },
+      "format": "hybrid",
+      "location": "Newark, NJ (NJII VentureLink) and Cambridge, MA",
+      "demo_day": true,
+      "eligibility": "Early-stage startups building digital/AI tech for drug discovery, pre-clinical and clinical development"
+    },
+    "summary": {
+      "en": "Merck Digital Sciences Studio, run with the New Jersey Innovation Institute, is a ~9-10 month accelerator investing a $100K SAFE (from Merck's Global Health Innovation Fund) in early-stage startups building AI/digital technologies for drug discovery and development."
+    },
+    "sources": [
+      { "url": "https://www.merck.com/news/merck-digital-sciences-studio-expands-with-second-innovation-class-to-advance-biopharma-and-digital-health-progress-in-north-america/", "title": "Merck Digital Sciences Studio Expands with Second Innovation Class", "publisher": "Merck", "accessed": "undefined", "supports": "nine-month accelerator, $100K SAFE from Merck GHI Fund, digital/AI for drug discovery, 12 startups" },
+      { "url": "https://www.njii.com/in-the-news/njii-joins-merck-to-launch-merck-digital-sciences-studio/", "title": "NJII Joins Merck to Launch Merck Digital Sciences Studio", "publisher": "New Jersey Innovation Institute", "accessed": "undefined", "supports": "operated by NJII (NJIT subsidiary) in Newark; startups at VentureLink incubator (Newark) and Cambridge, MA; 10-month program" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Program length reported as 9 months (Merck) and 10 months (NJII); $100K SAFE from Merck Global Health Innovation Fund with regional partners (The Venture Collective in the US, CQDM in Canada). Launched 2022; later cohorts include Canadian (Montreal) sites. US base is NJII, Newark, NJ.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-gbeta-medtech",
+    "name": { "en": "gBETA Medtech (gener8tor)" },
+    "aka": ["gBETA Medtech", "gener8tor gBETA Medtech"],
+    "type": "accelerator",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Minneapolis",
+    "website": "https://www.gener8tor.com/gbeta/medtech",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "no fees, no equity (free program)", "usd_min": 0, "usd_max": 0 },
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "therapeutics"],
+      "thesis": "Free, no-equity seven-week pre-accelerator (part of gener8tor) for medical device, healthcare software, biotech and diagnostics startups, delivering ~30 mentor intros and 25+ investor meetings; sponsored by Mayo Clinic, University of Minnesota, Medical Alley and Boston Scientific."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "wearables-sensors"],
+      "company_creation": false
+    },
+    "program": {
+      "length_weeks": 7,
+      "cohort_size": "up to 5",
+      "equity_taken_pct": "0",
+      "investment": { "raw": "no fees, no equity", "usd": 0, "currency": "USD" },
+      "format": "hybrid",
+      "location": "Minnesota (Minneapolis / St. Paul)",
+      "demo_day": true,
+      "eligibility": "Medtech, healthcare software, biotech and diagnostics startups"
+    },
+    "summary": {
+      "en": "gBETA Medtech is gener8tor's free, no-equity seven-week pre-accelerator in Minnesota for medical device, healthcare software, biotech and diagnostics startups, delivering mentor and investor introductions with support from Mayo Clinic, University of Minnesota, Medical Alley and Boston Scientific."
+    },
+    "sources": [
+      { "url": "https://www.gener8tor.com/gbeta/medtech", "title": "gBETA Medtech - gener8tor", "publisher": "gener8tor", "accessed": "undefined", "supports": "free seven-week program, up to five companies, partners", "quote": "gBETA is a free, seven-week, pre-accelerator program for companies that are looking to achieve rapid growth and/or raise venture capital." },
+      { "url": "https://www.gener8tor.com/gbeta/medtech", "title": "gBETA Medtech - gener8tor", "publisher": "gener8tor", "accessed": "undefined", "supports": "cohort size", "quote": "Up to five companies from a range of verticals are selected from a competitive applicant pool to participate in the free seven-week program." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Free, equity-free pre-accelerator. Partners include Boston Scientific, Mayo Clinic, Medical Alley Association and University of Minnesota. gBETA Medtech has run since ~2015; program has at times been virtual (COVID). Parent gener8tor is HQ'd in Wisconsin; the Medtech program is based in Minnesota.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  },
+  {
+    "id": "us-xleratehealth",
+    "name": { "en": "XLerateHealth" },
+    "aka": ["XLH", "XLerator Network"],
+    "type": "accelerator",
+    "subtypes": ["university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Louisville",
+    "website": "https://www.xleratehealth.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["healthcare-services", "digital-health", "medtech-devices", "therapeutics"],
+      "thesis": "Louisville's longest-standing healthcare accelerator, helping founders commercialize and raise funding; also leads the NIH-funded XLerator Network commercializing academic life-science innovations across Southeast IDeA states."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "medical-hardware", "ai-ml-platform"],
+      "company_creation": false,
+      "science_platform_notes": "Leads the NIH-funded XLerator Network (with University of Kentucky and 24+ academic institutions) plus NIH/SBA commercialization programs (I-RED, EnRICH, SBIR Catalyst)."
+    },
+    "program": {
+      "format": "hybrid",
+      "location": "Louisville, KY (national XLerator Network)",
+      "demo_day": true,
+      "eligibility": "Early-stage healthcare and academic life-science startups"
+    },
+    "summary": {
+      "en": "XLerateHealth (founded 2012, Louisville) is one of the longest-operating U.S. healthcare accelerators and leads the NIH-funded XLerator Network commercializing academic life-science and healthcare innovations across Southeast IDeA states."
+    },
+    "sources": [
+      { "url": "https://www.xleratehealth.com/about/", "title": "About XLH - XLerateHealth", "publisher": "XLerateHealth", "accessed": "undefined", "supports": "founded 2012, Louisville's first/longest-standing healthcare accelerator, commercialization focus" },
+      { "url": "https://uknow.uky.edu/research/nih-funded-network-led-xleratehealth-and-uk-supports-hbcu-commercialization", "title": "NIH-funded Network Led by XLerateHealth and UK Supports HBCU Commercialization", "publisher": "University of Kentucky (UKNow)", "accessed": "undefined", "supports": "XLerator Network is NIH-funded, partnership with University of Kentucky and 24+ academic institutions in Southeast IDeA states" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 2012. Runs both a private healthcare accelerator cohort and the NIH-funded XLerator Network (academic commercialization); exact current cohort investment/equity terms not verified. IDeA-state academic focus overlaps with government/university programs.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-bio"
+  }
+]

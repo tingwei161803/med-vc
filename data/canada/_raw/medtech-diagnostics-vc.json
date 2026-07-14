@@ -1,0 +1,374 @@
+[
+  {
+    "id": "ca-leva-capital",
+    "name": { "en": "Leva Capital" },
+    "type": "vc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.levacapital.ca/",
+    "capital": {
+      "funds": [
+        { "name": "Leva Capital Fund I", "vintage_year": 2021, "size": { "raw": null, "usd": null, "currency": null } },
+        { "name": "Leva Capital Fund II", "vintage_year": null, "size": { "raw": "$20M", "usd": 20000000, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics"],
+      "thesis": "Toronto-based venture firm purpose-built to invest in MedTech and Digital Health startups at pre-seed and seed (with select Series A follow-on), providing hands-on regulatory, IP and commercialization support alongside capital."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "wearables-sensors"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Arbutus Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "COSM Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Qualisure Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Realize Medical", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Toronto venture capital firm purpose-built to back MedTech and Digital Health startups at pre-seed/seed, with a $20M Fund II and a portfolio spanning surgical devices, diagnostics and digital therapeutics."
+    },
+    "sources": [
+      {
+        "url": "https://www.levacapital.ca/",
+        "title": "Leva Capital — Healthcare Venture Capital | Canada",
+        "publisher": "Leva Capital",
+        "accessed": "undefined",
+        "supports": "sector focus, stages, HQ, portfolio companies",
+        "quote": "MedTech and Digital Health startups at pre-seed and seed stages, with potential follow-on Series A investments"
+      },
+      {
+        "url": "https://www.levacapital.ca/event-details/leva-capital-fund-ii-webinar",
+        "title": "Leva Capital Fund II Webinar",
+        "publisher": "Leva Capital",
+        "accessed": "undefined",
+        "supports": "Fund II size",
+        "quote": "Leva Capital Fund II is a $20M early-stage fund purpose-built to invest in MedTech and Digital Health startups at the Pre-seed and Seed stages"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year (2021) inferred from PitchBook's 2021-vintage listing for Leva Capital Fund I; not independently confirmed on the official site, which does not state a founding date.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "ca-one-six-8-ventures",
+    "name": { "en": "One Six 8 Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Calgary",
+    "website": "https://onesix8ventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "diagnostics"],
+      "thesis": "Calgary-based, operator-led MedTech venture fund investing in early-stage AI-MedTech, surgical tools/robotics and remote patient monitoring companies, run by a team of MDs, PhDs, CPAs and former VC-backed life-science operators.",
+      "geo_focus": ["Canada", "United States", "Europe"]
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "ai-ml-platform", "wearables-sensors"],
+      "indications": ["ophthalmology", "cardiovascular", "neurology"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "PulseMedica", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Respiree", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "ThinkSono", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Fluid Biomed", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Calgary-headquartered early-stage MedTech venture fund backing AI-MedTech, surgical robotics and remote patient monitoring startups, led by a team combining clinical (MD), scientific (PhD) and life-science operating experience."
+    },
+    "sources": [
+      {
+        "url": "https://onesix8ventures.com/about.html",
+        "title": "One Six 8 Ventures — Operator-Led MedTech Venture Capital Fund",
+        "publisher": "One Six 8 Ventures",
+        "accessed": "undefined",
+        "supports": "sector focus, portfolio companies, team background",
+        "quote": "high-growth areas including AI-MedTech, surgical tools and robotics, and remote patient monitoring"
+      },
+      {
+        "url": "https://calgary.tech/2025/02/03/healthcare-innovators-alberta-investment-medical-tech/",
+        "title": "Healthcare Innovators in Alberta Attract Investment to Advance Medical Tech",
+        "publisher": "Calgary.Tech",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, team composition",
+        "quote": "One Six 8 Ventures was founded in 2023 and is headquartered in Calgary, Alberta... leverages insights from MDs, PhDs, CPAs & former VC-backed life science C-level operators"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size and check size not disclosed on the official site or in secondary sources found; founding year sourced from a secondary (Calgary.Tech) article rather than the firm's own site.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "ca-northspring-capital-partners",
+    "name": { "en": "NorthSpring Capital Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2009,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Cambridge",
+    "website": "http://northspringcapitalpartners.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$250,000 - $1,000,000", "usd_min": 250000, "usd_max": 1000000 },
+      "geo_focus": ["Toronto-Waterloo corridor, Ontario, Canada"],
+      "sector_focus": ["medtech-devices", "surgical-robotics"],
+      "thesis": "Generalist Toronto-to-Waterloo-corridor technology investor with a sustained record of backing medical device companies (robotic patient-transfer devices, surgical force-sensing film, spinal implants) alongside other tech sectors."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "indications": ["musculoskeletal-orthopedics"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Able Innovations", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Forcen (formerly SensOR Medical Laboratories)", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Synergy Disc Replacement Inc.", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Cambridge, Ontario venture/growth-capital firm investing $250K-$1M in Toronto-Waterloo corridor technology companies, with a notable and recurring concentration of medical device investments including robotic patient-handling systems, surgical force-sensing film and spinal implants."
+    },
+    "sources": [
+      {
+        "url": "http://northspringcapitalpartners.com/our-focus/early-stage-technology-loans-and-investments/",
+        "title": "Early Stage Technology Loans and Investments",
+        "publisher": "NorthSpring Capital Partners",
+        "accessed": "undefined",
+        "supports": "check size, geography, investment focus",
+        "quote": "invests between $250,000 to $1 million in companies with minimum revenues of $1 million that are within a two hour drive of Cambridge, Ontario"
+      },
+      {
+        "url": "https://shizune.co/investors/medical-device-vc-funds-canada",
+        "title": "Top 50 Medical Device VC Funds & Investors in Canada",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "founding year, medical device portfolio companies",
+        "quote": "NorthSpring Capital Partners is a venture capital and private equity firm... headquartered in Cambridge, Ontario and was founded in 2009... Forcen (formerly SensOR Medical Laboratories), a company that developed first-in-the-world force-sensing film for surgical robotics"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "NorthSpring is a generalist Southern-Ontario technology investor (also backs non-medical 'traditional industries'), not an exclusively medtech fund; included because medical devices form a recurring, verifiable share of its portfolio. Fund size/AUM not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "ca-medteq-plus",
+    "name": { "en": "MEDTEQ+", "local": "MEDTEQ+ — Consortium de recherche et d'innovation en technologies médicales du Québec" },
+    "aka": ["MEDTEQ", "MEDTEQ+ Invest"],
+    "type": "government-program",
+    "subtypes": ["incubator", "vc"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.medteq.ca/",
+    "links": { "other": ["https://invest.medteq.ca/en/home/"] },
+    "capital": {
+      "funds": [
+        { "name": "MEDTEQ Investment Fund", "vintage_year": 2019, "size": { "raw": "$14 million", "usd": 14000000, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$1 million to $10 million (financing round size sought by portfolio companies)", "usd_min": 1000000, "usd_max": 10000000 },
+      "geo_focus": ["Canada"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "medical-imaging"],
+      "thesis": "Pan-Canadian, government- and industry-backed medtech innovation consortium (a federal Centre of Excellence for Commercialization and Research) that pairs non-dilutive R&D/validation funding with a dedicated dilutive investment fund (MEDTEQ+ Invest) for Canadian health-technology companies."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "indications": ["oncology", "aging-longevity", "womens-health"],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Runs technology validation exercises with industry and clinical stakeholders prior to investment; over 200 member organizations spanning industry, universities and the health network."
+    },
+    "track_record": {
+      "portfolio_count": 24,
+      "notable_investments": [
+        { "company": "Optina Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Spinologics", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "THORASYS", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Saccade Analytics", "sector": "diagnostics", "outcome": "active" }
+      ],
+      "co_investors": ["Anges Québec", "Anges Québec Capital", "Innovacorp", "Real Ventures"]
+    },
+    "summary": {
+      "en": "Montreal-based pan-Canadian medtech innovation cluster (federally recognized Centre of Excellence for Commercialization and Research) whose MEDTEQ+ Invest fund has deployed close to $140M in investment alongside co-investors into 24 Canadian health-technology companies since 2019.",
+      "local": "Consortium québécois et pancanadien de recherche et d'innovation en technologies médicales, dont le fonds MEDTEQ+ Invest a investi près de 140 M$ dans 24 entreprises canadiennes de technologies de la santé."
+    },
+    "sources": [
+      {
+        "url": "https://www.medteq.ca/en/",
+        "title": "MEDTEQ+ | Innovation for health",
+        "publisher": "MEDTEQ+",
+        "accessed": "undefined",
+        "supports": "portfolio investment total, company count, HQ",
+        "quote": "invested in 24 companies with nearly 300 co-investors... nearly 140 M$"
+      },
+      {
+        "url": "https://www.medteq.ca/investissement-huit-entreprises-canadiennes-medtech/",
+        "title": "Le fonds de placement de MEDTEQ investit dans huit entreprises canadiennes du secteur des technologies médicales",
+        "publisher": "MEDTEQ+",
+        "accessed": "undefined",
+        "supports": "investment fund size, co-investors, portfolio companies",
+        "quote": "Le fonds d'investissement de MEDTEQ, d'une valeur de 14 millions de dollars... MEDTEQ a réalisé ces investissements de concert avec plusieurs co-investisseurs de renom, dont Anges Québec, Anges Québec Capital, Innovacorp et Real Ventures"
+      },
+      {
+        "url": "https://www.nce-rce.gc.ca/NetworksCentres-CentresReseaux/CECR-CECR/MEDTEQ-MEDTEQ_eng.asp",
+        "title": "Quebec Consortium for Industrial Research and Innovation in Medical Technology",
+        "publisher": "Networks of Centres of Excellence of Canada",
+        "accessed": "undefined",
+        "supports": "founding, government-program status",
+        "quote": "MEDTEQ was officially launched in January 2013 with the financial support of the Ministère de l'Enseignement supérieur, de la Recherche, de la Science et de la Technologie"
+      },
+      {
+        "url": "https://invest.medteq.ca/en/medteqs-investment-fund-announces-8-investments-in-canadian-health-technology-companies/",
+        "title": "MEDTEQ's Investment Fund announces 8 investments in Canadian health technology companies",
+        "publisher": "MEDTEQ+ Invest",
+        "accessed": "undefined",
+        "supports": "check size range sought by portfolio companies",
+        "quote": "Canadian health technology companies that are raising $1 million to $10 million"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "MEDTEQ+ is primarily a government-funded innovation cluster/CECR that layers grants, technology validation services and a dedicated equity investment vehicle (MEDTEQ+ Invest); classified here as government-program with vc/incubator subtypes since medtech-focused direct investment is a core, verifiable activity.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "ca-cimtec",
+    "name": { "en": "Centre for Imaging Technology Commercialization (CIMTEC)" },
+    "type": "incubator",
+    "subtypes": ["government-program", "vc"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "London",
+    "offices": [{ "country": "Canada", "city": "London, Ontario" }],
+    "website": "https://cimtecimaging.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["medical-imaging", "diagnostics"],
+      "geo_focus": ["Canada"],
+      "thesis": "Not-for-profit medical-imaging commercialization centre (housed at Robarts Research Institute, Western University, and supported by the Ontario Institute for Cancer Research) that makes direct financial investments in early-stage Canadian medical-imaging and digital-pathology companies alongside technology-development and business-development support."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "indications": ["oncology"],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "In-house technology development team builds and tests clinical prototypes in 3D visualization, image analysis and mechatronics design; provides IP, regulatory and market-access assessment alongside capital."
+    },
+    "track_record": {
+      "portfolio_count": "60+",
+      "co_investors": []
+    },
+    "summary": {
+      "en": "Ontario-based, OICR-supported medical-imaging commercialization centre that combines direct equity investment with technical and regulatory support for early-stage Canadian imaging and digital-pathology companies; over 60 companies assisted, still 100% operating, with direct investment leveraging 12.5x follow-on financing."
+    },
+    "sources": [
+      {
+        "url": "https://cimtecimaging.com/about-us",
+        "title": "About Us",
+        "publisher": "Centre for Imaging Technology Commercialization",
+        "accessed": "undefined",
+        "supports": "investment activity, portfolio count, funding source",
+        "quote": "CIMTEC's direct financial investment in companies has been leveraged to raise 12.5 times more financing from other sources... a not-for-profit corporation supported by the Ontario Institute for Cancer Research (OICR)"
+      },
+      {
+        "url": "https://www.nce-rce.gc.ca/NetworksCentres-CentresReseaux/PreviouslyFunded-FinancesAnterieurement/CECR-CECR/CImTeC_eng.asp",
+        "title": "Centre for Imaging Technology Commercialization - CIMTEC",
+        "publisher": "Networks of Centres of Excellence of Canada",
+        "accessed": "undefined",
+        "supports": "government-program / CECR status",
+        "quote": "Centre for Imaging Technology Commercialization"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, fund size and named portfolio companies were not disclosed on the pages retrieved; classified as incubator/government-program given its CECR/not-for-profit structure, with vc as a secondary subtype since direct equity investment is an explicit, verified activity.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "ca-cpdc",
+    "name": { "en": "Centre for Probe Development and Commercialization (CPDC)" },
+    "type": "incubator",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Hamilton",
+    "website": "https://cpdc.ca/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["diagnostics", "medical-imaging"],
+      "geo_focus": ["Canada"],
+      "thesis": "Hamilton, Ontario not-for-profit (originally a federal Centre of Excellence for Commercialization and Research, McMaster-affiliated) that makes strategic equity investments in and incubates/spins out Canadian nuclear-medicine and radiopharmaceutical-imaging-probe companies."
+    },
+    "lifesci": {
+      "modalities": ["radiopharmaceuticals", "medical-hardware"],
+      "indications": ["oncology"],
+      "company_creation": true,
+      "invests_public_markets": false,
+      "science_platform_notes": "Operates GMP radiopharmaceutical production and clinical-trial supply infrastructure; has run 60+ clinical trials and delivered 65,000+ clinical doses."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Fusion Pharmaceuticals Inc.", "sector": "radiopharmaceuticals", "outcome": "IPO (Nasdaq: FUSN)" },
+        { "company": "AtomVie Global Radiopharma", "sector": "radiopharmaceuticals", "outcome": "active" },
+        { "company": "RadioSyn", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "ARTMS", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "CanProbe", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Hamilton-based not-for-profit radiopharmaceutical/nuclear-medicine centre that has incubated and spun out companies including Fusion Pharmaceuticals (Nasdaq IPO), and makes direct strategic investments (e.g. $650K into isotope-synthesis device maker RadioSyn) in imaging-probe and diagnostics startups."
+    },
+    "sources": [
+      {
+        "url": "https://cpdc.ca/about/",
+        "title": "About – CPDC",
+        "publisher": "Centre for Probe Development and Commercialization",
+        "accessed": "undefined",
+        "supports": "founding year, structure, spinouts",
+        "quote": "not-for-profit advancing nuclear medicine in Canada... founded in 2008... successfully incubated, grown, and spun-out two Canadian-based radiopharmaceutical companies: Fusion Pharmaceuticals Inc., and AtomVie Global Radiopharma"
+      },
+      {
+        "url": "https://news.mcmaster.ca/mcmaster-startup-radiosyn-cpdc-funding-for-nuclear-medicine-radiopharmaceuticals-device/",
+        "title": "McMaster startup secures funding for nuclear medicine device",
+        "publisher": "McMaster University",
+        "accessed": "undefined",
+        "supports": "investment amount, portfolio company",
+        "quote": "Centre for Probe Development and Commercialization (CPDC) has invested $650,000 in RadioSyn, a startup that is creating a miniaturized automated device that synthesizes radiopharmaceuticals"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "CPDC blends direct equity investment with company creation/incubation and contract radiopharmaceutical manufacturing; classified as incubator/government-program rather than pure VC since investment is one of several activities. Overall fund size/AUM not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  }
+]

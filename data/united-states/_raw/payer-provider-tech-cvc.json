@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "us-optum-ventures",
+    "name": { "en": "Optum Ventures" },
+    "aka": ["UnitedHealth Group / Optum Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "offices": [
+      { "country": "United States", "city": "Boston" },
+      { "country": "United Kingdom", "city": "London" }
+    ],
+    "website": "https://optumventures.com/",
+    "capital": {
+      "aum": { "raw": "more than $1 billion", "usd": 1000000000, "currency": "USD" },
+      "funds": [
+        { "name": "Optum Ventures (initial)", "vintage_year": 2017, "size": { "raw": "$250 million", "usd": 250000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "geo_focus": ["United States", "United Kingdom", "Europe"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it", "diagnostics", "ai-drug-discovery"],
+      "thesis": "Independent venture arm of Optum / UnitedHealth Group investing in data-driven digital health companies that make the health system work better; leverages access to the largest US health-services and payer platform."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "DispatchHealth", "sector": "in-home care", "outcome": "active" },
+        { "company": "Bright Health", "sector": "digital health", "outcome": "IPO" }
+      ]
+    },
+    "tags": ["payer-cvc", "unitedhealth", "digital-health"],
+    "summary": {
+      "en": "Corporate venture arm of Optum (UnitedHealth Group), launched in 2017 with an initial $250M and now managing more than $1B, backing digital health and data-driven care companies.",
+      "local": "UnitedHealth 旗下 Optum 的企業創投,2017 年以 2.5 億美元起步,現管理逾 10 億美元,專注數位健康與資料驅動的照護新創。"
+    },
+    "sources": [
+      {
+        "url": "https://optumventures.com/",
+        "title": "Optum Ventures",
+        "publisher": "Optum Ventures",
+        "accessed": "undefined",
+        "supports": "existence, mission, Boston + London offices",
+        "quote": "investing in extraordinary entrepreneurs to transform healthcare together"
+      },
+      {
+        "url": "https://healthcareuncovered.substack.com/p/health-insurers-are-using-venture",
+        "title": "Health Insurers Are Using Venture Capital Investments To Expand Their Reach",
+        "publisher": "Healthcare Uncovered",
+        "accessed": "undefined",
+        "supports": "founding year, initial and current fund size",
+        "quote": "In 2017, UnitedHealth Group created Optum Ventures with an initial $250 million investment; the fund currently has more than $1 billion under management."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Parent UnitedHealth Group HQ is Minnetonka, MN; Optum Ventures operates from Boston (75 State Street) with a London office. AUM figure is secondary reporting.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-cvs-health-ventures",
+    "name": { "en": "CVS Health Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Woonsocket",
+    "offices": [ { "country": "United States", "city": "Woonsocket" } ],
+    "website": "https://www.cvshealthventures.com/",
+    "capital": {
+      "funds": [
+        { "name": "CVS Health Ventures (initial)", "vintage_year": 2021, "size": { "raw": "$100 million", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it"],
+      "thesis": "Corporate venture arm of CVS Health (pharmacy retailer, PBM Caremark and payer Aetna) backing startups that make healthcare more accessible and lower cost, with distribution across CVS retail, pharmacy and insurance assets."
+    },
+    "track_record": {
+      "portfolio_count": "47+"
+    },
+    "tags": ["payer-cvc", "pharmacy-cvc", "aetna", "digital-health"],
+    "summary": {
+      "en": "Corporate venture fund of CVS Health, launched in 2021 with $100M to invest in digital-first healthcare startups; spans CVS's pharmacy, Caremark PBM and Aetna payer footprint.",
+      "local": "CVS Health 於 2021 年成立、初始 1 億美元的企業創投,投資數位優先的醫療新創,橫跨其藥局、Caremark PBM 與 Aetna 保險資產。"
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercehealthcare.com/finance/cvs-health-seeks-new-digital-health-opportunities-100m-venture-fund",
+        "title": "CVS Health launches $100M digital health investment fund",
+        "publisher": "Fierce Healthcare",
+        "accessed": "undefined",
+        "supports": "founding year and $100M fund size",
+        "quote": "CVS Health launches $100M digital health investment fund"
+      },
+      {
+        "url": "https://www.cvshealthventures.com/portfolio.html",
+        "title": "Portfolio | CVS Health Ventures",
+        "publisher": "CVS Health Ventures",
+        "accessed": "undefined",
+        "supports": "existence and portfolio",
+        "quote": "Portfolio | CVS Health Ventures"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio count of 47 investments is from PitchBook (secondary). HQ is CVS Health's Woonsocket, RI base.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-cigna-ventures",
+    "name": { "en": "Cigna Ventures" },
+    "aka": ["The Cigna Group / Cigna Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Bloomfield",
+    "website": "https://www.cignaventures.com/",
+    "capital": {
+      "funds": [
+        { "name": "Cigna Ventures", "vintage_year": 2018, "size": { "raw": "$250 million", "usd": 250000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it", "mental-health"],
+      "thesis": "Venture arm of The Cigna Group (Cigna Healthcare payer + Evernorth health services) focused on insights & analytics, digital health & experience, and care delivery & enablement."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Headspace Health (Ginger)", "sector": "digital mental health", "outcome": "active" },
+        { "company": "Omada Health", "sector": "chronic condition management", "outcome": "IPO" },
+        { "company": "MDLIVE", "sector": "virtual care", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["payer-cvc", "cigna", "evernorth", "digital-health"],
+    "summary": {
+      "en": "Corporate venture fund of The Cigna Group investing across insights & analytics, digital health and care delivery; committed a $250M fund and later signaled additional capital.",
+      "local": "The Cigna Group 的企業創投,投資領域涵蓋數據分析、數位健康與照護遞送,設立 2.5 億美元基金並後續加碼。"
+    },
+    "sources": [
+      {
+        "url": "https://www.healthcarefinancenews.com/news/cigna-ventures-invest-250-million-healthcare-startups",
+        "title": "Cigna Ventures to invest $250 million in healthcare startups",
+        "publisher": "Healthcare Finance News",
+        "accessed": "undefined",
+        "supports": "$250 million fund size",
+        "quote": "Cigna Ventures to invest $250 million in healthcare startups"
+      },
+      {
+        "url": "https://www.cignaventures.com/",
+        "title": "Cigna Ventures",
+        "publisher": "Cigna Ventures",
+        "accessed": "undefined",
+        "supports": "focus areas and portfolio (Headspace/Ginger, Omada, MDLIVE)",
+        "quote": "broaden access to care, enhance support, and drive better value"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Parent The Cigna Group HQ is Bloomfield, CT. Forbes reported an additional $450M allocation across insights/analytics, digital health/experience, and care delivery/enablement; founding year 2018 is widely reported (secondary).",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-blue-venture-fund",
+    "name": { "en": "Blue Venture Fund" },
+    "aka": ["BlueCross BlueShield Venture Partners", "BCBS Venture Partners"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago",
+    "website": "https://blueventurefund.com/",
+    "capital": {
+      "aum": { "raw": "over $890 million across four funds", "usd": 890000000, "currency": "USD" },
+      "funds": [
+        { "name": "BCBS Venture Partners (Fund I)", "vintage_year": 2008, "size": { "raw": "$116 million", "usd": 116000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it", "therapeutics"],
+      "thesis": "Collaboration between 35 Blue Cross Blue Shield companies, the BCBS Association and manager Sandbox Industries; invests in healthcare technology, services and clinical sciences of strategic relevance to Blue plans, giving portfolio companies access to Blues for scale."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Somatus", "sector": "kidney care", "outcome": "active" },
+        { "company": "Emids", "sector": "healthcare IT services", "outcome": "active" }
+      ]
+    },
+    "tags": ["payer-cvc", "blue-cross-blue-shield", "sandbox-industries", "multi-plan"],
+    "summary": {
+      "en": "A collaboration of 35 Blue Cross Blue Shield companies and the BCBS Association, managed by Sandbox Industries, that has committed over $890M across four funds since 2008 into healthcare technology, services and clinical sciences.",
+      "local": "由 35 家 Blue Cross Blue Shield 公司與 BCBS 協會合作、由 Sandbox Industries 管理的基金,自 2008 年起於四支基金投入逾 8.9 億美元,投資醫療科技、服務與臨床科學。"
+    },
+    "sources": [
+      {
+        "url": "https://sandboxindustries.com/blue-venture-funds",
+        "title": "Blue Venture Funds — Sandbox Industries",
+        "publisher": "Sandbox Industries",
+        "accessed": "undefined",
+        "supports": "35 BCBS companies, over $890M across four funds, manager Sandbox",
+        "quote": "thirty-five BCBS companies have committed over $890 million across four funds"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/bluecross-blueshield-venture-partners",
+        "title": "The Blue Venture Fund — Investor Profile",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "founded 2008 with $116M from 11 Blue insurers; third most active digital health investor since 2010",
+        "quote": "founded in 2008 ... started out with $116 million from 11 Blue insurers"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Structurally a captive multi-payer CVC vehicle managed by an independent firm (Sandbox Industries, Chicago). Capital is committed by BCBS plans; Sandbox provides investment management.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-echo-health-ventures",
+    "name": { "en": "Echo Health Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "offices": [
+      { "country": "United States", "city": "Portland" },
+      { "country": "United States", "city": "Durham" },
+      { "country": "United States", "city": "Seattle" },
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "Little Rock" }
+    ],
+    "website": "https://echohealthventures.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it", "mental-health"],
+      "thesis": "Strategic venture and growth-equity firm formed by health-plan owners (Cambia Health Solutions, Mosaic Health Solutions/BCBS of North Carolina lineage, BlueCross BlueShield of Tennessee, USAble) to drive systemic healthcare transformation through hands-on investing."
+    },
+    "track_record": {
+      "portfolio_count": "30+",
+      "notable_investments": [
+        { "company": "Cityblock Health", "sector": "value-based care", "outcome": "active" },
+        { "company": "Strive Health", "sector": "kidney care", "outcome": "active" },
+        { "company": "Eleanor Health", "sector": "addiction/behavioral health", "outcome": "active" }
+      ]
+    },
+    "tags": ["payer-cvc", "cambia", "blue-plans", "growth-equity"],
+    "summary": {
+      "en": "Payer-backed strategic venture and growth-equity firm (Cambia Health Solutions, BCBS of Tennessee and other Blue-plan partners) with 30+ portfolio companies across care delivery, behavioral health and healthcare technology.",
+      "local": "由保險方(Cambia、田納西 BCBS 等藍十字計畫)支持的策略型創投與成長股權基金,投資組合逾 30 家,聚焦照護遞送、行為健康與醫療科技。"
+    },
+    "sources": [
+      {
+        "url": "https://echohealthventures.com/",
+        "title": "Echo Health Ventures",
+        "publisher": "Echo Health Ventures",
+        "accessed": "undefined",
+        "supports": "alliance members, 30+ portfolio, offices, focus",
+        "quote": "drive systemic health care transformation through hands-on, purpose-driven strategic venture capital and growth equity investing"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Echo Innovation Alliance members: Cambia Health Solutions, Mosaic Health Solutions, USAble Corporation, and BlueCross BlueShield of Tennessee. No single HQ; multi-office (Portland/Durham/Seattle/Boston/Little Rock). Fund size not publicly disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-kaiser-permanente-ventures",
+    "name": { "en": "Kaiser Permanente Ventures" },
+    "aka": ["KPV"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 1998,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Oakland",
+    "website": "https://www.kpventures.com/",
+    "capital": {
+      "aum": { "raw": "more than $500 million", "usd": 500000000, "currency": "USD" },
+      "funds": [
+        { "name": "KPV Fund V", "vintage_year": 2019, "size": { "raw": "$141 million", "usd": 141000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "check_size": { "raw": "$500,000 to $15 million", "usd_min": 500000, "usd_max": 15000000 },
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "medtech-devices", "healthcare-services", "healthcare-it", "diagnostics"],
+      "thesis": "Venture arm of Kaiser Permanente, the integrated payer-provider system, investing in health IT, digital health, care services, medical devices and diagnostics that align with integrated care delivery."
+    },
+    "track_record": {
+      "portfolio_count": "70+",
+      "notable_investments": [
+        { "company": "iRhythm Technologies", "sector": "cardiac monitoring", "outcome": "IPO" },
+        { "company": "Health Catalyst", "sector": "healthcare analytics", "outcome": "IPO" },
+        { "company": "Omada Health", "sector": "digital health", "outcome": "IPO" }
+      ]
+    },
+    "tags": ["payer-provider-cvc", "integrated-delivery", "kaiser-permanente"],
+    "summary": {
+      "en": "Venture arm of integrated payer-provider Kaiser Permanente, investing since 1998; closed Fund V at $141M, bringing AUM above $500M across health IT, digital health, devices and diagnostics.",
+      "local": "整合型保險-醫療體系 Kaiser Permanente 的創投,自 1998 年起投資;第五號基金募得 1.41 億美元,累計管理逾 5 億美元,涵蓋醫療資訊、數位健康、器材與診斷。"
+    },
+    "sources": [
+      {
+        "url": "https://permanente.org/kaiser-permanente-ventures-closes-fund-v-with-141-million-in-total-capital/",
+        "title": "Kaiser Permanente Ventures closes Fund V with $141 million in total capital",
+        "publisher": "Permanente Medicine",
+        "accessed": "undefined",
+        "supports": "Fund V $141M, AUM >$500M",
+        "quote": "closed its fifth investment fund (Fund V) at $141 million, bringing total assets under management to more than $500 million"
+      },
+      {
+        "url": "https://www.kpventures.com/",
+        "title": "Kaiser Permanente Ventures",
+        "publisher": "Kaiser Permanente Ventures",
+        "accessed": "undefined",
+        "supports": "existence, focus, program since 1998, 70+ companies",
+        "quote": "Healthcare Venture Investing"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Check-size range and 70+ portfolio count are secondary (CB Insights / profiles). Kaiser Permanente is headquartered in Oakland, CA.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-ascension-ventures",
+    "name": { "en": "Ascension Ventures" },
+    "aka": ["AV"],
+    "type": "cvc",
+    "subtypes": ["multi-health-system-fund"],
+    "status": "active",
+    "founded_year": 2001,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "St. Louis",
+    "website": "https://ascensionventures.org/",
+    "capital": {
+      "aum": { "raw": "more than $1 billion", "usd": 1000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["healthcare-it", "healthcare-services", "medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Strategic venture arm of Ascension (largest Catholic non-profit US health system), investing on behalf of 13+ health-system LPs in healthcare IT & services, medical devices and diagnostics."
+    },
+    "track_record": {
+      "portfolio_count": 104,
+      "notable_investments": [
+        { "company": "Phreesia", "sector": "patient intake software", "outcome": "IPO" },
+        { "company": "United Surgical Partners International", "sector": "ambulatory surgery", "outcome": "acquired" },
+        { "company": "Strive Health", "sector": "kidney care", "outcome": "active" }
+      ]
+    },
+    "tags": ["provider-cvc", "multi-system-lp", "ascension"],
+    "summary": {
+      "en": "Founded 2001 as the venture arm of Ascension, Ascension Ventures manages over $1B across five funds on behalf of 13+ health-system LPs, investing in healthcare IT/services, devices and diagnostics.",
+      "local": "2001 年成立、Ascension(美國最大天主教非營利醫療體系)旗下創投,管理逾 10 億美元、五支基金,代表 13 家以上醫療體系 LP 投資醫療資訊/服務、器材與診斷。"
+    },
+    "sources": [
+      {
+        "url": "https://ascensionventures.org/who-we-are/",
+        "title": "Who We Are | Ascension Ventures",
+        "publisher": "Ascension Ventures",
+        "accessed": "undefined",
+        "supports": "founded 2001, >$1B AUM across five funds, 13 LPs, 450+ hospitals",
+        "quote": "With five funds and over $1B under management, AV invests on behalf of 450+ leading hospitals nationwide."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio metrics (104 companies, 8 IPOs, 46 acquisitions) are from secondary profiles. HQ St. Louis, MO.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-providence-allumia-ventures",
+    "name": { "en": "Allumia Ventures" },
+    "aka": ["Providence Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Seattle",
+    "offices": [
+      { "country": "United States", "city": "Seattle" },
+      { "country": "United States", "city": "Menlo Park" }
+    ],
+    "website": "https://allumiaventures.com/",
+    "capital": {
+      "aum": { "raw": "$300 million across two funds (as Providence Ventures)", "usd": 300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "check_size": { "raw": "$10M–$50M range deals", "usd_min": 10000000, "usd_max": 50000000 },
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "medtech-devices"],
+      "thesis": "Health-system-anchored venture firm (formerly Providence Ventures) investing in digital health, tech-enabled healthcare services and medtech; anchored by Providence with additional strategic LPs after a 2025 spin-out."
+    },
+    "track_record": {
+      "portfolio_count": "30+",
+      "notable_investments": [
+        { "company": "One Medical", "sector": "primary care", "outcome": "acquired" },
+        { "company": "Omada Health", "sector": "digital health", "outcome": "IPO" },
+        { "company": "DexCare", "sector": "digital care operations", "outcome": "active" }
+      ]
+    },
+    "tags": ["provider-cvc", "providence", "spinout"],
+    "summary": {
+      "en": "Founded 2014 as Providence Ventures ($300M across two funds), it spun out in January 2025 to become Allumia Ventures, an independent healthcare VC anchored by Providence and additional strategic LPs.",
+      "local": "2014 年以 Providence Ventures 成立(兩支基金共 3 億美元),2025 年 1 月分拆為獨立的 Allumia Ventures,由 Providence 及其他策略 LP 支持。"
+    },
+    "sources": [
+      {
+        "url": "https://allumiaventures.com/",
+        "title": "Allumia Ventures",
+        "publisher": "Allumia Ventures",
+        "accessed": "undefined",
+        "supports": "rebrand from Providence Ventures, Providence anchor, portfolio",
+        "quote": "Anchored by Providence ... Allumia Ventures combines the best of Providence Ventures with an expanded, more flexible model"
+      },
+      {
+        "url": "https://www.beckershospitalreview.com/healthcare-information-technology/digital-health/providence-spins-out-venture-capital-arm-invests-150m-in-3rd-fund/",
+        "title": "Providence spins out venture capital arm",
+        "publisher": "Becker's Hospital Review",
+        "accessed": "undefined",
+        "supports": "founded 2014, $150M initial then $300M, spin-out",
+        "quote": "Providence spins out venture capital arm"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Formerly Providence Ventures (named anchor in the research brief). Spun out to independent Allumia Ventures in Jan 2025; Providence remains anchor LP so it retains health-system CVC character. $300M AUM figure predates the spin-out.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-upmc-enterprises",
+    "name": { "en": "UPMC Enterprises" },
+    "type": "cvc",
+    "subtypes": ["university-hospital-fund"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Pittsburgh",
+    "website": "https://enterprises.upmc.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "therapeutics", "diagnostics", "healthcare-it", "cell-gene-therapy"],
+      "thesis": "Innovation, commercialization and venture division of UPMC, a $28B integrated provider-insurer, investing across two areas: translational sciences (diagnostics/therapeutics) and digital solutions."
+    },
+    "track_record": {
+      "portfolio_count": "50+",
+      "notable_investments": [
+        { "company": "Abridge", "sector": "AI clinical documentation", "outcome": "active" },
+        { "company": "Werewolf Therapeutics", "sector": "immuno-oncology", "outcome": "IPO" },
+        { "company": "Ring Therapeutics", "sector": "gene therapy", "outcome": "active" }
+      ]
+    },
+    "tags": ["provider-payer-cvc", "academic-medical-center", "upmc", "translational"],
+    "summary": {
+      "en": "Innovation and venture arm of UPMC, a $28B integrated provider-insurer, investing in translational science (diagnostics/therapeutics) and digital health, with a 50+ company portfolio including Abridge.",
+      "local": "UPMC(280 億美元整合型醫療-保險體系)的創新與創投部門,投資轉譯科學(診斷/治療)與數位健康,投組逾 50 家,含 Abridge。"
+    },
+    "sources": [
+      {
+        "url": "https://enterprises.upmc.com/",
+        "title": "UPMC Enterprises",
+        "publisher": "UPMC Enterprises",
+        "accessed": "undefined",
+        "supports": "division of UPMC ($28B provider-insurer), two focus areas, 50+ portfolio",
+        "quote": "the innovation, commercialization, and venture capital division of UPMC, a $28 billion healthcare provider and insurer"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "UPMC (University of Pittsburgh Medical Center) is an academic integrated provider-payer; Enterprises straddles provider CVC and university-hospital IP commercialization. Fund size not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-mass-general-brigham-ventures",
+    "name": { "en": "Mass General Brigham Ventures" },
+    "aka": ["Partners Innovation Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://www.massgeneralbrigham.org/en/research-and-innovation/innovation/ventures",
+    "capital": {
+      "funds": [
+        { "name": "AI and Digital Innovation Fund (AIDIF)", "vintage_year": 2020, "size": { "raw": "$30 million", "usd": 30000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "ai-drug-discovery"],
+      "thesis": "Early-stage venture arm of Mass General Brigham health system, translating bench-to-bedside innovations out of Mass General and Brigham & Women's into companies across drugs, devices, diagnostics and digital health."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Amolyt Pharma", "sector": "rare endocrine therapeutics", "outcome": "acquired" },
+        { "company": "CodaMetrix", "sector": "AI medical coding", "outcome": "active" }
+      ]
+    },
+    "tags": ["provider-fund", "academic-medical-center", "bench-to-bedside"],
+    "summary": {
+      "en": "Founded 2008, the venture arm of the Mass General Brigham health system invests at seed/Series A in bench-to-bedside companies (drugs, devices, diagnostics, digital), plus a $30M AI & Digital Innovation Fund launched in 2020.",
+      "local": "2008 年成立,Mass General Brigham 醫療體系的創投,於種子/A 輪投資由實驗室走向臨床的公司(新藥、器材、診斷、數位),另於 2020 年設立 3,000 萬美元 AI 與數位創新基金。"
+    },
+    "sources": [
+      {
+        "url": "https://www.massgeneralbrigham.org/en/research-and-innovation/innovation/ventures/about",
+        "title": "About | Mass General Brigham Ventures",
+        "publisher": "Mass General Brigham",
+        "accessed": "undefined",
+        "supports": "founded 2008, seed/Series A, bench-to-bedside, AIDIF $30M (2020)",
+        "quote": "an early-stage venture capital firm founded in 2008 to advance new life science technologies emerging from Mass General Brigham"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Health-system (provider) IP-commercialization fund; invests in therapeutics/devices emerging from its own hospitals, so it straddles the medtech/pharma line but is a provider fund, not a pharma/medtech company's CVC. Formerly Partners Innovation Fund.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-northwell-holdings",
+    "name": { "en": "Northwell Holdings" },
+    "aka": ["Northwell Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New Hyde Park",
+    "website": "https://www.northwell.edu/about/our-organization/northwell-holdings",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "medtech-devices", "ai-drug-discovery"],
+      "thesis": "For-profit investment and company-creation arm of Northwell Health (New York's largest health system), investing in early-stage/growth opportunities and spinning out companies using the system's enterprise data assets."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Ascertain", "sector": "AI company-creation (w/ Aegis Ventures)", "outcome": "active" },
+        { "company": "Clarapath", "sector": "lab automation/robotics", "outcome": "active" },
+        { "company": "Transcarent", "sector": "digital health platform", "outcome": "active" }
+      ]
+    },
+    "tags": ["provider-cvc", "northwell", "company-creation"],
+    "summary": {
+      "en": "Established 2013 as the for-profit investment and company-creation arm of Northwell Health, investing in and co-founding digital health, services and AI companies leveraging the system's data assets.",
+      "local": "2013 年成立,紐約最大醫療體系 Northwell Health 的營利型投資與公司創建部門,投資並共同創辦數位健康、服務與 AI 公司。"
+    },
+    "sources": [
+      {
+        "url": "https://www.northwell.edu/about/our-organization/northwell-holdings/overview",
+        "title": "Overview - Northwell Holdings",
+        "publisher": "Northwell Health",
+        "accessed": "undefined",
+        "supports": "for-profit arm, established 2013, early-stage/growth investing and company creation",
+        "quote": "the for-profit arm of Northwell Health—is focused on investment in early stage/growth opportunities, strategic partnerships and the cultivation of internal innovations"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Uses internal (balance-sheet) capital rather than a disclosed pooled fund; also operates a company-creation platform with Aegis Ventures. Northwell HQ New Hyde Park, NY.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-cleveland-clinic-ventures",
+    "name": { "en": "Cleveland Clinic Ventures" },
+    "aka": ["Cleveland Clinic Innovations"],
+    "type": "university-hospital-fund",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cleveland",
+    "website": "https://ventures.clevelandclinic.org/Cleveland-Clinic-Ventures/About-Us",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics", "digital-health"],
+      "thesis": "Innovation and venture arm of Cleveland Clinic that commercializes the system's own technologies and invests in medical devices, pharmaceuticals, diagnostics and digital health, launching spinoff companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Dyania Health", "sector": "clinical data AI", "outcome": "active" },
+        { "company": "Enspire DBS Therapy", "sector": "neuro-stimulation", "outcome": "active" }
+      ]
+    },
+    "tags": ["provider-fund", "academic-medical-center", "cleveland-clinic", "ip-commercialization"],
+    "summary": {
+      "en": "Cleveland Clinic's innovation/venture arm has turned 900+ technologies into licensed products and launched 100+ spinoffs since 2000, investing across devices, pharma, diagnostics and digital health.",
+      "local": "Cleveland Clinic 的創新/創投部門,自 2000 年起將逾 900 項技術轉為授權產品、成立逾 100 家衍生公司,投資器材、製藥、診斷與數位健康。"
+    },
+    "sources": [
+      {
+        "url": "https://my.clevelandclinic.org/innovations/invest",
+        "title": "Invest | Cleveland Clinic Innovations",
+        "publisher": "Cleveland Clinic",
+        "accessed": "undefined",
+        "supports": "900+ technologies licensed, 100+ spinoffs since 2000",
+        "quote": "transformed more than 900 technologies into licensed products and launched more than 100 spinoff companies since 2000"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Academic-medical-center IP commercialization plus investing. In Oct 2025 announced a strategic collaboration with Khosla Ventures. Fund size not publicly disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-intermountain-ventures",
+    "name": { "en": "Intermountain Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Salt Lake City",
+    "website": "https://intermountainventures.com/",
+    "capital": {
+      "current_fund": { "raw": "multimillion-dollar evergreen fund (seven-year commitment)", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it"],
+      "thesis": "Venture and innovation arm of Intermountain Health investing in early- and growth-stage companies across enterprise enablement, care-site optimization, workforce transformation, consumer experience, clinical advancement and proactive care."
+    },
+    "tags": ["provider-cvc", "intermountain", "evergreen-fund"],
+    "summary": {
+      "en": "Corporate venture arm of Intermountain Health (Salt Lake City), backed by a multimillion-dollar evergreen fund with a seven-year commitment, investing in six themes spanning care-site optimization to proactive care.",
+      "local": "Intermountain Health(鹽湖城)的企業創投,由數百萬美元的常青基金(七年承諾)支持,投資六大主題,從照護場域最佳化到主動式照護。"
+    },
+    "sources": [
+      {
+        "url": "https://intermountainhealthcare.org/about/ventures",
+        "title": "Intermountain Ventures",
+        "publisher": "Intermountain Health",
+        "accessed": "undefined",
+        "supports": "venture arm of Intermountain Health, six focus areas, evergreen fund",
+        "quote": "the venture capital and innovation arm of Intermountain Health"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Exact fund size undisclosed (described as a multimillion-dollar evergreen fund). HQ Salt Lake City, UT.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-osf-ventures",
+    "name": { "en": "OSF Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Peoria",
+    "website": "https://www.osfinnovation.org/invest/osf-ventures",
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "medtech-devices", "healthcare-services", "healthcare-it"],
+      "thesis": "Corporate investment arm of OSF HealthCare investing financially, operationally and strategically (as part of syndicates) in post-seed companies that improve patient outcomes and experience and reduce cost of care.",
+      "lead_or_follow": "follow"
+    },
+    "tags": ["provider-cvc", "osf-healthcare"],
+    "summary": {
+      "en": "Corporate venture arm of OSF HealthCare (Peoria, IL) investing at post-seed stages as part of syndicates in companies that improve outcomes, experience and cost of care.",
+      "local": "OSF HealthCare(伊利諾州 Peoria)的企業創投,於後種子階段以聯合投資方式投資能改善成效、體驗與成本的公司。"
+    },
+    "sources": [
+      {
+        "url": "https://www.osfinnovation.org/invest/osf-ventures",
+        "title": "OSF Ventures | OSF Innovation",
+        "publisher": "OSF HealthCare",
+        "accessed": "undefined",
+        "supports": "corporate investment arm of OSF HealthCare, post-seed syndicate investing",
+        "quote": "the corporate investment arm of OSF HealthCare, invests financially, operationally and strategically"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund size not disclosed. HQ Peoria, IL (OSF HealthCare).",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-commonspirit-ventures",
+    "name": { "en": "CommonSpirit Ventures" },
+    "aka": ["Dignity Health / Catholic Health Initiatives legacy venture"],
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago",
+    "website": "https://www.commonspirit.org/ventures",
+    "capital": {
+      "current_fund": { "raw": "$250 million (fourth fund)", "usd": 250000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it", "therapeutics"],
+      "thesis": "Investment division of CommonSpirit Health (one of the largest US non-profit systems) investing in integrated-delivery extensions, AI-driven automation, life sciences and convenient care; one of the longest continuously operating health-system funds."
+    },
+    "track_record": {
+      "portfolio_count": 36,
+      "co_investors": ["Andreessen Horowitz", "NEA", "Oak HC/FT", "TPG"]
+    },
+    "tags": ["provider-cvc", "commonspirit", "catholic-health"],
+    "summary": {
+      "en": "Investment arm of CommonSpirit Health, now investing from its fourth fund (~$250M) with 36 direct investments and 16 exits; one of the longest continuously operating health-system venture funds.",
+      "local": "CommonSpirit Health 的投資部門,目前以第四號基金(約 2.5 億美元)投資,累計 36 筆直接投資與 16 次退出,是持續營運最久的醫療體系創投之一。"
+    },
+    "sources": [
+      {
+        "url": "https://www.commonspirit.org/ventures",
+        "title": "Ventures | CommonSpirit Health",
+        "publisher": "CommonSpirit Health",
+        "accessed": "undefined",
+        "supports": "fourth fund, $250M, 36 investments, 16 exits, co-investors",
+        "quote": "one of the longest continuously operating health system venture funds and is now investing from its fourth fund"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "CommonSpirit Health formed from the 2019 merger of Dignity Health and Catholic Health Initiatives; HQ Chicago, IL. $250M current-fund size from the official Ventures page.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-advocate-health-enterprises",
+    "name": { "en": "Advocate Health Enterprises" },
+    "aka": ["Advocate Aurora Enterprises"],
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Milwaukee",
+    "website": "https://pitchbook.com/profiles/investor/463365-82",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "medtech-devices", "consumer-health"],
+      "thesis": "Corporate venture / diversified-businesses arm of Advocate Health (formed from Advocate Aurora Health and Atrium Health), investing in consumer-focused health, care delivery and health technology companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Xealth", "sector": "digital health integration", "outcome": "active" },
+        { "company": "MobileHelp", "sector": "remote patient monitoring", "outcome": "active" }
+      ]
+    },
+    "tags": ["provider-cvc", "advocate-health", "consumer-health"],
+    "summary": {
+      "en": "Corporate venture and diversified-businesses arm of Advocate Health (Milwaukee), investing in consumer health, care delivery and health-tech companies such as Xealth and MobileHelp.",
+      "local": "Advocate Health(密爾瓦基)的企業創投與多元事業部門,投資消費者健康、照護遞送與醫療科技公司,如 Xealth、MobileHelp。"
+    },
+    "sources": [
+      {
+        "url": "https://pitchbook.com/profiles/investor/463365-82",
+        "title": "Advocate Aurora Enterprises investment portfolio",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "corporate venture arm, Milwaukee, portfolio (Xealth, MobileHelp, APN Health)",
+        "quote": "a corporate venture arm of Advocate Aurora Health based in Milwaukee, Wisconsin"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Advocate Aurora Health merged with Atrium Health in 2022 to form Advocate Health (HQ Charlotte, NC); the enterprises/venture unit has been based in Milwaukee, WI. Details are largely from secondary profiles; no disclosed pooled-fund size.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-hca-health-insight-capital",
+    "name": { "en": "Health Insight Capital" },
+    "aka": ["HCA Healthcare venture arm"],
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Nashville",
+    "website": "https://www.cbinsights.com/investor/health-insight-capital",
+    "capital": {
+      "current_fund": { "raw": "~$10 million a year target", "usd": 10000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["healthcare-it", "medtech-devices", "healthcare-services", "digital-health"],
+      "thesis": "Venture subsidiary of HCA Healthcare making equity investments in early-stage companies whose innovations can be deployed across HCA's hospitals to improve quality and efficiency and reduce cost.",
+      "lead_or_follow": "follow"
+    },
+    "track_record": {
+      "portfolio_count": 15,
+      "notable_investments": [
+        { "company": "AirStrip Technologies", "sector": "mobile clinical data", "outcome": "active" },
+        { "company": "Lumere", "sector": "clinical evidence/analytics", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["provider-cvc", "hca", "hospital-operator"],
+    "summary": {
+      "en": "Venture subsidiary of HCA Healthcare (Nashville) targeting ~$10M/year into early-stage companies whose solutions can be deployed across HCA hospitals to improve quality and reduce cost.",
+      "local": "HCA Healthcare(納許維爾)的創投子公司,每年約投入 1,000 萬美元於早期公司,以便在 HCA 醫院部署、提升品質並降低成本。"
+    },
+    "sources": [
+      {
+        "url": "https://www.cbinsights.com/investor/health-insight-capital",
+        "title": "Health Insight Capital — Investor Profile",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "HCA subsidiary, ~$10M/year target, deploy in HCA hospitals, 15 investments",
+        "quote": "HCA is targeting $10 million a year in venture capital investments with a focus on concepts that can be deployed in its hospitals"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Details from CB Insights and secondary sources; HCA does not publish a dedicated venture website. HQ Nashville, TN.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-memorialcare-innovation-fund",
+    "name": { "en": "MemorialCare Innovation Fund" },
+    "aka": ["MCIF"],
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Fountain Valley",
+    "website": "https://memorialcareinnovationfund.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["healthcare-it", "healthcare-services", "medtech-devices", "digital-health"],
+      "thesis": "Strategic venture fund wholly owned by MemorialCare Health System investing in early- to mid-stage companies in healthcare IT, healthcare services and medical devices."
+    },
+    "track_record": {
+      "portfolio_count": 60,
+      "notable_investments": [
+        { "company": "Carta Healthcare", "sector": "clinical data automation", "outcome": "active" }
+      ]
+    },
+    "tags": ["provider-cvc", "memorialcare"],
+    "summary": {
+      "en": "Strategic venture fund wholly owned by MemorialCare Health System (Southern California), with 60 investments in early- to mid-stage healthcare IT, services and device companies.",
+      "local": "MemorialCare Health System(南加州)全資擁有的策略創投基金,已投資 60 家早中期醫療資訊、服務與器材公司。"
+    },
+    "sources": [
+      {
+        "url": "https://memorialcareinnovationfund.com/about-mcif/",
+        "title": "About MCIF | MemorialCare Innovation Fund",
+        "publisher": "MemorialCare Innovation Fund",
+        "accessed": "undefined",
+        "supports": "wholly owned by MemorialCare, early/mid-stage focus, sectors",
+        "quote": "a strategic healthcare investment fund wholly owned by MemorialCare Health System"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio count (60) from CB Insights; MemorialCare HQ Fountain Valley, CA. Not to be confused with Memorial Hermann (Texas).",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-highmark-ventures",
+    "name": { "en": "Highmark Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2010,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Pittsburgh",
+    "website": "https://www.highmark.com/ventures",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it"],
+      "thesis": "Corporate venture arm of Highmark Health (integrated Blue-branded payer and provider) making thematically driven investments that advance Highmark's enterprise strategy to transform care delivery and financing."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Healthmap Solutions", "sector": "kidney population health", "outcome": "active" }
+      ]
+    },
+    "tags": ["payer-cvc", "highmark", "blue-plan"],
+    "summary": {
+      "en": "Corporate venture arm of Highmark Health, investing since 2010 in companies that advance its enterprise strategy to transform healthcare delivery and financing; co-led Healthmap Solutions' $35M round.",
+      "local": "Highmark Health 的企業創投,自 2010 年起投資能推進其企業策略、轉型醫療遞送與給付的公司;曾共同領投 Healthmap Solutions 的 3,500 萬美元募資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.highmark.com/ventures",
+        "title": "Highmark Ventures",
+        "publisher": "Highmark Health",
+        "accessed": "undefined",
+        "supports": "CVC of Highmark Health, since 2010, thematically driven",
+        "quote": "Since 2010, it has been investing in innovative companies that advance Highmark Health's enterprise strategy"
+      },
+      {
+        "url": "https://www.fiercehealthcare.com/payers/highmark-ventures-guidewell-back-healthmaps-35m-round-scale-kidney-care",
+        "title": "Highmark Ventures, GuideWell back Healthmap's $35M round",
+        "publisher": "Fierce Healthcare",
+        "accessed": "undefined",
+        "supports": "co-led Healthmap Solutions $35M round with GuideWell",
+        "quote": "Highmark Ventures, GuideWell back Healthmap's $35M round to scale up kidney care"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Highmark Health is an integrated Blue-branded payer-provider; HQ Pittsburgh, PA. Fund size not publicly disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-guidewell-florida-blue",
+    "name": { "en": "GuideWell Venture Group" },
+    "aka": ["Florida Blue", "GuideWell Mutual Holding"],
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Jacksonville",
+    "website": "https://www.guidewell.com/who-we-are/our-businesses",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it"],
+      "thesis": "Venture and innovation activity of GuideWell (parent of Florida Blue, the leading Florida health insurer), investing in and building human-first health solutions; also runs the GuideWell Innovation Center incubator in Lake Nona."
+    },
+    "subtypes": ["incubator"],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Healthmap Solutions", "sector": "kidney population health", "outcome": "active" }
+      ]
+    },
+    "tags": ["payer-cvc", "florida-blue", "blue-plan", "innovation-center"],
+    "summary": {
+      "en": "Venture and innovation arm of GuideWell (parent of Florida Blue), which invests in digital health companies and runs the GuideWell Innovation Center incubator in Lake Nona; co-led Healthmap's $35M round.",
+      "local": "GuideWell(Florida Blue 母公司)的創投與創新部門,投資數位健康公司,並在 Lake Nona 營運 GuideWell 創新中心育成器;曾共同領投 Healthmap 的 3,500 萬美元募資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2022/05/02/2433469/0/en/GuideWell-and-Highmark-Ventures-Lead-35-Million-Funding-Round-in-Kidney-Health-Leader-Healthmap-Solutions.html",
+        "title": "GuideWell and Highmark Ventures Lead $35 Million Funding Round in Healthmap Solutions",
+        "publisher": "GlobeNewswire",
+        "accessed": "undefined",
+        "supports": "GuideWell venture investing; co-led $35M Healthmap round",
+        "quote": "GuideWell and Highmark Ventures Lead $35 Million Funding Round in Kidney Health Leader Healthmap Solutions"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "GuideWell invests through the GuideWell Venture Group / balance sheet rather than a single publicly named fund; also operates the GuideWell Innovation Center incubator (Lake Nona, opened 2016). HQ Jacksonville, FL.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-point32health-ventures",
+    "name": { "en": "Point32Health Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Canton",
+    "website": "https://www.point32health.org/who-we-are/innovation-growth/point32health-ventures",
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "mental-health", "healthcare-it"],
+      "thesis": "Venture arm of Point32Health (parent of Harvard Pilgrim Health Care and Tufts Health Plan) investing across population health/complex care, behavioral health, data & analytics, network & benefits management, and community/SDOH."
+    },
+    "tags": ["payer-cvc", "harvard-pilgrim", "tufts-health-plan"],
+    "summary": {
+      "en": "Venture arm of Point32Health, the New England non-profit payer that is parent to Harvard Pilgrim Health Care and Tufts Health Plan; invests across population health, behavioral health, data & analytics and benefits management.",
+      "local": "Point32Health(哈佛朝聖者健保與 Tufts Health Plan 的母公司)的創投,投資領域涵蓋族群健康、行為健康、數據分析與福利管理。"
+    },
+    "sources": [
+      {
+        "url": "https://www.point32health.org/who-we-are/innovation-growth/point32health-ventures",
+        "title": "Point32Health Ventures",
+        "publisher": "Point32Health",
+        "accessed": "undefined",
+        "supports": "parent of Harvard Pilgrim + Tufts Health Plan, five focus areas",
+        "quote": "identifies and creates opportunities to drive strategic growth and business diversification"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Point32Health formed from the 2021 merger of Harvard Pilgrim Health Care and Tufts Health Plan; HQ Canton, MA. Fund size not publicly disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-scan-group",
+    "name": { "en": "SCAN Group" },
+    "aka": ["SCAN Health Plan"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 1977,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Long Beach",
+    "website": "https://www.scanhealthplan.com/",
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["healthcare-services", "digital-health", "longevity-aging"],
+      "thesis": "Not-for-profit Medicare Advantage plan (SCAN Group / SCAN Health Plan) that makes strategic investments in companies advancing senior and value-based care."
+    },
+    "track_record": {
+      "portfolio_count": 5,
+      "notable_investments": [
+        { "company": "Monogram Health", "sector": "value-based kidney care", "outcome": "active" }
+      ]
+    },
+    "tags": ["payer-cvc", "medicare-advantage", "senior-care"],
+    "summary": {
+      "en": "Not-for-profit Medicare Advantage payer (Long Beach, CA) serving 440,000+ seniors that makes strategic investments in senior- and value-based-care companies such as Monogram Health.",
+      "local": "非營利的 Medicare Advantage 保險方(加州 Long Beach),服務逾 44 萬名長者,對 Monogram Health 等長者與價值導向照護公司進行策略投資。"
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/SCAN_Health_Plan",
+        "title": "SCAN Health Plan",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "not-for-profit Medicare Advantage plan, founded 1977, 440,000+ members",
+        "quote": "a not-for-profit, Medicare Advantage health plan based in Long Beach, California, founded in 1977"
+      },
+      {
+        "url": "https://www.cbinsights.com/company/scan-health-plan/financials",
+        "title": "SCAN Health Plan — investments",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "5 investments incl. Monogram Health Series C (Jan 2023)",
+        "quote": "made 5 investments, with their latest investment in Monogram Health as part of their Series C"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "SCAN invests strategically off its balance sheet rather than through a distinctly branded venture fund; investing activity is thin (~5 deals). Included as a notable payer investor. HQ Long Beach, CA.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-blue-shield-california",
+    "name": { "en": "Blue Shield of California" },
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Oakland",
+    "website": "https://news.blueshieldca.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "thesis": "Non-profit health plan that makes strategic direct investments in digital health and healthcare-infrastructure startups aligned with its innovation strategy (e.g., claims/payments and analytics)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "OODA Health", "sector": "payer-provider payments", "outcome": "acquired" },
+        { "company": "Cardinal Analytx Solutions", "sector": "predictive analytics", "outcome": "active" }
+      ]
+    },
+    "tags": ["payer-cvc", "blue-shield", "california"],
+    "summary": {
+      "en": "Non-profit California health plan (Oakland) that invests strategically in digital health startups such as OODA Health and Cardinal Analytx as part of its innovation strategy.",
+      "local": "加州非營利健保計畫(奧克蘭),依其創新策略對 OODA Health、Cardinal Analytx 等數位健康新創進行策略投資。"
+    },
+    "sources": [
+      {
+        "url": "https://news.blueshieldca.com/in-the-news-why-blue-shield-is-investing-in-digital-health-startups",
+        "title": "Why Blue Shield Is Investing in Digital Health Startups",
+        "publisher": "Blue Shield of California News Center",
+        "accessed": "undefined",
+        "supports": "invests in digital health startups incl. OODA Health, Cardinal Analytx",
+        "quote": "Why Blue Shield Is Investing in Digital Health Startups"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Blue Shield of California invests off its balance sheet without a single publicly branded venture fund; included as a notable payer investor. HQ Oakland, CA. Some Blue plans also participate via the Blue Venture Fund (listed separately).",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-mckesson-ventures",
+    "name": { "en": "McKesson Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "offices": [ { "country": "United States", "city": "San Francisco" } ],
+    "website": "https://ventures.mckesson.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "pharma-services", "healthcare-it"],
+      "thesis": "Corporate venture arm of McKesson (one of the largest global pharmaceutical distributors) investing in venture- and growth-stage software and services for pharma, pharmacy, providers and patients, offering portfolio access to McKesson's distribution platform."
+    },
+    "track_record": {
+      "portfolio_count": "40+",
+      "notable_investments": [
+        { "company": "Aledade", "sector": "value-based primary care", "outcome": "active" },
+        { "company": "Komodo Health", "sector": "healthcare data", "outcome": "active" },
+        { "company": "IVX Health", "sector": "infusion services", "outcome": "active" }
+      ]
+    },
+    "tags": ["pharmacy-cvc", "distribution-cvc", "mckesson", "pharma-services"],
+    "summary": {
+      "en": "Corporate venture arm of drug distributor McKesson, founded 2014 in San Francisco, investing in software and tech-enabled services for pharma, pharmacy, providers and patients (Aledade, Komodo, IVX Health).",
+      "local": "藥品配銷龍頭 McKesson 的企業創投,2014 年於舊金山成立,投資服務製藥、藥局、醫療提供者與患者的軟體與科技賦能服務(Aledade、Komodo、IVX Health)。"
+    },
+    "sources": [
+      {
+        "url": "https://ventures.mckesson.com/",
+        "title": "McKesson Ventures",
+        "publisher": "McKesson Ventures",
+        "accessed": "undefined",
+        "supports": "existence, focus, portfolio, San Francisco HQ",
+        "quote": "expertise, engagement and commitment of a leading investment firm ... connection to one of the largest healthcare companies in the world"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/mckesson-ventures",
+        "title": "McKesson Ventures — Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "founded 2014, San Francisco, digital health + tech-enabled services focus",
+        "quote": "founded in 2014, is the corporate venture capital arm of McKesson and is based in San Francisco, California"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund size not publicly disclosed; portfolio ~40-55 investments per secondary profiles. McKesson HQ Irving, TX; venture office San Francisco.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-gv",
+    "name": { "en": "GV" },
+    "aka": ["Google Ventures"],
+    "type": "cvc",
+    "subtypes": ["generalist-with-health-practice"],
+    "status": "active",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Mountain View",
+    "offices": [
+      { "country": "United States", "city": "Mountain View" },
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United States", "city": "Boston" },
+      { "country": "United Kingdom", "city": "London" }
+    ],
+    "website": "https://www.gv.com/",
+    "capital": {
+      "aum": { "raw": "over $13 billion", "usd": 13000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["United States", "Europe"],
+      "sector_focus": ["therapeutics", "digital-health", "diagnostics", "genomics-omics", "ai-drug-discovery", "generalist-health"],
+      "thesis": "Alphabet's venture arm; health tech and life sciences make up roughly a third of the portfolio, investing through the lens of whether a company will improve patient outcomes, from therapeutics and genomics to digital health.",
+      "lead_or_follow": "both"
+    },
+    "lifesci": {
+      "modalities": ["gene-editing", "rna-therapeutics", "ai-ml-platform"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Flatiron Health", "sector": "oncology data", "outcome": "acquired" },
+        { "company": "One Medical", "sector": "primary care", "outcome": "IPO/acquired" },
+        { "company": "Verve Therapeutics", "sector": "gene editing", "outcome": "IPO" },
+        { "company": "Foundation Medicine", "sector": "genomic diagnostics", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["tech-giant-cvc", "alphabet", "life-sciences", "digital-health"],
+    "summary": {
+      "en": "Alphabet's venture arm (founded 2009, $13B+ AUM); health tech and life sciences are about a third of the portfolio, spanning therapeutics, genomics, diagnostics and digital health (Flatiron, One Medical, Verve).",
+      "local": "Alphabet 的創投部門(2009 年成立,管理逾 130 億美元);醫療科技與生命科學約占投組三分之一,涵蓋治療、基因體、診斷與數位健康(Flatiron、One Medical、Verve)。"
+    },
+    "sources": [
+      {
+        "url": "https://www.gv.com/portfolio?sector=life-sciences",
+        "title": "GV — Portfolio (Life Sciences)",
+        "publisher": "GV",
+        "accessed": "undefined",
+        "supports": "life-sciences portfolio, health as major focus",
+        "quote": "Life Sciences"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saibala/2022/08/22/google-ventures-has-created-a-remarkable-presence-in-healthcare/",
+        "title": "Google Ventures Has Created A Remarkable Presence In Healthcare",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "$13B AUM, health/life sciences ~1/3 of portfolio, investing since 2009",
+        "quote": "GV currently has over $13 billion in assets under management ... Health tech and life sciences startups now make up a third of GV's portfolio."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Generalist tech CVC of Alphabet with a major, dedicated healthcare/life-sciences practice; included on the tech-giant-health-investing basis. HQ Mountain View, CA. Note: GV also backs therapeutics companies that overlap with sibling pharma-CVC slice, but GV itself is a tech-giant CVC, not a pharma company.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "us-nvidia-nventures",
+    "name": { "en": "NVentures" },
+    "aka": ["NVIDIA NVentures"],
+    "type": "cvc",
+    "subtypes": ["generalist-with-health-practice"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Santa Clara",
+    "website": "https://www.nvidia.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["United States", "Europe"],
+      "sector_focus": ["ai-drug-discovery", "genomics-omics", "digital-health", "surgical-robotics", "therapeutics"],
+      "thesis": "NVIDIA's corporate venture arm; a very active CVC that backs AI-first companies, with biotech and healthcare a key focus—AI drug discovery, genomics, medical robotics and computational biology that leverage NVIDIA's accelerated computing.",
+      "lead_or_follow": "both"
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "small-molecule", "lab-automation"],
+      "science_platform_notes": "Backs companies using generative/diffusion AI and NVIDIA accelerated computing for drug discovery and biology (e.g., BioNeMo ecosystem)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Genesis Therapeutics", "sector": "AI drug discovery", "outcome": "active" },
+        { "company": "Generate Biomedicines", "sector": "generative protein design", "outcome": "active" },
+        { "company": "Recursion Pharmaceuticals", "sector": "AI drug discovery", "outcome": "public (PIPE)" },
+        { "company": "Neocis", "sector": "dental surgical robotics", "outcome": "active" }
+      ]
+    },
+    "tags": ["tech-giant-cvc", "nvidia", "ai-drug-discovery", "techbio"],
+    "summary": {
+      "en": "NVIDIA's corporate venture arm (stood up 2022), one of the most active CVCs, with biotech/healthcare a key focus—AI drug discovery, genomics and medical robotics (Genesis Therapeutics, Generate Biomedicines, Recursion).",
+      "local": "NVIDIA 的企業創投(2022 年設立),是最活躍的 CVC 之一,以生技/醫療為重點—AI 製藥、基因體與醫療機器人(Genesis Therapeutics、Generate Biomedicines、Recursion)。"
+    },
+    "sources": [
+      {
+        "url": "https://globalventuring.com/corporate/healthcare/nventures-sid-siddeek-interview/",
+        "title": "Nvidia's venture arm tackles biotech's drug discovery problem",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "NVentures active CVC, biotech key focus, portfolio names",
+        "quote": "NVentures invests in areas that can connect with AI, including drug developers like Relation Therapeutics or Terray Therapeutics"
+      },
+      {
+        "url": "https://www.forbes.com/sites/saibala/2024/09/30/nvidias-venture-capital-arm-is-silently-investing-millions-into-healthcare/",
+        "title": "Nvidia's Venture Capital Arm Is Silently Investing Millions Into Healthcare",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "NVentures healthcare investing incl. Generate Biomedicines stake",
+        "quote": "Nvidia's Venture Capital Arm Is Silently Investing Millions Into Healthcare"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist tech-giant CVC with a substantial healthcare/techbio practice; included on the tech-giant-health-investing basis. HQ Santa Clara, CA. Some biotech investments overlap with sibling pharma-CVC slice, but NVentures is a tech-company CVC.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  }
+]

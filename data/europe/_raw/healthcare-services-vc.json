@@ -1,0 +1,521 @@
+[
+  {
+    "id": "eu-gilde-healthcare",
+    "name": { "en": "Gilde Healthcare" },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 1986,
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Utrecht",
+    "offices": [
+      { "country": "Germany", "city": "Frankfurt" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://www.gildehealthcare.com/",
+    "capital": {
+      "aum": { "raw": "€3 billion", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["healthcare-services", "digital-health", "medtech-devices", "healthcare-it"],
+      "thesis": "Specialist healthcare investor backing companies that enable better care at lower cost across healthcare providers, service suppliers, digital health, diagnostics, medical devices and therapeutics, via separate Venture & Growth and Private Equity strategies."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "medical-hardware"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "69 (Venture & Growth) + 24 (Private Equity)",
+      "notable_investments": [
+        { "company": "Stepping Stones Home & Care", "sector": "home healthcare", "outcome": "active" },
+        { "company": "Novicare", "sector": "elderly/home care", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.gildehealthcare.com/",
+        "title": "Gilde Healthcare - Home",
+        "publisher": "Gilde Healthcare",
+        "accessed": "undefined",
+        "supports": "HQ, AUM, sector focus, stage focus, founded year",
+        "quote": "Gilde Healthcare is 'a specialist private investment firm' ... Healthcare: medtech, digital health, therapeutics, healthcare providers, medical product suppliers, and service providers ... Assets Under Management: €3 billion across all three funds ... 40 years in business"
+      },
+      {
+        "url": "https://www.inven.ai/company-lists/top-19-home-healthcare-investors-in-europe",
+        "title": "Top 19 Home Healthcare Investors in Europe",
+        "publisher": "Inven",
+        "accessed": "undefined",
+        "supports": "Home healthcare / care delivery investments",
+        "quote": "Gilde Healthcare | Utrecht, Netherlands | Healthcare venture/PE firm | Invested in Stepping Stones Home & Care, Novicare, FIRE1"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Also has a Private Equity strategy targeting profitable lower mid-market healthcare providers/services companies, and a US-facing Boston office; included here for its Utrecht HQ and dedicated healthcare-providers/service-suppliers focus, which overlaps with digital-health portfolio companies covered by the sibling digital-health-vc slice.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "Utrecht-based specialist healthcare investor with ~€3B AUM across Venture & Growth and Private Equity strategies, backing healthcare providers, service suppliers and care-delivery companies across Europe and North America alongside digital health and medtech."
+    }
+  },
+  {
+    "id": "eu-gho-capital",
+    "name": { "en": "GHO Capital" },
+    "type": "growth-equity",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": null,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [],
+    "website": "https://ghocapital.com/",
+    "capital": {
+      "current_fund": { "raw": "over €2.5bn (Fund IV)", "usd": null, "currency": "EUR" },
+      "aum": { "raw": "~€9 billion (as of late 2025)", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["healthcare-services", "pharma-services", "healthcare-it", "diagnostics"],
+      "thesis": "Europe's largest healthcare-specialist mid-market private equity investor, partnering with leadership teams to build global healthcare companies across BioPharma, MedTech, Advisory & Data, Life Science Tools & Diagnostics and HealthTech, with an explicit mission of 'Better, Faster and More Accessible Healthcare.'"
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": []
+    },
+    "sources": [
+      {
+        "url": "https://ghocapital.com/about/",
+        "title": "About - GHO Capital",
+        "publisher": "GHO Capital",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus, fund size",
+        "quote": "GHO Capital partners with exceptional leadership teams to build leading global healthcare companies ... the first healthcare investor designed for mid-market private equity in Europe ... London, England (21 St James's Square, London SW1Y 4JZ)"
+      },
+      {
+        "url": "https://www.alternativeswatch.com/2025/10/28/european-healthcare-investor-gho-capital-closes-25-billion-euros-fund/",
+        "title": "European healthcare investor GHO Capital closes €2.5bn fund",
+        "publisher": "Alternatives Watch",
+        "accessed": "undefined",
+        "supports": "Fund IV size, AUM",
+        "quote": "GHO Capital announces final close of Fund IV with over €2.5bn of capital ... As of late 2025, GHO is the largest healthcare specialist private equity firm headquartered in Europe with approximately €9 billion in assets under management"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Primarily mid-market private equity (growth-equity taxonomy slug) rather than early-stage VC; included for its dedicated Advisory & Data / HealthTech healthcare-services and healthcare-IT investment pillars alongside BioPharma and MedTech.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "London-based, Europe's largest dedicated healthcare private equity firm (~€9B AUM), investing across BioPharma, MedTech, Life Science Tools & Diagnostics, Advisory & Data and HealthTech, including healthcare-services and healthcare-IT platforms."
+    }
+  },
+  {
+    "id": "eu-apposite-capital",
+    "name": { "en": "Apposite Capital" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": null,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [],
+    "website": "https://appositecapital.com/",
+    "capital": {},
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["United Kingdom", "Europe"],
+      "sector_focus": ["healthcare-services", "digital-health", "medtech-devices", "therapeutics"],
+      "thesis": "Specialist pan-European healthcare and life sciences investor deploying growth capital and buyouts into ambitious UK and European SME businesses operating across healthcare providers, digital health, medical products & devices, life sciences & pharmaceuticals, and healthcare services."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": []
+    },
+    "sources": [
+      {
+        "url": "https://appositecapital.com/",
+        "title": "Apposite Capital",
+        "publisher": "Apposite Capital",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus, investment approach",
+        "quote": "Apposite Capital is a specialist pan-European healthcare and life sciences investor with decades of experience in investing and scaling health businesses. Apposite invests through both growth capital and buyouts in ambitious, growing UK and European SME businesses operating across healthcare providers, digital health, medical products & devices, life sciences & pharmaceuticals, and healthcare services."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fact confirmed via search-engine snippet of the firm's own site (appositecapital.com); direct WebFetch of the site failed with a connection error during research, so no additional verbatim page content could be pulled. Company existence and sector focus corroborated by a Crunchbase listing found in the same search.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "London-based pan-European healthcare and life-sciences investor providing growth capital and buyouts to healthcare-provider, healthcare-services and medical-products SMEs across the UK and Europe."
+    }
+  },
+  {
+    "id": "eu-sv-health-investors",
+    "name": { "en": "SV Health Investors" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": null,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://svhealthinvestors.com/",
+    "capital": {
+      "aum": { "raw": "$3.7 billion in commitments", "usd": 3700000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["United Kingdom", "Europe", "United States"],
+      "sector_focus": ["healthcare-services", "digital-health", "medtech-devices"],
+      "thesis": "Growth Fund accelerates growth-stage healthcare-services, medical-products and digital-health companies with $5M+ revenue, focusing on innovative value-based care models offering more convenient, lower-cost access and better outcomes, plus tech-enabled services for payers, providers and patients."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "medical-hardware", "wearables-sensors"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": []
+    },
+    "sources": [
+      {
+        "url": "https://svhealthinvestors.com/funds/growth-fund",
+        "title": "Growth Fund - SV Health Investors",
+        "publisher": "SV Health Investors",
+        "accessed": "undefined",
+        "supports": "Stage/sector focus, value-based care thesis, HQ",
+        "quote": "The Growth Fund accelerates growth-stage healthcare services, medical products and digital health companies ... Innovative value-based care models offering more convenient access to lower cost healthcare services and delivering better patient outcomes ... Boston, Massachusetts (28 State Street) and London, UK (71 Kingsway)"
+      },
+      {
+        "url": "https://www.vestbee.com/insights/articles/top-health-tech-vc-funds-investing-in-europe",
+        "title": "Top HealthTech VC Funds Investing In Europe 2025",
+        "publisher": "Vestbee",
+        "accessed": "undefined",
+        "supports": "AUM figure",
+        "quote": "SV Health Investors is a specialist healthcare fund manager with $3.7 billion in commitments and over 30 years of experience investing across biotech, medtech, and healthcare services."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Global headquarters is in Boston, Massachusetts, USA; the firm has an established, ~30-year London office (71 Kingsway) that is registered as its UK office and is used for European deal sourcing/coverage, so it is included here as a dual-HQ transatlantic healthcare-services growth investor rather than a purely European native firm.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "Transatlantic specialist healthcare investor (Boston/London) whose Growth Fund backs growth-stage healthcare-services, value-based-care and tech-enabled-services companies serving payers, providers and patients."
+    }
+  },
+  {
+    "id": "eu-fresenius-medical-care-ventures",
+    "name": { "en": "Fresenius Medical Care Ventures" },
+    "aka": ["FMCV"],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Bad Homburg",
+    "offices": [],
+    "website": "https://www.freseniusmedicalcare.com/en/about-us/fmcv",
+    "capital": {},
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Europe", "United States", "Global"],
+      "sector_focus": ["healthcare-services", "medtech-devices", "digital-health"],
+      "thesis": "Corporate venture arm of global dialysis-services provider Fresenius Medical Care, investing in start-ups extending its core chronic-kidney-disease/dialysis care-delivery business into intensive care medicine, cardiovascular disease, diabetes, transplantation and extracorporeal therapies."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "cell-therapy", "wearables-sensors"],
+      "indications": ["nephrology-urology", "cardiovascular", "metabolic-obesity"],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Extension of Fresenius Medical Care's global dialysis and kidney-care delivery network, giving portfolio companies access to clinical/commercial infrastructure."
+    },
+    "track_record": {
+      "portfolio_count": 16,
+      "notable_investments": [
+        { "company": "eGenesis", "sector": "organ transplants", "outcome": "active" },
+        { "company": "Humacyte", "sector": "bioengineered tissue", "outcome": "active" },
+        { "company": "SafeRide Health", "sector": "medical transport", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.freseniusmedicalcare.com/en/about-us/fmcv",
+        "title": "Ventures | Fresenius Medical Care",
+        "publisher": "Fresenius Medical Care",
+        "accessed": "undefined",
+        "supports": "HQ, founded year, focus areas, portfolio count",
+        "quote": "FMCV invests in start-ups and early-stage companies in the healthcare sector ... targets multiple domains including medical devices, pharmaceuticals, digital healthcare, and healthcare services ... approximately 16 active and acquired investments ... established in 2016"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Corporate VC arm of a Bad Homburg, Germany-headquartered dialysis/care-delivery provider; parent company is one of Europe's largest healthcare-services operators, giving the CVC a direct care-delivery nexus.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "Bad Homburg-based corporate VC of global dialysis-care provider Fresenius Medical Care, backing early-stage medtech, digital-health and healthcare-services start-ups extending its kidney-care delivery model."
+    }
+  },
+  {
+    "id": "eu-kester-capital",
+    "name": { "en": "Kester Capital" },
+    "type": "growth-equity",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [],
+    "website": "https://www.kestercapital.com/",
+    "capital": {
+      "current_fund": { "raw": "Kester Capital III, £200m hard cap", "usd": null, "currency": "GBP" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "£5m - £25m equity", "usd_min": null, "usd_max": null },
+      "geo_focus": ["United Kingdom"],
+      "sector_focus": ["healthcare-services", "healthcare-it"],
+      "thesis": "UK lower mid-market buy-out specialist targeting technology & healthcare businesses, including a dedicated Healthcare sector focus alongside Business & Financial Services, Media & Technology and Niche Consumer."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": [
+        { "company": "EMAS Pharma", "sector": "healthcare consultancy/pharma services", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.kestercapital.com/",
+        "title": "Kester Capital",
+        "publisher": "Kester Capital",
+        "accessed": "undefined",
+        "supports": "HQ, founded year, sector focus, check size, fund size",
+        "quote": "Kester Capital is a leading UK private equity investor, focused on the technology & healthcare sector ... Target sectors include Healthcare, Business & Financial Services, Media & Technology and Niche Consumer, with equity investment sizes of £5 – 25 million ... founded in 2007 ... located in London ... Kester Capital III, closed at a hard cap of £200 million"
+      },
+      {
+        "url": "https://www.privateequitywire.co.uk/kester-capital-backs-healthcare-markets-consultancy/",
+        "title": "Kester Capital backs healthcare markets consultancy",
+        "publisher": "Private Equity Wire",
+        "accessed": "undefined",
+        "supports": "Healthcare portfolio activity",
+        "quote": "UK: Kester Capital backs management team in acquiring EMAS Pharma"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Facts drawn from aggregated search snippets of the firm's own site rather than a direct page fetch (WebFetch was not used on this domain); healthcare is one of four target sectors rather than an exclusive focus, but the firm markets itself explicitly as 'technology & healthcare' specialist.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "London-based lower mid-market private equity firm (Kester Capital III: £200M) specializing in UK technology & healthcare buy-outs, backing healthcare-services and healthcare-IT businesses with £5-25M equity checks."
+    }
+  },
+  {
+    "id": "eu-turenne-sante",
+    "name": { "en": "Turenne Santé", "local": "Turenne Santé" },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "offices": [],
+    "website": "https://www.turennecapital.com/expertise/healthcare/about/?lang=en",
+    "capital": {
+      "aum": { "raw": "more than €350 million", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["France", "Europe"],
+      "sector_focus": ["healthcare-services", "medtech-devices", "therapeutics", "healthcare-it"],
+      "thesis": "Dedicated French healthcare investment platform operating across the entire healthcare value-creation chain, combining Capital Development & Transmission funds (Capital Santé 1 & 2) for healthcare-services/care-delivery companies with an innovation venture-capital vehicle (Relyens/Sham Innovation Santé) for medical innovation."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "approximately 30 active portfolio companies",
+      "notable_investments": [],
+      "exits": []
+    },
+    "sources": [
+      {
+        "url": "https://www.turennecapital.com/expertise/healthcare/about/?lang=en",
+        "title": "About - Turenne Groupe (Healthcare)",
+        "publisher": "Turenne Groupe",
+        "accessed": "undefined",
+        "supports": "AUM, founded year, fund structure, portfolio count",
+        "quote": "Turenne Santé is an investment firm with more than €350 million under management, operating across the entire value creation chain for healthcare companies ... Created in 2012 ... Capital Development & Transmission with Capital Santé 1 (€62 million) and Capital Santé 2 (€187 million) ... approximately thirty active portfolio companies"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Turenne Santé is the healthcare-dedicated practice of the broader Turenne Groupe (Turenne Capital Partenaires); it also advises the Relyens (formerly Sham) Innovation Santé venture-capital vehicle. Figures drawn from aggregated search snippet of the official page rather than a direct fetch.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "Paris-based healthcare investment platform of Turenne Groupe (~€350M+ under management) spanning growth capital for healthcare-services/care-delivery companies and an innovation VC vehicle for medical start-ups.",
+      "local": "Plateforme d'investissement santé du Groupe Turenne (plus de 350 M€ sous gestion), combinant capital développement pour les entreprises de services de santé et un véhicule de capital-risque pour l'innovation médicale."
+    }
+  },
+  {
+    "id": "eu-bridges-fund-management",
+    "name": { "en": "Bridges Fund Management" },
+    "aka": ["Bridges Ventures"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [],
+    "website": "https://www.bridgesfundmanagement.com/",
+    "capital": {},
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["United Kingdom"],
+      "sector_focus": ["healthcare-services", "generalist-health"],
+      "thesis": "Sustainable/impact fund manager investing across four impact themes including 'health and wellbeing'; runs dedicated healthcare property and private-equity strategies (e.g. the CarePlaces Fund) backing care homes, domiciliary/home care and assisted-living operators as part of its social-impact healthcare-services practice."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": ["aging-longevity"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": [
+        { "company": "Shaw Healthcare", "sector": "care homes", "outcome": "active" },
+        { "company": "Alina Homecare", "sector": "domiciliary care", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.bridgesfundmanagement.com/investments/property/healthcare/",
+        "title": "Healthcare | Bridges Fund Management",
+        "publisher": "Bridges Fund Management",
+        "accessed": "undefined",
+        "supports": "Healthcare/care-delivery investment focus",
+        "quote": "Bridges has an extensive track record of working with healthcare-related businesses via its Sustainable Growth and Property Funds, with recent investments including Alina Homecare, a domiciliary care business, and the CarePlaces Fund, a dedicated investment vehicle to help meet demand for high-quality, sustainable care homes."
+      },
+      {
+        "url": "https://bridgesfundmanagement.com/shaw-healthcare-targets-long-term-growth-10m-bridges-evergreen-investment",
+        "title": "Shaw healthcare targets long-term growth with £10m Bridges Evergreen investment",
+        "publisher": "Bridges Fund Management",
+        "accessed": "undefined",
+        "supports": "Notable investment, check size",
+        "quote": "Bridges invested £10m from Evergreen Holdings, its new permanent capital vehicle, in Shaw healthcare to support the company's continuing growth and social impact focus."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Bridges is a diversified sustainable/impact investor (property, private equity, social outcomes funds) spanning health & wellbeing, education, sustainable living and under-served markets rather than a healthcare-exclusive fund; included here as 'generalist with major health practice' given its sustained, multi-vehicle care-homes/domiciliary-care investment activity.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "London-based sustainable/impact fund manager with a long-running healthcare-services practice spanning care homes, domiciliary care and assisted-living investments (e.g. Shaw Healthcare, Alina Homecare, CarePlaces Fund)."
+    }
+  },
+  {
+    "id": "eu-adelis-equity-partners",
+    "name": { "en": "Adelis Equity Partners" },
+    "type": "growth-equity",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Stockholm",
+    "offices": [],
+    "website": "https://adelisequity.com/",
+    "capital": {
+      "current_fund": { "raw": "Fund IV, €1.616bn", "usd": 1690000000, "currency": "EUR" },
+      "aum": { "raw": "SEK/EUR 4.3bn in capital raised across platform investments", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["Sweden", "Nordics", "Northern Europe"],
+      "sector_focus": ["healthcare-services"],
+      "thesis": "Nordic lower-mid-market investment firm with Healthcare & Life Sciences as one of three core investment verticals (alongside Business Services and Tech & Software), building care-delivery platforms in dentistry, home care/personal assistance and ambulance/medical services."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": [
+        { "company": "Nordentic", "sector": "dental lab services", "outcome": "active" },
+        { "company": "Med Group", "sector": "home care, dentistry, ambulance services (Finland)", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://adelisequity.com/",
+        "title": "Adelis Equity - We grow businesses",
+        "publisher": "Adelis Equity Partners",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus, capital raised",
+        "quote": "Regeringsgatan 20, 111 53 Stockholm, Sverige ... Three core verticals - Business Services, Tech & Software, and Healthcare & Life Sciences ... 4.3 bn in capital raised"
+      },
+      {
+        "url": "https://adelisequity.com/investments/med-group-oy/",
+        "title": "Med Group – Adelis Equity",
+        "publisher": "Adelis Equity Partners",
+        "accessed": "undefined",
+        "supports": "Notable healthcare-services investment",
+        "quote": "Med Group is a Finnish healthcare services company, working to enhance the quality and cost efficiency of healthcare services, with main fields of activity including dentistry, home care and personal assistance, ambulance and medical services."
+      },
+      {
+        "url": "https://www.investorsinhealthcare.com/articles/category/news/sweden-adelis-equity-partners-closes-fund-iv-at-e1-616bn/",
+        "title": "Sweden: Adelis Equity Partners closes Fund IV at €1.616bn",
+        "publisher": "Investors in Healthcare",
+        "accessed": "undefined",
+        "supports": "Fund IV size",
+        "quote": "Adelis Equity Partners closes Fund IV at €1.616bn"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded year (2012) sourced from a search-engine snippet of the firm's own materials, not independently re-verified via direct fetch; Healthcare & Life Sciences is one of three core verticals rather than an exclusive focus.",
+    "last_updated": "undefined",
+    "researched_by": "healthcare-services-vc",
+    "summary": {
+      "en": "Stockholm-based Nordic lower-mid-market growth investor with a dedicated Healthcare & Life Sciences vertical, building dental, home-care and ambulance/medical-services platforms across the Nordics."
+    }
+  }
+]

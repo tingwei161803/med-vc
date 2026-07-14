@@ -1,0 +1,1228 @@
+[
+  {
+    "id": "us-nih-sbir-sttr",
+    "name": {
+      "en": "NIH SBIR/STTR — America's Seed Fund at NIH"
+    },
+    "aka": ["NIH Small Business Programs", "America's Seed Fund powered by NIH", "NIH SEED"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Bethesda, Maryland",
+    "website": "https://seed.nih.gov/",
+    "links": {
+      "other": ["https://www.sbir.gov/about"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": {
+        "raw": "Phase I ~$323,090; Phase II ~$2,153,927; Commercialization Readiness Pilot up to $4,191,495",
+        "usd_min": 323090,
+        "usd_max": 4191495
+      },
+      "lead_or_follow": "follow",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "generalist-health"],
+      "thesis": "NIH's Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs — collectively 'America's Seed Fund' — award non-dilutive grants and contracts to US biomedical small businesses to develop technology and chart a path toward commercialization. NIH is the largest of the 11 participating federal agencies, with roughly $1.5B/yr in biomedical small-business funding."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "The NIH arm of the federal SBIR/STTR programs ('America's Seed Fund') awards non-dilutive funding to early-stage US biomedical small businesses developing therapeutics, devices, diagnostics and digital health.",
+      "local": "美國國家衛生研究院(NIH)的 SBIR/STTR 計畫,對早期生醫小型企業提供非稀釋性(不換股權)補助,是美國最大的公部門生醫種子資金來源之一。"
+    },
+    "sources": [
+      {
+        "url": "https://seed.nih.gov/small-business-funding/small-business-program-basics/understanding-sbir-sttr",
+        "title": "Understanding SBIR and STTR | Seed (NIH)",
+        "publisher": "National Institutes of Health",
+        "accessed": "undefined",
+        "supports": "SBIR/STTR are collectively America's Seed Fund; non-dilutive funding for small businesses",
+        "quote": "The Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR), collectively the Small Business Programs, are also known as America's Seed Fund."
+      },
+      {
+        "url": "https://www.sbir.gov/about",
+        "title": "About SBIR and STTR",
+        "publisher": "U.S. Small Business Administration",
+        "accessed": "undefined",
+        "supports": "Phase I / Phase II / CRP budget figures and ~$1.5B NIH allocation",
+        "quote": "A Phase I budget is $323,090 for a project timeline between 6 months to 2 years, and a Phase II budget is $2,153,927... A Commercialization Readiness Pilot (CRP) Program budget is limited to $4,191,495."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Program administered across NIH institutes; award ceilings are statutory guideline amounts that adjust annually. Reauthorized through 2031 (signed April 14, 2026).",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-nsf-sbir-sttr",
+    "name": {
+      "en": "NSF SBIR/STTR — America's Seed Fund powered by NSF"
+    },
+    "aka": ["America's Seed Fund", "NSF Seed Fund", "NSF Small Business Programs"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 1977,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Alexandria, Virginia",
+    "website": "https://seedfund.nsf.gov/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": {
+        "raw": "Phase I $305,000; Phase II up to $1,250,000 (up to $2M per company)",
+        "usd_min": 305000,
+        "usd_max": 2000000
+      },
+      "lead_or_follow": "follow",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools", "synthetic-biology", "generalist-health"],
+      "thesis": "America's Seed Fund powered by the National Science Foundation makes non-dilutive R&D awards to deep-tech startups, taking no equity. Biotech-specific topics include drug discovery, pharmaceutical/biologic manufacturing, cell and tissue engineering, biosensors, and synthetic biology / metabolic engineering."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "wearables-sensors", "lab-automation"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "The NSF's SBIR/STTR program awards $200M+/yr of non-dilutive R&D funding to ~400 US deep-tech startups annually, including a dedicated biotechnology topic area; NSF takes no equity.",
+      "local": "美國國家科學基金會(NSF)的 SBIR/STTR 計畫,每年提供逾 2 億美元非稀釋性研發資金給約 400 家深科技新創,包含專門的生物科技主題,且不換取股權。"
+    },
+    "sources": [
+      {
+        "url": "https://seedfund.nsf.gov/our-program/",
+        "title": "About NSF SBIR/STTR – Startup Funding",
+        "publisher": "U.S. National Science Foundation",
+        "accessed": "undefined",
+        "supports": "Since 1977; $200M+/yr to ~400 startups; no equity; biotech topics",
+        "quote": "Each year, America's Seed Fund awards $200+ million in research and development (R&D) funding to about 400 startups across the United States... NSF takes no equity."
+      },
+      {
+        "url": "https://seedfund.nsf.gov/what-we-fund/",
+        "title": "What We Fund | NSF SBIR",
+        "publisher": "U.S. National Science Foundation",
+        "accessed": "undefined",
+        "supports": "Phase I / Phase II award amounts and biotech topics",
+        "quote": "Phase I awards are currently at $305,000 for up to 12 months, while Phase II can reach $1,250,000... drug discovery, pharmaceutical and biologic manufacturing... cell and tissue engineering, and synthetic biology and metabolic engineering."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Broad deep-tech mandate; only a subset of funding is life-science/biomedical. Founded year reflects NSF small-business support 'since 1977'.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-arpa-h",
+    "name": {
+      "en": "Advanced Research Projects Agency for Health (ARPA-H)"
+    },
+    "aka": ["ARPA-H"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Washington, D.C.",
+    "website": "https://arpa-h.gov/",
+    "links": {
+      "other": ["https://arpa-h.gov/explore-funding/programs", "https://arpa-h.gov/explore-funding/sbir"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "ai-drug-discovery", "generalist-health"],
+      "thesis": "DARPA-modeled federal health agency that funds high-risk, high-reward biomedical research through Mission Office-specific Innovation Solutions Openings (ISOs). Program Managers place milestone-driven bets on breakthrough ideas that cannot be solved through traditional government or industry funding, and the Investor Catalyst Hub connects performers with investors and commercialization partners."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Investor Catalyst Hub (Massachusetts) and Customer Experience Hub (Texas) anchor a nationwide network of 1000+ organizations across all 50 states; runs its own SBIR/STTR track."
+    },
+    "summary": {
+      "en": "ARPA-H is a US federal agency (est. 2022, modeled on DARPA) that funds transformative, milestone-driven biomedical research and connects awardees to investors via its Investor Catalyst Hub.",
+      "local": "ARPA-H 是仿效 DARPA 於 2022 年成立的美國聯邦健康研究機構,以里程碑為基礎資助高風險、高回報的突破性生醫研究,並透過 Investor Catalyst Hub 連結投資人與商業化夥伴。"
+    },
+    "sources": [
+      {
+        "url": "https://arpa-h.gov/about/our-research",
+        "title": "What We Fund | ARPA-H",
+        "publisher": "ARPA-H (U.S. Department of Health and Human Services)",
+        "accessed": "undefined",
+        "supports": "High-risk high-impact mandate; funds challenges unsolvable by traditional funding",
+        "quote": "ARPA-H advances bold, innovative research to solve the most challenging health problems... calculated, strategic bets on ideas that, if successful, will result in revolutionary breakthroughs."
+      },
+      {
+        "url": "https://www.arpa-h.gov/",
+        "title": "ARPA-H Home",
+        "publisher": "ARPA-H (U.S. Department of Health and Human Services)",
+        "accessed": "undefined",
+        "supports": "Modeled after DARPA; Investor Catalyst Hub network",
+        "quote": "Anchored by the Investor Catalyst Hub in Massachusetts and the Customer Experience Hub in Texas, this network includes over a thousand organizations in all fifty states."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "ARPA-H was established in 2022 under HHS; founded_year omitted as the fetched pages did not carry an explicit year quote. It is a research-funding agency, not an equity investor, but is central to US public biomedical venture financing.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-barda-drive",
+    "name": {
+      "en": "BARDA DRIVe (Division of Research, Innovation, and Ventures)"
+    },
+    "aka": ["BARDA DRIVe", "DRIVe", "Biomedical Advanced Research and Development Authority"],
+    "type": "government-program",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Washington, D.C.",
+    "website": "https://drive.hhs.gov/",
+    "links": {
+      "other": ["https://drive.hhs.gov/ezbaa.html", "https://drive.hhs.gov/accelerators.html"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": {
+        "raw": "EZ-BAA awards under $750K; phase awards up to $20M",
+        "usd_min": 750000,
+        "usd_max": 20000000
+      },
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "digital-health"],
+      "thesis": "BARDA's DRIVe unit stimulates investment and innovation in health-security products (diagnostics, therapeutics, and technologies for outbreak preparedness). It funds R&D, proof-of-concept and acceleration partnerships via a simplified EZ-BAA process and runs a national BARDA Accelerator Network providing wraparound support to startups."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "biologics-antibody", "small-molecule"],
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "BARDA's Division of Research, Innovation, and Ventures (DRIVe), part of HHS/ASPR, funds and accelerates early-stage US health-security technologies through EZ-BAA awards and a national accelerator network.",
+      "local": "BARDA 旗下的 DRIVe 部門(隸屬 HHS/ASPR),透過 EZ-BAA 補助與全國加速器網絡資助並加速早期健康安全(防疫)技術。"
+    },
+    "sources": [
+      {
+        "url": "https://drive.hhs.gov/",
+        "title": "Welcome to BARDA DRIVe",
+        "publisher": "BARDA / HHS ASPR",
+        "accessed": "undefined",
+        "supports": "DRIVe founded 2019 to stimulate health-security investment and innovation",
+        "quote": "In 2019, the Biomedical Advanced Research and Development Authority (BARDA) expanded their Division of Research, Innovation, and Ventures (DRIVe) to stimulate investment and innovation in health security products and technologies."
+      },
+      {
+        "url": "https://drive.hhs.gov/ezbaa.html",
+        "title": "EZ-BAA Funding Opportunities - BARDA DRIVe",
+        "publisher": "BARDA / HHS ASPR",
+        "accessed": "undefined",
+        "supports": "EZ-BAA award sizes",
+        "quote": "BARDA DRIVe offers funding under the EZ-BAA for awards under $750K and Phase awards up to $20M."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "BARDA itself was established in 2006; DRIVe (2019) is its innovation/ventures arm and the entity documented here.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-ghic-barda-ventures",
+    "name": {
+      "en": "Global Health Investment Corporation (GHIC) / BARDA Ventures"
+    },
+    "aka": ["GHIC", "BARDA Ventures", "Global Health Security Fund"],
+    "type": "government-program",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://ghicfunds.org/",
+    "links": {
+      "other": ["https://drive.hhs.gov/ventures.html", "https://ghicfunds.org/global-health-security/"]
+    },
+    "capital": {
+      "current_fund": {
+        "raw": "up to $500 million over 10 years (from BARDA)",
+        "usd": 500000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "global"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "pharma-services"],
+      "thesis": "GHIC manages BARDA Ventures — a 10-year public-private partnership that uses venture-capital investments to accelerate medical countermeasures addressing gaps in global health security, including vaccines, diagnostics, therapeutics, manufacturing platforms and other critical technologies."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "biologics-antibody", "rna-therapeutics"],
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "12+ mission-relevant investments (500+ companies evaluated)"
+    },
+    "summary": {
+      "en": "GHIC is the fund manager for BARDA Ventures, deploying up to $500M of federal money over 10 years into a Global Health Security venture portfolio of medical countermeasures.",
+      "local": "GHIC 為 BARDA Ventures 的基金管理人,透過與 BARDA 的 10 年公私夥伴關係,在全球健康安全(醫療對抗措施)領域投資,總額最高達 5 億美元。"
+    },
+    "sources": [
+      {
+        "url": "https://ghicfunds.org/global-health-security/",
+        "title": "Global Health Security Portfolio | GHIC",
+        "publisher": "Global Health Investment Corporation",
+        "accessed": "undefined",
+        "supports": "Up to $500M over 10 years; investment focus areas",
+        "quote": "BARDA intends to provide GHIC with up to $500 million in funding over the course of the 10-year agreement... focused broadly on medical countermeasures... including vaccines, diagnostics, therapeutics, manufacturing platforms, and other critical technologies."
+      },
+      {
+        "url": "https://drive.hhs.gov/ventures.html",
+        "title": "BARDA Ventures",
+        "publisher": "BARDA / HHS ASPR",
+        "accessed": "undefined",
+        "supports": "2021 launch; 500+ companies sourced; 12 investments",
+        "quote": "In 2021, BARDA Ventures and GHIC launched a 10-year public-private partnership... GHIC has sourced and evaluated over 500 companies and made 12 mission-relevant investments in the global health security portfolio."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "GHIC is a non-profit fund manager; BARDA Ventures is the government-backed program it manages. In 2023 GHIC received an additional $100M from BARDA toward Project NextGen. Global mandate but US-headquartered and US-government-funded.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-in-q-tel",
+    "name": {
+      "en": "In-Q-Tel (IQT)"
+    },
+    "aka": ["IQT", "In-Q-Tel B.Next"],
+    "type": "government-program",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Arlington, Virginia",
+    "website": "https://www.iqt.org/",
+    "links": {
+      "other": ["https://www.iqt.org/impact-stories/biotechnology"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["synthetic-biology", "diagnostics", "genomics-omics", "life-science-tools", "generalist-health"],
+      "thesis": "Non-profit strategic investor funded primarily by the CIA and US intelligence/defense community. Its B.Next team (est. 2015) invests in biotechnology and health-technology startups strategically important to US national security and biodefense, including pandemic-threat mitigation."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "wearables-sensors"],
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "B.Next team focuses on biosecurity, pandemic preparedness, and dual-use biotechnology."
+    },
+    "track_record": {
+      "notable_investments": [
+        {"company": "Ginkgo Bioworks", "sector": "synthetic-biology", "outcome": "IPO"}
+      ]
+    },
+    "summary": {
+      "en": "In-Q-Tel is the CIA-funded non-profit strategic investor whose B.Next unit backs biotechnology and health-security startups (e.g. Ginkgo Bioworks) of strategic value to the US government.",
+      "local": "In-Q-Tel 是由美國中情局(CIA)資助的非營利策略投資機構,其 B.Next 團隊投資對美國國安具戰略價值的生物科技與健康安全新創(如 Ginkgo Bioworks)。"
+    },
+    "sources": [
+      {
+        "url": "https://www.iqt.org/impact-stories/biotechnology",
+        "title": "Biotechnology | IQT",
+        "publisher": "In-Q-Tel",
+        "accessed": "undefined",
+        "supports": "B.Next biotech/health investing established 2015; biosecurity focus",
+        "quote": "established the B.Next team in 2015, which extended its efforts to include managing the threat posed by potential pandemics and understanding the impact of breakthrough technologies in biology and healthcare."
+      },
+      {
+        "url": "https://www.iqt.org/",
+        "title": "IQT",
+        "publisher": "In-Q-Tel",
+        "accessed": "undefined",
+        "supports": "Non-profit VC funded by CIA; founded 1999; Ginkgo Bioworks in portfolio",
+        "quote": "In-Q-Tel is a not-for-profit venture capital firm based in... Virginia, founded in 1999, that accelerates the development and delivery of cutting-edge technologies to U.S. government agencies."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded-year and CIA-funding descriptors drawn from secondary aggregators/Wikipedia rather than an IQT primary page; biotech/B.Next detail from the official iqt.org impact page.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-mtec",
+    "name": {
+      "en": "Medical Technology Enterprise Consortium (MTEC)"
+    },
+    "aka": ["MTEC"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Bel Air, Maryland",
+    "website": "https://mtec-sc.org/",
+    "capital": {
+      "aum": {
+        "raw": "over $1.3 billion in federal funding facilitated",
+        "usd": 1300000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": {
+        "raw": "$50,000–$25M per award; average ~$2.0M–$3.5M over 2–3 years",
+        "usd_min": 50000,
+        "usd_max": 25000000
+      },
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["medtech-devices", "therapeutics", "digital-health", "healthcare-services"],
+      "thesis": "A 501(c)(3) consortium that, via flexible Other Transaction Agreements with the US Army Medical Research and Development Command (USAMRDC) and Defense Health Agency, funds and commercializes medical technologies to protect, treat and optimize the health of US military personnel and civilians."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "biologics-antibody"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "358 projects awarded"
+    },
+    "summary": {
+      "en": "MTEC is a DoD-affiliated non-profit consortium that channels Department of Defense medical R&D funding (over $1.3B facilitated) into military-medicine biomedical prototype and commercialization projects.",
+      "local": "MTEC 是與美國國防部合作的非營利聯盟,透過 Other Transaction Agreement 將國防部醫療研發經費(已促成逾 13 億美元)導入軍事醫學生醫原型與商業化專案。"
+    },
+    "sources": [
+      {
+        "url": "https://mtec-sc.org/",
+        "title": "Medical Technology Enterprise Consortium | MTEC",
+        "publisher": "Medical Technology Enterprise Consortium",
+        "accessed": "undefined",
+        "supports": "501(c)(3), formed 2015, DoD OTA partnership, mission",
+        "quote": "The Medical Technology Enterprise Consortium (MTEC) is a 501(c)(3) dedicated to advancing the rapid deployment of innovative medical technologies... Formed relatively recently in 2015."
+      },
+      {
+        "url": "https://scope.umn.edu/medical-technology-enterprise-consortium-and-department-defense-research-and-partnerships",
+        "title": "MTEC and the Department of Defense Research and Partnerships",
+        "publisher": "University of Minnesota (The Scope)",
+        "accessed": "undefined",
+        "supports": "Award sizes $50K–$25M; $1.3B facilitated; 358 projects",
+        "quote": "MTEC publishes grant funding opportunities, ranging from $50,000-$25M in size... MTEC has facilitated over $1.3 billion in federal funding for medical technology innovation."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Membership consortium rather than an equity investor; funds flow via government cooperative/OTA mechanisms. Member follow-on funding cited at $974M.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-carb-x",
+    "name": {
+      "en": "CARB-X (Combating Antibiotic-Resistant Bacteria Biopharmaceutical Accelerator)"
+    },
+    "aka": ["CARB-X"],
+    "type": "government-program",
+    "subtypes": ["accelerator", "venture-philanthropy"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, Massachusetts",
+    "website": "https://carb-x.org/",
+    "links": {
+      "other": ["https://carb-x.org/partners/funding-partners/", "https://www.niaid.nih.gov/research/carb-x"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["united-states", "global"],
+      "sector_focus": ["therapeutics", "diagnostics"],
+      "thesis": "Global non-profit partnership, hosted at Boston University and funded largely by BARDA (and other governments/foundations), that accelerates a diverse pipeline of antibacterial products — antibiotics, vaccines, rapid diagnostics and non-traditional products — to combat antimicrobial resistance."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "vaccines"],
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "100+ projects funded across 12 countries"
+    },
+    "summary": {
+      "en": "CARB-X is a BARDA-anchored global non-profit accelerator, hosted at Boston University, that funds early-stage antibacterial products (antibiotics, diagnostics, vaccines) to fight antimicrobial resistance.",
+      "local": "CARB-X 是以 BARDA 為主要資助方、設於波士頓大學的全球非營利加速器,資助早期抗菌產品(抗生素、診斷、疫苗)以對抗抗藥性(AMR)。"
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CARB-X",
+        "title": "CARB-X",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Global non-profit, mission, multi-government funding, 100+ projects in 12 countries",
+        "quote": "CARB-X... is a global nonprofit partnership focused on supporting the development of new antibacterial products... has funded the advancement of over 100 innovative projects in 12 countries."
+      },
+      {
+        "url": "https://www.niaid.nih.gov/research/carb-x",
+        "title": "Combating Antibiotic-Resistant Bacteria Biopharmaceutical Accelerator (CARB-X)",
+        "publisher": "NIAID / NIH",
+        "accessed": "undefined",
+        "supports": "BARDA/NIAID/Wellcome launched CARB-X in 2016; BARDA funding amounts",
+        "quote": "In 2016, BARDA, in partnership with NIAID and Wellcome, launched CARB-X... BARDA provided CARB-X with $200 million from 2016-2022 with the potential of providing up to $300 million in additional support from 2022-2032."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Multi-national funders (BARDA, Wellcome, Germany BMFTR, UK GAMRIF, Gates Foundation, etc.), but headquartered in the US at Boston University and majority US-government-funded; included as a US public-program-anchored accelerator.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-dfc-global-health",
+    "name": {
+      "en": "U.S. International Development Finance Corporation (DFC) — Global Health"
+    },
+    "aka": ["DFC", "Development Finance Corporation", "Global Health and Prosperity Initiative"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Washington, D.C.",
+    "website": "https://www.dfc.gov/",
+    "links": {
+      "other": ["https://www.dfc.gov/media/press-releases/dfc-announces-call-proposals-under-new-global-health-and-prosperity-initiative"]
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["global"],
+      "sector_focus": ["healthcare-services", "therapeutics", "pharma-services", "diagnostics"],
+      "thesis": "US government's development finance institution (successor to OPIC). Through its Global Health and Prosperity Initiative it provides loans, guarantees, equity and political-risk insurance to mobilize private-sector investment in health resilience, pandemic preparedness and health systems in low- and lower-middle-income countries."
+    },
+    "lifesci": {
+      "modalities": ["vaccines"],
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "~25 health projects (~$2 billion)"
+    },
+    "summary": {
+      "en": "DFC is the US government's development finance institution; its Global Health and Prosperity Initiative has mobilized nearly $2B across ~25 health projects to strengthen health systems and pandemic preparedness in developing countries.",
+      "local": "DFC 是美國政府的開發金融機構(OPIC 後身),其「全球健康與繁榮倡議」已在約 25 個健康專案投入近 20 億美元,強化開發中國家的醫療體系與防疫能力。"
+    },
+    "sources": [
+      {
+        "url": "https://www.dfc.gov/media/press-releases/dfc-strengthens-global-health-infrastructure-and-services-nearly-2-billion-new",
+        "title": "DFC Strengthens Global Health Infrastructure and Services with Nearly $2 Billion in New Health Projects",
+        "publisher": "U.S. International Development Finance Corporation",
+        "accessed": "undefined",
+        "supports": "~$2B across ~25 health projects; global health initiative",
+        "quote": "DFC has supported nearly $2 billion in investment over 25 health projects, with investments helping low- and lower-middle income countries (LMICs) respond to COVID-19, prepare for the next pandemic, and improve health systems."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/U.S._International_Development_Finance_Corporation",
+        "title": "U.S. International Development Finance Corporation",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Formed 2019 by merging OPIC and USAID DCA; provides loans, equity, guarantees, insurance",
+        "quote": "formed on December 20, 2019 by merging the Overseas Private Investment Corporation (OPIC) with the Development Credit Authority (DCA)... provides loans, loan guarantees, direct equity investments, and political risk insurance."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Invests globally (LMICs), not domestically; included per scope as a US-headquartered development finance institution with a dedicated global-health mandate. Health is one of several DFC sectors.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-mass-life-sciences-center",
+    "name": {
+      "en": "Massachusetts Life Sciences Center (MLSC)"
+    },
+    "aka": ["MLSC", "Mass Life Sciences Center"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2007,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Waltham, Massachusetts",
+    "website": "https://www.masslifesciences.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/massachusetts-life-sciences-center"
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "femtech-womens-health", "generalist-health"],
+      "thesis": "Quasi-public state economic-development investment agency for the Massachusetts life-sciences ecosystem. Deploys grants, loans, capital-infrastructure investments, tax incentives and workforce programs; has directed over $1 billion into the state, including targeted programs such as women's health innovation and the 2035 Fund."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "The MLSC is Massachusetts's state life-sciences investment agency, having deployed more than $1 billion via grants, loans, infrastructure capital and tax incentives across the state's biomedical cluster since 2007.",
+      "local": "MLSC 是麻州的官方生命科學投資機構,自 2007 年起透過補助、貸款、基礎設施資本與租稅優惠,在該州生醫聚落投入逾 10 億美元。"
+    },
+    "sources": [
+      {
+        "url": "https://www.masslifesciences.com/",
+        "title": "Massachusetts Life Sciences Center",
+        "publisher": "Massachusetts Life Sciences Center",
+        "accessed": "undefined",
+        "supports": "State investment agency; over $1B deployed; created 2007",
+        "quote": "Since its creation in 2007, the MLSC has strategically deployed over $700 million in Massachusetts... More recently, the MLSC has strategically deployed more than $1 billion in Massachusetts."
+      },
+      {
+        "url": "https://www.mass.gov/news/healey-driscoll-administration-and-the-massachusetts-life-sciences-center-announce-37-million-to-support-womens-health-innovation",
+        "title": "MLSC Announces $3.7 Million to Support Women's Health Innovation",
+        "publisher": "Commonwealth of Massachusetts",
+        "accessed": "undefined",
+        "supports": "Targeted women's health innovation funding program",
+        "quote": "$3.7 Million to Support Women's Health Innovation"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Quasi-public agency; deploys a mix of non-dilutive grants, loans, tax incentives and infrastructure capital rather than pure equity.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-cprit",
+    "name": {
+      "en": "Cancer Prevention and Research Institute of Texas (CPRIT)"
+    },
+    "aka": ["CPRIT"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Austin, Texas",
+    "website": "https://www.cprit.texas.gov/",
+    "links": {
+      "other": ["https://cprit.texas.gov/our-programs/product-development-research"]
+    },
+    "capital": {
+      "aum": {
+        "raw": "more than $4 billion in grants awarded since inception",
+        "usd": 4000000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "ai-drug-discovery"],
+      "thesis": "Texas state agency (voter-created, $3B+ bond authorization) whose Product Development Research Program invests in Texas-based startup and early-stage oncology companies to bridge the 'valley of death' between discovery and commercialization, via Texas Therapeutics, Diagnostics & Devices, New Technologies, and SEED company awards."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "radiopharmaceuticals"],
+      "indications": ["oncology"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "25 companies established/expanded/relocated to Texas"
+    },
+    "summary": {
+      "en": "CPRIT is a Texas state agency that has awarded over $4 billion for cancer research and prevention, including a Product Development Research Program that funds Texas-based early-stage oncology therapeutics, diagnostics and device companies.",
+      "local": "CPRIT 是德州官方癌症研究機構,累計撥款逾 40 億美元,其產品開發計畫專門投資德州早期腫瘤治療、診斷與器材公司,填補「死亡之谷」資金缺口。"
+    },
+    "sources": [
+      {
+        "url": "https://cprit.texas.gov/our-programs/product-development-research",
+        "title": "Product Development Research | CPRIT",
+        "publisher": "Cancer Prevention and Research Institute of Texas",
+        "accessed": "undefined",
+        "supports": "Funds Texas-based startup/early-stage oncology companies across award categories",
+        "quote": "CPRIT's Product Development Research Program funds projects at Texas-based companies developing novel products or services intended to benefit cancer patients."
+      },
+      {
+        "url": "https://www.cprit.texas.gov/news-events/articles/cprit-approves-154-million-in-new-cancer-research-and-prevention-awards-surpasses-4-billion-total-since-inception/",
+        "title": "CPRIT surpasses $4 billion total since inception",
+        "publisher": "Cancer Prevention and Research Institute of Texas",
+        "accessed": "undefined",
+        "supports": "More than $4 billion awarded; 25 companies attracted to Texas",
+        "quote": "the agency has awarded more than $4 billion in grants to Texas research institutions and organizations, and has supported the establishment, expansion, or relocation of 25 companies to Texas."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Oncology-only mandate. Created by Texas constitutional amendment (2007) authorizing up to $3B (later expanded to $6B) in bonds; founded_year omitted for lack of an explicit year quote in sources gathered.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-cirm",
+    "name": {
+      "en": "California Institute for Regenerative Medicine (CIRM)"
+    },
+    "aka": ["CIRM", "California's Stem Cell and Gene Therapy Agency"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, California",
+    "website": "https://www.cirm.ca.gov/",
+    "capital": {
+      "aum": {
+        "raw": "$8.5 billion allocated (Prop 71 $3B in 2004 + Prop 14 in 2020)",
+        "usd": 8500000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["cell-gene-therapy", "therapeutics"],
+      "thesis": "Voter-created California state agency (Prop 71, 2004; extended by Prop 14, 2020) — the first-ever US taxpayer-funded agency of its kind — that funds cell and gene therapy research, manufacturing and clinical development at California universities, research institutions and biotech companies."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "gene-editing"],
+      "indications": ["rare-disease", "oncology", "neurology"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {"company": "Rocket Pharmaceuticals", "sector": "gene-therapy", "outcome": "active"},
+        {"company": "Lineage Cell Therapeutics", "sector": "cell-therapy", "outcome": "active"}
+      ]
+    },
+    "summary": {
+      "en": "CIRM is California's voter-funded stem cell and gene therapy agency, allocated $8.5B across Propositions 71 and 14, funding regenerative-medicine research and clinical development at California institutions and companies.",
+      "local": "CIRM 是加州選民公投設立的幹細胞與基因治療機構,透過第 71 號與第 14 號提案獲得 85 億美元經費,資助加州機構與企業的再生醫學研究與臨床開發。"
+    },
+    "sources": [
+      {
+        "url": "https://www.cirm.ca.gov/about-cirm/",
+        "title": "About Us – CIRM",
+        "publisher": "California Institute for Regenerative Medicine",
+        "accessed": "undefined",
+        "supports": "First taxpayer-funded agency of its kind; $8.5B from Prop 71 + Prop 14",
+        "quote": "The California Institute for Regenerative Medicine (CIRM) is the first-ever taxpayer-funded agency in the US... Together these propositions allocated $8.5 billion from general obligation bonds to support regenerative medicine in the state."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/California_Institute_for_Regenerative_Medicine",
+        "title": "California Institute for Regenerative Medicine",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Created 2004 by Prop 71 ($3B); funding open to companies and academia",
+        "quote": "CIRM was created by the voters of California in 2004 when they overwhelmingly passed Proposition 71, which authorized $3 billion in funding for stem cell research in California."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Primarily a research/clinical grant funder (non-dilutive) rather than an equity investor, but a major public financier of California cell & gene therapy companies.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-tedco",
+    "name": {
+      "en": "TEDCO (Maryland Technology Development Corporation) — Life Science Investment Fund"
+    },
+    "aka": ["TEDCO", "Maryland Technology Development Corporation", "LSIF"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Columbia, Maryland",
+    "website": "https://www.tedcomd.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": {
+        "raw": "Life Science Investment Fund examples $200,000–$500,000",
+        "usd_min": 200000,
+        "usd_max": 500000
+      },
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "generalist-health"],
+      "thesis": "Maryland's state-backed technology and life-science economic-development corporation. Its Life Science Investment Fund (LSIF) invests in Maryland companies past technology validation and on an FDA pathway, alongside broader seed funds and an Equity Growth Fund."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {"company": "Irazú Oncology", "sector": "oncology", "outcome": "active"},
+        {"company": "PediaMetrix", "sector": "medtech-devices", "outcome": "active"},
+        {"company": "Silvec Biologics", "sector": "therapeutics", "outcome": "active"}
+      ]
+    },
+    "summary": {
+      "en": "TEDCO is Maryland's state economic-development investor; its Life Science Investment Fund backs Maryland biotech and medtech startups with an FDA pathway, with recent checks of $200K–$500K.",
+      "local": "TEDCO 是馬里蘭州的官方經濟發展投資機構,其「生命科學投資基金」(LSIF)投資具 FDA 路徑的馬里蘭生技與醫材新創,近期投資額約 20 萬至 50 萬美元。"
+    },
+    "sources": [
+      {
+        "url": "https://www.tedcomd.com/",
+        "title": "TEDCO | Maryland Entrepreneur Funding and Investments",
+        "publisher": "Maryland Technology Development Corporation (TEDCO)",
+        "accessed": "undefined",
+        "supports": "State-backed investor in Maryland technology and life-science companies",
+        "quote": "TEDCO... identifies, invests in, and helps grow technology and life science-based companies in Maryland."
+      },
+      {
+        "url": "https://www.tedcomd.com/news-events/press-releases/2026/tedco-invests-silvec-biologics",
+        "title": "TEDCO Invests in Silvec Biologics",
+        "publisher": "TEDCO",
+        "accessed": "undefined",
+        "supports": "LSIF invests in Maryland life-science companies; example investments",
+        "quote": "TEDCO's Life Science Investment Fund is specifically designed for companies that are beyond the technology validation stage and further along in product development... dedicated to supporting qualifying startups with an FDA pathway."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Check-size figures are drawn from individual announced deals (Irazú $500K, PediaMetrix $200K), not a stated official range; LSIF sits under TEDCO's broader Seed Funds.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-connecticut-innovations",
+    "name": {
+      "en": "Connecticut Innovations — Connecticut Bioscience Innovation Fund (CBIF)"
+    },
+    "aka": ["Connecticut Innovations", "CI", "CBIF", "Connecticut Bioscience Innovation Fund"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Rocky Hill, Connecticut",
+    "website": "https://ctinnovations.com/",
+    "capital": {
+      "current_fund": {
+        "raw": "$200 million evergreen fund (CBIF)",
+        "usd": 200000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": {
+        "raw": "Academic royalty-bearing grants up to $500,000; plus convertible loans/equity",
+        "usd_max": 500000
+      },
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "genomics-omics", "generalist-health"],
+      "thesis": "Connecticut's state venture arm. The $200M evergreen Connecticut Bioscience Innovation Fund makes grants, secured convertible loans and equity investments to speed commercializable bioscience breakthroughs from Connecticut startups, universities and non-profits to market."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "106 bioscience startups (89 CT-based) / 159 total investments"
+    },
+    "summary": {
+      "en": "Connecticut Innovations runs the $200M evergreen Connecticut Bioscience Innovation Fund, which has invested nearly $125M since 2013 in Connecticut bioscience startups via grants, convertible loans and equity.",
+      "local": "康乃狄克州創新機構(CI)管理 2 億美元的常青型「康州生物科學創新基金」(CBIF),自 2013 年起以補助、可轉換貸款與股權投資,已投入近 1.25 億美元支持康州生技新創。"
+    },
+    "sources": [
+      {
+        "url": "https://ctinnovations.com/",
+        "title": "Connecticut Innovations - Venture Capital for Biotech, IT, and More",
+        "publisher": "Connecticut Innovations",
+        "accessed": "undefined",
+        "supports": "State venture arm investing in biotech among other sectors",
+        "quote": "Venture Capital for Biotech, IT, and More"
+      },
+      {
+        "url": "https://hartfordbusiness.com/article/with-nearly-125m-invested-bill-proposes-25m-boost-for-ct-bioscience-innovation-fund/",
+        "title": "With nearly $125M invested, bill proposes $25M boost for CT Bioscience Innovation Fund",
+        "publisher": "Hartford Business Journal",
+        "accessed": "undefined",
+        "supports": "$200M evergreen fund; nearly $125M invested since 2013; 106 startups",
+        "quote": "The Connecticut Bioscience Innovation Fund is a $200 million evergreen fund... The fund has invested nearly $125 million since 2013... the $200 million fund has backed 106 bioscience startups."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "CBIF was established July 2013 (founded_year reflects the fund, not parent Connecticut Innovations, established 1989). Investment counts differ across sources (106 firms vs. 159 investments).",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-ben-franklin-technology-partners",
+    "name": {
+      "en": "Ben Franklin Technology Partners (BFTP)"
+    },
+    "aka": ["Ben Franklin Technology Partners", "BFTP", "GO PA Fund"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Pennsylvania (statewide network)",
+    "website": "https://benfranklin.org/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/ben-franklin-technology-partners"
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "digital-health", "generalist-health"],
+      "thesis": "Pennsylvania's state technology-based economic-development network (four regional partners across all 67 counties) that invests early-stage capital and provides expertise to tech firms including a large healthcare/life-sciences portfolio (pharma, biotech, instrumentation, medical devices)."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "76 active healthcare portfolio companies (2024)"
+    },
+    "summary": {
+      "en": "Ben Franklin Technology Partners is Pennsylvania's state-funded early-stage investor and economic-development network; in 2024 it held 76 active healthcare/life-sciences portfolio companies and is raising the ~$100M GO PA Fund for follow-ons.",
+      "local": "Ben Franklin Technology Partners 是賓州官方資助的早期投資與經濟發展網絡;2024 年持有 76 家健康照護/生命科學投資組合公司,並正募集約 1 億美元的 GO PA Fund 用於後續投資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.sep.benfranklin.org/news/bf-2024-investment-impact/",
+        "title": "Ben Franklin Invests $6.5M to Drive Growth in Regional Tech, Health-Care Sectors in 2024",
+        "publisher": "Ben Franklin Technology Partners of Southeastern Pennsylvania",
+        "accessed": "undefined",
+        "supports": "76 active healthcare portfolio companies; $2.9M invested; $255M follow-on",
+        "quote": "with 76 active healthcare portfolio companies that directly received $2.9 million in Ben Franklin investments to help entrepreneurs raise $255 million in follow-on capital."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/ben-franklin-technology-partners-completes-first-close-of-its-expected-100m-venture-fund-for-pennsylvania-innovation-301981716.html",
+        "title": "Ben Franklin completes first close of expected $100M GO PA Fund",
+        "publisher": "PR Newswire / Ben Franklin Technology Partners",
+        "accessed": "undefined",
+        "supports": "GO PA Fund targeting up to $100M for follow-on investments",
+        "quote": "The GO PA Fund seeks up to $100 million in capital commitments, and intends to primarily invest in follow-on investments... of the statewide network of four Ben Franklin Technology Partner entities."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Generalist tech mandate with a substantial and growing healthcare/life-sciences practice; founded ~1983 (Pennsylvania Ben Franklin Partnership) but no exact-year quote in sources gathered.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-nc-biotechnology-center",
+    "name": {
+      "en": "North Carolina Biotechnology Center (NCBiotech)"
+    },
+    "aka": ["NCBiotech", "NC Biotech Center"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Research Triangle Park, North Carolina",
+    "website": "https://www.ncbiotech.org/",
+    "links": {
+      "other": ["https://www.ncbiotech.org/funding/company-funding"]
+    },
+    "capital": {
+      "aum": {
+        "raw": "over $44 million loaned to 200+ startup companies",
+        "usd": 44000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": {
+        "raw": "Small Business Research Loans $150,000–$350,000; Strategic Growth Loans $350,000–$650,000 (with equity match)",
+        "usd_min": 150000,
+        "usd_max": 650000
+      },
+      "lead_or_follow": "follow",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools", "generalist-health"],
+      "thesis": "The first US state-sponsored biotechnology initiative — a state-funded non-profit that accelerates NC life-science economic development through loan and convertible-note programs (Small Business Research Loans, Strategic Growth Loans) to early-stage NC life-science companies."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "280+ NC life-science companies since 1989"
+    },
+    "summary": {
+      "en": "NCBiotech, the first US state-sponsored biotech initiative, is a state-funded non-profit that has loaned over $44M to 200+ early-stage North Carolina life-science companies via research and strategic-growth loan programs.",
+      "local": "NCBiotech 是全美第一個州辦生技機構,為州政府資助的非營利組織,透過研究貸款與策略成長貸款,已對逾 200 家北卡早期生命科學公司放款逾 4,400 萬美元。"
+    },
+    "sources": [
+      {
+        "url": "https://www.ncbiotech.org/funding/company-funding",
+        "title": "Company Funding | North Carolina Biotechnology Center",
+        "publisher": "North Carolina Biotechnology Center",
+        "accessed": "undefined",
+        "supports": "First state-sponsored biotech initiative; loan programs; 280+ companies",
+        "quote": "Since 1989, NCBiotech has invested in more than 280 North Carolina life sciences companies through loan and convertible note programs, leading to nearly 50 mergers and acquisitions and IPOs."
+      },
+      {
+        "url": "https://www.ncbiotech.org/funding/company-funding/strategic-growth-loan",
+        "title": "Strategic Growth Loan (SGL) | NCBiotech",
+        "publisher": "North Carolina Biotechnology Center",
+        "accessed": "undefined",
+        "supports": "SGL $350K–$650K with equity match; SBRL $150K–$350K; $44M loaned total",
+        "quote": "The Small Business Research Loan program provides investments of $150,000 to $350,000... SGL awards of $350,000 to $650,000 require an equity investment match... The Center has loaned over $44 million to more than 200 startup companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Private non-profit corporation funded by the State of North Carolina; deploys loans/convertible notes rather than pure equity. Founded 1984 but no clean year quote gathered, so founded_year omitted.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-ny-life-science-initiative",
+    "name": {
+      "en": "New York Life Science Initiative (Empire State Development)"
+    },
+    "aka": ["Empire State Development Life Sciences", "NY Life Science Initiative", "ESD"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://esd.ny.gov/industries/biotech-and-life-sciences",
+    "links": {
+      "other": ["https://esd.ny.gov/new-york-life-science-entrepreneur-development-grant"]
+    },
+    "capital": {
+      "aum": {
+        "raw": "$620 million Life Science Initiative",
+        "usd": 620000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices", "diagnostics", "digital-health", "generalist-health"],
+      "thesis": "New York State's $620M multi-faceted Life Science Initiative, administered by Empire State Development, combines tax credits, capital grants, wet-lab/innovation-space development and investment capital (including a Cell & Gene Therapy Initiative and Biodefense Commercialization Fund) to grow the state's commercial life-science cluster."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "Empire State Development runs New York's $620M Life Science Initiative, deploying tax credits, capital grants, lab-space development and early-stage investment capital — plus a $150M+ Cell & Gene Therapy Initiative — to build the state's biomedical industry.",
+      "local": "紐約州經濟發展局(ESD)推動 6.2 億美元的生命科學倡議,結合租稅抵免、資本補助、實驗空間開發與早期投資資本(含逾 1.5 億美元的細胞與基因治療倡議),壯大該州生醫產業。"
+    },
+    "sources": [
+      {
+        "url": "https://esd.ny.gov/industries/biotech-and-life-sciences",
+        "title": "Biotech and Life Sciences - Empire State Development",
+        "publisher": "Empire State Development (New York State)",
+        "accessed": "undefined",
+        "supports": "$620M Life Science Initiative to grow NY commercial life-science industry",
+        "quote": "New York's Life Science Initiative, a $620 million program designed to invigorate the state's commercial life science industry and attract, retain and grow companies in the sector."
+      },
+      {
+        "url": "https://www.governor.ny.gov/news/governor-hochul-announces-one-biosciences-establish-us-operations-albany",
+        "title": "Governor Hochul Announces Life Sciences Investments",
+        "publisher": "Office of the Governor of New York State",
+        "accessed": "undefined",
+        "supports": "Initiative components: tax credits, R&D credit, state grants for wet-lab space and investment capital; CGT Initiative",
+        "quote": "the $620 million Life Science Initiative includes $100 million to expand the Excelsior Jobs Program... $100 million for a new life sciences R&D tax credit; and $320 million in state grants... and investment capital for early-stage life sciences companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "State economic-development program (grants, tax credits, capital) rather than a pure equity fund; includes investment-capital and biodefense-commercialization components. Enacted circa 2017; founded_year omitted for lack of a clean year quote.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-gra-venture-fund",
+    "name": {
+      "en": "Georgia Research Alliance (GRA) & GRA Venture Fund"
+    },
+    "aka": ["GRA", "Georgia Research Alliance", "GRA Venture Fund"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Atlanta, Georgia",
+    "website": "https://gra.org/",
+    "links": {
+      "other": ["https://graventurefund.org/"]
+    },
+    "capital": {
+      "funds": [
+        {"name": "GRA Venture Fund (initial state investment)", "vintage_year": 2009, "size": {"raw": "$7.5 million evergreen", "usd": 7500000, "currency": "USD"}},
+        {"name": "GRA Venture Fund second raise", "vintage_year": 2015, "size": {"raw": "$25 million", "usd": 25000000, "currency": "USD"}}
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools", "generalist-health"],
+      "thesis": "Public-private partnership that funds early-stage biotech and life-science discoveries made at Georgia's research universities. The affiliated GRA Venture Fund (state-seeded, evergreen) invests in research-based startups in technology, life sciences, manufacturing and agriculture, matching state dollars at least 3:1 with private capital."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "GRA Ventures program funds technology validation and startup acceleration from Georgia university research."
+    },
+    "summary": {
+      "en": "The Georgia Research Alliance's GRA Venture Fund is a state-seeded evergreen fund that invests in research-based Georgia startups (including life sciences), started with $7.5M from the state in 2009 and adding $25M in 2015.",
+      "local": "喬治亞研究聯盟(GRA)的創投基金為州政府種子出資的常青基金,投資源自喬治亞大學研究的新創(含生命科學);2009 年由州政府投入 750 萬美元啟動,2015 年再募 2,500 萬美元。"
+    },
+    "sources": [
+      {
+        "url": "https://graventurefund.org/page/1065/About_GRA_Venture_Fund.html",
+        "title": "About GRA Venture Fund",
+        "publisher": "GRA Venture Fund, LLC",
+        "accessed": "undefined",
+        "supports": "2009 launch with $7.5M state investment; life-science focus; second raise $25M in 2015",
+        "quote": "In 2009, the Georgia Research Alliance launched GRA Venture Fund with a $7.5 million 'evergreen' investment from the State of Georgia... In 2015, GRA Venture Fund held a second raise of $25 million."
+      },
+      {
+        "url": "https://gra.org/page/1077/GRA_venture_development.html",
+        "title": "Georgia Research Alliance — Venture Development",
+        "publisher": "Georgia Research Alliance",
+        "accessed": "undefined",
+        "supports": "Funds early-stage biotech/life-science discoveries from Georgia universities",
+        "quote": "fund early-stage biotechnology and life sciences discoveries made at Georgia's research universities through grants for technology validation and startup company acceleration."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "GRA Venture Fund includes private LPs (state-seeded, then matched); GRA itself (est. 1990) is the public-private parent. Multi-sector, but with a strong life-science mandate.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-launchtn-investtn",
+    "name": {
+      "en": "Launch Tennessee (LaunchTN) — InvestTN"
+    },
+    "aka": ["LaunchTN", "Launch Tennessee", "InvestTN"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Nashville, Tennessee",
+    "website": "https://investtn.org/",
+    "links": {
+      "other": ["https://launchtn.org/investtn/"]
+    },
+    "capital": {
+      "current_fund": {
+        "raw": "$70 million (InvestTN)",
+        "usd": 70000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "check_size": {
+        "raw": "$25,000–$3,000,000",
+        "usd_min": 25000,
+        "usd_max": 3000000
+      },
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["digital-health", "therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Launch Tennessee is a public-private partnership; its $70M InvestTN equity fund provides catalytic capital to early-stage Tennessee startups across healthcare technology, life science and biotech (among other sectors), and matches SBIR/STTR awards for medical-device companies."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "39 Tennessee companies"
+    },
+    "summary": {
+      "en": "LaunchTN's $70M InvestTN fund provides equity capital ($25K–$3M) to early-stage Tennessee startups including healthcare tech, life science and biotech companies, catalyzing ~4x private capital per dollar.",
+      "local": "LaunchTN 的 7,000 萬美元 InvestTN 基金,對田納西州早期新創(含健康科技、生命科學與生技公司)提供 2.5 萬至 300 萬美元股權投資,每投入 1 美元可帶動約 4 美元民間資金。"
+    },
+    "sources": [
+      {
+        "url": "https://launchtn.org/launch-tennessee-debuts-investtn/",
+        "title": "Launch Tennessee Debuts InvestTN, a $70 Million Fund",
+        "publisher": "Launch Tennessee",
+        "accessed": "undefined",
+        "supports": "$70M equity fund for early-stage TN startups",
+        "quote": "InvestTN is Launch Tennessee's $70 million equity investment fund designed to provide catalytic capital to early-stage and growing startups across the state."
+      },
+      {
+        "url": "https://investtn.org/",
+        "title": "InvestTN",
+        "publisher": "Launch Tennessee",
+        "accessed": "undefined",
+        "supports": "Check size $25K–$3M; healthcare/life-science/biotech among sectors; 39 companies",
+        "quote": "Early-stage startups, pre-seed through Series B, can apply for equity investment ranging in size from $25,000 to $3,000,000... The portfolio spans a range of industries, including healthcare technology, life science and biotech."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Generalist state fund; healthcare/life-science is one of several focus sectors. LaunchTN is a public-private nonprofit funded by the State of Tennessee.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "us-vipc-virginia-venture-partners",
+    "name": {
+      "en": "Virginia Innovation Partnership Corporation (VIPC) — Virginia Venture Partners"
+    },
+    "aka": ["VIPC", "Virginia Venture Partners", "CIT GAP Funds", "GAP Life Sciences"],
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Herndon, Virginia",
+    "website": "https://vipc.org/",
+    "links": {
+      "other": ["https://vipc.org/funding/virginia-venture-partners/"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "generalist-health"],
+      "thesis": "The non-profit operations arm of the Virginia Innovation Partnership Authority and the Commonwealth's seed-stage economic-development driver. Virginia Venture Partners (formerly CIT GAP Funds), including its flagship GAP Life Sciences fund, places equity investments in Virginia's earliest-stage life-science and technology companies."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "VIPC is Virginia's state seed-stage economic-development corporation; its Virginia Venture Partners funds (including GAP Life Sciences) make earliest-stage equity investments in Virginia life-science and tech startups.",
+      "local": "VIPC 是維吉尼亞州的官方種子期經濟發展機構,其 Virginia Venture Partners 基金(含 GAP Life Sciences)對維州最早期生命科學與科技新創進行股權投資。"
+    },
+    "sources": [
+      {
+        "url": "https://vipc.org/funding/virginia-venture-partners/",
+        "title": "Virginia Venture Partners - Virginia Innovation Partnership Corporation",
+        "publisher": "Virginia Innovation Partnership Corporation",
+        "accessed": "undefined",
+        "supports": "Equity investments in VA life-science companies at earliest stages; GAP Life Sciences seed fund",
+        "quote": "Virginia Venture Partners (formerly CIT GAP Funds) places equity investments in Virginia's high-growth based technology, life science, and cleantech companies at the earliest developmental stages."
+      },
+      {
+        "url": "https://vipc.org/",
+        "title": "Virginia Innovation Partnership Corporation",
+        "publisher": "Virginia Innovation Partnership Corporation",
+        "accessed": "undefined",
+        "supports": "Non-profit operations arm of VIPA; Commonwealth's seed-stage economic-development driver",
+        "quote": "VIPC is the nonprofit operations arm of the Virginia Innovation Partnership Authority (VIPA) and serves as the commercialization and seed stage economic development driver in the Commonwealth."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Multi-sector state seed investor (life sciences is a named focus via GAP Life Sciences). Formerly CIT GAP Funds; rebranded under VIPC circa 2020.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  }
+]

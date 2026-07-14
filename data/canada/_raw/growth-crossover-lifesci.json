@@ -1,0 +1,373 @@
+[
+  {
+    "id": "ca-lumira-ventures",
+    "name": { "en": "Lumira Ventures" },
+    "aka": ["Lumira Capital"],
+    "type": "vc",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "offices": [{ "country": "Canada", "city": "Toronto" }, { "country": "United States", "city": "Boston" }],
+    "website": "https://www.lumiraventures.com/",
+    "capital": {
+      "funds": [
+        { "name": "Lumira Ventures IV", "vintage_year": 2021, "size": { "raw": "US$220 million", "usd": 220000000, "currency": "USD" } },
+        { "name": "Lumira Ventures V", "vintage_year": 2026, "size": { "raw": "US$200 million target (C$275 million); US$255 million (C$321 million) first closing of committed capital", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Canada", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Canada's largest life sciences venture capital firm; invests from later venture rounds through revenue-generating, pre-commercial biotech, biotherapeutics and medical device companies, and separately runs an opportunity fund that buys oversold public biotech equities, giving it a private-to-public crossover posture."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": true,
+      "science_platform_notes": "Runs a dedicated Lumira Ventures Opportunity Fund (hedge-fund style vehicle) targeting oversold publicly traded biotech companies alongside its core venture funds."
+    },
+    "track_record": {
+      "notable_investments": []
+    },
+    "tags": ["later-stage", "healthcare", "crossover", "medtech", "biotherapeutics"],
+    "summary": {
+      "en": "Toronto-based Lumira Ventures is Canada's largest dedicated life sciences VC, backing biotherapeutics and medtech companies from later venture rounds to pre-commercial/revenue stage, with a companion fund investing in public biotech equities."
+    },
+    "sources": [
+      { "url": "https://www.lumiraventures.com/", "title": "Lumira Ventures | Life Sciences Venture Capital | Canada", "publisher": "Lumira Ventures", "accessed": "undefined", "supports": "HQ, general strategy, largest Canadian life sciences VC" },
+      { "url": "https://www.theglobeandmail.com/business/article-lumira-ventures-raises-largest-canadian-life-sciences-fund-in-20-years/", "title": "Lumira Ventures raises largest Canadian life sciences fund in more than 20 years", "publisher": "The Globe and Mail", "accessed": "undefined", "supports": "Fund IV US$220M, largest institutional life sciences VC fund ever raised in Canada", "quote": "the closing of the oversubscribed Lumira Ventures IV at US$220 million represents the largest fund Lumira has raised to date, and the largest institutional life sciences venture capital fund ever raised in Canada" },
+      { "url": "https://www.lumiraventures.com/news/lumira-ventures-announces-first-closing-of-fifth-fund-to-back-high-impact-healthcare-innovation-across-north-america-lumira-ventures-annonce-la-premiere-cloture-de-son-cinquieme-fonds-pour-appuyer-l/", "title": "Lumira Ventures Announces First Closing of Fifth Fund", "publisher": "Lumira Ventures", "accessed": "undefined", "supports": "Fund V target size US$200M (C$275M), first investment a US$52M Series B", "quote": "With a target final size of US$200 million (C$275 million), Fund V has already completed its first investment, a US$52 million Series B financing for a pre-commercial-stage medical device company." },
+      { "url": "https://www.theglobeandmail.com/business/article-canadian-biotech-venture-capital-firm-lumira-starts-hedge-fund-to/", "title": "Canadian biotech venture capital firm Lumira starts hedge fund to target oversold public companies", "publisher": "The Globe and Mail", "accessed": "undefined", "supports": "Public-markets crossover strategy via Lumira Ventures Opportunity Fund", "quote": "Lumira Ventures launched a hedge fund called Lumira Ventures Opportunity Fund 1 to bet on publicly traded companies it believes have been oversold during the sector's meltdown. The fund aims to invest 80 percent of proceeds in public companies, compared with a cap of 15 percent for Lumira's venture funds." },
+      { "url": "https://www.prnewswire.com/news-releases/lumira-ventures-closes-on-us255-million-of-new-capital-to-build-transformative-healthcare-companies-301340655.html", "title": "Lumira Ventures Closes on US$255 Million of New Capital to Build Transformative Healthcare Companies", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Combined new capital raised" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded year not confirmed from primary sources during this research pass and left blank rather than guessed.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "ca-amplitude-ventures",
+    "name": { "en": "Amplitude Ventures" },
+    "aka": ["Amplitude Venture Capital"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://amplitudevc.com/en",
+    "capital": {
+      "aum": { "raw": "over $500 million CAD", "usd": null, "currency": "CAD" },
+      "funds": [
+        { "name": "Amplitude Ventures Fund II", "vintage_year": 2024, "size": { "raw": "$263 million CAD", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "check_size": { "raw": "$5 million initial, up to $30 million total per company" },
+      "lead_or_follow": "lead",
+      "geo_focus": ["Canada", "United States"],
+      "sector_focus": ["therapeutics", "genomics-omics", "ai-drug-discovery"],
+      "thesis": "Montreal-based full-stack life sciences VC investing at the intersection of biology and AI in precision medicine companies, leading or co-leading later financing rounds ($5-30M checks) for Canadian and North American biotech entrepreneurs."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "biologics-antibody"],
+      "indications": ["oncology"],
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Focus on precision medicine, enhancing diagnostics, developing targeted therapies and integrating AI with biology."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Repare Therapeutics", "sector": "oncology therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "tags": ["precision-medicine", "biotech", "AI-biology", "later-stage"],
+    "summary": {
+      "en": "Amplitude Ventures is a Montreal life sciences VC focused on precision medicine at the intersection of biology and AI, deploying $5-30M checks into later-stage Canadian and North American biotech companies from its $263M CAD Fund II."
+    },
+    "sources": [
+      { "url": "https://amplitudevc.com/en", "title": "Amplitude Ventures", "publisher": "Amplitude Ventures", "accessed": "undefined", "supports": "HQ, strategy, focus on precision medicine" },
+      { "url": "https://betakit.com/amplitude-ventures-closes-263-million-for-second-precision-medicine-vc-fund/", "title": "Amplitude Ventures closes $263 million for second precision medicine VC fund", "publisher": "BetaKit", "accessed": "undefined", "supports": "Fund II size $263M CAD, AUM >$500M, check size $5-30M", "quote": "Montréal-headquartered investment firm Amplitude Ventures, which focuses on the health and life sciences sectors, has closed $263 million CAD for its second precision medicine venture capital (VC) fund... currently has over $500 million in assets under management... The fund will make initial investments of $5 million and up to $30 million total per company." },
+      { "url": "https://www.fiercebiotech.com/biotech/amplitude-vc-closes-cad-200m-plus-fund-to-boost-canadian-life-sciences-sector", "title": "After Repare IPO success, Amplitude goes all in on Canadian life sciences sector with CA$200M fund", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Repare Therapeutics IPO as prior portfolio success", "quote": "Repare backer Amplitude Ventures unveils $192M biotech fund" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "ca-sectoral-asset-management",
+    "name": { "en": "Sectoral Asset Management" },
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "offices": [{ "country": "Canada", "city": "Montreal" }, { "country": "Switzerland", "city": "Geneva" }, { "country": "Hong Kong", "city": "Hong Kong" }],
+    "website": "https://www.sectoral.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["North America", "Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "100%-employee-owned specialist healthcare investment manager running both public equity healthcare strategies (Global Healthcare, Emerging Markets Healthcare, Small & Mid-Cap Healthcare & Biotech) and private venture funds (FMV for Series-A Canadian medtech, NEMO for Series-B-and-later biotech/medtech), giving it a public-private crossover posture within a single firm."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": true,
+      "science_platform_notes": "NEMO strategy targets clinical-stage biotechnology and medical technology companies in North America and Europe from Series B onward; FMV targets Series A / first institutional round Canadian medtech."
+    },
+    "tags": ["public-private-crossover", "healthcare-specialist", "biotech", "medtech"],
+    "summary": {
+      "en": "Sectoral Asset Management is a Montreal-founded, employee-owned healthcare investment firm managing both global public-equity healthcare strategies and private venture funds (FMV, NEMO), making it one of the few genuine public/private crossover healthcare investors headquartered in Canada."
+    },
+    "sources": [
+      { "url": "https://www.sectoral.com/", "title": "Sectoral Asset Management - Specialists in Global Healthcare Investing", "publisher": "Sectoral Asset Management", "accessed": "undefined", "supports": "Firm overview" },
+      { "url": "https://www.sectoral.com/en/about/", "title": "About us - Sectoral Asset Management", "publisher": "Sectoral Asset Management", "accessed": "undefined", "supports": "Founded 2000, Montreal origin, offices in Montreal, Geneva, Hong Kong", "quote": "Sectoral is specialized in managing equities globally in the healthcare sector, and was founded in October 2000 as an SEC-registered investment advisor. The firm is 100% employee-owned with offices in Montreal, Geneva, and Hong Kong." },
+      { "url": "https://www.sectoral.com/en/venture-capital/", "title": "Venture Capital - Sectoral Asset Management", "publisher": "Sectoral Asset Management", "accessed": "undefined", "supports": "FMV and NEMO fund stage focus and geography", "quote": "FMV targets Series A or first institutional round companies... NEMO focuses on Series B or later stage investments in clinical-stage firms... Biotechnologies and Medical Technologies... in North America and Europe." }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "ca-persistence-capital-partners",
+    "name": { "en": "Persistence Capital Partners" },
+    "aka": ["PCP"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "offices": [{ "country": "Canada", "city": "Toronto" }, { "country": "Canada", "city": "Montreal" }],
+    "website": "https://www.persistencecapital.com/",
+    "capital": {
+      "funds": [
+        { "name": "PCP MSP II (MedSpa Partners Continuation Fund)", "vintage_year": 2023, "size": { "raw": "over C$375 million", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "$5-10 million on average" },
+      "lead_or_follow": "lead",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["healthcare-services"],
+      "thesis": "Canada's only private equity firm focused exclusively on high-growth healthcare businesses; founded by physician-entrepreneurs, it backs post-revenue, entrepreneur-driven healthcare services companies via growth capital, buyouts and consolidation roll-ups (e.g. medical spa/aesthetics consolidation via MedSpa Partners)."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "MedSpa Partners", "sector": "healthcare services / aesthetics", "outcome": "active" }
+      ]
+    },
+    "tags": ["healthcare-services", "growth-equity", "roll-up", "buyout"],
+    "summary": {
+      "en": "Persistence Capital Partners is a Toronto/Montreal healthcare-focused growth private equity firm, founded by physicians, that provides growth capital and leads buyouts/roll-ups of post-revenue Canadian healthcare services businesses."
+    },
+    "sources": [
+      { "url": "https://www.persistencecapital.com/", "title": "Persistence Capital Partners", "publisher": "Persistence Capital Partners", "accessed": "undefined", "supports": "Firm description, founding, offices" },
+      { "url": "https://www.persistencecapital.com/strategy", "title": "Strategy — Persistence Capital Partners", "publisher": "Persistence Capital Partners", "accessed": "undefined", "supports": "Growth-stage healthcare services investment strategy", "quote": "Persistence Capital Partners is Canada's only private equity firm focused exclusively on high-growth opportunities in healthcare. Founded in 2008 by Dr. Sheldon Elman and Stuart M. Elman, PCP has offices in Toronto and Montreal." },
+      { "url": "https://www.persistencecapital.com/news/2023/11/9/persistence-capital-partners-exceeds-target-and-closes-on-over-c375-million-to-support-medspa-partners-growth", "title": "Persistence Capital Partners Exceeds Target and Closes on Over C$375 Million to Support MedSpa Partners Growth", "publisher": "Persistence Capital Partners", "accessed": "undefined", "supports": "MSP II continuation fund size C$375M+", "quote": "PCP MSP II, L.P. raised over C$375 million (~US$275 million) of capital commitments, exceeding the Continuation Fund's target size, and more than tripling the size of the initial investment vehicle for MSP." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Average check size ($5-10M) and headline AUM (~$273M) figures were sourced from a third-party aggregator (privateequitylist.com) rather than PCP's own materials and may be stale relative to the C$375M+ MSP II continuation fund closed in 2023; treat with caution.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "ca-tvm-capital-life-science",
+    "name": { "en": "TVM Capital Life Science" },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "offices": [{ "country": "Canada", "city": "Montreal" }, { "country": "Germany", "city": "Munich" }],
+    "website": "https://www.tvm-lifescience.com/",
+    "capital": {
+      "aum": { "raw": "$900 million", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada", "United States", "Germany", "Western Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Dedicated life science venture capital firm with a Montreal office alongside its Munich headquarters, investing in the growth of therapeutics, technology-platform, medtech and diagnostics companies across Canada, the US, Germany and Western Europe."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": null
+    },
+    "tags": ["biopharma", "medtech", "diagnostics", "cross-border"],
+    "summary": {
+      "en": "TVM Capital Life Science is a life-sciences VC headquartered in Munich, Germany with a dedicated Montreal, Canada office, investing growth-stage capital into therapeutics, medtech and diagnostics companies across North America and Europe.",
+      "local": "TVM Capital Life Science est une société de capital-risque en sciences de la vie basée à Munich, avec un bureau dédié à Montréal, au Canada."
+    },
+    "sources": [
+      { "url": "https://reseaucapital.com/en/investors/tvm-capital-life-science-2/", "title": "TVM Capital Life Science - Réseau Capital", "publisher": "Réseau Capital (Québec VC/PE association)", "accessed": "undefined", "supports": "Montreal office listing, member of Quebec VC association" },
+      { "url": "https://www.tvm-lifescience.com/", "title": "Investing in Life Science Innovation - TVM Capital Life Science Venture Capital", "publisher": "TVM Capital Life Science", "accessed": "undefined", "supports": "Firm description, investment focus" },
+      { "url": "https://www.bdc.ca/en/bdc-capital/venture-capital/portfolio/tvm-life-science-ventures-vii-canada", "title": "TVM Capital Life Sciences - Portfolio Company - BDC Capital", "publisher": "BDC Capital", "accessed": "undefined", "supports": "Confirms Canada-dedicated fund vehicle (TVM Life Science Ventures VII Canada) backed by BDC Capital" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ is Munich, Germany; included because the firm maintains a dedicated Montreal, Quebec office and a Canada-specific fund vehicle (TVM Life Science Ventures VII Canada, per BDC Capital's portfolio page). AUM figure ($900M) and 1983 founding date sourced from secondary directories (EU-Startups/Damalion), not TVM's own site, so treated as medium confidence; founded_year omitted pending primary confirmation.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "ca-cti-life-sciences-fund",
+    "name": { "en": "CTI Life Sciences Fund" },
+    "aka": ["CTI LSF"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2006,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.ctisciences.com/",
+    "capital": {
+      "aum": { "raw": "$345 million CAD across three funds", "usd": null, "currency": "CAD" },
+      "funds": [
+        { "name": "CTI LSF III", "vintage_year": 2026, "size": { "raw": "$100 million CAD (first tranche)", "usd": null, "currency": "CAD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Canada", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Montreal-based biotech 'company builder' co-created with Caisse de dépôt et placement du Québec that catalyzes nascent therapeutic assets from inception through to clinical inflection ('Inception-2-Inflection'), providing capital and operational company-building support across pre-seed through Series C rounds."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": ["oncology"],
+      "company_creation": true,
+      "invests_public_markets": null,
+      "science_platform_notes": "Operates a Company Builder model, in-housing management and operational resources to convert academic/nascent biotech assets into standalone companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "DalCor", "sector": "precision cardiology", "outcome": "active" },
+        { "company": "enGene", "sector": "urology / gene therapy", "outcome": "active" },
+        { "company": "Ability Pharma", "sector": "oncology therapeutics", "outcome": "active" },
+        { "company": "Aeovian Pharmaceuticals", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["Fonds de solidarité FTQ", "Caisse de dépôt et placement du Québec (CDPQ)", "Investissement Québec", "Teralys Capital"]
+    },
+    "tags": ["company-builder", "biotech", "Quebec", "CDPQ-backed"],
+    "summary": {
+      "en": "CTI Life Sciences Fund is a Montreal biotech company-builder/VC co-created with Quebec's CDPQ that funds and operationally builds therapeutic companies from inception through clinical inflection points, with $345M CAD under management across three funds.",
+      "local": "CTI Life Sciences Fund est un fonds de capital-risque et bâtisseur d'entreprises biotechnologiques basé à Montréal, cofondé avec la Caisse de dépôt et placement du Québec."
+    },
+    "sources": [
+      { "url": "https://www.ctisciences.com/", "title": "CTI Life Sciences Fund | Biotech VC Firm", "publisher": "CTI Life Sciences Fund", "accessed": "undefined", "supports": "Firm description, company-builder model" },
+      { "url": "https://www.lacaisse.com/en/news/pressreleases/cti-life-sciences-fund-successfully-raises-100-million-first-tranche-its-third", "title": "CTI Life Sciences Fund Successfully Raises $100 Million As A First Tranche of its Third Venture Capital Fund", "publisher": "La Caisse (CDPQ)", "accessed": "undefined", "supports": "LSF III first tranche $100M CAD, backers list", "quote": "The fund includes reaffirmed support from CTI's existing investors, the Fonds de solidarité FTQ, Caisse de dépôt et placement du Québec (CDPQ), Investissement Québec (IQ) and Teralys Capital." },
+      { "url": "https://www.fondsftq.com/en/press-center/press-releases/2025/20250923-investments-cti-life-sciences-fund-oligon", "title": "CTI Life Sciences Fund Launches Oligon Therapeutics", "publisher": "Fonds de solidarité FTQ", "accessed": "undefined", "supports": "Founded 2006, Montreal, $345M CAD AUM, notable portfolio companies", "quote": "CTI Life Sciences Fund was created in 2006 and based in Montreal... currently manages a total of $345 million CAD in assets across three funds... portfolio includes Ability Pharma..., Aeovian Pharmaceuticals..., DalCor..., and enGene..." }
+    ],
+    "confidence": "high",
+    "verification_notes": "CTI spans pre-seed through Series C as a company-builder; included in the growth-crossover slice primarily on the strength of its Series B/C growth financings, institutional pension-fund (CDPQ) backing, and large fund size, though its earliest-stage activity would also fit an early-stage-lifesci slice.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "ca-fonds-de-solidarite-ftq",
+    "name": { "en": "Fonds de solidarité FTQ" },
+    "aka": ["Fonds de solidarité des travailleurs du Québec", "Solidarity Fund QFL"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1983,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.fondsftq.com/en/",
+    "capital": {
+      "aum": { "raw": "$21.9 billion (net assets as at May 31, 2025, whole fund, not life-sciences-specific)", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "stages": ["growth", "all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Quebec", "Canada"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "generalist-health"],
+      "thesis": "Quebec's large labour-sponaored development-capital fund runs a dedicated biotechnology/life-sciences investment practice, deploying roughly $100 million per year through direct equity and fund investments into biopharmaceuticals, diagnostics, medical supplies/equipment and animal health, alongside its broader diversified economic-development mandate."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": null,
+      "science_platform_notes": "Dedicated life-sciences sector team covering biopharmaceutical services, nutraceuticals/cosmeceuticals, diagnostics and medical supplies/equipment, biopharmaceuticals and generics, biotechnology, and animal health; is also an LP behind Quebec life-science funds such as CTI Life Sciences Fund."
+    },
+    "tags": ["labour-sponsored-fund", "Quebec", "development-capital", "biotech-LP"],
+    "summary": {
+      "en": "Fonds de solidarité FTQ is a large Quebec labour-sponsored development-capital fund with a dedicated life-sciences investment practice deploying about $100M/year across direct biotech equity stakes and venture fund commitments (e.g. CTI Life Sciences Fund).",
+      "local": "Le Fonds de solidarité FTQ est un importants fonds de capital de développement québécois disposant d'une pratique d'investissement dédiée aux sciences de la vie, investissant environ 100 millions de dollars par année en biotechnologie."
+    },
+    "sources": [
+      { "url": "https://www.fondsftq.com/en/", "title": "Fonds FTQ | RRSP, TFSA, Business Financing", "publisher": "Fonds de solidarité FTQ", "accessed": "undefined", "supports": "General firm description" },
+      { "url": "https://www.fondsftq.com/en/business/support/edito/biotechnologie-secteur-cle-pour-la-relance", "title": "Biotechnology: a key sector for recovery", "publisher": "Fonds de solidarité FTQ", "accessed": "undefined", "supports": "Life sciences sector coverage and ~$100M/year deployed to biotech", "quote": "Within the life sciences sector, Fonds de solidarité FTQ focuses on services for the biopharmaceutical industry; nutraceuticals and cosmeceuticals; diagnostics and medical supplies and equipment; biopharmaceuticals and generic drugs; biotechnology, and animal health. The Québec-based institution invests approximately $100 million in biotechnology each year, divided between direct equity in companies and investments in venture capital funds." },
+      { "url": "https://reseaucapital.com/en/members/fonds-de-solidarite-ftq/", "title": "Fonds de solidarité FTQ - Réseau Capital", "publisher": "Réseau Capital", "accessed": "undefined", "supports": "Net assets $21.9 billion as at May 31, 2025", "quote": "With net assets of $21.9 billion as at May 31, 2025, the Fonds supports thousands of companies through direct and indirect venture and development capital investments." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fonds de solidarité FTQ is a large diversified, multi-sector labour-sponsored fund, not a dedicated life-sciences fund; included here because it runs a distinct, verifiably active life-sciences/biotech investment practice with meaningful annual deployment. The $21.9B AUM figure is for the whole fund, not the life-sciences book specifically.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "ca-genesys-capital",
+    "name": { "en": "Genesys Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.genesyscapital.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "One of Canada's longest-running life-sciences VC firms, having invested more than $400 million over roughly 25 years as a founding and follow-on investor in biotechnology, pharmaceutical and medical-technology startups, with round participation reported up to roughly $100M, spanning Series A through growth-stage financings."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": null
+    },
+    "tags": ["biotech", "medtech", "pharmaceuticals", "long-track-record"],
+    "summary": {
+      "en": "Genesys Capital is a Toronto life-sciences VC with a 25-year, $400M+ investment track record in biotechnology, pharmaceutical and medtech startups, participating in rounds ranging from Series A up through larger growth-stage financings."
+    },
+    "sources": [
+      { "url": "https://www.genesyscapital.com/", "title": "Genesys Capital | Life science venture capital firms", "publisher": "Genesys Capital", "accessed": "undefined", "supports": "Firm description" },
+      { "url": "https://www.utoronto.ca/news/u-t-together-mcmaster-announces-early-stage-life-sciences-venture-fund-genesys-capital", "title": "U of T, together with McMaster, announces early-stage life sciences venture fund with Genesys Capital", "publisher": "University of Toronto", "accessed": "undefined", "supports": "25-year track record, $400M+ invested, 20 exits", "quote": "Genesys Capital is one of Canada's leading life sciences venture capital firms with more than $400 million invested over the past 25 years, and is an active partner in biotechnology, pharmaceuticals and medical technology startups... 20 exits representing billions in value as a founding investor." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Genesys also runs an early-stage/seed-focused university fund (Genesys University Seed Fund with U of T and McMaster), so its overall stage profile skews earlier than a pure growth/crossover fund; included here on the strength of independently reported round sizes up to ~$105M (per third-party fund-database aggregation, not independently verified against a primary source) indicating growth-stage participation. Founded year not confirmed to a specific integer.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  }
+]

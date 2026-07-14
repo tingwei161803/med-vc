@@ -1,0 +1,784 @@
+[
+  {
+    "id": "eu-kurma-partners",
+    "name": { "en": "Kurma Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "website": "https://www.kurmapartners.com/en",
+    "capital": {
+      "aum": { "raw": "890 million €", "usd": null, "currency": "EUR" },
+      "funds": [
+        {
+          "name": "Kurma Diagnostics 2 (KDx2)",
+          "vintage_year": null,
+          "size": { "raw": "€83 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["diagnostics", "therapeutics", "digital-health", "genomics-omics"],
+      "thesis": "Paris-based healthcare-specialist VC operating two dedicated fund franchises — Kurma Biofund for therapeutics and Kurma Diagnostics (current vehicle KDx2, closed at €83M) devoted to molecular and digital diagnostic technologies — financing European academic research from pre-creation to development capital."
+    },
+    "lifesci": {
+      "modalities": ["software-samd"],
+      "company_creation": null
+    },
+    "track_record": {
+      "portfolio_count": "72 companies financed since 2009"
+    },
+    "summary": {
+      "en": "Paris-based life-science VC with a dedicated Kurma Diagnostics franchise (current fund KDx2, closed at €83M) financing molecular and digital diagnostics companies alongside its therapeutics-focused Kurma Biofund.",
+      "local": "Société de gestion parisienne spécialisée en santé, disposant d'un véhicule dédié Kurma Diagnostics (KDx2, clôturé à 83 M€) pour les technologies de diagnostic moléculaire et numérique."
+    },
+    "sources": [
+      {
+        "url": "https://www.kurmapartners.com/en",
+        "title": "Kurma Partners",
+        "publisher": "Kurma Partners",
+        "accessed": "undefined",
+        "supports": "AUM and portfolio count",
+        "quote": "890 million € under management"
+      },
+      {
+        "url": "https://www.kurmapartners.com/en/news/kurma-partners-annonce-le-closing-final-de-son-fonds-kurma-diagnostics-2-kdx2-a-83-millions-deuros",
+        "title": "Kurma Partners announces the final closing of its Kurma Diagnostics 2 (KDx2) fund at €83 million",
+        "publisher": "Kurma Partners",
+        "accessed": "undefined",
+        "supports": "Kurma Diagnostics 2 fund size and existence of dedicated diagnostics fund",
+        "quote": "Kurma Partners announces the final closing of its Kurma Diagnostics 2 (KDx2) fund at €83 million"
+      },
+      {
+        "url": "https://www.pasteur.fr/en/kurma-partners-announces-launch-its-third-fund-kurma-diagnostics-kdx",
+        "title": "Kurma Partners announces the launch of its third fund Kurma Diagnostics (KDx)",
+        "publisher": "Institut Pasteur",
+        "accessed": "undefined",
+        "supports": "Existence of a dedicated diagnostics fund franchise",
+        "quote": "Kurma Partners announces the launch of its third fund Kurma Diagnostics (KDx)"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-seventure-partners",
+    "name": { "en": "Seventure Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "website": "https://www.seventure.fr/en/life-sciences/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Health for Life Capital II",
+          "vintage_year": 2019,
+          "size": { "raw": "€200M first close, reported up to ~€250M / $298M", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["genomics-omics", "diagnostics", "digital-health"],
+      "thesis": "French VC whose dedicated Health for Life Capital fund family is one of the first global venture vehicles focused on the microbiome, backing diagnostics/biomarker platforms and personalized-medicine companies under a 'beyond the pill' strategy, alongside its broader life-sciences and digital-tech books."
+    },
+    "lifesci": {
+      "modalities": ["microbiome"]
+    },
+    "summary": {
+      "en": "Paris-based life-sciences and digital-tech VC running the Health for Life Capital fund family, one of the first and largest microbiome-focused venture vehicles globally, investing in diagnostics, biomarkers and personalized-medicine platforms."
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/biotech/seventure-holds-first-close-eu200m-microbiome-fund",
+        "title": "Seventure holds first close of €200M microbiome fund",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Health for Life Capital II fund size",
+        "quote": "Seventure holds first close of €200M microbiome fund"
+      },
+      {
+        "url": "https://www.seventure.fr/en/life-sciences/",
+        "title": "Life Sciences | Seventure",
+        "publisher": "Seventure Partners",
+        "accessed": "undefined",
+        "supports": "Sector focus incl. microbiome, diagnostics, personalized medicine",
+        "quote": "Health for Life Capital II has a \"beyond the pill\" investment strategy, keeping its core focus on the microbiome, including platforms, drugs, nutritional solutions, diagnostics and biomarkers"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Health for Life Capital II fund size reported variously across sources as €200M (first close) and up to €250M/$298M (subsequent close); raw figures kept as reported rather than reconciled.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-vesalius-biocapital",
+    "name": { "en": "Vesalius Biocapital Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Luxembourg",
+    "hq_city": "Luxembourg",
+    "website": "https://vesaliusbiocapital.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Vesalius Biocapital III",
+          "vintage_year": null,
+          "size": { "raw": "EUR 120 Million", "usd": null, "currency": "EUR" }
+        },
+        {
+          "name": "Vesalius Biocapital IV",
+          "vintage_year": null,
+          "size": { "raw": "over €110 million first closing, target €150 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "check_size": { "raw": "€10–15 million per deal", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Europe"],
+      "sector_focus": ["diagnostics", "medtech-devices", "digital-health", "therapeutics"],
+      "thesis": "Luxembourg-based life-sciences VC investing in later-stage European drug development, medical device & diagnostics, and eHealth/mHealth companies, with diagnostics named as one of its four core investment areas."
+    },
+    "summary": {
+      "en": "Luxembourg-headquartered life-sciences VC (raising funds since 2007, current vehicle Vesalius Biocapital IV) backing later-stage European therapeutics, medical device, diagnostics and digital-health companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/vesalius-biocapital-iii-announces-final-close-of-eur-120-million-fund-300873316.html",
+        "title": "Vesalius Biocapital III Announces Final Close of EUR 120 Million Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund III size",
+        "quote": "Vesalius Biocapital III Announces Final Close of EUR 120 Million Fund"
+      },
+      {
+        "url": "https://lpea.lu/lifes-science-in-vc/",
+        "title": "Vesalius Biocapital: Life Sciences VCs in Luxembourg",
+        "publisher": "LPEA",
+        "accessed": "undefined",
+        "supports": "Sector focus incl. diagnostics; check size",
+        "quote": "the firm invests in appealing, later-stage companies in drug development, medical devices & diagnostics and eHealth / mHealth"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-wellington-partners",
+    "name": { "en": "Wellington Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "offices": [
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "Switzerland", "city": "Zurich" }
+    ],
+    "website": "https://wellington-partners.com/",
+    "founded_year": 1998,
+    "capital": {
+      "aum": { "raw": "over €590 million raised across life sciences funds (as of 2023)", "usd": null, "currency": "EUR" },
+      "funds": [
+        {
+          "name": "Wellington Partners Life Sciences V",
+          "vintage_year": 2019,
+          "size": { "raw": "€210 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Germany", "Europe"],
+      "sector_focus": ["diagnostics", "medtech-devices", "digital-health", "therapeutics"],
+      "thesis": "Munich-founded pan-European life-sciences VC investing in therapeutics, medical devices, diagnostics and digital medicine, favoring diagnostics and digital-medicine companies nearing regulatory approval or launch alongside novel biotech platforms."
+    },
+    "summary": {
+      "en": "Munich-headquartered life-sciences VC founded in 1998, investing across therapeutics, medical devices, diagnostics and digital medicine, having raised over €590M across its life-science funds including the €210M Fund V."
+    },
+    "sources": [
+      {
+        "url": "https://www.labiotech.eu/trends-news/wellington-partners-life-sciences-fund/",
+        "title": "Wellington Partners Raises €210M to Invest in European Life Sciences",
+        "publisher": "Labiotech.eu",
+        "accessed": "undefined",
+        "supports": "Fund V size and diagnostics/digital-medicine focus",
+        "quote": "a portfolio of about 15 to 20 companies, with a focus on novel biotechnology platforms, new therapeutics and medical devices, as well as diagnostics and digital medicine"
+      },
+      {
+        "url": "https://wellington-partners.com/",
+        "title": "Wellington Partners",
+        "publisher": "Wellington Partners",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, total capital raised",
+        "quote": "Founded in 1998 and headquartered in Munich, Germany"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-start-codon",
+    "name": { "en": "Start Codon" },
+    "type": "accelerator",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Cambridge",
+    "website": "https://www.cic.vc/cic-co-founds-start-codon-to-deliver-premier-life-science-business-acceleration-in-cambridge/",
+    "program": {
+      "investment": { "raw": "up to £250K", "usd": null, "currency": "GBP" },
+      "location": "Cambridge, UK (Milner Therapeutics Institute)",
+      "lab_space": true,
+      "format": "in-person"
+    },
+    "strategy": {
+      "stages": ["pre-seed"],
+      "geo_focus": ["United Kingdom", "Europe"],
+      "sector_focus": ["diagnostics", "therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Cambridge life-science accelerator co-founded by Cambridge Innovation Capital, seeking disruptive platform technologies with strong IP, with a particular emphasis on novel therapeutics, diagnostics, medtech and digital health, offering lab space at the Milner Therapeutics Institute ahead of Series A."
+    },
+    "summary": {
+      "en": "Cambridge-based life-science and healthcare accelerator, co-founded by Cambridge Innovation Capital with backing from Genentech, offering up to £250K and lab space to diagnostics, therapeutics, medtech and digital-health start-ups pre-Series A."
+    },
+    "sources": [
+      {
+        "url": "https://www.cic.vc/cic-co-founds-start-codon-to-deliver-premier-life-science-business-acceleration-in-cambridge/",
+        "title": "CIC co-founds Start Codon to deliver premier life science business acceleration in Cambridge",
+        "publisher": "Cambridge Innovation Capital",
+        "accessed": "undefined",
+        "supports": "Founding, focus areas",
+        "quote": "Start Codon is looking for companies with disruptive innovations which can revolutionise healthcare... with a particular emphasis on novel therapeutics, diagnostics, medtech and digital health"
+      },
+      {
+        "url": "https://www.biospace.com/uk-based-accelerator-start-codon-launches-with-investment-from-genentech-and-others",
+        "title": "UK-Based Accelerator Start Codon Launches with Investment from Genentech and Others",
+        "publisher": "BioSpace",
+        "accessed": "undefined",
+        "supports": "Investment amount up to £250K, lab space, backers",
+        "quote": "provides life science start-ups with significant investment (up to £250K), a full-time dedicated team of experienced and active mentors, and office and lab space located at the Milner Therapeutics Institute"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-nina-capital",
+    "name": { "en": "Nina Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "founded_year": 2019,
+    "website": "https://www.nina.capital/",
+    "capital": {
+      "aum": { "raw": "over €100 million", "usd": null, "currency": "EUR" },
+      "funds": [
+        {
+          "name": "Nina Capital Fund III",
+          "vintage_year": 2025,
+          "size": { "raw": "€50 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "€200,000 to €1.5 million", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Europe", "North America", "Israel", "Canada", "Australia"],
+      "sector_focus": ["diagnostics", "medtech-devices", "digital-health", "healthcare-it"],
+      "thesis": "Barcelona-based health-tech specialist VC applying the Stanford Biodesign methodology, backing need-driven founders building diagnostics, medical devices, clinician-training and data-driven clinical-pathway companies."
+    },
+    "summary": {
+      "en": "Barcelona-founded (2019) VC investing exclusively at the intersection of health and technology, naming diagnostics as a core focus alongside medical devices and digital health, with over €100M AUM after closing its €50M Fund III in 2025."
+    },
+    "sources": [
+      {
+        "url": "https://www.vestbee.com/insights/articles/nina-capital-launches-50-m-fund-iii",
+        "title": "Barcelona-based VC Nina Capital launches €50M fund III to back healthcare startups",
+        "publisher": "Vestbee",
+        "accessed": "undefined",
+        "supports": "Fund III size, AUM, founding city",
+        "quote": "Nina Capital closed its €50 million Fund III, bringing assets under management to over €100 million"
+      },
+      {
+        "url": "https://www.nina.capital/",
+        "title": "Nina Capital | Investing in Health Tech",
+        "publisher": "Nina Capital",
+        "accessed": "undefined",
+        "supports": "Sector focus",
+        "quote": "need-driven founders building innovations in diagnostics, medical devices, clinician training, healthcare infrastructure, and data-driven clinical pathways"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-merieux-equity-partners",
+    "name": { "en": "Merieux Equity Partners", "local": "Mérieux Equity Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Lyon",
+    "founded_year": 2009,
+    "website": "https://merieux-partners.com/about-us/",
+    "capital": {
+      "aum": { "raw": "more than €1 billion of Commitments across 5 main funds", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["diagnostics", "therapeutics", "medtech-devices", "pharma-services"],
+      "thesis": "Lyon-based investment firm affiliated with the Mérieux family (founders of in-vitro diagnostics leader bioMérieux); its Venture Capital platform (fund Mérieux Innovation 2) targets seed-to-Series-B diagnostic and therapeutic platform companies plus pharma services."
+    },
+    "summary": {
+      "en": "Lyon-headquartered healthcare and nutrition investor tied to the Mérieux family / bioMérieux ecosystem; its active venture fund (Mérieux Innovation 2) explicitly covers diagnostic and therapeutic platform (biodrugs and medtech) and pharma-services investments."
+    },
+    "sources": [
+      {
+        "url": "https://merieux-partners.com/about-us/",
+        "title": "Merieux Partners - About us",
+        "publisher": "Merieux Equity Partners",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, AUM",
+        "quote": "Mérieux Equity Partners is a prominent European investment firm based in Lyon, France, focusing on the healthcare and nutrition sectors, established in 2009... currently manages 5 main funds representing more than €1 billion of Commitments"
+      },
+      {
+        "url": "https://merieux-partners.com/investments/",
+        "title": "Merieux Partners - Investments",
+        "publisher": "Merieux Equity Partners",
+        "accessed": "undefined",
+        "supports": "Venture fund sector focus on diagnostics and therapeutics",
+        "quote": "The active Venture Capital fund (Mérieux Innovation 2 FPCI) covers Diagnostic & Therapeutic platforms (biodrugs and medtech) and pharma services"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Institutionally linked to Institut Mérieux / bioMérieux family group (bioMérieux is a listed in-vitro diagnostics company) but Mérieux Equity Partners operates as an independent AMF-registered General Partner, not a captive CVC.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-eit-health",
+    "name": { "en": "EIT Health" },
+    "type": "government-program",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "website": "https://eithealth.eu/",
+    "program": {
+      "format": "hybrid",
+      "location": "Pan-European (7 Co-Location Centres)",
+      "investment": { "raw": "up to €50,000 (Headstart Funding Programme)", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["diagnostics", "genomics-omics", "medtech-devices", "digital-health", "therapeutics"],
+      "thesis": "EU-funded (European Institute of Innovation & Technology) pan-European health-innovation body running accelerator and grant programmes (Catapult, Headstart) that fund and coach biotech, medtech, digital-health, AI and biomarker/diagnostics start-ups from research to market."
+    },
+    "summary": {
+      "en": "Munich-headquartered EU body (part of the European Institute of Innovation and Technology) running pan-European accelerator and early grant programmes -- including the Catapult accelerator and Headstart funding -- for start-ups in biotech, medtech, digital health and diagnostics/biomarkers."
+    },
+    "sources": [
+      {
+        "url": "https://eithealth.eu/who-we-are/contact-us/",
+        "title": "Contact Us - EIT Health",
+        "publisher": "EIT Health",
+        "accessed": "undefined",
+        "supports": "HQ location",
+        "quote": "EIT Health's headquarters is located at Mies-van-der-Rohe-Str 1C, 80807 Munich, Germany"
+      },
+      {
+        "url": "https://eithealth.eu/what-we-do/our-programmes/",
+        "title": "Our programmes - EIT Health",
+        "publisher": "EIT Health",
+        "accessed": "undefined",
+        "supports": "Programme focus incl. diagnostics/biomarkers, Headstart grant amount",
+        "quote": "The Headstart Funding Programme aims at early stage start-ups, spin-offs and SMEs that require initial funding for their further development and commercialisation, awarding up to 50,000 € to selected young companies twice a year"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Pan-European EU-funded body headquartered in Munich; operates through regional Co-Location Centres across many European countries, not solely Germany-focused. Included because diagnostics/biomarkers is an explicit target area of its Catapult accelerator programme.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-epidarex-capital",
+    "name": { "en": "Epidarex Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Edinburgh",
+    "offices": [ { "country": "United States", "city": "Bethesda, MD" } ],
+    "website": "https://epidarex.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Epidarex Capital III UK LP",
+          "vintage_year": null,
+          "size": { "raw": "£102.1 million", "usd": null, "currency": "GBP" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "£2 million to £5 million", "usd_min": null, "usd_max": null },
+      "geo_focus": ["United Kingdom", "United States"],
+      "sector_focus": ["diagnostics", "therapeutics", "medtech-devices", "healthcare-it"],
+      "thesis": "Transatlantic company-creation VC headquartered in Edinburgh that builds early-stage life-science companies out of under-ventured UK research hubs and university spinouts, with personalised medicine and diagnostics named alongside biotech, devices and healthcare IT as core investment areas."
+    },
+    "lifesci": {
+      "company_creation": true
+    },
+    "summary": {
+      "en": "Edinburgh-headquartered, transatlantic life-science VC that creates and invests in early-stage UK/US biotech, device, diagnostics and healthcare-IT companies emerging from academic research hubs; its UK fund, Epidarex Capital III, closed at £102.1 million."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/epidarex-capital-closes-new-102-million-uk-venture-fund-to-build-successful-life-science-companies-301080760.html",
+        "title": "Epidarex Capital Closes New £102 Million UK Venture Fund to Build Successful Life Science Companies",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund size, HQ, check size, company-creation model",
+        "quote": "Epidarex Capital III UK LP closed at £102.1 million and will build new life science companies based on world-class research and innovation from emerging hubs across the UK... Typical initial investments range from £2 million to £5 million"
+      },
+      {
+        "url": "https://epidarex.com/",
+        "title": "Epidarex – Venture Capital",
+        "publisher": "Epidarex Capital",
+        "accessed": "undefined",
+        "supports": "Sector focus incl. diagnostics/personalised medicine",
+        "quote": "Epidarex invests in all areas of health science, including biotechnology, medical devices, and pharmaceuticals, personalised medicine and diagnostics – in addition to healthcare IT and services"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Dual UK/US venture firm (Edinburgh HQ, Bethesda MD US base); included in the europe slice on the basis of its UK headquarters and dedicated UK fund (Epidarex Capital III UK LP).",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-biogeneration-ventures",
+    "name": { "en": "BioGeneration Ventures" },
+    "aka": ["BGV"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Naarden",
+    "website": "https://biogenerationventures.com/en/",
+    "capital": {
+      "aum": { "raw": "over €400 million", "usd": null, "currency": "EUR" },
+      "funds": [
+        {
+          "name": "BGV Fund V",
+          "vintage_year": 2024,
+          "size": { "raw": "€150 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "€2–2.5M initial, average €5M per company over the life of a deal", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Netherlands", "Belgium", "Germany", "Europe"],
+      "sector_focus": ["diagnostics", "therapeutics", "medtech-devices"],
+      "thesis": "Naarden (Netherlands)-based early-stage life-science VC and company creator that translates academic research from Benelux/Germany into new therapeutics, medical device and diagnostics companies, acting as lead investor or founder."
+    },
+    "lifesci": {
+      "company_creation": true
+    },
+    "summary": {
+      "en": "Dutch early-stage life-science VC and company creator (over €400M AUM, €150M Fund V closed 2024) whose funds explicitly target therapeutics, medical devices and diagnostics start-ups spun out of European academic research, mainly in Benelux and Germany."
+    },
+    "sources": [
+      {
+        "url": "https://www.labiotech.eu/trends-news/biogeneration-ventures-biotech-fund/",
+        "title": "BioGeneration Raises €82M for a New European Medical Biotech Fund",
+        "publisher": "Labiotech.eu",
+        "accessed": "undefined",
+        "supports": "Sector focus incl. diagnostics; fund history",
+        "quote": "BioGeneration Ventures is a venture capital company with a focus on early stage European biotech, medtech, and diagnostics companies... the third fund focuses on therapeutics, medical devices and diagnostics, within Europe, in particular in the Benelux and Germany"
+      },
+      {
+        "url": "https://www.eu-startups.com/investor/biogeneration-ventures/",
+        "title": "BioGeneration Ventures | EU-Startups",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "AUM, Fund V size and vintage, HQ",
+        "quote": "BioGeneration Ventures (BGV)... manages over €400 million in assets under management across multiple investment vehicles, including a €150 million fifth fund closed in 2024"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-seroba-life-sciences",
+    "name": { "en": "Seroba Life Sciences" },
+    "aka": ["Seroba"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Ireland",
+    "hq_city": "Dublin",
+    "offices": [ { "country": "France", "city": "Paris" } ],
+    "founded_year": 2002,
+    "website": "https://serobavc.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Seroba Fund IV",
+          "vintage_year": null,
+          "size": { "raw": "€123 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "€5 million to €7 million per company over the life of the fund", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Western Europe", "North America"],
+      "sector_focus": ["diagnostics", "therapeutics", "medtech-devices"],
+      "thesis": "Dublin-headquartered European life-sciences VC (with a Paris office) that funds breakthrough healthcare technologies, with a fund mandate explicitly dedicated to therapeutics, medical device and diagnostics companies at early-to-mid stage."
+    },
+    "summary": {
+      "en": "Dublin-based European life-sciences VC (founded 2002) whose €123M Fund IV is dedicated to early-to-mid-stage therapeutics, medical device and diagnostics companies across Western Europe and selectively North America."
+    },
+    "sources": [
+      {
+        "url": "https://siliconcanals.com/life-sciences-vc-firm-closes-fund-iv-at-123m/",
+        "title": "Irish life sciences VC firm Seroba closes its Fund IV at €123M; will target up to 12 investments",
+        "publisher": "Silicon Canals",
+        "accessed": "undefined",
+        "supports": "Fund IV size, sector focus incl. diagnostics, check size",
+        "quote": "Seroba, a Dublin-based life sciences venture capital firm, has closed its Seroba Fund IV at €123M... primarily dedicated to therapeutics, medical device, and diagnostics life sciences companies which are in the early to mid-stage of their development, with an average investment size of about EUR 5 million to EUR 7 million per company"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-advent-life-sciences",
+    "name": { "en": "Advent Life Sciences" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://adventls.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Advent Life Sciences (two funds)",
+          "vintage_year": null,
+          "size": { "raw": "$215 million total across two funds", "usd": 215000000, "currency": "USD" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["United Kingdom", "Europe", "United States"],
+      "sector_focus": ["diagnostics", "therapeutics", "life-science-tools"],
+      "thesis": "London-based early- and growth-stage life-sciences VC backing first- or best-in-class UK/Europe/US companies across drug discovery, enabling technologies, med-tech and diagnostics."
+    },
+    "summary": {
+      "en": "London-headquartered life-sciences VC investing in early-stage and growth-equity companies across the UK, Europe and US, with diagnostics and life-science enabling technologies named as core sectors alongside drug discovery and med-tech."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/advent-life-sciences-announces-close-of-two-new-funds-totalling-215-million-to-translate-early-stage-research-into-impactful-medicines-for-patients-301230092.html",
+        "title": "Advent Life Sciences Announces Close of Two New Funds Totalling $215 million to Translate Early-Stage Research into Impactful Medicines for Patients",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Combined fund size",
+        "quote": "Advent Life Sciences Announces Close of Two New Funds Totalling $215 million"
+      },
+      {
+        "url": "https://adventls.com/",
+        "title": "Home | Advent Life Sciences",
+        "publisher": "Advent Life Sciences",
+        "accessed": "undefined",
+        "supports": "Sector focus incl. diagnostics and enabling technologies",
+        "quote": "Advent Life Sciences backs companies that have a first- or best-in-class approach in a range of sectors within life sciences, including new drug discovery, enabling technologies, med tech and diagnostics"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-ysios-capital",
+    "name": { "en": "Ysios Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "offices": [ { "country": "Spain", "city": "San Sebastián" } ],
+    "founded_year": 2008,
+    "website": "https://ysioscapital.com/",
+    "capital": {
+      "aum": { "raw": "over $450 million across three BioFunds", "usd": 450000000, "currency": "USD" },
+      "funds": [
+        {
+          "name": "Ysios BioFund III",
+          "vintage_year": 2020,
+          "size": { "raw": "€216 million", "usd": null, "currency": "EUR" }
+        },
+        {
+          "name": "InceptionBio",
+          "vintage_year": 2026,
+          "size": { "raw": "target €100 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Spain", "Europe"],
+      "sector_focus": ["diagnostics", "therapeutics", "medtech-devices"],
+      "thesis": "Barcelona/San Sebastián-based Spanish life-sciences VC providing early- through late-stage financing to human healthcare and biotechnology companies, with a special focus spanning pharmaceuticals, diagnostics and medical devices; recently launched a dedicated biotech company-creation vehicle, InceptionBio."
+    },
+    "summary": {
+      "en": "Leading Spanish life-sciences VC (founded 2008, $450M+ AUM across three BioFunds) investing in biotech, medtech and diagnostics companies, with a new €100M InceptionBio vehicle for biotech company creation launched in 2026."
+    },
+    "sources": [
+      {
+        "url": "https://ysioscapital.com/2021/05/26/ysios-capital-closes-its-third-fund-at-e216-million/",
+        "title": "Ysios Capital closes third fund at €216M",
+        "publisher": "Ysios Capital",
+        "accessed": "undefined",
+        "supports": "Fund III size, founding year, sector focus incl. diagnostics",
+        "quote": "The fund invests in companies related to biotech, medtech and diagnostic sectors... special focus on pharmaceuticals, diagnostics and medical devices"
+      },
+      {
+        "url": "https://www.eu-startups.com/2026/03/ysios-capital-launches-e100-million-inceptionbio-fund-to-boost-biotech-startup-creation-in-spain/",
+        "title": "Spanish VC firm Ysios Capital launches €100 million InceptionBio fund to boost BioTech startup creation",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "InceptionBio fund target size and vintage",
+        "quote": "Ysios Capital launches €100 million InceptionBio fund to boost BioTech startup creation in Spain"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-asabys-partners",
+    "name": { "en": "Asabys Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Spain",
+    "hq_city": "Barcelona",
+    "founded_year": 2018,
+    "website": "https://asabys.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Sabadell Asabys II Health Innovation Investments SCR, SA",
+          "vintage_year": 2023,
+          "size": { "raw": "€200 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "€2M–€5M per startup, up to €15M in follow-on rounds", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Europe", "Israel", "United States", "United Kingdom"],
+      "sector_focus": ["diagnostics", "therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Barcelona-based healthcare and life-sciences VC backing entrepreneurs building disruptive biotech, medtech, diagnostic and digital-health solutions, with a hybrid model spanning biopharmaceutical projects to advanced diagnostic tools."
+    },
+    "summary": {
+      "en": "Barcelona-headquartered health and life-sciences VC (founded 2018, €200M second fund closed 2023) whose hybrid investment model explicitly covers advanced diagnostic tools and medical devices alongside biopharma and digital health, across Europe, Israel and the US."
+    },
+    "sources": [
+      {
+        "url": "https://sifted.eu/articles/asabys-partners-100m-healthtech-fund-news",
+        "title": "Asabys Partners announces €100m first close for health and biotech fund",
+        "publisher": "Sifted",
+        "accessed": "undefined",
+        "supports": "Fund history, check size, geo focus",
+        "quote": "Asabys Partners will invest €2m-5m in 12-15 startups in the UK, Europe, Israel and the US, and the firm says it will invest up to €15m in follow-on rounds"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/spanish-vc-closes-200m-fund-plan-broaden-investments-worldwide",
+        "title": "Spanish VC closes $200M fund with plan to broaden investments worldwide",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Second fund size and vintage, sector focus incl. diagnostics",
+        "quote": "Asabys Partners recently closed its second fund, Sabadell Asabys II Health Innovation Investments SCR, SA, at an impressive €200 million in July 2023... including advanced diagnostic tools and medical devices"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  },
+  {
+    "id": "eu-biomed-partners",
+    "name": { "en": "BioMedPartners" },
+    "aka": ["BiomedVC", "BioMed Partners"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "founded_year": 2003,
+    "capital": {
+      "funds": [
+        {
+          "name": "BioMedInvest III",
+          "vintage_year": null,
+          "size": { "raw": "CHF 100 million", "usd": null, "currency": "CHF" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "geo_focus": ["Switzerland", "Germany", "European Union"],
+      "sector_focus": ["diagnostics", "therapeutics", "medtech-devices"],
+      "thesis": "Basel-based independent life-sciences VC that leads or co-leads private equity financings for early-to-mid-stage companies, with a stated focus spanning pharmaceuticals, biotechnology, diagnostics and medical technology, primarily in the Alpine region and neighbouring EU markets."
+    },
+    "summary": {
+      "en": "Basel-headquartered independent life-sciences VC (founded 2003) that leads/co-leads private financings of early-to-mid-stage pharma, biotech, diagnostics and medtech companies in Switzerland, Germany and neighbouring EU countries; its BioMedInvest III fund closed at CHF 100 million."
+    },
+    "sources": [
+      {
+        "url": "https://www.swissbiotech.org/listing/biomedpartners-ag/",
+        "title": "BioMedPartners AG",
+        "publisher": "Swiss Biotech Association",
+        "accessed": "undefined",
+        "supports": "HQ, founding year, sector focus incl. diagnostics",
+        "quote": "BioMedPartners targets the entire industry with a special focus on pharmaceuticals, biotechnology, diagnostics and medical technology"
+      },
+      {
+        "url": "https://baselaunch.ch/blog-post/biomedpartners-venture-capital-fund/",
+        "title": "BioMedPartners closes new venture capital fund",
+        "publisher": "BaseLaunch",
+        "accessed": "undefined",
+        "supports": "BioMedInvest III fund size",
+        "quote": "BioMedPartners announced the final closing of BioMedInvest III, their third equity venture capital fund, at CHF 100 million, which invests in private early-to-mid-stage companies in Switzerland, Germany and neighboring countries of the European Union"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Website domain not independently confirmed during research (search results referenced a successor entity 'BiomedVC'); relied on Swiss Biotech Association listing and BaseLaunch news coverage instead of the firm's own site.",
+    "last_updated": "undefined",
+    "researched_by": "diagnostics-tools-vc"
+  }
+]

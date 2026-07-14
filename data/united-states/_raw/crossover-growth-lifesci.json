@@ -1,0 +1,1516 @@
+[
+  {
+    "id": "us-ra-capital-management",
+    "name": { "en": "RA Capital Management" },
+    "aka": ["RA Capital", "Research Alliance"],
+    "type": "crossover-fund",
+    "subtypes": ["incubator", "venture-studio"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://www.racap.com",
+    "capital": {
+      "aum": { "raw": "$14.4B+", "usd": 14400000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools", "generalist-health"],
+      "thesis": "Crossover fund manager dedicated to evidence-based, science-led investing in public and private healthcare and life-science companies developing drugs, medical devices and diagnostics; provides capital continuity from seed through IPO via its TechAtlas knowledge engine and Raven incubator."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true,
+      "science_platform_notes": "Runs the proprietary TechAtlas research/mapping engine and the Raven healthcare incubator, which has co-created dozens of companies since 2018."
+    },
+    "team_size": "200+",
+    "summary": {
+      "en": "Boston-based life-science crossover fund that founds, funds and scales healthcare companies across private and public markets, with $14.4B+ AUM as of end-2025."
+    },
+    "sources": [
+      {
+        "url": "https://www.racap.com/",
+        "title": "RA Capital",
+        "publisher": "RA Capital Management",
+        "accessed": "undefined",
+        "supports": "AUM, capital deployed, team size, strategy, stages, company creation",
+        "quote": "$14.4B+ Assets under management as of 12/31/25 ... $650M+ Capital deployed into private financings in 2025 ... RA Capital founds, funds, and scales companies across healthcare and planetary health to build a healthier future for all. ... 200+ Team members"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/RA_Capital_Management",
+        "title": "RA Capital Management - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Crossover fund description, Boston HQ",
+        "quote": "RA Capital Management is a crossover fund manager dedicated to evidence-based investing in public and private healthcare and life science companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM and deployment figures from official site as of 12/31/25. Founded year 2002 per fund-history sources.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-perceptive-advisors",
+    "name": { "en": "Perceptive Advisors" },
+    "aka": ["Perceptive Life Sciences"],
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.perceptivelife.com",
+    "capital": {
+      "aum": { "raw": "$9,715,749,804 (Form ADV, April 2024)", "usd": 9715749804, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth", "series-c-plus"],
+      "check_size": { "raw": "$10-50 million (venture)", "usd_min": 10000000, "usd_max": 50000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Life-sciences hedge fund founded by Joseph Edelman that invests globally in both public and private biotech; runs a dedicated venture arm making seed/Series A and crossover investments, plus a life-sciences credit strategy."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Manages over $700M dedicated to early-stage life-science venture financing alongside its flagship public Life Sciences Fund and Credit Opportunities Fund."
+    },
+    "people": [
+      { "name": "Joseph Edelman", "role": "Founder & CEO", "background": "Founder, life-sciences investor" }
+    ],
+    "summary": {
+      "en": "New York life-sciences crossover investor (~$9.7B AUM) spanning public biotech, a dedicated venture arm, and life-sciences credit."
+    },
+    "sources": [
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/perceptive+advisors/403/",
+        "title": "Perceptive Advisors 13F, Performance, and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "AUM, founding year, founder, public and private/crossover investing",
+        "quote": "Perceptive Advisors manages discretionary assets totaling $9,715,749,804 as of their latest Form ADV dated April 2024. ... The firm maintains a global focus, investing in both public and private companies ... including early and late-stage ventures, crossover rounds, leading IPOs, and public follow-on financings."
+      },
+      {
+        "url": "https://www.perceptivelife.com/venture-capital",
+        "title": "Venture Capital - Perceptive Advisors",
+        "publisher": "Perceptive Advisors",
+        "accessed": "undefined",
+        "supports": "Venture capital dedicated capital and check size",
+        "quote": "currently manage over $700 million of capital dedicated to financing early-stage life sciences companies ... Active management via lead or co-lead Series A, and select growth-stage financings, with investments ranging from $10-50 million"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Primarily a public-markets life-sciences hedge fund but with a documented, sizeable private/crossover venture arm, placing it firmly in the crossover slice.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-deerfield-management",
+    "name": { "en": "Deerfield Management" },
+    "aka": ["Deerfield"],
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 1994,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://deerfield.com",
+    "capital": {
+      "aum": { "raw": "over $15 billion", "usd": 15000000000, "currency": "USD" },
+      "funds": [
+        { "name": "Deerfield Healthcare Innovations (latest venture fund)", "vintage_year": 2025, "size": { "raw": "more than $600 million", "usd": 600000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth", "all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "healthcare-services"],
+      "thesis": "Healthcare investment firm making public and private investments across the spectrum of healthcare, from startup to mature company, using equity, structured, debt and royalty models; runs the New York 'Cure' innovation campus."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true,
+      "science_platform_notes": "Operates 'Cure', a NYC healthcare innovation campus housing life-science companies and labs; broad structured/credit toolkit."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Spark Therapeutics", "sector": "gene therapy", "outcome": "acquired" },
+        { "company": "Editas Medicine", "sector": "gene editing", "outcome": "IPO" },
+        { "company": "Insulet Corporation", "sector": "medtech-devices", "outcome": "public" }
+      ]
+    },
+    "summary": {
+      "en": "New York healthcare crossover firm (formed 1994, $15B+ AUM) backing 200+ private and public companies across therapeutics, devices and health services."
+    },
+    "sources": [
+      {
+        "url": "https://www.biopharmadive.com/news/deerfield-raises-biotech-healthcare-venture-capital-fund/747109/",
+        "title": "Deerfield secures more than $600M for its next biotech venture fund",
+        "publisher": "BioPharma Dive",
+        "accessed": "undefined",
+        "supports": "AUM, latest venture fund size, founding year, portfolio scope, NYC Cure campus",
+        "quote": "Deerfield was formed in 1994 and currently has over $15 billion in assets under management. ... has raised more than $600 million ... The firm has more than 200 privately held as well as publicly traded companies across the spectrum of healthcare in its portfolio. ... the fund will operate out of a New York City campus called 'Cure'"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "One later secondary source cited >$16B AUM as of Dec 2025; the $15B+ figure is from the May 2025 fund-closing coverage.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-casdin-capital",
+    "name": { "en": "Casdin Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://casdincapital.com",
+    "capital": {
+      "aum": { "raw": "~$3.3B (reported); public 13F portfolio ~$1.32B", "usd": 3300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "genomics-omics", "synthetic-biology", "life-science-tools", "diagnostics"],
+      "thesis": "One of the earliest life-science crossover funds, founded by Eli Casdin, investing in disruptive companies across molecular medicine, biotechnology, genomics, synthetic biology and healthcare tools in both public and private markets."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Adaptive Biotechnologies", "sector": "genomics/diagnostics", "outcome": "IPO" },
+        { "company": "Ginkgo Bioworks", "sector": "synthetic-biology", "outcome": "public" },
+        { "company": "Recursion Pharmaceuticals", "sector": "ai-drug-discovery", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Eli Casdin", "role": "Founder & CIO", "background": "Founder; life-sciences/genomics investor" }
+    ],
+    "summary": {
+      "en": "New York crossover fund (founded 2012) focused on genomics, synthetic biology and life-science tools across private and public markets."
+    },
+    "sources": [
+      {
+        "url": "https://casdincapital.com/",
+        "title": "Casdin Capital",
+        "publisher": "Casdin Capital",
+        "accessed": "undefined",
+        "supports": "Existence, strategy, sector focus, NYC HQ",
+        "quote": "Great medicines make great investments, and Casdin Capital invests in all aspects of today's Life Sciences revolution."
+      },
+      {
+        "url": "https://hub.waveup.com/funds/casdin-capital",
+        "title": "Casdin Capital - VC Fund Profile",
+        "publisher": "Waveup",
+        "accessed": "undefined",
+        "supports": "Founding year, founder, NYC base",
+        "quote": "Casdin Capital, established in 2012 by Eli Casdin, is a New York-based venture capital firm"
+      },
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/casdin+capital/861/",
+        "title": "Casdin Capital 13F Holdings and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "Public 13F portfolio value",
+        "quote": "Portfolio Value $1,320,591,769"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Public 13F portfolio value (~$1.32B) is verified verbatim; the ~$3.3B total AUM (incl. private) figure comes from secondary profiles and is not confirmed against a primary Form ADV quote.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-ecor1-capital",
+    "name": { "en": "EcoR1 Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.ecor1cap.com",
+    "capital": {
+      "aum": { "raw": "$5,001,741,440 (Form ADV, March 28, 2024)", "usd": 5001741440, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Science-driven biotech-focused fund (named for the EcoRI restriction enzyme) investing in life-science companies from late-stage private rounds through public equity; builds long-term partnerships with entrepreneurs advancing therapeutic innovation."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Oleg Nodelman", "role": "Founder & Portfolio Manager", "background": "20+ years biotech investing; ex-BVF Partners" }
+    ],
+    "summary": {
+      "en": "San Francisco biotech crossover fund (~$5B AUM) investing from late-stage private through public markets, founded by Oleg Nodelman in 2013."
+    },
+    "sources": [
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/ecor1+capital/832/",
+        "title": "EcoR1 Capital 13F, Performance and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "AUM figure and Form ADV date",
+        "quote": "EcoR1 Capital is a hedge fund managing discretionary assets totaling $5,001,741,440 for 5 clients, as reported in their Form ADV on March 28, 2024."
+      },
+      {
+        "url": "https://www.ecor1cap.com/",
+        "title": "EcoR1 Capital",
+        "publisher": "EcoR1 Capital",
+        "accessed": "undefined",
+        "supports": "Strategy, San Francisco HQ",
+        "quote": "Our driving force is to build long-term partnerships with bold entrepreneurs who are dedicated to pushing therapeutic innovation forward and creating new medicines for patients."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year 2013 from secondary sources; AUM verified via Form ADV. Nodelman previously managed money at BVF Partners.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-cormorant-asset-management",
+    "name": { "en": "Cormorant Asset Management" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://cormorant-asset.com",
+    "capital": {
+      "aum": { "raw": "$4,022,479,936 (Form ADV, March 30, 2024)", "usd": 4022479936, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe", "greater-china"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Life-sciences and healthcare firm founded by Bihua Chen investing in innovative biotech, medtech and life-science companies across public and private markets with a long-term, research-intensive, science-led approach."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Runs both a public fund and dedicated private/venture funds; deep scientific and therapeutic diligence."
+    },
+    "people": [
+      { "name": "Bihua Chen", "role": "Founder & Portfolio Manager", "background": "MS molecular biology (Cornell/Weill), MBA Wharton; genetics background" }
+    ],
+    "summary": {
+      "en": "Boston biotech crossover firm (~$4B AUM) founded by Bihua Chen in 2013, running public and private funds across global healthcare."
+    },
+    "sources": [
+      {
+        "url": "https://cormorant-asset.com/about/",
+        "title": "About - Cormorant Asset Management",
+        "publisher": "Cormorant Asset Management",
+        "accessed": "undefined",
+        "supports": "Founding year, founder, Boston HQ, public and private strategy",
+        "quote": "Cormorant Asset Management, LP is a life sciences and healthcare focused investment firm, founded by Bihua Chen in 2013. ... Cormorant is headquartered in Boston, Massachusetts. ... Cormorant primarily invests in biotechnology companies across the public and private markets."
+      },
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/cormorant+asset+management/756/",
+        "title": "Cormorant Asset Management 13F and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "AUM figure and Form ADV date",
+        "quote": "Cormorant Asset Management serves 14 clients with discretionary assets under management totaling $4,022,479,936, as disclosed in their Form ADV dated March 30, 2024."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-bain-capital-life-sciences",
+    "name": { "en": "Bain Capital Life Sciences" },
+    "aka": ["BCLS"],
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity", "vc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston",
+    "website": "https://www.baincapitallifesciences.com",
+    "capital": {
+      "aum": { "raw": "approximately $6.7 billion raised since 2016", "usd": 6700000000, "currency": "USD" },
+      "current_fund": { "raw": "approximately $3 billion (Fund IV, 2024)", "usd": 3000000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund I", "vintage_year": 2017, "size": { "raw": "$720 million", "usd": 720000000, "currency": "USD" } },
+        { "name": "Fund II", "vintage_year": null, "size": { "raw": "$1.1 billion", "usd": 1100000000, "currency": "USD" } },
+        { "name": "Fund III", "vintage_year": null, "size": { "raw": "$1.9 billion", "usd": 1900000000, "currency": "USD" } },
+        { "name": "Fund IV", "vintage_year": 2024, "size": { "raw": "approximately $3 billion", "usd": 3000000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
+      "thesis": "Deep-pocketed life-science investor within Bain Capital targeting pre-IPO crossover rounds and public biotechs; backs transformative medicines, devices, diagnostics and tools, helping advanced companies build commercial infrastructure."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "summary": {
+      "en": "Boston-based Bain Capital arm (est. 2016, ~$6.7B raised) specializing in large pre-IPO crossover and late-stage life-science investments; fourth fund closed at ~$3B in 2024."
+    },
+    "sources": [
+      {
+        "url": "https://www.baincapital.com/news/bain-capital-life-sciences-raises-fourth-fund",
+        "title": "Bain Capital Life Sciences Raises Fourth Fund",
+        "publisher": "Bain Capital",
+        "accessed": "undefined",
+        "supports": "Fund IV size, total raised, founding year, companies",
+        "quote": "Bain Capital Life Sciences (BCLS) has raised its fourth fund, with approximately $3 billion of total commitments. ... Since its inception in 2016, BCLS has raised approximately $6.7 billion and invested in more than 70 companies."
+      },
+      {
+        "url": "https://www.biopharmadive.com/news/bain-capital-fourth-fund-biotech-venture-investment/726567/",
+        "title": "Bain closes $3B biotech fund amid flurry of startup buyouts",
+        "publisher": "BioPharma Dive",
+        "accessed": "undefined",
+        "supports": "Prior fund sizes, pre-IPO crossover strategy",
+        "quote": "Bain identified a gap in the market for a particularly deep-pocketed biotech investor capable of backing pre-IPO crossover rounds"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-redmile-group",
+    "name": { "en": "Redmile Group" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2007,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.redmilegrp.com",
+    "capital": {
+      "aum": { "raw": "$6,473,965,022 (Form ADV, March 2024)", "usd": 6473965022, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "San Francisco healthcare investment firm making venture, growth and crossover investments across biotechnology, therapeutics, life sciences and medical devices in both private and public markets."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Jeremy Green", "role": "Founder & Portfolio Manager", "background": "Oxford; 20+ years investment experience" }
+    ],
+    "summary": {
+      "en": "San Francisco healthcare-focused crossover firm (founded 2007, ~$6.5B AUM) investing venture, growth and crossover across private and public biotech."
+    },
+    "sources": [
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/redmile+group/495/",
+        "title": "Redmile Group 13F, Performance and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "AUM and Form ADV date, healthcare focus",
+        "quote": "Redmile Group is a hedge fund managing discretionary assets totaling $6,473,965,022, according to their Form ADV dated March 2024. ... Redmile Group is a San Francisco-based asset management group specializing in healthcare investments."
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/redmile-group",
+        "title": "Redmile Group - Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Venture/growth/crossover strategy, founder, offices",
+        "quote": "Redmile Group is a healthcare investment organization that makes venture, growth, and crossover investing across healthcare."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "A separate secondary source reported ~$4.7B in client net assets as of 12/31/25; the $6.47B figure is regulatory/discretionary AUM per Form ADV (March 2024). Has a New York office in addition to SF HQ.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-baker-bros-advisors",
+    "name": { "en": "Baker Bros. Advisors" },
+    "aka": ["Baker Brothers Advisors", "BBA"],
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.bakerbros.com",
+    "capital": {
+      "aum": { "raw": "US$22 billion (March 2024)", "usd": 22000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Leading biotechnology investor founded by Felix and Julian Baker, known for extreme concentration, multi-decade holding periods and board-level engagement; invests across public and private biotech, holding stakes from private rounds through public markets."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Seagen", "sector": "oncology", "outcome": "acquired (Pfizer, 2023)" },
+        { "company": "BeiGene", "sector": "oncology", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Felix Baker", "role": "Managing Member", "background": "PhD immunology, Stanford" },
+      { "name": "Julian Baker", "role": "Managing Member", "background": "Harvard; ex-CSFB merchant banking" }
+    ],
+    "summary": {
+      "en": "New York biotech investment firm (founded 2000, ~$20-22B AUM) run by the Baker brothers, investing concentrated, long-horizon positions across public and private biotech."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Baker_Brothers_Advisors",
+        "title": "Baker Brothers Advisors - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "AUM, founding year, founders, NYC HQ, public/private focus",
+        "quote": "manages over $20 billion in assets under management (AUM) ... US$22 billion (March 2024) ... BBA was founded in 2000 by brothers Felix and Julian Baker."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Predominantly a public-markets biotech investor (>90% of capital historically in public equities per secondary reporting) but with private/pre-IPO and board-level PE-style engagement, giving it a genuine crossover/private track record. A more recent secondary source cited ~$28.1B AUM as of 12/31/25.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-foresite-capital",
+    "name": { "en": "Foresite Capital" },
+    "type": "crossover-fund",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.foresitecapital.com",
+    "capital": {
+      "aum": { "raw": "~$4 billion (2021); reported $4B+ (2026)", "usd": 4000000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund IV", "vintage_year": 2019, "size": { "raw": "$668 million", "usd": 668000000, "currency": "USD" } },
+        { "name": "Fund V", "vintage_year": 2021, "size": { "raw": "$969 million", "usd": 969000000, "currency": "USD" } },
+        { "name": "Fund VI", "vintage_year": 2024, "size": { "raw": "$900 million", "usd": 900000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "life-science-tools", "ai-drug-discovery", "healthcare-services"],
+      "thesis": "Multi-stage healthcare and life-sciences firm investing from seed to public stage, frequently in pre-IPO crossover rounds; backs therapeutics, life-science infrastructure/tools and individualized healthcare, and co-creates companies."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Jim Tananbaum", "role": "Founder & CEO", "background": "MD; serial healthcare investor/founder" }
+    ],
+    "summary": {
+      "en": "San Francisco multi-stage healthcare crossover firm (founded 2011) investing seed-to-public with frequent pre-IPO crossover rounds; sixth fund closed at ~$900M in 2024."
+    },
+    "sources": [
+      {
+        "url": "https://www.foresitecapital.com/news/press-releases/foresite-capital-raises-668-million-fund-iv/",
+        "title": "Foresite Capital Raises $668 Million Fund IV",
+        "publisher": "Foresite Capital",
+        "accessed": "undefined",
+        "supports": "Fund IV size, AUM (2019), founding year, SF HQ, public/private investing",
+        "quote": "closed its fourth and largest fund with $668 million in capital commitments. The firm now has $2 billion in assets under management. ... Foresite Capital is based in San Francisco with an office in New York."
+      },
+      {
+        "url": "https://www.foresitecapital.com/news/press-releases/foresite-capital-raises-969-million-to-invest-in-early-to-late-stage-companies-transforming-healthcare/",
+        "title": "Foresite Capital Raises $969 Million",
+        "publisher": "Foresite Capital",
+        "accessed": "undefined",
+        "supports": "Fund V size, AUM (2021), all-stages strategy",
+        "quote": "Foresite Capital Fund V ... closed with $969 million in capital commitments. ... Foresite Capital now has ~$4 billion in assets under management."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund VI ($900M, 2024) and current ~$4B+ AUM from secondary/press coverage; earlier fund sizes and 2021 AUM verified via official press releases. HQ historically SF; one 2026 secondary source lists Los Angeles as principal office.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-orbimed",
+    "name": { "en": "OrbiMed Advisors" },
+    "aka": ["OrbiMed"],
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity", "vc"],
+    "status": "active",
+    "founded_year": 1989,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.orbimed.com",
+    "capital": {
+      "aum": { "raw": "over $17 billion", "usd": 17000000000, "currency": "USD" },
+      "current_fund": { "raw": "more than $4.3 billion across latest private funds", "usd": 4300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth", "all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe", "greater-china", "india", "israel"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services", "life-science-tools"],
+      "thesis": "Global healthcare investment firm investing across the industry from startups to large multinationals through private-equity funds, public-equity funds and royalty/credit funds; multi-stage, multi-strategy crossover platform."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Team of 100+ professionals across New York, San Francisco, Shanghai, Hong Kong, Mumbai and Herzliya; deploys private equity, public equity and royalty/credit strategies."
+    },
+    "summary": {
+      "en": "New York-headquartered global healthcare firm ($17B+ AUM) running private-equity, public-equity and royalty/credit strategies across all stages worldwide."
+    },
+    "sources": [
+      {
+        "url": "https://www.orbimed.com/orbimed-raises-over-4-3-billion-across-private-investment-funds/",
+        "title": "OrbiMed Raises Over $4.3 Billion Across Private Investment Funds",
+        "publisher": "OrbiMed",
+        "accessed": "undefined",
+        "supports": "Private fund size, total AUM, multi-strategy across public/private/credit",
+        "quote": "OrbiMed ... has raised more than $4.3 billion in commitments for its latest private investment funds ... OrbiMed is a leading healthcare investment firm, with over $17 billion in assets under management. ... OrbiMed invests globally across the healthcare industry, from start-ups to large multinational corporations, through private equity funds, public equity funds, and royalty/credit funds."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "OrbiMed is multi-strategy/multi-stage; included here for its large public+private crossover platform (matches schema example us-orbimed). Founding year ~1989 per firm history.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-vivo-capital",
+    "name": { "en": "Vivo Capital" },
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity", "vc"],
+    "status": "active",
+    "founded_year": 1996,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "website": "https://vivocapital.com",
+    "capital": {
+      "aum": { "raw": "approximately $5.3 billion", "usd": 5300000000, "currency": "USD" },
+      "funds": [
+        { "name": "Vivo Opportunity Fund (Public Fund, 3rd cycle)", "vintage_year": 2025, "size": { "raw": "over $740 million", "usd": 740000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth", "all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "greater-china"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "diagnostics"],
+      "thesis": "Global healthcare investment firm with a multi-fund platform spanning venture capital, growth equity, buyout and public equities; its Public Fund invests in public and crossover-stage companies approaching clinical/regulatory milestones."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Multi-strategy platform (VC, growth equity, buyout, public equities); offices in the US and Asia."
+    },
+    "summary": {
+      "en": "Palo Alto global healthcare firm (founded 1996, ~$5.3B AUM) with a multi-strategy platform; its Public/crossover Fund closed its third cycle at over $740M."
+    },
+    "sources": [
+      {
+        "url": "https://vivocapital.com/vivo-capital-closes-its-public-fund-with-commitments-of-over-740-million/",
+        "title": "Vivo Capital Closes Its Public Fund with Commitments of Over $740 Million",
+        "publisher": "Vivo Capital",
+        "accessed": "undefined",
+        "supports": "Public fund size, AUM, companies, founding year, HQ",
+        "quote": "closed the third cycle of its Vivo Opportunity Fund and its affiliates (the \"Public Fund\") with over $740 million in commitments. ... The Firm has approximately $5.3 billion in regulatory assets under management ... Founded in 1996 ... Headquartered in Palo Alto, California, with additional offices in Asia"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-frazier-life-sciences",
+    "name": { "en": "Frazier Life Sciences" },
+    "aka": ["FLS", "Frazier Healthcare Partners (Life Sciences)"],
+    "type": "crossover-fund",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2005,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "website": "https://frazierls.com",
+    "capital": {
+      "aum": { "raw": "over $3.9 billion", "usd": 3900000000, "currency": "USD" },
+      "funds": [
+        { "name": "FLS Public Fund (evergreen)", "vintage_year": null, "size": { "raw": "approximately $1.7 billion", "usd": 1700000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Biopharma-focused firm that creates and seeds private companies through its Venture Funds and runs a long-only Public Fund investing in small/mid-cap public biotech with flexibility to fund later-stage private companies via crossover financings."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true,
+      "science_platform_notes": "40+ professionals; company-creation model on the venture side plus an evergreen public fund."
+    },
+    "summary": {
+      "en": "Palo Alto biopharma firm managing $3.9B+ across company-creation venture funds and a ~$1.7B evergreen public fund with crossover flexibility into late-stage private companies."
+    },
+    "sources": [
+      {
+        "url": "https://frazierls.com/frazier-life-sciences-adds-over-630-million-to-evergreen-public-fund/",
+        "title": "Frazier Life Sciences Adds Over $630 Million to Evergreen Public Fund",
+        "publisher": "Frazier Life Sciences",
+        "accessed": "undefined",
+        "supports": "Public fund size, crossover flexibility, total capital, HQ, exits",
+        "quote": "The FLS Public Fund has raised approximately $1.7 billion ... The Public Fund also has the flexibility to invest in later stage private companies via crossover financings. ... Frazier Life Sciences manages over $3.9 billion in capital ... Since 2005, over 60 Frazier Life Sciences portfolio companies ... have completed IPOs or M&As."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Frazier Life Sciences is the dedicated biopharma platform (separate from Frazier Healthcare's growth-buyout arm). HQ Palo Alto; historically associated with Menlo Park/Seattle.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-samsara-biocapital",
+    "name": { "en": "Samsara BioCapital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto",
+    "website": "https://www.samsaracap.com",
+    "capital": {
+      "aum": { "raw": "$1,622,845,390 (Form ADV, March 2024)", "usd": 1622845390, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "digital-health"],
+      "thesis": "Life-sciences firm providing capital across the full risk cycle for both private and public companies, backing therapeutic breakthroughs; combines scientists, physicians, drug developers and business leaders."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Dedicated public-equity strategy alongside private investing; team with 500+ combined years of experience."
+    },
+    "people": [
+      { "name": "Srinivas Akkaraju", "role": "Founder & Managing General Partner", "background": "MD/PhD; ex-Sofinnova Ventures, New Leaf, Genentech" }
+    ],
+    "summary": {
+      "en": "Palo Alto crossover fund (~$1.6B AUM) investing across private and public life-science companies, founded by Srinivas Akkaraju."
+    },
+    "sources": [
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/samsara+biocapital/1038/",
+        "title": "Samsara BioCapital 13F and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "AUM and Form ADV date",
+        "quote": "Samsara BioCapital manages discretionary assets totaling $1,622,845,390 for 3 clients, as reported in their Form ADV dated March 2024."
+      },
+      {
+        "url": "https://www.samsaracap.com/team/",
+        "title": "Team - Samsara BioCapital",
+        "publisher": "Samsara BioCapital",
+        "accessed": "undefined",
+        "supports": "Public/private crossover, founder, Palo Alto",
+        "quote": "Bringing together scientists, physicians, drug developers, and business leaders with over 500 years of combined experience to back the next generation of therapeutic breakthroughs."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund launched 2016/2017 (site references a 2017 launch); AUM verified via Form ADV.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-venrock-healthcare-capital-partners",
+    "name": { "en": "Venrock Healthcare Capital Partners" },
+    "aka": ["VHCP"],
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2010,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.venrockcp.com",
+    "capital": {
+      "aum": { "raw": "~$3 billion (Venrock incl. VHCP, reported)", "usd": 3000000000, "currency": "USD" },
+      "funds": [
+        { "name": "VHCP evergreen vehicle", "vintage_year": null, "size": { "raw": "nearly $450 million", "usd": 450000000, "currency": "USD" } },
+        { "name": "VHCP XP", "vintage_year": 2024, "size": { "raw": "$500 million", "usd": 500000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Affiliated Venrock crossover vehicle investing in both privately-held and publicly-held healthcare companies, focused on late-stage private and small-capitalization public biotech."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Bong Koh", "role": "Portfolio Manager", "background": "MD, MBA" },
+      { "name": "Nimish Shah", "role": "Portfolio Manager" }
+    ],
+    "summary": {
+      "en": "New York crossover fund affiliated with Venrock, investing in late-stage private and small-cap public biotech via evergreen vehicles."
+    },
+    "sources": [
+      {
+        "url": "https://www.venturecapitaljournal.com/venrock-raises-nearly-450m-for-oversubscribed-biotech-fund/",
+        "title": "Venrock raises nearly $450m for oversubscribed biotech fund",
+        "publisher": "Venture Capital Journal",
+        "accessed": "undefined",
+        "supports": "Fund size, private+public evergreen crossover strategy, NYC",
+        "quote": "New York venture firm Venrock has raised nearly $450 million for an evergreen vehicle that will invest in both private and public biotech companies."
+      },
+      {
+        "url": "https://www.venrockcp.com/",
+        "title": "Venrock Healthcare Capital Partners",
+        "publisher": "Venrock",
+        "accessed": "undefined",
+        "supports": "Existence of the crossover platform",
+        "quote": "Venrock Healthcare Capital Partners"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "VHCP is an affiliated crossover arm of Venrock (which itself is the storied early-stage VC). The $500M VHCP XP (Nov 2024) and ~$3B combined Venrock AUM are from secondary reporting; the ~$450M evergreen raise is verified via VCJ.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-fairmount-funds",
+    "name": { "en": "Fairmount Funds Management" },
+    "aka": ["Fairmount"],
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "West Conshohocken",
+    "website": "https://www.fairmountfunds.com",
+    "capital": {
+      "aum": { "raw": "$3.2 B (2025-03-31)", "usd": 3200000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Healthcare-focused firm making concentrated equity investments across public and private biotechnology markets, targeting emerging life-science companies developing differentiated therapeutics."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Tomas Kiselak", "role": "Co-Founder & Managing Member" },
+      { "name": "Peter Harwin", "role": "Co-Founder & Managing Member" }
+    ],
+    "summary": {
+      "en": "Philadelphia-area (West Conshohocken) biotech crossover fund (~$3.2B AUM) co-founded in 2016, investing concentrated positions across private and public biotech."
+    },
+    "sources": [
+      {
+        "url": "https://aum13f.com/firm/fairmount-funds-management-llc",
+        "title": "Fairmount Funds Management LLC | AUM 13F",
+        "publisher": "AUM13F",
+        "accessed": "undefined",
+        "supports": "AUM figure/date, HQ address",
+        "quote": "AUM $3.2 B (2025-03-31) ... 200 Barr Harbor Drive West Conshohocken, PA 19428"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/fairmount-funds-management",
+        "title": "Fairmount Funds Management - Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founders, founding year, public+private biotech strategy",
+        "quote": "co-founded in 2016 by managing members Tomas Kiselak and Peter Harwin"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM per aum13f (Form ADV, 3/31/25). One secondary source cited >$2.5B AUM with a ~$1.3B public equities book.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-commodore-capital",
+    "name": { "en": "Commodore Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.commodorecapital.com",
+    "capital": {
+      "aum": { "raw": "$1,356,387,341 (Form ADV, March 2024)", "usd": 1356387341, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Therapeutics-focused fund specializing in late-stage private and small-cap public biopharma, with a long-term capital base enabling multi-year holding periods and concentrated, high-conviction positions."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Egen Atkinson", "role": "Co-Founder & Managing Partner", "background": "MD, MBA; ex-Venrock public/crossover team" },
+      { "name": "Michael Kramarz", "role": "Co-Founder & Managing Partner", "background": "MD, MBA; ex-Samlyn Capital" }
+    ],
+    "summary": {
+      "en": "New York therapeutics crossover fund (founded 2019, ~$1.36B AUM) focused on late-stage private and small-cap public biopharma."
+    },
+    "sources": [
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/commodore+capital/1352/",
+        "title": "Commodore Capital 13F and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "AUM, founding year, founders, NYC HQ, strategy",
+        "quote": "Established in 2019, Commodore Capital operates as a venture capital investment firm headquartered in New York, New York. ... Commodore Capital manages assets for 3 clients with discretionary assets under management (AUM) totaling $1,356,387,341 according to their Form ADV from March 2024."
+      },
+      {
+        "url": "https://www.commodorecapital.com/team",
+        "title": "Team - Commodore Capital",
+        "publisher": "Commodore Capital",
+        "accessed": "undefined",
+        "supports": "Founders, NYC address",
+        "quote": "444 MADISON AVENUE, 35TH FLOOR / NEW YORK, NY 10022"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-braidwell",
+    "name": { "en": "Braidwell" },
+    "type": "crossover-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Stamford",
+    "website": "https://www.braidwell.com",
+    "capital": {
+      "aum": { "raw": "Braidwell Partners Fund ~$3.1bn; ~$3.5bn raised at launch", "usd": 3100000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "medtech-devices", "healthcare-it"],
+      "thesis": "Healthcare/life-science firm supplying flexible financing across public, private and structured capital markets; convergence of AI and biotech thesis, with a flagship public equities+credit fund, a direct-lending credit arm, and Braidwell Labs early-stage incubator."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true,
+      "science_platform_notes": "Three platforms: flagship public equities/credit hedge fund, Braidwell Credit (direct financing), and Braidwell Labs (early-stage incubator)."
+    },
+    "summary": {
+      "en": "Stamford, CT healthcare firm (launched 2022, ~$3.1B flagship fund) investing across public equities, credit and private/incubated companies with an AI-plus-biotech thesis."
+    },
+    "sources": [
+      {
+        "url": "https://www.hedgeweek.com/braidwells-ai-focused-healthcare-hedge-fund-up-28-in-2025/",
+        "title": "Braidwell's AI-focused healthcare hedge fund up 28% in 2025",
+        "publisher": "Hedgeweek",
+        "accessed": "undefined",
+        "supports": "AUM, founding year, HQ, platforms across public/private/credit",
+        "quote": "Braidwell launched in 2022 ... The Stamford, Connecticut-based investment firm ... Braidwell Partners Fund, manages approximately $3.1bn and invests in publicly listed healthcare companies across equities and credit markets. ... The firm also runs an early-stage incubator, Braidwell Labs"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Some secondary sources give a 2021 founding; Hedgeweek reports a 2022 launch. Public-tilted flagship fund but has genuine private/incubator (Braidwell Labs) and structured/private-credit activity.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-logos-capital",
+    "name": { "en": "Logos Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.logoscapital.com",
+    "capital": {
+      "aum": { "raw": "~$1.3 billion (end of 2020)", "usd": 1300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Data-driven biotechnology-focused fund that tracks and analyzes both private and public companies, integrating in-house analytics with clinical-trial modeling to identify transformative therapies; crossover investing from late-stage private through public."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "In-house data analytics and clinical-trial modeling to assess intrinsic value of drug programs."
+    },
+    "people": [
+      { "name": "Arsani William", "role": "Founder & Managing Partner", "background": "MD, MBA; ex-Farallon Capital" }
+    ],
+    "summary": {
+      "en": "San Francisco biotech crossover fund (founded 2019) combining in-house data analytics with clinical expertise to invest across private and public biotech."
+    },
+    "sources": [
+      {
+        "url": "https://www.logoscapital.com/",
+        "title": "Logos Capital",
+        "publisher": "Logos Capital",
+        "accessed": "undefined",
+        "supports": "Private and public crossover strategy, SF HQ",
+        "quote": "We conduct rigorous tracking and analysis of both private and public companies within the biotechnology sector"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2021-01-12/biotech-focused-logos-capital-surges-68-in-first-full-year",
+        "title": "Biotech-Focused Logos Capital Surges 68% in First Full Year",
+        "publisher": "Bloomberg",
+        "accessed": "undefined",
+        "supports": "AUM (end of 2020), founder, SF base",
+        "quote": "Assets at the San Francisco-based firm grew to $1.3 billion at the end of 2020."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AUM figure is from end-2020 (Bloomberg); current AUM likely higher but not verified. Founder Arsani William and 2019 founding from secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-avoro-capital-advisors",
+    "name": { "en": "Avoro Capital Advisors" },
+    "aka": ["venBio Select Advisor", "Avoro Ventures"],
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://avorocapital.com",
+    "capital": {
+      "aum": { "raw": "over $6.5 billion (reported)", "usd": 6500000000, "currency": "USD" },
+      "funds": [
+        { "name": "Avoro Ventures (inaugural fund)", "vintage_year": 2022, "size": { "raw": "$186 million", "usd": 186000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Global life-sciences firm (formerly venBio Select Advisor) focused on emerging biotechnology, identifying unique or mispriced opportunities across public and private markets from preclinical to mature commercial stage; runs a dedicated venture arm, Avoro Ventures."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "summary": {
+      "en": "New York global life-sciences firm (formerly venBio Select, ~$6.5B) investing across public and private biotech, with an Avoro Ventures early/late-stage arm."
+    },
+    "sources": [
+      {
+        "url": "https://avorocapital.com/",
+        "title": "Avoro Capital Advisors",
+        "publisher": "Avoro Capital Advisors",
+        "accessed": "undefined",
+        "supports": "Existence, former name, strategy, NYC HQ",
+        "quote": "Avoro Capital is a global life sciences investment firm with a focus on supporting emerging biotechnology companies. ... Avoro Capital Advisors was formerly known as venBio Select Advisor."
+      },
+      {
+        "url": "https://startupintros.com/orgs/avoro-ventures",
+        "title": "Avoro Ventures profile",
+        "publisher": "Startupintros",
+        "accessed": "undefined",
+        "supports": "Avoro Ventures inaugural fund size and date",
+        "quote": "manages an inaugural fund that closed with $186 million in capital commitments in April 2022"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AUM range (~$5-6.5B) and Avoro Ventures $186M fund from secondary sources; official site confirms existence, NYC HQ and the venBio Select lineage but not AUM.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-soleus-capital",
+    "name": { "en": "Soleus Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Greenwich",
+    "website": "https://soleuscapital.com",
+    "capital": {
+      "aum": { "raw": "~$2 billion (reported)", "usd": 2000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "genomics-omics"],
+      "thesis": "Healthcare firm focused on innovative life sciences (biotech, medtech, diagnostics, genomics), investing across the healthcare lifecycle from developmental-stage through commercial companies in both public and private markets, including PIPEs and crossover rounds."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "summary": {
+      "en": "Greenwich, CT life-sciences firm (founded 2018, ~$2B) investing across public and private biotech, medtech, diagnostics and genomics, from developmental to commercial stage."
+    },
+    "sources": [
+      {
+        "url": "https://soleuscapital.com/",
+        "title": "Soleus Capital | Life Sciences Investors",
+        "publisher": "Soleus Capital",
+        "accessed": "undefined",
+        "supports": "Sector focus, lifecycle strategy",
+        "quote": "Soleus Capital is a healthcare investment firm focused on the innovative areas of life sciences, including biotech, medtech, diagnostics, and genomics. ... We invest across the healthcare lifecycle from developmental-stage companies through commercial companies."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/soleus-capital-management",
+        "title": "Soleus Capital Management - CB Insights",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Founding year, Greenwich base, public+private crossover",
+        "quote": "Soleus Capital was founded in 2018 and is an asset manager based in Greenwich, Connecticut."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "~$2B AUM from secondary sources; not confirmed via a primary Form ADV quote.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-great-point-partners",
+    "name": { "en": "Great Point Partners" },
+    "type": "growth-equity",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "founded_year": 2003,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Greenwich",
+    "website": "https://www.gppfunds.com",
+    "capital": {
+      "aum": { "raw": "approximately $1.7 billion invested since 2003", "usd": 1700000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "check_size": { "raw": "$10 to $100 million (private growth capital)", "usd_min": 10000000, "usd_max": 100000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "pharma-services", "healthcare-services", "diagnostics"],
+      "thesis": "Healthcare investment firm running two complementary strategies: lower-middle-market growth-buyout funds investing in private healthcare companies, and a hedge fund investing in public life-science companies; provides growth equity and buyout financing to healthcare companies."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "summary": {
+      "en": "Greenwich, CT healthcare firm (founded 2003, ~$1.7B) pairing lower-middle-market growth-equity/buyout in private healthcare with a public life-sciences hedge fund."
+    },
+    "sources": [
+      {
+        "url": "https://www.gppfunds.com/our-firm/",
+        "title": "Our Firm - Great Point Partners",
+        "publisher": "Great Point Partners",
+        "accessed": "undefined",
+        "supports": "AUM, dual private/public strategy, Greenwich HQ, team",
+        "quote": "Great Point Partners manages successful private and public equity investment funds, with approximately $1.7 billion invested since 2003. ... lower middle market growth buyout funds investing in private health care companies and a hedge fund investing in public life sciences companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Growth-equity healthcare firm with a public life-sciences hedge fund, giving a public+private profile in-scope for this slice. Also has a London office.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-longitude-capital",
+    "name": { "en": "Longitude Capital" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2006,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Menlo Park",
+    "website": "https://www.longitudecapital.com",
+    "capital": {
+      "aum": { "raw": "nearly $2 billion cumulative (2020); over $2.4 billion raised to date", "usd": 2400000000, "currency": "USD" },
+      "funds": [
+        { "name": "Longitude Venture Partners IV (LVP4)", "vintage_year": 2020, "size": { "raw": "$585 million", "usd": 585000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Venture-growth firm providing capital and strategic support to biotechnology, medical-technology and health-solutions companies, targeting clinically de-risked, clinical- and commercial-stage assets using equity and equity-linked structures."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Venture-growth strategy investing opportunistically across stages, including crossover/pre-IPO and post-IPO positions."
+    },
+    "summary": {
+      "en": "Menlo Park venture-growth healthcare firm (founded 2006, $2.4B+ raised) backing clinically de-risked biotech, medtech and health-solutions companies through IPO."
+    },
+    "sources": [
+      {
+        "url": "https://www.globenewswire.com/en/news-release/2020/09/23/2097866/0/en/Longitude-Capital-Raises-585-Million-Fund-to-Invest-in-Transformative-Healthcare-Companies.html",
+        "title": "Longitude Capital Raises $585 Million Fund",
+        "publisher": "GlobeNewswire",
+        "accessed": "undefined",
+        "supports": "Fund IV size, cumulative capital, founding year, sectors, offices",
+        "quote": "Longitude Venture Partners IV, L.P. (\"LVP4\"), with $585 million in capital commitments. ... Since inception in 2006, Longitude Capital has raised nearly $2 billion in cumulative capital commitments. ... Longitude Capital has offices in Menlo Park, CA, Greenwich, CT, and Boston, MA."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Venture-growth (late-stage) healthcare investor; invests across stages incl. crossover/pre-IPO. 'Over $2.4B raised to date' from firm/secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-deep-track-capital",
+    "name": { "en": "Deep Track Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Greenwich",
+    "website": "https://www.deeptrackcapital.com",
+    "capital": {
+      "aum": { "raw": "$5,116,080,002 (Form ADV, March 2024)", "usd": 5116080002, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Life-sciences firm building long-term partnerships with leading innovative public and pre-IPO biotechnology companies; primarily public equities but selectively invests in private companies using equities, PIPEs, options and royalties."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "David Kroin", "role": "Founder & CIO", "background": "25+ years healthcare investing; co-founded Great Point Partners" }
+    ],
+    "summary": {
+      "en": "Greenwich, CT life-sciences crossover fund (founded 2020, ~$5.1B AUM) partnering with public and pre-IPO biotech companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/deep+track+capital/1409/",
+        "title": "Deep Track Capital 13F and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "AUM and Form ADV date",
+        "quote": "Deep Track Capital manages discretionary assets totaling $5,116,080,002, as reported in their Form ADV dated March 2024."
+      },
+      {
+        "url": "https://www.deeptrackcapital.com/team",
+        "title": "Who We Are - Deep Track Capital",
+        "publisher": "Deep Track Capital",
+        "accessed": "undefined",
+        "supports": "Strategy (public and pre-IPO), Greenwich HQ, founder",
+        "quote": "We develop long term partnerships with management teams of leading innovative public and pre-IPO biotechnology companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Public-tilted but with a documented pre-IPO/private track record (crossover), in-scope for this slice. Founded 2020 per secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-rock-springs-capital",
+    "name": { "en": "Rock Springs Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Baltimore",
+    "website": "https://www.rockspringscapital.com",
+    "capital": {
+      "aum": { "raw": "$5,768,717,819 (Form ADV, March 2024)", "usd": 5768717819, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Specialist health-sciences investment firm managing long-biased healthcare public-equity funds and participating in crossover/pre-IPO private rounds in biotechnology, pharmaceuticals, medical devices and life sciences."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Vedanta Biosciences", "sector": "microbiome", "outcome": "private/crossover" },
+        { "company": "Akero Therapeutics", "sector": "metabolic", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Kris Jenner", "role": "Co-Founder & Portfolio Manager", "background": "MD, DPhil; ex-T. Rowe Price Health Sciences Fund manager" },
+      { "name": "Mark Bussard", "role": "Co-Founder", "background": "MD" }
+    ],
+    "summary": {
+      "en": "Baltimore health-sciences crossover firm (founded 2013, ~$5.8B AUM) run by ex-T. Rowe Price PM Kris Jenner, investing public equities plus crossover/pre-IPO private rounds."
+    },
+    "sources": [
+      {
+        "url": "https://www.insidermonkey.com/hedge-fund/rock+springs+capital+management/693/",
+        "title": "Rock Springs Capital 13F and AUM",
+        "publisher": "Insider Monkey",
+        "accessed": "undefined",
+        "supports": "AUM and Form ADV date, sector focus",
+        "quote": "Rock Springs Capital Management manages discretionary assets totaling $5,768,717,819 for six clients, as reported in their Form ADV on March 2024."
+      },
+      {
+        "url": "https://www.rockspringscapital.com/",
+        "title": "Rock Springs Capital",
+        "publisher": "Rock Springs Capital",
+        "accessed": "undefined",
+        "supports": "Existence, health-sciences focus, Baltimore",
+        "quote": "Rock Springs Capital"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Predominantly a long-biased public healthcare fund; included for its documented crossover/pre-IPO private-round participation. Notable investments from secondary reporting.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-sofinnova-investments",
+    "name": { "en": "Sofinnova Investments" },
+    "aka": ["Sofinnova Ventures"],
+    "type": "crossover-fund",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "founded_year": 1976,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Menlo Park",
+    "website": "https://www.sofinnova.com",
+    "capital": {
+      "aum": { "raw": "approximately $4.6B", "usd": 4600000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "US healthcare investment firm investing in clinical-stage biotech and medtech companies, both private and public; its crossover strategy backs growth-stage companies that have clinically validated their technologies and are preparing for commercialization, plus a global public-equity therapeutics strategy."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "indications": ["oncology", "respiratory", "dermatology", "ophthalmology", "neurology", "womens-health"]
+    },
+    "summary": {
+      "en": "Menlo Park healthcare firm (~$4.6B AUM) investing in clinical-stage biotech and medtech across private and public markets, with a crossover strategy and a global public-equity therapeutics strategy."
+    },
+    "sources": [
+      {
+        "url": "https://www.sofinnova.com/about/",
+        "title": "About | Sofinnova Investments",
+        "publisher": "Sofinnova Investments",
+        "accessed": "undefined",
+        "supports": "AUM, founding, private+public crossover strategy, Menlo Park",
+        "quote": "We are a healthcare investment firm with approximately $4.6B in assets under management ... Since our founding in 1976 ... We invest in both private and public equity companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Sofinnova Investments (US, Menlo Park) is a distinct entity from Sofinnova Partners (Paris, Europe). Included here as the US crossover/growth arm.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-boxer-capital",
+    "name": { "en": "Boxer Capital" },
+    "aka": ["Boxer Capital Management"],
+    "type": "crossover-fund",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2005,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego",
+    "website": "https://www.boxercap.com",
+    "capital": {
+      "aum": { "raw": "~$2.5 billion (reported)", "usd": 2500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Biotechnology investment firm (backed by the Tavistock Group) pursuing fundamental, research-based investing in precision medicine; a full-cycle investor looking for value across all stages from company building and early-stage to late-stage/crossover private and public markets."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Aaron Davis", "role": "CEO & Portfolio Manager" }
+    ],
+    "summary": {
+      "en": "San Diego biotech investment firm (founded 2005, Tavistock-backed, ~$2.5B) investing full-cycle from company creation and early-stage to crossover private and public markets."
+    },
+    "sources": [
+      {
+        "url": "https://www.boxercap.com/about-us/",
+        "title": "Private Investment Firm | Boxer Capital",
+        "publisher": "Boxer Capital",
+        "accessed": "undefined",
+        "supports": "Full-cycle crossover strategy, San Diego HQ",
+        "quote": "Boxer Capital Management looks for value across all stages of the biotechnology ecosystem; from company building and early-stage to late-stage and crossover private investments to public markets."
+      },
+      {
+        "url": "https://www.life-sciences-usa.com/organisation/boxer-capital-llc-tavistock-group-2005-san-diego-2001-42752.html",
+        "title": "Boxer Capital LLC (Tavistock Group)",
+        "publisher": "Life-Sciences-USA",
+        "accessed": "undefined",
+        "supports": "Founding year, Tavistock backing, San Diego",
+        "quote": "Boxer Capital LLC (Tavistock Group, 2005), San Diego"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "~$2.5B AUM and 2005 founding/Tavistock backing from secondary sources; official site confirms full-cycle crossover strategy and San Diego HQ but not AUM.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-rtw-investments",
+    "name": { "en": "RTW Investments" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.rtwfunds.com",
+    "capital": {
+      "aum": { "raw": "over $8 billion (reported)", "usd": 8000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Life-science investment and innovation firm acting as full-lifecycle investors across the biopharmaceutical and medical-technology sectors; active crossover investor since 2015, often holding positions from private rounds through and beyond IPO. Also manages the LSE-listed RTW Biotech Opportunities Ltd."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Roderick Wong", "role": "Managing Partner & CIO", "background": "MD (UPenn), MBA (Harvard); ex-Davidson Kempner Healthcare" }
+    ],
+    "summary": {
+      "en": "New York life-science firm (founded 2009, ~$8B, 70+ portfolio companies) investing full-lifecycle across private and public biopharma/medtech; also runs listed RTW Biotech Opportunities."
+    },
+    "sources": [
+      {
+        "url": "https://www.rtwfunds.com/",
+        "title": "RTW Investments",
+        "publisher": "RTW Investments",
+        "accessed": "undefined",
+        "supports": "Full-lifecycle life-science investing, existence",
+        "quote": "life science investment and innovation firm ... full lifecycle investors"
+      },
+      {
+        "url": "https://www.rtwfunds.com/our-team/roderick-wong-md/",
+        "title": "Roderick Wong, MD - RTW Investments",
+        "publisher": "RTW Investments",
+        "accessed": "undefined",
+        "supports": "Founding year, founder",
+        "quote": "Rod's passion for innovative science and its power to impact people's lives led him to launch RTW in 2009."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AUM (~$8B) and 70+ portfolio companies from secondary reporting (Edison Group / profiles); official site confirms full-lifecycle crossover strategy and 2009 founding but not AUM.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "us-ally-bridge-group",
+    "name": { "en": "Ally Bridge Group" },
+    "aka": ["ABG"],
+    "type": "growth-equity",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [
+      { "country": "United States", "city": "New York" },
+      { "country": "Hong Kong", "city": "Hong Kong" }
+    ],
+    "website": "https://ally-bridge.com",
+    "capital": {
+      "aum": { "raw": "over $2.5 billion managed/advised (reported)", "usd": 2500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["united-states", "europe", "greater-china"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "thesis": "Global healthcare investment firm running two complementary strategies — private equity (growth capital and buyout via its Flagship fund) and a long-biased public equity strategy — investing across US, Europe and China life-science companies; also runs a developmental-stage Innovation fund."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "people": [
+      { "name": "Frank Yu", "role": "Founder, CEO & CIO", "background": "Founder; global healthcare investor" }
+    ],
+    "summary": {
+      "en": "Global healthcare firm (founded 2013, ~$2.5B) investing across US, Europe and China via private-equity and public-equity strategies, with offices in New York and Hong Kong."
+    },
+    "sources": [
+      {
+        "url": "https://ally-bridge.com/",
+        "title": "Ally Bridge Group",
+        "publisher": "Ally Bridge Group",
+        "accessed": "undefined",
+        "supports": "Founding, founder, offices, private+public strategies",
+        "quote": "Ally Bridge Group is a global healthcare investment management firm ... founded in 2013 by Frank Yu ... manages assets from offices in New York and Hong Kong. ... private equity and public equity ... a long-biased strategy launched in 2018."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Global firm with New York and Hong Kong offices; included here for its US office and substantial US life-science investing, but may also fall within the greater-china slice. ~$2.5B AUM from secondary reporting.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "id": "eu-i-and-i-bio",
+    "name": { "en": "i&i Bio (i&i Biotech Fund)" },
+    "aka": ["i&i Biotech Fund", "iniBio"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "europe",
+    "country": "Czech Republic",
+    "hq_city": "Prague",
+    "website": "https://www.inibio.eu/",
+    "capital": {
+      "funds": [
+        {
+          "name": "i&i Biotech Fund",
+          "vintage_year": 2021,
+          "size": { "raw": "more than €45 million", "usd": null, "currency": "EUR" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "from €150K, with a €0.5M–€2M sweet spot and follow-on capacity for standout portfolio companies", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["Central and Eastern Europe", "Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "ai-drug-discovery"],
+      "thesis": "One of the few VC funds in Europe focused exclusively on life sciences; embedded in the biotech ecosystem around the Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, it backs early-stage CEE biotech spinouts in drug discovery, medtech, diagnostics and AI-driven biotech."
+    },
+    "lifesci": {
+      "science_platform_notes": "Investment adviser embedded at the Institute of Organic Chemistry and Biochemistry (IOCB), Czech Academy of Sciences; established in cooperation with the European Investment Fund (EIF)."
+    },
+    "track_record": {
+      "portfolio_count": 18,
+      "notable_investments": [
+        { "company": "Dracen Pharmaceuticals", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Celeris Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Captain T Cell", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "HeartBeat.bio", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Karel Kubias", "role": "Founding Partner", "background": "Pharma executive background" },
+      { "name": "Ivan Vohlmuth", "role": "Founding Partner", "background": "25+ years in VC/PE" },
+      { "name": "Tomáš Maršálek", "role": "Founding Partner", "background": "Fund management and CFO experience" }
+    ],
+    "tags": ["cee", "biotech-exclusive", "czech-academy-of-sciences"],
+    "summary": {
+      "en": "Czech/CEE-focused early-stage biotech VC (part of the i&i platform in Prague) investing from €150K up to ~€2M in drug discovery, medtech, diagnostics and AI-driven biotech across Central and Eastern Europe; describes itself as one of very few VC funds in Europe dedicated exclusively to life sciences."
+    },
+    "sources": [
+      {
+        "url": "https://www.inibio.eu/",
+        "title": "i&i Bio: early stage biotech venture capital",
+        "publisher": "i&i Bio",
+        "accessed": "undefined",
+        "supports": "fund name, HQ/adviser location, focus, check size, founders, portfolio count, notable investments",
+        "quote": "one of the very few VC funds in Europe focused exclusively on life science ventures"
+      },
+      {
+        "url": "https://www.iniprague.com/",
+        "title": "Biotech Incubator and Venture Builder | i&i Prague",
+        "publisher": "i&i Prague",
+        "accessed": "undefined",
+        "supports": "fund founding year and EIF cooperation",
+        "quote": "In 2021, i&i established the i&i Biotech Fund in cooperation with the European Investment Fund, with more than 45 million EUR prepared for investments in academic spinoffs."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund is legally domiciled in Luxembourg (42, rue de la Vallée, L-2661) with its investment adviser office in Prague, Czech Republic; included here for its dedicated CEE/Czech operating base and CEE-focused mandate.",
+    "last_updated": "undefined",
+    "researched_by": "cee-lifesci"
+  },
+  {
+    "id": "eu-i-and-i-prague",
+    "name": { "en": "i&i Prague" },
+    "type": "incubator",
+    "subtypes": ["venture-studio", "university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "europe",
+    "country": "Czech Republic",
+    "hq_city": "Prague",
+    "website": "https://www.iniprague.com/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "Biotech incubator and venture builder operating as a private company within the Czech Academy of Sciences' Institute of Organic Chemistry and Biochemistry (IOCB); commercializes Czech academic research into spinout companies in drug discovery, diagnostics and medical technology, and represents IOCB spinoffs while scouting outside projects."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Operates as part of IOCB / Czech Academy of Sciences; sister organization to the i&i Biotech Fund (i&i Bio), which it helped establish with the EIF in 2021."
+    },
+    "summary": {
+      "en": "Prague-based biotech incubator and venture builder under the Czech Academy of Sciences (IOCB) that commercializes Czech life-science research into drug-discovery, diagnostics and medtech spinouts."
+    },
+    "sources": [
+      {
+        "url": "https://www.iniprague.com/",
+        "title": "Biotech Incubator and Venture Builder | i&i Prague",
+        "publisher": "i&i Prague",
+        "accessed": "undefined",
+        "supports": "org description, focus areas",
+        "quote": "i&i Prague is a biotech incubator and venture builder located in the heart of Europe."
+      },
+      {
+        "url": "https://www.uochb.cz/en/ini-prague",
+        "title": "i&i Prague: A new platform for commercialization of Czech research results",
+        "publisher": "IOCB / Czech Academy of Sciences",
+        "accessed": "undefined",
+        "supports": "founding year, relationship to IOCB",
+        "quote": "i&i Prague was founded in 2017 with the aim of representing the institute in all spin-offs arising from IOCB but also to scout for projects with innovative potential outside IOCB."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Facts drawn from search-result snippets of the organization's own site and IOCB's site rather than a full page fetch; program mechanics (cohort size, equity taken, etc.) not verified so left blank.",
+    "last_updated": "undefined",
+    "researched_by": "cee-lifesci"
+  },
+  {
+    "id": "eu-lsi-life-science-innovations-fund",
+    "name": { "en": "LSI (Life Science Innovations Fund)" },
+    "aka": ["Life Science Innovations Venture Capital Fund", "LSI Fund"],
+    "type": "vc",
+    "status": "active",
+    "region": "europe",
+    "country": "Poland",
+    "hq_city": "Warsaw",
+    "website": "https://lsifund.pl/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Poland"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Poland-focused pre-seed and seed investor championing early-stage life-science innovation across medtech, biotech, digital health and diagnostics."
+    },
+    "track_record": {
+      "portfolio_count": 11
+    },
+    "summary": {
+      "en": "Warsaw-based pre-seed/seed VC dedicated to Polish life-science startups spanning medtech, biotech, diagnostics and digital health, with an 11-company portfolio."
+    },
+    "sources": [
+      {
+        "url": "https://www.eu-startups.com/investor/lsi-life-science-innovations-fund/",
+        "title": "LSI (Life Science Innovations Fund) | EU-Startups",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "focus, HQ, portfolio count",
+        "quote": "LSI is a Polish VC investing in pre-seed and seed-stage life science startups, including medtech, biotech, digital health, and environmental protection. The fund currently has 11 start-ups in its portfolio."
+      },
+      {
+        "url": "https://lsifund.pl/",
+        "title": "LSI Fund",
+        "publisher": "LSI Fund",
+        "accessed": "undefined",
+        "supports": "org existence, name",
+        "quote": "LSI Fund"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Details gathered from search-result snippets of directory/listing sites (EU-Startups, Crunchbase, LinkedIn) rather than a direct fetch of lsifund.pl; fund size and vintage not disclosed in sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "cee-lifesci"
+  },
+  {
+    "id": "eu-medi-ventures",
+    "name": { "en": "Medi Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "europe",
+    "country": "Poland",
+    "hq_city": "Kielce",
+    "strategy": {
+      "stages": ["seed"],
+      "geo_focus": ["Poland"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services"],
+      "thesis": "Seed-stage VC backing early-stage biotech, medtech and healthcare startups with global market potential, combining US-linked capital with a Poland investment base."
+    },
+    "track_record": {
+      "portfolio_count": 12,
+      "notable_investments": [
+        { "company": "Target Cells", "sector": "therapeutics", "outcome": "active" },
+        { "company": "MyCogress", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Kielce, Poland-based seed fund investing US-linked capital into early-stage Polish biotech, medtech and healthcare companies with global market potential."
+    },
+    "sources": [
+      {
+        "url": "https://www.eu-startups.com/investor/medi-ventures/",
+        "title": "Medi Ventures | EU-Startups",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, focus, portfolio count and companies",
+        "quote": "Medi Ventures is a seed investment VC fund with US capital investing in Poland...Founded in 2018, Medi Ventures is a venture capital investment firm based in Kielce, Swietokrzyskie."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Details drawn from search-result snippets (EU-Startups, Crunchbase, Shizune); official website URL not independently confirmed so omitted rather than guessed.",
+    "last_updated": "undefined",
+    "researched_by": "cee-lifesci"
+  },
+  {
+    "id": "eu-joint-polish-investment-fund",
+    "name": { "en": "Joint Polish Investment Fund (JPIF)" },
+    "aka": ["JPIF I", "Joint Polish Investment Fund Management"],
+    "type": "vc",
+    "status": "unknown",
+    "founded_year": 2015,
+    "region": "europe",
+    "country": "Poland",
+    "capital": {
+      "funds": [
+        {
+          "name": "JPIF I",
+          "vintage_year": 2015,
+          "size": { "raw": "$42 million (first closing)", "usd": 42000000, "currency": "USD" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Poland", "Central and Eastern Europe"],
+      "sector_focus": ["medtech-devices", "digital-health", "therapeutics"],
+      "thesis": "Poland's first institutional venture capital fund fully dedicated to life science, backed by Poland's National Centre for Research and Development (NCBR); invests in early- and mid-stage medtech, enabling-technology and mobile-health companies with strong ties to Central and Eastern Europe."
+    },
+    "summary": {
+      "en": "Warsaw-region VC fund launched in 2015 as Poland's first institutional life-science-dedicated fund, backed by government R&D agency NCBR, targeting medtech, enabling technology and mobile health."
+    },
+    "sources": [
+      {
+        "url": "https://www.finsmes.com/2015/03/joint-polish-investment-fund-management-closes-life-sciences-venture-capital-fund-at-42m.html",
+        "title": "Joint Polish Investment Fund Management Closes Life Sciences Venture Capital Fund at $42M",
+        "publisher": "FinSMEs",
+        "accessed": "undefined",
+        "supports": "fund name, size, first-close date, NCBR backing, focus areas",
+        "quote": "the first institutional venture capital fund operating out of Poland that is completely dedicated to life science investments...The fund will invest in early- and mid-stage companies with a close relationship to Poland...e.g. companies in the area of medical technology, enabling technology or mobile health."
+      },
+      {
+        "url": "https://scanbalt.org/scanbalt-news/polands-first-institutional-venture-capital-fund-dedicated-life-science-announces-first-closing-42-million/",
+        "title": "Poland's First Institutional Venture Capital Fund Dedicated to Life Science Announces First Closing At $42 Million",
+        "publisher": "ScanBalt",
+        "accessed": "undefined",
+        "supports": "NCBR backing, holding period",
+        "quote": "JPIF I is backed and supported by The National Centre for Research and Development (NCBR). The fund invests in early as well as mid stage Life Science companies with an investment holding period of 3-5 years and a strong connection to Central and Eastern Europe."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund announced first closing in March 2015 (2015 vintage); a direct fetch of the FierceBiotech announcement returned HTTP 403, so this entry relies on corroborating coverage (FinSMEs, ScanBalt) with matching figures. Current operating status (still investing / winding down) could not be confirmed from sources reviewed, hence status set to 'unknown'.",
+    "last_updated": "undefined",
+    "researched_by": "cee-lifesci"
+  },
+  {
+    "id": "eu-cleverage-venture-capital",
+    "name": { "en": "Cleverage Venture Capital (Cleverave)" },
+    "aka": ["Cleverave", "cleverage.vc"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "europe",
+    "country": "Romania",
+    "hq_city": "Bucharest",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "€200,000–€500,000", "usd_min": null, "usd_max": null },
+      "geo_focus": ["Romania", "Greece", "Bulgaria", "Poland", "Europe"],
+      "sector_focus": ["healthcare-services", "medtech-devices", "diagnostics", "therapeutics", "digital-health"],
+      "thesis": "Healthtech-dedicated VC investing pre-seed through Series A in medical, IT-in-health, diagnostics, therapeutics, devices and healthcare-services companies across Romania and wider Europe."
+    },
+    "track_record": {
+      "portfolio_count": 14
+    },
+    "people": [
+      { "name": "Sergiu Neguț", "role": "Managing Partner", "background": "IT and healthcare investments" },
+      { "name": "Wargha Enayati", "role": "Managing Partner", "background": "Healthcare technology expertise" }
+    ],
+    "summary": {
+      "en": "Bucharest-based healthtech-focused VC investing €200K–€500K at pre-seed to Series A into medical, diagnostics, therapeutics and healthcare-services startups across Romania, Greece, Bulgaria and Poland."
+    },
+    "sources": [
+      {
+        "url": "https://www.eu-startups.com/investor/cleverage-venturecapital/",
+        "title": "Cleverage VentureCapital | EU-Startups",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, focus, check size, geo focus, portfolio count, partners",
+        "quote": "Cleverage Capital typically invests between €200,000 and €500,000 in its portfolio companies, covering pre-seed and Series A stages...Cleverage Capital manages a portfolio of 14 companies, emphasizing investments in Romania, Greece, Bulgaria, and Poland."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Also referred to as 'Cleverave' in secondary listings (Shizune); core facts corroborated via EU-Startups directory listing rather than a direct company-site fetch.",
+    "last_updated": "undefined",
+    "researched_by": "cee-lifesci"
+  },
+  {
+    "id": "eu-x-ventures",
+    "name": { "en": "X-Ventures" },
+    "aka": ["X-Ventures Alpha", "X-Ventures Beta", "X-Ventures Gamma"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "europe",
+    "country": "Hungary",
+    "website": "https://www.x-ventures.hu/en",
+    "capital": {
+      "funds": [
+        { "name": "X-Ventures Alpha", "vintage_year": 2008, "size": { "raw": null } },
+        { "name": "X-Ventures Beta", "vintage_year": 2012, "size": { "raw": null } },
+        { "name": "X-Ventures Gamma", "vintage_year": null, "size": { "raw": "HUF 13 billion", "usd": null, "currency": "HUF" } }
+      ]
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "healthcare-services", "generalist-health"],
+      "thesis": "Hungarian multi-fund VC platform (Alpha/Beta/Gamma) primarily targeting information technology and biotechnology, with portfolio exposure also in healthcare, logistics, electronics and machinery; Gamma fund launched under Hungary's Smart Specialisation Venture Capital Scheme (Economic Development and Innovation Operational Programme)."
+    },
+    "summary": {
+      "en": "Hungary's leading VC group running three funds (Alpha, Beta, Gamma) with a stated IT-and-biotechnology focus plus broader exposure to healthcare and traditional sectors; Gamma is a HUF 13bn, 12-year state-linked fund."
+    },
+    "sources": [
+      {
+        "url": "https://x-ventures.hu/en/alpha/x-ventures-alpha",
+        "title": "X-Ventures Alpha | xVentures",
+        "publisher": "X-Ventures",
+        "accessed": "undefined",
+        "supports": "Alpha fund founding year and sector focus",
+        "quote": "X-Ventures Alpha Zrt. was founded in 2008, and targets investments in the information technology, biotechnology, logistics, hotel and resort sectors."
+      },
+      {
+        "url": "https://www.x-ventures.hu/en/gamma/x-ventures-gamma",
+        "title": "X-Ventures Gamma | xVentures",
+        "publisher": "X-Ventures",
+        "accessed": "undefined",
+        "supports": "Gamma fund size and government program link",
+        "quote": "Gamma: X-Ventures Gamma is a venture capital fund of HUF 13 billion with a tenor of 12 years, launched in the framework of the Smart Specialisation Venture Capital Scheme of the Economic Development and Innovation Operational Programme."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sector focus is IT-and-biotech plus several unrelated sectors (logistics, hotels, machinery); medical/biomedical nexus is real but not exclusive — included as a generalist CEE VC with an explicit biotechnology mandate rather than a life-science-dedicated fund.",
+    "last_updated": "undefined",
+    "researched_by": "cee-lifesci"
+  },
+  {
+    "id": "eu-jic-south-moravian-innovation-centre",
+    "name": { "en": "JIC (South Moravian Innovation Centre)", "local": "Jihomoravské inovační centrum" },
+    "aka": ["JIC", "South Moravian Innovation Centre"],
+    "type": "incubator",
+    "subtypes": ["government-program", "university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2003,
+    "region": "europe",
+    "country": "Czech Republic",
+    "hq_city": "Brno",
+    "website": "https://www.jic.cz/en/",
+    "strategy": {
+      "geo_focus": ["Czech Republic", "South Moravia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Regional innovation agency founded by the South Moravian Region, City of Brno, Masaryk University and Brno University of Technology (later joined by Mendel University and the University of Veterinary and Pharmaceutical Sciences); operates JIC INBIT, a dedicated biotechnology business incubator, alongside technology (JIC INTECH) and advanced-materials (JIC INMEC) incubators, supporting Brno-region life-science startups from lab to market."
+    },
+    "lifesci": {
+      "science_platform_notes": "JIC INBIT is JIC's dedicated biotechnological incubator; Brno hosts Masaryk University and CEITEC life-science research infrastructure that JIC helps commercialize."
+    },
+    "summary": {
+      "en": "Brno-based regional innovation agency, co-founded by South Moravian universities and public bodies, that runs a dedicated biotechnology incubator (JIC INBIT) supporting Czech life-science startups with finance access, premises, mentoring and technology-transfer services."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/South_Moravian_Innovation_Centre",
+        "title": "South Moravian Innovation Centre - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founding year, founding institutions",
+        "quote": "JIC was established in 2003 as an association of legal entities. Its founders are the South Moravian Regional authority, the Statutory City of Brno, Masaryk University and Brno University of Technology, with Mendel University of Agriculture and Forestry and University of Veterinary and Pharmaceutical Sciences in Brno joining in February 2005."
+      },
+      {
+        "url": "https://ebn.eu/member/jic/",
+        "title": "JIC – EBN | EU|BIC Innovation Community",
+        "publisher": "EBN",
+        "accessed": "undefined",
+        "supports": "existence of dedicated biotechnological incubator",
+        "quote": "JIC operates three business incubators in Brno (the technological incubator JIC INTECH, the biotechnological incubator JIC INBIT, and the third incubator, JIC INMEC, focused on advanced materials and technologies)"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "JIC is a multi-sector regional innovation agency (tech, biotech, advanced materials); medical/biomedical nexus is verifiable via its dedicated JIC INBIT biotechnology incubator arm, noted here per the 'dedicated arm' inclusion criterion.",
+    "last_updated": "undefined",
+    "researched_by": "cee-lifesci"
+  }
+]

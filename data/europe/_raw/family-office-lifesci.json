@@ -1,0 +1,559 @@
+[
+  {
+    "id": "eu-athos-service",
+    "name": { "en": "ATHOS Service" },
+    "aka": ["ATHOS", "AT Impf GmbH", "ATS Beteiligungsverwaltung"],
+    "type": "family-office",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "strategy": {
+      "sector_focus": ["therapeutics"],
+      "geo_focus": ["Germany", "Europe", "United States"],
+      "thesis": "Single-family office of the Strüngmann brothers (founders of generics maker Hexal, sold to Novartis in 2005 for €5.65bn); redeployed the proceeds into biotech, becoming the founding and largest shareholder of BioNTech via vehicles including AT Impf and ATS Beteiligungsverwaltung."
+    },
+    "lifesci": {
+      "modalities": ["rna-therapeutics", "biologics-antibody"],
+      "indications": ["oncology", "infectious-disease"],
+      "company_creation": null,
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "BioNTech", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "The Strüngmann family's Munich single-family office, seeded by the €5.65bn Hexal-to-Novartis sale, is best known as BioNTech's founding backer and remains a major biotech investor."
+    },
+    "sources": [
+      {
+        "url": "https://www.startuprad.io/post/how-the-str%C3%BCngmann-brothers-built-germany-s-most-important-biotech-family-office",
+        "title": "How the Strüngmann Brothers Built Germany's Most Important Biotech Family Office",
+        "publisher": "Startuprad.io",
+        "accessed": "undefined",
+        "supports": "Hexal sale funding ATHOS; BioNTech seed investment via AT Impf/ATS Beteiligungsverwaltung",
+        "quote": "The Strüngmanns put in ~€136.5–180 million as the founding seed for BioNTech through AT Impf and ATS Beteiligungsverwaltung; built Hexal from 1986 to 2005, sold to Novartis for €5.65 billion cash, and used the proceeds to seed Athos Service in Munich."
+      },
+      {
+        "url": "https://altss.com/profile/athos-service-gmbh",
+        "title": "Athos Service GmbH | München Single Family Office",
+        "publisher": "Altss",
+        "accessed": "undefined",
+        "supports": "Munich HQ, single-family-office classification"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No official ATHOS website was located in search results, so 'website' is omitted; facts rely on reputable secondary press/profile sources rather than a primary source.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-dievini-hopp-biotech",
+    "name": { "en": "dievini Hopp BioTech Holding", "local": "dievini Hopp BioTech holding GmbH & Co. KG" },
+    "aka": ["dievini"],
+    "type": "family-office",
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "website": "https://www.dievini.de",
+    "strategy": {
+      "sector_focus": ["therapeutics"],
+      "geo_focus": ["Germany", "Europe"],
+      "thesis": "Holding company of SAP co-founder Dietmar Hopp dedicated to funding innovative biotechnology; long-time majority shareholder of mRNA company CureVac, which it has backed since 2005."
+    },
+    "lifesci": {
+      "modalities": ["rna-therapeutics"],
+      "indications": ["infectious-disease", "oncology"],
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "CureVac", "sector": "therapeutics", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "Dietmar Hopp's family biotech holding company, majority shareholder of mRNA pioneer CureVac since 2005 (now part of BioNTech after its 2025 acquisition).",
+      "local": "Die Biotech-Beteiligungsgesellschaft der Familie Hopp, seit 2005 Mehrheitsaktionär des mRNA-Unternehmens CureVac."
+    },
+    "sources": [
+      {
+        "url": "https://www.curevac.com/en/history/investment-by-dievini-hopp-biotech-von-dietmar-hopp/",
+        "title": "Investment by dievini Hopp Biotech von Dietmar Hopp",
+        "publisher": "CureVac",
+        "accessed": "undefined",
+        "supports": "dievini as founder/majority shareholder of CureVac since 2005",
+        "quote": "dievini has been a shareholder of CureVac AG, Tuebingen, since 2005 and holds over 80% of the shares."
+      },
+      {
+        "url": "https://www.dievini.de/wp-content/uploads/2020/03/20200315_dievini_PR_200315_EN.pdf",
+        "title": "dievini Hopp BioTech holding GmbH & Co. KG press release",
+        "publisher": "dievini",
+        "accessed": "undefined",
+        "supports": "Official domain and holding-company description",
+        "quote": "dievini Hopp BioTech holding GmbH & Co. KG is a holding company of SAP co-founder Dietmar Hopp with an investment focus on innovative biotechnology companies."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-b-flexion",
+    "name": { "en": "B-FLEXION" },
+    "aka": ["Waypoint Capital", "Waypoint Capital Holdings"],
+    "type": "family-office",
+    "status": "active",
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Geneva",
+    "offices": [
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "Jersey", "city": "Jersey" },
+      { "country": "United States", "city": "Boston" },
+      { "country": "Ireland", "city": "Dublin" }
+    ],
+    "website": "https://www.bflexion.com",
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "pharma-services"],
+      "geo_focus": ["Europe", "United States", "Global"],
+      "thesis": "Geneva-based family investment firm of Ernesto Bertarelli, whose family built biotech/pharma pioneer Serono over three generations before its $13.3bn sale to Merck KGaA in 2007; retains a distinctive emphasis on healthcare and biotechnology alongside private equity, venture capital, infrastructure and real estate."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "drug-delivery"],
+      "indications": ["immunology-inflammation", "infectious-disease"],
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Stallergenes Greer", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Corium Pharma Solutions", "sector": "pharma-services", "outcome": "active" },
+        { "company": "Paratek Pharmaceuticals", "sector": "therapeutics", "outcome": "acquired" },
+        { "company": "Affidea", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The Bertarelli family's Geneva-based investment firm (renamed from Waypoint Capital to B-FLEXION in 2022), rooted in three generations building Serono into a global biotech before its 2007 sale to Merck; still directly owns healthcare assets like Stallergenes Greer, Corium and Affidea."
+    },
+    "sources": [
+      {
+        "url": "https://www.bflexion.com/history",
+        "title": "History | B-FLEXION",
+        "publisher": "B-FLEXION",
+        "accessed": "undefined",
+        "supports": "Rename from Waypoint Capital, Bertarelli family Serono history, Geneva HQ, portfolio companies",
+        "quote": "The Waypoint group changes its name and visual identity to become B-FLEXION... B-FLEXION was founded and is chaired by Ernesto Bertarelli."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ernesto_Bertarelli",
+        "title": "Ernesto Bertarelli",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Serono sale to Merck for $13.3bn in 2007"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Formerly known/sourced as 'Waypoint Capital'; the group rebranded to B-FLEXION in 2022 per its own website.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-merieux-equity-partners",
+    "name": { "en": "Mérieux Equity Partners", "local": "Mérieux Développement" },
+    "aka": ["Mérieux Développement", "Mérieux Partners"],
+    "type": "family-office",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Lyon",
+    "offices": [
+      { "country": "France", "city": "Paris" }
+    ],
+    "website": "https://merieux-partners.com",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "sector_focus": ["diagnostics", "therapeutics", "pharma-services", "medtech-devices"],
+      "geo_focus": ["Europe", "Global"],
+      "thesis": "Healthcare investment arm 'powered by' Institut Mérieux, the French family holding company built by the Mérieux family (founders of bioMérieux and vaccine/diagnostics pioneers dating to 1897); invests across diagnostics, therapeutics, pharma services, medtech and patient services from seed to buyout."
+    },
+    "lifesci": {
+      "modalities": ["vaccines"],
+      "indications": ["infectious-disease"],
+      "company_creation": null
+    },
+    "capital": {
+      "funds": [
+        { "name": "Mérieux Innovation 2", "vintage_year": 2025, "size": { "raw": "€150m", "usd": null, "currency": "EUR" } },
+        { "name": "Mérieux Participations 4", "vintage_year": 2023, "size": { "raw": "€568m", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "summary": {
+      "en": "The healthcare-dedicated investment arm of France's Mérieux family (founders of bioMérieux/Institut Mérieux), deploying venture, growth and buyout capital in diagnostics, therapeutics, pharma services and medtech.",
+      "local": "Le bras d'investissement dédié à la santé de la famille Mérieux (fondatrice de bioMérieux/Institut Mérieux), actif du capital-risque au buy-out dans le diagnostic, la thérapeutique, les services pharma et le medtech."
+    },
+    "sources": [
+      {
+        "url": "https://merieux-partners.com/about-us/",
+        "title": "About us",
+        "publisher": "Mérieux Equity Partners",
+        "accessed": "undefined",
+        "supports": "Fund sizes, Lyon/Paris HQ, Institut Mérieux family relationship, sector focus",
+        "quote": "powered by Institut Mérieux ... Mérieux Innovation 2 (2025) - Investment phase: €150m ... Mérieux Participations 4 (Buyout): €568m (closed 2023). 7 rue Grolée 69002 Lyon, France; 37 Rue de Surène 75008 Paris, France"
+      },
+      {
+        "url": "https://www.institut-merieux.com/en/who-we-are/",
+        "title": "Who We Are",
+        "publisher": "Institut Mérieux",
+        "accessed": "undefined",
+        "supports": "Mérieux family ownership and history since 1897"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-arve-capital",
+    "name": { "en": "Arve Capital" },
+    "type": "family-office",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Heidelberg",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "geo_focus": ["Europe"],
+      "thesis": "Venture arm of the Sanner Family Office (German healthcare-packaging fortune founded 1894 in Bensheim); backs European early-stage technology startups in health and well-being up to Series A."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Eterno Health", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Research Grid", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "OnDosis", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Heidelberg-based venture capital vehicle of the Sanner Family Office (healthcare-packaging fortune), investing in European early-stage health and well-being technology startups."
+    },
+    "sources": [
+      {
+        "url": "https://www.life-sciences-germany.com/organisation/arve-capital-sanner-family-office-germany-town-unspecified-2001-50370.html",
+        "title": "Arve Capital (Sanner Family Office)",
+        "publisher": "Life-Sciences-Germany.com",
+        "accessed": "undefined",
+        "supports": "Sanner Family Office relationship and healthtech focus"
+      },
+      {
+        "url": "https://nordic9.com/companies/arve-capital/",
+        "title": "Arve Capital (investor - Family office)",
+        "publisher": "Nordic9",
+        "accessed": "undefined",
+        "supports": "Founded 2022, Heidelberg base, Series A focus",
+        "quote": "Arve Capital is the venture capital investment company of the Sanner Family Office with an investment focus on technology-based start-ups in the field of health and well-being. Founded in 2022, Arve Capital is a venture capital firm based in Heidelberg, Germany."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No confirmed official Arve Capital website URL was seen in search results; sourced from directory/profile sites.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-apeiron-investment-group",
+    "name": { "en": "Apeiron Investment Group" },
+    "type": "family-office",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "Malta",
+    "hq_city": "Sliema",
+    "offices": [
+      { "country": "Germany", "city": "Berlin" },
+      { "country": "United Kingdom", "city": "London" }
+    ],
+    "website": "https://apeiron-investments.com/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "longevity-aging", "mental-health"],
+      "geo_focus": ["Europe", "United States", "Global"],
+      "thesis": "Merchant-banking family office of German entrepreneur Christian Angermayer investing across life sciences, fintech/crypto and future tech; co-founded mental-health biotech atai Life Sciences and backs longevity biotechs Rejuveron and Cambrian Biopharma."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "indications": ["psychiatry-mental-health", "aging-longevity"],
+      "company_creation": true
+    },
+    "capital": {
+      "aum": { "raw": "USD 2.5b+", "usd": 2500000000, "currency": "USD" }
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "atai Life Sciences", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Rejuveron Life Sciences", "sector": "longevity-aging", "outcome": "active" },
+        { "company": "Cambrian Biopharma", "sector": "longevity-aging", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Christian Angermayer's Malta-based family office and merchant-banking firm, a heavy biotech investor that co-founded psychedelics/mental-health biotech atai Life Sciences and backs several longevity biotechs."
+    },
+    "sources": [
+      {
+        "url": "https://apeiron-investments.com/",
+        "title": "Apeiron Investment Group",
+        "publisher": "Apeiron Investment Group",
+        "accessed": "undefined",
+        "supports": "Official site confirming Malta base and life-sciences focus"
+      },
+      {
+        "url": "https://www.privateequityinternational.com/institution-profiles/apeiron-investment-group.html",
+        "title": "Apeiron Investment Group | Institution Profile",
+        "publisher": "Private Equity International",
+        "accessed": "undefined",
+        "supports": "AUM and Sliema, Malta HQ, life sciences focus",
+        "quote": "Apeiron Investment Group is based in Sliema, Malta, and functions as Angermayer's family office and merchant-banking business, which invests across life sciences, financial technology, cryptocurrency and future technologies. The firm has more than USD2.5b of assets under management across its venture funds."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Christian_Angermayer",
+        "title": "Christian Angermayer",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "atai Life Sciences co-founding, Rejuveron and Cambrian Biopharma investments"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-apres-demain",
+    "name": { "en": "Après-demain" },
+    "type": "family-office",
+    "status": "active",
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Lausanne",
+    "website": "https://www.apres-demain.com",
+    "strategy": {
+      "sector_focus": ["therapeutics", "digital-health"],
+      "geo_focus": ["Europe", "Global"],
+      "thesis": "Family holding company of Thierry Mauvernay, parent of biopharmaceutical group Debiopharm (founded by his father in 1979); Debiopharm develops oncology and infectious-disease drugs and runs the Debiopharm Innovation Fund for digital health, alongside Après-demain's broader impact-investing activities."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "indications": ["oncology", "infectious-disease"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Debiopharm", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Swiss holding company of the Mauvernay family, parent of oncology/infectious-disease drug developer Debiopharm and its digital-health innovation fund, alongside diversified impact investments.",
+      "local": "Société de portefeuille suisse de la famille Mauvernay, maison-mère du groupe pharmaceutique Debiopharm (oncologie, maladies infectieuses) et de son fonds d'innovation en santé numérique."
+    },
+    "sources": [
+      {
+        "url": "https://www.apres-demain.com/en/about/",
+        "title": "About - Après-demain",
+        "publisher": "Après-demain",
+        "accessed": "undefined",
+        "supports": "Family holding structure, relationship to Debiopharm"
+      },
+      {
+        "url": "https://www.debiopharm.com/",
+        "title": "Debiopharm - We develop for patients and their quality of life",
+        "publisher": "Debiopharm",
+        "accessed": "undefined",
+        "supports": "Debiopharm as life-science division of Après-demain, founding by Rolland-Yves and Thierry Mauvernay",
+        "quote": "Debiopharm is the Life Science division of our parent company Après-demain SA... Created by Dr Rolland-Yves Mauvernay in 1979 and joined by his son Thierry Mauvernay in 2001, Debiopharm consolidates its expertise in the development of innovative therapies in oncology and infectious diseases."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "hq_city (Lausanne) inferred from Debiopharm's well-known headquarters location; not independently re-verified with a fetched primary source in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-occident-group",
+    "name": { "en": "Occident Group" },
+    "aka": ["Occident", "Occident Ventures GmbH", "The Science Investor"],
+    "type": "family-office",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1993,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Zug",
+    "offices": [
+      { "country": "Germany", "city": "Munich" }
+    ],
+    "website": "https://www.occident.group/en/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "animal-health"],
+      "geo_focus": ["Germany", "Switzerland", "Europe"],
+      "thesis": "Owner-managed venture investor ('The Science Investor') deploying long-term own-family capital into science-driven life-sciences and industrial-tech startups from seed stage, spanning biotech, pharma, diagnostics, medtech, healthtech and veterinary medicine."
+    },
+    "track_record": {
+      "portfolio_count": 17,
+      "exits": [
+        { "company": "Tubulis", "type": "M&A", "year": 2026 }
+      ]
+    },
+    "summary": {
+      "en": "Zug/Munich-based owner-managed venture investor deploying family capital long-term into life-sciences and industrial-tech startups from seed stage, with a portfolio spanning biotech, pharma, diagnostics and medtech."
+    },
+    "sources": [
+      {
+        "url": "https://www.occident.group/en/",
+        "title": "OCCIDENT - The Science Investor",
+        "publisher": "Occident Group",
+        "accessed": "undefined",
+        "supports": "Official site, self-description as science investor"
+      },
+      {
+        "url": "https://www.swissbiotech.org/listing/occident-group-ag/",
+        "title": "Occident Group AG",
+        "publisher": "Swiss Biotech Association",
+        "accessed": "undefined",
+        "supports": "Swiss biotech ecosystem membership listing"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/occident-group",
+        "title": "Occident Group Portfolio Investments",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Founded 1993, 17 portfolio companies, Tubulis exit",
+        "quote": "As an owner-managed venture capital investor, Occident supports life sciences and industrial tech start-ups from the seed stage onwards, investing own money long-term. The company currently has 17 portfolio companies and has realized 6 exits to date. Their latest portfolio exit was Tubulis on April 07, 2026."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-wille-finance",
+    "name": { "en": "Wille Finance" },
+    "type": "family-office",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Baar",
+    "website": "https://www.willefinance.com",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "check_size": { "raw": "$1M-$5M", "usd_min": 1000000, "usd_max": 5000000 },
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": ["Europe", "North America", "Middle East"],
+      "thesis": "International Swiss family office allocating across private equity/venture capital, real estate and listed assets; within private equity it targets early-stage life-science, pharmaceutical, medical-device and biotechnology companies alongside growth/late-stage deals."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "portfolio_count": "38+",
+      "notable_investments": [
+        { "company": "T3 Pharmaceuticals", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Visus Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Araris Biotech", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Baar-based Swiss family office founded 2007 that targets venture and growth-stage life-science, pharma, medtech and biotech companies, with about 15 of its 38+ portfolio companies in life sciences."
+    },
+    "sources": [
+      {
+        "url": "https://www.willefinance.com/",
+        "title": "Wille Finance",
+        "publisher": "Wille Finance",
+        "accessed": "undefined",
+        "supports": "Official site confirming family office and private-equity/life-science focus"
+      },
+      {
+        "url": "https://www.fintrx.com/blog/5-family-offices-investing-in-biotechnology-companies",
+        "title": "5 Family Offices Investing in Biotechnology Companies",
+        "publisher": "FINTRX",
+        "accessed": "undefined",
+        "supports": "Check size range, life-science share of portfolio",
+        "quote": "Wille Finance targets venture and growth stage companies operating within the life science, pharmaceuticals, medical devices, technology, and biotechnology sectors... generally writing checks ranging from $1M-$5M. The portfolio currently comprises more than 38 companies, 15 of which are in the life-science sector."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "eu-kinled-holdings",
+    "name": { "en": "Kinled Holdings" },
+    "aka": ["Kinled Holding", "Kinled", "Aisher Family Office"],
+    "type": "family-office",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [
+      { "country": "Hong Kong", "city": "Hong Kong" },
+      { "country": "Switzerland", "city": "Zurich" },
+      { "country": "Austria", "city": "Vienna" }
+    ],
+    "website": "https://www.kinled.com/",
+    "strategy": {
+      "sector_focus": ["medtech-devices", "surgical-robotics", "digital-health"],
+      "geo_focus": ["Europe", "Global"],
+      "thesis": "Single-family office of the Anglo-Austrian Aisher family (Marley building-materials fortune, founded 1924); over half of its portfolio is dedicated to biomedical technology, medical devices, robotics, neuromodulation and digital healthcare, run through four dedicated life-science funds managed from Vienna and Zurich."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "neurotech-bci"]
+    },
+    "capital": {
+      "aum": { "raw": "€300M (dedicated life-science funds)", "usd": null, "currency": "EUR" }
+    },
+    "track_record": {
+      "portfolio_count": 175,
+      "exits": [
+        { "company": "aggregate track record", "type": "M&A/IPO", "value": { "raw": "50+ exits, 21 IPOs" } }
+      ]
+    },
+    "summary": {
+      "en": "Family office of the Anglo-Austrian Aisher family; more than half of its ~175-company portfolio targets biomedical technology, medical devices, robotics and digital healthcare, invested through dedicated life-science funds managed from Vienna and Zurich."
+    },
+    "sources": [
+      {
+        "url": "https://www.kinled.com/",
+        "title": "Home | Kinled",
+        "publisher": "Kinled",
+        "accessed": "undefined",
+        "supports": "Official site describing life-science and digital-technology focus"
+      },
+      {
+        "url": "https://altss.com/profile/kinled-holding-aisher-family-office",
+        "title": "Kinled Holding (Aisher Family Office) | Hong Kong Single Family Office",
+        "publisher": "Altss",
+        "accessed": "undefined",
+        "supports": "Life-science fund AUM, portfolio composition, Vienna/Zurich fund management, Hong Kong global HQ",
+        "quote": "In life sciences, Kinled has a laser-focus on innovation in the biomedical technology, medical devices, robotics, neuromodulation, and digital healthcare services sectors, which represents over 50% of their portfolio... four dedicated Life Science investment companies managed from Vienna and Zurich, with combined Assets under Management of €300M."
+      },
+      {
+        "url": "https://www.trendingtopics.eu/patrick-aisher-investment-network/",
+        "title": "The Global Investment Network of Patrick Aisher",
+        "publisher": "Trending Topics",
+        "accessed": "undefined",
+        "supports": "Aisher family background, Anglo-Austrian family office description"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Kinled's overall single-family-office HQ is Hong Kong (with a London office for the Anglo-Austrian Aisher family); included in this Europe slice because it operates four dedicated life-science investment funds managed from Vienna and Zurich covering the European market.",
+    "last_updated": "undefined",
+    "researched_by": "family-office-lifesci"
+  }
+]

@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "us-intuitive-ventures",
+    "name": { "en": "Intuitive Ventures" },
+    "aka": ["Intuitive Surgical Ventures"],
+    "type": "cvc",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Sunnyvale, CA",
+    "website": "https://ventures.intuitive.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/intuitiveventures"
+    },
+    "capital": {
+      "aum": { "raw": "$250M+", "usd": 250000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund I", "vintage_year": 2020, "size": { "raw": "$100M", "usd": 100000000, "currency": "USD" } },
+        { "name": "Fund II", "vintage_year": null, "size": { "raw": "$150M", "usd": 150000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "$5–10M+ average first investment", "usd_min": 5000000, "usd_max": 10000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["Global", "United States"],
+      "sector_focus": ["surgical-robotics", "medtech-devices", "diagnostics", "digital-health", "therapeutics"],
+      "thesis": "Corporate venture arm of Intuitive Surgical (maker of the da Vinci surgical robot); backs early-stage companies advancing minimally invasive care across precision diagnostics, medtech/interventional devices, focal therapeutics and secure digital health ecosystems."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "15+",
+      "notable_investments": [
+        { "company": "Capstan Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Neocis", "sector": "surgical-robotics", "outcome": "active" },
+        { "company": "MedCrypt", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Optellum", "sector": "medical-imaging", "outcome": "active" },
+        { "company": "KelaHealth", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "tags": ["surgical-robotics", "minimally-invasive", "corporate-vc", "medtech"],
+    "summary": {
+      "en": "The corporate venture capital arm of Intuitive Surgical, investing globally in early-stage minimally invasive care startups across precision diagnostics, medtech, focal therapeutics and digital ecosystems, with $250M+ AUM across two funds."
+    },
+    "sources": [
+      {
+        "url": "https://ventures.intuitive.com/",
+        "title": "Intuitive Ventures",
+        "publisher": "Intuitive Ventures",
+        "accessed": "undefined",
+        "supports": "AUM, first-check size, portfolio count, corporate parent",
+        "quote": "Assets Under Management: $250M+; Average First Investment: $5–10M+; Portfolio Companies: 15+ and growing"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/medtech/intuitives-vc-arm-closes-second-fund-150m-startups-improving-minimally-invasive-care",
+        "title": "Intuitive's VC arm closes second fund with $150M for minimally invasive care startups",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Fund II size $150M, focus areas",
+        "quote": "Intuitive's VC arm closes second fund with $150M for minimally invasive care startups"
+      },
+      {
+        "url": "https://www.medtechdive.com/news/robotic-surgery-intuitive-100m-venture-fund/588345/",
+        "title": "What Intuitive is looking for through its new $100M venture fund",
+        "publisher": "MedTech Dive",
+        "accessed": "undefined",
+        "supports": "Fund I size $100M, 2020 launch",
+        "quote": "What Intuitive is looking for through its new $100M venture fund"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM, check size and portfolio count taken from the official Intuitive Ventures site; Fund I ($100M, 2020) and Fund II ($150M) sizes from trade press. Fund II vintage year not confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-boston-scientific-ventures",
+    "name": { "en": "Boston Scientific Ventures" },
+    "aka": ["Boston Scientific Corporate Venture Capital", "BSC Ventures"],
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Marlborough, MA",
+    "website": "https://www.bostonscientific.com/en-US/about-us/ventures.html",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Global", "United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "therapeutics"],
+      "thesis": "Corporate venture arm of Boston Scientific; strategic investor in medical-technology companies from early-stage R&D through commercialization, both in Boston Scientific's core areas (cardiovascular, endoscopy, urology, neuromodulation) and adjacent new areas, frequently acquiring companies out of its own portfolio."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": ["cardiovascular", "gastroenterology-hepatology", "neurology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "40+ active (70+ since 2012)",
+      "notable_investments": [
+        { "company": "4C Medical Technologies", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "SetPoint Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "MiRus", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "tags": ["corporate-vc", "medtech", "cardiovascular", "strategic-acquirer"],
+    "summary": {
+      "en": "The corporate venture capital arm of Boston Scientific, which has invested over $1 billion in 70+ medical-device companies since 2012 (40+ currently active) and often acquires companies from its venture portfolio."
+    },
+    "sources": [
+      {
+        "url": "https://www.bostonscientific.com/en-US/about-us/ventures.html",
+        "title": "Get to Know Boston Scientific Ventures",
+        "publisher": "Boston Scientific",
+        "accessed": "undefined",
+        "supports": "Amount invested, portfolio count, strategy",
+        "quote": "over $1B ... more than 70 portfolio companies ... more than 40 active"
+      },
+      {
+        "url": "https://www.medtechdive.com/news/4c-medical-technologies-boston-scientific-funding-tmvr/741731/",
+        "title": "Boston Scientific leads $175M investment in 4C Medical",
+        "publisher": "MedTech Dive",
+        "accessed": "undefined",
+        "supports": "Portfolio example 4C Medical, ~$100M/yr venture deployment",
+        "quote": "Boston Scientific leads $175M investment in 4C Medical"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Cumulative-invested and active-portfolio figures are from the official Boston Scientific Ventures page (since 2012). The '1979' founding date seen in some aggregators is Boston Scientific's corporate founding, not the venture arm's.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-medtronic-ventures",
+    "name": { "en": "Medtronic Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Minneapolis, MN",
+    "offices": [
+      { "country": "United States", "city": "Minneapolis" },
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://www.medtronic.com",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Global", "United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "surgical-robotics"],
+      "thesis": "Corporate venture arm of Medtronic, the world's largest medical-device company; invests from seed through growth off the corporate balance sheet in medical devices, diagnostic tools and digital health that stay strictly adjacent to Medtronic's regulated device franchises, requiring operating-unit sponsorship and avoiding pure biotech/pharma."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "indications": ["cardiovascular", "neurology", "metabolic-obesity"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": [
+        { "company": "SetPoint Medical", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "people": [],
+    "tags": ["corporate-vc", "medtech", "strategic-investor"],
+    "summary": {
+      "en": "The corporate venture capital arm of Medtronic, investing seed-through-growth from the corporate balance sheet in medical devices, diagnostics and digital health adjacent to Medtronic's device businesses, operating from Minneapolis, Boston and New York."
+    },
+    "sources": [
+      {
+        "url": "https://pitchbook.com/profiles/investor/14193-82",
+        "title": "Medtronic Ventures investment portfolio",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "Existence, strategy, offices",
+        "quote": "Medtronic Ventures is the corporate venture capital arm of Medtronic"
+      },
+      {
+        "url": "https://www.medicaldesignandoutsourcing.com/medtronics-vc-director-discusses-risk-returns-strategy-and-an-ugly-truth/",
+        "title": "Medtronic's VC director discusses risk, returns, strategy and an 'ugly truth'",
+        "publisher": "Medical Design & Outsourcing",
+        "accessed": "undefined",
+        "supports": "Balance-sheet model, strategic adjacency, operating-unit sponsorship",
+        "quote": "Medtronic's VC director discusses risk, returns, strategy and an 'ugly truth'"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Medtronic Ventures invests off Medtronic's corporate balance sheet rather than a defined external fund, so no discrete fund size exists. No dedicated public ventures webpage was reachable; profile assembled from PitchBook and medtech trade press.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-abbott-ventures",
+    "name": { "en": "Abbott Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Abbott Park, IL",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/abbott-ventures"
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "check_size": { "raw": "$10M–$50M (Series B and later)", "usd_min": 10000000, "usd_max": 50000000 },
+      "lead_or_follow": "follow",
+      "geo_focus": ["Global", "United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Corporate venture arm of Abbott Laboratories; invests in emerging medical technologies—medical devices, diagnostics, diabetes care, drug delivery and drug-device combinations—that align with Abbott's device and diagnostics divisions."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "wearables-sensors", "software-samd", "drug-delivery"],
+      "indications": ["cardiovascular", "metabolic-obesity"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Bigfoot Biomedical", "sector": "digital-health", "outcome": "acquired" },
+        { "company": "Direct Flow Medical", "sector": "medtech-devices", "outcome": "shutdown" }
+      ]
+    },
+    "tags": ["corporate-vc", "medtech", "diagnostics", "diabetes"],
+    "summary": {
+      "en": "The corporate venture capital arm of Abbott Laboratories, founded in 2004, investing typically $10M–$50M at Series B and later in medical devices, diagnostics and drug-device combinations aligned with Abbott's core businesses."
+    },
+    "sources": [
+      {
+        "url": "https://www.cbinsights.com/investor/abbott-ventures",
+        "title": "Abbott Ventures Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Existence, founding year, focus, portfolio",
+        "quote": "Abbott Ventures is the corporate venture capital arm of Abbott Laboratories"
+      },
+      {
+        "url": "https://pitchbook.com/profiles/investor/81786-07",
+        "title": "Abbott Ventures investment portfolio",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "Deal size range, stages",
+        "quote": "medical devices, diagnostics, drug delivery, and drug-device combinations"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Abbott Ventures has no standalone public website (abbottventures.com redirects to Abbott's licensing page); profile assembled from CB Insights and PitchBook. Founding year (2004) and $10–$50M check range are from secondary aggregators.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-baxter-ventures",
+    "name": { "en": "Baxter Ventures" },
+    "type": "cvc",
+    "status": "dormant",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Deerfield, IL",
+    "website": "https://www.baxter.com/our-story/fueling-collaborative-innovation/baxter-ventures",
+    "capital": {
+      "current_fund": { "raw": "$200M", "usd": 200000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Global", "United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "healthcare-it", "therapeutics"],
+      "thesis": "Corporate venture arm of Baxter International; a $200M fund for early-stage medtech investments aligned with Baxter's critical care, hospital, renal, surgical and pharmacy-technology franchises, plus adjacencies."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "drug-delivery"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Hospital IQ", "sector": "healthcare-it", "outcome": "acquired" },
+        { "company": "ProMedix", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "tags": ["corporate-vc", "medtech", "critical-care", "renal"],
+    "summary": {
+      "en": "The $200M corporate venture arm of Baxter International (est. 2011) for early-stage medtech; now substantially dormant, with no new investments recorded since 2022."
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/biotech/baxter-sets-up-200m-venture-arm-for-early-stage-investments",
+        "title": "Baxter sets up $200M venture arm for early-stage investments",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Fund size $200M, early-stage focus",
+        "quote": "Baxter sets up $200M venture arm for early-stage investments"
+      },
+      {
+        "url": "https://www.baxter.com/our-story/fueling-collaborative-innovation/baxter-ventures",
+        "title": "Baxter Ventures",
+        "publisher": "Baxter International",
+        "accessed": "undefined",
+        "supports": "Existence, focus areas, corporate parent",
+        "quote": "Baxter Ventures"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Marked dormant: aggregators (Tracxn) show no new Baxter Ventures investments since ProMedix in March 2022 and latest exit (Hospital IQ) in Jan 2023. Founding year is variously reported as 2011 or 2017.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-labcorp-venture-fund",
+    "name": { "en": "Labcorp Venture Fund" },
+    "aka": ["LabCorp Venture Fund"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Burlington, NC",
+    "website": "https://www.labcorp.com/venture-fund",
+    "capital": {
+      "aum": { "raw": "over $300 million deployed since 2012", "usd": 300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "check_size": { "raw": "$0.5M–$2M per company", "usd_min": 500000, "usd_max": 2000000 },
+      "lead_or_follow": "follow",
+      "geo_focus": ["Global", "United States"],
+      "sector_focus": ["diagnostics", "digital-health", "genomics-omics", "cell-gene-therapy", "pharma-services"],
+      "thesis": "Strategic corporate venture arm of Laboratory Corporation of America (Labcorp); invests in diagnostic innovation, precision medicine, digital health, cell & gene therapy and point-of-care solutions tied to Labcorp's clinical-lab and drug-development businesses, typically co-investing rather than leading."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "50+ active (85+ direct investments)"
+    },
+    "tags": ["corporate-vc", "diagnostics", "precision-medicine", "clinical-lab"],
+    "summary": {
+      "en": "The strategic corporate venture arm of Labcorp (est. 2012), which has deployed over $300M across 85+ direct investments (50+ active) in diagnostics, precision medicine, digital health and cell & gene therapy, writing $0.5M–$2M checks and preferring to co-invest."
+    },
+    "sources": [
+      {
+        "url": "https://www.labcorp.com/venture-fund",
+        "title": "Labcorp Venture Fund",
+        "publisher": "Labcorp",
+        "accessed": "undefined",
+        "supports": "Existence, focus areas, deployment, portfolio count, check size",
+        "quote": "deployed over $300 million across more than 85 direct investments, with 50+ active portfolio companies"
+      },
+      {
+        "url": "https://www.labcorp.com/venture-fund/about",
+        "title": "About | Labcorp Venture Fund",
+        "publisher": "Labcorp",
+        "accessed": "undefined",
+        "supports": "Founding year, co-invest strategy, check size",
+        "quote": "The fund invests between USD 0.5 and USD 2 million per company"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Deployment ($300M+), portfolio counts and $0.5–$2M check size are as reported on Labcorp's official venture-fund pages (the /about subpage returned a 403 on re-fetch but figures were captured from search results of the official domain).",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-dexcom-ventures",
+    "name": { "en": "Dexcom Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego, CA",
+    "website": "https://dexcomventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Global", "United States"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics", "consumer-health"],
+      "thesis": "Corporate venture arm of Dexcom (continuous glucose monitoring); invests in biosensing and data-driven healthcare—sensing technology, data analytics, remote patient monitoring and metabolic health—that is adjacent to or extends Dexcom's core CGM strategy."
+    },
+    "lifesci": {
+      "modalities": ["wearables-sensors", "software-samd", "ai-ml-platform"],
+      "indications": ["metabolic-obesity"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "Steve Pacelli", "role": "Lead / EVP Strategy & Corporate Development", "background": "Longtime Dexcom executive" }
+    ],
+    "tags": ["corporate-vc", "diabetes", "biosensing", "remote-monitoring"],
+    "summary": {
+      "en": "The corporate venture arm of Dexcom, launched in 2021, investing in biosensing, metabolic health, remote monitoring and data-driven healthcare adjacent to its continuous glucose monitoring franchise."
+    },
+    "sources": [
+      {
+        "url": "https://dexcomventures.com/",
+        "title": "Dexcom Ventures",
+        "publisher": "Dexcom Ventures",
+        "accessed": "undefined",
+        "supports": "Focus on biosensing/adjacency, existence",
+        "quote": "biosensing and data-driven healthcare"
+      },
+      {
+        "url": "https://investors.dexcom.com/news/news-details/2021/Dexcom-Launches-Inaugural-Venture-Capital-Fund/default.aspx",
+        "title": "Dexcom Launches Inaugural Venture Capital Fund",
+        "publisher": "Dexcom, Inc.",
+        "accessed": "undefined",
+        "supports": "2021 launch, focus areas, leadership",
+        "quote": "Dexcom Launches Inaugural Venture Capital Fund"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund size is undisclosed on the official site. Founding (2021) and leadership (Steve Pacelli) from Dexcom's launch press release and trade coverage.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-danaher-ventures",
+    "name": { "en": "Danaher Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Washington, DC",
+    "website": "https://www.danaher.com/danaher-ventures",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Global", "United States", "Europe"],
+      "sector_focus": ["life-science-tools", "diagnostics", "therapeutics", "healthcare-it", "ai-drug-discovery"],
+      "thesis": "Corporate venture arm of Danaher; invests in early-stage, breakthrough technologies across biotechnology, diagnostics, life sciences and data sciences, leveraging the Danaher Business System to scale platforms that solve challenges in biologic drug R&D/production and the diagnostics market."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Scopio Labs", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Innovaccer", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "AOA Dx", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Murali Venkatesan", "role": "Vice President & Head of Danaher Ventures (Americas & Europe)" }
+    ],
+    "tags": ["corporate-vc", "life-science-tools", "diagnostics", "biotech"],
+    "summary": {
+      "en": "The corporate venture arm of Danaher (est. 2017), investing in early-stage breakthrough technologies across biotechnology, diagnostics, life sciences and data sciences."
+    },
+    "sources": [
+      {
+        "url": "https://www.danaher.com/danaher-ventures",
+        "title": "Danaher Ventures",
+        "publisher": "Danaher",
+        "accessed": "undefined",
+        "supports": "Founding year, focus areas, leadership",
+        "quote": "early-stage, breakthrough technologies across biotechnology, diagnostics, life sciences and data sciences"
+      },
+      {
+        "url": "https://investors.danaher.com/2025-01-09-Danaher-Announces-Investment-Partnership-in-Innovaccer-Inc",
+        "title": "Danaher Announces Investment Partnership in Innovaccer Inc.",
+        "publisher": "Danaher Corporation",
+        "accessed": "undefined",
+        "supports": "Portfolio example (Innovaccer)",
+        "quote": "Danaher Diagnostics LLC and Danaher Ventures LLC announced they have formed an investment partnership with Innovaccer Inc."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year (2017), focus and leadership (Murali Venkatesan) confirmed on Danaher's official ventures page. Check sizes and fund size not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-illumina-ventures",
+    "name": { "en": "Illumina Ventures" },
+    "type": "cvc",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, CA",
+    "website": "https://www.illuminaventures.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/illumina-ventures"
+    },
+    "capital": {
+      "aum": { "raw": "~$560M total capital under management (2021)", "usd": 560000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund I", "vintage_year": 2017, "size": { "raw": "$230M (grew from $100M Illumina anchor)", "usd": 230000000, "currency": "USD" } },
+        { "name": "Fund II", "vintage_year": 2021, "size": { "raw": "$325M", "usd": 325000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Europe"],
+      "sector_focus": ["genomics-omics", "diagnostics", "life-science-tools", "digital-health", "ai-drug-discovery"],
+      "thesis": "Genomics and precision-health specialist venture fund spun out of and anchored by Illumina Inc.; backs startups in genomics, diagnostics, life-science tools and digital health, combining patient capital with in-kind sequencing technology and access to Illumina's resources."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation", "gene-editing"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "25+",
+      "notable_investments": [
+        { "company": "Twist Bioscience", "sector": "life-science-tools", "outcome": "IPO" },
+        { "company": "Delfi Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "DNA Script", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "Alamar Biosciences", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "Fluent Biosciences", "sector": "life-science-tools", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["genomics", "precision-health", "life-science-tools", "corporate-anchored"],
+    "summary": {
+      "en": "Genomics and precision-health venture fund founded in 2016 with an anchor investment from Illumina; ~$560M under management across funds of $230M (2017) and $325M (2021), investing in genomics, diagnostics, life-science tools and digital health."
+    },
+    "sources": [
+      {
+        "url": "https://www.illuminaventures.com/",
+        "title": "Illumina Ventures",
+        "publisher": "Illumina Ventures",
+        "accessed": "undefined",
+        "supports": "Focus, positioning, portfolio",
+        "quote": "the leader in genomics and precision health investing"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/medtech/illumina-ventures-bumps-up-fund-to-230m",
+        "title": "Illumina Ventures bumps up fund to $230M",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Fund I $230M (from $100M anchor), 2016 spin-out",
+        "quote": "Illumina Ventures bumps up fund to $230M"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20210920005278/en/Illumina-Ventures-Closes-%24325-Million-Fund",
+        "title": "Illumina Ventures Closes $325 Million Fund",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Fund II $325M (2021), total ~$560M under management",
+        "quote": "Illumina Ventures Closes $325 Million Fund"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Structured as an independent venture fund anchored by Illumina with external LPs (endowments, sovereign wealth, family offices), so it straddles CVC and independent VC; classified as cvc given its Illumina anchor and in-kind sequencing support. A third fund was raised c.2023-2024 with a reduced target.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-olympus-innovation-ventures",
+    "name": { "en": "Olympus Innovation Ventures" },
+    "aka": ["OIV"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Center Valley, PA",
+    "website": "https://olympusamerica.com/olympus-innovation-ventures",
+    "capital": {
+      "aum": { "raw": "~$200M ($50M Fund I + $150M Fund II)", "usd": 200000000, "currency": "USD" },
+      "funds": [
+        { "name": "OIV Fund I", "vintage_year": 2021, "size": { "raw": "$50M", "usd": 50000000, "currency": "USD" } },
+        { "name": "OIV Fund II", "vintage_year": 2025, "size": { "raw": "$150M", "usd": 150000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "check_size": { "raw": "$500K–$10M", "usd_min": 500000, "usd_max": 10000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["Global", "United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "surgical-robotics"],
+      "thesis": "Corporate venture fund of Olympus (endoscopy leader), managed with Cerity Partners Ventures; invests in medical devices, diagnostics and digital health that complement or extend Olympus's endoscopic solutions in GI, urology, respiratory and adjacent areas."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "indications": ["gastroenterology-hepatology", "nephrology-urology", "respiratory", "oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "9",
+      "notable_investments": [
+        { "company": "Virgo", "sector": "digital-health", "outcome": "active" },
+        { "company": "Alimetry", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Neuspera Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Universal Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "On Target Laboratories", "sector": "medical-imaging", "outcome": "active" }
+      ]
+    },
+    "tags": ["corporate-vc", "endoscopy", "gastroenterology", "medtech"],
+    "summary": {
+      "en": "The corporate venture fund of Olympus (managed with Cerity Partners Ventures), investing $500K–$10M from seed to growth in devices, diagnostics and digital health adjacent to endoscopy; ~$200M across a $50M Fund I (2021) and $150M Fund II (2025)."
+    },
+    "sources": [
+      {
+        "url": "https://olympusamerica.com/olympus-innovation-ventures",
+        "title": "Olympus Innovation Ventures",
+        "publisher": "Olympus America",
+        "accessed": "undefined",
+        "supports": "Focus, check size, stage, portfolio, manager",
+        "quote": "medical devices, diagnostics and digital health that complement or extend our market leading endoscopic solutions"
+      },
+      {
+        "url": "https://www.massdevice.com/olympus-launches-second-medtech-investment-fund-150m/",
+        "title": "Olympus launches second medtech investment fund with $150M",
+        "publisher": "MassDevice",
+        "accessed": "undefined",
+        "supports": "Fund II $150M (triple Fund I's $50M)",
+        "quote": "Olympus launches second medtech investment fund with $150M"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Parent Olympus Corporation is headquartered in Tokyo, Japan; Olympus Innovation Ventures is the US-run CVC (Olympus Corporation of the Americas, Center Valley PA) managed with US-based Cerity Partners Ventures and invests largely in US startups — included here as a dedicated US arm of a foreign parent.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-terumo-ventures",
+    "name": { "en": "Terumo Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2024,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Somerset, NJ",
+    "offices": [
+      { "country": "United States", "city": "Massachusetts" },
+      { "country": "United States", "city": "California" }
+    ],
+    "capital": {
+      "current_fund": { "raw": "$75 million over five years", "usd": 75000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics"],
+      "thesis": "Corporate venture arm of Japan's Terumo Corporation, run as a department of Terumo Americas Holding; deploys $75M over five years into early-stage companies in cardiovascular disease treatment, chronic disease management and digital technologies, feeding Terumo's future M&A pipeline."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": ["cardiovascular"],
+      "company_creation": false
+    },
+    "tags": ["corporate-vc", "cardiovascular", "medtech", "new-fund"],
+    "summary": {
+      "en": "The corporate venture arm of Terumo Corporation, established August 2024 within Terumo Americas Holding, investing $75M over five years in early-stage cardiovascular, chronic-disease and digital-health startups from US hubs in Massachusetts and California."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/terumo-establishes-corporate-venture-capital-terumo-ventures-302214918.html",
+        "title": "Terumo Establishes Corporate Venture Capital \"Terumo Ventures\"",
+        "publisher": "PR Newswire / Terumo",
+        "accessed": "undefined",
+        "supports": "Fund size, establishment date, structure, focus, US hubs",
+        "quote": "$75 million over the next five years ... a department within Terumo Americas Holding, Inc."
+      },
+      {
+        "url": "https://asia.nikkei.com/business/health-care/japan-s-terumo-sets-up-75m-u.s.-venture-capital-fund",
+        "title": "Japan's Terumo sets up $75m U.S. venture capital fund",
+        "publisher": "Nikkei Asia",
+        "accessed": "undefined",
+        "supports": "US fund, $75M, focus areas",
+        "quote": "Japan's Terumo sets up $75m U.S. venture capital fund"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Parent Terumo Corporation is headquartered in Tokyo, Japan; Terumo Ventures is a dedicated US-based CVC (Terumo Americas Holding, Somerset NJ) operating from Massachusetts and California — included as a US arm of a foreign parent. Established August 2024.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-quest-diagnostics-ventures",
+    "name": { "en": "Quest Diagnostics Ventures" },
+    "aka": ["Quest Diagnostics corporate venture"],
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Secaucus, NJ",
+    "links": {
+      "crunchbase": "https://www.cbinsights.com/investor/quest-diagnostics"
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["United States"],
+      "sector_focus": ["diagnostics", "digital-health", "genomics-omics", "consumer-health", "healthcare-it"],
+      "thesis": "Corporate venture activity of Quest Diagnostics, one of the largest US clinical laboratories; invests strategically in advanced diagnostics, consumer-initiated testing and medical informatics that complement Quest's testing business and channels."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "12 investments (6 exits)",
+      "notable_investments": [
+        { "company": "Universal DX", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "tags": ["corporate-vc", "diagnostics", "clinical-lab", "consumer-testing"],
+    "summary": {
+      "en": "The corporate venture arm of Quest Diagnostics, a major US clinical lab, making strategic investments in advanced diagnostics, consumer-initiated testing and medical informatics; ~12 investments to date."
+    },
+    "sources": [
+      {
+        "url": "https://www.darkintelligencegroup.com/the-dark-report/laboratory-management/quest-diagnostics-emphasizes-venture-capital-investments/",
+        "title": "Quest Diagnostics Emphasizes Venture Capital Investments",
+        "publisher": "The Dark Report",
+        "accessed": "undefined",
+        "supports": "Existence of Quest Diagnostics Ventures, strategy",
+        "quote": "Venture capital investing is a significant business strategy at Quest Diagnostics"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/quest-diagnostics",
+        "title": "Quest Diagnostics Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Investment count, latest deal Universal DX (2024)",
+        "quote": "Quest Diagnostics has made 12 investments"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Quest confirms an active venture-investing program (Quest Diagnostics Ventures, led by a president), but there is limited standalone public disclosure; investment count and portfolio from CB Insights and The Dark Report. Quest is a diagnostics/testing company (in-scope), distinct from the payer/provider slice.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-ge-healthcare-ventures",
+    "name": { "en": "GE HealthCare Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2026,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago, IL",
+    "website": "https://www.gehealthcare.com",
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["medical-imaging", "medtech-devices", "digital-health", "diagnostics", "ai-drug-discovery"],
+      "thesis": "Newly launched dedicated corporate venture unit of GE HealthCare (the imaging, ultrasound, patient-monitoring and molecular-imaging company spun out of GE); invests in innovations advancing healthcare delivery, imaging and AI, GE's first dedicated venture fund since GE Ventures closed in 2021."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "medical-hardware", "software-samd"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "MediView XR", "sector": "surgical-robotics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Sabir Rassiwalla", "role": "Director, GE HealthCare Ventures", "background": "Ex-Abbott CVC (venture investments director); former CRG healthcare investor" }
+    ],
+    "tags": ["corporate-vc", "medical-imaging", "ai", "new-fund"],
+    "summary": {
+      "en": "The dedicated corporate venture unit of GE HealthCare, launched in early 2026 under CVC veteran Sabir Rassiwalla, focused on medical imaging, devices, diagnostics and AI — GE's first dedicated venture fund since GE Ventures wound down in 2021."
+    },
+    "sources": [
+      {
+        "url": "https://globalventuring.com/corporate/fundraising/ge-gets-back-healthcare-venture-unit/",
+        "title": "GE gets back in the CVC game with healthcare venture unit",
+        "publisher": "Global Corporate Venturing",
+        "accessed": "undefined",
+        "supports": "New CVC unit, leadership, first fund since GE Ventures (2021), MediView investment",
+        "quote": "GE Healthcare is forming a corporate venture capital unit under the guidance of CVC veteran Sabir Rassiwalla"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Nascent: reported in late January 2026 as a newly forming/launched dedicated CVC unit; no fund size or formal portfolio disclosed yet. GE HealthCare had previously made occasional balance-sheet investments (e.g., co-leading a $24M Series A for MediView). Founding year listed as 2026 (unit launch).",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-thermo-fisher-scientific",
+    "name": { "en": "Thermo Fisher Scientific (Corporate Venture / Strategic Investments)" },
+    "type": "cvc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Waltham, MA",
+    "website": "https://corporate.thermofisher.com",
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["life-science-tools", "pharma-services", "diagnostics", "genomics-omics"],
+      "thesis": "Corporate strategic investing by Thermo Fisher Scientific, the world's largest life-science tools and CDMO/bioprocessing company; takes minority stakes in enabling-technology companies and, via an expanded partnership with Flagship Pioneering, jointly creates new platform companies for life-science tools, diagnostics and services."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Strategic partnership with Flagship Pioneering to develop and commercially scale multiproduct platform companies with first-in-class enabling technologies for life sciences."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "IonPath", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "Olink Proteomics", "sector": "life-science-tools", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["corporate-strategic", "life-science-tools", "cdmo", "company-creation"],
+    "summary": {
+      "en": "The world's largest life-science tools and CDMO company invests strategically via corporate minority stakes and a company-creation partnership with Flagship Pioneering to build new platform companies in tools, diagnostics and bioprocessing services."
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/medtech/thermo-fisher-teams-flagship-forge-new-life-science-tool-startups",
+        "title": "Thermo Fisher teams up with Flagship Pioneering to forge new life science tool startups",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Flagship partnership creating platform companies for life-science tools",
+        "quote": "Thermo Fisher teams up with Flagship Pioneering to forge new life science tool startups"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/thermo-fisher-scientific",
+        "title": "Thermo Fisher Scientific Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Corporate minority investments (e.g., IonPath), acquisitions (Olink)",
+        "quote": "Thermo Fisher Scientific has made 5 investments, with their latest investment in Ionpath as part of their Corporate Minority"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Thermo Fisher does not operate a distinct named venture fund; its venture-style activity is corporate minority investing off the balance sheet plus a company-creation JV with Flagship Pioneering. Included as an in-scope life-science-tools/CDMO strategic investor; classified cvc with a venture-studio subtype for the Flagship company-creation model.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-charles-river-laboratories-ventures",
+    "name": { "en": "Charles River Laboratories (Venture & Strategic Investments)" },
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Wilmington, MA",
+    "website": "https://www.criver.com",
+    "capital": {
+      "aum": { "raw": "$121.2M venture capital and strategic investments balance (Dec 30, 2023)", "usd": 121158000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["pharma-services", "life-science-tools", "ai-drug-discovery", "diagnostics"],
+      "thesis": "Corporate venture and strategic-equity investing by Charles River Laboratories, a leading preclinical CRO/CDMO; takes minority stakes in early-stage drug-discovery, digital-pathology, lab-tools and biomanufacturing companies, often paired with commercial partnerships that can lead to acquisition."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation", "biologics-antibody"],
+      "company_creation": false,
+      "science_platform_notes": "Strategic minority stakes frequently accompany services/technology partnerships (e.g., digital pathology with Deciphex)."
+    },
+    "track_record": {
+      "portfolio_count": "14 investments",
+      "notable_investments": [
+        { "company": "Deciphex", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Wheeler Bio", "sector": "pharma-services", "outcome": "active" },
+        { "company": "Distributed Bio", "sector": "pharma-services", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["corporate-vc", "cro", "cdmo", "drug-discovery", "digital-pathology"],
+    "summary": {
+      "en": "The venture and strategic-investment activity of Charles River Laboratories, a leading preclinical CRO/CDMO, taking minority stakes (~$121M portfolio balance) in drug-discovery, digital-pathology and biomanufacturing companies, several of which it later acquired."
+    },
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1100682/000110068224000007/crl-20231230.htm",
+        "title": "Charles River Laboratories International, Inc. Form 10-K (FY2023)",
+        "publisher": "SEC EDGAR",
+        "accessed": "undefined",
+        "supports": "Venture capital and strategic investments balance $121.158M",
+        "quote": "venture capital and strategic equity investments had an ending balance of $121.158 million as of December 30, 2023"
+      },
+      {
+        "url": "https://ir.criver.com/news-releases/news-release-details/charles-river-laboratories-acquires-distributed-bio",
+        "title": "Charles River Laboratories Acquires Distributed Bio",
+        "publisher": "Charles River Laboratories",
+        "accessed": "undefined",
+        "supports": "Strategic-investment-to-acquisition pattern (Distributed Bio)",
+        "quote": "Charles River Laboratories Acquires Distributed Bio"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Charles River Laboratories (CRO/CDMO, NYSE: CRL) invests via a corporate venture-capital-and-strategic-equity portfolio disclosed in its 10-K rather than a distinct named fund. NOT to be confused with 'Charles River Ventures'/CRV, an unrelated Silicon Valley tech VC. CRL announced in 2025-2026 it is divesting its CDMO/Cell Solutions units to GI Partners.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-bd-ventures",
+    "name": { "en": "BD Ventures" },
+    "aka": ["Becton Dickinson Ventures"],
+    "type": "cvc",
+    "status": "dormant",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Franklin Lakes, NJ",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["medtech-devices", "diagnostics", "life-science-tools"],
+      "thesis": "Historical corporate venture arm of Becton Dickinson (BD), investing in early- and late-stage medical-technology, life-science and biotechnology companies aligned with BD's devices, diagnostics and biosciences businesses."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "lab-automation"],
+      "company_creation": false
+    },
+    "tags": ["corporate-vc", "medtech", "diagnostics", "dormant"],
+    "summary": {
+      "en": "The corporate venture arm of Becton Dickinson (founded 1999), which invested in medtech, life-science and biotech companies; now substantially inactive as BD restructures and moves to combine its Biosciences & Diagnostic Solutions unit with Waters Corporation."
+    },
+    "sources": [
+      {
+        "url": "https://www.cbinsights.com/investor/bd-ventures",
+        "title": "BD Ventures Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Founding year 1999, focus, HQ, investment count",
+        "quote": "BD Ventures was founded in 1999 and is headquartered in Franklin Lakes, NJ"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/bd-announces-intent-to-separate-biosciences-and-diagnostic-solutions-business-to-enhance-focus-drive-growth-and-unlock-value-302369388.html",
+        "title": "BD Announces Intent to Separate Biosciences and Diagnostic Solutions Business",
+        "publisher": "PR Newswire / BD",
+        "accessed": "undefined",
+        "supports": "Corporate restructuring context (Biosciences/Diagnostics separation)",
+        "quote": "separate BD's Biosciences and Diagnostic Solutions business from the rest of BD"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Marked dormant: aggregator data shows peak BD Ventures activity around 2017 and little new investing since; BD's current capital allocation centers on its business separation (Biosciences & Diagnostic Solutions to combine with Waters via a Reverse Morris Trust). Do not confuse with the unrelated 'BD Venture Limited' (bdventure.com).",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "us-agilent-ventures",
+    "name": { "en": "Agilent Ventures" },
+    "type": "cvc",
+    "status": "inactive",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Santa Clara, CA",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$2M–$10M per company (historical)", "usd_min": 2000000, "usd_max": 10000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["life-science-tools", "diagnostics", "genomics-omics"],
+      "thesis": "Former dedicated venture unit of Agilent Technologies (a leading life-science analytical instruments, diagnostics and genomics-tools company); historically invested up to $100M/year in early-stage companies, later concentrated on life-science / discovery-tools startups such as Mission Bio."
+    },
+    "lifesci": {
+      "modalities": ["lab-automation", "ai-ml-platform"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Mission Bio", "sector": "life-science-tools", "outcome": "active" }
+      ]
+    },
+    "tags": ["corporate-vc", "life-science-tools", "instruments", "inactive"],
+    "summary": {
+      "en": "The former venture unit of Agilent Technologies (launched 2000-2001, once targeting up to $100M/year), which invested in communications and life-science startups; now inactive, with Agilent's life-science-tools investing continuing only opportunistically."
+    },
+    "sources": [
+      {
+        "url": "https://www.investor.agilent.com/news-and-events/news/news-details/2001/Agilent-Technologies-Launches-Dedicated-Venture-Unit-Agilent-Ventures-to-Invest-up-to-100-Million-per-Year-in-Technology-Start-Ups/default.aspx",
+        "title": "Agilent Technologies Launches Dedicated Venture Unit; Agilent Ventures to Invest up to $100 Million per Year",
+        "publisher": "Agilent Technologies",
+        "accessed": "undefined",
+        "supports": "Launch, up to $100M/year, $2–$10M checks",
+        "quote": "Agilent Ventures to Invest up to $100 Million per Year in Technology Start-Ups"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/agilent-ventures",
+        "title": "Agilent Ventures - Crunchbase Company Profile & Funding",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Life-science portfolio examples (Mission Bio), inactive status",
+        "quote": "Agilent Ventures"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Verified anchor but marked inactive: the dedicated 'Agilent Ventures' unit dates to 2000-2001 and originally spanned communications and life sciences; it is no longer active per aggregators, though later life-science-tools holdings (e.g., Mission Bio) appear in portfolio data. Agilent Technologies (Santa Clara, CA) remains a major in-scope life-science-tools company but without a currently active named venture fund.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  }
+]

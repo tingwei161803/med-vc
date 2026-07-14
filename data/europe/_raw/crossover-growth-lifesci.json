@@ -1,0 +1,903 @@
+[
+  {
+    "id": "eu-novo-holdings",
+    "name": { "en": "Novo Holdings" },
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity", "vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Copenhagen",
+    "offices": [
+      { "country": "Denmark", "city": "Copenhagen" },
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "Singapore", "city": "Singapore" },
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://novoholdings.dk",
+    "capital": {
+      "aum": { "raw": "DKK 694 billion (EUR 93 billion) as of year-end 2025", "currency": "DKK" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Europe", "North America", "Asia", "Global"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Novo Holdings, the Copenhagen-based investment arm of the Novo Nordisk Foundation and controlling shareholder of Novo Nordisk and Novonesis, deploys capital across the full biotech lifecycle -- seed, venture, growth, principal investments and public biotech equities -- via teams in Copenhagen, London, Boston, San Francisco and Singapore."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "company_creation": true,
+      "science_platform_notes": "Runs dedicated seed/venture, growth (crossover) and public-equity strategies within its Life Science Investments division, which made up 52% of the total portfolio."
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Novo Holdings is the Denmark-based holding and investment company of the Novo Nordisk Foundation, one of the largest and most flexible investors globally spanning venture, growth, principal and public-market biotech/medtech investing."
+    },
+    "sources": [
+      {
+        "url": "https://novoholdings.dk/about",
+        "title": "Novo Holdings - About",
+        "publisher": "Novo Holdings",
+        "accessed": "undefined",
+        "supports": "AUM figure, global offices, multi-strategy investing across life science and capital investments",
+        "quote": "As of year-end 2025, Novo Holdings had Total Assets under Management of DKK 694 billion (EUR 93 billion)."
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/european-life-sciences-coalition-launches-strengthen-continental-biotech-financing",
+        "title": "European VCs join forces to boost flagging biotech investment in the region",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Scale and role in European biotech ecosystem, ELSC membership",
+        "quote": "Novo Holdings alone manages more assets than many national biotech ecosystems."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-jeito-capital",
+    "name": { "en": "Jeito Capital" },
+    "type": "growth-equity",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "capital": {
+      "aum": { "raw": "~EUR 1.6 billion after Jeito II close", "currency": "EUR" },
+      "funds": [
+        { "name": "Jeito II", "vintage_year": 2026, "size": { "raw": "$1.2 billion (~EUR 1 billion+)", "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Europe", "Israel"],
+      "sector_focus": ["therapeutics"],
+      "lead_or_follow": "lead",
+      "thesis": "Jeito Capital is a Paris-based growth-stage life-sciences investor dedicated to clinical-stage biopharma, backing European and Israeli companies from Series B onward; it is run by a team of scientists, regulatory experts and commercial professionals rather than generalist financiers."
+    },
+    "lifesci": {
+      "indications": ["metabolic-obesity", "oncology", "neurology", "immunology-inflammation", "womens-health", "cardiovascular"],
+      "invests_public_markets": false
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Jeito Capital is a Paris-based clinical-stage biopharma investor that closed the largest-ever independent European biopharma fund raise ($1.2B for Jeito II in 2026), investing across obesity, oncology, neurology, autoimmune, reproductive and cardiometabolic disease."
+    },
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/biotech/jeito-hails-12b-largest-raise-ever-independent-biopharma-focused-european-fund",
+        "title": "Jeito hails $1.2B as 'largest raise ever' for independent biopharma-focused European fund",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Fund size, founding focus, stage, geography, indications",
+        "quote": "Jeito focuses on mid- to late-stage clinical investments, takes a concentrated, Europe-first approach, and is run by a team of scientists, regulatory experts, and commercial professionals... Jeito II has already invested in areas such as obesity, cancer, neurology, autoimmune diseases, reproductive medicine, and cardiometabolic conditions."
+      },
+      {
+        "url": "https://techfundingnews.com/jeito-capital-1b-biopharma-fund-europe/",
+        "title": "Jeito Capital closes $1.2B second fund, the largest independent European biopharma fundraises",
+        "publisher": "Tech Funding News",
+        "accessed": "undefined",
+        "supports": "AUM after Jeito II close",
+        "quote": "Jeito II closing in April 2026 at roughly US$1.2 billion (EUR 1 billion+), tripling assets under management to about EUR 1.6 billion."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-hbm-healthcare-investments",
+    "name": { "en": "HBM Healthcare Investments" },
+    "type": "crossover-fund",
+    "status": "active",
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Zug",
+    "website": "https://www.hbmhealthcare.com/en",
+    "strategy": {
+      "stages": ["growth", "series-c-plus", "all"],
+      "geo_focus": ["Global"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "HBM Healthcare Investments is a Swiss-listed (SIX: HBMN) investment company holding a globally diversified portfolio of both private and public healthcare, biotech, medtech and diagnostics companies, giving it a dual public/private crossover mandate."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {},
+    "summary": {
+      "en": "HBM Healthcare Investments is a SIX Swiss Exchange-listed investment company based in Zug that holds a globally diversified, dual public/private portfolio of healthcare, biotech, medtech and diagnostics companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.hbmhealthcare.com/en",
+        "title": "Homepage | HBM Healthcare",
+        "publisher": "HBM Healthcare Investments",
+        "accessed": "undefined",
+        "supports": "Existence, listed structure, dual public/private mandate",
+        "quote": "Listed on SIX Swiss Exchange (HBMN), HBM Healthcare Investments is a Swiss investment company holding a well-balanced globally diversified portfolio of investments in private and public healthcare companies."
+      },
+      {
+        "url": "https://www.hbmpartners.com/",
+        "title": "Home | HBM Partners",
+        "publisher": "HBM Partners",
+        "accessed": "undefined",
+        "supports": "Corroborates existence of HBM group in Swiss healthcare investing"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-gimv",
+    "name": { "en": "Gimv" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "Belgium",
+    "hq_city": "Antwerp",
+    "website": "https://www.gimv.com",
+    "strategy": {
+      "stages": ["growth", "series-b", "series-c-plus"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["therapeutics", "healthcare-services", "medtech-devices"],
+      "thesis": "Gimv is a Belgium-based listed investment company whose Health & Care platform historically backed European life-science companies (therapeutics, medtech); as of January 2026 Gimv discontinued new life-sciences investments to concentrate on its Consumer, Healthcare, Smart Industries and Sustainable Cities platforms, while continuing to actively manage its existing life-sciences portfolio."
+    },
+    "lifesci": {
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 11,
+      "notable_investments": [
+        { "company": "ImCheck Therapeutics", "sector": "therapeutics", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "Gimv is a Belgian listed private equity/venture investor whose Life Sciences arm (part of its Health & Care platform) built a European biotech and medtech portfolio; it stopped making new life-sciences investments in January 2026 but continues managing its ~11-company existing portfolio (about 5% of NAV)."
+    },
+    "verification_notes": "Included per the anchor list, but note Gimv formally discontinued NEW life-sciences deal activity in January 2026 per its own press release; its existing life-sciences portfolio (11 companies, ~5% of total portfolio value) remains under active management. Gimv's broader Health & Care platform also covers non-lifesci consumer/care investments outside this slice's scope.",
+    "sources": [
+      {
+        "url": "https://www.gimv.com/en/news/gimv-increases-focus-strategic-objectives-and-discontinues-activities-new-life-sciences",
+        "title": "Gimv increases focus on strategic objectives and discontinues activities for new Life Sciences investments",
+        "publisher": "Gimv",
+        "accessed": "undefined",
+        "supports": "Discontinuation of new life-sciences investments, four core platforms, existing portfolio retained",
+        "quote": "Gimv announced in January 2026 that it will stop making new investments in life sciences and instead focus on four core platforms: consumer, healthcare, smart industries and sustainable cities."
+      },
+      {
+        "url": "https://www.gimv.com/en/investment-platforms/life-sciences",
+        "title": "Life Sciences | Gimv",
+        "publisher": "Gimv",
+        "accessed": "undefined",
+        "supports": "Existence and description of the Life Sciences investment platform"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/european-investment-firm-gimv-gives-new-activity-life-science-sector",
+        "title": "European investment firm Gimv calls it quits on new life science financing",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Portfolio size retained, ~5% of NAV",
+        "quote": "Gimv is not exiting life sciences overnight, with its existing portfolio of 11 companies representing around 5% of total portfolio value remaining under active management."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-sofinnova-partners",
+    "name": { "en": "Sofinnova Partners" },
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "offices": [
+      { "country": "France", "city": "Paris" },
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "Italy", "city": "Milan" }
+    ],
+    "website": "https://sofinnovapartners.com",
+    "capital": {
+      "aum": { "raw": "above EUR 4 billion", "currency": "EUR" },
+      "funds": [
+        { "name": "Sofinnova Crossover Fund", "size": { "raw": "EUR 275 million ($340 million)", "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Through its dedicated Crossover strategy, Sofinnova Partners -- a Paris/London/Milan life-sciences investor with AUM above EUR 4bn -- invests in clinical-stage biotech and medtech companies that straddle private and public markets, with European companies making up ~80% of the EUR 275M crossover fund's portfolio."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Sofinnova Partners is a leading Paris-headquartered life-sciences VC that, alongside its early-stage funds, runs a dedicated EUR 275M Crossover fund investing in clinical-stage European and North American biotech/medtech companies across private and public markets."
+    },
+    "verification_notes": "Sofinnova Partners is primarily a multi-stage (seed-to-growth) VC; captured in this crossover/growth slice specifically for its dedicated Crossover fund strategy.",
+    "sources": [
+      {
+        "url": "https://sofinnovapartners.com/strategy/crossover",
+        "title": "Crossover -- Sofinnova Partners",
+        "publisher": "Sofinnova Partners",
+        "accessed": "undefined",
+        "supports": "Existence and description of Crossover strategy"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/sofinnova-raises-eu275m-crossover-fund-to-back-late-stage-firms",
+        "title": "Sofinnova raises EUR275M crossover fund to back late-stage firms",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Crossover fund size and portfolio geography",
+        "quote": "Sofinnova Partners has raised a EUR 275 million ($340 million) crossover fund. European companies will make up around 80% of the fund's portfolio."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-forbion",
+    "name": { "en": "Forbion" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Naarden",
+    "offices": [
+      { "country": "Netherlands", "city": "Naarden" },
+      { "country": "Germany", "city": "Munich" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://forbion.com",
+    "capital": {
+      "aum": { "raw": "~EUR 5 billion across 11 funds", "currency": "EUR" },
+      "funds": [
+        { "name": "Forbion Growth Opportunities Fund III", "vintage_year": 2024, "size": { "raw": "EUR 1.2 billion", "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Forbion Growth Opportunities Fund III (EUR 1.2bn, closed October 2024) provides private growth capital for clinical-stage assets, cross-over capital to companies pursuing near-term public listings, and capital injections into under-valued public biopharma companies, targeting later-stage European and North American biopharma."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "portfolio_count": "128 investments across 11 funds since the late 1990s"
+    },
+    "summary": {
+      "en": "Forbion is a Netherlands-headquartered life-sciences investor managing ~EUR 5 billion across venture and growth strategies; its Growth Opportunities Fund III (EUR 1.2bn) explicitly deploys private growth, crossover and public-market capital into later-stage biopharma."
+    },
+    "sources": [
+      {
+        "url": "https://forbion.com/strategies/human-health/growth/",
+        "title": "Forbion Growth | Forbion",
+        "publisher": "Forbion",
+        "accessed": "undefined",
+        "supports": "Growth fund strategy description (private growth, crossover, public capital)",
+        "quote": "The Growth Funds target this market segment using three distinct strategies that provide: private growth capital for clinical stage development assets, cross-over capital to companies aiming to pursue a public listing in the near-term, as well as capital injections that support existing under-valued public companies."
+      },
+      {
+        "url": "https://forbion.com/news-insights/news/forbion-raises-in-excess-of-2-billion-for-two-new-funds/",
+        "title": "Forbion raises in excess of EUR 2 billion for two new funds",
+        "publisher": "Forbion",
+        "accessed": "undefined",
+        "supports": "Forbion Growth Opportunities Fund III size and close date",
+        "quote": "Forbion Growth Opportunities Fund III closed in October 2024 at EUR 1.2B and targets later-stage European and North American biopharma companies developing therapies for high medical need."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-kurma-partners",
+    "name": { "en": "Kurma Partners" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "website": "https://www.kurmapartners.com",
+    "capital": {
+      "funds": [
+        { "name": "Kurma Growth Opportunities", "size": { "raw": "EUR 160 million+ (also reported as EUR 167 million); originally targeted EUR 250 million", "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["therapeutics", "healthcare-it"],
+      "thesis": "Kurma Growth Opportunities is Kurma Partners' dedicated late-stage/crossover-rounds vehicle for European biotech and healthtech companies nearing market, backed by the European Investment Fund, Bpifrance, PMV's Belgian Growth Fund, BNP Paribas Fortis Private Equity and other institutional LPs, targeting ~15 companies."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Kurma Partners is a Paris-based life-sciences investor whose Kurma Growth Opportunities fund provides late-stage and crossover-round capital to European biotechs racing toward market."
+    },
+    "verification_notes": "Fund size reported inconsistently across sources: FierceBiotech headline cites ~EUR160M, Vestbee cites EUR167M, original BusinessWire target was EUR250M; Kurma Partners' separate Biofund IV (EUR215M) is an earlier-stage fund and distinct from Growth Opportunities.",
+    "sources": [
+      {
+        "url": "https://www.fiercebiotech.com/biotech/late-stage-biotechs-kurma-has-eu160m-help-you-clear-final-hurdles-race-market",
+        "title": "Late-stage biotechs, Kurma has EUR160M to help you clear the final hurdles in the race to market",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Growth Opportunities fund size, late-stage focus",
+        "quote": "Kurma Growth Opportunities is a EUR 167 million fund focused on late-stage and crossover rounds."
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20220307005977/en/Kurma-Partners-Targets-%E2%82%AC250-Million-for-Its-First-Growth-Opportunities-Fund",
+        "title": "Kurma Partners Targets EUR250 Million for Its First Growth Opportunities Fund",
+        "publisher": "BusinessWire",
+        "accessed": "undefined",
+        "supports": "Original fund target and LP base",
+        "quote": "Kurma Partners has received support for this fund from the European Investment Fund (EIF), Bpifrance, the Belgian Growth Fund managed by PMV and BNP Paribas Fortis Private Equity, SFPI, BNP Paribas Fortis and Groupe Pasteur Mutualite."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-gilde-healthcare",
+    "name": { "en": "Gilde Healthcare" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Utrecht",
+    "offices": [
+      { "country": "Netherlands", "city": "Utrecht" },
+      { "country": "Germany", "city": "Frankfurt" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://gildehealthcare.com",
+    "capital": {
+      "aum": { "raw": "EUR 3 billion under management across three fund strategies", "currency": "EUR" },
+      "funds": [
+        { "name": "Gilde Healthcare Venture & Growth VI", "size": { "raw": "EUR 740 million", "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "healthcare-services"],
+      "check_size": { "raw": "EUR 10 million to EUR 70 million per portfolio company" },
+      "thesis": "Gilde Healthcare's Venture & Growth strategy backs fast-growing medtech, digital health and therapeutics companies across Europe and North America; Fund VI closed at EUR 740M, well above its original EUR 600M target."
+    },
+    "lifesci": {
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Withings", "sector": "digital-health", "outcome": "active" },
+        { "company": "Lava Therapeutics", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Ablynx", "sector": "therapeutics", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "Gilde Healthcare is a Utrecht-based specialist healthcare investor with EUR 3bn under management across Venture & Growth and Private Equity strategies, backing medtech, digital health and therapeutics companies from Series B through growth stage."
+    },
+    "sources": [
+      {
+        "url": "https://gildehealthcare.com",
+        "title": "Home - Gilde Healthcare",
+        "publisher": "Gilde Healthcare",
+        "accessed": "undefined",
+        "supports": "AUM, fund strategies, HQ and office locations",
+        "quote": "Gilde Healthcare is a specialist private investment firm with EUR 3bn under management across three fund strategies: Venture&Growth in Healthcare, Private Equity in Healthcare and Private Equity in Climate Solutions."
+      },
+      {
+        "url": "https://pharmaphorum.com/news/gildes-new-investment-fund-reaches-eu740m-close",
+        "title": "Gilde's new investment fund reaches EUR740m at close",
+        "publisher": "pharmaphorum",
+        "accessed": "undefined",
+        "supports": "Fund VI size and target",
+        "quote": "Gilde Healthcare closed its Venture & Growth VI fund with committed funding of EUR 740 million, well ahead of its original target of EUR 600 million, and plans to invest EUR 10 million to 70 million per new portfolio company."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-eqt-life-sciences",
+    "name": { "en": "EQT Life Sciences" },
+    "aka": ["Life Sciences Partners", "LSP"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1987,
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Amsterdam",
+    "website": "https://eqtgroup.com/private-capital/eqt-life-sciences",
+    "capital": {
+      "aum": { "raw": "~EUR 3.5 billion across 12 private funds and 3 investment strategies", "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "EQT Life Sciences (formerly LSP, integrated into the EQT platform in 2022) is a late-stage life-sciences specialist that is rarely the first institutional check, instead providing crossover financing when a clinical or commercial program needs capital to reach a regulatory or commercial inflection point."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "portfolio_count": "150+ companies supported since inception"
+    },
+    "summary": {
+      "en": "EQT Life Sciences, formerly LSP, is one of Europe's largest and longest-running late-stage life-sciences investors, providing growth and crossover financing to clinical- and commercial-stage biopharma companies from its Amsterdam base."
+    },
+    "sources": [
+      {
+        "url": "https://eqtgroup.com/thinq/healthcare/eqt-life-sciences-2025-highlights-and-2026-outlook",
+        "title": "EQT Life Sciences: 2025 Highlights and 2026 Outlook",
+        "publisher": "EQT Group",
+        "accessed": "undefined",
+        "supports": "Crossover financing focus, late-stage specialism",
+        "quote": "Market conditions improved materially during 2025, with strong demand for high-quality crossover financings, as reflected across the portfolio."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/eqt-strengthens-position-in-healthcare-investments-by-joining-forces-with-lsp-301420776.html",
+        "title": "EQT strengthens position in healthcare investments by joining forces with LSP",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Founding year, AUM, integration into EQT, track record",
+        "quote": "As LSP, the firm raised over EUR 3.0 billion (USD 3.5 billion) and supported the growth of more than 150 companies since it started to invest over 30 years ago."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-syncona",
+    "name": { "en": "Syncona" },
+    "type": "growth-equity",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.synconaltd.com",
+    "capital": {
+      "aum": { "raw": "~$1.5 billion portfolio of life-science companies", "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "growth"],
+      "geo_focus": ["United Kingdom", "Europe", "United States"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Syncona is a London-listed (LSE: SYNC), Wellcome Trust-seeded closed-end investment trust that founds, funds and builds life-science companies -- particularly in cell and gene therapy -- through to IPO or M&A, combining company-creation (venture-studio) with growth-stage capital."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "modalities": ["cell-therapy", "gene-therapy", "biologics-antibody", "small-molecule"],
+      "invests_public_markets": false
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Syncona is a FTSE250, London-listed life-sciences investment trust, seeded by the Wellcome Trust, that creates and builds biotech companies (notably in cell and gene therapy) from academic science through to IPO or acquisition."
+    },
+    "sources": [
+      {
+        "url": "https://www.synconaltd.com/",
+        "title": "Syncona -- building the next generation of global leaders in life science",
+        "publisher": "Syncona",
+        "accessed": "undefined",
+        "supports": "Company creation/building model, life-science focus"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Syncona",
+        "title": "Syncona - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Founding, Wellcome Trust origin, listing, portfolio composition",
+        "quote": "Co-founded as Syncona Partners in 2012 by former CEO Martin Murphy and the Wellcome Trust, before merging with the Battle Against Cancer Investment Trust ('BACIT') in December 2016 and listing publicly, the company is listed on the London Stock Exchange and is a constituent of the FTSE 250 Index."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-abingworth",
+    "name": { "en": "Abingworth" },
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1973,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "United States", "city": "Menlo Park" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://www.abingworth.com",
+    "capital": {
+      "funds": [
+        { "name": "Abingworth Bioventures 8", "size": { "raw": "$465-466 million", "currency": "USD" } },
+        { "name": "Clinical Co-Development Fund 2", "size": { "raw": "$466 million", "currency": "USD" } },
+        { "name": "Clinical Co-Development Co-Investment Fund (CCD-CIF)", "size": { "raw": "$356 million", "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Europe", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Abingworth pioneered 'VIPEs' (Venture Investments in Public Equities), a crossover strategy bridging private and public biotech markets, and separately runs Clinical Co-Development funds; the London-founded transatlantic firm has backed 185+ life-science companies since 1973, leading to 49 M&As and 75 IPOs."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "portfolio_count": "185+ life-science companies since 1973",
+      "exits": [
+        { "company": "Aggregate: 49 M&As and 75 IPOs", "type": "M&A/IPO" }
+      ]
+    },
+    "verification_notes": "Acquired by The Carlyle Group in August 2022; continues to operate under the Abingworth name with its life-sciences investment strategies including VIPEs/crossover and clinical co-development.",
+    "summary": {
+      "en": "Abingworth is a London-founded, transatlantic life-sciences investor best known for pioneering 'VIPEs' -- crossover investments bridging private and public biotech -- alongside dedicated clinical co-development funds; acquired by The Carlyle Group in 2022."
+    },
+    "sources": [
+      {
+        "url": "https://www.abingworth.com/",
+        "title": "Life Science Investing - Abingworth LLP",
+        "publisher": "Abingworth",
+        "accessed": "undefined",
+        "supports": "Existence, strategy areas, offices"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Abingworth_(company)",
+        "title": "Abingworth (company) - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Founding year, founders, Carlyle acquisition, VIPEs strategy, track record",
+        "quote": "Abingworth LLP is a transatlantic bioscience investment firm founded in 1973 by a pair of London stockbrokers, Peter Dicks and Hon. Anthony Montagu... in August 2022, Abingworth was acquired by The Carlyle Group."
+      },
+      {
+        "url": "https://www.biospace.com/london-based-abingworth-raised-582-million-clinical-do-development-fund",
+        "title": "Abingworth's $582 Million Co-Development Fund Will Propel Late-Stage Trials",
+        "publisher": "BioSpace",
+        "accessed": "undefined",
+        "supports": "Clinical co-development fund track record"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-gho-capital-partners",
+    "name": { "en": "GHO Capital Partners" },
+    "type": "growth-equity",
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://ghocapital.com",
+    "capital": {
+      "aum": { "raw": "~EUR 9 billion total AUM", "currency": "EUR" },
+      "funds": [
+        { "name": "GHO Capital Fund IV", "vintage_year": 2025, "size": { "raw": "over EUR 2.5 billion (~$2.9 billion)", "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["Europe", "North America"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "diagnostics", "healthcare-it"],
+      "thesis": "GHO Capital Partners is a London-based healthcare-specialist growth/private-equity investor focused on mid-market BioPharma, MedTech, Advisory & Data, Life Science Tools & Diagnostics and HealthTech; its EUR 2.5bn+ Fund IV (2025) is the largest healthcare fund ever raised in Europe."
+    },
+    "lifesci": {
+      "invests_public_markets": false
+    },
+    "track_record": {},
+    "summary": {
+      "en": "GHO Capital Partners is Europe's largest healthcare-specialist private equity/growth firm, with ~EUR 9bn AUM, investing in mid-market BioPharma, MedTech, Life Science Tools & Diagnostics and HealthTech companies."
+    },
+    "sources": [
+      {
+        "url": "https://ghocapital.com/updates/gho-capital-announces-final-close-of-fund-iv-with-over-e2-5bn-of-capital-to-continue-investing-in-its-strategy-of-driving-better-faster-and-more-accessible-healthcare/",
+        "title": "GHO Capital announces final close of Fund IV with over EUR2.5bn of capital",
+        "publisher": "GHO Capital",
+        "accessed": "undefined",
+        "supports": "Fund IV size, total AUM, sector scope",
+        "quote": "GHO's fourth fund (Fund IV) raised over EUR 2.5 billion (~$2.9 billion) of capital available to invest... brings total assets under management (AUM) to c.EUR 9 billion, making GHO the largest healthcare specialist private equity firm headquartered in Europe. Fund IV targets mid-market opportunities in the technical healthcare sector across BioPharma, MedTech, Advisory & Data, Life Science Tools & Diagnostics and HealthTech."
+      },
+      {
+        "url": "https://www.eu-startups.com/2025/10/london-based-gho-capital-boosts-healthcare-fund-size-by-25-to-e2-5-billion/",
+        "title": "London-based GHO Capital boosts healthcare fund size by 25% to EUR2.5 billion",
+        "publisher": "EU-Startups",
+        "accessed": "undefined",
+        "supports": "Confirms fund size and London HQ"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-bb-biotech",
+    "name": { "en": "BB Biotech" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 1993,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Schaffhausen",
+    "website": "https://www.bbbiotech.ch",
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "BB Biotech AG is a Swiss-listed, permanent-capital biotech investment company managed by Bellevue Asset Management; while at least 90% of the portfolio is held in listed companies, it retains flexibility for pre-IPO private investments -- historically including a pre-IPO stake in Moderna -- and concentrates on cell, gene and RNA-based therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "rna-therapeutics"],
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "portfolio_count": 60,
+      "exits": [
+        { "company": "Aggregate: 29 IPOs and 28 acquisitions incl. Gilead, Alnylam, Alexion", "type": "IPO/M&A" }
+      ]
+    },
+    "summary": {
+      "en": "BB Biotech AG is a Swiss-listed permanent-capital investment company managed by Bellevue Asset Management, primarily holding public biotech equities but with a track record of select pre-IPO private investments (e.g. Moderna), focused on cell, gene and RNA therapeutics."
+    },
+    "verification_notes": "Portfolio is predominantly public (>=90%); pre-IPO/private allocation is a minority but documented part of the mandate, distinguishing it from a pure public-market fund.",
+    "sources": [
+      {
+        "url": "https://www.bbbiotech.ch/all-en/all/about-bb-biotech/company/investment-company",
+        "title": "Profile of an investment company - About BB Biotech",
+        "publisher": "BB Biotech AG",
+        "accessed": "undefined",
+        "supports": "Portfolio composition, pre-IPO flexibility, modality focus",
+        "quote": "At least 90% of the portfolio is held in listed companies... the portfolios of investment companies can include less liquid stocks in fast-growing markets, companies at different stages of development, or even pre-IPO investments."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/BB_Biotech",
+        "title": "BB Biotech - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Founding year, location, manager, exit track record",
+        "quote": "BB Biotech AG is a Swiss investment company founded on November 9, 1993 in Schaffhausen, Switzerland, and it is managed by Bellevue Asset Management."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-nextech-invest",
+    "name": { "en": "Nextech Invest" },
+    "type": "crossover-fund",
+    "status": "active",
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Zurich",
+    "website": "https://www.nextechinvest.com",
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Nextech Invest is a Zurich-based oncology-focused biotech investor combining venture capital and public-market expertise, managing both private and publicly listed biotech assets."
+    },
+    "lifesci": {
+      "indications": ["oncology"],
+      "invests_public_markets": true
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Nextech Invest is a Zurich-based investor identifying transformative cancer medicines, managing both public and private biotech assets through a combined VC and public-market strategy."
+    },
+    "sources": [
+      {
+        "url": "https://www.nextechinvest.com/",
+        "title": "Nextech Invest -- Finding and fueling tomorrow's advances",
+        "publisher": "Nextech Invest",
+        "accessed": "undefined",
+        "supports": "Existence, oncology focus, Zurich HQ"
+      },
+      {
+        "url": "https://flot.bio/european-biotech-investors-2026/",
+        "title": "Top 50 Investors in Biotech in 2026: Europe's Most Active Life Sciences Funds",
+        "publisher": "Flot.bio",
+        "accessed": "undefined",
+        "supports": "Crossover public/private mandate description",
+        "quote": "Manages both public and private biotech assets with 'a distinctive combination of venture capital and public market expertise'."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-flerie-invest",
+    "name": { "en": "Flerie Invest" },
+    "aka": ["Flerie", "Flerie AB"],
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2010,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Stockholm",
+    "offices": [
+      { "country": "Sweden", "city": "Stockholm" },
+      { "country": "United Kingdom", "city": "London" }
+    ],
+    "website": "https://www.flerie.com/en/",
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Europe", "Israel", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Flerie Invest, founded in 2010 by Recipharm co-founder Thomas Eldered, is a Stockholm/London-based long-term biotech and pharma investor managing a roughly 30-company portfolio across Europe, Israel and the US, holding both public and private life-science positions."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "portfolio_count": "~30 companies"
+    },
+    "summary": {
+      "en": "Flerie Invest is a Swedish investment company founded by Recipharm co-founder Thomas Eldered, investing in both public and private biotech and pharma companies across Europe, Israel and the US."
+    },
+    "sources": [
+      {
+        "url": "https://flot.bio/european-biotech-investors-2026/",
+        "title": "Top 50 Investors in Biotech in 2026: Europe's Most Active Life Sciences Funds",
+        "publisher": "Flot.bio",
+        "accessed": "undefined",
+        "supports": "Public/private crossover mandate",
+        "quote": "A Swedish investment company focused on life sciences, Flerie invests in both public and private biotech companies."
+      },
+      {
+        "url": "https://www.biostock.se/en/2022/10/flerie-invest-invests-heavily-in-life-science/",
+        "title": "Flerie Invest bets big on life science",
+        "publisher": "BioStock",
+        "accessed": "undefined",
+        "supports": "Founding, founder background, portfolio size",
+        "quote": "Flerie Invest is an active long-term global biotech and pharma investor based in Stockholm and London managing a portfolio of around 30 companies in Europe, Israel and the US. Flerie Invest was founded in 2010 by Thomas Eldered, who also co-founded and built Recipharm."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-international-biotechnology-trust",
+    "name": { "en": "International Biotechnology Trust" },
+    "aka": ["IBT plc"],
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 1994,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.ibtplc.com",
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Global"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "International Biotechnology Trust plc (LSE: IBT), managed by SV Health Investors, is the longest-standing trust in the UK biotech & healthcare AIC sector, holding 85-90% in publicly quoted biotech/healthcare stocks and 5-15% in unquoted private companies and venture funds, including SV Health's own venture vehicles."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {},
+    "summary": {
+      "en": "International Biotechnology Trust plc is a London-listed, SV Health Investors-managed closed-end trust combining a majority public biotech portfolio with a meaningful unquoted/venture allocation, making it a genuine public-private crossover vehicle."
+    },
+    "sources": [
+      {
+        "url": "https://www.ibtplc.com/",
+        "title": "International Biotechnology Trust plc - IBT",
+        "publisher": "International Biotechnology Trust plc",
+        "accessed": "undefined",
+        "supports": "Existence, listing"
+      },
+      {
+        "url": "https://svhealthinvestors.com/international-biotechnology-trust/",
+        "title": "International Biotechnology Trust -- SV",
+        "publisher": "SV Health Investors",
+        "accessed": "undefined",
+        "supports": "Portfolio composition, founding year, unquoted allocation",
+        "quote": "85-90% of the trust is invested in a portfolio of stocks publicly quoted on the world's major stock exchanges. The unquoted portfolio accounts for 5-15% of NAV... IBT was established in 1994, making it the longest-standing trust in the biotech and healthcare AIC sector."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "eu-sv-health-investors",
+    "name": { "en": "SV Health Investors" },
+    "type": "growth-equity",
+    "subtypes": ["vc", "crossover-fund"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://svhealthinvestors.com",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["Europe", "United States"],
+      "sector_focus": ["therapeutics", "healthcare-services", "medtech-devices"],
+      "thesis": "SV Health Investors is a transatlantic life-sciences investor with deep UK roots, backing companies from Series A through to IPO across therapeutics and healthcare, and manages the LSE-listed International Biotechnology Trust which blends its own venture funds with public biotech holdings."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "track_record": {},
+    "summary": {
+      "en": "SV Health Investors is a UK/US life-sciences investor backing therapeutics and healthcare companies from Series A through IPO, and is the investment manager of the London-listed International Biotechnology Trust."
+    },
+    "sources": [
+      {
+        "url": "https://svhealthinvestors.com/international-biotechnology-trust/",
+        "title": "International Biotechnology Trust -- SV",
+        "publisher": "SV Health Investors",
+        "accessed": "undefined",
+        "supports": "Role as fund manager of IBT, venture fund names"
+      },
+      {
+        "url": "https://flot.bio/european-biotech-investors-2026/",
+        "title": "Top 50 Investors in Biotech in 2026: Europe's Most Active Life Sciences Funds",
+        "publisher": "Flot.bio",
+        "accessed": "undefined",
+        "supports": "Stage range description",
+        "quote": "Backs companies 'from Series A through to IPO across therapeutics and healthcare'."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  }
+]

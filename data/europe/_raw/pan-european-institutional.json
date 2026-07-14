@@ -1,0 +1,453 @@
+[
+  {
+    "id": "eu-european-investment-fund",
+    "name": { "en": "European Investment Fund" },
+    "aka": ["EIF"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 1994,
+    "region": "europe",
+    "country": "Luxembourg",
+    "hq_city": "Luxembourg",
+    "website": "https://www.eif.org/",
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["generalist-health", "therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "EIF is the EU's flagship public fund-of-funds investor, backing specialist life-science and healthtech venture funds across Europe rather than investing directly in companies; through the Venture Centre of Excellence (co-created with EIT Health in 2020) and mandates like ETCI and InvestEU Equity, it channels European Commission, EIB and national-promotional-bank capital into health-focused VC/PE managers."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "science_platform_notes": "Co-created the Venture Centre of Excellence (VCoE) with EIT Health in 2020 — a health-focused fund-of-funds; combined EIF capital plus the resources of 8 selected VC funds represented total investment capabilities exceeding EUR 1.7bn as of 2021. Also administers the European Tech Champions Initiative (ETCI), a growth-stage fund-of-funds mandate whose backed managers include life-sciences funds."
+    },
+    "tags": ["fund-of-funds", "EU institution", "public LP"],
+    "summary": {
+      "en": "The European Investment Fund is the EU's public fund-of-funds institution, headquartered in Luxembourg, which channels European Commission and EIB Group capital into specialist life-science and digital-health venture funds across Europe — most notably through the EIT Health-partnered Venture Centre of Excellence."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/European_Investment_Fund",
+        "title": "European Investment Fund - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founded 1994, HQ Luxembourg, EU body part of EIB Group",
+        "quote": "The European Investment Fund (EIF), established in 1994, is a financial institution for the provision of risk finance to SMEs (small and medium-sized enterprises), headquartered in Luxembourg, and is an EU body with the mandate to facilitate access to finance for European SMEs, by sharing or reducing the financial risk."
+      },
+      {
+        "url": "https://www.eif.org/what_we_do/equity/news/2021/life-science-finance-available-after-launch-of-venture-centre-of-excellence.htm",
+        "title": "EUR 1.7bn of Life Science finance available a year after the launch of the Venture Centre of Excellence",
+        "publisher": "EIF",
+        "accessed": "undefined",
+        "supports": "VCoE EUR1.7bn total investment capability across 8 VC funds, EIF+EIT Health co-creation",
+        "quote": "Combined with the EIF's investment and the financial resources of the 8 selected VC funds, the total investment capabilities represented in the VCoE exceed EUR 1.7bn."
+      },
+      {
+        "url": "https://www.eif.org/what_we_do/news/2019/eif-eit-mou-europes-healthcare.htm",
+        "title": "New collaboration between EIF and EIT Health to attract more support for Europe's healthcare and life science sector",
+        "publisher": "EIF",
+        "accessed": "undefined",
+        "supports": "EIF-EIT Health collaboration on healthcare/life science",
+        "quote": "New collaboration between EIF and EIT Health to attract more support for Europe's healthcare and life science sector"
+      },
+      {
+        "url": "https://www.eif.org/flagship-initiatives/european-tech-champions-initiative/overview",
+        "title": "ETCI overview | The European Tech Champions Initiative",
+        "publisher": "EIF",
+        "accessed": "undefined",
+        "supports": "ETCI managed by EIF, backs growth-stage funds including life sciences",
+        "quote": "ETCI 1-backed funds already investing in sectors such as artificial intelligence, fintech, security, deep tech, life sciences, food tech among others."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "EIF invests as an LP into venture funds (fund-of-funds), not directly into companies; figures reflect EIF's own reported programme totals rather than an audited AUM. VCoE EUR1.7bn figure is as of 2021 and may have grown since.",
+    "last_updated": "undefined",
+    "researched_by": "pan-european-institutional"
+  },
+  {
+    "id": "eu-european-investment-bank",
+    "name": { "en": "European Investment Bank" },
+    "aka": ["EIB"],
+    "type": "government-program",
+    "status": "active",
+    "region": "europe",
+    "country": "Luxembourg",
+    "hq_city": "Luxembourg",
+    "website": "https://www.eib.org/",
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "EIB Group runs Europe's largest life-sciences venture-debt programme (launched in 2015 under InnovFin, targeting early/growth-stage biotech, medtech and infectious-disease companies) and, together with the European Commission, announced the BioTechEU initiative to mobilise EUR10bn for Europe's biotech and life-sciences sector in 2026-27."
+    },
+    "lifesci": { "company_creation": false },
+    "track_record": {
+      "portfolio_count": "~135 projects EIB-Group-wide (~EUR3.5bn life-sciences venture debt); ~60 medtech/biotech companies on EIB's own venture-debt line (~EUR1.6bn)"
+    },
+    "tags": ["venture-debt", "EU policy bank"],
+    "summary": {
+      "en": "The European Investment Bank is the EU's policy bank and, via its InnovFin-era venture-debt facility and the newly announced BioTechEU initiative, is Europe's largest venture-debt lender to biotech, medtech and digital-health companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.eib.org/en/projects/topics/innovation-digital-and-human-capital/health-life-science/index",
+        "title": "Health and life sciences",
+        "publisher": "EIB",
+        "accessed": "undefined",
+        "supports": "EIB health/life-sciences investment vertical, sectors supported",
+        "quote": "The EIB typically supports companies active in biotech, unmet medical needs, vaccines, therapeutics, diagnostics, med-tech, and digital health solutions."
+      },
+      {
+        "url": "https://www.eib.org/en/press/news/european-commission-and-eib-group-announce-new-initiative-to-mobilise-eur10-billion-investment-for-europe-s-biotech-sector",
+        "title": "European Commission and EIB Group announce new initiative to mobilise €10 billion investment for Europe's biotech sector",
+        "publisher": "EIB",
+        "accessed": "undefined",
+        "supports": "BioTechEU EUR10bn initiative for 2026-27",
+        "quote": "The European Commission and the European Investment Bank Group announced an initiative to mobilise €10 billion in investment in 2026-27 into the biotech and life sciences sector."
+      },
+      {
+        "url": "https://www.ema.europa.eu/en/documents/presentation/presentation-eib-support-life-science-sector-y-zhang_en.pdf",
+        "title": "EIB support to the life science sector",
+        "publisher": "European Medicines Agency / EIB",
+        "accessed": "undefined",
+        "supports": "venture-debt portfolio size, 2015 InnovFin launch, largest venture-debt provider claim",
+        "quote": "the EIB has become the biggest venture debt provider in Europe in the life science sector with a portfolio of EUR 1.6 bn supporting c.60 innovative medtech and biotech companies"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Portfolio-size figures differ between an EIB-Group-wide number (~EUR3.5bn/135 projects) and an EIB-only venture-debt-line number (~EUR1.6bn/~60 companies) found in different sources; both retained rather than reconciled. Direct fetch of the eib.org press release was blocked (403 Forbidden); the quote is drawn from a search-result summary of that official page rather than a direct fetch.",
+    "last_updated": "undefined",
+    "researched_by": "pan-european-institutional"
+  },
+  {
+    "id": "eu-eic-fund",
+    "name": { "en": "EIC Fund (European Innovation Council)" },
+    "aka": ["European Innovation Council Fund", "EIC Fund"],
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "europe",
+    "country": "Belgium",
+    "hq_city": "Brussels",
+    "website": "https://eic.ec.europa.eu/eic-fund_en",
+    "capital": {
+      "aum": { "raw": "over €4 billion", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "check_size": { "raw": "€10-30 million per company (equity instrument for critical technologies)" },
+      "geo_focus": ["Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "EIC Fund is the European Commission's direct equity-investment vehicle for deep-tech scaleups, with Health Biotechnology and Medical Technologies as two of its explicit portfolio verticals; it typically invests EUR10-30M per company to crowd in EUR50-150M rounds, and is launching the multi-billion-euro Scaleup Europe Fund for late-stage biotech/medtech growth investments (first investments planned autumn 2026)."
+    },
+    "lifesci": { "company_creation": false },
+    "tags": ["EU equity fund", "deep tech", "health biotech"],
+    "summary": {
+      "en": "The EIC Fund is the European Commission's >€4bn direct venture-capital vehicle, investing EUR10-30M tickets into European deep-tech scaleups including Health Biotechnology and Medical Technologies, and is preparing the multi-billion Scaleup Europe Fund for late-stage biotech/medtech growth rounds."
+    },
+    "sources": [
+      {
+        "url": "https://eic.ec.europa.eu/eic-fund_en",
+        "title": "EIC Fund - European Innovation Council",
+        "publisher": "European Commission",
+        "accessed": "undefined",
+        "supports": "role as EIC's VC arm, capitalisation over €4bn, founded 2020, sector list incl. Health Biotechnology & Medical Technologies, check-size range",
+        "quote": "the EIC Fund is the Venture Capital investment arm of the European Innovation Council (EIC)... With a capitalisation of over €4 billion... Established in 2020"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41587-024-02416-8",
+        "title": "The European Innovation Council supports innovative portfolios in health biotech",
+        "publisher": "Nature Biotechnology",
+        "accessed": "undefined",
+        "supports": "EIC support for health biotech portfolio companies",
+        "quote": "The European Innovation Council supports innovative portfolios in health biotech"
+      },
+      {
+        "url": "https://eic.ec.europa.eu/eic-fund/scaleup-europe-fund_en",
+        "title": "Scaleup Europe Fund",
+        "publisher": "European Commission",
+        "accessed": "undefined",
+        "supports": "Scaleup Europe Fund covering biotechnologies and medical technologies, first investments autumn 2026",
+        "quote": "The Scaleup Europe Fund is a multi-billion late-stage and growth fund aimed at investing in the most promising European companies in strategic tech areas, including biotechnologies and medical technologies... set to make its first investments in autumn 2026."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "HQ location approximated as Brussels (seat of the European Commission body governing the EIC); the EIC Fund's underlying legal investment vehicle may be separately domiciled (common for EU financial instruments), which could not be confirmed within the research budget.",
+    "last_updated": "undefined",
+    "researched_by": "pan-european-institutional"
+  },
+  {
+    "id": "eu-eit-health",
+    "name": { "en": "EIT Health" },
+    "type": "accelerator",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "website": "https://eithealth.eu/",
+    "strategy": {
+      "geo_focus": ["Europe", "Israel"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "EIT Health is the EU-funded (European Institute of Innovation & Technology) pan-European health-innovation network, running accelerator and investment-readiness programmes (Catapult, Accelerator, Bridgehead, Attract2Invest) and an Investor Network connecting biotech, medtech and digital-health startups to VCs, family offices and angel networks across Europe and Israel; it also co-created the EIF-run Venture Centre of Excellence fund-of-funds in 2020."
+    },
+    "program": {
+      "format": "hybrid",
+      "investment": { "raw": "facilitates €500K–€10M equity raises via its Investor Network; also connects startups to EIC Accelerator grants up to €2.5M plus €15M equity" }
+    },
+    "lifesci": { "company_creation": false },
+    "tags": ["EIT KIC", "accelerator", "investor network"],
+    "summary": {
+      "en": "EIT Health is the European Institute of Innovation & Technology's health-innovation Knowledge and Innovation Community, headquartered in Munich, running pan-European accelerator programmes and an Investor Network that channels biotech, medtech and digital-health startups toward equity investors, and co-created the EIF's Venture Centre of Excellence fund-of-funds."
+    },
+    "sources": [
+      {
+        "url": "https://eithealth.eu/programmes/venture-centre-of-excellence/",
+        "title": "Venture Centre of Excellence (VCOE) | EIT Health",
+        "publisher": "EIT Health",
+        "accessed": "undefined",
+        "supports": "EIT Health co-created VCoE with EIF in 2020",
+        "quote": "EIT Health and the European Investment Fund (EIF) joined forces in 2020 to create the Venture Centre of Excellence (VCoE), a first-of-its-kind public-private co-investment platform in Europe dedicated to supporting innovation in healthcare"
+      },
+      {
+        "url": "https://eit.europa.eu/our-activities/opportunities/apply-eit-healths-investor-network-accelerator-programme",
+        "title": "Apply to EIT Health Investor Network Accelerator Programme",
+        "publisher": "EIT (European Institute of Innovation & Technology)",
+        "accessed": "undefined",
+        "supports": "Investor Network equity range €500K-€10M, biotech/medtech/digital health scope, Europe+Israel geography",
+        "quote": "European registered companies can seek equity from €500,000 to €10 million through the program... can facilitate deal flows in biotech, medtech and digital health from Europe and Israel"
+      },
+      {
+        "url": "https://theorg.com/org/eit-health/offices/hq",
+        "title": "EIT Health - HQ",
+        "publisher": "The Org",
+        "accessed": "undefined",
+        "supports": "HQ location Munich, Germany",
+        "quote": "EIT Health has its head office in Munich, Germany."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ confirmed via a secondary directory (The Org) rather than EIT Health's own site; treat as medium confidence. EIT Health primarily runs grants/accelerator/investor-matchmaking programmes rather than investing its own balance sheet, except via the EIF-run VCoE fund-of-funds it co-created.",
+    "last_updated": "undefined",
+    "researched_by": "pan-european-institutional"
+  },
+  {
+    "id": "eu-ebrd",
+    "name": { "en": "European Bank for Reconstruction and Development" },
+    "aka": ["EBRD"],
+    "type": "government-program",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.ebrd.com/",
+    "strategy": {
+      "geo_focus": ["Central and Eastern Europe", "Western Balkans", "Baltics", "Caucasus", "Central Asia", "Southern & Eastern Mediterranean"],
+      "sector_focus": ["healthcare-services", "pharma-services"],
+      "thesis": "EBRD is a multilateral development bank owned by 70+ countries plus the EU and EIB that makes direct equity and debt investments in healthcare providers, pharma distributors and hospital operators across its countries of operation (Central & Eastern Europe, the Western Balkans, the Caucasus and beyond), including equity stakes in pharma distribution (e.g. Ibnsina Pharma) and hospital groups (e.g. Serbia's Bel Medic, Ronesans Healthcare)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Bel Medic General Hospital (Serbia)", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "Ibnsina Pharma (Egypt)", "sector": "pharma-services", "outcome": "exited (2025)" }
+      ]
+    },
+    "tags": ["multilateral development bank", "healthcare equity"],
+    "summary": {
+      "en": "EBRD is a London-headquartered multilateral development bank that makes direct private-equity-style investments in healthcare providers and pharma distribution/manufacturing companies across Central & Eastern Europe, the Balkans and beyond, alongside indirect exposure via regional private-equity funds with healthcare mandates."
+    },
+    "sources": [
+      {
+        "url": "https://www.ebrd.com/home/what-we-do/ebrd-sectors/equity-funds.html",
+        "title": "Equity funds",
+        "publisher": "EBRD",
+        "accessed": "undefined",
+        "supports": "EBRD is largest PE fund investor in its region, invests indirectly via regional/sector funds",
+        "quote": "The EBRD is the largest fund investor in the regions it operates in, with new commitments totalling €250-350 million per year."
+      },
+      {
+        "url": "https://www.ebrd.com/news/2019/ebrd-supports-serbian-private-healthcare-sector-.html",
+        "title": "EBRD supports Serbian private healthcare sector",
+        "publisher": "EBRD",
+        "accessed": "undefined",
+        "supports": "direct equity/financing investment in Bel Medic hospital, Serbia",
+        "quote": "The EBRD made its first joint investment with ENEF in the Serbian private healthcare sector, with funds used to finance the purchase of equipment for Bel Medic's newly built hospital wing in Belgrade"
+      },
+      {
+        "url": "https://www.ebrd.com/home/news-and-events/news/2025/EBRD-exits-Ibnsina-Pharma-in-Egypt.html",
+        "title": "EBRD exits Ibnsina Pharma in Egypt",
+        "publisher": "EBRD",
+        "accessed": "undefined",
+        "supports": "EBRD's 20% equity stake history in pharma distributor Ibnsina Pharma",
+        "quote": "The EBRD acquired a 20 per cent stake in Ibnsina Pharma in 2015 to finance the development of the company's warehouses, distribution centres and overall supply chain"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "EBRD's countries of operation extend beyond the EU/geographic Europe (into Central Asia, North Africa and the Levant); the Ibnsina Pharma and Ronesans examples cited are outside strict EU Europe (Egypt, Türkiye) but the Bel Medic (Serbia) deal and the broader CEE/Balkans healthcare-sector mandate confirm genuine pan-European healthcare investment activity. HQ London is well-established public record; no single source snippet retrieved stated it explicitly.",
+    "last_updated": "undefined",
+    "researched_by": "pan-european-institutional"
+  },
+  {
+    "id": "eu-council-of-europe-development-bank",
+    "name": { "en": "Council of Europe Development Bank" },
+    "aka": ["CEB"],
+    "type": "government-program",
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Paris",
+    "website": "https://coebank.org/",
+    "strategy": {
+      "geo_focus": ["Europe"],
+      "sector_focus": ["healthcare-services"],
+      "thesis": "CEB is a multilateral development bank owned by 43 Council of Europe member states with a social-cohesion mandate that includes health as one of its three core sectors; it finances construction, renovation and modernisation of hospitals, neighbourhood healthcare centres and specialised care facilities via long-term loans and technical assistance to governments and municipalities across Europe."
+    },
+    "tags": ["multilateral development bank", "health infrastructure"],
+    "summary": {
+      "en": "The Council of Europe Development Bank is a Paris-headquartered multilateral development bank owned by 43 European states that finances hospital construction, healthcare-centre modernisation and health-system-strengthening loans across the continent as part of its social-cohesion mandate."
+    },
+    "sources": [
+      {
+        "url": "https://coebank.org/en/project-financing/sectors/health-and-social-care/",
+        "title": "Health and social care",
+        "publisher": "CEB",
+        "accessed": "undefined",
+        "supports": "CEB health mandate and types of projects financed (hospitals, healthcare centres)",
+        "quote": "construction, renovation and modernisation of infrastructure such as hospitals, neighbourhood healthcare centres (including those specialised in providing assistance to vulnerable populations), university hospitals or centres specialising in healthcare for the elderly and people with disabilites"
+      },
+      {
+        "url": "https://coebank.org/en/news-and-publications/news/ceb-approves-83-million-euros-loan-to-strengthen-montenegro-healthcare-system/",
+        "title": "CEB approves €83 million loan to strengthen Montenegro's healthcare system",
+        "publisher": "CEB",
+        "accessed": "undefined",
+        "supports": "example scale of a single CEB health loan (€83M, Montenegro)",
+        "quote": "CEB approves €83 million loan to strengthen Montenegro's healthcare system"
+      },
+      {
+        "url": "https://coebank.org/en/news-and-publications/news/ceb-and-ukraine-sign-a-loan-agreement-to-restore-essential-healthcare-services/",
+        "title": "CEB and Ukraine sign a loan agreement to restore essential healthcare services",
+        "publisher": "CEB",
+        "accessed": "undefined",
+        "supports": "CEB €100M loan to Ukraine's Ministry of Health",
+        "quote": "The CEB signed a €100 million loan agreement with Ukraine's Ministry of Health"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "CEB provides sovereign/municipal loans and technical assistance for health infrastructure rather than equity investment in companies; included because it matches the slice's 'EIF/EIB/EIC-style public platform' scope, but its instrument type differs from typical venture/PE investors in this directory.",
+    "last_updated": "undefined",
+    "researched_by": "pan-european-institutional"
+  },
+  {
+    "id": "eu-nordic-investment-bank",
+    "name": { "en": "Nordic Investment Bank" },
+    "aka": ["NIB"],
+    "type": "government-program",
+    "status": "active",
+    "region": "europe",
+    "country": "Finland",
+    "hq_city": "Helsinki",
+    "website": "https://www.nib.int/",
+    "strategy": {
+      "geo_focus": ["Denmark", "Estonia", "Finland", "Iceland", "Latvia", "Lithuania", "Norway", "Sweden"],
+      "sector_focus": ["healthcare-services", "life-science-tools"],
+      "thesis": "NIB is a multilateral development bank owned by the eight Nordic and Baltic member states that lists health among its priority lending sectors, providing long-term loans for life-science infrastructure — e.g. an EUR81m loan supporting construction of the 'Patienten' life-science/ophthalmology centre in Solna, Sweden, part of the Scandinavian Life Science project."
+    },
+    "tags": ["multilateral development bank", "Nordic-Baltic", "life science infrastructure"],
+    "summary": {
+      "en": "The Nordic Investment Bank is a Helsinki-headquartered multilateral bank owned by the Nordic and Baltic states that lends into health and life-science infrastructure projects across the region, such as financing the 'Patienten' life-science centre for ophthalmology in Solna, Sweden."
+    },
+    "sources": [
+      {
+        "url": "https://www.nib.int/news/nib-finances-new-life-science-centre-in-solna-sweden",
+        "title": "NIB finances new life science centre in Solna, Sweden",
+        "publisher": "NIB",
+        "accessed": "undefined",
+        "supports": "NIB loan for life-science centre construction, EUR81m/SEK800m, 8-year loan",
+        "quote": "an eight-year loan agreement of SEK 800 million (EUR 81 million) signed with Swedish real estate company Hemsö Fastighets AB for the construction of the \"Patienten\" life science centre for ophthalmology in Solna, Sweden"
+      },
+      {
+        "url": "https://www.nib.int/financing/nib-in-denmark",
+        "title": "NIB in Denmark",
+        "publisher": "NIB",
+        "accessed": "undefined",
+        "supports": "NIB finances life sciences among sector themes in Denmark",
+        "quote": "NIB financing in Denmark has encompassed themes such as electrification, sustainable energy, digitalisation, life sciences, consumer goods and services, and food."
+      },
+      {
+        "url": "https://www.nib.int/financing",
+        "title": "Financing",
+        "publisher": "NIB",
+        "accessed": "undefined",
+        "supports": "health listed as an explicit NIB priority sector",
+        "quote": "NIB supports investments in projects relating to sustainable blue economy, space, critical infrastructure, health and the development of innovative technologies across a range of sectors."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "NIB primarily provides long-term project loans (debt), not equity/venture investment, and its life-science activity found so far is mostly real-estate/infrastructure financing rather than direct biomedical company investment; included as a genuine multi-sovereign (Nordic-Baltic) public financing platform with an explicit health mandate, but its fit with a 'VC-style investor' directory is weaker than EIF/EIC/EIB.",
+    "last_updated": "undefined",
+    "researched_by": "pan-european-institutional"
+  },
+  {
+    "id": "eu-nato-innovation-fund",
+    "name": { "en": "NATO Innovation Fund" },
+    "aka": ["NIF"],
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "Luxembourg",
+    "hq_city": "Luxembourg",
+    "website": "https://www.nif.fund/",
+    "capital": {
+      "aum": { "raw": "€1 billion+", "usd": null, "currency": "EUR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "initial tickets up to €15 million; typical first checks Seed through Series B" },
+      "geo_focus": ["Belgium", "Bulgaria", "Czechia", "Denmark", "Estonia", "Finland", "Germany", "Greece", "Hungary", "Iceland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Netherlands", "Norway", "Poland", "Portugal", "Romania", "Slovakia", "Spain", "Sweden", "Türkiye", "United Kingdom"],
+      "sector_focus": ["life-science-tools", "genomics-omics", "diagnostics"],
+      "thesis": "NIF is a EUR1bn+ multi-sovereign venture fund backed by 24 European NATO Allies, investing directly in deep-tech startups (AI, quantum, space, biotechnology) for defence, security and resilience; its flagship biotech investment, Portal Biotech, is a life-sciences tools company building a protein-sequencing platform explicitly framed by NIF around drug discovery, precision medicine and biosecurity/healthcare resilience."
+    },
+    "lifesci": { "company_creation": false },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Portal Biotech", "sector": "life-science-tools", "outcome": "active" }
+      ]
+    },
+    "tags": ["sovereign-backed VC", "dual-use biotech", "defence-tech"],
+    "summary": {
+      "en": "The NATO Innovation Fund is a Luxembourg-based, EUR1bn+ venture fund backed by 24 European NATO Allies that invests directly in deep-tech startups; its most prominent biomedical bet, a $35M Series A lead in protein-sequencing company Portal Biotech, was explicitly justified around drug discovery, precision medicine and biosecurity."
+    },
+    "sources": [
+      {
+        "url": "https://www.nif.fund/about/",
+        "title": "About | Nato Innovation Fund",
+        "publisher": "NATO Innovation Fund",
+        "accessed": "undefined",
+        "supports": "HQ Luxembourg, fund size EUR1bn+, list of 24 backing NATO Allied countries, check size, stage focus",
+        "quote": "Typical first checks are Seed through Series B... initial ticket sizes up to €15M... backed by 24 Allies: Belgium, Bulgaria, Czechia, Denmark, Estonia, Finland, Germany, Greece, Hungary, Iceland, Italy, Latvia, Lithuania, Luxembourg, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Türkiye, and United Kingdom"
+      },
+      {
+        "url": "https://www.nif.fund/news/nato-innovation-fund-leads-35-million-series-a-in-portal-biotech-alongside-earlybird-to-deliver-worlds-first-full-length-single-molecule-protein-sequencer/",
+        "title": "NATO Innovation Fund leads $35 Million Series A in Portal Biotech alongside Earlybird",
+        "publisher": "NATO Innovation Fund",
+        "accessed": "undefined",
+        "supports": "Portal Biotech investment and its biomedical framing (drug discovery, precision medicine, biosecurity)",
+        "quote": "its protein sequencing platform has the potential to unlock the next frontier of biological data, critical for biosecurity and healthcare resilience... transformative impact on drug discovery, precision medicine, and global biosecurity"
+      },
+      {
+        "url": "https://www.labiotech.eu/trends-news/nato-innovation-fund-first-investment-portal-biotech/",
+        "title": "Portal Biotech lands NATO Innovation Fund first biotech investment",
+        "publisher": "Labiotech.eu",
+        "accessed": "undefined",
+        "supports": "Portal Biotech as NIF's first biotech investment",
+        "quote": "Portal Biotech lands NATO Innovation Fund first biotech investment"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "NIF is a defence/dual-use-oriented deep-tech fund whose direct biomedical/health nexus rests mainly on a single notable investment (Portal Biotech, life-science tools/protein sequencing) rather than a dedicated health vertical; included because it is a genuine multi-sovereign, cross-border LP direct-investment platform per the slice scope, but its health focus is narrower than the other entities in this file. Exact founding date not confirmed within research budget (publicly reported as launched around 2022-2023).",
+    "last_updated": "undefined",
+    "researched_by": "pan-european-institutional"
+  }
+]

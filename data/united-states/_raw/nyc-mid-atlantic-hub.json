@@ -1,0 +1,844 @@
+[
+  {
+    "id": "us-casdin-capital",
+    "name": { "en": "Casdin Capital" },
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://casdincapital.com/",
+    "strategy": {
+      "sector_focus": ["life-science-tools", "genomics-omics", "diagnostics"],
+      "geo_focus": ["United States"],
+      "thesis": "Casdin Capital applies a fundamental-research approach to the life science and healthcare industry, backing 'information platforms' whose data-processing capabilities unlock biological insight, investing across both private and public markets."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://casdincapital.com/",
+        "title": "Casdin Capital",
+        "accessed": "undefined",
+        "supports": "HQ, thesis",
+        "quote": "Casdin Capital is a New York-based investment firm that centers its strategy on fundamental research within the life science and healthcare industry...invest in information platforms whose processing power and data analysis unlock the blueprint for all life."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-lifesci-venture-partners",
+    "name": { "en": "LifeSci Venture Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.lifesciventure.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "sector_focus": ["therapeutics"],
+      "geo_focus": ["United States"],
+      "thesis": "Early-stage investing arm of healthcare advisory firm LifeSci Partners; backs clinical-stage biopharmaceutical companies with proof-of-concept data, typically 12-18 months from an anticipated IPO."
+    },
+    "people": [
+      { "name": "Paul Yook", "role": "Managing Partner & CIO" }
+    ],
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.lifesciventure.com/",
+        "title": "LifeSci Venture Partners",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, strategy, leadership",
+        "quote": "LifeSci Venture Partners is a New York-based venture capital firm founded in 2017...operates as the early-stage investing arm of LifeSci Partners...founded by Paul Yook, who serves as Managing Partner & CIO."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-rtw-investments",
+    "name": { "en": "RTW Investments" },
+    "type": "crossover-fund",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.rtwfunds.com/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": ["United States"],
+      "thesis": "Healthcare-focused investment firm spanning the full company lifecycle from company creation through venture capital, alternative financing, and public-market biotech/medtech investing."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.rtwfunds.com/",
+        "title": "RTW Investments",
+        "accessed": "undefined",
+        "supports": "HQ, strategy",
+        "quote": "RTW Investments invests in biotech and medtech innovation across the full lifecycle from company creation to venture capital, alternative financing, and public companies."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-deerfield-management",
+    "name": { "en": "Deerfield Management Company" },
+    "type": "crossover-fund",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services"],
+      "geo_focus": ["United States"],
+      "thesis": "New York City-based investment firm operating across venture capital, scientific research partnerships, and public/private healthcare investing with a mission to advance healthcare and global health outcomes."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "confidence": "medium",
+    "verification_notes": "Official deerfield.com site not directly fetched this session; description sourced from a secondary VC-fund directory.",
+    "sources": [
+      {
+        "url": "https://www.everythingstartups.com/vc-funds/deerfield-management",
+        "title": "Everything Startup - Deerfield Management",
+        "accessed": "undefined",
+        "supports": "HQ, thesis",
+        "quote": "Deerfield Management Company is a New York City-based investment firm founded with a mission to advance healthcare and improve global health outcomes, operating at the intersection of venture capital, scientific research, and strategic innovation."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-perceptive-advisors",
+    "name": { "en": "Perceptive Advisors" },
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.perceptivelife.com/",
+    "capital": {
+      "current_fund": { "raw": "over $700 million", "usd": 700000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "healthcare-services"],
+      "geo_focus": ["United States"],
+      "thesis": "Healthcare-dedicated investment firm combining a public-markets hedge fund with a closed-end venture capital strategy (Perceptive Xontogeny Venture Funds) financing early-stage biotech, medtech, healthtech and digital health companies."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.perceptivelife.com/venture-capital",
+        "title": "Venture Capital — Perceptive Advisors",
+        "accessed": "undefined",
+        "supports": "fund size, strategy, sectors",
+        "quote": "Perceptive Advisors established their Venture Capital strategy with the launch of their first closed-end fund in 2018, and in 2021 closed Perceptive Xontogeny Venture Fund II, LP, and currently manage over $700 million of capital dedicated to financing early-stage life sciences companies...biotechnology, medtech, healthtech, digital health and healthcare tools/services."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-aisling-capital",
+    "name": { "en": "Aisling Capital" },
+    "type": "crossover-fund",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.aislingcapital.com/",
+    "capital": {
+      "aum": { "raw": "$1.8 billion", "usd": 1800000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services"],
+      "geo_focus": ["United States", "Western Europe"],
+      "thesis": "Healthcare-dedicated investment firm founded in 2000 investing across the life sciences capital structure -- seed/venture financing, structured debt, royalty deals and growth-equity/buyouts of profitable biotech, device and healthcare-services companies."
+    },
+    "people": [
+      { "name": "Steven Elms", "role": "Managing Partner" },
+      { "name": "Andrew Schiff, MD", "role": "Managing Partner", "background": "MD" }
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.aislingcapital.com/",
+        "title": "Aisling Capital",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, AUM, strategy, leadership",
+        "quote": "Aisling Capital is a venture capital and private equity firm based in New York City...founded in 2000...has $1.8 billion in assets...focuses on companies within the life sciences sector, including biotechnology, medical devices, and healthcare services."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-consonance-capital",
+    "name": { "en": "Consonance Capital" },
+    "aka": ["Consonance Capital Management", "Consonance Capital Partners"],
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2005,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.consonancecapital.com/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services"],
+      "geo_focus": ["United States"],
+      "thesis": "Physician-led (Mitchell Blutt, MD) healthcare investment platform spanning a public-equities hedge fund and a private-equity/growth arm (Consonance Capital Partners) focused on payors, pharmaceutical, specialty distribution and device companies."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "confidence": "medium",
+    "verification_notes": "Consonance Capital Management (the hedge fund vehicle) is reported to have stopped making new equity investments and accepting new capital as of recent filings, while the related Consonance Capital Partners private-equity brand appears to remain active; treated here as one umbrella platform pending clearer disambiguation.",
+    "sources": [
+      {
+        "url": "https://www.consonancecapital.com/",
+        "title": "Consonance Capital | Healthcare Investors | United States",
+        "accessed": "undefined",
+        "supports": "existence, sector focus, HQ"
+      },
+      {
+        "url": "https://www.insidermonkey.com/blog/consonance-capital-management-is-fond-of-healthcare-stocks-321770/",
+        "title": "Consonance Capital Management is Fond of Healthcare Stocks",
+        "accessed": "undefined",
+        "supports": "founding year, leadership, wind-down status",
+        "quote": "Consonance Capital Management is a New York based hedge fund established in 2005, managed by Mitchell Blutt MD, and usually invests in the lower middle market, in value stocks of small and mid-cap companies, focusing on the healthcare sector...is no longer making new equity investments, actively managing investment positions or accepting investor capital."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-population-health-partners",
+    "name": { "en": "Population Health Partners" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://populationhp.com/",
+    "strategy": {
+      "stages": ["growth"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "geo_focus": ["United States"],
+      "thesis": "Firm bridging venture capital and private equity to build companies that solve health and healthcare-economic challenges."
+    },
+    "confidence": "medium",
+    "verification_notes": "One secondary source lists San Francisco rather than New York as HQ; primary site (populationhp.com) and Tracxn/CB Insights profiles point to New York, which is used here.",
+    "sources": [
+      {
+        "url": "https://populationhp.com/",
+        "title": "Population Health Partners",
+        "accessed": "undefined",
+        "supports": "founding year, thesis",
+        "quote": "Population Health Partners is a new type of firm bridging venture capital and private equity, committed to building great companies and generating superior returns for our investing partners by solving the health and economic challenges. It was founded in 2020 and is based in New York, New York."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-domain-associates",
+    "name": { "en": "Domain Associates" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1985,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Princeton",
+    "offices": [
+      { "country": "United States", "city": "Princeton" },
+      { "country": "United States", "city": "San Diego" }
+    ],
+    "capital": {
+      "aum": { "raw": "$2.4 billion", "usd": 2400000000, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "geo_focus": ["United States"],
+      "thesis": "Life-sciences-exclusive venture firm founded in 1985 investing in pharmaceuticals, diagnostics and medical devices, headquartered in Princeton, NJ."
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.domainvc-history.com/",
+        "title": "Leading Healthcare Venture Capital Firm | Domain Associates",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, AUM, sectors",
+        "quote": "Domain Associates, founded in 1985, is a venture capital firm with an exclusive focus on investing in life science companies that advance human health. The firm is headquartered in Princeton, NJ with a second office in San Diego, CA. With $2.4 billion of capital under management, Domain invests in three major segments: pharmaceuticals, diagnostics, and medical devices."
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/domain-associates-llc-raises-8th-venture-fund",
+        "title": "Domain Associates LLC Raises 8th Venture Fund",
+        "accessed": "undefined",
+        "supports": "track record"
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-radius-ventures",
+    "name": { "en": "Radius Ventures" },
+    "type": "growth-equity",
+    "status": "dormant",
+    "founded_year": 1997,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://radiusventures.com/",
+    "strategy": {
+      "stages": ["growth"],
+      "sector_focus": ["medtech-devices", "diagnostics", "therapeutics", "life-science-tools", "healthcare-services", "healthcare-it"],
+      "geo_focus": ["United States"],
+      "thesis": "Growth-equity investor in expansion-stage health and life-sciences companies across medical devices, diagnostics, biopharmaceuticals, life science tools, healthcare services and healthcare IT; completed its active investment period and wound down in 2024."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "U-Systems", "sector": "medical imaging", "outcome": "acquired" }
+      ]
+    },
+    "confidence": "medium",
+    "verification_notes": "Firm's own site is titled 'Radius Ventures (1997-2024)', indicating it wound down operations in 2024.",
+    "sources": [
+      {
+        "url": "https://radiusventures.com/",
+        "title": "Radius Ventures (1997-2024)",
+        "accessed": "undefined",
+        "supports": "founding year, wind-down, sectors",
+        "quote": "Radius Ventures was a New York-based venture capital firm active from 1997 to 2024, focused exclusively on growth-equity and expansion-stage health and life sciences companies."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-northpond-ventures",
+    "name": { "en": "Northpond Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Bethesda",
+    "offices": [
+      { "country": "United States", "city": "Bethesda" },
+      { "country": "United States", "city": "Cambridge" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.npv.vc/",
+    "capital": {
+      "aum": { "raw": "approximately $2 billion", "usd": 2000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health", "life-science-tools"],
+      "geo_focus": ["United States"],
+      "thesis": "Science-driven venture firm partnering with scientists, academics and entrepreneurs to build breakthrough biotechnology, diagnostics, digital-health and life-science-tools companies."
+    },
+    "track_record": {
+      "portfolio_count": "131+"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.npv.vc/",
+        "title": "Advancing Science for the Benefit of Humanity | Northpond Ventures",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, sectors"
+      },
+      {
+        "url": "https://www.caplight.com/investor/northpond",
+        "title": "Northpond Ventures | Portfolio, Investments & AUM | Caplight",
+        "accessed": "undefined",
+        "supports": "AUM, portfolio count",
+        "quote": "Northpond Ventures manages approximately $2 billion in assets under management (AUM) and has made over 131 investments across various sectors."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-jjdc",
+    "name": { "en": "JJDC, Inc. (Johnson & Johnson Innovation)" },
+    "aka": ["Johnson & Johnson Development Corporation"],
+    "type": "cvc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New Brunswick",
+    "website": "https://jnjinnovation.com/venture-investing-jjdc",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "growth"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": ["Global"],
+      "thesis": "Corporate venture arm of Johnson & Johnson headquartered in New Brunswick, NJ; invests across pharmaceutical and medtech sectors at all stages, from new company creation through PIPEs."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://jnjinnovation.com/venture-investing-jjdc",
+        "title": "Venture Investing @ JJDC, Inc. | Johnson & Johnson Innovation",
+        "accessed": "undefined",
+        "supports": "HQ, strategy",
+        "quote": "JJDC is a corporate venture capital arm of Johnson & Johnson, headquartered in New Brunswick, New Jersey. JJDC invests across sectors -- pharmaceuticals and medtech -- and at all stages, from new company creation and seed-level startups to Series A and beyond, including private investments in public equity (PIPEs)."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-merck-ghi-fund",
+    "name": { "en": "Merck Global Health Innovation Fund (MGHIF)" },
+    "aka": ["Merck GHI Fund"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2010,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Rahway",
+    "website": "https://www.merckghifund.com/",
+    "capital": {
+      "aum": { "raw": "$500M under management", "usd": 500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "sector_focus": ["digital-health", "healthcare-it"],
+      "geo_focus": ["Global"],
+      "thesis": "Merck's growth-investing corporate venture arm, backing digital health and data-science companies that optimize biopharmaceutical operations and patient care."
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.merckghifund.com/",
+        "title": "Merck GHI Fund",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, AUM, thesis",
+        "quote": "Merck GHI has $500M under management and provides growth capital to emerging healthcare technology companies worldwide...It was founded in 2010 and is based in Rahway, New Jersey."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-tcp-venture-capital",
+    "name": { "en": "TCP Venture Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Baltimore",
+    "website": "https://tcp.vc/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["generalist-health"],
+      "geo_focus": ["Baltimore, Maryland"],
+      "thesis": "Baltimore-based early-stage generalist firm (and manager of the Propel Baltimore Fund) whose sector mandate explicitly includes healthcare alongside technology, education and cybersecurity, in a city anchored by Johns Hopkins' life-sciences ecosystem."
+    },
+    "confidence": "low",
+    "verification_notes": "Healthcare is one of several sectors TCP invests in rather than an exclusive focus; nexus is weaker than dedicated life-science funds in this list.",
+    "sources": [
+      {
+        "url": "https://tcp.vc/",
+        "title": "TCP Venture Capital - Baltimore",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, sectors",
+        "quote": "TCP Venture Capital is a Baltimore, Maryland-based early-stage technology focused venture capital firm. Founded in 2012...invests in early-stage companies operating in the technology, education, healthcare, and cybersecurity sectors across Baltimore."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-abs-capital-partners",
+    "name": { "en": "ABS Capital Partners" },
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 1990,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Baltimore",
+    "offices": [
+      { "country": "United States", "city": "Baltimore" },
+      { "country": "United States", "city": "Washington" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://abscapital.com/",
+    "capital": {
+      "aum": { "raw": "approximately $2.5 billion raised across seven funds", "usd": 2500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "sector_focus": ["healthcare-it"],
+      "geo_focus": ["United States"],
+      "thesis": "Growth-equity firm founded in 1990 (originally the investment arm of Alex. Brown & Sons) that targets late-stage B2B software and tech-enabled-services companies, with healthcare IT as one of its core verticals; recent Maryland deals include CERTIFY Health's Series A."
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://abscapital.com/",
+        "title": "ABS Capital",
+        "accessed": "undefined",
+        "supports": "HQ, founding year, sectors, AUM",
+        "quote": "ABS Capital Partners is a growth equity firm based in Baltimore, Maryland, and Washington, District of Columbia, that invests in late-stage B2B software, healthcare IT, and tech-enabled services companies...Founded in 1990 by Don Hebb and Tim Weglicki...has raised approximately $2.5 billion since its inception across seven funds."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-bioadvance",
+    "name": { "en": "BioAdvance" },
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Philadelphia",
+    "capital": {
+      "current_fund": { "raw": "$80-million early-stage life sciences fund", "usd": 80000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "digital-health"],
+      "geo_focus": ["Mid-Atlantic United States"],
+      "thesis": "Mid-Atlantic-focused early-stage life sciences fund investing in diagnostics, therapeutics, medtech, research tools and digital health, aiming to improve human health; deploys pre-seed/seed capital through its Greenhouse Fund."
+    },
+    "track_record": {
+      "portfolio_count": "~115 organizations"
+    },
+    "confidence": "medium",
+    "verification_notes": "Exact HQ street address / founding year not independently confirmed this session; classification and region inferred from consistent description as a Philadelphia/Southeastern-PA mid-Atlantic life-sciences fund.",
+    "sources": [
+      {
+        "url": "https://unicorn-nest.com/funds/bioadvance/",
+        "title": "BioAdvance - Investors Database",
+        "accessed": "undefined",
+        "supports": "fund size, sectors, portfolio count",
+        "quote": "BioAdvance is an $80-million early-stage life sciences fund with a focus on the mid-Atlantic region, investing in companies that have the potential to improve human health...has committed more than $73 million in funding to approximately 115 organizations developing more than 208 products in the diagnostics, therapeutic, medtech, research tools, and digital health sectors."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-ben-franklin-technology-partners-sep",
+    "name": { "en": "Ben Franklin Technology Partners of Southeastern Pennsylvania" },
+    "aka": ["Ben Franklin SEP"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 1983,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Philadelphia",
+    "website": "https://sep.benfranklin.org/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["generalist-health"],
+      "geo_focus": ["Southeastern Pennsylvania"],
+      "thesis": "Pennsylvania Department of Community and Economic Development-backed early-stage capital provider for southeastern PA's technology sectors; a frequent co-investment partner and grant-maker alongside BioAdvance for the region's life-sciences startups."
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.phillymag.com/healthcare-news/2019/08/28/ben-franklin-tech-partners-grant/",
+        "title": "Ben Franklin Tech Partners Wins Grant to Boost Philly Life Sciences",
+        "accessed": "undefined",
+        "supports": "life-sciences activity"
+      },
+      {
+        "url": "https://benfranklin.org/",
+        "title": "Home - Ben Franklin Technology Partners",
+        "accessed": "undefined",
+        "supports": "founding year, mandate",
+        "quote": "Founded in 1983, Ben Franklin Technology Partners (BFTP) is an initiative of the Pennsylvania Department of Community and Economic Development with a long track record of supporting early stage technology companies."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-robin-hood-ventures",
+    "name": { "en": "Robin Hood Ventures" },
+    "type": "angel-network",
+    "status": "active",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Philadelphia",
+    "strategy": {
+      "stages": ["seed"],
+      "check_size": { "raw": "$500K-$1M" },
+      "sector_focus": ["generalist-health"],
+      "geo_focus": ["Mid-Atlantic United States"],
+      "thesis": "Mid-Atlantic angel investment group backing early-stage, high-growth companies within a few hours of Philadelphia; tracked by biotech-industry press (BioBuzz) as a relevant capital source for the region's life-sciences founders."
+    },
+    "confidence": "low",
+    "verification_notes": "Medical/biomedical nexus is inferred from inclusion in a biotech-focused regional publication's investor list rather than an explicit health-only mandate; Robin Hood Ventures appears to be a generalist angel group.",
+    "sources": [
+      {
+        "url": "https://news.biobuzz.io/2025/07/16/7-greater-philadelphia-angel-investors-and-venture-firms-you-should-know/",
+        "title": "7 Greater Philadelphia Angel Investors and Venture Firms You Should Know",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, check size, biotech relevance",
+        "quote": "Robin Hood Ventures, established in 1999, is a leading Mid-Atlantic angel investment group with headquarters in Philadelphia. The organization focuses its funding efforts on early-stage, high-growth potential startups within a few hours drive of Philadelphia, with typical funding generally ranging between $500K to $1M."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-jlabs-nyc",
+    "name": { "en": "JLABS @ NYC" },
+    "type": "incubator",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "genomics-omics"],
+      "geo_focus": ["United States"],
+      "thesis": "Johnson & Johnson Innovation's no-strings-attached NYC innovation hub, housed within the New York Genome Center, hosting 30-35 early-stage biotech, pharma and health-tech startups."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "New York Genome Center, SoHo, New York, NY"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://newyorkbioconnect.com/facility/jlabs-nyc/",
+        "title": "JLabs @ NYC - New York Bio Connect",
+        "accessed": "undefined",
+        "supports": "location, opening year, cohort size",
+        "quote": "JLABS @ NYC, housed within the New York Genome Center in SoHo, is a no-strings-attached innovation hub by Johnson & Johnson. The 30,000 sq ft facility hosts 30-35 early-stage biotech, pharma, and health-tech startups, and opened on one floor of the New York Genome Center in 2018 with the help of $17 million in state funding."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-biolabs-nyu-langone",
+    "name": { "en": "BioLabs @ NYU Langone" },
+    "type": "incubator",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.biolabs.io/nyulangone",
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "geo_focus": ["New York"],
+      "thesis": "Shared wet-lab and coworking incubator space in Hudson Square backed by NYU Langone Health, Bristol Myers Squibb and other corporate partners, with initial funding from the city's LifeSci NYC program."
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.fiercehealthcare.com/tech/nyu-langone-biolabs-open-up-new-york-city-s-largest-biotech-startup-incubator",
+        "title": "NYU Langone opens NYC's largest biotech incubator with backing from biopharma giants",
+        "accessed": "undefined",
+        "supports": "backers, funding source",
+        "quote": "BioLabs, a Cambridge-based company, opened BioLabs at NYU Langone...with $5 million from LifeSci NYC and backing from NYU Langone Health, Bristol Myers Squibb, and other corporations."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-harlem-biospace",
+    "name": { "en": "Harlem Biospace" },
+    "type": "incubator",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "life-science-tools"],
+      "geo_focus": ["New York"],
+      "thesis": "NYC's first shared wet-lab biotech incubator offering affordable, competitively-selected bench space to early-stage life-science companies."
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.excedr.com/resources/biotech-incubators",
+        "title": "16 Incubators for US-Based Biotech Startups",
+        "accessed": "undefined",
+        "supports": "founding year, founders, mission",
+        "quote": "In 2013, Sam Sia, a Columbia biomedical engineer, and Christine Kovich, a financial services entrepreneur, launched the Harlem Biospace biotechnology incubator. The first Biotech incubator of its kind in New York City to offer affordable shared wet-lab space for competitively-selected entrants."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-lifesci-nyc",
+    "name": { "en": "LifeSci NYC" },
+    "type": "government-program",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://lifesci.nyc/",
+    "capital": {
+      "aum": { "raw": "$1B investment", "usd": 1000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "digital-health"],
+      "geo_focus": ["New York City"],
+      "thesis": "New York City Economic Development Corporation initiative committing $1B toward life-sciences R&D and innovation infrastructure (incubators, lab space, workforce programs) to grow NYC's biotech ecosystem."
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://edc.nyc/program/lifesci-nyc",
+        "title": "LifeSci NYC | NYCEDC",
+        "accessed": "undefined",
+        "supports": "program size, goals",
+        "quote": "Led by New York City Economic Development Corporation (NYCEDC) and its Life Sciences and Healthcare team...A $1B investment in life sciences research and development (R&D) and related innovation, LifeSci NYC is expected to create nearly 16,000 new jobs by 2026."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-johns-hopkins-technology-ventures",
+    "name": { "en": "Johns Hopkins Technology Ventures" },
+    "aka": ["JHTV"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Baltimore",
+    "website": "https://ventures.jhu.edu/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "geo_focus": ["Baltimore, Maryland"],
+      "thesis": "Johns Hopkins University's technology-transfer and venture-creation office, translating academic and clinical research (including from Johns Hopkins Medicine) into startups across life sciences and health tech."
+    },
+    "track_record": {
+      "portfolio_count": "150+"
+    },
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://ventures.jhu.edu/",
+        "title": "Homepage - Johns Hopkins Technology Ventures",
+        "accessed": "undefined",
+        "supports": "mission, portfolio count",
+        "quote": "Johns Hopkins Technology Ventures' mission is to maximize the impact of Johns Hopkins University's research excellence by facilitating the translation and commercialization of discoveries into accessible technologies, products, and services...has helped launch more than 150 startups."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-dreamit-ventures",
+    "name": { "en": "Dreamit Ventures" },
+    "type": "accelerator",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Philadelphia",
+    "website": "https://www.dreamit.com/healthtech",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "geo_focus": ["United States"],
+      "thesis": "Revenue-focused accelerator and venture fund founded in Philadelphia in 2008 running a dedicated Healthtech track/fund alongside Urbantech and Securetech; has run DreamIt Health Philadelphia in partnership with Independence Blue Cross and Penn Medicine."
+    },
+    "program": {
+      "length_weeks": 14,
+      "format": "in-person",
+      "location": "Philadelphia, PA"
+    },
+    "track_record": {
+      "portfolio_count": "300+"
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://www.dreamit.com/healthtech",
+        "title": "Healthtech Fund — Dreamit Ventures",
+        "accessed": "undefined",
+        "supports": "healthtech focus"
+      },
+      {
+        "url": "https://news.ibx.com/ibc-penn-medicine-and-dreamit-ventures-partner-on-startup-accelerator-to-solve-healthcare-problems/",
+        "title": "IBC, Penn Medicine, and DreamIt Ventures partner on startup accelerator to solve healthcare problems",
+        "accessed": "undefined",
+        "supports": "founding year, program length, partners, portfolio count",
+        "quote": "Dreamit Ventures is an early-stage accelerator and venture fund focused on healthtech, urbantech, and securetech. Founded in 2008 in Philadelphia...a 14-week program...Since 2008, Dreamit has invested in 300+ companies across four funds."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  },
+  {
+    "id": "us-euclidean-capital",
+    "name": { "en": "Euclidean Capital" },
+    "type": "family-office",
+    "status": "active",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "capital": {
+      "aum": { "raw": "Simons family wealth estimated ~$28 billion (pre-2024)", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "life-science-tools", "ai-drug-discovery"],
+      "geo_focus": ["United States"],
+      "thesis": "Family office of the late Renaissance Technologies founder James Simons, with life sciences as one of its top two portfolio verticals (alongside high-tech/AI), backing biotech venture rounds from early to late stage."
+    },
+    "confidence": "medium",
+    "sources": [
+      {
+        "url": "https://pipelineroad.com/directory/simons-family-office",
+        "title": "Euclidean Capital — Family Office Profile | PipelineRoad",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, founder, sector focus",
+        "quote": "Euclidean Capital is the family office of James Simons, the founder of Renaissance Technologies, and was founded in 2009 based in New York...Top sectors in Euclidean Capital's portfolio are Life Sciences (16 investments) and High Tech (11 investments)."
+      }
+    ],
+    "last_updated": "undefined",
+    "researched_by": "nyc-mid-atlantic-hub"
+  }
+]

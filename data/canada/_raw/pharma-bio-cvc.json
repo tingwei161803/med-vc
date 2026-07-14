@@ -1,0 +1,334 @@
+[
+  {
+    "id": "ca-knight-therapeutics",
+    "name": { "en": "Knight Therapeutics Inc." },
+    "aka": ["Knight Tx", "GUD (TSX ticker)"],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://knighttx.com/",
+    "capital": {
+      "current_fund": { "raw": null, "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["growth", "all"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Canada", "Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Montreal-based specialty pharmaceutical company (TSX: GUD) whose core business is acquiring/in-licensing pharmaceutical products for Canada and select international markets; alongside this it makes strategic limited-partner investments in life-science venture capital funds to gain preferential access to emerging biotech/pharma assets, giving it a direct corporate-strategic-investment nexus to biomedicine."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": true,
+      "science_platform_notes": "Invests as an LP in third-party life-science VC funds (e.g. Sectoral Asset Management's New Emerging Medical Opportunities Fund II, Forbion Capital Fund III) rather than running an in-house scientific platform; goal is deal-flow access for its pharmaceutical licensing pipeline."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Sectoral New Emerging Medical Opportunities Fund II", "sector": "life-science-vc-fund", "outcome": "active" },
+        { "company": "Forbion Capital Fund III", "sector": "life-science-vc-fund", "outcome": "active" }
+      ]
+    },
+    "tags": ["strategic-lp", "specialty-pharma", "fund-of-funds-style"],
+    "summary": {
+      "en": "Montreal-based, TSX-listed specialty pharmaceutical company that, in addition to acquiring and in-licensing drugs for the Canadian and international markets, makes strategic LP investments in life-science venture capital funds (Sectoral's NEMO Fund, Forbion Capital Fund III) to secure preferential access to new pharmaceutical and biotech assets."
+    },
+    "sources": [
+      {
+        "url": "https://s203.q4cdn.com/535621653/files/doc_financials/2024/ar/AIF-2024-vf-19-03.pdf",
+        "title": "Knight Therapeutics Inc. Annual Information Form 2024",
+        "publisher": "Knight Therapeutics Inc. (investor relations host)",
+        "accessed": "undefined",
+        "supports": "Strategic investment strategy amount and structure",
+        "quote": "Knight intended to commit up to $130 million Canadian in total to this strategy with the long term goal of creating Canada's largest innovative pharmaceutical pipeline."
+      },
+      {
+        "url": "https://knighttx.com/knight-therapeutics-inc-expands-its-innovative-pharmaceutical-product-sourcing-strategy/",
+        "title": "Knight Therapeutics Inc. Expands Its Innovative Pharmaceutical Product Sourcing Strategy",
+        "publisher": "Knight Therapeutics Inc.",
+        "accessed": "undefined",
+        "supports": "Fund investments (Sectoral NEMO Fund II, Forbion Capital Fund III), HQ Montreal, TSX-V listing 2014",
+        "quote": "EUR19.5 million into Forbion Capital Fund III"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Knight's own 2024 AIF states it 'has no plans to invest in any new venture capital funds,' so this strategic-investment activity is winding down rather than an ongoing new-deal program; existing fund positions remain held.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "ca-cqdm",
+    "name": {
+      "en": "CQDM (Quebec Consortium for Drug Discovery)",
+      "local": "Consortium Québécois sur la Découverte du Médicament"
+    },
+    "aka": ["Quebec Consortium for Drug Discovery"],
+    "type": "cvc",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "canada",
+    "country": "Canada",
+    "website": "https://cqdm.org/en/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Quebec", "Canada"],
+      "sector_focus": ["therapeutics", "pharma-services"],
+      "thesis": "Pooled public-private research consortium co-funded by global pharmaceutical companies (Merck, Pfizer, AstraZeneca, Amgen, GSK, Roche Canada, Sanofi, Servier, Takeda, Boehringer Ingelheim, Janssen, Lilly, Ono Pharma and others) alongside the Quebec government, sharing project results/costs across members to accelerate drug-discovery technology and de-risk early biopharma R&D in Quebec — a direct pharma-industry strategic co-investment vehicle rather than a single-firm VC."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "science_platform_notes": "Funds competitive calls/programs (e.g. SynergiQC, Quantum Leap, Partenar-IA) that support Canadian biotech and academic groups developing enabling drug-discovery technologies, rather than taking direct equity like a classic CVC."
+    },
+    "track_record": {
+      "portfolio_count": null
+    },
+    "tags": ["pharma-consortium", "public-private-partnership", "quebec"],
+    "summary": {
+      "en": "Montreal-area, pharma-industry-funded consortium founded in 2008 by Merck, Pfizer and AstraZeneca (now including Amgen, GSK, Roche Canada, Sanofi, Servier, Takeda, Boehringer Ingelheim, Janssen and Lilly) that pools corporate and Quebec-government capital to co-fund early-stage biopharma R&D and drug-discovery technology projects.",
+      "local": "Consortium québécois cofinancé par de grandes sociétés pharmaceutiques (Merck, Pfizer, AstraZeneca, etc.) et le gouvernement du Québec pour accélérer la découverte de médicaments et l'innovation biopharmaceutique."
+    },
+    "sources": [
+      {
+        "url": "https://cqdm.org/en/",
+        "title": "CQDM — Quebec Consortium for Drug Discovery (homepage)",
+        "publisher": "CQDM",
+        "accessed": "undefined",
+        "supports": "Current pharma member list, funding programs",
+        "quote": "Nearly $11M in additional funding for AReNA"
+      },
+      {
+        "url": "https://cqdm.org/en/news-and-events/pfizer-canada-renews-its-support-to-cqdm-with-a-550000-contribution/",
+        "title": "Pfizer Canada renews its support to CQDM with a $550,000 contribution",
+        "publisher": "CQDM",
+        "accessed": "undefined",
+        "supports": "Founding pharma members and funding model",
+        "quote": "the consortium was founded in 2008 with the support of the Fonds de Recherche en Santé du Québec (FRSQ) and three major global pharmaceutical companies: Merck, Pfizer and AstraZeneca"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "CQDM funds R&D projects/technology development rather than taking direct equity in startups in the way a classic CVC does; included here because its capital is directly pooled and governed by operating pharma companies as a strategic collective-investment vehicle for the region, which is the closest fit to this slice's scope. Exact HQ city not confirmed from sources fetched this session (Quebec-based).",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "ca-neomed-institute",
+    "name": { "en": "NEOMED Institute" },
+    "aka": ["NÉOMED Institute"],
+    "type": "venture-studio",
+    "subtypes": ["accelerator", "incubator"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.neomed.ca/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Quebec", "Canada"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Not-for-profit drug-development vehicle funded jointly by global pharmaceutical companies (GSK, AstraZeneca, Pfizer, Johnson & Johnson Innovation, Purdue Pharma) and the Quebec government; in-licenses promising academic discoveries from Canadian universities/institutes and funds + develops them (using shared small-molecule and biologics/vaccine R&D facilities) through to human proof-of-concept or partnering — a pharma-consortium-backed company-creation/co-investment model."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Operates two integrated R&D facilities (small-molecule; biologics & vaccines) housed in a former AstraZeneca research site in Montreal, hosting 30+ life-science companies/programs."
+    },
+    "track_record": {
+      "portfolio_count": "30+ (companies/programs hosted)"
+    },
+    "tags": ["pharma-consortium", "drug-discovery", "quebec"],
+    "summary": {
+      "en": "Montreal not-for-profit founded in 2012 and backed by a consortium of global pharma companies (GSK, AstraZeneca, Pfizer, Johnson & Johnson Innovation, Purdue Pharma) plus the Quebec government; it in-licenses early academic drug-discovery programs from Canadian institutions and funds/develops them toward clinical proof-of-concept, operating shared R&D labs in Montreal."
+    },
+    "sources": [
+      {
+        "url": "https://researchmoneyinc.com/article/neomed-institute-to-leverage-increasingly-collaborative-nature-of-pharma-rd/",
+        "title": "NÉOMED Institute to leverage increasingly collaborative nature of pharma R&D",
+        "publisher": "Research Money Inc.",
+        "accessed": "undefined",
+        "supports": "Founding pharma backers, funding target, Montreal HQ, facility origin",
+        "quote": "additional funding from the Quebec Government, GlaxoSmithKline (GSK), AstraZeneca, Pfizer, Johnson & Johnson Innovation and Purdue Pharma to advance outstanding Canadian discoveries towards successful commercialization"
+      },
+      {
+        "url": "https://www.nce-rce.gc.ca/NetworksCentres-CentresReseaux/CECR-CECR/NEOMED_eng.asp",
+        "title": "NEOMED — Networks of Centres of Excellence (Government of Canada registry)",
+        "publisher": "Government of Canada",
+        "accessed": "undefined",
+        "supports": "Organization mandate as public-private drug development partnership",
+        "quote": "NEOMED is a not-for-profit organization pioneering a new approach to drug development as a public-private partnership with government and biopharmaceutical companies."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official neomed.ca site returned a 403 error when fetched directly this session; facts sourced from secondary coverage (Research Money Inc., Government of Canada NCE-CECR registry, BetaKit) instead. Could not confirm most recent (2025-2026) activity level.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "ca-klick-ventures",
+    "name": { "en": "Klick Ventures (btwelve Venture Studio)" },
+    "aka": ["btwelve", "btwelve Venture Studio", "Klick Health"],
+    "type": "venture-studio",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.klick.com/",
+    "links": {
+      "other": ["https://ventures.klick.com/"]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada", "United States"],
+      "sector_focus": ["digital-health", "consumer-health", "pharma-services"],
+      "thesis": "Corporate venture studio of Klick Health — the world's largest independent life-sciences commercialization partner for pharma and biotech brands — providing capital plus in-house commercialization, marketing-advisory and consumer-experience expertise to health/life-science ventures, giving Klick a direct strategic-investment arm anchored in its pharma/biotech client base."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Leverages Klick Health's commercialization, regulatory-marketing and consumer-experience expertise (leadership includes two MDs) rather than an in-house wet-lab platform."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Seed Health", "sector": "microbiome/consumer-health", "outcome": "active" },
+        { "company": "Ostro", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "tags": ["venture-studio", "life-sciences-commercialization", "corporate-venture-arm"],
+    "summary": {
+      "en": "Toronto-based venture studio (btwelve, under the Klick Ventures banner) of Klick Health, the world's largest independent life-sciences commercialization partner; provides capital and commercialization expertise to health ventures such as microbiome company Seed Health and healthcare-information platform Ostro."
+    },
+    "sources": [
+      {
+        "url": "https://www.klick.com/news/klick-health-adds-btwelve-venture-studio-to-help-innovators-accelerate",
+        "title": "Klick Health Adds btwelve Venture Studio to Help Innovators Accelerate Disruptive Ideas Through Commercialization",
+        "publisher": "Klick Health",
+        "accessed": "undefined",
+        "supports": "Launch date, parent relationship, portfolio companies, leadership",
+        "quote": "Klick Health announced the debut of its venture studio btwelve, providing entrepreneurs with commercial expertise and investment to bring emerging concepts to the health market."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Klick Ventures' own site (ventures.klick.com) redirected to the main klick.com homepage when fetched this session, suggesting the standalone venture-brand page may be inactive or folded into btwelve; PitchBook lists a separate 'Klick Ventures' entity founded 2021 with one tracked investment (Talkatoo) but that could not be independently confirmed from a primary source this session.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "ca-bausch-lomb",
+    "name": { "en": "Bausch + Lomb (Bausch Health Companies)" },
+    "aka": ["Bausch Health", "Bausch & Lomb", "formerly Valeant Pharmaceuticals"],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "website": "https://www.bausch.com/",
+    "strategy": {
+      "stages": ["series-b"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Canadian, TSX/NYSE-listed diversified pharmaceutical and medical-device company (branded/generic pharma, medical devices, OTC); makes selective strategic equity investments in ophthalmology biotech alongside R&D collaborations, e.g. its 2025 investment in Character Biosciences tied to an AMD drug-development partnership."
+    },
+    "lifesci": {
+      "indications": ["ophthalmology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Character Biosciences", "sector": "ophthalmology/precision medicine", "outcome": "active" }
+      ]
+    },
+    "tags": ["strategic-equity-investor", "ophthalmology", "corporate-development"],
+    "summary": {
+      "en": "Diversified Canadian pharmaceutical and medical-device company whose eye-health unit Bausch + Lomb makes occasional strategic equity investments in ophthalmology biotechs, including a 2025 investment in Character Biosciences (a $93M Series B round) tied to an AMD therapeutics collaboration."
+    },
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20250325445846/en/Character-Biosciences-Raises-$93-Million-Series-B-to-Advance-Precision-Medicine-for-Progressive-Eye-Diseases",
+        "title": "Character Biosciences Raises $93 Million Series B to Advance Precision Medicine for Progressive Eye Diseases",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Bausch + Lomb's participation as strategic investor in Character Biosciences Series B, tied to a January 2025 AMD collaboration",
+        "quote": "Bausch + Lomb, a leading global eye health company, to develop innovative treatments for patients with AMD. Subject to certain closing conditions, Bausch + Lomb made a strategic equity investment in Character Biosciences."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bausch_Health",
+        "title": "Bausch Health — Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Company description as diversified Canadian pharmaceutical/medical-device company",
+        "quote": "Bausch Health Companies Inc. ... is a global, diversified Canadian pharmaceutical company. The company engages in the development, manufacture and marketing of a range of branded, generic and branded generic pharmaceuticals, medical devices and over-the-counter products."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No dedicated, named CVC fund/vehicle was found for Bausch Health or Bausch + Lomb; strategic investing appears to be done ad hoc via corporate development alongside R&D collaborations rather than through a standing venture fund. HQ city (Laval, Quebec, historically; Vaughan, Ontario for the separately-listed Bausch + Lomb Corporation since its 2022 spin-off) not independently confirmed from a source fetched this session, so omitted.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "ca-mds-capital",
+    "name": { "en": "MDS Capital Corp" },
+    "aka": ["MDS Health Ventures Inc.", "Canadian Venture Capital Management Corp. (subsidiary)"],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "acquired",
+    "founded_year": 1988,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Canada", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "generalist-health"],
+      "thesis": "Corporate venture capital arm of MDS Inc. (a Toronto-based Canadian health/life-sciences company spanning clinical diagnostics, MDS Nordion radiopharmaceuticals and MDS Pharma Services CRO); operated as one of the largest North American VC platforms focused exclusively on private healthcare and life-sciences companies across pharma, biotech, medical devices and health IT, at both early and later stages."
+    },
+    "lifesci": {
+      "company_creation": false
+    },
+    "track_record": {
+      "co_investors": ["Canada Pension Plan Investment Board"]
+    },
+    "tags": ["historical", "corporate-venture-arm", "diagnostics-parent"],
+    "summary": {
+      "en": "Historical (1988–mid-2000s) Toronto-based venture capital arm of MDS Inc., a Canadian diagnostics/radiopharmaceuticals/CRO health-sciences company; ran dedicated healthcare/life-science funds (with CPPIB as an LP/co-investor) before its management company, Medical Discovery Management Corporation, was sold to Impax Capital Corp in 2006."
+    },
+    "sources": [
+      {
+        "url": "https://www.mccarthy.ca/en/work/cases/mds-capital-corp-sale-impax-capital-corp-medical-discovery-management-corporation-mdmc",
+        "title": "MDS Capital Corp. sale to Impax Capital Corp. of Medical Discovery Management Corporation (MDMC)",
+        "publisher": "McCarthy Tétrault",
+        "accessed": "undefined",
+        "supports": "Wind-down / sale of MDS Capital's management company in 2006",
+        "quote": "MDS Capital Corp. sale to Impax Capital Corp. of Medical Discovery Management Corporation (MDMC)"
+      },
+      {
+        "url": "https://www.mycapital.com/venture-capital-firms/mds-health-ventures--inc.html",
+        "title": "MDS Health Ventures, Inc.",
+        "publisher": "MyCapital.com",
+        "accessed": "undefined",
+        "supports": "Description as exclusively healthcare/life-sciences focused VC platform, parent MDS Inc.",
+        "quote": "MDS Capital and its affiliates operate one of the largest venture capital companies in North America focused exclusively on private health care and life sciences companies (including those involved in pharmaceuticals, biotechnology, medical services and information technology) at both early and later stages of development."
+      },
+      {
+        "url": "https://www.lexpert.ca/big-deals/mds-capital-launches-fund/343767",
+        "title": "MDS Capital Launches Fund",
+        "publisher": "Lexpert",
+        "accessed": "undefined",
+        "supports": "CPPIB co-investment in MDS Life Sciences Technology Fund II and equity stake in MDS Capital",
+        "quote": "Canada Pension Plan Investment Board committed $100 million to the fund and an additional $100 million to a separate co-investment vehicle. The board also acquired a 10 per cent ownership position in MDS Capital."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Historical entity; MDS Inc.'s life-sciences businesses (MDS Nordion, MDS Pharma Services) were later sold off separately and MDS Capital's management arm was sold to Impax Capital Corp in 2006, so this fund platform is no longer operating under this name. Founded-year (1988) and exact fund sizes drawn from directory/secondary sources (Tracxn, MyCapital) rather than a primary MDS Inc. filing fetched this session.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  }
+]

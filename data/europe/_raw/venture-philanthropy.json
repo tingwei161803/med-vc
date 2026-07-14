@@ -1,0 +1,450 @@
+[
+  {
+    "id": "eu-lifearc-ventures",
+    "name": { "en": "LifeArc Ventures" },
+    "type": "venture-philanthropy",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.lifearc.org/early-ventures/",
+    "links": { "other": ["https://lifearcventures.com/"] },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "LifeArc Ventures is the equity-investing arm of LifeArc, a self-funded UK medical research charity (formerly MRC Technology); it invests LifeArc's own charitable capital into Seed-to-Series B therapeutics and medtech companies across all therapeutic areas, combining scientific, commercial and financial support, with returns recycled back into LifeArc's charitable mission."
+    },
+    "lifesci": {
+      "company_creation": null
+    },
+    "summary": {
+      "en": "LifeArc Ventures is the venture investment arm of LifeArc, a UK medical research charity, backing Seed-to-Series B therapeutics and medtech companies and reinvesting returns into the charity's research mission."
+    },
+    "sources": [
+      {
+        "url": "https://www.lifearc.org/early-ventures/",
+        "title": "LifeArc Ventures - LifeArc",
+        "publisher": "LifeArc",
+        "accessed": "undefined",
+        "supports": "existence, investment scope (Seed-Series B, therapeutics/medtech, part of LifeArc charity)",
+        "quote": "LifeArc Ventures invests in Seed to Series B therapeutics and medtech companies across all therapeutic areas. As part of the self-funded medical research organisation LifeArc, it offers a unique combination of scientific, commercial and financial support."
+      },
+      {
+        "url": "https://lifearcventures.com/",
+        "title": "Life Arc Ventures – Investing in Life Changing Science.",
+        "publisher": "LifeArc Ventures",
+        "accessed": "undefined",
+        "supports": "existence, website"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "eu-cancer-research-horizons",
+    "name": { "en": "Cancer Research Horizons" },
+    "type": "venture-philanthropy",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.cancerresearchhorizons.com",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "Cancer Research Horizons is the innovation and commercialisation engine of Cancer Research UK (CRUK). It runs an evergreen, not-for-profit equity fund making investments (up to £1m) in early-stage oncology therapeutics, diagnostics, devices and AI/data-driven solutions, and forms spin-out companies from CRUK-funded research; proceeds are reinvested into future innovation rather than distributed as returns.",
+      "geo_focus": ["United Kingdom"]
+    },
+    "lifesci": {
+      "indications": ["oncology"],
+      "company_creation": true
+    },
+    "track_record": {
+      "portfolio_count": "60+ spin-outs",
+      "notable_investments": [
+        { "company": "Artios Pharma", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["SV Health Investors"]
+    },
+    "summary": {
+      "en": "Cancer Research Horizons is Cancer Research UK's venture-philanthropy innovation arm, making evergreen equity investments in and spinning out early-stage oncology therapeutics, diagnostics and devices companies from CRUK research."
+    },
+    "sources": [
+      {
+        "url": "https://www.cancerresearchhorizons.com/investors",
+        "title": "Investors | Cancer Research Horizons",
+        "publisher": "Cancer Research Horizons",
+        "accessed": "undefined",
+        "supports": "investment model, evergreen not-for-profit structure, check size, scope",
+        "quote": "The fund will be not-for-profit, and investors will not see a return, rather, proceeds from seed investments made by the fund will be reinvested into the fund to support future innovations in an 'evergreen' manner. The fund invests up to £1m at various early stages... in the cancer space."
+      },
+      {
+        "url": "https://www.technologynetworks.com/cancer-research/blog/cancer-research-horizons-driving-innovation-and-strengthening-academiaindustry-collaboration-361733",
+        "title": "Cancer Research Horizons: Driving Innovation and Strengthening Academia–Industry Collaboration",
+        "publisher": "Technology Networks",
+        "accessed": "undefined",
+        "supports": "track record: 60+ spin-outs, 11 drugs to market, Artios Pharma example",
+        "quote": "To date, they've played an instrumental role in forming over 60 spin-out companies and bringing 11 new cancer drugs to market... Artios Pharma was formed by Cancer Research Horizons and SV Health investors in 2016."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "KNOWN ANCHOR, confirmed via official Cancer Research Horizons site. Formerly known as Cancer Research UK's Commercial Partnerships / Cancer Research Technology (CRT); part of the CRUK charity group, headquartered London.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "eu-novo-holdings",
+    "name": { "en": "Novo Holdings" },
+    "type": "venture-philanthropy",
+    "subtypes": ["growth-equity", "crossover-fund"],
+    "status": "active",
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Copenhagen",
+    "website": "https://novoholdings.dk",
+    "capital": {
+      "aum": { "raw": "DKK 694 billion (EUR 93 billion)", "usd": null, "currency": "DKK" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "life-science-tools"],
+      "thesis": "Novo Holdings is the holding and investment company that manages the assets of the Novo Nordisk Foundation, one of the world's largest philanthropic enterprise foundations (rooted in the Novo Nordisk/diabetes-care legacy). Through its Seed, Venture, Growth/Principal Investments and Asia teams it invests across nearly all life-science segments (pharma, biotech, medtech, healthcare services); investment returns fund the Foundation's philanthropic grants.",
+      "geo_focus": ["Europe", "North America", "Asia"]
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "summary": {
+      "en": "Novo Holdings is the investment arm of the Novo Nordisk Foundation, one of the world's largest philanthropic foundations; it is a world-leading life-science investor across seed through growth stage, with returns recycled into the Foundation's philanthropic grants.",
+      "local": "Novo Holdings er investerings- og holdingselskabet, der forvalter Novo Nordisk Fondens formue og investerer i life science-selskaber fra tidlig til sen fase."
+    },
+    "sources": [
+      {
+        "url": "https://novoholdings.dk/about",
+        "title": "Novo Holdings · About",
+        "publisher": "Novo Holdings",
+        "accessed": "undefined",
+        "supports": "role as Novo Nordisk Foundation's investment/holding company, life science investment focus",
+        "quote": "Novo Holdings is a holding and investment company that is responsible for managing the assets and the wealth of the Novo Nordisk Foundation, one of the world's largest philanthropic enterprise foundations."
+      },
+      {
+        "url": "https://novoholdings.dk/facts-and-figures",
+        "title": "Facts & Figures",
+        "publisher": "Novo Holdings",
+        "accessed": "undefined",
+        "supports": "AUM figure",
+        "quote": "As of year-end 2025, Novo Holdings had Total Assets under Management of DKK 694 billion (EUR 93 billion)."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Novo Holdings itself is a large diversified life-science/PE investor (beyond pure early-stage venture); included here because it is structurally the venture-philanthropy arm of the Novo Nordisk Foundation, the charitable parent whose grants are funded by Novo Holdings' investment returns.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "eu-wellcome",
+    "name": { "en": "Wellcome" },
+    "aka": ["Wellcome Trust"],
+    "type": "venture-philanthropy",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://wellcome.org",
+    "capital": {
+      "aum": { "raw": "~£38 billion endowment (~15%, ~£5.7bn, in private equity/venture capital)", "usd": null, "currency": "GBP" }
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "genomics-omics"],
+      "thesis": "Wellcome is an independent global charitable foundation funding health research; alongside its research grants it directly backs early-stage companies spun out of Wellcome-funded research, seeds new venture funds, and co-invests in growth rounds across genomics, drug discovery, diagnostics and medical devices as part of its healthcare/life-sciences-tilted endowment allocation.",
+      "geo_focus": ["global", "United Kingdom"]
+    },
+    "summary": {
+      "en": "Wellcome is a major UK global health charity whose endowment makes direct and co-investment equity bets in health/life-science spinouts and venture funds, alongside its grant-making, historically incubating the healthcare investment business that became Syncona."
+    },
+    "sources": [
+      {
+        "url": "https://www.top1000funds.com/2025/03/wellcome-trusts-cautious-approach-cash-pile-grows-waiting-for-opportunity/",
+        "title": "Wellcome Trust's cautious approach: Cash pile grows waiting for opportunity",
+        "publisher": "Top1000funds.com",
+        "accessed": "undefined",
+        "supports": "endowment size, PE/VC allocation, healthcare/life sciences tilt, direct spinout investing",
+        "quote": "Wellcome's private equity and venture capital allocation represents approximately 15% of the total portfolio, or roughly GBP 5.7 billion... Wellcome maintains a meaningful direct and co-investment portfolio, having backed early-stage companies emerging from Wellcome-funded research, seeded new venture funds, and participated in growth rounds."
+      },
+      {
+        "url": "https://wellcome.org/press-release/wellcome-trust-launch-%C2%A3200-million-investment-business-healthcare-and-life-sciences",
+        "title": "Wellcome Trust to launch £200 million investment business for healthcare and life sciences",
+        "publisher": "Wellcome",
+        "accessed": "undefined",
+        "supports": "history of dedicated healthcare investment business (Project Sigma, later Syncona), initial capital, equity stake structure",
+        "quote": "The Board of Governors of the Wellcome Trust has approved the creation of a new business that will invest in emerging businesses and technologies in the healthcare and life sciences sectors. The business's initial capital will be £200 million... take equity stakes from 20% to full control in the targeted companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Wellcome's 2012 'Project Sigma' healthcare investment business was launched as Syncona Partners; Syncona is now an independently LSE-listed investment company (Wellcome remains a large shareholder) rather than a foundation-controlled venture-philanthropy vehicle, so it is not listed as a separate entity here — Wellcome is included for its ongoing direct/co-investment activity out of the endowment.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "eu-fondazione-telethon",
+    "name": { "en": "Fondazione Telethon" },
+    "aka": ["Telethon Foundation"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "europe",
+    "country": "Italy",
+    "website": "https://www.fondazionetelethon.it/en/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Fondazione Telethon is an Italian medical research charity focused on rare and genetic diseases. In 2018 it partnered with venture firm Sofinnova Partners to launch the Sofinnova Telethon Fund (€108M), Italy's largest dedicated biotech fund, which makes early-stage equity investments in Italian companies developing cures for rare/genetic diseases.",
+      "geo_focus": ["Italy"]
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "cell-therapy"],
+      "indications": ["rare-disease"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Genespire", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "AAVantgarde Bio", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "Alia Therapeutics", "sector": "cell-gene-therapy", "outcome": "active" }
+      ],
+      "co_investors": ["Sofinnova Partners", "European Investment Fund (via ITAtech)"]
+    },
+    "summary": {
+      "en": "Fondazione Telethon is an Italian rare-disease research charity that co-runs the Sofinnova Telethon Fund with Sofinnova Partners, Italy's largest biotech venture fund, making early-stage equity investments in Italian gene/rare-disease therapy startups.",
+      "local": "Fondazione Telethon è un ente di ricerca biomedica italiano dedicato alle malattie rare e genetiche; insieme a Sofinnova Partners gestisce il Sofinnova Telethon Fund, il più grande fondo dedicato alle biotecnologie in Italia."
+    },
+    "sources": [
+      {
+        "url": "https://sofinnovapartners.com/strategy/telethon",
+        "title": "Telethon — Sofinnova Partners",
+        "publisher": "Sofinnova Partners",
+        "accessed": "undefined",
+        "supports": "fund existence, size, purpose, partnership with Fondazione Telethon",
+        "quote": "The Sofinnova Telethon Fund is Italy's largest fund dedicated to biotechnologies, making early-stage investments in Italian companies targeting cures for rare and/or genetic diseases... launched in 2018 in partnership with Fondazione Telethon."
+      },
+      {
+        "url": "https://www.fondazionetelethon.it/en/stories-and-news/news/from-telethon-foundation/sofinnova-partners-announces-third-investment-from-its-italian-fund/",
+        "title": "Sofinnova Partners Announces Third Investment from its Italian Fund - Telethon",
+        "publisher": "Fondazione Telethon",
+        "accessed": "undefined",
+        "supports": "existence, official Telethon news coverage of fund investments"
+      },
+      {
+        "url": "https://www.labiotech.eu/trends-news/sofinnova-gene-therapy-genespire/",
+        "title": "Sofinnova Invests €20M in Three Italian Rare Disease Biotechs",
+        "publisher": "Labiotech.eu",
+        "accessed": "undefined",
+        "supports": "fund size (€108M), portfolio companies (Genespire, Epsilen Bio, AAVantgarde Bio, Alia Therapeutics)",
+        "quote": "The Sofinnova Telethon Fund, managed by Sofinnova Partners... received commitments totaling €108 million... has made notable investments in several Italian biotech companies, including Genespire, Epsilen Bio, AAVantgarde Bio, Alia Therapeutics, and others focused on gene therapy and treatments for rare genetic diseases."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "KNOWN ANCHOR, confirmed via Sofinnova Partners' own site and Fondazione Telethon's official news pages. Fund is jointly branded/managed with Sofinnova Partners (Paris/London/Milan) rather than run solely in-house by the Foundation.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "eu-dementia-discovery-fund",
+    "name": { "en": "Dementia Discovery Fund" },
+    "aka": ["DDF"],
+    "type": "venture-philanthropy",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "offices": [{ "country": "United States", "city": "Boston" }],
+    "website": "https://svhealthinvestors.com/ddf/dementia-discovery-fund",
+    "capital": {
+      "funds": [
+        { "name": "DDF-1", "vintage_year": 2015, "size": { "raw": "£250 million", "usd": null, "currency": "GBP" } },
+        { "name": "DDF-2", "vintage_year": 2025, "size": { "raw": "$269 million (final close)", "usd": 269000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "The Dementia Discovery Fund is a family of venture capital funds investing exclusively in companies developing or enabling novel disease-modifying dementia therapeutics. It was co-founded and anchor-funded by the UK charity Alzheimer's Research UK alongside major pharma (Biogen, Lilly, GSK, J&J, Pfizer, Takeda), Bill Gates and the UK Department of Health and Social Care, and is managed by SV Health Investors under a dual mandate of financial return and patient impact.",
+      "geo_focus": ["United Kingdom", "United States", "global"]
+    },
+    "lifesci": {
+      "indications": ["neurology"],
+      "company_creation": null
+    },
+    "track_record": {
+      "portfolio_count": 19,
+      "co_investors": ["Alzheimer's Research UK", "Biogen", "Eli Lilly", "GSK", "Johnson & Johnson", "Pfizer", "Takeda", "Bill Gates"]
+    },
+    "summary": {
+      "en": "The Dementia Discovery Fund is the world's largest family of VC funds dedicated solely to dementia therapeutics, co-founded and anchor-backed by the charity Alzheimer's Research UK together with major pharma companies and Bill Gates, and managed by SV Health Investors."
+    },
+    "sources": [
+      {
+        "url": "https://svhealthinvestors.com/ddf/dementia-discovery-fund",
+        "title": "SV Health Investors - Dementia Discovery Fund",
+        "publisher": "SV Health Investors",
+        "accessed": "undefined",
+        "supports": "fund description, exclusivity to dementia, manager, scale",
+        "quote": "The Dementia Discovery Fund (DDF) is the world's largest family of specialized venture capital funds that invests exclusively in companies developing or enabling novel therapeutics for dementia, managed by SV Health Investors."
+      },
+      {
+        "url": "https://svhealthinvestors.com/news/sv-health-investors-dementia-discovery-fund-announces-269m-final-close-of-ddf-2",
+        "title": "SV Health Investors' Dementia Discovery Fund Announces $269m Final Close of DDF-2",
+        "publisher": "SV Health Investors",
+        "accessed": "undefined",
+        "supports": "DDF-1 £250M 2018 close, DDF-2 raise, list of backers including Alzheimer's Research UK, portfolio of 19 companies",
+        "quote": "Incorporated in 2015... the first Dementia Discovery Fund (DDF-1) saw its final close at £250 million in 2018... Seven leading pharmaceutical companies... along with AARP, Aegon, Bill Gates, British Patient Capital... and the charity Alzheimer's Research UK (among others) have invested in the Fund. Since 2015, DDF has nurtured a portfolio of 19 promising companies, leading to 11 assets in the clinic."
+      },
+      {
+        "url": "https://www.alzheimersresearchuk.org/research/for-researchers/translational-hub/dementia-discovery-fund/",
+        "title": "Dementia Discovery Fund - Alzheimer's Research UK",
+        "publisher": "Alzheimer's Research UK",
+        "accessed": "undefined",
+        "supports": "charity's own page confirming its role as a Fund investor/partner"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "DDF is managed day-to-day by commercial VC manager SV Health Investors (not run purely in-house by the charity); included in this slice because Alzheimer's Research UK is a founding/anchor charitable investor and the fund is structured as a venture-philanthropy vehicle for dementia.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "eu-afm-telethon",
+    "name": { "en": "AFM-Telethon" },
+    "name_local_note": "local field below",
+    "aka": ["Association Française contre les Myopathies"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Évry-Courcouronnes",
+    "website": "https://www.afm-telethon.fr",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "AFM-Téléthon is a French patient organisation for neuromuscular and rare genetic diseases. In 2013 it co-created the 'Fonds d'Amorçage Biothérapies innovantes et maladies rares' with Bpifrance (€50M, 60% funded by AFM-Téléthon) to make equity investments in biotech startups developing innovative rare-disease therapies, and it holds an equity stake in bio-manufacturing venture YposKesi (via H-MRB, alongside Généthon).",
+      "geo_focus": ["France"]
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "cell-therapy"],
+      "indications": ["rare-disease", "neurology"],
+      "company_creation": true
+    },
+    "capital": {
+      "funds": [
+        { "name": "Fonds d'Amorçage Biothérapies innovantes et maladies rares", "vintage_year": 2013, "size": { "raw": "€50 million", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "GenSight Biologics", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "Flamingo Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Step Pharma", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Sparing Vision", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Orphalan", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Ribogenics", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["Bpifrance"]
+    },
+    "summary": {
+      "en": "AFM-Téléthon, France's leading neuromuscular/rare-disease patient charity, co-runs a €50M equity investment fund with Bpifrance for rare-disease biotech startups and holds equity in gene-therapy manufacturing venture YposKesi via its Généthon affiliate.",
+      "local": "AFM-Téléthon est la principale association de malades neuromusculaires et maladies rares en France ; elle cofinance avec Bpifrance un fonds d'amorçage de 50 M€ dédié aux biotechs des maladies rares et détient une participation dans le site de bioproduction YposKesi via Généthon."
+    },
+    "sources": [
+      {
+        "url": "https://presse.bpifrance.fr/bpifrance-et-lafm-telethon-dressent-le-bilan-du-fonds-biotherapies-innovantes-et-maladies-raresnbsp",
+        "title": "Bpifrance et l'AFM-Téléthon dressent le bilan du Fonds Biothérapies innovantes et Maladies rares",
+        "publisher": "Bpifrance",
+        "accessed": "undefined",
+        "supports": "fund creation year, size, funding split, portfolio companies, outcomes",
+        "quote": "Le fonds d'amorçage « Biothérapies innovantes et maladies rares » a été créé en 2013 par l'AFM-Téléthon et Bpifrance... doté de 50 millions d'euros par l'AFM-Téléthon (60%) et le Fonds National d'Amorçage (40%)... Six sociétés de biotechnologies en ont bénéficié : GenSight Biologics, Flamingo Therapeutics, Step Pharma, Sparing Vision, Orphalan, Ribogenics."
+      },
+      {
+        "url": "https://www.usinenouvelle.com/article/bioproduction-afm-telethon-investit-dans-la-production.N1478757",
+        "title": "Bioproduction : AFM-Téléthon investit dans la production",
+        "publisher": "L'Usine Nouvelle",
+        "accessed": "undefined",
+        "supports": "equity stake in YposKesi via H-MRB alongside Généthon",
+        "quote": "L'AFM-Téléthon reste actionnaire d'YposKesi à hauteur de 17,4 % à travers H-MRB, la société qu'elle a créée avec Généthon et CECS."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund is co-managed/co-funded with Bpifrance (a French public investment bank), reflecting the typical blended structure of European disease-charity venture philanthropy vehicles.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  },
+  {
+    "id": "eu-leo-innovation-lab",
+    "name": { "en": "LEO Innovation Lab" },
+    "type": "venture-philanthropy",
+    "subtypes": ["venture-studio", "cvc"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Copenhagen",
+    "website": "https://leoinnovationlab.com/",
+    "links": { "other": ["https://leo-foundation.org/en/"] },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["digital-health"],
+      "thesis": "LEO Innovation Lab is the venture-building and investment unit established by LEO Pharma, a dermatology pharma company that is wholly integrated into and 80%-controlled by the charitable LEO Foundation. It invests in and builds seed/Series A digital-health startups focused on improving quality of life for people with chronic skin conditions.",
+      "geo_focus": ["Denmark", "Europe", "North America"]
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics", "wearables-sensors"],
+      "indications": ["dermatology"],
+      "company_creation": true
+    },
+    "track_record": {
+      "portfolio_count": 14,
+      "notable_investments": [
+        { "company": "SkinVision", "sector": "digital-health", "outcome": "active" },
+        { "company": "TalkLife", "sector": "digital-health", "outcome": "active" },
+        { "company": "Combinostics", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "LEO Innovation Lab is the Copenhagen-based venture-building and investment arm of LEO Pharma, itself 80%-owned by the charitable LEO Foundation; it backs digital-health startups addressing chronic skin disease.",
+      "local": "LEO Innovation Lab er investerings- og virksomhedsopbygningsenheden hos LEO Pharma, som er ejet af den velgørende LEO Fond; den investerer i digitale sundhedsstartups inden for kroniske hudsygdomme."
+    },
+    "sources": [
+      {
+        "url": "https://leo-foundation.org/en/",
+        "title": "LEO Foundation - Let's pave the way for curing skin diseases",
+        "publisher": "LEO Foundation",
+        "accessed": "undefined",
+        "supports": "LEO Foundation as 80% controlling shareholder of LEO Pharma, foundation assets",
+        "quote": "financial assets of 18.8 billion DKK... 80% controlling shareholder of LEO Pharma"
+      },
+      {
+        "url": "https://raisebetter.capital/investor-profile/leo-innovation-lab",
+        "title": "LEO Innovation Lab - 2025 Investor Profile | Raise Better",
+        "publisher": "Raise Better Capital",
+        "accessed": "undefined",
+        "supports": "founding year, ownership structure, mission, portfolio focus",
+        "quote": "LEO Innovation Lab was founded in 2015 and is headquartered in Copenhagen, Denmark... LEO Pharma is 100% integrated into a private foundation owned by the LEO Foundation... The lab nurtures companies to lead the digital health revolution with the single goal of improving the quality of life for people living with chronic skin conditions."
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/leo-innovation-lab/__AOqk54brsecP0EZgHO5a_-uN1Ruk2Mkw6Q6otJZzZmo",
+        "title": "LEO Innovation Lab - 2025 Investor Profile, Portfolio, Team & Investment Trends - Tracxn",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "portfolio count and example companies",
+        "quote": "LEO Innovation Lab has invested in 14 companies, including Combinostics & Siren... Notable investments include TalkLife and SkinVision."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "LEO Innovation Lab sits under the for-profit pharma company LEO Pharma rather than being run directly by the LEO Foundation charity; included here (rather than as a pure CVC) because LEO Pharma is wholly/80% owned by the charitable LEO Foundation, making the structure analogous to Novo Holdings/Novo Nordisk Foundation. Could not directly verify investment activity on the official leo-foundation.org or leoinnovationlab.com pages within budget; relied on secondary investor-profile aggregators (Raise Better, Tracxn) for portfolio detail.",
+    "last_updated": "undefined",
+    "researched_by": "venture-philanthropy"
+  }
+]

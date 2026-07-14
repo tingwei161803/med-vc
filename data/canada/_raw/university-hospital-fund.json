@@ -1,0 +1,476 @@
+[
+  {
+    "id": "ca-tiap-toronto-innovation-acceleration-partners",
+    "name": { "en": "Toronto Innovation Acceleration Partners (TIAP)" },
+    "aka": ["MaRS Innovation", "TIAP"],
+    "type": "university-hospital-fund",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://tiap.ca",
+    "links": {
+      "linkedin": "https://ca.linkedin.com/company/toronto-innovation-acceleration-partners"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": ["Canada"],
+      "thesis": "Member-driven not-for-profit created by 13 (now 11) Toronto universities, teaching hospitals and research institutes to identify and commercialize the most promising therapeutic, medical device and digital health/AI research emerging from members, providing venture-building support and seed-stage capital to launch new spinout companies."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware", "software-samd"],
+      "company_creation": true,
+      "science_platform_notes": "Sources deal flow exclusively from its member institutions (incl. University of Toronto and affiliated teaching hospitals); provides IP management, venture creation, and follow-on financing support."
+    },
+    "track_record": {
+      "portfolio_count": "70+",
+      "notable_investments": []
+    },
+    "team_size": null,
+    "tags": ["tech-transfer", "venture-building", "toronto", "hospital-consortium"],
+    "summary": {
+      "en": "TIAP (formerly MaRS Innovation) is a Toronto-based consortium of 11 universities, teaching hospitals and research institutes that commercializes members' health-science breakthroughs by building and seed-funding new therapeutics, medtech and digital-health companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2019/09/05/1911625/0/en/MaRS-Innovation-Announces-Name-Change-to-Toronto-Innovation-Acceleration-Partners.html",
+        "title": "MaRS Innovation Announces Name Change to Toronto Innovation Acceleration Partners",
+        "publisher": "GlobeNewswire",
+        "accessed": "undefined",
+        "supports": "founding year 2008, name change, member-institution structure",
+        "quote": "TIAP is a member-driven not-for-profit organization which was created in 2008 (at that time under the name \"MaRS Innovation\") by 13 of Toronto's top universities, institutions and research institutes, plus the MaRS Discovery District as host organization."
+      },
+      {
+        "url": "https://tiap.ca/2019/09/mars-innovation-announces-name-change-to-toronto-innovation-acceleration-partners/",
+        "title": "MaRS Innovation Announces Name Change to Toronto Innovation Acceleration Partners",
+        "publisher": "TIAP",
+        "accessed": "undefined",
+        "supports": "mandate, track record, member institution structure, health-science focus",
+        "quote": "Since 2008, TIAP has been building relationships with innovators and entrepreneurs at Toronto's top universities, hospitals and research institutes to identify the most exciting sparks of ground-breaking therapeutic, medical device and digital health/AI innovation; and then providing the tools, resources, and know-how to transform this work into successful commercial ventures. With a 15-year track record that includes the launch of more than 70 new companies, the raising of over $1B in private investment, and the creation of more than 1,000 jobs, TIAP has generated significant commercial and social return on our Member Institutions' research."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Renamed from MaRS Innovation to TIAP in 2019 (10th anniversary). Now describes itself as an 11-member-institution consortium including University of Toronto and affiliated teaching hospitals.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-mars-iaf",
+    "name": { "en": "MaRS IAF (Investment Accelerator Fund)" },
+    "aka": ["MaRS Investment Accelerator Fund", "Graphite IAF"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc", "accelerator"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://marsiaf.com",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "$500K-$1M", "usd_min": null, "usd_max": null },
+      "sector_focus": ["digital-health", "healthcare-it", "generalist-health"],
+      "geo_focus": ["Ontario", "Canada"],
+      "thesis": "Ontario-focused early-stage fund seeded within the MaRS Discovery District innovation hub (co-founded by University of Toronto and Toronto-area teaching hospitals); co-invests in cleantech, ICT and life-sciences & healthcare spinouts, including HealthTech companies emerging from MaRS's academic/hospital network."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform", "wearables-sensors"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "216",
+      "notable_investments": [
+        { "company": "Nicoya", "sector": "life-science-tools", "outcome": "active" }
+      ]
+    },
+    "tags": ["mars-discovery-district", "toronto", "ontario", "early-stage"],
+    "summary": {
+      "en": "MaRS IAF is one of Canada's most active early-stage venture funds, operated by the MaRS Discovery District (an innovation hub with roots in University of Toronto and Toronto teaching hospitals); it funds Ontario cleantech, ICT and life-sciences/healthcare spinouts from pre-seed through seed."
+    },
+    "sources": [
+      {
+        "url": "https://marsiaf.com/about-us/",
+        "title": "About Us - MaRS IAF",
+        "publisher": "MaRS IAF",
+        "accessed": "undefined",
+        "supports": "founding year, fund description",
+        "quote": "one of Canada's most active early-stage venture capital funds"
+      },
+      {
+        "url": "https://marsiaf.com/portfolio/",
+        "title": "Portfolio - MaRS IAF",
+        "publisher": "MaRS IAF",
+        "accessed": "undefined",
+        "supports": "sector focus incl. life sciences & healthcare, government funding source, portfolio count",
+        "quote": "The Investment Accelerator Fund (IAF) helps build and strengthen Ontario-based businesses in the cleantech, ICT, and life sciences & healthcare sectors, funded by the Province of Ontario and managed by MaRS."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Boundary case: capital for this specific fund vehicle is reported as funded by the Province of Ontario and managed by MaRS (a nonprofit whose MaRS Discovery District host was co-founded by University of Toronto and Toronto hospitals in 2000). Included per explicit anchor instruction, but a sibling government-program slice agent may also legitimately claim this entity given its provincial funding source; flagging for de-duplication review. Sector focus spans all tech, not health-exclusive.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-genesys-university-seed-fund",
+    "name": { "en": "Genesys University Seed Fund" },
+    "aka": ["U of T/McMaster Life Sciences Venture Fund"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "founded_year": 2026,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.utoronto.ca/news/u-t-together-mcmaster-announces-early-stage-life-sciences-venture-fund-genesys-capital",
+    "capital": {
+      "current_fund": { "raw": "up to $40 million CAD (first close >$30M CAD)", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "stages": ["seed"],
+      "check_size": { "raw": "up to $1M per company, up to $5M into top performers", "usd_min": null, "usd_max": null },
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools"],
+      "geo_focus": ["Ontario", "Canada"],
+      "thesis": "Seed-stage life-sciences fund anchored by University of Toronto and McMaster University (with partner hospitals Hamilton Health Sciences and St. Joseph's Healthcare) to finance spinouts commercializing university and hospital-affiliated research; externally managed by Genesys Capital."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"],
+      "company_creation": false,
+      "science_platform_notes": "Deal flow sourced from University of Toronto, McMaster University, and affiliated teaching hospitals (Hamilton Health Sciences, St. Joseph's Healthcare)."
+    },
+    "track_record": {
+      "portfolio_count": "10-15 (target)"
+    },
+    "tags": ["ontario", "toronto", "hamilton", "hospital-partnership", "genesys-capital"],
+    "summary": {
+      "en": "The Genesys University Seed Fund is a new (2026) up-to-$40M CAD seed fund anchored by the University of Toronto and McMaster University, with deep integration with hospital partners Hamilton Health Sciences and St. Joseph's Healthcare, to back 10-15 life-sciences spinouts; externally managed by Genesys Capital."
+    },
+    "sources": [
+      {
+        "url": "https://betakit.com/ontario-gets-new-early-stage-fund-to-back-life-sciences-spinouts/",
+        "title": "Ontario gets new fund to back university life sciences spinouts",
+        "publisher": "BetaKit",
+        "accessed": "undefined",
+        "supports": "fund size, check size, LPs, first close",
+        "quote": "Genesys Capital will manage the fund, which aims to raise up to $40 million total, invest up to $1 million apiece in 10 to 15 startups, and deploy up to $5 million into its biggest winners. The fund has already secured a first close of more than $30 million CAD from limited partners including U of T, McMaster, Venture Ontario, the Temerty Group, and RBC."
+      },
+      {
+        "url": "https://news.mcmaster.ca/mcmaster-and-u-of-t-announce-early-stage-life-sciences-venture-fund-with-genesys-capital/",
+        "title": "McMaster and U of T announce early-stage life sciences venture fund with Genesys Capital",
+        "publisher": "McMaster University",
+        "accessed": "undefined",
+        "supports": "hospital partnerships",
+        "quote": "McMaster has deep integration with hospital partners—Hamilton Health Sciences and St. Joseph's Healthcare—where students, researchers, and faculty work closely with clinicians to accelerate the path from discovery to impact."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Announced 2026; fund is externally managed by Genesys Capital (a private VC firm) but anchored/seeded by the two universities and provincial/philanthropic LPs, fitting the university-fund model.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-ubc-catalyst-ventures-fund",
+    "name": { "en": "UBC Catalyst Ventures Fund" },
+    "type": "university-hospital-fund",
+    "status": "active",
+    "founded_year": 2026,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Vancouver",
+    "website": "https://news.ubc.ca/2026/03/ubc-inbc-catalyst-ventures-fund/",
+    "capital": {
+      "current_fund": { "raw": "up to $40 million (UBC + InBC each $10M, plus private LPs)", "usd": null, "currency": "CAD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools"],
+      "geo_focus": ["British Columbia", "Canada"],
+      "thesis": "Academic public-private partnership co-led by the University of British Columbia and InBC Investment Corp to fund spinoff companies created from licensed UBC research discoveries, with life sciences named as an initial priority sector alongside deep tech."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false,
+      "science_platform_notes": "Sources deal flow from UBC faculty, staff, students and recent alumni spinouts; UBC's spinout track record includes AbCellera, Xenon Pharmaceuticals, and Aspect Biosystems."
+    },
+    "tags": ["vancouver", "british-columbia", "ubc", "inbc"],
+    "summary": {
+      "en": "The UBC Catalyst Ventures Fund is a co-led academic public-private partnership between the University of British Columbia and InBC Investment Corp, launched in 2026 with up to $40M CAD to back life-sciences and deep-tech spinouts from UBC research."
+    },
+    "sources": [
+      {
+        "url": "https://news.ubc.ca/2026/03/ubc-inbc-catalyst-ventures-fund/",
+        "title": "InBC and UBC partner to spur growth and commercialization of UBC-affiliated companies",
+        "publisher": "UBC News",
+        "accessed": "undefined",
+        "supports": "fund size, co-lead structure, sector focus, spinout track record",
+        "quote": "As co-lead investors, UBC and InBC are each providing $10 million toward this unique academic public-private partnership, with the fund raising additional investment from private investors to increase its investable capital up to a potential total of $40 million... with initial priorities on investments in life sciences and deep tech."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Co-investor InBC Investment Corp is a BC provincial Crown corporation; included here because UBC is a co-lead investor providing equal capital and the fund is explicitly structured around UBC-licensed research spinouts.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-uhn-commercialization",
+    "name": { "en": "UHN Commercialization (University Health Network)" },
+    "aka": ["Commercialization at UHN", "UHN Accelerator Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.uhncommercialization.ca/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "up to $250,000 per project (Innovation Accelerator stream)", "usd_min": null, "usd_max": 250000 },
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "diagnostics", "medtech-devices"],
+      "geo_focus": ["Ontario", "Canada"],
+      "thesis": "In-house venture creation arm of University Health Network (Toronto's largest hospital research network); scouts, incubates and accelerates new ventures from UHN discoveries, funded via the Accelerator Fund with support from the UHN Foundation and Princess Margaret Cancer Foundation."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "biologics-antibody", "medical-hardware"],
+      "indications": ["oncology"],
+      "company_creation": true,
+      "science_platform_notes": "Located in Toronto's MaRS Discovery District; spun out BlueRock Therapeutics (acquired by Bayer) and Treadwell Therapeutics/TCRyption."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "BlueRock Therapeutics", "sector": "cell-gene-therapy", "outcome": "acquired" },
+        { "company": "Treadwell Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "tags": ["toronto", "hospital-network", "mars-discovery-district", "oncology"],
+    "summary": {
+      "en": "Commercialization at UHN is University Health Network's in-house venture-creation hub, which scouts and incubates spinouts from UHN's hospital and research-institute discoveries via its Accelerator Fund, having produced BlueRock Therapeutics (acquired by Bayer) and Treadwell Therapeutics."
+    },
+    "sources": [
+      {
+        "url": "https://www.uhnresearch.ca/news/funding-commercialization-uhn",
+        "title": "Funding Commercialization at UHN",
+        "publisher": "UHN Research",
+        "accessed": "undefined",
+        "supports": "Accelerator Fund structure and check size",
+        "quote": "Commercialization at UHN has established the Accelerator Fund (AF), which provides financial and business development support to help promising technologies reach their full potential. The Innovation Accelerator stream provides a maximum of $250,000 in funding per project, supported through partnerships with the UHN Foundation and Princess Margaret Cancer Foundation."
+      },
+      {
+        "url": "https://www.uhncommercialization.ca/for-investors/new-ventures",
+        "title": "Our Success Stories",
+        "publisher": "UHN Commercialization",
+        "accessed": "undefined",
+        "supports": "notable spinouts",
+        "quote": "UHN has spun off several successful ventures, including BlueRock Therapeutics, a wholly-owned subsidiary of Bayer AG, which launched in 2016 with a US$225 million series A investment from Bayer AG and Versant Ventures. Additionally, Treadwell Therapeutics and subsidiary TCRyption are successfully translating cancer research into groundbreaking immunotherapy treatments for difficult-to-treat cancers."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "UHN is University Health Network, Canada's largest hospital-based research network (Toronto General, Toronto Western, Princess Margaret Cancer Centre, Toronto Rehab).",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-university-of-alberta-innovation-fund",
+    "name": { "en": "University of Alberta Innovation Fund (UA Fund)" },
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Edmonton",
+    "website": "https://uafund.ca/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "pre-seed up to $250K, seed $250K upwards", "usd_min": null, "usd_max": null },
+      "sector_focus": ["therapeutics", "digital-health", "consumer-health"],
+      "geo_focus": ["Alberta", "Canada"],
+      "thesis": "Wholly owned for-profit subsidiary of the University of Alberta providing pre-seed and seed capital, mentoring and strategic networks to U of A-connected startups, with health named as a primary focus vertical (biotechnology, pharmacy, natural health products, virology, vaccines/therapeutics, digital health)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "vaccines", "digital-therapeutics"],
+      "company_creation": false
+    },
+    "tags": ["edmonton", "alberta", "university-of-alberta"],
+    "summary": {
+      "en": "The University of Alberta Innovation Fund (UA Fund) is a wholly owned for-profit subsidiary of the University of Alberta that invests pre-seed and seed capital in U of A-connected startups, with health/biotech (biotechnology, pharmacy, vaccines and therapeutics, digital health) as an explicit focus area."
+    },
+    "sources": [
+      {
+        "url": "https://uafund.ca/the-fund/",
+        "title": "The Fund - Innovation Fund",
+        "publisher": "University of Alberta Innovation Fund",
+        "accessed": "undefined",
+        "supports": "ownership structure, check size, health sector focus",
+        "quote": "The UA Fund is a wholly owned for-profit subsidiary of the University of Alberta. The Fund invests pre-seed up to $250K and seed $250K upwards with the potential for follow-on funding."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Health focus areas listed on site: Biotechnology, Pharmacy, Natural health products, Virology, Vaccines and therapeutics, Digital health.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-uceed-innovate-calgary",
+    "name": { "en": "UCeed (Innovate Calgary)" },
+    "aka": ["UCeed Health Fund", "UCeed Child Health and Wellness Fund"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Calgary",
+    "website": "https://innovatecalgary.com/programs-funding/uceed/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "healthcare-it", "femtech-womens-health"],
+      "geo_focus": ["Alberta", "Canada"],
+      "thesis": "University-based, philanthropically funded group of early-stage investment funds managed by Innovate Calgary (University of Calgary's innovation/tech-transfer arm), including a dedicated Health Fund covering therapeutics, diagnostics, medical devices and software, and Canada's first early-stage fund dedicated to maternal and child health."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "medical-hardware", "software-samd"],
+      "indications": ["pediatrics", "womens-health"],
+      "company_creation": false
+    },
+    "tags": ["calgary", "alberta", "university-of-calgary", "cumming-school-of-medicine"],
+    "summary": {
+      "en": "UCeed is a philanthropically funded, university-based group of early-stage investment funds managed by Innovate Calgary (University of Calgary), described as the largest university-based fund of its kind in Canada; its Health Fund and Child Health and Wellness Fund back therapeutics, diagnostics, medtech and digital-health spinouts."
+    },
+    "sources": [
+      {
+        "url": "https://innovatecalgary.com/programs-funding/uceed/",
+        "title": "UCeed | University-Based Fund | Innovate Calgary",
+        "publisher": "Innovate Calgary",
+        "accessed": "undefined",
+        "supports": "fund structure, health/child-health fund focus, funding model",
+        "quote": "the largest university-based fund of its kind in Canada... Child Health and Wellness Fund - Canada's first early-stage fund dedicated to maternal and child health... Health Fund - healthcare innovation including therapeutics, diagnostics, medical devices and software... funded entirely through philanthropic support."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Innovate Calgary is the University of Calgary's technology transfer and innovation office; UCeed is its umbrella fund family including sector-specific sub-funds.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-worldiscoveries-western",
+    "name": { "en": "WORLDiscoveries (Western University)" },
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "London",
+    "website": "https://worldiscoveries.ca",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "geo_focus": ["Ontario", "Canada"],
+      "thesis": "Western University's technology transfer office, formed as a partnership between Western University, Robarts Research Institute and Lawson Health Research Institute (the research arm of London Health Sciences Centre and St. Joseph's Health Care London), commercializing hospital- and university-affiliated discoveries through licensing and spin-off company creation."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Draws deal flow from Western University plus its affiliated hospital research institutes, Robarts Research Institute (neuroscience/imaging) and Lawson Health Research Institute (London Health Sciences Centre / St. Joseph's Health Care London)."
+    },
+    "tags": ["london-ontario", "western-university", "robarts", "lawson-health-research-institute"],
+    "summary": {
+      "en": "WORLDiscoveries is the joint technology transfer office of Western University, Robarts Research Institute and Lawson Health Research Institute, commercializing research from the university and its affiliated London, Ontario hospital research institutes through licensing and new spin-off companies."
+    },
+    "sources": [
+      {
+        "url": "https://worldiscoveries.ca/news/annual-reports/onward-outward/",
+        "title": "Onward. Outward. - WORLDiscoveries",
+        "publisher": "WORLDiscoveries",
+        "accessed": "undefined",
+        "supports": "organizational structure, hospital partnership",
+        "quote": "WORLDiscoveries® is Western University's Tech Transfer Office. Born out of a partnership between Western University, Robarts Research Institute and Lawson Health Research Institute, WORLDiscoveries® draws upon a mix of industry connections, sector-specific market knowledge and business development expertise to help researchers and local inventors commercialize their discoveries through licensing and new company spin-offs."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Primary evidence is a search-engine snippet of the WORLDiscoveries site (direct WebFetch of worldiscoveries.ca failed on a TLS certificate mismatch); no dedicated fund size/vehicle could be confirmed, so this entry is scoped as the TTO/venture-creation office itself rather than a specific fund.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-mcgill-innovation-fund",
+    "name": { "en": "McGill Innovation Fund (MIF)" },
+    "type": "university-hospital-fund",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "website": "https://www.mcgill.ca/innovation/",
+    "strategy": {
+      "stages": ["pre-seed"],
+      "check_size": { "raw": "$25,000 (Discover) - $50,000 (Develop) - $100,000 (Deploy)", "usd_min": null, "usd_max": null },
+      "sector_focus": ["therapeutics", "life-science-tools", "digital-health"],
+      "geo_focus": ["Quebec", "Canada"],
+      "thesis": "McGill University's own early-stage research-commercialization fund, providing tiered non-dilutive awards (Discover/Develop/Deploy) to faculty and researchers with a Report of Invention, to translate lab research -- including life-sciences and infectious-disease research -- into licensable technology or spinout companies."
+    },
+    "lifesci": {
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "science_platform_notes": "Offers a supplementary award specifically for teams focused on preventing, diagnosing and treating life-threatening bacterial infections."
+    },
+    "track_record": {
+      "portfolio_count": "28 startups launched in 2024 (university-wide, not MIF-exclusive)"
+    },
+    "tags": ["montreal", "quebec", "mcgill-university"],
+    "summary": {
+      "en": "The McGill Innovation Fund (MIF), launched in 2021, is McGill University's tiered award fund ($25K-$100K) that translates faculty and researcher inventions -- including life-sciences and infectious-disease research -- into licensable technology or spinout companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.mcgill.ca/innovation/about-mif",
+        "title": "About the MIF - McGill Innovation Fund",
+        "publisher": "McGill University",
+        "accessed": "undefined",
+        "supports": "founding year, award tiers, mandate",
+        "quote": "The McGill Innovation Fund was created to fill a big gap in early-stage research funding and help promising ideas make the leap from the lab into the real world. Since its inception in 2021... Awards are divided among three stages: Discover ($25,000), Develop ($50,000) and Deploy ($100,000)."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "MIF awards are non-dilutive grants tied to a Report of Invention rather than equity investment; distinct from the separate, smaller student-run 'McGill Ventures' pilot SAFE fund ($500K, still being raised as of research date), which was not included here given its early/unconfirmed status.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "ca-tmu-biomedical-zone",
+    "name": { "en": "Biomedical Zone (Toronto Metropolitan University)" },
+    "aka": ["TMU Biomedical Zone", "Ryerson Biomedical Zone"],
+    "type": "university-hospital-fund",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.torontomu.ca/zone-learning/biomedical-zone/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "up to $150,000 non-repayable per company (BioCreate)", "usd_min": null, "usd_max": null },
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics"],
+      "geo_focus": ["Ontario", "Canada"],
+      "thesis": "Joint venture between Toronto Metropolitan University and Unity Health Toronto (one of Canada's top-ranked research hospitals) supporting medical-technology startups from ideation through clinical validation and capital raising, including the BioCreate non-repayable funding program."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "company_creation": false
+    },
+    "program": {
+      "investment": { "raw": "$150,000 non-repayable per company (BioCreate, targeting 32 companies over 5 years)", "usd": null, "currency": "CAD" }
+    },
+    "tags": ["toronto", "unity-health-toronto", "medtech"],
+    "summary": {
+      "en": "The Biomedical Zone is a joint venture between Toronto Metropolitan University and Unity Health Toronto that supports medtech startups from ideation to capital raising, including its BioCreate program offering up to $150,000 in non-repayable funding per company."
+    },
+    "sources": [
+      {
+        "url": "https://www.torontomu.ca/zone-learning/biomedical-zone/",
+        "title": "Biomedical Zone - Toronto Metropolitan University (TMU)",
+        "publisher": "Toronto Metropolitan University",
+        "accessed": "undefined",
+        "supports": "joint-venture structure with hospital, BioCreate funding amount",
+        "quote": "It is a joint venture between Toronto Metropolitan University and Unity Health Toronto—one of Canada's top-ranked research hospitals... The program offers $150,000 in non-repayable funding, mentorship, infrastructure access, and investor pitching opportunities, targeting 32 high-potential companies over five years."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Functions primarily as an accelerator/incubator with an attached non-dilutive funding program (BioCreate) rather than a discretionary equity fund; included given explicit university-hospital joint-venture structure and direct capital deployment to portfolio companies.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  }
+]

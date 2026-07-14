@@ -1,0 +1,665 @@
+[
+  {
+    "id": "us-dolby-family-ventures",
+    "name": { "en": "Dolby Family Ventures" },
+    "aka": ["DFV"],
+    "type": "family-office",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.dolbyventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/dolby-family-ventures",
+      "crunchbase": "https://www.cbinsights.com/investor/dolby-family-ventures"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["mental-health", "therapeutics", "diagnostics"],
+      "thesis": "Multi-generational Dolby family office funding early-stage precision-neuroscience companies across neurodegeneration, psychiatry and neurotech, with a particular commitment to Alzheimer's disease solutions."
+    },
+    "lifesci": {
+      "modalities": ["neurotech-bci", "small-molecule", "ai-ml-platform"],
+      "indications": ["neurology", "psychiatry-mental-health", "aging-longevity"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "David Dolby", "role": "Founder / Chairman" }
+    ],
+    "summary": {
+      "en": "San Francisco family office (unaffiliated with Dolby Laboratories' capital) investing proprietary capital into early-stage precision-neuroscience companies tackling neurodegeneration, psychiatry and neurotech, with a stated focus on Alzheimer's disease."
+    },
+    "sources": [
+      { "url": "https://www.dolbyventures.com/", "title": "Dolby Family Ventures", "publisher": "Dolby Family Ventures", "accessed": "undefined", "supports": "neuroscience focus, stage focus, founding year", "quote": "We prioritize early stage investments at the preseed, seed and Series A stage for our first investment." },
+      { "url": "https://www.globenewswire.com/news-release/2014/10/06/1130320/0/en/Dolby-Family-Ventures-Announces-New-Investments-in-Cutting-Edge-Brain-Health-Research.html", "title": "Dolby Family Ventures Announces New Investments in Cutting-Edge Brain Health Research", "publisher": "GlobeNewswire", "accessed": "undefined", "supports": "brain-health / neuroscience investment focus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Site states the firm is 'unaffiliated with Dolby Laboratories and the company's capital'; classified as family-office with a VC subtype. Widely cited ~$3M/company check size comes from third-party aggregators and is not officially confirmed, so omitted.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-what-if-ventures",
+    "name": { "en": "What If Ventures" },
+    "type": "vc",
+    "subtypes": ["angel-syndicate", "accelerator", "micro-vc"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Dallas",
+    "website": "https://www.whatif.vc/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/what-if-ventures",
+      "other": ["https://stephenrhays.com/", "https://venture.angellist.com/what-if-ventures/syndicate"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "check_size": { "raw": "flexible / stage-agnostic", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["mental-health", "digital-health", "therapeutics", "healthcare-services"],
+      "thesis": "Mental-health-first venture firm (rolling fund + syndicate + 8-week accelerator) backing startups across mental health, addiction and stigmatized/disruptive healthcare; founder Stephen Hays came to the thesis after addiction and mental illness nearly took his life."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "small-molecule", "ai-ml-platform"],
+      "indications": ["psychiatry-mental-health"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "72+",
+      "notable_investments": [
+        { "company": "Alto Neuroscience", "sector": "precision psychiatry", "outcome": "IPO" },
+        { "company": "ATAI Life Sciences", "sector": "psychedelic therapeutics", "outcome": "IPO" },
+        { "company": "Osmind", "sector": "mental-health EHR", "outcome": "active" },
+        { "company": "Grow Therapy", "sector": "mental-health services", "outcome": "active" },
+        { "company": "Ellipsis Health", "sector": "voice AI mental health", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Stephen Hays", "role": "Founder & Managing Partner", "background": "Ex-finance; founded What If Ventures after his own mental-health / addiction recovery" }
+    ],
+    "summary": {
+      "en": "Dallas-based, mental-health-focused venture firm (rolling fund + AngelList syndicate of 4,000+ investors + accelerator) that has deployed tens of millions across 70+ mental-health, addiction and disruptive-healthcare startups since January 2020."
+    },
+    "sources": [
+      { "url": "https://www.whatif.vc/", "title": "What If Ventures", "publisher": "What If Ventures", "accessed": "undefined", "supports": "mental-health focus, accelerator, stage-agnostic", "quote": "world changing technologies that improve the human experience from mental health to primary care and everything in between" },
+      { "url": "https://stephenrhays.com/", "title": "Stephen Hays", "publisher": "Stephen Hays", "accessed": "undefined", "supports": "founder is Dallas-based; amount invested and portfolio count", "quote": "invested more than $83 million into 72 mental health & disruptive healthcare startups, with an LP base of over 4,100 investors" },
+      { "url": "https://medium.com/what-if-ventures/what-if-mental-health-rolling-fund-3e80bc98e663", "title": "What If: Mental Health Rolling Fund", "publisher": "What If Ventures / Medium", "accessed": "undefined", "supports": "rolling fund structure, mental-health thesis" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founder Stephen Hays lives in Frisco, TX (Dallas metro); no single HQ address published. The firm has more recently added a defense-technology sleg (Firehawk, Umbra), but its origin and core identity remain mental health. Reported cumulative deployment varies by source ($83M/72 co's on founder site vs. $100M+/86 co's elsewhere).",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-satori-neuro",
+    "name": { "en": "Satori Neuro" },
+    "aka": ["Satori Neuro Partners", "Satori Capital Neuro"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Dallas",
+    "website": "https://www.satoricapital.com/neuro/",
+    "links": {
+      "other": ["https://www.satoricapital.com/team-neuro/"]
+    },
+    "capital": {
+      "current_fund": { "raw": "$10.3M", "usd": 10300000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["mental-health", "therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Venture strategy of Dallas conscious-capitalism firm Satori Capital investing in companies developing breakthrough treatments for brain and mental health — spanning psychedelic medicine, transcranial magnetic stimulation, VR/AR protocols and non-invasive brainwave devices for depression, PTSD and addiction."
+    },
+    "lifesci": {
+      "modalities": ["neurotech-bci", "digital-therapeutics", "small-molecule", "wearables-sensors"],
+      "indications": ["psychiatry-mental-health", "neurology", "pain"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Feel Therapeutics", "sector": "digital mental health", "outcome": "active" },
+        { "company": "Motif Neurotech", "sector": "implantable neurostimulation", "outcome": "active" },
+        { "company": "Beckley Waves", "sector": "psychedelic venture studio", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Amy Kruse, PhD", "role": "Chief Investment Officer", "background": "20+ years in neurotechnology, science and human performance" }
+    ],
+    "summary": {
+      "en": "Mental-health and brain-focused venture strategy launched in 2023 by Dallas-based Satori Capital, raising an initial $10.3M to back breakthrough therapeutics and neurotech for treatment-resistant depression, PTSD and addiction."
+    },
+    "sources": [
+      { "url": "https://www.businesswire.com/news/home/20230201005740/en/Satori-Capital-Launches-Mental-Health-Strategy-Satori-Neuro", "title": "Satori Capital Launches Mental Health Strategy 'Satori Neuro'", "publisher": "Business Wire", "accessed": "undefined", "supports": "launch, mental-health focus, leadership" },
+      { "url": "https://dallasinnovates.com/satori-capital-raises-10-3m-for-satori-neuro-fund-following-launch-of-mental-health-venture/", "title": "Satori Capital Raises $10.3M for Satori Neuro Fund", "publisher": "Dallas Innovates", "accessed": "undefined", "supports": "fund size $10.3M", "quote": "Satori Capital Raises $10.3M for Satori Neuro Fund" },
+      { "url": "https://www.satoricapital.com/neuro/", "title": "Neuro | Satori Capital", "publisher": "Satori Capital", "accessed": "undefined", "supports": "brain & mental health focus, portfolio" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Satori Neuro is the neuro/mental-health investment strategy within Dallas-based Satori Capital rather than a standalone GP; HQ inferred from Satori Capital (Dallas, TX).",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-psymed-ventures",
+    "name": { "en": "PsyMed Ventures" },
+    "type": "vc",
+    "subtypes": ["micro-vc", "angel-syndicate"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://psymed.ventures/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/psymed-ventures"
+    },
+    "capital": {
+      "current_fund": { "raw": "$25M", "usd": 25000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "$500K–$1.5M", "usd_min": 500000, "usd_max": 1500000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["mental-health", "therapeutics", "digital-health", "ai-drug-discovery"],
+      "thesis": "Frontier brain and mental-health fund investing in psychedelic medicine, neurotechnology/BCI, precision psychiatry, digital therapeutics and AI-driven approaches to the global mental-health crisis."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "neurotech-bci", "digital-therapeutics", "biologics-antibody"],
+      "indications": ["psychiatry-mental-health", "neurology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "30+",
+      "notable_investments": [
+        { "company": "Delix Therapeutics", "sector": "psychoplastogen therapeutics", "outcome": "active" },
+        { "company": "Freedom Biosciences", "sector": "ketamine/psychedelic therapeutics", "outcome": "active" },
+        { "company": "Motif Neurotech", "sector": "implantable neurostimulation", "outcome": "active" },
+        { "company": "Journey Clinical", "sector": "psychedelic-assisted therapy platform", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Dina Burkitbayeva", "role": "Co-founder & General Partner" },
+      { "name": "Greg Kubin", "role": "Co-founder & General Partner" },
+      { "name": "Matias Serebrinsky", "role": "Co-founder & General Partner" }
+    ],
+    "summary": {
+      "en": "San Francisco early-stage fund (a $25M fund plus active syndicate) investing in frontier brain and mental-health technologies — psychedelics, neurotech, precision psychiatry and digital therapeutics."
+    },
+    "sources": [
+      { "url": "https://psymed.ventures/", "title": "PsyMed Ventures", "publisher": "PsyMed Ventures", "accessed": "undefined", "supports": "brain & mental-health focus, thesis" },
+      { "url": "https://news.crunchbase.com/startups/psymed-ventures-psychedelics-mental-health-startups/", "title": "Inside PsyMed Ventures' New $25M Fund For Psychedelics And Mental Health Startups", "publisher": "Crunchbase News", "accessed": "undefined", "supports": "fund size $25M, focus", "quote": "PsyMed Ventures' New $25M Fund For Psychedelics And Mental Health Startups" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year cited as 2020 (fund closed/announced 2022). Check-size range from secondary aggregators.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-action-potential-venture-capital",
+    "name": { "en": "Action Potential Venture Capital" },
+    "aka": ["APVC"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge",
+    "offices": [{ "country": "United States", "city": "Cambridge, MA" }],
+    "website": "https://www.actionpotentialvc.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/action-potential-venture-capital-limited"
+    },
+    "capital": {
+      "funds": [
+        { "name": "APVC Fund I (GSK)", "vintage_year": 2013, "size": { "raw": "$50M", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["medtech-devices", "mental-health"],
+      "thesis": "Corporate venture fund originally seeded by GSK ($50M, 2013) dedicated to bioelectronic medicines and the next generation of peripheral neuromodulation devices — implants and adaptive bioelectronics that modulate the body's electrical signaling to treat disease."
+    },
+    "lifesci": {
+      "modalities": ["neurotech-bci", "medical-hardware", "wearables-sensors"],
+      "indications": ["neurology", "immunology-inflammation", "pain"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "SetPoint Medical", "sector": "bioelectronic / vagus-nerve neuromodulation", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Cambridge, MA corporate venture fund launched by GSK in 2013 with $50M to invest exclusively in bioelectronic medicine and peripheral neuromodulation devices; GSK has since spun the unit out as an independent manager."
+    },
+    "sources": [
+      { "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-launches-50-million-venture-capital-fund-to-invest-in-pioneering-bioelectronic-medicines-and-technologies/", "title": "GSK launches $50 million venture capital fund to invest in pioneering bioelectronic medicines and technologies", "publisher": "GSK", "accessed": "undefined", "supports": "$50M fund, bioelectronic/neuromodulation focus, Cambridge MA base", "quote": "GSK launches $50 million venture capital fund to invest in pioneering bioelectronic medicines and technologies" },
+      { "url": "https://endpoints.news/gsk-spins-out-corporate-vc-fund-focused-on-bioelectronic-tech/", "title": "GSK spins out corporate VC fund focused on bioelectronic tech", "publisher": "Endpoints News", "accessed": "undefined", "supports": "spin-out from GSK, neuromodulation/wearables/implant focus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2013 as GSK's in-house CVC; more recently spun out into an independent entity. Kept as cvc given corporate-strategic origin and mandate; neuromodulation/bioelectronic nexus is the neuro tie.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-jazz-venture-partners",
+    "name": { "en": "JAZZ Venture Partners" },
+    "aka": ["Jazz VP"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://jazzvp.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/jazz-venture-partners"
+    },
+    "capital": {
+      "aum": { "raw": "~$600M", "usd": 600000000, "currency": "USD" },
+      "funds": [
+        { "name": "Jazz Human Performance Fund II", "vintage_year": 2019, "size": { "raw": "$318M AUM", "usd": 318000000, "currency": "USD" } },
+        { "name": "Jazz Human Performance Fund III", "vintage_year": 2021, "size": { "raw": "$247M AUM", "usd": 247000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["mental-health", "digital-health", "consumer-health"],
+      "thesis": "Specialist venture firm investing at the intersection of neuroscience and human performance — closed-loop human-computer systems, neurobiology, AI and AR that extend the boundaries of human cognition, health and performance."
+    },
+    "lifesci": {
+      "modalities": ["neurotech-bci", "digital-therapeutics", "ai-ml-platform", "wearables-sensors"],
+      "indications": ["psychiatry-mental-health", "neurology"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "San Francisco venture firm (~$600M AUM) investing at the intersection of neuroscience and human performance, backing companies applying neurobiology, AI and closed-loop systems to brain health and cognition."
+    },
+    "sources": [
+      { "url": "https://jazzvp.com/", "title": "JAZZ Venture Partners", "publisher": "JAZZ Venture Partners", "accessed": "undefined", "supports": "neuroscience & human-performance thesis" },
+      { "url": "https://aum13f.com/firm/jazz-venture-partners-llc", "title": "Jazz Venture Partners LLC | AUM 13F", "publisher": "AUM 13F", "accessed": "undefined", "supports": "AUM and fund sizes (Fund II $318M, Fund III $247M)", "quote": "Jazz Human Performance Fund II ($318M AUM, 2019) and Fund III ($247M AUM, 2021)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund/AUM figures sourced from AUM13F (13F aggregator) and secondary profiles, not from the firm directly; founding year not reliably confirmed so left null.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-palo-santo",
+    "name": { "en": "Palo Santo" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago",
+    "website": "https://palosanto.vc/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/palosantovc"
+    },
+    "capital": {
+      "current_fund": { "raw": "$35M", "usd": 35000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["mental-health", "therapeutics", "digital-health"],
+      "thesis": "US psychedelic-healthcare venture fund backing next-generation neuroscience companies developing breakthrough therapeutics and technologies for mental health — depression, PTSD, anxiety, OCD, addiction and neuropathic pain."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "digital-therapeutics", "neurotech-bci"],
+      "indications": ["psychiatry-mental-health", "pain", "neurology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "23",
+      "notable_investments": [
+        { "company": "Beacon Biosignals", "sector": "neuro biomarkers / EEG", "outcome": "active" },
+        { "company": "Beckley Psytech", "sector": "psychedelic therapeutics", "outcome": "active" },
+        { "company": "Gilgamesh Pharmaceuticals", "sector": "neuroplastogen therapeutics", "outcome": "active" },
+        { "company": "Reunion Neuroscience", "sector": "psychedelic therapeutics", "outcome": "acquired" }
+      ]
+    },
+    "people": [
+      { "name": "Daniel Goldberg", "role": "Co-founder & Managing Partner" },
+      { "name": "Tim Schlidt", "role": "Co-founder & Partner" },
+      { "name": "Tony Eisenberg", "role": "Co-founder & Partner" }
+    ],
+    "summary": {
+      "en": "Chicago-based psychedelic-healthcare venture fund that launched with $35M to invest in ~20 neuroscience and mental-health companies developing psychedelic and adjacent therapies for depression, PTSD and addiction."
+    },
+    "sources": [
+      { "url": "https://palosanto.vc/", "title": "Palo Santo", "publisher": "Palo Santo", "accessed": "undefined", "supports": "neuroscience/mental-health focus, portfolio", "quote": "Invests in next-generation neuroscience companies developing breakthrough therapeutics and technologies for mental health" },
+      { "url": "https://www.fiercebiotech.com/biotech/psychedelics-for-mental-health-palo-santo-launches-35m-fund-for-20-plus-companies", "title": "Psychedelics-focused investment firm Palo Santo launches with $35M to tackle mental health crisis", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "$35M fund launch, mental-health thesis", "quote": "Palo Santo launches with $35M to tackle mental health crisis" }
+    ],
+    "confidence": "high",
+    "verification_notes": "HQ (Chicago) and founders confirmed via launch coverage; fund size $35M at launch.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-kaleida-capital",
+    "name": { "en": "Kaleida Capital" },
+    "type": "micro-vc",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego",
+    "website": "https://www.kaleidacapital.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/kaleidacapital"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["mental-health", "diagnostics", "ai-drug-discovery", "medical-imaging"],
+      "thesis": "Seed-stage firm backing founders at the intersection of brain science and AI — neural interfaces, brain-data platforms, neuroimaging, biosensors, neurostimulation and drug discovery — on the thesis that the brain is the next major computing/life-science platform."
+    },
+    "lifesci": {
+      "modalities": ["neurotech-bci", "ai-ml-platform", "wearables-sensors"],
+      "indications": ["neurology", "psychiatry-mental-health", "aging-longevity"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Paradromics", "sector": "brain-computer interface", "outcome": "active" },
+        { "company": "Synchron", "sector": "endovascular BCI", "outcome": "active" },
+        { "company": "Manifest Technologies", "sector": "neurotech", "outcome": "acquired" }
+      ]
+    },
+    "people": [
+      { "name": "Ariane Tom, PhD", "role": "Founder & Managing Partner", "background": "Stanford-trained neuroengineer and investor" }
+    ],
+    "summary": {
+      "en": "San Diego early-stage venture firm founded in 2022 by neuroengineer Ariane Tom, seeding neuroscience and neurotechnology companies (BCIs, neural engineering, brain-data + AI) for brain health."
+    },
+    "sources": [
+      { "url": "https://www.kaleidacapital.com/", "title": "Kaleida Capital: Pioneering Neurotech & AI Investments", "publisher": "Kaleida Capital", "accessed": "undefined", "supports": "brain-science/neurotech focus, founder, founding year", "quote": "the brain is the next major platform across life science and technology" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Small emerging manager; specific fund size not publicly disclosed. Portfolio names include some later-stage co-investments alongside seed positions.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-autism-impact-fund",
+    "name": { "en": "Autism Impact Fund" },
+    "aka": ["AIF"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "offices": [
+      { "country": "United States", "city": "New York" },
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United States", "city": "Winter Park, FL" },
+      { "country": "United States", "city": "Nashville" }
+    ],
+    "website": "https://autismimpact.fund/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/autismimpactfund"
+    },
+    "capital": {
+      "current_fund": { "raw": "$60M", "usd": 60000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["mental-health", "digital-health", "healthcare-services", "therapeutics"],
+      "thesis": "Healthcare-technology and innovation firm investing in autism, behavioral health, mental health and complex chronic conditions — accelerating diagnostics, translational science and services for autism spectrum disorder and related neurodevelopmental conditions."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "ai-ml-platform", "software-samd"],
+      "indications": ["psychiatry-mental-health", "pediatrics", "neurology"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "Chris Male", "role": "Co-founder & Managing Partner", "background": "Founded AIF after his son's autism diagnosis" },
+      { "name": "Brian O'Callaghan", "role": "Co-founder" }
+    ],
+    "summary": {
+      "en": "Venture fund seeking to be the investment and innovation arm of the autism community; closed a $60M debut fund (2024) and invests across life sciences and tech-enabled services for autism, behavioral and mental health, and complex chronic conditions."
+    },
+    "sources": [
+      { "url": "https://autismimpact.fund/", "title": "AIF – Autism Impact Fund", "publisher": "Autism Impact Fund", "accessed": "undefined", "supports": "focus on autism/behavioral/mental health, offices", "quote": "AIF is a healthcare technology and innovation firm investing in behavioral health, mental health, autism, and complex chronic conditions" },
+      { "url": "https://techcrunch.com/2024/04/02/autism-impact-fund/", "title": "Autism Impact Fund closes $60M first fund and broadens its scope", "publisher": "TechCrunch", "accessed": "undefined", "supports": "$60M debut fund, founding ~2021", "quote": "recently closed its first fund at $60 million" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Launched 2020, made first investments 2021, and TechCrunch describes it as 'emerging in 2021' — founding year given as 2020 with that caveat. Multiple US offices listed on site; NY used as primary hq_city.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-alzheimers-drug-discovery-foundation",
+    "name": { "en": "Alzheimer's Drug Discovery Foundation" },
+    "aka": ["ADDF"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 1998,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.alzdiscovery.org/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/alzheimer's-drug-discovery-foundation"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "diagnostics"],
+      "thesis": "Public charity applying a venture-philanthropy model — combining scientific and business diligence — to fund high-risk, high-reward Alzheimer's and dementia drug and biomarker programs in academia and biotech, including equity-style investments via its Diagnostics Accelerator (DxA)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["neurology", "aging-longevity"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "760+ programs funded",
+      "co_investors": ["Bill Gates", "Jeff Bezos", "MacKenzie Scott", "Dolby family", "Leonard A. Lauder"]
+    },
+    "people": [
+      { "name": "Leonard A. Lauder", "role": "Co-founder" },
+      { "name": "Ronald S. Lauder", "role": "Co-founder" }
+    ],
+    "summary": {
+      "en": "New York public charity and venture-philanthropy funder solely focused on Alzheimer's; has awarded $360M+ to 760+ drug/biomarker programs and, via its Diagnostics Accelerator (launched 2018), has invested up to $38M in 30+ diagnostic programs."
+    },
+    "sources": [
+      { "url": "https://www.alzdiscovery.org/research-and-grants/diagnostics-accelerator", "title": "Diagnostics Accelerator | Alzheimer's Drug Discovery Foundation", "publisher": "ADDF", "accessed": "undefined", "supports": "venture-philanthropy model, Diagnostics Accelerator investments" },
+      { "url": "https://www.alzdiscovery.org/about-addf/our-impact", "title": "Our Impact | Alzheimer's Drug Discovery Foundation", "publisher": "ADDF", "accessed": "undefined", "supports": "$360M+ awarded, 760+ programs, founded 1998 by the Lauders", "quote": "the ADDF has awarded more than $360 million to fund over 760 Alzheimer's drug discovery programs, biomarker programs and clinical trials in 21 countries" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Structured as a public charity using a venture-philanthropy model (grants plus DxA equity-style investments), not a conventional GP/LP fund; classified as venture-philanthropy accordingly.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-michael-j-fox-foundation",
+    "name": { "en": "The Michael J. Fox Foundation for Parkinson's Research" },
+    "aka": ["MJFF"],
+    "type": "venture-philanthropy",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York",
+    "website": "https://www.michaeljfox.org/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["United States", "Global"],
+      "sector_focus": ["therapeutics", "diagnostics"],
+      "thesis": "Venture-philanthropy funder investing in high-risk, high-reward Parkinson's therapeutic and biomarker programs using a milestone-driven, de-risking model that shares development risk and pulls in follow-on VC and pharma capital."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "indications": ["neurology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "20+ preclinical therapeutic programs advanced",
+      "co_investors": ["venture capital", "pharmaceutical companies", "government funders"]
+    },
+    "summary": {
+      "en": "The world's largest nonprofit funder of Parkinson's research, operating a venture-philanthropy / de-risking model (via its Therapeutics Development Initiative) that has advanced 20+ early-stage programs into follow-on VC and pharma pipelines."
+    },
+    "sources": [
+      { "url": "https://www.michaeljfox.org/news/investing-early-stage-therapies", "title": "Investing in Early-stage Therapies", "publisher": "The Michael J. Fox Foundation", "accessed": "undefined", "supports": "venture-philanthropy investment model in Parkinson's", "quote": "The Michael J. Fox Foundation is a venture philanthropy, investing in high-risk, high-reward therapeutic development projects" },
+      { "url": "https://www.michaeljfox.org/news/de-risking-strategy-leads-significant-investment-parkinsons-drug-development", "title": "De-Risking Strategy Leads to Significant Investment in Parkinson's Drug Development", "publisher": "The Michael J. Fox Foundation", "accessed": "undefined", "supports": "de-risking model attracting follow-on VC/pharma funding" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Predominantly a grant-making venture-philanthropy (milestone-driven Therapeutics Development Initiative) rather than an equity GP; included as a dedicated neuroscience (Parkinson's/CNS) venture-philanthropy investor. Founded 2000.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-metis-innovative",
+    "name": { "en": "METIS Innovative" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Miami Beach",
+    "website": "https://www.metisinnovative.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "mental-health"],
+      "thesis": "Physician-led (practicing neurosurgeons) early-stage fund focused exclusively on neurodevice technologies — neurostimulation, neuromodulation, BCI and pain devices for Parkinson's, depression and chronic pain."
+    },
+    "lifesci": {
+      "modalities": ["neurotech-bci", "medical-hardware"],
+      "indications": ["neurology", "pain", "psychiatry-mental-health"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "8",
+      "notable_investments": [
+        { "company": "Synchron", "sector": "endovascular brain-computer interface", "outcome": "active" },
+        { "company": "Fluid Biomed", "sector": "polymer brain stent", "outcome": "active" },
+        { "company": "Proprio", "sector": "surgical navigation", "outcome": "active" },
+        { "company": "Aurenar", "sector": "wearable neuromodulation", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Miami Beach venture firm founded in 2017 by practicing neurosurgeons, investing exclusively in early-stage neurodevice and neuromodulation companies for Parkinson's, depression and chronic pain."
+    },
+    "sources": [
+      { "url": "https://www.metisinnovative.com/", "title": "METIS Innovative | Investing In The Future of Neuroscience", "publisher": "METIS Innovative", "accessed": "undefined", "supports": "neurodevice/neuroscience focus, physician-led" },
+      { "url": "https://www.neurofounders.co/investors/metis-innovative", "title": "METIS Innovative - Venture capital", "publisher": "NeuroFounders", "accessed": "undefined", "supports": "Miami Beach base, founded 2017 by neurosurgeons, neuromodulation focus" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year (2017), founder profile (neurosurgeons) and portfolio counts drawn from NeuroFounders and secondary aggregators; official site confirms neuroscience/neurodevice mandate but not all specifics.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-chaanakya-capital",
+    "name": { "en": "Chaanakya Capital" },
+    "type": "micro-vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco",
+    "website": "https://www.chaanakya.capital/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/chaanakya-capital"
+    },
+    "capital": {
+      "current_fund": { "raw": "$2M", "usd": 2000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["medtech-devices", "mental-health"],
+      "thesis": "Early-stage micro-fund focused on neurotech and neuro-focused medtech — neurostimulation, neuromodulation, imaging, surgical tools, BCI and software-as-a-medical-device — investing in US-incorporated startups (including founders based in India, Africa and Latin America)."
+    },
+    "lifesci": {
+      "modalities": ["neurotech-bci", "software-samd", "medical-hardware"],
+      "indications": ["neurology", "psychiatry-mental-health"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "Varun Turlapati", "role": "Fund Manager / General Partner" }
+    ],
+    "summary": {
+      "en": "Roughly $2M early-stage micro-fund investing in neurotech and neuro-medtech device/SaMD startups, with an emphasis on quieter categories like neuromodulation."
+    },
+    "sources": [
+      { "url": "https://www.chaanakya.capital/", "title": "Home | Chaanakya Capital", "publisher": "Chaanakya Capital", "accessed": "undefined", "supports": "neurotech/neuromodulation focus, portfolio" },
+      { "url": "https://3dheals.com/episode-110-neurotech-investing-with-varun-turlapati-chaanakya-capital/", "title": "Neurotech Investing With Varun Turlapati, Chaanakya Capital", "publisher": "3DHEALS", "accessed": "undefined", "supports": "fund manager, ~$2M early-stage neurotech device fund", "quote": "an early stage two million dollar fund that invests in early stage neurotech device startups" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "San Francisco HQ per NeuroFounders investor map but not explicitly confirmed on the official site; small (~$2M) emerging fund. Founding year not confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  },
+  {
+    "id": "us-brain-trust-accelerator-fund",
+    "name": { "en": "Brain Trust Accelerator Fund" },
+    "aka": ["BrainTrust VC"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2006,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Burlingame",
+    "website": "https://www.braintrustvc.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States"],
+      "sector_focus": ["therapeutics", "diagnostics", "mental-health"],
+      "thesis": "Impact-oriented, translational-stage venture fund investing exclusively in companies addressing the diagnosis and treatment of brain-related diseases."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "neurotech-bci"],
+      "indications": ["neurology", "psychiatry-mental-health"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "5",
+      "notable_investments": [
+        { "company": "BrainScope", "sector": "brain injury / concussion diagnostics", "outcome": "active" },
+        { "company": "NeuroTherapia", "sector": "CNS therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Burlingame, CA translational-stage venture fund focused on impact investing in brain disease — diagnostics and therapeutics for brain-related conditions."
+    },
+    "sources": [
+      { "url": "https://www.braintrustvc.com/", "title": "The Brain Trust Accelerator Fund", "publisher": "Brain Trust Accelerator Fund", "accessed": "undefined", "supports": "brain-disease diagnosis/treatment focus" },
+      { "url": "https://pitchbook.com/profiles/investor/42785-38", "title": "Brain Trust Accelerator Fund investment portfolio", "publisher": "PitchBook", "accessed": "undefined", "supports": "Burlingame CA base, translational brain-disease focus, portfolio" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Named an 'Accelerator Fund' but operates as an early-stage/translational VC (impact investing in brain disease); classified as vc. Portfolio is small (~5 companies) and much detail comes from secondary databases.",
+    "last_updated": "undefined",
+    "researched_by": "neuro-mental-health-vc"
+  }
+]
