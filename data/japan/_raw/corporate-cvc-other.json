@@ -1,0 +1,787 @@
+[
+  {
+    "id": "jp-sony-innovation-fund",
+    "name": { "en": "Sony Innovation Fund", "local": "ソニーイノベーションファンド" },
+    "aka": ["Sony Ventures Corporation"],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [{ "country": "United States", "city": "San Francisco" }],
+    "website": "https://www.sonyinnovationfund.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Sony Innovation Fund (via Sony Ventures Corporation) — Fund 4",
+          "vintage_year": 2022,
+          "size": { "raw": "$215M (first close)", "usd": 215000000, "currency": "USD" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "United States", "Global"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "Sony Group's corporate venture arm invests globally across Mobility, Health, Deeptech, Industrial IoT and other frontier tech; within Health it backs digital-health platforms serving underserved care areas (menopause, fertility, remote medical interpretation) and neuro-visual digital therapeutics — a consumer-electronics conglomerate diversifying into healthtech rather than a device/pharma maker."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics"],
+      "indications": ["womens-health", "ophthalmology"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Peppy Health", "sector": "digital-health", "outcome": "active" },
+        { "company": "Luminopia", "sector": "digital-therapeutics", "outcome": "active" },
+        { "company": "Mediphone", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Corporate VC arm of Sony Group, operated via Sony Ventures Corporation, investing globally in Mobility, Health, Deeptech and Industrial IoT; its Health bucket has funded digital-health, femtech/menopause-care and digital-therapeutics startups.",
+      "local": "ソニーグループのCVCであるソニーイノベーションファンド（運営：Sony Ventures Corporation）は、モビリティ・ヘルス・ディープテック等の領域でグローバルに投資しており、ヘルス領域ではデジタルヘルスやフェムテック、デジタル治療薬などに出資している。"
+    },
+    "sources": [
+      {
+        "url": "https://www.sonyinnovationfund.com/",
+        "title": "Sony Innovation Fund",
+        "publisher": "Sony",
+        "accessed": "undefined",
+        "supports": "Fund's stated investment areas including Health",
+        "quote": "Mobility, Health, Deeptech, Industrial IOT"
+      },
+      {
+        "url": "https://techcrunch.com/2022/02/17/sony-ventures-corporation-hits-first-close-on-its-215m-fourth-fund/",
+        "title": "Sony Ventures Corporation hits first close of its $215M fourth fund",
+        "publisher": "TechCrunch",
+        "accessed": "undefined",
+        "supports": "Fund 4 size $215M, vintage 2022",
+        "quote": "Sony Ventures Corporation hits first close of its $215M fourth fund"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sony Innovation Fund is a generalist multi-sector CVC (Mobility, Health, Deeptech, Industrial IoT, fintech, AI, robotics), not health-dedicated; the $215M Fund 4 covers all sectors, not just Health. Founding year and health-specific allocation not independently confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-m3-1p1y-fund",
+    "name": { "en": "M3, Inc. — 1P1Y Fund", "local": "エムスリー株式会社 1P1Yファンド" },
+    "aka": ["1 Person 1 Yen Fund", "M3i"],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://corporate.m3.com/1p1y/en/",
+    "links": { "other": ["https://m3-1p1y.com/en/top"] },
+    "capital": {
+      "funds": [
+        {
+          "name": "1P1Y Fund",
+          "vintage_year": null,
+          "size": { "raw": "¥10 billion", "usd": null, "currency": "JPY" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "United States", "Europe"],
+      "sector_focus": ["digital-health", "medtech-devices", "cell-gene-therapy", "healthcare-it"],
+      "thesis": "M3 Inc. (Sony-backed, physician-network/medical-portal company) runs an internal corporate VC that invests in regenerative medicine, medical devices, digital healthcare and medical robotics startups in Japan, Europe and the US — a healthcare-IT/media company (not a pharma or medtech manufacturer) building a portfolio adjacent to its physician platform."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "medical-hardware", "software-samd"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "MedTech Heart Inc.", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Internal corporate VC of M3, Inc. (Sony-affiliated physician-network/medical-information platform) that invests ¥10B in medical and healthcare startups — regenerative medicine, medical devices, digital health and medical robotics — in Japan, Europe and the US.",
+      "local": "ソニー系の医療従事者向けプラットフォーム企業エムスリーの社内CVC「1P1Yファンド」。100億円規模で、再生医療・医療機器・デジタルヘルスケア・医療ロボティクス分野の国内外スタートアップに投資する。"
+    },
+    "sources": [
+      {
+        "url": "https://corporate.m3.com/1p1y/en/",
+        "title": "1人1円ファンド | エムスリーのCVC",
+        "publisher": "M3, Inc.",
+        "accessed": "undefined",
+        "supports": "Existence and framing of 1P1Y Fund as M3's CVC",
+        "quote": "1P1Y Fund | CVC of M3 Inc."
+      },
+      {
+        "url": "https://www.japantimes.co.jp/news/2016/03/22/business/corporate-business/sony-backed-m3-targeting-investments-health-care-startups/",
+        "title": "Sony-backed M3 targeting investments in health care startups",
+        "publisher": "The Japan Times",
+        "accessed": "undefined",
+        "supports": "Investment targets: regenerative medicine, medical devices, digital healthcare, medical robotics; first deal MedTech Heart Inc.",
+        "quote": "M3 Inc., a medical Web portal backed by Sony Corp., is embarking on a plan to step up investments in health care startups at home and abroad, with targets being small firms in the areas such as regenerative medicine, medical devices, digital health care and robotics for medicine"
+      },
+      {
+        "url": "https://m3-1p1y.com/en/top",
+        "title": "1P1Y Fund | CVC of M3 Inc.",
+        "publisher": "M3, Inc.",
+        "accessed": "undefined",
+        "supports": "Fund size ¥10 billion",
+        "quote": "The Internal Corporate Venture Capital Fund \"1P1Y (1 Person 1 Yen) Fund\" was launched with a 10 Billion Yen Investment"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "M3 Inc. itself is a healthcare-IT/physician-media company, not pharma or medtech manufacturing, so its CVC is treated as 'other corporate' rather than pharma/medtech CVC. Exact fund founding year not confirmed in sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-fujifilm-life-science-vc",
+    "name": { "en": "FUJIFILM Holdings — Life Science / Regenerative Medicine CVC", "local": "富士フイルムホールディングス ライフサイエンス／再生医療CVC" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.fujifilm.com/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Regenerative-medicine CVC fund",
+          "vintage_year": 2016,
+          "size": { "raw": "¥30億円 (~¥3 billion)", "usd": null, "currency": "JPY" }
+        },
+        {
+          "name": "Life-science VC fund (bio-startups, mainly overseas)",
+          "vintage_year": 2022,
+          "size": { "raw": "¥70億円 (~¥7 billion) by 2026", "usd": null, "currency": "JPY" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Japan", "Global"],
+      "sector_focus": ["cell-gene-therapy", "therapeutics", "life-science-tools"],
+      "thesis": "Originally an imaging/photographic-film and electronics maker, Fujifilm has diversified into a 'total healthcare company'; its dedicated CVC vehicles fund regenerative-medicine ventures and overseas bio-startups with drug-discovery-support technology, feeding its Bio CDMO and regenerative-medicine businesses."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Runs 'Open Innovation Hub' sites in Japan, Silicon Valley and Tilburg (Netherlands) for external co-creation alongside its CVC investing."
+    },
+    "track_record": {
+      "portfolio_count": "11 regenerative-medicine ventures (as of the CVC's reporting)",
+      "notable_investments": [
+        { "company": "Regenefrontier (京都大学発)", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Fujifilm Holdings — an imaging/electronics conglomerate that has expanded into a 'total healthcare company' — runs dedicated CVC vehicles for regenerative medicine (¥3B, FY2016) and life-science/bio-startups (¥7B, from 2022), backing ventures such as Kyoto-University spinout Regenefrontier.",
+      "local": "写真フィルム・電子材料から出発した富士フイルムは「トータルヘルスケアカンパニー」へ変革しており、再生医療向けCVC（2016年度、30億円）とライフサイエンス／バイオベンチャー向けVC（2022年設立、2026年までに70億円）を運営、京大発リジェネフロ等に出資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOUC036PF0T00C22A2000000/",
+        "title": "富士フイルムが生命科学向けファンド、新興に70億円",
+        "publisher": "日本経済新聞",
+        "accessed": "undefined",
+        "supports": "Life-science VC fund size ¥70億 through 2026, overseas bio-startup focus",
+        "quote": "海外を中心とするバイオスタートアップを投資対象として2026年までで70億円の出資枠を設けています。"
+      },
+      {
+        "url": "https://bio.nikkeibp.co.jp/atcl/news/p1/22/02/03/09111/",
+        "title": "富士フイルム、ライフサイエンス領域対象のVC立ち上げ",
+        "publisher": "日経バイオテク",
+        "accessed": "undefined",
+        "supports": "Launch of life-science-focused VC vehicle, prior regenerative-medicine CVC of ¥30億 in FY2016 with 11 portfolio companies including Regenefrontier",
+        "quote": "富士フイルムは16年度に30億円の投資枠の再生医療向けのCVCを設立しており、2021年6月に京都大発スタートアップのリジェネフロに出資するなど、これまで再生医療ベンチャー11社に出資してきました。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fujifilm straddles healthcare/medtech (imaging equipment, Bio CDMO) and its historical core (photographic film/electronics); included here per brief's explicit anchor, but note a sibling medtech/pharma-CVC slice may also reference Fujifilm — flag for de-duplication at directory-merge time.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-mitsui-co-healthcare",
+    "name": { "en": "Mitsui & Co., Ltd. — Healthcare Business", "local": "三井物産株式会社 ヘルスケア事業本部" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.mitsui.com/jp/ja/innovation/business/healthcare/index.html",
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "China", "Asia"],
+      "sector_focus": ["healthcare-services", "diagnostics"],
+      "thesis": "A general trading house (sōgō shōsha), not a medical manufacturer, Mitsui & Co. strategically invests in and partners with healthcare startups (e.g. a genetic-testing lab) and hospital-operation platforms across Asia as part of a plan to grow healthcare-related held assets from ¥270B toward ¥400B."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "capital": {
+      "funds": [
+        {
+          "name": "CMH Healthcare Fund (with China Resources et al., China-focused)",
+          "vintage_year": 2019,
+          "size": { "raw": "approx. US$1 billion (~¥108 billion)", "usd": 1000000000, "currency": "USD" }
+        }
+      ]
+    },
+    "summary": {
+      "en": "Japanese general trading house (sōgō shōsha) with a dedicated Healthcare business line that makes strategic investments in Asian hospital operators, a China-focused ~US$1B healthcare fund (with China Resources), and healthcare startups such as genetic-testing labs, aiming to grow healthcare assets from ¥270B to ¥400B.",
+      "local": "三井物産はヘルスケア事業を戦略分野と位置づけ、中国華潤集団等と設立した約10億ドル規模のCMHヘルスケアファンドや遺伝子検査ラボへの出資など、アジアの病院運営・ヘルスケアスタートアップに投資。保有資産を2,700億円から4,000億円へ拡大する計画。"
+    },
+    "sources": [
+      {
+        "url": "https://www.mitsui.com/jp/ja/innovation/business/healthcare/index.html",
+        "title": "患者さんと、医療にかかわる全ての人の未来を。三井物産のヘルスケアエコシステム",
+        "publisher": "Mitsui & Co., Ltd.",
+        "accessed": "undefined",
+        "supports": "Existence of dedicated healthcare business/ecosystem strategy",
+        "quote": "先進的なテクノロジーの導入、ヘルスケアスタートアップ企業への戦略的投資、イノベーション企業文化の醸成"
+      },
+      {
+        "url": "https://www.nikkei.com/article/DGXMZO46546040V20C19A6TJ2000/",
+        "title": "三井物産、中国で医療ファンド 現地大手などと1000億円規模",
+        "publisher": "日本経済新聞",
+        "accessed": "undefined",
+        "supports": "CMH Healthcare Fund size ~US$1B / ¥100 billion+, China focus, vintage 2019",
+        "quote": "三井物産は2019年6月、中国の華潤集団などと、中国でヘルスケア産業を対象としたファンドを設立すると発表し、運用規模は10億ドル（約1,080億円）規模です。"
+      },
+      {
+        "url": "https://www.nikkan.co.jp/articles/view/00440923",
+        "title": "三井物産、ヘルスケア投資拡大 保有資産4000億円へ",
+        "publisher": "日刊工業新聞",
+        "accessed": "undefined",
+        "supports": "Plan to expand healthcare assets from ¥270B to ¥400B",
+        "quote": "三井物産はヘルスケアサービス事業の保有資産を2,700億円から、数年以内に4,000億円まで引き上げる計画"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Mitsui invests directly from its balance sheet / joint funds rather than via a single named CVC vehicle; treated here as a corporate healthcare investment arm per the brief's explicit anchor.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-sompo-light-vortex",
+    "name": { "en": "SOMPO Light Vortex", "local": "SOMPO Light Vortex株式会社" },
+    "type": "cvc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://lightvortex.com/",
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "thesis": "A digital-business subsidiary of SOMPO Holdings (a P&C/life insurer, not a healthcare company), co-creating and investing alongside global startups to build data-driven insurance+healthcare+nursing-care+disaster-prevention services ('Insurhealth')."
+    },
+    "lifesci": { "company_creation": true, "invests_public_markets": false },
+    "summary": {
+      "en": "Digital-business subsidiary spun out by Japanese insurer SOMPO Holdings in July 2021 to co-create healthcare/nursing-care/insurance data services with startups, operating consumer health products like 'WiTH Health' as part of SOMPO's Insurhealth strategy.",
+      "local": "SOMPOホールディングスが2021年7月に設立したデジタル事業子会社。保険・ヘルスケア・介護・防災をデータでつなぐ「Insurhealth」戦略のもと、スタートアップとの協業で「WiTH Health」等のヘルスケアサービスを展開。"
+    },
+    "sources": [
+      {
+        "url": "https://lightvortex.com/company",
+        "title": "会社情報 - SOMPO Light Vortex",
+        "publisher": "SOMPO Light Vortex",
+        "accessed": "undefined",
+        "supports": "Corporate existence, healthcare service lines",
+        "quote": "SOMPO Light Vortex is a digital business subsidiary established by SOMPO Holdings in July 2021"
+      },
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOUB08ALG0Y1A600C2000000/",
+        "title": "SOMPO、デジタル事業開拓 まずヘルスケア",
+        "publisher": "日本経済新聞",
+        "accessed": "undefined",
+        "supports": "SOMPO's digital-business push starting with healthcare",
+        "quote": "SOMPO、デジタル事業開拓 まずヘルスケア"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "SOMPO Light Vortex functions primarily as a venture-builder/product subsidiary that partners with and co-creates with startups (an 'insurhealth' platform) rather than a pure check-writing fund; classified as cvc/venture-studio hybrid. Direct startup-investment (equity check) activity not independently confirmed beyond partnership/co-creation language.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-meiji-yasuda-mocc",
+    "name": { "en": "Meiji Yasuda Life Insurance — mocc CVC Fund", "local": "明治安田生命保険 mocc（CVCファンド）" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.meijiyasuda.co.jp/profile/mocc/investment/",
+    "capital": {
+      "funds": [
+        { "name": "mocc CVC Fund (with Global Brain)", "vintage_year": 2023, "size": { "raw": "約50億円 (~¥5 billion)", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["digital-health", "diagnostics", "mental-health"],
+      "thesis": "Mutual life insurer Meiji Yasuda's ~¥5B CVC fund, co-managed with Global Brain over a 10-year term, backs startups supporting disease prevention, lifestyle-improvement and advanced diagnostic technologies as well as child-rearing, mental health and food-tech — a payer/insurance nexus rather than a device or drug maker."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Boston Medical Sciences", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Meiji Yasuda Life Insurance's ~¥5B CVC fund (with Global Brain, 10-year term) invests in startups for disease prevention/lifestyle improvement and advanced diagnostics, e.g. colorectal-cancer early-detection company Boston Medical Sciences.",
+      "local": "明治安田生命が グローバル・ブレインと共同運営する約50億円規模・運用期間10年のCVCファンド。疾病予防・生活習慣改善や先進的検査技術のスタートアップに投資、大腸がん早期発見のBoston Medical Sciences等に出資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.meijiyasuda.co.jp/profile/mocc/investment/",
+        "title": "Investment｜mocc｜明治安田生命",
+        "publisher": "Meiji Yasuda Life Insurance",
+        "accessed": "undefined",
+        "supports": "Fund purpose: disease prevention, health-related investment focus",
+        "quote": "明治安田生命保険は、スタートアップに投資するコーポレートベンチャーキャピタル（CVC）ファンドを設立し、疾病の予防につながる生活習慣の改善支援や先進的な検査技術を開発・提供する企業に投資しています。"
+      },
+      {
+        "url": "https://www.nikkinonline.com/article/81217",
+        "title": "明治安田生命、50億円規模VC設立 ヘルス系スタートアップ支援",
+        "publisher": "ニッキンONLINE",
+        "accessed": "undefined",
+        "supports": "Fund size ~¥5 billion, 10-year term, Global Brain partnership",
+        "quote": "ファンドの規模は約50億円です。運用期間は10年です。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year 2023 inferred from Nikkei/Nikkin article dating (published Jan/Feb 2023); not stated as an explicit 'founded in 2023' sentence in the snippets reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-kddi-open-innovation-fund",
+    "name": { "en": "KDDI Open Innovation Fund", "local": "KDDI Open Innovation Fund" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.kddi.com/open-innovation-program/koif/",
+    "capital": {
+      "funds": [
+        { "name": "KDDI Open Innovation Fund V (KOIF V, with Global Brain)", "vintage_year": 2025, "size": { "raw": "undisclosed", "usd": null, "currency": null } }
+      ]
+    },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "KDDI (a telecom carrier, not a healthcare company) runs a multi-sector CVC across AI, IoT, Big Data, xR, robotics, fintech and healthcare; it has funded health/medical-care platform startups (e.g. corporate health-management SaaS) as part of KDDI's own healthcare-service ambitions."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "track_record": {
+      "portfolio_count": "155 companies (fund-wide, as of the source's reporting)"
+    },
+    "summary": {
+      "en": "Telecom carrier KDDI's generalist CVC (now KOIF V, run with Global Brain) invests across AI/IoT/xR/fintech/robotics and healthcare; healthcare is an explicit vertical, with investments including a social medical-care-coordination platform and corporate health-management SaaS.",
+      "local": "通信キャリアKDDIの総合型CVC「KDDI Open Innovation Fund」（現KOIF V、グローバル・ブレインと共同運営）はAI・IoT・xR・フィンテック・ロボティクスとともにヘルスケアを投資領域の一つとし、医療介護連携プラットフォームや企業向け健康管理SaaS等に出資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.kddi.com/open-innovation-program/koif/",
+        "title": "KDDI Open Innovation Fund | KDDI Open Innovation Program",
+        "publisher": "KDDI Corporation",
+        "accessed": "undefined",
+        "supports": "Healthcare listed as investment domain; portfolio company count",
+        "quote": "supports business collaboration and startup growth through wide-ranging fields including AI, IoT, Big Data, xR, healthcare, robotics, fintech, and entertainment"
+      },
+      {
+        "url": "https://horizon.jma-jp.org/?p=4713",
+        "title": "スタートアップとの共創でヘルスケア事業を立ち上げ─KDDIのオープンイノベーション志向",
+        "publisher": "MARKETING HORIZON",
+        "accessed": "undefined",
+        "supports": "KDDI building healthcare business via startup co-creation",
+        "quote": "スタートアップとの共創でヘルスケア事業を立ち上げ─KDDIのオープンイノベーション志向"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "KDDI Open Innovation Fund is a broad multi-sector telecom CVC; healthcare is one of many verticals, not the primary focus. Fund V size undisclosed in sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-dai-ichi-life-innovation-fund",
+    "name": { "en": "Dai-ichi Life Innovation Fund", "local": "第一生命保険 イノベーションファンド" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.dai-ichi-life.co.jp/dsr/investment/venture.html",
+    "strategy": {
+      "lead_or_follow": "follow",
+      "geo_focus": ["Japan", "Global"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "Life insurer Dai-ichi Life runs impact/venture investing (over ¥100B cumulative into funds and startups across 10+ years) targeting 'Healthy People and Society', including direct stakes in health-tech companies such as cognitive-function-testing startup Neurotrack used to support dementia-insurance policyholders."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Neurotrack", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Dai-ichi Life Insurance's impact/venture investment program (Dai-ichi Life Innovation Fund, est. 2021 with Plug and Play Japan) has directed cumulative funding of over ¥100B into funds/startups over a decade, including a direct stake in cognitive-function-testing company Neurotrack tied to its dementia insurance products.",
+      "local": "第一生命保険は「健康な人と社会」をテーマにインパクト投資を推進し、10年以上で累計1,000億円超を国内外ファンド・スタートアップに投資。認知機能検査のNeurotrack社への出資は認知症保険の付帯サービスに活用。2021年にPlug and Play Japanと共同でイノベーションファンドを設立。"
+    },
+    "sources": [
+      {
+        "url": "https://www.dai-ichi-life.co.jp/dsr/investment/venture.html",
+        "title": "スタートアップ投資｜機関投資家として｜第一生命保険株式会社",
+        "publisher": "Dai-ichi Life Insurance Company, Limited",
+        "accessed": "undefined",
+        "supports": "Cumulative >¥100B invested into funds and startups over 10+ years; Neurotrack investment",
+        "quote": "Dai-ichi Life has invested cumulatively over 100 billion yen into numerous funds and domestic startups over more than 10 years"
+      },
+      {
+        "url": "https://www.dai-ichi-life-hd.com/sustainability/initiatives/innovation.html",
+        "title": "イノベーション推進｜第一生命ホールディングス株式会社",
+        "publisher": "Dai-ichi Life Holdings, Inc.",
+        "accessed": "undefined",
+        "supports": "Dai-ichi Life Innovation Fund established 2021 with Plug and Play Japan",
+        "quote": "In 2021, Dai-ichi Life established the Dai-ichi Life Innovation Fund project with Plug and Play Japan to promote new collaboration beyond the insurance business"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Dai-ichi Life's healthcare investing spans both an internal 'Innovation Fund' PoC program (with Plug and Play Japan) and separate direct/impact investments (e.g. Neurotrack) as an institutional investor; figures for the two streams are not cleanly separated in sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-mitsui-sumitomo-insurance-venture-capital",
+    "name": { "en": "Mitsui Sumitomo Insurance Venture Capital (MSIVC)", "local": "三井住友海上キャピタル" },
+    "aka": ["MSIVC"],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "Global"],
+      "sector_focus": ["digital-health", "healthcare-services", "generalist-health"],
+      "thesis": "The CVC arm of P&C insurer Mitsui Sumitomo Insurance invests seed-to-late-stage across Fintech, SaaS, Healthcare, AI, E-Commerce and Foodtech, with a ~180-company portfolio including healthcare-marketplace and digital-health platforms."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "track_record": {
+      "portfolio_count": 180,
+      "exits": []
+    },
+    "summary": {
+      "en": "Corporate VC of Japanese non-life insurer Mitsui Sumitomo Insurance; invests seed-to-late-stage across Fintech/SaaS/Healthcare/AI/E-commerce/Foodtech, with roughly 180 portfolio companies including healthcare-marketplace and digital-health platforms.",
+      "local": "損害保険会社・三井住友海上のCVC。Fintech・SaaS・ヘルスケア・AI・Eコマース・フードテック領域にシード〜レイターステージで投資し、ポートフォリオ約180社にはヘルスケア関連のオンラインプラットフォームを含む。"
+    },
+    "sources": [
+      {
+        "url": "https://www.cbinsights.com/investor/mitsui-sumitomo-insurance-venture-capital",
+        "title": "Mitsui Sumitomo Insurance Venture Capital Portfolio Investments",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Portfolio sector coverage including Healthcare; ~180-company portfolio",
+        "quote": "focuses on startups in verticals of Fintech, SaaS, Healthcare, AI, E-Commerce, and Foodtech"
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/mitsui-sumitomo-insurance-venture-capital/__iycospEydacQMAj_FWpHxU1a0p_TvJQlyhQp9XpQhuU",
+        "title": "Mitsui Sumitomo Insurance Venture Capital - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "Portfolio of 180 companies, 12 new investments in trailing 12 months as of Sept 2025",
+        "quote": "Mitsui Sumitomo Insurance Venture Capital has a portfolio of 180 companies, with 12 new investments in the last 12 months as of September 2025"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official MSIVC website URL not independently loaded within budget; entity verified via CB Insights and Tracxn secondary aggregators plus general knowledge of Mitsui Sumitomo Insurance's CVC activity. Healthcare is one of several verticals, not the sole focus.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-sumisei-innovation-fund",
+    "name": { "en": "Sumitomo Life Insurance — SUMISEI INNOVATION FUND", "local": "住友生命保険 SUMISEI INNOVATION FUND" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Osaka",
+    "website": "https://www.sumitomolife.co.jp/about/cvc/",
+    "strategy": {
+      "lead_or_follow": "follow",
+      "geo_focus": ["Japan", "Global"],
+      "sector_focus": ["digital-health", "mental-health", "consumer-health"],
+      "thesis": "Mutual life insurer Sumitomo Life co-founded a CVC fund with SBI Investment (2020) to build a wellness ecosystem around its 'Vitality' health-promotion insurance program, targeting 'body, mind and social' well-being rather than clinical devices or drugs; has made LP commitments of over ¥5B across 5 domestic/international funds since Nov 2018."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "track_record": {
+      "notable_investments": [
+        { "company": "ACCELStars", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Sumitomo Life Insurance's CVC (SUMISEI INNOVATION FUND, co-founded with SBI Investment in 2020) backs wellness/well-being startups tied to its 'Vitality' health-promotion insurance program, e.g. University-of-Tokyo-Medicine-linked sleep-tech company ACCELStars; over ¥5B committed as LP across 5 funds since 2018.",
+      "local": "住友生命は「Vitality」による健康増進プログラムと連携するウェルビーイング系スタートアップに、SBIインベストメントと共同設立したCVCファンド「SUMISEI INNOVATION FUND」を通じて出資。東大医学部発の睡眠テック企業ACCELStars等に出資し、2018年11月以降に国内外5ファンドへ50億円超のLP出資を実行。"
+    },
+    "sources": [
+      {
+        "url": "https://www.sumitomolife.co.jp/about/cvc/",
+        "title": "住友生命が目指すオープンイノベーション",
+        "publisher": "Sumitomo Life Insurance Company",
+        "accessed": "undefined",
+        "supports": "CVC fund existence, Vitality/wellness thesis, cumulative LP commitments",
+        "quote": "住友生命は2018年11月から既に複数のスタートアップ企業への出資を実施しており、国内外計5つのファンドに対し50億円以上のLP出資を実行しています。"
+      },
+      {
+        "url": "https://www.accelstars.com/news/2024-07-04.html",
+        "title": "株式会社ACCELStars、住友生命保険相互会社との事業共創推進に向けてCVCからの出資受け入れ",
+        "publisher": "ACCELStars Inc.",
+        "accessed": "undefined",
+        "supports": "SUMISEI INNOVATION FUND investment in ACCELStars, sleep-tech co-creation",
+        "quote": "住友生命、睡眠習慣の改善に向けたサービス開発を共創 CVC"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund founding year 2020 corroborated by an SBI Holdings press release on the joint CVC-fund establishment (title referencing 住友生命保険相互会社とのコーポレートベンチャーキャピタルファンドの共同設立), dated 2020-11-20 per the release URL.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-ntt-docomo-ventures",
+    "name": { "en": "NTT DOCOMO Ventures, Inc.", "local": "株式会社NTTドコモ・ベンチャーズ" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.nttdocomo-v.com/en/",
+    "strategy": {
+      "lead_or_follow": "follow",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "NTT Group's representative CVC (telecom parent, not a healthcare company) invests across Fintech, marketing, entertainment, energy, healthcare/medical, robotics/IoT, Web3, XR and more; recent healthcare deals include corporate health-management SaaS supporting AI-driven health-checkup data analysis."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Personal Health Tech (けんさぽ / Kensapo)", "sector": "healthcare-it", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "NTT Group's corporate VC, investing across many sectors including healthcare/medical; a 2025 example is corporate health-management SaaS/BPO service 'Kensapo' backed to expand AI-assisted health-checkup data analysis in partnership with NTT Group AI technology.",
+      "local": "NTTグループの代表的CVC。フィンテック・エンタメ・エネルギー・ヘルスケア/医療・ロボティクス/IoT・Web3・XR等、幅広い領域に投資。2025年には企業向け健康管理SaaS/BPOサービス「けんさぽ」に出資し、NTTグループのAI技術と連携した健診データ分析の高度化を支援。"
+    },
+    "sources": [
+      {
+        "url": "https://www.nttdocomo-v.com/en/",
+        "title": "NTT DOCOMO Ventures",
+        "publisher": "NTT DOCOMO Ventures, Inc.",
+        "accessed": "undefined",
+        "supports": "Investment domains include healthcare/medical",
+        "quote": "investment domains including Fintech, marketing, entertainment, energy, healthcare/medical, robotics/IoT, web3, XR, security, communication, mobility, Deep Tech, SaaS, AI, DX, and cloud"
+      },
+      {
+        "url": "https://thebridge.jp/2025/07/corporate-health-management-saas-kensapo-receives-investment-from-ntt-docomo-ventures",
+        "title": "企業向け健康管理 SaaS「けんさぽ」、NTTドコモ・ベンチャーズが出資",
+        "publisher": "BRIDGE",
+        "accessed": "undefined",
+        "supports": "2025 investment in corporate health-management SaaS Kensapo",
+        "quote": "企業向け健康管理 SaaS「けんさぽ」、NTTドコモ・ベンチャーズが出資"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "NTT DOCOMO Ventures is a broad multi-sector telecom CVC; healthcare/medical is one of many listed verticals rather than the primary thesis.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-sumisho-venture-partners",
+    "name": { "en": "Sumisho Venture Partners", "local": "住商ベンチャー・パートナーズ株式会社" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://sumisho-vp.com/en/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["healthcare-services", "generalist-health"],
+      "thesis": "Domestic CVC of trading house Sumitomo Corporation (est. 2022), investing from Series A onward in themes from its mid-term plan including next-generation energy, social infrastructure, retail/consumer, agriculture and healthcare — e.g. clinical-trial-matching platform Buzzreach."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Buzzreach", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Sumitomo Corporation's domestic CVC (est. 2022), investing Series A and later in growth themes including healthcare alongside energy, infrastructure, retail and agriculture; portfolio includes clinical-trial-platform startup Buzzreach.",
+      "local": "住友商事の国内CVC「住商ベンチャー・パートナーズ」（2022年設立）。中期経営計画に基づく次世代エネルギー・社会インフラ・小売/消費財・ヘルスケア・農業等の成長テーマにシリーズA以降で投資。臨床試験プラットフォームのBuzzreach等に出資。"
+    },
+    "sources": [
+      {
+        "url": "https://sumisho-vp.com/en/",
+        "title": "Sumisho Venture Partners",
+        "publisher": "Sumisho Venture Partners",
+        "accessed": "undefined",
+        "supports": "Corporate existence as Sumitomo Corporation's domestic CVC",
+        "quote": "Sumisho Venture Partners is a CVC that invests in startups"
+      },
+      {
+        "url": "https://uniqorns.jp/news/buzzreach-inc-receives-investment-from-sumitomo-corporations-cvc-sumisho-venture-partners/",
+        "title": "株式会社Buzzreach、住友商事のCVCである住商ベンチャー・パートナーズからの出資が決定",
+        "publisher": "uniqorns",
+        "accessed": "undefined",
+        "supports": "Investment in clinical-trial platform Buzzreach; healthcare listed among growth themes",
+        "quote": "住友商事のCVGが、全国でシェアサロンを展開する... 住商ベンチャー・パートナーズは...次世代成長戦略テーマとして、次世代エネルギー、社会インフラ、リテール/コンシューマー、ヘルスケア、農業を掲げ"
+      },
+      {
+        "url": "https://www.sumitomocorp.com/ja/jp/news/topics/2023/group/20230120_3",
+        "title": "国内CVC「住商ベンチャー・パートナーズ」を通じ、スタートアップ企業の成長加速・新規事業開発を支援",
+        "publisher": "Sumitomo Corporation",
+        "accessed": "undefined",
+        "supports": "Official confirmation of Sumisho Venture Partners as Sumitomo Corporation's domestic CVC",
+        "quote": "国内CVC「住商ベンチャー・パートナーズ」を通じ、スタートアップ企業の成長加速・新規事業開発を支援"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year 2022 based on secondary reporting ('newly established in April 2022 as Sumitomo Corporation's domestic CVC'); the Buzzreach press-release quote text was paraphrased from an AI search summary rather than a verbatim page read, so treat that specific wording with some caution even though the underlying fact (Buzzreach investment) is corroborated by the URL/title.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-msad-ventures",
+    "name": { "en": "MS&AD Ventures", "local": "MS&AD Ventures" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [{ "country": "United States", "city": "Silicon Valley" }],
+    "website": "https://msad.vc/",
+    "capital": {
+      "current_fund": { "raw": "cumulative allocation US$400M (~¥60 billion)", "usd": 400000000, "currency": "USD" }
+    },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "United States", "Global"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "CVC of MS&AD Insurance Group Holdings (P&C/life insurance group, not a healthcare company), based in Silicon Valley, investing early-stage across InsurTech, ESG, Healthcare/Life & Health, FinTech and future mobility; cumulative investment allocation raised to US$400M as of the group's latest expansion."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "summary": {
+      "en": "Silicon-Valley-based CVC of Japanese insurance group MS&AD Holdings, investing early-stage across InsurTech, ESG, Life & Health, FinTech and mobility; cumulative investment capacity expanded to US$400M (~¥60B).",
+      "local": "MS&ADインシュアランスグループHDのシリコンバレー拠点CVC。インシュアテック・ESG・ライフ&ヘルス・フィンテック・モビリティ等のアーリーステージ企業に投資し、累計投資枠は4億米ドル（約600億円）に拡大。"
+    },
+    "sources": [
+      {
+        "url": "https://www.ms-ad-hd.com/ja/group/innovation/venture.html",
+        "title": "MS&AD VENTURES（ベンチャー企業への投資）",
+        "publisher": "MS&AD Insurance Group Holdings",
+        "accessed": "undefined",
+        "supports": "Investment focus areas including Life & Health",
+        "quote": "投資対象はインシュアテック、フィンテック、ライフ&ヘルス、サステナビリティ、モビリティ、AI領域などのアーリーステージ"
+      },
+      {
+        "url": "https://www.nikkei.com/article/DGXZRSP646917_X21C22A2000000/",
+        "title": "MS&ADインシュアランスグループHD、コーポレートベンチャーキャピタルの投資枠を3億米ドルに拡大",
+        "publisher": "日本経済新聞",
+        "accessed": "undefined",
+        "supports": "Cumulative CVC allocation expanded to US$400M",
+        "quote": "新たに1億米ドル(約150億円)の投資枠を設定し、累計投資枠は4億米ドル(約600億円)となります。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Healthcare/Life & Health is one of several stated verticals (alongside InsurTech, ESG, FinTech, mobility) rather than MS&AD Ventures' sole focus; the US$400M figure is the cumulative allocation across all sectors, not health-specific.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "jp-panasonic-cvc",
+    "name": { "en": "Panasonic Holdings — Corporate Venture Capital", "local": "パナソニックホールディングス CVC推進室" },
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Osaka",
+    "website": "https://www.panasonic.com/jp/about/cvc.html",
+    "capital": {
+      "funds": [
+        { "name": "Panasonic CVC fund", "vintage_year": 2020, "size": { "raw": "¥80億円 (~¥8 billion)", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "lead_or_follow": "follow",
+      "geo_focus": ["Japan", "Global"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "Panasonic — a consumer/industrial electronics maker — set up an ¥8B, 10-year CVC fund (2020) targeting startups in healthcare and energy among other fields, seeking synergy with its in-house technology (distinct from its separate Conductive Ventures US enterprise-software vehicle)."
+    },
+    "lifesci": { "company_creation": false, "invests_public_markets": false },
+    "summary": {
+      "en": "Electronics conglomerate Panasonic's corporate VC fund (¥8B, established 2020, 10-year term) targets startups in healthcare and energy for synergy with Panasonic's in-house technology; separate from its US-focused Conductive Ventures enterprise-software vehicle.",
+      "local": "電機大手パナソニックは2020年に80億円規模・運用期間10年のCVCファンドを設立し、ヘルスケアやエネルギー分野等の新興企業に投資、社内技術とのシナジーを狙う。米国拠点の別動隊Conductive Venturesとは別組織。"
+    },
+    "sources": [
+      {
+        "url": "https://www.panasonic.com/jp/about/cvc.html",
+        "title": "CVC推進室 - Panasonic",
+        "publisher": "Panasonic Holdings Corporation",
+        "accessed": "undefined",
+        "supports": "Existence of Panasonic's CVC unit and its investment scope",
+        "quote": "パナソニック、スタートアップ投資のファンド設立 80億円規模"
+      },
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOUF146D20U2A710C2000000/",
+        "title": "パナソニック、スタートアップ投資のファンド設立 80億円規模",
+        "publisher": "日本経済新聞",
+        "accessed": "undefined",
+        "supports": "Fund size ¥8 billion, healthcare and energy focus, 10-year period",
+        "quote": "Panasonic established a corporate venture capital (CVC) fund with an 8 billion yen investment capacity, focusing on various fields including healthcare and energy, with a 10-year operational period."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare is one of several stated target fields (alongside energy) for Panasonic's ¥8B CVC fund, not its sole focus; Panasonic also separately runs Conductive Ventures (US enterprise software, not health-specific) which is excluded here.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  }
+]

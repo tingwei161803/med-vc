@@ -1,0 +1,409 @@
+[
+  {
+    "id": "jp-fast-track-initiative",
+    "name": { "en": "Fast Track Initiative", "local": "ファストトラックイニシアティブ" },
+    "aka": ["FTI"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://fti-jp.com/",
+    "capital": {
+      "aum": { "raw": "$200M", "usd": 200000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health", "healthcare-services"],
+      "geo_focus": ["Japan"],
+      "thesis": "One of Japan's earliest dedicated healthcare VCs (est. 2004), investing under the banner 'Capital For Life' across therapeutics, diagnostics, digital health and healthcare services, with an exclusive focus on life sciences and healthcare services."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics"],
+      "indications": []
+    },
+    "summary": {
+      "en": "Tokyo-based, healthcare-exclusive VC founded in 2004 that has become one of Japan's pioneer investors across life-science and healthcare-services startups, with roughly $200M in AUM.",
+      "local": "2004年設立、東京・本郷を拠点にライフサイエンス・ヘルスケアサービス領域に特化した日本の先駆的ヘルスケア特化型ベンチャーキャピタル。"
+    },
+    "sources": [
+      {
+        "url": "https://shizune.co/investors/health-care-vc-funds-japan",
+        "title": "Top 50 Health Care VC Funds in Japan",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "Healthcare/life-science exclusive focus, stages, round sizes",
+        "quote": "Fast Track Initiative is a venture capital firm with an exclusive focus on life sciences and healthcare services. It is based in Hongo, Tokyo, Japan and made 4 investments in the past 12 months."
+      },
+      {
+        "url": "https://fti-jp.com/j/gaiyo/gaiyo.html",
+        "title": "会社概要 | FTI | 株式会社ファストトラックイニシアティブ",
+        "publisher": "Fast Track Initiative",
+        "accessed": "undefined",
+        "supports": "Founding date (2004-03-19), Tokyo Hongo HQ address",
+        "quote": "株式会社ファストトラックイニシアティブ 設立 2004年3月19日 所在地 東京都文京区本郷四丁目1番14号 デザインプラザα8F"
+      },
+      {
+        "url": "https://www.kandc.com/vc/comparing/fasttrack/",
+        "title": "【株式会社ファストトラックイニシアティブ】会社概要・投資スタイル・専門領域・特徴・投資実績など",
+        "publisher": "クライス&カンパニー",
+        "accessed": "undefined",
+        "supports": "AUM ~$200M / 18+ years track record claim",
+        "quote": "18年以上の投資実績と2億ドル(約200億円)相当の運用資産を持つ"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Direct fetch of the official corporate site (fti-jp.com) failed via WebFetch (DNS error); founding year, HQ, and focus corroborated by search-result snippets from a company registry page and a VC-recruiting comparison site. AUM figure sourced from a secondary listing site and not independently confirmed on an official FTI page.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "jp-capital-medica-ventures",
+    "name": { "en": "Capital Medica Ventures", "local": "キャピタルメディカ・ベンチャーズ" },
+    "aka": ["CMV"],
+    "type": "vc",
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://capitalmedicaventures.com/",
+    "strategy": {
+      "sector_focus": ["healthcare-services", "digital-health", "generalist-health"],
+      "geo_focus": ["Japan"],
+      "thesis": "Impact-oriented VC contributing to solving social issues centered on healthcare and regional (chiiki) challenges; positions itself as the only healthcare-specialized VC in Japan able to offer 30 partner medical institutions as a business trial field for portfolio startups, and runs formal Impact Measurement & Management (IMM) practices with entrepreneurs."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics"],
+      "indications": ["aging-longevity"]
+    },
+    "track_record": {
+      "notable_investments": []
+    },
+    "summary": {
+      "en": "Tokyo-based healthcare- and regional-issues-focused VC and impact investor that gives portfolio companies access to a network of 30 partner medical institutions for real-world trials.",
+      "local": "東京拠点のヘルスケア・地域課題解決に特化したVC/インパクト投資会社。30の医療機関との連携によりスタートアップの実証フィールドを提供する日本唯一のヘルスケア特化型VCを標榜。"
+    },
+    "sources": [
+      {
+        "url": "https://capitalmedicaventures.com/",
+        "title": "キャピタルメディカ・ベンチャーズ｜ヘルスケア/地域課題/VC/インパクト投資",
+        "publisher": "Capital Medica Ventures",
+        "accessed": "undefined",
+        "supports": "Thesis (healthcare + regional issues, impact investing, IMM), HQ address, portfolio impact metrics",
+        "quote": "ヘルスケア/地域課題/VC/インパクト投資"
+      },
+      {
+        "url": "https://shizune.co/investors/health-care-vc-funds-japan",
+        "title": "Top 50 Health Care VC Funds in Japan",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "Only healthcare-specialized VC in Japan claim, 30 partner medical institutions",
+        "quote": "Capital Medica Ventures is a venture capital firm based in Tokyo, Japan with a focus on startups in the healthcare industry, and is the only healthcare-specialized VC in Japan that can provide 30 medical institutions as a business trialfield."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year not disclosed on the official site content retrieved. Portfolio metrics (1.62M end beneficiaries, 737 portfolio employees, 151% avg growth) shown on official site but exact reporting date/methodology not stated, so omitted from structured fields.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "jp-lifetime-ventures",
+    "name": { "en": "Lifetime Ventures", "local": "ライフタイムベンチャーズ" },
+    "type": "micro-vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "¥10M–¥80M", "usd_min": null, "usd_max": null },
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "geo_focus": ["Japan"],
+      "thesis": "Pre-seed/seed specialist VC investing ¥10M–¥80M into digital health, cloud-service and inbound/outbound-related Japanese startups, with hands-on board involvement (e.g. outside director at caregiving/rehab vertical-SaaS company Rehab for JAPAN)."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics"],
+      "indications": ["aging-longevity"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Rehab for JAPAN", "sector": "介護DX / caregiving-rehab vertical SaaS", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Tokyo pre-seed/seed VC dedicated to digital health, cloud services and inbound/outbound startups, notably an early hands-on backer of caregiving-rehab SaaS company Rehab for JAPAN.",
+      "local": "デジタルヘルス・クラウドサービス・インバウンド/アウトバウンド関連のプレシード/シード特化型ベンチャーキャピタル。介護リハビリSaaSのRehab for JAPANに伴走。"
+    },
+    "sources": [
+      {
+        "url": "https://healthcare-innohub.go.jp/industry/vc/",
+        "title": "VC - InnoHub - Healthcare Innovation Hub",
+        "publisher": "Healthcare Innovation Hub (InnoHub)",
+        "accessed": "undefined",
+        "supports": "Pre-seed/seed digital-health focus and check-size range",
+        "quote": "ライフタイムベンチャーズは、プレシード/シード特化型のベンチャーキャピタルで、デジタルヘルス、クラウドサービス、インバウンド/アウトバウンド関連サービスのスタートアップに対して、プレシード期/シード期に1,000万円〜8,000万円を投資します。"
+      },
+      {
+        "url": "https://www.fastgrow.jp/articles/rehabforjapan-ikegami-lifetimeventures-kimura",
+        "title": "「失われた30年」ならぬ「約束された20年」を、SaaSでDXせよ",
+        "publisher": "FastGrow",
+        "accessed": "undefined",
+        "supports": "Founding year 2017, board relationship with Rehab for JAPAN",
+        "quote": "ライフタイムベンチャーズは2017年に設立され、プレシード/シードステージに特化して投資を行い、Rehab for JAPANの社外取締役も兼務しています。"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Facts sourced from search-result snippets of a government healthcare-innovation directory and a startup-media interview article; official firm website was not directly fetched.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "jp-bd-fund",
+    "name": { "en": "BD Fund", "local": "BDファンド" },
+    "type": "vc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.bd-fund.com/",
+    "capital": {
+      "current_fund": { "raw": "¥510M (first close, targeting up to ¥1B for Fund I)", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "up to ¥100M per company", "usd_min": null, "usd_max": null },
+      "sector_focus": ["digital-health", "healthcare-services", "medtech-devices"],
+      "geo_focus": ["Japan", "United States", "Singapore", "India", "Israel", "Australia"],
+      "thesis": "Healthcare/healthtech-specialized VC linking Japanese medical-device and healthcare entrepreneurs to a global biodesign network (Stanford Biodesign-style, Silicon Valley/Singapore/India/Israel/Australia), providing hands-on, incubation-style support given the regulatory-approval and clinical-evidence hurdles specific to the sector."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": []
+    },
+    "summary": {
+      "en": "Tokyo (Minato) seed-stage healthcare/healthtech VC founded 2024, first-closed at ¥510M, that pairs capital with Stanford Biodesign-style global mentorship for medical/dental startups.",
+      "local": "2024年設立、東京・港区拠点のヘルスケア・ヘルステック特化型シードVC。5.1億円でファーストクローズし、スタンフォード・バイオデザイン流のグローバルネットワークで医療機器・ヘルスケア起業家を支援。"
+    },
+    "sources": [
+      {
+        "url": "https://www.bd-fund.com/",
+        "title": "BD Fund | ヘルスケアに特化したベンチャーキャピタル",
+        "publisher": "BD Fund",
+        "accessed": "undefined",
+        "supports": "Founding year 2024, Stanford Biodesign partnership, hands-on support model",
+        "quote": "BD Fund is a healthcare-focused venture capital firm connected to Stanford University's Biodesign program"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000001.000148201.html",
+        "title": "BD Fund株式会社、世界のヘルステックコミュニティと連携するヘルスケア・ヘルステック特化型ベンチャーキャピタルを設立、5.1億円でファースト・クローズ",
+        "publisher": "PR TIMES",
+        "accessed": "undefined",
+        "supports": "First close amount ¥510M, global healthtech-community partnership",
+        "quote": "BD Fund株式会社、世界のヘルステックコミュニティと連携するヘルスケア・ヘルステック特化型ベンチャーキャピタルを設立、5.1億円でファースト・クローズ"
+      },
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOUC2078X0Q4A920C2000000/",
+        "title": "VCのBDファンド、医療・ヘルスケア向けに新ファンド",
+        "publisher": "日本経済新聞",
+        "accessed": "undefined",
+        "supports": "Tokyo Minato HQ, fund target size ~¥1B, ~15 seed-stage portfolio companies, up to ¥100M per company",
+        "quote": "BDファンド（東京・港）は、医療やヘルスケアのスタートアップに特化して投資する1号ファンドを立ち上げ、運用総額は最大で10億円規模を見込み...1社あたりの投資額は最大1億円です。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund I total target size (~¥1B) is a forecast reported by Nikkei at launch, distinct from the confirmed ¥510M first-close figure; both are given in capital.current_fund.raw.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "jp-d3-llc",
+    "name": { "en": "D3 LLC", "local": "D3合同会社" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.d3growth.com/jp/",
+    "capital": {
+      "funds": [
+        { "name": "D3 Bio-Healthcare Fund (Fund 1)", "vintage_year": 2020, "size": { "raw": "undisclosed" } },
+        { "name": "D3バイオヘルスケアファンド2号投資事業有限責任組合 (Fund 2)", "vintage_year": 2024, "size": { "raw": "¥10 billion (target)", "usd": null, "currency": null } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "sector_focus": ["therapeutics", "digital-health", "healthcare-services", "generalist-health"],
+      "geo_focus": ["Japan"],
+      "thesis": "Bio-healthcare specialized VC and consultancy under the banner 'Discovery, Development, Deployment for Global Health,' backing medical and health startups without stage restriction; AMED-certified under Japan's Drug Discovery Venture Ecosystem Strengthening Program; LPs for Fund 2 include Japan Post Insurance (kampo), Mitsui Sumitomo Insurance and Rohto Pharmaceutical."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "software-samd"],
+      "indications": [],
+      "invests_public_markets": null
+    },
+    "summary": {
+      "en": "Tokyo (Shibuya) bio-healthcare VC founded in 2017 by ex-McKinsey pharmacist Tomoya Nagata, running a ~¥10B second fund (LPs incl. Japan Post Insurance, MS&AD, Rohto) targeting roughly 10 medical/health companies.",
+      "local": "2017年設立の東京・渋谷拠点バイオヘルスケア特化型VC。かんぽ生命・三井住友海上・ロート製薬等が出資する100億円規模の2号ファンドを運用、医療・健康分野の約10社に集中投資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.d3growth.com/jp/",
+        "title": "D3 LLC",
+        "publisher": "D3 LLC",
+        "accessed": "undefined",
+        "supports": "Positioning as bio-healthcare VC, 'Discovery, Development, Deployment for Global Health' mission, Fund vehicle name",
+        "quote": "D3 Bio-Healthcare Fund"
+      },
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOUC019XH0R00C24A8000000/",
+        "title": "VCのD3、100億円規模の新ファンド 医療・健康に投資",
+        "publisher": "日本経済新聞",
+        "accessed": "undefined",
+        "supports": "Fund 2 target size ¥10B, LPs (kampo, MS&AD, Rohto), founder background, founding year 2017",
+        "quote": "ベンチャーキャピタルのD3 LLC（東京・渋谷）は、医療・健康分野のスタートアップに特化して投資する2号ファンドの運用を始めました...かんぽ生命保険、三井住友海上火災保険、ロート製薬などから出資を受け、最終的な運用額は100億円規模を見込んでいます...D3を2017年に設立した永田智也代表パートナーは米コンサルティング大手のマッキンゼー・アンド・カンパニー出身で薬剤師の資格を持っています。"
+      },
+      {
+        "url": "https://mediso.mhlw.go.jp/topics/20231117-01/",
+        "title": "認定VCインタビュー D3LLC・永田智也様 綿谷健治様",
+        "publisher": "MEDISO (厚生労働省 医療系ベンチャー・トータルサポートオフィス)",
+        "accessed": "undefined",
+        "supports": "AMED/government certification as a recognized medical-venture VC",
+        "quote": "認定VCインタビュー D3LLC・永田智也様 綿谷健治様"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund 1 size not disclosed in sources reviewed; Fund 2 ¥10B figure is a target/forecast reported at fund launch, not a confirmed final close.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "jp-aaic-investment",
+    "name": { "en": "AAIC Investment", "local": "AAIC Investment株式会社" },
+    "aka": ["Asia Africa Investment & Consulting", "AAIC Japan"],
+    "type": "vc",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [{ "country": "Singapore", "city": "Singapore" }],
+    "website": "https://aaicinvestment.com/ja/home-jp/",
+    "capital": {
+      "funds": [
+        { "name": "Africa Healthcare Fund I (AHF1)", "vintage_year": 2017, "size": { "raw": "$47M", "usd": 47000000, "currency": "USD" } },
+        { "name": "Africa Innovation & Healthcare Fund II (AHF2)", "vintage_year": null, "size": { "raw": "$85M target", "usd": 85000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "sector_focus": ["healthcare-services", "digital-health", "generalist-health"],
+      "geo_focus": ["Africa", "Asia"],
+      "lead_or_follow": "both",
+      "thesis": "Japan-founded impact/growth investor deploying Japanese capital and know-how into high-growth healthcare enterprises across Africa — spanning advanced medical care, healthcare technology, medical services and public health — via its Africa Healthcare Fund series (AHF1/AHF2), addressing aging- and access-related health needs in emerging markets."
+    },
+    "lifesci": {
+      "modalities": ["software-samd"],
+      "indications": ["aging-longevity", "infectious-disease"]
+    },
+    "track_record": {
+      "portfolio_count": "30+ active",
+      "notable_investments": []
+    },
+    "summary": {
+      "en": "Tokyo/Singapore-based impact investor founded out of Japan that runs Africa-focused healthcare funds (Africa Healthcare Fund I & II), backing medical care, healthtech, medical services and public-health startups across Africa with Japanese and other global LPs.",
+      "local": "東京・シンガポール拠点の日本発インパクト投資会社。アフリカ諸国の高度医療・ヘルスケアテック・医療サービス・公衆衛生分野のスタートアップに投資するAfrica Healthcare Fund（AHF1/AHF2）を運用。"
+    },
+    "sources": [
+      {
+        "url": "https://aaicinvestment.com/ja/home-jp/about/",
+        "title": "当社について | AAIC Investment",
+        "publisher": "AAIC Investment",
+        "accessed": "undefined",
+        "supports": "Company overview, founding, healthcare thesis in Africa",
+        "quote": "アフリカのヘルスケア分野で急成長中の企業への投資を目指しています"
+      },
+      {
+        "url": "https://www.businessinsider.jp/post-104899",
+        "title": "アフリカのヘルスケアに投資する日本のファンド——平均寿命急伸で変わる医療ニーズ",
+        "publisher": "Business Insider Japan",
+        "accessed": "undefined",
+        "supports": "Africa Healthcare Fund sector scope: advanced medical care, healthtech, medical services, public health",
+        "quote": "AAIC launched the \"Africa Healthcare Fund\" which targets four sectors: advanced medical care, healthcare technology, medical services, and public health."
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000008.000083300.html",
+        "title": "Africa Innovation & Healthcare Fund（AHF2）組成のお知らせ",
+        "publisher": "PR TIMES (AAIC Japan)",
+        "accessed": "undefined",
+        "supports": "AHF2 target countries and size",
+        "quote": "Africa Innovation & Healthcare Fund（AHF2）"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Included as a Japan-headquartered entity per the region's HQ-based inclusion rule, but its investment geography is Africa/Asia rather than Japan domestic — flagged here since this is atypical for the slice. Fund vintage years and exact close dates were not fully confirmed from sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "jp-digital-health-fund-osaka",
+    "name": { "en": "Digital Health Fund Osaka", "local": "デジタルヘルスファンド大阪投資事業有限責任組合" },
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Osaka",
+    "capital": {
+      "current_fund": { "raw": "¥2.25 billion (¥22.5億円)", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "geo_focus": ["Japan"],
+      "thesis": "Public-private investment fund set up by Osaka Prefecture (with Nippon Venture Capital, NVCC, as general partner) as the capital vehicle of Osaka's 'next-generation smart health' startup-creation project, investing mainly in SaMD (software-as-a-medical-device / therapeutic and preventive apps) and other digital-healthcare ventures, backed by LPs including TIS Inc. and NTT DATA Kansai."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics"],
+      "indications": []
+    },
+    "summary": {
+      "en": "A ¥2.25B public-private fund established by Osaka Prefecture in 2023 and GP'd by Nippon Venture Capital, dedicated to SaMD and other digital-health startups as the investment arm of Osaka's next-generation smart-health startup program (linked to the Saito biomedical hub).",
+      "local": "大阪府が2023年度に設立した22.5億円規模の官民ファンド。日本ベンチャーキャピタル（NVCC）が無限責任組合員を務め、SaMD（治療用アプリ等）を中心にデジタルヘルスケア分野のスタートアップに投資する、大阪府「次世代スマートヘルス」プロジェクトの投資母体。"
+    },
+    "sources": [
+      {
+        "url": "https://www.nvcc.co.jp/news/osaka-digital-health-fund/",
+        "title": "「デジタルヘルスファンド大阪投資事業有限責任組合」を設立いたしました",
+        "publisher": "日本ベンチャーキャピタル株式会社 (NVCC)",
+        "accessed": "undefined",
+        "supports": "Fund establishment, NVCC as GP, SaMD/digital-health investment focus",
+        "quote": "デジタルヘルスファンド大阪投資事業有限責任組合...SaMD（疾患等の予防・管理・治療等で行われる治療用アプリ）分野を中心にNon-SaMD等の他のデジタルヘルスケア分野ベンチャー企業への投資を行うことを目的としています。"
+      },
+      {
+        "url": "https://www.pref.osaka.lg.jp/o060040/senryaku_kikaku/smarthealth/smarthealthpj.html",
+        "title": "次世代スマートヘルススタートアップ創出プロジェクトについて",
+        "publisher": "大阪府 (Osaka Prefectural Government)",
+        "accessed": "undefined",
+        "supports": "Fund size ¥2.25B, Osaka Prefecture program context",
+        "quote": "令和5年度に「デジタルヘルスファンド大阪」が設立され、民間企業や政府機関からの22.5億円の出資を受けて、治療・予防アプリなどの次世代スマートヘルス分野のスタートアップ支援が推進されています。"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000001362.000011650.html",
+        "title": "TIS、次世代スマートヘルス分野のスタートアップを支援する「デジタルヘルスファンド大阪」へ出資",
+        "publisher": "PR TIMES (TIS株式会社)",
+        "accessed": "undefined",
+        "supports": "Corroborates fund purpose and a named LP (TIS Inc.)",
+        "quote": "TIS、次世代スマートヘルス分野のスタートアップを支援する「デジタルヘルスファンド大阪」へ出資"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Structured as a government-backed fund vehicle (GP: Nippon Venture Capital) rather than a standalone independent VC firm; classified as government-program with vc subtype since Osaka Prefecture is the anchor sponsor of a dedicated digital-health investment program in the Saito biomedical hub area.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc"
+  }
+]

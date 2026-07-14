@@ -1,0 +1,280 @@
+[
+  {
+    "id": "sea-ntuitive",
+    "name": { "en": "NTUitive" },
+    "aka": ["NTUitive Pte Ltd", "NTU Innovation and Enterprise Company"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator", "accelerator"],
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "website": "https://www.ntuitive.sg/",
+    "capital": {
+      "funds": [
+        { "name": "NTUitive Gap Fund (POC)", "vintage_year": null, "size": { "raw": "up to S$250,000 per project", "usd": null, "currency": "SGD" } },
+        { "name": "NTU Seed Fund", "vintage_year": 2025, "size": { "raw": "undisclosed", "usd": null, "currency": null } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Singapore"],
+      "sector_focus": ["generalist-health", "medtech-devices", "digital-health"],
+      "thesis": "NTUitive is Nanyang Technological University's innovation & enterprise company: it manages NTU's IP, licenses university research, and runs the NTUitive Gap Fund (proof-of-concept grants up to S$250K) plus the 2025-vintage NTU Seed Fund (co-investing alongside external investors in NTU-affiliated spin-offs). HealthTech/biomedtech is one of its stated portfolio sectors, with the incubator based within Singapore's Biopolis/Health City ecosystem and portfolio companies such as ACM Biolabs (vaccine/nanotech biotech)."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "medical-hardware"],
+      "company_creation": true,
+      "science_platform_notes": "Operates as NTU's tech-transfer and venture-building arm; located within the Biopolis/one-north biomedtech ecosystem."
+    },
+    "track_record": {
+      "portfolio_count": 100,
+      "notable_investments": [
+        { "company": "ACM Biolabs", "sector": "biotech / vaccine nanotech", "outcome": "active" }
+      ]
+    },
+    "tags": ["technology-transfer", "university-spinout", "singapore"],
+    "summary": {
+      "en": "NTUitive is NTU Singapore's innovation and enterprise company, running gap/seed funds and incubation to commercialize university research, with HealthTech and biomedtech among its focus sectors."
+    },
+    "sources": [
+      { "url": "https://www.ntuitive.sg/", "title": "NTUitive - the innovation & enterprise company of Nanyang Technological University", "publisher": "NTUitive", "accessed": "undefined", "supports": "org identity, mission" },
+      { "url": "https://www.ntu.edu.sg/innovates/grants-funding/ntuitive-gap-fund", "title": "NTUitive Gap Fund (POC) Grant Call", "publisher": "NTU Singapore", "accessed": "undefined", "supports": "Gap Fund amount", "quote": "The NTUitive Gap Fund provides support for projects beyond proof-of-concept... successful awardees receiving up to S$250,000 and a project duration of 18 months." },
+      { "url": "https://www.co11ab.sg/community/ntu/", "title": "NTUitive | Singapore Biomedtech Incubator within a Health City", "publisher": "co11ab.sg", "accessed": "undefined", "supports": "biomedtech/health-city positioning" },
+      { "url": "https://tracxn.com/d/accelerator-incubator/ntuitive/__DMXSq2Rb3-j1dic3h7YeLdU88ifEnJbFxA7AGd6rpfA", "title": "NTUitive - Investor Profile, Portfolio, Team & Investment Trends", "publisher": "Tracxn", "accessed": "undefined", "supports": "portfolio count (100 companies), HealthTech sector, NTU Seed Fund (2025)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Portfolio-count and NTU Seed Fund details are drawn from a Tracxn secondary summary rather than a directly fetched primary page; fund sizes for NTU Seed Fund not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "sea-nus-enterprise-vc-programme",
+    "name": { "en": "NUS Enterprise Venture Capital Programme" },
+    "aka": ["NUS VC Programme"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2025,
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "website": "https://enterprise.nus.edu.sg/",
+    "capital": {
+      "current_fund": { "raw": "S$150 million (US$116 million)", "usd": 116000000, "currency": "SGD" },
+      "funds": [
+        { "name": "NUS co-investment fund for NUS-affiliated start-ups", "vintage_year": 2025, "size": { "raw": "S$100 million", "usd": null, "currency": "SGD" } },
+        { "name": "NUS allocations to selected VC firms", "vintage_year": 2025, "size": { "raw": "S$50 million", "usd": null, "currency": "SGD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Singapore", "Asia"],
+      "sector_focus": ["generalist-health", "therapeutics", "digital-health"],
+      "thesis": "NUS Enterprise, the entrepreneurial arm of the National University of Singapore, launched a S$150M Venture Capital Programme (22 Jul 2025): S$50M is allocated to selected VC partners — including 4BIO Capital, 'a specialist life sciences investor focused on advanced therapeutics' — to back NUS-linked deep-tech ventures, while S$100M is an autonomous co-investment fund for NUS-affiliated start-ups. 'Future Pulse' (healthcare) is one of the programme's three innovation tracks alongside deep-tech showcases from the National Graduate Research Innovation Programme (GRIP)."
+    },
+    "lifesci": {
+      "invests_public_markets": false,
+      "science_platform_notes": "Co-invests via VC partners (e.g. 4BIO Capital for life sciences/advanced therapeutics) and directly in NUS spin-offs from programmes like National GRIP."
+    },
+    "tags": ["university-venture-fund", "co-investment", "singapore", "deep-tech"],
+    "summary": {
+      "en": "NUS Enterprise's S$150M Venture Capital Programme co-invests in NUS-affiliated start-ups directly and via VC partners such as life-sciences specialist 4BIO Capital, with healthcare ('Future Pulse') as one of its three focus tracks."
+    },
+    "sources": [
+      { "url": "https://enterprise.nus.edu.sg/news/first-of-its-kind-venture-capital-programme-in-asia-launches-as-nus-commits-s150-million-to-boost-growth-of-deep-tech-start-ups/", "title": "First-of-its-kind Venture Capital Programme in Asia launches as NUS commits S$150 million to boost growth of deep tech start-ups", "publisher": "NUS Enterprise", "accessed": "undefined", "supports": "fund size breakdown, 4BIO Capital partnership, launch date", "quote": "S$50 million: Investment in selected VC firms over three years; S$100 million: Co-investment fund for NUS-affiliated start-ups... 4BIO Capital, described as 'a specialist life sciences investor focused on advanced therapeutics.'" },
+      { "url": "https://news.nus.edu.sg/nus-unveils-first-of-its-kind-venture-capital-programme-in-asia-with-s150-million-to-boost-growth-of-deep-tech-start-ups/", "title": "NUS unveils first-of-its-kind Venture Capital Programme in Asia with S$150 million", "publisher": "NUS News", "accessed": "undefined", "supports": "fund launch, deep-tech focus" },
+      { "url": "https://news.nus.edu.sg/nus-enterprise-accelerates-deep-tech-growth-with-new-co-investments-and-stanford-collaboration-at-i3-building-opening/", "title": "NUS Enterprise accelerates deep tech growth with new co-investments and Stanford collaboration at i³ building opening", "publisher": "NUS News", "accessed": "undefined", "supports": "Future Pulse (healthcare) innovation track" }
+    ],
+    "confidence": "high",
+    "verification_notes": "USD figure (US$116M) as reported in press coverage of the S$150M commitment; not independently converted.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "sea-duke-nus-live-ventures",
+    "name": { "en": "LIVE Ventures (Duke-NUS Medical School)" },
+    "aka": ["Duke-NUS LIVE Ventures"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "website": "https://www.duke-nus.edu.sg/innovation/teams/live-ventures",
+    "capital": {
+      "current_fund": { "raw": "S$20 million (initial tranche S$10 million)", "usd": null, "currency": "SGD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Singapore"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "LIVE Ventures is Duke-NUS Medical School's S$20M incubation-and-investment vehicle (launched 22 Jul 2024) that funds up to S$500,000 per project to translate academic biomedical/clinical research into spin-off companies, pairing Duke-NUS scientists with Entrepreneurs-in-Residence and co-funding with public and private partners; the pilot project targets new treatments for chronic inflammatory disease."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "indications": ["immunology-inflammation"],
+      "company_creation": true,
+      "science_platform_notes": "Guides Duke-NUS research projects through spin-off formation and takes strategic investment stakes in the resulting companies; supports up to 20 research projects over five years."
+    },
+    "program": {
+      "investment": { "raw": "up to S$500,000 per project", "usd": null, "currency": "SGD" },
+      "format": "in-person",
+      "location": "Singapore"
+    },
+    "tags": ["medical-school-venture-arm", "spinout", "singapore", "translational-research"],
+    "summary": {
+      "en": "LIVE Ventures is Duke-NUS Medical School's S$20M incubator that funds and invests in spin-offs commercializing Duke-NUS biomedical and clinical research, starting with a chronic-inflammatory-disease pilot."
+    },
+    "sources": [
+      { "url": "https://www.duke-nus.edu.sg/newshub/media-releases/duke-nus-launches-live-ventures", "title": "Duke-NUS launches LIVE Ventures, a S$20 million incubator to accelerate research commercialisation", "publisher": "Duke-NUS Medical School", "accessed": "undefined", "supports": "fund size, per-project cap, launch date, pilot focus", "quote": "The first funding tranche is S$10 million and will support up to 20 Duke-NUS research projects over the next five years... LIVE Ventures provides up to SGD 500,000 per project." },
+      { "url": "https://globalventuring.com/university/asia/duke-nus-15m-incubator-spinouts/", "title": "Singapore medical school launches $15m incubator to create spinouts", "publisher": "Global Venturing", "accessed": "undefined", "supports": "spinout investment model" },
+      { "url": "https://www.prnewswire.com/apac/news-releases/duke-nus-launches-live-ventures-a-s20-million-incubator-to-accelerate-research-commercialisation-302201691.html", "title": "Duke-NUS launches LIVE Ventures", "publisher": "PR Newswire", "accessed": "undefined", "supports": "official launch announcement" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Global Venturing reports the total commitment target as ~$15m (S$20m raw figure per Duke-NUS release); both figures are given as reported without currency conversion.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "sea-mu-holding-mahidol",
+    "name": { "en": "MU Holding (Mahidol University)", "local": "เอ็มยู โฮลดิ้ง" },
+    "aka": ["iNT Mahidol", "Institute for Innovation and Technology Transfer (Mahidol University)"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Thailand",
+    "hq_city": "Nakhon Pathom",
+    "website": "https://muholding.co.th/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Thailand"],
+      "sector_focus": ["therapeutics", "medtech-devices", "ai-drug-discovery", "generalist-health"],
+      "thesis": "MU Holding is Mahidol University's investment arm, taking direct equity into startups built on Mahidol research spanning drugs, medical devices, AI and deep tech, and co-investing alongside outside VC funds; it works alongside iNT, Mahidol's official technology-transfer office, which handles IP licensing, incubation and seed-stage grants (up to ฿1.5M) for the university's health and life-science research."
+    },
+    "lifesci": {
+      "science_platform_notes": "Backed by exclusive access to Mahidol University's clinical networks, labs and IP as reported competitive advantage; co-invests alongside outside VC funds active in Southeast Asia."
+    },
+    "tags": ["technology-transfer", "university-spinout", "thailand"],
+    "summary": {
+      "en": "MU Holding is Mahidol University's equity-investment vehicle for startups built on the university's biomedical research, operating alongside Mahidol's iNT technology-transfer office.",
+      "local": "MU Holding เป็นหน่วยลงทุนของมหาวิทยาลัยมหิดลที่ลงทุนในสตาร์ทอัพซึ่งต่อยอดจากงานวิจัยด้านการแพทย์และวิทยาศาสตร์สุขภาพของมหาวิทยาลัย"
+    },
+    "sources": [
+      { "url": "https://muholding.co.th/", "title": "MU Holding — Empowering Thailand's Innovation Ecosystem", "publisher": "MU Holding", "accessed": "undefined", "supports": "equity-investment model, health/biomedical scope", "quote": "MU Holding ... invests in startups and ventures leveraging Mahidol's research, bringing capital, lab access, clinical networks, and domain expertise as a competitive advantage." },
+      { "url": "https://int.mahidol.ac.th/en/funding-en/", "title": "Funding - iNT Mahidol", "publisher": "iNT, Mahidol University", "accessed": "undefined", "supports": "TTO seed-grant cap", "quote": "maximum funding not exceeding 1,500,000 baht per project" },
+      { "url": "https://int.mahidol.ac.th/en/strategic-of-int-mahidol-eng/", "title": "Strategic of iNT Mahidol", "publisher": "iNT, Mahidol University", "accessed": "undefined", "supports": "iNT mandate as Mahidol's TTO and entrepreneurial centre" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "muholding.co.th rendered only a 'Coming Soon' placeholder when directly fetched (likely a JS-rendered or newly relaunched site); the equity-investment description is drawn from the page's indexed content as surfaced in web search results rather than a directly observed live page. No fund size or portfolio count could be verified. iNT is separately confirmed as Mahidol's official TTO via its own site.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "sea-cu-innovation-hub",
+    "name": { "en": "CU Innovation Hub (CU Enterprise) — Chulalongkorn University", "local": "ศูนย์กลางนวัตกรรมแห่งจุฬาลงกรณ์มหาวิทยาลัย" },
+    "aka": ["iHub Chula", "CU Enterprise Co., Ltd."],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator", "accelerator"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "southeast-asia",
+    "country": "Thailand",
+    "hq_city": "Bangkok",
+    "website": "https://www.chula.ac.th/en/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Thailand"],
+      "sector_focus": ["healthcare-services", "generalist-health", "aging-longevity"],
+      "thesis": "CU Innovation Hub (iHub), founded in 2017, is Chulalongkorn University's innovation arm spanning five focus pillars including Health/Aging; its commercialization vehicle, CU Enterprise Co., Ltd., provides seed funding, co-working space and business development support to spin university research into companies, and iHub partnered with the Thai FDA in 2026 to strengthen regulatory pathways for commercializing health products."
+    },
+    "lifesci": {
+      "indications": ["aging-longevity"]
+    },
+    "track_record": {
+      "portfolio_count": "300+ (2021, all sectors)"
+    },
+    "tags": ["technology-transfer", "university-incubator", "thailand"],
+    "summary": {
+      "en": "CU Innovation Hub is Chulalongkorn University's innovation and commercialization arm, with Health/Aging as one of five focus pillars and CU Enterprise Co., Ltd. as its commercialization holding company."
+    },
+    "sources": [
+      { "url": "https://www.chula.ac.th/en/highlight/64207/", "title": "iHub Chula's New Breed of Startups to Internationalize the Thai Economy", "publisher": "Chulalongkorn University", "accessed": "undefined", "supports": "five focus pillars incl. Health/Aging, founding, portfolio scale", "quote": "five areas of concentration: Health/Aging, Education, Bio-Circular Green Food & Agriculture, Sustainable Society, and Deep Tech Supercluster... iHub had 300 startups under its umbrella in 2021 with a market valuation of over 16 billion baht." },
+      { "url": "http://www.sustainability.chula.ac.th/report/2083/", "title": "CU Enterprise, the holding company", "publisher": "Chulalongkorn University For Sustainable Development", "accessed": "undefined", "supports": "CU Enterprise as commercialization holding company" },
+      { "url": "https://www.chula.ac.th/en/news/409716/", "title": "Chula Partners with Thai FDA to Advance Health Innovation Ecosystem", "publisher": "Chulalongkorn University", "accessed": "undefined", "supports": "2026 health-product commercialization partnership" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Portfolio figure (300 startups, ~16bn baht valuation) is for iHub's full multi-sector portfolio, not health-specific; no separate health-only fund size disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "sea-innovate-ui",
+    "name": { "en": "Innovate (Universitas Indonesia Health Technology Transfer Office)", "local": "Innovate FKUI" },
+    "aka": ["Indonesian Innovation for Health", "Innovate FKUI"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Indonesia",
+    "hq_city": "Depok",
+    "website": "https://imeri.fk.ui.ac.id/innovate-industry/",
+    "strategy": {
+      "geo_focus": ["Indonesia"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "generalist-health"],
+      "thesis": "Innovate is the technology-transfer office of Universitas Indonesia's Faculty of Medicine (based at IMERI), dedicated exclusively to moving health-sector research — including diagnostics, biobank assets and patented findings — into IP protection, licensing and commercialization through 'quadruple helix' collaboration between academia, industry, community and government."
+    },
+    "tags": ["technology-transfer", "medical-school-tto", "indonesia"],
+    "summary": {
+      "en": "Innovate is Universitas Indonesia's health-sector technology transfer office, converting Faculty of Medicine research (diagnostics, biobanks, patents) into licensed and commercialized products.",
+      "local": "Innovate adalah kantor transfer teknologi Universitas Indonesia yang secara khusus mendorong hasil riset kesehatan Fakultas Kedokteran UI menuju lisensi dan komersialisasi."
+    },
+    "sources": [
+      { "url": "https://imeri.fk.ui.ac.id/innovate-industry/", "title": "Innovate & Industry - IMERI", "publisher": "Universitas Indonesia", "accessed": "undefined", "supports": "org identity and health-sector TTO mandate", "quote": "the technology transfer office (TTO) of Universitas Indonesia which focus transferring innovation in health sector... promotes quadruple helix collaboration in research between Academic, Business, Community, and Government (ABCG)." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Only a single official source page was available; no fund size, investment activity beyond licensing/IP, founding year, or portfolio count could be verified — Innovate may function primarily as a licensing/TTO office rather than an equity-investing fund.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "sea-umcic-um",
+    "name": { "en": "University of Malaya Centre of Innovation and Commercialization (UMCIC)" },
+    "aka": ["UMCIC", "UM Centre of Innovation and Enterprise (UMCIE)"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "founded_year": 2009,
+    "region": "southeast-asia",
+    "country": "Malaysia",
+    "hq_city": "Kuala Lumpur",
+    "website": "https://umcic.um.edu.my/",
+    "strategy": {
+      "geo_focus": ["Malaysia"],
+      "sector_focus": ["medtech-devices", "generalist-health"],
+      "thesis": "UMCIC is Universiti Malaya's technology-transfer and commercialization centre, managing UM's IP portfolio, running the UM Deep Tech (UMDT) Accelerator, and spinning out startups that include biomedical-engineering ventures — e.g. BioApps, a 3D-biomodelling spin-off — building on UM's biomedical engineering research and medical device commercialization work."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "BioApps Sdn Bhd", "sector": "medical 3D bio-modelling", "outcome": "active" }
+      ]
+    },
+    "tags": ["technology-transfer", "university-spinout", "malaysia"],
+    "summary": {
+      "en": "UMCIC is Universiti Malaya's technology-transfer and commercialization office, spinning out startups from UM research including biomedical-engineering and medical-device ventures."
+    },
+    "sources": [
+      { "url": "https://umcic.um.edu.my/", "title": "UMCIC", "publisher": "University of Malaya", "accessed": "undefined", "supports": "org identity, founding, mandate" },
+      { "url": "https://umcic.um.edu.my/umdt", "title": "Welcome to UMCIC", "publisher": "University of Malaya", "accessed": "undefined", "supports": "UM Deep Tech (UMDT) Accelerator Programme, biomedical engineering research, BioApps spinoff", "quote": "UMCIC successfully conducts various activities such as biomedical engineering research... One notable spinoff is BioApps Sdn Bhd... developed 3D physical models using computer programming." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No dedicated health-only fund vehicle or fund size was found; UMCIC is a general university TTO with a documented biomedical-engineering/medical-device commercialization track (BioApps; partnership referenced with the multi-institutional Centre for Innovation in Medical Engineering, CIME) rather than a health-exclusive investment fund.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  }
+]

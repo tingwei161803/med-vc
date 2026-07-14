@@ -1,0 +1,623 @@
+[
+  {
+    "id": "anz-tarnagulla-ventures",
+    "name": { "en": "Tarnagulla Ventures" },
+    "type": "micro-vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://www.tarnagullaventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Melbourne-based early-stage life-science investor offering concentrated financial and intellectual capital to a small number of portfolio companies, with in-house expertise in small-molecule, protein and cell-based therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "company_creation": null
+    },
+    "people": [
+      { "name": "William McNamee", "role": "Co-founder" },
+      { "name": "Natalie McNamee", "role": "Co-founder" }
+    ],
+    "summary": {
+      "en": "Melbourne life-science VC founded 2015 that makes concentrated early-stage bets in therapeutics companies, pairing capital with drug-development expertise across small molecule, protein and cell-based modalities."
+    },
+    "sources": [
+      {
+        "url": "https://www.tarnagullaventures.com/",
+        "title": "Tarnagulla Ventures | Venture Capital Australia – Investors in Life Science",
+        "publisher": "Tarnagulla Ventures",
+        "accessed": "undefined",
+        "supports": "existence, Melbourne HQ, healthcare/life-science focus"
+      },
+      {
+        "url": "https://thestartupverse.com/vc-directory/firms/tarnagulla-ventures",
+        "title": "Tarnagulla Ventures — Thesis, Focus, Fund Details",
+        "publisher": "The Startupverse",
+        "accessed": "undefined",
+        "supports": "founded year 2015, concentrated strategy, small molecule/protein/cell-based therapeutics expertise",
+        "quote": "Tarnagulla Ventures was founded in 2015... offers both financial capital and intellectual capital with expertise in small molecule, protein, and cell-based therapeutics."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size and check size not disclosed in available sources; founding year and leadership sourced from a secondary VC directory rather than the firm's own site content.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-66ten-wehi-ventures",
+    "name": { "en": "66ten (WEHI Ventures)" },
+    "aka": ["WEHI Ventures", "66ten"],
+    "type": "university-hospital-fund",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://www.wehi.edu.au/business-development-and-ventures/wehi-ventures-and-66ten/",
+    "capital": {
+      "funds": [
+        { "name": "66ten", "vintage_year": 2023, "size": { "raw": "$66 million" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "The Walter and Eliza Hall Institute's internal strategic investment fund, deploying $66M over 10 years to bridge WEHI's medical research discoveries to commercially viable, investable biotech spin-outs; capitalised largely by royalties from the cancer drug venetoclax."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Draws directly on WEHI's in-house medical research institute pipeline (oncology, immunology) for spin-out deal flow."
+    },
+    "summary": {
+      "en": "66ten is WEHI Ventures' $66M, 10-year internal pre-seed/seed fund — the largest of its kind run by an Australian medical research institute — bridging in-house biomedical discoveries to independent biotech companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.wehi.edu.au/news/66-million-in-10-years-groundbreaking-strategic-investment-fund/",
+        "title": "$66 million in 10 years: groundbreaking strategic investment fund to drive biomedical innovation",
+        "publisher": "WEHI",
+        "accessed": "undefined",
+        "supports": "fund size $66M, 10-year deployment, funded by venetoclax royalties, largest institute-run pre-seed/seed fund in Australia",
+        "quote": "66ten is an audacious initiative backed by a $66 million fund that is designed to invest $66 million over 10 years in groundbreaking medical innovations... the largest internal pre-seed and seed fund created by an Australian medical research institute."
+      },
+      {
+        "url": "https://www.wehi.edu.au/business-development-and-ventures/wehi-ventures-and-66ten/",
+        "title": "WEHI Ventures and 66ten",
+        "publisher": "WEHI",
+        "accessed": "undefined",
+        "supports": "management by WEHI Ventures, mission to bridge discovery to commercialisation"
+      },
+      {
+        "url": "https://www.startupdaily.net/topic/venture-capital/a-new-66-million-vc-fund-is-looking-to-seed-medtech-startups/",
+        "title": "A new $66 million VC fund is looking to seed medtech startups",
+        "publisher": "Startup Daily",
+        "accessed": "undefined",
+        "supports": "fund commenced operations July 2023, seed/series A stage investments to date",
+        "quote": "The fund commenced operations in July 2023. Four of the investments to date are in independent biotech companies at seed and series A stages, while other investments are in the pre-seed space."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-uniseed",
+    "name": { "en": "Uniseed" },
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "Australia",
+    "website": "https://uniseed.com/",
+    "capital": {
+      "aum": { "raw": "$162.6 million" },
+      "funds": [
+        { "name": "Fund-3", "vintage_year": 2015, "size": { "raw": "$50 million (5 universities x $10M over 10 years)" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Australia's longest-running early-stage technology seed fund, commercialising IP from partner universities (Melbourne, Queensland, Sydney, UNSW, Newcastle, UTS, Western Sydney, Macquarie) and CSIRO across deep tech; therapeutics/biotech is a core recurring vertical, not the exclusive focus, so straddles a generalist deep-tech seed mandate and life sciences."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "small-molecule"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Kinoxis Therapeutics", "sector": "therapeutics", "outcome": "active (Series B)" },
+        { "company": "Celosia Therapeutics", "sector": "cell-gene-therapy", "outcome": "active (Series A)" },
+        { "company": "Fibrotech", "sector": "therapeutics", "outcome": "exit (acquired)" },
+        { "company": "Spinifex", "sector": "therapeutics", "outcome": "exit (acquired)" },
+        { "company": "Hatchtech", "sector": "therapeutics", "outcome": "exit (acquired)" }
+      ]
+    },
+    "summary": {
+      "en": "Uniseed is a multi-university seed fund (Melbourne, Queensland, Sydney, UNSW, CSIRO and others) with $162.6M AUM; biotech/therapeutics spin-outs (Fibrotech, Spinifex, Hatchtech, Kinoxis, Celosia) are a major and recurring share of its portfolio alongside other deep tech."
+    },
+    "sources": [
+      {
+        "url": "https://uniseed.com/",
+        "title": "Uniseed | Seeding technology ventures",
+        "publisher": "Uniseed",
+        "accessed": "undefined",
+        "supports": "existence, university/CSIRO seed fund model"
+      },
+      {
+        "url": "https://www.startupdaily.net/topic/funding/uniseed-adds-another-25m-from-unisuper-to-commercialise-academic-research/",
+        "title": "Uniseed adds another $25m from UniSuper to commercialise academic research",
+        "publisher": "Startup Daily",
+        "accessed": "undefined",
+        "supports": "$162.6M AUM as of May 2024, Fund-3 structure ($10M x5 universities over 10 years from Nov 2015), UniSuper's $100M total commitment, 2023 partner expansion",
+        "quote": "As of May 2024, Uniseed had $162.6 million in funds under management... Fund-3 started in November 2015 with five initial university partners each committing $10 million over 10 years for a total of $50 million... UniSuper's additional investment of $100 million total."
+      },
+      {
+        "url": "https://www.wehi.edu.au/news/driving-the-next-wave-of-growth-in-australian-biotechnology/",
+        "title": "Driving the next wave of growth in Australian biotechnology",
+        "publisher": "WEHI",
+        "accessed": "undefined",
+        "supports": "Uniseed's biotech track record guiding Fibrotech, Spinifex, Hatchtech from proof-of-concept to exit",
+        "quote": "Uniseed bridges the gap between academic research and the open market... guiding companies like Fibrotech, Spinifex and Hatchtech from proof-of-concept to successful exit."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Uniseed is a generalist university deep-tech seed fund (not exclusively life sciences); included here because therapeutics/biotech spin-outs are a recurring, verifiable major share of its portfolio. Exact founding year not confidently pinned (marketing materials reference '25 years' as of a 2026 publication, implying founding circa 2000-2001) so founded_year omitted.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-pacific-channel",
+    "name": { "en": "Pacific Channel" },
+    "type": "micro-vc",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "offices": [ { "country": "Australia" } ],
+    "website": "https://www.pacificchannel.com/",
+    "capital": {
+      "aum": { "raw": "NZ$125m+ (cumulative across Funds I-III)" },
+      "funds": [
+        { "name": "Pacific Channel Fund II", "size": { "raw": "NZ$50m" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["New Zealand", "Australia"],
+      "sector_focus": ["diagnostics", "medical-imaging", "therapeutics"],
+      "thesis": "Leading NZ deep-tech VC investing in science-led startups pre-seed through Series A across three pillars — future of health, future of food, and sustainability — with a verifiable biomedical nexus via portfolio companies in diagnostics, medical imaging and therapeutics."
+    },
+    "track_record": {
+      "portfolio_count": 46
+    },
+    "summary": {
+      "en": "Auckland-based deep-tech VC (founded 2004, ~NZ$125M AUM across three funds) investing pre-seed to Series A in science-led ventures; health/biomedical is one of its three core investment pillars alongside food and sustainability."
+    },
+    "sources": [
+      {
+        "url": "https://www.pacificchannel.com/",
+        "title": "Pacific Channel",
+        "publisher": "Pacific Channel",
+        "accessed": "undefined",
+        "supports": "existence, Auckland HQ, deep-tech health/food/sustainability focus"
+      },
+      {
+        "url": "https://www.pacificchannel.com/stories/announcing-pacific-channel-fund-ii",
+        "title": "Announcing Pacific Channel Fund II",
+        "publisher": "Pacific Channel",
+        "accessed": "undefined",
+        "supports": "Fund II size NZ$50m",
+        "quote": "$45m has been committed to Pacific Channel Fund II, an NZ$50m early-stage investment fund."
+      },
+      {
+        "url": "https://www.enterpriseangels.co.nz/project/pacific-channel-fund-iii/",
+        "title": "Pacific Channel Fund III",
+        "publisher": "Enterprise Angels",
+        "accessed": "undefined",
+        "supports": "Fund III, NZGCP Elevate follow-on, cumulative AUM past NZ$125M, 46 portfolio companies, pre-seed to Series A focus",
+        "quote": "Fund III received a NZ$10M follow-on commitment from NZGCP's Elevate in May 2025, taking total AUM past NZ$125M... Pacific Channel's primary focus is pre-seed through to Series A."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist deep-tech investor (health is one of three pillars alongside food/agri and sustainability, not an exclusive biomedical focus); included given a clearly verifiable healthcare/diagnostics portfolio (e.g. MARS Bioimaging).",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-cure-kids-ventures",
+    "name": { "en": "Cure Kids Ventures" },
+    "type": "venture-philanthropy",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "website": "https://curekidsventures.co.nz/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "under $500K to $3M" },
+      "lead_or_follow": "both",
+      "geo_focus": ["New Zealand"],
+      "sector_focus": ["medtech-devices", "diagnostics", "healthcare-it", "healthcare-services", "therapeutics"],
+      "thesis": "New Zealand's predominant seed and early-stage healthcare investment fund, owned by Cure Kids Foundation (NZ's largest private funder of child health research); invests in commercialisation of products/services with potential to benefit child health."
+    },
+    "lifesci": {
+      "indications": ["pediatrics"]
+    },
+    "track_record": {
+      "portfolio_count": 17,
+      "notable_investments": [
+        { "company": "Aroa Biosurgery", "sector": "medtech-devices", "outcome": "IPO" },
+        { "company": "Adherium", "sector": "digital-health", "outcome": "IPO" },
+        { "company": "MARS Bioimaging", "sector": "medical-imaging", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Auckland-based seed/early-stage healthcare fund founded 2008 and owned by Cure Kids Foundation, backing medtech, diagnostics, health-IT and therapeutics ventures aimed at benefiting child health; portfolio exits include Aroa Biosurgery and Adherium."
+    },
+    "sources": [
+      {
+        "url": "https://curekidsventures.co.nz/",
+        "title": "Cure Kids Ventures",
+        "publisher": "Cure Kids Ventures",
+        "accessed": "undefined",
+        "supports": "existence, Auckland HQ, ownership by Cure Kids Foundation"
+      },
+      {
+        "url": "https://curekidsventures.co.nz/about/",
+        "title": "About – Cure Kids Ventures",
+        "publisher": "Cure Kids Ventures",
+        "accessed": "undefined",
+        "supports": "founded 2008, seed/early-stage healthcare fund, focus on medical devices, medications, diagnostics, health information and healthcare delivery systems",
+        "quote": "Since 2008, Cure Kids Ventures has invested in a portfolio of companies with products and services covering medical devices, medications, diagnostics, health information and healthcare delivery systems."
+      },
+      {
+        "url": "https://curekidsventures.co.nz/portfolio-companies/",
+        "title": "Portfolio Companies – Cure Kids Ventures",
+        "publisher": "Cure Kids Ventures",
+        "accessed": "undefined",
+        "supports": "portfolio count 17, notable investments including Aroa Biosurgery, Adherium, MARS Bioimaging"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-covalent-ventures",
+    "name": { "en": "Covalent Ventures" },
+    "type": "micro-vc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "offices": [ { "country": "Switzerland", "city": "Basel" } ],
+    "website": "https://covalent.ventures/",
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["New Zealand", "global"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "healthcare-services", "consumer-health"],
+      "thesis": "Health & wellness-focused impact investor with teams in Auckland and Basel, drawing on the team's global healthcare-sector experience to back ventures across biotech/pharma, medical devices, digital health and healthcare systems alongside food/nutrition innovation."
+    },
+    "people": [
+      { "name": "Kelvin Keh", "role": "Partner", "background": "20+ years international business experience across healthcare segments" },
+      { "name": "Gerhard Ries", "role": "Partner", "background": "Founder & CEO of DiaMedCare; 20+ years global life-sciences and venture capital experience" },
+      { "name": "Felix Reiff", "role": "Partner", "background": "International healthcare and consumer sector experience" }
+    ],
+    "summary": {
+      "en": "Auckland/Basel-based early-stage impact investor (founded 2020) backing health and wellness ventures across biotech/pharma, medical devices, digital health and healthcare systems."
+    },
+    "sources": [
+      {
+        "url": "https://covalent.ventures/",
+        "title": "Advancing Health : Covalent Ventures",
+        "publisher": "Covalent Ventures",
+        "accessed": "undefined",
+        "supports": "existence, health & wellness fund positioning, Auckland/Basel teams",
+        "quote": "Covalent Ventures is a globally connected food and health impact investor... coverage across food systems, nutrition, biotech/pharma, medical devices, digital health, mental health, healthcare systems, novel ingredients, consumer packaged goods and other allied sectors."
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/covalent-ventures/__053-cgpNKbJsLzsQ8opMgO4cjACnI9nnsbx9xD0imDA",
+        "title": "Covalent Ventures - Investor Profile & Team",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "founded 2020, team composition"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size not disclosed in available sources; sector focus spans food/nutrition alongside biomedical, so straddles FoodTech and life sciences.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-synthesis-capital-health",
+    "name": { "en": "Synthesis Capital" },
+    "type": "vc",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://synthesiscapital.vc/",
+    "capital": {
+      "current_fund": { "raw": "$50M-$100M (target); $10-20M first close target" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "Asia-Pacific"],
+      "sector_focus": ["medtech-devices", "digital-health"],
+      "thesis": "New Australia-based fund targeting deep-technology health ventures from pre-seed through Series A+, structured as an ESVCLP and partnered with accelerator MedTech Actuator for pipeline access across Australia and Asia-Pacific."
+    },
+    "summary": {
+      "en": "Melbourne-based emerging fund manager raising $50-100M to back pre-seed to Series A+ MedTech and DeepTech health ventures across Australia and Asia-Pacific, launched in partnership with the MedTech Actuator ecosystem."
+    },
+    "sources": [
+      {
+        "url": "https://synthesiscapital.vc/",
+        "title": "Synthesis Capital",
+        "publisher": "Synthesis Capital",
+        "accessed": "undefined",
+        "supports": "existence, official domain"
+      },
+      {
+        "url": "https://biomelbourne.org/new-fund-synthesis-capital-to-power-australia-and-the-asia-pacifics-health-ventures/",
+        "title": "New Fund Synthesis Capital to power Australia and the Asia-Pacific's health ventures",
+        "publisher": "BioMelbourne Network",
+        "accessed": "undefined",
+        "supports": "MedTech Actuator partnership, deep-tech health focus, geographic scope",
+        "quote": "Synthesis Capital targets deep technology ventures in health and invests from pre-seed to series A+ in Australia and the Asia-Pacific... Partnering with the MedTech Actuator, the fund will access a pipeline of talented, investment-ready startup teams."
+      },
+      {
+        "url": "https://www.overnightsuccess.vc/p/synthesis-capital-unveils-ambitious-50m-fund-for-australias-medtech-and-deeptech-health-ventures",
+        "title": "Synthesis Capital unveils ambitious $50M fund for Australia's MedTech and DeepTech health ventures",
+        "publisher": "Overnight Success",
+        "accessed": "undefined",
+        "supports": "fund target size $50M-$100M, first close target $10-20M, ESVCLP structure",
+        "quote": "Synthesis Capital aims to raise a fund size of $50 million or more, with the flexibility to scale up to $100 million. The target for the first close is set at $10-20 million... structured as an Australian Early Stage Venture Capital Limited Partnership (ESVCLP)."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund was still in fundraising/first-close stage per Startup Daily/Overnight Success coverage; exact launch/founding year not confidently pinned down within research budget so founded_year omitted. Distinct entity from the unrelated, much larger global food-tech investor also branded 'Synthesis Capital' (synthesiscap.com) — this Australian health-focused fund operates at synthesiscapital.vc.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-tenmile",
+    "name": { "en": "Tenmile" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Perth",
+    "offices": [ { "country": "Australia", "city": "Sydney" }, { "country": "United States", "city": "San Francisco" } ],
+    "links": { "linkedin": "https://au.linkedin.com/company/tenmile" },
+    "capital": {
+      "current_fund": { "raw": "$250 million (initial capital allocation from Tattarang)" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "global"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Perth-headquartered health-tech and biotech venture business backed by an initial $250M allocation from Andrew and Nicola Forrest's private investment group Tattarang, deploying evergreen seed-to-expansion capital to Australian innovators addressing unmet medical needs, health equity and affordable, sustainable healthcare."
+    },
+    "people": [
+      { "name": "Steve Burnell", "role": "Lead", "background": "Former Roche Group executive, M&A background in technology and healthcare" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Emyria", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Carina Biotech", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Tenmile is a Perth-based, Tattarang-backed ($250M initial allocation) health-tech and biotech venture business founded 2022, providing evergreen seed-through-growth capital to Australian companies solving unmet medical needs; first investments include Emyria and Carina Biotech."
+    },
+    "sources": [
+      {
+        "url": "https://www.tattarang.com/news/2022/tattarang-launches-250m-dedicated-health-technology-investment-business/",
+        "title": "Tattarang launches $250m dedicated health technology investment business",
+        "publisher": "Tattarang",
+        "accessed": "undefined",
+        "supports": "founding 2022, $250M initial allocation, Perth HQ, evergreen capital model, mission statement",
+        "quote": "Tenmile is a venture capital business focused on supporting founders and companies building new, impactful health technology and biotech solutions, backed by an initial capital allocation of $250 million from Tattarang... With evergreen seed and expansion capital that does not have the constraints of typical closed-end funds."
+      },
+      {
+        "url": "https://www.businessnewsaustralia.com/articles/forrest-aims-to-fast-track-life-changing-health-tech-with--250m-investment-in-tenmile.html",
+        "title": "Forrest invests $250m in new health tech fund Tenmile",
+        "publisher": "Business News Australia",
+        "accessed": "undefined",
+        "supports": "Perth HQ with Sydney/San Francisco teams, first portfolio companies Emyria and Carina Biotech",
+        "quote": "The company, which will be headquartered in Perth, with team members in Sydney and San Francisco... The first portfolio company is Perth-based drug development company Emyria... The second is Adelaide-based Carina Biotech, a pre-clinical immunotherapy company."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-cureator",
+    "name": { "en": "CUREator" },
+    "aka": ["CUREator+", "BioMedTech Incubator (BMTI)"],
+    "type": "incubator",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://brandonbiocatalyst.com/cureator-biomedtech-incubator/",
+    "capital": {
+      "funds": [
+        { "name": "CUREator (initial MRFF round)", "vintage_year": 2021, "size": { "raw": "$40 million" } },
+        { "name": "CUREator BioMedTech Incubator (BMTI)", "size": { "raw": "$33 million" } }
+      ]
+    },
+    "program": {
+      "investment": { "raw": "up to $5 million per project" },
+      "format": "hybrid",
+      "demo_day": null,
+      "eligibility": "Australian biomedical researchers and early-stage biotech founders"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Australia's national biotech incubator, delivered by Brandon BioCatalyst and funded by the Australian Government's Medical Research Future Fund (MRFF) in partnership with CSIRO, providing translation funding to move biomedical discoveries from academia toward investable biotech companies."
+    },
+    "lifesci": {
+      "company_creation": true
+    },
+    "summary": {
+      "en": "CUREator is Australia's national, MRFF-funded biotech incubator run by Brandon BioCatalyst (with CSIRO), providing up to $5M per project to translate early-stage biomedical research into investable companies; launched 2021 with $40M, later expanded via a $33M BioMedTech Incubator program."
+    },
+    "sources": [
+      {
+        "url": "https://brandonbiocatalyst.com/cureator-biomedtech-incubator/",
+        "title": "OPEN ROUND: BioMedTech Incubator – Brandon BioCatalyst",
+        "publisher": "Brandon BioCatalyst",
+        "accessed": "undefined",
+        "supports": "program operator, MRFF/CSIRO partnership, national biotech incubator status"
+      },
+      {
+        "url": "https://www.startupdaily.net/topic/other-tech/australias-new-40-million-biotech-incubator-cureator-is-on-the-hunt-for-researchers-and-startup-founders/",
+        "title": "Australia's new $40 million biotech incubator, CUREator, is on the hunt for researchers and startup founders",
+        "publisher": "Startup Daily",
+        "accessed": "undefined",
+        "supports": "initial $40M funding, launched late 2021",
+        "quote": "CUREator was established with $40 million in funding from the federal government's Medical Research Future Fund (MRFF), with the initial program launched in late 2021."
+      },
+      {
+        "url": "https://brandonbiocatalyst.com/2025/10/08/biomedtech-incubator-program-delivered-by-brandon-biocatalysts-cureator-and-csiro-opens-new-funding-round/",
+        "title": "BioMedTech Incubator Program Delivered by Brandon BioCatalyst's CUREator and CSIRO Opens New Funding Round",
+        "publisher": "Brandon BioCatalyst",
+        "accessed": "undefined",
+        "supports": "$33M BMTI program, CSIRO partnership, MRFF funding, up to $5M per project",
+        "quote": "Funded by the Australian Government's ... Medical Research Future Fund (MRFF) through the Department of Health, Disability and Ageing, the CUREator BMTI program is delivered in partnership with Australia's national science agency, CSIRO... CUREator+ will provide funding up to a maximum of $5 million per project."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Reported fund figures vary by round/press release ($40M initial 2021, $33M BMTI tranche, $50M cited in some CSIRO coverage) reflecting successive funding rounds rather than a single static fund size.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-medtech-actuator",
+    "name": { "en": "MedTech Actuator" },
+    "type": "accelerator",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://medtechactuator.com/",
+    "program": {
+      "length_weeks": 26,
+      "format": "hybrid",
+      "location": "Melbourne, Victoria (mandatory in-person Phase One + Demo Day)",
+      "equity_taken_pct": "5%",
+      "demo_day": true,
+      "application_url": "https://medtechactuator.com/accelerator-australia"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Australia", "Asia-Pacific"],
+      "sector_focus": ["medtech-devices", "therapeutics", "digital-health"]
+    },
+    "summary": {
+      "en": "Melbourne-founded (2018) not-for-profit accelerator running a six-month, equity-for-access program for early-stage MedTech, HealthTech and BioTech startups across Australia and Asia-Pacific; has helped unlock $62M in venture funding for participants."
+    },
+    "sources": [
+      {
+        "url": "https://medtechactuator.com/",
+        "title": "MedTech Actuator",
+        "publisher": "MedTech Actuator",
+        "accessed": "undefined",
+        "supports": "existence, MedTech/HealthTech/BioTech ecosystem positioning"
+      },
+      {
+        "url": "https://medtechactuator.com/accelerator-australia",
+        "title": "Accelerator Australia",
+        "publisher": "MedTech Actuator",
+        "accessed": "undefined",
+        "supports": "founded 2018, six-month milestone-driven program, Melbourne in-person requirement, 5% equity model, $62M unlocked in venture funding",
+        "quote": "MedTech Actuator was founded in 2018 by serial MedTech entrepreneurs and health policy experts... The Accelerator is a six-month, milestone-driven program... The program operates on an equity-for-access model, with an equity contribution of 5%... has already unlocked $62 million in venture funding."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  },
+  {
+    "id": "anz-proto-axiom",
+    "name": { "en": "Proto Axiom" },
+    "type": "venture-studio",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "australia-nz",
+    "country": "Australia",
+    "website": "https://www.protoaxiom.com/",
+    "capital": {
+      "current_fund": { "raw": "$30 million Series B (targeted; $20M first close)" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Australia's first dedicated biotech venture-creation studio, co-creating new biotech companies with researchers by supplying the first institutional capital and installing an operator-scientist to run day-to-day development, underwriting GLP tox, IND-enabling work and early device builds through to clinical translation."
+    },
+    "lifesci": {
+      "company_creation": true
+    },
+    "people": [
+      { "name": "Anthony Liveris", "role": "CEO, Co-founder" },
+      { "name": "Tristan Edwards", "role": "Co-founder" }
+    ],
+    "track_record": {
+      "co_investors": ["Catalio", "Parkview International", "Churchill Asset Management", "HOF Capital"]
+    },
+    "summary": {
+      "en": "Proto Axiom is Australia's first true biotech incubator/venture-creation studio, founded 2021, that co-founds biotech companies from academic discoveries and supplies first institutional capital; it announced a $20M first close toward a $30M Series B in its own capitalisation, following a $15M Series A in 2022."
+    },
+    "sources": [
+      {
+        "url": "https://www.protoaxiom.com/",
+        "title": "Proto Axiom - Australian biotech investment incubator",
+        "publisher": "Proto Axiom",
+        "accessed": "undefined",
+        "supports": "existence, biotech incubator model, company-creation approach"
+      },
+      {
+        "url": "https://www.protoaxiom.com/news/biotech-incubator-proto-axiom-banks-20-million-towards-30m-series-b",
+        "title": "Biotech incubator Proto Axiom banks $20 million towards $30m Series B",
+        "publisher": "Proto Axiom",
+        "accessed": "undefined",
+        "supports": "founded 2021 by Anthony Liveris and Tristan Edwards, company-creation model, $20M first close of $30M Series B, prior $15M Series A (Sept 2022), investor list",
+        "quote": "Proto Axiom is Australia's first true biotech incubator... cofounded in 2021 by CEO Anthony Liveris and Tristan Edwards... Proto Axiom announced a $20 million first close of its targeted $30 million Series B... Series B investors join the significant institutional support Proto Axiom received in its Series A from investors such as Catalio, Parkview International, Churchill Asset Management and HOF Capital."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city not confidently identified within research budget; capital figures listed ($15M Series A, $20M/$30M Series B) are Proto Axiom's own corporate fundraising (capitalising the studio) rather than a traditional closed-end LP fund.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci"
+  }
+]

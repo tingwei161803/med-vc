@@ -1,0 +1,369 @@
+[
+  {
+    "id": "il-pitango",
+    "name": { "en": "Pitango Venture Capital" },
+    "aka": ["Pitango VC"],
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1993,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "website": "https://www.pitango.com/",
+    "capital": {
+      "aum": { "raw": "over $3 billion", "usd": 3000000000, "currency": "USD" },
+      "funds": [
+        { "name": "Pitango HealthTech II", "vintage_year": 2023, "size": { "raw": "$175 million", "usd": 175000000, "currency": "USD" } },
+        { "name": "Pitango HealthTech I", "vintage_year": 2019, "size": { "raw": "$150 million", "usd": 150000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "sector_focus": ["digital-health", "medtech-devices", "generalist-health"],
+      "geo_focus": ["Israel", "United States", "Europe"],
+      "lead_or_follow": "both",
+      "thesis": "Israel's largest and longest-running generalist VC platform (Pitango First / Growth / HealthTech) runs a dedicated HealthTech fund and team investing in biopharma, digital health and medical-technology companies alongside its broad-tech early-stage and growth funds."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "medical-hardware"],
+      "indications": [],
+      "invests_public_markets": false,
+      "science_platform_notes": "HealthTech fund/team is a distinct vertical within the generalist Pitango platform, separate from Pitango First and Pitango Growth."
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Pitango is Israel's largest generalist VC platform, with a dedicated Pitango HealthTech fund (two vintages, $150M + $175M) investing in biopharma, digital health and medtech alongside its early-stage and growth funds."
+    },
+    "sources": [
+      { "url": "https://www.pitango.com/healthtech/", "title": "HealthTech - Pitango", "publisher": "Pitango", "accessed": "undefined", "supports": "Pitango HealthTech is a dedicated fund/vertical within generalist Pitango VC" },
+      { "url": "https://www.timesofisrael.com/pitango-pulls-in-175-million-to-invest-in-israeli-health-tech-startups/", "title": "Pitango pulls in $175 million to invest in Israeli health tech startups", "publisher": "Times of Israel", "accessed": "undefined", "supports": "HealthTech II fund size $175M, second fund after $150M in 2019", "quote": "Israeli venture capital firm Pitango announced that it has raised $175 million in fresh funds to invest in healthtech-focused startups, marking the firm's second healthcare dedicated fund after pulling in $150 million for its inaugural round in 2019." },
+      { "url": "https://en.globes.co.il/en/article-pitango-closes-300m-for-early-stage-and-healthcare-vc-funds-1001525720", "title": "Pitango closes $300m for early-stage, healthcare VC funds", "publisher": "Globes", "accessed": "undefined", "supports": "Pitango raised $300M combined across early-stage (First) and healthcare (HealthTech) funds" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded year (1993) and total AUM (>$3B across First/Growth/HealthTech) are corroborated by multiple secondary sources (Wikipedia, MedCity News) surfaced in search but not individually re-fetched; treated as reliable given convergence.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "il-ourcrowd",
+    "name": { "en": "OurCrowd" },
+    "aka": ["OurCrowd Qure"],
+    "type": "crowdfunding",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "website": "https://www.ourcrowd.com/",
+    "capital": {
+      "funds": [
+        { "name": "OurCrowd Qure (digital health fund)", "vintage_year": 2016, "size": { "raw": "$50 million", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-c-plus"],
+      "sector_focus": ["digital-health", "medtech-devices", "medical-imaging"],
+      "geo_focus": ["Israel", "global"],
+      "thesis": "Global equity-crowdfunding/VC platform investing broadly across tech sectors that launched OurCrowd Qure, Israel's first dedicated digital-health fund, backing Israel-based digital health startups from seed through late-stage follow-ons."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "wearables-sensors", "software-samd"],
+      "indications": [],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 12,
+      "notable_investments": [
+        { "company": "Tyto Care", "sector": "digital-health", "outcome": "active" },
+        { "company": "DarioHealth", "sector": "digital-health", "outcome": "IPO" },
+        { "company": "Zebra Medical Vision", "sector": "medical-imaging", "outcome": "acquired" },
+        { "company": "Carevive", "sector": "digital-health", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "OurCrowd is a Jerusalem-based global equity-crowdfunding/VC platform that in 2016 launched OurCrowd Qure, Israel's first exclusive digital-health fund; the $50M vehicle has backed 12 companies including Tyto Care, DarioHealth (IPO) and Zebra Medical Vision (acquired)."
+    },
+    "sources": [
+      { "url": "https://blog.ourcrowd.com/ocqure/", "title": "PRESS RELEASE: OurCrowd Launches Israel's First Exclusive Digital Health Fund: \"OurCrowd Qure\"", "publisher": "OurCrowd Blog", "accessed": "undefined", "supports": "OurCrowd Qure fund launch, $50M size, digital-health focus", "quote": "OurCrowd Launches Israel's First Exclusive Digital Health Fund: \"OurCrowd Qure\"" },
+      { "url": "https://pharmaphorum.com/news/israeli-crowdfunding-platform-ourcrowd-launches-50m-digital-health-fund", "title": "Israeli crowdfunding platform OurCrowd launches $50m digital health fund", "publisher": "pharmaphorum", "accessed": "undefined", "supports": "Fund size and crowdfunding-platform classification" },
+      { "url": "https://www.healthtechalpha.com/investor/pitango-venture-capital/3607", "title": "OurCrowd Qure portfolio and exits", "publisher": "HealthTech Alpha", "accessed": "undefined", "supports": "Portfolio count (12) and notable investments incl. Tyto Care, DarioHealth, Zebra Medical Vision, Carevive" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Qure fund launched 2016; could not confirm whether it is still actively deploying new capital or is fully invested/harvesting (most-recent cited activity is a June 2024 portfolio-company acquisition).",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "il-viola-ventures",
+    "name": { "en": "Viola Ventures" },
+    "aka": ["Viola Group"],
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "website": "https://www.viola-group.com/fund/violaventures/",
+    "capital": {
+      "current_fund": { "raw": "$250 million (Fund VI)", "usd": 250000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["digital-health", "consumer-health", "generalist-health"],
+      "geo_focus": ["Israel"],
+      "thesis": "Israel's leading generalist early-stage VC platform (part of Viola Group) invests 25-30 companies per fund across sectors and has an explicit consumer/digital-health thesis, backing companies such as Immunai and Lin Health.",
+      "check_size": { "raw": "not disclosed" }
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "indications": ["womens-health"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Immunai", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Lin Health", "sector": "femtech-womens-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Viola Ventures is the early-stage arm of Israel's Viola Group, a generalist VC platform ($1B+ AUM across funds) that has published its own thesis on Israeli consumer digital health and backs companies such as Immunai (immune-mapping AI) and Lin Health (women's health)."
+    },
+    "sources": [
+      { "url": "https://www.viola-group.com/violanotes/consumer-health/", "title": "Israel's Consumer-Focused Health Map", "publisher": "Viola Group", "accessed": "undefined", "supports": "Viola's published thesis on consumer digital health and investment in Lin Health", "quote": "Of new Digital Health companies founded in Israel in the past two years, more than 40% offer consumer-focused solutions" },
+      { "url": "https://techcrunch.com/2022/01/19/israels-viola-ventures-hits-250m-for-its-new-fund-appoints-yael-alroy-as-partner/", "title": "Israel's Viola Ventures hits $250M for its new fund", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund VI size $250M", "quote": "Israeli VC Viola Ventures pulls in $250m for early-stage investment fund" },
+      { "url": "https://www.viola-group.com/", "title": "Viola | Israel's Leading Tech-Focused Investment Group", "publisher": "Viola Group", "accessed": "undefined", "supports": "Generalist positioning, AUM scale, 150+ portfolio companies" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Reported AUM for Viola Ventures/Group varies across sources ($1.25B vs $1.5B in different articles); used fund-level ($250M Fund VI) figure which is consistently reported. Founded year approximate (Viola Group traces to 2000; Ventures arm branding is more recent) — flagged for review.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "il-team8",
+    "name": { "en": "Team8" },
+    "aka": ["Team8 Health"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://team8.vc/",
+    "capital": {
+      "aum": { "raw": "well over $1 billion", "usd": 1000000000, "currency": "USD" },
+      "funds": [
+        { "name": "Team8 Health (digital health venture-creation fund)", "vintage_year": 2021, "size": { "raw": "$70 million", "usd": 70000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["digital-health", "healthcare-it", "generalist-health"],
+      "geo_focus": ["Israel", "United States"],
+      "thesis": "Team8 is a generalist venture-creation group (cyber, fintech, data infrastructure, AI) that launched Team8 Health, a dedicated digital-health venture-creation fund co-building and seed-investing in 1-2 new startups per year at the intersection of cyber, AI, fintech and healthcare.",
+      "check_size": { "raw": "$5M-$10M seed per company", "usd_min": 5000000, "usd_max": 10000000 }
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd"],
+      "indications": [],
+      "company_creation": true,
+      "invests_public_markets": false,
+      "science_platform_notes": "Team8 Health builds companies in-house with serial entrepreneurs (venture-creation / foundry model) rather than purely investing in existing startups."
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Team8 is a Tel Aviv-based generalist venture-creation group (AUM well over $1B across cyber/fintech/data/AI funds) that launched Team8 Health, a $70M venture-creation fund building 6-8 digital-health startups over five years."
+    },
+    "sources": [
+      { "url": "https://team8.vc/rethink/digital-health/at-the-tipping-point-of-digital-transformation-why-team8-is-building-and-investing-in-digital-health/", "title": "At the Tipping Point of Digital Transformation: Why Team8 is Building and Investing in Digital Health", "publisher": "Team8", "accessed": "undefined", "supports": "Team8 Health thesis and existence" },
+      { "url": "https://www.calcalistech.com/ctechnews/article/hycvqutxi", "title": "Team8 expands into digital health with new $80 million foundry", "publisher": "CTech (Calcalist)", "accessed": "undefined", "supports": "Digital health foundry/fund size" },
+      { "url": "https://theprint.in/tech/israeli-venture-group-team8-raises-500-million-for-new-tech-funds/1989585/", "title": "Israeli venture group Team8 raises $500 million for new tech funds", "publisher": "The Print / AP", "accessed": "undefined", "supports": "Team8 total AUM well over $1B; portfolio spans cyber, data infrastructure, fintech, digital health, AI", "quote": "Team8 raises $500 million for new funds that will invest in about 30 cyber, data infrastructure, fintech, digital health and artificial intelligence startups, bringing Team8's total assets under management to well over $1 billion." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund size for Team8 Health reported as $70M (Team8/Forbes Israel) vs. $80M 'foundry' in one CTech headline — likely same vehicle reported at different points/rounding; flagged.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "il-grove-ventures",
+    "name": { "en": "Grove Ventures" },
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.grovevc.com/",
+    "capital": {
+      "aum": { "raw": "close to half-a-billion dollars", "usd": 500000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["digital-health", "ai-drug-discovery", "genomics-omics", "synthetic-biology", "generalist-health"],
+      "geo_focus": ["Israel"],
+      "thesis": "Deep-tech generalist early-stage VC with 'Bio & Healthcare' as one of its core portfolio verticals, backing companies across AI-driven drug discovery, protein engineering, precision medicine and consumer digital health."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "wearables-sensors", "biologics-antibody"],
+      "indications": ["oncology", "psychiatry-mental-health", "metabolic-obesity"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Navina", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "OpMed AI", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Scala Biodesign", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "ProtAI", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Enzymit", "sector": "synthetic-biology", "outcome": "active" },
+        { "company": "NucleAI", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "CalmiGo", "sector": "mental-health", "outcome": "active" },
+        { "company": "Tingo", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Jimini Health", "sector": "mental-health", "outcome": "active" },
+        { "company": "Itamar Medical", "sector": "medtech-devices", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "Grove Ventures is a Tel Aviv deep-tech generalist VC (~$500M AUM) that lists 'Bio & Healthcare' as a dedicated portfolio category with ten companies spanning AI drug discovery, protein/synthetic biology, precision medicine, digital care management and mental health."
+    },
+    "sources": [
+      { "url": "https://www.grovevc.com/portfolio", "title": "Portfolio - Grove Ventures", "publisher": "Grove Ventures", "accessed": "undefined", "supports": "List of Bio & Healthcare portfolio companies (Navina, OpMed AI, Scala Biodesign, ProtAI, Enzymit, NucleAI, CalmiGo, Tingo, Jimini Health, Itamar Medical)", "quote": "Bio & Healthcare" },
+      { "url": "https://www.vertexventures.co.il/news/navina-secures-55m-series-c-led-by-goldman-sachs-to-expand-ai-driven-healthcare-intelligence/", "title": "Navina secures $55M Series C led by Goldman Sachs", "publisher": "Vertex Ventures Israel", "accessed": "undefined", "supports": "Grove Ventures as co-investor in Navina" }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM figure ('close to half-a-billion dollars') and founded year sourced from secondary aggregator snippets, not an official Grove page; treated as reasonably reliable but not primary-sourced.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "il-vertex-ventures-israel",
+    "name": { "en": "Vertex Ventures Israel" },
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.vertexventures.co.il/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["healthcare-it", "diagnostics", "ai-drug-discovery", "generalist-health"],
+      "geo_focus": ["Israel"],
+      "thesis": "Generalist early-stage Israeli VC (part of the global Vertex Ventures / Vertex Holdings network) with a distinct 'Healthcare' portfolio category, backing AI-driven clinical intelligence, diagnostics and biomarker-discovery companies alongside its broader tech book.",
+      "lead_or_follow": "both"
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd", "wearables-sensors"],
+      "indications": ["oncology", "womens-health"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Navina", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "C8.health", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Datos", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Nucleai", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Serinus Biosciences", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "FeminAI", "sector": "diagnostics", "outcome": "active" },
+        { "company": "PhenoTA", "sector": "diagnostics", "outcome": "active" }
+      ],
+      "co_investors": ["Grove Ventures", "ALIVE", "Goldman Sachs Alternatives"]
+    },
+    "summary": {
+      "en": "Vertex Ventures Israel is a generalist early-stage VC (part of the global Vertex network) with a dedicated 'Healthcare' portfolio segment of at least seven companies spanning AI clinical-data platforms (Navina), pathology/biomarker AI (Nucleai) and diagnostics (FeminAI, PhenoTA)."
+    },
+    "sources": [
+      { "url": "https://www.vertexventures.co.il/portfolio/", "title": "Portfolio - Vertex Ventures Israel", "publisher": "Vertex Ventures Israel", "accessed": "undefined", "supports": "List of Healthcare-category portfolio companies (C8.health, Datos, Navina, Nucleai, Serinus Biosciences, FeminAI, PhenoTA)", "quote": "Healthcare" },
+      { "url": "https://www.vertexventures.co.il/news/navina-secures-55m-series-c-led-by-goldman-sachs-to-expand-ai-driven-healthcare-intelligence/", "title": "Navina secures $55M Series C led by Goldman Sachs to expand AI-driven healthcare intelligence", "publisher": "Vertex Ventures Israel", "accessed": "undefined", "supports": "Navina Series C co-investment and healthcare focus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded year and AUM not confirmed within budget; omitted rather than guessed. HQ city (Tel Aviv) inferred from ecosystem convention, not independently re-verified.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "il-jvp",
+    "name": { "en": "Jerusalem Venture Partners" },
+    "aka": ["JVP"],
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1993,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "website": "https://jvpvc.com/",
+    "capital": {
+      "aum": { "raw": "$1.9 billion", "usd": 1900000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "sector_focus": ["generalist-health"],
+      "geo_focus": ["Israel"],
+      "thesis": "Generalist Israeli VC founded in 1993 (cybersecurity, big data, fintech, climatech) that maintains 'Biotechnology' as one of a small number of official portfolio categories on its site alongside Cybersecurity, Fintech & Insurtech and Climatech & AI."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "invests_public_markets": false
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Jerusalem Venture Partners is one of Israel's oldest generalist VCs (~$1.9B AUM, founded 1993, best known for cybersecurity and big data) that lists Biotechnology as one of only four official portfolio categories on its site."
+    },
+    "sources": [
+      { "url": "https://jvpvc.com/portfolio/", "title": "Portfolio - JVP", "publisher": "Jerusalem Venture Partners", "accessed": "undefined", "supports": "Biotechnology listed as an official portfolio filter/category alongside Cybersecurity, Fintech & Insurtech, Climatech & AI", "quote": "Biotechnology" },
+      { "url": "https://jvpvc.com/", "title": "JVP - Jerusalem Venture Partners", "publisher": "Jerusalem Venture Partners", "accessed": "undefined", "supports": "AUM $1.9B, 165 companies built, founded 1993 by Erel Margalit", "quote": "JVP is a top VC firm with $1.9B AUM and 165 companies built" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Could not enumerate specific Biotechnology-category portfolio companies within the research budget (page requires interactive filter); inclusion rests on the official site treating Biotechnology as a dedicated top-level investment category alongside its three other named sectors, implying a non-trivial number of health investments, but this could not be independently counted to confirm the >=3 threshold with named companies. Flag for follow-up verification.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "il-glilot-capital-partners",
+    "name": { "en": "Glilot Capital Partners" },
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2011,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "website": "https://glilotcapital.com/",
+    "capital": {
+      "aum": { "raw": "$1.3 billion raised", "usd": 1300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["digital-health", "diagnostics", "genomics-omics"],
+      "geo_focus": ["Israel"],
+      "thesis": "Primarily a cybersecurity/enterprise-software generalist VC, but with verifiable health investments including Healthee (digital health insurance navigation) and Genoox (genomics/diagnostics platform, acquired by QIAGEN)."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform"],
+      "indications": [],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Healthee", "sector": "digital-health", "outcome": "active" },
+        { "company": "Genoox", "sector": "genomics-omics", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "Glilot Capital Partners is a Herzliya-based generalist VC known mainly for cybersecurity and enterprise software, with a smaller but verifiable health footprint including Healthee (digital health-benefits navigation) and Genoox (genomics diagnostics platform, acquired by QIAGEN)."
+    },
+    "sources": [
+      { "url": "https://glilotcapital.com/companies/", "title": "Companies - Glilot", "publisher": "Glilot Capital Partners", "accessed": "undefined", "supports": "Healthee and Genoox as portfolio companies", "quote": "Healthee" },
+      { "url": "https://www.crunchbase.com/hub/glilot-capital-partners-portfolio-companies", "title": "List of top Glilot Capital Partners Portfolio Companies", "publisher": "Crunchbase", "accessed": "undefined", "supports": "General portfolio composition context" }
+    ],
+    "confidence": "low",
+    "verification_notes": "Secondary sources claimed additional digital-health portfolio companies (Acumen, DayTwo, Clair Labs, Evermile) but these could not be confirmed on Glilot's own current portfolio page within budget, so they were excluded from notable_investments; only Healthee and Genoox were directly verified, which is below this slice's usual >=3 bar — included at low confidence given the firm's clear, if modest, verifiable health nexus. Consider dropping or re-verifying in a future pass.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  }
+]

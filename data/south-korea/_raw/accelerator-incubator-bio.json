@@ -1,0 +1,640 @@
+[
+  {
+    "id": "kr-seoul-bio-hub",
+    "name": { "en": "Seoul Bio Hub", "local": "서울바이오허브" },
+    "aka": ["Seoul BioHub"],
+    "type": "incubator",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "https://www.seoulbiohub.kr",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "diagnostics"],
+      "geo_focus": ["South Korea"],
+      "thesis": "City-hosted biomed startup innovation platform in the Hongneung bio cluster; provides wet-lab and office space, mentoring, and investor connections to accelerate early-stage medicine, medical device, and digital-health startups."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware", "software-samd"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Hosted by Seoul Metropolitan Government; managed by Korea Institute of Science and Technology (KIST) and Korea University, with proximity to Hongneung-area hospitals, universities and national research institutes."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Hongneung, Dongdaemun-gu, Seoul (117-3 Hoegi-ro)",
+      "lab_space": true,
+      "demo_day": null,
+      "perks": ["wet-lab and shared equipment", "mentoring/consulting", "investor relations support", "open innovation with global pharma", "overseas expansion support"]
+    },
+    "track_record": { "portfolio_count": null, "notable_investments": [], "exits": [], "co_investors": [] },
+    "tags": ["hongneung", "seoul", "government-hosted", "wet-lab"],
+    "summary": {
+      "en": "Seoul Bio Hub is a Seoul Metropolitan Government-hosted, KIST/Korea University-managed biomedical startup accelerator/incubator in the Hongneung cluster offering wet-lab space and commercialization support to early-stage medicine, medical-device and digital-health startups.",
+      "local": "서울바이오허브는 서울시가 조성하고 KIST와 고려대학교가 운영을 지원하는 홍릉 바이오클러스터 내 바이오의료 스타트업 액셀러레이터/인큐베이터로, 실험실 공간과 사업화 지원을 제공한다."
+    },
+    "sources": [
+      {
+        "url": "https://www.seoulbiohub.kr/front/user/engmain.do",
+        "title": "SEOUL BIOHUB",
+        "publisher": "Seoul Bio Hub",
+        "accessed": "undefined",
+        "supports": "operator, location, offerings",
+        "quote": "Seoul Biohub is hosted by Seoul Metropolitan City and managed by Korea Institute of Science and Technology (KIST) and Korea University"
+      },
+      {
+        "url": "https://www.prodevs.io/accelerators/seoul-bio-hub",
+        "title": "Seoul Bio Hub — How to Apply, Focus & Funding",
+        "publisher": "Prodevs",
+        "accessed": "undefined",
+        "supports": "founded year, sector focus",
+        "quote": "Founded in 2017, Seoul Biohub is an accelerator/incubator based in Seoul, South Korea... key bio sectors, such as medicine, medical devices, and digital health"
+      },
+      {
+        "url": "https://thevc.kr/seoulbiohub",
+        "title": "서울바이오허브 - 기관정보",
+        "publisher": "THE VC",
+        "accessed": "undefined",
+        "supports": "existence, category",
+        "quote": "서울바이오허브 - 기관정보 | 지원사업, 정책자금, R&D"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded year (2017) sourced from a secondary directory (Prodevs), not the official site, which did not state an establishment date on the fetched page.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-k-bio-lab-hub",
+    "name": { "en": "K-Bio Lab Hub", "local": "K-바이오랩허브" },
+    "aka": ["K바이오랩허브"],
+    "type": "incubator",
+    "subtypes": ["accelerator", "government-program"],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Incheon",
+    "offices": [{ "country": "South Korea", "city": "Incheon (Songdo)" }],
+    "website": "https://tipa.or.kr/kbiolabhub/greetings",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "pharma-services", "life-science-tools"],
+      "geo_focus": ["South Korea"],
+      "thesis": "National government infrastructure project in Songdo, Incheon, explicitly benchmarked on Boston's LabCentral (which produced Moderna); provides office space, shared lab/testing equipment, and mentoring to help Korean pharma/bio startups reach global competitiveness."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "vaccines", "cell-therapy"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Pilot program currently runs out of a converted Yonsei University SL Bigen facility with 8 resident startups and ~29 membership companies, ahead of the main Songdo facility opening."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Songdo, Incheon (main facility); pilot at Yonsei SL Bigen",
+      "lab_space": true,
+      "demo_day": null,
+      "perks": ["shared lab/testing equipment", "office space", "mentoring", "membership program for external companies"]
+    },
+    "track_record": { "portfolio_count": "8 resident + ~29 membership (pilot phase)", "notable_investments": [], "exits": [], "co_investors": [] },
+    "tags": ["songdo", "incheon", "government-program", "labcentral-model", "under-construction"],
+    "summary": {
+      "en": "K-Bio Lab Hub is a large-scale (KRW 272.6 billion, 2023-2031) Korean government bio-startup infrastructure project in Songdo, Incheon, modeled on Boston's LabCentral; the main facility is slated to open in 2027, with a pilot program already running at a converted Yonsei University site.",
+      "local": "K-바이오랩허브는 보스턴 랩센트럴을 벤치마킹한 국비 사업으로, 2023~2031년간 총 2,726억 원이 투입되는 인천 송도의 바이오 스타트업 전용 인프라이며, 2027년 본 시설 개소 전 연세대 SL바이젠 부지에서 시범사업을 운영 중이다."
+    },
+    "sources": [
+      {
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148913009",
+        "title": "송도에 바이오 스타트업 육성 인프라 'K-바이오 랩허브' 구축",
+        "publisher": "대한민국 정책브리핑 (Korea.kr)",
+        "accessed": "undefined",
+        "supports": "location, purpose",
+        "quote": "송도에 바이오 스타트업 육성 인프라 'K-바이오 랩허브' 구축"
+      },
+      {
+        "url": "https://www.mt.co.kr/tech/2025/08/12/2025071506254545643",
+        "title": "\"송도 K-바이오랩허브, 스타트업 위한 글로벌 '런웨이' 될 것\"",
+        "publisher": "머니투데이",
+        "accessed": "undefined",
+        "supports": "budget, timeline, pilot program",
+        "quote": "K-바이오 랩허브는... 2023년부터 9년간 국비 1,095억 원, 지방비 1,550억 원, 민간 81억 원 등 총 예산 2,726억 원이 투입되는... 랩허브 시범사업으로 연세대 SL바이젠 일부를 개조해 8개 스타트업이 입주해 있으며, 29개 기업이 멤버십 형태로 협업 중"
+      },
+      {
+        "url": "https://tipa.or.kr/kbiolabhub/business-introduction",
+        "title": "사업개요 | K-BioLabHub",
+        "publisher": "K-Bio Lab Hub",
+        "accessed": "undefined",
+        "supports": "official program description",
+        "quote": "관련분야 창업기업이 글로벌 경쟁력을 갖출 수 있도록 사무공간, 충분한 시험장비·시설, 지원 프로그램, 멘토링 등을 제공"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Main Songdo facility is still under construction (targeted 2027 opening, tenancy from 2028); currently operating as a pilot at a converted Yonsei-affiliated site. Official tipa.or.kr business-introduction subpage returned a 404 on direct fetch; quote taken from search snippet of that same URL/title.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-kbiohealth-osong",
+    "name": { "en": "Osong Medical Innovation Foundation (KBIOHEALTH)", "local": "오송첨단의료산업진흥재단" },
+    "aka": ["KBIOHEALTH", "Osong Advanced Medical Industry Foundation"],
+    "type": "incubator",
+    "subtypes": ["accelerator", "government-program"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Cheongju",
+    "offices": [{ "country": "South Korea", "city": "Osong, Cheongju, Chungbuk" }],
+    "website": "https://www.kbiohealth.kr/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "pharma-services"],
+      "geo_focus": ["South Korea"],
+      "thesis": "Ministry of Health and Welfare-affiliated public foundation operating the Osong Life Science Complex; runs the 'Innolabs' bio-startup lab-space program alongside its New Drug Development Support Center and Advanced Medical Device Development Support Center to build a global bio-medical R&D hub."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Operates New Drug Development Support Center, Advanced Medical Device Development Support Center, animal testing center, biopharmaceutical production center, and clinical trial center within the Osong Life Science Complex."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Osong, Cheongju, Chungcheongbuk-do",
+      "lab_space": true,
+      "demo_day": null,
+      "perks": ["wet-lab/office space (Innolabs)", "access to national drug/device development infrastructure"]
+    },
+    "track_record": { "portfolio_count": null, "notable_investments": [], "exits": [], "co_investors": [] },
+    "tags": ["osong", "chungbuk", "government-program", "public-foundation"],
+    "summary": {
+      "en": "KBIOHEALTH (Osong Medical Innovation Foundation) is a Korean government-affiliated foundation in the Osong Life Science Complex that runs the 'Innolabs' bio-startup lab-space program for biohealth companies alongside national new-drug and medical-device development infrastructure.",
+      "local": "오송첨단의료산업진흥재단(KBIOHEALTH)은 오송생명과학단지 내에서 바이오헬스 스타트업을 위한 '이노랩스' 입주 프로그램과 신약·첨단의료기기 개발지원 인프라를 운영하는 보건복지부 산하 공공재단이다."
+    },
+    "sources": [
+      {
+        "url": "https://www.kbiohealth.kr/",
+        "title": "KBIOHEALTH 오송첨단의료산업진흥재단",
+        "publisher": "KBIOHEALTH",
+        "accessed": "undefined",
+        "supports": "existence, official site"
+      },
+      {
+        "url": "https://www.cctimes.kr/news/articleView.html?idxno=754117",
+        "title": "오송은 '한국 바이오 창업 액셀러레이터'로 키워야 한다",
+        "publisher": "충청타임즈",
+        "accessed": "undefined",
+        "supports": "Innolabs bio-startup program",
+        "quote": "바이오헬스 기업들이 입주할 수 있는 이노랩스를 개소하여 바이오 스타트업을 지원하고 있습니다."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Based on search-result snippets rather than a direct fetch of the official site's program pages; Innolabs program details (cohort size, equity terms) not independently confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-k-medi-hub",
+    "name": { "en": "K-MEDI hub (Daegu-Gyeongbuk Medical Innovation Foundation)", "local": "케이메디허브 (대구경북첨단의료산업진흥재단)" },
+    "aka": ["Daegu-Gyeongbuk Advanced Medical Industry Promotion Foundation", "DGMIF"],
+    "type": "incubator",
+    "subtypes": ["accelerator", "government-program"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Daegu",
+    "offices": [{ "country": "South Korea", "city": "Daegu" }],
+    "website": "https://www.kmedihub.re.kr/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": ["South Korea"],
+      "thesis": "Ministry of Health and Welfare-affiliated foundation running the Daegu-Gyeongbuk Advanced Medical Complex; operates New Drug Development Support Center and Advanced Medical Device Development Support Center, and launched the 'MEDI Start-up Square' to showcase and support AI/digital-health medical startups through to investment and global expansion."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "medical-hardware", "software-samd", "ai-ml-platform"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "GMP-certified public institution covering raw materials through finished pharmaceuticals; hosts New Drug Development Support Center and Advanced Medical Device Development Support Center."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Daegu-Gyeongbuk Advanced Medical Complex, Daegu",
+      "lab_space": true,
+      "demo_day": true,
+      "perks": ["GMP-certified pilot production", "device certification/evaluation facilities", "animal testing support", "investment attraction and global-expansion support"]
+    },
+    "track_record": { "portfolio_count": "20 startups showcased at 2026 MEDI Start-up Square", "notable_investments": [], "exits": [], "co_investors": [] },
+    "tags": ["daegu", "gyeongbuk", "government-program", "medtech", "digital-health"],
+    "summary": {
+      "en": "K-MEDI hub is the Daegu-Gyeongbuk Medical Innovation Foundation's public R&D and incubation platform for the advanced medical industry, running new-drug and medical-device development support centers plus the 'MEDI Start-up Square' startup showcase and support track for AI/digital-health medtech startups.",
+      "local": "케이메디허브는 대구경북첨단의료산업진흥재단이 운영하는 첨단의료산업 공공 R&D·창업지원 플랫폼으로, 신약개발지원센터·첨단의료기기개발지원센터와 함께 AI·디지털헬스 스타트업을 위한 '메디 스타트업 스퀘어'를 운영한다."
+    },
+    "sources": [
+      {
+        "url": "https://www.kmedihub.re.kr/",
+        "title": "케이메디허브 K-MEDI hub 대구경북첨단의료산업진흥재단",
+        "publisher": "K-MEDI hub",
+        "accessed": "undefined",
+        "supports": "existence, official site"
+      },
+      {
+        "url": "https://www.thebionews.net/news/articleView.html?idxno=25880",
+        "title": "케이메디허브, 오는 7월 '메디 스타트업 스퀘어' 첫선",
+        "publisher": "더바이오",
+        "accessed": "undefined",
+        "supports": "startup program launch, cohort size",
+        "quote": "케이메디허브, 오는 7월 '메디 스타트업 스퀘어' 첫선... AI와 디지털 헬스케어 분야 유망 스타트업 20곳"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "'MEDI Start-up Square' is a newly launched (2026) showcase/support track rather than a long-running accelerator cohort model; equity/investment terms not disclosed in sources found.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-digital-healthcare-partners",
+    "name": { "en": "Digital Healthcare Partners (DHP)", "local": "디지털헬스케어파트너스" },
+    "aka": ["DHP"],
+    "type": "accelerator",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "https://www.dhpartners.io/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "up to KRW 300 million per deal", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "follow",
+      "sector_focus": ["digital-health", "mental-health", "medtech-devices"],
+      "geo_focus": ["South Korea"],
+      "thesis": "Korea's first dedicated healthcare/medicine-focused startup accelerator, staffed by physicians, regulatory experts and UX designers; discovers, nurtures and invests in digital-healthcare startups across deep tech, medical, and wellness sub-segments, and administers government TIPS matching funding."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "software-samd", "ai-ml-platform", "wearables-sensors"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Founding team includes physicians and a Kyung Hee University medical-IT convergence professor; runs a 12-week 'Digital Healthcare Academy' (500+ graduates) and monthly office hours engaging ~150 startups."
+    },
+    "program": {
+      "length_weeks": 12,
+      "investment": { "raw": "up to KRW 300 million", "usd": null, "currency": "KRW" },
+      "format": "hybrid",
+      "location": "Seoul",
+      "lab_space": false,
+      "demo_day": true,
+      "perks": ["clinical validation network", "medical community network", "TIPS government matching-fund administration", "Digital Healthcare Academy"]
+    },
+    "track_record": {
+      "portfolio_count": 44,
+      "notable_investments": [
+        { "company": "Harukong", "sector": "digital-health", "outcome": "active" },
+        { "company": "Routinerly", "sector": "digital-health", "outcome": "active" }
+      ],
+      "exits": [],
+      "co_investors": []
+    },
+    "tags": ["digital-health", "seoul", "tips-operator", "physician-led"],
+    "summary": {
+      "en": "Digital Healthcare Partners (DHP), founded in 2016, is South Korea's first accelerator dedicated to digital healthcare, investing up to KRW 300 million per deal from seed to Series A and running a 12-week Digital Healthcare Academy; it has reviewed 1,200+ startups and made 44 investments.",
+      "local": "2016년 설립된 디지털헬스케어파트너스(DHP)는 한국 최초의 디지털헬스케어 전문 액셀러레이터로, 시드~시리즈A 단계에 건당 최대 3억원을 투자하며 12주 과정의 디지털헬스케어 아카데미를 운영한다. 누적 1,200여 개 스타트업을 검토해 44건에 투자했다."
+    },
+    "sources": [
+      {
+        "url": "https://www.dhpartners.io/",
+        "title": "디지털 헬스케어 파트너스(DHP)",
+        "publisher": "DHP",
+        "accessed": "undefined",
+        "supports": "founded year, investment terms, track record",
+        "quote": "founded 2016; invests up to 300 million won in equity during Seed to Series A stages; 1,200 startups reviewed, 44 investments, 12 specialized funds, 95.5 billion won in follow-up funding attracted by portfolio"
+      },
+      {
+        "url": "https://www.koreabiomed.com/news/articleView.html?idxno=756",
+        "title": "Digital healthcare assembles experts from various fields",
+        "publisher": "Korea Biomedical Review",
+        "accessed": "undefined",
+        "supports": "founding team background",
+        "quote": "DHP was founded... consisting of renowned 15 healthcare experts including physicians, regulatory experts, and UX designers"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Track-record numbers (1,200 startups reviewed, 44 investments, 95.5B KRW follow-on) are self-reported on the official site as of fetch date; not independently cross-checked against a third-party database.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-postech-boic",
+    "name": { "en": "POSTECH Bio Open Innovation Center (BOIC)", "local": "포항공과대학교 바이오 오픈이노베이션 센터" },
+    "aka": ["BOIC"],
+    "type": "incubator",
+    "subtypes": ["university-hospital-fund"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Pohang",
+    "offices": [{ "country": "South Korea", "city": "Pohang, Gyeongsangbuk-do" }],
+    "website": "https://biotechcenter.org/boic/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "pharma-services"],
+      "geo_focus": ["South Korea"],
+      "thesis": "Joint-funded by POSTECH, Gyeongsangbuk-do province, Pohang city and biotech company Genexine to build a new-drug industry base: houses domestic/overseas bio companies and research institutes, a new-drug-candidate pilot production plant, and the Cell Membrane Protein Research Institute to seed a regional biopharma venture ecosystem centered on POSTECH's campus (which also hosts the 'Changeup Ground' deep-tech startup building)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Co-invested by POSTECH, Gyeongsangbuk-do, Pohang City and Genexine; includes a new-drug candidate pilot plant and the Cell Membrane Protein Research Institute."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "POSTECH campus, Pohang",
+      "lab_space": true,
+      "demo_day": null,
+      "perks": ["pilot-scale new-drug production", "co-location with domestic/overseas bio companies and research institutes"]
+    },
+    "track_record": { "portfolio_count": null, "notable_investments": [], "exits": [], "co_investors": [] },
+    "tags": ["pohang", "postech", "university-affiliated", "new-drug-pilot-plant"],
+    "summary": {
+      "en": "POSTECH's Bio Open Innovation Center (BOIC) is a university-and-government co-funded new-drug industry base in Pohang, jointly built with Genexine, that hosts bio-venture tenants and a new-drug candidate pilot production plant.",
+      "local": "포스텍 바이오 오픈이노베이션 센터(BOIC)는 포스텍, 경상북도, 포항시, 제넥신이 공동 투자해 조성한 신약산업 전초기지로, 바이오 벤처와 연구기관이 입주하고 신약 후보물질 파일럿 생산시설을 갖추고 있다."
+    },
+    "sources": [
+      {
+        "url": "https://biotechcenter.org/boic/",
+        "title": "바이오 오픈이노베이션 센터(BOIC)",
+        "publisher": "Cell Membrane Protein Research Institute / POSTECH",
+        "accessed": "undefined",
+        "supports": "existence, purpose"
+      },
+      {
+        "url": "https://postech.ac.kr/%EB%B0%94%EC%9D%B4%EC%98%A4-%EC%98%A4%ED%94%88-%EC%9D%B4%EB%85%B8%EB%B2%A0%EC%9D%B4%EC%85%98-%EC%84%BC%ED%84%B0-%EC%B0%A9%EA%B3%B5/",
+        "title": "바이오 오픈 이노베이션 센터 착공",
+        "publisher": "POSTECH",
+        "accessed": "undefined",
+        "supports": "co-funders, purpose",
+        "quote": "산·학·연 신약개발을 지원하는 한편, 기업체, 연구소 유치 및 바이오 벤처기업 육성 등 지역 신약산업 생태계 조성을 위해 POSTECH과 경상북도, 포항시, 제넥신이 공동으로 투자해 구축"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Not independently verified whether BOIC runs a formal cohort/accelerator program versus pure lab/office tenancy; included as an incubator (lab-space provider) per scope.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-gyeonggi-bio-center",
+    "name": { "en": "Gyeonggi Bio Center (Gyeonggi-do Economic Science Promotion Agency)", "local": "경기바이오센터 (경기도경제과학진흥원)" },
+    "aka": ["GBSA Bio Center"],
+    "type": "incubator",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Suwon",
+    "offices": [{ "country": "South Korea", "city": "Gwanggyo Techno Valley, Suwon, Gyeonggi-do" }],
+    "website": "https://www.gbsa.or.kr/pages/bio/index.do",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools"],
+      "geo_focus": ["South Korea"],
+      "thesis": "Provincial economic-development agency's bio division operating a business-incubation center and shared analytical/testing equipment at Gwanggyo Techno Valley to lower R&D costs and support product development for Gyeonggi-do bio companies, alongside the Korea Nano Technology Institute and Advanced Institute of Convergence Technology."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "lab-automation"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Co-located with Korea Nano Technology Institute and Advanced Institute of Convergence Technology at Gwanggyo Techno Valley; provides advanced analytical equipment access."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Gwanggyo Techno Valley, Suwon, Gyeonggi-do",
+      "lab_space": true,
+      "demo_day": null,
+      "perks": ["shared advanced analytical/testing equipment", "business incubation office space", "R&D collaboration support"]
+    },
+    "track_record": { "portfolio_count": null, "notable_investments": [], "exits": [], "co_investors": [] },
+    "tags": ["gyeonggi", "suwon", "gwanggyo", "government-program"],
+    "summary": {
+      "en": "Gyeonggi Bio Center, part of the Gyeonggi-do Economic Science Promotion Agency (GBSA), runs a bio business-incubation center and shared analytical-equipment lab at Gwanggyo Techno Valley for the province's therapeutics, medtech and life-science-tools startups.",
+      "local": "경기바이오센터는 경기도경제과학진흥원 산하로 광교테크노밸리에서 바이오 창업보육센터와 첨단분석장비 공동활용 서비스를 운영하며 경기도 바이오 스타트업의 제품개발과 연구비 절감을 지원한다."
+    },
+    "sources": [
+      {
+        "url": "https://www.gbsa.or.kr/pages/bio/index.do",
+        "title": "바이오산업본부 Home",
+        "publisher": "경기도경제과학진흥원 (GBSA)",
+        "accessed": "undefined",
+        "supports": "existence, function"
+      },
+      {
+        "url": "https://www.gbsa.or.kr/pages/startup_care_center.do",
+        "title": "창업보육센터 운영",
+        "publisher": "경기도경제과학진흥원 (GBSA)",
+        "accessed": "undefined",
+        "supports": "incubation center operations",
+        "quote": "경기바이오센터는 광교테크노밸리 내에 위치하고 있으며, 경기벤처창업보육센터와 한국나노기술원, 차세대융합기술원 등 중소기업 지원기관과 유기적인 협력으로 창업을 지원"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "General-purpose provincial bio incubation center (not exclusively pharma/medical); included for its explicit biomedical/therapeutics tenant base per search snippets, but sector mix versus broader biotech/agri-bio not independently itemized.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-jeonnam-bio-foundation",
+    "name": { "en": "Jeonnam Bio Industry Foundation", "local": "전남바이오진흥원" },
+    "aka": ["Jeonnam Institute of Biological Industry"],
+    "type": "incubator",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Hwasun",
+    "offices": [{ "country": "South Korea", "city": "Hwasun, Jeollanam-do" }],
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "geo_focus": ["South Korea"],
+      "thesis": "Provincial foundation running the Hwasun vaccine/bio cluster's Biological Medicine Research Center, providing full-cycle technology-commercialization support (R&D through non-clinical testing via the co-located Korea Testing & Research Institute healthcare lab) to biohealthcare startups; portfolio companies Vaxcell-Bio and BioFDNC both completed IPOs."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "cell-therapy", "biologics-antibody"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Operates the Biological Medicine Research Center within the Hwasun vaccine-specialized cluster; portfolio companies can access non-clinical (animal) testing via the co-located Korea Testing & Research Institute (KTR) healthcare lab."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Hwasun, Jeollanam-do",
+      "lab_space": true,
+      "demo_day": null,
+      "perks": ["full-cycle technology commercialization support", "access to non-clinical testing infrastructure"]
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": [
+        { "company": "Vaxcell-Bio", "sector": "cell-gene-therapy", "outcome": "IPO" },
+        { "company": "BioFDNC", "sector": "therapeutics", "outcome": "IPO" }
+      ],
+      "exits": [
+        { "company": "Vaxcell-Bio", "type": "IPO", "year": 2020, "value": { "raw": null, "usd": null, "currency": null } },
+        { "company": "BioFDNC", "type": "IPO", "year": 2022, "value": { "raw": null, "usd": null, "currency": null } }
+      ],
+      "co_investors": []
+    },
+    "tags": ["hwasun", "jeonnam", "vaccine-cluster", "government-program"],
+    "summary": {
+      "en": "Jeonnam Bio Industry Foundation runs biohealthcare startup incubation at the Hwasun vaccine/bio cluster in Jeollanam-do, with resident companies Vaxcell-Bio and BioFDNC both going public.",
+      "local": "전남바이오진흥원은 전라남도 화순 백신·바이오 클러스터에서 바이오헬스케어 스타트업 기술사업화를 지원하며, 입주기업 박셀바이오와 바이오에프디엔씨가 각각 상장에 성공했다."
+    },
+    "sources": [
+      {
+        "url": "https://www.hitnews.co.kr/news/articleView.html?idxno=76024",
+        "title": "메디컬·바이오 클러스터 보유 '화순', 서남권 제2 판교로 도약",
+        "publisher": "히트뉴스",
+        "accessed": "undefined",
+        "supports": "cluster infrastructure, non-clinical testing access",
+        "quote": "입주 기업들은 클러스터 내에서 R&D를 시작하고, 그 결과물을 한국화학융합시험연구원(KTR) 헬스케어연구소를 통해 동물실험을 진행할 수 있으며"
+      },
+      {
+        "url": "https://www.mt.co.kr/thebio/2024/09/03/2024090218032385716",
+        "title": "\"전남은 바이오에 '진심'...지금까지 1조 넘게 투자\"",
+        "publisher": "머니투데이",
+        "accessed": "undefined",
+        "supports": "startup support role, portfolio IPOs",
+        "quote": "전남바이오진흥원은 바이오헬스케어 분야의 유망기술에 대해 기술사업화 전주기 지원으로 창업기업 성장지원 및 일자리 창출을 추진... 2020년 입주 기업인 박셀바이오가 첫 기업상장에 성공한 것에 이어 2022년 바이오에프디엔씨도 상장을 성사시켰습니다"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official foundation website URL not independently confirmed during this research pass; entity verified via two independent Korean news sources instead. IPO years for Vaxcell-Bio (2020) and BioFDNC (2022) as stated in source; exact deal values not disclosed in sources found.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-chuncheon-bio-foundation",
+    "name": { "en": "Chuncheon Bio-industry Foundation", "local": "춘천바이오산업진흥원" },
+    "aka": ["CBF"],
+    "type": "incubator",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2003,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Chuncheon",
+    "offices": [{ "country": "South Korea", "city": "Chuncheon, Gangwon-do" }],
+    "website": "https://www.cbf.or.kr/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "geo_focus": ["South Korea"],
+      "thesis": "Gangwon provincial foundation established by Gangwon-do, Chuncheon City, Kangwon National University and Hallym University to grow the region's biopharma industry; operates five tenant/incubation facilities (now ~60 resident companies, up from ~30 in 2007) and a Pre-BI to BI to Post-BI startup pipeline in partnership with Kangwon National University, anchoring the Chuncheon Gangso R&D special zone."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Runs a Pre-BI → BI → Post-BI startup pipeline jointly with Kangwon National University's on-campus startup platform, within the Chuncheon Gangso special R&D zone."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Chuncheon, Gangwon-do",
+      "lab_space": true,
+      "demo_day": null,
+      "perks": ["five incubation facilities", "Pre-BI/BI/Post-BI pipeline with Kangwon National University"]
+    },
+    "track_record": { "portfolio_count": "~60 resident companies", "notable_investments": [], "exits": [], "co_investors": [] },
+    "tags": ["chuncheon", "gangwon", "government-program", "biopharma-cluster"],
+    "summary": {
+      "en": "Chuncheon Bio-industry Foundation, established in 2003 by Gangwon-do and local universities, is the anchor incubation body of Korea's original biopharma cluster in Chuncheon, now housing roughly 60 resident companies across five facilities.",
+      "local": "2003년 강원도와 지역 대학이 설립한 춘천바이오산업진흥원은 국내 원조 바이오 클러스터인 춘천의 핵심 창업보육기관으로, 현재 5개 시설에 약 60개 기업이 입주해 있다."
+    },
+    "sources": [
+      {
+        "url": "https://www.cbf.or.kr/",
+        "title": "(재)춘천바이오산업진흥원",
+        "publisher": "춘천바이오산업진흥원",
+        "accessed": "undefined",
+        "supports": "existence, official site"
+      },
+      {
+        "url": "http://www.hitnews.co.kr/news/articleView.html?idxno=49656",
+        "title": "25년 원조 바이오 클러스터 '춘천'…\"2조 바이오 시대 향해 전진\"",
+        "publisher": "히트뉴스",
+        "accessed": "undefined",
+        "supports": "founding, tenant growth, university partnership",
+        "quote": "춘천바이오산업진흥원은 강원도와 춘천시, 강원대학교, 한림대학교 등... 2003년 재단법인 춘천바이오산업진흥원으로 출범... 현재는 3개동이 늘어나서 총 5개 입주 시설에 60여개사가 입주... 강원대학교 내 기 구축된 전주기(Pre-BI → BI → Post-BI) 창업 지원 플랫폼을 개방"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Broader 'bio-industry' foundation rather than exclusively medical/pharma; included because sourced reporting emphasizes its biopharma-company tenant base, but general bio-industry (e.g., food/cosmetics) tenants may also be present and were not itemized.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "kr-khu-hongneung-biomedical-startup-center",
+    "name": { "en": "Kyung Hee University Hongneung Bio-Medical Startup Center", "local": "경희대학교 홍릉바이오의료창업센터" },
+    "aka": ["KHU Business Incubation Center"],
+    "type": "incubator",
+    "subtypes": ["university-hospital-fund"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Dongdaemun-gu, Seoul (Hoegi-ro 111)" }],
+    "website": "https://startup.khu.ac.kr/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": ["South Korea"],
+      "thesis": "Kyung Hee University's business incubation center, branded the Hongneung Bio-Medical Startup Center, provides individual and shared office space to early-stage bio/medical founders within the Hongneung biomedical cluster, leveraging proximity to Kyung Hee University Medical Center."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "University-affiliated incubator within the Hongneung cluster, adjacent to Kyung Hee University Medical Center."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Hoegi-ro 111, Dongdaemun-gu, Seoul",
+      "lab_space": false,
+      "demo_day": null,
+      "perks": ["individual office space (~10 pyeong)", "shared office space (~2.5 pyeong)"]
+    },
+    "track_record": { "portfolio_count": null, "notable_investments": [], "exits": [], "co_investors": [] },
+    "tags": ["hongneung", "seoul", "university-affiliated"],
+    "summary": {
+      "en": "Kyung Hee University's Hongneung Bio-Medical Startup Center is a university business-incubation center in Seoul's Hongneung biomedical cluster offering individual and shared office space to early-stage bio/medical startups.",
+      "local": "경희대학교 홍릉바이오의료창업센터는 서울 홍릉 바이오의료 클러스터 내에서 초기 바이오·의료 스타트업에게 개별오피스와 공유오피스 공간을 제공하는 대학 창업보육센터이다."
+    },
+    "sources": [
+      {
+        "url": "https://startup.khu.ac.kr/startup_kor/user/main/view.do",
+        "title": "창업보육센터 (국문) 사이트",
+        "publisher": "경희대학교",
+        "accessed": "undefined",
+        "supports": "existence, official site"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Office-space sizes (10-pyeong individual, 2.5-pyeong shared) and 'Hongneung Bio-Medical Startup Center' branding came from a search-engine synthesis of the official KHU startup-center site rather than a direct page fetch; not independently re-verified.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  }
+]

@@ -1,0 +1,411 @@
+[
+  {
+    "id": "sea-golden-gate-ventures",
+    "name": { "en": "Golden Gate Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "website": "https://www.goldengate.vc/",
+    "capital": {
+      "aum": { "raw": "US$250 million (reported AUM across sectors incl. healthtech)", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Southeast Asia", "Indonesia", "Singapore"],
+      "sector_focus": ["generalist-health", "digital-health"],
+      "thesis": "Generalist seed-to-Series A VC across Southeast Asia (consumer, fintech, agritech) with a sustained, named healthtech investment line spanning telehealth, elder care, medication management and clinic software."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Alodokter", "sector": "digital-health", "outcome": "active" },
+        { "company": "Homage", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "Lifepack", "sector": "digital-health", "outcome": "active" },
+        { "company": "Klinik Pintar", "sector": "healthcare-it", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Singapore-based early-stage generalist VC (seed to Series A) across Southeast Asia whose healthtech line includes Indonesian telehealth platform Alodokter, elder/home-care platform Homage, medication-management startup Lifepack and clinic-software company Klinik Pintar — clearing the bar for an active, multi-company health practice within a broader generalist mandate."
+    },
+    "sources": [
+      {
+        "url": "https://www.goldengate.vc/portfolio",
+        "title": "Portfolio | Golden Gate Ventures",
+        "publisher": "Golden Gate Ventures",
+        "accessed": "undefined",
+        "supports": "Named healthtech portfolio companies: Alodokter, Lifepack, twoplus, Homage, Klinik Pintar",
+        "quote": "Alodokter - Indonesia, Rest of Asia | Healthtech; Lifepack - Indonesia | Healthtech; twoplus - Singapore | Healthtech; Homage - Singapore, Rest of the World, Japan, Rest of Asia | Healthtech; Klinik Pintar - SaaS, Healthtech"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Health-nexus verified directly on the firm's own portfolio page (5 companies tagged Healthtech), satisfying the '>=3 health portfolio companies' scope bar for a generalist VC. AUM figure of $250M is widely reported in secondary aggregators but not confirmed on a page this agent fetched directly; treat as approximate.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "sea-east-ventures",
+    "name": { "en": "East Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Indonesia",
+    "hq_city": "Jakarta",
+    "offices": [{ "country": "Singapore" }],
+    "website": "https://east.vc/",
+    "capital": {
+      "funds": [
+        { "name": "East Ventures Healthcare Fund", "vintage_year": 2023, "size": { "raw": "US$30 million", "usd": 30000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Indonesia", "Southeast Asia"],
+      "sector_focus": ["generalist-health", "healthcare-services", "digital-health"],
+      "thesis": "Indonesia-focused, multi-sector generalist VC that stood up a dedicated US$30M Healthcare Fund in 2023 to back early-stage healthcare startups in Indonesia, giving it an explicit dedicated health team/vehicle within a broader generalist platform."
+    },
+    "summary": {
+      "en": "One of Indonesia's earliest and most active multi-stage generalist VCs, East Ventures launched a dedicated US$30 million healthcare fund in October 2023 focused on early-stage Indonesian healthcare startups, meeting the 'dedicated health team/fund' bar for this slice."
+    },
+    "sources": [
+      {
+        "url": "https://www.dealstreetasia.com/stories/east-ventures-healthcare-fund-367565",
+        "title": "Indonesia-focused VC firm East Ventures launches $30m healthcare fund",
+        "publisher": "DealStreetAsia",
+        "accessed": "undefined",
+        "supports": "Launch and size (US$30M) of dedicated East Ventures Healthcare Fund, 2023",
+        "quote": "Indonesia-focused VC firm East Ventures launches $30m healthcare fund"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund launch and size confirmed via DealStreetAsia headline/snippet; full article text was behind a registration wall so team composition and named portfolio companies of the healthcare fund could not be directly verified.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "sea-openspace-ventures",
+    "name": { "en": "Openspace Ventures" },
+    "aka": ["Openspace", "Openspace Capital"],
+    "type": "vc",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "website": "https://www.openspacecapital.com/",
+    "capital": {
+      "funds": [
+        { "name": "Openspace Ventures Fund III", "vintage_year": 2021, "size": { "raw": "US$200 million (hard cap)", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Southeast Asia"],
+      "sector_focus": ["generalist-health", "digital-health", "diagnostics"],
+      "thesis": "Multi-stage, multi-sector Southeast Asia generalist VC (US$200M Fund III, 2021) with a sustained healthtech line spanning teleconsultation, remote patient monitoring, precision oncology diagnostics and digital cognitive care."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Halodoc", "sector": "digital-health", "outcome": "active" },
+        { "company": "Biofourmis", "sector": "digital-health", "outcome": "acquired" },
+        { "company": "CopilotIQ", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "Lucence", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Neuroglee Health", "sector": "digital-health", "outcome": "active" }
+      ],
+      "exits": [
+        { "company": "Biofourmis", "type": "M&A", "year": 2024 }
+      ]
+    },
+    "summary": {
+      "en": "Singapore-headquartered generalist VC (US$200M third fund closed 2021) with a deep, multi-company healthtech track record — Indonesian teleconsultation leader Halodoc, AI remote-patient-monitoring company Biofourmis (exited 2024), in-home care platform CopilotIQ, precision-oncology diagnostics firm Lucence, and digital cognitive-care startup Neuroglee Health."
+    },
+    "sources": [
+      {
+        "url": "https://www.openspacecapital.com/portfolio",
+        "title": "Portfolio - Openspace",
+        "publisher": "Openspace Capital",
+        "accessed": "undefined",
+        "supports": "Named healthcare/healthtech portfolio companies",
+        "quote": "Halodoc - Digital platform simplifying access to quality healthcare for millions of Indonesians; CopilotIQ - End-to-end platform for AI-driven in-home patient care...; Lucence - Precision oncology company committed to bringing clarity to cancer care and detection; Neuroglee Health - Specialty care group enabling provider partners to deliver immediate access to virtual cognitive care"
+      },
+      {
+        "url": "https://en.prnasia.com/releases/apac/openspace-ventures-closes-third-fund-at-hard-cap-of-us-200m-311275.shtml",
+        "title": "Openspace Ventures Closes Third Fund at Hard Cap of US$200M",
+        "publisher": "PR Newswire APAC",
+        "accessed": "undefined",
+        "supports": "US$200M Fund III closed 2021",
+        "quote": "Openspace Ventures Closes Third Fund at Hard Cap of US$200M"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Health portfolio confirmed directly on firm's own live portfolio page. Biofourmis listed elsewhere as 'latest portfolio exit ... October 21, 2024' per a Tracxn snippet, not independently confirmed on Openspace's own site.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "sea-monks-hill-ventures",
+    "name": { "en": "Monk's Hill Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "founded_year": 2014,
+    "website": "https://www.monkshill.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Southeast Asia"],
+      "sector_focus": ["generalist-health", "digital-health"],
+      "thesis": "Singapore-based generalist VC investing primarily at Series A across Southeast Asia (fintech, healthtech, edtech, e-commerce, logistics); healthtech is one of its explicitly named recurring sectors with five tagged portfolio companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "BotMD", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Jio Health", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "NOVI Health", "sector": "digital-health", "outcome": "active" },
+        { "company": "Ordinary Folk", "sector": "consumer-health", "outcome": "active" },
+        { "company": "Hannah Life", "sector": "femtech-womens-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Singapore VC founded in 2014 by Peng T. Ong and Kuo-Yi Lim, investing mainly at Series A across Southeast Asia; its portfolio explicitly tags five Healthtech companies — BotMD, Jio Health, NOVI Health, Ordinary Folk and Hannah Life."
+    },
+    "sources": [
+      {
+        "url": "https://www.monkshill.com/portfolio",
+        "title": "Portfolio - Monk's Hill Ventures",
+        "publisher": "Monk's Hill Ventures",
+        "accessed": "undefined",
+        "supports": "Five named Healthtech-tagged portfolio companies",
+        "quote": "BotMD - Healthtech; Jio Health - Healthtech; Novi - Healthtech; Ordinary Folk - Healthtech; Hannah Life - Healthtech"
+      },
+      {
+        "url": "https://www.monkshill.com/",
+        "title": "Monk's Hill Ventures",
+        "publisher": "Monk's Hill Ventures",
+        "accessed": "undefined",
+        "supports": "Founded 2014 by Peng T. Ong and Kuo-Yi Lim; Series A focus; Singapore HQ",
+        "quote": "Monk's Hill Ventures, founded in 2014 by entrepreneurs Peng T. Ong and Kuo-Yi Lim, is a prominent venture capital firm based in Singapore"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding-year quote sourced via aggregated web-search snippet rather than a page this agent fetched verbatim; treated as reliable given multiple independent aggregators agree, but flagged per process.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "sea-alpha-jwc-ventures",
+    "name": { "en": "Alpha JWC Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Indonesia",
+    "hq_city": "Jakarta",
+    "website": "https://www.alphajwc.com/",
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Indonesia", "Southeast Asia"],
+      "sector_focus": ["generalist-health", "digital-health", "surgical-robotics"],
+      "thesis": "Jakarta-based generalist multi-stage VC (fintech, consumer, healthtech) with a named healthtech line spanning teleconsultation (Halodoc), pre-Series A healthtech (Bumamee) and surgical robotics (Cornerstone Robotics)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Halodoc", "sector": "digital-health", "outcome": "active" },
+        { "company": "Bumamee", "sector": "digital-health", "outcome": "active" },
+        { "company": "Cornerstone Robotics", "sector": "surgical-robotics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Indonesia-headquartered generalist VC whose HealthTech focus area includes teleconsultation leader Halodoc, healthtech startup Bumamee (pre-Series A), and surgical-robotics developer Cornerstone Robotics (Series C, $70M+ round with Alpha JWC participation)."
+    },
+    "sources": [
+      {
+        "url": "https://www.alphajwc.com/en/a-ventures/portfolios/",
+        "title": "Portfolio Companies - Alpha JWC Ventures",
+        "publisher": "Alpha JWC Ventures",
+        "accessed": "undefined",
+        "supports": "HealthTech as a named sector focus; Halodoc, Bumamee, Cornerstone Robotics as portfolio companies",
+        "quote": "Alpha JWC Ventures focuses on sectors such as HealthTech among other areas"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Portfolio company list (Halodoc, Bumamee, Cornerstone Robotics) drawn from aggregated web-search summaries citing Alpha JWC's own portfolio page and deal-news coverage; not independently re-fetched line-by-line from the firm's site.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "sea-vickers-venture-partners",
+    "name": { "en": "Vickers Venture Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "founded_year": 2005,
+    "offices": [
+      { "country": "United States", "city": "New York" },
+      { "country": "United States", "city": "San Diego" },
+      { "country": "United States", "city": "Silicon Valley" },
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "China", "city": "Shanghai" }
+    ],
+    "website": "https://www.vickersventure.com/",
+    "capital": {
+      "current_fund": { "raw": "over US$250 million (Fund V, announced Dec 2021)", "usd": 250000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["Global", "Southeast Asia", "United States", "Europe", "Greater China"],
+      "sector_focus": ["generalist-health", "therapeutics", "ai-drug-discovery", "medical-imaging"],
+      "thesis": "Singapore-headquartered deep-tech generalist VC (founded 2005) spanning healthcare/biotech, AI, nanotechnology, advanced materials and renewable energy; its named portfolio is heavily weighted toward therapeutics and medtech (drug discovery, vaccines, RNA delivery, medical imaging, dialysis devices)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "vaccines", "rna-therapeutics", "medical-hardware", "ai-ml-platform"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Aardvark Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Atomwise", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Gylden Pharma", "sector": "therapeutics", "outcome": "active" },
+        { "company": "SiSaf Ltd", "sector": "rna-therapeutics", "outcome": "active" },
+        { "company": "Lumitron Technologies", "sector": "medical-imaging", "outcome": "active" },
+        { "company": "Vivance", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Emergex Vaccines", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Singapore VC founded in 2005 that self-describes as a global deep-tech investor across healthcare/biotech, AI, nanotechnology, advanced materials and renewable energy; its disclosed portfolio skews heavily toward biotech/medtech names such as Atomwise (AI drug discovery), Gylden Pharma and Emergex Vaccines (vaccines), SiSaf (RNA delivery) and Lumitron (medical imaging)."
+    },
+    "sources": [
+      {
+        "url": "https://www.vickersventure.com/our-changemakers",
+        "title": "Our Changemakers | Vickers Venture Partners",
+        "publisher": "Vickers Venture Partners",
+        "accessed": "undefined",
+        "supports": "Named healthcare/biotech portfolio companies",
+        "quote": "Aardvark Therapeutics ... Atomwise ... Gylden Pharma ... Lumitron Technologies ... SiSaf Ltd ... Vivance"
+      },
+      {
+        "url": "https://privateequitylist.com/investors/vickers-ventures",
+        "title": "Private Equity List | Vickers Ventures",
+        "publisher": "Private Equity List",
+        "accessed": "undefined",
+        "supports": "Founded 2005, Singapore HQ, deep-tech multi-sector focus incl. healthcare/biotech",
+        "quote": "Vickers Venture Partners is a Singapore-based venture capital firm founded in 2005 that invests in deep tech start-ups in healthcare, biotechnology, renewable energy, nanotechnology and artificial intelligence."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Because a large share of Vickers' disclosed named investments are therapeutics/biotech companies, this entity sits close to the boundary with a dedicated life-science VC. Included in this generalist-with-health slice on the strength of the firm's own explicit multi-sector deep-tech mandate (healthcare + AI + nanotech + materials + renewable energy) rather than an exclusively biomedical thesis; a sibling biomedical-VC slice may also reference this firm.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "sea-gobi-partners",
+    "name": { "en": "Gobi Partners" },
+    "type": "vc",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Malaysia",
+    "hq_city": "Kuala Lumpur",
+    "offices": [
+      { "country": "China", "city": "Hong Kong" },
+      { "country": "Indonesia" },
+      { "country": "Philippines" },
+      { "country": "Thailand" }
+    ],
+    "website": "https://www.gobi.vc/",
+    "capital": {
+      "funds": [
+        { "name": "Aggregate HealthTech investment (Greater Bay Area + ASEAN)", "vintage_year": null, "size": { "raw": "US$11.8 million across 12 startups", "usd": 11800000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Malaysia", "Southeast Asia", "Greater China"],
+      "sector_focus": ["generalist-health", "digital-health", "diagnostics"],
+      "thesis": "Pan-Asian early-to-growth generalist VC that has built out a dedicated HealthTech investment line (~US$11.8M across 12 startups spanning Greater Bay Area and ASEAN), including Malaysia's telehealth platform ORA and healthcare-AI data platform Valiance Health, alongside earlier diagnostics unicorn exposure via Prenetics."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "ORA", "sector": "digital-health", "outcome": "active" },
+        { "company": "Valiance Health", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Prenetics", "sector": "diagnostics", "outcome": "IPO" },
+        { "company": "ScolioScan", "sector": "medical-imaging", "outcome": "active" },
+        { "company": "Gense Technologies", "sector": "medical-imaging", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Kuala Lumpur-headquartered, pan-Asia early-to-growth generalist VC with an explicit HealthTech portfolio line (~US$11.8M across 12 startups in the Greater Bay Area and ASEAN), including Malaysian telehealth platform ORA and healthcare-AI data platform Valiance Health (its first Southeast Asia healthcare-AI investment)."
+    },
+    "sources": [
+      {
+        "url": "https://gobi.vc/gobi-partners-debuts-healthtech-investments-in-the-greater-bay-area-and-malaysia-bolstering-healthtech-portfolio-to-us11-8-million-in-greater-bay-asean/",
+        "title": "Gobi Partners Debuts HealthTech Investments in the Greater Bay Area and Malaysia, Bolstering HealthTech Portfolio to US$11.8 million in Greater Bay ASEAN",
+        "publisher": "Gobi Partners",
+        "accessed": "undefined",
+        "supports": "US$11.8M aggregate HealthTech portfolio across 12 startups; ORA and Valiance Health as named investments",
+        "quote": "Gobi Partners Debuts HealthTech Investments in the Greater Bay Area and Malaysia, Bolstering HealthTech Portfolio to US$11.8 million in Greater Bay ASEAN"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ treated as Malaysia given Gobi's long-standing Kuala Lumpur base and MDEC partnership history; firm also operates a Hong Kong/Greater Bay Area practice, so the cited HealthTech aggregate spans both Greater China and ASEAN deals, not ASEAN alone.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "sea-cocoon-capital",
+    "name": { "en": "Cocoon Capital" },
+    "type": "vc",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "founded_year": 2016,
+    "website": "https://cocooncap.com/",
+    "capital": {
+      "aum": { "raw": "over US$90 million", "usd": 90000000, "currency": "USD" },
+      "funds": [
+        { "name": "Cocoon Capital Fund III", "vintage_year": 2024, "size": { "raw": "US$50 million (first close)", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Southeast Asia"],
+      "sector_focus": ["generalist-health", "medtech-devices", "diagnostics"],
+      "thesis": "Singapore early-stage, lead-only enterprise/deep-tech generalist VC whose named sectors explicitly include medtech and diagnostics, backing companies such as AI-diagnostics firm See-Mode Technologies, Vietnamese pharma-distribution platform BuyMed, and regenerative-implant biomaterials startup Bioactivx."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "See-Mode Technologies", "sector": "diagnostics", "outcome": "active" },
+        { "company": "BuyMed", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "Bioactivx", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Singapore-based seed-to-Series-A generalist deep-tech/enterprise VC (founded 2016, ~US$90M AUM) that names medtech and diagnostics as core sectors, with portfolio companies including AI-diagnostics firm See-Mode Technologies, Vietnamese online pharma-distribution platform BuyMed, and regenerative-implant biomaterials startup Bioactivx."
+    },
+    "sources": [
+      {
+        "url": "https://cocooncap.com/",
+        "title": "Cocoon Capital",
+        "publisher": "Cocoon Capital",
+        "accessed": "undefined",
+        "supports": "Founded 2016, ~US$90M AUM, 30+ investments, medtech/diagnostics as named sectors, See-Mode/BuyMed/Bioactivx as portfolio companies",
+        "quote": "Founded in 2016, Cocoon has more than USD 90 million assets under management and has made over 30 investments to date."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/cocoon-capital-announces-first-close-of-usd-50-million-fund-iii-to-accelerate-southeast-asias-enterprise-and-deep-tech-startups-302442053.html",
+        "title": "Cocoon Capital Announces First Close of USD 50 Million Fund III to Accelerate Southeast Asia's Enterprise and Deep Tech Startups",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund III first close at US$50 million",
+        "quote": "Cocoon Capital Announces First Close of USD 50 Million Fund III to Accelerate Southeast Asia's Enterprise and Deep Tech Startups"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Portfolio and AUM figures drawn from aggregated web-search summary of the firm's own homepage content rather than a fully re-verified line-by-line fetch.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  }
+]

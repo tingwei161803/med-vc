@@ -1,0 +1,675 @@
+[
+  {
+    "id": "jp-fast-track-initiative",
+    "name": { "en": "Fast Track Initiative, Inc.", "local": "株式会社ファストトラックイニシアティブ" },
+    "aka": ["FTI"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "United States", "city": "Cambridge" }
+    ],
+    "website": "https://www.fti-jp.com",
+    "links": { "linkedin": "https://www.linkedin.com/company/fast-track-initiative", "other": ["https://us.fasttrackinitiative.com/"] },
+    "capital": {
+      "funds": [
+        { "name": "Fast Track Initiative Fund 3 (FTI3)", "vintage_year": 2022, "size": { "raw": "130億円", "currency": "JPY" } },
+        { "name": "Fast Track Initiative Fund 4", "vintage_year": 2025, "size": { "raw": "200億円", "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Japan", "United States"],
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health", "healthcare-services"],
+      "thesis": "Japan-based, US-linked bio/healthcare VC investing in seed and early-stage life-science companies (therapeutics, diagnostics, digital health, healthcare services); frames its strategy as an investment chain tied to 'life' and 'living', with hands-on portfolio support and a Cambridge (US) office opened in 2019."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": true
+    },
+    "people": [
+      { "name": "Hiromichi Kimura", "role": "Representative Director", "background": "木村 廣道" },
+      { "name": "Tomohiro Anzai", "role": "Representative Director", "background": "安西 智宏" }
+    ],
+    "tags": ["amed-certified-vc", "bio-healthcare", "cross-border-us-japan"],
+    "summary": {
+      "en": "One of Japan's leading independent bio/healthcare VCs (founded 2004, Tokyo), investing in seed/early-stage therapeutics, diagnostics and digital health across Japan and the US.",
+      "local": "2004年設立の日本を代表する独立系バイオ・ヘルスケアVC。創薬・診断・デジタルヘルス等のシード/アーリー期に投資し、米ケンブリッジにも拠点を持つ。"
+    },
+    "sources": [
+      { "url": "https://www.fti-jp.com/about/company/", "title": "会社概要 | FTI", "publisher": "Fast Track Initiative", "accessed": "undefined", "supports": "official name, founding date, HQ, representatives", "quote": "2004年3月19日 … 株式会社ファストトラックイニシアティブ … 東京都文京区本郷4－1－4 Design Placeα 8F … 木村 廣道 … 安西 智宏" },
+      { "url": "https://prtimes.jp/main/html/rd/p/000000006.000013289.html", "title": "ファストトラックイニシアティブが３号ファンドを総額130億円で組成完了", "publisher": "PR TIMES", "accessed": "undefined", "supports": "Fund 3 size 130億円 (2022)", "quote": "ファストトラックイニシアティブが３号ファンドを総額130億円で組成完了" },
+      { "url": "https://www.nikkei.com/article/DGXZQOUC071XD0X01C25A0000000/", "title": "VCのFTIが200億円ファンド、ノーベル賞・坂口氏のバイオ新興に投資", "publisher": "日本経済新聞", "accessed": "undefined", "supports": "new ~200億円 fund (2025)", "quote": "VCのFTIが200億円ファンド、ノーベル賞・坂口氏のバイオ新興に投資" },
+      { "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html", "title": "創薬ベンチャーエコシステム強化事業 認定ベンチャーキャピタル一覧", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC status", "quote": "株式会社ファストトラックイニシアティブ" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding date, HQ and representatives confirmed on official company page. Fund 3 (¥13bn/130億) confirmed via PR TIMES; a newer ~¥20bn/200億 fund (2025) is confirmed only by a Nikkei headline (article body paywalled). US arm operates as Fast Track Initiative, Inc. in Cambridge, MA.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-catalys-pacific",
+    "name": { "en": "Catalys Pacific, LLC", "local": "カタリスパシフィック" },
+    "aka": ["Catalys Pacific"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "Japan", "city": "Fujisawa (Shonan Health Innovation Park)" },
+      { "country": "United States", "city": "Seattle" }
+    ],
+    "website": "https://catalyspacific.com/",
+    "capital": {},
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["Japan", "United States"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "lead_or_follow": "lead",
+      "thesis": "Independent early-stage life-sciences VC that both creates and invests in bioventure companies bridging Japan and the US, aiming to deliver healthcare solutions to patients worldwide; backed by strategic pharma partners (Chugai, Eisai, Takeda, Celgene) and SoftBank."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": true,
+      "science_platform_notes": "Bicultural, bilingual team building bespoke biotech companies on both sides of the Pacific; collaborates with preferred VCs Abingworth, Domain Associates and Frazier Healthcare Partners."
+    },
+    "people": [
+      { "name": "BT Slingsby", "role": "Founder / Managing Partner", "background": "MD/PhD; ex-Shionogi, founder of Global Health Innovative Technology Fund" },
+      { "name": "Takeshi Takahashi", "role": "Partner" },
+      { "name": "Bill Watt", "role": "Partner" }
+    ],
+    "tags": ["amed-certified-vc", "company-creation", "cross-border-us-japan", "shonan-ipark"],
+    "summary": {
+      "en": "Independent early-stage life-sciences venture firm (founded 2019, Tokyo/Seattle) that creates and invests in cross-Pacific bioventures; one of Japan's largest life-science-focused investors.",
+      "local": "2019年設立の独立系ライフサイエンスVC。日米にまたがるバイオベンチャーの創出・投資を行い、日本最大級のライフサイエンス投資会社の一つ。"
+    },
+    "sources": [
+      { "url": "https://catalyspacific.com/perspective/catalys-pacific-launches-in-japan-to-advance-early-stage-life-sciences-innovation-by-creating-and-investing-in-global-companies", "title": "Catalys Pacific Launches in Japan", "publisher": "Catalys Pacific", "accessed": "undefined", "supports": "founding year, offices, focus, strategic partners", "quote": "Founded in 2019 … The firm maintains offices in Tokyo and Kanagawa (Shonan Health Innovation Park), Japan and in Seattle, Washington. … an independent venture capital firm focusing on early-stage investments in life sciences … Chugai Pharmaceutical Co., Ltd., Eisai Co., Ltd., SoftBank Group Corp., Takeda Pharmaceutical Company Limited and Celgene Corporation" },
+      { "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html", "title": "認定ベンチャーキャピタル一覧", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC status", "quote": "Catalys Pacific, LLC" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund size not disclosed on the sources fetched; described as 'one of Japan's largest life sciences-focused investment firms.' Strategic Partners listed are LPs/pharma partners, not portfolio.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-an-venture-partners",
+    "name": { "en": "AN Venture Partners", "local": "" },
+    "aka": ["ANV", "ANV Management, LLC", "AN Ventures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.an.vc/",
+    "capital": {
+      "funds": [
+        { "name": "AN Venture Partners I, LP", "vintage_year": 2025, "size": { "raw": "$200M", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Japan", "Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Cross-border biotech VC formed in partnership with ARCH Venture Partners to build global biotech companies from science sourced in Japan; modality- and disease-agnostic, investing across all stages where science can have significant clinical impact."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "gene-editing", "rna-therapeutics"],
+      "company_creation": true
+    },
+    "tags": ["amed-certified-vc", "arch-affiliated", "cross-border-us-japan", "nihonbashi"],
+    "summary": {
+      "en": "Tokyo/San Francisco biotech VC (formed 2022 with ARCH Venture Partners) that closed a $200M debut fund in 2025 to build global biotechs out of Japanese science.",
+      "local": "ARCH Venture Partnersと組成した東京・サンフランシスコ拠点のバイオVC（2022年設立）。2025年に2億ドルの1号ファンドをクローズし、日本発サイエンスから世界的バイオを創出。"
+    },
+    "sources": [
+      { "url": "https://www.businesswire.com/news/home/20250701793878/en/AN-Venture-Partners-Announces-Final-Close-of-$200M-Fund-I", "title": "AN Venture Partners Announces Final Close of $200M Fund I", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund I size $200M and final close (2025)", "quote": "AN Venture Partners Announces Final Close of $200M Fund I" },
+      { "url": "https://www.fiercebiotech.com/biotech/biotech-vc-raises-200m-focus-japans-untapped-source-innovation", "title": "AN Venture Partners raises $200M to boost Japan biotech industry", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "founding 2022, ARCH partnership, SF/Tokyo offices, LPs, modality/disease-agnostic strategy" },
+      { "url": "https://an.vc/jp/", "title": "AN Venture Partners (Japanese site)", "publisher": "AN Venture Partners", "accessed": "undefined", "supports": "Tokyo office address", "quote": "GLOBAL LIFESCIENCE HUB 7F, Nihonbashi Muromachi Mitsui Tower 3-2-1 Nihonbashi Muromachi, Chuo-ku Tokyo 103-0022, Japan" },
+      { "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html", "title": "認定ベンチャーキャピタル一覧", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC status (ANV Management, LLC)", "quote": "ANV Management, LLC" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund I $200M final close (June 2025) confirmed by Business Wire headline. Founding year (2022), ARCH Venture Partners partnership, San Francisco office and lead LPs (Japan Investment Corporation, Shionogi, Otsuka, MUFG Bank, SMBC) reported by Fierce Biotech/Endpoints; primary official page was JS-heavy so those specifics rest on reputable secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-remiges-ventures",
+    "name": { "en": "Remiges Ventures, Inc.", "local": "RDiscovery株式会社" },
+    "aka": ["Remiges Ventures", "RDiscovery"],
+    "type": "vc",
+    "subtypes": ["venture-studio", "incubator"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "United States", "city": "Seattle" }
+    ],
+    "website": "https://remigesventures.com/",
+    "capital": {
+      "funds": [
+        { "name": "Remiges BioPharma Fund II", "vintage_year": 2021, "size": { "raw": "$95 million", "usd": 95000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["United States", "Japan"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "US-Japan cross-border life-science VC focused on company creation and early-stage drug discovery and development; runs the RDiscovery life-science incubator and draws strategic pharma LPs from both countries."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": true,
+      "science_platform_notes": "RDiscovery incubator nurtures early-stage therapeutic concepts and technologies."
+    },
+    "people": [
+      { "name": "Taro Inaba", "role": "Founder & Managing Partner" }
+    ],
+    "tags": ["amed-certified-vc", "company-creation", "cross-border-us-japan", "drug-discovery"],
+    "summary": {
+      "en": "US-Japan cross-border biopharma VC (founded 2014, Seattle/Tokyo) doing company creation and early-stage drug-discovery investing; closed a $95M Fund II in 2021 and launched the RDiscovery incubator.",
+      "local": "日米クロスボーダーの創薬VC（2014年設立、シアトル/東京）。2021年に9,500万ドルの2号ファンドをクローズし、インキュベーター『RDiscovery』を立ち上げ。"
+    },
+    "sources": [
+      { "url": "https://www.prnewswire.com/news-releases/remiges-ventures-closes-second-fund-with-95-million-launches-rdiscovery-incubator-301265286.html", "title": "Remiges Ventures Closes Second Fund With $95 Million; Launches RDiscovery Incubator", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund II size, offices, focus, incubator, founder, LPs", "quote": "Remiges BioPharma Fund II raising a total of $95 million … US-based cross-border venture capital firm with offices in Seattle, WA and Tokyo, Japan … focuses on company creation and investments in early-stage drug discovery and development companies … RDiscovery, a new life sciences incubator to nurture and advance early-stage therapeutic concepts and technologies … Taro Inaba … Founder and Managing Partner of Remiges Ventures" },
+      { "url": "https://remigesventures.com/", "title": "Remiges Ventures", "publisher": "Remiges Ventures", "accessed": "undefined", "supports": "firm existence, cross-border profile" },
+      { "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html", "title": "認定ベンチャーキャピタル一覧", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC status (Remiges Ventures / RDiscovery)", "quote": "Remiges Ventures, Inc. / RDiscovery株式会社" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year 2014 from secondary sources; Fund II $95M (2021) and Fund II LP roster (Taiho, Sumitomo Dainippon/Sumitomo Pharma, BMS, 1Globe, EA Pharma, Senju) confirmed via PR Newswire. Japan entity operates as RDiscovery株式会社.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-saisei-ventures",
+    "name": { "en": "Saisei Ventures", "local": "" },
+    "aka": ["Saisei"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo (Shinagawa)" },
+      { "country": "United States", "city": "Cambridge" }
+    ],
+    "website": "https://www.saiseiventures.com/",
+    "links": { "linkedin": "https://www.linkedin.com/company/saisei-ventures" },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Japan", "United States"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Science-first biotech VC building globally competitive companies out of Japanese innovation; invests from seed/early with demonstrated POC through early clinical stage, with emphasis on cell/gene therapies and regenerative medicine."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "company_creation": true,
+      "science_platform_notes": "Runs an Executive Fellows Program to strengthen Japan's biotech leadership pipeline."
+    },
+    "tags": ["amed-certified-vc", "cross-border-us-japan", "regenerative-medicine"],
+    "summary": {
+      "en": "Boston/Tokyo biotech VC (founded 2020) building globally competitive companies from Japanese science, focused on cell/gene therapy and regenerative medicine at seed to early-clinical stage.",
+      "local": "ボストン/東京拠点のバイオVC（2020年設立）。日本発サイエンスから世界水準の企業を創出し、細胞・遺伝子治療や再生医療のシード〜早期臨床に投資。"
+    },
+    "sources": [
+      { "url": "https://www.saiseiventures.com/about/", "title": "About – Saisei Ventures", "publisher": "Saisei Ventures", "accessed": "undefined", "supports": "investment stage, modalities, thesis", "quote": "Invest in seed and early opportunities with demonstrated POC to the early clinical stage. … Cell and gene therapies and regenerative medicines have the power to unlock new treatments and cures for a range of diseases. … To generate returns by investing in strong science, leveraging the Japanese ecosystem, and actively building globally competitive biotechnology companies." },
+      { "url": "https://www.businesswire.com/news/home/20230517005339/en/Saisei-Ventures-is-Selected-as-a-Certified-VC-Fund-by-AMED-to-Catalyze-the-Japanese-Drug-Development-Ecosystem", "title": "Saisei Ventures is Selected as a Certified VC Fund by AMED", "publisher": "Business Wire", "accessed": "undefined", "supports": "AMED certification, Japan biotech focus" },
+      { "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html", "title": "認定ベンチャーキャピタル一覧", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC status", "quote": "Saisei Ventures LLC" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year 2020 and Cambridge/Shinagawa offices from company/JETRO/Business Wire sources; specific fund size not disclosed on fetched pages.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-biofrontier-partners",
+    "name": { "en": "BioFrontier Partners, Inc.", "local": "株式会社バイオフロンティアパートナーズ" },
+    "aka": ["BioFrontier Partners"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1999,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo (Nihonbashi Kayabacho)" },
+      { "country": "United States", "city": "San Diego" }
+    ],
+    "website": "http://www.biofrontier.co.jp/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "One of Japan's first hands-on VCs specialized in bio/life sciences (est. 1999), performing technical evaluation to select and support private biotech and healthcare companies through to IPO."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AnGes (Anges MG)", "sector": "gene medicine / biotech", "outcome": "IPO — first Japanese university-derived bioventure listed on Tokyo Mothers" }
+      ]
+    },
+    "tags": ["hands-on", "bio-life-science", "veteran-firm"],
+    "summary": {
+      "en": "Established in 1999 as Japan's first hands-on life-science-specialized VC; a veteran Tokyo bio/life-science investor with multiple IPOs including AnGes.",
+      "local": "1999年設立、日本初のハンズオン型ライフサイエンス特化VC。アンジェス等の上場を含む実績を持つ老舗バイオ・ライフサイエンス投資会社。"
+    },
+    "sources": [
+      { "url": "http://www.biofrontier.co.jp/buisiness/", "title": "株式会社バイオフロンティアパートナーズ｜バイオ・ライフサイエンス関連の事業支援", "publisher": "BioFrontier Partners", "accessed": "undefined", "supports": "firm existence, bio/life-science hands-on focus" },
+      { "url": "https://initial.inc/investors/77", "title": "株式会社バイオフロンティアパートナーズ｜スピーダ スタートアップ情報リサーチ", "publisher": "INITIAL (Uzabase)", "accessed": "undefined", "supports": "profile, founding, portfolio" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official site loaded but detail pages redirect-loop under HTTPS upgrade; founding (March 1999), 'Japan's first hands-on life-science VC' positioning, San Diego office and AnGes/Anges MG IPO come from search results and secondary profiles rather than a fully fetched official page. Reported track record of ~16 EXITs incl. ~6 IPOs (secondary) not independently confirmed with a verbatim primary quote, so omitted from structured fields.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-dci-partners",
+    "name": { "en": "DCI Partners Co., Ltd.", "local": "DCIパートナーズ株式会社" },
+    "aka": ["DCI Partners"],
+    "type": "vc",
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo (Chiyoda-ku)" } ],
+    "website": "https://www.daiwa-inv.co.jp/dcip/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Japan", "Taiwan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Biotech-specialized VC (spun out of Daiwa Corporate Investment / former NIF Ventures) focused on drug discovery and regenerative medicine; states it manages the largest capital among Japan's specialized biotech VCs and also leads fund-driven bioventure creation, including a Japan-Taiwan drug-discovery fund."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "company_creation": true
+    },
+    "people": [
+      { "name": "Hiroki Narita", "role": "President", "background": "成田 宏紀" }
+    ],
+    "tags": ["amed-certified-vc", "biotech-specialized", "daiwa-group", "japan-taiwan"],
+    "summary": {
+      "en": "Tokyo biotech-specialized VC spun out of Daiwa's venture arm, focused on drug discovery and regenerative medicine, describing itself as the largest-capital specialized biotech VC in Japan.",
+      "local": "大和企業投資（旧NIF）から独立した創薬・再生医療特化のバイオVC。特化型VCとして国内最大級の資金を運用すると標榜。"
+    },
+    "sources": [
+      { "url": "https://www.daiwa-inv.co.jp/dcip/", "title": "DCIパートナーズ株式会社", "publisher": "DCI Partners / 大和企業投資", "accessed": "undefined", "supports": "focus, Daiwa lineage, market position", "quote": "創薬・再生医療分野に特化したベンチャーキャピタルです。 … NIF（現大和企業投資）時代を通じて、20年以上バイオ分野への投資を行ってまいりました。 … 特化型VCとして国内最大の資金を運用し、将来の産業を担う成長企業へリスクマネー供給" },
+      { "url": "https://www.daiwa-grp.jp/data/attach/1574_09_20150212.pdf", "title": "「大和日台バイオベンチャー投資事業有限責任組合」設立のお知らせ", "publisher": "Daiwa Securities Group", "accessed": "undefined", "supports": "Japan-Taiwan bioventure fund" },
+      { "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html", "title": "認定ベンチャーキャピタル一覧", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC status", "quote": "DCIパートナーズ株式会社" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Affiliated with Daiwa Securities Group via Daiwa Corporate Investment (not a pharma/medtech corporate CVC). Runs a Japan-Taiwan bioventure fund. Precise current AUM/fund sizes not captured as a single verbatim figure; claim of being 'largest specialized biotech VC in Japan' is the firm's own positioning.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-d3-llc",
+    "name": { "en": "D3 LLC", "local": "D3合同会社" },
+    "aka": ["D3"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo (Shibuya)" } ],
+    "website": "https://www.d3growth.com/jp/",
+    "capital": {
+      "funds": [
+        { "name": "D3バイオヘルスケアファンド1号", "vintage_year": 2020, "size": { "raw": "30億円", "currency": "JPY" } },
+        { "name": "D3バイオヘルスケアファンド2号", "vintage_year": 2024, "size": { "raw": "約100億円", "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Japan", "Global"],
+      "sector_focus": ["therapeutics", "digital-health"],
+      "thesis": "Healthcare-specialized investment/business/consulting firm investing in bio-drug-discovery and digital health / healthtech startups under a 'Discovery-Development-Deployment' model; concentrates capital and hands-on support on a small number of portfolio companies."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform"]
+    },
+    "people": [
+      { "name": "Tomoya Nagata", "role": "Managing Partner", "background": "永田 智也" }
+    ],
+    "tags": ["amed-certified-vc", "bio-healthcare", "impact-fund"],
+    "summary": {
+      "en": "Tokyo healthcare-focused VC (founded 2017) investing in bio-drug-discovery and digital health; runs the D3 Biohealthcare Funds (¥3bn Fund I, ~¥10bn Fund II).",
+      "local": "2017年創業のヘルスケア特化VC（東京）。バイオ創薬・デジタルヘルスに投資し、D3バイオヘルスケアファンド（1号30億円、2号約100億円）を運用。"
+    },
+    "sources": [
+      { "url": "https://prtimes.jp/main/html/rd/p/000000002.000071827.html", "title": "D3 LLC、バイオヘルスケア特化型ベンチャーキャピタル組成", "publisher": "PR TIMES", "accessed": "undefined", "supports": "Fund I size, representative, focus, founding", "quote": "30億円規模の1号ファンド「D3バイオヘルスケアファンド1号投資事業有限責任社員」のセカンドクローズを行った … 代表パートナー：永田智也 … バイオ創薬・デジタルヘルス/ヘルステック領域のスタートアップへの投資を行います … 2017年に創業した、ヘルスケア領域特化の、投資・事業・コンサルティング会社" },
+      { "url": "https://www.nikkei.com/article/DGXZQOUC019XH0R00C24A8000000/", "title": "VCのD3、100億円規模の新ファンド 医療・健康に投資", "publisher": "日本経済新聞", "accessed": "undefined", "supports": "Fund II ~100億円 (2024)", "quote": "VCのD3、100億円規模の新ファンド 医療・健康に投資" },
+      { "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html", "title": "認定ベンチャーキャピタル一覧", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC status", "quote": "D3LLC (D3合同会社)" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund II ~¥10bn (100億円) is per a Nikkei headline; earlier press names LPs incl. Japan Post Insurance (かんぽ生命), Mitsui Sumitomo Insurance and Rohto Pharmaceutical. Fund II is structured as an impact fund with an Osaka University tie-up.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-beyond-next-ventures",
+    "name": { "en": "Beyond Next Ventures, Inc.", "local": "Beyond Next Ventures株式会社" },
+    "aka": ["BNV"],
+    "type": "vc",
+    "subtypes": ["accelerator", "incubator"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "India", "city": "Bengaluru" }
+    ],
+    "website": "https://beyondnextventures.com/",
+    "capital": {
+      "aum": { "raw": "約480億円", "currency": "JPY" },
+      "funds": [
+        { "name": "1号ファンド", "vintage_year": 2015, "size": { "raw": "55億円", "currency": "JPY" } },
+        { "name": "2号ファンド", "vintage_year": 2019, "size": { "raw": "165億円", "currency": "JPY" } },
+        { "name": "3号ファンド", "vintage_year": 2021, "size": { "raw": "257億円", "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["Japan", "India"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "life-science-tools"],
+      "thesis": "Independent deep-tech VC whose largest pillar is healthcare/drug-discovery/biotech; invests in university- and research-derived science startups and runs the BRAVE acceleration program and Beyond BioLAB Tokyo shared wet-lab for bio founders."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware", "ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Operates Beyond BioLAB Tokyo (shared wet-lab / bench space) and the BRAVE accelerator for academic deep-tech and life-science founders."
+    },
+    "track_record": {
+      "portfolio_count": 80,
+      "notable_investments": [
+        { "company": "Susmed", "sector": "digital therapeutics", "outcome": "IPO" },
+        { "company": "QD Laser", "sector": "medical/laser devices", "outcome": "IPO" }
+      ]
+    },
+    "tags": ["deep-tech", "accelerator", "wet-lab", "academic-spinouts"],
+    "summary": {
+      "en": "Independent deep-tech VC (founded 2014, ~¥48bn AUM) with healthcare/biotech as its largest sector; invests in academic science startups and runs the BRAVE accelerator and Beyond BioLAB Tokyo wet-lab.",
+      "local": "2014年設立の独立系ディープテックVC（運用総額約480億円）。医療・ヘルスケアを最大領域とし、BRAVEアクセラレーターや共用ウェットラボ『Beyond BioLAB Tokyo』も運営。"
+    },
+    "sources": [
+      { "url": "https://prtimes.jp/main/html/rd/p/000000144.000017460.html", "title": "Beyond Next Ventures、ディープテック特化3号ファンドを257億円でファイナルクローズ", "publisher": "PR TIMES", "accessed": "undefined", "supports": "fund sizes, AUM, portfolio count, exits, focus", "quote": "257億円でファイナルクローズ … ファンド運用総額は約480億円にまで拡大 … 1号ファンド（55億円）を組成、2019年には2号ファンド（165億円） … 80社に出資 … IPO2件（サスメド、QDレーザ）、M&A6件（レパトア・ジェネシス、Bolt Medical等）" },
+      { "url": "https://beyondnextventures.com/", "title": "HOME | Beyond Next Ventures", "publisher": "Beyond Next Ventures", "accessed": "undefined", "supports": "firm profile, deep-tech/healthcare focus, programs" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Deep-tech generalist but healthcare/drug-discovery/biotech is a core (and largest) pillar; included with accelerator/incubator listed as secondary subtypes because BRAVE and Beyond BioLAB Tokyo are dedicated bio programs. Portfolio/exit figures cited are for Funds 1-2 as of the 3rd-fund announcement.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-medventure-partners",
+    "name": { "en": "MedVenture Partners, Inc.", "local": "MedVenture Partners株式会社" },
+    "aka": ["MedVenture Partners", "MVP"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo" } ],
+    "website": "https://www.medvp.co.jp/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Japan", "United States"],
+      "sector_focus": ["medtech-devices"],
+      "thesis": "Japan's first venture capital firm specialized in medical devices; invests in seed/early-stage device technologies to close the gap between academic ideas and commercialization, providing IP strategy and business-building support toward an effective medical-device industry ecosystem."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"]
+    },
+    "people": [
+      { "name": "Hajime Oshita", "role": "Representative / Managing Partner", "background": "20+ years in the medical-device industry incl. ~5 years at a Silicon Valley VC" },
+      { "name": "Fumiaki Ikeno", "role": "Partner", "background": "MD; Stanford-affiliated medtech" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Arrinex", "sector": "medical device", "outcome": "acquired" },
+        { "company": "C2 Therapeutics", "sector": "medical device", "outcome": "acquired" }
+      ]
+    },
+    "tags": ["medical-device", "medtech-specialized", "silicon-valley-link"],
+    "summary": {
+      "en": "Japan's first medical-device-specialized VC (founded 2013, Tokyo), backing seed/early-stage device technologies in Japan and the US.",
+      "local": "2013年創業、国内初の医療機器特化ベンチャーキャピタル（東京）。日米の医療機器技術のシード/アーリー期に投資。"
+    },
+    "sources": [
+      { "url": "https://www.jst.go.jp/start/promoter/unit/medventure.html", "title": "MedVenture Partners株式会社｜事業プロモーターユニット一覧", "publisher": "JST (START program)", "accessed": "undefined", "supports": "medical-device specialization, founding year, stage, background", "quote": "国内初の医療機器分野に特化したベンチャーキャピタル … 13年に、医療機器に特化したVCであるMedVenture Partners株式会社を創業 … アーリーステージの技術ベンチャーへの投資経験が豊富で、技術マネジメント・知財戦略も含めた事業育成を実施" },
+      { "url": "https://www.medvp.co.jp/", "title": "MedVenture Partners", "publisher": "MedVenture Partners", "accessed": "undefined", "supports": "official site / firm existence" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official site returned TLS certificate errors on fetch, so structured details rest on the JST START program profile (primary government source). Reported third fund targeting ~¥13bn and exits (Arrinex, C2 Therapeutics, Cathera, Biomedical Solutions, A-Traction) come from secondary sources and are not all captured with verbatim primary quotes.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-whiz-partners",
+    "name": { "en": "Whiz Partners, Inc.", "local": "株式会社ウィズ・パートナーズ" },
+    "aka": ["Whiz Partners", "ウィズパートナーズ"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2010,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo" } ],
+    "website": "https://www.whizp.com/",
+    "capital": {
+      "funds": [
+        { "name": "ヘルスケアNEWプラットフォーム・ファンド (HNP Fund)", "vintage_year": 2021, "size": { "raw": "目標500億円", "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Japan", "United States"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Independent alternative-asset manager (roots in CSK Venture Capital) with a major healthcare/biotech practice; runs multiple healthcare funds addressing the post-blockbuster drug-development era, including a large Healthcare NEW Platform Fund and the 創薬維新 (drug-discovery) fund co-established with Takeda around Axcelead."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "rna-therapeutics"],
+      "science_platform_notes": "Co-established a drug-discovery fund with Takeda Pharmaceutical centered on Axcelead Drug Discovery Partners; also backed ARCALIS (US-Japan mRNA manufacturing)."
+    },
+    "tags": ["healthcare-fund", "impact-investing", "alternative-assets"],
+    "summary": {
+      "en": "Independent Tokyo alternative-asset manager with a leading healthcare/biotech fund practice; established the Healthcare NEW Platform Fund (targeting ¥50bn) and co-built a drug-discovery fund with Takeda.",
+      "local": "CSKベンチャーキャピタルを源流とする独立系オルタナティブ運用会社。ヘルスケア/バイオを主要領域とし、目標500億円のヘルスケアNEWプラットフォーム・ファンドや武田薬品との創薬維新ファンドを運用。"
+    },
+    "sources": [
+      { "url": "https://bio.nikkeibp.co.jp/atcl/news/p1/21/09/28/08671/", "title": "ウィズ・パートナーズ、500億円を目標とする新規ファンドを設立", "publisher": "日経バイオテク", "accessed": "undefined", "supports": "HNP Fund name and target size", "quote": "ヘルスケアNEW プラットフォーム・ファンド投資事業有限責任組合（HNPファンド） … 約1年かけて500億円の資金を調達するのが目標" },
+      { "url": "https://www.takeda.com/jp/newsroom/newsreleases/2018/20180803-7993/", "title": "武田薬品工業とウィズ・パートナーズによる、アクセリードを中核とする日本の創薬エコシステム構築を目指す投資組合の共同設立合意について", "publisher": "Takeda Pharmaceutical", "accessed": "undefined", "supports": "drug-discovery (創薬維新) fund co-established with Takeda around Axcelead" },
+      { "url": "https://www.whizp.com/fund/", "title": "投資事業有限責任組合 - 株式会社ウィズ・パートナーズ", "publisher": "Whiz Partners", "accessed": "undefined", "supports": "fund line-up / firm profile" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Whiz Partners is a broad alternative-asset manager (growth, global macro, IT/AI as well as healthcare); included for its leading healthcare/biotech fund franchise rather than as a pure-play bio VC. HNP Fund figure is a fundraising target (500億円), not a confirmed final close.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-capital-medica-ventures",
+    "name": { "en": "Capital Medica Ventures, Inc.", "local": "株式会社キャピタルメディカ・ベンチャーズ" },
+    "aka": ["Capital Medica Ventures", "CMV"],
+    "type": "vc",
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo" } ],
+    "website": "https://capitalmedicaventures.com/en/",
+    "capital": {
+      "funds": [
+        { "name": "Healthcare New Frontier Fund", "vintage_year": 2018, "size": { "raw": null, "currency": "JPY" } },
+        { "name": "Yamato Social Impact Fund", "vintage_year": 2022, "size": { "raw": null, "currency": "JPY" } },
+        { "name": "Tokyo Wellness Impact Fund", "vintage_year": 2023, "size": { "raw": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["healthcare-services", "digital-health", "consumer-health"],
+      "thesis": "Impact venture capital focused on healthcare, nursing/elderly care, wellness and regional social challenges; managed Japan's first healthcare-specialized impact VC fund and serves as GP for prefecture/metro-backed impact funds, offering portfolio companies access to affiliated medical institutions as a trial field."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "software-samd"]
+    },
+    "tags": ["impact-investing", "healthcare-services", "wellness", "government-backed-funds"],
+    "summary": {
+      "en": "Tokyo healthcare-focused impact VC managing Japan's first healthcare impact fund plus Tokyo/Kanagawa/Nara-linked impact funds, with access to affiliated hospitals as a trial field.",
+      "local": "医療・介護・ウェルネスに特化した東京のインパクトVC。日本初のヘルスケア特化インパクトファンドや東京都・神奈川・奈良連携のファンドを運用し、提携医療機関を実証フィールドとして活用。"
+    },
+    "sources": [
+      { "url": "https://capitalmedicaventures.com/en/", "title": "Impact Investment in Healthcare and Regional Challenges", "publisher": "Capital Medica Ventures", "accessed": "undefined", "supports": "focus, impact funds and vintages", "quote": "Capital Medica Ventures (CMV) tackles social challenges, mainly in healthcare and regional issues, by supporting and empowering entrepreneurs as a trusted partner. … Japan's first impact VC fund specializing in the healthcare sector" },
+      { "url": "https://www.crunchbase.com/organization/capital-medica-ventures", "title": "Capital Medica Ventures - Crunchbase Investor Profile", "publisher": "Crunchbase", "accessed": "undefined", "supports": "healthcare focus, parent Capital Medica, ~2016 establishment" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "CMV is the venture arm affiliated with Capital Medica (a hospital-management/consulting group) but functions as an independent GP for external government/metro-backed impact funds, so it is treated here as a healthcare VC rather than a pharma/medtech corporate CVC. Founding year (~2016 per secondary sources) not confirmed on the official page (earliest fund vintage shown is 2018), so founded_year is omitted. Fund sizes not disclosed on fetched pages.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-venture-labo-investment",
+    "name": { "en": "Venture Labo Investment Co., Ltd.", "local": "株式会社ベンチャーラボインベストメント" },
+    "aka": ["Venture Labo Investment", "VLI"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo (Chuo-ku)" } ],
+    "website": "https://www.venturelaboinvestment.co.jp/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Independent VC centered on medical/bio and manufacturing ('monozukuri') startups; since 2008 has run specialized medical/bio investing with hands-on, field-experience-based management support from seed to early stage."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "medical-hardware"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "CYBERDYNE", "sector": "medical robotics / cybernics", "outcome": "IPO" }
+      ]
+    },
+    "tags": ["independent-vc", "medical-bio", "hands-on"],
+    "summary": {
+      "en": "Independent Tokyo VC (founded 2000) centered on medical/bio and hard-tech startups with hands-on support; early backer of CYBERDYNE.",
+      "local": "2000年設立の独立系VC（東京）。医療・バイオとものづくり企業を中心にハンズオン支援。CYBERDYNE等への投資実績。"
+    },
+    "sources": [
+      { "url": "https://www.venturelaboinvestment.co.jp/", "title": "ベンチャーラボインベストメント", "publisher": "Venture Labo Investment", "accessed": "undefined", "supports": "firm existence, medical/bio + monozukuri focus" },
+      { "url": "https://www.firstcvc.jp/en/story/venturelaboinvestment", "title": "VC Details: Venture Lab Investment Co., Ltd.", "publisher": "FIRST CVC", "accessed": "undefined", "supports": "founding year 2000, medical/bio specialization, hands-on model" },
+      { "url": "https://initial.inc/investors/V00822", "title": "株式会社ベンチャーラボインベストメント｜スピーダ", "publisher": "INITIAL (Uzabase)", "accessed": "undefined", "supports": "profile, portfolio (CYBERDYNE)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official site is JS-heavy and did not yield verbatim text; founding (2000), independent status, medical/bio focus since 2008 (~¥7.5bn cumulative across funds) and CYBERDYNE investment come from secondary databases (FIRST CVC, INITIAL, Tiglon Partners). Also manages regional/CVC-style funds (e.g., Nanto CVC) beyond the medical/bio scope.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-mitsubishi-ufj-capital",
+    "name": { "en": "Mitsubishi UFJ Capital Co., Ltd.", "local": "三菱UFJキャピタル株式会社" },
+    "aka": ["MUCAP", "MUFG Capital"],
+    "type": "vc",
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo" } ],
+    "website": "https://www.mucap.co.jp/",
+    "capital": {
+      "funds": [
+        { "name": "三菱UFJライフサイエンス1号投資事業有限責任組合", "vintage_year": 2017, "size": { "raw": "100億円", "currency": "JPY" } },
+        { "name": "三菱UFJライフサイエンス2号投資事業有限責任組合", "vintage_year": 2019, "size": { "raw": "100億円", "currency": "JPY" } },
+        { "name": "MUFGメディカルファンド (三菱UFJライフサイエンス3号)", "vintage_year": 2020, "size": { "raw": "100億円", "currency": "JPY" } },
+        { "name": "三菱UFJライフサイエンス4号投資事業有限責任組合", "vintage_year": 2023, "size": { "raw": "200億円", "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices", "diagnostics"],
+      "thesis": "MUFG-group VC running a dedicated Life Science fund series (four funds since 2017) targeting drug-discovery, drug-discovery-platform, regenerative-medicine, medical-device and diagnostics ventures; among the largest private life-science fund managers in Japan."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy", "medical-hardware"],
+      "company_creation": true
+    },
+    "tags": ["mufg-group", "life-science-fund", "bank-affiliated"],
+    "summary": {
+      "en": "MUFG-group VC with a dedicated Life Science fund series (4 funds since 2017, up to ¥20bn each) backing drug discovery, regenerative medicine, devices and diagnostics.",
+      "local": "MUFGグループのVC。2017年以降ライフサイエンス専門ファンドを4本組成（最大200億円）、創薬・再生医療・医療機器・診断領域に投資。"
+    },
+    "sources": [
+      { "url": "https://www.mucap.co.jp/feature/fund/ls/", "title": "ライフサイエンスファンド | 三菱UFJキャピタル", "publisher": "Mitsubishi UFJ Capital", "accessed": "undefined", "supports": "fund names, sizes, vintages, focus", "quote": "三菱UFJライフサイエンス1号投資事業有限責任組合 … ファンド総額 100億円 … 2017年2月20日 … 三菱UFJライフサイエンス4号投資事業有限責任組合 … ファンド総額 200億円 … 2023年3月28日 … 医薬品（創薬型・創薬基盤技術特化型）、再生医療製品、医療機器等、診断薬・診断機器" },
+      { "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html", "title": "認定ベンチャーキャピタル一覧", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC status", "quote": "三菱UFJキャピタル株式会社" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Bank-affiliated (MUFG group) generalist VC, not a pharma/medtech corporate CVC; included for its leading dedicated Life Science fund franchise. The firm invests broadly (IT/deep tech) beyond life sciences.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "jp-mizuho-capital",
+    "name": { "en": "Mizuho Capital Co., Ltd.", "local": "みずほキャピタル株式会社" },
+    "aka": ["Mizuho Capital"],
+    "type": "vc",
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo" } ],
+    "website": "https://www.mizuho-vc.co.jp/",
+    "capital": {
+      "funds": [
+        { "name": "みずほライフサイエンス第1号投資事業有限責任組合", "vintage_year": 2020, "size": { "raw": "100億円", "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices"],
+      "thesis": "Mizuho-group VC running a dedicated Life Science fund targeting growth-stage life-science companies in drug discovery/bio, regenerative medicine/cell therapy and medical devices, supporting acceleration from clinical/regulatory approval through IPO."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy", "medical-hardware"]
+    },
+    "tags": ["mizuho-group", "life-science-fund", "bank-affiliated"],
+    "summary": {
+      "en": "Mizuho-group VC operating a dedicated Life Science fund (est. 2020, ¥10bn) for drug discovery/bio, regenerative medicine/cell therapy and medical devices.",
+      "local": "みずほグループのVC。2020年設立のライフサイエンス特化ファンド（総額100億円）で創薬・バイオ、再生医療・細胞治療、メディカルデバイスに投資。"
+    },
+    "sources": [
+      { "url": "https://www.mizuho-vc.co.jp/features/fund.html", "title": "みずほキャピタル株式会社：主要ファンド一覧", "publisher": "Mizuho Capital", "accessed": "undefined", "supports": "Life Science fund name, size, vintage, focus", "quote": "みずほライフサイエンス第1号投資事業有限責任組合 … 100億円 … 2020年1月6日 … 創薬・バイオ・再生医療・細胞治療・メディカルデバイスなどのライフサイエンス領域の成長企業" },
+      { "url": "https://www.mizuho-fg.co.jp/release/20200106release_jp.html", "title": "「みずほライフサイエンス1号ファンド」の設立について", "publisher": "Mizuho Financial Group", "accessed": "undefined", "supports": "fund establishment (2020)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Bank-affiliated (Mizuho group) generalist VC, not a pharma/medtech corporate CVC; included for its dedicated Life Science fund. Note: an initial 2020 Mizuho FG press release cited a ¥5bn (50億円) target, while the official Mizuho Capital fund page lists the fund at ¥10bn (100億円) — the larger official figure is used, likely reflecting subsequent closes.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  }
+]

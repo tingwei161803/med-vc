@@ -1,0 +1,668 @@
+[
+  {
+    "id": "in-quadria-capital",
+    "name": { "en": "Quadria Capital" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Singapore",
+    "offices": [
+      { "country": "Singapore", "city": "Singapore" },
+      { "country": "India", "city": "New Delhi" }
+    ],
+    "website": "https://quadriacapital.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/quadria-capital",
+      "crunchbase": "https://www.crunchbase.com/organization/quadria-capital"
+    },
+    "capital": {
+      "aum": { "raw": "over US$4 billion", "usd": 4000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["India", "South Asia", "Southeast Asia"],
+      "sector_focus": ["healthcare-services", "therapeutics", "medtech-devices", "pharma-services", "diagnostics"],
+      "thesis": "Independent healthcare-dedicated private equity firm investing exclusively in the healthcare sector of fast-growing South and Southeast Asian economies (hospitals, pharmaceuticals, life sciences, medical devices); runs a dedicated India investment-advisory arm in New Delhi and plans to deploy ~US$1 billion into Indian healthcare."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "NephroPlus", "sector": "dialysis network", "outcome": "active" },
+        { "company": "Maxivision", "sector": "eye care", "outcome": "active" },
+        { "company": "Straits Orthopaedics", "sector": "orthopedic implants", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Abrar Mir", "role": "Co-founder & Managing Partner" },
+      { "name": "Amit Varma", "role": "Co-founder & Managing Partner", "background": "Physician (critical-care), healthcare operator" }
+    ],
+    "summary": {
+      "en": "Singapore-headquartered, healthcare-dedicated private equity firm with over US$4 billion AUM and a New Delhi India advisory office, one of Asia's largest specialist healthcare investors."
+    },
+    "sources": [
+      { "url": "https://quadriacapital.com/", "title": "Quadria Capital Fund: Top Healthcare Private Equity Firm", "publisher": "Quadria Capital", "accessed": "undefined", "supports": "Healthcare-dedicated focus; portfolio NephroPlus, Maxivision, Straits Orthopaedics", "quote": "large growth, scalable healthcare companies in Asia with clear market differentiation, strong management teams, and potential to emerge as market leaders" },
+      { "url": "https://en.wikipedia.org/wiki/Quadria_Capital", "title": "Quadria Capital - Wikipedia", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founded 2012; founders; Singapore HQ with New Delhi advisory; AUM", "quote": "an independent healthcare-focused private equity firm with over US$4 billion AUM" },
+      { "url": "https://www.business-standard.com/companies/news/pe-firm-quadria-capital-set-to-deploy-around-1-billion-in-indian-market-124081301675_1.html", "title": "PE firm Quadria Capital set to deploy around $1 billion in Indian market", "publisher": "Business Standard", "accessed": "undefined", "supports": "India deployment plan; India AUM", "quote": "Quadria Capital intends to deploy around $1 billion in India into various healthcare companies, covering hospitals, pharmaceuticals, lifesciences, medical devices among others" }
+    ],
+    "confidence": "high",
+    "verification_notes": "HQ in Singapore; qualifies for the India slice via a dedicated New Delhi investment-advisory arm and ~US$1B India deployment. Reported global AUM varies by source (~US$3.3B–US$4B+); India AUM ~US$1B.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-healthquad",
+    "name": { "en": "HealthQuad" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "offices": [{ "country": "India", "city": "New Delhi" }],
+    "website": "https://healthquad.in/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/healthquads"
+    },
+    "capital": {
+      "funds": [
+        { "name": "HealthQuad Fund II", "size": { "raw": "$162 million (INR 1,215 Crores)", "usd": 162000000, "currency": "USD" } },
+        { "name": "HealthQuad Fund III", "vintage_year": 2024, "size": { "raw": "target INR 1,700 Cr (first close INR 550 Cr)", "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["India"],
+      "sector_focus": ["digital-health", "healthcare-services", "diagnostics", "healthcare-it", "ai-drug-discovery"],
+      "thesis": "Early-to-growth venture firm investing exclusively in technology-driven healthcare businesses that address access, affordability and quality of care in India; describes itself as India's largest healthcare-focused VC."
+    },
+    "people": [],
+    "summary": {
+      "en": "New Delhi-based healthcare-exclusive venture capital firm (Fund II $162M led by MSD; Fund III targeting INR 1,700 Cr) backing digital-health, diagnostics and AI healthtech startups in India."
+    },
+    "sources": [
+      { "url": "https://www.prnewswire.com/in/news-releases/india-s-largest-healthcare-vc-healthquad-closes-second-fund-raising-162-million-led-by-global-pharma-giant-msd-892372698.html", "title": "India's largest healthcare VC HealthQuad closes second fund, raising $162 million, led by global pharma giant MSD", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund II size $162M / INR 1,215 Cr; largest healthcare VC claim", "quote": "HealthQuad closed its second fund with a total subscription of $162 million (INR 1,215 Crores)" },
+      { "url": "https://www.digitalhealthnews.com/healthquad-reaches-first-close-of-fund-iii-with-inr-550-cr-to-accelerate-india-s-digital-health-innovation", "title": "HealthQuad Reaches First Close of Fund III with INR 550 Cr", "publisher": "Digital Health News", "accessed": "undefined", "supports": "Fund III first close INR 550 Cr; target INR 1,700 Cr; founded 2016; New Delhi", "quote": "raising commitments worth INR 550 Cr, crossing one-third of its planned INR 1,700 Cr corpus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "HealthQuad is closely associated with the Quadria Capital group (shared founders/platform) but operates as a distinct early-stage healthcare VC vehicle. Founded 2016, New Delhi.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-somerset-indus-capital",
+    "name": { "en": "Somerset Indus Capital Partners" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2011,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "offices": [{ "country": "India", "city": "Mumbai" }],
+    "website": "https://somersetinduscap.com/",
+    "capital": {
+      "aum": { "raw": "around $500 million across three funds", "usd": 500000000, "currency": "USD" },
+      "funds": [
+        { "name": "Somerset Indus Healthcare Fund III", "size": { "raw": "$288 million", "usd": 288000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-b", "series-c-plus"],
+      "check_size": { "raw": "$15 million – $40 million per portfolio company", "usd_min": 15000000, "usd_max": 40000000 },
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-services", "therapeutics", "medtech-devices", "diagnostics", "pharma-services"],
+      "thesis": "Mumbai-based healthcare-focused private equity firm targeting India's 'missing middle' — scalable, affordable healthcare businesses in Tier II/III markets across delivery, pharmaceuticals, medical devices and diagnostics."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Cyrix Healthcare", "sector": "medtech servicing", "outcome": "active" },
+        { "company": "NU Hospitals", "sector": "nephrology/urology hospital chain", "outcome": "active" },
+        { "company": "Printmann Offset", "sector": "pharmaceutical packaging", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Avinash Kenkare", "role": "Co-founder" },
+      { "name": "Mayur Sirdesai", "role": "Co-founder" },
+      { "name": "Ramesh Kannan", "role": "Partner" }
+    ],
+    "summary": {
+      "en": "Mumbai healthcare private equity firm (~$500M AUM across three funds; Fund III closed at $288M) investing $15-40M in affordable-care, pharma, medtech and diagnostics businesses across Tier II/III India."
+    },
+    "sources": [
+      { "url": "https://yourstory.com/2026/03/somerset-indus-capital-partners-raises-288-million-in-fund-iii", "title": "Somerset Indus Capital Partners raises $288M in Fund III", "publisher": "YourStory", "accessed": "undefined", "supports": "Fund III $288M; founded 2011; ~$500M AUM; check size", "quote": "Somerset Indus Capital Partners has assets under management of around $500 million across three funds" },
+      { "url": "https://indianstartupnews.com/news/somerset-indus-capital-closes-fund-iii-at-288-million-to-target-healthcare-access-gaps-in-tier-2-3-india-11255865", "title": "Somerset Indus Capital closes Fund III at $288 million", "publisher": "Indian Startup News", "accessed": "undefined", "supports": "Fund III at $288M above $250M target; Tier II/III focus; check size $15-40M", "quote": "Somerset typically invests between $15 million and $40 million per portfolio company" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2011 by Avinash Kenkare and Mayur Sirdesai. Fund I reported ~4.0x DPI; Fund III closed Q1 2026 above its $250M target.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-w-health-ventures",
+    "name": { "en": "W Health Ventures" },
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "offices": [
+      { "country": "India", "city": "Mumbai" },
+      { "country": "United States", "city": "Boston" }
+    ],
+    "website": "https://www.whealthventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/whealthventures"
+    },
+    "capital": {
+      "funds": [
+        { "name": "W Health Ventures Fund II", "size": { "raw": "$100 million target (first close INR 550 Cr / ~$61M)", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "$1 million to $5 million", "usd_min": 1000000, "usd_max": 5000000 },
+      "geo_focus": ["India", "United States"],
+      "sector_focus": ["digital-health", "healthcare-services", "mental-health", "consumer-health"],
+      "thesis": "Early-stage healthcare-focused fund using a 'found and fund' model to build and back digital-health companies transforming care delivery in India and the US; plans to build/scale 8-10 new companies via its 2070 Health venture studio."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Runs 2070 Health, an in-house venture studio that incubates new healthcare companies (found-and-fund model)."
+    },
+    "track_record": {
+      "portfolio_count": 15,
+      "notable_investments": [
+        { "company": "2070 Health", "sector": "venture studio", "outcome": "active" },
+        { "company": "Nivaan", "sector": "chronic pain management", "outcome": "active" },
+        { "company": "BeatO", "sector": "diabetes care", "outcome": "active" },
+        { "company": "ElevateNow", "sector": "obesity management", "outcome": "active" },
+        { "company": "Wysa", "sector": "mental health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Early-stage healthcare VC investing across India and the US from seed to Series B ($1-5M checks) with a found-and-fund/venture-studio model (2070 Health); Fund II targets $100M."
+    },
+    "sources": [
+      { "url": "https://www.digitalhealthnews.com/w-health-to-double-down-on-india-us-health-startups-with-100mn-fund-ii", "title": "W Health to Double Down on India-US Health Startups with $100Mn Fund II", "publisher": "Digital Health News", "accessed": "undefined", "supports": "Fund II $100M; India-US focus; found-and-fund; check size", "quote": "W Health Ventures' second fund (Fund II) is valued at $100 million" },
+      { "url": "https://inc42.com/buzz/w-health-ventures-marks-first-close-of-fund-ii-at-%E2%82%B9550-cr/", "title": "W Health Ventures Marks First Close Of Fund II At INR 550 Cr", "publisher": "Inc42", "accessed": "undefined", "supports": "First close INR 550 Cr; seed-to-Series B; $1-5M checks", "quote": "backing companies from seed to Series B, with check sizes ranging from $1 million to $5 million" }
+    ],
+    "confidence": "high",
+    "verification_notes": "India-US dual-geography fund with a Mumbai team; qualifies via dedicated India investing and operations. Portfolio count 15 as of mid-2026 per secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-invascent",
+    "name": { "en": "InvAscent" },
+    "aka": ["India Life Sciences Fund", "ILSF"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2005,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Hyderabad",
+    "offices": [{ "country": "India", "city": "Hyderabad" }],
+    "website": "https://invascent.com/",
+    "links": {
+      "linkedin": "https://in.linkedin.com/company/invascent-advisory-services-india-private-limited",
+      "crunchbase": "https://www.crunchbase.com/organization/invascent"
+    },
+    "capital": {
+      "aum": { "raw": "USD 850 Mn+", "usd": 850000000, "currency": "USD" },
+      "funds": [
+        { "name": "India Life Sciences Fund IV", "vintage_year": 2023, "size": { "raw": "$304M", "usd": 304000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-b", "series-c-plus"],
+      "check_size": { "raw": "USD 10-40 million over the life of the investment", "usd_min": 10000000, "usd_max": 40000000 },
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "healthcare-services", "medtech-devices", "diagnostics", "digital-health", "animal-health"],
+      "thesis": "India's leading life-sciences private equity firm, providing growth capital for significant minority stakes in Indian pharmaceutical, healthcare-delivery, medtech, diagnostics and animal-health companies via its India Life Sciences Fund family."
+    },
+    "track_record": {
+      "portfolio_count": 39,
+      "notable_investments": [
+        { "company": "Maiva Pharma", "sector": "pharmaceuticals", "outcome": "active" },
+        { "company": "Geri Care Health Services", "sector": "elder care", "outcome": "active" },
+        { "company": "ABI Health Technologies", "sector": "healthtech", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Founded 2005 and based in Hyderabad, InvAscent advises the India Life Sciences Fund family (USD 850M+ AUM across four funds; Fund IV $304M), a leading life-sciences growth-equity investor in India."
+    },
+    "sources": [
+      { "url": "https://invascent.com/", "title": "InvAscent: Home", "publisher": "InvAscent", "accessed": "undefined", "supports": "Founded 2005; Hyderabad HQ; USD 850M+ AUM; 39 investments; 20 exits; leading life-sciences PE", "quote": "USD 850 Mn+ assets under management" },
+      { "url": "https://pitchbook.com/profiles/fund/24178-06F", "title": "India Life Sciences Fund IV: Profile, Investments & Returns", "publisher": "PitchBook", "accessed": "undefined", "supports": "Fund IV 2023 vintage size $304M", "quote": "India Life Sciences Fund IV has a size of $304M" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Official site reports USD 850M+ AUM, 39 investments and 20 exits (earlier secondary sources cited ~US$650M across four funds, since updated). Advisory entity is InvAscent Advisory Services India Pvt Ltd.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-tata-capital-healthcare-fund",
+    "name": { "en": "Tata Capital Healthcare Fund" },
+    "aka": ["TCHF", "Tata Capital Healthcare Fund II", "TCHF II"],
+    "type": "growth-equity",
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "offices": [{ "country": "India", "city": "Mumbai" }],
+    "website": "https://www.tatacapitalhealthcarefund.com/",
+    "capital": {
+      "funds": [
+        { "name": "Tata Capital Healthcare Fund II", "size": { "raw": "INR 955 Crores (~USD 130 million)", "usd": 130000000, "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-b", "series-c-plus"],
+      "check_size": { "raw": "$5mn – $15mn per transaction", "usd_min": 5000000, "usd_max": 15000000 },
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "healthcare-services", "medtech-devices", "diagnostics", "digital-health", "pharma-services"],
+      "thesis": "Growth-oriented private equity fund focused on the healthcare and life-sciences sector in India, taking equity positions in companies with significant India exposure across pharmaceuticals, healthcare delivery, health-tech and medtech services."
+    },
+    "track_record": {
+      "portfolio_count": 9,
+      "notable_investments": [
+        { "company": "Sakar Healthcare", "sector": "pharmaceuticals", "outcome": "active" },
+        { "company": "Anderson Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Apex Kidney Care", "sector": "dialysis", "outcome": "active" },
+        { "company": "Harsoria Healthcare", "sector": "medical devices", "outcome": "active" },
+        { "company": "Mumbai Oncocare Centre", "sector": "oncology care", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "India-focused healthcare/life-sciences growth private equity fund sponsored by Tata Capital; Fund II closed at INR 955 Cr (~$130M) and has deployed ~95% across pharma, healthcare delivery, health-tech and medtech."
+    },
+    "sources": [
+      { "url": "https://india.entrepreneur.com/news-and-trends/tata-capital-healthcare-fund-ii-makes-investment/423238", "title": "Tata Capital Healthcare Fund II Makes Investment Commitments of INR 955 Crores", "publisher": "Entrepreneur India", "accessed": "undefined", "supports": "Fund II INR 955 Cr; ~$130M corpus; deployment; check size; portfolio", "quote": "final close of its fund with investor commitments of INR 955 Crores" },
+      { "url": "https://www.tatacapitalhealthcarefund.com/about-us/overview.html", "title": "Overview - Tata Capital Healthcare Fund", "publisher": "Tata Capital Healthcare Fund", "accessed": "undefined", "supports": "Healthcare/life-sciences India focus; sponsored by Tata Capital", "quote": "a growth oriented private equity fund focused on the healthcare and lifesciences sector in India" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Sponsored by Tata Capital Ltd (a Tata Sons financial-services subsidiary). Included as a dedicated healthcare/life-sciences PE fund manager rather than a strategic pharma/medtech CVC; a maintainer may wish to flag the corporate-sponsor relationship. Fund II committed >90% and deployed ~USD 124M of its ~USD 130M corpus.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-asian-healthcare-fund",
+    "name": { "en": "Asian Healthcare Fund" },
+    "aka": ["AHF"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2010,
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "offices": [{ "country": "India", "city": "New Delhi" }],
+    "website": "https://asianhealthcarefund.com/",
+    "links": {
+      "linkedin": "https://in.linkedin.com/company/asian-healthcare-fund",
+      "crunchbase": "https://www.crunchbase.com/organization/asian-healthcare-fund"
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-services", "medtech-devices", "diagnostics", "pharma-services", "therapeutics"],
+      "thesis": "New Delhi private equity platform investing exclusively in India's healthcare and life sciences — direct and indirect healthcare services, medical devices and equipment, diagnostics, specialized manufacturing and bio-pharmaceutical R&D services — with a specialized, sector-focused approach."
+    },
+    "summary": {
+      "en": "New Delhi-based, healthcare-exclusive private equity fund (founded 2010) investing across India's care delivery, medical devices, diagnostics and bio-pharma services; two funds raised to date."
+    },
+    "sources": [
+      { "url": "https://asianhealthcarefund.com/about-us/", "title": "About Us - Asian HealthCare Fund", "publisher": "Asian Healthcare Fund", "accessed": "undefined", "supports": "Healthcare-exclusive PE platform; New Delhi HQ; two funds; sector focus", "quote": "Fund I has completed its full life cycle while Fund II has demonstrated good traction since inception" },
+      { "url": "https://www.cbinsights.com/investor/asian-healthcare-fund", "title": "Asian Healthcare Fund Portfolio Investments & Funds", "publisher": "CB Insights", "accessed": "undefined", "supports": "Founded 2010; India healthcare/life-sciences focus", "quote": "AHF is a New Delhi based private equity fund that invests exclusively into India's healthcare and life sciences" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Distinct from the 'Asian Healthcare Foundation' (a Hyderabad research non-profit). Founded 2010; AUM/fund sizes not publicly disclosed on the site.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-alkemi-growth-capital",
+    "name": { "en": "Alkemi Growth Capital" },
+    "aka": ["Alkemi Venture Partners"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "offices": [{ "country": "India", "city": "New Delhi" }],
+    "website": "https://www.alkemivp.com/",
+    "capital": {
+      "funds": [
+        { "name": "Alkemi Fund II", "size": { "raw": "target US$75 million (first close US$49.7 million)", "usd": 75000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "geo_focus": ["India"],
+      "sector_focus": ["digital-health", "consumer-health", "healthcare-services", "therapeutics"],
+      "thesis": "India's leading early-stage healthcare and wellness venture fund, investing exclusively in healthcare — backing scalable, category-defining health and wellness companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "ZeroHarm Sciences", "sector": "nutraceuticals/wellness", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Alka Goel", "role": "Founder & Managing Partner" }
+    ],
+    "summary": {
+      "en": "New Delhi early-stage venture fund founded in 2018 by Alka Goel, investing exclusively in healthcare and wellness; Fund II targets US$75M with a first close of US$49.7M."
+    },
+    "sources": [
+      { "url": "https://www.entrepreneurindia.com/blog/en/news/indias-healthcare-sector-surging-twice-the-pace-of-gdp-alkemi-growth-capital.58034", "title": "India's Healthcare Sector Surging Twice the Pace of GDP: Alkemi Growth Capital", "publisher": "Entrepreneur India", "accessed": "undefined", "supports": "Founded 2018 by Alka Goel; healthcare-exclusive; Fund II target/first close", "quote": "Alkemi's Fund II is targeting to raise US$75 million and has reached a first-close of US$49.7 million" },
+      { "url": "https://disclosures.ifc.org/project-detail/SII/49961/alkemi-fund-ii", "title": "Alkemi Fund II - IFC Disclosure Portal", "publisher": "IFC", "accessed": "undefined", "supports": "India-domiciled early-stage healthcare VC fund; IFC prospective LP", "quote": "an India domiciled, early-stage venture capital fund exclusively focused on healthcare" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Also referenced as 'Alkemi Venture Partners' in some directories. Fund II first close ~66% of target; final close pending IFC support.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-endiya-partners",
+    "name": { "en": "Endiya Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Hyderabad",
+    "offices": [{ "country": "India", "city": "Hyderabad" }],
+    "website": "https://www.endiya.com/",
+    "links": {
+      "linkedin": "https://in.linkedin.com/company/endiya-partners"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Endiya Partners Fund III", "size": { "raw": "INR 800 crore", "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "check_size": { "raw": "first cheque up to $2 million" },
+      "geo_focus": ["India"],
+      "sector_focus": ["digital-health", "diagnostics", "cell-gene-therapy", "ai-drug-discovery", "medtech-devices"],
+      "thesis": "Early-stage, co-founder-style VC backing globally relevant product startups across enterprise/deep-tech and a strong healthcare & life-sciences practice spanning AI diagnosis, chronic-disease management and cell therapy."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "ai-ml-platform", "software-samd"],
+      "indications": ["oncology", "metabolic-obesity"]
+    },
+    "track_record": {
+      "portfolio_count": 44,
+      "notable_investments": [
+        { "company": "SigTuple", "sector": "AI digital microscopy / diagnostics", "outcome": "active" },
+        { "company": "Eyestem", "sector": "stem cell therapy", "outcome": "active" },
+        { "company": "Niramai", "sector": "AI breast-cancer screening", "outcome": "active" },
+        { "company": "Sugar.fit", "sector": "digital diabetes care", "outcome": "active" },
+        { "company": "Mylo", "sector": "maternal & baby health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Hyderabad early-stage VC (Fund III ~INR 800 Cr, LPs include IFC and AIIB) with a deep healthcare & life-sciences practice — AI diagnostics (SigTuple, Niramai), cell therapy (Eyestem) and digital health — alongside enterprise/deep-tech."
+    },
+    "sources": [
+      { "url": "https://www.endiya.com/", "title": "Endiya - Co-founder VC for early-stage AI, Deep Tech & Healthcare Startups", "publisher": "Endiya Partners", "accessed": "undefined", "supports": "Healthcare/life-sciences focus; portfolio SigTuple, Eyestem; seed/pre-Series A; $2M first cheque", "quote": "AI diagnosis, chronic disease management and cell therapy" },
+      { "url": "https://inc42.com/features/how-endiya-partners-sharpened-its-ai-deeptech-thesis-over-the-past-decade/", "title": "How Endiya Partners Sharpened Its AI, Deeptech Thesis Over The Past Decade", "publisher": "Inc42", "accessed": "undefined", "supports": "Fund III INR 800 Cr; LPs IFC and AIIB; Hyderabad", "quote": "its INR 800 crore Fund III, backed by marquee limited partners such as IFC and AIIB" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Multi-sector VC (also enterprise/deep-tech/SaaS/fintech) with a substantial dedicated healthcare & life-sciences practice, warranting inclusion. Founding year reported as 2015 (some sources 2016); ~44 investments; Fund I ~4.0x MOIC.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-eight-roads-ventures-india",
+    "name": { "en": "Eight Roads Ventures India" },
+    "type": "vc",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "offices": [{ "country": "India", "city": "Mumbai" }, { "country": "India", "city": "Bengaluru" }],
+    "website": "https://eightroads.com/",
+    "capital": {
+      "funds": [
+        { "name": "Eight Roads India Healthcare & Life Sciences Fund", "vintage_year": 2022, "size": { "raw": "$250 million", "usd": 250000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "check_size": { "raw": "up to $40 million", "usd_max": 40000000 },
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "pharma-services", "healthcare-services", "digital-health", "consumer-health", "medtech-devices"],
+      "thesis": "First dedicated India healthcare and life-sciences fund of Eight Roads (Fidelity's proprietary investment arm), making minority investments across life sciences, healthcare services, consumer health and digital health from early to growth stage."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Laurus Labs", "sector": "pharma (API/CDMO)", "outcome": "IPO" },
+        { "company": "API Holdings (PharmEasy)", "sector": "e-pharmacy", "outcome": "active" },
+        { "company": "Immuneel Therapeutics", "sector": "cell therapy / CAR-T", "outcome": "active" },
+        { "company": "Plasmagen Biosciences", "sector": "plasma-derived therapeutics", "outcome": "active" },
+        { "company": "Caplin Steriles", "sector": "sterile pharmaceuticals", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Eight Roads' first dedicated $250M India healthcare & life-sciences fund (launched 2022, capital from parent Fidelity), investing up to $40M in 15-20 pharma, life-sciences, healthcare-services and digital-health companies."
+    },
+    "sources": [
+      { "url": "https://eightroads.com/en/news/our-first-dedicated-250m-india-healthcare-fund", "title": "Our first dedicated $250m India healthcare fund", "publisher": "Eight Roads", "accessed": "undefined", "supports": "$250M dedicated India healthcare/life-sciences fund; focus; portfolio", "quote": "our first dedicated $250m India healthcare fund" },
+      { "url": "https://inc42.com/buzz/pharmeasy-backer-eight-roads-ventures-india-250-mn-healthtech-dedicated-fund/", "title": "Eight Roads Ventures India Sets Up $250 Mn Healthtech Dedicated Fund", "publisher": "Inc42", "accessed": "undefined", "supports": "Fund corpus from parent Fidelity; up to $40M; 15-20 companies", "quote": "The fund corpus was provided entirely by its parent, Fidelity" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Eight Roads is the proprietary investment arm of Fidelity (a financial-services group), and this fund's capital comes entirely from Fidelity — a captive/CVC-adjacent structure. Included here as an independent-brand life-sciences VC with a dedicated India healthcare fund; a maintainer may wish to reconcile with the CVC slice.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-kotak-life-sciences-fund",
+    "name": { "en": "Kotak Life Sciences Fund" },
+    "aka": ["KLSF", "KLSF I", "Kotak Alternate Asset Managers - Life Sciences Fund"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "offices": [{ "country": "India", "city": "Mumbai" }],
+    "website": "https://www.kotakalternateasset.com/",
+    "capital": {
+      "funds": [
+        { "name": "Kotak Life Sciences Fund I", "vintage_year": 2024, "size": { "raw": "target INR 1,600 crore (~$193M); first close INR 250 crore", "usd": 193000000, "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "consumer-health", "diagnostics", "healthcare-services"],
+      "thesis": "Dedicated life-sciences fund from Kotak Alternate Asset Managers deploying capital in early-to-growth-stage companies across pharma/biotech, medical devices, digital health, consumer wellness, diagnostics and healthcare delivery."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "ZeroHarm Sciences", "sector": "nutraceuticals/wellness", "outcome": "active" },
+        { "company": "Avammune Therapeutics", "sector": "drug discovery / immunology", "outcome": "active" },
+        { "company": "Mediversal Healthcare", "sector": "healthcare delivery", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Dedicated life-sciences private fund by Kotak Alternate Asset Managers (target INR 1,600 Cr / ~$193M; first close INR 250 Cr in Jan 2025) investing early-to-growth across pharma/biotech, medtech, digital health and wellness."
+    },
+    "sources": [
+      { "url": "https://inc42.com/buzz/kotak-alt-marks-first-close-of-its-life-sciences-fund-at-inr-250-cr/", "title": "Kotak Alt Marks First Close Of Its Life Sciences Fund At INR 250 Cr", "publisher": "Inc42", "accessed": "undefined", "supports": "First close INR 250 Cr; target INR 1,600 Cr; life-sciences focus", "quote": "with a target corpus of INR 1,600 crore after collecting INR 250 crore from family offices, UHNIs, and other investors" },
+      { "url": "https://www.business-standard.com/companies/news/kotak-alternate-asset-raises-rs-250-cr-in-first-close-of-life-sciences-fund-125012301238_1.html", "title": "Kotak Alternate Asset raises Rs 250 cr in first close of Life Sciences Fund", "publisher": "Business Standard", "accessed": "undefined", "supports": "Fund size Rs 1,600 crore (~$193M); first close Rs 250 crore (~$30M)", "quote": "The fund is sized at Rs 1,600 crore ($193 million) and has raised Rs 250 crore ($30.2 million)" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Managed by Kotak Alternate Asset Managers (Kotak Mahindra group's alternates arm). Included as a dedicated life-sciences fund manager (analogous to Tata Capital Healthcare Fund), not a strategic pharma CVC; maintainer may flag the financial-group sponsor.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-ixp-lifesciences",
+    "name": { "en": "IXP" },
+    "aka": ["IXP Lifesciences", "IXP Lifesciences Catalyst Fund"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2025,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Hyderabad",
+    "offices": [{ "country": "India", "city": "Hyderabad" }],
+    "website": "https://yourstory.com/2025/02/ixp-launches-rs-200-cr-fund-to-support-early-stage-biotech-startups",
+    "capital": {
+      "funds": [
+        { "name": "IXP Lifesciences Catalyst Fund", "vintage_year": 2025, "size": { "raw": "INR 200 crore (with INR 100 crore greenshoe)", "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "diagnostics", "consumer-health"],
+      "thesis": "Life-sciences-focused early-stage VC (backed by JV Ventures) investing pre-seed to Series A in biotech startups addressing gaps across pharmaceuticals, biotechnology, medical technology, specialty chemicals, agrotechnology and nutraceuticals, with lab, R&D and operational support via JV Ventures' PoweRx platform."
+    },
+    "lifesci": {
+      "science_platform_notes": "Provides portfolio access to laboratories, networks and R&D services through PoweRx, the life-sciences vertical of JV Ventures."
+    },
+    "people": [
+      { "name": "Jasmeet Chhabra", "role": "Partner, IXP; Co-founder, JV Ventures" }
+    ],
+    "summary": {
+      "en": "Hyderabad-based, JV Ventures-backed early-stage life-sciences VC; its maiden IXP Lifesciences Catalyst Fund (INR 200 Cr + INR 100 Cr greenshoe, launched Feb 2025) targets 20-25 pre-seed to Series A biotech/medtech companies."
+    },
+    "sources": [
+      { "url": "https://yourstory.com/2025/02/ixp-launches-rs-200-cr-fund-to-support-early-stage-biotech-startups", "title": "IXP launches Rs 200 Cr fund to support early-stage biotech startups", "publisher": "YourStory", "accessed": "undefined", "supports": "INR 200 Cr fund + greenshoe; JV Ventures-backed; pre-seed to Series A; 20-25 companies; sectors; PoweRx", "quote": "a corpus of Rs 200 crore, with an additional Rs 100 crore greenshoe option to support companies from pre-seed to Series A stages" },
+      { "url": "https://www.biospectrumindia.com/news/86/25661/ixp-launches-maiden-rs-200-cr-fund-to-fuel-biotech-innovation.html", "title": "IXP launches maiden Rs 200 Cr fund to fuel biotech innovation", "publisher": "BioSpectrum India", "accessed": "undefined", "supports": "Maiden biotech fund; life-sciences focus", "quote": "IXP launches maiden Rs 200 Cr fund to fuel biotech innovation" }
+    ],
+    "confidence": "high",
+    "verification_notes": "New (2025) maiden fund; official IXP domain not confirmed in search — primary reference is fund-launch coverage. Backed by JV Ventures (co-founded by Jasmeet Chhabra); Hyderabad-based.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-sabre-partners",
+    "name": { "en": "Sabre Partners" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "offices": [{ "country": "India", "city": "Mumbai" }],
+    "website": "https://sabre-partners.com/",
+    "links": {
+      "linkedin": "https://in.linkedin.com/company/sabrepartners"
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "check_size": { "raw": "INR 15–75 crores" },
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-services", "digital-health", "diagnostics", "medtech-devices"],
+      "thesis": "India-focused private equity firm investing growth capital in healthcare/health-tech and financial services; its healthcare practice backs technology-first care-delivery, diagnostics and digital-health businesses."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "ekincare", "sector": "corporate digital health", "outcome": "active" },
+        { "company": "Portea Medical", "sector": "home healthcare", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Mumbai private equity firm (founded 2002) investing INR 15-75 crore of growth capital across healthcare/health-tech and financial services; healthcare bets include ekincare and Portea."
+    },
+    "sources": [
+      { "url": "https://sabre-partners.com/", "title": "Sabre Partners", "publisher": "Sabre Partners", "accessed": "undefined", "supports": "India-focused PE; healthcare + financial services; check size", "quote": "invests growth capital (ticket sizes INR 15–75 crores) in companies operating in the financial services and healthcare sectors" },
+      { "url": "https://tracxn.com/d/private-equity/sabre-partners/__KWdGEt10nwT3lYMdii_DScOyTWFr5pmztTxn1pHXNnc", "title": "Sabre Partners - Investor Profile, Portfolio & Team", "publisher": "Tracxn", "accessed": "undefined", "supports": "Founded 2002; Mumbai; healthcare/healthtech investments", "quote": "Sabre Partners is a private equity firm founded in 2002 and based in Mumbai, India" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Dual-vertical firm (financial services + healthcare/health-tech); included for its substantial, long-standing healthcare practice. Reported to have invested >INR 1,300 Cr over ~15 years across both verticals.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-pi-ventures",
+    "name": { "en": "pi Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bengaluru",
+    "offices": [{ "country": "India", "city": "Bengaluru" }],
+    "website": "https://www.piventures.in/",
+    "links": {
+      "linkedin": "https://in.linkedin.com/company/pi-ventures"
+    },
+    "capital": {
+      "funds": [
+        { "name": "pi Ventures Fund II", "size": { "raw": "INR 702 Cr ($85 Mn)", "usd": 85000000, "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["India"],
+      "sector_focus": ["ai-drug-discovery", "diagnostics", "digital-health", "generalist-health"],
+      "thesis": "Early-stage deep-tech VC (self-described as India's first and largest deeptech fund) investing across AI/ML, robotics and life sciences/biotech; its healthcare bets include AI diagnostics and computational biology."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "science_platform_notes": "Life-sciences/biotech is one of several deep-tech verticals; health portfolio includes AI-driven diagnostics and drug-discovery companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Niramai", "sector": "AI breast-cancer screening", "outcome": "active" },
+        { "company": "ImmunitoAI", "sector": "AI drug discovery / antibody design", "outcome": "active" },
+        { "company": "Wysa", "sector": "AI mental-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Bengaluru deep-tech VC (Fund II INR 702 Cr / $85M) whose life-sciences/biotech vertical backs AI healthcare and drug-discovery startups such as Niramai, ImmunitoAI and Wysa."
+    },
+    "sources": [
+      { "url": "https://inc42.com/buzz/pi-ventures-closes-fund-ii-at-inr-702-cr-to-invest-in-spacetech-ai-other-deeptech-sectors/", "title": "pi Ventures Closes Fund II At INR 702 Cr", "publisher": "Inc42", "accessed": "undefined", "supports": "Fund II INR 702 Cr / $85M; biotech/deeptech scope", "quote": "the final close of its second fund with a total commitment of INR 702 Cr ($85 Mn)" },
+      { "url": "https://www.piventures.in/", "title": "pi Ventures | Early Stage Deep Tech Venture Capital", "publisher": "pi Ventures", "accessed": "undefined", "supports": "Deep-tech incl. life sciences/biotech; AI/ML focus", "quote": "invests across diverse sectors such as artificial intelligence (AI), machine learning (ML), robotics, energy, life sciences, quantum computing" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Primarily a deep-tech/AI VC, not a pure biomedical fund; included for its explicit life-sciences/biotech thesis and notable health-tech portfolio (Niramai, ImmunitoAI, Wysa). Founding year cited as 2016 (some sources 2017).",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "in-aarin-capital",
+    "name": { "en": "Aarin Capital" },
+    "type": "vc",
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bengaluru",
+    "offices": [{ "country": "India", "city": "Bengaluru" }],
+    "website": "https://aarincapital.com/",
+    "capital": {
+      "aum": { "raw": "around $100m", "usd": 100000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health", "generalist-health"],
+      "thesis": "Proprietary venture fund investing in technology-intensive businesses in life-sciences & healthcare (alongside education and other India-first opportunities) at seed and Series A."
+    },
+    "summary": {
+      "en": "Bengaluru proprietary venture fund (~$100M AUM) backing technology-intensive life-sciences & healthcare companies (plus education) at seed/Series A."
+    },
+    "sources": [
+      { "url": "https://aarincapital.com/", "title": "Aarin - Inspired Capital", "publisher": "Aarin Capital", "accessed": "undefined", "supports": "Life-sciences & healthcare focus; seed/Series A", "quote": "invests in technology-intensive businesses in life-sciences & healthcare, education and other potentially large India-centric or India-first market opportunities" },
+      { "url": "https://privateequitylist.com/investors/aarin-capital", "title": "Aarin Capital - Private Equity List", "publisher": "Private Equity List", "accessed": "undefined", "supports": "~$100M AUM; seed/Series A stages", "quote": "Aarin Capital has around $100m assets under management" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Multi-sector proprietary fund (life-sciences & healthcare + education); included for its core life-sciences/healthcare thesis. Founding year not verified from a primary source.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  }
+]

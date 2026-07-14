@@ -1,0 +1,681 @@
+[
+  {
+    "id": "tw-diamond-biofund",
+    "name": { "en": "Diamond BioFund", "local": "鑽石生技投資股份有限公司" },
+    "aka": ["鑽石生技投資", "鑽石投資", "Diamond Biofund", "6901"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.diamondbiofund.com/",
+    "links": { "other": ["https://www.diamondbiofund.com/en/index/", "https://www.diamondbiofund.com/investment/"] },
+    "capital": {
+      "current_fund": { "raw": "資本額約新台幣50億元 (NT$5 billion)", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "United States", "Israel"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Taiwan's first large-scale evergreen (permanent-capital) biotech venture fund, backed by leading financial groups; provides long-term capital to high-risk new-drug R&D and advanced/precision medical devices rather than the typical 7-10 year VC exit horizon."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "20+",
+      "notable_investments": [
+        { "company": "合一生技 (Hemanow)", "sector": "therapeutics", "outcome": "unicorn" },
+        { "company": "醣基生醫 (GlycoTech)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "欣耀生醫 (Shinyo Biomedical)", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "EyeYon Medical (Israel)", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "路孔明 (Lu Kong-ming)", "role": "Chairman" }
+    ],
+    "summary": {
+      "en": "Taiwan's first large-scale evergreen biotech VC (est. 2013 by the Microbio/Zhongtian group with Fubon, Taishin and Ruentex financial groups); listed on the Emerging Stock Board (6901) in July 2022 and has nurtured 20+ biotech startups including several billion-dollar-valuation companies.",
+      "local": "台灣第一家大型永續型(常青)生技創投,2013年由中天生技集團偕富邦金、台新金、潤泰集團成立,2022年7月登錄興櫃(6901),已投資孕育逾20家生技新創,含多家獨角獸。"
+    },
+    "sources": [
+      { "url": "https://geneonline.news/taiwan-diamond-biofund/", "title": "臺灣第一家大型生技創投登錄興櫃,鑽石生技投資孕育出多家生技獨角獸", "publisher": "GeneOnline News", "accessed": "undefined", "supports": "founded 2013, NT$5B capital, shareholders Fubon/Taishin/Ruentex, emerging board 6901 (2022-07-25), portfolio 合一/醣基/欣耀/EyeYon, chairman 路孔明", "quote": "Founded: 2013 (by Zhongtian Biotech); Capital: TWD 5 billion (新台幣 50 億元); Listed on emerging board (興櫃) on July 25, 2022; stock code 6901" },
+      { "url": "https://www.diamondbiofund.com/en/index/", "title": "Diamond Biofund", "publisher": "Diamond BioFund", "accessed": "undefined", "supports": "official website, investment focus on biotech drugs and precision medical devices" }
+    ],
+    "confidence": "high",
+    "verification_notes": "One search summary rendered capital as 'NT$50 billion'; the GeneOnline article and company reporting give 資本額約新台幣50億元 (~NT$5 billion) — the smaller figure is correct. Evergreen fund structure emphasised in company materials.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-taiwania-biotech-funds",
+    "name": { "en": "Taiwania Capital Biotech Funds (Water Buffalo BioFunds)", "local": "台杉投資 水牛生技基金" },
+    "aka": ["台杉水牛生技基金", "水牛二號生技基金", "水牛三號生技基金", "Taiwania Buffalo Biotech Fund", "台杉生技基金"],
+    "type": "vc",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taiwaniacapital.com/",
+    "links": { "other": ["https://www.taiwaniacapital.com/tw/portfolios/category"] },
+    "capital": {
+      "funds": [
+        { "name": "台杉水牛二號生技基金 (Buffalo II Biotech Fund)", "vintage_year": 2018, "size": { "raw": "新台幣59億元", "usd": null, "currency": "TWD" } },
+        { "name": "台杉水牛三號生技基金 (Buffalo III Biotech Fund)", "vintage_year": null, "size": { "raw": "新台幣16.4億元", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "diagnostics", "digital-health"],
+      "thesis": "The dedicated biotech vertical of Taiwania Capital, a national-level investment company seeded by the National Development Fund; the Buffalo (水牛) biotech funds back large- and small-molecule new drugs, regenerative medicine, drug delivery and cell/gene therapy, plus digital & precision medicine in Buffalo III."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy", "drug-delivery"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "20 (Buffalo II)",
+      "notable_investments": [
+        { "company": "台康生技 (EirGenix)", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "C4 Therapeutics (US)", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Frequency Therapeutics (US)", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Viracta Therapeutics (US)", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Taiwania Capital's biotech funds (the 'Water Buffalo' series): Buffalo II (NT$5.9B, 2018) invested in 20 companies across large/small-molecule new drugs, regenerative medicine, drug delivery and cell/gene therapy; Buffalo III (NT$1.64B) targets digital & precision medicine. Portfolio includes EirGenix, C4 Therapeutics, Frequency and Viracta.",
+      "local": "台杉投資旗下生技基金(水牛系列):水牛二號(59億元,2018)投資20家公司,涵蓋大小分子新藥、再生醫學、藥物傳輸與細胞/基因治療;水牛三號(16.4億元)聚焦數位及精準醫療。"
+    },
+    "sources": [
+      { "url": "https://www.ctee.com.tw/news/20230329701021-439803", "title": "台杉投資2基金 注資生技新創投好投滿", "publisher": "工商時報", "accessed": "undefined", "supports": "Buffalo biotech funds sizes and investment scope" },
+      { "url": "https://tw.news.yahoo.com/%E6%B0%B4%E7%89%9B%E4%BA%8C%E8%99%9F%E7%99%BC%E5%A8%81-%E5%8F%B0%E6%9D%89-6%E5%A4%A7%E5%9F%BA%E9%87%91-%E8%A6%8F%E6%A8%A1257-5%E5%84%84-094026867.html", "title": "水牛二號發威！台杉「6大基金」規模257.5億", "publisher": "Yahoo News / 工商時報", "accessed": "undefined", "supports": "水牛二號59億元 (2018), 20 companies; 水牛三號16.4億元; Taiwania six funds total NT$25.75bn", "quote": "台杉水牛二號、三號生技基金分別有59億元、16.4億元的規模" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Parent Taiwania Capital is a national-level fund manager (40% seeded by the Executive Yuan National Development Fund, 2017) and may be covered as a tier-1 firm by a sibling slice; this entity is scoped to its dedicated biotech (Water Buffalo) funds per the assigned anchor. Total NT$25.75B (257.5億) figure covers all six Taiwania funds, not biotech alone. Buffalo IV/V are technology (not biotech) funds.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-everbright-biofund",
+    "name": { "en": "Everbright Biofund", "local": "永明生技投資股份有限公司" },
+    "aka": ["永明生技投資", "Everbright Biofund"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2024,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://everbright.fund/",
+    "links": { "other": ["https://everbright.fund/en/everbright-biofund/", "https://www.crunchbase.com/organization/everbright-biofund"] },
+    "capital": {
+      "current_fund": { "raw": "首期資本額新台幣30億元 (NT$3 billion first phase)", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "cell-gene-therapy"],
+      "thesis": "Evergreen 'patient capital' biotech fund initiated by the Institute for Biotechnology and Medicine Industry (IBMI / 生策中心) to bridge Taiwan's 'valuation valley' between world-class research and market, using IBMI's 20-year database and expert network for deep technical vetting."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "cell-therapy", "vaccines"],
+      "company_creation": false,
+      "science_platform_notes": "Leverages IBMI (生技醫療產業策進會/生策中心) expert network and 20-year industry database for technical due diligence."
+    },
+    "track_record": {
+      "portfolio_count": 4,
+      "notable_investments": [
+        { "company": "Iambic Therapeutics (US)", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "StemCyte (Taiwan)", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "Syncell 新析生技", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "ImmunAdd 優億", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "楊泮池 (Yang Pan-chi)", "role": "Fund director / IBMI vice chair", "background": "Academician, former President of National Taiwan University; leading pulmonary/lung-cancer physician-scientist" }
+    ],
+    "summary": {
+      "en": "Evergreen biotech VC launched December 2024 by IBMI (生策中心) with an initial NT$3 billion, backed by major Taiwanese tech/financial family offices; provides long-horizon capital and, within its first year, backed four biomedical startups spanning AI drug discovery, spatial proteomics, cord-blood cell therapy and synthetic vaccine adjuvants.",
+      "local": "2024年12月由生策中心(IBMI)發起成立的永續型生技創投,首期30億元,由多家台灣科技與金融家族辦公室支持;成立一年內已投資AI製藥、空間蛋白質體、臍帶血細胞治療與全合成疫苗佐劑等4家生醫新創。"
+    },
+    "sources": [
+      { "url": "https://geneonline.news/taiwan-evergreen-biotech-vc-fund-everbright/", "title": "整合產學研醫,永續型生技創投鏈結世界與台灣", "publisher": "GeneOnline News", "accessed": "undefined", "supports": "Dec 2024 launch, NT$3B first phase, IBMI initiator, 楊泮池 fund director, evergreen model, 4 portfolio companies (Iambic, StemCyte, Syncell, ImmunAdd)", "quote": "established in December 2024 with initial funding of NT$3 billion" },
+      { "url": "https://everbright.fund/en/everbright-biofund/", "title": "Everbright Biofund", "publisher": "Everbright Biofund", "accessed": "undefined", "supports": "official website" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Backers described as the Tsai/Wu/Yeh/Hung family offices alongside IBMI; exact chairman naming varied across secondary sources so only the IBMI-linked fund director (楊泮池) is listed. Not to be confused with China Everbright Limited (Hong Kong), an unrelated group.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-cdib-bioscience-ventures",
+    "name": { "en": "CDIB BioScience Ventures I", "local": "生華創業投資股份有限公司" },
+    "aka": ["生華創投", "CDIB BioScience Ventures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2002,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "New Taipei City",
+    "website": "https://www.cdibbiosciencevc.com/",
+    "links": { "other": ["https://findit.org.tw/en/Investor/TEF4cVl0T1NGakdxYzg4VktmSXFuZz09"] },
+    "capital": {
+      "current_fund": { "raw": "資本額 新台幣25.00億元 (NT$2.5 billion)", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "United States", "Asia"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "One of Taiwan's largest and longest-running dedicated biotech VC funds; invests mainly in pharmaceuticals & biotech drugs (50%), technology platforms (20%) and medical instruments (20%), typically as lead investor in North American and Asian drug-development companies."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "胡定吾 (Ding-Wu Hu)", "role": "Chairman / responsible person of the manager", "background": "Former CEO/Chairman of China Development Industrial Bank (中華開發/CDIB), grew CDIB's investment scale from US$250M to US$3B" }
+    ],
+    "summary": {
+      "en": "A NT$2.5 billion dedicated biotech VC fund (est. 2002) managed by Senhwa Bioscience Consulting under veteran investor Ding-Wu Hu (ex-CDIB chairman); focuses on biotech drugs and pharmaceuticals, described as one of Taiwan's largest and only consistently profitable biotech VC funds over its first 15 years.",
+      "local": "2002年成立、資本額25億元的專業生技創投,由生華生物技術顧問(胡定吾)管理,聚焦生技新藥與製藥,為台灣規模最大且長期少數獲利的生技創投之一;國發基金持股24%。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國內生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "資本額 25.00億台幣, 投資日期 91/6/27 (2002), NDF 24.00%, manager 生華生物技術顧問(股), 負責人 胡定吾, website cdibbiosciencevc.com", "quote": "生華創業投資(股)公司  生華生物技術顧問(股)公司  胡定吾  25.00  91/6/27  24.00%" },
+      { "url": "https://findit.org.tw/en/Investor/TEF4cVl0T1NGakdxYzg4VktmSXFuZz09", "title": "CDIB BioScience Ventures I, Inc.", "publisher": "FINDIT (經濟部/工研院)", "accessed": "undefined", "supports": "English name CDIB BioScience Ventures I, biotech investment focus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Legal name 生華創業投資; official English is 'CDIB BioScience Ventures I' (legacy branding from Ding-Wu Hu's CDIB era). Manager 生華生物技術顧問 shares the 生華 name with drug developer Senhwa Biosciences (6492), also chaired by 胡定吾. Distinct from '中華開發生醫創投' (a separate CDIB Capital fund with a different manager).",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-cdib-capital-biomedical",
+    "name": { "en": "CDIB Capital Biomedical Venture", "local": "中華開發生醫創業投資" },
+    "aka": ["中華開發生醫創投", "中華開發貳生醫創業投資", "CDIB Biomedical", "CDIB Capital Group"],
+    "type": "vc",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.cdibcapitalgroup.com/zh-tw",
+    "capital": {
+      "funds": [
+        { "name": "中華開發生醫創業投資(股)公司 (CDIB Biomedical Venture I)", "vintage_year": 2015, "size": { "raw": "資本額 新台幣17.50億元", "usd": null, "currency": "TWD" } },
+        { "name": "中華開發貳生醫創業投資有限合夥 (CDIB Biomedical Venture II)", "vintage_year": 2020, "size": { "raw": "資本額 新台幣31.10億元", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "North America", "Asia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Dedicated biomedical venture funds of CDIB Capital (the PE/VC arm of China Development Financial 開發金控); the biomedical team invests 100% in biotech/medical companies in North America and Asia, typically leading rounds in biotech drug developers."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "50+ (biomedical team, over 10 years)"
+    },
+    "summary": {
+      "en": "The dedicated biomedical venture funds of CDIB Capital (中華開發資本): Fund I (NT$1.75B, 2015) and Fund II (NT$3.11B, 2020) invest 100% in biotech/medical companies across North America and Asia; the biomedical team has invested in 50+ biotech companies and raised over US$1B for its funds over the past decade.",
+      "local": "中華開發資本旗下專業生醫創投:一號(17.5億元,2015)、貳號(31.1億元,2020),100%投資北美與亞洲生技醫療公司,團隊十餘年投資逾50家生技公司。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國內生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "Fund I 資本額 17.50億 (投資日期 104/8/22, NDF 25.71%); Fund II 資本額 31.10億 (109/11/18, NDF 28.94%); manager 中華開發資本管理顧問, 負責人 何俊輝", "quote": "中華開發生醫創業投資(股)公司  中華開發資本管理顧問(股)公司  何俊輝  17.50  104/8/22  25.71%" },
+      { "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=1142", "title": "中華開發資本股份有限公司", "publisher": "環球生技月刊 GlobalBio", "accessed": "undefined", "supports": "CDIB biomedical team invested 50+ biotech companies, raised >US$1B, 10+ years experience investing in North American/Asian biotech" }
+    ],
+    "confidence": "high",
+    "verification_notes": "CDIB Capital (part of China Development Financial / 開發金控, now under KGI) is a large multi-strategy PE/VC group that may be treated as tier-1 by a sibling slice; this entity is scoped to its two dedicated biomedical venture funds. Subtype 'cvc' reflects the financial-holding parent. Manager 何俊輝 leads the CDIB Capital management company.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-taian-eminent-venture",
+    "name": { "en": "Taian Technology / Eminent Venture Capital", "local": "台安生物科技 / 啟航創業投資" },
+    "aka": ["台安生技", "啟航創投", "啟航貳創投", "啟航參創投", "Eminent Venture Capital"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2005,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taiantech.com/",
+    "capital": {
+      "funds": [
+        { "name": "啟航創業投資 (Eminent Venture Capital)", "vintage_year": 2005, "size": { "raw": "資本額 新台幣10.00億元", "usd": null, "currency": "TWD" } },
+        { "name": "啟航貳創業投資 (Eminent II Venture Capital)", "vintage_year": 2012, "size": { "raw": "資本額 新台幣10.81億元", "usd": null, "currency": "TWD" } },
+        { "name": "啟航參創業投資 (Eminent III Venture Capital)", "vintage_year": 2017, "size": { "raw": "資本額 新台幣18.12億元", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Dedicated biotech VC managed by Taian Technology (台安生物科技); the Eminent (啟航) fund series invests 100% in biotech, spanning new-drug R&D, precision diagnostics, AI drug discovery and digital health from seed through mature stages."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "安立璽榮生醫 (Elixiron Immunotherapeutics)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "吳樹民 (Wu Shu-min)", "role": "Responsible person / Chairman of manager Taian Technology" }
+    ],
+    "summary": {
+      "en": "Biotech-focused VC managed by Taian Technology; runs the Eminent (啟航) fund series — Fund I (NT$1B, 2005), Fund II (NT$1.08B, 2012) and Fund III (NT$1.81B, 2017) — all investing 100% in biotech/new-drug companies, e.g. co-investing in Elixiron Immunotherapeutics' B round.",
+      "local": "由台安生物科技管理的生技創投,啟航系列基金(一號10億2005、貳號10.81億2012、參號18.12億2017)100%投資生技新藥,曾參與安立璽榮生醫B輪等。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國內生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "啟航 10.00億 (94/1/31, NDF 25%); 啟航貳 10.81億 (101/5/14, 24.05%); 啟航參 18.12億 (106/11/29, 30%); manager 台安生物科技, 負責人 吳樹民", "quote": "啟航創業投資(股)公司  台安生物科技(股)公司  吳樹民  10.00  94/1/31  25.00%" },
+      { "url": "https://www.taiantech.com/", "title": "台安生物科技 (Taian Technology)", "publisher": "Taian Technology", "accessed": "undefined", "supports": "official manager website; biotech investment focus" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded_year reflects the first Eminent fund (2005); the management company Taian Technology may predate it. The Elixiron (安立璽榮) B-round participation was reported in 2025 startup-funding coverage and is stated at medium confidence.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-sunsino-deryang-biotech",
+    "name": { "en": "Sunsino Venture Group / Der Yang Biotechnology Venture Capital", "local": "華陽創投集團 / 德陽生物科技創業投資" },
+    "aka": ["華陽創投", "SunSino Venture Group", "德陽生技創投", "德陽生物科技創業投資", "華陽中小企業開發"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2001,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.sunsino.com.tw/",
+    "links": { "linkedin": "https://tw.linkedin.com/company/sunsino" },
+    "capital": {
+      "aum": { "raw": "集團管理資產約新台幣40億元 (group AUM ~NT$4 billion)", "usd": null, "currency": "TWD" },
+      "funds": [
+        { "name": "德陽生物科技創業投資 (Der Yang Biotechnology Venture Capital)", "vintage_year": 2001, "size": { "raw": "資本額 新台幣2.70億元", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Der Yang, the biotech vehicle of the Sunsino Venture Group (華陽創投, est. 1993, one of few Taiwan VCs focused on early-stage tech and business-model innovation), invests 100% in biopharmaceuticals."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "Der Yang Biotechnology Venture Capital (NT$270M, est. 2001) is the biopharma-focused (100%) fund of the Sunsino Venture Group (華陽創投), a 1993-founded manager overseeing ~NT$4B across 16 funds with 250+ investments and ~80 IPO/M&A exits.",
+      "local": "德陽生物科技創投(資本額2.7億元,2001)為華陽創投集團(1993年成立)旗下100%投資生物製藥的基金;集團管理約40億元、16支基金、投資逾250家、約80件IPO/併購。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國內生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "德陽生物科技創業投資 資本額 2.70億 (投資日期 90/12/27, NDF 20%), manager 華陽中小企業開發, 負責人 王韋中, 生物製藥100%", "quote": "德陽生物科技創業投資(股)公司  華陽中小企業開發(股)公司  王韋中  2.70  90/12/27  20.00%" },
+      { "url": "https://www.sunsino.com.tw/", "title": "SUNSINO VENTURE GROUP", "publisher": "Sunsino Venture Group", "accessed": "undefined", "supports": "group est. 1993, ~NT$4B AUM, 16 funds, 250+ investments, ~80 IPO/M&A" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Sunsino/華陽 is a generalist early-stage group; only its dedicated biopharma vehicle (德陽生技創投, 生物製藥100%) is squarely in scope. Group-level AUM/portfolio figures describe all of Sunsino, not the biotech fund alone.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-tsc-bio-venture",
+    "name": { "en": "TSC Bio-Venture Capital Corp.", "local": "生源創業投資股份有限公司" },
+    "aka": ["生源創投", "TSC Bio-Venture Capital", "德欣生技投資顧問"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.tscventures.com/",
+    "capital": {
+      "current_fund": { "raw": "資本額 新台幣4.05億元", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "pharma-services"],
+      "thesis": "Biotech-only (生技 100%) VC managed by TSC/德欣生技投資顧問; allocates across pharmaceuticals (15%), bio-medical engineering (35%), medical devices (20%), biotechnology (20%) and biotech services (10%), mostly at build-up and mature stages."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "A NT$405M biotech-focused VC (est. 2004) managed by Deshin Biotech Investment Consulting; invests 100% in biotech spanning pharma, bio-medical engineering, medical devices and biotech services, chiefly at expansion and mature stages.",
+      "local": "2004年成立、資本額4.05億元的生技創投(生技100%),由德欣生技投資顧問管理,涵蓋製藥、生技醫工、醫療器材與生技服務,以擴充及成熟期為主;國發基金持股20%。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國內生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "資本額 4.05億 (投資日期 93/10/4, NDF 20%), manager 德欣生技投資顧問, 負責人 詹尚德", "quote": "生源創業投資(股)公司  德欣生技投資顧問(股)公司  詹尚德  4.05  93/10/4  20.00%" },
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33268/ad466ac7-412a-4ac5-9552-a20d2a0ca6e1.pdf", "title": "行政院國發基金投資創業投資事業基本聯絡資料", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "sector split: 生技100%, 製藥15%, 生技醫工35%, 醫療器材20%, 生物技術20%, 生技服務10%", "quote": "生技(100%) 製藥(15%) 生技醫工（35%） 醫療器材(20%) 生物技術(20%) 生技服務（10%）" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Manager registered via a BVI holding (英屬維京群島商德欣生技投資顧問) but the fund is Taiwan-domiciled and NDF-backed.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-boston-life-science-venture",
+    "name": { "en": "Boston Life Science Venture Corp.", "local": "波士頓生物科技創業投資股份有限公司" },
+    "aka": ["波士頓生技創投", "Boston Life Science Venture", "台灣工銀科技顧問"],
+    "type": "vc",
+    "status": "inactive",
+    "founded_year": 2003,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.ibtm.com.tw/",
+    "capital": {
+      "current_fund": { "raw": "資本額 新台幣20.00億元", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "ai-drug-discovery"],
+      "thesis": "Taipei-based biotech VC (managed by IBT Technology Consulting, part of the former Industrial Bank of Taiwan group) that invested across biotech drugs (40%), computational biology (25%), medical devices (20%) and healthcare services (15%)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 10,
+      "notable_investments": [
+        { "company": "台灣微脂體 Taiwan Liposome Company (TLC)", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "ConforMIS", "sector": "medtech-devices", "outcome": "IPO" },
+        { "company": "2-BBB (to-BBB)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "A NT$2 billion Taipei-based biotech VC (est. 2003, managed by IBT Technology Consulting of the former Industrial Bank of Taiwan) that backed ~10 drug-discovery and healthcare companies including Taiwan Liposome, ConforMIS and 2-BBB; now in liquidation.",
+      "local": "資本額20億元、2003年成立於台北的生技創投(台灣工銀科技顧問管理),投資約10家新藥與醫療公司,含台灣微脂體、ConforMIS、2-BBB;目前處於清算階段。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國內生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "資本額 20.00億 (投資日期 92/10/1, NDF 20%), manager 台灣工銀科技顧問, 負責人 葉瑞義", "quote": "波士頓生物科技創業投資(股)公司  台灣工銀科技顧問(股)公司  葉瑞義  20.00  92/10/1  20.00%" },
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33268/ad466ac7-412a-4ac5-9552-a20d2a0ca6e1.pdf", "title": "行政院國發基金投資創業投資事業基本聯絡資料", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "manager listed with liquidator (清算人：葉瑞義) indicating winding-down; sector split biotech drugs 40%/computational biology 25%/devices 20%/services 15%", "quote": "台灣工銀科技顧問股份有限公司 (清算人：葉瑞義)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Status set to inactive: the 2024-03-31 NDF general VC list names a liquidator (清算人 葉瑞義) for the management company, indicating the fund is winding down, though it still appears in the biotech-VC roster. Portfolio companies (TLC, ConforMIS, 2-BBB) per PitchBook/Crunchbase secondary profiles.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-iih-biomedical-integral",
+    "name": { "en": "IIH Biomedical Venture Fund I (Integral Group)", "local": "厚德生醫創業投資股份有限公司" },
+    "aka": ["厚德生醫創投", "IIH Biomedical Venture", "Integral 富厚投資", "厚德管理顧問"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.iih-group.com/",
+    "capital": {
+      "current_fund": { "raw": "資本額 新台幣6.19億元", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "United States", "Europe", "Greater China"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Biotech-only (生技 100%) venture fund managed by the Integral Group (厚德管理顧問/富厚投資), a value- and growth-oriented private-equity house; Integral is known for backing drug developer PharmaEssentia (藥華醫藥)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "藥華醫藥 (PharmaEssentia)", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "戴章揮", "role": "Responsible person of manager 厚德管理顧問" }
+    ],
+    "summary": {
+      "en": "A NT$619M biotech-focused venture fund (est. 2019) managed by the Integral Group (厚德/富厚投資), a Taipei PE house (founded 2009) investing in mid-sized companies across the US, Europe and Greater China; Integral is a notable backer of PharmaEssentia.",
+      "local": "2019年成立、資本額6.19億元的生技創投(生技100%),由Integral厚德/富厚投資(2009年成立的私募股權)管理,投資標的橫跨歐美與大中華;Integral為藥華醫藥重要股東。國發基金持股28.57%。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國內生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "資本額 6.19億 (投資日期 108/6/27, NDF 28.57%), manager 厚德管理顧問, 負責人 戴章揮, 生技100%", "quote": "厚德生醫創業投資(股)公司  厚德管理顧問(股)公司  戴章揮  6.19  108/06/27  28.57%" },
+      { "url": "https://www.iih-group.com/", "title": "Integral 富厚投資", "publisher": "Integral Group", "accessed": "undefined", "supports": "Integral PE founded 2009, value/growth investor in US/Europe/Greater China; PharmaEssentia connection" }
+    ],
+    "confidence": "high",
+    "verification_notes": "PharmaEssentia (藥華醫藥) is highlighted on Integral's own site as a landmark investment; the specific fund vehicle in scope is 厚德生醫創投 (biotech-only). Integral's broader PE activity is generalist.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-forward-bio-anrui",
+    "name": { "en": "Forward Bio Venture (Forward Asset Management)", "local": "富耀生醫創投有限合夥" },
+    "aka": ["富耀生醫創投", "安瑞管理顧問", "富耀基金", "Forward Asset Management"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://forwardasset.com.tw/",
+    "capital": {
+      "current_fund": { "raw": "實收出資額約新台幣8.92億元 (資本額登記6.25億元)", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "animal-health", "pharma-services"],
+      "thesis": "Biotech venture LP (生技醫療 100%) managed by the Anrui/Forward Asset Management team; targets technology-validated specialty-drug developers, animal-health biotech and pharma/CDMO service companies, pairing capital with Taiwan's world-class CDMO capacity."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "drug-delivery"],
+      "indications": ["rare-disease"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "心誠鎂行動醫電 (Trudell/Sinher Medical)", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "鍾威廉 (William Chung)", "role": "Responsible person of manager 安瑞管理顧問" }
+    ],
+    "summary": {
+      "en": "Forward Bio Venture LP (est. 2023; ~NT$892M paid-in by Feb 2024) is a biotech-only fund managed by the Anrui/Forward Asset Management team, targeting validated specialty drugs, animal-health biotech and pharma services; its first portfolio company listed on Taiwan's emerging board in June 2024.",
+      "local": "2023年成立的富耀生醫創投有限合夥(2024年2月實收約8.92億元),由安瑞管顧(富耀基金)管理,鎖定已驗證特色藥品、動物保健與生技醫藥服務;首家被投資公司心誠鎂2024年6月登錄興櫃。國發基金持股19.69%。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國內生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "資本額 6.25億 (投資日期 112/8/2, NDF 19.69%), manager 安瑞管理顧問, 負責人 鍾威廉", "quote": "富耀生醫創投有限合夥  安瑞管理顧問有限公司  鍾威廉  6.25  112/8/2  19.69%" },
+      { "url": "https://forwardasset.com.tw/", "title": "安瑞管理顧問 – 富耀基金", "publisher": "Forward Asset Management", "accessed": "undefined", "supports": "2024/2 實收出資額8.92億元, focus 特色藥品/動物保健/生技醫藥服務, first portfolio 心誠鎂 listed on emerging board 2024/6/25", "quote": "2024年2月實收出資額達新臺幣8.92億元,鎖定特色藥品、動物保健、生技醫藥服務" }
+    ],
+    "confidence": "high",
+    "verification_notes": "NDF roster records registered capital NT$6.25億 (2024-03-31); the manager's own site reports NT$8.92億 paid-in by Feb 2024 — both retained in money.raw. First portfolio company 心誠鎂 develops a repurposed off-patent antibiotic for cystic fibrosis.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-daiwa-taiwan-japan-biotech",
+    "name": { "en": "Daiwa Taiwan-Japan Biotech Funds (DCI Partners)", "local": "大和台日生技創業投資 (日商DCI合夥株式會社)" },
+    "aka": ["大和台日生技創投", "DCI Partners", "Daiwa Taiwan-Japan Biotech Fund", "大和企業投資"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "offices": [ { "country": "Japan", "city": "Tokyo" }, { "country": "Taiwan", "city": "Taipei" } ],
+    "website": "https://www.daiwa-inv.co.jp/dcip/ch/",
+    "capital": {
+      "funds": [
+        { "name": "Daiwa Taiwan-Japan Biotech Fund, L.P. (大和台日生技創投基金)", "vintage_year": 2015, "size": { "raw": "116.08 億日圓 (約新台幣24.38億元)", "usd": null, "currency": "JPY" } },
+        { "name": "Daiwa Taiwan-Japan BioVenture Investment II, L.P.", "vintage_year": 2021, "size": { "raw": "153 億日圓 (約新台幣32.13億元)", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Cross-border Taiwan-Japan biotech funds run by DCI Partners (the life-science VC arm of Japan's Daiwa Securities Group, formerly NIF), created with National Development Fund and Japan's SME Support agency; invests 100% in biotech/medical (生技醫療), supporting portfolio companies with drug-development, IP and licensing networks across Taiwan and Japan."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "DCI Partners (Daiwa Securities Group's life-science VC) runs two Taiwan-Japan cross-border biotech funds — Fund I (¥11.6B / ~NT$2.44B, 2015) and Fund II (¥15.3B / ~NT$3.21B, 2021) — investing 100% in biotech/medical and bridging the Taiwanese and Japanese biopharma ecosystems.",
+      "local": "DCI Partners(大和證券集團旗下生技創投,前身NIF)管理兩支台日跨境生技基金:一號(116億日圓/約24.38億台幣,2015)、二號(153億日圓/約32.13億台幣,2021),100%投資生技醫療,鏈結台日生醫產業。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國外生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "Fund I 基金規模 116.08億日圓 (~24.38億台幣, 投資日期104/2/26, NDF 23.26%); Fund II 153億日圓 (~32.13億台幣, 110/1/28, NDF 23.31%); manager DCI Partners Co Ltd, 負責人 成田宏紀", "quote": "Daiwa Taiwan-Japan Biotech Fund, L.P.  DCI Partners Co., Ltd.  成田宏紀  ... (116.08 億日圓)" },
+      { "url": "https://www.daiwa-inv.co.jp/dcip/ch/", "title": "日商DCI合夥株式會社", "publisher": "DCI Partners / Daiwa Corporate Investment", "accessed": "undefined", "supports": "Daiwa Securities Group life-science VC, 20+ years biotech investing, manages Japan's largest biotech funds, Taiwan-Japan fund" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Manager DCI Partners is headquartered in Tokyo (Daiwa Securities Group); included here because the two funds are dedicated Taiwan-Japan biotech vehicles co-backed by Taiwan's NDF with a Taipei presence. Fund sizes are as reported by NDF; one press source cited a first-round of ¥9.3B for Fund I.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-vivo-panda-fund",
+    "name": { "en": "Vivo Panda Fund (Vivo Capital Taiwan)", "local": "維梧資本 Vivo Panda 基金" },
+    "aka": ["Vivo Panda Fund", "維梧資本", "Vivo Capital", "美商維梧資本"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "offices": [ { "country": "United States", "city": "Palo Alto" }, { "country": "Taiwan", "city": "Taipei" } ],
+    "website": "https://vivocapital.com/",
+    "links": { "other": ["https://news.gbimonthly.com/tw/invest/show2.php?num=1102"] },
+    "capital": {
+      "funds": [
+        { "name": "Vivo Panda Fund, L.P.", "vintage_year": 2016, "size": { "raw": "1.00 億美元 (約新台幣32.00億元)", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "United States", "Greater China"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "The Taiwan-dedicated fund of Vivo Capital, a global healthcare-only investment firm; Vivo Panda invests 100% in biotech/medical, deploying pharma and medical-device capital into Taiwanese companies and connecting them to Vivo's US and Greater-China platform."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false,
+      "invests_public_markets": true,
+      "science_platform_notes": "Part of Vivo Capital's global platform (Fund IX, Vivo Opportunity crossover fund, Vivo Innovation Fund), ~US$70B+ managed globally per company materials."
+    },
+    "people": [
+      { "name": "孔繁建 (Frank Kung)", "role": "Founder, Vivo Capital" }
+    ],
+    "summary": {
+      "en": "Vivo Panda Fund (US$100M / ~NT$3.2B, 2016) is Vivo Capital's Taiwan-dedicated healthcare fund investing 100% in biotech/medical; Vivo, founded 1996 with a Taipei office since 2015, is a global healthcare-only investor and also launched Taiwan's first biotech private-equity fund with Cathay United Bank in 2023.",
+      "local": "Vivo Panda基金(1億美元/約32億台幣,2016)為維梧資本(Vivo Capital)在台灣的專屬醫療基金,100%投資生技醫療;維梧1996年成立、2015年設台北據點,並於2023年偕國泰世華推出全台首檔生技私募股權基金。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國外生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "Vivo Panda Fund 基金規模 1.00億美元 (~32.00億台幣, 投資日期105/6/15, NDF 19.94%), manager Vivo Capital LLC, 負責人 Frank Kung", "quote": "Vivo Panda Fund L.P.  Vivo Capital, LLC  Frank Kung  ... (2,000 萬美元) (1.00 億美元)" },
+      { "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=1102", "title": "美商維梧資本有限公司", "publisher": "環球生技月刊 GlobalBio", "accessed": "undefined", "supports": "Vivo founded 1996, Taiwan branch 2015, Vivo Panda Fund US$100M, healthcare-only, offices in California/Beijing/Shanghai/HK/Taipei" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Vivo Capital is HQ'd in Palo Alto, USA; included because Vivo Panda is a Taiwan-dedicated, NDF-backed fund with a Taipei office. Global-platform figures (Fund IX US$1.4B, Vivo Opportunity US$630M, etc.) describe Vivo worldwide, not the Taiwan fund. NDF committed US$20M (承諾金額) into the US$100M fund.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-hercules-bioventure",
+    "name": { "en": "Hercules Bioventure", "local": "Hercules 生技創投" },
+    "aka": ["Hercules Bioventure II", "Hercules BioVenture Partners", "Hercules Bioventure Partners Taiwan"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "offices": [ { "country": "United States", "city": "" }, { "country": "Taiwan", "city": "Taipei" } ],
+    "links": { "other": ["https://findit.org.tw/tw/Investor/cWNIVVR0NkhmQzdrWGxYYTdQWkdkdz09"] },
+    "capital": {
+      "funds": [
+        { "name": "Hercules Bioventure II, L.P.", "vintage_year": 2023, "size": { "raw": "2,260 萬美元 (約新台幣7.23億元)", "usd": 22600000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Early-stage Taiwan-US biotech VC investing 100% in biotech/medical (生技醫療); backs early biotech and pharmaceutical startups in the US and Taiwan, with a portfolio spanning US- and Taiwan-listed companies."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "vaccines"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "優億 ImmunAdd", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "李家榮", "role": "Manager principal, Hercules BioVenture Partners" }
+    ],
+    "summary": {
+      "en": "Hercules Bioventure (Fund II US$22.6M / ~NT$723M, 2023) is an early-stage Taiwan-US biotech VC (manager Hercules BioVenture Partners, led by Lee Chia-jung) investing 100% in biotech; its Taiwan entity is based in Taipei and it has backed US- and Taiwan-listed biotech companies.",
+      "local": "Hercules生技創投(二號基金2,260萬美元/約7.23億台幣,2023),由Hercules BioVenture Partners(李家榮)管理,100%投資生技醫療,聚焦早期台美生技新藥;台灣公司設於台北。國發基金持股25%。"
+    },
+    "sources": [
+      { "url": "https://ws.ndc.gov.tw/001/administrator/32/relfile/7024/33269/9aa78b29-f8c4-4db3-8a8f-a383ed955c83.pdf", "title": "國發基金投資國外生技創投事業基本資料聯絡總表 (製表日期113.3.31)", "publisher": "行政院國家發展基金", "accessed": "undefined", "supports": "Hercules Bioventure II 基金規模 2,260萬美元 (~7.23億台幣, 投資日期112/12/15, NDF 25%), manager Hercules BioVenture Partners LLC, 負責人 李家榮", "quote": "Hercules Bioventure II, L.P.  Hercules BioVenture Partners, LLC  李家榮  ... (565 萬美元) (2,260 萬美元)" },
+      { "url": "https://findit.org.tw/tw/Investor/cWNIVVR0NkhmQzdrWGxYYTdQWkdkdz09", "title": "Hercules Bioventure, L.P.", "publisher": "FINDIT (經濟部/工研院)", "accessed": "undefined", "supports": "Taiwan entity Hercules Bioventure Partners Taiwan Co Ltd (Taipei), invests early-stage US/Taiwan biotech; 2 US-listed and 4 Taiwan-listed portfolio companies" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Manager Hercules BioVenture Partners LLC is US-based (contact via a gmail address in NDF roster); Taiwan operating entity 'Hercules Bioventure Partners Taiwan Co Ltd' is in Taipei. ImmunAdd (優億) participation reported via GBI Monthly funding coverage; treated at medium confidence.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "tw-yiding-bio-venture",
+    "name": { "en": "Yiding Bio Venture Capital", "local": "益鼎生技創業投資股份有限公司" },
+    "aka": ["益鼎生技創投", "益鼎創投", "TOP Taiwan Venture Group"],
+    "type": "vc",
+    "status": "active",
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.yidingfund.com/",
+    "links": { "other": ["http://www.toptaiwan.com.tw/toptaiwan/"] },
+    "capital": {
+      "current_fund": { "raw": "登記資本額 新台幣8億元 (實收8億元)", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Dedicated biotech vehicle within the Yiding (TOP Taiwan) venture group, one of Taiwan's largest generalist VC managers (250+ portfolio companies); the bio arm invests in biotech/medical new drugs and the broader health economy, partnering with healthcare operators such as Sheng Hong and Great Tree Pharmacy."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "杏國新藥 (SyneuRx/ScinoPharm-linked)", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "環瑞醫 (EBM Technologies)", "sector": "medtech-devices", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Yiding Bio Venture Capital (registered capital NT$800M) is the dedicated biotech arm of the Yiding / TOP Taiwan venture group — a major generalist VC manager with 250+ investments — targeting biotech/medical new drugs and the wider health economy; past biotech exits include Xing-Guo (杏國) and EBM Technologies (環瑞醫).",
+      "local": "益鼎生技創業投資(登記資本額8億元)為益鼎創投集團(TOP Taiwan,綜合型大型創投、投資逾250家)旗下專屬生技投資公司,聚焦生技醫藥新藥與大健康;過往生技退出案含杏國新藥、環瑞醫。"
+    },
+    "sources": [
+      { "url": "https://www.twincn.com/item.aspx?no=24794352", "title": "益鼎生技創業投資股份有限公司-台灣公司網", "publisher": "台灣公司網 (twincn)", "accessed": "undefined", "supports": "益鼎生技創業投資 登記資本額800,000,000元 實收800,000,000元, 負責人 邱德成, biotech VC", "quote": "益鼎生技創業投資股份有限公司的登記資本額為800,000,000元（實收資本額800,000,000元）,負責人為邱德成" },
+      { "url": "https://www.yidingfund.com/", "title": "益鼎創投 | 益鼎創業投資管理股份有限公司", "publisher": "Yiding Venture Capital", "accessed": "undefined", "supports": "Yiding group 250+ portfolio companies, biomedical/health among focus sectors, partners Sheng Hong/Great Tree" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The parent Yiding/TOP Taiwan group is a generalist VC (electronics, biomed, e-commerce) and may be tier-1; only its dedicated biotech company (益鼎生技創業投資, capital NT$800M) is in scope. Founded year not confirmed. Portfolio exits 杏國/環瑞醫 attributed to the Yiding group's biomed funds in secondary coverage.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "in-peak-xv-partners",
+    "name": { "en": "Peak XV Partners" },
+    "aka": ["Sequoia Capital India & Southeast Asia", "Sequoia Capital India"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "website": "https://www.peakxv.com/",
+    "capital": {
+      "aum": { "raw": "$9+ billion", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["India", "Southeast Asia"],
+      "sector_focus": ["generalist-health", "digital-health", "healthcare-services"],
+      "thesis": "Peak XV Partners (formerly Sequoia Capital India & SEA) is the region's largest generalist venture and growth investor; alongside SaaS, fintech and consumer it runs healthtech as an explicit sector vertical and holds healthcare positions such as branded-generics pharma company Akumentis Healthcare."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Akumentis Healthcare", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Peak XV Partners is India & SEA's largest multi-sector VC/growth firm (formerly Sequoia Capital India), investing seed-to-growth across SaaS, fintech, consumer and an explicit healthtech vertical that includes branded-generics pharma company Akumentis Healthcare."
+    },
+    "sources": [
+      { "url": "https://www.peakxv.com/our-companies", "title": "Companies | Peak XV", "publisher": "Peak XV Partners", "accessed": "undefined", "supports": "portfolio directory including healthtech" },
+      { "url": "https://www.businesswire.com/news/home/20230606005677/en/Sequoia-India-Southeast-Asia-Is-Now-Peak-XV-Partners", "title": "Sequoia India & Southeast Asia Is Now Peak XV Partners", "publisher": "Business Wire", "accessed": "undefined", "supports": "rebrand from Sequoia Capital India & SEA to Peak XV Partners", "quote": "Sequoia India & Southeast Asia Is Now Peak XV Partners" },
+      { "url": "https://healthcarevclist.com/vcs/peak-xv-partners-peakxvcom/", "title": "Peak XV Partners | HealthcareVCList.com", "publisher": "HealthcareVCList", "accessed": "undefined", "supports": "listed as an active healthcare investor; Akumentis Healthcare portfolio holding" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AUM figure and sector breadth are drawn from secondary aggregator summaries; the firm's own site was not deep-crawled for a complete healthtech portfolio list, and healthcarevclist.com could not be directly fetched (403).",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-chiratae-ventures",
+    "name": { "en": "Chiratae Ventures" },
+    "aka": ["IDG Ventures India"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2006,
+    "hq_city": "Bengaluru",
+    "region": "india",
+    "country": "India",
+    "website": "https://www.chiratae.com/",
+    "capital": {
+      "aum": { "raw": "$1.3 Bn", "usd": 1300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "digital-health", "consumer-health"],
+      "thesis": "Chiratae Ventures (formerly IDG Ventures India) is a generalist Bengaluru VC investing across consumertech, fintech, SaaS and deep tech that has built a recurring healthtech vertical, leading the $120M Series D in fitness/wellness 'super app' Cure.fit (Cult.fit) and backing nutrition-tracking app HealthifyMe."
+    },
+    "track_record": {
+      "portfolio_count": "189",
+      "notable_investments": [
+        { "company": "Cure.fit / Cult.fit", "sector": "consumer-health", "outcome": "active" },
+        { "company": "HealthifyMe", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Chiratae Ventures is an 18-year-old Bengaluru generalist tech VC (formerly IDG Ventures India, ~$1.3B advised AUM) whose healthtech bets include leading Cure.fit/Cult.fit's $120M Series D and backing HealthifyMe."
+    },
+    "sources": [
+      { "url": "https://www.chiratae.com/cure-fit-raises-120-million-in-series-c-funding/", "title": "Cure.fit raises $120 million in Series C Funding - Chiratae Ventures", "publisher": "Chiratae Ventures", "accessed": "undefined", "supports": "Cure.fit / Cult.fit investment", "quote": "Chiratae Ventures (formerly IDG Ventures) led the Series D round raising $120 million" },
+      { "url": "https://inc42.com/features/decoding-chiratae-ventures-near-two-decade-long-journey-across-indian-startup-ecosystem/", "title": "Decoding Chiratae Ventures' Near-Two-Decade-Long Journey Across Indian Startup Ecosystem", "publisher": "Inc42", "accessed": "undefined", "supports": "AUM and fund track record", "quote": "advised funds that collectively (across seven funds) have $1.3 Bn AUM, 130+ investments, 56 exits, eight Unicorns, four IPOs" },
+      { "url": "https://www.chiratae.com/companies/", "title": "Companies - Chiratae Ventures", "publisher": "Chiratae Ventures", "accessed": "undefined", "supports": "portfolio list including HealthifyMe" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-blume-ventures",
+    "name": { "en": "Blume Ventures" },
+    "type": "vc",
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "website": "https://blume.vc/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "digital-health", "mental-health"],
+      "thesis": "Blume Ventures is India's largest homegrown early-stage generalist fund; it runs a dedicated 'Healthcare' sector page/vertical on its own site and has backed fitness/nutrition app HealthifyMe, affordable hearing-aid maker EarKart, and workplace mental-health platform Manah Wellness."
+    },
+    "lifesci": {
+      "modalities": ["wearables-sensors", "digital-therapeutics"],
+      "indications": ["psychiatry-mental-health"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "HealthifyMe", "sector": "digital-health", "outcome": "active" },
+        { "company": "EarKart", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Manah Wellness", "sector": "mental-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Blume Ventures is India's largest homegrown early-stage generalist VC, with a dedicated healthtech sector vertical on its site and a portfolio spanning HealthifyMe, hearing-care startup EarKart, and mental-wellness platform Manah Wellness."
+    },
+    "sources": [
+      { "url": "https://blume.vc/sectors/healthtech", "title": "Healthcare - Blume Ventures", "publisher": "Blume Ventures", "accessed": "undefined", "supports": "dedicated healthtech sector vertical" },
+      { "url": "https://blume.vc/discovery/sector:healthtech", "title": "Blume's Discovery Portfolio (Healthcare) - Blume Ventures", "publisher": "Blume Ventures", "accessed": "undefined", "supports": "curated healthcare portfolio including HealthifyMe, EarKart, Manah Wellness" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-3one4-capital",
+    "name": { "en": "3one4 Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "hq_city": "Bengaluru",
+    "region": "india",
+    "country": "India",
+    "website": "https://www.3one4capital.com/",
+    "capital": {
+      "aum": { "raw": "INR 4,200Cr+ (USD 520M+)", "usd": 520000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "$100,000 to $5 million", "usd_min": 100000, "usd_max": 5000000 },
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "digital-health"],
+      "thesis": "3one4 Capital is a Bengaluru generalist early-stage fund investing across SaaS, fintech and consumer internet that explicitly lists digital health as a sector, backing antibiotic-resistance biotech Bugworks and surgical-care patient platform Hexa."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "indications": ["infectious-disease"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Bugworks", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Hexa", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "3one4 Capital is a Bengaluru generalist VC (founded 2016, ~$520M committed capital) that lists digital health among its core sectors, with portfolio companies including antibacterial biotech Bugworks and surgical-journey platform Hexa."
+    },
+    "sources": [
+      { "url": "https://www.3one4capital.com/portfolio-companies/hexa", "title": "3one4 Capital - Hexa", "publisher": "3one4 Capital", "accessed": "undefined", "supports": "Hexa portfolio investment" },
+      { "url": "https://www.3one4capital.com/", "title": "Transformative Capital For the New Indian Economy", "publisher": "3one4 Capital", "accessed": "undefined", "supports": "sector focus including digital health, founding, AUM" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-stellaris-venture-partners",
+    "name": { "en": "Stellaris Venture Partners" },
+    "type": "vc",
+    "status": "active",
+    "hq_city": "Bengaluru",
+    "region": "india",
+    "country": "India",
+    "website": "https://www.stellarisvp.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "digital-health", "healthcare-services", "medical-imaging"],
+      "thesis": "Stellaris Venture Partners is a Bengaluru generalist early-stage fund (100+ portfolio companies across SaaS, fintech and consumer) with a recurring healthcare bet spanning asset-light hospital network Ayu Health, telehealth platform mFine, and radiology-AI workflow startup Carpl."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "indications": []
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Ayu Health", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "mFine", "sector": "digital-health", "outcome": "active" },
+        { "company": "Carpl", "sector": "medical-imaging", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Stellaris Venture Partners is a Bengaluru generalist early-stage VC whose healthcare portfolio includes hospital network Ayu Health, telehealth platform mFine and radiology-AI startup Carpl."
+    },
+    "sources": [
+      { "url": "https://www.stellarisvp.com/portfolio", "title": "Stellaris VP | Our Company Portfolio", "publisher": "Stellaris Venture Partners", "accessed": "undefined", "supports": "portfolio including Ayu Health, mFine, Carpl" },
+      { "url": "https://inc42.com/company/stellaris-venture-partners/", "title": "Stellaris Venture Partners - A Venture Capital Firm Based Out Of Bengaluru", "publisher": "Inc42", "accessed": "undefined", "supports": "HQ city, sector focus including healthcare" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-accel-india",
+    "name": { "en": "Accel (India)" },
+    "aka": ["Accel Partners India"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "website": "https://www.accel.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "digital-health", "medtech-devices", "diagnostics", "healthcare-it"],
+      "thesis": "Accel's India franchise is a generalist early-to-growth investor across SaaS, fintech and consumer that has backed roughly 15 healthcare companies, including home-healthcare pioneer Portea Medical, critical-care device maker Consure Medical, ophthalmic-diagnostics firm Forus Health, diagnostics chain Orange Health Labs and AI revenue-cycle-management platform RapidClaims."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "indications": ["ophthalmology"]
+    },
+    "track_record": {
+      "portfolio_count": "15",
+      "notable_investments": [
+        { "company": "Portea Medical", "sector": "healthcare-services", "outcome": "active" },
+        { "company": "Consure Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Forus Health", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Orange Health Labs", "sector": "diagnostics", "outcome": "active" },
+        { "company": "RapidClaims", "sector": "healthcare-it", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Accel's India practice is a generalist VC/growth investor (global HQ Palo Alto, dedicated India team since the 2000s) that has invested in about 15 healthcare companies spanning home care, medical devices, diagnostics and healthcare IT, including Portea Medical, Consure Medical, Forus Health and RapidClaims."
+    },
+    "sources": [
+      { "url": "https://blog.ipleaders.in/healthcare-investors-startups/", "title": "Top 10 Healthcare Investors Helping Startups to Rise in India", "publisher": "iPleaders", "accessed": "undefined", "supports": "count of 15 healthcare investments including Portea Medical", "quote": "Accel has invested in 15 healthcare companies including some front runners in the space of home-care such as Portea Medical" },
+      { "url": "https://inc42.com/flash-feed/accel-partners-invest-in-consure-medical/", "title": "Accel Partners And Others Invest In Healthcare Startup Consure Medical", "publisher": "Inc42", "accessed": "undefined", "supports": "Consure Medical investment", "quote": "Healthcare startup Consure Medical has raised an undisclosed amount of funding led by venture capital firm Accel Partners" },
+      { "url": "https://www.accel.com/noteworthies/our-investment-in-rapidclaims-transforming-rcm-for-forward-thinking-healthcare-providers-2", "title": "Our Investment in RapidClaims: Transforming RCM for Forward-Thinking Healthcare Providers", "publisher": "Accel", "accessed": "undefined", "supports": "RapidClaims investment" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Accel is globally HQ'd in Palo Alto, US, but runs a long-standing dedicated India investment team/fund; included per region rule for orgs with a dedicated regional arm.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-eight-roads-ventures-india",
+    "name": { "en": "Eight Roads Ventures India" },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "hq_city": "Mumbai",
+    "region": "india",
+    "country": "India",
+    "website": "https://eightroads.com/en/",
+    "capital": {
+      "funds": [
+        { "name": "Eight Roads India healthcare & life-sciences fund", "vintage_year": 2022, "size": { "raw": "$250 million", "usd": 250000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "therapeutics", "pharma-services", "cell-gene-therapy", "healthcare-services"],
+      "thesis": "Eight Roads Ventures India, the India arm of Fidelity-affiliated Eight Roads, is a generalist tech/consumer investor that in 2022 launched a dedicated $250M India healthcare & life-sciences fund and has built a 25-company healthcare portfolio spanning the value chain, including PharmEasy-parent API Holdings, Cipla Health, Laurus Labs, injectable-drug maker Caplin Steriles and CAR-T biotech Immuneel Therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "small-molecule"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "portfolio_count": "25",
+      "notable_investments": [
+        { "company": "API Holdings / PharmEasy", "sector": "digital-health", "outcome": "active" },
+        { "company": "Cipla Health", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Laurus Labs", "sector": "pharma-services", "outcome": "active" },
+        { "company": "Immuneel Therapeutics", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Eight Roads Ventures India is a Mumbai-based generalist growth investor (part of Fidelity-affiliated Eight Roads globally) that runs a dedicated $250M India healthcare & life-sciences fund and a 25-company healthcare portfolio including API Holdings/PharmEasy, Cipla Health and Immuneel Therapeutics."
+    },
+    "sources": [
+      { "url": "https://eightroads.com/en/news/our-first-dedicated-250m-india-healthcare-fund", "title": "Our first dedicated $250m India healthcare fund", "publisher": "Eight Roads", "accessed": "undefined", "supports": "$250M dedicated healthcare & life-sciences fund", "quote": "Our first dedicated $250m India healthcare fund" },
+      { "url": "https://inc42.com/buzz/pharmeasy-backer-eight-roads-ventures-india-250-mn-healthtech-dedicated-fund/", "title": "PharmEasy Backer Eight Roads Ventures India Sets Up $250 Mn Healthtech Dedicated Fund", "publisher": "Inc42", "accessed": "undefined", "supports": "fund size, PharmEasy backing, 25-company healthcare portfolio", "quote": "With a portfolio of 25 companies spanning the entire healthcare and lifesciences value chain, Eight Roads made its first healthcare investment in 2011." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Eight Roads' global parent (Fidelity-affiliated) is foreign, but the India entity is HQ'd in Mumbai and straddles generalist and dedicated-healthcare investing; included here as a generalist VC with a dedicated health fund/team per the slice definition, with the healthcare fund noted as a secondary specialization.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-kalaari-capital",
+    "name": { "en": "Kalaari Capital" },
+    "type": "vc",
+    "status": "active",
+    "hq_city": "Bengaluru",
+    "region": "india",
+    "country": "India",
+    "website": "https://kalaari.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "digital-health", "consumer-health"],
+      "thesis": "Kalaari Capital is a Bengaluru generalist early-stage VC (~150 portfolio companies across fintech, consumer internet and SaaS) that runs a dedicated HealthTech sector vertical on its site and was a Series D co-investor in fitness/wellness platform Cure.fit."
+    },
+    "track_record": {
+      "portfolio_count": "150",
+      "notable_investments": [
+        { "company": "Cure.fit", "sector": "consumer-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Kalaari Capital is a Bengaluru generalist early-stage VC with a dedicated HealthTech sector page on its own site and a healthcare investment in fitness/wellness 'super app' Cure.fit."
+    },
+    "sources": [
+      { "url": "https://kalaari.com/sector/healthtech/", "title": "HealthTech – Kalaari Capital", "publisher": "Kalaari Capital", "accessed": "undefined", "supports": "dedicated healthtech sector vertical" },
+      { "url": "https://kalaari.com/portfolio/curefit/", "title": "Cure.Fit – Kalaari Capital", "publisher": "Kalaari Capital", "accessed": "undefined", "supports": "Cure.fit portfolio investment" },
+      { "url": "https://inc42.com/buzz/curefit-series-b-round/", "title": "Curefit Gets New Funding From Chiratae, Accel, Kalaari, And Oaktree Capital", "publisher": "Inc42", "accessed": "undefined", "supports": "Kalaari as a Cure.fit investor" }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-ivycap-ventures",
+    "name": { "en": "IvyCap Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2011,
+    "hq_city": "Mumbai",
+    "region": "india",
+    "country": "India",
+    "website": "https://www.ivycapventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "healthcare-services", "digital-health", "mental-health"],
+      "thesis": "IvyCap Ventures is a Mumbai generalist VC (65+ portfolio companies across agritech, consumer and fintech) whose published sector list explicitly includes Healthcare Services and HealthTech, with mental-health platform Lissun among its investments."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics"],
+      "indications": ["psychiatry-mental-health"]
+    },
+    "track_record": {
+      "portfolio_count": "65+",
+      "notable_investments": [
+        { "company": "Lissun", "sector": "mental-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "IvyCap Ventures is a Mumbai generalist VC founded in 2011 whose 65+ company portfolio explicitly spans Healthcare Services and HealthTech as core sectors, including mental-health platform Lissun."
+    },
+    "sources": [
+      { "url": "https://www.ivycapventures.com/portfolio", "title": "Sector-Wise Portfolio | IvyCap Ventures", "publisher": "IvyCap Ventures", "accessed": "undefined", "supports": "sector list including HealthTech, Healthcare Services; Lissun portfolio company" },
+      { "url": "https://www.ivycapventures.com/about-us", "title": "About us | IvyCap Ventures", "publisher": "IvyCap Ventures", "accessed": "undefined", "supports": "founded 2011, Mumbai HQ" }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  },
+  {
+    "id": "in-z47",
+    "name": { "en": "Z47" },
+    "aka": ["Matrix Partners India"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2006,
+    "hq_city": "Bengaluru",
+    "region": "india",
+    "country": "India",
+    "website": "https://www.z47.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "$1 million to $20 million", "usd_min": 1000000, "usd_max": 20000000 },
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "healthcare-services"],
+      "thesis": "Z47 (rebranded from Matrix Partners India in 2024) is a generalist Bengaluru VC investing from seed to Series B across consumer, fintech and SaaS that lists health tech among its explicit sectors, with healthcare-distribution startup Saveo among its investments."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Saveo", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Z47 (formerly Matrix Partners India) is a Bengaluru generalist seed-to-Series-B VC that lists health tech as one of its core sectors, with pharmaceutical-distribution startup Saveo among its portfolio."
+    },
+    "sources": [
+      { "url": "https://www.z47.com/", "title": "Z47 - Founders First. Developed Nation Building.", "publisher": "Z47", "accessed": "undefined", "supports": "sector focus including health tech" },
+      { "url": "https://superscout.co/investor/z47-fka-matrix-partners-india", "title": "Z47 (fka Matrix Partners India): The Early Stage Founder's Guide", "publisher": "Superscout", "accessed": "undefined", "supports": "rebrand, founding year, sectors, Saveo investment", "quote": "Matrix Partners India III has made numerous investments in companies like Saveo within the Distributors (Healthcare) industry" }
+    ],
+    "confidence": "low",
+    "verification_notes": "Healthcare evidence is thin — only one confirmed portfolio company (Saveo) was found; included because health tech is explicitly listed as one of the firm's core sectors, but this is a weaker case than the other entries in this slice and should be re-verified if used prominently.",
+    "last_updated": "undefined",
+    "researched_by": "generalist-with-health"
+  }
+]

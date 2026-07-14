@@ -1,0 +1,423 @@
+[
+  {
+    "id": "tw-taiwan-global-angels",
+    "name": {
+      "en": "Taiwan Global Angels (TGA)",
+      "local": "台灣天使俱樂部（台灣全球天使投資俱樂部）"
+    },
+    "aka": ["TGA", "台灣天使俱樂部", "台灣全球天使投資俱樂部"],
+    "type": "angel-network",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taiwanglobalangels.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["medtech-devices", "digital-health"],
+      "thesis": "Angel network co-founded in early 2022 by IC Jan (詹益鑑) and Pai-Sheng Huang (黃沛聲) that pools Taiwan- and Silicon-Valley-based angel investors and tech executives into US LLC/SPV structures to co-invest in startups; medical technology is named first among its three core investment themes (medical technology, automation, smart IoT), explicitly framed around Taiwan's aging-population opportunity ('Aging' is one of its stated '4 A' priorities)."
+    },
+    "lifesci": {
+      "indications": ["aging-longevity"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": null
+    },
+    "summary": {
+      "en": "Taiwan-Silicon Valley angel network (founded 2022) that invests via US SPVs, naming medical technology as its lead sector alongside automation and smart IoT, with an explicit thesis around aging-population healthcare needs.",
+      "local": "台灣天使俱樂部（TGA）成立於2022年初，由詹益鑑與黃沛聲共同創辦，結合台灣與矽谷兩地天使投資人及科技高管，透過美國SPV共同投資新創，投資主軸包括醫療科技、自動化方案與智慧物聯網，並以高齡化社會需求為核心投資邏輯之一。"
+    },
+    "sources": [
+      {
+        "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=1422",
+        "title": "台灣天使俱樂部 / 台灣全球天使投資俱樂部",
+        "publisher": "環球生技月刊 GlobalBio",
+        "accessed": "undefined",
+        "supports": "founding year, founders, investment focus (medical technology, automation, smart IoT)",
+        "quote": "聚集太平洋兩岸之天使投資人、科技高管與創業家，結合台灣的研發經驗與環境，共同投資矽谷新創，聚焦醫療科技、自動化方案、智慧物聯網"
+      },
+      {
+        "url": "https://www.inside.com.tw/article/36720-tga",
+        "title": "專訪 TGA 創辦人詹益鑑：最好的新創投資策略，其實就是幫台灣「更好出海」！",
+        "publisher": "INSIDE",
+        "accessed": "undefined",
+        "supports": "'4 A' investment thesis including Aging, structure via US LLC/SPV, cumulative investment since 2022",
+        "quote": "TGA的投資策略圍繞著「四個A」：迎接高齡化商機（Aging）、透過自動化因應缺工需求（Automation）、聚焦效率提升的關鍵技術人工智慧（Artificial Intelligence），以及鎖定美國市場（America）"
+      },
+      {
+        "url": "https://www.taiwanglobalangels.com/",
+        "title": "Taiwan Global Angels official site",
+        "publisher": "Taiwan Global Angels",
+        "accessed": "undefined",
+        "supports": "existence, official web presence"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Core facts (founders, founding date, sector focus) come from two independent reputable secondary sources (GlobalBio/環球生技月刊 and INSIDE) rather than a directly-fetched official filing; official site URL confirmed to exist via search but not deep-fetched. A cumulative investment figure of over NT$600M since 2022 was reported by INSIDE but not independently corroborated, so it is omitted from structured fields.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "tw-yonglin-health-foundation",
+    "name": {
+      "en": "Yonglin Health Foundation",
+      "local": "財團法人永齡健康基金會"
+    },
+    "aka": ["Yonglin Foundation", "永齡基金會", "YonglinCare", "H.Spectrum"],
+    "type": "family-office",
+    "subtypes": ["venture-philanthropy", "accelerator"],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "New Taipei City",
+    "website": "https://www.ylhealth.org/",
+    "strategy": {
+      "stages": ["seed", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Personal charitable foundation of Foxconn founder Terry Gou (郭台銘), established in 2000, that deploys both philanthropic and direct strategic-investment capital into cancer treatment, prevention, and precision diagnostics; runs the H.Spectrum+ biomedical startup accelerator connecting founders to venture capital and medical investment funds, and separately backed a NT$5.03 billion strategic private placement into oncology biosimilar/CDMO company TaiKang Biotech (台康生技) in 2021, becoming its largest shareholder."
+    },
+    "lifesci": {
+      "indications": ["oncology"],
+      "company_creation": null,
+      "invests_public_markets": true,
+      "science_platform_notes": "Runs H.Spectrum+ ('Health Golden Phoenix') biomedical accelerator with Foxconn, and co-established the Yongzhen Health Medical Building cancer center with National Taiwan University Hospital."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "TaiKang Biotech (台康生技)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Terry Gou's family healthcare foundation (est. 2000) that runs the H.Spectrum+ biomedical accelerator and has made large direct strategic investments in oncology biotech, including a reported NT$5.03B private placement into TaiKang Biotech in 2021 that made Gou its largest shareholder.",
+      "local": "由鴻海創辦人郭台銘於2000年成立的家族健康基金會，主辦H.Spectrum+生醫加速器，並直接投入大額策略性投資於腫瘤生技公司，2021年以逾新台幣50億元參與台康生技私募案，成為最大股東。"
+    },
+    "sources": [
+      {
+        "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=493",
+        "title": "財團法人永齡健康基金會",
+        "publisher": "環球生技月刊 GlobalBio",
+        "accessed": "undefined",
+        "supports": "founding year, founder, mission, sector focus, H.Spectrum+ accelerator",
+        "quote": "財團法人永齡健康基金會成立於2000年11月29日... 支持智慧醫療、精準檢測與偵測、生技及醫材新創加速"
+      },
+      {
+        "url": "https://www.mirrormedia.mg/story/20210407fin001/",
+        "title": "【郭董生技大投資】郭台銘豪砸50億元 當乳癌新藥廠台康生技最大股東",
+        "publisher": "鏡週刊 Mirror Media",
+        "accessed": "undefined",
+        "supports": "NT$5.03B TaiKang Biotech investment amount, year, stake, rationale tied to Gou's health-focused giving",
+        "quote": "郭台銘旗下兆佳公司以每股91.5元參與台康生技私募案，總金額約新台幣50.32億元，取得約5,500萬股，成為台康生技最大股東"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "The NT$5.03B TaiKang Biotech investment was executed through Gou's personal investment vehicle (兆佳公司) rather than the Foundation entity itself, per Mirror Media; multiple secondary sources describe this as part of Gou's broader personal-plus-Foundation health investment strategy (combined ~NT$2B+ reported cumulatively over a decade). Foundation is classified here as family-office given it is a single-family (Gou family) vehicle actively deploying capital into biomedical ventures, with venture-philanthropy and accelerator as secondary characteristics.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "tw-taipei-angels",
+    "name": {
+      "en": "Taipei Angels Investment (TA)",
+      "local": "台安傑天使投資"
+    },
+    "aka": ["TA", "台安傑國際天使投資"],
+    "type": "angel-network",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taipeiangels.com/",
+    "strategy": {
+      "stages": ["seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "Generalist angel investment group active since September 2012 with 80+ member executives/entrepreneurs; Biotech & CleanTech is one of five named investment verticals (alongside Cultural Creativity, Mobile & Commerce, Software & Services, and Technology & Hardware), with biotech firm LumiSTAR (昱星生技) among its disclosed portfolio companies, giving it a verifiable but secondary biomedical nexus."
+    },
+    "lifesci": {
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "LumiSTAR 昱星生技", "sector": "therapeutics", "outcome": "active" },
+        { "company": "STAREK 科研市集", "sector": "life-science-tools", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Taipei-based angel investor group (founded 2012, 80+ members) that meets monthly to vet startups; Biotech & CleanTech is one of its five stated focus sectors, with portfolio company LumiSTAR (昱星生技) as its biomedical proof point.",
+      "local": "台安傑天使投資成立於2012年9月，為台北在地天使投資人組織，成員逾80位企業高管與創業者，每月共同審議新創投資案，投資五大領域之一為「生技醫療與潔淨科技」，投資組合中包含生技公司昱星生技。"
+    },
+    "sources": [
+      {
+        "url": "https://www.taipeiangels.com/about",
+        "title": "About - Taipei Angels Investment (TA)",
+        "publisher": "Taipei Angels",
+        "accessed": "undefined",
+        "supports": "founding date, member count, five focus sectors including Biotech & CleanTech",
+        "quote": "TA began investing in September 2012... an angel investment group of more than 80 top executives and entrepreneurs... 1) Biotech & CleanTech, 2) Cultural Creativity Industry, 3) Mobile & Commerce, 4) Software & Services, and 5) Technology & Hardware"
+      },
+      {
+        "url": "https://www.taipeiangels.com/portfolio-companies/eureka-fintech-%e5%8f%b0%e5%ae%89%e5%82%91%e5%a4%a9%e4%bd%bf%e6%8a%95%e8%b3%87",
+        "title": "Portfolio Companies - Taipei Angels Investment (TA)",
+        "publisher": "Taipei Angels",
+        "accessed": "undefined",
+        "supports": "portfolio includes biotech company LumiSTAR 昱星生技"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Biotech is one of five generalist sectors for this club, not its primary focus; included because the medical/biomedical nexus (named vertical + at least one biotech portfolio company) is independently verifiable via the org's own site.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "tw-mbc-angel-club",
+    "name": {
+      "en": "MBC Angel Club",
+      "local": "MBC天使俱樂部"
+    },
+    "aka": ["MBC多元商", "MBC天使投資俱樂部"],
+    "type": "angel-network",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://vip.mbsinv.com/",
+    "strategy": {
+      "stages": ["seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["generalist-health", "consumer-health"],
+      "thesis": "Asia's largest angel-investor community by claimed member count (~500 members, founded 2016), using a cash-flow-focused value-investing screen; healthcare — explicitly including senior/elder wellness ('銀髮族健康樂齡') — is named as one of its three core investment pillars alongside consumer staples and green energy."
+    },
+    "lifesci": {
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": null
+    },
+    "summary": {
+      "en": "Taiwan's largest self-described angel investment club (~500 members, founded 2016), with healthcare and senior/elder wellness named as one of three core investment pillars alongside consumer staples and green energy.",
+      "local": "MBC天使俱樂部創立於2016年，號稱亞洲規模最大的天使投資社群，會員近500人，投資領域以民生消費類、綠能領域與醫療領域（含銀髮族健康樂齡）為三大主軸。"
+    },
+    "sources": [
+      {
+        "url": "https://www.businessweekly.com.tw/business/indep/1003955",
+        "title": "台灣規模最大的天使投資人組織 加入MBC天使俱樂部 助國內優質新創團隊開啟無限可能",
+        "publisher": "商業周刊 BusinessWeekly",
+        "accessed": "undefined",
+        "supports": "founding year, member count, three core sectors including healthcare/elder wellness",
+        "quote": "MBC天使俱樂部創立於2016年，是亞洲人數規模最大的天使投資社群...投資領域以現金流穩定、看得到、摸得到的民生消費類、綠能領域、醫療領域為主軸...涵蓋食、衣、住、行、育、樂，以及醫療、銀髮族健康樂齡、綠色能源以及ESG概念等產業"
+      },
+      {
+        "url": "https://vip.mbsinv.com/",
+        "title": "MBC天使俱樂部",
+        "publisher": "MBC Investment",
+        "accessed": "undefined",
+        "supports": "existence, official web presence"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare is one of three named generalist verticals (alongside consumer goods and green energy), not the club's sole focus; no specific biotech/medtech portfolio company could be verified within the research budget for this slice, so notable_investments is omitted rather than guessed.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "tw-ava-angels",
+    "name": { "en": "AVA Angels", "local": "安發天使投資" },
+    "aka": ["AVA Angel Fund I", "安發天使投資股份有限公司"],
+    "type": "angel-network",
+    "subtypes": ["micro-vc"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.angeltoventure.com/en",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "geo_focus": ["Taiwan"],
+      "thesis": "Generalist early-stage angel-investment platform blending angel capital with a fund vehicle (AVA Angel Fund I) to fill a gap in Taiwan's early-stage market; healthcare is named as one of its core sectors, with portfolio company Primo building a cross-disciplinary precision/digital-medicine model."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Primo", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Taipei angel-investment platform founded in 2020 that combines angel capital with a fund structure (AVA Angel Fund I); healthcare/precision medicine is one of its named verticals, and portfolio company Primo is building a cross-disciplinary precision/digital-medicine model.",
+      "local": "2020年成立的台北天使投資平台，結合天使投資與基金模式（AVA Angel Fund I），醫療為其命名投資領域之一，投資組合包含精準醫療新創Primo。"
+    },
+    "sources": [
+      {
+        "url": "https://www.angeltoventure.com/en",
+        "title": "AVA Angels",
+        "publisher": "AVA Angels",
+        "accessed": "undefined",
+        "supports": "founding year (2020), fund structure, sector list including healthcare",
+        "quote": "AVA Angels, founded in 2020, combines the advantages of \"angel investment\" and \"venture capital funds\" to create a new early investment model."
+      },
+      {
+        "url": "https://twincn.com/item.aspx?no=82870552",
+        "title": "安發天使投資股份有限公司-台灣公司網",
+        "publisher": "Twincn company registry",
+        "accessed": "undefined",
+        "supports": "legal entity registration confirming existence"
+      },
+      {
+        "url": "https://www.angeltoventure.com/en/portfolio",
+        "title": "AVA Angels 投資組合",
+        "publisher": "AVA Angels",
+        "accessed": "undefined",
+        "supports": "Primo precision-medicine portfolio company",
+        "quote": "Primo promotes a new type of precision medicine model, combining other precision medicine methods with digital medicine to develop a cross-field medical integration model."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sector-focus and founding-year details are drawn from a tool summary of AVA Angels' own site content, not an independently re-transcribed full page; healthcare is one of several generalist sectors they cover, not their sole focus.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "tw-ruentex-yin-yen-liang-family",
+    "name": { "en": "Ruentex Group / Yin Yen-liang Family Biotech Investments", "local": "潤泰集團／尹衍樑家族生技投資" },
+    "aka": ["尹衍樑", "Yin Yen-liang", "潤泰集團", "Ruentex Group"],
+    "type": "family-office",
+    "status": "active",
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "sector_focus": ["therapeutics"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "United States", "Greater China"],
+      "thesis": "Personal/family capital of the late Ruentex Group chairman Yin Yen-liang (尹衍樑), dubbed Taiwan's 'biotech investment godfather' (生技投資教父) for deploying over NT$4 billion across roughly a decade into about ten new-drug-development companies — recruiting overseas-Chinese ('sea turtle') scientist-entrepreneurs and providing long-horizon patient capital. Portfolio includes OBI Pharma (浩鼎) and TaiMed Biologics (中裕新藥)."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["oncology", "infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": true,
+      "science_platform_notes": "No in-house lab; the strategy centers on recruiting prominent overseas-Chinese drug-development scientists (e.g. OBI Pharma's Chang Nien-tzu, TaiMed's David Ho) and backing their ventures with large, patient capital over 10+ year horizons."
+    },
+    "track_record": {
+      "portfolio_count": "10+ (biotech only)",
+      "notable_investments": [
+        { "company": "OBI Pharma (浩鼎)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "TaiMed Biologics (中裕新藥)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Yin Yen-liang (尹衍樑)", "role": "Founder / Chairman, Ruentex Group (deceased 26 May 2026)", "background": "Ruentex Group conglomerate chairman; profiled in Taiwanese business press as the country's 'biotech investment godfather'" },
+      { "name": "Yin Chung-en (尹崇恩)", "role": "Family successor; independent director, TaiMed Biologics (台康生技)", "background": "Daughter of Yin Yen-liang; partner at Yungan CPA firm; also director at Ruentex Materials, Ruentex Security and Ruentex Leasing" }
+    ],
+    "summary": {
+      "en": "The personal/family biotech investment activity of the late Ruentex Group chairman Yin Yen-liang, who deployed over NT$4 billion across roughly a decade into about ten new-drug-development ventures (including OBI Pharma and TaiMed Biologics), earning him the nickname 'Taiwan's biotech investment godfather'; his daughter Yin Chung-en continues family involvement as a TaiMed Biologics board director.",
+      "local": "已故潤泰集團總裁尹衍樑十年來以個人及集團資金砸下逾新台幣40億元，投資約十家新藥研發公司（含浩鼎、中裕新藥），被封為「台灣生技投資教父」；其女尹崇恩現任台康生技獨立董事，家族持續參與生技版圖。"
+    },
+    "sources": [
+      {
+        "url": "https://news.pchome.com.tw/magazine/print/fi/moneyweekly/10325/139524480025820009002.htm",
+        "title": "台灣生技天王 尹衍樑",
+        "publisher": "理財周刊 / PChome新聞",
+        "accessed": "undefined",
+        "supports": "investment amount (>NT$4B over 10 years), ~10 portfolio companies, 'biotech godfather' nickname",
+        "quote": "潤泰集團總裁尹衍樑堪稱是國內生技投資教父，十年來砸下逾40億元，包括十家新藥研發公司，光是浩鼎的市值更高達350億元"
+      },
+      {
+        "url": "https://www.businesstoday.com.tw/article/category/80401/post/201308290001/",
+        "title": "透視三大生技投資教父布局心法",
+        "publisher": "今周刊 Business Today",
+        "accessed": "undefined",
+        "supports": "investment strategy of recruiting overseas-Chinese scientist-entrepreneurs and long-horizon capital"
+      },
+      {
+        "url": "https://www.gvm.com.tw/article/130603",
+        "title": "尹衍樑逝後潤泰集團布局曝光：尹崇恩、尹崇堯分掌江山",
+        "publisher": "遠見雜誌 Global Views Monthly",
+        "accessed": "undefined",
+        "supports": "founder's death, daughter Yin Chung-en's board role at TaiMed Biologics",
+        "quote": "有潤泰公主之稱、尹衍樑的女兒尹崇恩...也在2022年11月正式進入潤泰精密材料擔任董事...同時身兼台康生技獨立董事"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "This is an individual/family investment pattern rather than a single formally named investment vehicle; no dedicated 'family office' entity name could be confirmed, so the entry is filed under the Yin Yen-liang family / Ruentex Group. Yin Yen-liang passed away 26 May 2026; the ongoing activity level of the family's biotech investing post-succession is unconfirmed beyond his daughter's board seat at TaiMed Biologics.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "tw-yfy-biotech-ho-family",
+    "name": { "en": "YFY Biotech (Ho Shou-chuan Family)", "local": "永豐餘生技（何壽川家族）" },
+    "aka": ["永豐餘生技股份有限公司", "YFY Biotech Co."],
+    "type": "family-office",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.yfy.com/tw/invest_culture_6.html",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics"],
+      "geo_focus": ["Taiwan"],
+      "thesis": "Dedicated biomedical strategic-investment arm of the family-controlled YFY (永豐餘) conglomerate, led by chairman Ho Shou-chuan (何壽川); for roughly three decades has selectively backed potential companies across high-end medical devices, biopharma, and high-end diagnostics, providing capital plus management support toward eventual listing. Co-invested in the founding round of TaiMed Biologics (中裕新藥, then Sunrise Biotech 宇昌生技) alongside Ruentex and Uni-President."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "TaiMed Biologics (中裕新藥)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Ho Shou-chuan (何壽川)", "role": "Chairman, YFY Group", "background": "Family patriarch of the YFY (永豐餘) conglomerate; profiled in Taiwanese business press as one of three 'biotech investment godfathers'" }
+    ],
+    "summary": {
+      "en": "The dedicated biomedical investment arm of the family-controlled YFY conglomerate (paper, packaging, finance), led by chairman Ho Shou-chuan; over roughly 30 years it has made strategic investments across high-end medical devices, biopharma and diagnostics, including a founding-round stake in TaiMed Biologics.",
+      "local": "永豐餘集團（何壽川家族）旗下的生醫策略投資事業，近30年來聚焦高階醫材、生技製藥、高階診斷三大面向，並曾參與中裕新藥（前身宇昌生技）創立時期的投資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.yfy.com/tw/invest_culture_6.html",
+        "title": "永豐餘集團-生技醫藥事業",
+        "publisher": "永豐餘投資控股 YFY",
+        "accessed": "undefined",
+        "supports": "investment thesis, three focus sub-sectors (medtech, biopharma, diagnostics)",
+        "quote": "30年來除了挹注資金，更積極投入生技產業的育成與培植，在生醫產業進行策略性投資：從高階醫材、生技製藥、高階診斷三大面向，挑選該領域具潛力的公司，挹注資金與管理協助，扶持公司營運上市上櫃"
+      },
+      {
+        "url": "https://www.twincn.com/70847135",
+        "title": "永豐餘生技股份有限公司-台灣公司網",
+        "publisher": "台灣公司網 Twincn",
+        "accessed": "undefined",
+        "supports": "legal entity registration confirming existence"
+      },
+      {
+        "url": "https://www.businesstoday.com.tw/article/category/80401/post/201308290001/",
+        "title": "透視三大生技投資教父布局心法",
+        "publisher": "今周刊 Business Today",
+        "accessed": "undefined",
+        "supports": "profile as one of three 'biotech investment godfathers' alongside Yin Yen-liang and Lin Rong-chin"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "YFY Biotech is a subsidiary of publicly listed YFY Inc. (TWSE:1907), so it straddles the family-office and CVC categories; filed here as family-office (primary, matching this slice) with 'cvc' as a secondary subtype given the strong personal association with patriarch Ho Shou-chuan. Founding year (2000) and full investment total (>NT$1B) are drawn from a tool summary rather than a directly re-transcribed primary quote; TaiMed Biologics founding-round co-investment (alongside Ruentex/潤泰 and Uni-President/統一) corroborated by a separate search snippet but not independently re-fetched.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  }
+]

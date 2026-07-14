@@ -1,0 +1,350 @@
+[
+  {
+    "id": "kr-daewoong-investment",
+    "name": { "en": "Daewoong Investment", "local": "대웅인베스트먼트" },
+    "aka": ["Daewoong Investment Co."],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "south-korea",
+    "country": "South Korea",
+    "capital": {
+      "funds": [
+        {
+          "name": "대웅인베스트먼트 바이오투자조합 1호 (Daewoong Investment Bio Investment Association No.1)",
+          "vintage_year": 2023,
+          "size": { "raw": "약 200억원 (approx. KRW 20 billion)", "usd": null, "currency": "KRW" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["therapeutics", "digital-health"],
+      "thesis": "Captive CVC of Daewoong Pharmaceutical Group; goes beyond passive financial investment to act as a strategic investor that supports portfolio bio ventures on clinical trial design through to product approval, seeking business synergy with Daewoong's pharma operations."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Everex (에버엑스)", "sector": "digital-health", "outcome": "active" },
+        { "company": "Humanscape (휴먼스케이프)", "sector": "digital-health", "outcome": "active" }
+      ],
+      "co_investors": ["Naver", "Korea Investment Partners (Singapore)"]
+    },
+    "summary": {
+      "en": "Daewoong Investment is the dedicated corporate venture capital subsidiary of Daewoong Pharmaceutical Group, launched in 2023 to source and strategically back promising bio ventures for Daewoong's pipeline.",
+      "local": "대웅제약그룹의 기업형 벤처캐피탈(CVC) 자회사로 2023년 설립되었으며, 유망 바이오벤처를 발굴해 대웅제약과 사업적 시너지를 창출하는 전략적 투자를 지향한다."
+    },
+    "sources": [
+      { "url": "https://thevc.kr/daewoonginvestment", "title": "대웅인베스트먼트(투자조합) - 기업정보", "publisher": "THE VC", "accessed": "undefined", "supports": "entity existence, investor identity" },
+      { "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202304041657013000107553", "title": "대웅인베스트먼트 출범, 전승호 대웅제약 대표 '수장'", "publisher": "TheBell", "accessed": "undefined", "supports": "founding year 2023, parent company", "quote": "대웅인베스트먼트는 약 200억원 규모의 첫 펀드 '대웅인베스트먼트 바이오투자조합 1호'를 결성했습니다." },
+      { "url": "https://medigatenews.com/news/2312772253", "title": "에버엑스, 대웅인베스트먼트·네이버에서 40억원 투자 유치", "publisher": "MEDI:GATE NEWS", "accessed": "undefined", "supports": "Everex investment", "quote": "근골격계 디지털 헬스케어 전문기업 에버엑스는 대웅인베스트먼트 및 네이버로부터 40억원의 전략적 투자를 유치했습니다." },
+      { "url": "https://www.dailymedi.com/news/news_view.php?wr_id=913674", "title": "대웅, 지주사 중심 벤처육성 '속도'···투자·사업 '분리'", "publisher": "데일리메디", "accessed": "undefined", "supports": "strategy, structure" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund launched April 2023 as a registered venture-capital company (창업투자회사) under Daewoong Pharmaceutical's holding structure.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "kr-ckd-venture-capital",
+    "name": { "en": "CKD Venture Capital", "local": "CKD창업투자" },
+    "aka": ["씨케이디창업투자", "Chong Kun Dang Venture Capital"],
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "capital": {
+      "funds": [
+        { "name": "CKD Start-Up 3호 벤처투자조합", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "KRW" } },
+        { "name": "CKD 바이오-헬스케어 Corporate-Fund 1호 창업투자조합", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "KRW" } },
+        { "name": "스마트 CKD 바이오-헬스케어 1호 벤처투자조합", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "KRW" } },
+        { "name": "CKD-BS Start-Up 벤처투자조합", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Wholly-owned CVC of Chong Kun Dang (종근당) pharmaceutical group, running multiple dedicated bio-healthcare corporate funds to back therapeutics, robotics, and brain-disease-related startups aligned with the parent's R&D roadmap."
+    },
+    "lifesci": {
+      "indications": ["neurology"]
+    },
+    "track_record": {
+      "portfolio_count": "multiple across 7 fund vehicles"
+    },
+    "summary": {
+      "en": "CKD Venture Capital is Chong Kun Dang's captive corporate VC, operating at least seven fund vehicles including bio-healthcare-dedicated corporate funds ('CKD Bio-Healthcare Corporate Fund') that invest in therapeutics, robotics, and CNS-disease startups.",
+      "local": "종근당 계열 기업형 벤처캐피탈로, 바이오-헬스케어 전용 코퍼레이트펀드를 포함해 총 7개 펀드를 운용하며 신약, 로보틱스, 뇌질환 등 분야 스타트업에 투자한다."
+    },
+    "sources": [
+      { "url": "https://thevc.kr/ckdventurecapital", "title": "씨케이디창업투자(투자조합) - 기업정보", "publisher": "THE VC", "accessed": "undefined", "supports": "entity existence" },
+      { "url": "https://www.thebell.co.kr/front/newsview.asp?key=202508181639596480106719", "title": "CKD창업투자, 4년만에 바이오펀드 도전장", "publisher": "TheBell", "accessed": "undefined", "supports": "bio fund activity" },
+      { "url": "http://www.ckdpharm.com/family/familyInfo_invest.do", "title": "종근당 - 계열사 소개 (투자)", "publisher": "Chong Kun Dang", "accessed": "undefined", "supports": "parent company relationship" },
+      { "url": "https://dailymedi.com/news/news_view.php?wr_id=929605", "title": "종근당 CKD창투, 로보틱스·뇌질환 등 ‘114억 투자’", "publisher": "데일리메디", "accessed": "undefined", "supports": "sector focus, investment activity", "quote": "종근당 CKD창투, 로보틱스·뇌질환 등 ‘114억 투자’" },
+      { "url": "https://www.thebell.co.kr/front/newsview.asp?key=202204121630421920101265", "title": "[기업형 VC 돋보기] 종근당 계열 CKD창업투자, 공고한 '오너家' 지배력", "publisher": "TheBell", "accessed": "undefined", "supports": "ownership structure", "quote": "CKD창업투자는 'CKD Start-Up 3호 벤처투자조합', 'CKD 바이오-헬스케어 Corporate-Fund 1호 창업투자조합', '스마트 CKD 바이오-헬스케어 1호 벤처투자조합', 'CKD-BS Start-Up 벤처투자조합' 등 총 7개 펀드를 운용 중입니다." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Individual fund sizes/vintages not disclosed in sources reviewed; fund names verified verbatim via TheBell.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "kr-samsung-life-science-fund",
+    "name": { "en": "Samsung Life Science Fund", "local": "삼성 라이프사이언스 펀드" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "capital": {
+      "aum": { "raw": "KRW 442 billion cumulative (Funds I-III combined)", "usd": null, "currency": "KRW" },
+      "current_fund": { "raw": "KRW 200 billion (Fund III)", "usd": null, "currency": "KRW" },
+      "funds": [
+        { "name": "Samsung Life Science Fund I", "vintage_year": null, "size": { "raw": "170 billion won", "usd": null, "currency": "KRW" } },
+        { "name": "Samsung Life Science Fund II", "vintage_year": null, "size": { "raw": "72 billion won", "usd": null, "currency": "KRW" } },
+        { "name": "Samsung Life Science Fund III", "vintage_year": 2026, "size": { "raw": "200 billion won", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["south-korea", "united-states", "global"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Jointly capitalized by Samsung Biologics, Samsung Bioepis, and Samsung C&T, with Samsung Venture Investment as operating GP, to secure business-collaboration opportunities by investing in innovative global biotech companies and life-science VC funds."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "gene-editing"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AimedBio", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Flagship Pioneering", "sector": "venture-studio", "outcome": "active" },
+        { "company": "Latus Bio", "sector": "gene-therapy", "outcome": "active" },
+        { "company": "Generate Biomedicines", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "C2N Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Arbor Biotechnologies", "sector": "gene-editing", "outcome": "active" },
+        { "company": "Frontline Bio", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Cartography Biosciences", "sector": "ai-drug-discovery", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Samsung Life Science Fund is a dedicated biotech investment vehicle jointly funded by Samsung Biologics, Samsung Bioepis and Samsung C&T and operated by Samsung Venture Investment, with cumulative committed capital of about KRW 442 billion across three fund vintages.",
+      "local": "삼성바이오로직스, 삼성바이오에피스, 삼성물산이 공동 출자하고 삼성벤처투자가 운용하는 바이오 전용 투자펀드로, 1~3호 누적 조성액이 약 4420억원에 달한다."
+    },
+    "sources": [
+      { "url": "https://www.koreabiomed.com/news/articleView.html?idxno=31866", "title": "Samsung creates ₩200 bil. fund to invest in global biotech ventures", "publisher": "Korea Biomedical Review", "accessed": "undefined", "supports": "fund III size, structure" },
+      { "url": "https://en.sedaily.com/finance/2026/06/01/samsung-launches-200-billion-won-bio-fund-to-expand-next", "title": "Samsung Launches 200 Billion Won Bio Fund to Expand Next-Generation Tech Investment", "publisher": "Seoul Economic Daily", "accessed": "undefined", "supports": "operator structure, fund contributions", "quote": "The Samsung Life Science Fund is a venture investment fund jointly capitalized by Samsung C&T, Samsung Biologics, and Samsung Bioepis, with Samsung Venture Investment serving as the operator." },
+      { "url": "https://www.asiae.co.kr/en/article/2026060116540195854", "title": "Samsung Launches 'Life Science Fund III' to Invest in Bio Venture Companies", "publisher": "The Asia Business Daily", "accessed": "undefined", "supports": "cumulative AUM, portfolio companies", "quote": "With the addition of the third fund following the first fund of 170 billion won and the second fund of 72 billion won, Samsung has secured cumulative operating capital of 442 billion won." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Distinct from Samsung Venture Investment's general/tech-focused funds; scoped here to the biotech-dedicated Life Science Fund vehicle co-funded by Samsung's pharma/bio units (Biologics, Bioepis).",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "kr-yuhan-open-innovation",
+    "name": { "en": "Yuhan Corporation (Open Innovation / Corporate Investment)", "local": "유한양행" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "capital": {
+      "aum": { "raw": "장부가 약 3,000억원 (2024년 3월 말 기준), 내부 추산 약 5,000억원", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea", "global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Yuhan Corporation invests directly (not via a separate GP subsidiary) in external biotech startups as its core open-innovation R&D strategy, most famously acquiring an early stake/license in Oscotec subsidiary Genosco's lung-cancer candidate that became blockbuster drug Leclaza (lazertinib), licensed to Janssen. Recently shifting emphasis from equity stakes toward licensing/co-development deals."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Oscotec / Genosco (오스코텍/제노스코)", "sector": "therapeutics", "outcome": "licensed to Janssen; approved as Leclaza/Lazcluze (lazertinib)" }
+      ]
+    },
+    "summary": {
+      "en": "Yuhan Corporation, one of Korea's oldest pharma majors, runs an active open-innovation direct-investment program that has poured roughly KRW 201 billion into 31 external biotech deals since 2015, most notably sourcing lung-cancer drug Leclaza via an equity/licensing deal with Oscotec's Genosco.",
+      "local": "유한양행은 2015년부터 오픈이노베이션 전략으로 외부 바이오기업에 직접 지분투자를 해왔으며, 2021년까지 31건, 약 2010억원을 투자했다. 대표 성공사례는 오스코텍 자회사 제노스코에서 도입한 렉라자(성분명 라제르티닙)이다."
+    },
+    "sources": [
+      { "url": "https://thevc.kr/Yuhan", "title": "유한양행(안티푸라민) - 7건의 투자", "publisher": "THE VC", "accessed": "undefined", "supports": "investor identity, deal count" },
+      { "url": "https://www.newspim.com/news/view/20260618000964", "title": "[유한양행 100돌] ②기술수출 이끈 R&D 성장 공식 '오픈이노베이션'", "publisher": "뉴스핌", "accessed": "undefined", "supports": "investment total, Leclaza origin story", "quote": "오픈이노베이션이 발해지기 시작한 지난 2015년부터 2021년까지 계열사 외 외부 기업에 투자한 사례는 31건, 약 2010억원 규모로 집계됩니다. 2024년 3월 말 기준 장부가로 3,000억 원에 달하며, 내부적으로 추산한 금액은 약 5,000억 원에 육박한다고 합니다." },
+      { "url": "https://www.sedaily.com/NewsView/2GQA4QQUNI", "title": "유한양행 '제2 렉라자 찾아라'…지분투자 줄이고 기술협업 집중", "publisher": "서울경제", "accessed": "undefined", "supports": "strategy shift toward licensing over equity" }
+    ],
+    "confidence": "high",
+    "verification_notes": "No separate GP/fund-management subsidiary identified; Yuhan invests directly off its own balance sheet, which is why it is modeled here as a direct corporate-investor entity rather than a captive fund vehicle.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "kr-gc-green-cross-investment",
+    "name": { "en": "GC (Green Cross Holdings) Strategic Investment", "local": "GC녹십자" },
+    "aka": ["Green Cross Corp", "녹십자홀딩스"],
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["south-korea", "global"],
+      "sector_focus": ["therapeutics", "diagnostics"],
+      "thesis": "GC (Green Cross) group makes direct strategic equity investments in biotech/healthcare startups as part of its open-innovation program, both to gain pipeline access and to earn investment-gain upside (e.g., its early Pharmabcine stake appreciated after Pharmabcine's 2018 KOSDAQ listing); it also acts as an LP in project venture funds targeting global biotech."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Pharmabcine (파멥신)", "sector": "therapeutics", "outcome": "IPO (KOSDAQ, 2018)" },
+        { "company": "Kanaph Therapeutics (카나프테라퓨틱스)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Jincast (진캐스트)", "sector": "diagnostics", "outcome": "active" }
+      ],
+      "co_investors": ["BNH Investment", "POSCO Technology Investment"]
+    },
+    "summary": {
+      "en": "GC (Green Cross) is a Korean pharma/plasma-therapeutics major that runs a recurring pattern of direct strategic equity investments in biotech and diagnostics startups (Pharmabcine, Kanaph Therapeutics, Jincast) and participates as an LP in biotech-focused project funds, though it has no separately branded CVC fund vehicle.",
+      "local": "GC녹십자그룹은 파멥신, 카나프테라퓨틱스, 진캐스트 등 바이오·진단 스타트업에 전략적 지분투자를 지속해 왔으며, 사이토반트 사이언스 등 해외 바이오벤처 대상 프로젝트펀드에 유한책임출자자(LP)로도 참여한다."
+    },
+    "sources": [
+      { "url": "https://www.asiatime.co.kr/article/20201204806453", "title": "GC녹십자그룹, 바이오·헬스케어 벤처 투자로 사업수완 발휘", "publisher": "아시아타임", "accessed": "undefined", "supports": "all notable investments and LP activity", "quote": "GC녹십자는 2009년 파멥신에 지분 투자를 단행했습니다. 파멥신은 2018년 코스닥 시장에 상장했고 주가가 상승하면 녹십자의 보유 주식 가치도 크게 확대됐습니다." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Single secondary-source article backs the investment pattern; no dedicated CVC subsidiary name found, so this entry represents GC's direct corporate strategic-investment activity rather than a discrete fund/GP entity.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "kr-boryung-dhealthcovery",
+    "name": { "en": "Boryung D:HealthCovery", "local": "보령 디헬스커버리" },
+    "type": "cvc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "south-korea",
+    "country": "South Korea",
+    "capital": {
+      "funds": [
+        { "name": "D:HealthCovery", "vintage_year": 2020, "size": { "raw": "KRW 1 billion", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Boryung Pharmaceutical's corporate-sponsored seed program for early-stage digital-healthcare startups, co-operated with accelerator The Invention Lab, providing seed capital plus business development and healthcare-network support rather than acting as a passive financial fund."
+    },
+    "program": {
+      "investment": { "raw": "seed check from a KRW 1 billion pool", "usd": null, "currency": "KRW" },
+      "format": "hybrid",
+      "application_url": "http://www.dhealthcovery.com"
+    },
+    "track_record": {
+      "co_investors": ["The Invention Lab (디인벤션랩)"]
+    },
+    "summary": {
+      "en": "D:HealthCovery is Boryung Pharmaceutical's digital-healthcare startup investment/support program, launched in 2020 with a KRW 1 billion pool and operated jointly with startup accelerator The Invention Lab.",
+      "local": "보령제약이 2020년 출범한 디지털헬스케어 스타트업 투자·육성 프로그램으로, 액셀러레이터 디인벤션랩과 공동 운영하며 1조원이 아닌 10억원 규모 펀드로 초기 스타트업에 시드투자와 사업개발 지원을 제공한다."
+    },
+    "sources": [
+      { "url": "http://www.biospectator.com/news/view/11139", "title": "보령제약, 디지털헬스케어 스타트업 지원 펀드 출범", "publisher": "바이오스펙테이터", "accessed": "undefined", "supports": "founding year, fund size, operating partner", "quote": "D:HealthCovery launched August 24, 2020 with a KRW 1 billion fund sponsored by Boryung Pharmaceutical and operated by The Invention Lab, Korea's first startup accelerator connecting startups with large corporations." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Program details drawn from a single 2020-era trade-press article; current operating status as of 2026 not independently re-confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "kr-celltrion-venture-investment",
+    "name": { "en": "Celltrion Corporate Venture Investment", "local": "셀트리온" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "capital": {
+      "aum": { "raw": "총 1,750억원 출자 (누적, 복수 펀드)", "usd": null, "currency": "KRW" },
+      "funds": [
+        { "name": "미래에셋셀트리온신성장투자조합1호 (Mirae Asset-Celltrion New Growth Investment Association No.1)", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "KRW" } },
+        { "name": "미래에셋셀트리온바이오생태계육성펀드 (Mirae Asset-Celltrion Bio Ecosystem Fund)", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "KRW" } },
+        { "name": "아주-Solasta Life Science 4.0", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea", "global"],
+      "sector_focus": ["therapeutics", "genomics-omics"],
+      "thesis": "Celltrion co-sponsors LP fund vehicles with financial partners (Mirae Asset, Aju-Solasta) totaling roughly KRW 175 billion committed to biotech venture investing, plus makes direct equity investments and runs an open-innovation accelerator track with Seoul Bio Hub, prioritizing immuno-oncology, ADC, bispecific-antibody, microbiome and digital-therapeutics pipeline targets that fit its biosimilar/biologics business."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "microbiome"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Biome (바이오미)", "sector": "genomics-omics", "outcome": "active" },
+        { "company": "Cyren Therapeutics (싸이런테라퓨틱스)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "AiNBI (에이인비)", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "Nbiocell (엔바이오셀)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Podo Therapeutics (포도테라퓨틱스)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Celltrion, Korea's largest biosimilar maker, has become a major bio-venture LP and direct investor, committing roughly KRW 175 billion across financial-partner fund vehicles and separately taking direct equity stakes in microbiome and antibody startups, alongside an open-innovation accelerator track with Seoul Bio Hub.",
+      "local": "국내 최대 바이오시밀러 기업 셀트리온은 미래에셋, 아주-Solasta 등과 조성한 펀드에 총 1750억원을 출자하고, 바이오미·싸이런테라퓨틱스 등에 직접 지분투자하며, 서울바이오허브와 오픈이노베이션 프로그램도 운영한다."
+    },
+    "sources": [
+      { "url": "https://v.daum.net/v/20260612153604692", "title": "셀트리온·삼성바이오, 벤처투자 큰 손으로…선순환 구조 기대", "publisher": "Daum/연합뉴스", "accessed": "undefined", "supports": "total committed capital, fund names, direct investments", "quote": "셀트리온은 금융사들과 협력해 국내외 바이오벤처에 투자하는 펀드를 조성하고 있으며, 현재 미래에셋셀트리온신성상투자조합1호, 미래에셋셀트리온바이오생태계육성펀드, 아주-Solasta Life Science 4.0 등에 총 1750억 원을 출자해 바이오벤처 투자에 나서고 있습니다." },
+      { "url": "https://www.khidi.or.kr/board/view?pageNum=1&rowCnt=10&menuId=MENU01816&maxIndex=99999999999999&minIndex=99999999999999&schType=0&upDown=0&no1=0&linkId=48882588", "title": "[바이오리더스클럽:셀트리온] \"바이오 옥석 찾아라\"…총 1750억 펀드 출자", "publisher": "한국보건산업진흥원(KHIDI) 제약산업정보포털", "accessed": "undefined", "supports": "corroborates total fund commitment" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Celltrion invests both as LP in co-branded funds with financial partners and via direct equity checks; no single discrete CVC subsidiary name identified so entry represents its aggregate corporate venture-investment activity.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "kr-donghwa-pharm-open-innovation",
+    "name": { "en": "Dong-Wha Pharmaceutical (Open Innovation / Corporate Investment)", "local": "동화약품" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "capital": {
+      "aum": { "raw": "2020년 이후 M&A·지분매입 누적 약 1500억원", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "life-science-tools"],
+      "thesis": "Dong-Wha Pharmaceutical (maker of Hwal-Myung-Su), one of Korea's oldest pharma companies, has run an active open-innovation M&A/equity program since 2020 (~KRW 150 billion deployed), backing AI drug-discovery and organoid-platform startups it later helped steer toward technology-special-listing IPOs, generating realized gains alongside pipeline/technology access."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Oncocross (온코크로스)", "sector": "ai-drug-discovery", "outcome": "pursuing technology-special-listing IPO" },
+        { "company": "Organoid Sciences (오가노이드사이언스)", "sector": "life-science-tools", "outcome": "pursuing technology-special-listing IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Dong-Wha Pharmaceutical, a century-old Korean pharma company, runs a direct open-innovation investment program that has deployed roughly KRW 150 billion in M&A and equity stakes since 2020, including early bets on AI-drug-discovery firm Oncocross and organoid-platform maker Organoid Sciences, both now pursuing technology-special IPO listings.",
+      "local": "동화약품은 2020년 이후 오픈이노베이션 차원에서 인수합병과 지분투자에 약 1500억원을 투입했으며, AI 신약개발기업 온코크로스와 오가노이드 개발기업 오가노이드사이언스에 투자해 두 곳 모두 기술특례상장을 추진 중이다."
+    },
+    "sources": [
+      { "url": "https://new.dailypharm.com/user/news/11341", "title": "'차익실현과 주식상장'...동화약품, 쏠쏠한 투자전략 결실", "publisher": "데일리팜", "accessed": "undefined", "supports": "investment total, portfolio, IPO pursuit", "quote": "동화약품이 지난 2020년부터 인수합병(M&A)과 지분 매입에 투입한 금액은 1500억원에 달합니다. 인공지능(AI) 신약개발 기업 온코크로스와 장기 유사체 오가노이드 개발기업 오가노이드사이언스가 기술특례상장을 추진하고 있습니다." },
+      { "url": "http://www.hitnews.co.kr/news/articleView.html?idxno=15766", "title": "'벤처 투자' '다각화'...새 성장판 찾는 전통제약사들", "publisher": "히트뉴스", "accessed": "undefined", "supports": "broader context of traditional pharma cos. diversifying into venture investing" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No separately branded CVC fund vehicle found; entry reflects Dong-Wha's direct corporate M&A/equity investment activity. Do not confuse with Dong-A Socio Holdings (동아쏘시오홀딩스), a different company for which no dedicated venture-investment vehicle could be verified in this research pass.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  }
+]

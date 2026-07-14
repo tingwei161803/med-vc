@@ -1,0 +1,189 @@
+[
+  {
+    "id": "in-cipla-new-ventures",
+    "name": { "en": "Cipla New Ventures" },
+    "aka": ["Cipla Ventures"],
+    "type": "cvc",
+    "subtypes": ["incubator"],
+    "status": "unknown",
+    "founded_year": null,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://www.cipla.com",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Cipla New Ventures is the corporate venture/impact-investment arm of Indian pharma major Cipla Ltd, backing early-stage healthtech and therapeutics companies (incubated alongside Cipla's CipTec, biologics and consumer-healthcare units) to access external innovation adjacent to its core branded-generics business."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "biologics-antibody"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": 4,
+      "notable_investments": [
+        { "company": "Stempeutics", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "Chase Pharmaceuticals", "sector": "therapeutics", "outcome": "acquired" },
+        { "company": "MabPharma", "sector": "therapeutics", "outcome": "active" },
+        { "company": "BioMab", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "tags": ["corporate-vc", "pharma-cvc", "healthtech"],
+    "summary": {
+      "en": "Corporate venture arm of Indian pharma major Cipla Ltd, making early-stage (seed to Series B) investments in healthtech and therapeutics startups such as stem-cell company Stempeutics and drug developer Chase Pharmaceuticals."
+    },
+    "sources": [
+      {
+        "url": "https://www.cbinsights.com/investor/cipla-ventures",
+        "title": "Cipla Ventures Portfolio Investments, Cipla Ventures Funds, Cipla Ventures Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "existence, portfolio companies, investment count",
+        "quote": "The unit has made four investments so far, in Stempeutics, Chase Pharma, MabPharma and BioMab."
+      },
+      {
+        "url": "https://foundersuite.com/firms/cipla-new-ventures",
+        "title": "Cipla New Ventures | Investor profile | Foundersuite",
+        "publisher": "Foundersuite",
+        "accessed": "undefined",
+        "supports": "description as impact-investment arm of Cipla, stage focus",
+        "quote": "Cipla New Ventures is the impact investment arm of Cipla. The firm invests in healthcare based early stage companies through seed and series A/B rounds, mainly focusing in the healthtech and therapy sectors and is incubated by CipTec, Biologicals and Consumer Healthcare."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Only secondary aggregator sources (CB Insights 'Cipla Ventures', Foundersuite 'Cipla New Ventures') were found in this research pass; no dedicated page on cipla.com surfaced. Most documented deals (Stempeutics, Chase Pharmaceuticals, MabPharma, BioMab) date to 2014-2016; a 2016 exit from Chase Pharmaceuticals was noted. No confirmed 2020s activity was located, so current operating status is uncertain (marked unknown rather than active).",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "in-zynext-ventures",
+    "name": { "en": "Zynext Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Ahmedabad",
+    "offices": [{ "country": "India", "city": "Ahmedabad" }],
+    "website": "https://www.zyduslife.com",
+    "strategy": {
+      "sector_focus": ["medtech-devices", "medical-imaging", "therapeutics"],
+      "thesis": "Zynext Ventures is the corporate venture capital arm of Zydus Lifesciences (formerly Cadila Healthcare), investing in disruptive healthcare innovation — including next-generation point-of-care medical imaging and interventional technology — to complement Zydus's core pharmaceuticals and biosimilars business."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "indications": ["oncology", "nephrology-urology"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Promaxo", "sector": "medical-imaging", "outcome": "active" }
+      ]
+    },
+    "tags": ["corporate-vc", "pharma-cvc", "medtech"],
+    "summary": {
+      "en": "Corporate venture capital arm of Zydus Lifesciences, backing next-generation medtech and healthcare innovators such as point-of-care MRI maker Promaxo."
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/zynext-ventures-the-vc-arm-of-zydus-lifesciences-announces-investment-in-promaxo-pioneering-point-of-care-medical-imaging-and-interventions-with-next-generation-mri-systems-302175749.html",
+        "title": "Zynext Ventures, the VC arm of Zydus Lifesciences, Announces Investment in Promaxo: Pioneering Point-of-Care Medical Imaging and Interventions with Next Generation MRI Systems",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "existence, parent relationship, investment in Promaxo",
+        "quote": "Zynext Ventures, the VC arm of Zydus Lifesciences, Announces Investment in Promaxo: Pioneering Point-of-Care Medical Imaging and Interventions with Next Generation MRI Systems"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Confirmed via official PR Newswire press release naming Zydus Lifesciences as parent. Press materials describe the investing vehicle as 'Zynext Ventures USA LLC'; the parent, Zydus Lifesciences Ltd, is headquartered in Ahmedabad, India, so the entity is included under India per the dedicated-arm rule.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "in-biocon",
+    "name": { "en": "Biocon Ltd" },
+    "type": "cvc",
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bangalore",
+    "website": "https://www.biocon.com",
+    "strategy": {
+      "sector_focus": ["therapeutics"],
+      "thesis": "Biocon, India's largest listed biopharmaceutical company, occasionally makes direct strategic investments and co-development deals in external biotech innovators (e.g., U.S.-based immuno-oncology company IATRICa) to access novel therapeutic platforms alongside its core biosimilars and generics business."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody"],
+      "indications": ["oncology", "infectious-disease"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "IATRICa", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "tags": ["strategic-investor", "pharma-cvc"],
+    "summary": {
+      "en": "India's largest listed biopharmaceutical company; alongside its core biosimilars and generics business, Biocon makes selective direct strategic investments in external biotech innovators such as U.S. immuno-oncology company IATRICa."
+    },
+    "sources": [
+      {
+        "url": "https://invivo.pharmaintelligence.informa.com/SC066650/Biocon-Partners-With-Biotech-Startup-In-Latest-IndiaUS-Deal",
+        "title": "Biocon Partners With Biotech Startup In Latest India-U.S. Deal",
+        "publisher": "In Vivo (Informa Pharma Intelligence)",
+        "accessed": "undefined",
+        "supports": "strategic investment in IATRICa",
+        "quote": "Biocon made a 'strategic' investment in U.S. firm IATRICa to co-develop a new class of immunoconjugates that provides targeted immunotherapy for cancers and infectious diseases."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Biocon does not appear to operate a formally named, dedicated CVC fund; this entry reflects direct strategic-investment/co-development activity rather than an active venture program. Only one confirmed deal (IATRICa) was found in this research pass; deal size, date and ownership stake could not be verified.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  },
+  {
+    "id": "in-torrent-pharmaceuticals",
+    "name": { "en": "Torrent Pharmaceuticals" },
+    "type": "cvc",
+    "status": "unknown",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Ahmedabad",
+    "website": "https://www.torrentpharma.com",
+    "strategy": {
+      "sector_focus": ["therapeutics"],
+      "thesis": "Torrent Pharmaceuticals, a major Indian branded-generics and formulations company, has made at least one direct strategic investment in an external biotech (Epigeneres Biotech), reflecting opportunistic corporate investment beyond its core generics business."
+    },
+    "lifesci": {
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": 1,
+      "notable_investments": [
+        { "company": "Epigeneres Biotech", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "tags": ["strategic-investor", "pharma-cvc"],
+    "summary": {
+      "en": "Major Indian branded-generics pharmaceutical company that has made at least one direct strategic investment in an external biotech (Epigeneres Biotech), suggesting opportunistic corporate investing rather than a dedicated venture program."
+    },
+    "sources": [
+      {
+        "url": "https://www.cbinsights.com/investor/torrent-pharmaceuticals",
+        "title": "Torrent Pharmaceuticals Portfolio Investments, Torrent Pharmaceuticals Funds, Torrent Pharmaceuticals Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "single strategic investment in Epigeneres Biotech",
+        "quote": "Torrent Pharmaceuticals has made 1 investment, with their latest investment in Epigeneres Biotech."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Extremely thin activity, appears to be a one-off strategic/opportunistic investment rather than an active CVC program. Sourced only from a CB Insights aggregator listing; no primary Torrent Pharma confirmation, deal date, or deal size found in this research pass.",
+    "last_updated": "undefined",
+    "researched_by": "pharma-bio-cvc"
+  }
+]

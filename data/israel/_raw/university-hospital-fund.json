@@ -1,0 +1,597 @@
+[
+  {
+    "id": "il-yissum",
+    "name": { "en": "Yissum Research Development Company", "local": "ייסום - חברת מחקר ופיתוח של האוניברסיטה העברית" },
+    "aka": ["Yissum Technology Transfer", "Yissum Technology Transfer Company of the Hebrew University"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1964,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "website": "https://www.yissum.co.il/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "life-science-tools", "medtech-devices", "ai-drug-discovery"],
+      "geo_focus": ["Israel"],
+      "thesis": "Technology-transfer company of the Hebrew University of Jerusalem; takes equity, licenses IP and spins out companies from Hebrew University research, with a portfolio spanning biotechnology, oncology therapeutics and AI-applied life sciences alongside other deep-tech fields."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Israel's oldest and largest university TTO by patent count; takes equity/royalty stakes in spin-outs from Hebrew University labs, including life-science and biotech ventures such as CollPlant (regenerative medicine/collagen, Nasdaq-listed)."
+    },
+    "track_record": {
+      "portfolio_count": "245+ spin-off companies (all sectors)",
+      "notable_investments": [
+        { "company": "CollPlant Biotechnologies", "sector": "regenerative medicine / life sciences", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Founded in 1964, Yissum is the Hebrew University of Jerusalem's technology-transfer company and Israel's oldest TTO, licensing IP and taking equity in spin-outs across biotech, pharma and life sciences.",
+      "local": "ייסום היא חברת מחקר ופיתוח של האוניברסיטה העברית בירושלים, המסחררת המצאות אקדמיות ומחזיקה במניות בחברות הזנק, כולל בתחומי הביוטק והמדעי החיים."
+    },
+    "sources": [
+      {
+        "url": "https://www.yissum.co.il/",
+        "title": "Technology Transfer & IP company Hebrew University Jerusalem - Yissum",
+        "publisher": "Yissum",
+        "accessed": "undefined",
+        "supports": "existence, TTO role",
+        "quote": "Technology Transfer & IP company Hebrew University Jerusalem - Yissum"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Yissum_Research_Development_Company_of_the_Hebrew_University",
+        "title": "Yissum Research Development Company of the Hebrew University",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founded 1964, patent/spin-off counts, notable spin-offs",
+        "quote": "Founded in 1964, it is the 3rd company of its kind ever created, and it is the third-oldest university technology-transfer office in the world and the oldest in Israel. ... Since its inception, Yissum has registered 10,000+ patents covering 2,800+ inventions; licensed 900 technologies and produced 130+ spin-off companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Yissum's mandate covers all Hebrew University IP (not exclusively medical), but life-science/biotech is a major share of its licensing and spin-off activity; medical nexus documented via CollPlant and other biotech spin-offs.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-ramot",
+    "name": { "en": "Ramot at Tel Aviv University", "local": "רמות בע\"מ - חברת ההעברה הטכנולוגית של אוניברסיטת תל אביב" },
+    "aka": ["Ramot", "Technology Innovation Momentum Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://ramot.org/",
+    "capital": {
+      "funds": [
+        { "name": "Technology Innovation Momentum Fund", "vintage_year": 2013, "size": { "raw": "close to US$24 million (final closing ~$23.5M)", "usd": 23500000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools"],
+      "geo_focus": ["Israel"],
+      "thesis": "Tel Aviv University's technology-transfer company; established the dedicated Momentum Fund in 2013 (backed by Tata Group, Temasek and others) to co-invest in spin-outs commercializing TAU research, with explicit focus areas including pharmaceuticals and health care alongside engineering and clean-tech."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Momentum Fund invested in 28 TAU technologies, five of which became start-ups including the cardiac-assist device company QArt Medical."
+    },
+    "track_record": {
+      "portfolio_count": "28 technologies funded via Momentum Fund; 5 resulting start-ups",
+      "notable_investments": [
+        { "company": "QArt Medical", "sector": "medtech-devices (cardiac assist)", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Ramot is Tel Aviv University's tech-transfer company; its Momentum Fund is a dedicated ~$24M vehicle co-invested by Tata Group and Temasek that funds spin-outs from TAU research, including healthcare and pharmaceutical technologies such as QArt Medical.",
+      "local": "רמות היא חברת ההעברה הטכנולוגית של אוניברסיטת תל אביב, ומפעילה את קרן המומנטום להשקעה בטכנולוגיות של האוניברסיטה, כולל בתחום הבריאות והרפואה."
+    },
+    "sources": [
+      {
+        "url": "https://ramot.org/",
+        "title": "Ramot - Technology Transfer Company of Tel Aviv University",
+        "publisher": "Ramot",
+        "accessed": "undefined",
+        "supports": "existence, TTO role",
+        "quote": "Ramot's mission is to facilitate the transfer of technology and knowledge from the university to the market."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ramot_at_Tel_Aviv_University",
+        "title": "Ramot at Tel Aviv University",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Momentum Fund size and focus",
+        "quote": "In 2013, Ramot established the Momentum Fund, an investment fund solely dedicated to funding research and development of the university's technologies. Momentum Fund investors include the Indian conglomerate, Tata Group, and Temasek Holdings. The Momentum Fund raised close to US 24 million dollars and invested in 28 technologies."
+      },
+      {
+        "url": "https://ramot.org/news/tau-momentum-fund-with-another-spin-off-company-qart-medical-finalizes-round-of-venture-investment/",
+        "title": "TAU Momentum Fund with another spin off Company - QART Medical finalizes round of venture investment",
+        "publisher": "Ramot",
+        "accessed": "undefined",
+        "supports": "QArt Medical as Momentum Fund spin-off",
+        "quote": "TAU Momentum Fund with another spin off Company - QART Medical finalizes round of venture investment"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Momentum Fund invests across TAU's full research portfolio (engineering, cleantech, pharma/healthcare); medical nexus confirmed via explicit healthcare focus area and QArt Medical spin-off.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-yeda",
+    "name": { "en": "Yeda Research and Development Company", "local": "ידע חברה למחקר ופיתוח בע\"מ" },
+    "aka": ["Yeda", "YEDA Technology Transfer"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1959,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Rehovot",
+    "website": "https://www.yedarnd.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "life-science-tools"],
+      "geo_focus": ["Israel"],
+      "thesis": "Commercial/technology-transfer arm of the Weizmann Institute of Science since 1959; patents, licenses and takes equity stakes in spin-outs from Weizmann research, with a current portfolio spanning biotechnology, oncology therapeutics and AI-applied life sciences."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "indications": ["neurology"],
+      "company_creation": true,
+      "science_platform_notes": "Best-known deal is the 1980s license of glatiramer acetate (later marketed by Teva as Copaxone for multiple sclerosis), which built Yeda's royalty base and funded ongoing Weizmann research."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Copaxone (glatiramer acetate, licensed to Teva)", "sector": "therapeutics / neurology", "outcome": "FDA-approved" }
+      ]
+    },
+    "summary": {
+      "en": "Yeda, established in 1959, is the Weizmann Institute of Science's technology-transfer company; it licensed glatiramer acetate (Copaxone) to Teva and holds a current portfolio spanning biotech, oncology therapeutics and AI-applied life sciences.",
+      "local": "ידע היא חברת ההעברה הטכנולוגית של מכון ויצמן למדע, שהוקמה ב-1959, ואחראית למסחור המצאות מדעיות כולל בתחומי הביוטכנולוגיה והאונקולוגיה."
+    },
+    "sources": [
+      {
+        "url": "https://www.yedarnd.com/",
+        "title": "Home | YEDA Technology Transfer",
+        "publisher": "Yeda R&D",
+        "accessed": "undefined",
+        "supports": "existence, role as Weizmann's TTO",
+        "quote": "Yeda Research and Development Company Ltd. is the commercial arm of the Weizmann Institute of Science (WIS) and is the second company of its kind established in the world."
+      },
+      {
+        "url": "https://olam.business/weizmann-and-the-yeda-model/",
+        "title": "Weizmann and the Yeda Model",
+        "publisher": "The Olam",
+        "accessed": "undefined",
+        "supports": "founded 1959, Copaxone deal, current portfolio focus",
+        "quote": "Established in 1959, it predates most of the modern global university tech-transfer infrastructure. ... The single deal that built Yeda's balance sheet was the 1980s licensing of glatiramer acetate — eventually marketed by Teva as Copaxone — to Teva Pharmaceutical Industries. ... Yeda's current portfolio spans biotechnology, oncology therapeutics, AI-applied life sciences, and materials science."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Yeda's mandate covers all Weizmann IP (physics, chemistry, math, CS as well as life sciences); medical nexus documented via Copaxone (neurology/MS) and current biotech/oncology portfolio.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-t3-technion",
+    "name": { "en": "T3 - Technion Technology Transfer", "local": "T3 - העברת טכנולוגיה של הטכניון" },
+    "aka": ["T3", "Technion Research & Development Foundation (TRDF)"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Haifa",
+    "website": "https://t3.technion.ac.il/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "ai-drug-discovery"],
+      "geo_focus": ["Israel"],
+      "thesis": "Commercialization/technology-transfer arm of the Technion - Israel Institute of Technology, operating under the Technion Research & Development Foundation (TRDF); channels Technion IP into start-ups via designated seed/Series-A investment vehicles (AMIT, TRDF, Technion Investment Opportunities Fund) and the Technion DRIVE accelerator, spanning biotech, medtech and life-science ventures alongside deep tech."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Staffed by an 11-member commercialization team; over 100 companies established on Technion IP to date, drawing on Technion's biomedical engineering, chemistry and medical (Rappaport Faculty of Medicine) research base."
+    },
+    "summary": {
+      "en": "T3 is the Technion's technology-transfer unit, operating under the Technion Research & Development Foundation; it commercializes Technion research - including biomedical engineering and life-science IP - through seed/Series-A designated funds and an accelerator.",
+      "local": "T3 היא יחידת ההעברה הטכנולוגית של הטכניון, הפועלת תחת קרן המחקר והפיתוח של הטכניון, ומסחררת המצאות אקדמיות כולל בתחום ההנדסה הביו-רפואית."
+    },
+    "sources": [
+      {
+        "url": "https://t3.technion.ac.il/",
+        "title": "Home Page - T3 - Technion Technology Transfer",
+        "publisher": "T3 / Technion",
+        "accessed": "undefined",
+        "supports": "existence, role as Technion's TTO",
+        "quote": "T3 Technion Technology Transfer is the technology transfer unit of the Technion - Israel Institute of Technology"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/T3_Technion_Technology_Transfer",
+        "title": "T3 Technion Technology Transfer",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "team size, spin-off count, investment vehicles",
+        "quote": "T3 is staffed by an 11-member team whose focus is to commercialize new ideas in science and technology from Technion in Israel... The Technion offers a variety of investment avenues... from early stage support through the Technion DRIVE Accelerator, to continued investments through Seed/Round A designated funds such as AMIT, the Technion R&D foundation (TRDF) or the Technion Investment Opportunities Fund (TIOF)."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund sizes for AMIT/TRDF/TIOF were not independently confirmed with a dollar figure in the sources reviewed; medical nexus inferred from Technion's biomedical engineering and medicine faculties plus general life-science coverage in T3's remit, not a life-sciences-exclusive mandate.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-bgn-technologies",
+    "name": { "en": "BGN Technologies", "local": "בי.ג'י.אן טכנולוגיות" },
+    "aka": ["Ben-Gurion University Technology Transfer", "Cactus Capital"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Beer Sheva",
+    "website": "https://bgn.bgu.ac.il/",
+    "capital": {
+      "funds": [
+        { "name": "Cactus Capital (student-run fund, joint venture with fresh.fund)", "vintage_year": 2018, "size": { "raw": "$1 million", "usd": 1000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools"],
+      "geo_focus": ["Israel"],
+      "thesis": "Technology-transfer company of Ben-Gurion University of the Negev; commercializes BGU research (hightech, biotech, materials, agriculture) and co-runs the $1M student-led Cactus Capital venture fund, which explicitly targets biotech alongside tech and social-impact ventures."
+    },
+    "lifesci": {
+      "company_creation": true
+    },
+    "track_record": {
+      "portfolio_count": "100+ start-up companies (all sectors)"
+    },
+    "summary": {
+      "en": "BGN Technologies is Ben-Gurion University's technology-transfer company, commercializing university IP including biotech, and co-operates the $1M student-run Cactus Capital venture fund with a biotech investment mandate.",
+      "local": "בי.ג'י.אן טכנולוגיות היא חברת ההעברה הטכנולוגית של אוניברסיטת בן-גוריון בנגב, ומפעילה יחד עם קרן Cactus Capital קרן הון סיכון בהובלת סטודנטים המשקיעה גם בביוטכנולוגיה."
+    },
+    "sources": [
+      {
+        "url": "https://bgn.bgu.ac.il/",
+        "title": "BGN - Ben-Gurion University Technology Transfer",
+        "publisher": "BGN Technologies",
+        "accessed": "undefined",
+        "supports": "existence, TTO role, sector coverage",
+        "quote": "BGN Technologies is the technology transfer company of Ben-Gurion University of the Negev... in the following fields: hightech, biotechnology, materials, agriculture and environment."
+      },
+      {
+        "url": "https://nocamels.com/2018/05/bgu-negev-student-fund/",
+        "title": "Ben-Gurion University Launches $1M Student-Led Venture Capital Fund",
+        "publisher": "NoCamels",
+        "accessed": "undefined",
+        "supports": "Cactus Capital fund size and biotech focus",
+        "quote": "Ben-Gurion University of the Negev (BGU) launched a $1 million venture capital fund to help jump-start innovative student-led technologies and ideas. The fund, called Cactus Capital, is a joint venture with fresh.fund... The main goal of the fund is to encourage on-campus innovation in the fields of technology, biotech and social engagement."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "BGN's remit spans all BGU faculties, not exclusively medical; biomedical nexus documented via explicit biotech focus of its TTO mandate and the Cactus Capital fund.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-hadasit",
+    "name": { "en": "Hadasit / Hadasit Bio-Holdings", "local": "הדסית" },
+    "aka": ["Hadasit Ltd", "Hadasit Bio-Holdings", "HBL"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "website": "https://hadasit.org.il/",
+    "links": { "other": ["https://hbl.co.il/"] },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "geo_focus": ["Israel"],
+      "thesis": "Technology-transfer company of the Hadassah Medical Organization; commercializes IP generated at Hadassah University Hospital and holds equity stakes in spin-offs via its publicly traded subsidiary Hadasit Bio-Holdings (TASE: HDST), with a portfolio concentrated in immuno-oncology, ophthalmology and inflammatory disease."
+    },
+    "lifesci": {
+      "indications": ["oncology", "ophthalmology", "immunology-inflammation"],
+      "company_creation": true,
+      "invests_public_markets": false,
+      "science_platform_notes": "HBL provides public-market exposure to a cluster of ~6 biotech companies based on Hadassah-originated IP; Hadasit also partnered with the NGT HealthCare II VC fund to establish a $30M seed-stage incubator fund backed by the Israel Innovation Authority."
+    },
+    "track_record": {
+      "portfolio_count": "~6 biotech companies (Hadasit Bio-Holdings cluster)"
+    },
+    "summary": {
+      "en": "Hadasit is the technology-transfer company of the Hadassah Medical Organization in Jerusalem; it commercializes hospital-originated IP and, via publicly traded Hadasit Bio-Holdings, holds equity in a cluster of biotech companies in immuno-oncology, ophthalmology and inflammatory disease.",
+      "local": "הדסית היא חברת ההעברה הטכנולוגית של ארגון הדסה, המסחררת המצאות מבית החולים הדסה ומחזיקה במניות חברות ביוטק דרך הדסית ביו-הולדינגס הנסחרת בבורסה."
+    },
+    "sources": [
+      {
+        "url": "https://hadasit.org.il/",
+        "title": "Funding & Business Initiatives - Hadasit - Health Innovation Engine",
+        "publisher": "Hadasit",
+        "accessed": "undefined",
+        "supports": "existence, TTO role for Hadassah",
+        "quote": "Hadasit is the technology transfer company of the Hadassah University Hospital in Jerusalem. Hadasit was established for the purpose of promoting and commercializing the intellectual property (IP) and R&D capabilities generated by Hadassah."
+      },
+      {
+        "url": "https://hbl.co.il/",
+        "title": "Hadasit Bio Holdings Ltd.",
+        "publisher": "Hadasit Bio-Holdings",
+        "accessed": "undefined",
+        "supports": "public listing, ownership structure, indication focus",
+        "quote": "Hadasit Bio-Holdings Ltd. was founded and floated on the Tel Aviv Stock Exchange (TASE: HDST)... HBL is held by Hadasit (36%) and Consensus Business Group (10%)... The traded stock... provides investment exposure to a select cluster of 6 biotech companies... The companies operate in the fields of Immuno-Oncology, Ophthalmology, and Inflammatory Diseases."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Treated Hadasit (TTO) and its publicly traded subsidiary Hadasit Bio-Holdings as one combined entity since HBL is Hadasit's biotech investment vehicle; the $30M NGT HealthCare II fund is a partnership, not solely Hadasit's fund.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-mor-research-applications",
+    "name": { "en": "Mor Research Applications", "local": "מור - יישומי מחקר" },
+    "aka": ["Mor Research", "Mor Institute"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1994,
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://mor-research.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-it"],
+      "geo_focus": ["Israel"],
+      "thesis": "Technology-transfer office of Clalit Health Services, Israel's largest HMO; commercializes inventions from Clalit's 14 hospitals and ~2,000 clinics across medical, pharmaceutical, diagnostic, medical-IT and biotech fields, taking equity in resulting spin-outs and running a research-fund division for Clalit physician-researchers."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "IP sourced from Clalit hospitals including Beilinson, Meir, Kaplan, Carmel, Soroka, Ha'Emek and Schneider medical centers; partnered with Aspire Ventures and Smart Health Innovation Lab, and with Penn Medicine Lancaster General Health / Capital BlueCross on precision-medicine commercialization."
+    },
+    "track_record": {
+      "portfolio_count": "100+ projects/companies (pre-seed to advanced stage)"
+    },
+    "summary": {
+      "en": "Mor Research Applications is the technology-transfer office of Clalit Health Services, Israel's largest HMO, commercializing inventions from Clalit's 14 hospitals across medical, pharmaceutical, diagnostic and health-IT fields.",
+      "local": "מור - יישומי מחקר היא חברת ההעברה הטכנולוגית של שירותי בריאות כללית, ומסחררת המצאות מ-14 בתי החולים של כללית בתחומי הרפואה, התרופות והאבחון."
+    },
+    "sources": [
+      {
+        "url": "https://mor-research.com/",
+        "title": "Mor Research Applications",
+        "publisher": "Mor Research Applications",
+        "accessed": "undefined",
+        "supports": "existence, role, sector coverage, hospital sources",
+        "quote": "Mor Research Applications is the Technology Transfer Office of Clalit Health Services, the largest HMO in Israel... Mor helps inventors to translate new ideas in the medical, pharmaceutical, diagnostics, medical IT and biotechnology fields... The intellectual property is conceived and developed by professionals working at our 14 Clalit hospitals and around 2000 clinics across the country, including Beilinson, Meir, Kaplan, Carmel, Soroka, Ha-Emek, and Schneider medical centers."
+      },
+      {
+        "url": "https://nocamels.com/2019/05/76316/",
+        "title": "Israel's Clalit Health Services Partners With Aspire Ventures, Smart Health Innovation Lab",
+        "publisher": "NoCamels",
+        "accessed": "undefined",
+        "supports": "founded 1994, partnership activity",
+        "quote": "Mor was founded in 1994 as a subsidiary of The Mor Institute and a holding of Clalit Health Services."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Clalit is a nonprofit HMO (not a university) but Mor functions as the dedicated research/hospital-network technology-transfer and venture-support arm, matching this slice's scope; not the government-funds sibling slice.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-birad",
+    "name": { "en": "BIRAD - Bar-Ilan Research & Development Company", "local": "בירד - חברת מו\"פ של אוניברסיטת בר-אילן" },
+    "aka": ["BIRAD"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Ramat Gan",
+    "website": "https://birad.biz/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "geo_focus": ["Israel"],
+      "thesis": "Wholly owned technology-transfer company of Bar-Ilan University; primarily targets pharmaceutical and life-sciences commercialization, licensing IP and supporting venture creation, including a CAR-T cell-therapy collaboration with the Hadassah Medical Organization and Immix BioPharma."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy"],
+      "indications": ["oncology"],
+      "company_creation": true
+    },
+    "summary": {
+      "en": "BIRAD is Bar-Ilan University's technology-transfer company, focused primarily on commercializing pharmaceutical and life-science research, including a next-generation CAR-T cell-therapy program developed with Hadassah Medical Organization.",
+      "local": "בירד היא חברת ההעברה הטכנולוגית של אוניברסיטת בר-אילן, המתמקדת בעיקר במסחור מחקר בתחום התרופות ומדעי החיים."
+    },
+    "sources": [
+      {
+        "url": "https://birad.biz/",
+        "title": "BIRAD - Where Science Comes to Life",
+        "publisher": "BIRAD",
+        "accessed": "undefined",
+        "supports": "existence, TTO role, sector focus",
+        "quote": "BIRAD (Bar-Ilan Research & Development Company Ltd.) is a wholly owned subsidiary of Bar-Ilan University... The organization primarily targets the pharmaceutical and life sciences sectors."
+      },
+      {
+        "url": "https://birad.biz/hadassah-medical-organization-and-bar-ilan-university-collaborate-with-immix-biopharma-for-the-further-development-and-commercialization-of-next-generation-car-t-therapy/",
+        "title": "Hadassah Medical Organization and Bar-Ilan University Collaborate with Immix BioPharma for the Further Development and Commercialization of Next-Generation CAR-T Therapy",
+        "publisher": "BIRAD",
+        "accessed": "undefined",
+        "supports": "CAR-T / oncology collaboration",
+        "quote": "Hadassah Medical Organization and Bar-Ilan University Collaborate with Immix BioPharma for the Further Development and Commercialization of Next-Generation CAR-T Therapy"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city (Ramat Gan) taken from Bar-Ilan University's general location; not independently re-verified via a dedicated address source.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-triventures-arc",
+    "name": { "en": "Triventures ARC", "local": "טריוונצ'רס ARC" },
+    "aka": ["ARC Innovation Fund", "Sheba ARC / Triventures partnership"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Ramat Gan",
+    "website": "https://www.triventures.vc/arc/",
+    "capital": {
+      "current_fund": { "raw": "$45 million (target)", "usd": 45000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed"],
+      "sector_focus": ["digital-health", "medtech-devices", "diagnostics", "healthcare-it"],
+      "geo_focus": ["Israel"],
+      "thesis": "Seed-stage digital-health fund created via an exclusive partnership between Sheba Medical Center's ARC Innovation Center and venture firm Triventures - the first tie-up of its kind between an Israeli hospital system and a VC fund; portfolio companies get access to Sheba's clinical data, physicians and 25 years of longitudinal patient records alongside capital."
+    },
+    "lifesci": {
+      "science_platform_notes": "Focus areas include personalized healthcare, virtual hospital, big data/AI, smart medical devices, clinical/financial workflow management and healthcare cybersecurity, sourced via Sheba's ARC Innovation Center ('Accelerate, Redesign, Collaborate')."
+    },
+    "summary": {
+      "en": "Triventures ARC is a $45M-target seed-stage digital-health fund run in exclusive partnership between Sheba Medical Center's ARC Innovation Center and VC firm Triventures, giving portfolio companies access to Sheba's clinical data and physicians.",
+      "local": "טריוונצ'רס ARC היא קרן הון סיכון בשלב הזרעה בתחום הבריאות הדיגיטלית, בשיתוף בלעדי בין מרכז החדשנות ARC של המרכז הרפואי שיבא לחברת טריוונצ'רס."
+    },
+    "sources": [
+      {
+        "url": "https://www.triventures.vc/arc/",
+        "title": "ARC - Triventures",
+        "publisher": "Triventures",
+        "accessed": "undefined",
+        "supports": "existence, partnership structure",
+        "quote": "Triventures ARC, a seed stage fund, has an exclusive collaboration with ARC, the innovation arm of the Sheba Medical Center."
+      },
+      {
+        "url": "https://www.forbes.com/sites/startupnationcentral/2018/12/27/vc-brings-the-cash-hospital-opens-its-data-israelis-launch-45m-medical-innovation-fund/",
+        "title": "Israeli VC, Hospital Launch $45M Medical Innovation Fund",
+        "publisher": "Forbes (Startup Nation Central)",
+        "accessed": "undefined",
+        "supports": "fund size, founding year, focus areas",
+        "quote": "Sheba Medical Center has a $45M venture capital fund called Triventures ARC... Through the Triventures ARC fund, start-ups will access Israeli healthcare company Sheba Medical Center's medical data infrastructure, clinical and research staff and access to capital."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "The fund is co-managed by independent VC firm Triventures rather than solely by Sheba/ARC; included in this slice because it is a dedicated fund tied to a specific hospital's innovation arm, with 'vc' listed as a secondary subtype given Triventures' operating role.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-rambam-medtech",
+    "name": { "en": "Rambam MedTech", "local": "רמב\"ם מדטק" },
+    "aka": ["Rambam MedTech Ltd.", "Nitzoz (Spark) Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Haifa",
+    "website": "https://www.rambam.org.il/en/research_and_innovation/medtech/",
+    "capital": {
+      "funds": [
+        { "name": "Nitzoz (Spark) Fund", "vintage_year": null, "size": { "raw": null } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed"],
+      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics"],
+      "geo_focus": ["Israel"],
+      "thesis": "Technology-transfer company of Rambam Health Care Campus in Haifa, authorized by the Israeli government to handle all IP generated by Rambam clinicians and scientists; runs the Nitzoz (Spark) Fund providing early funding to take medical-device projects from concept through business-feasibility exploration to investment readiness."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Also collaborates on MindUP, a Haifa digital-health incubator joint venture with Medtronic, IBM, Pitango Venture Capital and Impact 1st Investments."
+    },
+    "summary": {
+      "en": "Rambam MedTech, established in 2014, is the technology-transfer company of Rambam Health Care Campus in Haifa; it commercializes clinician-generated IP and runs the Nitzoz (Spark) Fund for early-stage medical-device funding.",
+      "local": "רמב\"ם מדטק היא חברת ההעברה הטכנולוגית של המרכז הרפואי רמב\"ם בחיפה, המסחררת המצאות של קלינאים וחוקרים ומפעילה את קרן ניצוץ למימון מוקדם של מכשור רפואי."
+    },
+    "sources": [
+      {
+        "url": "https://www.rambam.org.il/en/research_and_innovation/medtech/",
+        "title": "Rambam Health Care Campus - Rambam MedTech",
+        "publisher": "Rambam Health Care Campus",
+        "accessed": "undefined",
+        "supports": "existence, founding year, TTO role, Nitzoz fund",
+        "quote": "Rambam MedTech Ltd. is the technology transfer company (TTC) for Rambam Health Care Campus. Since 2014, it has served as the liaison between Rambam's research community and industry... The Nitzoz (Spark) Fund provides funding to facilitate development of medical device projects from concept through initial exploration of business feasibility, to a state of investment readiness."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Nitzoz Fund size not disclosed in sources reviewed; left null rather than estimated.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-tau-ventures",
+    "name": { "en": "TAU Ventures", "local": "TAU Ventures" },
+    "aka": ["The VC of Tel Aviv University"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.tauventures.co.il/",
+    "capital": {
+      "current_fund": { "raw": "$50 million (expandable to $70M), Fund II", "usd": 50000000, "currency": "USD" },
+      "funds": [
+        { "name": "Fund I", "vintage_year": 2018, "size": { "raw": "$20 million", "usd": 20000000, "currency": "USD" } },
+        { "name": "Fund II", "vintage_year": 2021, "size": { "raw": "$50 million", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "up to $1M as first investment" },
+      "sector_focus": ["generalist-health", "digital-health"],
+      "geo_focus": ["Israel"],
+      "thesis": "Official early-stage VC fund of Tel Aviv University, sourcing deal flow from TAU's research and alumni ecosystem; generalist mandate but with a recurring health-tech thread, having backed clinical-data platform Castor and health-insurer engagement company Medorion."
+    },
+    "lifesci": {
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "26+ companies across Fund I and Fund II",
+      "notable_investments": [
+        { "company": "Castor", "sector": "digital-health / clinical trial data", "outcome": "active" },
+        { "company": "Medorion", "sector": "digital-health / payer engagement", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "TAU Ventures is Tel Aviv University's official venture-capital fund (Fund I: $20M in 2018, Fund II: $50M in 2021); it is a generalist early-stage investor whose portfolio includes health-tech companies such as Castor (clinical trial data) and Medorion (health-insurer engagement).",
+      "local": "TAU Ventures היא קרן ההון סיכון הרשמית של אוניברסיטת תל אביב, המשקיעה בשלבים מוקדמים, כולל בחברות בריאות דיגיטלית כמו Castor ו-Medorion."
+    },
+    "sources": [
+      {
+        "url": "https://www.tauventures.co.il/",
+        "title": "Home - TAU Ventures",
+        "publisher": "TAU Ventures",
+        "accessed": "undefined",
+        "supports": "existence, TAU affiliation",
+        "quote": "Home - TAU Ventures"
+      },
+      {
+        "url": "https://www.aftau.org/news_item/tau-ventures-the-vc-of-tel-aviv-university-raises-a-second-fund-of-50m-for-investment-in-startups/",
+        "title": "TAU Ventures, the VC of Tel Aviv University, raises a second fund of $50M for investment in startups",
+        "publisher": "American Friends of Tel Aviv University",
+        "accessed": "undefined",
+        "supports": "Fund I/II sizes, vintage years, portfolio companies",
+        "quote": "TAU Ventures' first fund of $20 million began in 2018 and made 18 investments, including SWIMM, Xtend, Gaviti, MyAir, Castor, Medorion, and others. TAU Ventures has announced raising a second fund of $50 million for investments in startups, with the opportunity to grow the fund to $70 million."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "TAU Ventures is a generalist early-stage fund (not exclusively medical); included in this slice because it is Tel Aviv University's official, university-owned venture fund, and its portfolio includes verifiable digital-health companies (Castor, Medorion). 'vc' listed as secondary subtype given its independent fund-manager operating model.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  }
+]

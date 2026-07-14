@@ -1,0 +1,542 @@
+[
+  {
+    "id": "tw-taiwania-capital",
+    "name": { "en": "Taiwania Capital", "local": "台杉投資" },
+    "aka": ["Taiwania Capital Management", "台杉投資管理顧問"],
+    "type": "vc",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taiwaniacapital.com",
+    "links": {
+      "linkedin": "https://tw.linkedin.com/company/taiwania-capital"
+    },
+    "capital": {
+      "funds": [
+        { "name": "Biotech Fund (生技基金)", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": null } },
+        { "name": "Fund III / Medtech Fund (三號生技基金)", "vintage_year": null, "size": { "raw": "US$59M", "usd": 59000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Taiwan", "North America", "Asia-Pacific"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health", "therapeutics", "cell-gene-therapy"],
+      "thesis": "Government-anchored VC (co-founded by Taiwan's National Development Fund and private enterprises in 2017). Its Biotech Fund backs drug development, gene/cell therapy, medical devices and innovative healthcare services, while its Fund III 'Medtech Fund' targets startups developing therapeutic/diagnostic devices and precision-health medical technology across Taiwan and North America."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "ai-ml-platform", "cell-therapy", "gene-therapy"],
+      "indications": ["oncology", "rare-disease"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "26+ across Biotech Fund and Fund III (as of Dec 2022)"
+    },
+    "summary": {
+      "en": "State-anchored Taiwanese VC whose life-science strategy spans a Biotech Fund and a US$59M Fund III 'Medtech Fund' dedicated to therapeutic/diagnostic devices and precision-health medical technology in Taiwan and North America.",
+      "local": "由國家發展基金與民間企業於2017年共同成立的台灣創投,旗下生技基金與規模5,900萬美元的三號生技基金,聚焦治療/診斷醫材及精準健康醫療科技。"
+    },
+    "sources": [
+      {
+        "url": "https://www.taiwaniacapital.com/en/funds",
+        "title": "Funds — Taiwania Capital",
+        "publisher": "Taiwania Capital",
+        "accessed": "undefined",
+        "supports": "Fund III size and medtech/diagnostics focus",
+        "quote": "Fund III has a fund size of US$59M and focuses on investments in Medtech startups that develop therapeutic/diagnostic devices or precision health-related medical technology."
+      },
+      {
+        "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=483",
+        "title": "台杉投資管理顧問股份有限公司",
+        "publisher": "環球生技月刊 GlobalBio",
+        "accessed": "undefined",
+        "supports": "Founding (2017, National Development Fund + private), biotech/medtech fund portfolio counts",
+        "quote": "由國家發展基金與民間企業於2017年共同成立"
+      },
+      {
+        "url": "https://www.bnext.com.tw/article/58430/taiwania-new-fund-2020",
+        "title": "台杉投資年底啟動物聯網與生技醫材兩檔基金募集",
+        "publisher": "數位時代 BusinessNext",
+        "accessed": "undefined",
+        "supports": "Launch of dedicated biotech/medtech (生技醫材) fund targeting early-stage Taiwan startups"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund sizes for the Biotech Fund not disclosed; Fund III at US$59M per Taiwania's own funds page. Portfolio counts (Biotech Fund 20, Fund III 6 as of Dec 2022) from GBI/Taiwania secondary reporting.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "tw-diamond-biofund",
+    "name": { "en": "Diamond Biofund", "local": "鑽石生技投資" },
+    "aka": ["Diamond BioFund Inc.", "鑽石生技投資股份有限公司"],
+    "type": "vc",
+    "subtypes": ["accelerator", "incubator"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.diamondbiofund.com/en/index/",
+    "capital": {
+      "aum": { "raw": "資本額新台幣50億元", "usd": null, "currency": "TWD" },
+      "funds": [
+        { "name": "M&A / development fund (2023 IPO raise)", "vintage_year": 2023, "size": { "raw": "NT$4 billion (2023 listing raise)", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "cell-gene-therapy", "generalist-health"],
+      "thesis": "Taiwan's largest domestic biotech VC, founded in 2013 by the Microbio (中天) group with Fubon Financial, Taishin Financial and Ruentex. Incubates and invests in biotech-new-drug, medical-technology and innovative life-science companies 'from laboratory to market,' running accelerator/VC/incubation programs alongside capital."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule", "cell-therapy"],
+      "indications": ["oncology", "dermatology", "immunology-inflammation"],
+      "company_creation": true,
+      "invests_public_markets": false,
+      "science_platform_notes": "Provides value-add across IP strategy, clinical validation and business operations; runs accelerator/incubation programs (G03 投資育成: 加速器、創投、進修)."
+    },
+    "track_record": {
+      "portfolio_count": "20+",
+      "notable_investments": [
+        { "company": "Oneness Biotech (合一生技)", "sector": "therapeutics", "outcome": "IPO / unicorn" },
+        { "company": "Glycobio (醣基生醫)", "sector": "therapeutics", "outcome": "unicorn" },
+        { "company": "StemCyte (永笙生技)", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "Syncell (新析生技)", "sector": "life-science-tools", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Yang Pan-Chyr (楊泮池)", "role": "Chairman" },
+      { "name": "Lu Kung-Ming (路孔明)", "role": "President / General Manager" }
+    ],
+    "summary": {
+      "en": "Taiwan's largest domestic biotech VC (founded 2013, billionaire-backed), which incubates and invests across new drugs, medical technology and life-science tools and reportedly delivered a 17x decade return before its 2023 stock-market listing.",
+      "local": "台灣最大的本土生技創投,2013年由中天生技集團偕富邦、台新、潤泰共同設立,育成投資新藥、醫材與生科工具,2023年掛牌上市,培育出醣基、合一等獨角獸。"
+    },
+    "sources": [
+      {
+        "url": "https://www.forbes.com/sites/shanshankao/2024/05/29/backed-by-billionaires-this-biotech-venture-capital-fund-is-driving-innovation-in-taiwan/",
+        "title": "Backed By Billionaires, This Biotech Venture Capital Fund Is Driving Innovation In Taiwan",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "Founding year 2013, billionaire backers, 17x return, 2023 listing raising NT$4bn",
+        "quote": "delivered a 17 times return to investors in a decade"
+      },
+      {
+        "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=1094",
+        "title": "鑽石生技投資股份有限公司",
+        "publisher": "環球生技月刊 GlobalBio",
+        "accessed": "undefined",
+        "supports": "Founders (中天生技/富邦/台新/潤泰), capital NT$5bn, 20+ portfolio, unicorns 醣基/合一, leadership",
+        "quote": "鑽石生技投資股份有限公司由台灣中天生技集團與富邦金控、台新金控及潤泰集團,以推動生技產業永續發展作為己任,共同出資設立"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Reported 'capital' NT$5bn and 2023 IPO raise of NT$4bn from GBI/Forbes; total 'M&A development fund' targeted at NT$10bn+ is a stated fundraising goal, not confirmed committed capital. Focus is broad biomedical (heaviest in therapeutics) with medtech/diagnostics/tools exposure.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "tw-maxpro-ventures",
+    "name": { "en": "Maxpro Ventures", "local": "" },
+    "aka": ["Maxpro Capital"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "offices": [
+      { "country": "Taiwan", "city": "Taipei" },
+      { "country": "China", "city": "Shanghai" },
+      { "country": "United States", "city": "Los Angeles (North Hollywood / Arcadia / Irvine, CA)" }
+    ],
+    "website": "https://www.maxproventures.com",
+    "links": { "linkedin": "https://www.linkedin.com/company/maxpro-ventures" },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["Taiwan", "United States", "China", "Asia-Pacific", "Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "cell-gene-therapy", "healthcare-services"],
+      "thesis": "Investment firm focused on breakthrough biomedical technology companies worldwide, pairing biomedical experts with venture capitalists. Backs biologic drugs, cell/gene therapy, small-molecule drugs, medical devices, diagnostics and healthcare services; sponsored Taiwan's first SPAC (Maxpro Capital) on Nasdaq to take biomedical companies public."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "cell-therapy", "gene-therapy", "small-molecule", "medical-hardware"],
+      "indications": ["oncology", "immunology-inflammation"],
+      "company_creation": false,
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "ACT Genomics (行動基因)", "sector": "diagnostics", "outcome": "active (acquired by Delta 2025)" },
+        { "company": "EirGenix (喜康生技)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Adimmune / Foresee (逸達生技)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Taipei-headquartered (with Shanghai and California offices) investment firm focused on breakthrough biomedical technology — biologics, cell/gene therapy, small molecules, medical devices and diagnostics — and sponsor of Taiwan's first biomedical SPAC on Nasdaq.",
+      "local": "總部設於台北(另有上海、加州據點)的生醫創投,聚焦突破性生物醫學技術,涵蓋生物藥、細胞/基因治療、小分子藥、醫療器材與診斷,並發起台灣首檔生技SPAC於那斯達克掛牌。"
+    },
+    "sources": [
+      {
+        "url": "https://www.maxproventures.com/",
+        "title": "Home | Maxpro Ventures",
+        "publisher": "Maxpro Ventures",
+        "accessed": "undefined",
+        "supports": "Biomedical focus, sector coverage, offices in Taipei/Shanghai/California",
+        "quote": "an investment firm focused on breakthrough biomedical technology companies"
+      },
+      {
+        "url": "https://finance.technews.tw/2021/10/18/maxpro-spac/",
+        "title": "台灣首家 SPAC 人脈、金流揭祕",
+        "publisher": "TechNews 科技新報",
+        "accessed": "undefined",
+        "supports": "Founded 2013, focus on next-gen cell/gene therapy, biologics, devices, diagnostics; first Taiwan SPAC on Nasdaq; portfolio names",
+        "quote": "聚焦在次世代細胞/基因療法、生物藥、醫療設備、診斷和醫療保健服務的標的"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size / AUM not disclosed. Founded-2013 and portfolio names from Taiwanese business press (TechNews/CTWANT); the firm's own site lists offices but not fund economics. Portfolio companies listed are 'long-watched targets' per press, so some may be watchlist rather than confirmed holdings.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "tw-everbright-biofund",
+    "name": { "en": "Everbright Biofund", "local": "永明生技投資" },
+    "aka": ["Evergreen Biotech VC Fund"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://geneonline.news/taiwan-evergreen-biotech-vc-fund-everbright/",
+    "capital": {
+      "current_fund": { "raw": "新台幣30億元 (initial-stage capital)", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["therapeutics", "life-science-tools", "ai-drug-discovery", "cell-gene-therapy"],
+      "thesis": "Evergreen (open-ended) biotech VC launched December 2024, seeded by Taiwan's Institute for Biotechnology and Medicine Industry (生策中心/生策會) with tech-industry and financial-family backers. Uses the 20-year National Innovation Award (國家新創獎) database of 2,500+ breakthrough technologies as deal flow; not bound by a fixed fund life so it can back long-horizon science."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "cell-therapy", "vaccines"],
+      "indications": ["oncology", "infectious-disease"],
+      "company_creation": true,
+      "invests_public_markets": false,
+      "science_platform_notes": "Evergreen structure; sources deals from the National Innovation Award database of academic/industry/clinical R&D."
+    },
+    "track_record": {
+      "portfolio_count": 4,
+      "notable_investments": [
+        { "company": "Iambic Therapeutics (US)", "sector": "ai-drug-discovery", "outcome": "active" },
+        { "company": "StemCyte (永笙生技)", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "Syncell (新析生技)", "sector": "life-science-tools", "outcome": "active" },
+        { "company": "ImmunAdd (優億生技)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Evergreen Taiwanese biotech VC established December 2024 with an initial NT$3 billion, backed by the Institute for Biotechnology and Medicine Industry plus tech and financial families; early portfolio spans AI drug discovery, spatial-proteomics life-science tools, cord-blood cell therapy and synthetic vaccine adjuvants.",
+      "local": "2024年12月成立的永續型(常青型)生技創投,首階段資金新台幣30億元,由生策中心偕科技企業與金融家族支持,以國家新創獎資料庫為案源;初期投資涵蓋AI製藥、空間蛋白質體學工具、臍帶血細胞治療與合成疫苗佐劑。"
+    },
+    "sources": [
+      {
+        "url": "https://geneonline.news/taiwan-evergreen-biotech-vc-fund-everbright/",
+        "title": "整合產學研醫,永續型生技創投鏈結世界與台灣",
+        "publisher": "GeneOnline News",
+        "accessed": "undefined",
+        "supports": "Establishment Dec 2024, NT$3bn initial capital, IBMI backing, National Innovation Award deal flow, four portfolio companies",
+        "quote": "永明生技投資自2024年12月成立以來,基金獲台灣多家重磅科技企業及金融家族支持,首階段起步資金達新台幣30億元"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Single secondary source (GeneOnline). English name 'Everbright Biofund' per GeneOnline's romanization of 永明生技投資; no standalone official website located (fund is nascent). Portfolio is broad-biomedical with life-science-tools (Syncell) and AI-drug-discovery (Iambic) exposure rather than pure medtech/diagnostics.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "tw-be-health-ventures",
+    "name": { "en": "BE Health Ventures", "local": "比翼生醫" },
+    "aka": ["BE Health", "BE Accelerator", "BE Capital"],
+    "type": "vc",
+    "subtypes": ["accelerator", "university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.behealthventures.com",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/be-accelerator",
+      "crunchbase": "https://www.crunchbase.com/organization/be-capital-8fb9"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["Taiwan", "Asia"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics", "healthcare-services"],
+      "thesis": "Described as Taiwan's first and only hospital-backed VC and its largest MedTech/HealthTech accelerator, founded 2018. Works with Taipei Medical University, Show Chwan Health Care System and other hospital networks to give startups clinical proof-of-concept (PoC) and proof-of-business (PoB) validation and a gateway into Asian healthcare markets."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform", "digital-therapeutics"],
+      "indications": [],
+      "company_creation": false
+    },
+    "program": {
+      "format": "hybrid",
+      "location": "Taipei, Taiwan",
+      "lab_space": null,
+      "demo_day": true,
+      "eligibility": "Early-stage MedTech / HealthTech / digital-health startups seeking clinical validation with hospital partners"
+    },
+    "track_record": {
+      "portfolio_count": 33
+    },
+    "summary": {
+      "en": "Taiwan's first hospital-backed VC and largest MedTech/HealthTech accelerator (founded 2018); partners with Taipei Medical University and Show Chwan Health Care System, has invested in ~33 companies, and its alumni have collectively raised over US$300M.",
+      "local": "台灣首家且唯一醫院背景的創投,也是台灣最大的醫療科技/健康科技加速器(2018年成立);與臺北醫學大學、彰化秀傳醫療體系等合作,已投資約33家新創,校友累計募資逾3億美元。"
+    },
+    "sources": [
+      {
+        "url": "https://www.behealthventures.com/about/",
+        "title": "About — BE Health Ventures",
+        "publisher": "BE Health Ventures",
+        "accessed": "undefined",
+        "supports": "Hospital-backed VC, founded 2018, ~33 investments, alumni raised US$300M+, hospital partners (TMU, Show Chwan)",
+        "quote": "In Taiwan, BE Health Ventures is the FIRST and ONLY hospital backed VC. They have invested 33 different companies since establishing in 2018. The total raised by the alumni has surpassed $300M USD."
+      },
+      {
+        "url": "https://www.linkedin.com/company/be-accelerator",
+        "title": "BE Health 比翼生醫 — Hospital VC & Accelerator",
+        "publisher": "LinkedIn",
+        "accessed": "undefined",
+        "supports": "Positioning as Taiwan's MedTech accelerator and VC fund, hospital partnerships"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "behealthventures.com blocked automated fetch (HTTP 403); facts drawn from the site's About text surfaced in search plus LinkedIn. Straddles VC and accelerator/hospital-fund — classified as vc with accelerator + university-hospital-fund subtypes per its 'Hospital VC & Accelerator' self-description. Fund size / check size not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "tw-transpacific-venture-partners",
+    "name": { "en": "TransPacific Venture Partners", "local": "" },
+    "aka": ["TPV"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": null,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "offices": [
+      { "country": "Taiwan", "city": "Taipei (Neihu District)" }
+    ],
+    "website": "http://www.transpacific-vc.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/transpacific-venture-partners",
+      "crunchbase": "https://www.cbinsights.com/investor/transpacific-venture-partners"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Taipei-based (Neihu) VC that invests in early-stage medical-technology ventures, primarily in Taiwan; partners combine backgrounds in medicine, engineering, venture investing and startup founding. Focus is on differentiated medical devices addressing large markets."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": ["womens-health"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "4-13 (sources vary)",
+      "notable_investments": [
+        { "company": "FEMSelect", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Taipei-based venture firm investing in early-stage medical-technology ventures, primarily in Taiwan, with a medical-device emphasis (e.g. women's-health device maker FEMSelect).",
+      "local": "位於台北內湖的創投,主要投資台灣早期醫療科技新創,聚焦醫療器材(如女性健康醫材商 FEMSelect)。"
+    },
+    "sources": [
+      {
+        "url": "https://www.cbinsights.com/investor/transpacific-venture-partners",
+        "title": "TransPacific Venture Partners — Investor Profile",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "HQ Taiwan (Neihu), early-stage medical technology, invests primarily in Taiwan, FEMSelect investment",
+        "quote": "The firm invests in early stage medical technology ventures, primarily in Taiwan."
+      },
+      {
+        "url": "https://www.tryfundable.ai/investor/transpacific-venture-partners",
+        "title": "Transpacific Venture Partners — Portfolio & Investments",
+        "publisher": "Fundable",
+        "accessed": "undefined",
+        "supports": "Asia/Taiwan-based VC focused on early-stage medical technology",
+        "quote": "TransPacific Venture Partners (TPV) is an Asia-based venture capital firm that actively assesses and invests in early-stage medical technology ventures."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Do NOT confuse with the similarly-named 'TransPacific Venture Capital Partners' (transpacificvc.com), a Pacific-Rim biopharma crossover fund whose portfolio is US/China big-biotech (Athenex, BeiGene, Zai Lab, Ovid) — that appears to be a distinct entity. This entry is the Taiwan medtech firm at transpacific-vc.com (HTTPS cert invalid, so cited via CB Insights/Fundable). Founding year and fund size unverified; portfolio count differs by source (own site ~13 vs CB Insights 4).",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "tw-taian-technologies",
+    "name": { "en": "TaiAn Technologies", "local": "台安生物科技" },
+    "aka": ["TaiAn Life Science", "台安生技", "TaiAn Technologies Corp."],
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taiantech.com/en/index.htm",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "generalist-health"],
+      "thesis": "Both a biotechnology-services company that helps transfer breakthrough biotech/biomedical technologies into Taiwan and a management company for biotechnology venture-capital funds. Founded 2002 by managers with biotech and biotech-investing backgrounds, offering IP, technology-transfer and patent-licensing advisory alongside commercialization of intangible assets."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": [],
+      "company_creation": true,
+      "science_platform_notes": "Tech-transfer and IP-commercialization model bridging overseas biomedical technologies into Taiwan-based companies."
+    },
+    "summary": {
+      "en": "Taipei-based biotech tech-transfer and IP-commercialization firm (founded 2002) that also manages biotechnology venture-capital funds, bringing breakthrough biomedical technologies into Taiwan.",
+      "local": "台北的生技技術移轉暨智財商業化公司(2002年成立),同時管理生技創投基金,協助將突破性生醫技術引進台灣落地。"
+    },
+    "sources": [
+      {
+        "url": "https://www.taiantech.com/en/index.htm",
+        "title": "TaiAn Technologies Corp.",
+        "publisher": "TaiAn Technologies",
+        "accessed": "undefined",
+        "supports": "Dual role as biotech-tech-transfer services company and biotech VC fund manager",
+        "quote": "both a biotechnology service company that helps transfer breakthrough biotech/biomedical technologies into Taiwan and a management company for biotechnology venture capital funds"
+      },
+      {
+        "url": "https://shizune.co/investors/biotechnology-vc-funds-taiwan",
+        "title": "Top Biotechnology VC Funds in Taiwan",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "Taipei HQ, life-science IP commercialization, biotech/medical/therapeutics focus, Series A/B stage",
+        "quote": "Technology advisory firm specializing in commercializing intellectual properties in life sciences."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded-2002 from Chinese-language company description surfaced in search; fund names, sizes and portfolio not disclosed on the site. Broad life-science remit; medtech/diagnostics is one part of its scope.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "tw-taipei-angels",
+    "name": { "en": "Taipei Angels Investment", "local": "台安傑天使投資" },
+    "aka": ["Taipei Angels", "TA", "台安傑國際天使投資"],
+    "type": "angel-network",
+    "status": "active",
+    "founded_year": null,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taipeiangels.com",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["generalist-health", "digital-health", "medtech-devices"],
+      "thesis": "One of Taiwan's earliest institutional angel-investment funds, with 80+ experienced operator and entrepreneur partners. Invests across five themes, of which biotech-medical (生技醫療) is a declared focus alongside cultural/creative, mobile/commerce, software/services, and technology/hardware."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "indications": [],
+      "company_creation": false
+    },
+    "team_size": "80+ partners",
+    "summary": {
+      "en": "One of Taiwan's earliest institutional angel funds (80+ operator/entrepreneur partners) whose five focus areas include biotech-medical, making it an early-stage backer of Taiwanese health-technology startups.",
+      "local": "台灣最早成立的機構天使投資基金之一,擁有80多位資深經營者與創業家合夥人,五大投資領域涵蓋『生技醫療』,是台灣健康科技新創的早期投資者。"
+    },
+    "sources": [
+      {
+        "url": "https://www.taipeiangels.com/",
+        "title": "台安傑 天使投資 | Taipei Angels Investment",
+        "publisher": "Taipei Angels",
+        "accessed": "undefined",
+        "supports": "Earliest institutional angel fund, 80+ partners, five focus areas including biotech-medical (生技醫療)",
+        "quote": "著重投資領域包括「生技醫療」、「文創產業」、「行動及商務」、「軟體及服務」、「科技及硬體」等五大領域之新創事業"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist angel network; biotech-medical is one of five stated verticals rather than an exclusive focus. Founding year and health-specific deal count not verified. Included as an early-stage biomedical investor; not a pure medtech/diagnostics fund.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "tw-national-development-fund",
+    "name": { "en": "National Development Fund, Executive Yuan", "local": "行政院國家發展基金" },
+    "aka": ["National Development Fund", "NDF", "國發基金"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": null,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.ndc.gov.tw",
+    "links": {
+      "other": ["https://ndf-sispo.org.tw/"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["generalist-health", "therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Taiwan's sovereign development fund and the cornerstone public co-investor in the biomedical sector — it seeds and anchors life-science VC vehicles (e.g. co-founding Taiwania Capital) and makes direct investments in biotech and medical-device companies, having reportedly earned roughly NT$12 billion on biotech over a decade."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "biologics-antibody", "small-molecule"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "Taiwan's government development fund and the anchor public investor/LP for the country's biomedical venture ecosystem — co-founder of Taiwania Capital and a direct backer of biotech and medical-device firms.",
+      "local": "台灣的政府開發基金,是本土生醫創投生態系的基石級公共投資人/有限合夥人;共同發起台杉投資,並直接投資生技與醫材公司,十年間生技投資獲利約新台幣120億元。"
+    },
+    "sources": [
+      {
+        "url": "http://www.cpmda.org.tw/news_show_n1.php?news_id=4485",
+        "title": "國發基金捧生技十年賺120億",
+        "publisher": "CPMDA / 生技產業報導",
+        "accessed": "undefined",
+        "supports": "NDF's decade of biotech investing and ~NT$12bn gains; role as major biomedical investor"
+      },
+      {
+        "url": "https://ndf-sispo.org.tw/",
+        "title": "國發基金加強投資專案辦公室",
+        "publisher": "National Development Fund",
+        "accessed": "undefined",
+        "supports": "Official NDF investment-program office; direct and fund-of-funds investing including biomedical"
+      },
+      {
+        "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=483",
+        "title": "台杉投資管理顧問股份有限公司",
+        "publisher": "環球生技月刊 GlobalBio",
+        "accessed": "undefined",
+        "supports": "NDF co-founded Taiwania Capital (2017) with private enterprises",
+        "quote": "由國家發展基金與民間企業於2017年共同成立"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist sovereign fund (invests across all industries), included for its cornerstone role in Taiwan's biomedical VC ecosystem as region context flags it. The ~NT$12bn biotech-gain figure is from a trade-press headline; exact biomedical allocation not itemized here. Not a dedicated medtech/diagnostics fund.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  }
+]

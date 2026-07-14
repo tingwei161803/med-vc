@@ -1,0 +1,323 @@
+[
+  {
+    "id": "cn-sinopharm-capital",
+    "name": { "en": "Sinopharm Capital", "local": "国药资本" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "capital": {
+      "aum": { "raw": "人民币超过60亿元 (over RMB 6 billion across three fund phases)", "usd": null, "currency": "CNY" }
+    },
+    "strategy": {
+      "geo_focus": ["China"],
+      "sector_focus": ["medtech-devices", "diagnostics", "pharma-services"],
+      "thesis": "Corporate VC platform of China National Pharmaceutical Group (Sinopharm), a state-owned pharma/healthcare conglomerate; its reported investment focus is medical devices, IVD/diagnostics, and CMO/CDMO plus AI-assisted diagnostics, distinct from pure drug-R&D CVC activity."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "ai-ml-platform"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "安钛克医疗 (Antec Medical)", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "脉流科技 (Pulse Medical)", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "亚辉龙 (YHLO)", "sector": "diagnostics", "outcome": "active" },
+        { "company": "康立明生物 (Creative Biosciences)", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Sinopharm Capital is the corporate venture platform of Sinopharm (China National Pharmaceutical Group), a state pharma/healthcare conglomerate; it has run three fund phases with a reported focus on medical devices, IVD/diagnostics, CMO/CDMO and AI-assisted diagnostics.",
+      "local": "国药资本是中国医药集团（国药集团）旗下的企业创投平台，已发起三期基金，聚焦医疗器械、体外诊断（IVD）、CMO/CDMO及AI辅助诊断等领域。"
+    },
+    "sources": [
+      {
+        "url": "https://www.vbdata.cn/47877",
+        "title": "礼来亚洲、复星医药、药明康德、华大、国药、泰格的钱投哪儿去了？CVC投资正在稳步增长",
+        "publisher": "动脉网 vbdata.cn",
+        "accessed": "undefined",
+        "supports": "founding year 2012, fund size, focus areas, portfolio companies",
+        "quote": "国药资本成立于2012年...先后发起设立三期基金，共管理资金等值人民币超过60亿元。"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Parent Sinopharm Group is a diversified state-owned pharmaceutical distribution/manufacturing conglomerate. Included in this medtech-tools-cvc slice (not the pharma-CVC slice) because the only source found describes this fund's stated focus as medical devices, IVD, CMO/CDMO and AI-diagnostics rather than drug R&D. Based on a single secondary source; an official Sinopharm Capital website was not independently located/fetched.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "cn-wuxi-apptec-investment",
+    "name": { "en": "WuXi AppTec Investment Management (Corporate Venture)", "local": "上海药明康德投资管理有限公司" },
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "website": "https://www.wuxiapptec.com/",
+    "strategy": {
+      "geo_focus": ["China", "Global"],
+      "sector_focus": ["pharma-services", "cell-gene-therapy", "diagnostics"],
+      "thesis": "Corporate venture arm of WuXi AppTec, one of the world's largest CRDMO (CRO+CDMO) providers; invests via its own investment-management subsidiary and as an LP in funds such as 薄荷天使 and 通和毓承, targeting long-tail biotech and cell/gene-therapy clients that plug into WuXi's CDMO service pipeline."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Immunocore", "sector": "therapeutics", "outcome": "active" },
+        { "company": "北海康成 (Beacon Pharma)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "ViGeneron", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "大橡科技 (Da Xiang Tech)", "sector": "diagnostics", "outcome": "active" },
+        { "company": "锦欣生殖 (Jinxin Fertility)", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "WuXi AppTec, one of the world's largest CDMO/CRDMO providers, makes corporate-venture investments through its Shanghai investment-management subsidiary and as an LP in affiliated funds, backing biotech and cell/gene-therapy clients along its CDMO service chain.",
+      "local": "药明康德（全球领先的CRDMO企业）透过旗下投资管理子公司及参股基金（如薄荷天使、通和毓承）进行企业创投，投资对象多为沿其CDMO服务链的生物科技及细胞基因治疗客户。"
+    },
+    "sources": [
+      {
+        "url": "https://www.vbdata.cn/47877",
+        "title": "礼来亚洲、复星医药、药明康德、华大、国药、泰格的钱投哪儿去了？CVC投资正在稳步增长",
+        "publisher": "动脉网 vbdata.cn",
+        "accessed": "undefined",
+        "supports": "investment vehicle name, focus, portfolio companies",
+        "quote": "药明康德主要通过设立投资管理公司（如上海药明康德投资管理有限公司）和参与股权投资基金（如薄荷天使、通和毓承旗下基金）的方式开展控股、少数股权对外投资。"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Identified via a single secondary source (vbdata.cn). WuXi AppTec's earlier CVC arm 'WuXi Healthcare Ventures' spun off in 2017 to become the independent firm 6 Dimensions Capital and is NOT counted here — this entry covers WuXi's current direct/LP corporate-venture activity via its Shanghai investment-management subsidiary. Fund size/AUM not disclosed in the source.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "cn-huada-gongying",
+    "name": { "en": "BGI Win Capital (Huada Gongying)", "local": "华大共赢" },
+    "aka": ["BGI Win", "Huada Gongying Venture Capital"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shenzhen",
+    "capital": {
+      "aum": { "raw": "20多亿元人民币 (over RMB 2 billion under management)", "usd": null, "currency": "CNY" }
+    },
+    "strategy": {
+      "geo_focus": ["China"],
+      "sector_focus": ["genomics-omics", "life-science-tools", "diagnostics"],
+      "thesis": "Corporate VC with an industrial background from BGI Genomics (华大基因), which serves as a cornerstone LP; practices 'R&D-driven investing', mapping the genomics industry chain and investing along reproductive health, oncology early-screening, synthetic biology, consumer genomics, bioinformatics, ophthalmology and metagenomics."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "indications": ["oncology", "womens-health"]
+    },
+    "track_record": {
+      "portfolio_count": "30+",
+      "notable_investments": [
+        { "company": "中健云康", "sector": "diagnostics", "outcome": "active" },
+        { "company": "古奥基因", "sector": "genomics-omics", "outcome": "active" },
+        { "company": "吉因加", "sector": "genomics-omics", "outcome": "active" },
+        { "company": "优迅医学", "sector": "genomics-omics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Huada Gongying (BGI Win) is a genomics-focused corporate VC with BGI Genomics as an anchor/cornerstone LP, founded in late 2016; it has invested in 30+ companies with roughly RMB 2 billion+ under management across reproductive health, oncology screening, synthetic biology and bioinformatics.",
+      "local": "华大共赢是背靠华大基因产业背景的创投机构，2016年底成立，管理规模逾20亿元人民币，已投资30余个项目，围绕生育健康、肿瘤早筛、合成生物学、消费级基因检测等基因科技赛道布局。"
+    },
+    "sources": [
+      {
+        "url": "https://www.vbdata.cn/1518893425",
+        "title": "华大共赢- 寒冬出清泡沫，持续投资生物经济产业",
+        "publisher": "动脉网 vbdata.cn",
+        "accessed": "undefined",
+        "supports": "founding year, AUM, number of investments",
+        "quote": "华大共赢自2016年底创立以来，共投资30多个项目，管理规模达20多亿元。"
+      },
+      {
+        "url": "https://www.21jingji.com/article/20231028/acfb27d2dae6ee9950c7390c4c158fd3.html",
+        "title": "专访华大共赢刘宇 CVC的核心优势：以产业场景帮助项目降低试错成本",
+        "publisher": "21世纪经济报道",
+        "accessed": "undefined",
+        "supports": "CVC positioning, BGI as cornerstone LP",
+        "quote": "华大作为基石出资人的出资比例在20%到25%，同时，会募集来自政府引导基金、国资母基金，以及其它上市公司的资金。"
+      },
+      {
+        "url": "https://www.vbdata.cn/47877",
+        "title": "礼来亚洲、复星医药、药明康德、华大、国药、泰格的钱投哪儿去了？CVC投资正在稳步增长",
+        "publisher": "动脉网 vbdata.cn",
+        "accessed": "undefined",
+        "supports": "BGI Genomics investment vehicles and focus areas",
+        "quote": "华大基因通过设立基金管理公司（如深圳华大基因产业投资基金管理有限公司）、参股投资基金（如松禾资本、华大共赢、薄荷天使等旗下基金）陆续在生育健康、肿瘤基因检测、合成生物学、消费级基因检测、生物信息分析、眼科诊疗、宏基因组等细分领域悄悄布局。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Corroborated across three independent reputable secondary sources (动脉网, 21世纪经济报道) with consistent founding year and fund-size figures. No official company website was independently fetched.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "cn-tigermed-capital",
+    "name": { "en": "Tigermed Capital (Hangzhou Tigermed Equity Investment Partnership)", "local": "杭州泰格股权投资合伙企业（有限合伙）" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Hangzhou",
+    "strategy": {
+      "geo_focus": ["China"],
+      "sector_focus": ["pharma-services", "therapeutics"],
+      "thesis": "Wholly-owned corporate venture vehicle of Tigermed, one of China's largest CROs; invests directly and as LP (reported 1.1%-46.67% stakes) in funds such as Yingke Capital, Beikeshe, Dongfang Gaosheng and Bohe Angel, sourcing biotech/device clients for Tigermed's clinical-research and CRO service pipeline."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "亚虹医药 (Asieris Pharma)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "泽润生物", "sector": "therapeutics", "outcome": "active" },
+        { "company": "同力生物", "sector": "therapeutics", "outcome": "active" },
+        { "company": "智众医疗", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Tigermed Capital is the wholly-owned corporate venture platform of Tigermed (a leading Chinese CRO), set up in 2016 to make direct investments and LP commitments across biotech and device startups that feed its clinical-research/CRO service pipeline.",
+      "local": "泰格资本（杭州泰格股权投资合伙企业）是泰格医药（中国头部CRO）于2016年全资设立的企业创投平台，直接投资并以有限合伙人身份参与盈科资本、贝壳社、东方高圣、薄荷天使等多支基金。"
+    },
+    "sources": [
+      {
+        "url": "https://www.vbdata.cn/47877",
+        "title": "礼来亚洲、复星医药、药明康德、华大、国药、泰格的钱投哪儿去了？CVC投资正在稳步增长",
+        "publisher": "动脉网 vbdata.cn",
+        "accessed": "undefined",
+        "supports": "founding year, structure, LP stakes, portfolio companies",
+        "quote": "泰格医药于2016年全资设立杭州泰格股权投资合伙企业（有限合伙），并以1.1%~46.67%不等的持股比例，参与盈科资本、贝壳社、东方高圣、薄荷天使等的多支基金。"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Single secondary source (vbdata.cn). Tigermed itself is a CRO/pharma-services company (not a drug developer), which is why this CVC is placed in the medtech-tools/CDMO slice rather than the pharma-CVC slice; some downstream portfolio companies are drug developers, which is normal for a CRO's investment pipeline.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "cn-ascendum-capital",
+    "name": { "en": "Ascendum Capital Partners (Ji Shi Capital)", "local": "济时资本" },
+    "aka": ["Ascendum Venture Partners", "Ascendum Healthcare Fund"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Hangzhou",
+    "offices": [{ "country": "Hong Kong", "city": "Hong Kong" }],
+    "strategy": {
+      "geo_focus": ["China", "Global"],
+      "sector_focus": ["medtech-devices"],
+      "thesis": "China's first global investment platform dedicated to cardiopulmonary (heart & lung) disease device technology; co-founded by Venus Medtech (a Hangzhou-based TAVR device maker) together with DCP Capital and Qiming Venture Partners to scout innovative global cardiovascular/pulmonary device technologies and accelerate their China R&D and commercialization using Venus Medtech's industrial resources."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "indications": ["cardiovascular", "respiratory"]
+    },
+    "capital": {
+      "funds": [
+        {
+          "name": "Ascendum Healthcare Fund I, L.P.",
+          "vintage_year": 2020,
+          "size": { "raw": "undisclosed total fund size; Venus Medtech committed up to US$8M, capped at 20% of total LP commitments and max US$25M", "usd": null, "currency": "USD" }
+        }
+      ]
+    },
+    "summary": {
+      "en": "Ascendum Capital Partners (济时资本) is a cardiopulmonary-device-focused global investment platform founded in 2020 by device maker Venus Medtech together with DCP Capital and Qiming Venture Partners, importing innovative global heart/lung device technology for China R&D and commercialization.",
+      "local": "济时资本是2020年由启明医疗（心血管器械公司）联合德弘资本、启明创投共同发起的心肺行业全球医疗投资平台，专注引进全球创新心肺器械技术并加速其在中国的研发与商业化。"
+    },
+    "sources": [
+      {
+        "url": "https://www.forbeschina.com/investment/50202",
+        "title": "国内首个专注心肺行业的全球医疗投资平台成立",
+        "publisher": "福布斯中国 Forbes China",
+        "accessed": "undefined",
+        "supports": "founding year, founders, focus area",
+        "quote": "济时资本成立于2020年，是一家新锐医疗基金...这是我国首个专注心肺行业的全球投资平台。杭州启明医疗器械股份有限公司与德弘资本、启明创投宣布签署协议，联合发起成立新锐医疗投资平台济时资本。"
+      },
+      {
+        "url": "https://longbridgeapp.com/en/news/18219161",
+        "title": "启明医疗-B(02500) 拟出资 800 万美元成为从事生命科学、医疗保健及相关行业一投资基金的有限合伙人",
+        "publisher": "LongBridge",
+        "accessed": "undefined",
+        "supports": "Venus Medtech's capital commitment to the fund",
+        "quote": "在2020年7月15日，启明医疗与基金 Ascendum Healthcare Fund I, L.P 及 Ascendum Venture Partners 订立认购协议，公司同意认购基金的有限合伙权益，资本承诺为 800 万美元，且公司及其联营公司于基金的最终资承诺总额将不超过合伙人全部资承诺的 20%，且不得高于金额 2500 万美元。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Structured as a joint platform (Venus Medtech + DCP Capital + Qiming Venture Partners) rather than a wholly-owned captive fund; included as a CVC because Venus Medtech, a medtech device manufacturer, is a founding sponsor and named industrial partner providing 'industry resources'. Fund entity reportedly registered as 济时资本（香港）有限公司 per secondary directory pedata.cn (not independently fetched).",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  },
+  {
+    "id": "cn-microport-miraclepoint",
+    "name": { "en": "MiraclePoint (MicroPort Incubator)", "local": "奇迹点孵化器" },
+    "type": "incubator",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "website": "https://www.miraclepoints.com/",
+    "strategy": {
+      "geo_focus": ["China"],
+      "sector_focus": ["medtech-devices"],
+      "thesis": "Corporate incubation/company-creation platform of MicroPort (微创医疗), a major Shanghai-listed medical device group; spins out and incubates new device subsidiaries across cardiovascular/structural heart, electrophysiology, orthopedics, urology, ophthalmology, robotics, assisted reproduction, wearables and aesthetic medicine, leveraging MicroPort's 20+ years of device R&D and commercialization infrastructure, then brings in outside strategic/financial investors to scale them."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "wearables-sensors"],
+      "indications": ["cardiovascular", "musculoskeletal-orthopedics", "womens-health"],
+      "company_creation": true
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Shanghai, China"
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "微创电生理 (MicroPort EP)", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "微创机器人 (MicroPort MedBot)", "sector": "surgical-robotics", "outcome": "active" },
+        { "company": "微创骨科 (MicroPort Orthopedics)", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "MiraclePoint is MicroPort's in-house medical-device incubation/company-creation platform, established 2017, which has spun out and grown dozens of device subsidiaries (electrophysiology, robotics, orthopedics, ophthalmology, assisted reproduction, wearables) that MicroPort then brings outside strategic and financial investors into to scale.",
+      "local": "奇迹点孵化器是微创医疗（微创高端医疗器械集团）旗下的医疗器械创业孵化/公司创建平台，成立于2017年，已孵化出微创电生理、微创机器人、微创骨科等数十家专科子公司，并陆续引入外部战略与财务投资者。"
+    },
+    "sources": [
+      {
+        "url": "https://www.miraclepoints.com/",
+        "title": "奇迹点孵化器官网",
+        "publisher": "MiraclePoint",
+        "accessed": "undefined",
+        "supports": "existence, incubation model"
+      },
+      {
+        "url": "https://www.microport.com.cn/innovation/index.html",
+        "title": "创新合作-微创｜微创医疗器械-微创高端医疗器械集团",
+        "publisher": "MicroPort",
+        "accessed": "undefined",
+        "supports": "parent company, incubation platform, subsidiary list",
+        "quote": "微创不仅积累了丰富的新产品研发和商业化经验，也建立了一系列提供一站式、全生命周期专业服务的平台，并在神经调控、机器人、运动医学、医美、辅助生殖、眼科、可穿戴设备、康复等多个新兴高端医疗领域孵化了数十家子公司。"
+      },
+      {
+        "url": "https://www.gfinvestment.com/Home/newsDetail?newsId=93",
+        "title": "『微创®医疗机器人』宣布融资，远翼成为战略投资方",
+        "publisher": "gfinvestment.com",
+        "accessed": "undefined",
+        "supports": "outside strategic investors brought into incubated subsidiaries"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year (2017) and program-structure details ('twelve major platforms') come from search-engine synthesis of miraclepoints.com content, not an independently fetched verbatim quote, so treated as medium confidence. MiraclePoint itself is an internal incubation/company-creation arm rather than a fund investing in third-party startups, closer to 'incubator/venture-studio' than a classic minority-stake CVC — included because MicroPort is a medtech device manufacturer running a dedicated device company-creation program, matching this slice's scope.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-tools-cvc"
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "id": "kr-samsung-venture-investment",
+    "name": { "en": "Samsung Venture Investment", "local": "삼성벤처투자" },
+    "aka": ["SVIC"],
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.samsungventure.co.kr",
+    "capital": {
+      "funds": [
+        { "name": "Samsung Life Sciences Fund 1", "vintage_year": null, "size": { "raw": "170 billion won (1,700억원)", "usd": null, "currency": "KRW" } },
+        { "name": "Samsung Life Sciences Fund 2", "vintage_year": null, "size": { "raw": "72 billion won (720억원)", "usd": null, "currency": "KRW" } },
+        { "name": "Samsung Life Sciences Fund 3 (SVIC-80)", "vintage_year": null, "size": { "raw": "200 billion won (2,000억원)", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["global"],
+      "sector_focus": ["therapeutics", "pharma-services"],
+      "thesis": "Samsung Group's CVC arm operates and manages a dedicated Life Sciences Fund series jointly funded by Samsung C&T, Samsung Biologics and Samsung Bioepis, investing in overseas biotech ventures with next-generation platform technologies chosen for long-term synergy with Samsung's CDMO and biosimilar businesses."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody"],
+      "company_creation": false
+    },
+    "track_record": {
+      "co_investors": ["Samsung C&T", "Samsung Biologics", "Samsung Bioepis"]
+    },
+    "sources": [
+      {
+        "url": "https://www.samsungventure.co.kr",
+        "title": "삼성벤처투자",
+        "publisher": "Samsung Venture Investment",
+        "accessed": "undefined",
+        "supports": "Existence, official identity as Samsung Group's CVC covering biotech among other sectors"
+      },
+      {
+        "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=202901",
+        "title": "얼어붙은 바이오 투자 시장…대기업 중심 '전략적 펀드' 가동 늘어난다",
+        "publisher": "라이센스뉴스 (Lcnews)",
+        "accessed": "undefined",
+        "supports": "Samsung Life Sciences Fund 1/2/3 sizes and contributors (Samsung C&T, Samsung Biologics, Samsung Bioepis, Samsung Venture Investment as operator)",
+        "quote": "삼성물산과 삼성바이오로직스가 각각 792억 원, 삼성바이오에피스가 396억 원, 운용사인 삼성벤처투자가 20억 원을 분담했다."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Overall firm-wide AUM of Samsung Venture Investment (across all non-health sectors) was not verified; only the Life Sciences Fund series (biotech-focused) figures are confirmed via the Lcnews article.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-lotte-healthcare-biopharma-cvc",
+    "name": { "en": "LOTTE Holdings Healthcare and Biopharmaceutical CVC" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2024,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["global"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Corporate VC arm of LOTTE Holdings dedicated to healthcare and biopharmaceuticals; invests globally in biopharma and next-generation modalities to build on Lotte's 2022 entry into contract-manufacturing via Lotte Biologics, and made its first medical-device investment via Physiologas Technologies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Alveus Therapeutics", "sector": "obesity/metabolic disease biotech", "outcome": "active" },
+        { "company": "Physiologas Technologies", "sector": "medical device", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/apac/news-releases/lotte-holdings-establishes-a-new-healthcare-and-biopharmaceutical-corporate-venture-capital-302232766.html",
+        "title": "LOTTE Holdings Establishes a New Healthcare and Biopharmaceutical Corporate Venture Capital",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Founding (Aug 2024), thesis, relationship to Lotte Holdings and Lotte Biologics",
+        "quote": "The CVC aims to gather cutting-edge insights to accelerate access to innovative technologies and promote investment in promising startups"
+      },
+      {
+        "url": "https://globalventuring.com/corporate/asia/multi-industry-conglomerate-lotte-establishes-healthcare-cvc/",
+        "title": "Korean conglomerate Lotte launches healthcare CVC",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "Confirms Lotte Holdings (retail/chemicals/food conglomerate) as non-medical parent setting up a dedicated healthcare/biopharma CVC"
+      },
+      {
+        "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/lotte-holdings-healthcare-and-biopharma-cvc-invests-in-physiologas-technologies-38684",
+        "title": "LOTTE Holdings' Healthcare and Biopharma CVC Invests in Physiologas Technologies",
+        "publisher": "ChemAnalyst",
+        "accessed": "undefined",
+        "supports": "First medtech investment (Physiologas Technologies)"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "No official Korean-language name or fund size was found for this CVC vehicle in the sources reviewed; entity name used is the descriptive English name used in press coverage.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-kakao-ventures",
+    "name": { "en": "Kakao Ventures", "local": "카카오벤처스" },
+    "type": "cvc",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.kakao.vc/en",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Corporate VC of internet/tech platform Kakao Corp, investing in early-stage software, ICT services, deep-tech, digital healthcare and games startups; recent digital-health investments include Cenacle Soft, DeepMetrics and sleep-tech company Asleep."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Asleep (에이슬립)", "sector": "sleep tech / digital health", "outcome": "active" },
+        { "company": "DeepMetrics (딥메트릭스)", "sector": "digital health", "outcome": "active" },
+        { "company": "Cenacle Soft (세나클소프트)", "sector": "digital health", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.kakao.vc/en",
+        "title": "카카오벤처스",
+        "publisher": "Kakao Ventures",
+        "accessed": "undefined",
+        "supports": "Official identity as Kakao's investment arm"
+      },
+      {
+        "url": "https://zdnet.co.kr/view/?no=20211222165622",
+        "title": "카카오·소프트뱅크VC가 찜한 '헬스케어' 혁신 스타트업 보니",
+        "publisher": "ZDNet Korea",
+        "accessed": "undefined",
+        "supports": "Kakao Ventures' healthcare-sector startup investments"
+      },
+      {
+        "url": "https://thevc.kr/kakaoventures",
+        "title": "카카오벤처스(투자조합) - 기업정보",
+        "publisher": "THE VC",
+        "accessed": "undefined",
+        "supports": "Listing/profile confirming Kakao Ventures as an active Korean CVC/VC entity"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Kakao Ventures (formerly K Cube Ventures) is Kakao's dedicated investment arm; sector focus is broad software/deep-tech with digital health as one vertical, not health-exclusive. Founding year and AUM not independently verified within this research pass.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-naver-d2sf",
+    "name": { "en": "Naver D2 Startup Factory (D2SF)", "local": "네이버 D2SF" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seongnam (Pangyo)",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "Naver's internal corporate investment organization has invested in healthcare startups since 2017 and formalized the strategy by establishing an in-house Healthcare Research Institute in 2020; as of August 2025 roughly 18% of D2SF's overall portfolio is healthcare, with 25+ healthcare investments made in the prior three years."
+    },
+    "sources": [
+      {
+        "url": "https://www.ceoscoredaily.com/page/view/2025081916322068071",
+        "title": "네이버·카카오, AI 헬스케어로 의료혁신 가속…글로벌 무대 정조준",
+        "publisher": "CEOScoreDaily",
+        "accessed": "undefined",
+        "supports": "Healthcare investing since 2017, 18% portfolio share, 25+ companies in 3 years, Healthcare Research Institute (2020)",
+        "quote": "2017년 사내 투자 조직 D2SF를 통해 헬스케어 스타트업에 선제적으로 투자해왔으며"
+      },
+      {
+        "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202202091533307920106430&lcode=00",
+        "title": "[바이오 인사이더스]네이버·카카오의 디지털헬스케어 전략 차이는",
+        "publisher": "The Bell",
+        "accessed": "undefined",
+        "supports": "D2SF healthcare investment strategy context"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "D2SF's own founding year (as a general-purpose investment arm) was not independently confirmed; 2017 refers to when it began healthcare-focused investing per the cited article.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-kb-investment",
+    "name": { "en": "KB Investment", "local": "KB인베스트먼트" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "http://www.kbic.co.kr",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea", "india", "southeast-asia", "united-states"],
+      "sector_focus": ["healthcare-services", "generalist-health"],
+      "thesis": "Corporate VC subsidiary of KB Financial Group (bank/insurance/securities holding company); global expansion and bio are stated strategic priorities, with a fund targeting overseas bio/healthcare startups in India, Southeast Asia and the US that have established product-market fit."
+    },
+    "sources": [
+      {
+        "url": "https://www.bloter.net/news/articleView.html?idxno=612817",
+        "title": "[모험자본 투자 풍향계] KB인베스트먼트 \"대형 펀드 준비 완료…글로벌·바이오 주목\"",
+        "publisher": "Bloter",
+        "accessed": "undefined",
+        "supports": "KB Investment's global/bio fund focus and target geographies"
+      },
+      {
+        "url": "https://www.biotimes.co.kr/news/articleView.html?idxno=742",
+        "title": "KB인베스트먼트, 바이오산업 투자 통해 글로벌 진출 모색",
+        "publisher": "바이오타임즈 (BioTimes)",
+        "accessed": "undefined",
+        "supports": "KB Investment's bio-industry investment activity"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "KB Investment is KB Financial Group's captive VC subsidiary; bio/healthcare is one of several stated sector priorities (alongside SaaS, commerce, fintech), not an exclusive focus.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-mirae-asset-venture-investment",
+    "name": { "en": "Mirae Asset Venture Investment", "local": "미래에셋벤처투자" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "http://venture.miraeasset.co.kr",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "Publicly listed corporate VC affiliate of Mirae Asset Financial Group; invests across ICT manufacturing/services, bio/healthcare, semiconductors and advanced manufacturing, with bio-healthcare as one of its core portfolio sectors."
+    },
+    "sources": [
+      {
+        "url": "https://thevc.kr/miraeassetventureinvestment",
+        "title": "미래에셋벤처투자(투자조합) - 기업정보",
+        "publisher": "THE VC",
+        "accessed": "undefined",
+        "supports": "Sector focus including bio/healthcare"
+      },
+      {
+        "url": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%9E%98%EC%97%90%EC%85%8B%EB%B2%A4%EC%B2%98%ED%88%AC%EC%9E%90",
+        "title": "미래에셋벤처투자",
+        "publisher": "Wikipedia (Korean)",
+        "accessed": "undefined",
+        "supports": "Corporate identity as Mirae Asset Group's venture investment affiliate and its bio/ICT sector coverage"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Mirae Asset Venture Investment is a listed company (KRX: 100790) majority-linked to Mirae Asset Financial Group; healthcare/bio is one of several core sectors alongside ICT, gaming and semiconductors.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-shinhan-venture-investment",
+    "name": { "en": "Shinhan Venture Investment", "local": "신한벤처투자" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.shinhanvc.com/kr",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea", "global"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "Corporate VC of Shinhan Financial Group (bank/insurance/card holding company); its Global investment division lists healthcare alongside global technology as core investment focus areas."
+    },
+    "sources": [
+      {
+        "url": "https://www.shinhanvc.com/kr/team/globalinvestment",
+        "title": "글로벌본부 : 신한벤처투자",
+        "publisher": "Shinhan Venture Investment",
+        "accessed": "undefined",
+        "supports": "Global division's stated focus areas including healthcare"
+      },
+      {
+        "url": "https://www.shinhanvc.com/kr",
+        "title": "Home : 신한벤처투자",
+        "publisher": "Shinhan Venture Investment",
+        "accessed": "undefined",
+        "supports": "Corporate identity as Shinhan Financial Group's VC arm"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare is one of several sector priorities within Shinhan Venture Investment's Global division team pages; no dedicated health fund size was found.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-gs-ventures",
+    "name": { "en": "GS Ventures", "local": "GS벤처스" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://gsventures.vc/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea", "israel", "southeast-asia"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "GS Group's (energy/retail/construction conglomerate) corporate VC arm explicitly backs biotechnology, services and products that support healthier and safer living, alongside climate tech, circular economy, retail/commerce, construction tech and deep-tech; has invested in 50+ startups since launching in 2022."
+    },
+    "track_record": {
+      "portfolio_count": "50+"
+    },
+    "sources": [
+      {
+        "url": "https://gsventures.vc/",
+        "title": "GS벤처스, GS Ventures",
+        "publisher": "GS Ventures",
+        "accessed": "undefined",
+        "supports": "Bio/healthcare investment thesis, stage focus (Seed–Series B), geo focus (Korea/Israel/SEA), portfolio count",
+        "quote": "생명공학 기술을 바탕으로, 더 건강하고 더 안전한 삶을 지원하는 바이오 기술, 서비스 및 제품에 투자합니다."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "GS Ventures is the corporate venture arm of GS Group, a Korean energy/retail/construction conglomerate with no medical/pharma core business.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-lg-technology-ventures",
+    "name": { "en": "LG Technology Ventures", "local": "LG테크놀로지벤처스" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [ { "country": "United States", "city": "Santa Clara" } ],
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["global"],
+      "sector_focus": ["generalist-health", "therapeutics"],
+      "thesis": "Silicon-Valley-based corporate VC fund of Korea's LG Corp (electronics/chemicals conglomerate), investing in AI, mobility, batteries and bio as future growth areas for the LG Group."
+    },
+    "sources": [
+      {
+        "url": "https://ko.wikipedia.org/wiki/LG%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80%EB%B2%A4%EC%B2%98%EC%8A%A4",
+        "title": "LG테크놀로지벤처스",
+        "publisher": "Wikipedia (Korean)",
+        "accessed": "undefined",
+        "supports": "Corporate identity as LG Group's CVC and its sector focus including bio",
+        "quote": "AI, 모빌리티, 배터리, 바이오 등 미래 신성장 동력 분야에 투자하고 있다"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "LG Technology Ventures is operationally headquartered in Santa Clara, California as LG Corp's global CVC vehicle; included here because its parent, LG Corp, is headquartered in Seoul, South Korea. Bio is one of four stated focus areas, not the primary focus.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-hanwha-life-dreamplus",
+    "name": { "en": "Hanwha Life DreamPlus", "local": "한화생명 드림플러스" },
+    "type": "accelerator",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://dreamplus.asia/",
+    "capital": {
+      "aum": { "raw": "약 7천억원 누적 투자 (approx. KRW 700 billion cumulative), plus ~KRW 100 billion/year planned going forward", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["digital-health", "consumer-health"],
+      "thesis": "Hanwha Life Insurance's open-innovation hub, launched in 2014 as a startup accelerator, runs accelerator programs and makes direct/fund investments across fintech and lifestyle verticals including healthcare/wellness; portfolio includes dental-health app maker Kitten Planet, whose technology was integrated into a Hanwha Life dental insurance product."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Kitten Planet (키튼플래닛)", "sector": "digital dental health", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://platum.kr/archives/131993",
+        "title": "[현장] 한화생명 드림플러스가 선택한 10개 스타트업",
+        "publisher": "Platum",
+        "accessed": "undefined",
+        "supports": "DreamPlus accelerator programs and healthcare/wellness vertical, cumulative investment scale",
+        "quote": "드림플러스에서는 한화 금융 계열사에서 직접 조성된 펀드는 물론 글로벌 펀드의 참여를 통해 약 7천억 원 규모의 투자를 진행 중이며"
+      },
+      {
+        "url": "https://www.chiefexe.com/news/ArticleView.asp?listId=Mjc2OXx8bGltaXRfZmFsc2Ug",
+        "title": "[오픈이노베이션에서 길을 찾다] 한화생명 드림플러스",
+        "publisher": "Chief Executive",
+        "accessed": "undefined",
+        "supports": "DreamPlus origin (2014) and healthcare/wellness portfolio example (Kitten Planet)"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "DreamPlus operates as a hybrid accelerator/open-innovation hub with an investment function backed by Hanwha financial affiliates; classified primarily as accelerator with CVC as a secondary type since it both runs cohort programs and deploys direct/fund capital.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-woori-venture-partners",
+    "name": { "en": "Woori Venture Partners", "local": "우리벤처파트너스" },
+    "type": "cvc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Wholly owned VC subsidiary of Woori Financial Group (bank holding company) since August 2023; healthcare/bio is one of its core investment sectors alongside commerce and AI/deep-tech/blockchain, with biotech portfolio companies including Onconic Therapeutics and HEM Bio."
+    },
+    "track_record": {
+      "portfolio_count": 161,
+      "notable_investments": [
+        { "company": "Onconic Therapeutics (온코닉테라퓨틱스)", "sector": "therapeutics / oncology biotech", "outcome": "active" },
+        { "company": "HEM Bio (HEM바이오)", "sector": "biotech", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://namu.wiki/w/%EC%9A%B0%EB%A6%AC%EB%B2%A4%EC%B2%98%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8A%A4",
+        "title": "우리벤처파트너스",
+        "publisher": "Namu Wiki",
+        "accessed": "undefined",
+        "supports": "Woori Financial Group's 100% acquisition of Woori Venture Partners in August 2023"
+      },
+      {
+        "url": "https://thevc.kr/wooriventurepartners",
+        "title": "우리벤처파트너스(투자조합) - 기업정보",
+        "publisher": "THE VC",
+        "accessed": "undefined",
+        "supports": "Portfolio count (161 companies) and sector focus including healthcare/bio"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Woori Financial Holdings (a bank holding company with no medical core business) acquired 100% of Woori Venture Partners in August 2023, making it the group's captive CVC; healthcare/bio is one of several stated sector priorities.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "kr-hana-ventures",
+    "name": { "en": "Hana Ventures", "local": "하나벤처스" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "capital": {
+      "current_fund": { "raw": "약 1천억원 블라인드 펀드 (approx. KRW 100 billion blind fund, 2019)", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["south-korea"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "New-technology business finance subsidiary of Hana Financial Group (bank holding company), launched in 2018 with a plan to invest up to KRW 1 trillion in ICT, bio and healthcare startups; now also anchors Hana's participation in a KRW 4+ trillion national strategic-industry venture mother-fund covering bio/healthcare."
+    },
+    "sources": [
+      {
+        "url": "https://www.hankyung.com/economy/article/2018121941231",
+        "title": "하나금융 하나벤처스 출범…1조 투자해 유니콘 발굴",
+        "publisher": "한국경제 (Hankyung)",
+        "accessed": "undefined",
+        "supports": "Founding (2018), KRW 1 trillion investment target including ICT/bio/healthcare"
+      },
+      {
+        "url": "https://www.fntimes.com/html/view.php?ud=2025111210593065905e6e69892f_18",
+        "title": "함영주 회장 \"생산적금융 능동적 참여\"…하나금융, 4년간 4조 첨단산업 펀드 조성",
+        "publisher": "한국금융신문 (Financial News Times)",
+        "accessed": "undefined",
+        "supports": "Hana's participation in a KRW 4+ trillion strategic-industry fund covering bio/healthcare"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Hana Ventures (하나벤처스) is Hana Financial Group's new-technology business finance company (신기술사업금융회사); bio/healthcare is one of several ICT-adjacent strategic sectors, not an exclusive focus.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  }
+]

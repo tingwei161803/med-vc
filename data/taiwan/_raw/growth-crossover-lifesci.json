@@ -1,0 +1,266 @@
+[
+  {
+    "id": "tw-taiwania-capital",
+    "name": { "en": "Taiwania Capital", "local": "台杉投資" },
+    "aka": ["台杉投資管理顧問股份有限公司", "Taiwania Capital Management Corp."],
+    "type": "growth-equity",
+    "subtypes": ["vc", "crossover-fund"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taiwaniacapital.com/tw/about",
+    "capital": {
+      "funds": [
+        { "name": "台杉生技基金 (Taiwania Biotech Fund)", "vintage_year": null, "size": { "raw": "NT$59億元 (NT$5.9 billion)", "usd": null, "currency": "TWD" } },
+        { "name": "TaiAx Life Science Fund L.P. (with Tokyo-based Axil Capital)", "vintage_year": 2023, "size": { "raw": "US$200M target", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "North America", "Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "healthcare-services"],
+      "thesis": "Government-anchored (National Development Fund LP) growth-stage investment platform whose dedicated biotech fund line and newly launched cross-border TaiAx Life Science Fund (with Tokyo's Axil Capital) back later-stage Taiwanese and North American biopharma, medtech and digital-health companies, aiming to link them to international capital and next-generation drug development experience (e.g. gene therapy)."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "small-molecule", "medical-hardware"],
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": "26 (across its two biotech funds, per 2023 reporting)"
+    },
+    "tags": ["government-backed", "cross-border", "biotech-fund"],
+    "summary": {
+      "en": "Taiwan government-anchored investment platform (est. 2017) whose dedicated biotech fund (NT$5.9B) and new US$200M TaiAx Life Science Fund, co-formed with Japan's Axil Capital, target growth-stage biopharma, medtech and digital health companies in Taiwan and abroad.",
+      "local": "台杉投資成立於2017年，旗下台杉生技基金（新台幣59億元）及與東京Axil Capital合資成立、目標2億美元的TaiAx生技基金，聚焦投資台灣及北美成長期生物製藥、醫材與數位醫療企業。"
+    },
+    "sources": [
+      {
+        "url": "https://www.taiwaniacapital.com/tw/about",
+        "title": "關於我們-台杉投資",
+        "publisher": "Taiwania Capital",
+        "accessed": "undefined",
+        "supports": "founding year 2017, government five strategic industries focus, eight funds raised",
+        "quote": "台杉投資成立於2017年，以政府五大信賴產業為主要投資領域，截至2024年8月已成功募集聚焦投資在科技、生技領域共八支基金。"
+      },
+      {
+        "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=483",
+        "title": "台杉投資管理顧問股份有限公司",
+        "publisher": "環球生技月刊 GlobalBio",
+        "accessed": "undefined",
+        "supports": "biotech fund size NT$5.9 billion and TaiAx Life Science Fund L.P. US$200M target with Axil Capital",
+        "quote": "台杉生技基金 capital of NTD 5.9 billion; TaiAx Life Science Fund L.P. with a target size of USD 200 million, developed jointly with Tokyo-based Axil Capital"
+      },
+      {
+        "url": "https://money.udn.com/money/story/5612/8188071",
+        "title": "台日創投合作 台杉與 Axil Capital 共同成立生技新基金",
+        "publisher": "經濟日報",
+        "accessed": "undefined",
+        "supports": "TaiAx fund sector focus on biopharma, medtech, digital health and healthcare services",
+        "quote": "台杉與總部位於東京的Axil Capital合資成立TaiAx基金，目標規模為2億美元，該基金著眼於生物製藥、醫材、數位醫療和醫療保健服務。"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Taiwania Capital is a multi-sector, multi-fund platform (tech + biotech, seed through growth); this entry focuses on its dedicated biotech/life-science fund line, which is explicitly growth-stage and cross-border in orientation. Could not directly load taiwaniacapital.com/tw/funds (403); fund figures verified via GlobalBio (news.gbimonthly.com) and 經濟日報 secondary sources instead.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "tw-cdib-capital",
+    "name": { "en": "CDIB Capital Group", "local": "中華開發資本" },
+    "aka": ["CDIB Capital", "中華開發資本股份有限公司"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.cdibcapitalgroup.com/zh-tw",
+    "capital": {
+      "funds": [
+        { "name": "Healthcare Fund (中華開發生技基金)", "vintage_year": 2014, "size": { "raw": "NT$1.75 billion", "usd": null, "currency": "TWD" } },
+        { "name": "Healthcare Fund II", "vintage_year": 2020, "size": { "raw": "NT$3.11 billion", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "Greater China"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices", "digital-health"],
+      "thesis": "Private-equity arm of China Development Financial Holding running a dedicated NT-dollar Healthcare Fund series (Fund I 2014, Fund II closed Dec 2020) that backs growth-stage / expansion-stage Taiwanese biotech, cell & gene therapy, medtech and digital-health companies, with over 60% of Fund II capital earmarked for Taiwan-related targets."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "medical-hardware"],
+      "invests_public_markets": null
+    },
+    "tags": ["private-equity", "financial-holding-affiliated"],
+    "summary": {
+      "en": "Private-equity platform of China Development Financial Holding; its Healthcare Fund I (2014, NT$1.75B) and Healthcare Fund II (closed 2020, NT$3.11B) invest in growth-stage/expansion-stage biotech (incl. cell & gene therapy), medtech and digital-health companies, over 60% Taiwan-focused.",
+      "local": "中華開發資本為開發金控旗下私募股權平台，其生技基金一期（2014年，新台幣17.5億元）與二期（2020年募集完成，新台幣31.1億元）鎖定成長期／擴張期的新藥（含細胞與基因治療）、醫材與數位醫療公司，逾六成資金投向台灣相關標的。"
+    },
+    "sources": [
+      {
+        "url": "https://www.kgi.com/en/press/news-detail-content?id=276248fff9d74885b3c05da2686226e7&dtlsrc=ce44e7f6813e4e76a4eacf65ef9388d8",
+        "title": "CDIB launches second NT dollar-denominated healthcare fund",
+        "publisher": "KGI / CDIB Capital",
+        "accessed": "undefined",
+        "supports": "Healthcare Fund II size NT$3.11B, Fund I size NT$1.75B (2014), 60%+ Taiwan allocation, growth/expansion-stage strategy",
+        "quote": "mainly investing in young firms with high earnings growth and firms at the expansion stage with fair earnings growth; Healthcare Fund II ... size nearly double that of Healthcare Fund I which was established in 2014 with NT$1.75 billion; Over 60% of Healthcare Fund II's capital will be allocated to Taiwan-related targets."
+      },
+      {
+        "url": "https://www.cdibcapitalgroup.com/zh-tw/about-us/subsidiaries",
+        "title": "我們的關係企業",
+        "publisher": "CDIB Capital Group",
+        "accessed": "undefined",
+        "supports": "existence of Healthcare Fund and Healthcare Fund II as active managed funds",
+        "quote": "CDIB Capital Management Consultants Co. Ltd., established in 2001 as the main equity fund management platform for CDIB Capital Group, currently manages equity funds including Healthcare Fund, Healthcare Fund II, Yida Healthcare (Kunshan) Fund, and other specialized investment funds."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "CDIB Capital Group is a diversified private-equity manager (also does non-healthcare growth/buyout deals); this entry describes only its healthcare-dedicated fund line, which fits the growth/pre-IPO crossover slice.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "tw-anpu-capital",
+    "name": { "en": "Anpu Capital", "local": "安富資本" },
+    "aka": ["Anfu Capital", "安富大健康基金"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "website": "https://www.gbimonthly.com",
+    "capital": {
+      "funds": [
+        { "name": "安富大健康一號基金 (Anpu Big Health Fund No. 1)", "vintage_year": 2022, "size": { "raw": "NT$15億元 (target, fully subscribed)", "usd": null, "currency": "TWD" } },
+        { "name": "安富大健康二號基金 (Anpu Big Health Fund No. 2)", "vintage_year": 2023, "size": { "raw": "NT$21.75億元 (paid-in as of July 2024)", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Growth-stage private fund founded by biotech entrepreneur Lin Chun (also chairman of Quanfu Biotech / 台睿生技) that targets Series B/C Taiwanese biotech and 'big health' companies that have cleared early technical risk and entered clinical/commercial-scaling stages, en route to public listing."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Quanfu Biotech (全福生技)", "sector": "therapeutics / translational medicine", "outcome": "IPO (TWSE, 2023)" },
+        { "company": "Tairuei Biotech (台睿生技)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Yiyun Medical (宜蘊醫療)", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "tags": ["founder-led", "biotech-entrepreneur-backed"],
+    "summary": {
+      "en": "Taiwan growth-stage private fund (Anpu Big Health Fund No.1 2022 NT$1.5B, No.2 2023 targeting NT$3B) founded by biotech entrepreneur Lin Chun, backing Series B/C biotech and 'big health' companies such as Quanfu Biotech (listed 2023), Tairuei Biotech and Yiyun Medical.",
+      "local": "由生技創業家林羣創立的成長期私募基金，安富大健康一號基金（2022年，新台幣15億元）與二號基金（2023年，實收達21.75億元）鎖定B輪、C輪台灣生技與大健康企業，投資案例包括2023年上市的全福生技、台睿生技與宜蘊醫療。"
+    },
+    "sources": [
+      {
+        "url": "https://www.businesstoday.com.tw/article/category/183015/post/202302090019/",
+        "title": "美時前董事長主導，小公司組成史上最強陣容！這檔生技股將是下一顆耀眼明星？",
+        "publisher": "今周刊 Business Today",
+        "accessed": "undefined",
+        "supports": "fund names, fund sizes NT$1.5B (Fund 1) and NT$2.175B paid-in (Fund 2 as of July 2024), founding years 2022/2023",
+        "quote": "安富資本在2022年成立「安富大健康一號基金」，新臺幣15億元的目標規模旋即達標，2023年7月又成立「安富大健康二號基金」，2024年7月實收出資額已達新臺幣21.75億元。"
+      },
+      {
+        "url": "https://news.gbimonthly.com/tw/celebrity/show.php?num=73060",
+        "title": "安富資本、全福董事長林羣 制霸生技策略心法",
+        "publisher": "環球生技月刊 GlobalBio",
+        "accessed": "undefined",
+        "supports": "founder Lin Chun's background and portfolio companies (台睿, 宜蘊, 先知, 先驅, 全福)",
+        "quote": "安富基金由前美時董事長、現任台睿生技董事長林群籌組...林群自2016年從外資、電子業再橫跨到生技業，至今已投資包括台睿、宜蘊、先知、先驅及全福等五家生技公司。"
+      },
+      {
+        "url": "https://today.line.me/tw/v2/article/nXYvjQq",
+        "title": "為何眾大咖都看上這家小生技公司？從全福生技現增 一窺台灣生技資本市場還有哪些不足",
+        "publisher": "LINE TODAY / 林宏文專欄",
+        "accessed": "undefined",
+        "supports": "NT$600M investment into Quanfu Biotech at NT$25/share, becoming largest single shareholder with 12.87% stake",
+        "quote": "安富大健康一號私募基金...曾以每股25元、總計6億元的金額對全福生技進行現金增資，成為持股12.87%的單一最大股東。"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No independent official website located for Anpu Capital; all facts sourced from reputable secondary business/biotech media (今周刊, GlobalBio, LINE Today) that are internally consistent. Placeholder website field points to GlobalBio (no verified official Anpu Capital site found).",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "tw-diamond-biofund",
+    "name": { "en": "Diamond Biofund", "local": "鑽石生技投資" },
+    "aka": ["鑽石生技創業投資股份有限公司", "Diamond Biofund Co., Ltd.", "TPEx/TWSE: 6901"],
+    "type": "growth-equity",
+    "subtypes": ["crossover-fund", "vc"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.diamondbiofund.com/en/index/",
+    "capital": {
+      "funds": [
+        { "name": "Founding capital (2013)", "vintage_year": 2013, "size": { "raw": "NT$63.5億元", "usd": null, "currency": "TWD" } },
+        { "name": "併購發展基金 (M&A / Growth Development Fund, 8-10yr horizon)", "vintage_year": 2023, "size": { "raw": "逾新台幣100億元 (over NT$10 billion)", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices"],
+      "thesis": "Taiwan's first publicly listed (TPEx/TWSE: 6901, listed Sept 2023) 'evergreen' biotech venture capital firm, founded 2013 by Sinphar Group (中天生技) and backed by Fubon, Taishin and Ruentex financial groups; post-IPO it raised over NT$10 billion for an 8-10 year M&A/growth-stage development fund to consolidate and scale Taiwan biotech companies toward exit, alongside earlier-stage biotech incubation from academic spinouts."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "invests_public_markets": true,
+      "science_platform_notes": "Sources biotech spinouts from partner universities/research institutes (Academia Sinica, NTU, NTHU, etc.) and also runs a listed-company M&A/growth fund."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Glycobiotech (醣基生醫)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Xinyao Biomedical (欣耀生醫)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Concord Biotech (協和新藥)", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["Fubon Financial Holding", "Taishin Financial Holding", "Ruentex Group"]
+    },
+    "tags": ["publicly-listed-VC", "evergreen-fund", "academic-spinouts"],
+    "summary": {
+      "en": "Taiwan's first exchange-listed 'evergreen' biotech VC (TPEx/TWSE: 6901; listed Sept 2023), founded 2013 by Sinphar Group with backing from Fubon/Taishin/Ruentex; raised over NT$10 billion post-IPO for an 8-10 year M&A/growth-stage fund to scale Taiwan biotech companies toward exit.",
+      "local": "台灣首家掛牌上市的永續型生技創投（櫃買/證交所代號6901，2023年9月掛牌），由中天生技於2013年發起，富邦、台新、潤泰三大金融集團參與；上市後集資逾新台幣100億元成立8-10年期的併購發展基金，扶植台灣生技公司壯大並邁向出場。"
+    },
+    "sources": [
+      {
+        "url": "https://www.diamondbiofund.com/en/index/",
+        "title": "Diamond Biofund",
+        "publisher": "Diamond Biofund",
+        "accessed": "undefined",
+        "supports": "founding, HQ Taipei address, portfolio companies, early-stage incubation model",
+        "quote": "elite investment teams from biotech R&D, finance, and corporate management ... added-value services in intellectual property layout, clinical validation, and business operations; Taipei headquarters at 台北市中正區忠孝西路一段66號34樓"
+      },
+      {
+        "url": "https://news.gbimonthly.com/tw/article/show.php?num=61189",
+        "title": "鑽石生技投資上市集資100億打造併購基金 挺台灣創新藥進攻國際",
+        "publisher": "環球生技月刊 GlobalBio",
+        "accessed": "undefined",
+        "supports": "post-IPO NT$10B+ M&A/growth fund raise, 8-10 year fund horizon",
+        "quote": "鑽石生技投資上市集資100億打造併購基金"
+      },
+      {
+        "url": "https://wantrich.chinatimes.com/news/20230919900303-420101",
+        "title": "台灣首家永續型創投 鑽石生技 今掛牌",
+        "publisher": "工商時報 / 旺得富理財網",
+        "accessed": "undefined",
+        "supports": "listing date Sept 19 2023, ticker 6901, capital NT$84.93億, founded by 中天生技 in 2013 with Fubon/Taishin/Ruentex as 95.55% holders",
+        "quote": "鑽石生技（6901）於2023年9月19日正式掛牌上市，資本額為84.93億元...鑽石生技投資由中天生技於2013年發起成立，資本額為新台幣63.5億元，由富邦金控、台新金控及潤泰集團等三大金融集團共同參與，三大集團所持有股份達95.55%。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Diamond Biofund straddles early-stage academic-spinout incubation and a large post-IPO growth/M&A fund; included in this growth-crossover slice primarily for the latter (its listed-vehicle, growth/buyout-stage M&A fund), noting the dual model in strategy.thesis.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  }
+]

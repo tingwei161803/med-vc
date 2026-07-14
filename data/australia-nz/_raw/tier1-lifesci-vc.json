@@ -1,0 +1,568 @@
+[
+  {
+    "id": "anz-brandon-capital",
+    "name": { "en": "Brandon Capital" },
+    "aka": ["Brandon Capital Partners", "Brandon BioCatalyst", "MRCF", "Medical Research Commercialisation Fund"],
+    "type": "vc",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "offices": [
+      { "country": "Australia", "city": "Melbourne" },
+      { "country": "Australia", "city": "Sydney" },
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "United Kingdom", "city": "London" }
+    ],
+    "website": "https://brandoncapital.vc/",
+    "capital": {
+      "aum": { "raw": "over A$1 billion", "usd": null, "currency": "AUD" },
+      "current_fund": { "raw": "A$439M (Brandon BioCatalyst Fund 6, 2025)", "usd": null, "currency": "AUD" },
+      "funds": [
+        { "name": "Brandon BioCatalyst Fund 6 (BB6)", "vintage_year": 2025, "size": { "raw": "over A$430M", "usd": null, "currency": "AUD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Australia", "New Zealand", "United Kingdom", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Australasia's largest dedicated life-sciences VC; commercialises early-stage biomedical research from a collaboration of 50+ medical research institutes and hospitals (Brandon BioCatalyst / former MRCF), taking companies from proof-of-concept through clinical development. Almost always the founding investor."
+    },
+    "lifesci": {
+      "modalities": ["radiopharmaceuticals", "biologics-antibody", "small-molecule", "drug-delivery"],
+      "indications": ["oncology", "neurology", "ophthalmology", "respiratory"],
+      "company_creation": true,
+      "science_platform_notes": "Runs Brandon BioCatalyst, a research-and-investment collaboration bringing together 50+ Australian and New Zealand medical research institutes and hospitals, superannuation funds, CSL and government to source and de-risk early biomedical IP."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Myricx Bio", "sector": "therapeutics", "outcome": "acquired by Novartis (2026)" },
+        { "company": "AdvanCell", "sector": "therapeutics", "outcome": "active" },
+        { "company": "PolyActiva", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "CatalYm", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Vaxxas", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "tags": ["life-sciences", "biotech", "MRCF", "Brandon BioCatalyst", "tier1"],
+    "summary": {
+      "en": "Australasia's leading and largest life-sciences venture capital firm, managing over A$1 billion across six funds and commercialising early-stage medical research through the Brandon BioCatalyst (formerly MRCF) institute collaboration."
+    },
+    "sources": [
+      { "url": "https://brandoncapital.vc/", "title": "Brandon Capital Partners", "publisher": "Brandon Capital", "accessed": "undefined", "supports": "life-sciences focus, offices (Melbourne, Sydney, San Francisco, London), founding-investor / company-creation model, portfolio", "quote": "We're invested in health to develop the next generation of medical innovations." },
+      { "url": "https://brandoncapital.vc/2025/07/24/australian-life-sciences-venture-capital-firm-brandon-capital-announces-fund-six-final-close-totalling-over-a430-m/", "title": "Brandon Capital announces Fund Six final close totalling over A$430m", "publisher": "Brandon Capital", "accessed": "undefined", "supports": "Fund 6 size and vintage", "quote": "Australian Life Sciences Venture Capital firm Brandon Capital announces Fund Six final close totalling over A$430 m" },
+      { "url": "https://biomelbourne.org/brandon-capital-secures-over-430m-in-final-close-of-sixth-life-sciences-investment-fund/", "title": "Brandon Capital secures over $430M in final close of sixth life sciences investment fund", "publisher": "BioMelbourne Network", "accessed": "undefined", "supports": "Fund 6 A$430M+ final close", "quote": "Brandon Capital secures over $430M in final close of sixth life sciences investment fund" },
+      { "url": "https://brandonbiocatalyst.com/", "title": "Brandon BioCatalyst – the Australasian life science collaboration", "publisher": "Brandon BioCatalyst", "accessed": "undefined", "supports": "MRCF renamed Brandon BioCatalyst; 50+ institutes; largest ANZ life science fund", "quote": "Brandon BioCatalyst is the largest life science investment fund in Australia and New Zealand." }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM 'over A$1 billion' and Fund 6 'over A$430M / A$439M' figures reported by Brandon and secondary trade press (FierceBiotech, BioMelbourne). Formerly the Medical Research Commercialisation Fund (MRCF, established 2007); renamed Brandon BioCatalyst in 2022. Firm founding year not independently confirmed so omitted.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-oneventures",
+    "name": { "en": "OneVentures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2007,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Sydney",
+    "offices": [ { "country": "Australia", "city": "Sydney" } ],
+    "website": "https://one-ventures.com.au/",
+    "capital": {
+      "aum": { "raw": "over A$900M (approaching A$1bn FUM, 2024)", "usd": null, "currency": "AUD" },
+      "funds": [
+        { "name": "OneVentures Healthcare Fund III", "vintage_year": null, "size": { "raw": "A$170M", "usd": null, "currency": "AUD" } },
+        { "name": "Biomedical Translation Fund (licensed manager)", "vintage_year": null, "size": { "raw": "part of A$500M Australian Government program", "usd": null, "currency": "AUD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Later-stage venture and growth-credit firm scaling technology and healthcare companies; its dedicated healthcare franchise invests in Australian therapeutics, devices and diagnostics at or near clinical development, and it is a licensed manager of the Government's Biomedical Translation Fund."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "vaccines", "drug-delivery"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Vaxxas", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "BiVACOR", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "tags": ["healthcare", "growth", "biomedical-translation-fund", "tier1"],
+    "summary": {
+      "en": "One of Australia's largest VC firms (approaching A$1bn FUM), with a dedicated healthcare franchise (Healthcare Fund III, A$170M) investing in therapeutics, devices and diagnostics, and a licensed manager of the Government's A$500M Biomedical Translation Fund."
+    },
+    "sources": [
+      { "url": "https://one-ventures.com.au/", "title": "OneVentures — Australia's Leading Venture Capital Firm", "publisher": "OneVentures", "accessed": "undefined", "supports": "later-stage tech + healthcare focus, Sydney office, Vaxxas / BiVACOR portfolio", "quote": "a later-stage venture capital firm, focused on scaling technology and healthcare companies through growth equity and credit" },
+      { "url": "https://www.openvc.app/fund/OneVentures", "title": "OneVentures | Investor Profile, Funding Criteria & Team", "publisher": "OpenVC", "accessed": "undefined", "supports": "founded 2007, Healthcare Fund III A$170M, Biomedical Translation Fund manager, FUM", "quote": "OneVentures manages the $170 million Healthcare Fund III, investing in therapeutics, devices, and diagnostics with a clear commercial pathway." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Overall FUM cited between A$500M and 'over A$900M / approaching A$1bn' across sources (2024). Healthcare Fund III A$170M and the A$500M Biomedical Translation Fund (a Government dollar-for-dollar matching program under which OneVentures is one of three licensed managers) are widely reported; exact current healthcare AUM not disclosed on the official site.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-bioscience-managers",
+    "name": { "en": "BioScience Managers" },
+    "aka": ["Bioscience Managers", "BSM"],
+    "type": "vc",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "founded_year": 2003,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "offices": [ { "country": "Australia", "city": "Melbourne" } ],
+    "website": "https://biosciencemanagers.com/",
+    "capital": {
+      "funds": [
+        { "name": "IB Australian Bioscience Fund I", "vintage_year": 2008, "size": { "raw": "A$42M", "usd": null, "currency": "AUD" } },
+        { "name": "Asia Pacific Healthcare Fund II", "vintage_year": 2013, "size": { "raw": "A$56M", "usd": null, "currency": "AUD" } },
+        { "name": "BioScience Managers Translation Fund (Biomedical Translation Fund licence)", "vintage_year": 2017, "size": { "raw": "A$100M (half Federal BTF, half raised independently)", "usd": null, "currency": "AUD" } },
+        { "name": "BioScience Managers Ventures Fund II", "vintage_year": 2023, "size": { "raw": null, "usd": null, "currency": "AUD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "New Zealand", "United States", "United Kingdom"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "genomics-omics"],
+      "thesis": "International healthcare investment firm (part of PhillipCapital) backing private and public healthcare companies with clear technological and market advantages that are in or near clinical development or commercialisation, across genomic medicine, paediatrics and digital health."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Part of the PhillipCapital group; invests across both private and listed healthcare companies in any territory."
+    },
+    "tags": ["healthcare", "genomic-medicine", "paediatrics", "biomedical-translation-fund", "crossover"],
+    "summary": {
+      "en": "Melbourne-headquartered international healthcare investment firm (founded 2003, part of PhillipCapital) investing in private and public therapeutics, devices, diagnostics and digital-health companies; a licensed manager of the Government's Biomedical Translation Fund."
+    },
+    "sources": [
+      { "url": "https://biosciencemanagers.com/about-us/", "title": "About Us – BioScience Managers", "publisher": "BioScience Managers", "accessed": "undefined", "supports": "founded 2003, Melbourne HQ, fund names and sizes, public+private healthcare focus, IRR", "quote": "An international healthcare investment firm that finances and enables innovative science and technology poised for transformation." },
+      { "url": "https://biosciencemanagers.com/500-million-fund-will-help-build-australias-biomedical-industry-of-the-future/", "title": "$500 million fund will help build Australia's biomedical industry of the future", "publisher": "BioScience Managers", "accessed": "undefined", "supports": "A$100M Biomedical Translation Fund licence", "quote": "BioScience Managers was awarded a $100 million investment licence for the Federal Government-backed Biomedical Translation Fund" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund sizes (IB Australian Bioscience Fund I A$42M 2008; Asia Pacific Healthcare Fund II A$56M 2013; A$100M BTF-linked Translation Fund 2017; Ventures Fund II 2023 open) drawn from the firm's own about page. Parent PhillipCapital reports >US$35bn AUM group-wide, which is not BSM's dedicated life-science AUM. Reported net IRR >20% is a firm claim, not independently audited here.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-tenmile",
+    "name": { "en": "Tenmile" },
+    "type": "vc",
+    "subtypes": ["family-office"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Perth",
+    "offices": [
+      { "country": "Australia", "city": "Perth" },
+      { "country": "Australia", "city": "Sydney" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.tenmile.com/",
+    "capital": {
+      "current_fund": { "raw": "A$250M initial allocation from Tattarang", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Dedicated health-technology and biotech venture firm backed by Andrew and Nicola Forrest's Tattarang; invests in products and solutions addressing unmet medical needs to improve human health, moving fast without external LP obligations. Partnered with US digital-health fund Rock Health."
+    },
+    "lifesci": {
+      "modalities": ["rna-therapeutics", "cell-therapy", "small-molecule", "digital-therapeutics"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AdvanCell", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Emyria", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Carina Biotech", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Lumos Diagnostics", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Creyon Bio", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "tags": ["health-tech", "biotech", "Tattarang", "Forrest", "tier1"],
+    "summary": {
+      "en": "Perth-based, A$250M health-technology and biotech venture firm launched in 2022 by Andrew and Nicola Forrest's Tattarang, investing across therapeutics, devices, diagnostics and digital health from seed onward, with offices in Sydney and San Francisco."
+    },
+    "sources": [
+      { "url": "https://www.tenmile.com/", "title": "Tenmile", "publisher": "Tenmile", "accessed": "undefined", "supports": "health-innovation mission, seed-and-beyond investing, portfolio", "quote": "improve human health by growing top tier companies and connecting Australian innovation to the world." },
+      { "url": "https://www.tattarang.com/news/2022/tattarang-launches-250m-dedicated-health-technology-investment-business/", "title": "Tattarang launches $250m dedicated health technology investment business", "publisher": "Tattarang", "accessed": "undefined", "supports": "A$250M allocation, 2022 launch, Tattarang/Forrest backing, health-tech dedication", "quote": "Tattarang launches $250m dedicated health technology investment business" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Backed by a single LP (Tattarang, the Forrest family's diversified private investment group) rather than external institutional LPs; classified as a dedicated life-science VC with a family-office subtype rather than a corporate CVC (Tattarang is not a pharma/medtech operating company). Perth HQ with Sydney and San Francisco teams; partnered with US fund Rock Health.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-gbs-venture-partners",
+    "name": { "en": "GBS Venture Partners" },
+    "aka": ["GBS Ventures", "Genesis BioVentures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1996,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "offices": [ { "country": "Australia", "city": "Melbourne" } ],
+    "website": "https://gbsventures.com.au/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "A$10M–A$12M", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "United States"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "One of Australia's oldest dedicated life-science VCs (founded 1996), investing in early-stage human therapeutics, biotechnology, diagnostics and medical devices poised to transform patient care."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Ivantis", "sector": "medtech-devices", "outcome": "acquired (Alcon)" },
+        { "company": "Elastagen", "sector": "medtech-devices", "outcome": "acquired (Allergan)" },
+        { "company": "Moximed", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "tags": ["life-sciences", "legacy", "therapeutics", "medical-devices"],
+    "summary": {
+      "en": "Long-established Melbourne life-sciences VC (founded 1996) investing in human therapeutics, biotech, diagnostics and medical devices; a legacy tier-1 name whose exits include Ivantis and Elastagen."
+    },
+    "sources": [
+      { "url": "https://gbsventures.com.au/", "title": "GBS Venture Partners", "publisher": "GBS Venture Partners", "accessed": "undefined", "supports": "life-sciences VC identity, Melbourne base", "quote": "GBS Venture Partners" },
+      { "url": "https://www.cbinsights.com/investor/gbs-venture-partners", "title": "GBS Venture Partners Portfolio Investments, Funds, Exits", "publisher": "CB Insights", "accessed": "undefined", "supports": "founded 1996, life-sciences focus, check size, recent Moximed participation", "quote": "GBS Venture Partners is a leading Australian venture capital firm founded in 1996, specializing in life sciences, headquartered in Melbourne, and focuses on investments in human therapeutics, biotechnology, diagnostics, and medical devices." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Legacy firm founded 1996; participated in a Moximed Series D as recently as Aug 2024, so retained as 'active', but there is no evidence of a recently raised new fund — likely managing a tail portfolio. The Australian medical-research VC ecosystem it helped pioneer has largely consolidated around Brandon Capital. Check size A$10–A$12M from secondary profiles.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-tarnagulla-ventures",
+    "name": { "en": "Tarnagulla Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "offices": [ { "country": "Australia", "city": "Melbourne" } ],
+    "website": "https://www.tarnagullaventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Melbourne life-science VC providing concentrated financial and intellectual capital to a small number of therapeutics companies (small molecule, protein and cell-based), bringing promising technology to the Australian and US markets."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "indications": ["rare-disease", "neurology"]
+    },
+    "people": [
+      { "name": "William McNamee", "role": "Managing Partner" },
+      { "name": "Natalie McNamee", "role": "Partner" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Jupiter Neurosciences", "sector": "therapeutics", "outcome": "IPO (Nasdaq: JTAI)" }
+      ]
+    },
+    "tags": ["life-sciences", "therapeutics", "concentrated"],
+    "summary": {
+      "en": "Melbourne-based life-science VC (founded 2015) run by William and Natalie McNamee, making concentrated seed/Series A investments in small-molecule, protein and cell-based therapeutics for the Australian and US markets."
+    },
+    "sources": [
+      { "url": "https://www.tarnagullaventures.com/", "title": "Tarnagulla Ventures | Venture Capital Australia – Investors in Life Science", "publisher": "Tarnagulla Ventures", "accessed": "undefined", "supports": "Melbourne life-science VC, therapeutics focus, seed/Series A", "quote": "Tarnagulla Ventures | Venture Capital Australia – Investors in Life Science" },
+      { "url": "https://www.tarnagullaventures.com/about-us/", "title": "About – Tarnagulla Ventures", "publisher": "Tarnagulla Ventures", "accessed": "undefined", "supports": "founded 2015, McNamee founders, small molecule/protein/cell therapeutics, AU+US focus", "quote": "The firm is managed by William and Natalie McNamee." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Smaller, concentrated manager; no public fund size disclosed. Founding year 2015 and therapeutic focus (small molecule, protein, cell-based) from firm site and secondary profiles.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-yuuwa-capital",
+    "name": { "en": "Yuuwa Capital" },
+    "type": "vc",
+    "status": "dormant",
+    "founded_year": 2009,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Perth",
+    "offices": [ { "country": "Australia", "city": "Perth" } ],
+    "website": "https://www.yuuwa.com.au/",
+    "capital": {
+      "current_fund": { "raw": "A$40M (Innovation Investment Fund co-investment)", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Perth-based early-stage life-science VC (A$40M fund seeded by the Federal Innovation Investment Fund) commercialising Western Australian and Oceania biotech, medical-device and healthcare IP."
+    },
+    "lifesci": {
+      "modalities": ["drug-delivery", "medical-hardware"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "Liddy McCall", "role": "Co-founder / Managing Director", "background": "Life-science commercialisation" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "PolyActiva", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Fitgenes", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "tags": ["life-sciences", "Perth", "Western-Australia", "IIF", "legacy"],
+    "summary": {
+      "en": "Perth early-stage life-science VC (founded 2009) that ran a A$40M Innovation Investment Fund-backed vehicle investing in Western Australian biotech, medical devices and diagnostics; now effectively a legacy/tail manager."
+    },
+    "sources": [
+      { "url": "https://www.yuuwa.com.au/", "title": "Home | Yuuwa", "publisher": "Yuuwa Capital", "accessed": "undefined", "supports": "Perth life-science VC identity", "quote": "Yuuwa" },
+      { "url": "https://superscout.co/investor/yuuwa-capital", "title": "Yuuwa Capital: The Early Stage Founder's Guide", "publisher": "Superscout", "accessed": "undefined", "supports": "A$40M fund, IIF program, founded 2009, life-science / biotech / medtech focus, Perth", "quote": "Yuuwa Capital is a $40M early-stage venture capital firm focused on life sciences commercialization and investment, based in Perth, Western Australia." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Single A$40M IIF-era fund (circa 2009) appears fully deployed with no publicly reported successor fund, so status set to 'dormant'; retained as a notable historical WA life-science VC. Portfolio names (PolyActiva, Fitgenes, Agworld) from secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-main-sequence-ventures",
+    "name": { "en": "Main Sequence Ventures" },
+    "aka": ["Main Sequence", "CSIRO Innovation Fund"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Sydney",
+    "offices": [ { "country": "Australia", "city": "Sydney" } ],
+    "website": "https://www.mseq.vc/",
+    "capital": {
+      "aum": { "raw": "over A$1 billion FUM", "usd": null, "currency": "AUD" },
+      "funds": [
+        { "name": "CSIRO Innovation Fund (Fund 1)", "vintage_year": 2017, "size": { "raw": "A$240M", "usd": null, "currency": "AUD" } },
+        { "name": "Fund 2", "vintage_year": null, "size": { "raw": "A$310M", "usd": null, "currency": "AUD" } },
+        { "name": "Fund 3", "vintage_year": 2023, "size": { "raw": "A$450M", "usd": null, "currency": "AUD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia"],
+      "sector_focus": ["generalist-health", "therapeutics", "ai-drug-discovery"],
+      "thesis": "Deep-tech VC founded out of Australia's national science agency CSIRO; co-founds, funds and accelerates science-based companies across health, food, space and deep tech, with Fund 3 explicitly pioneering new frontiers in biotechnology. Health/biotech is one of several deep-tech verticals."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "company_creation": true,
+      "science_platform_notes": "Company-creation model working with CSIRO and university scientists; deep-tech generalist with a growing biotech/health practice rather than a pure life-science fund."
+    },
+    "tags": ["deep-tech", "CSIRO", "biotech", "company-creation", "generalist-health"],
+    "summary": {
+      "en": "CSIRO-founded deep-tech VC (2017) with over A$1bn FUM across three funds; a generalist that co-founds science companies across health, food and deep tech, with Fund 3 (A$450M) expanding into biotechnology."
+    },
+    "sources": [
+      { "url": "https://www.csiro.au/en/news/All/News/2023/July/Main-Sequence-third-fund", "title": "Main Sequence surpasses $1 billion funds under management for deep tech as it launches new Fund", "publisher": "CSIRO", "accessed": "undefined", "supports": ">A$1bn FUM, Fund 3, biotechnology focus, health among verticals, company creation", "quote": "Main Sequence surpasses $1 billion funds under management for deep tech as it launches new Fund" },
+      { "url": "https://www.startupdaily.net/topic/venture-capital/csiros-deep-tech-vc-main-sequence-bags-450-million-third-fund/", "title": "CSIRO's deep tech VC, Main Sequence, bags $450 million third fund", "publisher": "Startup Daily", "accessed": "undefined", "supports": "Fund 3 A$450M, prior funds A$240M and A$310M, founded 2017", "quote": "CSIRO's deep tech VC, Main Sequence, bags $450 million third fund" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Deep-tech GENERALIST (health/biotech is one of several verticals such as food, space, security), included for its scale and biotech company-creation activity but flagged generalist-health rather than a pure life-science VC. Fund sizes: CSIRO Innovation Fund A$240M (2017), Fund 2 A$310M, Fund 3 A$450M (2023). No health-specific portfolio names asserted here to avoid overstatement.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-ip-group-australia",
+    "name": { "en": "IP Group Australia" },
+    "aka": ["IP Group ANZ", "IP2IPO Australia", "IP Group plc (Australia)"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Sydney",
+    "offices": [ { "country": "Australia", "city": "Sydney" } ],
+    "website": "https://www.ipgroupanz.com/",
+    "capital": {
+      "funds": [
+        { "name": "IP2IPO Australia VCLP No 1 LP", "vintage_year": 2019, "size": { "raw": "A$100M committed capital", "usd": null, "currency": "AUD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "A$10M–A$20M", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "New Zealand"],
+      "sector_focus": ["generalist-health", "therapeutics", "medtech-devices"],
+      "thesis": "Australian arm of UK IP-commercialisation investor IP Group; partners with the Group of Eight universities to build science companies across three themes including 'a healthier future', providing patient equity capital (typically A$10–A$20M) over 5+ year horizons."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "University research-commercialisation model (Group of Eight partnership); health is one of three investment themes alongside tech and sustainability."
+    },
+    "tags": ["university-commercialisation", "deep-science", "healthier-future", "Group-of-Eight"],
+    "summary": {
+      "en": "Sydney-based Australian arm of UK-listed IP Group; its A$100M VCLP (est. 2019, Group of Eight university partnership) invests A$10–A$20M patient equity in science companies, with 'a healthier future' as one of three core themes."
+    },
+    "sources": [
+      { "url": "https://www.ipgroupanz.com/", "title": "IP Group Australia", "publisher": "IP Group Australia", "accessed": "undefined", "supports": "Australian IP-commercialisation VC, healthier-future theme, university partnerships", "quote": "IP Group Australia" },
+      { "url": "https://business.gov.au/grants-and-programs/venture-capital-limited-partnerships/customer-stories/ip-group", "title": "IP Group Australia - building Australia's next leaders in technology", "publisher": "business.gov.au", "accessed": "undefined", "supports": "IP2IPO Australia VCLP No 1 LP founded 2019, A$100M committed capital, 14 investments, A$10–A$20M cheques", "quote": "IP2IPO Australia VCLP No 1 LP, a limited partnership founded in 2019" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist science-commercialisation investor (health is one of three themes: healthier future, tech-enriched future, regenerative future) — flagged generalist-health. Parent IP Group plc is UK-listed (founded 2000, Oxford University partnership); the Australian VCLP is A$100M with 14 investments to date.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-pacific-channel",
+    "name": { "en": "Pacific Channel" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "offices": [ { "country": "New Zealand", "city": "Auckland" } ],
+    "website": "https://www.pacificchannel.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["New Zealand", "Australia"],
+      "sector_focus": ["medtech-devices", "diagnostics", "medical-imaging", "therapeutics"],
+      "thesis": "New Zealand's leading deep-tech VC, investing pre-seed to Series A in science and engineering solutions across 'the future of health', food/agriculture and the environment, and providing a capital pathway through follow-on investing."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "Brent Ogilvie", "role": "Co-founder / Managing Partner" },
+      { "name": "Gary Pace", "role": "Advisor / Partner", "background": "40+ years biotech, pharma, medical-device commercialisation" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "MARS Bioimaging", "sector": "medical-imaging", "outcome": "active (FDA-cleared spectral CT)" },
+        { "company": "Wellumio", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "tags": ["deep-tech", "future-of-health", "New-Zealand", "tier1"],
+    "summary": {
+      "en": "New Zealand's leading deep-tech VC (founded ~2004, Auckland), investing pre-seed to Series A in science-based companies across the future of health, food and environment; health-tech backer of MARS Bioimaging and Wellumio."
+    },
+    "sources": [
+      { "url": "https://www.pacificchannel.com/", "title": "Pacific Channel", "publisher": "Pacific Channel", "accessed": "undefined", "supports": "deep-tech VC in health/food/environment, pre-seed to Series A, follow-on", "quote": "A leading Asia-Pacific funds management firm specialising in deep-tech, venture capital and alternative investments focused on the areas of ag/food, health and the environment." },
+      { "url": "https://www.callaghaninnovation.govt.nz/our-providers/pacific-channel/", "title": "Pacific Channel | Callaghan Innovation", "publisher": "Callaghan Innovation (NZ Govt)", "accessed": "undefined", "supports": "NZ deep-tech VC, future of health / food / sustainability focus", "quote": "Pacific Channel is a New Zealand based venture capital firm focused on investments in deep technology, with a focus on the future of health, the future of food and sustainability." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year (2004) and early cumulative figure (>NZD$25M across 16 life-science and clean-tech companies) are from secondary profiles (Crunchbase/PitchBook); current fund sizes (Fund IV, Fund V, Climate Ventures) not disclosed on the official site. Medical nexus confirmed via 'future of health' focus and MARS Bioimaging (portable spectral CT) investment.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-matu-group",
+    "name": { "en": "Matu Group", "local": "Matū" },
+    "aka": ["Matū", "Matū Fund", "Matū Group"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "offices": [ { "country": "New Zealand", "city": "Auckland" } ],
+    "website": "https://matu.co.nz/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["New Zealand"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "synthetic-biology"],
+      "thesis": "New Zealand deep-science VC investing hands-on in scalable, IP-rich science and deep-tech startups tackling chronic disease and other major challenges; biotech and medtech sit alongside agritech, robotics and clean tech in a multi-fund structure (Karihi pre-seed/seed, Ngota Series A/B)."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "drug-delivery", "medical-hardware"],
+      "company_creation": false,
+      "science_platform_notes": "Domain-expert team with global scientific/academic connections; provides governance, executive management and operational support to portfolio companies."
+    },
+    "capital": {
+      "funds": [
+        { "name": "Matū Karihi", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "NZD" } },
+        { "name": "Matū Ngota", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "NZD" } },
+        { "name": "Matū Iramoe (retail)", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "NZD" } }
+      ]
+    },
+    "track_record": {
+      "portfolio_count": 17,
+      "notable_investments": [
+        { "company": "Alimetry", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Mekonos", "sector": "cell-gene-therapy", "outcome": "active" },
+        { "company": "Synthase Biotech", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Amaea", "sector": "life-science-tools", "outcome": "active" }
+      ]
+    },
+    "tags": ["deep-science", "biotech", "medtech", "New-Zealand", "IP-rich"],
+    "summary": {
+      "en": "New Zealand deep-science VC (founded 2018) investing hands-on in IP-rich science and deep-tech startups — including biotech and medtech such as Alimetry and Mekonos — through a multi-fund structure spanning pre-seed to Series B."
+    },
+    "sources": [
+      { "url": "https://matu.co.nz/", "title": "Home - Matū", "publisher": "Matū", "accessed": "undefined", "supports": "deep-science VC, hands-on model, portfolio, patents, jobs", "quote": "Venture capital funds that invest in science and deep tech through a hands-on, active approach." },
+      { "url": "https://superscout.co/investor/matu-group", "title": "Matū Group: The Early Stage Founder's Guide", "publisher": "Superscout", "accessed": "undefined", "supports": "founded 2018, biotech/medtech/agritech/robotics/cleantech focus, multi-fund structure", "quote": "Matū Group is a venture capital organization based in Aotearoa, New Zealand, founded in 2018, focusing on investing in science and deep tech startups." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Deep-science generalist with a strong biotech/medtech line (Alimetry gut-health device, Mekonos gene-therapy delivery, Synthase Biotech). Reported '>NZD$116M' is capital raised in aggregate BY the 17 portfolio companies from all investors, not Matu's own AUM; individual fund sizes not disclosed. Fund names (Karihi, Ngota, Iramoe) from secondary profile.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "anz-bridgewest-ventures-nz",
+    "name": { "en": "Bridgewest Ventures NZ" },
+    "aka": ["Bridgewest Ventures"],
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "offices": [ { "country": "New Zealand", "city": "Auckland" } ],
+    "website": "https://bridgewest.ventures/",
+    "capital": {
+      "current_fund": { "raw": "NZ$60.2M first close (targeting NZ$100M)", "usd": null, "currency": "NZD" },
+      "funds": [
+        { "name": "Bridgewest Venture Fund I LP", "vintage_year": null, "size": { "raw": "NZ$60.2M first close; NZ$100M target", "usd": null, "currency": "NZD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["New Zealand", "Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "ai-drug-discovery"],
+      "thesis": "New Zealand deep-tech incubator and venture partner helping founders in biotech, medtech, AI and clean tech scale globally-relevant IP; backed by the international Bridgewest Group (whose holdings include CRDMO BioDuro)."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Deep-tech incubator model that both incubates and invests; parent Bridgewest Group has life-science operating assets including CRDMO BioDuro-Sundia."
+    },
+    "tags": ["deep-tech", "incubator", "biotech", "medtech", "New-Zealand"],
+    "summary": {
+      "en": "New Zealand deep-tech incubator and VC (established 2020) backing biotech, medtech, AI and clean-tech founders; its Bridgewest Venture Fund I first-closed at NZ$60.2M with a NZ$100M target, backed by the global Bridgewest Group."
+    },
+    "sources": [
+      { "url": "https://bridgewest.ventures/", "title": "Bridgewest Ventures - New Zealand's Deep Tech Incubator With Global Reach", "publisher": "Bridgewest Ventures NZ", "accessed": "undefined", "supports": "NZ deep-tech incubator + VC, biotech/medtech/AI/cleantech focus", "quote": "Their high-conviction investment model helps founders in biotech, AI, medtech, and clean tech scale innovations to global markets." },
+      { "url": "http://www.prnewswire.com/news-releases/bridgewest-ventures-opens-access-to-new-zealands-fast-rising-deep-tech-market-through-nz60-2-million-venture-fund-raise-302780639.html", "title": "Bridgewest Ventures Opens Access to New Zealand's Deep-Tech Market Through NZ$60.2 Million Venture Fund Raise", "publisher": "PR Newswire", "accessed": "undefined", "supports": "NZ$60.2M first close, NZ$100M target, established 2020", "quote": "Bridgewest Venture Fund I LP achieved its successful first close of approximately NZ$60.2 million" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Straddles incubator and VC — primary type set to VC (raised a NZ$60.2M venture fund, target NZ$100M open through Q4 2026) with incubator as subtype; sibling accelerator/incubator slice may also list it. Medical nexus via explicit biotech/medtech focus and parent group's CRDMO (BioDuro-Sundia).",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  }
+]

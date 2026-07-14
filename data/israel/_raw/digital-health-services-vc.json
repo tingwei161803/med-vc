@@ -1,0 +1,366 @@
+[
+  {
+    "id": "il-qure-ventures",
+    "name": { "en": "Qure Ventures" },
+    "aka": ["OurCrowd Qure"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "website": "https://www.qureventures.com/",
+    "capital": {
+      "current_fund": { "raw": "$50 million", "usd": 50000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["digital-health"],
+      "thesis": "Israel's first venture capital fund dedicated exclusively to digital health; funds deep-tech solutions that improve patient care, reduce healthcare delivery costs, create data transparency, and empower health consumers."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "wearables-sensors", "ai-ml-platform"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Tyto Care", "sector": "digital-health", "outcome": "active" },
+        { "company": "DarioHealth", "sector": "digital-health", "outcome": "IPO" },
+        { "company": "Zebra Medical Vision", "sector": "digital-health", "outcome": "acquired" },
+        { "company": "Carevive", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Dr. Yossi Bahagon", "role": "Managing Partner", "background": "Founder & CEO of Luminox Health (acquired by OurCrowd); digital-health investor" },
+      { "name": "Allen Kamer", "role": "Managing Partner", "background": "Co-founder of Humedica, acquired by UnitedHealth Group in 2013" }
+    ],
+    "summary": {
+      "en": "Israel's first venture capital fund dedicated exclusively to digital health, investing predominantly in Israel-based startups from seed through selective Series C follow-ons; launched a $50M vehicle branded 'OurCrowd Qure' in partnership with equity-crowdfunding platform OurCrowd in 2016."
+    },
+    "sources": [
+      {
+        "url": "https://www.qureventures.com/",
+        "title": "Qure Ventures",
+        "publisher": "Qure Ventures",
+        "accessed": "undefined",
+        "supports": "Fund thesis, exclusive digital-health focus",
+        "quote": "Qure is Israel's first exclusively focused digital health fund."
+      },
+      {
+        "url": "https://blog.ourcrowd.com/ocqure/",
+        "title": "PRESS RELEASE: OurCrowd Launches Israel's First Exclusive Digital Health Fund: \"OurCrowd Qure\"",
+        "publisher": "OurCrowd",
+        "accessed": "undefined",
+        "supports": "Fund launch and OurCrowd partnership branding",
+        "quote": "OurCrowd Launches Israel's First Exclusive Digital Health Fund: \"OurCrowd Qure\""
+      },
+      {
+        "url": "https://www.timesofisrael.com/ourcrowd-to-set-up-50-million-digital-health-fund/",
+        "title": "OurCrowd to set up $50 million digital health fund",
+        "publisher": "The Times of Israel",
+        "accessed": "undefined",
+        "supports": "$50 million fund size",
+        "quote": "OurCrowd to set up $50 million digital health fund"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/dariohealth-corp-announces-51-million-private-placement-led-by-ourcrowd-qure--israeli-digital-health-specialized-fund-300390099.html",
+        "title": "DarioHealth Corp. Announces $5.1 Million Private Placement Led by OurCrowd Qure - Israeli Digital Health Specialized Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Portfolio investment in DarioHealth (later IPO)",
+        "quote": "DarioHealth Corp. Announces $5.1 Million Private Placement Led by OurCrowd Qure - Israeli Digital Health Specialized Fund"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2012 per secondary sources (Waveup Copilot); flagship $50M vehicle branded 'OurCrowd Qure' launched Nov 2016 in partnership with OurCrowd. HQ Herzliya per secondary source (Altss); not independently confirmed on qureventures.com itself.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc",
+    "tags": ["digital-health", "israel", "seed-stage", "ourcrowd"]
+  },
+  {
+    "id": "il-olive-tree-ventures",
+    "name": { "en": "Olive Tree Ventures" },
+    "aka": ["OTV"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "offices": [
+      { "country": "Israel", "city": "Tel Aviv" },
+      { "country": "United States", "city": "New York" },
+      { "country": "China", "city": "Shanghai" }
+    ],
+    "website": "https://www.otv.vc/",
+    "capital": {
+      "current_fund": { "raw": "$170 million", "usd": 170000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel", "United States", "China"],
+      "sector_focus": ["digital-health"],
+      "thesis": "The only VC in Israel whose main focus is digital health; invests in mid-growth stage (Series A and later) digital health startups solving real-world healthcare problems with game-changing innovation and viable business models, specializing in supporting portfolio companies through to maturity."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "wearables-sensors", "ai-ml-platform"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "TytoCare", "sector": "digital-health", "outcome": "active" },
+        { "company": "Lemonaid Health", "sector": "digital-health", "outcome": "active" },
+        { "company": "Emedgene", "sector": "digital-health", "outcome": "active" },
+        { "company": "Scopio", "sector": "digital-health", "outcome": "active" },
+        { "company": "Donisi Health", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Mayer Gniwisch", "role": "General Partner" },
+      { "name": "Amir Lahat", "role": "General Partner" },
+      { "name": "Alejandro Weinstein", "role": "General Partner" }
+    ],
+    "summary": {
+      "en": "Tel Aviv-founded digital health specialist VC that closed a $170M fund in 2020 to back mid-growth-stage digital health companies globally, with offices in Tel Aviv, New York and Shanghai."
+    },
+    "sources": [
+      {
+        "url": "https://www.otv.vc/",
+        "title": "Olive Tree Ventures",
+        "publisher": "OTV",
+        "accessed": "undefined",
+        "supports": "Fund thesis, digital-health focus, global offices",
+        "quote": "OTV is a global digital health fund with offices in Tel Aviv, NYC and Shanghai."
+      },
+      {
+        "url": "https://pharmaphorum.com/news/olive-tree-ventures-closes-170m-dedicated-digital-health",
+        "title": "Olive Tree Ventures closes $170m dedicated digital health fund",
+        "publisher": "pharmaphorum",
+        "accessed": "undefined",
+        "supports": "$170M fund close; sole digital-health-focused VC in Israel",
+        "quote": "OTV is the only VC in Israel whose main focus is digital health, specialising in supporting portfolio companies reaching maturity."
+      },
+      {
+        "url": "https://www.prnewswire.com/il/news-releases/otv-announces-close-of-170m-venture-fund-for-digital-health-growth-301185554.html",
+        "title": "OTV Announces Close of $170M Venture Fund for Digital Health Growth",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "$170M fund close confirmation",
+        "quote": "OTV Announces Close of $170M Venture Fund for Digital Health Growth"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3878761,00.html",
+        "title": "Israeli digital health VC OTV raises new $170 million fund",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "Founding year 2015, GPs",
+        "quote": "OTV was founded in 2015 by general partners Mayer Gniwisch, Amir Lahat and Alejandro Weinstein."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund closed December 2020 at $170M; portfolio outcome details (e.g., any Emedgene acquisition) not independently confirmed in sources reviewed, so notable investments are listed as 'active' rather than asserting exits not directly sourced.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc",
+    "tags": ["digital-health", "israel", "growth-stage"]
+  },
+  {
+    "id": "il-embarc-ventures",
+    "name": { "en": "embARC Ventures" },
+    "type": "accelerator",
+    "subtypes": ["university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Ramat Gan",
+    "website": "https://www.embarcventures.com/",
+    "program": {
+      "length_weeks": 12,
+      "cohort_size": "5-10",
+      "investment": { "raw": "$250,000 (7% equity for initial $125,000; additional $125,000 convertible in next round)", "usd": 250000, "currency": "USD" },
+      "format": "in-person",
+      "location": "Sheba Medical Center, Tel Hashomer, Israel",
+      "lab_space": null,
+      "demo_day": null,
+      "application_url": "https://www.embarcventures.com/program"
+    },
+    "strategy": {
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "geo_focus": ["Israel", "Global"],
+      "thesis": "A launchpad created by Sheba Medical Center (Israel's largest hospital) and funded by Ilex Medical, guaranteeing standardized investment terms to healthtech startups (7% equity for $125K upfront, plus $125K convertible) while providing mentorship and access to Sheba's clinical network and international partners."
+    },
+    "people": [
+      { "name": "Dan Shwarzman", "role": "Managing Director", "background": "Israeli startup ecosystem executive and entrepreneur" }
+    ],
+    "summary": {
+      "en": "Sheba Medical Center's healthtech launchpad, funded by Ilex Medical, that invests $250K in guaranteed, standardized terms into cohorts of 5-10 global and Israeli healthtech startups per 3-month cycle.",
+      "local": "מאיץ ההיי-טק הרפואי של מרכז שיבא, בשיתוף אילקס מדיקל, המשקיע תנאים סטנדרטיים מובטחים בסטארטאפים בתחום הבריאות הדיגיטלית."
+    },
+    "sources": [
+      {
+        "url": "https://sheba-global.com/sheba-medical-center-launches-embarc-ventures-launchpad-for-israeli-and-global-healthtech-startups/",
+        "title": "Sheba Launches embARC Ventures to fund Global HealthTech Startups",
+        "publisher": "Sheba Medical Center",
+        "accessed": "undefined",
+        "supports": "Launch, funding source, investment terms",
+        "quote": "embARC Ventures was launched by Sheba Medical Center, Israel's largest hospital, as a first-of-its-kind launchpad for Israeli and global healthtech startups, created with funding from Ilex Medical."
+      },
+      {
+        "url": "https://www.embarcventures.com/",
+        "title": "Healthcare Startup Accelerator | Sheba Hospital | embARC Ventures",
+        "publisher": "embARC Ventures",
+        "accessed": "undefined",
+        "supports": "Program description",
+        "quote": "Healthcare Startup Accelerator | Sheba Hospital | embARC Ventures"
+      },
+      {
+        "url": "https://nocamels.com/2024/09/israels-top-hospital-unveils-program-to-promote-healthtech-startups/",
+        "title": "Israel's top hospital unveils program to promote healthtech startups",
+        "publisher": "NoCamels",
+        "accessed": "undefined",
+        "supports": "Cohort size, program length, launch date (2024)",
+        "quote": "Each accelerator cycle lasts approximately three months and includes 5-10 startups, with participants given the option of using a dedicated office space for up to a year."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Financially backed by Ilex Medical (a private medical-device distributor), not a classic pharma/medtech corporate venture arm — treated here as a hospital-affiliated accelerator/investment vehicle rather than CVC. Distinct from the earlier Triventures-Sheba 'Triventures ARC' fund, which is covered in a sibling medtech/tier1 file. HQ city inferred from Sheba Medical Center's Tel Hashomer campus (Ramat Gan area).",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc",
+    "tags": ["digital-health", "healthtech-accelerator", "hospital-affiliated", "israel"]
+  },
+  {
+    "id": "il-team8-health",
+    "name": { "en": "Team8 Health" },
+    "aka": ["Team8"],
+    "type": "venture-studio",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://team8.vc/digital-health/",
+    "capital": {
+      "current_fund": { "raw": "$70-80 million (first Team8 Health digital-health company-creation fund)", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Israel", "United States"],
+      "sector_focus": ["digital-health", "healthcare-services"],
+      "thesis": "Venture-creation arm of Israeli venture group Team8 that co-founds digital health companies alongside entrepreneurs, analyzing unmet market needs and custom-designing companies; plans to build 6-8 digital healthcare companies over five years, investing $5-10M in seed funding into each."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Company-creation model: Team8 Health's in-house team pinpoints unmet healthcare needs, pressure-tests concepts, then partners with entrepreneurs to custom-design and co-found new digital health companies."
+    },
+    "people": [
+      { "name": "Demetrios L. Kouzoukas", "role": "Managing Partner, Team8 Health", "background": "Former Medicare and UnitedHealthcare executive" },
+      { "name": "Assaf Mischari", "role": "Partner, Team8 Health" },
+      { "name": "Kinneret Livnat Savitzky", "role": "Partner, Team8 Health", "background": "Researcher in computational biology" },
+      { "name": "Prof. Varda Shalev", "role": "Partner, Team8 Health", "background": "Practicing primary-care physician and entrepreneur" }
+    ],
+    "summary": {
+      "en": "The digital-health venture-creation vertical of Israeli venture group Team8, co-founding new digital health companies with a dedicated ~$70-80M fund led by former Medicare/UnitedHealthcare executive Demetrios Kouzoukas."
+    },
+    "sources": [
+      {
+        "url": "https://team8.vc/digital-health/",
+        "title": "Digital Health - Team8 VC",
+        "publisher": "Team8",
+        "accessed": "undefined",
+        "supports": "Venture-creation model, thesis",
+        "quote": "Team8 Health plans to build 6-8 digital healthcare companies over the next five years, investing $5-$10 million in seed funding in each company and an additional amount through in-kind resources and services."
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/hycvqutxi",
+        "title": "Team8 expands into digital health with new $80 million foundry",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "$80 million fund size for the digital-health foundry",
+        "quote": "Team8 expands into digital health with new $80 million foundry"
+      },
+      {
+        "url": "https://forbes.co.il/e/team8-group-expands-to-digital-health-with-new-foundry/",
+        "title": "Team8 group expands to digital health with new foundry",
+        "publisher": "Forbes Israel",
+        "accessed": "undefined",
+        "supports": "Launch of Team8 Health foundry",
+        "quote": "Team8 group expands to digital health with new foundry"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund size reported as $70M on Team8's own site language relayed via search summary vs. $80M in the CTech/Forbes Israel headlines — raw field reflects both figures since an exact single verbatim number could not be pinned to one primary page in this pass. Parent Team8 (VC/venture-creation group founded 2014, backed by Microsoft and Cisco among others) spans cybersecurity, fintech, data infrastructure and AI in addition to digital health; this entry covers the Team8 Health vertical specifically. Exact founding year of the Team8 Health vertical itself not confirmed (parent Team8 founded 2014; Health foundry launched more recently per 2023-2024-era press coverage), so founded_year is left blank.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc",
+    "tags": ["digital-health", "venture-studio", "company-creation", "israel"]
+  },
+  {
+    "id": "il-firstime-ventures",
+    "name": { "en": "Firstime Ventures" },
+    "aka": ["Firstime Venture Capital"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.firstime.vc/",
+    "capital": {
+      "aum": { "raw": "$250 million", "usd": 250000000, "currency": "USD" }
+    },
+    "strategy": {
+      "sector_focus": ["digital-health", "mental-health"],
+      "geo_focus": ["Israel", "United States"],
+      "thesis": "Multi-vertical early-to-late-stage VC (climate tech, digital health, credit financing) whose dedicated Digital Health division, led by Partner Keren Kopilov, backs 'affordable digital health' companies spanning mental-health access, fertility and chronic-disease management."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Talkspace", "sector": "mental-health", "outcome": "IPO (SPAC)" },
+        { "company": "Therapy For All", "sector": "mental-health", "outcome": "active" },
+        { "company": "Hygieia", "sector": "digital-health", "outcome": "active" },
+        { "company": "Maverick Medical AI", "sector": "digital-health", "outcome": "active" },
+        { "company": "BAIBYS Fertility", "sector": "womens-health", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Keren Kopilov", "role": "Partner & Head of Digital Health" }
+    ],
+    "summary": {
+      "en": "Tel Aviv-based multi-vertical VC (~$250M AUM across climate-tech, digital-health and credit funds) whose dedicated Digital Health division, led by Partner Keren Kopilov, has backed digital mental-health, fertility and chronic-disease companies including Talkspace, Hygieia and BAIBYS Fertility."
+    },
+    "sources": [
+      {
+        "url": "https://www.firstime.vc/",
+        "title": "Firstime Ventures",
+        "publisher": "Firstime Ventures",
+        "accessed": "undefined",
+        "supports": "Firm existence, multi-fund structure including Digital Health",
+        "quote": "Firstime Ventures operates multiple funds including a $100 million climate-tech fund and dedicated digital health and credit financing divisions."
+      },
+      {
+        "url": "https://hub.waveup.com/funds/firstime-venture-capital",
+        "title": "Firstime Venture Capital",
+        "publisher": "Waveup Copilot",
+        "accessed": "undefined",
+        "supports": "Head of Digital Health role, AUM figure",
+        "quote": "Keren Kopilov is a Partner & Head of Digital Health at Firstime Ventures."
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/rjuptvq00jg",
+        "title": "'Survival mode' and resilience: How Israel's high-tech industry endured 2024's challenges",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "Firm background, sector scope including affordable digital health",
+        "quote": "The firm is dedicated to supporting companies addressing climate change, precision agriculture, food security, net-zero carbon goals, and affordable digital health solutions."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Firstime is a generalist multi-fund VC (climate tech, digital health, credit financing) founded 2014; included here only for its named, partner-led Digital Health division, not the firm's full generalist mandate. AUM and role details were relayed via aggregator/search-summary text rather than a single verbatim primary-source page, hence medium confidence.",
+    "last_updated": "undefined",
+    "researched_by": "digital-health-services-vc",
+    "tags": ["digital-health", "mental-health", "multi-vertical-vc", "israel"]
+  }
+]

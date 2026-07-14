@@ -1,0 +1,220 @@
+[
+  {
+    "id": "tw-national-development-fund",
+    "name": { "en": "National Development Fund, Executive Yuan (NDF)", "local": "國家發展基金" },
+    "aka": ["行政院國家發展基金", "NDF", "National Development Fund of Taiwan", "行政院開發基金"],
+    "type": "government-program",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "founded_year": 1973,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.df.gov.tw/",
+    "capital": {
+      "funds": [
+        {
+          "name": "台杉生技基金 (Taiwania Biotech Fund I) — NDF co-investment",
+          "vintage_year": 2018,
+          "size": { "raw": "NT$5.9B fund; NDF committed NT$2.0B (33.89%)", "usd": null, "currency": "TWD" }
+        }
+      ]
+    },
+    "strategy": {
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Taiwan's sovereign industrial-development fund, established under the Industrial Innovation Act (產業創新條例第29條) to accelerate innovation via equity investment and financing. NDF has directly invested in biotech since 1996 (~13 companies, >US$300M by 2014) and acts as cornerstone LP (up to 40% per program, capped at NT$2B per fund) in government-sponsored VC vehicles such as Taiwania Capital's biotech funds, backing winners like TaiGen Biotechnology, PharmaEssentia and TaiMed/Eirgenix."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "PharmaEssentia 藥華醫藥", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "TaiGen Biotechnology 中裕新藥", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Eirgenix 台康生技", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Taiwan's state industrial-development sovereign fund; invests directly in biotech/pharma companies and anchors government-sponsored VC vehicles (e.g., Taiwania Capital) as a cornerstone LP under the '5+2' and precision-health industrial strategies.",
+      "local": "行政院國家發展基金依產業創新條例設立，長期直接投資生技醫藥企業，並以基石投資人身分參與台杉投資等國家級投資公司所募集之生技基金。"
+    },
+    "sources": [
+      { "url": "https://www.df.gov.tw/", "title": "國家發展基金管理會", "publisher": "國家發展委員會", "accessed": "undefined", "supports": "existence, official site" },
+      { "url": "http://www.cpmda.org.tw/news_show_n1.php?news_id=4485", "title": "國發基金捧生技十年賺120億", "publisher": "cpmda.org.tw", "accessed": "undefined", "supports": "NDF co-investment in Taiwania biotech fund, portfolio results", "quote": "台杉公司於107年7月募集完成59億元生技基金(國發基金參與投資20億元，投資比例33.89%)。截至109年12月底止，生技基金已投資12家公司，投資總金額25.2億元。" },
+      { "url": "https://www.swfinstitute.org/profile/61dc9918e4b573c02687bb64", "title": "Taiwan National Development Fund", "publisher": "SWF Institute", "accessed": "undefined", "supports": "founded year 1973, sovereign fund classification", "quote": "The National Development Fund of Taiwan is a sovereign wealth fund based in Taipei, Taiwan, established in 1973" }
+    ],
+    "confidence": "high",
+    "verification_notes": "NDF originated as the Executive Yuan Development Fund (行政院開發基金, 1973) and operates today under the legal basis of the Industrial Innovation Act (產業創新條例第29條). Total current AUM not independently verified in this pass; biotech investment totals cited are historical (as of 2014/2020), not current NAV.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "tw-taiwania-capital",
+    "name": { "en": "Taiwania Capital Management Corporation", "local": "台杉投資管理顧問股份有限公司" },
+    "aka": ["台杉投資", "Taiwania Capital"],
+    "type": "government-program",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "offices": [
+      { "country": "Taiwan", "city": "Taipei" },
+      { "country": "United States", "city": "Silicon Valley" }
+    ],
+    "website": "https://www.taiwaniacapital.com/tw/",
+    "capital": {
+      "aum": { "raw": "NT$13.75B raised (as of Aug 2021); 8 funds total across tech and biotech by Aug 2024", "usd": null, "currency": "TWD" },
+      "funds": [
+        { "name": "台杉生技基金 (Taiwania Biotech Fund I)", "vintage_year": 2018, "size": { "raw": "NT$5.9B", "usd": null, "currency": "TWD" } },
+        { "name": "台杉生技三號基金 (Taiwania Biotech Fund III)", "vintage_year": null, "size": { "raw": "NT$1.64B", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Taiwan", "United States", "Southeast Asia", "Japan", "Central & Eastern Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "The only 'national investment company' (國家級投資公司) sanctioned by Taiwan's Executive Yuan/National Development Council, 40%-anchored by the National Development Fund. Raises and manages sector funds — including dedicated biotech funds — to back Taiwanese and cross-border medical-device, digital-health and precision-health companies under the government's '5+2' industrial innovation policy."
+    },
+    "track_record": { "portfolio_count": "12+ biotech companies (Biotech Fund I, as of end-2020)" },
+    "summary": {
+      "en": "Government-sanctioned 'national investment company', 40% owned by Taiwan's National Development Fund, that manages multiple biotech/med-tech venture funds (e.g., 台杉生技基金 I–III) targeting Taiwanese and international precision-health, med-device and digital-health startups.",
+      "local": "台杉投資是國發會奉行政院核准之唯一「國家級投資公司」，國發基金持股40%，旗下募集多檔生技基金，投資台灣及國際醫療器材、數位醫療與精準健康新創。"
+    },
+    "sources": [
+      { "url": "https://www.df.gov.tw/nc_13084_36886", "title": "國家發展委員會報奉行政院專案核可之「國家級投資公司」僅有「台杉投資管理顧問股份有限公司」", "publisher": "國家發展委員會", "accessed": "undefined", "supports": "sole national investment company designation, NDF 40% stake", "quote": "國發基金業經報奉行政院同意參與投資國家級投資公司40%股權，另獲同意未來參與投資國家級投資公司募集之五＋二產業創新投資基金之投資、投資比例得以40%為上限，每檔基金投資不超過新台幣20億元。" },
+      { "url": "https://www.taiwaniacapital.com/funds/%E5%8F%B0%E6%9D%89%E7%94%9F%E6%8A%80%E5%9F%BA%E9%87%91/", "title": "台杉生技基金 - 台杉投資", "publisher": "Taiwania Capital", "accessed": "undefined", "supports": "existence of dedicated biotech fund" },
+      { "url": "http://www.cpmda.org.tw/news_show_n1.php?news_id=4485", "title": "國發基金捧生技十年賺120億", "publisher": "cpmda.org.tw", "accessed": "undefined", "supports": "biotech fund size and NDF co-investment ratio", "quote": "台杉公司於107年7月募集完成59億元生技基金(國發基金參與投資20億元，投資比例33.89%)。截至109年12月底止，生技基金已投資12家公司，投資總金額25.2億元。" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Official taiwaniacapital.com pages returned HTTP 403 to automated fetch during this research pass; facts were corroborated via the official df.gov.tw approval notice and industry press (cpmda.org.tw) instead. Total AUM figure (NT$13.75B) spans all Taiwania funds (tech + biotech), not biotech alone.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "tw-bpipo",
+    "name": { "en": "Biotechnology and Pharmaceutical Industries Promotion Office (BPIPO)", "local": "經濟部生技醫藥產業發展推動小組" },
+    "aka": ["BPIPO", "生技醫藥產業發展推動小組", "經濟部生技醫藥發展推動小組"],
+    "type": "government-program",
+    "status": "active",
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.biopharm.org.tw/zh/home-tw.html",
+    "strategy": {
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "pharma-services"],
+      "thesis": "Cross-ministerial policy office convened by the Ministry of Economic Affairs' Industrial Development Administration, coordinating national biotech/pharma industrial policy, serving as a one-stop information and matchmaking window to steer public and private investment, and administering parts of the Biomedical Industry Innovation Promotion Program aimed at making Taiwan an Asia-Pacific biomedical R&D, manufacturing and operations hub."
+    },
+    "summary": {
+      "en": "MOEA-convened cross-ministerial task force that coordinates Taiwan's biotech/pharma industrial policy and investment promotion, reporting government-driven private investment in the sector of roughly NT$5.7B/year (over NT$45B cumulative).",
+      "local": "經濟部生技醫藥產業發展推動小組（BPIPO）由經濟部產業發展署主導，結合跨部會、法人及產學專家，作為生技醫藥產業資訊交流與投資媒合的單一窗口。"
+    },
+    "sources": [
+      { "url": "https://news.gbimonthly.com/tw/invest/show2.php?num=709", "title": "經濟部生技醫藥產業發展推動小組-環球生技月刊", "publisher": "環球生技月刊 GlobalBio", "accessed": "undefined", "supports": "existence and role of BPIPO" },
+      { "url": "https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/db872f57-80cb-4122-bfba-ef401369293d", "title": "推動台灣生技醫療產業發展—打造台灣成為亞太生醫研發產業重鎮", "publisher": "行政院", "accessed": "undefined", "supports": "policy program driving private investment", "quote": "the initiatives have driven annual private sector investment of approximately NT$5.7 billion in the biomedical industry, accumulating over NT$45 billion in private investment" },
+      { "url": "https://www.biopharm.org.tw/zh/about1.html", "title": "小組簡介 - 經濟部生技醫藥發展推動小組全球資訊網", "publisher": "BPIPO", "accessed": "undefined", "supports": "organizational structure", "quote": "BPIPO is led by the Minister of the Ministry of Economic Affairs' Industrial Development Administration as convenor, and is composed of representatives from related government departments, major research institutions, and industry experts and scholars, serving as a cross-ministerial business promotion unit." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "biopharm.org.tw's TLS certificate had expired at time of research, preventing direct verification via WebFetch; confirmed instead via ey.gov.tw (official Executive Yuan) and GlobalBio (gbimonthly.com) secondary sources. BPIPO is primarily a policy/facilitation body rather than a direct equity investor.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "tw-spark-taiwan",
+    "name": { "en": "SPARK Taiwan", "local": "SPARK Taiwan 生醫與醫材轉譯加值人才培育計畫" },
+    "aka": ["SPARK Taiwan Platform", "價創計畫 (SPARK)"],
+    "type": "government-program",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://exp.stpi.narl.org.tw/project/SPARK/index",
+    "program": {
+      "format": "hybrid",
+      "location": "Taiwan (via anchor universities: NTU, Taipei Medical University, Chang Gung University, Fu Jen Catholic University, NTHU, NTUST, China Medical University, NCKU, KMU)",
+      "eligibility": "Academic/hospital research teams developing drug and medical-device translational projects"
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Supervised by Taiwan's National Science and Technology Council (NSTC) and administered by STPI/NARLabs, modeled on Stanford's SPARK Program; provides training, mentorship and seed funding to help academic and hospital research teams translate drug and medical-device discoveries into commercializable products and startups via a network of anchor universities."
+    },
+    "track_record": { "portfolio_count": "90 companies spun out (cumulative)" },
+    "summary": {
+      "en": "NSTC-backed biomedical translational research program (modeled on Stanford SPARK) that trains and seed-funds Taiwanese academic teams to commercialize drug and medical-device research, having trained 650+ teams and spun out roughly 90 companies.",
+      "local": "國科會主管、國家實驗研究院科技政策研究與資訊中心（STPI）執行之SPARK Taiwan計畫，仿效史丹佛SPARK模式，透過錨點大學培育生醫與醫材轉譯人才並提供種子資金。"
+    },
+    "sources": [
+      { "url": "https://exp.stpi.narl.org.tw/project/SPARK/subPage/index?id=f4a1bdd5-3093-4f60-b369-64652e7a61fd", "title": "SPARK Taiwan Platform - 關於 SPARK", "publisher": "STPI / NARLabs", "accessed": "undefined", "supports": "program mission, supervising agency, scale", "quote": "The initiative has trained 650+ teams, engaged 3,400+ personnel, and spawned 90 companies." },
+      { "url": "https://ntuspark.mc.ntu.edu.tw/about/1.htm", "title": "SPARK計畫 - 關於我們 - NTU SPARK", "publisher": "National Taiwan University", "accessed": "undefined", "supports": "anchor university participation" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Exact founding date not explicitly stated on the fetched page; 2017 inferred from program history references in search results (5+2 Biomedical Industry Innovation Promotion Program timeline). Program blends training/incubation with seed funding, hence dual government-program/accelerator classification.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "tw-value-creation-program",
+    "name": { "en": "Value Creation from Academic R&D Program (MOEA)", "local": "科研成果價值創造計畫" },
+    "aka": ["價創計畫", "Value Creation Program"],
+    "type": "government-program",
+    "status": "active",
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.moea.gov.tw/Mns/populace/Apply/Apply.aspx?menu_id=32814&apply_id=429",
+    "program": {
+      "investment": { "raw": "up to NT$30,000,000/year (促新創 track) or NT$20,000,000/year (育新創 track)", "usd": null, "currency": "TWD" },
+      "eligibility": "Public/private universities and NSTC-recognized academic research institutions/foundations; 育新創 track requires a co-applicant startup founded within 5 years"
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "ai-drug-discovery"],
+      "thesis": "Ministry of Economic Affairs grant program (successor to the 育苗計畫 seed program) that funds university and research-institute teams — including biomedical drug and device projects — to spin out startups or license technology, with milestone requirements tying grant size to tech-transfer revenue/equity; part of the cross-agency (中研院/國科會/衛福部/經濟部) push to grow biomedical startups."
+    },
+    "summary": {
+      "en": "MOEA academic-technology-transfer grant program funding university/research-institute teams (including biomedical projects) up to NT$30M/year to spin out startups; it and its predecessor 育苗計畫 have helped launch 23 startups that raised over NT$2B.",
+      "local": "經濟部「科研成果價值創造計畫」補助學術機構將生醫等領域科研成果轉化為新創事業，最高補助3,000萬元/年，與前身育苗計畫合計促成23家新創公司，募資超過20億元。"
+    },
+    "sources": [
+      { "url": "https://startup.sme.gov.tw/home/modules/funding/detail/?sId=177", "title": "科研成果價值創造計畫 - 新創圓夢網", "publisher": "經濟部中小及新創企業署", "accessed": "undefined", "supports": "program existence, funding caps", "quote": "補助金額及期程上限為3,000萬元/1年，僅補助學術機構，驗收標的包括期程內成立新創公司、開發創新產品或科技服務，及技轉金/技術股不低於補助款40%。" },
+      { "url": "https://news.gbimonthly.com/tw/article/show.php?num=71441", "title": "公私協力挹注生醫新創茁壯 中研院、國科會、衛福部、經濟部接棒盤點", "publisher": "環球生技月刊 GlobalBio", "accessed": "undefined", "supports": "biomedical startup outcomes", "quote": "育苗計畫及價創計畫共促成23家新創公司，募資超過20億元。" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Program is broad (all tech sectors) with biomedical/drug-device projects as one major application area, evidenced by GlobalBio coverage of cross-agency (中研院/國科會/衛福部/經濟部) biomedical startup support. Could not directly fetch moea.gov.tw application page (blocked); relied on startup.sme.gov.tw (official SME Administration portal) and GlobalBio.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "tw-sbir",
+    "name": { "en": "Small Business Innovation Research Program (Taiwan SBIR)", "local": "經濟部小型企業創新研發計畫" },
+    "aka": ["SBIR", "小型企業創新研發計畫"],
+    "type": "government-program",
+    "status": "active",
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://sbir.org.tw/",
+    "program": {
+      "investment": { "raw": "Phase 1 up to NT$1.5M; Phase 2 up to NT$6M/yr (NT$12M over 2 yrs); Phase 2+ up to NT$6M", "usd": null, "currency": "TWD" },
+      "eligibility": "Taiwanese small/micro enterprises (中小企業); rolling online applications",
+      "application_url": "https://sbir.org.tw/"
+    },
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "MOEA SME and Startup Administration's flagship non-dilutive early-stage R&D grant program, with 生技製藥 (biotech/pharma) as one of its six sectoral funding tracks alongside ICT, electronics, machinery, chemicals and services; funds Phase 1 feasibility, Phase 2 development and Phase 2+ value-added application for small Taiwanese biotech/medtech firms."
+    },
+    "summary": {
+      "en": "MOEA's SBIR grant program funds early-stage R&D for Taiwanese small enterprises across six sectors including a dedicated biotech/pharma (生技製藥) track, offering non-dilutive grants from NT$1.5M (Phase 1) up to NT$12M (2-year Phase 2).",
+      "local": "經濟部中小及新創企業署「小型企業創新研發計畫（SBIR）」設有生技製藥領域，提供先期研究、研究開發、加值應用三階段補助，助攻中小型生技企業研發。"
+    },
+    "sources": [
+      { "url": "https://sbir.org.tw/", "title": "SBIR-經濟部中小及新創企業署小型企業創新研發計畫", "publisher": "經濟部中小及新創企業署", "accessed": "undefined", "supports": "program existence, administering agency" },
+      { "url": "https://sbir.org.tw/sbir/info", "title": "計畫簡介 - SBIR", "publisher": "經濟部中小及新創企業署", "accessed": "undefined", "supports": "sector tracks and funding caps", "quote": "計畫領域依計畫標的及內容分為資通、電子、機械、生技製藥、民生化工、服務等六項計畫領域；依研發階段分為「先期研究（Phase 1）」、「研究開發（Phase 2）」與「加值應用（Phase 2+）」三階段。先期研究（Phase 1）個別申請補助上限每案新臺幣150萬元；研究開發（Phase 2）個別申請補助上限每案每年不超過600萬元，全程2年補助金額不超過1,200萬元；加值應用（Phase 2+）個別申請補助上限每案新臺幣600萬元。" }
+    ],
+    "confidence": "high",
+    "verification_notes": "SBIR is a horizontal (all-sector) SME R&D grant program; biotech/pharma (生技製藥) is one of six funding tracks, not its sole focus. Included because the dedicated track constitutes a verifiable biomedical nexus and material funding channel for early-stage Taiwanese biotech/medtech firms.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  }
+]

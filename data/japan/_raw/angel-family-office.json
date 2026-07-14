@@ -1,0 +1,335 @@
+[
+  {
+    "id": "jp-keiretsu-forum-japan",
+    "name": {
+      "en": "Keiretsu Forum Japan"
+    },
+    "aka": ["KEIRETSU JAPAN", "ケイレツフォーラム"],
+    "type": "angel-network",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "offices": [
+      { "country": "Japan" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://keiretsu.jp/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "$250K–$2M (global network standard)", "usd_min": 250000, "usd_max": 2000000 },
+      "lead_or_follow": "follow",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "Global angel investor network (est. 2000, HQ San Francisco) with a dedicated Japan chapter that began full operations in late 2017; members are accredited angels, family offices and corporate investors who source and co-invest deals, with the global portfolio explicitly spanning Life Sciences (Pharma, Medical Devices, Health IT) alongside tech and consumer — giving the Japan chapter a recurring, if non-exclusive, channel into domestic health-tech deal flow."
+    },
+    "track_record": {
+      "portfolio_count": "1,000+ (global network)"
+    },
+    "summary": {
+      "en": "Japan chapter of the world's largest angel investor network; the global network's stated portfolio explicitly includes life sciences (pharma, medical devices, health IT) alongside other sectors."
+    },
+    "sources": [
+      {
+        "url": "https://keiretsu.jp/about/",
+        "title": "KEIRETSU FORUMとは | KEIRETSU・JAPAN",
+        "publisher": "Keiretsu Forum Japan",
+        "accessed": "undefined",
+        "supports": "Existence and launch of the Japan chapter",
+        "quote": "Keiretsu Forum Japan began full-scale operations at the end of 2017"
+      },
+      {
+        "url": "https://www.keiretsuforum.com/about/",
+        "title": "About | Keiretsu Forum",
+        "publisher": "Keiretsu Forum",
+        "accessed": "undefined",
+        "supports": "Global network's healthcare/life-sciences focus and check size",
+        "quote": "Keiretsu Forum members invest in investment opportunities that focus on emerging technologies, healthcare/life sciences, consumer products, real estate and other segments with high growth opportunity. The portfolio features companies in Life Sciences including Pharma, Medical Devices, and Health IT."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Global network HQ'd in San Francisco (US); Keiretsu Forum Japan is its dedicated Japan chapter, included here per region rules for a foreign-HQ'd org running a local arm. Healthcare/life-sciences focus and check-size figures reflect the global network's stated portfolio mix; Japan-chapter-specific healthcare deal flow was not independently itemized in available sources.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "jp-yamauchi-no10-family-office",
+    "name": {
+      "en": "Yamauchi No.10 Family Office"
+    },
+    "aka": ["Yamauchi-No.10", "Y.ND.10 Family Office"],
+    "type": "family-office",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://y-n10.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "United States", "global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Family office of the Yamauchi family (Nintendo founding lineage), deploying capital into deep-tech and 'moonshot' ventures spanning aerospace, robotics and next-generation biotechnology. Its portfolio includes RNA-engineering biotech Sixfold Bioscience, giving it a direct, if selective, biomedical nexus alongside a broader generalist deep-tech thesis."
+    },
+    "lifesci": {
+      "modalities": ["rna-therapeutics"],
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": "23+ investments",
+      "notable_investments": [
+        { "company": "Sixfold Bioscience", "sector": "RNA therapeutics / biotech platform", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Tokyo-based family office of the Nintendo founding Yamauchi family; primarily a generalist deep-tech investor (space, robotics) that has also backed RNA-engineering biotech platform Sixfold Bioscience."
+    },
+    "sources": [
+      {
+        "url": "https://y-n10.com/investment/portfolio/",
+        "title": "投資部門-実績 | Yamauchi No.10 Family Office",
+        "publisher": "Yamauchi No.10 Family Office",
+        "accessed": "undefined",
+        "supports": "Existence, mission statement of the family office",
+        "quote": "Yamauchi-No.10 is a Family Office with a mission of making a contribution to society through its activities."
+      },
+      {
+        "url": "https://y-n10.com/investment/portfolio/sixfoldbioscience/",
+        "title": "Sixfold Bioscience | 投資部門-実績 | Yamauchi No.10 Family Office",
+        "publisher": "Yamauchi No.10 Family Office",
+        "accessed": "undefined",
+        "supports": "Biomedical/biotech nexus via Sixfold Bioscience investment",
+        "quote": "Yamauchi No.10 supports Sixfold Bioscience's approach to biotechnology that uses an engineering platform to drive discovery and development across multiple targets at significantly lower costs"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/yamauchi-no-10-family-office",
+        "title": "Yamauchi-No.10 Family Office - Crunchbase Company Profile & Funding",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founded year, HQ city, family affiliation",
+        "quote": "Yamauchi-No.10 Family Office is an investment firm and family office of Banjo Yamauchi and the family, established by the founding family of Nintendo. It was founded in 2020 and is based in Tokyo, Japan."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Direct fetch of y-n10.com returned HTTP 401 (site blocks automated fetching); facts are drawn from search-engine snippets of the official portfolio pages (including a dedicated Sixfold Bioscience portfolio-detail URL that was surfaced but not directly fetched) plus a Crunchbase profile summary.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "jp-nanbyo-igaku-kenkyu-zaidan",
+    "name": {
+      "en": "Japan Intractable Diseases Research Foundation",
+      "local": "公益財団法人難病医学研究財団"
+    },
+    "aka": ["Nanbyo Igaku Kenkyu Zaidan"],
+    "type": "venture-philanthropy",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1973,
+    "region": "japan",
+    "country": "Japan",
+    "website": "https://www.nanbyou.jp/",
+    "strategy": {
+      "sector_focus": ["therapeutics"],
+      "geo_focus": ["Japan"],
+      "thesis": "Public-interest foundation (established Oct. 1973 as the Medical Research Promotion Foundation; renamed to the Japan Intractable Diseases Research Foundation in Sept. 1984; certified as a 公益財団法人 in April 2011) that has run an annual grant competition since 1976 funding basic, clinical and preventive research aimed at elucidating the cause, pathology and treatment of intractable (nanbyo/rare) diseases."
+    },
+    "lifesci": {
+      "indications": ["rare-disease"]
+    },
+    "summary": {
+      "en": "A public-interest foundation that has awarded annual research-encouragement grants (¥2M per recipient) to young Japanese researchers and clinicians working on intractable/rare-disease research since 1976.",
+      "local": "難病の基礎・臨床・予防分野の研究を対象に、若手研究者・医師に毎年200万円の医学研究奨励助成金を贈呈している公益財団法人。"
+    },
+    "sources": [
+      {
+        "url": "https://www.nanbyou.jp/project/",
+        "title": "医学研究奨励助成事業 | 公益財団法人難病医学研究財団",
+        "publisher": "難病医学研究財団",
+        "accessed": "undefined",
+        "supports": "Annual grant program, amount per recipient, start year",
+        "quote": "毎年公募を行い、審査・選考のうえ、一人につき200万円の医学研究奨励助成金を贈呈しています"
+      },
+      {
+        "url": "https://www.nanbyou.jp/about/",
+        "title": "難病財団について | 公益財団法人難病医学研究財団",
+        "publisher": "難病医学研究財団",
+        "accessed": "undefined",
+        "supports": "Founding year and history",
+        "quote": "昭和48年10月に財団法人医学研究振興財団が設立され、昭和59年9月には財団法人難病医学研究財団と名称を変更"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "jp-uehara-memorial-foundation",
+    "name": {
+      "en": "Uehara Memorial Foundation for Life Science",
+      "local": "公益財団法人上原記念生命科学財団"
+    },
+    "aka": ["Uehara Memorial Foundation", "上原記念財団"],
+    "type": "venture-philanthropy",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1985,
+    "region": "japan",
+    "country": "Japan",
+    "website": "https://www.ueharazaidan.or.jp/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "geo_focus": ["Japan", "global (fellowships/symposia)"],
+      "thesis": "Established in February 1985 by Taisho Pharmaceutical to commemorate its 70th anniversary and honor honorary chairman Shokichi Uehara; funds life-science and pharmaceutical research broadly through research grants, the Uehara Prize, international symposia and overseas research fellowships. FY2025 assistance grants (incl. the Uehara Prize subsidiary award) totaled ¥1.3098 billion across 335 cases."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": []
+    },
+    "summary": {
+      "en": "A major pharma-founder-endowed foundation (Taisho Pharmaceutical) that has funded broad life-science and drug-development research in Japan since 1985, distributing over ¥1.3 billion annually across hundreds of grants and prizes.",
+      "local": "大正製薬の創業70周年記念事業として1985年に設立された生命科学・医薬品開発等の研究助成を行う財団。"
+    },
+    "sources": [
+      {
+        "url": "https://www.ueharazaidan.or.jp/",
+        "title": "公益財団法人 上原記念生命科学財団",
+        "publisher": "上原記念生命科学財団",
+        "accessed": "undefined",
+        "supports": "Existence, official site"
+      },
+      {
+        "url": "https://www.taisho.co.jp/sustainability/social/uehara_foundation/",
+        "title": "上原記念生命科学財団",
+        "publisher": "Taisho Pharmaceutical / 大正製薬",
+        "accessed": "undefined",
+        "supports": "Founding purpose and year, link to Taisho Pharmaceutical",
+        "quote": "The foundation's purpose is to encourage research in various fields related to life sciences, including the development of pharmaceuticals, thereby contributing to the improvement of national health and welfare."
+      },
+      {
+        "url": "https://www.taisho.co.jp/company/news/2025/20251212007497/",
+        "title": "2025年度上原記念生命科学財団 上原賞受賞者及び各種助成金受領者決定のお知らせ",
+        "publisher": "Taisho Pharmaceutical",
+        "accessed": "undefined",
+        "supports": "FY2025 grant total and case count",
+        "quote": "the foundation provides various types of assistance grants to 335 cases, with a total grant amount of 1.3098 billion yen including the Uehara Prize subsidiary award"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "jp-nippon-philanthropic-foundation-cancer-fund",
+    "name": {
+      "en": "Japan Philanthropic Foundation — Cancer Research Frontier Fund",
+      "local": "公益財団法人日本フィランソロピック財団（がん研究フロンティア基金）"
+    },
+    "aka": ["がん研究フロンティア基金", "Cancer Research Frontier Fund"],
+    "type": "venture-philanthropy",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "website": "https://np-foundation.or.jp/",
+    "strategy": {
+      "sector_focus": ["therapeutics"],
+      "geo_focus": ["Japan"],
+      "thesis": "Japan Philanthropic Foundation is a general public-interest foundation that designs and administers donor-named funds; its 'Cancer Research Frontier Fund' channels large annual grants directly to early-career basic-cancer researchers — ¥99.9M across 10 grantees in its first round (FY2024) and ¥113.2M across 11 grantees in its second round (FY2025)."
+    },
+    "lifesci": {
+      "indications": ["oncology"]
+    },
+    "summary": {
+      "en": "A donor-advised-fund foundation whose dedicated 'Cancer Research Frontier Fund' program provides large, direct annual grants (~¥100M/round) to young basic-cancer researchers in Japan.",
+      "local": "若手研究者によるがんの基礎研究を応援する「がん研究フロンティア基金」を運営する公益財団。"
+    },
+    "sources": [
+      {
+        "url": "https://np-foundation.or.jp/list/gankenkyu.html",
+        "title": "がん研究フロンティア基金",
+        "publisher": "日本フィランソロピック財団",
+        "accessed": "undefined",
+        "supports": "Existence and cancer-research focus of the fund"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000092.000074198.html",
+        "title": "日本フィランソロピック財団、若手研究者によるがんの基礎研究を応援する「がん研究フロンティア基金」第1回採択者へ研究助成金を贈呈",
+        "publisher": "PR TIMES",
+        "accessed": "undefined",
+        "supports": "First-round grant total and grantee count",
+        "quote": "採択研究課題は122件の応募から選考された10件で、助成総額は9,990万円"
+      },
+      {
+        "url": "https://bio.nikkeibp.co.jp/atcl/release/25/10/01/25785/",
+        "title": "日本フィランソロピック財団、第2回「がん研究フロンティア基金」助成先発表",
+        "publisher": "日経バイオテク",
+        "accessed": "undefined",
+        "supports": "Second-round grant total and grantee count",
+        "quote": "11件の研究課題を採択し、助成金総額113,230,808円"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Japan Philanthropic Foundation itself is a generalist donor-advised-fund platform, not exclusively health-focused. Inclusion here is scoped to its dedicated 'Cancer Research Frontier Fund' program, which has a clear, verifiable oncology-research nexus and publishes per-round grant totals.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  },
+  {
+    "id": "jp-takeda-science-foundation",
+    "name": {
+      "en": "Takeda Science Foundation",
+      "local": "公益財団法人武田科学振興財団"
+    },
+    "aka": ["武田科学振興財団"],
+    "type": "venture-philanthropy",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1963,
+    "region": "japan",
+    "country": "Japan",
+    "website": "https://www.takeda-sci.or.jp/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "geo_focus": ["Japan"],
+      "thesis": "Public-interest foundation established in 1963 with an endowment from Takeda Pharmaceutical Company; funds original, pioneering medical and life-science research through nine grant programs (e.g. Life Science Research Grants, Medical Research Grants, High-Risk Emerging Infectious Disease Research Grants, Visionary Research Grants). 2024 grants covered 562 awards totaling ¥2.314 billion; cumulative giving since founding reached 11,884 grants totaling ¥43.68 billion."
+    },
+    "lifesci": {
+      "indications": ["infectious-disease"]
+    },
+    "summary": {
+      "en": "A large, long-running pharma-endowed (Takeda Pharmaceutical) foundation funding medical and life-science research in Japan across nine grant programs, with cumulative giving exceeding ¥43 billion since 1963.",
+      "local": "武田薬品工業からの寄付を基に1963年に設立された公益財団。医学・生命科学の独創的・先駆的な研究に広く助成を行っている。"
+    },
+    "sources": [
+      {
+        "url": "https://www.takeda-sci.or.jp/",
+        "title": "公益財団法人 武田科学振興財団",
+        "publisher": "武田科学振興財団",
+        "accessed": "undefined",
+        "supports": "Existence, grant programs list"
+      },
+      {
+        "url": "https://www.atpress.ne.jp/news/415079",
+        "title": "武田科学振興財団、2024年度の研究助成対象562件を決定、総額23億1,400万円を贈呈",
+        "publisher": "atpress",
+        "accessed": "undefined",
+        "supports": "2024 grant round count and total amount",
+        "quote": "2024年度の研究助成対象562件を決定、 総額23億1,400万円を贈呈"
+      },
+      {
+        "url": "https://ja.wikipedia.org/wiki/武田科学振興財団",
+        "title": "武田科学振興財団 - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Founding year, source of endowment, cumulative grant totals",
+        "quote": "公益財団法人武田科学振興財団は、武田薬品工業株式会社からの寄付をもとに1963年に設立された慈善団体です。...1963年の財団設立からの助成金累計は総数11,884件、総額436億8,386万円となりました。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Corporate-endowed foundation (Takeda Pharmaceutical) rather than a family-founded one; classified as venture-philanthropy/disease-research foundation per taxonomy since it functions as a large-scale medical/life-science research grantor rather than an equity investor.",
+    "last_updated": "undefined",
+    "researched_by": "angel-family-office"
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "id": "in-birac",
+    "name": { "en": "Biotechnology Industry Research Assistance Council (BIRAC)" },
+    "aka": ["BIRAC", "DBT-BIRAC"],
+    "type": "government-program",
+    "subtypes": ["accelerator", "incubator"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "website": "https://birac.nic.in",
+    "capital": {
+      "funds": [
+        { "name": "AcE Fund (Fund of Funds - Accelerating Entrepreneurs)", "vintage_year": null, "size": { "raw": "₹299 crore committed to 88 biotech startups (as of April 2024)", "usd": null, "currency": "INR" } },
+        { "name": "SEED Fund", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "INR" } },
+        { "name": "LEAP Fund", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "INR" } },
+        { "name": "BIRAC-RDI Fund", "vintage_year": 2026, "size": { "raw": "₹2,000 crore national call launched Feb 2026", "usd": null, "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools", "genomics-omics", "cell-gene-therapy", "generalist-health"],
+      "thesis": "BIRAC is the Department of Biotechnology's not-for-profit Public Sector Enterprise (Section 8 company, est. 2012) that is India's primary interface agency for de-risking and funding early-stage biotech/healthcare enterprises, deploying grants (BIG), product-development support (SBIRI, BIPP, PACE), and equity/fund-of-funds vehicles (SEED, LEAP, AcE, BIRAC-RDI) across therapeutics, diagnostics, medtech, vaccines and biologics."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "biologics-antibody", "cell-therapy", "gene-therapy", "small-molecule"],
+      "indications": ["infectious-disease", "rare-disease"],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Runs ~100 Bio-NEST incubation centres nationwide and manages BIG, SBIRI, BIPP, PACE, E-YUVA, SEED, LEAP, AcE and BIRAC-RDI schemes on behalf of DBT."
+    },
+    "track_record": {
+      "portfolio_count": "15 lakh+ startups/entrepreneurs supported (cumulative, incl. non-equity grantees)",
+      "notable_investments": [],
+      "co_investors": ["India Health Fund (Tata Trusts)", "World Bank"]
+    },
+    "summary": {
+      "en": "BIRAC is the Government of India's (Dept. of Biotechnology) national interface agency and largest early-stage biotech funder, providing grants, product-development support and equity/fund-of-funds capital (AcE, SEED, LEAP, BIRAC-RDI) to therapeutics, diagnostics, medtech, vaccine and biologics startups."
+    },
+    "sources": [
+      { "url": "https://birac.nic.in/big.php", "title": "Biotechnology Ignition Grant Scheme (BIG)", "publisher": "BIRAC", "accessed": "undefined", "supports": "BIG scheme, flagship early-stage funding programme" },
+      { "url": "https://www.indiascienceandtechnology.gov.in/organisationsdbt/biotechnology-industry-research-assistance-council-birac", "title": "BIRAC organisation profile", "publisher": "India Science, Technology & Innovation Portal", "accessed": "undefined", "supports": "founded 2012, Section 8 PSU under DBT", "quote": "Biotechnology Industry Research Assistance Council (BIRAC) is a not-for-profit Section 8, Schedule B, Public Sector Enterprise, set up by Department of Biotechnology (DBT), Government of India in 2012." },
+      { "url": "https://www.birac.nic.in/aceFundNew.php", "title": "AcE Fund", "publisher": "BIRAC", "accessed": "undefined", "supports": "AcE Fund of funds structure and sector coverage" },
+      { "url": "https://www.theweek.in/news/sci-tech/2026/02/14/india-launches-rupees-2000-crore-birac-rdi-fund-to-turn-nation-into-global-biotech-powerhouse.amp.html", "title": "India launches ₹2,000 crore BIRAC–RDI Fund", "publisher": "The Week", "accessed": "undefined", "supports": "BIRAC-RDI Fund size and launch", "quote": "Centre announces first national call for Rs 2,000 crore BIRAC–RDI Fund to boost biotech sector" },
+      { "url": "https://www.lokmattimes.com/national/birac-fuels-innovation-with-rs-4200-crore-funding-across-15-lakh-startups-and-entrepreneurs/", "title": "BIRAC fuels innovation with Rs. 4,200 crore funding across 15 lakh startups and entrepreneurs", "publisher": "Lokmat Times", "accessed": "undefined", "supports": "cumulative funding and startup reach", "quote": "BIRAC fuels innovation with Rs. 4,200 crore funding across 15 lakh startups and entrepreneurs" }
+    ],
+    "confidence": "high",
+    "verification_notes": "AcE/SEED/LEAP fund sizes are drawn from mixed-vintage press figures (₹174.5cr across 16 daughter funds per one 2025 source vs ₹299cr/88 startups per an April 2024 figure) — treat exact totals as approximate and time-stamped. BIRAC-RDI Fund (₹2,000cr) was newly launched Feb 2026 and is not yet reflected in older aggregate totals.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "in-national-biopharma-mission",
+    "name": { "en": "National Biopharma Mission (Innovate in India / i3 Programme)" },
+    "aka": ["NBM", "Innovate in India (i3)"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "india",
+    "country": "India",
+    "website": "https://birac.nic.in/nationalbiopharmamission.php",
+    "capital": {
+      "current_fund": { "raw": "$250 million total (Govt of India + World Bank), World Bank contributing $125 million", "usd": 250000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "A World Bank co-financed, DBT/BIRAC-implemented industry-academia mission ($250M total, launched 2017) to accelerate early discovery-to-development of vaccines, biosimilars, novel therapeutics, diagnostics and medical devices in India, building shared incubation, biomanufacturing and clinical-trial infrastructure alongside direct startup funding."
+    },
+    "lifesci": {
+      "modalities": ["vaccines", "biologics-antibody", "cell-therapy"],
+      "indications": ["infectious-disease"],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Funded 100+ incubation centres, 25 specialised R&D/biomanufacturing facilities, 7 Regional Technology Transfer Offices, and clinical-trial capacity at 30 hospital + 10 field sites."
+    },
+    "track_record": {
+      "portfolio_count": "part of ~10,000 bio-based research startups supported since 2014 across BIRAC's mission portfolio",
+      "co_investors": ["World Bank", "BIRAC"]
+    },
+    "summary": {
+      "en": "National Biopharma Mission is a $250M World Bank co-financed Indian government mission (implemented via BIRAC/DBT) that funds industry-academia biopharmaceutical product development — vaccines, biosimilars, diagnostics and devices — from discovery through early clinical stages."
+    },
+    "sources": [
+      { "url": "https://www.worldbank.org/en/news/feature/2025/11/24/india-s-biopharma-leap-the-world-bank-backed-national-biopharma-mission-is-transforming-health-innovation", "title": "India's Biopharma Leap: World Bank-backed National Biopharma Mission", "publisher": "World Bank", "accessed": "undefined", "supports": "founding, World Bank involvement, infrastructure built, startups catalyzed", "quote": "The mission has catalyzed nearly 10,000 bio-based research startups since 2014 and supports development of vaccines, biosimilars, diagnostics, and cell therapies." },
+      { "url": "https://www.fisdom.com/national-biopharma-mission/", "title": "National Biopharma Mission", "publisher": "Fisdom", "accessed": "undefined", "supports": "founding year and $250M / $125M World Bank funding split", "quote": "The National Biopharma Mission was established in 2017 with a total investment of $250 million, with the World Bank contributing half of the funds, totaling $125 million." },
+      { "url": "https://birac.nic.in/nationalbiopharmamission.php", "title": "BIRAC - National Biopharma Mission", "publisher": "BIRAC", "accessed": "undefined", "supports": "mission implemented by BIRAC under DBT" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official BIRAC page (birac.nic.in/nationalbiopharmamission.php) returned HTTP 403 on direct fetch; funding figures cross-checked via World Bank feature article and a secondary financial-info site (Fisdom). NBM overlaps organizationally with BIRAC — listed separately here because it is a distinctly named, separately-financed ($250M) mission rather than a standard BIRAC scheme.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "in-c-camp",
+    "name": { "en": "Centre for Cellular and Molecular Platforms (C-CAMP)" },
+    "aka": ["C-CAMP"],
+    "type": "government-program",
+    "subtypes": ["incubator", "accelerator"],
+    "status": "active",
+    "founded_year": 2009,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bangalore",
+    "website": "https://www.ccamp.res.in",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["medtech-devices", "diagnostics", "therapeutics", "digital-health", "genomics-omics"],
+      "thesis": "A Department of Biotechnology (DBT) initiative (est. 2009, part of the Bangalore Life Sciences Cluster) providing wet-lab bio-incubation space, an Investment Program for early-stage funding, and mentorship/acceleration to life-science startups in healthcare devices & diagnostics, drug discovery, biologics/vaccines and digital health, with focused programs on maternal & child health, AMR and COVID-19."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Operates high-end lab/biocontainment infrastructure adjacent to NCBS-TIFR campus and a K-TECH TBI facility at GKVK campus."
+    },
+    "program": {
+      "location": "Bangalore, India",
+      "lab_space": true,
+      "format": "in-person"
+    },
+    "track_record": {
+      "portfolio_count": "350+ startups supported across 34 states/UTs",
+      "notable_investments": [
+        { "company": "Predible Health", "sector": "digital-health/medical-imaging AI", "outcome": "acquired (by nference, May 2022)" }
+      ]
+    },
+    "summary": {
+      "en": "C-CAMP is a DBT-established (2009) life-sciences innovation hub in Bangalore combining bio-incubation lab space, an in-house Investment Program, and mentorship for healthcare devices, diagnostics, drug-discovery and digital-health startups; it has supported 350+ startups and recorded exits including Predible Health's acquisition by nference."
+    },
+    "sources": [
+      { "url": "https://www.ccamp.res.in/about", "title": "About Us", "publisher": "C-CAMP", "accessed": "undefined", "supports": "DBT initiative, founding, mandate" },
+      { "url": "https://www.ccamp.res.in/incubation", "title": "Incubation at C-CAMP", "publisher": "C-CAMP", "accessed": "undefined", "supports": "bio-incubation, investment program, mentorship offerings" },
+      { "url": "https://www.startupgrantsindia.com/providers/c-camp-bangalore", "title": "Centre for Cellular and Molecular Platforms (C-CAMP) — Programs, Eligibility & How to Apply", "publisher": "Startup Grants India", "accessed": "undefined", "supports": "350+ startups supported, ₹80cr invested, Predible Health exit", "quote": "With over 350 startups supported across 34 states and union territories, C-CAMP has invested up to ₹80 crore in its portfolio and helped its startups raise over ₹2,000 crore in funding." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio investment total (₹80cr) and fundraising-enabled figure (₹2,000cr) are third-party aggregator claims (Startup Grants India), not independently confirmed on C-CAMP's own site at time of research.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "in-technology-development-board",
+    "name": { "en": "Technology Development Board (TDB)" },
+    "aka": ["TDB"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 1996,
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "website": "https://tdb.gov.in",
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "check_size": { "raw": "soft loan up to 50% of project cost at 5% simple interest; equity up to 25% of project cost", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "medtech-devices", "therapeutics"],
+      "thesis": "A statutory body (Technology Development Board Act, 1995; constituted 1996) under India's Dept. of Science & Technology that commercializes indigenous technology across all sectors via soft loans, equity and grants; runs biotech/healthcare-specific calls (e.g. 'CFP Medical Devices', 'Rare Disease Solutions Initiative') and has backed biotech-dedicated funds such as APIDC VCF (BioTech Fund)."
+    },
+    "capital": {
+      "funds": [
+        { "name": "APIDC VCF (BioTech Fund) — TDB contribution", "vintage_year": null, "size": { "raw": "₹30 crore contributed by TDB", "usd": null, "currency": "INR" } }
+      ]
+    },
+    "summary": {
+      "en": "Technology Development Board is a Government of India statutory financing body (est. 1996) that provides loans, equity and grants for commercializing indigenous technology; it runs dedicated medtech/rare-disease funding calls and has invested in biotech-focused vehicles like the APIDC VCF BioTech Fund, though its overall mandate spans all technology sectors, not health exclusively."
+    },
+    "sources": [
+      { "url": "https://tdb.gov.in/modes-funding", "title": "Modes of Funding", "publisher": "Technology Development Board", "accessed": "undefined", "supports": "loan/equity/grant terms, current medical devices and rare disease funding calls", "quote": "The financial assistance to the industrial concerns is provided a soft loan at 5% simple interest per annum." },
+      { "url": "https://dst.gov.in/technology-development-board", "title": "Technology Development Board", "publisher": "Department of Science & Technology", "accessed": "undefined", "supports": "statutory status under DST" },
+      { "url": "https://growthgurukul.in/this-government-body-can-fund-your-startup-without-taking-full-equity/", "title": "This Government Body Can Fund Your Startup Without Taking Full Equity", "publisher": "growthgurukul.in", "accessed": "undefined", "supports": "₹30 crore contribution to APIDC VCF BioTech Fund", "quote": "TDB has contributed Rs. 30 crores to the APIDC VCF (BioTech fund) and Rs. 75 crores to the UTI Ascent India Fund." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "TDB is a generalist technology-commercialization financier (all sectors), included here specifically for its health/biotech-dedicated calls and fund investments; treat its overall AUM/mandate as NOT health-exclusive. Exact founding date (Sept 1996, per TDB Act 1995) not independently re-verified beyond secondary summaries.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "in-amtz",
+    "name": { "en": "Andhra Pradesh MedTech Zone (AMTZ)" },
+    "aka": ["AMTZ", "AIC-AMTZ MediValley"],
+    "type": "government-program",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Visakhapatnam",
+    "website": "https://www.amtz.in",
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["medtech-devices", "surgical-robotics", "medical-imaging"],
+      "thesis": "Andhra Pradesh state-government-backed medical-device manufacturing and innovation zone that hosts AIC-AMTZ MediValley — India's largest medtech incubator, funded by NITI Aayog's Atal Innovation Mission and the Dept. of Pharmaceuticals' AMDTF scheme — plus a newly launched capital fund with MedArtha Capital to scale medtech startups and growth-stage device manufacturers."
+    },
+    "program": {
+      "location": "Visakhapatnam, Andhra Pradesh, India",
+      "lab_space": true,
+      "format": "in-person"
+    },
+    "track_record": {
+      "portfolio_count": "~150 medtech startups supported to date; incubator capacity targeted to double to 300 ventures by 2026"
+    },
+    "summary": {
+      "en": "AMTZ is Andhra Pradesh's state government medical-device manufacturing zone and innovation hub, home to India's largest medtech incubator (AIC-AMTZ MediValley, backed by NITI Aayog's Atal Innovation Mission) and a newly announced capital fund with MedArtha Capital to scale Indian medtech startups."
+    },
+    "sources": [
+      { "url": "https://www.amtz.in/", "title": "Andhra Pradesh MedTech Zone", "publisher": "AMTZ", "accessed": "undefined", "supports": "identity, location, mandate" },
+      { "url": "https://www.digitalhealthnews.com/amtz-launches-a-dedicated-capital-fund-to-scale-medtech-innovation", "title": "AMTZ Sets up a Dedicated Fund to Support India's MedTech Sector", "publisher": "Digital Health News", "accessed": "undefined", "supports": "MedArtha Capital fund partnership, purpose" },
+      { "url": "https://ehealth.eletsonline.com/2025/05/transforming-india-into-the-global-medtech-hub/", "title": "Andhra Pradesh MedTech Zone Transforming India into the Global Medtech Hub", "publisher": "eHealth Magazine", "accessed": "undefined", "supports": "MediValley Incubation Council funded by NITI Aayog Atal Innovation Mission and Dept of Pharmaceuticals AMDTF scheme", "quote": "The MediValley Incubation Council is funded by NITI Aayog under the Atal Innovation Mission and supported by the Department of Pharmaceuticals through the AMDTF scheme." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact size of the AMTZ–MedArtha Capital dedicated fund was not clearly disclosed in the sourced article (figures cited elsewhere are unconfirmed estimates), so no fund-size number is asserted here. Founding year of AMTZ itself not independently re-verified in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "in-telangana-life-sciences-innovation-fund",
+    "name": { "en": "Telangana Life Sciences Innovation Fund" },
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2026,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Hyderabad",
+    "website": "https://lifesciences.telangana.gov.in",
+    "capital": {
+      "current_fund": { "raw": "up to ₹1,000 crore (USD 100 million), scalable", "usd": 100000000, "currency": "INR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India", "Telangana"],
+      "sector_focus": ["cell-gene-therapy", "pharma-services", "diagnostics", "medtech-devices", "digital-health", "therapeutics"],
+      "thesis": "A Government of Telangana venture fund (announced Jan 2026 at Davos as part of the state's Next-Gen Life Sciences Policy 2026-30) designed to catalyze early- and growth-stage investment in cell & gene therapy, precision fermentation, diagnostics, medical electronics and digital health, anchored around Hyderabad's Genome Valley cluster and intended to crowd in private/institutional capital."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "summary": {
+      "en": "The Telangana Life Sciences Innovation Fund is a state-government fund of up to ₹1,000 crore (~USD 100M), unveiled January 2026 under Telangana's Next-Gen Life Sciences Policy, aimed at early- and growth-stage life-sciences and healthcare startups (cell & gene therapy, diagnostics, medtech, digital health) centered on the Genome Valley cluster."
+    },
+    "sources": [
+      { "url": "https://www.prnewswire.com/news-releases/telangana-india-sets-global-ambition-with-next-gen-life-sciences-policy-202630-302667067.html", "title": "Telangana (India) Sets Global Ambition with Next-Gen Life Sciences Policy 2026-30", "publisher": "PR Newswire", "accessed": "undefined", "supports": "fund size, launch date, focus sectors", "quote": "a Life Sciences Innovation Fund of up to INR 1,000 crore to support startups, scale-ups, and translational research... scalable up to INR 1,000 crore (USD 100 million)" },
+      { "url": "https://www.indianpharmapost.com/news/telangana-unveils-ambitious-next-gen-life-sciences-policy-at-davos-18971", "title": "Telangana unveils ambitious next-gen Life Sciences Policy at Davos", "publisher": "Indian Pharma Post", "accessed": "undefined", "supports": "policy launch venue/date corroboration" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Newly announced (January 2026) at time of research; fund is stated as policy commitment in state government press materials and has not yet had disclosed portfolio companies or a formal fund-management structure confirmed. Quote is a close paraphrase from press-release text rather than a single verbatim sentence extracted directly.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "in-kitven-fund-3-biotech",
+    "name": { "en": "KITVEN Fund-3 (Biotech)" },
+    "aka": ["Karnataka Information Technology Venture Capital Fund-3 (Biotech)"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bangalore",
+    "website": "https://www.kitven.in/funds/kitven-fund3",
+    "capital": {
+      "current_fund": { "raw": "₹35.55 crore final corpus", "usd": null, "currency": "INR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "check_size": { "raw": "₹100 lakh – ₹350 lakh per company (initial stage, can be enhanced)", "usd_min": null, "usd_max": null },
+      "lead_or_follow": "both",
+      "geo_focus": ["Karnataka, India"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
+      "thesis": "A SEBI-registered Category I AIF (registered Dec 2015) dedicated to biotechnology and allied life-science startups within Karnataka; capitalized by state and central government institutions — Karnataka Innovation & Technology Society (KITS), SIDBI, KSIIDC and BIRAC — and managed by Karnataka Asset Management Company."
+    },
+    "summary": {
+      "en": "KITVEN Fund-3 (Biotech) is a ₹35.55 crore government-backed venture capital fund (Karnataka Asset Management Co., investors incl. Government of Karnataka's KITS/KSIIDC, SIDBI and BIRAC) dedicated to biotechnology and life-science startups in Karnataka, investing ₹1–3.5 crore per company."
+    },
+    "sources": [
+      { "url": "https://www.kitven.in/funds/kitven-fund3", "title": "KITVEN Fund 3 (Biotech)", "publisher": "KITVEN", "accessed": "undefined", "supports": "fund corpus, SEBI registration date, investors, check size", "quote": "Karnataka Information Technology Venture Capital Fund -3 (BIOTECH) is a SEBI registered Alternative Investment Fund (AIF) with final corpus as Rs. 35.55 crore having SEBI Registration no. IN/AIF1/15-16/0195 dated 31 Dec 2015" },
+      { "url": "https://www.indiascienceandtechnology.gov.in/funding-opportunities/startups/kitven-fund-3-biotech", "title": "KITVEN Fund-3 (Biotech)", "publisher": "India Science, Technology & Innovation Portal", "accessed": "undefined", "supports": "corroboration of fund purpose and government backing" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Represents the health/biotech-specific slice of SIDBI's Fund of Funds ecosystem referenced in the research brief (SIDBI is a co-investor alongside Karnataka state bodies KITS/KSIIDC and BIRAC); SIDBI's broader Fund of Funds Scheme itself is sector-agnostic and not listed as a separate entity here.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  }
+]

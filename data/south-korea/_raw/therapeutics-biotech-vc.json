@@ -1,0 +1,643 @@
+[
+  {
+    "id": "kr-lsk-investment",
+    "name": { "en": "LSK Investment", "local": "엘에스케이인베스트먼트" },
+    "aka": ["LSK인베스트먼트", "LSK Invest"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [
+      { "country": "South Korea", "city": "Seoul" },
+      { "country": "Canada", "city": "Toronto" }
+    ],
+    "website": "http://www.lski.co.kr/",
+    "links": {
+      "crunchbase": "https://www.cbinsights.com/investor/lsk-investments",
+      "other": ["https://thevc.kr/lskinvestment", "https://ko.wikipedia.org/wiki/LSK인베스트먼트"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["South Korea", "United States", "Canada"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "ai-drug-discovery"],
+      "thesis": "Korea bio/healthcare-dedicated VC backing early-stage biotech developing new drugs, medical devices and medical services; led by a former pharma-researcher-turned-VC. Stated focus on early-stage biotech, with interest in CNS/neuroscience and AI healthcare."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["neurology", "oncology"],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "IM Biologics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "PeopleBio", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Lemon Healthcare", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Kim Myung-ki", "role": "CEO / Founder", "background": "Former pharmaceutical researcher turned venture capitalist" }
+    ],
+    "summary": {
+      "en": "Seoul-based bio/healthcare-specialized venture capital firm founded in 2016, investing in early-stage biotech (new drugs), medical devices and medical services; co-founded the LSK-BNH Korea Bio Fund and operates K-Bio/Vaccine Fund 3.",
+      "local": "2016년 설립된 바이오·헬스케어 전문 벤처캐피탈로, 초기 바이오텍(신약)·의료기기·의료서비스에 투자한다."
+    },
+    "sources": [
+      { "url": "http://www.lski.co.kr/", "title": "LSK인베스트먼트 공식 홈페이지", "publisher": "LSK Investment", "accessed": "undefined", "supports": "Existence, bio/healthcare focus, website" },
+      { "url": "https://ko.wikipedia.org/wiki/LSK인베스트먼트", "title": "LSK인베스트먼트 - 위키백과", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founded April 2016; CEO Kim Myung-ki; K-Bio Vaccine Fund 3; portfolio", "quote": "The company was established in April 2016." },
+      { "url": "https://www.topdaily.kr/articles/96818", "title": "LSK인베스트 “바이오 투자 적기…앞으로 화두, 중추신경계 질환”", "publisher": "Topdaily", "accessed": "undefined", "supports": "Bio focus, CNS/neuroscience thesis" },
+      { "url": "http://biospectator.com/view/news_view.php?varAtcId=2787", "title": "김명기 LSK인베스트먼트 대표 \"초기 바이오텍 최대 15곳 투자\"", "publisher": "BioSpectator", "accessed": "undefined", "supports": "Early-stage biotech focus, CEO Kim Myung-ki" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year (April 2016), CEO and focus corroborated by Wikipedia, THE VC and trade press. Portfolio names from Wikipedia summary; not all independently re-verified on official site (official site TLS certificate mismatch on fetch).",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-dayli-partners",
+    "name": { "en": "DAYLI Partners", "local": "데일리파트너스" },
+    "aka": ["Dayli Partners", "데일리벤처투자", "DS Ventures"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "http://dayli.partners/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/dayli-partners",
+      "other": ["https://thevc.kr/daylipartners", "https://app.dealroom.co/investors/dayli_partners"]
+    },
+    "capital": {
+      "aum": { "raw": "약 3,500억원 (2021)", "usd": null, "currency": "KRW" },
+      "funds": [
+        { "name": "Dayli Empowering Bio-Healthcare Fund I (데일리 임파워링 바이오헬스케어펀드 1호)", "vintage_year": 2018, "size": { "raw": "341억원", "usd": null, "currency": "KRW" } },
+        { "name": "Dayli Empowering Bio-Healthcare Fund II", "vintage_year": null, "size": { "raw": "120억원", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health"],
+      "thesis": "Bio/healthcare-specialized investment group (also active in fintech) staffed by biohealthcare experts; the Empowering Bio-Healthcare fund series invests from Series A through B/C, pre-IPO and listed-company mezzanine in Korean drug developers and diagnostics."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "40+",
+      "co_investors": ["Samsung Securities", "KEB Hana Bank", "Huons", "Humedix"]
+    },
+    "people": [
+      { "name": "Lee Seung-ho", "role": "CEO", "background": "Former star pharma/biotech equity analyst at Samsung Securities and NH Investment & Securities" }
+    ],
+    "summary": {
+      "en": "Gangnam (Seoul) bio/healthcare-focused VC (originally DS Ventures/Dayli Venture Investment) that has backed 40+ biohealthcare companies via its Empowering Bio-Healthcare fund series spanning Series A to listed-company mezzanine.",
+      "local": "서울 강남 소재 바이오·헬스케어 전문 VC로, '임파워링 바이오헬스케어펀드' 시리즈를 통해 40여 개 바이오헬스케어 기업에 투자했다."
+    },
+    "sources": [
+      { "url": "http://dayli.partners/", "title": "DAYLI Partners 공식 홈페이지", "publisher": "DAYLI Partners", "accessed": "undefined", "supports": "Bio/healthcare + finance focus, Seoul Gangnam HQ", "quote": "bio·healthcare & finance·corporate governance" },
+      { "url": "https://www.thebell.co.kr/free/Content/ArticleView.asp?key=202107021008507040103558&svccode=03", "title": "데일리파트너스, 새 펀드 결성…AUM 2500억 돌파", "publisher": "The Bell", "accessed": "undefined", "supports": "AUM growth ~2,500억 (2021)" },
+      { "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202110070940148160104782&lcode=00", "title": "데일리파트너스, 신규 펀드 결성에 AUM 3500억 육박", "publisher": "The Bell", "accessed": "undefined", "supports": "AUM approaching ~3,500억 (2021)" },
+      { "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=201904020100004120000261&lcode=00", "title": "데일리 '임파워링 1호', 바이오투자 순항", "publisher": "The Bell", "accessed": "undefined", "supports": "Empowering Bio-Healthcare Fund I size 341억", "quote": "341억원 규모의 데일리 임파워링 바이오헬스케어 펀드 1호" },
+      { "url": "https://www.hellodd.com/news/articleView.html?idxno=91130", "title": "바이오 전문 VC '데일리파트너스'가 찍은 10개 기업은?", "publisher": "HelloDD", "accessed": "undefined", "supports": "Described as bio-specialist VC; 40+ biohealthcare companies invested" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 2014 (predecessor DS Ventures; rebranded Dayli Venture Investment 2016, then DAYLI Partners). AUM/fund figures from The Bell (2021); current AUM likely larger. Fund II vintage not confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-bnh-investment",
+    "name": { "en": "BNH Investment", "local": "비엔에이치인베스트먼트" },
+    "aka": ["BNH인베스트먼트", "Bio and Healthcare Investment"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "http://bnhinv.com/",
+    "links": {
+      "other": ["https://thevc.kr/bnhinvestment", "https://pitchbook.com/profiles/investor/230436-46", "https://jointips.or.kr/bbs/board.php?bo_table=partner&wr_id=30"]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Bio & Healthcare (\"BNH\")-dedicated VC investing across biotech/medical, healthcare and convergence-tech from startup through growth stage; a sector-fund specialist known for its early Hugel exit and oncology/protein-degradation drug bets."
+    },
+    "lifesci": {
+      "modalities": ["protein-degradation", "biologics-antibody"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Ubixis Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Pinobio", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Hugel", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "people": [
+      { "name": "Kim Myung-hwan", "role": "CEO", "background": "Long-time bio/healthcare investor; 2023 Korea VC Awards 'Investment' category honoree" }
+    ],
+    "summary": {
+      "en": "Seoul bio/healthcare-specialist VC founded in 2015 (BNH = Bio and Healthcare); invests in biotech/medical and healthcare convergence companies, with a track record including Hugel and protein-degradation drug developer Ubixis Therapeutics.",
+      "local": "2015년 설립된 바이오·헬스케어 전문 VC로(BNH=Bio and Healthcare), 바이오·의료 및 헬스케어 융합기업에 투자하며 휴젤·유빅스테라퓨틱스 등에 투자했다."
+    },
+    "sources": [
+      { "url": "http://bnhinv.com/", "title": "BNH INVESTMENT 공식 홈페이지", "publisher": "BNH Investment", "accessed": "undefined", "supports": "Existence, bio/healthcare focus, website" },
+      { "url": "https://thevc.kr/bnhinvestment", "title": "비엔에이치인베스트먼트 - THE VC", "publisher": "THE VC", "accessed": "undefined", "supports": "Company profile, funds, investments" },
+      { "url": "https://www.numbers.co.kr/news/articleView.html?idxno=2681", "title": "투심 위축에도 바이오 적극 투자…BNH인베스트먼트 \"섹터펀드 중요\"", "publisher": "Numbers", "accessed": "undefined", "supports": "Bio-focused sector-fund strategy" },
+      { "url": "https://thebell.co.kr/free/Content/ArticleView.asp?key=202509171634220840108337", "title": "[BNH인베 출범 10년]'휴젤 잭팟' 이후 10년, BNH인베 바이오 외길", "publisher": "The Bell", "accessed": "undefined", "supports": "Founded 2015 (10 years), Hugel exit, bio-only strategy" },
+      { "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202508270658290220105134", "title": "'유빅스 베팅' BNH인베, 회수 기대 커졌다", "publisher": "The Bell", "accessed": "undefined", "supports": "Ubixis Therapeutics investment" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding 2015 and bio-only focus corroborated by The Bell 10-year retrospective and official site. AUM figures reported in secondary press appeared inconsistently scaled, so specific AUM number omitted. CEO name Kim Myung-hwan from Forbes Korea award coverage.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-ns-investment",
+    "name": { "en": "NS Investment", "local": "엔에스인베스트먼트" },
+    "aka": ["NS인베스트먼트"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "https://thevc.kr/nsinvestment",
+    "links": {
+      "other": ["https://thevc.kr/nsinvestment"]
+    },
+    "capital": {
+      "aum": { "raw": "약 1,240억원", "usd": null, "currency": "KRW" },
+      "funds": [
+        { "name": "Global Bio Growth Fund I (글로벌바이오성장제1호)", "vintage_year": 2016, "size": { "raw": "290억원", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "geo_focus": ["South Korea", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Bio-specialized VC that has run bio blind funds since its founding, targeting Korean and (predominantly) US biotech developing new drugs; Global Bio Growth Fund I returned ~70% IRR."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "microbiome"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Genome & Company", "sector": "therapeutics", "outcome": "active" },
+        { "company": "ABL Bio", "sector": "therapeutics", "outcome": "active" },
+        { "company": "iCure", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["Paratus Investment", "KDB Capital"]
+    },
+    "summary": {
+      "en": "Seoul-based bio-specialized VC (founded ~2015) with ~124 billion won AUM across three bio funds; its first fund (Global Bio Growth Fund I, 29 billion won, 2016) returned ~70% IRR, and it targets mainly US biotech new-drug developers.",
+      "local": "2015년경 설립된 바이오 전문 VC로, AUM 약 1,240억원·바이오 펀드 3개를 운용하며 주로 미국 바이오텍 신약 투자를 타깃으로 한다."
+    },
+    "sources": [
+      { "url": "https://thevc.kr/nsinvestment", "title": "엔에스인베스트먼트 - THE VC", "publisher": "THE VC", "accessed": "undefined", "supports": "Company profile, funds" },
+      { "url": "https://m.thebell.co.kr/m/newsview.asp?svccode=&newskey=202111041452045360102314", "title": "[VC인사이드/NS인베스트먼트]7년차 거침없는 확장, 3번째 바이오 블라인드 펀드 결성", "publisher": "The Bell", "accessed": "undefined", "supports": "Bio-specialist VC, ~124 billion won AUM, 3 funds, Global Bio Growth Fund I 29 billion won 2016 with ~70% IRR, portfolio Genome & Company/ABL Bio/iCure", "quote": "운용자산(AUM)은 1240억원 수준으로, 지금까지 결성한 펀드는 총 3개" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Company profile and figures rest primarily on The Bell VC Inside coverage (2021) plus THE VC; no accessible standalone official website found (thevc.kr used as canonical profile). '7년차' in 2021 implies founding ~2015. Distinct from unrelated 'S&S Investment' / 'NS Asset Management'.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-sv-investment",
+    "name": { "en": "SV Investment", "local": "에스브이인베스트먼트" },
+    "aka": ["SV인베스트먼트"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2006,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [
+      { "country": "South Korea", "city": "Seoul" },
+      { "country": "United States", "city": "Boston" },
+      { "country": "Singapore", "city": "Singapore" }
+    ],
+    "website": "https://www.svinvest.com/en/",
+    "links": {
+      "other": ["https://thevc.kr/svinvestment", "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?gicode=A289080"]
+    },
+    "capital": {
+      "funds": [
+        { "name": "SV Korea-China Bio-Healthcare Fund (SV 한·중 바이오·헬스케어 펀드)", "vintage_year": null, "size": { "raw": "374억원", "usd": null, "currency": "KRW" } },
+        { "name": "SV Global Bio-Healthcare Fund II (SV 글로벌 바이오·헬스케어 펀드 2호)", "vintage_year": null, "size": { "raw": "530억원", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["South Korea", "United States", "China", "Singapore"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "KOSDAQ-listed VC (est. 2006) that made bio/healthcare its lead investment sector; runs dedicated bio-healthcare funds and offshore vehicles from Boston/Singapore, backing new-drug developers."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "cell-therapy", "drug-delivery"],
+      "indications": ["oncology"],
+      "company_creation": false,
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Peptron", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "NKMax", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Bridge Biotherapeutics", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Seoul-headquartered, KOSDAQ-listed venture capital firm (founded 2006, ticker A289080) whose lead investment sector is bio/healthcare; runs dedicated bio-healthcare funds and Boston/Singapore offshore vehicles, with exits including Peptron and Bridge Biotherapeutics.",
+      "local": "2006년 설립·코스닥 상장(A289080) VC로 바이오·헬스케어를 주력 투자 분야로 삼아 전용 펀드와 보스턴·싱가포르 역외펀드를 운용한다."
+    },
+    "sources": [
+      { "url": "https://www.svinvest.com/en/", "title": "SV Investment (공식 영문 사이트)", "publisher": "SV Investment", "accessed": "undefined", "supports": "Existence, VC focused on high-growth SMEs, offices" },
+      { "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?gicode=A289080", "title": "SV인베스트먼트(A289080) - Company Guide", "publisher": "FnGuide", "accessed": "undefined", "supports": "KOSDAQ-listed, ticker A289080" },
+      { "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202106160740290540108339&lcode=00", "title": "[SV인베스트 도전 15년]바이오 '포스트 유니콘' 찾기", "publisher": "The Bell", "accessed": "undefined", "supports": "Founded 2006, bio/healthcare as lead sector, funds, Peptron/NKMax/Bridge Biotherapeutics exits", "quote": "SV 한·중 바이오·헬스케어 펀드(약정총액 374억원)와 'SV 글로벌 바이오·헬스케어 펀드 2호'(결성총액 530억원)" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Established April 2006; KOSDAQ-listed. Fund sizes from The Bell; vintage years not stated. Firm also invests in ICT and content, but bio/healthcare is described as its main sector.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-intervest",
+    "name": { "en": "InterVest", "local": "인터베스트" },
+    "aka": ["인터베스트(주)"],
+    "type": "vc",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [
+      { "country": "South Korea", "city": "Seoul" },
+      { "country": "Singapore", "city": "Singapore" }
+    ],
+    "website": "https://intervest.co.kr/en",
+    "links": {
+      "other": ["https://thevc.kr/intervest", "https://ko.wikipedia.org/wiki/인터베스트", "https://pitchbook.com/profiles/investor/60912-82"]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["South Korea", "Southeast Asia", "United States"],
+      "sector_focus": ["therapeutics", "generalist-health", "medtech-devices"],
+      "thesis": "Established Korean VC (since 1999) investing in ICT and biohealthcare; set up Korea's first government-supported global bio fund (2013) and maintains a dedicated biohealthcare practice alongside its tech investing."
+    },
+    "lifesci": {
+      "company_creation": false
+    },
+    "summary": {
+      "en": "Seoul VC founded in 1999 investing across ICT and biohealthcare; established Korea's first government-supported global bio fund (2013) and continues to run a dedicated biohealthcare investment practice.",
+      "local": "1999년 설립된 서울 소재 VC로 ICT와 바이오헬스케어에 투자하며, 2013년 국내 최초의 정부 지원 글로벌 바이오펀드를 결성했다."
+    },
+    "sources": [
+      { "url": "https://intervest.co.kr/en", "title": "InterVest (공식 영문 사이트)", "publisher": "InterVest", "accessed": "undefined", "supports": "Existence, 25+ years experience, Seoul HQ", "quote": "over 25 years of investment experience" },
+      { "url": "https://ko.wikipedia.org/wiki/인터베스트", "title": "인터베스트 - 위키백과", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founded Sept 1999; ICT + biohealthcare; first government-supported global bio fund (2013)", "quote": "한국 최초의 정부 지원 글로벌 바이오펀드('13)" },
+      { "url": "http://www.intervest.co.kr/kr/ourfocus", "title": "인터베스트 - Our Focus", "publisher": "InterVest", "accessed": "undefined", "supports": "Investment focus incl. biohealthcare" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "InterVest is a dual ICT + biohealthcare investor rather than a pure therapeutics specialist; included here for its dedicated bio fund practice. A tier1/generalist sibling slice may also cover it. Founded September 1999 per Wikipedia.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-solidus-investment",
+    "name": { "en": "Solidus Investment", "local": "솔리더스인베스트먼트" },
+    "aka": ["솔리더스인베스트먼트", "SOLIDUS Investment"],
+    "type": "vc",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2011,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "http://www.solidusvc.com/about/overview",
+    "links": {
+      "other": ["https://thevc.kr/solidusinvestment", "https://ko.wikipedia.org/wiki/솔리더스인베스트먼트"]
+    },
+    "capital": {
+      "funds": [
+        { "name": "KB-Solidus Healthcare Investment Fund", "vintage_year": 2022, "size": { "raw": "1,020억원", "usd": null, "currency": "KRW" } },
+        { "name": "Solidus Smart Bio Investment Fund", "vintage_year": 2021, "size": { "raw": "1,000억원", "usd": null, "currency": "KRW" } },
+        { "name": "IBK-Solidus Next Bio Star Investment Fund", "vintage_year": 2023, "size": { "raw": "235억원", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health"],
+      "thesis": "CHA Bio Group-affiliated VC (est. 2011) whose portfolio is ~70% bio/healthcare, with a stated high emphasis on new-drug investment alongside vaccines, diagnostics and convergence healthcare."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "vaccines"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 40
+    },
+    "summary": {
+      "en": "Seoul VC affiliated with CHA Bio Group (founded 2011); ~70% of its portfolio is bio/healthcare with particular emphasis on new drugs, plus vaccines and diagnostics, and it has run large KB-Solidus and Solidus Smart Bio healthcare funds.",
+      "local": "차바이오그룹 계열 VC(2011년 설립)로 포트폴리오의 약 70%가 바이오·헬스케어이며 신약 투자에 특히 방점을 둔다."
+    },
+    "sources": [
+      { "url": "http://www.solidusvc.com/about/overview", "title": "SOLIDUS - Overview", "publisher": "Solidus Investment", "accessed": "undefined", "supports": "Existence, focus, website" },
+      { "url": "https://ko.wikipedia.org/wiki/솔리더스인베스트먼트", "title": "솔리더스인베스트먼트 - 위키백과", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Founded June 2011 by CHA Hospital/Bio group; bio focus", "quote": "차병원그룹이 2011년 6월 설립" },
+      { "url": "https://thevc.kr/solidusinvestment/portfolios", "title": "솔리더스인베스트먼트 - 투자 포트폴리오 기업 40개사", "publisher": "THE VC", "accessed": "undefined", "supports": "40 portfolio companies", "quote": "투자 포트폴리오 기업 40개사" },
+      { "url": "https://www.thebionews.net/news/articleView.html?idxno=16484", "title": "\"1분기 국내 바이오 VC 투자액 전년比 20% 증가…지금이 바이오 투자 적기\"", "publisher": "The Bio News", "accessed": "undefined", "supports": "Bio/healthcare ~70% of portfolio; new-drug emphasis; healthcare funds" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded June 2011, CHA Bio Group affiliate. Fund names verified in secondary press; exact fund sizes/vintages taken from The Bio News summary and may differ slightly across sources. A very large AUM figure (~4.8 trillion won) appeared in one secondary summary and looked implausibly scaled, so it is omitted here.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-premier-partners",
+    "name": { "en": "Premier Partners", "local": "프리미어파트너스" },
+    "aka": ["프리미어파트너스", "(유)프리미어파트너스"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2005,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "https://premierpartners.co.kr/kr/about-premier-partners/",
+    "links": {
+      "linkedin": "https://kr.linkedin.com/company/프리미어파트너스",
+      "other": ["https://thevc.kr/premierpartners", "https://www.cbinsights.com/investor/premier-partners"]
+    },
+    "capital": {
+      "aum": { "raw": "1.5조원 이상", "usd": null, "currency": "KRW" },
+      "funds": [
+        { "name": "K-Bio·Vaccine Fund No. 7 (K-바이오·백신 7호 펀드)", "vintage_year": 2026, "size": { "raw": "결성목표 2,000억원", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Korea's first LLC-type fund manager (est. 2005) running VC and growth-capital funds with a dedicated bio-healthcare team; selected as managing GP of the government K-Bio·Vaccine Fund No. 7, which must deploy 60%+ into pharma, vaccines, medical devices, digital therapeutics and ICT-health."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "vaccines", "digital-therapeutics"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "Seoul growth/VC firm (founded 2005) with over 1.5 trillion won AUM and a dedicated bio-healthcare team; in 2026 it was selected as managing GP of the government's ~200 billion won K-Bio·Vaccine Fund No. 7.",
+      "local": "2005년 설립된 서울 소재 VC·그로스캐피탈 운용사(AUM 1.5조원 이상)로 바이오헬스케어 전담팀을 두고 있으며, 2026년 K-바이오·백신 7호 펀드 주관 운용사로 선정됐다."
+    },
+    "sources": [
+      { "url": "https://premierpartners.co.kr/kr/about-premier-partners/", "title": "COMPANY - PREMIER PARTNERS", "publisher": "Premier Partners", "accessed": "undefined", "supports": "Existence, founded 2005, LLC-type fund manager, VC+growth capital" },
+      { "url": "https://premierpartners.co.kr/kr/team-2/", "title": "TEAM - PREMIER PARTNERS", "publisher": "Premier Partners", "accessed": "undefined", "supports": "Dedicated bio-healthcare investment professionals" },
+      { "url": "https://www.newspim.com/news/view/20260624000102", "title": "복지부, K-바이오·백신 7호 펀드 운용사에 '프리미어파트너스' 선정", "publisher": "Newspim", "accessed": "undefined", "supports": "Selected as GP of K-Bio·Vaccine Fund 7; target 2,000억원; 60%+ into pharma/vaccine/device/DTx/ICT-health" },
+      { "url": "https://biz.heraldcorp.com/article/10785898", "title": "K-바이오·백신 7호 펀드 운용사에 '프리미어파트너스' 최종 선정", "publisher": "Herald Business", "accessed": "undefined", "supports": "GP selection; ~200 billion won target fund" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Premier Partners is a generalist VC/growth manager with a dedicated bio-healthcare team rather than a pure biotech shop; included for its bio-healthcare practice and K-Bio·Vaccine Fund 7 mandate. AUM '1.5조원 이상' from secondary summary; K-Bio·Vaccine 7 fund formation target 2,000억원.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-daedeok-venture-partners",
+    "name": { "en": "Daedeok Venture Partners", "local": "대덕벤처파트너스" },
+    "aka": ["대덕벤처파트너스", "DVP", "Daeduk Venture Partners"],
+    "type": "vc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Daejeon",
+    "offices": [{ "country": "South Korea", "city": "Daejeon" }],
+    "website": "http://dvpdvp.cafe24.com/",
+    "links": {
+      "other": ["https://thevc.kr/daedeokventurepartners", "https://www.jointips.or.kr/bbs/board.php?bo_table=partner&wr_id=67", "https://www.rocketpunch.com/companies/dvp"]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Daejeon (Daedeok cluster)-based early-stage VC and TIPS operator investing in ICT-convergence, bio-healthcare and materials; a large share of its ~46 portfolio companies are bio/medical, pharmaceutical and medical-material startups."
+    },
+    "lifesci": {
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 46
+    },
+    "summary": {
+      "en": "Daejeon-based early-stage VC and TIPS operator rooted in the Daedeok research cluster, investing in bio-healthcare, ICT-convergence and materials; many of its ~46 portfolio companies are bio/medical and pharmaceutical startups.",
+      "local": "대전 대덕 연구단지 기반 초기 투자 VC이자 TIPS 운영사로, 바이오·헬스케어·ICT융합에 투자하며 포트폴리오 46개사 중 상당수가 바이오·의료·제약 스타트업이다."
+    },
+    "sources": [
+      { "url": "http://dvpdvp.cafe24.com/", "title": "대덕벤처파트너스 공식 홈페이지", "publisher": "Daedeok Venture Partners", "accessed": "undefined", "supports": "Existence, Daejeon base, bio-healthcare among focus sectors" },
+      { "url": "https://www.jointips.or.kr/bbs/board.php?bo_table=partner&wr_id=67", "title": "대덕벤처파트너스 - TIPS 운영사", "publisher": "TIPS", "accessed": "undefined", "supports": "TIPS operator status" },
+      { "url": "https://thevc.kr/daedeokventurepartners/portfolios", "title": "대덕벤처파트너스 - 투자 포트폴리오 기업 46개사", "publisher": "THE VC", "accessed": "undefined", "supports": "46 portfolio companies", "quote": "투자 포트폴리오 기업 46개사" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Daejeon/Daedeok-cluster regional VC with multi-sector focus (ICT-convergence, bio-healthcare, semiconductor/materials); included for its substantial bio/medical/pharma portfolio. Founding year not confirmed. TIPS operator.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-ckd-venture-capital",
+    "name": { "en": "CKD Venture Capital", "local": "씨케이디창업투자" },
+    "aka": ["CKD창업투자", "씨케이디창업투자", "Chong Kun Dang Venture Capital"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 1997,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "http://www.ckdvc.co.kr/",
+    "links": {
+      "other": ["https://thevc.kr/ckdventurecapital", "http://www.ckdpharm.com/family/familyInfo_invest.do"]
+    },
+    "capital": {
+      "funds": [
+        { "name": "Smart CKD Bio-Healthcare 1st Venture Investment Syndicate (스마트 CKD 바이오-헬스케어 1호)", "vintage_year": 2021, "size": { "raw": "52억원", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "diagnostics", "healthcare-services"],
+      "thesis": "Corporate VC of Chong Kun Dang (CKD) pharma group and Korea's first VC founded by a domestic pharmaceutical manufacturer (1997); aims to be a leading bio-specialized VC, recently backing CNS/brain-disease new-drug developers."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "indications": ["neurology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "FirstBioTherapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Senix Biotech", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Corporate VC of Chong Kun Dang pharma group, established in 1997 as Korea's first VC founded by a domestic drugmaker; focuses on biotech and recently made ~5 billion won of Series investments in brain-disease new-drug developers (FirstBioTherapeutics, Senix Biotech).",
+      "local": "종근당 계열 기업형 VC로 1997년 국내 제약사가 설립한 최초의 창업투자회사이며, 최근 뇌질환 신약 개발사에 집중 투자했다."
+    },
+    "sources": [
+      { "url": "http://www.ckdpharm.com/family/familyInfo_invest.do", "title": "CKD Venture Capital - 종근당 패밀리", "publisher": "Chong Kun Dang", "accessed": "undefined", "supports": "CKD group corporate VC" },
+      { "url": "https://www.asiae.co.kr/article/2023041918291447294", "title": "늘어나는 제약사 벤처캐피탈…바이오벤처 투자 마중물 기대", "publisher": "Asia Economy", "accessed": "undefined", "supports": "Founded 1997; Korea's first pharma-founded VC; bio-specialist ambition" },
+      { "url": "https://www.dailymedi.com/news/news_view.php?wr_id=936033", "title": "종근당 CKD창업투자, 뇌질환 신약 개발사 잇단 투자", "publisher": "DailyMedi", "accessed": "undefined", "supports": "CNS/brain-disease new-drug investments (FirstBioTherapeutics, Senix Biotech)" },
+      { "url": "https://www.thebell.co.kr/front/newsview.asp?key=202508181639596480106719", "title": "CKD창업투자, 4년만에 바이오펀드 도전장", "publisher": "The Bell", "accessed": "undefined", "supports": "Bio fund activity; Smart CKD Bio-Healthcare syndicate" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 1997 as Korea's first pharma-founded VC per Asia Economy; corporate VC of Chong Kun Dang. Fund size (52억) for Smart CKD Bio-Healthcare 1st from secondary press. Investment figures (~5 billion won into FirstBio/Senix) from DailyMedi.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-daewoong-investment",
+    "name": { "en": "Daewoong Investment", "local": "대웅인베스트먼트" },
+    "aka": ["대웅인베스트먼트"],
+    "type": "cvc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "https://thevc.kr/daewoonginvestment",
+    "links": {
+      "other": ["https://thevc.kr/daewoonginvestment", "https://www.jointips.or.kr/bbs/board.php?bo_table=partner&wr_id=105"]
+    },
+    "capital": {
+      "funds": [
+        { "name": "Daewoong Investment Bio Investment Association No. 1", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "digital-health", "ai-drug-discovery"],
+      "thesis": "Corporate VC of Daewoong Pharmaceutical and the only TIPS operator among Korean drugmakers; invests in synthetic drugs, cell/gene therapy, antibody therapeutics, bio-convergence and AI, and runs incubation/accelerating programs for bio startups."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "cell-therapy", "gene-therapy", "biologics-antibody"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "Corporate VC of Daewoong Pharmaceutical and a TIPS operator, investing in new-drug modalities (synthetic drugs, cell/gene therapy, antibodies), bio-convergence and AI, plus incubation/accelerating programs for bio startups.",
+      "local": "대웅제약 계열 기업형 VC이자 TIPS 운영사로, 합성신약·세포/유전자치료·항체치료 등 신약 모달리티와 바이오 융합·AI에 투자하고 바이오 스타트업 인큐베이팅/액셀러레이팅을 운영한다."
+    },
+    "sources": [
+      { "url": "https://www.jointips.or.kr/bbs/board.php?bo_table=partner&wr_id=105", "title": "대웅제약 - TIPS 운영기관", "publisher": "TIPS", "accessed": "undefined", "supports": "Daewoong as TIPS operator" },
+      { "url": "https://thevc.kr/daewoonginvestment", "title": "대웅인베스트먼트 - THE VC", "publisher": "THE VC", "accessed": "undefined", "supports": "Company profile, life-sciences focus" },
+      { "url": "https://pitchbook.com/profiles/fund/24868-90F", "title": "Daewoong Investment Bio Investment Association No. 1", "publisher": "PitchBook", "accessed": "undefined", "supports": "Existence of dedicated bio fund" },
+      { "url": "https://www.venturesquare.net/994324", "title": "홍릉강소특구, 2024년 포스트팁스 선정기업 대상 '제1차 종합IR'", "publisher": "Venture Square", "accessed": "undefined", "supports": "Participation in Post-TIPS among 17 VC/CVC institutions" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Corporate VC of Daewoong Pharmaceutical; described as the only TIPS operator among domestic drugmakers. Uses THE VC profile as canonical page (dedicated standalone website not confirmed). Founding year and fund size not confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-medytox-venture-investment",
+    "name": { "en": "Medytox Venture Investment", "local": "메디톡스벤처투자" },
+    "aka": ["메디톡스벤처투자", "MedytoxVenture", "MeditoxVC"],
+    "type": "cvc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "http://medytoxventure.com/",
+    "links": {
+      "other": ["https://thevc.kr/medytoxventureinvestment", "https://pitchbook.com/profiles/investor/481294-90"]
+    },
+    "capital": {
+      "funds": [
+        { "name": "Medytox Investment Combination Fund No. 1 (메디톡스 투자조합 1호)", "vintage_year": 2019, "size": { "raw": "30억원", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "diagnostics"],
+      "thesis": "Corporate VC of biopharma company Medytox (botulinum toxin) and a TIPS operator, making seed/early investments in pharmaceutical and biotech startups within Medytox's ecosystem."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "Corporate VC of biopharma company Medytox, founded 2017 and a TIPS operator; makes seed and early-stage investments in pharma/biotech startups (e.g., Cellatherapeutics Bio), with its first fund (3 billion won) formed in 2019.",
+      "local": "바이오제약사 메디톡스의 기업형 VC(2017년 설립)이자 TIPS 운영사로, 제약·바이오 스타트업에 초기 투자한다."
+    },
+    "sources": [
+      { "url": "http://medytoxventure.com/", "title": "메디톡스벤처투자 공식 홈페이지", "publisher": "Medytox Venture Investment", "accessed": "undefined", "supports": "Existence, Medytox CVC, healthcare focus" },
+      { "url": "https://thevc.kr/medytoxventureinvestment", "title": "메디톡스벤처투자 - THE VC", "publisher": "THE VC", "accessed": "undefined", "supports": "Company profile, funds, investments" },
+      { "url": "https://pitchbook.com/profiles/investor/481294-90", "title": "Medytox Venture Investment - PitchBook", "publisher": "PitchBook", "accessed": "undefined", "supports": "Founded 2017, Medytox CVC, TIPS operator" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Corporate VC of Medytox; founded 2017, TIPS operator. First fund (Medytox Investment Combination Fund No. 1, 3 billion won) formed 2019 per secondary summary. Seed investment example: Cellatherapeutics Bio.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "kr-yuanta-investment",
+    "name": { "en": "Yuanta Investment (Korea)", "local": "유안타인베스트먼트" },
+    "aka": ["유안타인베스트먼트", "Yuanta Investment Korea"],
+    "type": "vc",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "offices": [{ "country": "South Korea", "city": "Seoul" }],
+    "website": "https://thevc.kr/yuantainvestment",
+    "links": {
+      "other": ["https://thevc.kr/yuantainvestment", "https://ko.wikipedia.org/wiki/유안타인베스트먼트"]
+    },
+    "capital": {
+      "funds": [
+        { "name": "K-Bio·Vaccine Fund No. 1 (K-바이오·백신 1호 펀드)", "vintage_year": 2023, "size": { "raw": "1,500억원", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Korean VC arm of Taiwan's Yuanta Financial Group; selected as GP of the government's flagship K-Bio·Vaccine Fund program (5,000억원), it successfully formed the 150 billion won No.1 fund and positions itself as a pivotal backer of domestic new-drug development and vaccine sovereignty."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "vaccines"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "Seoul VC affiliated with Taiwan's Yuanta Financial Group; a GP of the government's flagship K-Bio·Vaccine Fund program (~500 billion won), it formed the 150 billion won No.1 fund (2023) to back Korean new-drug developers and vaccines.",
+      "local": "대만 유안타금융그룹 계열 서울 VC로, 정부 K-바이오·백신 펀드(5,000억원 규모) 운용사로 선정돼 1호 펀드(1,500억원)를 결성, 국내 신약·백신 개발을 지원한다."
+    },
+    "sources": [
+      { "url": "https://ko.wikipedia.org/wiki/유안타인베스트먼트", "title": "유안타인베스트먼트 - 위키백과", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Yuanta Financial Group affiliate; K-Bio·Vaccine Fund GP; No.1 fund 150 billion won", "quote": "1500억 원 규모의 1호 펀드를 성공적으로 결성" },
+      { "url": "https://www.etoday.co.kr/news/view/2433592", "title": "정영관 유안타인베스트먼트 VC대표 \"K-바이오·백신펀드, 생태계 만드는 펀드\"", "publisher": "Etoday", "accessed": "undefined", "supports": "Dedicated bio-vaccine fund; VC head focused on K-Bio·Vaccine Fund" },
+      { "url": "https://www.mdtoday.co.kr/news/view/1065572033899427", "title": "씨엔알리서치-유안타인베스트먼트, K-바이오백신 펀드 협력", "publisher": "MDToday", "accessed": "undefined", "supports": "K-Bio·Vaccine Fund co-operation for new-drug/CRO ecosystem" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Yuanta Investment is the generalist VC arm of Yuanta Financial Group (Taiwan HQ); included here for its dedicated K-Bio·Vaccine Fund mandate (new-drug/vaccine). A tier1/generalist sibling slice may also cover it. K-Bio·Vaccine No.1 fund 150 billion won (2023) per Wikipedia/Etoday.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  }
+]

@@ -1,0 +1,739 @@
+[
+  {
+    "id": "anz-uniseed",
+    "name": { "en": "Uniseed" },
+    "aka": ["UniSeed"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2000,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "St Lucia, Queensland",
+    "capital": {
+      "funds": [
+        { "name": "Fund-1", "vintage_year": 2000, "size": { "raw": "$20,000,000 (initial joint-venture capital)", "usd": null, "currency": null } },
+        { "name": "Fund-2", "vintage_year": 2005, "size": { "raw": "$40,000,000", "usd": null, "currency": null } },
+        { "name": "Fund-3", "vintage_year": 2015, "size": { "raw": "$50,000,000", "usd": null, "currency": null } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "One of the world's oldest university venture funds, Uniseed is jointly owned by nine Australian universities (Melbourne, Queensland, UNSW, Sydney, Monash, UTS, Macquarie, Western Sydney, Newcastle) and CSIRO, providing pre-seed/seed capital to commercialise university research; its life-science portfolio spans medical devices and biotech such as ResusRight, a neonatal resuscitation monitor."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "small-molecule"],
+      "indications": []
+    },
+    "track_record": {
+      "portfolio_count": "79 investments (per CB Insights); a 2020s profile cites a 50-company portfolio",
+      "notable_investments": [
+        { "company": "ResusRight", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "PlasmaLeap Technologies", "sector": "therapeutics", "outcome": "active" },
+        { "company": "xCystence Bio", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Uniseed is an Australian university-owned pre-seed/seed venture fund (est. 2000, jointly held by nine universities and CSIRO) that has backed numerous medical-device and biotech spinouts, including the neonatal resuscitation monitor ResusRight."
+    },
+    "sources": [
+      {
+        "url": "https://www.cbinsights.com/investor/uniseed",
+        "title": "UniSeed Portfolio Investments, UniSeed Funds, UniSeed Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "founding, university/CSIRO ownership, portfolio count, recent investments",
+        "quote": "UniSeed is owned by nine Australian universities and government-owned lab CSIRO."
+      },
+      {
+        "url": "https://globalventuring.com/university/australia-university-venture-funds/",
+        "title": "Half of Australian universities have a spinout fund — ahead of US and Europe",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "founding year, fund sizes, Brandon BioCatalyst ecosystem context",
+        "quote": "Uniseed was established in October 2000 as a $20 million joint venture between the University of Melbourne (UM) and the University of Queensland (UQ)."
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/uniseed/__U8tmRI-Hm5COlWsmtR-g-FimOsWXwkasQclp8L-39ho",
+        "title": "Uniseed - 2026 Investor Profile, Portfolio, Team & Investment Trends",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "portfolio count, HQ location",
+        "quote": "Uniseed has a portfolio of 50 companies."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Portfolio-count figures conflict across secondary sources (79 vs 50); no official uniseed.com page was directly fetched for this record, so confidence is medium despite strong corroboration across three independent secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-ip-group-australia",
+    "name": { "en": "IP Group Australia" },
+    "aka": ["IP2IPO Australia VCLP"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://www.ipgroupanz.com/",
+    "capital": {
+      "funds": [
+        { "name": "IP2IPO Australia VCLP No 1 LP", "vintage_year": 2019, "size": { "raw": "$100 million total committed capital", "usd": null, "currency": null } }
+      ]
+    },
+    "strategy": {
+      "geo_focus": ["Australia", "New Zealand"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "IP Group Australia is the ANZ arm of UK-listed IP Group plc, holding formal commercialisation partnerships with nine leading Australian and New Zealand universities (incl. Melbourne, Sydney, UQ, UNSW, ANU, Monash, Adelaide, UWA, Auckland) to found and back life-science and deep-tech spinouts, with a healthtech-focused portfolio including therapeutics companies such as Atisama Therapeutics and Resseptor Therapeutics."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": []
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Atisama Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Resseptor Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "IP Group Australia is the Melbourne-based ANZ venture arm of UK-listed IP Group plc, partnered with nine Australian/NZ universities to commercialise research, with a life-sciences portfolio spanning therapeutics and healthtech."
+    },
+    "sources": [
+      {
+        "url": "https://www.ipgroupanz.com/",
+        "title": "IP Group Australia",
+        "publisher": "IP Group Australia",
+        "accessed": "undefined",
+        "supports": "investment focus, university partners, portfolio companies",
+        "quote": "IP Group partners with nine major Australian and New Zealand universities."
+      },
+      {
+        "url": "https://www.ipgroupanz.com/news/2017/2017-05-30",
+        "title": "IP Group plc - Commits A$200m in landmark deal with 9 leading universities in Australia and New Zealand",
+        "publisher": "IP Group Australia",
+        "accessed": "undefined",
+        "supports": "founding year, scale of university deal",
+        "quote": "Commits A$200m in landmark deal with 9 leading universities in Australia and New Zealand"
+      },
+      {
+        "url": "https://business.gov.au/grants-and-programs/venture-capital-limited-partnerships/customer-stories/ip-group",
+        "title": "IP Group Australia - building Australia's next leaders in technology",
+        "publisher": "business.gov.au",
+        "accessed": "undefined",
+        "supports": "VCLP fund size",
+        "quote": "IP2IPO Australia VCLP No 1 LP, a limited partnership founded in 2019, which has $100 million in total committed capital and has made 14 investments in Australia to date."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Ultimate parent IP Group plc is UK-headquartered (London); this entry covers only its dedicated ANZ university-partnership arm/fund, which is legitimately Australia-based (Melbourne office, ANZ-only VCLP).",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-brandon-biocatalyst",
+    "name": { "en": "Brandon BioCatalyst" },
+    "aka": ["Medical Research Commercialisation Fund (MRCF)", "MRCF"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://brandonbiocatalyst.com/",
+    "capital": {
+      "aum": { "raw": "over $800 million", "usd": null, "currency": null },
+      "funds": [
+        { "name": "Brandon Capital Fund VI", "vintage_year": 2024, "size": { "raw": "A$270 million (US$180 million) initial close", "usd": 180000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "geo_focus": ["Australia", "New Zealand", "United Kingdom", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "cell-gene-therapy"],
+      "thesis": "Brandon BioCatalyst (formerly the Medical Research Commercialisation Fund) is a unique collaboration of more than 50 Australian and New Zealand medical research institutes and research hospitals with Australian superannuation funds, CSL and government, giving its manager Brandon Capital first-look access to biomedical discoveries which it translates into venture-backed companies."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "indications": ["oncology"],
+      "company_creation": true,
+      "science_platform_notes": "Runs the CUREator pre-clinical/clinical incubator; members include 50+ Australian and New Zealand medical research institutes and hospitals that provide first access to emerging discoveries."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Que Oncology", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Brandon BioCatalyst (the rebranded Medical Research Commercialisation Fund) is Australia and New Zealand's largest life-science venture collaboration, linking 50+ medical research institutes and hospitals to superannuation and government capital, managed by Brandon Capital, which has grown from an original $30m fund to over $800m under management."
+    },
+    "sources": [
+      {
+        "url": "https://brandonbiocatalyst.com/",
+        "title": "Brandon BioCatalyst – the Australasian life science collaboration",
+        "publisher": "Brandon BioCatalyst",
+        "accessed": "undefined",
+        "supports": "member count, investment focus, incubator",
+        "quote": "more than 50 leading medical research institutes and research hospitals"
+      },
+      {
+        "url": "https://brandonbiocatalyst.com/2022/03/09/medical-research-commercialisation-fund-mrcf-renamed-brandon-biocatalyst/",
+        "title": "Medical Research Commercialisation Fund (MRCF) renamed Brandon BioCatalyst",
+        "publisher": "Brandon BioCatalyst",
+        "accessed": "undefined",
+        "supports": "rename/aka, founding by Chris Nave, Stephen Thompson, David Fisher in 2007",
+        "quote": "Brandon Capital and the MRCF were founded by Chris Nave, Stephen Thompson and David Fisher in 2007 in Melbourne"
+      },
+      {
+        "url": "https://www.globenewswire.com/news-release/2024/06/03/2892676/0/en/Brandon-Capital-Announces-Sixth-Fund-with-A-270-million-US-180-million-Initial-Close-to-Drive-Life-Science-Innovation.html",
+        "title": "Brandon Capital Announces Sixth Fund with A$270 million (US$180 million) Initial Close",
+        "publisher": "GlobeNewswire",
+        "accessed": "undefined",
+        "supports": "Fund VI size",
+        "quote": "Brandon Capital Announces Sixth Fund with A$270 million (US$180 million) Initial Close to Drive Life Science Innovation"
+      },
+      {
+        "url": "https://biotechdispatch.com.au/news/rebrand-for-australias-largest-life-sciences-venture-fund",
+        "title": "Rebrand for Australia's largest life sciences venture fund",
+        "publisher": "Biotech Dispatch",
+        "accessed": "undefined",
+        "supports": "AUM growth from $30m to $800m+",
+        "quote": "From an original fund of $30m, funds under management have expanded to over $800m."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Legally, funds under the Brandon BioCatalyst brand are managed by Brandon Capital, a professional VC manager; the entity is included here because its structural identity is a membership collaboration of medical research institutes/hospitals across Australia and New Zealand (the defining feature of this segment), analogous to Uniseed's university-consortium model.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-wehi-ventures",
+    "name": { "en": "WEHI Ventures" },
+    "aka": ["66ten", "66ten Fund"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne (Parkville)",
+    "website": "https://www.wehi.edu.au/business-development-and-ventures/wehi-ventures-and-66ten/",
+    "capital": {
+      "current_fund": { "raw": "$66 million over 10 years", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery"],
+      "thesis": "WEHI Ventures manages 66ten, the largest internal pre-seed/seed fund created by an Australian medical research institute, reinvesting royalties from WEHI's blockbuster cancer drug venetoclax into new biomedical spinouts and programs originating from WEHI (Walter and Eliza Hall Institute of Medical Research) discoveries."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["oncology", "immunology-inflammation", "infectious-disease"],
+      "company_creation": true,
+      "science_platform_notes": "Fund is dedicated exclusively to IP developed at or in collaboration with WEHI, an Australian medical research institute; funded substantially through venetoclax royalties."
+    },
+    "summary": {
+      "en": "WEHI Ventures runs 66ten, a $66 million, 10-year pre-seed/seed fund launched in 2023 by the Walter and Eliza Hall Institute of Medical Research (WEHI) to commercialise its own cancer, immunology and infectious-disease discoveries."
+    },
+    "sources": [
+      {
+        "url": "https://www.wehi.edu.au/business-development-and-ventures/wehi-ventures-and-66ten/",
+        "title": "WEHI Ventures and 66ten",
+        "publisher": "WEHI",
+        "accessed": "undefined",
+        "supports": "fund size, launch, focus",
+        "quote": "$66 million in 10 years: groundbreaking strategic investment fund to drive biomedical innovation"
+      },
+      {
+        "url": "https://www.wehi.edu.au/news/66-million-in-10-years-groundbreaking-strategic-investment-fund/",
+        "title": "$66 million in 10 years: groundbreaking strategic investment fund to drive biomedical innovation",
+        "publisher": "WEHI",
+        "accessed": "undefined",
+        "supports": "fund description as largest internal pre-seed/seed fund at an Australian MRI",
+        "quote": "the largest internal pre-seed and seed fund created by an Australian medical research institute"
+      },
+      {
+        "url": "https://www.startupdaily.net/topic/venture-capital/a-new-66-million-vc-fund-is-looking-to-seed-medtech-startups/",
+        "title": "A new $66 million VC fund is looking to seed medtech startups",
+        "publisher": "Startup Daily",
+        "accessed": "undefined",
+        "supports": "venetoclax royalty funding source",
+        "quote": "Funded largely through royalties from the blockbuster cancer drug venetoclax"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "WEHI Ventures commenced operations in July 2023; 66ten is its flagship fund.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-tin-alley-ventures",
+    "name": { "en": "Tin Alley Ventures" },
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://www.tinalleyventures.com/about",
+    "capital": {
+      "current_fund": { "raw": "$100 million", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "check_size": { "raw": "A$500,000 to several million dollars", "usd_min": 500000, "usd_max": null },
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Tin Alley Ventures is a $100 million joint venture between the University of Melbourne and Tanarra Capital that invests from seed through pre-IPO in globally competitive spinouts founded by University of Melbourne researchers, students and alumni, with life sciences (incl. precision medicine and biotech) as a primary focus alongside hardware and software."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": []
+    },
+    "summary": {
+      "en": "Tin Alley Ventures is the University of Melbourne's $100 million seed-to-pre-IPO venture fund (managed jointly with Tanarra Capital, launched 2022), with life sciences — including precision medicine and biotech spinouts — as one of its core investment disciplines."
+    },
+    "sources": [
+      {
+        "url": "https://www.tinalleyventures.com/about",
+        "title": "About - Tin Alley Ventures",
+        "publisher": "Tin Alley Ventures",
+        "accessed": "undefined",
+        "supports": "founding year, fund structure, check size, sector focus",
+        "quote": "Joint venture between the University of Melbourne and Tanarra Capital"
+      },
+      {
+        "url": "https://www.melbconnect.com.au/discovery/uom-announces-investment-fund",
+        "title": "Melbourne Connect | Tin Alley Ventures Launch",
+        "publisher": "Melbourne Connect",
+        "accessed": "undefined",
+        "supports": "fund size, University of Melbourne contribution",
+        "quote": "The $100 million Tin Alley Ventures Fund is led by Tanarra Capital, with the University of Melbourne contributing $25 million"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Works alongside the University of Melbourne Genesis Pre-Seed Fund ($15m, co-managed by Breakthrough Victoria and Tanarra Capital) as an earlier-stage feeder; Genesis was not entered separately as it is co-owned by a state government fund (Breakthrough Victoria), which falls under the sibling government-program slice.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-university-of-sydney-pre-seed-fund",
+    "name": { "en": "University of Sydney Pre-Seed Fund" },
+    "aka": ["University of Sydney Commercialisation Fund", "Pre-Seed Launch Fund"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "founded_year": 2025,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Sydney",
+    "website": "https://www.sydney.edu.au/engage/innovation-and-enterprise/pre-seed-fund.html",
+    "capital": {
+      "current_fund": { "raw": "$25 million", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["pre-seed"],
+      "check_size": { "raw": "up to $500,000", "usd_min": null, "usd_max": 500000 },
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "A $25 million pre-seed fund created to bridge the gap between proof-of-concept research funding and private venture capital for University of Sydney staff, students and alumni, explicitly targeting novel pharmaceuticals and medical devices alongside other deep-tech categories; backed spinout EndoAxiom is developing an oral insulin pill for type 1 diabetes."
+    },
+    "lifesci": {
+      "modalities": ["drug-delivery", "small-molecule", "medical-hardware"],
+      "indications": ["metabolic-obesity"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "EndoAxiom", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The University of Sydney's $25 million Pre-Seed Fund (launched 2025, evolved from an earlier $15m Commercialisation Fund) invests up to $500,000 in research-led spinouts including medical devices and novel drugs, such as oral-insulin developer EndoAxiom."
+    },
+    "sources": [
+      {
+        "url": "https://www.sydney.edu.au/engage/innovation-and-enterprise/pre-seed-fund.html",
+        "title": "Pre-seed fund - The University of Sydney",
+        "publisher": "University of Sydney",
+        "accessed": "undefined",
+        "supports": "check size, focus areas",
+        "quote": "up to $500,000... novel pharmaceuticals, medical devices, engineering hardware, clean technologies"
+      },
+      {
+        "url": "https://www.innovationaus.com/sydney-uni-hunts-startups-with-state-first-25m-pre-seed-fund/",
+        "title": "Sydney Uni hunts startups with state first $25m pre-seed fund",
+        "publisher": "InnovationAus",
+        "accessed": "undefined",
+        "supports": "fund size, launch framing",
+        "quote": "The University of Sydney created a $25 million Pre-Seed Launch Fund to bring more of its pioneering health and technology research to market."
+      },
+      {
+        "url": "https://globalventuring.com/university/university/university-of-sydney-launches-15m-spinout-fund/",
+        "title": "University of Sydney launches $15m spinout fund",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "earlier $15m Commercialisation Fund predecessor",
+        "quote": "University of Sydney launches $15m spinout fund"
+      },
+      {
+        "url": "https://www.sydney.edu.au/news-opinion/news/2025/04/08/pre-seed-launch-fund.html",
+        "title": "Pre-seed Launch fund",
+        "publisher": "University of Sydney",
+        "accessed": "undefined",
+        "supports": "notable spinout EndoAxiom",
+        "quote": "EndoAxiom, a life sciences spinout founded by Professor Victoria Cogger, Professor David Le Couteur and Dr Nicholas Hunt, is developing an oral pill for type one diabetes."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "The fund's naming has evolved over time (an earlier $15m 'University of Sydney Commercialisation Fund' preceded the current $25m 'Pre-Seed Fund'/'Pre-Seed Launch Fund'); treated as one continuous entity given the same institutional owner.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-uniquest",
+    "name": { "en": "UniQuest" },
+    "aka": ["UniQuest Extension Fund", "UEF"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "founded_year": 1984,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Brisbane",
+    "website": "https://uniquest.com.au/",
+    "capital": {
+      "current_fund": { "raw": "$32 million (UniQuest Extension Fund)", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["surgical-robotics", "therapeutics", "medtech-devices"],
+      "thesis": "UniQuest is the University of Queensland's commercialisation company (est. 1984, technology transfer behind the HPV vaccine Gardasil), which since 2023-24 has also deployed a $32 million UniQuest Extension Fund investing in staff/student/alumni startups including medtech such as arthroscopic surgical robotics developer Convergence Medical."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "small-molecule"],
+      "indications": []
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Convergence Medical", "sector": "surgical-robotics", "outcome": "active" },
+        { "company": "Curlew Bio", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "UniQuest, the University of Queensland's technology-transfer company since 1984 (behind Gardasil's commercialisation), now also runs the $32 million UniQuest Extension Fund backing UQ medtech and biotech spinouts such as surgical-robotics company Convergence Medical."
+    },
+    "sources": [
+      {
+        "url": "https://uniquest.com.au/32m-uq-investment-fund/",
+        "title": "$32m UQ investment fund champions start-ups",
+        "publisher": "UniQuest",
+        "accessed": "undefined",
+        "supports": "fund size, notable investments",
+        "quote": "The UniQuest Extension Fund (UEF) is a $32 million venture capital fund established by the University of Queensland to support startups."
+      },
+      {
+        "url": "https://uniquest.com.au/wp-content/uploads/2023/09/Extension-Fund-Brochure-Investees-FINAL.pdf",
+        "title": "The UniQuest Extension Fund Supporting the growth of UQ's...",
+        "publisher": "UniQuest",
+        "accessed": "undefined",
+        "supports": "fund investees list"
+      },
+      {
+        "url": "https://www.uq.edu.au/news/article/2025/03/uq-biotech-innovation-partnership-forges-second-startup",
+        "title": "UQ biotech innovation partnership forges a second startup",
+        "publisher": "UQ News",
+        "accessed": "undefined",
+        "supports": "Curlew Bio investment, biotech focus"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "UniQuest founded 1984 as UQ's TTO; the Extension Fund is a more recent (c. 2023) equity-investment vehicle layered onto the long-running commercialisation company.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-monash-ventures",
+    "name": { "en": "Monash Ventures" },
+    "aka": ["Monash Ventures Pre-Seed Fund"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://www.monash.edu/monash-innovation/news/introducing-monash-ventures-the-venture-and-investment-arm-of-monash-university",
+    "capital": {
+      "current_fund": { "raw": "$15 million", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["pre-seed"],
+      "check_size": { "raw": "up to $1 million per company", "usd_min": null, "usd_max": 1000000 },
+      "geo_focus": ["Australia"],
+      "sector_focus": ["digital-health", "therapeutics", "medtech-devices"],
+      "thesis": "Monash Ventures is Monash University's venture and investment arm, co-developed with the Victorian state innovation fund Breakthrough Victoria as a $15 million pre-seed fund for Monash research spinouts; health-tech has been an early focus, with three Monash health-tech startups collectively receiving $2.25 million in its first backing round."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "digital-therapeutics"],
+      "indications": []
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Monash Ventures is Monash University's investment arm, running a $15 million pre-seed fund (with Breakthrough Victoria) that has already backed multiple health-tech spinouts from Monash research."
+    },
+    "sources": [
+      {
+        "url": "https://www.monash.edu/monash-innovation/news/introducing-monash-ventures-the-venture-and-investment-arm-of-monash-university",
+        "title": "Introducing Monash Ventures – the venture and investment arm of Monash University",
+        "publisher": "Monash Innovation",
+        "accessed": "undefined",
+        "supports": "entity description",
+        "quote": "the venture and investment arm of Monash University"
+      },
+      {
+        "url": "https://breakthroughvictoria.com/media-releases/monash-ventures-pre-seed-fund/",
+        "title": "Monash Ventures Pre-Seed Fund",
+        "publisher": "Breakthrough Victoria",
+        "accessed": "undefined",
+        "supports": "fund size, check size",
+        "quote": "Monash University and Breakthrough Victoria developed a $15 million Monash Ventures Pre-Seed Fund... up to $1 million per company"
+      },
+      {
+        "url": "https://www.startupdaily.net/topic/funding/3-monash-university-health-tech-startups-score-2-25-million-in-pre-seed-backing-supported-by-breakthrough-victoria/",
+        "title": "3 Monash University health tech startups score $2.25 million in pre-Seed backing",
+        "publisher": "Startup Daily",
+        "accessed": "undefined",
+        "supports": "health-tech investment example",
+        "quote": "3 Monash University health tech startups score $2.25 million in pre-Seed backing, supported by Breakthrough Victoria"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Co-funded with Breakthrough Victoria (a Victorian state government innovation fund); included here as a university-initiated vehicle since Monash University is the founding/naming partner, but note the state-government co-investment for cross-slice awareness. Exact founding year not confirmed from sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-auckland-uniservices-inventors-fund",
+    "name": { "en": "University of Auckland Inventors' Fund (UniServices)" },
+    "aka": ["Auckland UniServices Inventors' Fund"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "website": "https://www.uniservices.co.nz/what-we-do/investing-and-partnering/inventors-fund",
+    "capital": {
+      "current_fund": { "raw": "$40 million", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["New Zealand"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "The Inventors' Fund is a $40 million pre-seed/seed investment vehicle set up by Auckland UniServices (the University of Auckland's commercialisation company) to convert University of Auckland research — including from its Faculty of Medical and Health Sciences and Liggins Institute — into companies; the University of Auckland is one of only three NZ universities with direct access to the trans-Tasman Brandon BioCatalyst life-science fund."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": []
+    },
+    "summary": {
+      "en": "Auckland UniServices' $40 million Inventors' Fund provides pre-seed/seed capital to turn University of Auckland research — including biomedical discoveries — into startup companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.uniservices.co.nz/what-we-do/investing-and-partnering/inventors-fund",
+        "title": "University of Auckland Inventors' Fund - UniServices",
+        "publisher": "Auckland UniServices",
+        "accessed": "undefined",
+        "supports": "fund existence, size, purpose",
+        "quote": "the University of Auckland Inventors' Fund, a $40 million pre-seed and seed investment fund to transform University research into companies"
+      },
+      {
+        "url": "https://globalventuring.com/university/australia-university-venture-funds/",
+        "title": "Half of Australian universities have a spinout fund — ahead of US and Europe",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "Brandon BioCatalyst access among 3 NZ universities",
+        "quote": "Three of the country's eight universities have access to the Brandon BioCatalyst Fund — the University of Auckland, the University of Otago and Victoria University of Wellington."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund description was drawn from the UniServices page title/URL and a corroborating secondary source; not independently re-fetched in full due to research budget. Sector focus is broad (all research areas), with medical/health as a major but not exclusive vertical.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-wellington-univentures",
+    "name": { "en": "Wellington UniVentures" },
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Wellington",
+    "website": "https://www.wellingtonuniventures.nz/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["New Zealand"],
+      "sector_focus": ["generalist-health", "therapeutics"],
+      "thesis": "Wellington UniVentures is Te Herenga Waka—Victoria University of Wellington's commercialisation company, converting university research into for-profit ventures; it is one of only three New Zealand universities with direct access to the Brandon BioCatalyst life-science fund and co-runs the NZ Innovation Booster with Booster Financial Services, which has invested over $6.5 million across ten deep-tech (including biotech) spinouts."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": []
+    },
+    "summary": {
+      "en": "Wellington UniVentures is Victoria University of Wellington's research-commercialisation and investment company, with biomedical spinout access via Brandon BioCatalyst and its NZ Innovation Booster co-investment partnership with Booster Financial Services."
+    },
+    "sources": [
+      {
+        "url": "https://www.wellingtonuniventures.nz/",
+        "title": "Wellington UniVentures",
+        "publisher": "Wellington UniVentures",
+        "accessed": "undefined",
+        "supports": "entity description"
+      },
+      {
+        "url": "https://nzentrepreneur.co.nz/wellington-univentures-is-giving-startups-from-university-research-a-better-chance-of-success/",
+        "title": "Wellington UniVentures is giving startups from university research a better chance of success",
+        "publisher": "NZ Entrepreneur Magazine",
+        "accessed": "undefined",
+        "supports": "NZ Innovation Booster investment figures",
+        "quote": "Booster invests up to $2m a year in new University startups, and so far, the partnership has invested over $6.5m across ten deep-tech spinouts from Wellington UniVentures."
+      },
+      {
+        "url": "https://globalventuring.com/university/australia-university-venture-funds/",
+        "title": "Half of Australian universities have a spinout fund — ahead of US and Europe",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "Brandon BioCatalyst access",
+        "quote": "Three of the country's eight universities have access to the Brandon BioCatalyst Fund — the University of Auckland, the University of Otago and Victoria University of Wellington."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Broad deep-tech/all-sector mandate; medical/biomedical nexus verified via Brandon BioCatalyst membership and biotech-conference presence (LinkedIn 'Bio2024' post) rather than a dedicated health-only fund.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-otago-innovation",
+    "name": { "en": "Otago Innovation Limited" },
+    "aka": ["OIL"],
+    "type": "university-hospital-fund",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Dunedin",
+    "website": "https://www.otago.ac.nz/proof-of-concept/",
+    "strategy": {
+      "stages": ["pre-seed"],
+      "geo_focus": ["New Zealand"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Otago Innovation Limited is the wholly owned commercialisation company of the University of Otago — home to New Zealand's largest medical school — responsible for maximising the commercial value of University research (including biomedical discoveries), running an annual NZ$100,000 Proof of Concept Grant competition and co-managing spinout equity; Otago is one of three NZ universities with direct access to the Brandon BioCatalyst life-science fund."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": []
+    },
+    "summary": {
+      "en": "Otago Innovation Limited is the University of Otago's commercialisation company, providing Proof of Concept grant funding (NZ$100,000/year) and equity support to research spinouts, with biomedical research from Otago's medical school (NZ's largest) among its core dealflow."
+    },
+    "sources": [
+      {
+        "url": "https://www.otago.ac.nz/proof-of-concept/",
+        "title": "Proof Of Concept Grant, Otago Innovation | University of Otago",
+        "publisher": "University of Otago",
+        "accessed": "undefined",
+        "supports": "grant program, role of Otago Innovation",
+        "quote": "OIL runs a NZ$100,000 Proof of Concept Grant competition annually."
+      },
+      {
+        "url": "https://biotech.org.nz/d/OtagoInnovationLimited/",
+        "title": "Otago Innovation Limited company profile",
+        "publisher": "NZBio",
+        "accessed": "undefined",
+        "supports": "existence/classification as biotech-relevant commercialisation company"
+      },
+      {
+        "url": "https://globalventuring.com/university/australia-university-venture-funds/",
+        "title": "Half of Australian universities have a spinout fund — ahead of US and Europe",
+        "publisher": "Global Venturing",
+        "accessed": "undefined",
+        "supports": "Brandon BioCatalyst access",
+        "quote": "Three of the country's eight universities have access to the Brandon BioCatalyst Fund — the University of Auckland, the University of Otago and Victoria University of Wellington."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Otago Innovation's activity is closer to a TTO plus Proof-of-Concept grant scheme than a traditional equity fund; included as it is the University of Otago's dedicated commercialisation/investment vehicle and Otago has NZ's largest medical school. A separately reported '$14m invested in world-leading RNA therapy' Otago spinout was not clearly attributable to Otago Innovation itself (likely co-investors such as Brandon BioCatalyst/other VCs), so that figure was not included as a track-record claim.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "anz-main-sequence",
+    "name": { "en": "Main Sequence" },
+    "aka": ["Main Sequence Ventures", "CSIRO Innovation Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc", "venture-studio"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Sydney",
+    "website": "https://www.mseq.vc/",
+    "capital": {
+      "aum": { "raw": "over $1 billion in total funds under management", "usd": null, "currency": null },
+      "funds": [
+        { "name": "CSIRO Innovation Fund 1", "vintage_year": 2017, "size": { "raw": "$240 million", "usd": null, "currency": null } },
+        { "name": "Fund 3", "vintage_year": 2023, "size": { "raw": "$450 million", "usd": null, "currency": null } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "Main Sequence was founded by Australia's national science agency CSIRO in 2017 to bridge the 'valley of death' between publicly funded R&D and commercialisation, investing in and co-founding deep-tech spinouts across health, food, space, transport, security and decarbonisation; health is one of its explicit core verticals, spanning biotech and medtech spinouts connected to CSIRO and 28 Australian universities."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Draws dealflow from CSIRO's own research plus 28 partner Australian universities; co-founds companies rather than purely investing passively."
+    },
+    "track_record": {
+      "portfolio_count": "51 companies (across CSIRO Innovation Funds 1 & 2 since 2017)"
+    },
+    "summary": {
+      "en": "Main Sequence is the venture capital firm founded by CSIRO in 2017 to commercialise Australian publicly funded research (CSIRO plus 28 universities); health is one of its core investment verticals alongside food, space, transport, security and decarbonisation, and it has surpassed $1 billion in funds under management."
+    },
+    "sources": [
+      {
+        "url": "https://www.mseq.vc/about",
+        "title": "Introducing Main Sequence",
+        "publisher": "Main Sequence",
+        "accessed": "undefined",
+        "supports": "founding, mission, sector verticals",
+        "quote": "Main Sequence was founded by CSIRO in 2017 to address the 'valley of death' between research and commercialisation."
+      },
+      {
+        "url": "https://www.csiro.au/en/news/all/news/2023/july/main-sequence-third-fund",
+        "title": "Main Sequence surpasses $1 billion funds under management for deep tech as it launches new Fund",
+        "publisher": "CSIRO",
+        "accessed": "undefined",
+        "supports": "AUM, Fund 3 size, university count",
+        "quote": "Fund 3 has raised $450 million, surpassing $1 billion in total funds under management."
+      },
+      {
+        "url": "https://biotechdispatch.com.au/news/nine-companies-so-far-benefited-from-csiro-innovation-fund",
+        "title": "Nine companies so far have benefited from CSIRO Innovation Fund",
+        "publisher": "Biotech Dispatch",
+        "accessed": "undefined",
+        "supports": "CSIRO Innovation Fund 1 size and portfolio count",
+        "quote": "The $240 million first CSIRO Innovation Fund, built on a cornerstone investment by government and CSIRO has completed its portfolio and invested in 27 companies since establishment in 2017."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Main Sequence's cornerstone capital combines CSIRO (a national research institute) with government investment, so it sits at the boundary between this university/research-institute slice and the sibling government-program slice; included here per the task's explicit anchor list since CSIRO — a research institute — is the naming/founding LP. Health is one of several sector verticals (not health-exclusive), reflected via the generalist-health sector tag.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  }
+]

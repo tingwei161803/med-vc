@@ -1,0 +1,699 @@
+[
+  {
+    "id": "il-trendlines-group",
+    "name": { "en": "The Trendlines Group" },
+    "type": "incubator",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 1993,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Misgav",
+    "offices": [{ "country": "Singapore", "city": "Singapore" }],
+    "website": "https://www.trendlines.com/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/trendlines-group" },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel", "Singapore", "Global"],
+      "sector_focus": ["medtech-devices", "life-science-tools"],
+      "thesis": "Israel/Singapore-based investment group that invents, discovers, invests in, and incubates early-stage medical device innovations through its government-franchised Trendlines Medical incubator in Misgav (plus a parallel agrifood-technology practice), taking companies from seed to market."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": true,
+      "science_platform_notes": "Operates OCS/Israel Innovation Authority-franchised technology incubators (Trendlines Medical in Israel, Trendlines Medical Singapore) plus in-house innovation center Trendlines Labs."
+    },
+    "track_record": { "portfolio_count": "50+ (medical incubator cumulative)" },
+    "tags": ["incubator", "medical-device", "OCS-franchise"],
+    "summary": {
+      "en": "Publicly traded (SGX: 42T) Israeli-Singaporean investment group that discovers, invests in, and incubates early-stage medical device (and agrifood) innovations through government-franchised incubators."
+    },
+    "sources": [
+      {
+        "url": "https://www.trendlines.com/",
+        "title": "The Trendlines Group - Home",
+        "publisher": "Trendlines",
+        "accessed": "undefined",
+        "supports": "Company description, medtech + agrifood focus, seed-to-market model",
+        "quote": "We invest in innovations in agrifood and medtech, leveraging our experience, partnerships network, and resources to go from seed to market."
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/trendlines-group",
+        "title": "Trendlines Group - Crunchbase Company Profile & Funding",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founding year 1993, HQ Misgav, Israel",
+        "quote": "The company was founded in 1993 and is headquartered in Misgav, Israel."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/trendlines-medical-wins-israeli-government-technology-incubator-tender-528003511.html",
+        "title": "Trendlines Medical Wins Israeli Government Technology Incubator Tender",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "OCS/government incubator franchise for medical devices"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Publicly listed holding group with multiple medical + agrifood incubator/fund vehicles; medtech-specific portfolio count and current fund size not separately disclosed on public pages.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-triventures",
+    "name": { "en": "Triventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2010,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "offices": [{ "country": "United States" }, { "country": "Canada" }],
+    "website": "https://www.triventures.vc/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/triventures" },
+    "capital": { "aum": { "raw": "$100 million+" } },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel", "United States"],
+      "sector_focus": ["medtech-devices", "digital-health", "diagnostics"],
+      "thesis": "Health-and-tech investor rooted in medical devices and digital health, backing early-stage 'bio-convergence' companies with validated business models that transform their sectors."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "wearables-sensors"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "40+",
+      "notable_investments": [
+        { "company": "CathWorks", "sector": "medtech-devices", "outcome": "acquired (Medtronic, 2023)" },
+        { "company": "V-Wave Medical", "sector": "medtech-devices", "outcome": "acquired (Johnson & Johnson, 2024)" },
+        { "company": "Genoox", "sector": "diagnostics", "outcome": "acquired (Qiagen, 2025)" }
+      ]
+    },
+    "tags": ["bio-convergence", "medtech"],
+    "summary": {
+      "en": "Herzliya-based venture capital fund investing in disruptive medical device, diagnostics and digital health companies, with over $100M under management across Israel and Silicon Valley."
+    },
+    "sources": [
+      {
+        "url": "https://www.triventures.vc/about/",
+        "title": "Our story - Triventures",
+        "publisher": "Triventures",
+        "accessed": "undefined",
+        "supports": "Founding year 2010, focus on medical devices/digital health expanding into health-tech convergence",
+        "quote": "Founded in 2010 ... health and tech investors with a focus on early-stage companies led by exceptional entrepreneurs."
+      },
+      {
+        "url": "https://www.triventures.vc/",
+        "title": "Triventures - Beyond Healthcare",
+        "publisher": "Triventures",
+        "accessed": "undefined",
+        "supports": "AUM $100M+, Israel/US/Canada presence, notable exits CathWorks, V-Wave, Genoox"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund has broadened beyond pure medtech into fintech/cybersecurity in recent years per its own site; included here for its foundational and continuing medical device/diagnostics focus. Exact current fund size not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-accelmed",
+    "name": { "en": "Accelmed" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2009,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "offices": [{ "country": "United States", "city": "Miami" }],
+    "website": "https://accelmed.com/",
+    "links": {
+      "other": ["https://www.accelmed-ventures.com/"]
+    },
+    "capital": {
+      "aum": { "raw": "over $630 million of equity capital" },
+      "funds": [
+        { "name": "Accelmed Ventures", "vintage_year": 2011, "size": { "raw": "$100 million" } },
+        { "name": "Accelmed Partners I", "size": { "raw": "$130 million plus $80 million in co-investments" } },
+        { "name": "Accelmed Partners II", "vintage_year": 2021, "size": { "raw": "$400 million" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "check_size": { "raw": "$10M-$50M (Accelmed Partners); smaller for Accelmed Ventures" },
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel", "United States"],
+      "sector_focus": ["medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Israeli-founded healthtech investor with a dedicated Herzliya-based early-stage arm (Accelmed Ventures) creating and funding medical device and digital health companies, alongside a US growth-equity arm (Accelmed Partners) buying/growing commercial-stage medtech, diagnostics and healthtech-enabled services businesses."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "company_creation": true
+    },
+    "people": [
+      { "name": "Uri Geiger", "role": "Managing Partner / Founder" },
+      { "name": "Irit Yaniv", "role": "Venture Partner", "background": "Senior MedTech industry executive" },
+      { "name": "Amir Blatt", "role": "Partner, Accelmed Ventures" }
+    ],
+    "tags": ["medtech", "diagnostics", "digital-health", "growth-equity"],
+    "summary": {
+      "en": "Israeli-founded healthtech investment group with a Herzliya-based early-stage venture arm and a US growth-equity arm, targeting medical devices, diagnostics and digital health companies from company creation through commercial-stage buyouts."
+    },
+    "sources": [
+      {
+        "url": "https://accelmed.com/about",
+        "title": "Accelmed | About Us",
+        "publisher": "Accelmed",
+        "accessed": "undefined",
+        "supports": "Founding by Uri Geiger, fund sizes, sector focus (medical devices, diagnostic tools, digital health)",
+        "quote": "Founded in 2009 by Uri Geiger with backing from Israeli healthcare entrepreneur Mori Arkin... targets companies in medical devices, diagnostic tools, digital health, and tech-enabled healthcare services."
+      },
+      {
+        "url": "https://www.accelmed-ventures.com/",
+        "title": "HealthTech venture fund | Accelmed Ventures | Herzliya",
+        "publisher": "Accelmed Ventures",
+        "accessed": "undefined",
+        "supports": "Herzliya, Israel HQ for the early-stage venture arm"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/accelmed-launches-accelmed-ventures-ii-a-new-100-million-venture-healthtech-fund-300932928.html",
+        "title": "Accelmed Launches Accelmed Ventures II, a New $100 Million Venture HealthTech Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Accelmed Ventures $100M fund"
+      },
+      {
+        "url": "https://accelmed.com/news/emerging-healthtech-investor-accelmed-closes-fund-ii-at-400m-hard-cap",
+        "title": "Emerging healthtech investor Accelmed closes Fund II at $400m hard cap",
+        "publisher": "Accelmed",
+        "accessed": "undefined",
+        "supports": "Accelmed Partners II closed at $400 million (2021), exceeding $300M target"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Later-stage Accelmed Partners fund is US-domiciled (Miami office) and control/buyout-oriented for commercial-stage companies; early-stage Accelmed Ventures remains Israel-headquartered and venture-stage, which anchors inclusion in this region/segment.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-peregrine-ventures",
+    "name": { "en": "Peregrine Ventures" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2001,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Or Yehuda",
+    "website": "https://www.peregrinevc.com/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/peregrine-ventures" },
+    "capital": {
+      "aum": { "raw": "approximately $600 million across five investment funds" },
+      "funds": [
+        { "name": "Peregrine Growth", "vintage_year": 2020, "size": { "raw": "$300 million" } },
+        { "name": "Peregrine med-tech fund", "size": { "raw": "$115 million" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b", "growth"],
+      "check_size": { "raw": "$20M-$30M per round (Peregrine Growth, late-stage)" },
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel", "Global"],
+      "sector_focus": ["medtech-devices", "therapeutics", "digital-health"],
+      "thesis": "Israel's first dedicated healthcare fund; invests across medical devices, pharma/biotech and digital health from pre-seed incubation through late-stage growth, historically anchored by a dedicated med-tech fund line and a device/robotics-heavy portfolio in neurology, cardiovascular and oncology."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": true,
+      "science_platform_notes": "Runs a pre-seed 'Incentive Incubator' alongside early/mid-stage and growth funds, building clusters of complementary device, pharma and digital-health technologies in target indications."
+    },
+    "people": [
+      { "name": "Eyal Lifschitz", "role": "Co-Founder & General Managing Partner" },
+      { "name": "Boaz Lifschitz", "role": "Co-Founder & General Partner" }
+    ],
+    "track_record": {
+      "exits": [
+        { "company": "CartiHeal", "type": "M&A", "value": { "raw": "$330 million (Smith & Nephew)" } },
+        { "company": "Valtech Cardio / CardioValve", "type": "M&A", "value": { "raw": "combined over $1 billion" } }
+      ]
+    },
+    "tags": ["medtech", "device-cluster", "life-science"],
+    "summary": {
+      "en": "Or Yehuda-based venture firm billed as Israel's first dedicated healthcare fund, managing roughly $600M across pre-seed, early/mid-stage and growth vehicles with a strong medical-device heritage in neurology, cardiovascular and oncology."
+    },
+    "sources": [
+      {
+        "url": "https://www.peregrinevc.com/",
+        "title": "Homepage - Peregrine",
+        "publisher": "Peregrine Ventures",
+        "accessed": "undefined",
+        "supports": "HQ Or Yehuda, 'Israel's first dedicated healthcare fund', three fund vehicles, sector focus"
+      },
+      {
+        "url": "https://nocamels.com/2020/11/peregrine-ventures-launches-new-300m-fund-for-life-science-startups/",
+        "title": "Peregrine Ventures Launches New $300M Fund For Life Science Startups",
+        "publisher": "NoCamels",
+        "accessed": "undefined",
+        "supports": "Founders, Peregrine Growth $300M fund, sector focus, exits total",
+        "quote": "Peregrine was founded in 2001 by serial entrepreneurs Eyal Lifschitz and Boaz Lifschitz... Peregrine invests in sectors such as medical devices, pharma and digital health... Peregrine's portfolio companies completed exits totaling more than $2 billion to date."
+      },
+      {
+        "url": "https://www.jpost.com/israel-news/article-837235",
+        "title": "Peregrine Ventures: Israel's most active investor in health tech venture capital investments",
+        "publisher": "The Jerusalem Post",
+        "accessed": "undefined",
+        "supports": "AUM ~$600M across five funds, indication focus",
+        "quote": "Peregrine Ventures, founded in 2001 by brothers Eyal and Boaz Lifshitz... manages approximately $600 million in five investment funds. The Peregrine Fund focuses on neurology (injury and brain damage), cardiovascular, and oncology investments."
+      },
+      {
+        "url": "https://www.timesofisrael.com/israels-peregrine-ventures-raises-115-million-for-new-med-tech-fund/",
+        "title": "Israel's Peregrine Ventures raises $115 million for new med-tech fund",
+        "publisher": "The Times of Israel",
+        "accessed": "undefined",
+        "supports": "$115 million dedicated med-tech fund"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio spans medical devices, pharma/biotech and digital health rather than devices exclusively; included here given its historical med-tech fund lineage and device-heavy notable exits (CartiHeal, Valtech Cardio/CardioValve).",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-docor-international",
+    "name": { "en": "Docor International Management" },
+    "type": "vc",
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.docor.co.il/",
+    "links": { "crunchbase": "https://www.crunchbase.com/organization/docor-international-management" },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["medtech-devices", "therapeutics", "life-science-tools"],
+      "thesis": "Van Leer Group Foundation-backed investment firm supporting Israeli-technology start-ups and mature growth companies across medical devices, biotechnology, materials and IoT; recognized as one of Israel's active medical device investors."
+    },
+    "lifesci": { "company_creation": false },
+    "track_record": { "portfolio_count": 47 },
+    "tags": ["multi-sector", "medtech", "Van-Leer-Group"],
+    "summary": {
+      "en": "Tel Aviv-based investment firm, a subsidiary of the Van Leer Group Foundation, that backs Israeli entrepreneurial and growth-stage technology companies including a significant medical device book alongside biotech, materials and IoT investments."
+    },
+    "sources": [
+      {
+        "url": "https://www.docor.co.il/",
+        "title": "Docor International - Home",
+        "publisher": "Docor International",
+        "accessed": "undefined",
+        "supports": "Description, Van Leer Group Foundation parentage, five target sectors including medical devices",
+        "quote": "Docor targets five primary sectors: Biotechnology, Industrial Communication and IoT, Internet, Materials, Medical Devices... functions alongside related entities including Crecor BV and Docor International Management."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/docor-international-management",
+        "title": "Docor International Management Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "47 investments, 8 exits, Tel Aviv HQ address",
+        "quote": "47 Investments... 8 Portfolio Exits... 65 Yigal Alon Street Toyota Tower, 14th Floor, Tel Aviv, 67443, Israel"
+      },
+      {
+        "url": "https://shizune.co/investors/medical-device-vc-funds-israel",
+        "title": "Top 50 Medical Device VC Funds & Investors in Israel",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "Listed among top medical device VC funds in Israel, Series A/C, $13M-$22M check range"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Docor is a multi-sector investor (medical devices is one of five stated focus areas alongside biotech, materials, IoT and internet); founding year not confirmed from primary sources.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-edge-medical-ventures",
+    "name": { "en": "Edge Medical Ventures" },
+    "aka": ["EdgeMED", "EdgeLabs", "Edge"],
+    "type": "venture-studio",
+    "subtypes": ["vc", "incubator"],
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Or Yehuda",
+    "offices": [{ "country": "United States", "city": "Jersey City" }],
+    "website": "https://edgemed.vc/",
+    "capital": { "current_fund": { "raw": "$15 million raised toward a $70 million debut fund (as of September 2024)" } },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "up to $3 million (EdgeMED)" },
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel", "United States"],
+      "sector_focus": ["medtech-devices"],
+      "thesis": "Venture studio (EdgeLabs) and companion fund (EdgeMED) founded by former MEDX Xelerator leadership to create and finance medical device companies addressing unmet clinical needs in cardiovascular, respiratory, gastroenterology and dialysis, bridging Israeli innovation to the US market. Also operates as an Israel Innovation Authority-licensed technological incubator."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "indications": ["cardiovascular", "respiratory", "gastroenterology-hepatology"],
+      "company_creation": true
+    },
+    "people": [
+      { "name": "Gal Atarot", "role": "Co-Founder, Managing Partner", "background": "Former CTO of MEDX Xelerator" },
+      { "name": "Shai Policker", "role": "Co-Founder, Managing Partner", "background": "Former CEO of MEDX Xelerator" },
+      { "name": "Noam Taichler", "role": "Co-Founder, Managing Partner", "background": "Former CFO of MEDX Xelerator" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Exero Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Synchrony Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "PatenSee", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Append Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Lifecord", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "tags": ["venture-studio", "medtech", "company-creation", "MEDX-spinoff"],
+    "summary": {
+      "en": "Or Yehuda-based medical device venture studio and fund, spun out of MEDX Xelerator's founding team, creating and financing seed-through-Series-B device companies and bridging Israeli innovation to US commercialization."
+    },
+    "sources": [
+      {
+        "url": "https://edgemed.vc/",
+        "title": "Edge Medical Ventures",
+        "publisher": "Edge Medical Ventures",
+        "accessed": "undefined",
+        "supports": "Structure (EdgeLabs/EdgeMED), fund size, founding team, locations, portfolio",
+        "quote": "$15 million toward a $70 million debut fund"
+      },
+      {
+        "url": "https://innovationisrael.org.il/en/press_release/2-new-deep-tech-incubators/",
+        "title": "Israel Innovation Authority Launches Two New DeepTech Incubators",
+        "publisher": "Israel Innovation Authority",
+        "accessed": "undefined",
+        "supports": "Edge Medical Ventures selected as a licensed technological incubator alongside Square One Labs Build"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Precise founding year of the Edge entity itself (as distinct from founders' prior tenure at MEDX since 2018) could not be pinned down from public sources.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-medx-xelerator",
+    "name": { "en": "MEDX Xelerator" },
+    "type": "incubator",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Or Yehuda",
+    "offices": [{ "country": "Israel", "city": "Sakhnin" }],
+    "website": "https://medxelerator.com/",
+    "program": {
+      "investment": { "raw": "$800,000 for a period of 2 years, up to $1.1 million for a period of 3 years" },
+      "format": "in-person",
+      "location": "Or Yehuda and Sakhnin, Israel",
+      "lab_space": true
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["medtech-devices", "surgical-robotics"],
+      "thesis": "Israel Innovation Authority-licensed medical device incubator, a partnership of MEDX Ventures Group, Boston Scientific, Intellectual Ventures and Sheba Medical Center, that identifies and funds company creation around vascular procedures, interventional cardiology, urology, interventional oncology and medical robotics."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": true,
+      "science_platform_notes": "Backed by strategic partners Boston Scientific, Sheba Medical Center, West Pharmaceuticals and Intellectual Ventures; operates under Israel Innovation Authority incubator franchise."
+    },
+    "people": [
+      { "name": "Shai Policker", "role": "CEO" },
+      { "name": "Gal Atarot", "role": "CTO" },
+      { "name": "Noam Taichler", "role": "CFO" }
+    ],
+    "track_record": {
+      "portfolio_count": "15+",
+      "notable_investments": [
+        { "company": "EndoWays", "sector": "medtech-devices", "outcome": "acquired (2021)" },
+        { "company": "Append Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Exero Medical", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "tags": ["incubator", "medical-device", "company-creation", "OCS-franchise"],
+    "summary": {
+      "en": "Israel Innovation Authority-licensed medical device incubator co-founded by Boston Scientific, Intellectual Ventures and Sheba Medical Center, funding and building clinical-need-driven device startups in cardiology, urology, oncology and robotics."
+    },
+    "sources": [
+      {
+        "url": "https://medxelerator.com/",
+        "title": "Home - MEDX Xelerator",
+        "publisher": "MEDX Xelerator",
+        "accessed": "undefined",
+        "supports": "Founding year 2015, locations, partners, per-company funding amounts, portfolio, leadership",
+        "quote": "over $800,000 for a period of 2 years and up to $1.1 million for a period of 3 years"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-ngt-healthcare",
+    "name": { "en": "NGT HealthCare II" },
+    "aka": ["NGT3", "New Generation Technology"],
+    "type": "incubator",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Nazareth",
+    "website": "https://ngt-healthcare2.com/",
+    "capital": { "current_fund": { "raw": "$92 million (NIS 300 million)" } },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["medtech-devices", "life-science-tools"],
+      "thesis": "Government-licensed technological incubator and impact fund rooted in Nazareth investing in early-stage medical device, biotechnology and bioconvergence companies, with an explicit mission to foster both Arab and Jewish entrepreneurship in Israeli medtech."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": true,
+      "science_platform_notes": "Successor to the original NGT3 incubator (2013 Innovation Authority franchise); portfolio companies get access to Nazareth offices/labs and the fund's clinical, regulatory and corporate-development network."
+    },
+    "track_record": { "portfolio_count": "23 (developed by original NGT3 franchise) plus ~25 early-phase startups under NGT HealthCare II" },
+    "tags": ["incubator", "medical-device", "impact-fund", "Nazareth", "bioconvergence"],
+    "summary": {
+      "en": "Nazareth-based, government-licensed medical device and life-sciences incubator/impact fund that raised roughly $92 million to back early-stage biotechnology, bioconvergence and medical-device companies while promoting joint Arab-Jewish entrepreneurship."
+    },
+    "sources": [
+      {
+        "url": "https://ngt-healthcare2.com/about-us/",
+        "title": "About us - NGT Healthcare 2",
+        "publisher": "NGT HealthCare II",
+        "accessed": "undefined",
+        "supports": "HQ Nazareth, focus on medical device and life-sciences investing",
+        "quote": "early-stage medical device and life sciences venture capital fund, investing in promising technologies... structured as an impact fund, located in Nazareth, aligned with 3 UN SDGs"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/hkqxtxi11q",
+        "title": "Nazareth-based VC firm NGT HealthCare II raises $92 million for its Impact Fund",
+        "publisher": "CTech / Calcalist",
+        "accessed": "undefined",
+        "supports": "$92 million fund raise, biotechnology/bioconvergence/medical device engineering focus"
+      },
+      {
+        "url": "https://nocamels.com/2022/03/ngt-healthcare-ii-fund-from-nazareth-raises-92m/",
+        "title": "NGT HealthCare II Fund From Nazareth Raises $92M",
+        "publisher": "NoCamels",
+        "accessed": "undefined",
+        "supports": "2013 founding of original incubator franchise, 23 companies developed, Arab-Jewish entrepreneurship mission"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "NGT3 (2013 incubator) and NGT HealthCare II (2021 impact fund) are presented by the organization as one continuous entity; some sources also flag a 2023 report of the original Nazareth VC seeking buyers for legacy portfolio companies, suggesting a restructuring around the 2021 relaunch.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-alive-israel-healthtech-fund",
+    "name": { "en": "ALIVE Israel HealthTech Fund" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Savyon",
+    "website": "https://www.alivevc.com/",
+    "capital": { "current_fund": { "raw": "$180-200 million (ALIVE Growth Fund III, initial closing)" } },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel", "Global"],
+      "sector_focus": ["medtech-devices", "digital-health"],
+      "thesis": "Mid-to-late-stage HealthTech fund leveraging an exclusive ecosystem of hospital chains, HMOs and financial-institution strategic partners to scale Israeli and international medical device and digital health companies."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "company_creation": false
+    },
+    "people": [
+      { "name": "Rafael Beyar", "role": "Co-Founder, General Partner", "background": "Professor" },
+      { "name": "Ari Shamiss", "role": "Co-Founder, General Partner", "background": "Professor" },
+      { "name": "Michel Habib", "role": "Co-Founder, Managing General Partner" },
+      { "name": "Dudi Klein", "role": "Co-Founder, Managing General Partner" }
+    ],
+    "track_record": {
+      "portfolio_count": "13+",
+      "exits": [
+        { "company": "Innovalve", "type": "M&A", "year": null, "value": { "raw": null } },
+        { "company": "Cynerio", "type": "M&A", "year": null, "value": { "raw": null } }
+      ],
+      "notable_investments": [
+        { "company": "OncoHost", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Vessi Medical", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "tags": ["medtech", "digital-health", "growth-stage", "hospital-backed"],
+    "summary": {
+      "en": "Savyon-based growth-stage HealthTech fund backed by a network of hospitals, HMOs and financial institutions, investing in mid-to-late-stage medical device and digital health companies via its ALIVE Growth Fund III ($180-200M initial close)."
+    },
+    "sources": [
+      {
+        "url": "https://www.alivevc.com/",
+        "title": "ALIVE - Israel HealthTech Fund",
+        "publisher": "ALIVE",
+        "accessed": "undefined",
+        "supports": "Founding year 2020, HQ Savyon, medical device + digital health focus, team, portfolio, exits"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/rn2qrao5h",
+        "title": "ALIVE launches new fund to target global HealthTech",
+        "publisher": "CTech / Calcalist",
+        "accessed": "undefined",
+        "supports": "ALIVE Growth Fund III $180-200M initial closing, medical device and digital health target sectors",
+        "quote": "ALIVE announced the initial closing of ALIVE Growth Fund III, a $180-200M growth-stage HealthTech fund investing in Israeli and international mid-to-late stage Medical Device and Digital Health companies."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exit years/values for Innovalve and Cynerio not independently confirmed with dates; listed per firm's own portfolio page.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-orbimed-israel",
+    "name": { "en": "OrbiMed Israel" },
+    "type": "vc",
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "website": "https://www.orbimed.com/",
+    "capital": {
+      "funds": [
+        { "name": "OrbiMed Israel Partners I", "size": { "raw": "$222 million" } },
+        { "name": "OrbiMed Israel Partners II", "vintage_year": 2016, "size": { "raw": "$307 million" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "thesis": "Dedicated Israel investment arm of global healthcare investor OrbiMed, operating from a Herzliya office opened in 2010; its Israel-dedicated funds target biopharmaceuticals, digital health, medical devices and diagnostics companies across all stages."
+    },
+    "lifesci": { "invests_public_markets": true },
+    "people": [
+      { "name": "Nissim Darvish", "role": "Israel office lead" },
+      { "name": "Erez Chimovits", "role": "Israel office lead" },
+      { "name": "Anat Naschitz", "role": "Israel office lead" }
+    ],
+    "tags": ["global-healthcare-investor", "dedicated-Israel-fund", "medtech", "diagnostics"],
+    "summary": {
+      "en": "The dedicated Israel investment arm (Herzliya office, opened 2010) of global healthcare fund OrbiMed, which has raised two Israel-focused funds (a $222M and a $307M vehicle) targeting biopharma, medical devices, diagnostics and digital health."
+    },
+    "sources": [
+      {
+        "url": "https://www.privateequitywire.co.uk/orbimed-launches-usd307m-israel-venture-capital-fund/",
+        "title": "OrbiMed launches USD307m Israel Venture Capital Fund",
+        "publisher": "Private Equity Wire",
+        "accessed": "undefined",
+        "supports": "$307M second Israel fund, 2016, sector focus, office opened 2010",
+        "quote": "approximately USD307 million in capital commitments... biopharmaceuticals, digital health, medical devices, and diagnostics companies... OrbiMed's Israel office was opened in 2010."
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/orbimed-launches-222-million-fund-focused-on-israel-life-sciences",
+        "title": "OrbiMed Launches $222 Million Fund Focused on Israel Life Sciences",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "First Israel fund at $222 million"
+      },
+      {
+        "url": "https://www.orbimed.com/about/",
+        "title": "About - OrbiMed",
+        "publisher": "OrbiMed",
+        "accessed": "undefined",
+        "supports": "Global HQ New York, Herzliya listed among global office locations",
+        "quote": "OrbiMed's team of over 145 professionals is based in New York City, London, San Francisco, Shanghai, Hong Kong, Mumbai, Herzliya and other key global markets."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "OrbiMed Advisors is headquartered in New York, USA (global AUM >$17B); included here only for its dedicated Herzliya office and two Israel-dedicated funds. CTech reported OrbiMed chose not to raise a third Israel-dedicated fund, instead investing in Israeli companies from its global funds going forward — current active status of a standalone Israel-labeled vehicle should be treated as uncertain.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  },
+  {
+    "id": "il-israel-healthcare-ventures",
+    "name": { "en": "Israel HealthCare Ventures" },
+    "aka": ["IHCV"],
+    "type": "vc",
+    "status": "dormant",
+    "founded_year": 2000,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "http://www.ihcv.co.il/",
+    "capital": {
+      "funds": [
+        { "name": "IHCV I", "vintage_year": 2000 },
+        { "name": "IHCV II", "vintage_year": 2006 }
+      ]
+    },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics"],
+      "thesis": "One of Israel's pioneering life-science venture funds; roughly 75% of its combined ~$135M invested across IHCV I and II went into medical device companies spanning cardiology, orthopedics, oncology, general surgery, GI and CNS, with the remainder in pharma/biotech."
+    },
+    "lifesci": { "company_creation": false },
+    "track_record": { "portfolio_count": 27 },
+    "tags": ["medtech", "legacy-fund", "device-heavy"],
+    "summary": {
+      "en": "Tel Aviv-based life-science venture fund founded in 2000-2001 whose two funds invested about $135M in 27 companies, roughly three-quarters of it in medical devices; appears no longer actively raising or deploying new capital."
+    },
+    "sources": [
+      {
+        "url": "https://venturecapitalarchive.com/venture-funds/israel-healthcare-ventures-ihcv-co-il",
+        "title": "Israel HealthCare Ventures",
+        "publisher": "Venture Capital Archive",
+        "accessed": "undefined",
+        "supports": "Founding year 2000, Tel Aviv HQ, 27 portfolio companies",
+        "quote": "established in 2000... Tel Aviv, Israel... a diverse portfolio of investments in 27 companies"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/israel-healthcare-ventures",
+        "title": "Israel Healthcare Ventures Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "27 investments, 5 exits, sector focus, 2 funds, HQ address",
+        "quote": "Israel Healthcare Ventures, founded in 2001, is a venture capital firm... 32 Harbarzel St. Tel Aviv, 69710, Israel... areas of focus from an investment perspective include medical devices, biotechnology, pharmaceuticals, life sciences, nanotechnology, and medical-related IT companies."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Crunchbase separately flags the firm as 'permanently closed'; second and most recent fund (IHCV II) dates to 2006 with no evidence of subsequent fundraising or active deployment, so status is recorded as dormant/inactive despite CB Insights listing it without an explicit inactive flag.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-diagnostics-vc"
+  }
+]

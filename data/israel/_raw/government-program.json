@@ -1,0 +1,324 @@
+[
+  {
+    "id": "il-israel-innovation-authority",
+    "name": {
+      "en": "Israel Innovation Authority",
+      "local": "רשות החדשנות"
+    },
+    "aka": ["IIA", "Office of the Chief Scientist", "OCS"],
+    "type": "government-program",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 1965,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "website": "https://innovationisrael.org.il/en/",
+    "links": {
+      "linkedin": "https://il.linkedin.com/company/innovationisrael_english"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "growth"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "diagnostics", "synthetic-biology", "cell-gene-therapy", "ai-drug-discovery"],
+      "thesis": "Israel's national innovation agency (formerly the Office of the Chief Scientist, renamed 2016) is the government's non-dilutive R&D funding and investment arm; it licenses and co-funds technology incubators dedicated to medical devices, pharma and bioconvergence, and runs dedicated grant tracks for digital health, bioconvergence and biotech company R&D."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "digital-therapeutics", "ai-ml-platform", "cell-therapy", "gene-therapy"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Runs/licenses the Technological Incubators Program (up to NIS 40M per incubator over a 5-year concession, e.g. Edge Medical Ventures for medical devices/bioconvergence); co-administers the National Bioconvergence Program and National Digital Health Plan; academic-to-industry bridge programs (KAMIN, NOFAR, MAGNET) fund early biotech/medtech translational research."
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": []
+    },
+    "tags": ["non-dilutive-grants", "national-agency", "incubator-licensor", "bioconvergence", "digital-health"],
+    "summary": {
+      "en": "Israel's national innovation agency provides non-dilutive grants, matching investment and incubator licenses across the economy, with dedicated tracks and licensed incubators for medical devices, digital health and bioconvergence/biotech.",
+      "local": "רשות החדשנות הישראלית היא הזרוע הממשלתית למימון מו\"פ ותמיכה בחדשנות, כולל מסלולים ומדגרות טכנולוגיות ייעודיות לתחומי המכשור הרפואי, הבריאות הדיגיטלית וההתכנסות הביולוגית (ביו-קונברגנס)."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Israel_Innovation_Authority",
+        "title": "Israel Innovation Authority",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founding year, mission, incubator sector list, NOFAR program",
+        "quote": "The Israel Innovation Authority (IIA) is the support and investment arm of the Israeli government, in charge of planning and executing the country's innovation policy. ... Established as the Office of the Chief Scientist in 1965 ... technological incubators spread across Israel in sectors such as Medical Devices, Pharma, Bioconvergence, Agricultural technology, Foodtech, Renewable Energy and more."
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/bjrisa7r1e",
+        "title": "Innovation Authority selects two new Deep Tech incubators to focus on energy, infrastructure, and medical tech",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "Technological Incubators Program funding levels and medical/bioconvergence focus",
+        "quote": "Each incubator will receive a total budget of up to NIS 40 million over five years... Edge Medical Ventures will specialize in medical devices and Bio-convergence"
+      },
+      {
+        "url": "https://innovationisrael.org.il/en/programs/technological-incubators-2024/",
+        "title": "Venture Incubators Funding Program - Incubators Fund",
+        "publisher": "Israel Innovation Authority",
+        "accessed": "undefined",
+        "supports": "per-company funding ceiling within licensed incubators",
+        "quote": "Individual startups may be eligible for cumulative state grants of up to NIS 21 million (about $6.25 million) to help them progress from initial research to more advanced funding rounds."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "IIA itself does not take equity; it grants non-dilutive R&D funding and licenses/co-funds privately-managed technology incubators (e.g. Trendlines, MEDX Xelerator, NGT3, RAD BioMed) which are tracked separately under the incubator segment, not duplicated here. Direct fetch of innovationisrael.org.il was blocked (403); facts sourced via Wikipedia and CTech coverage of official announcements.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "il-national-bioconvergence-program",
+    "name": {
+      "en": "National Bioconvergence Program (Israel)",
+      "local": "התוכנית הלאומית לביו-קונברגנס"
+    },
+    "aka": ["Israeli National Bioconvergence Program", "BC Program"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "website": "https://bioconvergence.org.il/",
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["synthetic-biology", "therapeutics", "ai-drug-discovery", "life-science-tools", "medtech-devices"],
+      "thesis": "A multi-ministry national program (Israel Innovation Authority, Planning and Budgeting Committee/VATAT, Defense Ministry R&D directorate/MAFAT, Ministry of Innovation Science and Technology, Health Ministry and Finance Ministry) building bioconvergence infrastructure, research excellence and human capital to establish Israel as a hub merging biology, engineering and computation for health and biomanufacturing applications."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "synthetic-biology", "lab-automation"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "First phase (2023-2027) budget of NIS 548.5M split across R&D infrastructure (NIS 274.5M), research excellence (NIS 203.5M), human capital (NIS 60.5M), regulation (NIS 5M) and program management (NIS 5M); also runs startup-facing initiatives such as the Yes/Boston Innovation Challenge targeting early-stage health, resilience and sustainable food-systems startups."
+    },
+    "track_record": {
+      "portfolio_count": null
+    },
+    "tags": ["bioconvergence", "synthetic-biology", "multi-ministry", "national-program"],
+    "summary": {
+      "en": "Government Resolution-backed national program (2023-2027, ~NIS 548.5M first phase) jointly financed by the Israel Innovation Authority and four other government bodies to build bioconvergence R&D infrastructure and support health-related biotech/synbio ventures.",
+      "local": "תוכנית לאומית רב-משרדית (2023-2027, כ-548.5 מיליון ש\"ח בשלב הראשון) הממומנת בשיתוף רשות החדשנות ומשרדי ממשלה נוספים לבניית תשתיות מו\"פ בביו-קונברגנס ותמיכה במיזמים בתחום הבריאות."
+    },
+    "sources": [
+      {
+        "url": "https://bioconvergence.org.il/",
+        "title": "Israeli National Bioconvergence Program",
+        "publisher": "National Bioconvergence Program",
+        "accessed": "undefined",
+        "supports": "program description, administering body, health-related startup support (Yes/Boston Innovation Challenge)",
+        "quote": "a multidisciplinary field, merging the strengths of biology, engineering and computation to generate cutting-edge solutions for complex challenges... early-stage Israeli startups operating in Health, Resilience, and Sustainable Food Systems"
+      },
+      {
+        "url": "https://sciencebusiness.net/network-updates/israel-innovation-authority-launches-new-fund-establish-three-deep-tech-incubators",
+        "title": "Israel Innovation Authority launches new fund to establish three deep tech incubators",
+        "publisher": "Science|Business",
+        "accessed": "undefined",
+        "supports": "budget figure and government partners for National BC Program 2023-2027",
+        "quote": "Government Resolution No. 173, dated February 24, 2023, formalized the Israel Innovation Authority, VATAT, Maf'at, MIST, and MOF's agreement to participate in financing the National BC Program for 2023–2027, with a total approved budget for the first phase of NIS 548.5 million."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Budget breakdown (infrastructure/research excellence/human capital/regulation/management) corroborated by search-result summary of the program's midterm activity report; program is administered primarily through the Israel Innovation Authority but treated as a distinct entity here given its own brand, dedicated website and multi-ministry Government Resolution funding structure.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "il-national-digital-health-plan",
+    "name": {
+      "en": "National Digital Health Plan (Israel)",
+      "local": "התוכנית הלאומית לבריאות דיגיטלית"
+    },
+    "aka": ["National Digital Health Program", "Digital Health Pilot Program"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "thesis": "NIS 1 billion (~$300M) national plan approved by the Israeli government in 2018, run jointly by the Ministry of Health, the Digital Israel Initiative and the Israel Innovation Authority, funding pilot programs and R&D grants that let health tech companies and healthcare organizations (HMOs, hospitals) build and test digital-health and data-sharing infrastructure."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "software-samd", "ai-ml-platform", "wearables-sensors"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Sub-tracks include the 2018 Digital Health Pilot Program (companies receive 20-50% of approved R&D expenditure, up to 60-75% for high-potential proposals), the 2021 Innovation Program for Health Organizations (NIS 55M / ~$17.6M, up to NIS 8M per health organization for data-sharing infrastructure), and the 2022 Health Organization R&D initiative (NIS 100M / ~$30M across 19 selected programs)."
+    },
+    "tags": ["digital-health", "national-plan", "data-infrastructure", "non-dilutive-grants"],
+    "summary": {
+      "en": "Israel's billion-shekel national digital health plan, run by the Health Ministry with the Digital Israel Initiative and the Israel Innovation Authority, funds R&D grants and pilots for health-tech companies and healthcare organizations building digital-health and data-sharing capabilities.",
+      "local": "תוכנית לאומית בהיקף מיליארד ש\"ח, בניהול משרד הבריאות בשיתוף הרשות הדיגיטלית ורשות החדשנות, למימון פיילוטים ומענקי מו\"פ לחברות טכנולוגיה רפואית ולארגוני בריאות."
+    },
+    "sources": [
+      {
+        "url": "https://www.timesofisrael.com/israel-earmarks-17m-for-new-digital-health-innovation-program/",
+        "title": "Israel earmarks $17m for new digital health innovation program",
+        "publisher": "The Times of Israel",
+        "accessed": "undefined",
+        "supports": "2018 NIS 1 billion plan origin and the 2021 NIS 55M sub-program",
+        "quote": "the Israeli government approved a one-billion-shekel national digital health program in 2018 as a means of improving public health and as an engine of growth for the economy... Israel earmarked roughly NIS 55 million ($17.6 million) for a new innovation program that will allow health organizations such as HMOs, hospitals, and institutes to build the digital infrastructure required for anonymized data-sharing"
+      },
+      {
+        "url": "https://nocamels.com/2022/06/health-tech-digital-israel/",
+        "title": "Israel Approves 19 Programs For $30M Plan To Improve Health Tech",
+        "publisher": "NoCamels",
+        "accessed": "undefined",
+        "supports": "2022 NIS 100M health-org R&D initiative, joint funding partners",
+        "quote": "Funding for a NIS 100 million (about $30 million) three-year initiative is drawn from the budgets of the National Digital Health Plan, the Health Ministry and the Israel Innovation Authority."
+      },
+      {
+        "url": "https://innovationisrael.org.il/en/press_release/digital-health-pilot-program/",
+        "title": "Digital Health Pilot Program",
+        "publisher": "Israel Innovation Authority",
+        "accessed": "undefined",
+        "supports": "Digital Health Pilot Program grant percentages",
+        "quote": "Companies accepted to the program receive between 20% to 50% of approved R&D expenditures, with funding of up to 60% to 75% for proposals that show potential to significantly advance the public healthcare system."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Treated as one umbrella entity covering several sequentially-announced sub-programs (2018 pilot program, 2021 innovation program for health organizations, 2022 R&D initiative) that press coverage consistently ties back to the same NIS 1 billion National Digital Health Plan; no single official program page enumerating all sub-tracks together was fetched (innovationisrael.org.il blocked direct fetch), so figures are sourced from multiple reputable secondary reports.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "il-bird-foundation",
+    "name": {
+      "en": "BIRD Foundation (Israel-U.S. Binational Industrial R&D Foundation)"
+    },
+    "aka": ["BIRD Foundation", "Binational Industrial Research and Development Foundation"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 1977,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.birdf.com/",
+    "links": {
+      "linkedin": "https://il.linkedin.com/company/bird-foundation"
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "up to $1.5M per project (covers up to 50% of project cost)" },
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel", "United States"],
+      "sector_focus": ["digital-health", "medtech-devices", "healthcare-it"],
+      "thesis": "Bi-national foundation established by the U.S. and Israeli governments in 1977 to co-fund joint industrial R&D between American and Israeli companies; takes no equity and has funded digital-health and medical-device collaborations (e.g. XRHealth's VR platform with Beth Israel Deaconess Medical Center) among its broader tech portfolio."
+    },
+    "lifesci": {
+      "modalities": ["digital-therapeutics", "medical-hardware", "wearables-sensors"],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Matchmaking plus conditional grants covering up to 50% of joint project development costs, up to $1.5M per project, repaid only from future product revenues; no equity taken."
+    },
+    "track_record": {
+      "portfolio_count": "1,200+ supported collaborations since founding",
+      "notable_investments": [
+        { "company": "XRHealth", "sector": "digital-health", "outcome": "active" }
+      ]
+    },
+    "tags": ["binational", "non-dilutive-grants", "US-Israel", "matching-fund"],
+    "summary": {
+      "en": "Government-established Israel-U.S. binational R&D foundation providing non-dilutive matching grants (up to $1.5M, no equity) for joint American-Israeli industrial R&D projects, including digital-health and medical-device collaborations such as XRHealth's VR platform for perioperative care.",
+      "local": "קרן דו-לאומית ישראל-ארה\"ב שהוקמה על ידי הממשלות ב-1977, מעניקה מענקים תואמים (עד 1.5 מיליון דולר, ללא נטילת הון) לפרויקטי מו\"פ תעשייתיים משותפים, כולל בתחומי הבריאות הדיגיטלית והמכשור הרפואי."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/BIRD_Foundation",
+        "title": "BIRD Foundation",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founding year, mission, no-equity funding structure",
+        "quote": "The BIRD Foundation was established by the U.S. and Israeli governments in 1977 to generate mutually beneficial cooperation between U.S. and Israeli companies... BIRD provides both matchmaking support between U.S. and Israeli companies, as well as funding covering up to 50 percent of project development costs, up to $1.5M per project. BIRD takes no equity in the companies."
+      },
+      {
+        "url": "https://nocamels.com/2020/07/bird-8m-10-projects-digital-health-auto-cybersecurity/",
+        "title": "US-Israel Foundation To Invest $8M In 10 Projects In Digital Health, Auto Tech, Cybersecurity",
+        "publisher": "NoCamels",
+        "accessed": "undefined",
+        "supports": "digital health project example (XRHealth)",
+        "quote": "XRHealth, an Israeli company that makes VR platforms for health management, and Beth Israel Deaconess Medical Center in Boston working together to develop a perioperative VR platform"
+      },
+      {
+        "url": "https://www.birdf.com/new-u-s-israel-projects-set-to-receive-7-5million/",
+        "title": "New U.S.-Israel Projects Set to Receive $7.5 Million from the BIRD Foundation",
+        "publisher": "BIRD Foundation",
+        "accessed": "undefined",
+        "supports": "cumulative track record figure",
+        "quote": "the seven newly approved projects bring the total number of BIRD-supported collaborations to more than 1,200 during the Foundation's 49 years of activity, and to date, BIRD's investment of approximately $465 million in joint projects has helped generate direct and indirect revenues of over $10 billion"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "HQ in Tel Aviv, Israel side of the binational structure; direct WebFetch of birdf.com was blocked (403) so official-site facts are corroborated via Wikipedia and press coverage instead.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "il-moh-chief-scientist-office",
+    "name": {
+      "en": "Chief Scientist Office, Ministry of Health (Israel)",
+      "local": "לשכת המדען הראשי, משרד הבריאות"
+    },
+    "aka": ["CSO-MOH", "Medical Research Administration", "Office of the Chief Scientist, Ministry of Health"],
+    "type": "government-program",
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "website": "https://www.gov.il/en/service/research-grant-application",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Ministry of Health body that funds and manages investigator-initiated biomedical and clinical research grants performed in Israeli hospitals, universities and research institutes, aiming to translate research into clinical and public-health impact."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Funds investigator-initiated, health-related research projects; maintains the 'Meitar' database of medical research summaries and an online application portal for medical research funding/scholarships."
+    },
+    "tags": ["clinical-research-grants", "non-dilutive-grants", "hospital-research"],
+    "summary": {
+      "en": "The Israeli Ministry of Health's Chief Scientist Office funds and administers investigator-initiated biomedical and clinical research grants at hospitals, universities and research institutes across Israel.",
+      "local": "לשכת המדען הראשי במשרד הבריאות מממנת ומנהלת מענקי מחקר ביו-רפואי וקליני יזום-חוקר בבתי חולים, אוניברסיטאות ומכוני מחקר בישראל."
+    },
+    "sources": [
+      {
+        "url": "https://fundit.fr/en/institutions/chief-scientist-office-ministry-health-israel-cso-moh",
+        "title": "Chief Scientist Office, Ministry of Health (Israel) (CSO-MOH)",
+        "publisher": "Fundit",
+        "accessed": "undefined",
+        "supports": "role and mandate of the office",
+        "quote": "The Chief Scientist Office (CSO) of Israeli Ministry of Health (MOH) through its Medical Research Administration is a pivotal organization in Israel for managing and funding of bio-medical and medical research... support investigator-initiated, health-related research projects performed in hospitals, universities and research institutes."
+      },
+      {
+        "url": "https://www.gov.il/en/service/research-grant-application",
+        "title": "Online Application for Medical Research Funding or Scholarship",
+        "publisher": "Israel Ministry of Health (gov.il)",
+        "accessed": "undefined",
+        "supports": "existence of official application channel for medical research funding",
+        "quote": "Online Application for Medical Research Funding or Scholarship | Ministry of Health"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Funds academic/hospital-based investigator research grants rather than direct company equity investment; included because it is Israel's dedicated Ministry-of-Health-run (not IIA) biomedical research funding body with an explicit, exclusive health nexus, distinct from the broader Israel Science Foundation (which funds all scientific disciplines and was excluded as out of scope). Could not verify a specific annual budget figure.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  }
+]

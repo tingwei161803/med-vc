@@ -1,0 +1,450 @@
+[
+  {
+    "id": "jp-shonan-ipark",
+    "name": { "en": "Shonan Health Innovation Park (Shonan iPark)", "local": "湘南ヘルスイノベーションパーク" },
+    "aka": ["Shonan iPark"],
+    "type": "incubator",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Fujisawa",
+    "offices": [{ "country": "Japan", "city": "Fujisawa" }],
+    "website": "https://www.shonan-ipark.com/en/",
+    "strategy": {
+      "stages": ["all"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "digital-health"],
+      "geo_focus": ["japan"],
+      "thesis": "Japan's first pharmaceutical-initiated science park, opened by Takeda in April 2018 when it opened its in-house research center to outside organizations; provides wet-lab and office space to accelerate drug discovery and health innovation across ~190 resident tenant organizations."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "company_creation": false,
+      "science_platform_notes": "Former Takeda in-house R&D campus opened to external tenants; now run by neutral operator iPark Institute, a joint initiative of IIF, Takeda and Mitsubishi Corporation since 2023."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "Fujisawa, Kanagawa",
+      "format": "in-person"
+    },
+    "summary": {
+      "en": "Japan's first pharma-initiated science park (opened by Takeda in 2018 in Fujisawa, Kanagawa), providing lab and office space to roughly 190 bio/health tenant organizations under neutral operator iPark Institute.",
+      "local": "武田薬品が2018年に開設した日本初の製薬発サイエンスパーク。神奈川県藤沢市で創薬・ヘルスケア関連企業にラボ・オフィススペースを提供し、現在約190社が入居。"
+    },
+    "sources": [
+      {
+        "url": "https://www.shonan-ipark.com/en/about/",
+        "title": "About | Shonan Health Innovation Park (Shonan iPark)",
+        "publisher": "Shonan iPark",
+        "accessed": "undefined",
+        "supports": "founding year, operator, lab space, tenant count",
+        "quote": "Approximately 190 companies with more than 2,500 people as of February 2025"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-link-j",
+    "name": { "en": "LINK-J (Life Science Innovation Network Japan)", "local": "一般社団法人LINK-J(ライフサイエンス・イノベーション・ネットワーク・ジャパン)" },
+    "aka": ["Life Science Innovation Network Japan"],
+    "type": "incubator",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [{ "country": "Japan", "city": "Tokyo (Nihonbashi)" }],
+    "website": "https://www.link-j.org/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "diagnostics", "generalist-health"],
+      "geo_focus": ["japan"],
+      "thesis": "Nonprofit industry association headquartered in Nihonbashi, Tokyo, that builds Japan's life-science startup ecosystem by connecting biopharma companies, academia, hospitals, VCs and government; runs startup acceleration and pitch programs (including LINK-BioBAY TOKYO) and the UNIKORN overseas-expansion program, and provides members shared lab/office space."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "science_platform_notes": "Operates a free 'Out of Box' consultation room for researchers pursuing commercialization, and manages shared office/lab and event space in Nihonbashi."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "Nihonbashi, Tokyo",
+      "format": "hybrid"
+    },
+    "summary": {
+      "en": "Tokyo-based nonprofit network organization (Nihonbashi) that connects biopharma companies, academia, hospitals, VCs and government to build Japan's life-science innovation ecosystem, running startup acceleration programs and shared lab/office facilities.",
+      "local": "日本橋を拠点に、製薬企業・大学・病院・VC・行政をつなぎ、日本のライフサイエンス・イノベーション・エコシステムの構築を推進する一般社団法人。アクセラレーションプログラムやシェアラボ・オフィスを運営。"
+    },
+    "sources": [
+      {
+        "url": "https://www.link-j.org/",
+        "title": "LINK-J",
+        "publisher": "LINK-J",
+        "accessed": "undefined",
+        "supports": "mission, location, activities",
+        "quote": "LINK-J functions as a collaborative hub supporting life science innovation through ecosystem building and startup development"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year not confirmed with a verbatim source quote (commonly cited as 2016) so left blank; site content was accessed via automated fetch/summarization rather than raw HTML.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-link-biobay-tokyo",
+    "name": { "en": "LINK-BioBAY TOKYO", "local": "リンク・バイオベイ・トウキョウ" },
+    "type": "incubator",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [{ "country": "Japan", "city": "Nihonbashi / Shinkiba, Tokyo" }],
+    "strategy": {
+      "sector_focus": ["therapeutics", "life-science-tools", "medtech-devices"],
+      "geo_focus": ["japan", "united-states"],
+      "thesis": "Startup incubation cluster launched by LINK-J, BioLabs and Mitsui Fudosan after being selected for the Tokyo Metropolitan Government's TIB CATAPULT program; provides modular wet-lab and coworking space for life-science startups at the Global Lifescience Hub (Nihonbashi) and a directly-operated BioLabs Tokyo wet lab in Shinkiba, plus BioLabs' US-market education program."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "Nihonbashi & Shinkiba, Tokyo",
+      "format": "in-person"
+    },
+    "summary": {
+      "en": "Life-science startup incubation cluster in Tokyo jointly run by LINK-J, BioLabs and Mitsui Fudosan under the Tokyo Metropolitan Government's TIB CATAPULT program, offering modular wet-lab/coworking space and a BioLabs US-expansion education track.",
+      "local": "LINK-J、BioLabs、三井不動産が共同運営する東京のライフサイエンス系スタートアップ・インキュベーションクラスター。東京都のTIB CATAPULT事業に採択。"
+    },
+    "sources": [
+      {
+        "url": "https://www.biolabs.io/post/link-j-biolabs-and-mitsui-fudosan-to-launch-collaboration-to-strengthen-the-startup-ecosystem-in-th",
+        "title": "LINK-J, BioLabs and Mitsui Fudosan to Launch Collaboration to Strengthen the Startup Ecosystem in the Life Sciences Field \"LINK-BioBAY TOKYO\"",
+        "publisher": "BioLabs",
+        "accessed": "undefined",
+        "supports": "launch, partners, purpose",
+        "quote": "LINK-BioBAY TOKYO offers modular lab and coworking space operated by BioLabs, Life Science Innovation Network Japan (LINK-J), and Mitsui Fudosan."
+      },
+      {
+        "url": "https://www.link-j.org/en/news/article-49772.html",
+        "title": "BioLabs Decides to Open BioLabs Tokyo, its First Directly Operated Coworking Wet Lab in Asia, in Shinkiba, Tokyo",
+        "publisher": "LINK-J",
+        "accessed": "undefined",
+        "supports": "Shinkiba wet-lab expansion",
+        "quote": "BioLabs Decides to Open BioLabs Tokyo, its First Directly Operated Coworking Wet Lab in Asia, in Shinkiba, Tokyo, a Neighborhood Where Researchers Gather"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-kobe-biomedical-innovation-cluster",
+    "name": { "en": "Kobe Biomedical Innovation Cluster (KBIC)", "local": "神戸医療産業都市" },
+    "aka": ["KBIC"],
+    "type": "incubator",
+    "subtypes": ["government-program", "accelerator"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Kobe",
+    "website": "https://www.fbri-kobe.org/kbic/english/lp/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "cell-gene-therapy", "healthcare-services", "diagnostics"],
+      "geo_focus": ["japan"],
+      "thesis": "City of Kobe's biomedical industrial cluster, launched as part of Kobe's post-earthquake reconstruction and operated by the Foundation for Biomedical Research and Innovation at Kobe (FBRI); hosts roughly 370 member companies, universities, research institutes and specialized hospitals working on regenerative medicine (iPS cells), medical devices, pharmaceuticals and preventive healthcare, and runs accelerator programs/pitch events with corporate partners such as Bayer."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "medical-hardware"],
+      "company_creation": false,
+      "science_platform_notes": "Cluster includes access to RIKEN research institutes and the Fugaku supercomputer; hosts Bayer's CoLaborator Kobe incubator on-site."
+    },
+    "track_record": {
+      "portfolio_count": "~370 member organizations"
+    },
+    "summary": {
+      "en": "City of Kobe's biomedical industry cluster, operated by FBRI, one of Japan's largest medical-industry clusters with roughly 370 resident companies, universities, research institutes and hospitals spanning regenerative medicine, medical devices and pharma.",
+      "local": "神戸市の医療産業都市構想を推進するクラスター。公益財団法人先端医療振興財団(FBRI)が運営し、約370の企業・大学・研究機関・専門病院が再生医療・医療機器・製薬分野で集積。"
+    },
+    "sources": [
+      {
+        "url": "https://www.fbri-kobe.org/kbic/english/lp/",
+        "title": "Kobe Biomedical Innovation Cluster",
+        "publisher": "FBRI",
+        "accessed": "undefined",
+        "supports": "operator, member count, focus areas",
+        "quote": "the innovation arm of the City of Kobe to foster innovation and collaboration among its members and affiliates to ensure a thriving biomedical industry"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-colaborator-kobe",
+    "name": { "en": "CoLaborator Kobe", "local": "コラボレーター神戸" },
+    "type": "incubator",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Kobe",
+    "website": "https://www.colaborator.bayer.com/en/colaborator-kobe",
+    "strategy": {
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "geo_focus": ["japan"],
+      "thesis": "Bayer-operated life-science incubation facility inside the Kobe Biomedical Innovation Cluster — Bayer's first Co.Lab site in Asia after Berlin and Cambridge, MA — offering furnished lab and office infrastructure to university-originated research spin-outs and startups, with pathways to collaborate with Bayer R&D. Foreign HQ note: parent Bayer AG is headquartered in Germany; this entry covers Bayer's dedicated Kobe incubation site."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "Kobe"
+    },
+    "track_record": {
+      "portfolio_count": "4 life-science startups resident to date"
+    },
+    "summary": {
+      "en": "Bayer's Kobe incubation facility (opened June 2018), the first Bayer Co.Lab site in Japan, providing fully furnished lab and office space to university-originated biotech startups within the Kobe Biomedical Innovation Cluster.",
+      "local": "バイエルが神戸医療産業都市内に開設したインキュベーション施設(2018年6月開設)。日本初のBayer Co.Labサイト。"
+    },
+    "sources": [
+      {
+        "url": "https://www.colaborator.bayer.com/en/colaborator-kobe",
+        "title": "Bayer Co.Lab Kobe",
+        "publisher": "Bayer",
+        "accessed": "undefined",
+        "supports": "global network, site description",
+        "quote": "Bayer Co.Lab connects early-stage entrepreneurs with world-class expertise, resources, and global networks with strategic locations around the world, in Berlin, Germany; Cambridge, USA; Kobe, Japan; and Shanghai, China."
+      },
+      {
+        "url": "https://www.fbri-kobe.org/kbic/english/lp/",
+        "title": "Kobe Biomedical Innovation Cluster",
+        "publisher": "FBRI",
+        "accessed": "undefined",
+        "supports": "opening year, first-in-Japan claim",
+        "quote": "In June 2018, Bayer opened CoLaborator Kobe, a unique incubation facility for supporting university-originated research and startup companies to create new innovations, for the first time in Japan after the United States and Germany."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-blockbuster-tokyo",
+    "name": { "en": "Blockbuster TOKYO", "local": "ブロックバスタートウキョウ" },
+    "type": "accelerator",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://beyondnextventures.com/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": ["japan"],
+      "thesis": "Drug-discovery and medical-venture incubation program commissioned by the Tokyo Metropolitan Government and operated by Beyond Next Ventures since 2018, selecting cohorts of pharma/medtech startup teams for hands-on business development support, executive-candidate matching, grant-funding assistance, and access to Beyond BioLAB TOKYO wet-lab space."
+    },
+    "program": {
+      "format": "in-person",
+      "location": "Tokyo (Nihonbashi)"
+    },
+    "summary": {
+      "en": "Tokyo Metropolitan Government-commissioned accelerator for drug-discovery and medical startups, operated by Beyond Next Ventures since 2018, providing hands-on incubation support and wet-lab access via Beyond BioLAB TOKYO.",
+      "local": "東京都からの委託を受け、ビヨンド・ネクスト・ベンチャーズが2018年から運営する創薬・医療系ベンチャーに特化した育成支援プログラム。"
+    },
+    "sources": [
+      {
+        "url": "https://port.creww.me/innovation/18509",
+        "title": "創薬・医療系ベンチャーに特化した育成支援プログラム\"Blockbuster TOKYO\" 選抜プログラム 19チームが決定",
+        "publisher": "PORT",
+        "accessed": "undefined",
+        "supports": "program name, focus, existence",
+        "quote": "創薬・医療系ベンチャーに特化した育成支援プログラム\"Blockbuster TOKYO\""
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000060.000017460.html",
+        "title": "創薬・医療系ベンチャーに特化した育成支援プログラム\"Blockbuster TOKYO\" 選抜プログラム 19チームが決定",
+        "publisher": "PR TIMES / Beyond Next Ventures",
+        "accessed": "undefined",
+        "supports": "operator, cohort selection"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-beyond-biolab-tokyo",
+    "name": { "en": "Beyond BioLAB TOKYO", "local": "Beyond BioLAB TOKYO(日本橋シェアラボ)" },
+    "type": "incubator",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://biolab.beyondnextventures.com/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "life-science-tools"],
+      "geo_focus": ["japan"],
+      "thesis": "Japan's first urban shared wet-lab for biotech startups, operated by seed VC firm Beyond Next Ventures in Nihonbashi, Tokyo; offers shared bench space, P2-level biosafety cell-culture facilities and analytical instruments (fluorescence microscope, plate readers, qPCR), and serves as the physical base for the Blockbuster TOKYO and BRAVE accelerator programs."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "Nihonbashi, Chuo-ku, Tokyo"
+    },
+    "summary": {
+      "en": "Shared wet-lab facility in Nihonbashi, Tokyo operated by Beyond Next Ventures (opened 2018), offering biotech startups shared bench space, cell-culture and analytical equipment, and serving as home base for the Blockbuster TOKYO and BRAVE accelerator programs.",
+      "local": "ビヨンド・ネクスト・ベンチャーズが運営する日本橋のシェア型ウェットラボ(2018年開設)。都心初のシェアラボとして、Blockbuster TOKYOやBRAVEプログラムの拠点となっている。"
+    },
+    "sources": [
+      {
+        "url": "https://beyondnextventures.com/pr20181030_1.pdf",
+        "title": "Beyond Next Ventures、都心にシェアラボ「Beyond BioLAB TOKYO」を開設",
+        "publisher": "Beyond Next Ventures",
+        "accessed": "undefined",
+        "supports": "opening date, name",
+        "quote": "2018 年10 月30 日 Beyond Next Ventures、都心にシェアラボ「Beyond BioLAB TOKYO」を開設"
+      },
+      {
+        "url": "https://biolab.beyondnextventures.com/strength/",
+        "title": "Beyond BioLAB TOKYO | 日本橋シェアラボ",
+        "publisher": "Beyond Next Ventures",
+        "accessed": "undefined",
+        "supports": "facility description, location",
+        "quote": "a shared research facility with common experiment rooms and 3 private rooms, optimized for 1-8 person research groups"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Sources give slightly different opening milestones: an October 2018 press release announcing the launch vs. a March 2019 operational-start reference found elsewhere; both describe the same Nihonbashi facility.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-saito-bio-incubation",
+    "name": {
+      "en": "Saito Bio Incubation Facilities (Saito Bio-Incubator / Bio-Innovation Center / Bio-Hills Center)",
+      "local": "彩都バイオインキュベーション施設(彩都バイオインキュベータ・彩都バイオイノベーションセンター・彩都バイオヒルズセンター)"
+    },
+    "type": "incubator",
+    "status": "active",
+    "founded_year": 2004,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Ibaraki, Osaka",
+    "website": "https://osaka-bio.jp/advance/saito/incubation/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "life-science-tools", "diagnostics"],
+      "geo_focus": ["japan"],
+      "thesis": "Cluster of three publicly-backed rental-lab incubation buildings in the Saito Life Science Park (Osaka), offering wet-lab space — including animal facilities and investigational-drug manufacturing capability — to bio ventures, coordinated with Osaka Prefecture's Osaka Bio Headquarters subsidy programs for lab-equipment costs."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "Saito, Ibaraki, Osaka"
+    },
+    "summary": {
+      "en": "Three publicly-backed rental-lab incubation buildings (Saito Bio-Incubator opened 2004, Bio-Innovation Center opened 2008, and Bio-Hills Center) in Osaka's Saito Life Science Park, providing wet-lab space to biotech ventures under Osaka Prefecture's bio-incubation subsidy program.",
+      "local": "大阪府彩都ライフサイエンスパーク内の3つの公設・認定レンタルラボ(彩都バイオインキュベータ:2004年開設、彩都バイオイノベーションセンター:2008年開設、彩都バイオヒルズセンター)。大阪府のバイオインキュベート施設認定制度のもと、バイオベンチャーに実験室を提供。"
+    },
+    "sources": [
+      {
+        "url": "https://www.bs-capital.co.jp/saito/incu",
+        "title": "彩都バイオインキュベータ",
+        "publisher": "BS Capital",
+        "accessed": "undefined",
+        "supports": "opening year, facility description",
+        "quote": "彩都バイオインキュベータ: 2004年7月に開設された公設民営レンタルラボ"
+      },
+      {
+        "url": "https://osaka-bio.jp/advance/saito/incubation/",
+        "title": "彩都バイオインキュベーション施設 | 大阪バイオ・ヘッドクオーター",
+        "publisher": "Osaka Bio Headquarters",
+        "accessed": "undefined",
+        "supports": "coordination with Osaka Prefecture bio subsidy program"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Facility details (opening years, three-building composition) drawn from a real-estate operator page (bs-capital.co.jp) and Osaka Prefecture pages found in search results; direct fetch of the Osaka Bio Headquarters page returned limited content.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-life-innovation-center-kawasaki",
+    "name": { "en": "Life Innovation Center (LIC), King Skyfront", "local": "ライフイノベーションセンター(LIC) キングスカイフロント" },
+    "type": "incubator",
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Kawasaki",
+    "website": "https://www.king-skyfront.jp/en/facility/lic-en/",
+    "strategy": {
+      "sector_focus": ["cell-gene-therapy", "medtech-devices", "genomics-omics"],
+      "geo_focus": ["japan"],
+      "thesis": "Incubation and research facility within Kawasaki's King Skyfront (Tonomachi) international strategic biotech zone, functioning as a regenerative- and cellular-medicine industrialization hub and hosting the Skyfront Research Campus for genomic/personalized-medicine bioinformatics."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "Tonomachi, Kawasaki, Kanagawa"
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "company_creation": false
+    },
+    "summary": {
+      "en": "Incubation and lab facility at Kawasaki's King Skyfront life-science zone, serving as a regenerative and cellular medicine industrialization hub and hosting the Skyfront Research Campus bioinformatics initiative for personalized medicine.",
+      "local": "川崎市キングスカイフロント(殿町国際戦略拠点)内の再生・細胞医療の産業化拠点。ゲノム情報解析を行うスカイフロントリサーチキャンパスを併設。"
+    },
+    "sources": [
+      {
+        "url": "https://www.king-skyfront.jp/en/facility/lic-en/",
+        "title": "LIC | KING SKYFRONT, Kawasaki INnovation Gateway at SKYFRONT",
+        "publisher": "Kawasaki City / King Skyfront",
+        "accessed": "undefined",
+        "supports": "facility existence, location, function",
+        "quote": "Life Innovation Center...functions as a regenerative and cellular medicine industrialization hub"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Direct page fetch returned limited detail (opening year and full operator/tenant list not confirmed); description relies on search-result synthesis of King Skyfront materials rather than a fully verbatim page quote.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  },
+  {
+    "id": "jp-tsukuba-center-inc",
+    "name": { "en": "Tsukuba Center, Inc. (TCI) / Tsukuba Startup Plaza", "local": "株式会社つくば研究支援センター / つくば創業プラザ" },
+    "aka": ["TCI", "つくば創業プラザ"],
+    "type": "incubator",
+    "status": "active",
+    "founded_year": 1989,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tsukuba",
+    "website": "https://www.tsukuba-tci.co.jp/",
+    "strategy": {
+      "sector_focus": ["therapeutics", "life-science-tools", "diagnostics"],
+      "geo_focus": ["japan"],
+      "thesis": "Ibaraki Prefecture-designated incubation operator in Tsukuba Science City, running the Tsukuba Startup Plaza and wet-lab-capable incubation rooms (chemistry/biology experiments) that let deep-tech and bio startups spin out of Tsukuba's dense cluster of national research institutes."
+    },
+    "program": {
+      "lab_space": true,
+      "location": "Tsukuba, Ibaraki"
+    },
+    "summary": {
+      "en": "Incubation operator in Tsukuba Science City that runs the Tsukuba Startup Plaza and wet-lab-equipped incubation rooms for bio/chemistry ventures spinning out of Tsukuba's research institutes.",
+      "local": "つくば研究支援センターが指定管理者として運営するつくば創業プラザなどのインキュベーション施設。バイオ・化学系の実験も可能な研究室を提供。"
+    },
+    "sources": [
+      {
+        "url": "https://www.tsukuba-tci.co.jp/office/plaza-startupoffice",
+        "title": "つくば創業プラザ Start Up Office | 株式会社つくば研究支援センター",
+        "publisher": "Tsukuba Center Inc.",
+        "accessed": "undefined",
+        "supports": "operator, wet-lab facility description",
+        "quote": "県が設置し、株式会社つくば研究支援センターが指定管理者として運営するインキュベーション施設で、バイオ・化学系の実験も可能な研究室を備えています"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded year (1989) drawn from a secondary snippet describing Tsukuba Center Inc.'s founding in 'Heisei 1'; not independently confirmed via a direct fetch of an official company-history page.",
+    "last_updated": "undefined",
+    "researched_by": "accelerator-incubator-bio"
+  }
+]

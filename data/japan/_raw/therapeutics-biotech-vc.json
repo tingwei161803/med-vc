@@ -1,0 +1,760 @@
+[
+  {
+    "id": "jp-remiges-ventures",
+    "name": { "en": "Remiges Ventures", "local": "レミジェス・ベンチャーズ" },
+    "aka": ["Remiges", "RDiscovery"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "United States", "city": "Seattle" }
+    ],
+    "website": "https://remigesventures.com/",
+    "capital": {
+      "aum": { "raw": "~$80M", "usd": 80000000, "currency": "USD" },
+      "funds": [
+        { "name": "Remiges BioPharma Fund II", "vintage_year": 2021, "size": { "raw": "$95M", "usd": 95000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "United States"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "US-Japan cross-border life-science VC investing in early-stage drug discovery and therapeutic development, leveraging deep ties to Japanese academic medical research and pharma for partnering, clinical development and licensing. In 2025 launched the RDiscovery Fund to incubate drug-discovery seeds."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "cell-therapy"],
+      "company_creation": true,
+      "science_platform_notes": "RDiscovery Fund incubates drug-discovery seeds; SEC-registered investment adviser."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Immunis", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Cyrano Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Taro Inaba", "role": "Founder, Managing Partner & Managing Director", "background": "Japan-US life-science investor" }
+    ],
+    "summary": {
+      "en": "US-Japan cross-border biotech VC (Tokyo & Seattle) backing early-stage drug-discovery and therapeutics companies, with an in-house RDiscovery incubation fund.",
+      "local": "日米クロスボーダーの創薬・バイオ特化VC（東京・シアトル）。アーリーステージの新薬開発に投資し、シーズ育成のRDiscoveryファンドも運営。"
+    },
+    "sources": [
+      { "url": "https://remigesventures.com/", "title": "Remiges Ventures", "publisher": "Remiges Ventures", "accessed": "undefined", "supports": "Therapeutics focus, RDiscovery incubation fund, portfolio (Immunis, Cyrano Therapeutics)", "quote": "Launches RDiscovery Fund: Incubating Drug Discovery Seeds" },
+      { "url": "https://hub.waveup.com/funds/remiges-ventures", "title": "Remiges Ventures — VC Fund Profile", "publisher": "Waveup", "accessed": "undefined", "supports": "Founded 2014, Tokyo & Seattle, cross-border life-sciences focus", "quote": "US-Japan cross-border life-sciences venture capital firm founded in 2014 with offices in Seattle, Washington and Tokyo, Japan" },
+      { "url": "https://www.cbinsights.com/investor/remiges-biopharma", "title": "Remiges Ventures Portfolio Investments", "publisher": "CB Insights", "accessed": "undefined", "supports": "Fund II close at $95M (2021); AUM ~$80M; founder Taro Inaba", "quote": "Remiges BioPharma Fund II closed in April 2021 at a final $95 million" },
+      { "url": "https://www.amed.go.jp/en/program/list/19/02/005_Capital.html", "title": "List of Registered Venture Capitals", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC for Japan drug-discovery ecosystem", "quote": "Remiges Ventures, Inc. / RDiscovery, KK" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded year and Fund II size come from reputable secondary aggregators (Waveup / CB Insights); the official site is sparse. Cross-border US-Japan firm; Tokyo entity is RDiscovery KK.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-fast-track-initiative",
+    "name": { "en": "Fast Track Initiative, Inc.", "local": "ファストトラックイニシアティブ" },
+    "aka": ["FTI"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2004,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "United States", "city": "" }
+    ],
+    "website": "https://us.fasttrackinitiative.com/",
+    "capital": {
+      "aum": { "raw": "$200M", "usd": 200000000, "currency": "USD" },
+      "funds": [
+        { "name": "FTI No. 3 Fund", "vintage_year": null, "size": { "raw": "13.9B JPY (104.2M USD)", "usd": 104200000, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "United States"],
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health", "healthcare-services"],
+      "thesis": "Life-science VC investing in and building seed / early-stage healthcare companies with a strong focus on therapeutic platforms, leveraging an extensive Japanese life-science industry network and newco creation."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "biologics-antibody", "small-molecule"],
+      "company_creation": true
+    },
+    "track_record": {
+      "portfolio_count": "40+",
+      "notable_investments": [
+        { "company": "Mental Health Technologies", "sector": "digital-health", "outcome": "IPO (TSE Mothers, 2022, 9218)" },
+        { "company": "Shinobi Therapeutics", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Tokyo-based life-science VC (est. 2004) backing seed/early-stage therapeutics, diagnostics and healthcare newcos, with ~40+ portfolio companies and a US arm since 2022.",
+      "local": "2004年設立の東京拠点ライフサイエンスVC。創薬プラットフォームを中心にシード/アーリー期に投資し、40社超のポートフォリオと2022年からの米国拠点を持つ。"
+    },
+    "sources": [
+      { "url": "https://us.fasttrackinitiative.com/about-us/", "title": "About Us | Fast Track Initiative", "publisher": "Fast Track Initiative", "accessed": "undefined", "supports": "Founded 2004, HQ Tokyo, US expansion 2022, life-science/therapeutics focus", "quote": "Established in 2004, Fast Track Initiative (FTI) is a venture capital firm ... headquartered in Tokyo, Japan. In 2022, following our 3rd fund, we expanded our company to the US" },
+      { "url": "https://altss.com/profile/fast-track-initiative", "title": "Fast Track Initiative | Tokyo Venture Capital", "publisher": "Altss", "accessed": "undefined", "supports": "$200M AUM and FTI No.3 Fund at 13.9B JPY", "quote": "FTI has a total of $200M AUM ... FTI No. 3 Fund at 13.9B JPY (104.2M USD)" },
+      { "url": "https://us.fasttrackinitiative.com/fast-track-initiative-fti-invests-in-shinobi-therapeutics-a-u-s-and-japan-based-company-developing-hypoimmune-ips-cell-therapy/", "title": "FTI invests in Shinobi Therapeutics", "publisher": "Fast Track Initiative", "accessed": "undefined", "supports": "Portfolio example: Shinobi Therapeutics (iPS cell therapy)", "quote": "Fast Track Initiative (FTI) invests in Shinobi Therapeutics, a U.S. and Japan-based company developing hypoimmune iPS cell therapy" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, HQ and focus confirmed on the official About page (high confidence). AUM ($200M) and Fund No.3 size (¥13.9B) are from a secondary VC-profile aggregator (medium confidence).",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-an-venture-partners",
+    "name": { "en": "AN Venture Partners", "local": "AN ベンチャーパートナーズ" },
+    "aka": ["AN Ventures", "ANV"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://an.vc/en/",
+    "capital": {
+      "current_fund": { "raw": "USD 200 million (JPY 29 billion)", "usd": 200000000, "currency": "USD" },
+      "funds": [
+        { "name": "AN Venture Partners I, LP", "vintage_year": 2025, "size": { "raw": "USD 200 million (JPY 29 billion)", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "United States", "Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Multi-stage, global biotech VC bridging science originating in Japan (academia and big-pharma spin-outs) with the US startup ecosystem; interested in all modalities and disease areas with significant clinical impact, from pre-proof-of-concept to advanced clinical."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "rna-therapeutics", "small-molecule", "biologics-antibody"],
+      "indications": ["cardiovascular", "metabolic-obesity", "neurology", "rare-disease"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Typewriter Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "City Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Crystalys Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Imbria Pharmaceuticals", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["Japan Investment Corporation", "Shionogi", "Otsuka Pharmaceutical", "MUFG Bank", "SMBC"]
+    },
+    "people": [
+      { "name": "Ken Horne", "role": "Managing Partner" },
+      { "name": "Ari Nowacek", "role": "Partner", "background": "MD, PhD, MBA" },
+      { "name": "Takashi Futami", "role": "Partner", "background": "PhD, MBA" },
+      { "name": "Jun Hashimoto", "role": "Partner" }
+    ],
+    "summary": {
+      "en": "Tokyo & San Francisco multi-stage biotech VC that closed a $200M (¥29B) Fund I in 2025 — one of the largest Japan-focused biotech funds to date — bridging Japanese science with the US ecosystem.",
+      "local": "東京・サンフランシスコ拠点のマルチステージ創薬VC。2025年に2億ドル（290億円）の1号ファンドを最終クローズし、日本発サイエンスと米国スタートアップ・エコシステムを橋渡しする。"
+    },
+    "sources": [
+      { "url": "https://www.businesswire.com/news/home/20250701793878/en/AN-Venture-Partners-Announces-Final-Close-of-$200M-Fund-I", "title": "AN Venture Partners Announces Final Close of $200M Fund I", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund I final close $200M (¥29B); Tokyo & SF; founded 2022; LPs; all-stage strategy", "quote": "achieving its target of USD200 million (JPY29 billion), one of the largest Japan-focused biotech venture capital funds to date" },
+      { "url": "https://www.biospectrumasia.com/news/50/26296/an-venture-partners-announces-one-of-the-largest-japan-focused-biotech-funds-to-date.html", "title": "AN Venture Partners announces one of the largest Japan-focused biotech funds to date", "publisher": "BioSpectrum Asia", "accessed": "undefined", "supports": "Established 2022; Tokyo & San Francisco; all-stage, all-modality strategy; LPs led by JIC, Shionogi, Otsuka, MUFG, SMBC", "quote": "ANV is a Tokyo and San Francisco-based multi-stage, global biotech venture capital firm ... established in 2022" },
+      { "url": "https://an.vc/en/", "title": "AN Ventures", "publisher": "AN Venture Partners", "accessed": "undefined", "supports": "Nihonbashi Tokyo office; portfolio; team; therapeutics/gene & RNA focus", "quote": "GLOBAL LIFESCIENCE HUB 7F, Nihonbashi Muromachi Mitsui Tower ... Tokyo 103-0022, Japan" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund size, founding year, offices and LPs corroborated by Business Wire press release and BioSpectrum; office/team/portfolio confirmed on official site.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-saisei-ventures",
+    "name": { "en": "Saisei Ventures", "local": "サイセイ・ベンチャーズ" },
+    "aka": ["Saisei"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      { "country": "Japan", "city": "Tokyo" },
+      { "country": "United States", "city": "Cambridge" }
+    ],
+    "website": "https://www.saiseiventures.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "United States"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Biotech VC that creates ventures combining Japanese innovation with global expertise, focused on advanced therapeutic platforms — cell immunotherapies, pluripotent cell replacement therapies, and in vivo / ex vivo gene therapy — for life-threatening or debilitating diseases, from proof-of-concept through IND."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "company_creation": true,
+      "science_platform_notes": "Runs an Executive Fellows Program to build Japan's biotech leadership pipeline."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Tune Therapeutics", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Sven Kili", "role": "Partner", "background": "MD; cell & gene therapy executive" }
+    ],
+    "summary": {
+      "en": "US-Japan biotech VC (Tokyo & Cambridge, MA) building cell, gene and regenerative-medicine companies from Japanese foundational technologies; AMED-certified drug-discovery VC (2023).",
+      "local": "日米（東京・ケンブリッジ）のバイオVC。日本発の基盤技術から細胞・遺伝子・再生医療企業を創出し、2023年にAMED認定VCとなった。"
+    },
+    "sources": [
+      { "url": "https://www.saiseiventures.com/", "title": "Saisei Ventures – Homepage", "publisher": "Saisei Ventures", "accessed": "undefined", "supports": "Biotech focus; cell/gene/regenerative platforms; POC-to-IND; Japan focus; Tune Therapeutics", "quote": "cell immunotherapies, pluripotent cell replacement therapies, and in vivo / ex vivo gene therapy approaches" },
+      { "url": "https://www.businesswire.com/news/home/20230517005339/en/Saisei-Ventures-is-Selected-as-a-Certified-VC-Fund-by-AMED-to-Catalyze-the-Japanese-Drug-Development-Ecosystem", "title": "Saisei Ventures is Selected as a Certified VC Fund by AMED", "publisher": "Business Wire", "accessed": "undefined", "supports": "AMED certification (2023); Tokyo & Cambridge MA; founded 2020; cell & gene / regenerative focus", "quote": "Saisei Ventures ... selected as one of nine registered venture capital firms in AMED's Strengthening Program for Pharmaceutical Startup Ecosystem" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded year (2020) and Tokyo/Cambridge offices from secondary sources; fund size not disclosed. Therapeutic focus and AMED certification well-documented.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-dci-partners",
+    "name": { "en": "DCI Partners Co., Ltd.", "local": "DCIパートナーズ株式会社" },
+    "aka": ["DCI Partners", "Daiwa Corporate Investment (biotech arm)"],
+    "type": "vc",
+    "subtypes": ["venture-studio"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo" } ],
+    "website": "https://www.daiwa-inv.co.jp/dcip/en/",
+    "capital": {
+      "funds": [
+        { "name": "Daiwa Japan-Taiwan Bio Venture Fund II (大和日台バイオベンチャー2号ファンド)", "vintage_year": null, "size": { "raw": "¥140億 (14.0B JPY)", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan", "Taiwan"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Drug-discovery-specialized VC within the Daiwa Securities Group that has invested in biotech for 20+ years; sets up ventures fund-led (company creation) without waiting for full corporate structure, and provides hands-on clinical/IP/BD support with a Japan-Taiwan network."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": true
+    },
+    "summary": {
+      "en": "Tokyo drug-discovery-specialist VC in the Daiwa Securities Group, one of Japan's largest bio-dedicated managers, running Japan-Taiwan biotech funds (Fund II ¥14B) and doing fund-led company creation.",
+      "local": "大和証券グループの創薬特化VC。国内最大級のバイオ専門運用会社で、日台バイオベンチャーファンド（2号 約140億円）を運営し、ファンド主導のベンチャー設立も行う。"
+    },
+    "sources": [
+      { "url": "https://www.daiwa-inv.co.jp/dcip/", "title": "DCIパートナーズ株式会社", "publisher": "Daiwa Corporate Investment", "accessed": "undefined", "supports": "20+ years biotech investing; largest bio-dedicated capital; fund-led company creation; Japan-Taiwan network", "quote": "20年以上バイオ分野への投資を行い、現在も特化型VCとして国内最大の資金を運用" },
+      { "url": "https://www.marr.jp/genre/topics/news/entry/26136", "title": "DCIパートナーズ、総額140億円の創薬特化型ファンド「大和日台バイオベンチャー2号ファンド」を設立", "publisher": "MARR Online (RECOF)", "accessed": "undefined", "supports": "Fund II size ¥14.0 billion; drug-discovery-specialized; Japan-Taiwan", "quote": "総額140億円の創薬特化型ファンド「大和日台バイオベンチャー2号ファンド」を設立" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund II size (¥14B) and specialist positioning from Daiwa's own site and RECOF M&A news. Founding year of the DCI Partners entity not separately verified. NOTE: self-described as 'largest bio-dedicated capital in Japan' — may overlap with a tier1 sibling slice; included here as a therapeutics specialist.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-bio-sight-capital",
+    "name": { "en": "Bio-Sight Capital, Inc.", "local": "バイオ・サイト・キャピタル株式会社" },
+    "aka": ["Bio-Sight Capital", "BS-Capital"],
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Ibaraki (Osaka)",
+    "offices": [
+      { "country": "Japan", "city": "Ibaraki / Saito (Osaka)" },
+      { "country": "Japan", "city": "Kawasaki (Shin-Kawasaki)" },
+      { "country": "Japan", "city": "Uruma (Okinawa)" }
+    ],
+    "website": "https://www.bs-capital.co.jp/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "cell-gene-therapy", "life-science-tools"],
+      "thesis": "Life-science/biotech VC and incubator operating seven wet-lab-capable rental-lab buildings across Osaka (Saito), Kawasaki and Okinawa; invests from seed/early stage in pharmaceuticals, medical devices, regenerative-medicine products, reagents and support tools."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "cell-therapy", "biologics-antibody"],
+      "company_creation": true,
+      "science_platform_notes": "Runs seven wet-lab rental buildings across three sites (Osaka Saito, Kawasaki, Okinawa Uruma); a JST START business promoter."
+    },
+    "track_record": {
+      "portfolio_count": "13 IPOs",
+      "notable_investments": [
+        { "company": "Carna Biosciences", "sector": "therapeutics", "outcome": "IPO (JASDAQ, 2008)" },
+        { "company": "3-D Matrix", "sector": "medtech-devices", "outcome": "IPO (JASDAQ, 2011)" },
+        { "company": "Funpep", "sector": "therapeutics", "outcome": "IPO (TSE Mothers, 2020)" },
+        { "company": "Kringle Pharma", "sector": "therapeutics", "outcome": "IPO (TSE Mothers, 2020)" }
+      ]
+    },
+    "summary": {
+      "en": "One of Japan's oldest biotech-dedicated VC-incubators (est. 2002, Osaka Saito cluster), pairing seed/early investment with wet-lab space; 13 portfolio IPOs including Carna Biosciences and Kringle Pharma.",
+      "local": "2002年設立、彩都（大阪）を拠点とする国内最古参のバイオ特化VC兼インキュベーター。ウェットラボ提供とシード投資を組み合わせ、カルナバイオサイエンスやクリングルファーマなど13社の上場実績を持つ。"
+    },
+    "sources": [
+      { "url": "https://www.bs-capital.co.jp/", "title": "バイオ・サイト・キャピタル株式会社", "publisher": "Bio-Sight Capital", "accessed": "undefined", "supports": "Founded 2002; wet-lab rental across Saito/Kawasaki/Okinawa; investment areas; 13 IPOs", "quote": "2002年の創業以来 ... 大阪（彩都）、神奈川（新川崎）、沖縄（うるま）の3拠点で7棟のレンタルラボを運営 ... これまで13社が株式上場を果たしています" },
+      { "url": "https://www.jst.go.jp/start/promoter/unit/bs-capital.html", "title": "バイオ・サイト・キャピタル株式会社 | 事業プロモーター", "publisher": "JST START Program", "accessed": "undefined", "supports": "Recognized JST START business-promoter (life-science commercialization)", "quote": "バイオ・サイト・キャピタル株式会社｜事業プロモーターユニット" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year (Dec 2002), lab-space model and IPO track record confirmed on official site and JST START pages.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-shinsei-capital-partners",
+    "name": { "en": "Shinsei Capital Partners", "local": "新生キャピタルパートナーズ" },
+    "aka": ["New Life Science"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo" } ],
+    "website": "https://www.new-lifescience.com/en/",
+    "capital": {
+      "funds": [
+        { "name": "New Life Science I Investment Limited Partnership", "vintage_year": null, "size": { "raw": "¥10.1 billion", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "digital-health"],
+      "thesis": "Life-science VC carved out of the Shinsei Bank group, investing in early-stage Japan-based startups in drug discovery and digital health."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Chordia Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "AlphaNavi Pharma", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Cellaion", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Manabu Nakamura", "role": "Founder", "background": "ex-Managing Director, Shinsei Corporate Investment" }
+    ],
+    "summary": {
+      "en": "Tokyo life-science VC spun out of the Shinsei Bank group (est. 2018) running a ~¥10.1B fund for early-stage Japanese drug-discovery and digital-health startups.",
+      "local": "新生銀行グループから独立した東京のライフサイエンスVC（2018年設立）。約101億円のファンドで、日本のアーリー期創薬・デジタルヘルス企業に投資する。"
+    },
+    "sources": [
+      { "url": "https://www.new-lifescience.com/en/", "title": "New Life Science", "publisher": "Shinsei Capital Partners", "accessed": "undefined", "supports": "Life-science focus (drug discovery + digital health), Japan early-stage", "quote": "New Life Science" },
+      { "url": "https://www.caplight.com/investor/new-lifescience", "title": "Shinsei Capital Partners | Portfolio, Investments & AUM", "publisher": "Caplight", "accessed": "undefined", "supports": "Founded 2018; ¥10.1B fund; drug-discovery + digital-health; portfolio (Chordia, AlphaNavi Pharma, Cellaion)", "quote": "fund size of JPY 10.1 billion ... early-stage Japan-based startup companies engaged in life science fields such as biotech or digital health" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size (¥10.1B) and founding year (2018; some sources say 2019) from Caplight/CB Insights secondary data; therapeutics focus and portfolio corroborated.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-newton-biocapital",
+    "name": { "en": "Newton Biocapital", "local": "ニュートン・バイオキャピタル" },
+    "aka": ["NBC", "Newton Biocapital Partners"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Brussels",
+    "offices": [
+      { "country": "Belgium", "city": "Brussels" },
+      { "country": "Japan", "city": "Tokyo" }
+    ],
+    "website": "https://newtonbiocapital.com/en/",
+    "capital": {
+      "funds": [
+        { "name": "Newton Biocapital I (NBC I)", "vintage_year": 2017, "size": { "raw": "€114M", "usd": null, "currency": "EUR" } },
+        { "name": "Newton Biocapital Partners II (NBC II)", "vintage_year": null, "size": { "raw": "€150M target", "usd": null, "currency": "EUR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Belgium", "Netherlands", "Germany", "France", "Japan"],
+      "sector_focus": ["therapeutics"],
+      "check_size": { "raw": "€5M–€10M", "usd_min": null, "usd_max": null },
+      "thesis": "Euro-Japan life-science VC financing early-stage companies targeting chronic health conditions; the first and only Euro-Japan fund nominated under a METI/AMED initiative, planning to invest in ~15 Japanese and European startups."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["metabolic-obesity", "immunology-inflammation"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Tensegrity Pharma", "sector": "therapeutics", "outcome": "active (first NBC II Japan investment)" }
+      ]
+    },
+    "summary": {
+      "en": "Belgium-HQ, Tokyo-office biotech VC — the only Euro-Japan AMED-certified fund — investing €5–10M in ~15 European and Japanese drug-discovery startups (NBC I €114M; NBC II €150M target).",
+      "local": "ベルギー本社・東京拠点のバイオVC。唯一の欧日AMED認定ファンドで、欧州・日本の創薬スタートアップ約15社に1社あたり500万〜1000万ユーロを投資（NBC I 1.14億ユーロ、NBC II 1.5億ユーロ目標）。"
+    },
+    "sources": [
+      { "url": "https://www.labiotech.eu/trends-news/newton-biocapital-vc-fund-japan/", "title": "Newton Biocapital VC Fund Leads Investment Wave in Japanese Biotech", "publisher": "Labiotech", "accessed": "undefined", "supports": "NBC I €114M (2017); NBC II €150M target, ~15 JP/EU startups, €5–10M each; Brussels & Tokyo; Euro-Japan METI/AMED fund", "quote": "In 2017, Newton Biocapital launched its first VC fund, Newton Biocapital I (NBC I), worth €114M ... NBC II, with a target of €150M ... invest in around 15 Japanese and European startups, each receiving between €5M and €10M" },
+      { "url": "https://newtonbiocapital.com/en/news-article/newton-biocapital-is-proud-to-announce-that-it-has-been-certified-as-a-part-of-new-drug-discovery-venture-ecosystem-strengthening-project-by-amed-japan-agency-for-medical-research-and-development", "title": "Newton Biocapital certified by AMED", "publisher": "Newton Biocapital", "accessed": "undefined", "supports": "AMED certification for Japan drug-discovery ecosystem", "quote": "certified as a part of new drug discovery venture ecosystem strengthening project by AMED" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Headquartered in Brussels, Belgium; included in the japan slice because it runs a dedicated Tokyo office and Euro-Japan fund and is AMED-certified for Japan's drug-discovery ecosystem. Fund figures from Labiotech (secondary).",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-vision-incubate",
+    "name": { "en": "Vision Incubate, Inc.", "local": "株式会社ビジョンインキュベイト" },
+    "aka": ["Vision Incubate"],
+    "type": "vc",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Kanazawa",
+    "offices": [ { "country": "Japan", "city": "Kanazawa (Ishikawa)" } ],
+    "website": "https://visionincubate.com/en/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery"],
+      "thesis": "National-university-affiliated VC/incubator commercializing research from Hokuriku-region national universities, with a strong drug-discovery/biotech emphasis; described as Japan's first national-university VC investing on a 100% self-financed basis into a certified fund."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule"],
+      "company_creation": true
+    },
+    "track_record": {
+      "portfolio_count": 8,
+      "notable_investments": [
+        { "company": "FerroptoCure", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Core Biomedicine", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Kanazawa-based university-linked VC/incubator (est. 2023) commercializing Hokuriku national-university research, with a drug-discovery focus (e.g. FerroptoCure); an AMED-certified fund and LINK-J member.",
+      "local": "金沢拠点の大学系VC/インキュベーター（2023年設立）。北陸の国立大学の研究成果を事業化し、創薬（FerroptoCure等）を重視。AMED認定ファンドかつLINK-J会員。"
+    },
+    "sources": [
+      { "url": "https://visionincubate.com/jp/about-us/", "title": "Vision Incubateとは | 株式会社ビジョンインキュベイト", "publisher": "Vision Incubate", "accessed": "undefined", "supports": "National-university research commercialization; incubation support", "quote": "研究成果 ... 事業化 ... インキュベーション支援" },
+      { "url": "https://initial.inc/investors/V19688", "title": "株式会社ビジョンインキュベイト | INITIAL", "publisher": "INITIAL / Uzabase", "accessed": "undefined", "supports": "Founded 2023; Kanazawa; drug-discovery & biotech portfolio (FerroptoCure, Core Biomedicine); 8 investments", "quote": "Vision Incubate ... Drug Discovery and Biotechnology industries ... FerroptoCure, Core Biomedicine" },
+      { "url": "https://www.link-j.org/en/about/introduction-corporate/vcs/", "title": "Special Membership Directory", "publisher": "LINK-J", "accessed": "undefined", "supports": "LINK-J special member (life-science network)", "quote": "Vision Incubate Co., Ltd." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 2023 and portfolio from INITIAL (secondary). Mandate spans deep tech beyond biomedicine, but drug discovery/biotech is a stated core; included as therapeutics-relevant. HQ city (Kanazawa) per INITIAL.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-diamond-medino-capital",
+    "name": { "en": "Diamond Medino Capital, Inc.", "local": "Diamond Medino Capital株式会社" },
+    "aka": ["Diamond Medino Capital", "DMC"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo (Chuo)" } ],
+    "website": "https://diamondmedino.com/en/",
+    "capital": {
+      "funds": [
+        { "name": "DMC No.1 Investment Limited Partnership (DMC1号投資事業有限責任組合)", "vintage_year": 2022, "size": { "raw": "up to ¥5 billion", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "Independent healthcare VC specializing in medical devices and pharmaceuticals, built on clinical-needs + medicine-engineering (igaku-kogaku) collaboration to invest in advanced medical devices and drug-development startups."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "small-molecule"]
+    },
+    "people": [
+      { "name": "Terumitsu Hasebe", "role": "Representative Director" }
+    ],
+    "summary": {
+      "en": "Tokyo healthcare VC (est. 2022) running the up-to-¥5B DMC No.1 fund focused on advanced medical devices and pharmaceuticals via clinical-needs / medical-engineering collaboration.",
+      "local": "2022年設立の東京のヘルスケアVC。最大50億円のDMC1号ファンドを運営し、医工連携で先端医療機器・医薬品スタートアップに投資する。"
+    },
+    "sources": [
+      { "url": "https://diamondmedino.com/news/posts/232/", "title": "ヘルスケア（医療機器・医薬品）に特化したベンチャーキャピタルファンドDMC1号 ... の設立について", "publisher": "Diamond Medino Capital", "accessed": "undefined", "supports": "Focus on medical devices + pharmaceuticals; DMC No.1 fund establishment", "quote": "ヘルスケア（医療機器・医薬品）に特化したベンチャーキャピタルファンドDMC1号投資事業有限責任組合の設立について" },
+      { "url": "https://bio.nikkeibp.co.jp/atcl/release/22/12/01/15267/", "title": "Diamond Medino Capital、DMC1号ファンドの設立について", "publisher": "日経バイオテク (Nikkei BP)", "accessed": "undefined", "supports": "Founded 2022; rep director Terumitsu Hasebe; DMC1 fund up to ¥5B", "quote": "Diamond Medino Capital ... DMC1号 ... 最大 ... 50億円" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Device-leaning healthcare fund (医療機器・医薬品) — therapeutics/pharma is one of two pillars; included for its pharmaceutical investment mandate. Fund size (up to ¥5B) from Nikkei BP release.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-bio-engineering-capital",
+    "name": { "en": "Bio Engineering Capital, Inc.", "local": "Bio Engineering Capital株式会社" },
+    "aka": ["Bio Engineering Capital", "BEC"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2024,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [ { "country": "Japan", "city": "Tokyo (Nihonbashi Muromachi)" } ],
+    "website": "https://bioengineering.capital/en/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["ai-drug-discovery", "cell-gene-therapy", "digital-health"],
+      "thesis": "Fund and support platform creating an entrepreneurial ecosystem in medical AI/DX and regenerative medicine, backing life-science founders via fund investment plus expert-group hands-on support; joint research agreement with Tokyo Medical and Dental University's Open Innovation Center."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "cell-therapy", "software-samd"],
+      "company_creation": true,
+      "science_platform_notes": "Joint research agreement with Tokyo Medical and Dental University Open Innovation Center."
+    },
+    "people": [
+      { "name": "Yuki Shimahara", "role": "Representative Director / Founder", "background": "Co-founder & ex-CEO of LPIXEL (medical/drug-discovery AI image analysis)" }
+    ],
+    "summary": {
+      "en": "Tokyo life-science VC (est. June 2024) founded by ex-LPIXEL CEO Yuki Shimahara, focused on medical AI/DX and regenerative medicine, with a TMDU open-innovation partnership.",
+      "local": "元エルピクセルCEOの島原佑基氏が2024年6月に設立した東京のライフサイエンスVC。医療AI/DXと再生医療に注力し、東京医科歯科大とオープンイノベーション連携を持つ。"
+    },
+    "sources": [
+      { "url": "https://prtimes.jp/main/html/rd/p/000000004.000144993.html", "title": "医療AI/DXおよび再生医療領域の起業エコシステム創出のため、Bio Engineering Capitalを設立", "publisher": "PR TIMES / Bio Engineering Capital", "accessed": "undefined", "supports": "Focus on medical AI/DX + regenerative medicine; ecosystem creation via fund + support", "quote": "医療AI/DXおよび再生医療領域の起業エコシステム創出のため、Bio Engineering Capitalを設立" },
+      { "url": "https://thebridge.jp/2024/06/bio-engineering-capital-launched", "title": "元エルピクセルの島原氏ら、Bio Engineering Capitalを設立", "publisher": "BRIDGE", "accessed": "undefined", "supports": "Founded June 2024; founder Yuki Shimahara (ex-LPIXEL); medical AI/DX + regenerative medicine focus", "quote": "元エルピクセルの島原氏ら、Bio Engineering Capitalを設立——医療のAI／DXと再生医療分野の起業支援に特化" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "New (June 2024) firm; fund size not yet disclosed. Mandate straddles medical AI/DX (digital) and regenerative medicine (therapeutics/cell therapy) — included for the regenerative-medicine/biotech nexus.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-mp-healthcare-venture-management",
+    "name": { "en": "MP Healthcare Venture Management, Inc.", "local": "MPヘルスケアベンチャーマネジメント" },
+    "aka": ["MPH"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2006,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Boston",
+    "offices": [ { "country": "United States", "city": "Boston" } ],
+    "website": "https://www.mp-healthcare.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["United States", "Europe", "Japan"],
+      "sector_focus": ["therapeutics", "diagnostics"],
+      "thesis": "Corporate venture arm of Mitsubishi Tanabe Pharma (Mitsubishi Chemical Group) investing in seed/early-stage biotech developing novel therapeutics, platform technologies, diagnostics or vaccines; AMED-registered for Japan's drug-discovery ecosystem."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "rna-therapeutics", "microbiome"],
+      "indications": ["neurology", "immunology-inflammation", "rare-disease"],
+      "science_platform_notes": "Team of PhDs across business and science; therapeutic areas incl. regenerative medicine, synthetic biology, microbiome, gene/nucleic-acid therapy, neurodegeneration, immunology, rare disease."
+    },
+    "track_record": {
+      "portfolio_count": 45,
+      "notable_investments": [
+        { "company": "QurAlis", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Ribometrix", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Forge Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Boston-based corporate VC of Mitsubishi Tanabe Pharma (est. 2006), backing seed/early-stage therapeutics, platform and diagnostics companies; AMED-registered for Japan's pharma-startup ecosystem.",
+      "local": "三菱田辺製薬（三菱ケミカルグループ）のボストン拠点CVC（2006年設立）。シード/アーリー期の新規治療薬・基盤技術・診断に投資し、AMED認定VC。"
+    },
+    "sources": [
+      { "url": "https://www.mp-healthcare.com/about-us", "title": "About Us — MP Healthcare Venture Management", "publisher": "MP Healthcare Venture Management", "accessed": "undefined", "supports": "CVC of Mitsubishi Tanabe Pharma; Boston; seed/early biotech in therapeutics, platforms, diagnostics, vaccines", "quote": "invests in seed and early-stage biotech companies ... working on novel therapeutics, platform technologies, diagnostics, or vaccines" },
+      { "url": "https://www.amed.go.jp/en/program/list/19/02/005_Capital.html", "title": "List of Registered Venture Capitals", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC for Japan drug-discovery ecosystem", "quote": "MP Healthcare Venture Management, Inc. (MPH)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Boston-HQ with no Japan office; included in the japan slice as the CVC of a Japanese pharma (Mitsubishi Tanabe) and an AMED-registered fund. Investing primarily in North America/Europe. Portfolio count (45) from PitchBook/Crunchbase (secondary).",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-astellas-venture-management",
+    "name": { "en": "Astellas Venture Management LLC", "local": "アステラス・ベンチャー・マネジメント" },
+    "aka": ["AVM", "Astellas Venture Capital"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Menlo Park",
+    "offices": [ { "country": "United States", "city": "Menlo Park" } ],
+    "website": "https://www.astellasventure.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["United States", "Japan", "Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Corporate venture capital arm of Astellas Pharma (Japan) making strategic investments in private early-stage biotech companies to build relationships that may lead to larger collaborations with Astellas; AMED-registered."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"]
+    },
+    "summary": {
+      "en": "Menlo Park CVC of Astellas Pharma (lineage from Yamanouchi/Fujisawa venture arms, ~1999-2000) making strategic early-stage therapeutics investments; AMED-registered for Japan's drug-discovery ecosystem.",
+      "local": "アステラス製薬のメンローパーク拠点CVC（山之内・藤沢の投資部門を起源に1999〜2000年）。アーリー期の治療薬に戦略投資し、AMED認定VC。"
+    },
+    "sources": [
+      { "url": "https://www.life-sciences-asia.com/organisation/astellas-venture-management-llc-avm-group-menlo-park-2001-32688.html", "title": "Astellas Venture Management LLC (AVM)", "publisher": "Life-Sciences-Asia", "accessed": "undefined", "supports": "CVC arm of Astellas Pharma; Menlo Park; lineage from Yamanouchi VC (2000) / Fujisawa Investments (1999); strategic early-stage biotech", "quote": "Astellas Venture Management LLC (AVM) is the corporate venture capital arm of Astellas Pharma Inc. ... originally founded as Yamanouchi VentureCapital LLC in 2000" },
+      { "url": "https://www.amed.go.jp/en/program/list/19/02/005_Capital.html", "title": "List of Registered Venture Capitals", "publisher": "AMED", "accessed": "undefined", "supports": "AMED-registered VC for Japan drug-discovery ecosystem", "quote": "Astellas Venture Management LLC" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Menlo Park-HQ CVC of Astellas Pharma (a Japanese pharma); included in the japan slice via Japanese parent + AMED registration. Founding year traced to Yamanouchi VC (2000) / Fujisawa Investments (1999) via secondary source.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-ono-venture-investment",
+    "name": { "en": "Ono Venture Investment, Inc.", "local": "オノベンチャーインベストメント" },
+    "aka": ["OVI"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "California",
+    "offices": [ { "country": "United States", "city": "California" } ],
+    "website": "https://www.ono-pharma.com/en/company/rd",
+    "capital": {
+      "funds": [
+        { "name": "Ono Venture Investment Fund I, L.P.", "vintage_year": 2020, "size": { "raw": "US$200 million (increased from US$100M in Dec 2023)", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["United States", "Japan", "Global"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Corporate venture fund of Ono Pharmaceutical (Japan) seeking access and partnerships with drug-discovery targets and cutting-edge technologies for innovative new-drug creation, investing in biotech ventures and startups."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["oncology", "immunology-inflammation"]
+    },
+    "summary": {
+      "en": "California-based corporate venture fund of Ono Pharmaceutical (est. May 2020) investing in drug-discovery biotech; expanded its fund from $100M to $200M in December 2023.",
+      "local": "小野薬品のカリフォルニア拠点CVCファンド（2020年5月設立）。創薬バイオに投資し、2023年12月にファンド規模を1億ドルから2億ドルへ増額。"
+    },
+    "sources": [
+      { "url": "https://www.ono-pharma.com/en/news/20231201_2.html", "title": "Ono Expands Investment in Ono Venture Investment Fund I to US$200 Million", "publisher": "Ono Pharmaceutical", "accessed": "undefined", "supports": "Fund I expanded to US$200M (Dec 2023)", "quote": "Ono Expands Investment in Ono Venture Investment Fund I, L.P. to US$200 Million" },
+      { "url": "https://initial.inc/investors/V16017", "title": "Ono Venture Investment, Inc. | INITIAL", "publisher": "INITIAL / Uzabase", "accessed": "undefined", "supports": "Founded May 2020, California; access/partnership for drug-discovery targets & technology; invests in biotech startups", "quote": "2020年5月にカリフォルニア州 ... 創薬標的と最先端技術へのアクセスとパートナーシップ ... バイオベンチャーおよびスタートアップ企業に投資" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "California-based CVC of Ono Pharmaceutical (a Japanese pharma); included via Japanese parent running a dedicated drug-discovery venture fund. A separate vehicle, Ono Digital Health Investment (2022), covers digital health and is out of this therapeutics scope.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-kyoto-icap",
+    "name": { "en": "Kyoto University Innovation Capital Co., Ltd.", "local": "京都大学イノベーションキャピタル株式会社" },
+    "aka": ["Kyoto-iCAP", "KYOTO-iCAP"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc", "venture-studio"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Kyoto",
+    "offices": [ { "country": "Japan", "city": "Kyoto" } ],
+    "website": "https://www.kyoto-unicap.co.jp/en/",
+    "capital": {
+      "funds": [
+        { "name": "Innovation Kyoto 2016 Investment LP (KYOTO-iCAP Fund I)", "vintage_year": 2016, "size": { "raw": "¥16 billion", "usd": null, "currency": "JPY" } },
+        { "name": "KYOTO-iCAP Fund II", "vintage_year": 2021, "size": { "raw": "¥18.1 billion", "usd": null, "currency": "JPY" } },
+        { "name": "KYOTO-iCAP Fund No.3", "vintage_year": null, "size": { "raw": "約200億円 (~¥20 billion)", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Wholly Kyoto-University-owned VC commercializing researchers' knowledge and technologies, with drug discovery / healthcare a major pillar alongside deep-tech (materials, robotics, AI); backed by LPs including Astellas Pharma."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "company_creation": true
+    },
+    "summary": {
+      "en": "Kyoto University's wholly-owned VC (est. 2014) with drug discovery as a core focus; Fund I ¥16B (2016), Fund II ¥18.1B (2021) and a third fund of ~¥20B backed by LPs including Astellas Pharma.",
+      "local": "京都大学100%出資のVC（2014年設立）。創薬を中核領域とし、1号16億円（2016）、2号181億円（2021）、アステラス製薬などが出資する約200億円の3号ファンドを組成。"
+    },
+    "sources": [
+      { "url": "https://www.kyoto-unicap.co.jp/en/company/", "title": "Company Profile | Kyoto University Innovation Capital", "publisher": "Kyoto University Innovation Capital", "accessed": "undefined", "supports": "Established Dec 2014; 100% owned by Kyoto University; Fund I ¥16B (2016), Fund II ¥18.1B (2021)", "quote": "Kyoto iCAP ... established in December 2014, 100% funded by Kyoto University ... KYOTO-iCAP Fund I ... 16 billion yen ... Fund II ... 18.1 billion yen" },
+      { "url": "https://www.nikkei.com/article/DGXZQOUF161580W6A310C2000000/", "title": "京都大学イノベーションキャピタルが200億円ファンド", "publisher": "日本経済新聞 (Nikkei)", "accessed": "undefined", "supports": "Third fund ~¥20B; LPs incl. Kyoto Bank and Astellas Pharma", "quote": "京都大学イノベーションキャピタルが200億円ファンド 京都銀行やアステラス製薬などが出資" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Primary type is university fund; it straddles the therapeutics-VC slice because drug discovery is a core focus and it is AMED-registered. Deep-tech mandate is broader than biomedicine. Fund III size (~¥20B) from Nikkei headline.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  },
+  {
+    "id": "jp-osaka-university-venture-capital",
+    "name": { "en": "Osaka University Venture Capital Co., Ltd.", "local": "大阪大学ベンチャーキャピタル株式会社" },
+    "aka": ["OUVC"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc", "venture-studio"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Osaka",
+    "offices": [ { "country": "Japan", "city": "Osaka" } ],
+    "website": "https://www.ouvc.co.jp/en/",
+    "capital": {
+      "funds": [
+        { "name": "OUVC No.1 Investment Limited Partnership", "vintage_year": 2015, "size": { "raw": "12.51 billion JPY", "usd": null, "currency": "JPY" } },
+        { "name": "OUVC No.2 Investment Limited Partnership", "vintage_year": 2021, "size": { "raw": "10.65 billion JPY", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Osaka University's VC creating and financing startups from university research; about 60% of the portfolio is life science, including drug discovery and medical devices, with an emphasis on zero-stage company creation alongside researchers."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "rna-therapeutics", "biologics-antibody"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Luxna Biotech", "sector": "therapeutics", "outcome": "active (oligonucleotide therapeutics)" }
+      ]
+    },
+    "summary": {
+      "en": "Osaka University's VC (est. 2014; Fund I 2015 ¥12.51B, Fund II 2021 ¥10.65B) with ~60% of its portfolio in life science / drug discovery and a strong company-creation model.",
+      "local": "大阪大学のVC（2014年設立、1号2015年125.1億円・2号2021年106.5億円）。ポートフォリオの約6割がライフサイエンス／創薬で、カンパニークリエーションに注力。"
+    },
+    "sources": [
+      { "url": "https://www.ouvc.co.jp/en/fund", "title": "OUVC | FUND", "publisher": "Osaka University Venture Capital", "accessed": "undefined", "supports": "Fund I (2015) ¥12.51B; Fund II (2021) ¥10.65B", "quote": "OUVC No.1 Investment Limited Partnership ... 12.51billion JPY ... OUVC No.2 Investment Limited Partnership ... 10.65billion JPY" },
+      { "url": "https://startupclass.co.jp/article/2025/03/04/ouvc/", "title": "大阪大学の研究成果を社会へ", "publisher": "StartupClass", "accessed": "undefined", "supports": "~60% of portfolio is life science / drug discovery; company-creation focus", "quote": "投資先の約6割が医療系 ... 創薬や医療機器といったライフサイエンス系の投資先が6割ほど" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Fund sizes confirmed on OUVC's official fund page. Primary type is university fund; it straddles the therapeutics-VC slice because ~60% of investments are life science / drug discovery. Founded 2014 (company); Fund I launched 2015.",
+    "last_updated": "undefined",
+    "researched_by": "therapeutics-biotech-vc"
+  }
+]

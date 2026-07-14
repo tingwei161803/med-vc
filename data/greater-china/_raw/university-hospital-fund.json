@@ -1,0 +1,412 @@
+[
+  {
+    "id": "cn-hetang-venture-capital",
+    "name": {
+      "en": "Hetang Venture Capital (Lotus Lake Ventures)",
+      "local": "荷塘创投"
+    },
+    "aka": ["启迪创投 (former name)", "Lotus Lake Ventures", "Hetang Venture Investment Management (Beijing) Co., Ltd.", "荷塘创业投资管理（北京）有限公司"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2001,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "website": "https://www.tsinghua-vc.com/",
+    "capital": {
+      "funds": [
+        { "name": "荷塘系列之探索基金 (Hetang Exploration Fund)", "size": { "raw": "5亿元人民币", "usd": null, "currency": "CNY" } },
+        { "name": "荷塘系列之健康基金 (Hetang Health Fund, Phase I)", "size": { "raw": "首期5.3亿元人民币", "usd": null, "currency": "CNY" } },
+        { "name": "荷塘系列之原始创新基金 (Hetang Original Innovation Fund)", "size": { "raw": "10亿元人民币", "usd": null, "currency": "CNY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "geo_focus": ["China"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
+      "lead_or_follow": "both",
+      "thesis": "Tsinghua University's core venture-capital management platform for commercializing Tsinghua research; runs a dedicated Hetang Health Fund investing in in-vitro diagnostics, endoscopy, cardiovascular and orthopedic devices, plus an Original Innovation Fund backing early-stage life-science IP originating from Tsinghua labs."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "indications": ["cardiovascular", "musculoskeletal-orthopedics"],
+      "company_creation": null,
+      "science_platform_notes": "Operates as the investment arm within Tsinghua University's innovation system (formerly 启迪创投), sourcing deal flow directly from Tsinghua science and technology achievement transformation."
+    },
+    "track_record": {
+      "portfolio_count": "100+",
+      "notable_investments": []
+    },
+    "tags": ["tsinghua-university", "tech-transfer", "beijing"],
+    "summary": {
+      "en": "Tsinghua University-affiliated venture capital platform (est. 2001, formerly Qidi Venture Capital) that commercializes Tsinghua research through multiple RMB funds, including a dedicated health fund focused on IVD, endoscopy, cardiovascular and orthopedic devices.",
+      "local": "荷塘创投（原启迪创投，2001年成立）是清华大学创新体系中的创业投资管理平台，专注于清华大学科技成果转化，旗下荷塘健康基金聚焦体外诊断、内窥镜、心血管和骨科等领域。"
+    },
+    "sources": [
+      {
+        "url": "https://gyy.tsinghua.edu.cn/kjfh/cxtz/htct.htm",
+        "title": "创新投资 - 荷塘创投",
+        "publisher": "北京清华工业开发研究院",
+        "accessed": "undefined",
+        "supports": "founding year, fund names and sizes, sector focus, portfolio count",
+        "quote": "荷塘系列之探索基金规模5亿元，集中投资于生物医药、电子信息、新材料等领域的战略性新兴产业；荷塘系列之健康基金首期规模5.3亿元，围绕体外诊断、内窥镜、心血管和骨科等重点领域进行投资；荷塘系列之原始创新基金募集规模10亿元，围绕清华大学生命科学领域中具有原始创新的国际前沿科研成果进行早期战略投资。"
+      },
+      {
+        "url": "https://www.vbdata.cn/1518897946",
+        "title": "反向输出，高校疯狂做起了VC",
+        "publisher": "动脉网",
+        "accessed": "undefined",
+        "supports": "founding year, former name, portfolio count, exits",
+        "quote": "荷塘创业投资管理（北京）有限公司（荷塘创投，原名\"启迪创投\"）创立于2001年3月...荷塘创投迄今已经投资了超过壹佰家公司，通过IPO、并购等退出20多家公司"
+      },
+      {
+        "url": "https://www.tsinghua-vc.com/",
+        "title": "荷塘创业投资管理（北京）有限公司-首页",
+        "publisher": "Hetang Venture Capital",
+        "accessed": "undefined",
+        "supports": "official website confirming entity exists"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio count and exit numbers vary slightly across sources (100+ investments, 20+ exits per vbdata.cn; a separate WebFetch of the official page cited ~120 projects); used the more conservative figure with an explicit quote.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "cn-hkust-entrepreneurship-fund",
+    "name": {
+      "en": "HKUST Entrepreneurship Fund (E-Fund)",
+      "local": "港科大創業基金"
+    },
+    "aka": ["E-Fund", "HKUST Innovation and Entrepreneurship Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "greater-china",
+    "country": "Hong Kong",
+    "hq_city": "Hong Kong",
+    "website": "https://e-fund.hkust.edu.hk/",
+    "capital": {
+      "funds": [
+        { "name": "HKUST Entrepreneurship Fund (E-Fund)", "size": { "raw": "HK$100 million HKUST commitment, aiming to mobilize HK$2 billion (20億港元) with industry co-investors", "usd": null, "currency": "HKD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Hong Kong"],
+      "sector_focus": ["generalist-health"],
+      "lead_or_follow": "follow",
+      "thesis": "HKUST's university-wide venture vehicle co-invests alongside partner VCs (targeting HK$2 billion in mobilized capital) in angel/seed-stage startups that are at least 10% owned by HKUST faculty, staff, students or alumni; publicly stated priority areas include AI, semiconductors & robotics, new materials, energy & sustainability, and biomedicine & healthcare (生物医學及醫療健康)."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": null,
+      "science_platform_notes": "Draws deal flow from HKUST's Technology Transfer Center and Entrepreneurship Center; invests up to HK$5M per startup under a co-investment model, or directly under an HKUST-initiated model."
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": []
+    },
+    "tags": ["hkust", "hong-kong", "tech-transfer"],
+    "summary": {
+      "en": "HKUST's official entrepreneurship fund invests HK$100M of university capital (targeting HK$2B mobilized with industry partners) into angel/seed-stage startups founded by HKUST students, faculty and alumni, with biomedicine and healthcare named as one of five priority sectors.",
+      "local": "港科大創業基金（E-Fund）以港幣一億元校方資金為種子，目標透過業界夥伴引入合共20億港元創投資金，投資由港科大師生校友創立的天使/種子期新創公司，生物醫學及醫療健康為五大重點領域之一。"
+    },
+    "sources": [
+      {
+        "url": "https://e-fund.hkust.edu.hk/about",
+        "title": "About | Entrepreneurship Fund",
+        "publisher": "The Hong Kong University of Science and Technology",
+        "accessed": "undefined",
+        "supports": "fund structure, HK$100M commitment, eligibility, investment stage/model",
+        "quote": "Private and owned legally and beneficially with at least 10% by faculty member, staff member, student, and/or alumni of HKUST"
+      },
+      {
+        "url": "https://www.cls.cn/detail/1677211",
+        "title": "设立20亿基金！港科大还想投出一个大疆",
+        "publisher": "财联社",
+        "accessed": "undefined",
+        "supports": "HK$2 billion target size, five priority sectors including biomedicine and healthcare",
+        "quote": "该基金将致力协助人工智能、半导体和机器人、新材料、能源和可持续发展、生物医学及医疗健康等领域发展"
+      },
+      {
+        "url": "https://hkust.shciri.cn/news/latest/577.html",
+        "title": "港科大成立创新创业基金与业界携手 为校内初创企业引入20亿港元风投资金",
+        "publisher": "HKUST (mirrored release)",
+        "accessed": "undefined",
+        "supports": "HK$2 billion mobilized venture capital figure"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official HKUST E-Fund page describes the fund as sector-agnostic ('innovative technologies and/or business models' without sector restriction); the HK$2B figure and explicit biomedicine/healthcare priority come from Chinese-language press coverage of the fund's 2024 industry-partner expansion, which may refer to the same initiative under a broader 'HKUST venture fund' framing.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "cn-hkust-siic-hong-kong-biotechnology-fund",
+    "name": {
+      "en": "Hong Kong Biotechnology Fund (HKUST-SIIC)",
+      "local": "香港生物科技基金"
+    },
+    "aka": ["HK Biotechnology Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2025,
+    "region": "greater-china",
+    "country": "Hong Kong",
+    "hq_city": "Hong Kong",
+    "capital": {
+      "current_fund": { "raw": "港元6亿 (HK$600 million target)", "usd": null, "currency": "HKD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Hong Kong"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "lead_or_follow": "both",
+      "thesis": "Jointly seeded by HKUST and Shanghai Industrial Investment Corp (SIIC / 上海实业集团) to invest in Hong Kong biotech and life-science companies, with at least half of the HK$600M target fund earmarked to support startups from HKUST's own innovation ecosystem."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": null
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": []
+    },
+    "tags": ["hkust", "siic", "hong-kong", "biotech"],
+    "summary": {
+      "en": "A HK$600M biotechnology fund co-seeded in March 2025 by HKUST and Shanghai Industrial Investment Corp (SIIC), with at least half the capital reserved for HKUST-linked biotech startups.",
+      "local": "港科大與上海實業集團（上實集團）於2025年3月共同種子投資設立香港生物科技基金，目標規模6億港元，其中至少一半預留支持港科大創新生態圈的生物科技初創企業。"
+    },
+    "sources": [
+      {
+        "url": "https://finance.sina.com.cn/roll/2025-03-13/doc-inepprkc0428997.shtml",
+        "title": "港科大与上实集团联手打造6亿港元香港生物科技基金，半数资金支持港科大初创企业",
+        "publisher": "新浪财经",
+        "accessed": "undefined",
+        "supports": "fund size, co-founders, allocation to HKUST startups",
+        "quote": "香港科技大学与上海实业集团宣布成立香港生物科技基金...该基金目标规模为6亿港元，其中将预留至少一半专门支持香港科技大学的初创生态圈"
+      },
+      {
+        "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20250317/eefdab17f0f74cc4a5d29c25d4129d5e.html",
+        "title": "上实集团联合港科大设立香港生物科技基金",
+        "publisher": "上海市国资委 (Shanghai SASAC)",
+        "accessed": "undefined",
+        "supports": "confirms SIIC and HKUST as co-founders of the fund"
+      },
+      {
+        "url": "https://36kr.com/p/2778307230450825",
+        "title": "香港这所大学做VC了",
+        "publisher": "36氪",
+        "accessed": "undefined",
+        "supports": "background on HKUST venture activities"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund is newly announced (March 2025); could not verify a dedicated official fund website within the research budget, relying on reputable secondary press (Sina Finance, 36Kr) plus an official Shanghai SASAC confirmation of SIIC's involvement.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "cn-west-china-health",
+    "name": {
+      "en": "West China Health (West China Hospital, Sichuan University Investment Platform)",
+      "local": "华西健康"
+    },
+    "aka": ["四川华西健康科技有限公司", "Sichuan West China Health Technology Co., Ltd."],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Chengdu",
+    "website": "https://www.wchscu.cn/",
+    "strategy": {
+      "stages": ["seed", "growth"],
+      "geo_focus": ["China"],
+      "sector_focus": ["therapeutics", "healthcare-services", "medtech-devices"],
+      "lead_or_follow": "both",
+      "thesis": "Wholly-owned investment and industry platform of West China Hospital, Sichuan University, that incubates and holds equity in biomedical/health-industry spinouts commercializing hospital and lab research (e.g. companies leveraging West China Hospital's National Key Laboratory of Biotherapy)."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": true,
+      "science_platform_notes": "Platform for the hospital's joint-venture and cooperation projects; positioned as 'a product incubation and technology transformation base for large health industry investment operations.'"
+    },
+    "track_record": {
+      "portfolio_count": "约29家 (about 29 invested companies, 22 currently active)",
+      "notable_investments": [
+        { "company": "成都赜灵生物医药 (Chengdu Zealing Biopharmaceutical)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "tags": ["sichuan-university", "west-china-hospital", "chengdu", "hospital-investment-arm"],
+    "summary": {
+      "en": "The wholly-owned investment platform of West China Hospital (Sichuan University), founded 1999, that has taken stakes in roughly 29 health-industry companies to commercialize hospital and lab research, such as biopharma spinout Chengdu Zealing.",
+      "local": "四川大学华西医院旗下全资投资平台，成立于1999年，已投资约29家大健康产业企业，推动医院及实验室科研成果产业化，例如生物制药公司成都赜灵。"
+    },
+    "sources": [
+      {
+        "url": "https://stcn.com/article/detail/3369771.html",
+        "title": "华西医院投资产业大整合 涉及7家公司，金额逾8300万元",
+        "publisher": "证券时报",
+        "accessed": "undefined",
+        "supports": "founding year 1999, portfolio count, notable investment, divestment amount",
+        "quote": "华西医院的全资子公司——四川华西健康科技有限公司成立于1999年...华西健康对外投资企业约29家，其中7家企业已注销，22家企业在营"
+      },
+      {
+        "url": "https://www.wchscu.cn/xxgkw/index.html",
+        "title": "四川大学华西医院",
+        "publisher": "四川大学华西医院官网",
+        "accessed": "undefined",
+        "supports": "confirms hospital's official website / existence"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Primary source is a Securities Times (证券时报/stcn.com) news article reporting a 2026 divestment of 7 portfolio companies; could not locate a standalone official page for 华西健康 describing its investment mandate in full detail within the research budget.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "cn-guoke-innovation",
+    "name": {
+      "en": "Guoke Innovation (CAS S&T Achievement Transformation Fund)",
+      "local": "国科创投"
+    },
+    "aka": ["国科科技成果转化母基金", "国科创业投资管理有限公司", "CAS Star"],
+    "type": "university-hospital-fund",
+    "subtypes": ["government-program", "vc"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "website": "https://www.casvc.com/",
+    "capital": {
+      "aum": { "raw": "注册资本15亿元人民币 (RMB 1.5 billion registered capital, mother fund)", "usd": null, "currency": "CNY" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["China"],
+      "sector_focus": ["generalist-health"],
+      "lead_or_follow": "both",
+      "thesis": "Investment platform of Chinese Academy of Sciences (CAS) Holdings dedicated to commercializing research from CAS institutes; deploys a mother-fund-plus-direct-investment model ('投早、投小、投绿、投硬') into strategic emerging industries, with medical health (医疗健康) listed alongside advanced manufacturing, TMT and new materials as a core investment area."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": null,
+      "science_platform_notes": "Formally entrusted with managing the CAS Science and Technology Achievement Transformation Mother Fund (国科科技成果转化母基金), sourcing deal flow from CAS-affiliated institutes such as the Guangzhou Institute of Biomedicine and Health."
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": []
+    },
+    "tags": ["chinese-academy-of-sciences", "cas-holdings", "tech-transfer", "beijing"],
+    "summary": {
+      "en": "The Chinese Academy of Sciences' own venture-capital and tech-transfer platform (est. 2017), managing a mother fund plus direct investments into strategic emerging industries spun out of CAS institutes, with medical health as one of its named focus areas.",
+      "local": "国科创投是中国科学院控股有限公司于2017年发起设立的科技成果转化投资平台，采用母基金+直投模式投资战略新兴产业，医疗健康是其明确布局的领域之一。"
+    },
+    "sources": [
+      {
+        "url": "https://www.casvc.com/about/",
+        "title": "关于我们-国科科技成果转化母基金",
+        "publisher": "国科创投",
+        "accessed": "undefined",
+        "supports": "founding year 2017, CAS Holdings relationship, mother fund mandate"
+      },
+      {
+        "url": "https://startup.aliyun.com/info/108674.html",
+        "title": "中科院科技成果转化创投基金来了，注册资本15亿",
+        "publisher": "阿里云创新中心",
+        "accessed": "undefined",
+        "supports": "registered capital RMB 1.5 billion",
+        "quote": "中科院科技成果转化创投基金来了，注册资本15亿"
+      },
+      {
+        "url": "http://holdings.cas.cn/kjjrpt/gqrz/jjgs/202210/t20221025_4574602.html",
+        "title": "国科创投--中国科学院控股有限公司",
+        "publisher": "中国科学院控股有限公司",
+        "accessed": "undefined",
+        "supports": "confirms Guoke Innovation as a CAS Holdings subsidiary"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Medical/health nexus is real but secondary — 医疗健康 (medical health) is named as one of several priority sectors (alongside intelligent manufacturing, TMT, new materials) rather than the fund's primary focus, and its highlighted portfolio companies skew toward semiconductors and advanced manufacturing. Also straddles the sibling government-fund slice since CAS Holdings is state-owned; included here primarily as a research-institute (中国科学院) tech-transfer vehicle, with government-program listed as a secondary subtype.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "cn-fudan-kechuang-fund-of-funds",
+    "name": {
+      "en": "Fudan Kechuang Fund of Funds",
+      "local": "复旦科创母基金"
+    },
+    "aka": ["复旦大学科创投资基金", "Fudan Innovation Mother Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "capital": {
+      "current_fund": { "raw": "首期规模10亿元人民币 (RMB 1 billion first tranche)", "usd": null, "currency": "CNY" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["China"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "lead_or_follow": "follow",
+      "thesis": "Fudan University's first university-led fund-of-funds, formed with local government, SOE and market-based partners, that channels capital into sub-funds and projects commercializing Fudan research, with 生命健康/生物医药 (life & health / biopharma) named as one of its priority sectors alongside integrated circuits, AI and new materials."
+    },
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": null
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": []
+    },
+    "tags": ["fudan-university", "shanghai", "fund-of-funds", "tech-transfer"],
+    "summary": {
+      "en": "Fudan University's first university-led mother fund (fund-of-funds), launched with a RMB 1 billion first tranche, investing in tech-transfer projects and sub-funds with biomedicine/life-health named among its core sectors.",
+      "local": "复旦科创母基金是复旦大学首支高校主导的科创母基金，首期规模10亿元，重点投向生命健康、集成电路、人工智能、新材料等领域的科技成果转化项目。"
+    },
+    "sources": [
+      {
+        "url": "https://news.fudan.edu.cn/2023/1225/c2808a138722/page.htm",
+        "title": "复旦科创母基金启动，首期规模达10亿元",
+        "publisher": "复旦大学新闻网",
+        "accessed": "undefined",
+        "supports": "fund launch, first tranche size RMB 1 billion",
+        "quote": "复旦科创母基金启动，首期规模达10亿元"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/nw31406/20241209/0301e205711049c78b008e7296e8cd67.html",
+        "title": "复旦科创母基金正式成立 上海国投公司赋能科研成果与项目转化",
+        "publisher": "上海市人民政府",
+        "accessed": "undefined",
+        "supports": "formal establishment and sector focus including life sciences",
+        "quote": "复旦科创母基金将关注长远，推动创新突破，聚焦集成电路、人工智能、生物医药、新材料等关键\"卡脖子\"领域"
+      },
+      {
+        "url": "https://www.stcn.com/article/detail/1053856.html",
+        "title": "复旦大学，也要做科创母基金了！",
+        "publisher": "证券时报",
+        "accessed": "undefined",
+        "supports": "background on fund establishment as first among 985 universities"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sources give two different milestone dates — a December 2023 launch announcement and a December 3, 2024 'formal establishment' with an oversubscribed first close — likely reflecting a phased launch; used 2024 (formal establishment) as founded_year. Biomedicine is one of several named priority sectors, not the fund's sole focus.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  }
+]

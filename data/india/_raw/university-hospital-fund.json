@@ -1,0 +1,421 @@
+[
+  {
+    "id": "in-sine-iit-bombay",
+    "name": { "en": "SINE, IIT Bombay (Y-Point Venture Capital Fund)" },
+    "aka": ["Society for Innovation and Entrepreneurship", "Y-Point Venture Capital Fund"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://www.sineiitb.org/",
+    "capital": {
+      "current_fund": { "raw": "INR 250 crore", "usd": null, "currency": "INR" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "IIT Bombay's academic technology-business incubator SINE manages the Y-Point Venture Capital Fund, described as India's first incubator-linked deep-tech VC fund, which explicitly names Life Sciences and Healthcare as one of its priority investment sectors alongside AI, advanced manufacturing/materials, climate tech and space/defence."
+    },
+    "lifesci": {
+      "science_platform_notes": "Fund is managed by SINE, IIT Bombay's academia-linked technology business incubator, giving portfolio companies access to IIT Bombay faculty, research infrastructure and the Institution of Eminence network."
+    },
+    "summary": {
+      "en": "SINE, IIT Bombay's technology business incubator, runs the INR 250-crore Y-Point Venture Capital Fund -- billed as India's first incubator-linked deep-tech VC fund -- with Life Sciences and Healthcare as one of its named investment verticals."
+    },
+    "sources": [
+      {
+        "url": "https://www.iitb.ac.in/breaking-news/sine-iit-bombay-launches-indias-first-incubator-linked-deep-tech-vc-fund-worth-inr",
+        "title": "SINE, IIT Bombay Launches India's First Incubator-Linked Deep Tech VC Fund Worth INR 250 Crore",
+        "publisher": "IIT Bombay",
+        "accessed": "undefined",
+        "supports": "Fund name, INR 250 crore size, sector focus including Life Sciences and Healthcare",
+        "quote": "Y-Point Venture Capital Fund, which is managed by an academia-linked incubator. With a total fund size of INR 250 crore ... high-impact sectors including: AI (Artificial Intelligence), Advanced Computing, Advanced Manufacturing, Advanced Materials, Nuclear Technology, Space & Defence Technology, Climate & CleanTech, Life Sciences and Healthcare"
+      },
+      {
+        "url": "https://www.sineiitb.org/",
+        "title": "SINE IIT Bombay",
+        "publisher": "SINE, IIT Bombay",
+        "accessed": "undefined",
+        "supports": "SINE is IIT Bombay's technology business incubator"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "An earlier Entrepreneur India report referenced an INR 100 crore figure for the same fund launch; IIT Bombay's own official announcement states a total corpus of INR 250 crore, used here as the primary figure.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "in-htic-iit-madras",
+    "name": { "en": "Healthcare Technology Innovation Centre (HTIC) / MedTech Incubator, IIT Madras" },
+    "aka": ["HTIC", "HTIC MedTech Incubator"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator", "accelerator"],
+    "status": "active",
+    "founded_year": 2011,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Chennai",
+    "website": "https://htic.iitm.ac.in/mti/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["medtech-devices", "diagnostics"],
+      "thesis": "A joint initiative of IIT Madras and the Department of Biotechnology (Government of India) dedicated to MedTech innovators and early-stage healthcare startups; its MedTech Incubator wing gives startups access to the IIT Madras Innovation Fund for seed capital plus clinical/regulatory validation support and investor introductions."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "science_platform_notes": "Hosted within IIT Madras with access to healthcare researchers and product/clinical validation experts; part of the Tamil Nadu BioNEST cluster."
+    },
+    "track_record": {
+      "portfolio_count": "10+ years of operation"
+    },
+    "summary": {
+      "en": "IIT Madras' Healthcare Technology Innovation Centre and its MedTech Incubator wing support early-stage MedTech founders with access to the IIT Madras Innovation Fund for seed capital, clinical validation and investor connections."
+    },
+    "sources": [
+      {
+        "url": "https://htic.iitm.ac.in/mti/",
+        "title": "Home – MedTech Incubator",
+        "publisher": "IIT Madras HTIC",
+        "accessed": "undefined",
+        "supports": "HTIC is a joint IIT Madras-DBT initiative for MedTech startups; seed fund access via IIT Madras Innovation Fund",
+        "quote": "Healthcare Technology Innovation Centre (HTIC) is a joint initiative by Indian Institute of Technology Madras (IITM) and Department of Biotechnology (DBT), Government of India ... Start-ups get access to the IIT Madras innovation fund to ascertain a seed fund."
+      },
+      {
+        "url": "https://www.hticiitm.org/",
+        "title": "HTIC IITMadras Chennai",
+        "publisher": "IIT Madras HTIC",
+        "accessed": "undefined",
+        "supports": "Founding year 2011 and track record raising Rs 120+ crore",
+        "quote": "HTIC has a proven track record of being a sustainable centre for 10 years, by raising around Rs. 120+ crores after initial DBT investment of Rs. 6 crores in 2011."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HTIC is jointly funded and co-run by IIT Madras and the Department of Biotechnology (a government body) via BIRAC/BioNEST channels; included in this university slice because it is physically hosted, operated day-to-day, and its innovation fund administered by IIT Madras rather than being a standalone government program.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "in-fsid-iisc",
+    "name": { "en": "Foundation for Science, Innovation and Development (FSID), IISc" },
+    "aka": ["FSID"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bangalore",
+    "website": "https://www.fsid-iisc.in/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "INR 25 lakh - 50 lakh (equity-linked instruments); up to INR 1 crore combined with grants" },
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "IISc's single-window technology-transfer and incubation foundation, translating IISc deep-science research -- spanning biotech alongside space tech, semiconductors, AI and advanced materials -- into startups, funded via equity-linked seed instruments and the government NIDHI Seed Support Program."
+    },
+    "track_record": {
+      "portfolio_count": "140+"
+    },
+    "summary": {
+      "en": "FSID is IISc Bangalore's technology-transfer and incubation foundation, providing equity-linked seed funding (about INR 25-50 lakh) to deep-tech startups spun out of IISc research, including biotech ventures among its 140+ portfolio companies."
+    },
+    "sources": [
+      {
+        "url": "https://www.fsid-iisc.in/",
+        "title": "FSID - Foundation for Science, Innovation and Development",
+        "publisher": "FSID, IISc",
+        "accessed": "undefined",
+        "supports": "FSID is IISc's tech-transfer/incubation foundation",
+        "quote": "Foundation for Science Innovation and Development (FSID) is your single window access to the deep science and deep tech within IISc."
+      },
+      {
+        "url": "https://yourstory.com/2026/02/how-fsid-at-iisc-is-building-a-vibrant-deeptech-ecosystem-in-india",
+        "title": "How IISc's FSID is building a vibrant deeptech ecosystem",
+        "publisher": "YourStory",
+        "accessed": "undefined",
+        "supports": "Equity-linked funding amounts (INR 25-50 lakh) and 140+ startups incubated spanning biotech",
+        "quote": "FSID provides funding from 25L to 50L through equity linked instruments ... Since its inception, FSID has incubated more than 140 startups spanning space tech, semiconductors, biotech, artificial intelligence and advanced materials."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "in-siic-iit-kanpur",
+    "name": { "en": "Startup Incubation and Innovation Centre (SIIC), IIT Kanpur" },
+    "aka": ["SIIC", "FIRST (Foundation for Research & Innovation in Science & Technology)"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Kanpur",
+    "website": "https://siicincubator.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["medtech-devices", "generalist-health"],
+      "thesis": "One of India's oldest university tech-business incubators, operated by FIRST (a Section 8 company promoted by IIT Kanpur), providing seed investment and infrastructure to startups including MedTech ventures such as ICU-ventilator maker Noccarc Robotics and remote-diagnostics company Acculi Labs."
+    },
+    "track_record": {
+      "portfolio_count": "500+",
+      "notable_investments": [
+        { "company": "Noccarc Robotics", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Acculi Labs", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "SIIC is IIT Kanpur's technology business incubator, run via the FIRST Section-8 foundation, which has seeded 500+ startups including MedTech companies like ventilator maker Noccarc Robotics and remote-diagnostics firm Acculi Labs."
+    },
+    "sources": [
+      {
+        "url": "https://siicincubator.com/portfolio/portfolio.php",
+        "title": "SIIC IIT Kanpur",
+        "publisher": "SIIC, IIT Kanpur",
+        "accessed": "undefined",
+        "supports": "SIIC is IIT Kanpur's incubator run via FIRST; 500+ startups supported across sectors incl. MedTech",
+        "quote": "SIIC is one of India's oldest and most successful technology business incubators, functioning under the Foundation for Research & Innovation in Science & Technology (FIRST), a Section 8 company promoted by IIT Kanpur. It has supported over 500 startups and 200+ innovators across sectors like CleanTech, AgriTech, MedTech, DeepTech, and Sustainable Development."
+      },
+      {
+        "url": "https://www.prokerala.com/news/articles/a1457966.html",
+        "title": "IIT Kanpur-incubated startup secures investment from SIDBI for healthcare innovation",
+        "publisher": "Prokerala",
+        "accessed": "undefined",
+        "supports": "Noccarc Robotics medtech investment via SIIC-linked SIDBI seed equity scheme",
+        "quote": "Noccarc Robotics: A MedTech startup incubated at SIIC that developed the Noccarc V310 ICU ventilator ... secured investment under the SIDBI Seed Equity Support Scheme (S4-SIIC)"
+      },
+      {
+        "url": "https://startupstorymedia.com/iit-kanpur-incubator-siic-made-an-undisclosed-initial-investment-in-bangalore-based-acculi-labs/",
+        "title": "IIT Kanpur Incubator SIIC made an undisclosed initial investment in Bangalore-based Acculi Labs",
+        "publisher": "Startup Story",
+        "accessed": "undefined",
+        "supports": "SIIC direct investment in healthcare company Acculi Labs",
+        "quote": "IIT Kanpur Incubator SIIC made an undisclosed initial investment in Bangalore-based Acculi Labs ... for the positive effect it has made in the field of healthcare."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "in-fitt-iit-delhi",
+    "name": { "en": "Foundation for Innovation and Technology Transfer (FITT), IIT Delhi" },
+    "aka": ["FITT"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 1992,
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "website": "https://fitt-iitd.in/",
+    "strategy": {
+      "stages": ["seed"],
+      "check_size": { "raw": "up to INR 70 lakh equity funding for biotech & medtech startups" },
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "IIT Delhi's registered technology-transfer and industry-interface society, offering equity funding of up to INR 70 lakh specifically for biotech and medtech startups alongside its broader deep-tech incubation and technology-licensing mandate."
+    },
+    "track_record": {
+      "portfolio_count": "280+ startups incubated (200+ deep-tech)"
+    },
+    "summary": {
+      "en": "FITT is IIT Delhi's Board-of-Governors-established technology-transfer foundation (est. 1992), which among its incubation programs offers equity funding of up to INR 70 lakh targeted at biotech and medtech startups."
+    },
+    "sources": [
+      {
+        "url": "https://www.startupgrantsindia.com/providers/fitt-iit-delhi",
+        "title": "FITT, IIT Delhi | Startup Grants India",
+        "publisher": "Startup Grants India",
+        "accessed": "undefined",
+        "supports": "FITT founding year 1992, cumulative funding facilitated, and INR 70 lakh biotech/medtech equity funding",
+        "quote": "FITT (Foundation for Innovation and Technology Transfer) is a registered society established on 9 July 1992 by the Board of Governors of IIT Delhi ... With over 280 startups incubated — including 200+ deep-tech ventures — and ₹450+ crore in cumulative funding facilitated ... FITT, IIT Delhi offers up to ₹70 Lakhs equity funding for biotech & medtech startups."
+      },
+      {
+        "url": "https://fitt-iitd.in/",
+        "title": "FITT, IIT Delhi",
+        "publisher": "FITT, IIT Delhi",
+        "accessed": "undefined",
+        "supports": "Official website confirming organization identity"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "in-ciie-co-iim-ahmedabad",
+    "name": { "en": "CIIE.CO, IIM Ahmedabad" },
+    "aka": ["Centre for Innovation Incubation and Entrepreneurship", "IIMA Ventures"],
+    "type": "university-hospital-fund",
+    "subtypes": ["accelerator", "vc"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Ahmedabad",
+    "website": "https://ciie.co/",
+    "capital": {
+      "funds": [
+        { "name": "CIIE.CO Seed Fund", "size": { "raw": "$25 million", "usd": 25000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["digital-health", "medtech-devices", "generalist-health"],
+      "thesis": "IIM Ahmedabad's innovation and incubation centre runs a dedicated Healthcare Accelerator for MedTech and digital-health ventures -- a 3-month program pairing seed funding with mentorship -- alongside its broader multi-sector seed investment activity."
+    },
+    "program": {
+      "length_weeks": 12,
+      "format": "in-person/hybrid",
+      "location": "Ahmedabad",
+      "perks": ["seed funding", "mentorship", "regulatory/IP/legal/finance advisory"]
+    },
+    "track_record": {
+      "portfolio_count": "350 (of 1,200+ startups helped)",
+      "notable_investments": [
+        { "company": "Zumutor Biologics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "CIIE.CO, the innovation and incubation centre backed by IIM Ahmedabad, runs a dedicated Healthcare Accelerator for MedTech and digital-health startups and has backed biotech ventures such as Zumutor Biologics as part of its broader ~350-company investment portfolio."
+    },
+    "sources": [
+      {
+        "url": "https://ciie.co/investment.html",
+        "title": "Investment | CIIE.CO | The Innovation Continuum",
+        "publisher": "CIIE.CO",
+        "accessed": "undefined",
+        "supports": "CIIE.CO Healthcare Accelerator for MedTech/digital health"
+      },
+      {
+        "url": "https://www.iima.ac.in/news/iim-ahmedabad-centre-launches-25-mn-seed-fund-invest-tech-startups",
+        "title": "IIM-Ahmedabad Centre Launches $25 Mn Seed Fund To Invest in Tech Startups",
+        "publisher": "IIM Ahmedabad",
+        "accessed": "undefined",
+        "supports": "$25 million seed fund size",
+        "quote": "IIM-Ahmedabad Centre Launches $25 Mn Seed Fund To Invest in Tech Startups"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/CIIE.CO",
+        "title": "CIIE.CO",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Portfolio scale (350 of 1,200+ startups) and Zumutor Biologics as notable investment",
+        "quote": "advised more than 5,000 entrepreneurs, helped 1,200 start-ups and invested in 350 of them ... Zumutor Biologics"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The $25M seed fund and Healthcare Accelerator appear to be distinct but related CIIE.CO initiatives; exact current fund vehicle backing health-sector deals not fully disambiguated from public sources.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "in-cmie-aiims-delhi",
+    "name": { "en": "Centre for Medical Innovation & Entrepreneurship (CMIE), AIIMS Delhi" },
+    "aka": ["CMIE-AIIMS", "Bio-Incubation by CMIE at AIIMS"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "website": "https://cmie-aiims.in/",
+    "strategy": {
+      "stages": ["pre-seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["medtech-devices", "diagnostics", "healthcare-services"],
+      "thesis": "A hospital-based bio-incubator hosted at AIIMS New Delhi, creating an ecosystem to incubate medical innovations from AIIMS clinicians and faculty, connecting them to investors, capital and clinical/lab infrastructure (BioBank, Stem Cell Facility) for inclusive Indian healthcare entrepreneurship."
+    },
+    "lifesci": {
+      "science_platform_notes": "Provides incubated startups access to AIIMS clinical and research infrastructure including the BioBank, Animal Facility, Central Core Research Facility and Stem Cell Facility."
+    },
+    "track_record": {
+      "portfolio_count": 30
+    },
+    "summary": {
+      "en": "CMIE is AIIMS New Delhi's own bio-incubation centre for medical innovation and entrepreneurship, set up under the BIRAC-BioNEST scheme, which has supported roughly 30 startups founded by AIIMS clinicians and faculty and connected them to investors and capital."
+    },
+    "sources": [
+      {
+        "url": "https://cmie-aiims.in/",
+        "title": "Bio-Incubation by CMIE at AIIMS, Delhi",
+        "publisher": "AIIMS New Delhi / CMIE",
+        "accessed": "undefined",
+        "supports": "CMIE is AIIMS Delhi's bio-incubator, 60th BIRAC-BioNEST incubator",
+        "quote": "The Centre for Medical Innovation & Entrepreneurship (CMIE) at AIIMS, Delhi is the 60th Bio-Incubator under the BIRAC – BioNEST Scheme."
+      },
+      {
+        "url": "https://cmie-aiims.in/about-cmie/",
+        "title": "About CMIE - CMIE",
+        "publisher": "AIIMS New Delhi / CMIE",
+        "accessed": "undefined",
+        "supports": "Portfolio count of 30 startups supported, Rs 25 crore+ external funding facilitated",
+        "quote": "AIIMS has expanded its focus on research translation, with its innovation and incubation programme having received over 140 innovation applications, supported 30 start-ups, and facilitated more than Rs 25 crore in external funding."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "CMIE is set up under the BIRAC-BioNEST scheme (a Government of India program), but it is physically hosted at, staffed by, and rooted in AIIMS New Delhi (a public hospital/medical institute); included here as a hospital-based innovation vehicle rather than as the BioNEST government program itself.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "in-psg-step",
+    "name": { "en": "PSG-STEP (PSG Science & Technology Entrepreneurial Park)" },
+    "aka": ["PSG-STEP", "PSG Centre for Biomedical Innovations (PSG CBMI)"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 1998,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Coimbatore",
+    "website": "https://www.psgstep.org/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "check_size": { "raw": "up to INR 15 lakh (green tech/rural/women-led); up to INR 10 lakh (other startups)" },
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["medtech-devices", "therapeutics"],
+      "thesis": "Technology park at PSG College of Technology, Coimbatore, running a dedicated biotechnology incubation centre; through PSG Centre for Biomedical Innovations (PSG CBMI) it bridges PSG Institute of Medical Sciences & Research, PSG Hospitals and PSG College of Technology to seed-fund medtech and biomedical-innovation startups."
+    },
+    "track_record": {
+      "portfolio_count": "184+"
+    },
+    "summary": {
+      "en": "PSG-STEP is PSG College of Technology's science and technology entrepreneurial park (est. 1998), which via PSG Centre for Biomedical Innovations links PSG's hospital and medical-research arms to seed-fund medtech and biomedical startups with grants up to INR 10-15 lakh."
+    },
+    "sources": [
+      {
+        "url": "https://www.psgstep.org/",
+        "title": "PSG-STEP",
+        "publisher": "PSG-STEP",
+        "accessed": "undefined",
+        "supports": "PSG-STEP founding, host institution, seed fund amounts",
+        "quote": "PSG-STEP (PSG-Science & Technology Entrepreneurial Park) was established in 1998 with support from the Department of Science & Technology, Government of India, IDBI, and ICICI at PSG College of Technology ... The seed fund provides support of up to ₹15 lakh to green tech, rural impact & women-led start-ups and up to ₹10 lakh each to other start-ups."
+      },
+      {
+        "url": "https://psgimsr.ac.in/research/research-centre/psg-center-for-biomedical-innovation/",
+        "title": "PSG Center for Biomedical innovation",
+        "publisher": "PSG Institute of Medical Sciences & Research",
+        "accessed": "undefined",
+        "supports": "PSG CBMI links PSG hospital, medical research and PSG-STEP for medtech innovation",
+        "quote": "PSG CBMI (PSG Centre for Biomedical Innovations) is a collaborative platform that brings PSG Institute of Medical Sciences & Research, PSG Hospitals, PSG College of Technology and PSG-STEP together to create impact and drive medtech innovations."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  }
+]

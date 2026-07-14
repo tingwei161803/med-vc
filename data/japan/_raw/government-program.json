@@ -1,0 +1,409 @@
+[
+  {
+    "id": "jp-amed",
+    "name": {
+      "en": "Japan Agency for Medical Research and Development (AMED)",
+      "local": "国立研究開発法人日本医療研究開発機構"
+    },
+    "aka": ["AMED", "日本医療研究開発機構"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.amed.go.jp/en/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": {
+        "raw": "grants of up to ¥10 billion per project (Strengthening Program for Pharmaceutical Startup Ecosystem)",
+        "usd_min": null,
+        "usd_max": null
+      },
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "diagnostics", "medtech-devices", "genomics-omics"],
+      "thesis": "Japan's central government funding agency for medical R&D (Japan's 'NIH equivalent'), unifying budgets formerly split across MEXT/MHLW/METI. Its Strengthening Program for Pharmaceutical Startup Ecosystem provides matching grants to unlisted drug-development startups (non-clinical through Phase 1/2) that are co-invested in by AMED-registered/certified venture capital firms, functioning as a government risk-capital catalyst for Japanese biotech."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "science_platform_notes": "Runs a VC-certification scheme (41 registered VCs as of April 2026) that determines eligibility for matching-grant co-investment into preclinical/Phase 1/Phase 2 drug-development startups; also runs the iD3 Booster service advising academic drug-seed researchers on IP and R&D strategy."
+    },
+    "tags": ["AMED-certified-VC-program", "matching-grant", "national-medical-research-agency"],
+    "summary": {
+      "en": "Japan's national medical-research funding agency; through its Strengthening Program for Pharmaceutical Startup Ecosystem it grants matching capital to biotech startups alongside AMED-certified venture capital co-investors.",
+      "local": "日本の医療研究開発の司令塔機関。「創薬ベンチャーエコシステム強化事業」を通じ、認定VCと協調投資する形で創薬ベンチャーに開発資金を提供している。"
+    },
+    "sources": [
+      {
+        "url": "https://www.amed.go.jp/en/program/list/19/02/005_Capital.html",
+        "title": "Strengthening Program for Pharmaceutical Startup Ecosystem / List of Registered Venture Capitals",
+        "publisher": "AMED",
+        "accessed": "undefined",
+        "supports": "program mechanism, certified VC count (41 as of April 2026)",
+        "quote": "41 Registered Venture Capitals"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12034747/",
+        "title": "National Granted Programs and Public Funds for Biopharmaceutical Startups in Japan",
+        "publisher": "Pharmacology Research & Perspectives (PMC)",
+        "accessed": "undefined",
+        "supports": "per-project grant cap, program description",
+        "quote": "the Strengthening Program is a mechanism through which AMED provides grants to unlisted biopharmaceutical startups that have drug candidates in the clinical development stage, providing up to 10 billion yen per project"
+      },
+      {
+        "url": "https://www.amed.go.jp/aboutus/",
+        "title": "AMEDについて",
+        "publisher": "AMED",
+        "accessed": "undefined",
+        "supports": "founding date",
+        "quote": "2015年4月1日に設立されました"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AMED itself is a grant-making agency, not an equity investor; its investor-relevant activity is the matching-grant/certified-VC mechanism described above. Stage tagging (seed/A/B) is an approximation of 'non-clinical through Phase 2' drug-development stage, not a literal VC round mapping.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "jp-jic-venture-growth-investments",
+    "name": {
+      "en": "JIC Venture Growth Investments",
+      "local": "JICベンチャー・グロース・インベストメンツ株式会社"
+    },
+    "aka": ["JIC VGI"],
+    "type": "government-program",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.j-vgi.co.jp/en",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "ai-drug-discovery"],
+      "thesis": "Wholly state-backed venture-growth investor operating as a subsidiary of Japan Investment Corporation (JIC, majority-owned by the Japanese government). Life sciences is one of JIC VGI's designated priority sectors (alongside deep tech and AI), with a dedicated ¥15 billion early-stage allocation, and the firm is registered as an AMED-certified venture capital for the Strengthening Program for Pharmaceutical Startup Ecosystem."
+    },
+    "capital": {
+      "aum": {
+        "raw": "¥360 billion (3,600億円) across 3 funds",
+        "usd": null,
+        "currency": "JPY"
+      }
+    },
+    "lifesci": {
+      "science_platform_notes": "Life sciences became a formal JIC investment theme in June 2020; JIC VGI reserves a ¥15 billion early-stage allocation each for life sciences and deep tech."
+    },
+    "tags": ["AMED-certified-VC-program", "JIC-subsidiary", "state-owned"],
+    "summary": {
+      "en": "Government-owned venture-growth investment arm of Japan Investment Corporation (JIC), with a dedicated early-stage life-sciences allocation and status as an AMED-certified VC for biotech matching-grant co-investment.",
+      "local": "政府系ファンド産業革新投資機構（JIC）の子会社。ライフサイエンスを重点領域の一つとし、AMED認定VCとして創薬ベンチャーへの協調投資を行う。"
+    },
+    "sources": [
+      {
+        "url": "https://mediso.mhlw.go.jp/topics/20231124-01/",
+        "title": "認定VCインタビュー JICベンチャー・グロース・インベストメンツ",
+        "publisher": "MEDISO (MHLW-affiliated venture support office)",
+        "accessed": "undefined",
+        "supports": "life sciences/deep tech ¥15B early-stage allocation, AMED-certified VC status",
+        "quote": "ライフサイエンスとディープテックには150億円ずつのアーリー枠が設けられています"
+      },
+      {
+        "url": "https://www.j-vgi.co.jp/en",
+        "title": "JIC Venture Growth Investments - official site",
+        "publisher": "JIC Venture Growth Investments",
+        "accessed": "undefined",
+        "supports": "existence, investment focus description"
+      },
+      {
+        "url": "https://www.startuplist.jp/alliance_posts/71",
+        "title": "JIC ベンチャー・グロース・インベストメンツの特徴・評判・投資先実績",
+        "publisher": "StartupList",
+        "accessed": "undefined",
+        "supports": "founding date (July 2020), AUM across 3 funds",
+        "quote": "JICベンチャー・グロース・インベストメンツ株式会社は2020年7月に設立されました"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding date and AUM figures come from a secondary source (StartupList) rather than the official site, which did not surface these specifics in the fetched page.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "jp-jst-start",
+    "name": {
+      "en": "START — Program for Creating STart-ups from Advanced Research and Technology (JST)",
+      "local": "大学発新産業創出プログラム（START）"
+    },
+    "aka": ["START", "JST START"],
+    "type": "government-program",
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.jst.go.jp/start/index.html",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "ai-drug-discovery", "medtech-devices", "life-science-tools"],
+      "thesis": "Flagship national program of the Japan Science and Technology Agency (JST) that pairs public R&D funding with private-sector 'business promoter' expertise to launch startups from university and national-lab research seeds, explicitly spanning bio/life-science technology fields, aiming to transition projects to private capital within roughly three years."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Uses an external 'business promoter' unit model to combine public seed funding with commercialization know-how before company creation; also runs a university/regional 'startup ecosystem' track for entrepreneurship training."
+    },
+    "tags": ["university-spinout-support", "company-creation", "JST"],
+    "summary": {
+      "en": "JST's national program funding pre-startup R&D and business-promoter-led commercialization from Japanese university/national-lab research seeds, including bio and life-science fields, ahead of private-capital handoff.",
+      "local": "JST（科学技術振興機構）による大学発ベンチャー創出プログラム。事業プロモーターと連携し、バイオ・ライフサイエンス分野を含む研究シーズの起業前支援を行う。"
+    },
+    "sources": [
+      {
+        "url": "https://www.jst.go.jp/start/index.html",
+        "title": "START | 大学発新産業創出プログラム",
+        "publisher": "JST (Japan Science and Technology Agency)",
+        "accessed": "undefined",
+        "supports": "program existence and structure"
+      },
+      {
+        "url": "https://www.jst.go.jp/start/su-ecosys/index.html",
+        "title": "事業概要｜大学・エコシステム推進型 スタートアップ・エコシステム形成支援｜START",
+        "publisher": "JST",
+        "accessed": "undefined",
+        "supports": "scope includes bio/life-science technology fields",
+        "quote": "バイオ・ライフサイエンス領域を含む様々な技術分野での大学発ベンチャー創出が支援されています"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact program launch year not independently confirmed within this pass (commonly cited as FY2018 but no verbatim source captured); founded_year left blank rather than guessed.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "jp-incj",
+    "name": {
+      "en": "INCJ, Ltd. (formerly Innovation Network Corporation of Japan / 産業革新機構)",
+      "local": "株式会社INCJ（旧・株式会社産業革新機構）"
+    },
+    "aka": ["Innovation Network Corporation of Japan", "産業革新機構", "INCJ"],
+    "type": "government-program",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "merged",
+    "founded_year": 2009,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.incj.co.jp/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "cell-gene-therapy"],
+      "thesis": "Japan's original government-backed 'risk money' fund (est. 2009 as Innovation Network Corporation of Japan; restructured 2018 as INCJ under new parent Japan Investment Corporation), which invested in areas private capital under-serves, including AI/bio/drug-discovery — funding cases spanning a Daiichi Sankyo-partnered muscular-dystrophy drug program, pharma venture Aqua Therapeutics, iPS-cell-derived platelet mass-production support, and vaccine maker Create Vaccine (jointly with Sumitomo Dainippon Pharma)."
+    },
+    "track_record": {
+      "portfolio_count": "144 cumulative deals (all exited)",
+      "notable_investments": [
+        { "company": "Aqua Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Create Vaccine", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "tags": ["legacy-government-fund", "dissolved-2025", "absorbed-into-JIC"],
+    "summary": {
+      "en": "Japan's original state-backed innovation-investment fund (2009-2025); among its 144 total portfolio deals it backed several medical/biopharma ventures (muscular-dystrophy drug development, iPS-derived platelet manufacturing, vaccine production) before exiting all positions and being absorbed into Japan Investment Corporation (JIC) in 2025.",
+      "local": "日本初の官民ファンド型投資機関（2009年設立、2025年解散・JICに吸収合併）。筋ジストロフィー治療薬開発やiPS細胞由来血小板量産、ワクチン製造など医療・バイオ分野にも出資していた。"
+    },
+    "sources": [
+      {
+        "url": "https://www.meti.go.jp/shingikai/economy/mukei_shisan/startup_wg/pdf/002_03_00.pdf",
+        "title": "INCJ（旧産業革新機構）の研究開発型スタートアップへの取り組み",
+        "publisher": "METI (経済産業省)",
+        "accessed": "undefined",
+        "supports": "medical/bio investment cases (muscular dystrophy drug, Aqua Therapeutics, iPS platelet production, Create Vaccine)",
+        "quote": "第一三共との筋ジストロフィー治療薬開発、アクアセラピューティクスへの医薬品ベンチャー投資、iPSベンチャーへの血小板量産支援、クリエイトワクチンへの出資"
+      },
+      {
+        "url": "https://ja.wikipedia.org/wiki/%E7%94%A3%E6%A5%AD%E9%9D%A9%E6%96%B0%E6%8A%95%E8%B3%87%E6%A9%9F%E6%A7%8B",
+        "title": "産業革新投資機構 - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founding year 2009, 2025 dissolution/merger into JIC, 144 cumulative deals",
+        "quote": "2025年7月にINCJの全案件（累計144件）のエグジット（投資回収、累計1兆円）を終え、10月に産業革新投資機構がINCJを吸収合併した"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "INCJ ceased new investment as of March 2025 and was formally absorbed into JIC in October 2025; retained here as a legacy/anchor entity per task scope. Life-science portfolio detail is drawn from a single METI presentation; a fuller company-by-company breakdown was not independently cross-verified within the research budget.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "jp-ghit-fund",
+    "name": {
+      "en": "Global Health Innovative Technology Fund (GHIT Fund)",
+      "local": "グローバルヘルス技術振興基金（GHITファンド）"
+    },
+    "aka": ["GHIT Fund"],
+    "type": "government-program",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.ghitfund.org/",
+    "strategy": {
+      "geo_focus": ["Japan", "global (malaria/TB/NTD-endemic countries)"],
+      "sector_focus": ["therapeutics", "diagnostics"],
+      "thesis": "International public-private partnership co-founded and funded by the Government of Japan (Ministry of Foreign Affairs and Ministry of Health, Labour and Welfare) together with 16 Japanese pharma/diagnostics companies, the Bill & Melinda Gates Foundation, Wellcome Trust and UNDP, to fund R&D of new drugs, vaccines and diagnostics for malaria, tuberculosis and neglected tropical diseases by mobilizing Japanese industry and academia into global product-development partnerships."
+    },
+    "capital": {
+      "aum": {
+        "raw": "approximately ¥29.1 billion invested cumulatively across 118 projects",
+        "usd": null,
+        "currency": "JPY"
+      }
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "vaccines"],
+      "indications": ["infectious-disease"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 118
+    },
+    "tags": ["public-private-partnership", "global-health", "neglected-tropical-diseases"],
+    "summary": {
+      "en": "Japan-government-co-founded public-private partnership fund that has invested roughly ¥29.1 billion across 118 global-health R&D projects (drugs, vaccines, diagnostics for malaria, TB and neglected tropical diseases) with Japanese pharma companies and global partners including the Gates Foundation.",
+      "local": "日本政府（外務省・厚生労働省）と国内製薬企業、ゲイツ財団等が共同設立した官民パートナーシップ基金。マラリア・結核・顧みられない熱帯病治療薬等の研究開発に累計約291億円、118案件に投資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.japan.go.jp/kizuna/2023/06/global_partnership.html",
+        "title": "Public-Private Fund Bolsters Global Partnerships in Fighting Infectious Diseases",
+        "publisher": "JapanGov / Government of Japan",
+        "accessed": "undefined",
+        "supports": "government co-founding role, partner structure",
+        "quote": "an international public-private partnership between the Government of Japan (Ministry of Foreign Affairs and Ministry of Health, Labour and Welfare), 16 pharmaceutical and diagnostics companies... the Bill & Melinda Gates Foundation, the Wellcome Trust and United Nations Development Programme"
+      },
+      {
+        "url": "https://www.ghitfund.org/investment/overview/en",
+        "title": "Investment Overview | GHIT Fund",
+        "publisher": "GHIT Fund",
+        "accessed": "undefined",
+        "supports": "cumulative investment total and project count",
+        "quote": "the GHIT Fund has invested a total of approximately 29.1 billion yen in 118 projects"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "GHIT is a hybrid public-private structure; classified here as government-program (primary) with venture-philanthropy as secondary type given the Government of Japan is a founding funder and its mandate is R&D grant/co-funding rather than equity investment. Exact founding year not captured with a verbatim source in this pass.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "jp-dbj-capital",
+    "name": {
+      "en": "DBJ Capital Co., Ltd. (Development Bank of Japan Group)",
+      "local": "DBJキャピタル株式会社"
+    },
+    "aka": ["DBJ Innovation Life Science Fund (former name)", "DBJ Startup Innovation Fund"],
+    "type": "government-program",
+    "subtypes": ["vc", "growth-equity"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.dbj-cap.jp/",
+    "strategy": {
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Venture/growth investment subsidiary wholly owned by the Development Bank of Japan (DBJ), a majority government-owned policy financial institution. DBJ set up a dedicated Innovation Life Science Fund in March 2021 (renamed DBJ Startup Innovation Fund in November 2022) as part of its equity risk-capital mandate; DBJ Capital continues to list bio/healthcare as one of its priority sectors alongside frontier-tech and IT."
+    },
+    "capital": {
+      "funds": [
+        {
+          "name": "DBJ Innovation Life Science Fund → DBJ Startup Innovation Fund",
+          "vintage_year": 2021,
+          "size": { "raw": null, "usd": null, "currency": null }
+        }
+      ]
+    },
+    "tags": ["policy-bank", "state-owned-financial-institution"],
+    "summary": {
+      "en": "Venture-investment arm of the Development Bank of Japan, a government-owned policy bank; set up a dedicated life-science venture fund in 2021 (since folded into a broader startup fund) as part of DBJ's public equity risk-capital supply, with bio/healthcare remaining a named focus sector.",
+      "local": "日本政策投資銀行（DBJ）グループのベンチャー投資会社。2021年に「DBJイノベーション・ライフサイエンスファンド」を設置(2022年に「DBJスタートアップ・イノベーションファンド」へ改称)。バイオ・ヘルスケアは同社の重点分野の一つ。"
+    },
+    "sources": [
+      {
+        "url": "https://www.dbj.jp/topics/dbj_news/2022/html/20220531_203843.html",
+        "title": "DBJキャピタル(株)を通じたベンチャーファイナンスへの「特定投資業務」の活用について",
+        "publisher": "Development Bank of Japan (DBJ)",
+        "accessed": "undefined",
+        "supports": "fund establishment 2021, renaming 2022",
+        "quote": "「DBJイノベーション・ライフサイエンスファンド」は2021年3月に設置され、2022年11月に「DBJスタートアップ・イノベーションファンド」に改称されました"
+      },
+      {
+        "url": "https://www.dbj-cap.jp/",
+        "title": "DBJキャピタル",
+        "publisher": "DBJ Capital",
+        "accessed": "undefined",
+        "supports": "sector focus including bio/healthcare",
+        "quote": "フロンティアテック、IT関連、バイオ・ヘルスケア等の国内スタートアップ及び国内外VCファンドへの投資を実施"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The dedicated 'Life Science Fund' brand was absorbed into a generalist 'Startup Innovation Fund' in Nov 2022, so current health-specific fund size/ticket data could not be isolated within this research pass; included because bio/healthcare remains an explicitly named sector focus of a government-owned policy-bank investment vehicle.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "jp-kanagawa-healthcare-new-frontier-fund",
+    "name": {
+      "en": "Healthcare New Frontier Fund (Kanagawa Prefecture)",
+      "local": "ヘルスケア・ニューフロンティア・ファンド"
+    },
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Yokohama",
+    "website": "https://www.pref.kanagawa.jp/docs/mv4/cnt/f536578/index.html",
+    "strategy": {
+      "geo_focus": ["Japan - Kanagawa Prefecture"],
+      "sector_focus": ["healthcare-services", "medtech-devices", "digital-health", "consumer-health"],
+      "thesis": "Prefectural government-seeded venture fund created under Kanagawa's 'Healthcare New Frontier' policy to back startups in the 'mibyo' (pre-symptomatic/preventive health) and cutting-edge medical industries; Kanagawa Prefecture is a limited partner alongside private LPs, with GP Capital Medica Ventures selected via public tender. Japan's first healthcare-sector fund to adopt formal social-impact measurement."
+    },
+    "capital": {
+      "aum": {
+        "raw": "総額12.5億円 (approx. ¥1.25 billion total fund size)",
+        "usd": null,
+        "currency": "JPY"
+      }
+    },
+    "tags": ["prefectural-government-fund", "mibyo", "impact-measurement"],
+    "summary": {
+      "en": "Kanagawa Prefecture-backed ¥1.25 billion venture fund (est. 2018) dedicated to preventive-health ('mibyo') and cutting-edge medical startups, operated by GP Capital Medica Ventures with the prefecture as an LP; the first Japanese healthcare fund to formally measure social impact.",
+      "local": "神奈川県が出資する総額12.5億円のヘルスケア分野特化ベンチャーファンド（2018年設立）。未病産業・最先端医療産業のベンチャー企業を支援し、ヘルスケア分野で全国初の社会的インパクト測定を導入。"
+    },
+    "sources": [
+      {
+        "url": "https://www.pref.kanagawa.jp/docs/mv4/cnt/f536578/index.html",
+        "title": "ヘルスケア・ニューフロンティア・ファンドについて",
+        "publisher": "神奈川県 (Kanagawa Prefecture)",
+        "accessed": "undefined",
+        "supports": "fund purpose, size, government LP role, GP",
+        "quote": "2018年3月に神奈川県の主導により、未病産業・最先端医療産業など今後の成長が期待されるヘルスケア分野の産業創出及び社会的課題の解決につながるベンチャー企業の支援を目的に、神奈川県も出資し、設立された総額12.5億円のファンド"
+      },
+      {
+        "url": "https://sustainablejapan.jp/2018/06/19/healthcare-new-frontier-fund/32706",
+        "title": "【インタビュー】地域を救う新たな官民連携の形 〜神奈川県の医療ベンチャーキャピタルファンド〜",
+        "publisher": "Sustainable Japan",
+        "accessed": "undefined",
+        "supports": "GP selection, social impact measurement first-in-Japan claim"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Kanagawa Prefecture's own LP contribution is ¥100 million of the ¥1.25 billion total fund; remainder from private LPs alongside GP Capital Medica Ventures.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "id": "cn-cd-capital",
+    "name": { "en": "CD Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "website": "https://www.cd-healthinv.com/en/",
+    "capital": {
+      "aum": { "raw": "Over $1.4 billion", "usd": 1400000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China", "United States"],
+      "sector_focus": ["medtech-devices", "surgical-robotics"],
+      "thesis": "CD Capital is an explicitly MedTech-focused venture capital firm investing in medical devices, surgical robotics and related life-science technology in China; the firm has made 90+ investments across USD and RMB funds and backs companies such as Surgerii Robotics, MicroTech Medical and Urotronic."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": false,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": "90+",
+      "notable_investments": [
+        { "company": "Surgerii Robotics", "sector": "surgical-robotics", "outcome": "active" },
+        { "company": "MicroTech Medical", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Urotronic", "sector": "medtech-devices", "outcome": "acquired" },
+        { "company": "BMC Medical", "sector": "medtech-devices", "outcome": "IPO" },
+        { "company": "Aidite", "sector": "medtech-devices", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Shanghai-based, self-described 'MedTech-focused' venture capital firm with over $1.4B AUM investing across medical devices and surgical robotics in China, backing companies like Surgerii Robotics and MicroTech Medical."
+    },
+    "sources": [
+      {
+        "url": "https://www.cd-healthinv.com/en/",
+        "title": "CD Capital | Healthcare Investment",
+        "publisher": "CD Capital",
+        "accessed": "undefined",
+        "supports": "type/sector focus, founding year, AUM, portfolio companies",
+        "quote": "a MedTech-focused venture capital firm led by industry veterans"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Official site content retrieved via fetch confirms explicit MedTech positioning, $1.4B+ AUM, 2013 founding, and portfolio list; some portfolio names (e.g. Berry Genomics, KingMed Diagnostics) sit closer to diagnostics but core positioning and majority of flagged deals are medtech-device.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "cn-taiyu-capital",
+    "name": { "en": "Taiyu Capital", "local": "泰煜投资" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Hangzhou",
+    "website": "http://www.tigeryeah.com/",
+    "capital": {
+      "current_fund": { "raw": "RMB 2 billion+ deployed, 100+ projects", "usd": null, "currency": "RMB" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["medtech-devices", "pharma-services"],
+      "thesis": "Hangzhou-based healthcare investor (spun out of / affiliated with Tigermed) focused on early- and growth-stage equity investments especially in medical devices, alongside CRO and health-related services; portfolio includes cardiovascular device maker 北芯生命, cardiac-support device maker 心擎医疗, and flexible endoscopic surgical-robotics company 朗合医疗."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": "100+",
+      "notable_investments": [
+        { "company": "朗合医疗 (Longhorn Medical)", "sector": "surgical-robotics", "outcome": "active" },
+        { "company": "北芯生命 (Cardionovum/Novocardia)", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "心擎医疗", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Hangzhou healthcare VC founded 2014 that focuses on early/growth-stage medical devices (plus CRO and health-related services), naming devices as a specific investment priority.",
+      "local": "泰煜投资成立于2014年，总部位于杭州，聚焦于早期及成长期医疗健康领域股权投资，特别是医疗器械、CRO和医疗相关服务类企业。"
+    },
+    "sources": [
+      {
+        "url": "https://bydrug.pharmcube.com/news/detail/fa2ea1df2df9e1c51bbb7b0b612e2e0b",
+        "title": "2024年度医疗器械行业创新生态洞察评估结果正式发布，泰煜投资及多家被投企业荣登榜单",
+        "publisher": "医药魔方 PharmCube",
+        "accessed": "undefined",
+        "supports": "sector focus, founding year, portfolio companies",
+        "quote": "泰煜投资成立于2014年，致力于打造医疗健康投资领域的品牌，聚焦于早期及成长期医疗健康领域的股权投资，特别是医疗器械、保健食品、CRO和医疗相关服务类企业"
+      },
+      {
+        "url": "https://m.qizhidao.com/qiye/company/31d0b376a21e86b98273e08dd7c9b315.html",
+        "title": "杭州泰煜投资咨询有限公司",
+        "publisher": "启知道",
+        "accessed": "undefined",
+        "supports": "HQ city, founding date",
+        "quote": "成立日期：2014-06-26；总部地址：杭州市滨江区江南大道618号东冠大厦15层"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Also invests in CRO and health-food/service companies, not purely medical devices, but multiple sources explicitly single out 医疗器械 as a named priority sector and its device portfolio (including a surgical-robotics company) is substantial.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "cn-longpan-investment",
+    "name": { "en": "Longpan Investment", "local": "龙磐投资" },
+    "type": "vc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "capital": {
+      "aum": { "raw": "超百亿元人民币 (RMB 10 billion+)", "usd": null, "currency": "RMB" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Beijing life-science VC managing 5 RMB funds + 1 USD fund (RMB 10B+ AUM) that explicitly invests in both innovative drugs and innovative medical devices, mostly at seed/angel-to-pre-A stage; devices are a named secondary pillar with 10+ device-company investments alongside 60+ drug investments."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "small-molecule", "biologics-antibody"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": "70+",
+      "notable_investments": [
+        { "company": "贝达药业 (Betta Pharmaceuticals)", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "荣昌生物 (RemeGen)", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Beijing-based life-science VC with RMB 10B+ AUM whose stated focus spans innovative drugs and innovative medical devices, with roughly 10+ device investments alongside a larger drug portfolio.",
+      "local": "龙磐投资总部位于北京，管理5支人民币基金和1支美元基金，总规模超百亿元，专注于创新药及创新医疗器械领域投资，累计投资创新医疗器械企业10余家。"
+    },
+    "sources": [
+      {
+        "url": "https://www.36kr.com/p/2368037417626248",
+        "title": "最低调的医疗黑马基金：13年、100亿、DPI超3",
+        "publisher": "36氪",
+        "accessed": "undefined",
+        "supports": "sector focus, fund size, portfolio companies",
+        "quote": "龙磐投资专注于创新药及创新医疗器械领域的投资，投资阶段以初创期、早中期为主"
+      },
+      {
+        "url": "https://zhuanlan.zhihu.com/p/589721424",
+        "title": "龙磐投资，中国领先生物医药风险投资机构，规模超百亿",
+        "publisher": "知乎 (citing company materials)",
+        "accessed": "undefined",
+        "supports": "AUM, HQ",
+        "quote": "龙磐投资总部位于北京，是中国领先的生物医药风险投资机构。目前在管5支人民币基金和1支美元基金，总规模超过人民币100亿元。"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Portfolio is drug-majority (60+ drug companies vs 10+ device companies per source), so medical devices is a real but secondary practice area rather than the firm's sole focus; included because devices are an explicitly named, substantial, standalone investment pillar.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "cn-jifeng-ventures",
+    "name": { "en": "Jifeng Ventures", "local": "济峰资本" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "website": "https://www.jifengventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics", "healthcare-services"],
+      "thesis": "Shanghai-based healthcare-only VC investing from early stage through pre-IPO across pharma, medical devices, diagnostics and services; ranked among China's top 10 medical-device investment institutions, with 30+ portfolio companies within its first three years."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "东星医疗 (East Star Medical)", "sector": "medtech-devices", "outcome": "IPO" },
+        { "company": "臻亿医疗", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Shanghai healthcare VC founded in 2015 investing across pharma, medical devices, diagnostics and services from early stage to pre-IPO; recognized as a top-10 medical-device investment institution in China, with portfolio company East Star Medical completing a ChiNext IPO.",
+      "local": "济峰资本成立于2015年，总部位于上海，专注医疗健康领域早期至Pre-IPO阶段投资，覆盖医药、器械、诊断、医疗服务等方向，被评为医疗器械投资领域十佳机构之一。"
+    },
+    "sources": [
+      {
+        "url": "https://bcic.bio.org/exhibitors/jifeng-ventures",
+        "title": "Jifeng Ventures - CEO and Investor Conference 2025",
+        "publisher": "BIO / BCIC exhibitor profile",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, sector focus, ranking claim",
+        "quote": "Jifeng Ventures is a top tier healthcare Venture Capital firm in China, founded in 2015. Their investment radius covers pharmaceutical, device, diagnosis, healthcare service and digital health companies from early stage through pre-IPO stage."
+      },
+      {
+        "url": "https://www.jifengventures.com/pages/80/",
+        "title": "济峰资本被投企业东星医疗创业板IPO过会",
+        "publisher": "济峰资本官网",
+        "accessed": "undefined",
+        "supports": "notable investment / exit",
+        "quote": "济峰资本被投企业东星医疗创业板IPO过会"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Jifeng invests across pharma, devices, diagnostics and services (a healthcare generalist), but multiple secondary sources specifically credit it as a top-10 medical-device investor in China, so it is included with a broader sector_focus noted honestly.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  },
+  {
+    "id": "cn-sanzheng-health-investment",
+    "name": { "en": "3H&H Investment (Sanzheng Health Investment)", "local": "三正健康投资" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "website": "https://www.3hhinvestment.com/",
+    "capital": {
+      "current_fund": { "raw": "USD Fund II oversubscribed, over $300M", "usd": 300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "Shanghai-based healthcare-only VC founded 2016 by a team with 14+ years of shared history, focused on innovative biopharma and medical devices in China around import-substitution, industry consolidation and healthcare-reform themes; backed surgical-robotics leader Edge Medical (精锋医疗)."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "small-molecule", "biologics-antibody"],
+      "company_creation": null,
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "精锋医疗 (Edge Medical)", "sector": "surgical-robotics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Shanghai healthcare-focused VC founded in 2016 investing in innovative biopharma and medical devices, notably a backer of surgical-robotics company Edge Medical (精锋医疗); raised an oversubscribed $300M+ second USD fund.",
+      "local": "三正健康投资成立于2016年，总部位于上海，聚焦创新生物医药和医疗器械领域投资，是手术机器人企业精锋医疗的早期股东之一。"
+    },
+    "sources": [
+      {
+        "url": "https://www.3hhinvestment.com/about.html",
+        "title": "关于我们 -三正健康投资",
+        "publisher": "三正健康投资官网",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, sector focus",
+        "quote": "三正健康成立于2016年，是一家专注于医疗健康产业的风险投资基金...聚焦创新生物医药和医疗器械相关领域"
+      },
+      {
+        "url": "https://startup.aliyun.com/info/1037822.html",
+        "title": "首发 | 三正健康投资美元二期基金超募，规模超 3 亿美元",
+        "publisher": "阿里云创业等 (citing investment press)",
+        "accessed": "undefined",
+        "supports": "fund size",
+        "quote": "三正健康投资美元二期基金超募，规模超 3 亿美元"
+      },
+      {
+        "url": "https://www.cls.cn/detail/2247179",
+        "title": "千亿手术机器人赛道风起 精锋医疗获腾讯与中东资本认购 即将港交所上市",
+        "publisher": "财联社",
+        "accessed": "undefined",
+        "supports": "notable investment in Edge Medical",
+        "quote": "精锋医疗已获得博裕、淡马锡控股、红杉资本、三正健康...等在医疗技术领域具有深入见解的投资者支持"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Dual focus on biopharma and medical devices per own site; included primarily on the strength of its device investment (Edge Medical / 精锋医疗, a leading surgical-robotics company) and explicit naming of medical devices as a core practice area.",
+    "last_updated": "undefined",
+    "researched_by": "medtech-device-vc"
+  }
+]

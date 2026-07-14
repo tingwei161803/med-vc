@@ -1,0 +1,389 @@
+[
+  {
+    "id": "in-quadria-capital",
+    "name": { "en": "Quadria Capital" },
+    "type": "growth-equity",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "offices": [
+      { "country": "Singapore", "city": "Singapore" },
+      { "country": "India", "city": "New Delhi" }
+    ],
+    "website": "https://quadriacapital.com/",
+    "capital": {
+      "aum": { "raw": "over US$4 billion AUM", "usd": 4000000000, "currency": "USD" },
+      "current_fund": { "raw": "US$1.07 billion (Fund III total commitments)", "usd": 1070000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India", "South Asia", "Southeast Asia"],
+      "sector_focus": ["healthcare-services", "therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Independent healthcare-focused private equity firm taking significant minority and majority growth-stage stakes in healthcare delivery, life sciences/pharma, medtech and healthcare services companies across South and Southeast Asia, with a dedicated South Asia (India) advisory office in New Delhi."
+    },
+    "lifesci": {
+      "invests_public_markets": null,
+      "science_platform_notes": "Sector focus explicitly spans Healthcare Delivery, Life Sciences (pharmaceuticals), Medical Technology and Associated Healthcare Services."
+    },
+    "track_record": {
+      "portfolio_count": "approximately 10 companies targeted per fund (Fund III)"
+    },
+    "summary": {
+      "en": "Singapore-headquartered, healthcare-dedicated growth-equity firm with a South Asia advisory office in New Delhi; invests $4B+ AUM in growth-stage healthcare delivery, pharma/life-sciences and medtech companies across India and Southeast Asia."
+    },
+    "sources": [
+      {
+        "url": "https://quadriacapital.com/publications/press-releases/quadria-capital-closes-oversubscribed-us1-billion-fund-iii-to-advance-healthcare-transformation-across-asia",
+        "title": "Quadria Capital Closes Oversubscribed US$1 Billion Fund III",
+        "publisher": "Quadria Capital",
+        "accessed": "undefined",
+        "supports": "AUM, Fund III size, healthcare focus, portfolio company count target",
+        "quote": "Quadria Capital Closes Oversubscribed US$1 Billion Fund III to Advance Healthcare Transformation Across Asia"
+      },
+      {
+        "url": "https://quadriacapital.com/about-quadria-capital",
+        "title": "About Quadria Capital",
+        "publisher": "Quadria Capital",
+        "accessed": "undefined",
+        "supports": "HQ/offices, sector focus, growth-stage geography",
+        "quote": "Quadria Capital maintains offices in Singapore and New Delhi (South Asia office)... The firm pursues growth-stage opportunities in emerging markets within South Asia (India) and Southeast Asia"
+      },
+      {
+        "url": "https://www.business-standard.com/companies/news/pe-firm-quadria-capital-set-to-deploy-around-1-billion-in-indian-market-124081301675_1.html",
+        "title": "PE firm Quadria Capital set to deploy around $1 billion in Indian market",
+        "publisher": "Business Standard",
+        "accessed": "undefined",
+        "supports": "India deployment plans"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Headquartered in Singapore with a dedicated South Asia (India) advisory office in New Delhi; included per region rule for orgs running a dedicated regional office/fund. Founded year (2012) inferred from Wikipedia/press mentions of firm founding; not independently re-verified via a fetch.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "in-invascent",
+    "name": { "en": "InvAscent" },
+    "aka": ["India Life Sciences Fund", "ILSF"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2005,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Hyderabad",
+    "website": "https://invascent.com/",
+    "capital": {
+      "aum": { "raw": "about USD 650 Mn raised from global investors across four funds", "usd": 650000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth", "series-b", "series-c-plus"],
+      "check_size": { "raw": "USD 10 - 40 million" },
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "healthcare-services", "medtech-devices", "animal-health", "digital-health"],
+      "thesis": "Investment advisor to the India Life Sciences Fund (ILSF) family, providing private-equity growth capital to Indian pharmaceutical, healthcare delivery, HealthTech, medical device and animal-health companies for capacity expansion, new product introduction and acquisitions."
+    },
+    "lifesci": {
+      "invests_public_markets": null,
+      "science_platform_notes": "Preferred partner for Indian life-sciences companies and investors; sector coverage spans pharma, healthcare delivery, medtech, animal health and specialty ingredients."
+    },
+    "track_record": {
+      "portfolio_count": 36
+    },
+    "summary": {
+      "en": "Hyderabad-based growth-capital investment advisor to the India Life Sciences Fund (ILSF I-IV) family, which has deployed roughly $650M across 36 companies in Indian pharma, healthcare delivery, medtech and animal health, typically writing $10-40M growth-stage checks."
+    },
+    "sources": [
+      {
+        "url": "https://invascent.com/about/",
+        "title": "About Us",
+        "publisher": "InvAscent",
+        "accessed": "undefined",
+        "supports": "HQ city, sector focus",
+        "quote": "the preferred partner for Indian life sciences companies and investors seeking opportunities in India"
+      },
+      {
+        "url": "https://invascent.com/",
+        "title": "InvAscent: Home",
+        "publisher": "InvAscent",
+        "accessed": "undefined",
+        "supports": "founded 2005, capital raised, portfolio count, check size, fund family (ILSF)",
+        "quote": "Founded in 2005, InvAscent is the investment advisor to a family of funds that operate under the name \"India Life Sciences Fund\" or ILSF. It has so far raised about USD 650 Mn from global investors across four funds and deployed the same in 36 companies across Pharma, Healthcare Delivery, HealthTech, Medical Devices, and Animal Health industries."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, AUM and portfolio-count figures come from a search-engine synthesized summary of invascent.com content rather than a directly quoted primary-source line seen in a fetch; the fetched About page confirmed HQ and sector focus but not the numeric details.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "in-tata-capital-healthcare-fund",
+    "name": { "en": "Tata Capital Healthcare Fund" },
+    "aka": ["TCHF"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://www.tatacapitalhealthcarefund.com/",
+    "capital": {
+      "funds": [
+        { "name": "Tata Capital Healthcare Fund I", "vintage_year": 2012, "size": { "raw": "INR 411 Crore", "currency": "INR" } },
+        { "name": "Tata Capital Healthcare Fund II", "vintage_year": 2022, "size": { "raw": "INR 955 Crores (final close, target INR 950 crore)", "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "healthcare-services", "medtech-devices", "pharma-services"],
+      "thesis": "Takes equity positions in healthcare and life-sciences companies with significant business exposure to India, predicated on the domestic healthcare and life-sciences consumption growth story."
+    },
+    "lifesci": {
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Intas Biopharmaceuticals", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Novalead Pharma", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Mumbai-based, Tata Capital-managed growth-equity fund investing in Indian healthcare and life-sciences companies; Fund II closed with INR 955 crore in commitments, following a INR 411 crore Fund I in 2012."
+    },
+    "sources": [
+      {
+        "url": "https://www.tatacapitalhealthcarefund.com/portfolio/fund-1.html",
+        "title": "Fund I - Company Portfolio",
+        "publisher": "Tata Capital Healthcare Fund",
+        "accessed": "undefined",
+        "supports": "portfolio companies including Intas Biopharmaceuticals and Novalead Pharma"
+      },
+      {
+        "url": "https://india.entrepreneur.com/news-and-trends/tata-capital-healthcare-fund-ii-makes-investment/423238",
+        "title": "Tata Capital Healthcare Fund II Makes Investment Commitments of INR 955 Crores",
+        "publisher": "Entrepreneur India",
+        "accessed": "undefined",
+        "supports": "Fund II size",
+        "quote": "Tata Capital Healthcare Fund II (TCHF II) announced the final close of its fund with investor commitments of INR 955 Crores, meeting its target Assets Under Management (AUM) of INR 950 crores."
+      },
+      {
+        "url": "https://www.tatacapital.com/content/dam/tata-capital/pdf/media-center/press-release/2022/Press%20release-%20Tata%20Capital%20Healthcare%20Fund%20Raises%20its%20Second%20India%20Focu...%20(002).pdf",
+        "title": "Tata Capital Healthcare Fund Raises its Second India Focused Fund",
+        "publisher": "Tata Capital",
+        "accessed": "undefined",
+        "supports": "Fund I 2012 vintage and size, investment thesis",
+        "quote": "The second round of fund announcement acts as a follow-up to CHF I which was held in 2012 and raised INR 411 Crore. TCHF II seeks to achieve returns by principally taking equity positions in healthcare and life sciences related companies having significant business exposure to India."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded year taken as Fund I vintage (2012); fund is a Tata Capital-managed vehicle rather than a standalone registered entity.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "in-somerset-indus-capital-partners",
+    "name": { "en": "Somerset Indus Capital Partners" },
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2011,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://somersetinduscap.com/",
+    "capital": {
+      "aum": { "raw": "around $500 million across three funds", "usd": 500000000, "currency": "USD" },
+      "current_fund": { "raw": "$288 million (Fund III)", "usd": 288000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "$15 million to $40 million" },
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-services", "therapeutics", "medtech-devices", "digital-health", "diagnostics"],
+      "thesis": "Healthcare-focused private equity firm making growth-stage equity investments in Indian healthcare delivery, pharmaceutical, medical device and digital-health platforms, emphasizing affordable/accessible care for the Tier II/III 'missing middle'."
+    },
+    "lifesci": {
+      "invests_public_markets": null
+    },
+    "people": [
+      { "name": "Avinash Kenkare", "role": "Co-founder" },
+      { "name": "Mayur Sirdesai", "role": "Co-founder" }
+    ],
+    "summary": {
+      "en": "Mumbai-based healthcare-dedicated growth-equity firm founded in 2011, now on its third fund ($288M close vs a $250M target), investing $15-40M growth checks in hospitals, diagnostics, pharma, medtech and digital health targeting Tier II/III India."
+    },
+    "sources": [
+      {
+        "url": "https://somersetinduscap.com/about-us/",
+        "title": "About Us",
+        "publisher": "Somerset Indus Capital Partners",
+        "accessed": "undefined",
+        "supports": "founding year 2011, HQ Mumbai, founders, growth-stage sector focus",
+        "quote": "a healthcare focused private equity firm making private equity and equity-related investments primarily in growth-oriented healthcare companies in India"
+      },
+      {
+        "url": "https://www.indianstartuptimes.com/news/somerset-indus-capital-closes-288-million-fund-iii-to-back-healthcare-growth-in-india/",
+        "title": "Somerset Indus Capital Closes $288 Million Fund III to Back Healthcare Growth in India",
+        "publisher": "Indian Startup Times",
+        "accessed": "undefined",
+        "supports": "Fund III size",
+        "quote": "Somerset Indus Capital Partners announced the successful closure of its third fund, Fund III, at $288 million, surpassing its initial target of $250 million."
+      },
+      {
+        "url": "https://www.ocacademy.in/blogs/somerset-indus-healthcare-investment-india-fund-iii/",
+        "title": "Healthcare Investment in India: Somerset Indus Fund III",
+        "publisher": "OC Academy",
+        "accessed": "undefined",
+        "supports": "AUM across three funds, check size range",
+        "quote": "The firm manages around $500 million across three different funds... Somerset typically invests between $15 million and $40 million per company."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": null,
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "in-orbimed-india",
+    "name": { "en": "OrbiMed (India / Asia healthcare growth investing)" },
+    "aka": ["OrbiMed Advisors", "OrbiMed Asia Partners"],
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "offices": [
+      { "country": "United States", "city": "New York City" },
+      { "country": "India", "city": "Mumbai" }
+    ],
+    "website": "https://www.orbimed.com/",
+    "capital": {
+      "aum": { "raw": "$14 billion global investment platform", "usd": 14000000000, "currency": "USD" },
+      "current_fund": { "raw": "OrbiMed Asia Partners IV, $800 million", "usd": 800000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "check_size": { "raw": "$10 million to $50 million" },
+      "lead_or_follow": "both",
+      "geo_focus": ["India", "China", "Asia"],
+      "sector_focus": ["therapeutics", "healthcare-services", "diagnostics", "medtech-devices"],
+      "thesis": "Global healthcare-dedicated investment firm operating both private and public strategies (crossover), with a Mumbai office and Asia-focused funds (OrbiMed Asia Partners) that provide growth capital primarily to biopharma, medtech, healthcare services, diagnostics and distribution companies in China and India."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Team of 100+ investment professionals spans public equities and private growth investing, enabling crossover positioning into IPO-stage companies; over $3 billion committed to developing-country healthcare including maternal care hospitals in India."
+    },
+    "summary": {
+      "en": "Global life-sciences investment firm (HQ New York) with a Mumbai office and dedicated Asia funds (OrbiMed Asia Partners, $800M Fund IV) providing $10-50M growth-stage crossover capital to biopharma, medtech, diagnostics and healthcare-services companies across India and China."
+    },
+    "sources": [
+      {
+        "url": "https://www.orbimed.com/about/",
+        "title": "About - OrbiMed",
+        "publisher": "OrbiMed",
+        "accessed": "undefined",
+        "supports": "global office footprint including Mumbai",
+        "quote": "OrbiMed's team of over 100 professionals is based in New York City, London, San Francisco, Shanghai, Hong Kong, Mumbai, Herzliya, and other key global markets"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/orbimed-rolls-out-its-third-asia-biopharma-fund-551m-up-for-grabs",
+        "title": "OrbiMed rolls out its third Asia biopharma fund with $551M up for grabs",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Asia fund strategy, India/China focus, check size",
+        "quote": "OrbiMed Asia Partners V is expected to provide mainly growth capital to between 20 and 25 health care companies across the biopharma, medical technology, health care services, diagnostics, and distribution subsectors, with investment sizes typically ranging from $10 million to $50 million per company."
+      },
+      {
+        "url": "https://www.adb.org/news/adb-orbimed-sign-75-million-deal-enhance-health-care-capacity-india-and-prc",
+        "title": "ADB, OrbiMed Sign $75 Million Deal to Enhance Health Care Capacity in India and PRC",
+        "publisher": "Asian Development Bank",
+        "accessed": "undefined",
+        "supports": "India-focused healthcare capacity investment",
+        "quote": "OrbiMed Asia Partners IV ($800 million) primarily invests in companies in China and India across pharmaceuticals, biotechnology, healthcare services, and diagnostics."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "OrbiMed is headquartered in New York (foreign HQ); included because it runs a dedicated Mumbai office and Asia-focused growth funds (OrbiMed Asia Partners) that explicitly target India alongside China. hq_city listed as Mumbai to reflect the India-region office rather than global HQ; global HQ is New York City.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "in-healthquad",
+    "name": { "en": "HealthQuad" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Gurugram",
+    "website": "https://www.healthquad.com/",
+    "capital": {
+      "current_fund": { "raw": "INR 550 Cr first close of Fund III (target INR 1700 Cr)", "currency": "INR" }
+    },
+    "strategy": {
+      "stages": ["series-b", "growth"],
+      "check_size": { "raw": "$1-5 million (early-growth); scaling larger in Fund III" },
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-it", "medtech-devices", "therapeutics", "digital-health"],
+      "thesis": "India's early-growth healthcare investor scaling HealthTech, MedTech, Bio/Pharma Tech and novel healthcare-delivery companies; a Quadria Group-affiliated vehicle managed by HealthQuad Advisors."
+    },
+    "lifesci": {
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": 38,
+      "notable_investments": [
+        { "company": "Qure.ai", "sector": "healthcare-it", "outcome": "active" },
+        { "company": "Strand Life Sciences", "sector": "diagnostics", "outcome": "active" },
+        { "company": "Redcliffe Labs", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Amit Varma", "role": "Managing Partner" },
+      { "name": "Abrar Mir", "role": "Managing Partner" },
+      { "name": "Sunil Thakur", "role": "Partner" }
+    ],
+    "summary": {
+      "en": "Quadria Group-affiliated healthcare investor scaling early-growth to growth-stage HealthTech, MedTech and Bio/Pharma Tech companies in India; Fund III reached a first close of INR 550 crore against a INR 1,700 crore target, with a portfolio of 38 investments across two prior funds."
+    },
+    "sources": [
+      {
+        "url": "https://www.dealstreetasia.com/stories/quadria-healthquad-fund-iii-486173",
+        "title": "Quadria-backed HealthQuad hits $58m first close of Fund III",
+        "publisher": "DealStreetAsia",
+        "accessed": "undefined",
+        "supports": "Quadria affiliation, Fund III first close"
+      },
+      {
+        "url": "https://www.digitalhealthnews.com/healthquad-reaches-first-close-of-fund-iii-with-inr-550-cr-to-accelerate-india-s-digital-health-innovation",
+        "title": "HealthQuad Reaches First Close of Fund III with INR 550 Cr",
+        "publisher": "Digital Health News",
+        "accessed": "undefined",
+        "supports": "Fund III first close amount and target, sector focus, portfolio company examples",
+        "quote": "HealthQuad announced first close commitments of INR 550 crores for HealthQuad Fund III, at more than one-third of the target fund size of INR 1700 crores"
+      },
+      {
+        "url": "https://www.healthquad.com/",
+        "title": "HealthQuad | Top Healthcare Venture Capital Firm for Innovation",
+        "publisher": "HealthQuad",
+        "accessed": "undefined",
+        "supports": "founded 2016, portfolio count, early-growth positioning, managing partners",
+        "quote": "HealthQuad identifies and scales early-growth stage companies across HealthTech, MedTech, Bio/Pharma Tech and Novel Healthcare Delivery"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HealthQuad's typical check size ($1-5M) and stage mix skew earlier than pure growth/crossover, but is included given its explicit 'growth' positioning, Quadria Group affiliation, and a much larger Fund III (~$200M target) aimed at scaling later-stage checks; not independently confirmed via a direct site fetch (data drawn from search snippets across multiple outlets).",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  }
+]

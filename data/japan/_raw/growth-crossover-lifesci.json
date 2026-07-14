@@ -1,0 +1,431 @@
+[
+  {
+    "id": "jp-jic-venture-growth-investments",
+    "name": {
+      "en": "JIC Venture Growth Investments",
+      "local": "JICベンチャー・グロース・インベストメンツ株式会社"
+    },
+    "aka": ["JIC-VGI", "JIC VGI"],
+    "type": "growth-equity",
+    "subtypes": ["government-program", "vc"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "website": "https://www.j-vgi.co.jp/en",
+    "capital": {
+      "funds": [
+        {
+          "name": "JIC-VGF (Fund 1)",
+          "vintage_year": 2020,
+          "size": { "raw": "¥120 billion", "usd": null, "currency": "JPY" }
+        },
+        {
+          "name": "JIC-VGF2 (Fund 2)",
+          "vintage_year": 2022,
+          "size": { "raw": "¥200 billion, of which ¥170bn growth / ¥30bn early-stage (¥15bn earmarked for life science)", "usd": null, "currency": "JPY" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["generalist-health", "therapeutics", "medtech-devices"],
+      "lead_or_follow": "both",
+      "thesis": "JIC-VGI is the growth-investment arm of Japan's government-affiliated Industrial Innovation Investment Corporation (JIC). Its second fund (¥200bn) allocates the bulk of capital (¥170bn) to expansion/growth/later-stage rounds from Series B onward across priority sectors, and separately ring-fences ¥15bn of early-stage capital specifically for life science alongside deep tech, giving it a dedicated growth-stage pre-IPO pool for Japanese biotech/medtech companies."
+    },
+    "lifesci": {
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "co_investors": []
+    },
+    "summary": {
+      "en": "Government-affiliated (JIC group) growth-equity investor that treats life science as one of a handful of designated priority sectors, deploying growth/late-stage capital (from Series B) plus a dedicated early-stage life-science bucket in its ¥200bn second fund.",
+      "local": "産業革新投資機構（JIC）グループのグロース投資会社。ライフサイエンスをディープテック等と並ぶ重点分野に位置付け、2号ファンド（総額2000億円）でシリーズB以降のグロース投資に1700億円、アーリー領域（うちライフサイエンスに150億円）を配分している。"
+    },
+    "sources": [
+      {
+        "url": "https://mediso.mhlw.go.jp/topics/20231124-01/",
+        "title": "認定VCインタビュー JICベンチャー・グロース・インベストメンツ",
+        "publisher": "MEDISO (厚生労働省 医療系ベンチャー・トータルサポート事業)",
+        "accessed": "undefined",
+        "supports": "Fund sizes (¥120bn Fund1, ¥200bn Fund2 with ¥170bn growth / ¥30bn early incl. ¥15bn life science), life science as priority sector, Series-B-onward growth focus",
+        "quote": "VGF2 (fund size ¥200 billion): Growth segment ¥170 billion; Early-stage segment ¥30 billion, of which ¥15 billion dedicated to life science. Primary objective involves deploying capital to advance mid-stage and later growth, while establishing dedicated early-stage buckets for strategic priority sectors including life science."
+      },
+      {
+        "url": "https://www.j-vgi.co.jp/en",
+        "title": "JIC VGI - JICベンチャー・グロース・インベストメンツ株式会社",
+        "publisher": "JIC Venture Growth Investments",
+        "accessed": "undefined",
+        "supports": "Existence, official identity, generalist growth-investment mandate",
+        "quote": "venture and growth investment activities"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund-size and life-science-allocation figures are drawn from a MEDISO 認定VC (certified-VC) interview article summarized via an automated page fetch rather than a directly copied verbatim Japanese quote; the official j-vgi.co.jp site itself does not spell out the life-science allocation in the pages retrieved. Life science is one of several designated priority sectors (alongside deep tech/AI), not JIC-VGI's exclusive focus, so it is included here for its dedicated growth-stage life-science capital pool rather than as a life-science-only fund.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "jp-dci-partners",
+    "name": {
+      "en": "DCI Partners",
+      "local": "DCIパートナーズ株式会社"
+    },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "japan",
+    "country": "Japan",
+    "website": "https://www.daiwa-inv.co.jp/dcip/",
+    "capital": {
+      "aum": { "raw": "総額269億円 (approx. ¥26.9 billion)", "usd": null, "currency": "JPY" },
+      "funds": [
+        {
+          "name": "大和日台バイオベンチャー2号投資事業有限責任組合",
+          "vintage_year": 2020,
+          "size": { "raw": "¥15.3 billion", "usd": null, "currency": "JPY" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Japan", "Taiwan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "lead_or_follow": "both",
+      "thesis": "Daiwa Securities Group-affiliated, bio-exclusive VC that is Japan's largest specialist life-science fund by AUM among sector-focused VCs; concentrates on Series B/Series C and pre-IPO later-stage rounds for unlisted drug-discovery and regenerative-medicine ventures in Japan and Taiwan, providing hands-on clinical-development, IP and business-development support."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "invests_public_markets": null,
+      "science_platform_notes": "Hands-on support drawing on clinical development, IP and business-development expertise and a network spanning research institutions, drug-discovery ventures and pharmaceutical companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "PRISM BioLab", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Daiwa-affiliated, bio-only VC and Japan's largest specialist life-science fund by capital under management; focuses on Series B/C and pre-IPO later-stage rounds in unlisted Japanese and Taiwanese drug-discovery and regenerative-medicine ventures.",
+      "local": "大和証券グループ系のバイオ特化型ベンチャーキャピタルで、特化型VCとして国内最大級の資金を運用。日本・台湾の創薬・再生医療系未上場ベンチャーのシリーズB・C、上場前のレイターステージ投資を中心とする。"
+    },
+    "sources": [
+      {
+        "url": "https://www.daiwa-inv.co.jp/dcip/introduction/",
+        "title": "Introduction | DCIパートナーズ株式会社",
+        "publisher": "DCI Partners (Daiwa)",
+        "accessed": "undefined",
+        "supports": "AUM ¥26.9bn, fund vintage/size, Japan+Taiwan geo focus, founding 2015",
+        "quote": "現在総額269億円を運用しています。大和日台バイオベンチャー2号投資事業有限責任組合は2020年12月に15.3億円の資金で設立されました。"
+      },
+      {
+        "url": "https://mediso.mhlw.go.jp/topics/230210-01/",
+        "title": "認定VCインタビュー DCIパートナーズ株式会社・成田宏紀様ほか",
+        "publisher": "MEDISO (厚生労働省 医療系ベンチャー・トータルサポート事業)",
+        "accessed": "undefined",
+        "supports": "Series B/C, pre-IPO later-stage focus on drug-discovery and regenerative-medicine ventures",
+        "quote": "DCIパートナーズはシリーズBやシリーズC、上場前のレイターステージにある創薬・再生医療系のベンチャー企業への投資を中心に行っているベンチャーキャピタルです。"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "The 'PRISM BioLab' notable investment is cited from a search-engine summary describing it as an example portfolio company that raised a Series C round (¥1.3bn); direct confirmation that DCI Partners itself participated in that specific round was not independently re-verified on a primary page within the research budget.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "jp-mizuho-capital",
+    "name": {
+      "en": "Mizuho Capital",
+      "local": "みずほキャピタル株式会社"
+    },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.mizuho-vc.co.jp/",
+    "capital": {
+      "funds": [
+        {
+          "name": "みずほライフサイエンス1号ファンド",
+          "vintage_year": 2020,
+          "size": { "raw": "総額50億円 (¥5 billion)", "usd": null, "currency": "JPY" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices"],
+      "lead_or_follow": "both",
+      "thesis": "Mizuho Bank/Mizuho Capital jointly run a dedicated life-science growth fund targeting 成長企業 (growth-stage companies) in drug discovery, biotech, regenerative medicine/cell therapy and medical devices, pairing capital with continued hands-on business and financial support pre- and post-listing."
+    },
+    "lifesci": {
+      "invests_public_markets": null
+    },
+    "summary": {
+      "en": "Megabank-affiliated VC whose ¥5bn 'Mizuho Life Science Fund No.1' (jointly funded with Mizuho Bank, launched Jan 2020) targets growth-stage Japanese drug-discovery, regenerative-medicine and medtech companies pre-IPO, with continued management/financial support after listing.",
+      "local": "みずほ銀行とみずほキャピタルが共同運営する「みずほライフサイエンス1号ファンド」（総額50億円、2020年1月設立）は、創薬・再生医療・医療機器等ライフサイエンス分野の成長企業を対象に、上場前から出資し上場後も経営・財務面で継続的に支援する。"
+    },
+    "sources": [
+      {
+        "url": "https://www.marr.jp/genre/topics/news/entry/19740",
+        "title": "みずほキャピタルとみずほ銀行、総額50億円の「みずほライフサイエンス1号ファンド」を設立",
+        "publisher": "マールオンライン (レコフデータ)",
+        "accessed": "undefined",
+        "supports": "Fund size ¥5bn (50億円), joint Mizuho Bank/Mizuho Capital structure, founding date",
+        "quote": "みずほキャピタルとみずほ銀行、総額50億円の「みずほライフサイエンス1号ファンド」を設立"
+      },
+      {
+        "url": "https://www.mizuho-fg.co.jp/release/20200106release_jp.html",
+        "title": "「みずほライフサイエンス1号ファンド」の設立について",
+        "publisher": "みずほフィナンシャルグループ",
+        "accessed": "undefined",
+        "supports": "Official announcement of fund establishment, growth-company / pre- and post-IPO support focus",
+        "quote": "本ファンドは、バイオを中心とするライフサイエンス分野の成長企業を対象としており、創薬・再生医療等を中心とするライフサイエンス分野への投資を行っています。"
+      },
+      {
+        "url": "https://www.mizuho-vc.co.jp/features/fund.html",
+        "title": "みずほキャピタル株式会社：主要ファンド一覧",
+        "publisher": "みずほキャピタル",
+        "accessed": "undefined",
+        "supports": "Confirms fund is part of Mizuho Capital's active fund lineup"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "jp-mitsubishi-ufj-capital",
+    "name": {
+      "en": "Mitsubishi UFJ Capital (Life Science Fund)",
+      "local": "三菱UFJキャピタル株式会社（ライフサイエンスファンド）"
+    },
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "japan",
+    "country": "Japan",
+    "website": "https://www.mucap.co.jp/feature/fund/ls/",
+    "capital": {
+      "funds": [
+        {
+          "name": "三菱UFJライフサイエンス1号ファンド",
+          "vintage_year": 2017,
+          "size": { "raw": "総額100億円 (¥10 billion)", "usd": null, "currency": "JPY" }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices", "digital-health"],
+      "lead_or_follow": "both",
+      "thesis": "Runs Japan's largest private life-science-specialist fund lineup, investing over holding periods of up to ~12 years across university-origin drug-discovery ventures, pharma carve-outs, and direct risk-capital for pharma R&D projects — a horizon that necessarily carries positions through Series B/C and growth/pre-clinical-to-clinical-stage rounds ahead of IPO or trade sale."
+    },
+    "lifesci": {
+      "invests_public_markets": null
+    },
+    "summary": {
+      "en": "MUFG's dedicated venture-capital arm has run consecutive life-science funds since its ¥10bn 'MUFJ Life Science Fund No.1' (Feb 2017), described as among Japan's largest private life-science-specialist fund programs, backing university-origin drug discovery, pharma carve-outs and pharma R&D risk capital across up to ~12-year holding periods that extend into growth/late clinical stages pre-IPO.",
+      "local": "三菱UFJキャピタルは2017年2月設立の「三菱ＵＦＪライフサイエンス1号ファンド」（総額100億円）以来、ライフサイエンス特化ファンドを継続的に組成しており、国内最大級の民間ライフサイエンス特化ファンドとされる。アカデミア創薬、製薬カーブアウト、製薬プロジェクトへのリスクマネー供給を最長約12年の投資期間で行う。"
+    },
+    "sources": [
+      {
+        "url": "https://www.mucap.co.jp/feature/feature03/",
+        "title": "ライフサイエンス | 三菱UFJキャピタル",
+        "publisher": "三菱UFJキャピタル株式会社",
+        "accessed": "undefined",
+        "supports": "Fund size ¥10bn, founding Feb 2017, investment strategy (academia/carve-out/pharma risk capital), ~12-year horizon, 'largest-class' domestic specialist fund claim",
+        "quote": "2017年2月に総額100億円の「三菱ＵＦＪライフサイエンス1号ファンド」を設立して以来、継続的にファンドを設立しており、ライフサイエンスに特化した民間ファンドの運営としては国内最大級です。①大学発のベンチャー企業（アカデミア創薬）への投資、②製薬会社から切り出された特定技術・疾患領域に特化したベンチャー企業（カーブアウト）への投資、③製薬会社のプロジェクトへのリスクマネーの供給"
+      },
+      {
+        "url": "https://www.mucap.co.jp/feature/fund/ls/",
+        "title": "ライフサイエンスファンド | 三菱UFJキャピタル",
+        "publisher": "三菱UFJキャピタル株式会社",
+        "accessed": "undefined",
+        "supports": "Existence of dedicated life-science fund page confirming ongoing program"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "MUFJ Capital's life-science program spans early academia-origin deals through late clinical-stage/growth risk capital rather than being growth-only; included here primarily for its scale and its explicit funding of later clinical-development-stage risk capital ahead of exit. A generalist/early-stage profile of the same fund may also belong in a broader Japan life-science-VC segment.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "jp-d3-llc",
+    "name": {
+      "en": "D3 LLC",
+      "local": "D3合同会社"
+    },
+    "aka": ["D3 Bio Healthcare Fund", "D3バイオヘルスケアファンド"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "capital": {
+      "funds": [
+        { "name": "D3バイオヘルスケアファンド2号投資事業有限責任組合", "vintage_year": 2024, "size": { "raw": "approx. ¥10 billion (100億円規模見込み)", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "check_size": { "raw": "approx. ¥1 billion (10億円程度) per portfolio company" },
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "digital-health"],
+      "thesis": "Shibuya-based healthcare-dedicated investor founded in 2017 by ex-McKinsey pharma consultant Tomoya Nagata, mission '世界の医療健康への貢献' (contribution to global medical and health); concentrates capital into ~10 portfolio companies per fund at large per-company check sizes (~¥1bn) targeting dementia/Alzheimer's and cancer therapeutics plus digital healthcare devices."
+    },
+    "lifesci": {
+      "indications": ["neurology", "oncology"],
+      "invests_public_markets": null
+    },
+    "people": [
+      { "name": "Tomoya Nagata", "role": "Founder", "background": "Former McKinsey consultant with pharmaceutical industry background" }
+    ],
+    "tags": ["healthcare-dedicated", "concentrated-portfolio"],
+    "summary": {
+      "en": "D3 LLC is a Tokyo healthcare-specialist investment/consulting firm running concentrated, large-check growth funds (Fund II ~¥10bn, backed by Kampo Life Insurance, Mitsui Sumitomo Insurance and Rohto Pharmaceutical) targeting dementia, oncology and digital-health startups.",
+      "local": "D3合同会社は東京拠点のヘルスケア特化型投資・事業・コンサルティング会社。かんぽ生命、三井住友海上、ロート製薬などが出資する2号ファンド(100億円規模)で、認知症・がん治療薬やデジタルヘルスケア機器のスタートアップに集中投資する。"
+    },
+    "sources": [
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOUC019XH0R00C24A8000000/",
+        "title": "VCのD3、100億円規模の新ファンド 医療・健康に投資",
+        "publisher": "Nikkei",
+        "accessed": "undefined",
+        "supports": "Fund II size, investors, check size, portfolio concentration, founder background",
+        "quote": "投資社数はあえて増やさず、出資後の企業価値向上に力を入れ、成功確率を上げる"
+      },
+      {
+        "url": "https://www.jp-life.japanpost.jp/information/press/2024/abt_prs_id001977.html",
+        "title": "インパクトファンド「D3バイオヘルスケアファンド2号投資事業有限責任組合」への出資について",
+        "publisher": "Japan Post Insurance (Kampo Life)",
+        "accessed": "undefined",
+        "supports": "Kampo Life Insurance as LP in Fund II; Osaka University collaboration"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000002.000071827.html",
+        "title": "D3 LLC、バイオヘルスケア特化型ベンチャーキャピタル組成",
+        "publisher": "PR TIMES",
+        "accessed": "undefined",
+        "supports": "Firm founding, healthcare-specialist mandate"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No official corporate website URL was verified in this research pass (only note.com blog and press releases found); exact investment stage (growth vs. earlier) is inferred from large ~¥1bn per-company check size and 'business launch/revival support' framing rather than an explicit stage label.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "jp-dbj-innovation-life-sciences-fund",
+    "name": {
+      "en": "DBJ Innovation and Life Sciences Fund",
+      "local": "DBJイノベーション・ライフサイエンスファンド"
+    },
+    "type": "government-program",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.dbj.jp/en/service/special/",
+    "strategy": {
+      "stages": ["growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "thesis": "Growth-capital vehicle operated under Development Bank of Japan's (DBJ) government-backed 'Specified Investment Operations' (特定投資業務) framework, dedicated to strengthening the competitiveness of Japan's life-science industry through direct growth-stage investment in biotech/regenerative-medicine ventures."
+    },
+    "lifesci": {
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Cellusion", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "tags": ["policy-bank", "government-backed", "growth-capital"],
+    "summary": {
+      "en": "The DBJ Innovation and Life Sciences Fund is a government-backed growth-capital program run by Japan's policy-based Development Bank of Japan under its Specified Investment Operations framework, investing in life-science ventures such as iPS-cell regenerative therapeutics company Cellusion.",
+      "local": "DBJイノベーション・ライフサイエンスファンドは、日本政策投資銀行(DBJ)の特定投資業務の枠組みで運用される政府系成長資金プログラムで、iPS細胞由来再生医療ベンチャーのセルージョンなどライフサイエンス企業に投資している。"
+    },
+    "sources": [
+      {
+        "url": "https://www.dbj.jp/topics/dbj_news/2022/html/20220531_203843.html",
+        "title": "DBJキャピタル(株)を通じたベンチャーファイナンスへの「特定投資業務」の活用について",
+        "publisher": "Development Bank of Japan",
+        "accessed": "undefined",
+        "supports": "Fund purpose, Cellusion investment, Specified Investment Operations framework",
+        "quote": "産業イノベーションの促進やライフサイエンス産業の競争力強化に向けた取組みを支援する"
+      },
+      {
+        "url": "https://www.dbj.jp/en/service/special/",
+        "title": "Special Investment Operations",
+        "publisher": "Development Bank of Japan",
+        "accessed": "undefined",
+        "supports": "Specified Investment Operations program description"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact fund size (JPY amount) and precise establishment date were not confirmed in the pages reviewed (secondary summary indicates ~March 2021 establishment, renamed November 2022); administered via DBJ Capital and DBJ directly rather than as a fully independent standalone entity.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "jp-polaris-capital-group",
+    "name": {
+      "en": "Polaris Capital Group",
+      "local": "ポラリス・キャピタル・グループ株式会社"
+    },
+    "type": "growth-equity",
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://polaris-cg.com/",
+    "strategy": {
+      "check_size": { "raw": "Equity investments generally ¥5bn+, targeting deals with enterprise value of ¥10bn-¥100bn" },
+      "geo_focus": ["Japan"],
+      "sector_focus": ["healthcare-services"],
+      "thesis": "Independent Japanese buyout/growth-equity firm naming 医療・ヘルスケア・福祉 (medical/healthcare/welfare) as one of its named ESG-driven core growth verticals, deploying both traditional buyout and 'growth buyout' capital into elderly-care and healthcare-services operators such as portfolio company HITOWA Holdings (senior housing and nursing-care services)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "HITOWA Holdings", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "tags": ["generalist-pe", "healthcare-vertical", "growth-buyout"],
+    "summary": {
+      "en": "Polaris Capital Group is a Japanese independent buyout/growth-equity firm that names medical/healthcare/welfare as a core investment vertical, using a 'growth buyout' strategy for eldercare and healthcare-services operators like HITOWA Holdings.",
+      "local": "ポラリス・キャピタル・グループは、社会保障・高齢化対応の観点から医療・ヘルスケア・福祉事業を主要投資領域の一つとする独立系バイオアウト/グロースエクイティ・ファームで、HITOWAホールディングス等の介護・医療関連サービス事業者に「グロースバイアウト」戦略で投資している。"
+    },
+    "sources": [
+      {
+        "url": "https://polaris-cg.com/features/concept.html",
+        "title": "投資コンセプト・投資方針 | ポラリス・キャピタル・グループ株式会社",
+        "publisher": "Polaris Capital Group",
+        "accessed": "undefined",
+        "supports": "Healthcare/welfare as named investment vertical; growth buyout strategy; deal-size range",
+        "quote": "社会保障や高齢化対策等のESG（社会貢献性）の観点を有し、今後の成長性が見込まれる医療・ヘルスケア・福祉事業"
+      },
+      {
+        "url": "https://polaris-cg.com/portfolio/",
+        "title": "ポートフォリオ | ポラリス・キャピタル・グループ株式会社",
+        "publisher": "Polaris Capital Group",
+        "accessed": "undefined",
+        "supports": "HITOWA Holdings portfolio investment in eldercare/healthcare services"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Polaris is a generalist multi-sector Japanese buyout/growth-equity fund (not life-science-exclusive); included here specifically for its explicitly named healthcare/welfare vertical and growth-buyout playbook. Broader healthcare portfolio beyond HITOWA Holdings was not independently enumerated in this research pass.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "tw-taiwania-capital",
+    "name": { "en": "Taiwania Capital", "local": "台杉投資" },
+    "aka": ["Taiwania Capital Management Corporation", "台杉投資管理顧問股份有限公司", "水牛生技基金", "TaiAx Life Science Fund"],
+    "type": "vc",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "offices": [
+      { "country": "Taiwan", "city": "Taipei" },
+      { "country": "United States", "city": "Silicon Valley" }
+    ],
+    "website": "https://www.taiwaniacapital.com/",
+    "links": {
+      "linkedin": "https://tw.linkedin.com/company/taiwania-capital"
+    },
+    "capital": {
+      "aum": { "raw": "US$1 billion (2024)", "usd": 1000000000, "currency": "USD" },
+      "funds": [
+        { "name": "Water Buffalo Bio Fund II (水牛二號生技基金)", "vintage_year": 2018, "size": { "raw": "NT$5.901 billion", "usd": null, "currency": "TWD" } },
+        { "name": "Water Buffalo Bio Fund III (水牛三號生技基金)", "vintage_year": 2021, "size": { "raw": "NT$1.64 billion", "usd": null, "currency": "TWD" } },
+        { "name": "TaiAx Life Science Fund L.P. (with Axil Capital, Tokyo)", "vintage_year": 2024, "size": { "raw": "US$200 million (target)", "usd": 200000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "United States", "Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "cell-gene-therapy", "ai-drug-discovery", "healthcare-services"],
+      "thesis": "National-champion venture firm sponsored by Taiwan's National Development Fund (40% owner); its dedicated biotech 'Water Buffalo' funds and the new US$200M TaiAx Life Science Fund back drug development, gene/cell therapy, medical devices and AI-medical companies, aiming to connect Taiwan's biomedical industry with North America and Japan."
+    },
+    "lifesci": {
+      "modalities": ["gene-therapy", "cell-therapy", "small-molecule", "ai-ml-platform"],
+      "indications": ["rare-disease", "oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "26 biotech companies across the two biotech funds",
+      "notable_investments": [
+        { "company": "Syncell (新析生技)", "sector": "spatial proteomics / life-science tools", "outcome": "active (Taiwania led Series A)" },
+        { "company": "Huikang / GlucoseZone (慧康生技)", "sector": "digital health / diabetes", "outcome": "active (Taiwania led Series C)" }
+      ]
+    },
+    "summary": {
+      "en": "Government-backed Taipei venture firm (National Development Fund holds 40%) running dedicated biotech funds and, since 2024, the US$200M TaiAx Life Science Fund with Tokyo's Axil Capital; invests in drug development, gene/cell therapy, medical devices and AI-medical startups across Taiwan, the US and Japan.",
+      "local": "由國發基金持股40%的台北創投,旗下設有專屬生技基金(水牛二號、三號生技基金),2024年再與東京Axil Capital共組2億美元TaiAx生技基金,聚焦新藥、基因與細胞療法、醫材與AI醫療。"
+    },
+    "sources": [
+      { "url": "https://www.taiwaniacapital.com/", "title": "Taiwania Capital official site", "publisher": "Taiwania Capital", "accessed": "undefined", "supports": "existence, Taipei HQ, biotech fund focus", "quote": "台杉投資" },
+      { "url": "https://en.wikipedia.org/wiki/Taiwania_Capital", "title": "Taiwania Capital - Wikipedia", "publisher": "Wikipedia", "accessed": "undefined", "supports": "founding year, NDF 40% ownership, AUM, fund count", "quote": "Founded in August 2017 ... sponsored by the National Development Fund (40% ownership) ... it had raised about US$490 million (NT$13.75 billion) for five funds ... US$1 billion (2024)" },
+      { "url": "https://news.gbimonthly.com/tw/article/show.php?num=57496", "title": "台杉2生技基金75億扶持26生技公司!第3支生技基金今年完成募資", "publisher": "環球生技 GlobalBio", "accessed": "undefined", "supports": "two biotech funds combined ~NT$7.5bn, 26 companies; Water Buffalo Bio Fund III NT$1.64bn", "quote": "台杉2生技基金75億扶持26生技公司!第3支生技基金今年完成募資" },
+      { "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=37051&pid=189775", "title": "立法院 - 國家級投資公司揭露", "publisher": "Legislative Yuan (Taiwan)", "accessed": "undefined", "supports": "Water Buffalo Fund I (IoT) NT$4.65bn and Fund II (biotech) NT$5.901bn fund sizes", "quote": "募集完成水牛一號基金(物聯網基金)及水牛二號基金(生物醫療技術基金),募集資金分別為46.5億元及59.01億元" },
+      { "url": "https://news.gbimonthly.com/tw/article/show.php?num=70756", "title": "台杉攜日創投Axil Capital 成立2億美元新生技基金「TaiAx」", "publisher": "環球生技 GlobalBio", "accessed": "undefined", "supports": "TaiAx Life Science Fund US$200M target with Axil Capital, focus rare disease/gene-cell therapy/AI medical", "quote": "台杉攜日創投Axil Capital 成立2億美元新生技基金「TaiAx」" },
+      { "url": "https://www.biotech-edu.com/biomedical-innovation-8companies-4billion/", "title": "生醫新創掀募資潮 8家狂吸逾40億", "publisher": "台灣光鹽生物科技學苑", "accessed": "undefined", "supports": "Taiwania led Syncell and Huikang rounds", "quote": "本輪由台杉投資領投" }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM figure (US$1bn, 2024) from Wikipedia infobox; biotech fund sizes corroborated by Legislative Yuan disclosure and GlobalBio. Silicon Valley / CEE offices reported; exact current fund count varies by date.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-diamond-biofund",
+    "name": { "en": "Diamond Biofund", "local": "鑽石生技投資" },
+    "aka": ["鑽石生技投資股份有限公司", "Diamond BioFund", "6901"],
+    "type": "vc",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.diamondbiofund.com/",
+    "capital": {
+      "aum": { "raw": "NT$5 billion (paid-in capital)", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "cell-gene-therapy"],
+      "thesis": "Taiwan's first publicly listed evergreen biotech venture firm; incubates and invests in new-drug R&D, high-end medical devices, innovative medical services and agri-biotech, aiming to build 'flagship' biotech enterprises. Founded by Microbio Group with Fubon, Taishin and Ruentex financial groups."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "company_creation": true,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "more than 20 biotech and healthcare companies",
+      "notable_investments": [
+        { "company": "Oneness Biotech (合一生技)", "sector": "dermatology / immunology therapeutics", "outcome": "IPO; market cap reported over US$2 billion" },
+        { "company": "GlycoBia / 醣基生醫", "sector": "biologics / antibodies", "outcome": "active" },
+        { "company": "Shin Yeah / 欣耀生醫", "sector": "therapeutics", "outcome": "active" },
+        { "company": "StemCyte / 永笙生技", "sector": "cell therapy", "outcome": "active" }
+      ],
+      "co_investors": ["Fubon Financial Holding", "Taishin Holdings", "Ruentex Group", "Microbio Group (中天生技)"]
+    },
+    "summary": {
+      "en": "Founded in 2013 by Microbio Group and the Fubon, Taishin and Ruentex financial groups (each contributed NT$1bn), Diamond Biofund became the first venture capital firm to list on a Taiwan exchange (emerging board, 25 Jul 2022, code 6901). It reports incubating 20+ biotech companies and a ~17x decade return.",
+      "local": "2013年由中天生技(Microbio)集團與富邦、台新、潤泰三大金控/集團各出資10億元成立,是台灣第一家登錄興櫃(2022/7/25,股票代號6901)的生技創投,已孕育逾20家生技公司。"
+    },
+    "sources": [
+      { "url": "https://www.diamondbiofund.com/en/index/", "title": "Diamond Biofund official site", "publisher": "Diamond Biofund", "accessed": "undefined", "supports": "existence, Taipei HQ, flagship-biotech thesis, portfolio", "quote": "打造旗舰型生技企业 ... 醣基生医, 欣耀生医, 永笙生技" },
+      { "url": "https://www.forbes.com/sites/shanshankao/2024/05/29/backed-by-billionaires-this-biotech-venture-capital-fund-is-driving-innovation-in-taiwan/", "title": "Backed By Billionaires, This Biotech Venture Capital Fund Is Driving Innovation In Taiwan", "publisher": "Forbes", "accessed": "undefined", "supports": "2013 founding, four backers each NT$1bn, first VC listed raising NT$4bn, 17x decade return, Oneness Biotech", "quote": "Each of the four companies contributed NT$1 billion ($31 million) ... Diamond Biofund became the first VC to list on the island, raising NT$4 billion ... The fund delivered a 17 times return to investors in a decade" },
+      { "url": "https://geneonline.news/taiwan-diamond-biofund/", "title": "臺灣第一家大型生技創投登錄興櫃,鑽石生技投資孕育出多家生技獨角獸", "publisher": "GeneOnline", "accessed": "undefined", "supports": "emerging-board listing 25 Jul 2022, code 6901, NT$5bn capital, unicorns incubated", "quote": "臺灣第一家大型生技創投登錄興櫃,鑽石生技投資孕育出多家生技獨角獸" },
+      { "url": "https://thehealthcaretechnologyreport.com/diamond-biofund-pioneering-success-in-biotechnology-venture-capital/", "title": "Diamond Biofund: Pioneering Success in Biotechnology Venture Capital", "publisher": "The Healthcare Technology Report", "accessed": "undefined", "supports": "first publicly listed evergreen biotech VC, 20+ companies, shareholders", "quote": "the first publicly listed evergreen biotech venture capital firm in Taiwan ... The founding shareholders include Microbio Group and financial conglomerates - Fubon Financial, Taishin Holdings, and Ruentex Group ... more than 20 companies" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Forbes states first listing raised NT$4bn while GeneOnline reports NT$5bn registered capital at the 2022 emerging-board listing; both are reported here. Portfolio company English names are romanized/approximate.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-cdib-capital-healthcare",
+    "name": { "en": "CDIB Capital Healthcare Ventures", "local": "中華開發資本 生醫基金" },
+    "aka": ["CDIB Capital Group", "中華開發資本", "CDIB Capital Healthcare", "China Development Financial (CDF) healthcare funds"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.cdibcapitalgroup.com/",
+    "links": {
+      "linkedin": "https://tw.linkedin.com/company/cdib-capital-group"
+    },
+    "capital": {
+      "aum": { "raw": "combined biomedical management scale exceeds NT$10 billion", "usd": null, "currency": "TWD" },
+      "funds": [
+        { "name": "Healthcare Fund I (生醫基金)", "vintage_year": 2014, "size": { "raw": "NT$1.75 billion", "usd": null, "currency": "TWD" } },
+        { "name": "Healthcare Fund II (生醫貳基金)", "vintage_year": 2020, "size": { "raw": "around NT$3.11 billion", "usd": null, "currency": "TWD" } },
+        { "name": "CDIB Yida Healthcare Fund (昆山華創毅達生醫基金)", "vintage_year": 2019, "size": { "raw": "RMB 760 million (initial commitment)", "usd": null, "currency": "CNY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "China"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices", "diagnostics", "digital-health", "pharma-services", "genomics-omics"],
+      "thesis": "Dedicated healthcare investment platform of China Development Financial (CDF/KGI); its NT-dollar Healthcare Funds and the RMB CDIB Yida fund back new biotech drugs (including cell & gene therapy), CDMO, advanced genetic testing, medical technology and digital healthcare, with 60%+ of Healthcare Fund II allocated to Taiwan-related targets."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "gene-therapy", "small-molecule", "biologics-antibody"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "nearly 30 biomedical companies"
+    },
+    "summary": {
+      "en": "The healthcare arm of China Development Financial (CDIB Capital) runs two NT-dollar biotech funds (Healthcare Fund I, 2014, NT$1.75bn; Healthcare Fund II, 2020, ~NT$3.11bn) plus an RMB CDIB Yida fund; combined biomedical scale exceeds NT$10bn across ~30 companies in CDMO, new drugs, cell & gene therapy and precision testing.",
+      "local": "中華開發資本(CDIB)旗下生醫投資平台,管理生醫基金(2014,17.5億)、生醫貳基金(2020,約31.1億)及人民幣華創毅達生醫基金,生醫管理規模逾100億元,已投資近30家生醫公司,涵蓋CDMO、新藥、細胞與基因治療、精準檢測。"
+    },
+    "sources": [
+      { "url": "https://www.cdibcapitalgroup.com/zh-tw", "title": "中華開發資本 official site", "publisher": "CDIB Capital Group", "accessed": "undefined", "supports": "existence, Taipei HQ, healthcare investment platform", "quote": "中華開發資本" },
+      { "url": "https://www.kgi.com/en/press/news-detail-content?id=276248fff9d74885b3c05da2686226e7&dtlsrc=ce44e7f6813e4e76a4eacf65ef9388d8", "title": "CDIB launches second NT dollar-denominated healthcare fund", "publisher": "KGI / China Development Financial", "accessed": "undefined", "supports": "Healthcare Fund I NT$1.75bn (2014), Healthcare Fund II ~NT$3.11bn (Dec 2020), combined ~NT$5bn, 60%+ Taiwan, sectors", "quote": "Healthcare Fund I: Established in 2014 with NT$1.75bn ... Healthcare Fund II ... around NT$3.11bn ... a combined value of nearly NT$5bn ... new biotech drugs (including cell and gene therapy), medical technology, and digital healthcare and services" },
+      { "url": "https://www.kgi.com/en/press/news-detail-content?id=4fc054f4d42142ee86072eeca748d813&dtlsrc=ce44e7f6813e4e76a4eacf65ef9388d8", "title": "CDIB dedicated to building biomedical ecosystem", "publisher": "KGI / China Development Financial", "accessed": "undefined", "supports": "combined biomedical scale exceeds NT$10bn, nearly 30 biomedical companies, RMB Yida fund", "quote": "combined management scale exceeds NT$10 billion, having invested in nearly 30 biomedical companies covering ... CDMO, new drug development, advanced genetic testing, gene therapy, and next-gen cell therapy" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "CDIB is the equity-investment arm of China Development Financial (KGI); classified here as a dedicated life-science fund manager (Healthcare Fund series). 'Nearly 30 companies' and NT$10bn combined scale from KGI press pages; individual figures may include RMB fund conversions not independently verified.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-center-lab-yusheng",
+    "name": { "en": "Center Laboratories (Yusheng Venture Capital / Center Group)", "local": "晟德大藥廠／玉晟創業投資" },
+    "aka": ["Center Laboratories, Inc.", "晟德集團", "玉晟創投", "玉晟管顧", "4123"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.centerlab.com.tw/",
+    "links": {
+      "linkedin": "https://tw.linkedin.com/company/center-laboratories-inc-4123-"
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Taiwan", "China"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices", "pharma-services"],
+      "thesis": "Listed pharma company (Center Laboratories, TWSE 4123) that reinvented itself as a professional biotech investment holding company — a self-styled 'Berkshire Hathaway of biotech' — investing via its Yusheng VC arm in cell therapy, small-molecule and antibody drug developers, advanced medical devices and industry funds, aiming to create NT$30bn-valuation champions."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "small-molecule", "biologics-antibody"],
+      "company_creation": true
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Adimmune (國光生技)", "sector": "vaccines", "outcome": "listed (TWSE 4142)" },
+        { "company": "Jacobio Pharmaceuticals (加科思)", "sector": "oncology therapeutics", "outcome": "IPO (HKEX 1167)" },
+        { "company": "Tot Biopharm (東曜藥業)", "sector": "biologics / CDMO", "outcome": "IPO (HKEX 1875)" },
+        { "company": "Sunny Pharmtech / 順藥", "sector": "therapeutics", "outcome": "listed (TWSE 6535)" }
+      ]
+    },
+    "summary": {
+      "en": "Center Laboratories (晟德, TWSE 4123) is a listed pharmaceutical company that transformed into a professional biotech investment holding company (operating the Yusheng VC platform), styling itself the 'Berkshire of biotech'; it takes large strategic stakes in drug, cell-therapy, device and CDMO firms such as Adimmune, Jacobio and Tot Biopharm.",
+      "local": "晟德大藥廠(4123)由製藥公司轉型為專業生技投資控股公司(旗下玉晟創投平台),自詡為「生醫界波克夏」,策略性投資國光生技、加科思、東曜藥業、順藥等新藥、細胞治療、醫材與CDMO企業。"
+    },
+    "sources": [
+      { "url": "https://www.centerlab.com.tw/about/center?id=1", "title": "晟德大藥廠 企業簡介", "publisher": "Center Laboratories", "accessed": "undefined", "supports": "biotech investment holding transformation, Yusheng VC, unicorn strategy", "quote": "投資明日產業，改變今日世界-打造生醫界的Berkshire控股公司" },
+      { "url": "https://news.gbimonthly.com/tw/article/show.php?num=60257", "title": "晟德合併旗下玉晟管顧!完成第三次轉型 邁向台灣最大生技控股公司", "publisher": "環球生技 GlobalBio", "accessed": "undefined", "supports": "玉晟創投/管顧arm, third transformation to biotech holding company", "quote": "晟德合併旗下玉晟管顧!完成第三次轉型 邁向台灣最大生技控股公司" },
+      { "url": "https://www.businesstoday.com.tw/article/category/183015/post/202307190055/", "title": "晟德集團攜手子公司,打造台灣生技波克夏", "publisher": "今周刊 Business Today", "accessed": "undefined", "supports": "portfolio: 國光生技, 加科思, 東曜藥業, 順藥; CDMO/AI/high-end medical device focus", "quote": "晟德集團攜手子公司，打造台灣生技波克夏!聚焦CDMO、AI、高階醫材" },
+      { "url": "https://www.twincn.com/item.aspx?no=18606304", "title": "晟德大藥廠股份有限公司 (晟德 Center Lab.-4123)", "publisher": "台灣公司網", "accessed": "undefined", "supports": "English name Center Laboratories, Inc., stock code 4123", "quote": "晟德大藥廠股份有限公司(晟德 Center Lab.-4123)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "This is a listed pharma-turned-biotech-holding company rather than a conventional closed-end VC; the anchor list explicitly places its 玉晟 investment platform in scope. Founded_year 2008 refers to establishment of the 玉晟創投 investment arm (parent Center Laboratories dates to 1959).",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-taian-technologies",
+    "name": { "en": "TaiAn Technologies Corp.", "local": "台安生技" },
+    "aka": ["TaiAn Technologies", "台安技術"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2002,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.taiantech.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Biotechnology service and fund-management company that helps transfer breakthrough biotech/biomedical technologies into Taiwan and finances pharmaceutical, biopharmaceutical, medical-device and diagnostic startups."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 12,
+      "notable_investments": [
+        { "company": "AnHorn Medicines (安立璽榮 co-investor / 安衡?)", "sector": "drug discovery", "outcome": "active" },
+        { "company": "Aprinoia Therapeutics", "sector": "neurology diagnostics / therapeutics", "outcome": "active" },
+        { "company": "Clearmind Biomedical", "sector": "surgical devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Taipei-based biotech VC and technology-transfer firm founded in 2002; manages biotechnology venture funds and has made ~12 investments in drug-discovery and medical-device companies including AnHorn Medicines, Aprinoia Therapeutics and Clearmind Biomedical.",
+      "local": "2002年成立於台北的生技創投暨技術移轉公司,管理生技創投基金,已投資約12家新藥與醫材公司,包括安衡醫藥(AnHorn)、宇沛(Aprinoia)、鎔鑫(Clearmind)等。"
+    },
+    "sources": [
+      { "url": "https://www.taiantech.com/en/index.htm", "title": "TaiAn Technologies Corp. official site", "publisher": "TaiAn Technologies", "accessed": "undefined", "supports": "existence, biotech service + fund-management identity, focus", "quote": "TaiAn Technologies is both a biotechnology service company that helps transfer breakthrough biotech/biomedical technologies into Taiwan and a management company for biotechnology venture capital funds" },
+      { "url": "https://www.privateequityinternational.com/institution-profiles/taian-technologies-corp.html", "title": "TaiAn Technologies Corp. institution profile", "publisher": "Private Equity International", "accessed": "undefined", "supports": "founded 2002, Taipei PE firm, biotech/healthcare focus", "quote": "Founded in 2002, TaiAn Technologies Corp. is a Taipei-based private equity firm targeting investments in bio-tech and healthcare related technology companies" },
+      { "url": "https://pitchbook.com/profiles/investor/60883-93", "title": "TaiAn Technologies Corporation investment portfolio", "publisher": "PitchBook", "accessed": "undefined", "supports": "12 investments; AnHorn Medicines, Clearmind Biomedical, Aprinoia Therapeutics", "quote": "made 12 investments in companies like AnHorn Medicines, Clearmind Biomedical, and Aprinoia Therapeutics" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and portfolio detail from PEI/PitchBook/Crunchbase secondary profiles; official site did not list figures. TaiAn also appears as co-investor in ELiXiron (安立璽榮) and Premier (普瑞默) 2024-2025 rounds.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-yfy-biotech-tgb",
+    "name": { "en": "YFY Biotech Management Company (Taiwan Global BioFund)", "local": "永豐餘生技管理顧問（台灣全球生技基金）" },
+    "aka": ["YFY Biotech", "Taiwan Global BioFund", "TGB", "永豐餘生技"],
+    "type": "vc",
+    "subtypes": ["cvc", "incubator"],
+    "status": "active",
+    "founded_year": 2003,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.yfy.com/en/invest_company_11.html",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/yfy-biotech-management-company-taiwan-global-biofund"
+    },
+    "capital": {
+      "aum": { "raw": "approximately USD 100 million under management", "usd": 100000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services", "healthcare-it"],
+      "thesis": "Pioneering biotech investment-and-incubation company established by the YFY (Yuen Foong Yu) Group; advises Taiwan Global BioFund and an SME fund and backs seed/startup-stage pharma, med-tech, diagnostic and medical-informatics innovators with potential to become industry leaders."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware", "software-samd"],
+      "company_creation": true
+    },
+    "summary": {
+      "en": "Founded in 2003 by Taiwan's YFY (Yuen Foong Yu) Group, YFY Biotech Management advises the Taiwan Global BioFund (set up 2005) plus an SME fund, ~US$100M AUM; one of Taiwan's earliest dedicated healthcare investors/incubators across pharma, med-tech, diagnostics and medical informatics.",
+      "local": "2003年由永豐餘集團成立的生技投資暨育成公司,管理台灣全球生技基金(2005年成立)與中小企業基金,管理規模約1億美元,是台灣最早專注醫療健康的創投育成機構之一,涵蓋製藥、醫材、診斷與醫療資訊。"
+    },
+    "sources": [
+      { "url": "https://www.yfy.com/en/invest_company_11.html", "title": "YFY Biotech Management Company", "publisher": "Yuen Foong Yu Group", "accessed": "undefined", "supports": "established by YFY Group, biotech investment & consulting, incubation", "quote": "YFY Biotech Management Company is a leading biotechnology investment and consulting company established by the YFY Group" },
+      { "url": "https://trpma.org.tw/eng/members/2", "title": "Taiwan Global Biofund (TGB) - TRPMA member", "publisher": "TRPMA", "accessed": "undefined", "supports": "Taiwan Global BioFund membership, healthcare investment focus", "quote": "Taiwan Global Biofund (TGB)" },
+      { "url": "https://pharmaboardroom.com/directory/yfy-biotech-management-company-taiwan/", "title": "YFY Biotech Management Company, Taiwan", "publisher": "PharmaBoardroom", "accessed": "undefined", "supports": "founded 2003, TGB 2005, ~US$100M AUM, healthcare focus, seed/startup stage", "quote": "advises Taiwan Global Biofund (TGB) as well as SME fund with approximately USD 100-millions under management" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Corporate-heritage investor (arm of YFY paper group) but operated as a dedicated biotech fund manager/incubator since 2003 — included as a pioneering Taiwan life-science VC. AUM (~US$100M) from PharmaBoardroom/secondary profiles.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-everbright-biofund",
+    "name": { "en": "Everbright Biofund", "local": "永明生技投資" },
+    "aka": ["永明生技投資股份有限公司", "Everbright Bio-Investment"],
+    "type": "vc",
+    "subtypes": ["crossover-fund"],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "capital": {
+      "current_fund": { "raw": "NT$3 billion (initial / first-phase capital)", "usd": null, "currency": "TWD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "United States"],
+      "sector_focus": ["ai-drug-discovery", "cell-gene-therapy", "therapeutics", "genomics-omics"],
+      "thesis": "Evergreen ('sustainable-model') biotech venture fund established by Taiwan's Institute for Biotechnology and Medicine Industry (生策中心/生策會) and led by former NTU president Yang Pan-Chi; integrates academia-industry-research-hospital resources to back AI drug discovery, spatial proteomics, cell therapy and vaccine-adjuvant startups in Taiwan and abroad."
+    },
+    "lifesci": {
+      "modalities": ["cell-therapy", "ai-ml-platform", "vaccines"],
+      "indications": ["oncology"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 4,
+      "notable_investments": [
+        { "company": "Iambic Therapeutics (USA)", "sector": "AI drug discovery", "outcome": "active" },
+        { "company": "StemCyte (永笙生技)", "sector": "cord-blood cell therapy", "outcome": "active" },
+        { "company": "Syncell (新析生技)", "sector": "spatial proteomics / life-science tools", "outcome": "active" },
+        { "company": "ImmunAdd (優億)", "sector": "synthetic vaccine adjuvants", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Evergreen biotech VC launched December 2024 by Taiwan's Institute for Biotechnology and Medicine Industry (生策中心), chaired by former NTU president Yang Pan-Chi, with NT$3bn first-phase capital; its first four investments span AI drug discovery (Iambic), cord-blood cell therapy (StemCyte), spatial proteomics (Syncell) and synthetic vaccine adjuvants (ImmunAdd).",
+      "local": "2024年12月由生策中心成立、楊泮池副董事長主導的永續型生技創投,首階段資金新台幣30億元,整合產學研醫,首批投資涵蓋AI輔助藥物研發(Iambic)、臍帶血細胞治療(永笙)、空間蛋白質體學(新析)與全合成疫苗佐劑(優億)。"
+    },
+    "sources": [
+      { "url": "https://geneonline.news/taiwan-evergreen-biotech-vc-fund-everbright/", "title": "整合產學研醫,永續型生技創投鏈結世界與台灣", "publisher": "GeneOnline", "accessed": "undefined", "supports": "Dec 2024 founding, NT$3bn first-phase, 生策中心 + Yang Pan-Chi, 4 portfolio companies", "quote": "首階段起步資金達新台幣 30 億元 ... Iambic Therapeutics ... 永笙生技 (StemCyte) ... 新析生技 (Syncell) ... 優億 (ImmunAdd)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Backed by 生策中心/生策會 (an industry-promotion body) but structured as an evergreen VC fund; single strong secondary source (GeneOnline). Subtype 'crossover-fund' reflects evergreen structure, not confirmed public-equity holdings.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-affinity-capital-anfu",
+    "name": { "en": "Affinity Capital (Anfu Capital)", "local": "安富資本" },
+    "aka": ["Anfu Capital", "安富資本股份有限公司", "安富大健康基金", "Affinity Ventures"],
+    "type": "vc",
+    "status": "active",
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://affinity.com.tw/",
+    "capital": {
+      "funds": [
+        { "name": "Anfu Healthcare Fund I (安富大健康基金)", "vintage_year": 2022, "size": { "raw": "NT$1.5 billion (target, met)", "usd": null, "currency": "TWD" } },
+        { "name": "Anfu Healthcare Fund II (安富大健康二號有限合夥)", "vintage_year": 2023, "size": { "raw": "NT$2.175 billion (paid-in by Jul 2024)", "usd": null, "currency": "TWD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Healthcare-dedicated ('Big Health') venture firm chaired by veteran biotech executive Linn Chuan (former chairman of Lotus Pharmaceutical); its Anfu Healthcare Funds take large, often board-level positions in Taiwanese new-drug and biomedical companies."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody"],
+      "indications": ["oncology", "immunology-inflammation", "womens-health"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "BRIM Biotechnology (全福生技)", "sector": "ophthalmology / therapeutics", "outcome": "active; Anfu became single largest shareholder (12.87%)" },
+        { "company": "ELiXiron Immunotherapeutics (安立璽榮生醫)", "sector": "immuno-oncology therapeutics", "outcome": "active (Anfu co-invested Pre-B/B)" },
+        { "company": "HanchorBio (漢康生技)", "sector": "therapeutics", "outcome": "active (Anfu Healthcare Fund II)" }
+      ]
+    },
+    "summary": {
+      "en": "Taipei healthcare VC (English brand 'Affinity') chaired by veteran biotech executive Linn Chuan; its Anfu Healthcare Fund I (2022, NT$1.5bn) and Fund II (2023, NT$2.175bn) take strategic stakes in Taiwanese new-drug and biomedical firms such as BRIM Biotechnology, ELiXiron and HanchorBio.",
+      "local": "台北的大健康創投(英文品牌Affinity),董事長為資深生技經理人林羣;旗下安富大健康基金(2022,15億)與二號基金(2023,21.75億)策略性投資全福生技、安立璽榮、漢康生技等台灣新藥與生醫公司。"
+    },
+    "sources": [
+      { "url": "https://affinity.com.tw/en/invest-en/", "title": "Investment Portfolio - Affinity (安富資本)", "publisher": "Affinity Capital / 安富資本", "accessed": "undefined", "supports": "existence, English brand Affinity, Taipei, biomedical portfolio", "quote": "安富資本股份有限公司" },
+      { "url": "https://findit.org.tw/tw/Res/2496", "title": "2025年臺灣新創投資趨勢年報-健康醫療篇", "publisher": "FINDIT / 台灣經濟研究院", "accessed": "undefined", "supports": "Anfu Healthcare Fund I 2022 NT$1.5bn target met; Fund II 2023 NT$2.175bn by Jul 2024", "quote": "Anfu Capital established the 'Anfu Healthcare Fund I' in 2022 with a target scale of NT$1.5 billion ... 'Anfu Healthcare Fund II,' which had reached NT$2.175 billion in actual capital contributions by July 2024" },
+      { "url": "https://www.businesstoday.com.tw/article/category/183015/post/202302090019/", "title": "美時前董事長主導,小公司組成史上最強陣容", "publisher": "今周刊 Business Today", "accessed": "undefined", "supports": "chairman Linn Chuan (ex-Lotus/美時), Fund I invested NT$600M in BRIM (全福), 12.87% largest shareholder", "quote": "安富大健康 ... 投資 ... 全福生技 ... 單一最大股東 ... 12.87%" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "English brand is 'Affinity' (affinity.com.tw); 'Anfu Capital' is the romanization of 安富資本. Fund figures from FINDIT/TIER annual report; BRIM stake detail from Business Today.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-be-health-ventures",
+    "name": { "en": "BE Health Ventures", "local": "比翼生醫創投" },
+    "aka": ["BE Capital", "比翼資本", "BE Health", "比翼生醫"],
+    "type": "vc",
+    "subtypes": ["accelerator", "university-hospital-fund"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.behealthventures.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/be-accelerator/"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["medtech-devices", "digital-health", "healthcare-services", "diagnostics"],
+      "thesis": "Described as Taiwan's first and only hospital-backed venture capital firm and its largest MedTech/HealthTech accelerator; invests in innovative medical technologies and supports startups through clinical proof-of-concept and market validation using hospital partners."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform", "wearables-sensors"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": 33
+    },
+    "summary": {
+      "en": "Taipei hospital-backed VC and accelerator founded in 2018, described as Taiwan's first and only hospital-backed VC; has invested in 33 companies and runs MedTech/HealthTech accelerator programs with partners including Show Chwan Health Care System, Taipei Medical University and IRCAD Taiwan.",
+      "local": "2018年成立於台北的醫院背景創投暨加速器,號稱台灣第一家、也是唯一的醫院背景創投,已投資33家公司,並與秀傳醫療體系、臺北醫學大學、IRCAD Taiwan等合作營運醫療科技加速器。"
+    },
+    "sources": [
+      { "url": "https://www.behealthventures.com/about/", "title": "About - BE Health Ventures", "publisher": "BE Health Ventures", "accessed": "undefined", "supports": "first/only hospital-backed VC, founded 2018, 33 investments, hospital partners", "quote": "In Taiwan, BE Health Ventures is the FIRST and ONLY hospital backed VC, having invested in 33 different companies since establishment in 2018" },
+      { "url": "https://www.linkedin.com/company/be-accelerator/", "title": "BE Health 比翼生醫 - Hospital VC & Accelerator", "publisher": "LinkedIn", "accessed": "undefined", "supports": "hospital VC & accelerator identity, MedTech/HealthTech focus", "quote": "BE Health 比翼生醫 - Hospital VC & Accelerator" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Operates both a VC fund (比翼資本) and Taiwan's largest MedTech/HealthTech accelerator; included here for its VC role (the accelerator program overlaps with the accelerator segment owned by another agent). Hospital-partner names from search snippets; primary backer is the Show Chwan / Ming-Sheng healthcare group.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-isaiah-capital",
+    "name": { "en": "Isaiah Capital", "local": "以賽亞資本" },
+    "aka": ["Isaiah Capital Corp.", "以賽亞資本股份有限公司"],
+    "type": "vc",
+    "status": "active",
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "website": "https://www.isaiahcapital.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan"],
+      "sector_focus": ["therapeutics", "life-science-tools", "generalist-health"],
+      "thesis": "Taiwan venture firm making strategic 'disruptive technology' investments primarily in biotechnology and healthcare, alongside technology and services; founded by Isaiah Research founder/CEO Mr. Tseng and active as a co-investor in Taiwan biomedical rounds (e.g. Syncell)."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "lab-automation"],
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Syncell (新析生技)", "sector": "spatial proteomics / life-science tools", "outcome": "active (co-investor)" }
+      ]
+    },
+    "summary": {
+      "en": "Taipei venture firm that lists biotechnology and healthcare as a primary investment field (alongside technology and services); founded by the founder/CEO of Isaiah Research and seen co-investing in Taiwan biomedical startups such as Syncell.",
+      "local": "台北創投,將生技與醫療健康列為主要投資領域之一(另有科技與服務業),創辦人為以賽亞調研(Isaiah Research)創辦人曾先生,曾共同投資新析生技等台灣生醫新創。"
+    },
+    "sources": [
+      { "url": "https://www.isaiahcapital.com/", "title": "以賽亞資本 ISAIAH CAPITAL", "publisher": "Isaiah Capital", "accessed": "undefined", "supports": "existence, biotech/healthcare as primary field, founder background", "quote": "makes strategic investments driven by insights into disruptive technology, primarily in the fields of biotechnology and healthcare, technology, and services industries" },
+      { "url": "https://www.biotech-edu.com/biomedical-innovation-8companies-4billion/", "title": "生醫新創掀募資潮 8家狂吸逾40億", "publisher": "台灣光鹽生物科技學苑", "accessed": "undefined", "supports": "以賽亞資本 listed as co-investor in Syncell (新析) round", "quote": "喜馬拉雅創投、永明生技、比翼生醫、以賽亞資本" }
+    ],
+    "confidence": "low",
+    "verification_notes": "Multi-sector firm (biotech/healthcare + technology + services) rather than a pure life-science VC, but biotech/healthcare is a stated primary field and it co-invests in Taiwan biomedical rounds. No fund-size figures verified.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "tw-wi-harper-group",
+    "name": { "en": "WI Harper Group", "local": "中經合集團" },
+    "aka": ["WI Harper", "中經合"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 1993,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei",
+    "offices": [
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "Taiwan", "city": "Taipei" },
+      { "country": "China", "city": "Beijing" }
+    ],
+    "website": "https://wiharper.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/wi-harper-group"
+    },
+    "capital": {
+      "aum": { "raw": "nearly US$1 billion across eight venture funds", "usd": 1000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Taiwan", "China", "United States"],
+      "sector_focus": ["generalist-health", "medtech-devices", "digital-health", "medical-imaging"],
+      "thesis": "Cross-border venture firm founded 1993 with Taiwan roots (Taipei office) investing across high-tech, digital media (TMT) and healthcare in Greater China, Taiwan and Silicon Valley; healthcare practice includes AI-medical-imaging and digital-health deals such as co-leading AIM (采風智匯)."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd", "medical-hardware"],
+      "company_creation": false
+    },
+    "track_record": {
+      "portfolio_count": "over 350 portfolio companies, 80+ IPO/M&A exits (firm-wide)",
+      "notable_investments": [
+        { "company": "AIM (采風智匯)", "sector": "AI medical imaging", "outcome": "active (WI Harper co-led pre-A)" }
+      ]
+    },
+    "summary": {
+      "en": "Founded in 1993 with Taiwan roots, WI Harper Group manages ~US$1bn across eight funds and invests in high-tech, digital media and healthcare across Taiwan, Greater China and Silicon Valley; its healthcare practice includes AI-medical-imaging deals such as co-leading AIM (采風智匯).",
+      "local": "1993年成立、具台灣淵源的中經合集團,管理約10億美元、八檔創投基金,投資高科技、數位媒體與醫療健康,橫跨台灣、大中華與矽谷;醫療領域包括共同領投AI醫療影像公司采風智匯。"
+    },
+    "sources": [
+      { "url": "https://wiharper.com/about/", "title": "About - WI Harper Group", "publisher": "WI Harper Group", "accessed": "undefined", "supports": "founded 1993, ~US$1bn AUM across 8 funds, healthcare focus, 350+ portfolio, 80+ exits", "quote": "founded in 1993 ... manages eight venture funds with nearly US$1 billion in assets under management ... high-tech, digital new media (TMT), and healthcare ... over 350 portfolio companies and more than 80 successful IPO and M&A exits" },
+      { "url": "https://innoaward.taiwan-healthcare.org/faq_detail.php?REFDOCTYPID=0ln4xj1fff5sadsy&REFDOCID=0t19ryt3fu95xey7", "title": "采風智匯獲國內外創投基金注資 全面啟動AI醫療國際化", "publisher": "國家新創獎 / Taiwan Healthcare", "accessed": "undefined", "supports": "WI Harper co-led pre-A for AI medical company AIM (采風智匯)", "quote": "采風智匯獲國內外創投基金注資 全面啟動AI醫療國際化" }
+    ],
+    "confidence": "low",
+    "verification_notes": "Generalist cross-border (Taiwan/Greater China/US) firm with a genuine but non-dominant healthcare practice; region assigned 'taiwan' on the basis of its Taiwan founding heritage and Taipei office, though it is often categorized as a Greater-China/US firm. Firm-wide portfolio/exit figures are not healthcare-specific.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  }
+]

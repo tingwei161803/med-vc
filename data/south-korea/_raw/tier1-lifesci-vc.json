@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "kr-korea-investment-partners",
+    "name": { "en": "Korea Investment Partners", "local": "한국투자파트너스" },
+    "aka": ["KIP", "KIPVC"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1986,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://partners.koreainvestment.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/kipvc",
+      "crunchbase": "https://www.crunchbase.com/organization/korea-investment-partners"
+    },
+    "capital": {
+      "aum": { "raw": "US$4 billion", "usd": 4000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "China", "United States"],
+      "sector_focus": ["therapeutics", "generalist-health", "diagnostics", "medtech-devices"],
+      "thesis": "One of Korea's oldest and largest independent VC/PE firms (subsidiary of Korea Investment Holdings); biotech and healthcare are among its core verticals alongside ICT and consumer. An active anchor in Korean biopharma financings."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "indications": ["oncology"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Orum Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["KB Investment", "DSC Investment"]
+    },
+    "summary": {
+      "en": "Founded in 1986, Korea Investment Partners is one of Korea's largest independent venture capital firms, managing 58 funds with roughly US$4bn AUM; biotech and healthcare are a core investment vertical.",
+      "local": "1986년 설립된 한국투자파트너스는 한국을 대표하는 독립계 벤처캐피탈로, 바이오·헬스케어를 핵심 투자 분야로 삼고 있다."
+    },
+    "sources": [
+      {
+        "url": "https://partners.koreainvestment.com/",
+        "title": "Korea Investment Partners",
+        "publisher": "Korea Investment Partners",
+        "accessed": "undefined",
+        "supports": "Founded 1986, subsidiary of Korea Investment Holdings, 58 funds, ~US$4bn AUM, biotech/healthcare focus",
+        "quote": "Through 37 years of experience in investment field, KIP is currently managing 58 funds with AUM of US$4 billion."
+      },
+      {
+        "url": "https://www.kedglobal.com/bio-pharma/newsView/ked202501230005",
+        "title": "Partners Investment, GordonMD eye $150 mn biotech fund launch",
+        "publisher": "KED Global",
+        "accessed": "undefined",
+        "supports": "KIP as active Korean biotech investor",
+        "quote": "Orum Therapeutics secured a large-scale investment ... from leading Korean VCs, including KB Investment, Korea Investment Partners, and DSC Investment."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM figure (US$4bn, 58 funds) from official site; an older secondary source cites US$1.8bn, so AUM has grown over time. Bio is one vertical of a generalist firm.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-lsk-investment",
+    "name": { "en": "LSK Investment", "local": "엘에스케이인베스트먼트" },
+    "aka": ["LSK Invest"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/lsk-investment"
+    },
+    "capital": {},
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "One of the few Korean VC firms dedicated exclusively to healthcare, investing in medicine, medical devices and convergence technology; CEO has flagged central-nervous-system disease as a forward focus."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"],
+      "indications": ["neurology"],
+      "invests_public_markets": false,
+      "science_platform_notes": "Co-formed the 'LSK-BNH Korea Bio Fund' with BNH Investment."
+    },
+    "track_record": {
+      "portfolio_count": 47
+    },
+    "summary": {
+      "en": "Established in 2016, LSK Investment is one of the few Korean venture capital firms specializing exclusively in healthcare — medicine, medical devices and convergence technology.",
+      "local": "2016년 설립된 엘에스케이인베스트먼트는 의약품·의료기기·융합기술에 집중하는 국내 몇 안 되는 헬스케어 전문 벤처캐피탈이다."
+    },
+    "sources": [
+      {
+        "url": "https://en.topdaily.kr/articles/553",
+        "title": "LSK Invest 'Right time to invest in bio... hot topic going forward is central nervous system disease'",
+        "publisher": "Topdaily",
+        "accessed": "undefined",
+        "supports": "Healthcare-specialist VC, CNS focus, plans 100bn won fund, LSK-BNH Korea Bio Fund",
+        "quote": "LSK Investment ... is one of the few venture capital firms specializing in biotechnology in Korea ... The 'LSK-BNH Korea Bio Fund', jointly formed with BNH Investment, has reached maturity."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/lsk-investments",
+        "title": "LSK Investment Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Founded 2016, Seoul, 47 investments, 3 exits, healthcare focus",
+        "quote": "LSK Investment is a healthcare-focused venture capital firm. The company was founded in 2016 and is based in Seoul, South Korea."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Portfolio count (~47) and 3 exits from CB Insights; AUM not disclosed in sources seen. No official website URL verified.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-intervest",
+    "name": { "en": "InterVest", "local": "인터베스트" },
+    "aka": ["InterVest Co., Ltd."],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1999,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://intervest.co.kr/en",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/intervest",
+      "crunchbase": "https://www.crunchbase.com/organization/intervest-co"
+    },
+    "capital": {
+      "aum": { "raw": "US$1.2 billion (2021)", "usd": 1200000000, "currency": "USD" },
+      "funds": [
+        { "name": "InterVest Bio Healthcare Fund", "vintage_year": 2005, "size": { "raw": "$28M", "usd": 28000000, "currency": "USD" } },
+        { "name": "InterVest Global Pharma Fund", "vintage_year": 2013, "size": { "raw": "$100M", "usd": 100000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "Southeast Asia", "United States"],
+      "sector_focus": ["therapeutics", "digital-health", "genomics-omics", "diagnostics"],
+      "thesis": "One of Korea's largest independent VC firms; established Korea's first government-supported global Bio Fund (2013) and has run dedicated bio/healthcare funds since 2005. Bio spans genomics, novel modalities and precision medicine."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule", "ai-ml-platform"],
+      "invests_public_markets": false,
+      "science_platform_notes": "Bio focus areas: 'Novel Modalities and Platforms', 'Deep Change by Big Data & AI', 'Genome-Based Precision Medicine'."
+    },
+    "track_record": {
+      "portfolio_count": 110
+    },
+    "summary": {
+      "en": "Founded in 1999, InterVest is one of Korea's largest independent VCs and a bio pioneer — it launched Korea's first bio-healthcare fund (2005) and first government-backed global Bio Fund (2013).",
+      "local": "1999년 설립된 인터베스트는 한국 대표 독립계 VC로, 2005년 바이오헬스케어 펀드와 2013년 국내 최초 정부지원 글로벌 바이오펀드를 조성한 바이오 투자 선구자다."
+    },
+    "sources": [
+      {
+        "url": "https://intervest.co.kr/en/company",
+        "title": "About InterVest",
+        "publisher": "InterVest",
+        "accessed": "undefined",
+        "supports": "Founded 1999, largest independent Korean VC, first global Bio Fund",
+        "quote": "InterVest established Korea's first government-support global Bio Fund ('13) ... InterVest Bio Healthcare Fund established in 2005 ($28 M) and InterVest Global Pharma Fund established in 2013 ($100 M)."
+      },
+      {
+        "url": "https://intervest.co.kr/en/ourfocus",
+        "title": "Our Focus - InterVest",
+        "publisher": "InterVest",
+        "accessed": "undefined",
+        "supports": "Bio focus areas",
+        "quote": "Novel Modalities and Platforms ... Deep Change by Big Data & AI ... Genome-Based Precision Medicine"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM US$1.2bn is a 2021 figure; portfolio count ~110 from Tracxn (Apr 2026). Fund sizes/years from search summary of official pages.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-imm-investment",
+    "name": { "en": "IMM Investment", "local": "아이엠엠인베스트먼트" },
+    "aka": ["IMM Investment Corp."],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://imminvestment.com/",
+    "links": {
+      "other": ["https://imminvestment.com/company/"]
+    },
+    "capital": {
+      "aum": { "raw": "KRW 1,750bn (VC funds); over $6.6 billion group total", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "Asia"],
+      "sector_focus": ["therapeutics", "generalist-health", "diagnostics"],
+      "thesis": "Leading Korean alternative-investment firm across VC, growth equity and infrastructure; healthcare/biotech is a primary VC sector. Early backer of Celltrion; management has stated an ongoing commitment to biotech."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody"],
+      "indications": ["oncology"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Celltrion", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Established in 1999, IMM Investment is one of Korea's largest independent alternative-investment firms; healthcare/biotech is a primary VC vertical and it was an early backer of biosimilar leader Celltrion.",
+      "local": "1999년 설립된 아이엠엠인베스트먼트는 한국 최대 독립계 대체투자사 중 하나로, 헬스케어·바이오를 주요 VC 분야로 삼으며 셀트리온 초기 투자사다."
+    },
+    "sources": [
+      {
+        "url": "https://imminvestment.com/company/",
+        "title": "IMM Investment - Company",
+        "publisher": "IMM Investment",
+        "accessed": "undefined",
+        "supports": "Founded Sept 1999, leading alternative investment firm, VC funds AUM KRW 1,750bn",
+        "quote": "The company currently manages total of 26 VC funds (AUM KRW 1,750bn) and 30 PEF (AUM KRW 7,310bn)."
+      },
+      {
+        "url": "http://www.theinvestor.co.kr/view.php?ud=20180323000705",
+        "title": "IMM Investment eyes burgeoning biotech industry",
+        "publisher": "The Investor (Korea Herald)",
+        "accessed": "undefined",
+        "supports": "Biotech commitment, Celltrion investment",
+        "quote": "I see the biotech industry as a very competitive market with great opportunities, so we will continue to invest in these areas."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Group total 'over $6.6 billion' includes PE funds; VC-only AUM is KRW 1,750bn. Bio is one vertical of a diversified firm.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-kb-investment",
+    "name": { "en": "KB Investment", "local": "케이비인베스트먼트" },
+    "aka": ["KBIC", "KB Investment Co., Ltd."],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1990,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "http://www.kbic.co.kr/main/about",
+    "links": {
+      "linkedin": "https://kr.linkedin.com/company/kb-investment",
+      "crunchbase": "https://www.crunchbase.com/organization/kbinvest"
+    },
+    "capital": {
+      "aum": { "raw": "over USD 2.6 Billion (Dec 2023)", "usd": 2600000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "United States", "Southeast Asia", "Israel"],
+      "sector_focus": ["therapeutics", "generalist-health", "diagnostics"],
+      "thesis": "Venture/PE arm of KB Financial Group; healthcare and life science are core verticals. Co-created the 70bn-won Global Bio Access Fund with US-based RM Global Partners — the first Korea-US joint biotech fund."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "indications": ["neurology", "oncology"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Orum Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["Korea Investment Partners", "DSC Investment"]
+    },
+    "summary": {
+      "en": "Founded in 1990 as the VC/PE arm of KB Financial Group, KB Investment (KBIC) manages over US$2.6bn; healthcare/life science is a core vertical and it launched Korea's first Korea-US joint biotech fund.",
+      "local": "1990년 설립된 케이비인베스트먼트는 KB금융그룹의 VC/PE 자회사로, 헬스케어·생명과학을 핵심 분야로 하며 한미 최초 공동 바이오펀드를 조성했다."
+    },
+    "sources": [
+      {
+        "url": "http://www.kbic.co.kr/main/about",
+        "title": "KB Investment - About",
+        "publisher": "KB Investment",
+        "accessed": "undefined",
+        "supports": "Founded 1990, KB Financial Group subsidiary, AUM over USD 2.6bn (Dec 2023)",
+        "quote": "KB Investment Co., Ltd. (KBIC) is one of Korea's leading investment firms of venture capital and private equity funds with over USD 2.6 Billion of asset under management as of December 2023."
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/kbinvest",
+        "title": "KB Investment - Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Global Bio Access Fund, healthcare/life science focus",
+        "quote": "KB Investment teamed up with the US-based RM Global Partners to create a 70 billion won Global Bio Access Fund, which was the first biotech-focused fund launched jointly between VC firms in Korea and the US."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM figures vary by source ($1.9bn / KRW 1tn+ VC / $2.6bn group); used the Dec-2023 official $2.6bn. Financial-group-owned but operates as a blind-pool financial VC (not strategic CVC).",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-dsc-investment",
+    "name": { "en": "DSC Investment", "local": "디에스씨인베스트먼트" },
+    "aka": ["DSC"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/dscinvestment",
+      "crunchbase": "https://www.crunchbase.com/organization/dsc-investment"
+    },
+    "capital": {
+      "aum": { "raw": "$885 million", "usd": 885000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "KOSDAQ-listed early-stage tech VC whose sector coverage includes biotechnology, medtech and healthcare; an active co-investor in Korean biopharma rounds (e.g. Orum Therapeutics, BreezeBio)."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "medical-hardware"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 291,
+      "notable_investments": [
+        { "company": "Orum Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ],
+      "co_investors": ["Korea Investment Partners", "KB Investment", "Yuanta Investment"]
+    },
+    "summary": {
+      "en": "Founded in 2012 and KOSDAQ-listed, DSC Investment manages about $885M across 24 funds; biotech, medtech and healthcare are among its active sectors and it co-invests in major Korean bio rounds.",
+      "local": "2012년 설립되어 코스닥에 상장된 디에스씨인베스트먼트는 24개 펀드로 약 8억8500만 달러를 운용하며, 바이오·메드텍·헬스케어에 활발히 투자한다."
+    },
+    "sources": [
+      {
+        "url": "https://tracxn.com/d/venture-capital/dscinvestment/__WMqULCCPDstimerPo0vmKOie-96Y0is82xwFX84kxHg",
+        "title": "DSC Investment - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "Founded 2012, Seoul, 24 funds, AUM $885M, 291 companies, biotech/healthcare focus",
+        "quote": "with a total of 24 funds under their management, the firm's assets under management (AUM) now amount to $885 million."
+      },
+      {
+        "url": "https://www.kedglobal.com/venture-capital/newsView/ked202405090011",
+        "title": "VC firm DSC Investment forms Korea's largest secondary fund",
+        "publisher": "KED Global",
+        "accessed": "undefined",
+        "supports": "Active Korean VC, secondary fund",
+        "quote": "VC firm DSC Investment forms Korea's largest secondary fund"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Generalist tech VC with a real but non-exclusive bio/healthcare practice; included for its prominence as a co-investor in Korean biopharma financings.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-sv-investment",
+    "name": { "en": "SV Investment", "local": "에스브이인베스트먼트" },
+    "aka": ["SV Investment Corporation", "289080.KQ"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2006,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.svinvest.com/en/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/svinvestment"
+    },
+    "capital": {
+      "aum": { "raw": "1 trillion 9,674 billion Korean won (H1 2026)", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["South Korea", "China", "United States", "Southeast Asia"],
+      "sector_focus": ["therapeutics", "generalist-health", "diagnostics"],
+      "thesis": "KOSDAQ-listed VC/PE firm with healthcare/biotech/biopharmaceutical as one of its main pillars alongside TMT, consumer and advanced manufacturing; prefers to lead rounds. 220+ companies backed, 48 IPOs."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": "220+"
+    },
+    "summary": {
+      "en": "Founded in 2006 and KOSDAQ-listed, SV Investment is a leading Korean VC/PE firm where healthcare and biopharmaceuticals are a core pillar; it has backed 220+ companies with 48 IPOs.",
+      "local": "2006년 설립되어 코스닥에 상장된 에스브이인베스트먼트는 헬스케어·바이오제약을 핵심 축으로 하는 국내 대표 VC/PE로, 220여 개 기업에 투자해 48건의 IPO를 기록했다."
+    },
+    "sources": [
+      {
+        "url": "https://www.svinvest.com/en/",
+        "title": "SV Investment",
+        "publisher": "SV Investment",
+        "accessed": "undefined",
+        "supports": "Founded 2006, healthcare/biotech pillar, 220+ companies, 48 IPOs, lead investor",
+        "quote": "Founded in 2006, the firm has invested in more than 220 companies, and made 48 successful IPOs ... mainly TMT, consumer & entertainment, healthcare and advanced manufacturing."
+      },
+      {
+        "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?gicode=A289080",
+        "title": "SV인베스트먼트 (A289080) Snapshot",
+        "publisher": "Company Guide (FnGuide)",
+        "accessed": "undefined",
+        "supports": "AUM ranking H1 2026",
+        "quote": "SV Investment recorded a total AUM of 1 trillion 9,674 billion Korean won and ranked 7th as of the first half of 2026."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "The AUM phrasing '1 trillion 9,674 billion won' reads oddly (likely ~KRW 1.9674tn); reported string kept in raw. Healthcare is one of four main sectors.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-solidus-investment",
+    "name": { "en": "Solidus Investment", "local": "솔리더스인베스트먼트" },
+    "aka": ["Solidus"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2011,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/solidus-investment"
+    },
+    "capital": {},
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "diagnostics", "healthcare-services"],
+      "thesis": "Bio/healthcare-focused VC with a strong track record in Korean biotech; originally founded within the CHA Medical Group orbit. Runs specialized funds such as the Smart Bio Investment Partnership and a Global Healthcare Fund; early backer of Alteogen, Orum Therapeutics and OliX."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "rna-therapeutics", "small-molecule"],
+      "invests_public_markets": false,
+      "science_platform_notes": "Operates Smart Bio Investment Partnership and Global Healthcare Fund; historically tied to CHA Medical Center Group."
+    },
+    "track_record": {
+      "portfolio_count": 63,
+      "notable_investments": [
+        { "company": "Alteogen", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Orum Therapeutics", "sector": "therapeutics", "outcome": "active" },
+        { "company": "OliX Pharmaceuticals", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Founded in 2011, Solidus Investment is a bio/healthcare-focused Korean VC with a strong biotech track record (Alteogen, Orum, OliX); JW Holdings agreed to acquire it in 2026.",
+      "local": "2011년 설립된 솔리더스인베스트먼트는 알테오젠·오름테라퓨틱·올릭스 등 바이오 투자 실적이 뛰어난 바이오·헬스케어 전문 VC로, 2026년 JW홀딩스가 인수를 결정했다."
+    },
+    "sources": [
+      {
+        "url": "https://tracxn.com/d/venture-capital/solidusinvestment/__N549EjgoqAB3mB9YfRsG-8bcuqb3UVWrf6LAlrRzdkg",
+        "title": "Solidus Investment - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "Founded 2011, Seoul, bio/healthcare track record, 63 companies, Alteogen/Orum/OliX",
+        "quote": "Solidus Investment is a venture capital firm with an unrivaled investment track record in Korea's bio and healthcare sectors ... invested in 63 companies."
+      },
+      {
+        "url": "https://en.sedaily.com/news/2026/03/13/jw-holdings-acquires-bio-focused-vc-solidus-investment",
+        "title": "JW Holdings Acquires Bio-Focused VC Solidus Investment",
+        "publisher": "Seoul Economic Daily",
+        "accessed": "undefined",
+        "supports": "Bio-focused VC, 2026 acquisition by JW Holdings for 30.6bn won",
+        "quote": "JW Holdings announced that its board of directors approved the acquisition of 100% stake of Solidus Investment for 30.6 billion won."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "March 2026 acquisition by pharma group JW Holdings means the firm now sits under a pharma parent; still operating as a bio VC managing external funds. CHA Medical Group founding link per one source.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-premier-partners",
+    "name": { "en": "Premier Partners", "local": "프리미어파트너스" },
+    "aka": [],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2005,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://premierpartners.co.kr/",
+    "links": {
+      "linkedin": "https://kr.linkedin.com/company/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4%ED%8C%8C%ED%8A%B8%EB%84%88%EC%8A%A4"
+    },
+    "capital": {
+      "aum": { "raw": "cumulative KRW 3.53 trillion managed", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "generalist-health", "medtech-devices"],
+      "thesis": "Korea's first LLC-structured fund manager, operating dedicated Private Equity, Venture Capital and Bio/Healthcare divisions. Selected by the Ministry of Health & Welfare to lead K-Bio & Vaccine Fund No. 7 (target 200bn won)."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "vaccines", "small-molecule"],
+      "invests_public_markets": false,
+      "science_platform_notes": "Dedicated Bio/Healthcare division; manager of K-Bio & Vaccine Fund No. 7."
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Founded in 2005 as Korea's first LLC fund manager, Premier Partners runs a dedicated Bio/Healthcare division and was picked to lead the government's K-Bio & Vaccine Fund No. 7; cumulative assets managed reach KRW 3.53tn.",
+      "local": "2005년 국내 최초 LLC형 운용사로 설립된 프리미어파트너스는 바이오/헬스케어 전담 부문을 운영하며, K-바이오·백신 7호 펀드 운용사로 선정됐다."
+    },
+    "sources": [
+      {
+        "url": "https://premierpartners.co.kr/en/about-premier-partners/",
+        "title": "Company - Premier Partners",
+        "publisher": "Premier Partners",
+        "accessed": "undefined",
+        "supports": "Founded 2005, first LLC fund manager, three divisions incl. Bio/Healthcare, cumulative KRW 3.53tn",
+        "quote": "Premier Partners ... now operates three distinct divisions: Private Equity, Venture Capital, and Bio/Healthcare ... has managed a cumulative total of KRW 3.53 trillion in assets."
+      },
+      {
+        "url": "https://mbiz.heraldcorp.com/article/10786125",
+        "title": "Premier Partners selected to manage K-Bio & Vaccine Fund No. 7",
+        "publisher": "The Herald Business",
+        "accessed": "undefined",
+        "supports": "K-Bio & Vaccine Fund No. 7 lead manager, 200bn won target",
+        "quote": "Premier Partners set a fundraising target of 200 billion won, exceeding the originally announced goal of 100 billion won."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "KRW 3.53tn is cumulative assets managed across PE+VC+Bio, not current bio-only AUM. Diversified firm with a dedicated bio arm.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-bnh-investment",
+    "name": { "en": "BNH Investment", "local": "비엔에이치인베스트먼트" },
+    "aka": ["BNH", "Bio and Healthcare Investment"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "http://bnhinv.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/bnh-investment"
+    },
+    "capital": {
+      "aum": { "raw": "295 billion won across 6 funds", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Bio-healthcare specialist VC ('BNH' = Bio and Healthcare) running sector funds in biotech, pharmaceutical and medical fields. 51 companies backed with 13 IPOs; named best investment operator at the 2023 Korea VC Awards."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "rna-therapeutics", "small-molecule"],
+      "invests_public_markets": false,
+      "science_platform_notes": "Sector-fund specialist; co-formed the LSK-BNH Korea Bio Fund with LSK Investment."
+    },
+    "track_record": {
+      "portfolio_count": 51,
+      "notable_investments": [
+        { "company": "OliX Pharmaceuticals", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Hugel", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Aardvark Therapeutics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Founded in 2015, BNH Investment ('Bio and Healthcare') is a Korean bio-healthcare specialist VC managing ~295bn won across 6 sector funds, with 51 companies backed and 13 IPOs.",
+      "local": "2015년 설립된 비엔에이치인베스트먼트(Bio and Healthcare)는 6개 섹터펀드로 약 2950억 원을 운용하는 바이오·헬스케어 전문 VC로, 51개 기업 투자·13건 IPO를 기록했다."
+    },
+    "sources": [
+      {
+        "url": "https://tracxn.com/d/venture-capital/bnh-investment/__DSH5xupENrIXZOypm7luvY0kQUy-ZfdkIEtpGZHUk9c",
+        "title": "BNH Investment - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "Founded 2015, bio-healthcare specialist, 51 companies, 13 IPOs, 6 funds 295bn won",
+        "quote": "BNH is an active investor having invested in 51 companies ... The portfolio has seen 13 IPOs and 2 acquisitions ... BNH currently operates 6 funds with a total of 295 billion won in assets under management."
+      },
+      {
+        "url": "https://www.forbeskorea.co.kr/news/articleView.html?idxno=339002",
+        "title": "[코리아 VC 어워즈 2023] 김명환 BNH인베스트먼트 대표",
+        "publisher": "Forbes Korea",
+        "accessed": "undefined",
+        "supports": "2023 Korea VC Awards best investment operator",
+        "quote": "김명환 BNH인베스트먼트 대표 | 올해의 VC '투자' 부문"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM ~295bn won and 51 companies from Tracxn (Mar 2026). One of the clearest pure-play bio VCs in Korea.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-partners-investment",
+    "name": { "en": "Partners Investment", "local": "파트너스인베스트먼트" },
+    "aka": ["Partners Investment Co., Ltd."],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2000,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "links": {},
+    "capital": {
+      "aum": { "raw": "$870 million raised since inception", "usd": 870000000, "currency": "USD" },
+      "funds": [
+        { "name": "Partners Investment x GordonMD biotech fund", "vintage_year": 2025, "size": { "raw": "up to 215.5 billion won ($150 million)", "usd": 150000000, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "United States"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "Leading Seoul VC with 20+ years investing in healthcare and life sciences — roughly 40% of investments target the sector. Partnering with US biopharma fund GordonMD on a ~$150M cross-border biotech fund targeting Series-B companies in Korea and the US."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "invests_public_markets": false,
+      "science_platform_notes": "Cross-border biopharma collaboration with GordonMD Global Investments (US)."
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Established in 2000, Partners Investment is a leading Seoul VC that has directed ~40% of its investments to healthcare/life sciences and is co-raising a ~$150M cross-border biotech fund with US firm GordonMD.",
+      "local": "2000년 설립된 파트너스인베스트먼트는 투자의 약 40%를 헬스케어·생명과학에 집행해 온 서울 소재 대표 VC로, 미국 GordonMD와 1억5천만 달러 규모 국경 간 바이오펀드를 공동 조성 중이다."
+    },
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20250121459404/en/GordonMD-Global-Investments-LP-US-and-Partners-Investments-Co.-Inc.-South-Korea-Announce-Biopharmaceutical-Investment-Collaboration",
+        "title": "GordonMD Global Investments and Partners Investments Announce Biopharmaceutical Investment Collaboration",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Founded 2000, $870M raised, ~40% healthcare/life sciences, GordonMD collaboration",
+        "quote": "Partners Investment Co., Ltd. ... was established in 2000 ... the firm has raised $870 million ... Approximately 40% of its investments have been directed toward the Healthcare and Life Sciences sector."
+      },
+      {
+        "url": "https://www.kedglobal.com/bio-pharma/newsView/ked202501230005",
+        "title": "Partners Investment, GordonMD eye $150 mn biotech fund launch",
+        "publisher": "KED Global",
+        "accessed": "undefined",
+        "supports": "~$150M / 215.5bn won biotech fund, Series-B target",
+        "quote": "Partners Investment plans to raise up to 215.5 billion won ($150 million) in a biotech fund jointly with GordonMD."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "No official website URL verified in sources seen. Bio nexus strong (40% of investments; dedicated biotech fund).",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-aju-ib-investment",
+    "name": { "en": "Aju IB Investment", "local": "아주아이비투자" },
+    "aka": ["AJU IB INVESTMENT Co., Ltd.", "Solasta Ventures (US arm)"],
+    "type": "vc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 1974,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.ajuib.co.kr/eng/main",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/aju-ib-investment"
+    },
+    "offices": [
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "capital": {},
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Long-established Korean VC/PE firm with a strong early-stage healthcare, medical and biotechnology practice; runs a US biotech-investing subsidiary (Solasta Ventures) out of Boston and San Francisco."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule", "medical-hardware"],
+      "invests_public_markets": false,
+      "science_platform_notes": "US affiliate Solasta Ventures dedicated to cross-border biotech; also runs an accelerator business."
+    },
+    "track_record": {
+      "portfolio_count": 272,
+      "notable_investments": [
+        { "company": "Kymera Therapeutics", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "One of Korea's oldest VC/PE firms (founded 1974), Aju IB Investment has a strong early-stage healthcare/biotech practice and runs a US biotech arm, Solasta Ventures, from Boston and San Francisco.",
+      "local": "1974년 설립된 한국 최고참 VC/PE 중 하나인 아주아이비투자는 초기 헬스케어·바이오 투자에 강점을 가지며, 보스턴·샌프란시스코에서 미국 바이오 자회사 솔라스타벤처스를 운영한다."
+    },
+    "sources": [
+      {
+        "url": "https://mtec-sc.org/life-sciences/aju-ib-investment",
+        "title": "Aju IB Investment | MTEC",
+        "publisher": "MTEC",
+        "accessed": "undefined",
+        "supports": "Early-stage healthcare/medical/biotech focus, Solasta Ventures US arm",
+        "quote": "Aju IB Investment focuses on early-stage investments in health care, medical, and biotechnology industries ... Solasta Ventures, Inc. (formerly known in the U.S. as Aju IB Investment) is a wholly-owned subsidiary of Aju IB Investment."
+      },
+      {
+        "url": "https://www.ajuib.co.kr/eng/main",
+        "title": "AJU IB INVESTMENT Co. Ltd.",
+        "publisher": "Aju IB Investment",
+        "accessed": "undefined",
+        "supports": "Official site, Korea-based VC/PE with accelerator and US presence",
+        "quote": "AJU IB INVESTMENT"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 1974 (as Korea Technology Development / Aju group lineage); 272 companies per Tracxn. Diversified VC with meaningful biotech practice.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-dayli-partners",
+    "name": { "en": "DAYLI Partners", "local": "데일리파트너스" },
+    "aka": ["Dayli Partners"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://dayli.partners/en/",
+    "links": {
+      "crunchbase": "https://www.cbinsights.com/investor/dayli-venture-capital"
+    },
+    "capital": {
+      "aum": { "raw": "$300M", "usd": 300000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "check_size": { "raw": "flexible ticket size tailored to each company" },
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "life-science-tools", "medtech-devices", "diagnostics"],
+      "thesis": "Bio-healthcare-specialized VC investing across every stage from seed to pre-IPO in therapeutics, life sciences, medical devices and diagnostics; investment team of clinicians, researchers and healthcare analysts."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule", "cell-therapy"],
+      "invests_public_markets": false,
+      "science_platform_notes": "Investment team comprises clinicians, researchers, healthcare analysts and fund managers with deep biotech/healthcare networks."
+    },
+    "track_record": {
+      "portfolio_count": "80+"
+    },
+    "summary": {
+      "en": "Founded in 2018, DAYLI Partners is a Korean bio-healthcare specialist VC managing ~$300M across 80+ portfolio companies, investing seed to pre-IPO with a clinician/researcher-heavy team.",
+      "local": "2018년 설립된 데일리파트너스는 약 3억 달러를 운용하며 80여 개 포트폴리오를 보유한 바이오·헬스케어 전문 VC로, 임상의·연구자 중심 팀으로 시드부터 프리IPO까지 투자한다."
+    },
+    "sources": [
+      {
+        "url": "https://dayli.partners/en/",
+        "title": "dayli partners",
+        "publisher": "DAYLI Partners",
+        "accessed": "undefined",
+        "supports": "Bio/healthcare specialist investment group",
+        "quote": "A specialized investment group in Bio·healthcare and Financials-Governance sectors"
+      },
+      {
+        "url": "https://pitchbook.com/profiles/investor/338587-30",
+        "title": "DAYLI Partners investment portfolio",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "Founded 2018, Seoul, bio-healthcare specialist, AUM $300M, 80+ companies",
+        "quote": "DAYLI Partners is a venture capital firm founded in 2018 and based in Seoul, South Korea ... total assets under management are $300M, with over 80 portfolio companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM ~$300M and 80+ portfolio from PitchBook/CB Insights; official site confirms bio-healthcare specialization but omits figures.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-atinum-investment",
+    "name": { "en": "Atinum Investment", "local": "에이티넘인베스트먼트" },
+    "aka": ["Hanmi Venture Capital (former name)", "021080.KQ"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1988,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.atinuminvest.co.kr/en/home-en",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/atinum-partners"
+    },
+    "capital": {},
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "Asia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "Long-track-record Korean VC (formerly Hanmi Venture Capital) investing in IT, deep tech and bio-healthcare startups leading paradigm shifts; runs a dedicated bio-healthcare investment practice."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule", "medical-hardware"],
+      "invests_public_markets": false
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Founded in 1988 (formerly Hanmi Venture Capital), KOSDAQ-listed Atinum Investment invests in IT, deep tech and bio-healthcare, with a dedicated bio-healthcare investment practice.",
+      "local": "1988년 설립된(구 한미창업투자) 코스닥 상장사 에이티넘인베스트먼트는 IT·딥테크·바이오헬스케어에 투자하며 바이오헬스케어 전담 투자를 운영한다."
+    },
+    "sources": [
+      {
+        "url": "https://www.atinuminvest.co.kr/en/home-en",
+        "title": "Atinum Investment - Home",
+        "publisher": "Atinum Investment",
+        "accessed": "undefined",
+        "supports": "Korean VC investing in biotech/healthcare, intrinsic-value philosophy",
+        "quote": "Atinum Investment invests in IT, biotech and healthcare startups leading the paradigm shift."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/atinum-investment",
+        "title": "Atinum Investment Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Founded 1988, formerly Hanmi Venture Capital, Seoul, bio-healthcare investing",
+        "quote": "Atinum Investment was formerly known as Hanmi Venture Capital Co. and was founded in 1988, based in Seoul, South Korea ... Sang Hoon Kwak joined Atinum Investment in 2016 and is investing in bio-healthcare."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Generalist tech VC with a genuine but non-exclusive bio-healthcare practice; AUM not cleanly disclosed in sources seen.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-mirae-asset-venture-investment",
+    "name": { "en": "Mirae Asset Venture Investment", "local": "미래에셋벤처투자" },
+    "aka": ["Mirae Asset Venture Investment Co., Ltd.", "Mirae Asset Capital Life Science (US arm)"],
+    "type": "vc",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/mirae-asset-capital-life-science"
+    },
+    "offices": [
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "capital": {
+      "aum": { "raw": "~$1.5B (venture)", "usd": 1500000000, "currency": "USD" },
+      "funds": [
+        { "name": "Mirae Asset Capital Life Science inaugural fund (US)", "vintage_year": 2024, "size": { "raw": "$50 million", "usd": 50000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "check_size": { "raw": "up to $10 million first check (US life-science arm)", "usd_max": 10000000 },
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "United States"],
+      "sector_focus": ["therapeutics", "diagnostics", "ai-drug-discovery"],
+      "thesis": "Venture arm of the Mirae Asset financial group; an active Korean life-science investor that in 2024 launched Mirae Asset Capital Life Science, its first US-based biotech fund ($50M) focused on therapeutics across oncology, immunology, cardiometabolic, CNS/ophthalmology and genetic disease."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule", "ai-ml-platform"],
+      "indications": ["oncology", "immunology-inflammation", "cardiovascular", "metabolic-obesity", "neurology", "ophthalmology", "rare-disease"],
+      "invests_public_markets": false,
+      "science_platform_notes": "US biotech arm led by Naveen M. Krishnan, MD; group has backed 100+ biotechs incl. BioNTech and Vividion over the past decade."
+    },
+    "track_record": {
+      "portfolio_count": 254,
+      "notable_investments": [
+        { "company": "BioNTech", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "The venture arm of the Mirae Asset group, Mirae Asset Venture Investment is an active Korean life-science investor; in 2024 it launched its first US biotech fund ($50M) via Mirae Asset Capital Life Science.",
+      "local": "미래에셋그룹의 벤처투자 계열사인 미래에셋벤처투자는 한국의 활발한 생명과학 투자사로, 2024년 미래에셋캐피탈 라이프사이언스를 통해 첫 미국 바이오펀드(5천만 달러)를 출범했다."
+    },
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20240118292619/en/Mirae-Asset-Capital-Life-Science-Emerges-from-Stealth-with-$50M-Fund",
+        "title": "Mirae Asset Capital Life Science Emerges from Stealth with $50M Fund",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "$50M inaugural US biotech fund (2024), therapeutics focus, check size, 100+ biotechs incl. BioNTech/Vividion",
+        "quote": "Mirae Asset Capital Life Science ... officially emerged from stealth with its inaugural $50 million fund ... Over the past decade, Mirae Asset has invested in more than 100 prominent biotech companies worldwide, including BioNTech and Vividion."
+      },
+      {
+        "url": "https://shizune.co/investors/life-science-vc-funds-south-korea",
+        "title": "Top Life Science VC Funds in South Korea",
+        "publisher": "Shizune",
+        "accessed": "undefined",
+        "supports": "Mirae Asset Venture Investment ~254 investments, ~$1.5B assets",
+        "quote": "Mirae Asset Venture Investment - 254 total investments; ~$1.5B in assets"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "The dedicated $50M biotech fund is the US arm (Boston/SF); the Korean parent Mirae Asset Venture Investment is the in-region entity (~$1.5B venture assets per aggregator). Founded year not confidently sourced, omitted.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-magna-investment",
+    "name": { "en": "Magna Investment", "local": "마그나인베스트먼트" },
+    "aka": ["Magna Investment Co., Ltd."],
+    "type": "vc",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2010,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/magna-investment"
+    },
+    "capital": {
+      "aum": { "raw": "US$170 million across 11 funds", "usd": 170000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Seoul VC/accelerator specializing in Series A/B investments in biotechnology and healthcare; portfolio includes D&D Pharmatech, 3billion and Y-Biologics, with 22 IPOs to date."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "D&D Pharmatech", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "3billion", "sector": "diagnostics", "outcome": "IPO" },
+        { "company": "Y-Biologics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Founded in 2010, Magna Investment is a Seoul VC/accelerator specializing in Series A/B biotech and healthcare deals, managing ~$170M across 11 funds with 22 IPOs.",
+      "local": "2010년 설립된 마그나인베스트먼트는 시리즈 A/B 바이오·헬스케어 투자에 특화된 서울 VC/액셀러레이터로, 11개 펀드로 약 1억7천만 달러를 운용하며 22건의 IPO를 기록했다."
+    },
+    "sources": [
+      {
+        "url": "https://tracxn.com/d/venture-capital/magna/__NYFEvEXwqhx8BdQS02xyh28LOw4Dbmyv2L7kOdAXcqw",
+        "title": "Magna - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "Founded 2010, Seoul, Series A/B biotech, 11 funds $170M, 22 IPOs, D&D Pharmatech/3billion/Y-Biologics",
+        "quote": "The company specializes in Series A and B investments in biotechnology ... with a total of 11 funds with gross assets under management of US$170 million ... The portfolio has seen 22 IPOs and 2 acquisitions including key companies like D&D Pharmatech, 3billion and Y-Biologics."
+      },
+      {
+        "url": "https://sg.news.yahoo.com/medtech-startup-milu-labs-raises-funding-korea-magna-060113813.html",
+        "title": "Medtech startup Milu Labs raises funding from Korea's Magna Investment",
+        "publisher": "Yahoo News",
+        "accessed": "undefined",
+        "supports": "Active medtech/healthcare investor",
+        "quote": "Medtech startup Milu Labs raises funding from Korea's Magna Investment, Turret Capital"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM ~$170M and 22 IPOs from Tracxn. Clear bio/healthcare tilt; also runs an accelerator function.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-smilegate-investment",
+    "name": { "en": "Smilegate Investment", "local": "스마일게이트인베스트먼트" },
+    "aka": ["MVP Venture Capital (former name)"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1999,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.smilegateinvestment.com/en/company.html",
+    "links": {},
+    "capital": {},
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "diagnostics", "digital-health"],
+      "thesis": "Independent-style financial VC (originally MVP Venture Capital, 1999) affiliated with the Smilegate group, with a deep, long-running bio/healthcare portfolio including Alteogen, OliX, D&D Pharmatech, PharmAbcine and Vuno."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "rna-therapeutics", "small-molecule", "ai-ml-platform"],
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": 212,
+      "notable_investments": [
+        { "company": "Alteogen", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "OliX Pharmaceuticals", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Vuno", "sector": "ai-drug-discovery", "outcome": "IPO" },
+        { "company": "PharmAbcine", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "summary": {
+      "en": "Founded in 1999 as MVP Venture Capital and now part of the Smilegate group, Smilegate Investment is a leading Korean VC with a deep bio/healthcare portfolio (Alteogen, OliX, Vuno, PharmAbcine).",
+      "local": "1999년 MVP벤처캐피탈로 출발해 스마일게이트 그룹에 속한 스마일게이트인베스트먼트는 알테오젠·올릭스·뷰노·파멥신 등 탄탄한 바이오·헬스케어 포트폴리오를 보유한 국내 대표 VC다."
+    },
+    "sources": [
+      {
+        "url": "https://www.smilegateinvestment.com/en/company.html",
+        "title": "Smilegate Investment - Company",
+        "publisher": "Smilegate Investment",
+        "accessed": "undefined",
+        "supports": "Founded 1999 as MVP Venture Capital; invests in healthcare/biotech",
+        "quote": "Since starting as MVP Venture Capital in 1999 ... it invests in technology, healthcare, biotechnology, information, communications, environment life, and entertainment sectors."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/smilegate-ventures",
+        "title": "Smilegate Investment Portfolio Investments",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "212 investments, bio/healthcare portfolio incl. Alteogen, OliX, Vuno, PharmAbcine, D&D Pharmatech",
+        "quote": "Smilegate Investment ... portfolio companies including Donggu Bio Pharmaceutical, D&D Pharmatech, Vuno, Sujentech, Alteogen ... PharmAbcine ... and Olix Pharmaceuticals."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Owned by the Smilegate (gaming) group but operates as a general-purpose financial VC managing external LP blind-pool funds rather than strategic corporate CVC; classified as vc. AUM not cleanly disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
+    "id": "kr-stonebridge-ventures",
+    "name": { "en": "Stonebridge Ventures", "local": "스톤브릿지벤처스" },
+    "aka": ["330730.KQ"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/stonebridge-capital"
+    },
+    "capital": {
+      "aum": { "raw": "exceeding $700 million across multiple funds", "usd": 700000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["South Korea", "United States", "Canada", "Southeast Asia"],
+      "sector_focus": ["therapeutics", "generalist-health", "diagnostics"],
+      "thesis": "KOSDAQ-listed VC spun off from PE firm Stonebridge Capital; bio/healthcare is one of its core investment verticals alongside AI, semiconductor and fintech, and it has stated an aim to widen its bio portfolio."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody", "small-molecule"],
+      "invests_public_markets": false
+    },
+    "track_record": {},
+    "summary": {
+      "en": "Founded in 2017 as a spin-off of PE firm Stonebridge Capital, KOSDAQ-listed Stonebridge Ventures manages over $700M; bio/healthcare is a core vertical it has actively sought to expand.",
+      "local": "2017년 스톤브릿지캐피탈에서 분사해 코스닥에 상장된 스톤브릿지벤처스는 7억 달러 이상을 운용하며, 바이오·헬스케어를 핵심 투자 분야로 확대해 왔다."
+    },
+    "sources": [
+      {
+        "url": "https://www.koreaherald.com/article/1938768",
+        "title": "Stonebridge Ventures aims to widen bio portfolio",
+        "publisher": "The Korea Herald",
+        "accessed": "undefined",
+        "supports": "Spun off from Stonebridge Capital, invests in bio industry, aims to widen bio portfolio",
+        "quote": "Stonebridge Ventures, spun-off from Korean private equity firm Stonebridge Capital, invests in the bio industry."
+      },
+      {
+        "url": "https://pitchbook.com/profiles/investor/494510-77",
+        "title": "Stonebridge Ventures (Seoul) investment portfolio",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "Founded 2017, AUM over $700M, bio/healthcare vertical",
+        "quote": "Stonebridge Ventures, founded in 2017 as a spin-off from Stonebridge Capital's venture capital investing arm, has an asset under management (AUM) exceeding $700 million distributed across multiple funds."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year cited as 2017 (spin-off) though some sources say 2008; bio is one of several verticals, not an exclusive focus.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  }
+]

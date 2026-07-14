@@ -1,0 +1,604 @@
+[
+  {
+    "id": "in-endiya-partners",
+    "name": { "en": "Endiya Partners" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Hyderabad",
+    "website": "https://www.endiya.com/",
+    "capital": {
+      "aum": { "raw": "$100M", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "Hyderabad-based early-stage VC that invests in seed and Series A rounds across enterprise tech, deep science and healthcare/health-tech startups in India, with healthcare as one of its three core practice areas alongside deep tech and enterprise software."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Cult.fit", "sector": "digital-health / fitness", "outcome": "unicorn" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.endiya.com/",
+        "title": "Endiya Partners — Co-founder VC for early-stage AI, Deep Tech & Healthcare Startups",
+        "publisher": "Endiya Partners",
+        "accessed": "undefined",
+        "supports": "sector focus, positioning",
+        "quote": "Co-founder VC for early-stage AI, Deep Tech & Healthcare Startups"
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/endiya-partners/__q7xe-WXBEgnXQA8S8Ajg33S2UqVUcAr_vKhK4ve-7i0",
+        "title": "Endiya Partners - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "founded year, HQ, AUM, portfolio",
+        "quote": "Endiya Partners is a venture capital firm founded in 2015 and is primarily based out of Hyderabad, India... Endiya Partners has $100M under management."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "AUM ($100M) and a reported ₹800 crore Fund III figure come from secondary aggregators (Tracxn/press), not independently confirmed on the official site.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Hyderabad-based seed/Series A VC investing across enterprise tech, deep science and healthcare, with a dedicated healthcare investment practice and portfolio bets in digital-health/fitness."
+    }
+  },
+  {
+    "id": "in-healthquad",
+    "name": { "en": "HealthQuad" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bangalore",
+    "website": "https://www.healthquad.com/",
+    "capital": {
+      "funds": [
+        { "name": "HealthQuad Fund II", "vintage_year": null, "size": { "raw": "$162 million", "usd": 162000000, "currency": "USD" } },
+        { "name": "HealthQuad Fund III", "vintage_year": null, "size": { "raw": "Rs 550 crore (first close), targeting Rs 1,700 crore (up to Rs 2,500 crore with greenshoe)", "usd": null, "currency": "INR" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-services", "medtech-devices", "digital-health"],
+      "thesis": "India's leading healthcare-dedicated venture capital fund, co-founded by Quadria Capital in 2016 as an early-growth vehicle for technology-led healthcare companies across healthtech, medtech, biopharma technology and new care-delivery models."
+    },
+    "track_record": {
+      "portfolio_count": "18+"
+    },
+    "sources": [
+      {
+        "url": "https://www.healthquad.com/",
+        "title": "HealthQuad | Top Healthcare Venture Capital Firm for Innovation",
+        "publisher": "HealthQuad",
+        "accessed": "undefined",
+        "supports": "identity, sector focus",
+        "quote": "HealthQuad is a healthcare focused venture capital fund investing in early stage healthcare companies in India."
+      },
+      {
+        "url": "https://indianstartupnews.com/news/healthquad-raises-rs-550-crore-in-first-close-of-fund-iii-to-back-indian-healthcare-startups-12053380",
+        "title": "HealthQuad raises Rs 550 crore in first close of Fund III to back Indian healthcare startups",
+        "publisher": "Indian Startup News",
+        "accessed": "undefined",
+        "supports": "fund III size, founding year, portfolio count",
+        "quote": "HealthQuad secured Rs 550 crore in commitments for the first close of its third fund, with HealthQuad Fund III targeting Rs 1,700 crore to invest in early-growth companies across healthtech, medtech, biopharma technology and new healthcare delivery models... Founded in 2016 as Quadria's early-growth vehicle for technology-led healthcare companies, HealthQuad has backed more than 18 firms through its first two funds."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Bangalore-based, healthcare-only VC fund (co-founded by Quadria Capital) backing early-growth healthtech, medtech and biopharma-technology companies in India; raising its third fund targeting roughly Rs 1,700-2,500 crore."
+    }
+  },
+  {
+    "id": "in-ankur-capital",
+    "name": { "en": "Ankur Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2014,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://www.ankurcapital.com/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["diagnostics", "generalist-health"],
+      "thesis": "Mumbai-based deep-tech science venture fund backing scientists, engineers and hard-IP builders across agriculture, healthcare and frontier technology since 2013/14; healthcare bets center on AI-driven diagnostics."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "portfolio_count": 40,
+      "notable_investments": [
+        { "company": "Niramai Health Analytix", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.ankurcapital.com/",
+        "title": "Ankur Capital — Deep Tech Venture Capital Firm in Mumbai, India",
+        "publisher": "Ankur Capital",
+        "accessed": "undefined",
+        "supports": "identity, sector focus",
+        "quote": "Ankur Capital is India's deep tech science venture fund that has backed scientists, engineers, and hard IP builders in energy, materials, synthetic biology, agritech, and frontier technology since 2013."
+      },
+      {
+        "url": "https://yourstory.com/2019/02/ai-healthcare-startup-niramai-funding",
+        "title": "AI healthcare startup Niramai raises $6M Series A funding",
+        "publisher": "YourStory",
+        "accessed": "undefined",
+        "supports": "Niramai investment, health nexus",
+        "quote": "Bengaluru-based AI startup NIRAMAI Health Analytix raised undisclosed funding in a Seed round led by pi Ventures, with Ankur Capital, Axilor Ventures, 500 Startups and Flipkart co-founder Binny Bansal also participating."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Ankur Capital is a generalist deep-tech fund (agri, materials, synbio) rather than health-exclusive; healthcare exposure verified via its Niramai investment.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Mumbai deep-tech seed/Series A fund investing in scientist- and engineer-led ventures across agriculture, healthcare and frontier tech, including AI-based breast-cancer-detection startup Niramai."
+    }
+  },
+  {
+    "id": "in-ventureast",
+    "name": { "en": "VenturEast" },
+    "aka": ["Ventureast"],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 1997,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Hyderabad",
+    "offices": [{ "country": "India", "city": "Bangalore" }],
+    "website": "https://www.ventureast.net/",
+    "capital": {
+      "aum": { "raw": "$400+ million", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "life-science-tools"],
+      "thesis": "One of India's longest-standing VC managers, running dedicated Life Sciences funds (VenturEast Life Fund I-III, the latest launched 2010) that invest in life sciences, healthcare and sustainable-agriculture companies with proven or provable technology for the Indian market."
+    },
+    "track_record": {
+      "portfolio_count": "close to 100 (all sectors)"
+    },
+    "sources": [
+      {
+        "url": "https://www.ventureast.net/",
+        "title": "Ventureast | Premier Indian venture capital firm",
+        "publisher": "Ventureast",
+        "accessed": "undefined",
+        "supports": "identity, founding, AUM"
+      },
+      {
+        "url": "https://www.adb.org/projects/44945-034/main",
+        "title": "44945-034: IND: VENTUREAST LIFE FUND III (VenturEast Fund)",
+        "publisher": "Asian Development Bank",
+        "accessed": "undefined",
+        "supports": "life sciences fund focus, launch date",
+        "quote": "The Fund invests in companies in sectors related to life sciences, including clean environment, health care, and sustainable agriculture... VenturEast Fund Life III was launched in November 2010."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded 1997; not an 'emerging' manager, but included as a core dedicated early-stage life-sciences VC in India.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Bangalore/Hyderabad-based veteran VC with dedicated Life Sciences funds (since ~2000s) investing seed-through-Series B in healthcare, life sciences and sustainable-agriculture technology companies in India."
+    }
+  },
+  {
+    "id": "in-navam-capital",
+    "name": { "en": "Navam Capital" },
+    "type": "micro-vc",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Kolkata",
+    "website": "https://www.navamcapital.com/",
+    "capital": {
+      "funds": [{ "name": "Navam Capital Fund I", "vintage_year": null, "size": { "raw": "Rs 50 Cr (first close)", "usd": null, "currency": "INR" } }]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "Kolkata-based deep-tech and frontier-science seed fund investing across aerospace, climate tech, electric mobility, AI and biotechnology; its biotech bets include therapeutics company Alyssum Therapeutics, reflecting a dedicated slice of capital for engineering-driven life-sciences ventures."
+    },
+    "track_record": {
+      "notable_investments": [{ "company": "Alyssum Therapeutics", "sector": "therapeutics", "outcome": "active" }]
+    },
+    "people": [{ "name": "Rajeev Mantri", "role": "Managing Partner", "background": "Co-founder of biotech company Vyome Therapeutics" }],
+    "sources": [
+      {
+        "url": "https://www.navamcapital.com/",
+        "title": "Navam Capital | Home",
+        "publisher": "Navam Capital",
+        "accessed": "undefined",
+        "supports": "identity, sector focus"
+      },
+      {
+        "url": "https://www.bwdisrupt.com/article/early-stage-vc-firm-navam-capital-marks-first-close-of-fund-i-at-rs-50-cr-512895",
+        "title": "Early Stage VC Firm Navam Capital Marks First Close Of Fund I At Rs 50 Cr",
+        "publisher": "BW Disrupt",
+        "accessed": "undefined",
+        "supports": "fund size, stage focus, portfolio",
+        "quote": "Navam's Venture Fund I aims to support early-stage ventures operating in diverse sectors, including aerospace, climate tech, electric mobility, biotech, materials science, agritech, robotics, artificial intelligence, and industrial automation."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Biotech/therapeutics is one of several deep-tech verticals for Navam, not its sole focus; medical nexus verified via its Alyssum Therapeutics investment.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Kolkata-based pre-seed/seed frontier-technology fund led by Rajeev Mantri (co-founder of Vyome Therapeutics), with biotechnology as one of its core investment verticals alongside aerospace, climate tech and AI."
+    }
+  },
+  {
+    "id": "in-aarin-capital",
+    "name": { "en": "Aarin Capital" },
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bangalore",
+    "website": "https://aarincapital.com/",
+    "capital": {
+      "aum": { "raw": "~$150 million", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "diagnostics"],
+      "thesis": "Bangalore-based proprietary venture fund co-founded by Dr. Ranjan Pai (founder of Manipal Education and Medical Group) and T.V. Mohandas Pai, investing in technology-intensive life-sciences and healthcare businesses in India from seed through growth."
+    },
+    "people": [
+      { "name": "Dr. Ranjan Pai", "role": "Co-founder", "background": "Founder, Manipal Education and Medical Group" },
+      { "name": "T.V. Mohandas Pai", "role": "Co-founder", "background": "Former CFO and board member, Infosys" }
+    ],
+    "sources": [
+      {
+        "url": "https://aarincapital.com/about/",
+        "title": "About – Aarin Capital",
+        "publisher": "Aarin Capital",
+        "accessed": "undefined",
+        "supports": "identity, founders, sector focus",
+        "quote": "Aarin Capital is a proprietary venture fund that invests in technology-intensive businesses in life-sciences & healthcare, education and other potentially large India-centric or India-first market opportunities."
+      },
+      {
+        "url": "https://mtec-sc.org/life-sciences/aarin-capital",
+        "title": "Aarin Capital | MTEC",
+        "publisher": "MTEC",
+        "accessed": "undefined",
+        "supports": "founding year, AUM",
+        "quote": "Founded in 2012, Aarin Capital is a venture capital firm based in Bangalore, India... Aarin Capital manages approximately $150 million in assets under management (AUM)."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and AUM figure sourced from a secondary directory rather than the official site, which does not publish these numbers.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Bangalore life-sciences and healthcare-focused proprietary venture fund co-founded by Manipal Group's Dr. Ranjan Pai and ex-Infosys CFO T.V. Mohandas Pai, investing seed-to-growth in India-centric health and life-science businesses."
+    }
+  },
+  {
+    "id": "in-villgro",
+    "name": { "en": "Villgro" },
+    "aka": ["Villgro Innovations Foundation"],
+    "type": "incubator",
+    "subtypes": ["venture-philanthropy"],
+    "status": "active",
+    "founded_year": 2001,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Chennai",
+    "website": "https://villgro.org/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-services", "medtech-devices", "digital-health"],
+      "thesis": "India's oldest social-enterprise incubator, providing seed grants/equity and mentorship to startups addressing rural and underserved markets in healthcare, agriculture, education and clean energy; healthcare portfolio includes Forus Health, Biosense Technologies and Vaatsalya Healthcare."
+    },
+    "program": {
+      "investment": { "raw": "₹15 lakh to ₹75 lakh grants", "usd": null, "currency": "INR" },
+      "format": "in-person/hybrid",
+      "location": "Chennai, India"
+    },
+    "track_record": {
+      "portfolio_count": "300+ (all sectors)"
+    },
+    "sources": [
+      {
+        "url": "https://villgro.org/",
+        "title": "Villgro | Making Innovative, Impactful Social Enterprises Succeed",
+        "publisher": "Villgro",
+        "accessed": "undefined",
+        "supports": "identity, sector focus, founding"
+      },
+      {
+        "url": "https://csrbox.org/Impact/description/India_CSR_news_Villgro-launches-%C3%A2%E2%82%AC%CB%9CIncubating-Incubators%C3%A2%E2%82%AC%E2%84%A2-to-strengthen-India%C3%A2%E2%82%AC%E2%84%A2s-start-up-ecosystem_1090",
+        "title": "Villgro launches 'Incubating Incubators' to strengthen India's start-up ecosystem",
+        "publisher": "CSRBox",
+        "accessed": "undefined",
+        "supports": "founding year, seed funding amount, sector",
+        "quote": "Villgro Innovations (Chennai) is India's oldest social enterprise incubator, founded in 2001. It focuses on startups addressing rural and underserved markets in healthcare, agriculture, education, and clean energy... Villgro has incubated 300+ startups, provided Rs 671 Mn seed funding."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Chennai-based social-enterprise incubator (founded 2001) that provides seed grants/equity and mentorship to healthtech, agri and clean-energy startups serving underserved Indian markets."
+    }
+  },
+  {
+    "id": "in-speciale-invest",
+    "name": { "en": "Speciale Invest" },
+    "type": "micro-vc",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Chennai",
+    "website": "https://www.specialeinvest.com/",
+    "capital": {
+      "aum": { "raw": "over $70 million", "usd": null, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["India"],
+      "sector_focus": ["synthetic-biology"],
+      "thesis": "Chennai-based pre-seed/seed deep-tech fund backing hard-science ventures across aerospace, semiconductors, defense and biotech; its biotech nexus includes synthetic-biology/fermentation company Fermbox Bio."
+    },
+    "track_record": {
+      "portfolio_count": "~40 (all sectors)",
+      "notable_investments": [{ "company": "Fermbox Bio", "sector": "synthetic-biology", "outcome": "active" }]
+    },
+    "sources": [
+      {
+        "url": "https://www.specialeinvest.com/",
+        "title": "Home | Speciale Invest | The DeepTech VC",
+        "publisher": "Speciale Invest",
+        "accessed": "undefined",
+        "supports": "identity, stage/sector focus"
+      },
+      {
+        "url": "https://www.forbesindia.com/article/innovation/how-speciale-invest-is-building-a-real-deeptech-portfolio/89265/1",
+        "title": "How Speciale Invest is building a real deeptech portfolio",
+        "publisher": "Forbes India",
+        "accessed": "undefined",
+        "supports": "founding year, sector focus, AUM",
+        "quote": "Speciale Invest is a venture capital firm based in India founded in 2016. The firm prefers to invest in companies operating in DeepTech, Hard Science, Biotech, and Defense... manages over $70 million in assets."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Biotech is one of several deep-tech verticals (alongside aerospace, semiconductors, defense); medical/biomedical nexus is narrower than a dedicated lifesci fund.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Chennai deep-tech pre-seed/seed fund investing in hard-science ventures spanning aerospace, semiconductors, defense and biotech, including synthetic-biology company Fermbox Bio."
+    }
+  },
+  {
+    "id": "in-sine-iit-bombay",
+    "name": { "en": "SINE (Society for Innovation and Entrepreneurship), IIT Bombay" },
+    "aka": ["SINE IIT Bombay"],
+    "type": "university-hospital-fund",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://www.sineiitb.org/",
+    "capital": {
+      "current_fund": { "raw": "INR 250 crore (incubator-linked deep-tech VC fund)", "usd": null, "currency": "INR" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["medtech-devices", "healthcare-services"],
+      "thesis": "IIT Bombay's technology-business incubator and seed-fund manager; funds startups in AI, advanced materials, healthcare and defense tech via NIDHI seed grants and a new INR 250-crore incubator-linked deep-tech VC fund, with healthcare named as one of its priority sectors."
+    },
+    "track_record": {
+      "portfolio_count": "245+ (all sectors)"
+    },
+    "sources": [
+      {
+        "url": "https://www.sineiitb.org/",
+        "title": "SINE IIT Bombay",
+        "publisher": "SINE, IIT Bombay",
+        "accessed": "undefined",
+        "supports": "identity, sector focus"
+      },
+      {
+        "url": "https://www.iitb.ac.in/breaking-news/sine-iit-bombay-launches-indias-first-incubator-linked-deep-tech-vc-fund-worth-inr",
+        "title": "SINE, IIT Bombay Launches India's First Incubator-Linked Deep Tech VC Fund Worth INR 250 Crore",
+        "publisher": "IIT Bombay",
+        "accessed": "undefined",
+        "supports": "fund size, sector focus",
+        "quote": "With a total fund size of INR 250 crore, this landmark initiative is set to redefine the trajectory of India's deep tech startups by providing crucial risk capital at an early stage of their journey... focusing on high-impact areas such as healthcare among others."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare/medical devices is one of several priority sectors for SINE's incubation and fund activity, not its sole focus.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "IIT Bombay's academic technology incubator, which seed-funds startups (via NIDHI grants and a new INR 250-crore deep-tech VC fund) in AI, healthcare/medical devices, materials and defense tech."
+    }
+  },
+  {
+    "id": "in-c-camp",
+    "name": { "en": "C-CAMP (Centre for Cellular and Molecular Platforms)" },
+    "type": "incubator",
+    "subtypes": ["government-program"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bangalore",
+    "website": "https://www.ccamp.res.in/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "life-science-tools", "diagnostics"],
+      "thesis": "Government of India (Dept. of Biotechnology)-backed bio-incubator in Bangalore running BIRAC's Biotechnology Ignition Grant (BIG) and SEED Fund programs, giving early-stage life-science startups grant and equity capital plus access to a 44,000 sq ft high-end bio-incubation facility."
+    },
+    "track_record": {
+      "portfolio_count": "450+ funded/mentored/incubated"
+    },
+    "sources": [
+      {
+        "url": "https://www.ccamp.res.in/seed-funding",
+        "title": "Seed Funding | CCAMP",
+        "publisher": "C-CAMP",
+        "accessed": "undefined",
+        "supports": "seed funding programs, sector focus"
+      },
+      {
+        "url": "https://www.ccamp.res.in/seed-funding-seed-scheme",
+        "title": "BIRAC SEED Scheme | CCAMP",
+        "publisher": "C-CAMP",
+        "accessed": "undefined",
+        "supports": "SEED Fund equity amount",
+        "quote": "The SEED Fund provides equity exposure of up to INR 30 lakhs to post Proof of Concept startups with new and meritorious ideas, innovations and technologies."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Bangalore bio-incubator backed by India's Department of Biotechnology that channels BIRAC's BIG grant and SEED Fund equity capital to early-stage life-science startups and has incubated 450+ companies."
+    }
+  },
+  {
+    "id": "in-birac",
+    "name": { "en": "BIRAC (Biotechnology Industry Research Assistance Council)" },
+    "type": "government-program",
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "website": "https://birac.nic.in/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["therapeutics", "life-science-tools", "diagnostics", "medtech-devices"],
+      "thesis": "Not-for-profit public-sector enterprise of India's Department of Biotechnology that stimulates biotech-industry innovation, channeling risk capital to startups/SMEs via the Biotechnology Ignition Grant (BIG, INR 50 lakh) and SEED Fund (up to INR 30 lakh equity), among other schemes."
+    },
+    "program": {
+      "investment": { "raw": "BIG: INR 50 Lakhs grant-in-aid over 18 months; SEED Fund: up to INR 30 lakhs equity", "usd": null, "currency": "INR" }
+    },
+    "sources": [
+      {
+        "url": "https://birac.nic.in/big.php",
+        "title": "Biotechnology Ignition Grant Scheme (BIG)",
+        "publisher": "BIRAC",
+        "accessed": "undefined",
+        "supports": "identity, BIG grant amount",
+        "quote": "BIG is BIRAC's flagship programme supporting young startups, providing early-stage funding support of INR 50 Lakhs as grant-in-aid for 18 months to translate innovative ideas into Proof of Concept."
+      },
+      {
+        "url": "https://www.birac.nic.in/seedFundNew.php",
+        "title": "SEED Fund",
+        "publisher": "BIRAC",
+        "accessed": "undefined",
+        "supports": "SEED Fund equity amount",
+        "quote": "The SEED Fund provides equity exposure of up to INR 30 lakhs to post PoC Startups with new and meritorious ideas, and is positioned to act as a bridge between promoter's investment and Angel/Venture investment."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "BIRAC is a government program rather than a private fund manager; included because it is a primary source of pre-seed/seed risk capital for Indian biotech startups.",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "India's Department of Biotechnology public-sector enterprise providing early-stage grant and equity capital (BIG grants, SEED Fund equity) to biotech startups nationwide."
+    }
+  },
+  {
+    "id": "in-pi-ventures",
+    "name": { "en": "pi Ventures" },
+    "type": "micro-vc",
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bangalore",
+    "website": "https://www.piventures.in/",
+    "capital": {
+      "current_fund": { "raw": "$25 million (second close of maiden fund)", "usd": 25000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["India"],
+      "sector_focus": ["diagnostics"],
+      "thesis": "Bangalore-based early-stage deep-tech fund focused on AI/ML and IoT product companies; led seed investments in AI-diagnostics startups Niramai (thermal-imaging breast-cancer detection) and SigTuple (AI analysis of blood/urine/retinal-scan images)."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Niramai Health Analytix", "sector": "diagnostics", "outcome": "active" },
+        { "company": "SigTuple", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.piventures.in/",
+        "title": "pi Ventures | Early Stage Deep Tech Venture Capital",
+        "publisher": "pi Ventures",
+        "accessed": "undefined",
+        "supports": "identity, sector focus"
+      },
+      {
+        "url": "https://startupgatha.com/pi-ventures-and-binny-bansal-back-ai-health-startup-niramai/",
+        "title": "Pi Ventures and Binny Bansal Back AI Health Startup NIRAMAI",
+        "publisher": "Startup Gatha",
+        "accessed": "undefined",
+        "supports": "Niramai and SigTuple investments",
+        "quote": "In April 2017, Bengaluru-based AI startup NIRAMAI Health Analytix raised undisclosed funding in a Seed round led by pi Ventures... pi ventures also invested in the $5.8 Mn funding round of Bengaluru-based medical tech startup, SigTuple."
+      },
+      {
+        "url": "https://inc42.com/buzz/ai-vc-fund-pi-ventures/",
+        "title": "AI Focussed VC Fund pi Ventures Announces Second Close Of Maiden Fund At $25 Mn",
+        "publisher": "Inc42",
+        "accessed": "undefined",
+        "supports": "fund size"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "seed-early-micro-lifesci",
+    "summary": {
+      "en": "Bangalore AI/deep-tech seed fund whose healthcare bets — AI-diagnostics startups Niramai and SigTuple — anchor its medical/biomedical nexus."
+    }
+  }
+]

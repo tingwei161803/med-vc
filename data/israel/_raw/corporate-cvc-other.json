@@ -1,0 +1,324 @@
+[
+  {
+    "id": "il-clal-insurance",
+    "name": { "en": "Clal Insurance Enterprises Holdings", "local": "כלל החזקות עסקי ביטוח" },
+    "aka": ["Clal Insurance"],
+    "type": "cvc",
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Ramat Gan",
+    "capital": {
+      "current_fund": { "raw": "~$2 billion private technology portfolio (excl. publicly-traded holdings), accumulated over ~3 years", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "sector_focus": ["digital-health"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel"],
+      "thesis": "Clal Insurance's internal investment division manages a large private technology portfolio that has recently pivoted toward digital health, foodtech and agtech alongside fintech/insurtech. It was one of three Israeli institutional investors (with Migdal Insurance and Bank Hapoalim) that backed AI clinical-operations startup Diagnostic Robotics's $45M Series B, alongside Mayo Clinic."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"],
+      "science_platform_notes": "No dedicated health-tech fund; health exposure comes via opportunistic direct/co-investments made by the general institutional investment division."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Diagnostic Robotics", "sector": "digital-health", "outcome": "active" }
+      ],
+      "co_investors": ["Migdal Insurance", "Bank Hapoalim", "StageOne Ventures", "Mayo Clinic"]
+    },
+    "summary": {
+      "en": "Clal Insurance, one of Israel's largest insurers, runs an internal investment division with a multi-billion-dollar private technology portfolio that has pivoted partly toward digital health, including a stake in AI-driven clinical-operations platform Diagnostic Robotics.",
+      "local": "כלל ביטוח, אחת מחברות הביטוח הגדולות בישראל, מנהלת חטיבת השקעות פנימית עם תיק השקעות טכנולוגי פרטי בהיקף של מיליארדי דולרים, שפנה בין היתר לתחום הבריאות הדיגיטלית, ובכלל זה השקעה בחברת Diagnostic Robotics."
+    },
+    "sources": [
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3906666,00.html",
+        "title": "The biggest VC fund in Israel you didn't even know existed",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "portfolio size (~$2B), strategic shift to digital health/foodtech/agtech, head of division quote",
+        "quote": "Technology is definitely making an impact, and I think it will be one of the main driving forces of our results over the coming years."
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/bjbhoto25",
+        "title": "Kira Radinsky's Diagnostic Robotics raises $45 million Series B",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "Clal Insurance's participation in Diagnostic Robotics Series B",
+        "quote": "The Series B was led by StageOne Ventures with participation from institutional Israeli investors Midgal Insurance, Clal Insurance, and Bank Hapoalim, as well as Mayo Clinic and the company's existing investors."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Portfolio-size figure ($2B) and strategic pivot to digital health are as reported by CTech (secondary source); could not independently verify on an official Clal Insurance investor-relations page within budget. Health-tech exposure is evidenced mainly via a single co-investment (Diagnostic Robotics) rather than a standing dedicated health fund.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "il-migdal-insurance",
+    "name": { "en": "Migdal Insurance and Financial Holdings", "local": "מגדל אחזקות ביטוח ופיננסים" },
+    "aka": ["Migdal Group", "Migdal Insurance"],
+    "type": "cvc",
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "strategy": {
+      "stages": ["series-b"],
+      "sector_focus": ["digital-health"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel"],
+      "thesis": "Migdal, one of Israel's largest insurance and financial holding groups, makes direct institutional investments in domestic technology companies; its verified health-tech exposure is participation (alongside Clal Insurance and Bank Hapoalim) in the $45M Series B round of AI clinical-operations startup Diagnostic Robotics."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Diagnostic Robotics", "sector": "digital-health", "outcome": "active" }
+      ],
+      "co_investors": ["Clal Insurance", "Bank Hapoalim", "StageOne Ventures", "Mayo Clinic"]
+    },
+    "summary": {
+      "en": "Migdal Insurance and Financial Holdings, a major Israeli insurer, makes direct institutional investments in Israeli technology companies, including a stake in health-AI startup Diagnostic Robotics alongside Clal Insurance and Bank Hapoalim.",
+      "local": "מגדל אחזקות ביטוח ופיננסים, אחת מחברות הביטוח הגדולות בישראל, משקיעה השקעות ישירות בחברות טכנולוגיה ישראליות, ובכלל זה בחברת הבריאות-הדיגיטלית Diagnostic Robotics."
+    },
+    "sources": [
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/bjbhoto25",
+        "title": "Kira Radinsky's Diagnostic Robotics raises $45 million Series B",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "Migdal's participation in Diagnostic Robotics Series B",
+        "quote": "The Series B was led by StageOne Ventures with participation from institutional Israeli investors Midgal Insurance, Clal Insurance, and Bank Hapoalim, as well as Mayo Clinic and the company's existing investors."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Health nexus verified via a single reported deal (Diagnostic Robotics Series B, CTech). No dedicated health-tech fund, public investment thesis, or official Migdal source found within budget; could not confirm HQ city or a formal 'venture arm' name.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "il-bank-hapoalim-poalim-equity",
+    "name": { "en": "Bank Hapoalim - Poalim Equity / Poalim Tech", "local": "בנק הפועלים - פועלים אקוויטי / פועלים היי-טק" },
+    "aka": ["Poalim Equity", "Poalim Tech", "Poalim Hi-Tech"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.poalimequity.com/en",
+    "strategy": {
+      "stages": ["all"],
+      "sector_focus": ["digital-health"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Israel", "global"],
+      "thesis": "Poalim Tech, Bank Hapoalim's dedicated technology-sector banking and investment arm (established 2015), backs multi-vertical VC funds and companies spanning cyber security, digital health, deep tech, enterprise software, food-tech and sustainability. Sister unit Poalim Equity makes direct private-equity investments across technology, healthcare, real estate and financial services, and the bank invested directly in AI clinical-operations startup Diagnostic Robotics's Series B."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Diagnostic Robotics", "sector": "digital-health", "outcome": "active" }
+      ],
+      "co_investors": ["Clal Insurance", "Migdal Insurance", "StageOne Ventures", "Mayo Clinic"]
+    },
+    "summary": {
+      "en": "Bank Hapoalim, Israel's largest bank, runs Poalim Tech and Poalim Equity as its technology-sector banking and venture-investment arms; digital health is explicitly named as one of Poalim Tech's target VC verticals, and the bank has co-invested directly in health-AI startup Diagnostic Robotics.",
+      "local": "בנק הפועלים, הבנק הגדול בישראל, מפעיל את פועלים היי-טק ופועלים אקוויטי כזרועות הבנקאות וההשקעות שלו בתחום הטכנולוגיה; בריאות דיגיטלית מוזכרת במפורש כאחד מתחומי ההשקעה של פועלים היי-טק, והבנק השקיע ישירות בחברת הבריאות-הדיגיטלית Diagnostic Robotics."
+    },
+    "sources": [
+      {
+        "url": "https://www.poalimtech.com/en/vc",
+        "title": "Venture Capital Banking Solutions | Poalim Tech",
+        "publisher": "Bank Hapoalim (Poalim Tech)",
+        "accessed": "undefined",
+        "supports": "digital health as a named investment vertical; 2015 founding of Poalim Tech",
+        "quote": "Poalim Tech's multi-vertical VCs investments include cyber security, digital health, deep tech, enterprise software, food-tech and sustainability."
+      },
+      {
+        "url": "https://www.poalimequity.com/en/who-we-are",
+        "title": "Who We Are | Poalim Equity",
+        "publisher": "Bank Hapoalim (Poalim Equity)",
+        "accessed": "undefined",
+        "supports": "Poalim Equity's investment scope across technology, healthcare, real estate and financial services",
+        "quote": "Through its subsidiary, Poalim Equity, Bank Hapoalim engages in private equity investments, focusing on sectors such as technology, healthcare, real estate, and financial services."
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/bjbhoto25",
+        "title": "Kira Radinsky's Diagnostic Robotics raises $45 million Series B",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "Bank Hapoalim's direct participation in Diagnostic Robotics Series B",
+        "quote": "The Series B was led by StageOne Ventures with participation from institutional Israeli investors Midgal Insurance, Clal Insurance, and Bank Hapoalim, as well as Mayo Clinic and the company's existing investors."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Digital health is confirmed as an explicit investment vertical on Bank Hapoalim's own Poalim Tech site (primary source), reinforced by a direct co-investment in Diagnostic Robotics.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "il-harel-insurance",
+    "name": { "en": "Harel Insurance Investments and Financial Services", "local": "הראל השקעות בביטוח ושירותים פיננסיים" },
+    "aka": ["Harel Group", "Harel Insurance"],
+    "type": "cvc",
+    "status": "active",
+    "region": "israel",
+    "country": "Israel",
+    "capital": {
+      "current_fund": { "raw": "$100 million allocated initially (~2017), plus an additional $100 million after strong performance", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b"],
+      "sector_focus": ["digital-health", "therapeutics"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel", "United States"],
+      "thesis": "Harel's institutional direct-investment unit (built out from roughly 2017 under Tomer Goldberg, ex-Cisco Israel investments lead) has directly invested in nine companies spanning biotech, fintech, digital health and alternative energy. Health bets include telehealth pioneer American Well, oncology drug developer Ayala Pharmaceuticals, and immuno-oncology company Biond Biologics."
+    },
+    "lifesci": {
+      "modalities": ["biologics-antibody"],
+      "indications": ["oncology", "immunology-inflammation"]
+    },
+    "track_record": {
+      "portfolio_count": 9,
+      "notable_investments": [
+        { "company": "American Well", "sector": "digital-health", "outcome": "IPO" },
+        { "company": "Ayala Pharmaceuticals", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Biond Biologics", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Tomer Goldberg", "role": "Head of investment unit (recruited to expand operations)", "background": "Previously led Cisco's Israeli cyber and cloud investments for five years" }
+    ],
+    "summary": {
+      "en": "Harel, one of Israel's largest insurance and financial groups, runs a direct startup-investment unit ($100M+ allocated) that has backed health-related companies including telehealth firm American Well (NYSE IPO), oncology biotech Ayala Pharmaceuticals (Nasdaq IPO), and immuno-oncology company Biond Biologics (later licensed to Sanofi).",
+      "local": "הראל, אחת מקבוצות הביטוח והפיננסים הגדולות בישראל, מפעילה יחידת השקעות ישירות בסטארטאפים (בהיקף של יותר מ-100 מיליון דולר) שהשקיעה בין היתר בחברות בריאות כמו American Well (הנפקה בניו יורק), Ayala Pharmaceuticals (הנפקה בנאסד\"ק) וביונד ביולוג'יקס (Biond Biologics), שמאוחר יותר חתמה הסכם רישוי עם סאנופי."
+    },
+    "sources": [
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3896279,00.html",
+        "title": "Harel Insurance earmarks $100 million for startup investments",
+        "publisher": "CTech (Calcalist)",
+        "accessed": "undefined",
+        "supports": "fund allocation ($100M + $100M), portfolio company count (9), specific health investments and amounts (American Well $5M/2017, Ayala Pharmaceuticals $8M/2018, Biond Biologics $6M from 2018), unit lead background",
+        "quote": "Over the past four years, Harel's investment unit has directly invested in nine companies in the fields of biotech, fintech, digital health, alternative energy, and more."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Figures and portfolio details sourced from a detailed CTech profile of Harel's investment unit; not cross-checked against an official Harel investor-relations statement within budget, so treated as reputable secondary rather than primary.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "il-tnuva-ventures",
+    "name": { "en": "Tnuva Ventures (Tnuva NEXT)", "local": "תנובה נקסט" },
+    "aka": ["Tnuva NEXT"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2022,
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://tnuva.com/tnuva-ventures/",
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "sector_focus": ["consumer-health"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Israel"],
+      "thesis": "Tnuva NEXT is the corporate foodtech venture fund of Tnuva, Israel's largest dairy/food company, launched in 2022 to make up to three seed/Series A investments per year in cultured meat, alternative proteins, fermentation, smart food processes and customized/personalized nutrition technologies -- giving it a tangential consumer-health nexus alongside its core foodtech focus."
+    },
+    "lifesci": {
+      "science_platform_notes": "Health relevance is via 'customized nutrition solutions' as one stated investment focus area, plus Tnuva's partnership in the Fresh Start foodtech incubator, which targets improved nutritional value and personalized nutrition."
+    },
+    "people": [
+      { "name": "Yaakov Chen", "role": "Deputy CEO and CFO, Tnuva" },
+      { "name": "Shay Cohen", "role": "Chief Innovation Officer, Tnuva" }
+    ],
+    "summary": {
+      "en": "Tnuva, Israel's largest dairy and food company, launched the Tnuva NEXT corporate venture fund in 2022 to back foodtech startups in alternative proteins, fermentation and personalized nutrition -- a real but comparatively tangential consumer-health nexus rather than a dedicated biomedical focus.",
+      "local": "תנובה, חברת המזון והחלב הגדולה בישראל, השיקה ב-2022 את קרן ההון סיכון הארגונית תנובה נקסט, המשקיעה בסטארטאפים בתחומי חלבון חלופי, תסיסה ותזונה מותאמת אישית."
+    },
+    "sources": [
+      {
+        "url": "https://globalaginvesting.com/israels-tnuva-launch-food-tech-venture-fund-tnuva-next/",
+        "title": "Israel's Tnuva to Launch Food Tech Venture Fund Tnuva NEXT",
+        "publisher": "Global AgInvesting",
+        "accessed": "undefined",
+        "supports": "founding year (2022), leadership names, focus areas including customized nutrition solutions, up-to-three-investments-per-year cadence",
+        "quote": "the company's strategy of investing in growing fields like foodtech, while identifying opportunities and creating innovative processes"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Primarily a foodtech/alt-protein investor; medical/biomedical nexus is limited to a stated 'customized nutrition solutions' focus area rather than clinical or therapeutic investments. Included because the slice's scope explicitly names food companies, but the health nexus is comparatively weak -- flagged for reviewer judgment. Fund size and exact check size not disclosed in sources found.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "il-the-kitchen-foodtech-hub",
+    "name": { "en": "The Kitchen FoodTech Hub", "local": "המטבח - מרכז חדשנות למזון" },
+    "aka": ["The Kitchen Hub", "The Kitchen"],
+    "type": "incubator",
+    "subtypes": ["accelerator"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://sustainability.strauss-group.com/pillars/nutrition-and-health/the-kitchen-hub/the-kitchen-hub/",
+    "capital": {
+      "current_fund": { "raw": "~$600,000 per startup investment", "usd": null, "currency": null }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "sector_focus": ["consumer-health"],
+      "lead_or_follow": "lead",
+      "geo_focus": ["Israel"],
+      "thesis": "The Kitchen is Strauss Group's foodtech incubator (founded 2015 as part of the Israel Innovation Authority's incubator program), investing roughly $600K per startup. Strauss itself classifies The Kitchen under its 'Nutrition and Health' sustainability pillar, and the hub explicitly targets ingredients and products with new health benefits and improved nutritional profiles, working with global partners including PepsiCo, Danone and Givaudan."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Runs as a government-co-funded technology incubator with wet-lab/pilot food-processing capabilities and mentorship from Strauss Group's R&D network."
+    },
+    "program": {
+      "investment": { "raw": "~$600,000", "usd": null, "currency": null },
+      "format": "in-person",
+      "location": "Israel",
+      "lab_space": true
+    },
+    "track_record": {
+      "portfolio_count": 19,
+      "notable_investments": [
+        { "company": "Aleph Farms", "sector": "foodtech/cultured-meat", "outcome": "active" },
+        { "company": "Amai Proteins", "sector": "foodtech", "outcome": "active" },
+        { "company": "Better Juice", "sector": "foodtech", "outcome": "active" },
+        { "company": "Yofix", "sector": "foodtech", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "The Kitchen is Strauss Group's Israeli foodtech incubator, backed by the food conglomerate and the Israel Innovation Authority, which Strauss itself places under its 'Nutrition and Health' sustainability pillar and which funds startups developing healthier, more nutritious food ingredients and products.",
+      "local": "המטבח הוא מרכז החדשנות למזון של קבוצת שטראוס, הפועל בשיתוף רשות החדשנות ומסווג על ידי שטראוס תחת עמוד 'תזונה ובריאות'; המרכז משקיע בסטארטאפים המפתחים מרכיבי מזון בעלי תועלת בריאותית ופרופיל תזונתי משופר."
+    },
+    "sources": [
+      {
+        "url": "https://sustainability.strauss-group.com/pillars/nutrition-and-health/the-kitchen-hub/the-kitchen-hub/",
+        "title": "The Kitchen Hub - Nutrition and Health",
+        "publisher": "Strauss Group (sustainability site)",
+        "accessed": "undefined",
+        "supports": "Strauss's own classification of The Kitchen under its Nutrition and Health pillar"
+      },
+      {
+        "url": "https://www.foodnavigator.com/Article/2018/06/12/Innovation-and-investment-at-The-Kitchen-FoodTech-Hub/",
+        "title": "Innovation and investment at The Kitchen FoodTech Hub",
+        "publisher": "FoodNavigator",
+        "accessed": "undefined",
+        "supports": "founding year (2015), check size (~$600K), health/nutrition focus area language, portfolio count (19) and named partners (PepsiCo, Danone, Givaudan)",
+        "quote": "ingredients and products with new health benefits and improved nutritional profiles"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Core focus is foodtech/agrifood innovation rather than clinical biomedicine; health nexus rests on Strauss's own 'Nutrition and Health' framing and portfolio companies targeting nutritional/health benefits, not therapeutics or medtech.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  }
+]

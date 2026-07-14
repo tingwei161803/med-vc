@@ -1,0 +1,503 @@
+[
+  {
+    "id": "in-jiogennext",
+    "name": { "en": "JioGenNext" },
+    "aka": ["GenNext Innovation Hub"],
+    "type": "accelerator",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Navi Mumbai",
+    "website": "https://www.jiogennext.com/",
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "digital-health"],
+      "thesis": "Corporate accelerator/CVC arm sponsored by Reliance Industries and Jio Platforms (core businesses: telecom, retail, energy/petrochemicals); runs a 'Market Access Program' and direct backing for startups across many verticals including healthtech & fitness, giving portfolio companies access to Reliance/Jio's retail and telecom distribution."
+    },
+    "lifesci": {
+      "modalities": ["wearables-sensors", "software-samd"],
+      "science_platform_notes": "Not a lab/science platform; provides market access, mentorship and distribution through Reliance Retail and Jio Platforms channels."
+    },
+    "track_record": {
+      "portfolio_count": "185+",
+      "notable_investments": [
+        { "company": "Dozee", "sector": "digital-health / remote patient monitoring", "outcome": "active" },
+        { "company": "KareXpert", "sector": "healthcare-it / cloud healthcare platform", "outcome": "acquired" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.ril.com/about/jiogennext",
+        "title": "JioGenNext",
+        "publisher": "Reliance Industries Limited",
+        "accessed": "undefined",
+        "supports": "sponsor, sector focus, program scale, notable startups",
+        "quote": "JioGenNext is a start-up programme sponsored by Reliance Industries Limited and Jio Platforms."
+      },
+      {
+        "url": "https://startuptalky.com/reliance-funded-startups/",
+        "title": "10 Most Successful Startups Funded by Reliance's JioGenNext",
+        "publisher": "StartupTalky",
+        "accessed": "undefined",
+        "supports": "healthtech portfolio examples (Dozee, KareXpert)",
+        "quote": "KareXpert is a design technology platform and a Digital Healthcare startup acquired by Reliance Industries for INR 10 Crore"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "JioGenNext markets itself as a 'Scalearator, Not Accelerator' and its flagship Market Access Program (MAP) is described as zero-equity; direct-investment/acquisition activity in healthtech (e.g., KareXpert, Netmeds) has been executed via Reliance Industries/Reliance Retail rather than a discrete JioGenNext fund vehicle, so the equity-investment mechanics are not fully transparent from public sources.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-qualcomm-ventures-india",
+    "name": { "en": "Qualcomm Ventures India" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2007,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bengaluru",
+    "offices": [{ "country": "United States", "city": "San Diego" }],
+    "website": "https://www.qualcommventures.com/",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "Strategic investment arm of Qualcomm (semiconductor/wireless technology company); runs a dedicated India investment program that backs digital health, IoT, mobile and automotive startups aligned with Qualcomm's chipset and connectivity ecosystem, including in-home healthcare and health-wearable plays."
+    },
+    "lifesci": {
+      "modalities": ["wearables-sensors", "software-samd"],
+      "science_platform_notes": "Leverages Qualcomm's chipset/connectivity technology stack; not a lab-based platform."
+    },
+    "capital": {
+      "current_fund": { "raw": "up to $150M (India strategic venture fund, announced 2015; renewed AI-focused $150M commitment announced 2026)" }
+    },
+    "track_record": {
+      "portfolio_count": "40+",
+      "notable_investments": [
+        { "company": "Portea Medical", "sector": "in-home healthcare", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2015/Qualcomm-Commits-Up-To-150-Million-to-Strategic-Venture-Fund-in-India-09-27-2015/default.aspx",
+        "title": "Qualcomm Commits Up To $150 Million to Strategic Venture Fund in India",
+        "publisher": "Qualcomm Investor Relations",
+        "accessed": "undefined",
+        "supports": "dedicated India venture commitment, founding of India program",
+        "quote": "Qualcomm Commits Up To $150 Million to Strategic Venture Fund in India"
+      },
+      {
+        "url": "https://www.qualcomm.com/news/releases/2026/02/qualcomm-commits-up-to--150-million-for-strategic-ai-venture-fun",
+        "title": "Qualcomm Commits Up To $150 Million for Strategic AI Venture Fund in India",
+        "publisher": "Qualcomm",
+        "accessed": "undefined",
+        "supports": "renewed 2026 India commitment, sector focus incl. digital health",
+        "quote": "the group focuses on investments in the sectors of automotive, data center and enterprise, digital health, Internet of Things (IoT), and mobile"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Qualcomm Ventures is a global CVC headquartered in the US; included here because it runs a dedicated, repeatedly-renewed India investment commitment ($150M in 2015, another $150M in 2026) and has backed 40+ India startups since 2007, including digital-health company Portea Medical.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-tata-capital-healthcare-fund",
+    "name": { "en": "Tata Capital Healthcare Fund" },
+    "aka": ["TCHF"],
+    "type": "growth-equity",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://www.tatacapitalhealthcarefund.com/",
+    "capital": {
+      "aum": { "raw": "~US$200 million (across TCHF I and TCHF II)" },
+      "funds": [
+        { "name": "Tata Capital Healthcare Fund I", "vintage_year": 2012 },
+        { "name": "Tata Capital Healthcare Fund II", "vintage_year": 2022, "size": { "raw": "~US$130 million corpus" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-services", "medtech-devices", "diagnostics", "digital-health", "pharma-services"],
+      "thesis": "Growth-stage healthcare private equity fund sponsored by Tata Capital Limited (a subsidiary of Tata Sons, the diversified Tata Group's financial-services arm), investing across pharmaceuticals, healthcare delivery, health-tech and medtech services in India."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "ai-ml-platform"],
+      "science_platform_notes": "Not company-creation; backs operating healthcare/pharma/medtech businesses."
+    },
+    "track_record": {
+      "portfolio_count": 19,
+      "notable_investments": [
+        { "company": "Deeptek", "sector": "AI radiology/diagnostics", "outcome": "active" },
+        { "company": "Apex Kidney Care", "sector": "dialysis/nephrology services", "outcome": "active" },
+        { "company": "Anderson Diagnostics", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.tatacapitalhealthcarefund.com/about-us/overview.html",
+        "title": "Overview - Tata Capital Healthcare Fund",
+        "publisher": "Tata Capital Healthcare Fund",
+        "accessed": "undefined",
+        "supports": "sponsor, fund structure",
+        "quote": "Tata Capital Healthcare Fund is a growth-oriented private equity fund that invests in India's healthcare and life science industries. The fund is sponsored by Tata Capital Limited, a subsidiary of Tata Sons Limited."
+      },
+      {
+        "url": "https://www.business-standard.com/companies/news/tata-capital-healthcare-fund-ii-deploys-95-percent-of-corpus-125110701398_1.html",
+        "title": "Tata Capital Healthcare Fund II deploys 95% corpus, impacts 8.3 mn lives",
+        "publisher": "Business Standard",
+        "accessed": "undefined",
+        "supports": "AUM, fund count, portfolio count, portfolio companies",
+        "quote": "TCHF has raised ~ US$ 200 million across two funds - TCHF I (2012) and TCHF II (2022). Across both the funds, TCHF has invested in 19 companies, and has successfully exited 7 companies thus far."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Tata Capital's core business is diversified financial services (NBFC), not pharma/medtech manufacturing, so this dedicated healthcare fund falls under corporate-cvc-other rather than a pharma/medtech CVC.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-info-edge-ventures",
+    "name": { "en": "Info Edge Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Gurugram",
+    "website": "https://www.infoedgeventures.in/",
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "Corporate venture capital arm of Info Edge (India) Limited — the internet company behind Naukri.com, 99acres and Jeevansathi — investing at pre-seed to Series A across sectors including healthtech, fintech, insurtech, edtech and B2B e-commerce."
+    },
+    "lifesci": {
+      "modalities": ["software-samd", "ai-ml-platform"]
+    },
+    "track_record": {
+      "portfolio_count": 103,
+      "notable_investments": [
+        { "company": "Truemeds", "sector": "online pharmacy", "outcome": "active" },
+        { "company": "Medcords", "sector": "digital health records / teleconsultation", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.infoedgeventures.in/about",
+        "title": "About Us - InfoEdge Ventures",
+        "publisher": "Info Edge Ventures",
+        "accessed": "undefined",
+        "supports": "sponsor, sector focus",
+        "quote": "Info Edge Ventures is the corporate venture capital arm of Info Edge based in Gurgaon, India, founded in 2008, and invests in companies operating in health tech alongside agritech, fintech, business-to-business ecommerce, gaming, and other sectors."
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/info-edge-ventures/__15PsfDJQ97MvMP1vbNw2_DVxUNMSDT0GJpZ5J3ohvmU",
+        "title": "Info Edge Ventures - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "portfolio count, notable healthtech investment",
+        "quote": "As of Jun 2026, Info Edge Ventures is an active investor, having invested in 103 companies... their participation in the $44m series C round for the healthcare startup Truemeds, an online pharmacy"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthtech is one of several sectors Info Edge Ventures invests in (alongside fintech, edtech, agritech); exact founding year of the dedicated fund vehicle (vs. Info Edge Ltd itself) not independently confirmed beyond secondary source.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-aditya-birla-ventures",
+    "name": { "en": "Aditya Birla Ventures" },
+    "aka": ["ABV"],
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://www.adityabirlaventures.com/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["digital-health", "generalist-health"],
+      "thesis": "Venture capital arm backed by the Aditya Birla Group (a diversified conglomerate spanning metals, cement, textiles and financial services), investing from pre-Series A to Series B with health-tech as one of its named focus areas alongside fintech, edtech and consumer tech."
+    },
+    "lifesci": {
+      "modalities": ["software-samd"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Eka.Care", "sector": "digital health / health records app", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.adityabirlaventures.com/",
+        "title": "Aditya Birla Ventures",
+        "publisher": "Aditya Birla Ventures",
+        "accessed": "undefined",
+        "supports": "founding year, founder, sponsor, sector focus, stage focus",
+        "quote": "Founded in late 2021 by Aryaman Vikram Birla and backed by Aditya Birla Group (ABG), Aditya Birla Ventures (ABV) invests in new age leading businesses of tomorrow, led by outstanding founding teams."
+      },
+      {
+        "url": "https://www.adityabirla.com/en/businesses/companies/aditya-birla-ventures/",
+        "title": "Aditya Birla Ventures – Venture Capital for Startups",
+        "publisher": "Aditya Birla Group",
+        "accessed": "undefined",
+        "supports": "portfolio example Eka.Care",
+        "quote": "Aditya Birla Ventures has special focus on Fin-Tech, Edu-tech, Health-tech, Consumer-tech, Enterprise Applications (SaaS) and Consumer Products (brands). Some high growth companies in the portfolio include Finbox, Eka.Care (a leading health-tech company)"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No specific fund size disclosed in public sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-bajaj-finserv-ventures",
+    "name": { "en": "Bajaj Finserv Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "region": "india",
+    "country": "India",
+    "hq_city": "Pune",
+    "website": "https://www.aboutbajajfinserv.com/ventures-about-us",
+    "strategy": {
+      "stages": ["all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "100%-owned venture capital and services subsidiary of Bajaj Finserv Ltd (financial services / insurance conglomerate), investing across fintech, insurtech, AI/ML/robotics, data analytics, healthcare and consumer tech."
+    },
+    "sources": [
+      {
+        "url": "https://www.aboutbajajfinserv.com/ventures-about-us",
+        "title": "About Us - Bajaj Finserv Ventures",
+        "publisher": "Bajaj Finserv",
+        "accessed": "undefined",
+        "supports": "ownership, sector focus incl. healthcare",
+        "quote": "Bajaj Finserv Ventures Limited, a 100% subsidiary of Bajaj Finserv Ltd., is a venture capital and services company... fintech, Insurtech, financial services ecosystem group of companies, technology, and the technology ecosystem (including AI, ML, robotics, automation), data analytics, healthcare, and consumer tech."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Healthcare is named as one of many investment sectors on the official page, but no specific healthcare portfolio company was identified in public sources reviewed; founding year and fund size not disclosed.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-tvs-capital-funds",
+    "name": { "en": "TVS Capital Funds" },
+    "aka": ["TCF", "TVS Shriram Growth Fund"],
+    "type": "growth-equity",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Chennai",
+    "website": "https://www.tvscapital.in/",
+    "capital": {
+      "current_fund": { "raw": "TVS Shriram Growth Fund has raised over INR 3,000 Cr across three funds (1A, 1B & 3)" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["generalist-health", "healthcare-services"],
+      "thesis": "Chennai-based growth-equity fund sponsored by the TVS Group (automotive manufacturing conglomerate) and Shriram Group, investing in mid-cap consumer-facing businesses including healthcare services alongside retail, education, food/agri and financial services."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "MedPlus Health Services", "sector": "pharmacy retail chain", "outcome": "IPO" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.tvscapital.in/",
+        "title": "TVS Capital",
+        "publisher": "TVS Capital Funds",
+        "accessed": "undefined",
+        "supports": "founding, sponsor, fund structure",
+        "quote": "TVS Capital Funds (TCF) is one of the leading Indian growth equity funds... founded by Gopal Srinivasan, a third-generation entrepreneur of the TVS family... Since its inception in 2007"
+      },
+      {
+        "url": "https://www.tvscapital.in/investment-sector/healthcare/",
+        "title": "Healthcare - TVS Capital",
+        "publisher": "TVS Capital Funds",
+        "accessed": "undefined",
+        "supports": "healthcare as named investment sector, MedPlus investment",
+        "quote": "TVS Shriram Growth Fund has invested in Medplus Health Services Private Limited, which started in 2007 and has grown to become India's second largest pharmacy retail chain"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "TVS Group's core business is automotive (two-wheelers, auto components); TVS Capital is its diversified growth-equity vehicle with healthcare as one of several named sectors (alongside Shriram Group, a financial-services co-sponsor).",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-mahindra-partners",
+    "name": { "en": "Mahindra Partners" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2010,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Mumbai",
+    "website": "https://www.mahindrapartners.com/",
+    "capital": {
+      "aum": { "raw": "over USD 1 billion" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["healthcare-services", "generalist-health"],
+      "thesis": "Private-equity and corporate-venture-capital arm of the Mahindra Group (automotive, farm equipment and diversified conglomerate); has built a dedicated healthcare investment vertical spanning home healthcare and specialty hospital chains alongside logistics and renewables.",
+      "check_size": { "raw": "e.g. $21M lead check in Medwell Ventures Series B" }
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Medwell Ventures", "sector": "home healthcare services", "outcome": "active" },
+        { "company": "Centre For Sight", "sector": "ophthalmology hospital chain", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.mahindrapartners.com/",
+        "title": "Mahindra Partners",
+        "publisher": "Mahindra Partners",
+        "accessed": "undefined",
+        "supports": "sponsor, founding, AUM, sector scope",
+        "quote": "Mahindra Partners is the Private Equity and Corporate Venture Capital arm of the $19.4 billion Mahindra Group. Established in 2010... with assets under management of over USD 1 BN, their current investments span logistics, healthcare and renewables"
+      },
+      {
+        "url": "https://inc42.com/buzz/medwell-ventures-funding-series-b/",
+        "title": "Healthcare Services Provider Medwell Ventures Secures $21 Mn Funding From Mahindra Capital",
+        "publisher": "Inc42",
+        "accessed": "undefined",
+        "supports": "notable healthcare investment, check size, first healthcare deal",
+        "quote": "Mahindra Partners made its first investment in the healthcare sector in early 2014 with Medwell, a home healthcare services company in India... Home-based healthcare services provider Medwell Ventures secured $21 Mn in its Series B round, led by Mahindra Partners"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Mahindra Partners' official website could not be fetched directly during this research pass (DNS resolution error); facts sourced from the same site's content as surfaced in web-search snippets plus Inc42.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-wipro-ventures",
+    "name": { "en": "Wipro Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Bengaluru",
+    "offices": [{ "country": "United States", "city": "San Mateo" }],
+    "website": "https://www.wipro.com/ventures/",
+    "capital": {
+      "current_fund": { "raw": "$200 million fresh commitment announced February 2025 (fourth round of funding since inception)" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["global", "India"],
+      "sector_focus": ["healthcare-it", "generalist-health"],
+      "thesis": "Strategic investment arm of Wipro Limited (Indian IT services company); invests in early- to mid-stage enterprise software startups, with healthcare-IT as one vertical within its Vertical SaaS investment focus (e.g., AI-driven healthcare payment-integrity software)."
+    },
+    "lifesci": {
+      "modalities": ["ai-ml-platform", "software-samd"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Codoxo", "sector": "AI healthcare payment integrity / cost containment", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.wipro.com/newsroom/press-releases/2025/wipro-commits-200dollar-million-in-fresh-investment-to-wipro-ventures/",
+        "title": "Wipro Invests $200 Million in Wipro Ventures for Startup Growth",
+        "publisher": "Wipro",
+        "accessed": "undefined",
+        "supports": "founding, fund commitment amount",
+        "quote": "Wipro Ventures was established in 2015 as the strategic investment arm of Wipro Limited... Wipro announced a $200 million commitment to Wipro Ventures in February 2025, marking the fourth round of funding raised by Wipro Ventures since its inception 10 years ago"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/wipro-ventures",
+        "title": "Wipro Ventures Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "healthcare portfolio company Codoxo",
+        "quote": "Wipro Ventures made an investment in Codoxo in the healthcare sector as part of its Vertical SaaS focus. Codoxo is described as a trusted provider of AI-driven healthcare cost containment and payment integrity solutions"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare-IT is a minor vertical within Wipro Ventures' broader enterprise-SaaS/cybersecurity/AI mandate; Codoxo (the main identified healthcare portfolio company) is US-based, but Wipro Ventures is the CVC of an Indian-headquartered IT services company and is listed here on that basis.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  },
+  {
+    "id": "in-dabur-ventures",
+    "name": { "en": "Dabur Ventures" },
+    "type": "cvc",
+    "status": "active",
+    "founded_year": 2025,
+    "region": "india",
+    "country": "India",
+    "hq_city": "Ghaziabad",
+    "website": "https://www.dabur.com/press-releases/dabur-ventures",
+    "capital": {
+      "current_fund": { "raw": "~Rs 500 Crore investment platform" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "lead_or_follow": "both",
+      "geo_focus": ["India"],
+      "sector_focus": ["consumer-health", "generalist-health"],
+      "thesis": "Investment platform launched by Dabur India Limited (FMCG/ayurveda consumer-products company) to back early-stage, digital-first D2C brands in personal care, healthcare, wellness foods, beverages and ayurveda, funded entirely off Dabur's balance sheet.",
+      "ownership_target_pct": null
+    },
+    "people": [
+      { "name": "Abhinav Dhall", "role": "Executive Director & Group Head of Corporate Strategy, Dabur India; leads Dabur Ventures" }
+    ],
+    "track_record": {
+      "notable_investments": [
+        { "company": "Ras Luxury Oils", "sector": "skincare / D2C wellness", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.dabur.com/press-releases/dabur-ventures",
+        "title": "Dabur Announces Launch of ~Rs 500 Cr Investment Platform Dabur Ventures",
+        "publisher": "Dabur India Limited",
+        "accessed": "undefined",
+        "supports": "launch date, fund size, sector focus, leadership",
+        "quote": "Dabur India Ltd announced the launch of Dabur Ventures, an investment platform with capital allocation of up to Rs 500 Crores... plans to invest in early-stage direct-to-consumer (D2C) startups across personal care, healthcare, wellness foods, beverages, and ayurveda"
+      },
+      {
+        "url": "https://yourstory.com/2026/03/skincare-startup-ras-secures-75-million-in-funding-led-by-dabur-ventures",
+        "title": "Dabur Ventures marks its maiden investment by leading a funding round",
+        "publisher": "YourStory",
+        "accessed": "undefined",
+        "supports": "first portfolio investment",
+        "quote": "Dabur Ventures marks its maiden investment by leading a"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Very recently launched (October 2025); healthcare/wellness is one of several named consumer categories (alongside personal care, beverages, ayurveda) rather than a pure-play health fund.",
+    "last_updated": "undefined",
+    "researched_by": "corporate-cvc-other"
+  }
+]

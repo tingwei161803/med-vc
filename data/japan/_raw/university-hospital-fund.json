@@ -1,0 +1,960 @@
+[
+  {
+    "id": "jp-utec",
+    "name": {
+      "en": "UTEC - The University of Tokyo Edge Capital Partners",
+      "local": "株式会社東京大学エッジキャピタルパートナーズ"
+    },
+    "aka": ["UTEC", "東大エッジキャピタル", "University of Tokyo Edge Capital"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2004,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.ut-ec.co.jp/english/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/utec"
+    },
+    "capital": {
+      "aum": { "raw": "over USD 1 billion", "usd": 1000000000, "currency": "USD" },
+      "current_fund": { "raw": "JPY 47 billion (approximately USD 326 million)", "usd": 326000000, "currency": "JPY" },
+      "funds": [
+        { "name": "UTEC 6 Limited Partnership", "vintage_year": 2025, "size": { "raw": "JPY 47 billion (approximately USD 326 million)", "usd": 326000000, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "check_size": { "raw": "USD 10 million to 20 million per company", "usd_min": 10000000, "usd_max": 20000000 },
+      "lead_or_follow": "lead",
+      "geo_focus": ["Japan", "United States", "India", "Southeast Asia", "Europe"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "ai-drug-discovery", "generalist-health"],
+      "thesis": "Seed-and-lead deep-tech VC closely tied to the University of Tokyo; one of its three core domains is Healthcare and Life Sciences, backing research-originated therapeutics and life-science tool companies such as PeptiDream and 908 Devices."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Founded as the University of Tokyo's affiliated technology-commercialization VC; co-creates research-driven startups out of the University of Tokyo and other universities in Japan and abroad."
+    },
+    "track_record": {
+      "portfolio_count": "more than 150 startups",
+      "notable_investments": [
+        { "company": "PeptiDream", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "908 Devices", "sector": "life-science-tools", "outcome": "IPO" }
+      ]
+    },
+    "tags": ["deep-tech", "university-vc", "life-sciences"],
+    "summary": {
+      "en": "UTEC is a seed/early-stage deep-tech VC affiliated with the University of Tokyo, with Healthcare & Life Sciences as one of three core investment domains; it surpassed USD 1B AUM across six funds in 2025.",
+      "local": "東京大学に紐づくディープテック特化のシード/アーリー期VC。ヘルスケア・ライフサイエンスを重点3領域の一つとし、2025年に6本のファンドで運用資産10億ドルを突破。"
+    },
+    "sources": [
+      {
+        "url": "https://www.ut-ec.co.jp/english/about_us/news/utec6/",
+        "title": "UTEC Raises USD 326M Fund and Surpasses $1B in AUM",
+        "publisher": "UTEC",
+        "accessed": "undefined",
+        "supports": "fund size, AUM, number of funds, life-science focus, portfolio count, exits, check size",
+        "quote": "UTEC 6, with a size of JPY 47 billion (approximately USD 326 million) ... the firm has surpassed USD 1 billion in total assets under management (AUM) ... strong focus on three domains: Healthcare and Life Sciences, Information Technology, and Physical Sciences and Engineering ... UTEC has invested in more than 150 startups, resulting in 20 IPOs and 22 M&A exits ... UTEC 6 will make larger investments ranging from USD 10 million to 20 million per company"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "UTEC brands itself as an independent VC but originated as and remains closely affiliated with the University of Tokyo (its namesake and research pipeline). Founded 2004.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-utokyo-ipc",
+    "name": {
+      "en": "The University of Tokyo Innovation Platform (UTokyo IPC)",
+      "local": "東京大学協創プラットフォーム開発株式会社"
+    },
+    "aka": ["東大IPC", "UTokyo IPC"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.utokyo-ipc.co.jp/en/",
+    "capital": {
+      "aum": { "raw": "nearing JPY 60 billion (combined across three funds)", "usd": null, "currency": "JPY" },
+      "funds": [
+        { "name": "IPC Fund 1", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "JPY" } },
+        { "name": "AOI Fund 1", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "JPY" } },
+        { "name": "ASA Fund", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools", "ai-drug-discovery", "generalist-health"],
+      "thesis": "Wholly-owned investment company of the University of Tokyo; the first of its five investment fields is 'life science, healthcare and agritech,' commercializing university research through fund investment and incubation (e.g., 1stRound program)."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "The University of Tokyo's first wholly-owned investment company; runs the AOI/1stRound incubation program and manages IPC/AOI/ASA funds around university research."
+    },
+    "track_record": {
+      "portfolio_count": "25 life-science/agritech portfolio companies (of ~85 total across funds)"
+    },
+    "tags": ["university-vc", "deep-tech", "life-sciences", "incubation"],
+    "summary": {
+      "en": "UTokyo IPC is the University of Tokyo's wholly-owned investment company (est. 2016) managing three funds totaling ~JPY 60B, with life science/healthcare/agritech as its leading investment field.",
+      "local": "東京大学100%出資の投資会社(2016年設立)。3ファンド合計約600億円を運用し、ライフサイエンス・ヘルスケア・アグリテックを筆頭領域とする。"
+    },
+    "sources": [
+      {
+        "url": "https://www.utokyo-ipc.co.jp/en/",
+        "title": "UTokyo IPC - The University of Tokyo Innovation Platform",
+        "publisher": "UTokyo IPC",
+        "accessed": "undefined",
+        "supports": "founding year, ownership, fund count and combined size, life-science focus, portfolio count",
+        "quote": "UTokyo IPC was established in 2016, wholly owned by the University of Tokyo as its first investment company. ... manages three funds - IPC Fund 1, AOI Fund 1 and ASA Fund - with a combined asset size of nearing JPY 60 billion. ... We support startups in five major fields: (1) life science, healthcare and agritech, (2) space, (3) robotics and hardware, (4) IT and services, (5) artificial intelligence (AI)."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Distinct from UTEC: UTokyo IPC is the university's directly-owned investment arm. Individual fund vintages/sizes not itemized on the English site.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-kyoto-icap",
+    "name": {
+      "en": "Kyoto University Innovation Capital (Kyoto-iCAP)",
+      "local": "京都大学イノベーションキャピタル株式会社"
+    },
+    "aka": ["KYOTO-iCAP", "京大イノベーションキャピタル"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Kyoto",
+    "website": "https://www.kyoto-unicap.co.jp/en/",
+    "capital": {
+      "funds": [
+        { "name": "Innovation Kyoto 2016 Investment LLP (Fund I)", "vintage_year": 2016, "size": { "raw": "JPY 16,001 million", "usd": null, "currency": "JPY" } },
+        { "name": "Innovation Kyoto 2021 Investment LLP (Fund II)", "vintage_year": 2021, "size": { "raw": "JPY 18,140 million", "usd": null, "currency": "JPY" } },
+        { "name": "Innovation Kyoto 2026 Investment LP (Fund III)", "vintage_year": 2026, "size": { "raw": "Up to JPY 20 billion", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "cell-gene-therapy", "generalist-health"],
+      "thesis": "100% Kyoto University-owned VC commercializing university research 'knowledge'; operates across engineering, science, agriculture and life sciences including medicine and pharmacy at the university's research level."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Wholly Kyoto University-funded investment company under the government 'support program for utilizing specified research results'; paid-in capital JPY 35,000,000."
+    },
+    "tags": ["university-vc", "life-sciences", "deep-tech"],
+    "summary": {
+      "en": "Kyoto-iCAP is Kyoto University's 100%-owned VC (est. Dec 2014) investing across three funds (JPY 16.0B, 18.1B, and up to 20B), spanning life sciences such as medicine and pharmacy.",
+      "local": "京都大学100%出資のVC(2014年12月設立)。3ファンド(160億、181億、上限200億円)を運用し、医学・薬学などライフサイエンス領域を含む。"
+    },
+    "sources": [
+      {
+        "url": "https://www.kyoto-unicap.co.jp/en/company/",
+        "title": "Company Profile | Kyoto University Innovation Capital",
+        "publisher": "Kyoto University Innovation Capital",
+        "accessed": "undefined",
+        "supports": "founding date, 100% Kyoto University ownership, capital, fund sizes",
+        "quote": "Kyoto University Innovation Capital Co., Ltd. was established in December 2014 ... 100% investment from the National University Corporation, Kyoto University ... Paid-in Capital JPY 35,000,000 ... Innovation Kyoto 2016 ... JPY 16,001 million ... Innovation Kyoto 2021 ... JPY 18,140 million ... Innovation Kyoto 2026 ... Up to JPY 20 billion"
+      },
+      {
+        "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html",
+        "title": "創薬ベンチャーエコシステム強化事業 認定ベンチャーキャピタル一覧",
+        "publisher": "AMED",
+        "accessed": "undefined",
+        "supports": "certified as an AMED drug-discovery ecosystem venture capital",
+        "quote": "京都大学イノベーションキャピタル株式会社"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-ouvc",
+    "name": {
+      "en": "Osaka University Venture Capital (OUVC)",
+      "local": "大阪大学ベンチャーキャピタル株式会社"
+    },
+    "aka": ["OUVC"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Osaka (Suita)",
+    "website": "https://www.ouvc.co.jp/en/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/osaka-university-venture-capital"
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices", "generalist-health"],
+      "thesis": "Wholly-owned VC of Osaka University focused on early-stage 'life innovation,' green innovation and platform technology; a large share of its portfolio is medical, including regenerative medicine and cell therapy startups from Japanese national universities."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "science_platform_notes": "Established 2014 as a wholly-owned subsidiary of Osaka University; invests in 30+ life-science startups originated from Japanese national universities."
+    },
+    "capital": {
+      "funds": [
+        { "name": "OUVC Fund 1", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "JPY" } },
+        { "name": "OUVC Fund 2", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "tags": ["university-vc", "life-sciences", "regenerative-medicine"],
+    "summary": {
+      "en": "OUVC is Osaka University's wholly-owned VC (est. 2014, one of Japan's first national-university VCs), concentrated on life-science/medical startups including regenerative medicine and cell therapy.",
+      "local": "大阪大学100%出資のVC(2014年設立、国立大学系VCの先駆け)。再生医療・細胞治療などライフサイエンス/医療系スタートアップに注力。"
+    },
+    "sources": [
+      {
+        "url": "https://www.ouvc.co.jp/en/aboutus",
+        "title": "OUVC | About Us",
+        "publisher": "Osaka University Venture Capital",
+        "accessed": "undefined",
+        "supports": "founding year, wholly-owned subsidiary status",
+        "quote": "Osaka University Venture Capital Co., Ltd. was established in 2014 as a wholly owned subsidiary of The University of Osaka"
+      },
+      {
+        "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html",
+        "title": "創薬ベンチャーエコシステム強化事業 認定ベンチャーキャピタル一覧",
+        "publisher": "AMED",
+        "accessed": "undefined",
+        "supports": "AMED-certified drug-discovery ecosystem venture capital",
+        "quote": "大阪大学ベンチャーキャピタル株式会社"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and ownership are officially confirmed. Secondary sources report ~2 funds totaling ~JPY 23B and that ~60% of the portfolio is medical, but these figures were not confirmed on the official English site and are left unquantified here.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-kii",
+    "name": {
+      "en": "Keio Innovation Initiative (KII)",
+      "local": "株式会社慶應イノベーション・イニシアティブ"
+    },
+    "aka": ["KII", "慶應イノベーション・イニシアティブ"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.keio-innovation.co.jp/en/",
+    "capital": {
+      "funds": [
+        { "name": "Keio Innovation Initiative 1, LPS (KII1)", "vintage_year": null, "size": { "raw": "4.5 billion yen", "usd": null, "currency": "JPY" } },
+        { "name": "KII2, LPS", "vintage_year": null, "size": { "raw": "10.3 billion yen", "usd": null, "currency": "JPY" } },
+        { "name": "KII3 Impact Fund, LPS", "vintage_year": null, "size": { "raw": "20.2 billion yen", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["digital-health", "therapeutics", "cell-gene-therapy", "ai-drug-discovery", "generalist-health"],
+      "thesis": "Keio University's official VC promoting social implementation of Keio research; invests in Technology and Life Science fields including digital health, bioinformatics and regenerative medicine."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "modalities": ["cell-therapy", "digital-therapeutics"],
+      "indications": [],
+      "science_platform_notes": "80% owned by Keio Academic Enterprise (Keio University) and 20% by Nomura Holdings; the third fund is a university-VC-first impact fund."
+    },
+    "tags": ["university-vc", "life-sciences", "digital-health", "impact"],
+    "summary": {
+      "en": "KII is Keio University's official VC (est. Dec 2015, 80% Keio / 20% Nomura) investing in life science and technology, with funds of JPY 4.5B, 10.3B and a JPY 20.2B impact fund.",
+      "local": "慶應義塾大学公式VC(2015年12月設立、慶應80%/野村20%)。ライフサイエンス・テクノロジーに投資し、45億・103億円ファンドと202億円のインパクトファンドを運用。"
+    },
+    "sources": [
+      {
+        "url": "https://www.keio-innovation.co.jp/en/about/",
+        "title": "About | Keio Innovation Initiative",
+        "publisher": "Keio Innovation Initiative",
+        "accessed": "undefined",
+        "supports": "establishment date, ownership split, fund sizes",
+        "quote": "Establishment Date: December 17, 2015 ... Shareholders: Keio Academic Enterprise Co., Ltd. 80% Nomura Holdings, Inc. 20% ... Keio Innovation Initiative 1,LPS ... 4.5 billion yen ... KII2, LPS ... 10.3 billion yen ... KII3, LPS ... 20.2 billion yen"
+      },
+      {
+        "url": "https://www.amed.go.jp/program/list/19/02/005_Capital.html",
+        "title": "創薬ベンチャーエコシステム強化事業 認定ベンチャーキャピタル一覧",
+        "publisher": "AMED",
+        "accessed": "undefined",
+        "supports": "AMED-certified drug-discovery ecosystem venture capital",
+        "quote": "株式会社慶應イノベーション・イニシアティブ"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Life-science sub-sector focus (digital health, regenerative medicine, bioinformatics) is drawn from secondary descriptions; fund sizes and ownership are from the official site.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-thvp",
+    "name": {
+      "en": "Tohoku University Venture Partners (THVP)",
+      "local": "東北大学ベンチャーパートナーズ株式会社"
+    },
+    "aka": ["THVP"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Sendai",
+    "website": "https://thvp.co.jp/",
+    "capital": {
+      "funds": [
+        { "name": "THVP-1 Investment LLP", "vintage_year": 2015, "size": { "raw": null, "usd": null, "currency": "JPY" } },
+        { "name": "THVP-2 Investment LLP", "vintage_year": 2020, "size": { "raw": null, "usd": null, "currency": "JPY" } },
+        { "name": "THVP-3 Investment LLP", "vintage_year": 2026, "size": { "raw": "総額60億円規模（上限100億円）を目指す / targeting JPY 6 billion (cap JPY 10 billion)", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "generalist-health"],
+      "thesis": "Wholly-owned VC of Tohoku University supporting social implementation of university research; team has deep expertise in deep tech and life science, with a portfolio weighted toward biotech and healthcare (e.g., Merak-Dubhe Therapeutics)."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Established 23 Feb 2015; capital JPY 60 million, 100% owned by National University Corporation Tohoku University."
+    },
+    "track_record": {
+      "portfolio_count": "~27 companies"
+    },
+    "tags": ["university-vc", "life-sciences", "deep-tech"],
+    "summary": {
+      "en": "THVP is Tohoku University's 100%-owned VC (est. Feb 2015) investing in deep tech and life science; it manages THVP-1, THVP-2 and the 2026 THVP-3 fund (targeting JPY 6B, cap JPY 10B).",
+      "local": "東北大学100%出資のVC(2015年2月設立)。ディープテック・ライフサイエンスに投資し、THVP-1〜3号(3号は総額60億円規模・上限100億円)を運用。"
+    },
+    "sources": [
+      {
+        "url": "https://thvp.co.jp/about/",
+        "title": "About us | 東北大学ベンチャーパートナーズ",
+        "publisher": "THVP",
+        "accessed": "undefined",
+        "supports": "establishment date, 100% Tohoku University ownership, capital, fund names, life-science focus",
+        "quote": "2015年（平成27年）2月23日、東北大学ベンチャーパートナーズ株式会社が設立される ... 資本金60百万円（資本金30百万円、資本準備金30百万円）（国立大学法人東北大学 100％）... ディープテック、ライフサイエンス分野で深い知見を持った人材で構成されています"
+      },
+      {
+        "url": "https://www.tohoku.ac.jp/japanese/2026/06/press20260630-04-thvp3.html",
+        "title": "東北大学ベンチャーパートナーズ株式会社が「THVP-3号ファンド」を設立しました",
+        "publisher": "Tohoku University",
+        "accessed": "undefined",
+        "supports": "THVP-3 fund target size and anchor LPs",
+        "quote": "最終的には総額60億円規模（上限100億円）の運用を目指しており、有限責任組合員としてはアンカー投資家の国立大学法人東北大学のほか、新日本空調株式会社、三菱UFJ信託銀行株式会社が参加"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "One of the four government-backed national-university official VCs (with UTokyo, Kyoto, Osaka). THVP-1/THVP-2 fund sizes not individually confirmed here; portfolio count ~27 from secondary sources.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-qb-capital",
+    "name": {
+      "en": "QB Capital",
+      "local": "QBキャピタル合同会社"
+    },
+    "aka": ["QBキャピタル", "Kyushu University-affiliated VC"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2015,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Fukuoka",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/qb-capital"
+    },
+    "capital": {
+      "funds": [
+        { "name": "QB Capital Fund 1", "vintage_year": 2015, "size": { "raw": "roughly 3.1 billion yen (about US$20 million)", "usd": 20000000, "currency": "JPY" } },
+        { "name": "QB Capital Fund 2", "vintage_year": 2022, "size": { "raw": "around 7 billion yen (US$45 million)", "usd": 45000000, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["medtech-devices", "cell-gene-therapy", "therapeutics", "generalist-health"],
+      "thesis": "Fukuoka-based VC established by Kyushu TLO (a wholly-owned subsidiary of Kyushu University) to back Kyushu university-spinout deep tech, including biomedical companies such as Cyfuse Biomedical (scaffold-free 3D bioprinting / regenerative medicine)."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "modalities": ["cell-therapy", "medical-hardware"],
+      "science_platform_notes": "Established by Kyushu TLO Company, a wholly-owned subsidiary of Kyushu University; regionally focused on Kyushu university spinouts."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Cyfuse Biomedical", "sector": "regenerative-medicine / 3D bioprinting", "outcome": "IPO (TSE, Dec 2022)" },
+        { "company": "Kyulux", "sector": "OLED materials", "outcome": "active" }
+      ]
+    },
+    "tags": ["university-vc", "regional", "deep-tech", "life-sciences"],
+    "summary": {
+      "en": "QB Capital is a Fukuoka VC founded in 2015 by Kyushu TLO (a Kyushu University subsidiary), backing Kyushu university-spinout deep tech including biomedical firms like Cyfuse Biomedical.",
+      "local": "九州大学子会社の九大TLOが設立した福岡拠点のVC(2015年)。Cyfuse Biomedicalなど九大発の医療・ディープテックに投資。"
+    },
+    "sources": [
+      {
+        "url": "https://pulse.growthstock.app/qb-capital-1/",
+        "title": "QB Capital's Tsuyoshi Sakamoto on Kyushu Deep Tech",
+        "publisher": "Growthstock Pulse",
+        "accessed": "undefined",
+        "supports": "established by Kyushu TLO/Kyushu University, founding year, fund sizes, biomedical portfolio",
+        "quote": "QB Capital was established by Kyushu TLO Company, a wholly-owned subsidiary of Kyushu University ... QB Capital's first fund [was] launched in September 2015 at roughly 3.1 billion yen (about US$20 million); a second fund closed in April 2022 at around 7 billion yen (US$45 million) ... backing Kyushu University spinouts such as Kyulux (OLED materials) and Cyfuse Biomedical (3D bioprinting)"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Details drawn from a reputable secondary profile (Growthstock Pulse) corroborated by Crunchbase/Tracxn; official website could not be resolved. Legal entity form (合同会社 vs 株式会社) not fully confirmed. Cyfuse Biomedical IPO on TSE Dec 2022 confirms biomedical nexus.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-central-japan-innovation-capital",
+    "name": {
+      "en": "Central Japan Innovation Capital (CJIC)",
+      "local": "株式会社Central Japan Innovation Capital"
+    },
+    "aka": ["CJIC", "東海国立大学機構系VC"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Nagoya",
+    "capital": {
+      "funds": [
+        { "name": "CJIC Fund 1", "vintage_year": 2024, "size": { "raw": "ファンド総額33億円（ファーストクローズ）/ JPY 3.3 billion first close", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "thesis": "VC of the Tokai National Higher Education and Research Organization (which operates Nagoya University and Gifu University), investing in deep-tech startups solving social issues, including life sciences alongside IT, mobility, AI/robotics, materials/semiconductors and manufacturing."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Grandchild company of the Tokai National Higher Education and Research Organization (Nagoya + Gifu Universities); established with a Mitsubishi UFJ Bank donation."
+    },
+    "tags": ["university-vc", "deep-tech", "regional", "life-sciences"],
+    "summary": {
+      "en": "CJIC is the venture-capital arm of the Tokai National University Organization (Nagoya + Gifu Universities), whose first fund reached a JPY 3.3B first close in 2024 across deep-tech fields including life sciences.",
+      "local": "名古屋大学・岐阜大学を運営する東海国立大学機構系のVC。1号ファンドは2024年に総額33億円でファーストクローズし、ライフサイエンスを含むディープテックに投資。"
+    },
+    "sources": [
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000002.000153234.html",
+        "title": "Central Japan Innovation Capitalが１号ファンドを設立し、ファーストクローズ",
+        "publisher": "PR TIMES / CJIC",
+        "accessed": "undefined",
+        "supports": "parent organization (Tokai National University / Nagoya + Gifu), first-close fund size, life-science investment field",
+        "quote": "岐阜大学と名古屋大学を運営する国立大学法人東海国立大学機構（以下：「機構」）の孫会社である株式会社Central Japan Innovation Capital ... ファンド総額３3億円でファーストクローズいたしました ... ディープテック（情報技術、モビリティ、AI・ロボティクス、材料・半導体、ライフサイエンス、モノづくり（生産工学等）、アグリ等）"
+      },
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOFD09B970Z00C24A4000000/",
+        "title": "東海国立大学機構、50億円ベンチャーキャピタル設立 三菱UFJ銀行が寄付",
+        "publisher": "Nikkei",
+        "accessed": "undefined",
+        "supports": "establishment of a ~JPY 5 billion VC by Tokai National University Organization with MUFG donation",
+        "quote": "東海国立大学機構、50億円ベンチャーキャピタル設立 三菱UFJ銀行が寄付"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "The universities also run an older externally-managed 'Nagoya University / Tokai regional venture fund' (managed by Japan Venture Capital and Beyond Next Ventures); CJIC is the organization's own VC arm.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-miyako-capital",
+    "name": {
+      "en": "Miyako Capital",
+      "local": "みやこキャピタル株式会社"
+    },
+    "aka": ["Miyako Capital", "京都大学連携VC"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2013,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Kyoto",
+    "website": "https://miyakocapital.com/",
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/miyako-capital"
+    },
+    "capital": {
+      "funds": [
+        { "name": "みやこ京大イノベーション投資事業有限責任組合 (Fund 1)", "vintage_year": 2015, "size": { "raw": "総額73.3億円 / JPY 7.33 billion", "usd": null, "currency": "JPY" } },
+        { "name": "みやこ京大イノベーション2号 (Fund 2)", "vintage_year": 2019, "size": { "raw": "総額142.1億円 / JPY 14.21 billion", "usd": null, "currency": "JPY" } },
+        { "name": "みやこ京大イノベーション3号 (Fund 3)", "vintage_year": 2023, "size": { "raw": "総額93.6億円 / JPY 9.36 billion", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "cell-gene-therapy", "medtech-devices", "life-science-tools", "generalist-health"],
+      "thesis": "Kyoto University's affiliated fund-operating VC managing the 'Miyako-Kyodai Innovation' university venture funds; invests broadly in life science/biotech (drug discovery, regenerative medicine, medical services) alongside IT, agri-food and materials."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "modalities": ["cell-therapy", "gene-therapy"],
+      "science_platform_notes": "Formally designated fund-operating partner for National University Corporation Kyoto University; portfolio companies gain post-investment access to Kyoto University labs and researchers."
+    },
+    "tags": ["university-vc", "life-sciences", "deep-tech"],
+    "summary": {
+      "en": "Miyako Capital (est. 2013) is Kyoto University's affiliated fund operator, managing three 'Miyako-Kyodai Innovation' funds (JPY 7.33B, 14.21B, 9.36B) that invest in life science/biotech and other deep tech.",
+      "local": "京都大学の連携ファンド運営事業者(2013年設立)。みやこ京大イノベーション1〜3号(73.3億・142.1億・93.6億円)を運用し、ライフサイエンス・バイオ等に投資。"
+    },
+    "sources": [
+      {
+        "url": "https://miyakocapital.com/",
+        "title": "みやこキャピタル",
+        "publisher": "Miyako Capital",
+        "accessed": "undefined",
+        "supports": "Kyoto University affiliation, founding year, fund names and sizes, life-science focus",
+        "quote": "国立大学法人京都大学の連携ファンド運営事業者 ... みやこ京大イノベーション投資事業有限責任組合（2015年11月設立、総額73.3億円）... 2号投資事業有限責任組合（2019年10月設立、総額142.1億円）... 3号投資事業有限責任組合（2023年8月設立、総額93.6億円）... 設立 2013年9月 ... ライフサイエンス・バイオ、IT・エレクトロニクス（AI、IoTを含む）、アグリ・フード、環境・エネルギー、化学・素材"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Sometimes described as an 'independent' VC, but is Kyoto University's formally designated affiliated fund operator (連携ファンド運営事業者); therefore in-scope as a university-affiliated VC.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-waseda-university-ventures",
+    "name": {
+      "en": "WASEDA University Ventures (WUV)",
+      "local": "早稲田大学ベンチャーズ株式会社"
+    },
+    "aka": ["WUV", "早稲田大学ベンチャーズ"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc", "venture-studio"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://www.wasedavc.com/",
+    "capital": {
+      "funds": [
+        { "name": "WUV 1 L.P.", "vintage_year": 2022, "size": { "raw": "JPY 5.66 billion (targeting up to JPY 10 billion)", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed", "series-a"],
+      "geo_focus": ["Japan", "United States"],
+      "lead_or_follow": "lead",
+      "sector_focus": ["therapeutics", "diagnostics", "life-science-tools", "generalist-health"],
+      "thesis": "Deep-tech founding-investment (co-founder model) VC created by Waseda University to commercialize academic research; life sciences is one of its target domains, with biomedical portfolio companies such as BioPhenoMA (cancer diagnostics)."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "Co-founds startups from Waseda and other universities/research labs worldwide; Waseda also established WASEDA University Impact Capital (WIC) as manager of a planned 2026 impact fund."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "BioPhenoMA", "sector": "cancer diagnostics", "outcome": "active" },
+        { "company": "Nanofiber Quantum Technologies", "sector": "quantum computing", "outcome": "active" }
+      ]
+    },
+    "tags": ["university-vc", "venture-studio", "deep-tech", "life-sciences"],
+    "summary": {
+      "en": "WUV is Waseda University's deep-tech founding-investment VC (est. Apr 2022; WUV1 fund JPY 5.66B) that co-creates startups, including biomedical companies such as BioPhenoMA in cancer diagnostics.",
+      "local": "早稲田大学発のディープテック創業投資VC(2022年4月設立、WUV1号ファンド56.6億円)。ライフサイエンスを含む領域で共同創業し、がん診断のBioPhenoMA等に投資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.waseda.jp/top/en/news/76352",
+        "title": "Establishment of the WASEDA University Ventures (WUV) first fund",
+        "publisher": "Waseda University",
+        "accessed": "undefined",
+        "supports": "founding, first-fund size, founding-investment model, life-science domain",
+        "quote": "The WUV 1 L.P. was launched with a size of JPY 5.66 billion, with a final total fund size targeted to be up to 10 billion yen ... established on August 8, 2022 ... start-up investment in the deep tech area ... from outstanding research results at Waseda University and other universities and research institutions"
+      },
+      {
+        "url": "https://www.wasedavc.com/About",
+        "title": "WUV Global - About",
+        "publisher": "WASEDA University Ventures",
+        "accessed": "undefined",
+        "supports": "targets life sciences among domains; independent management",
+        "quote": "WUV targets physical sciences, information sciences, life sciences, humanities and social sciences, and sports sciences"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "WUV is Waseda-branded and mission-tied to Waseda but is independently managed and funded by outside institutional investors and can invest in any university's spinouts. Medical nexus confirmed via life-science domain and diagnostics portfolio (BioPhenoMA).",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-kobe-university-capital",
+    "name": {
+      "en": "Kobe University Capital (KUC)",
+      "local": "株式会社神戸大学キャピタル"
+    },
+    "aka": ["KUC", "神戸大学キャピタル"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2021,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Kobe",
+    "website": "https://kuc.vc/",
+    "capital": {
+      "funds": [
+        { "name": "神戸大学ファンド (KUC1号投資事業有限責任組合)", "vintage_year": 2023, "size": { "raw": "約20億円 / JPY 2 billion", "usd": null, "currency": "JPY" } },
+        { "name": "KUC2号投資事業有限責任組合", "vintage_year": 2026, "size": { "raw": "総額60億円規模を目指す / targeting JPY 6 billion", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "pharma-services", "synthetic-biology", "cell-gene-therapy"],
+      "thesis": "Kobe University's VC (Japan's first national-university fund using only private capital) with a strong life-science tilt; portfolio and pipeline concentrate on drug discovery, medical devices, CDMO and biotech deep tech such as Synplogen and Bacchus Bio-innovation."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "modalities": ["gene-therapy"],
+      "science_platform_notes": "Established 22 Oct 2021; the KUC No.1 'Kobe University Fund' is the first national-university-launched fund using only private capital, targeting seeds from Kobe University and the Kobe Biomedical Innovation Cluster region."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Synplogen (シンプロジェン)", "sector": "synthetic biology / long-chain DNA synthesis", "outcome": "active" },
+        { "company": "Bacchus Bio-innovation (バッカス・バイオイノベーション)", "sector": "microbial production / synthetic biology", "outcome": "active" },
+        { "company": "VC Gene Therapy", "sector": "gene therapy", "outcome": "active" }
+      ]
+    },
+    "tags": ["university-vc", "life-sciences", "synthetic-biology", "regional"],
+    "summary": {
+      "en": "KUC is Kobe University's VC (est. Oct 2021; first national-university fund using only private capital), heavily weighted to life science/medical deep tech including drug discovery, medical devices and synthetic biology.",
+      "local": "神戸大学のVC(2021年10月設立、民間資金のみを活用した国立大学初の大学発ファンド)。創薬・医療機器・合成生物学などライフサイエンス系ディープテックに強く注力。"
+    },
+    "sources": [
+      {
+        "url": "https://kuc.vc/fund/",
+        "title": "FUND | 神戸大学キャピタル KUC",
+        "publisher": "Kobe University Capital",
+        "accessed": "undefined",
+        "supports": "fund name, first national-university private-capital fund, Kobe University seed focus",
+        "quote": "神戸大学ファンド (KUC1号投資事業有限責任組合) ... 民間資金のみを活用した国立大学としては初めての大学発ファンド ... 神戸大学発のシーズを中心に"
+      },
+      {
+        "url": "https://www.kobe-u.ac.jp/ja/announcement/2023_03_07_01/",
+        "title": "株式会社神戸大学キャピタルが、国立大学初の100％民間資本による大学ファンドを設立",
+        "publisher": "Kobe University",
+        "accessed": "undefined",
+        "supports": "establishment date, JPY 2 billion fund, private-capital LPs",
+        "quote": "株式会社神戸大学キャピタルが、国立大学初の100％民間資本による大学ファンドを設立しました"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000002.000117181.html",
+        "title": "神戸大学キャピタル、総額60億円規模を目指す「KUC2号投資事業有限責任組合」を組成",
+        "publisher": "PR TIMES / Kobe University Capital",
+        "accessed": "undefined",
+        "supports": "KUC No.2 fund target size, drug-discovery/medical deep-tech focus",
+        "quote": "総額60億円規模を目指す「KUC2号投資事業有限責任組合」を組成 ... 創薬・医療をはじめとするディープテック領域"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "KUC No.1 fund size (~JPY 2B) is from the Kobe University announcement/secondary reporting; KUC No.2 target (JPY 6B) from the PR TIMES release.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-riken-innovation",
+    "name": {
+      "en": "RIKEN Innovation Co., Ltd.",
+      "local": "株式会社理研イノベーション"
+    },
+    "aka": ["理研鼎業", "RIKEN Innovation", "理研イノベーションキャピタル"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2019,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Wako, Saitama",
+    "website": "https://www.innovation-riken.jp/en/",
+    "capital": {
+      "aum": { "raw": null, "usd": null, "currency": "JPY" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "life-science-tools", "ai-drug-discovery", "generalist-health"],
+      "thesis": "Wholly-owned commercialization/tech-transfer subsidiary of the national research institute RIKEN; its venture-capital activity invests in and supports companies with advanced technology seeds in fields including advanced medical care and drug discovery."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "RIKEN's 100%-owned company (est. 1 Dec 2019; formerly 理研鼎業) handling IP, licensing, venture support and company co-creation around RIKEN research; the 理研イノベーションキャピタル arm invests in advanced-medical and drug-discovery technology seeds."
+    },
+    "tags": ["research-institute", "tech-transfer", "life-sciences", "drug-discovery"],
+    "summary": {
+      "en": "RIKEN Innovation is the wholly-owned tech-transfer and venture arm of the national research institute RIKEN (est. Dec 2019), whose VC activity targets advanced-medical and drug-discovery technology seeds.",
+      "local": "国立研究開発法人理化学研究所の100%子会社(2019年12月設立)。知財・ライセンス・ベンチャー支援を担い、理研イノベーションキャピタルは先端医療・創薬などの技術シーズに投資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.innovation-riken.jp/en/about-2/",
+        "title": "About us | RIKEN Innovation Co., Ltd.",
+        "publisher": "RIKEN Innovation",
+        "accessed": "undefined",
+        "supports": "wholly-owned subsidiary of RIKEN, establishment date, commercialization mission",
+        "quote": "Wholly owned subsidiary of RIKEN ... December 1, 2019 ... support real-world application of a vast range of scientific research by aiding researchers wishing to commercialize inventions"
+      },
+      {
+        "url": "https://startup-db.com/investment-companies/dnPXGnyU4DPJKlBN",
+        "title": "理研イノベーションキャピタル | STARTUP DB",
+        "publisher": "STARTUP DB",
+        "accessed": "undefined",
+        "supports": "VC arm investing in advanced medical / drug-discovery technology seeds",
+        "quote": "理研イノベーションキャピタルは、再生可能エネルギー分野、農業分野や先端医療・創薬分野などの優れた技術シーズを有する中小企業・中堅企業に投資活動と事業支援活動を行うベンチャーキャピタル"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "RIKEN Innovation (formerly 理研鼎業) is primarily a tech-transfer company; its distinct venture-capital arm (理研イノベーションキャピタル) is documented in secondary sources. Fund size not confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-tusic",
+    "name": {
+      "en": "Tokyo University of Science Innovation Capital (TUSIC)",
+      "local": "東京理科大学イノベーション・キャピタル株式会社"
+    },
+    "aka": ["TUSIC", "東京理科大学イノベーション・キャピタル"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://tusic.co.jp/",
+    "capital": {
+      "funds": [
+        { "name": "TUSIC2号ファンド (TUSIC投資事業有限責任組合)", "vintage_year": 2019, "size": { "raw": "75億円 / JPY 7.5 billion", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools", "generalist-health"],
+      "thesis": "Venture-fund arm of Tokyo University of Science (est. Nov 2018) investing from seed to pre-IPO across life science, SDGs, IoT, X-Tech and data science; not limited to university-originated companies but rooted in TUS pharma/life-science research."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "science_platform_notes": "Manages Tokyo University of Science's 2nd venture fund (2019, JPY 7.5B); TUS established its 1st fund in 2016 and 2nd fund in 2019."
+    },
+    "tags": ["university-vc", "life-sciences", "deep-tech"],
+    "summary": {
+      "en": "TUSIC is Tokyo University of Science's venture-capital arm (est. Nov 2018) managing the JPY 7.5B TUSIC 2nd fund and investing in life science among other deep-tech fields.",
+      "local": "東京理科大学のVC(2018年11月設立)。75億円のTUSIC2号ファンドを運用し、ライフサイエンスを含むディープテック領域に投資。"
+    },
+    "sources": [
+      {
+        "url": "https://tusic.co.jp/",
+        "title": "TUSIC | 東京理科大学イノベーション・キャピタル",
+        "publisher": "Tokyo University of Science Innovation Capital",
+        "accessed": "undefined",
+        "supports": "founding date, fund vintage and size, life-science investment field",
+        "quote": "2018年11月に設立 ... 東京理科大学は2016年に1号ファンド、2019年に2号ファンドを設立し、2号ファンドを東京理科大学イノベーション・キャピタルが運営しており、TUSIC2号ファンド（TUSIC投資事業有限責任組合）は2019年設立、ファンド規模は75億円 ... SDGs・ライフサイエンス・IoT・XTech・データサイエンス"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund size (JPY 7.5B) and sector list drawn from the TUSIC site as summarized; TUS also has a separate endowment-management entity (東京理科大学インベストメント・マネジメント), which is not this VC.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-mirai-creation-investments",
+    "name": {
+      "en": "Mirai Creation Investments (formerly Mirai Creation Organization)",
+      "local": "株式会社みらい創造インベストメンツ"
+    },
+    "aka": ["みらい創造機構", "Mirai Creation Organization", "Mirai Sozo"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "website": "https://miraisozo.co.jp/",
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["medtech-devices", "therapeutics", "generalist-health"],
+      "thesis": "R&D-startup VC centered on Institute of Science Tokyo (formerly Tokyo Institute of Technology) related ventures; its funds' deep-tech scope includes life sciences and medical devices, reinforced by Science Tokyo's 2024 merger with Tokyo Medical and Dental University."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "modalities": ["medical-hardware"],
+      "science_platform_notes": "Tokyo Tech / Institute of Science Tokyo's affiliated (certified) fund manager under the government START program; Fund 1 (2016), Fund 2 (Sept 2021) and a Fund 3 with Tokyo Metropolitan Government as an LP."
+    },
+    "tags": ["university-vc", "deep-tech", "life-sciences"],
+    "summary": {
+      "en": "Mirai Creation Investments (formerly Mirai Creation Organization) is Institute of Science Tokyo / Tokyo Tech's affiliated deep-tech VC, whose fund scope includes life sciences and medical devices.",
+      "local": "東京科学大学(旧・東京工業大学)の連携VC。みらい創造機構から改称し、ライフサイエンス・医療機器を含むディープテック領域に投資。"
+    },
+    "sources": [
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOUC261GD0W5A221C2000000/",
+        "title": "東京科学大系VCのみらい創造、3号ファンド設立 東京都が出資",
+        "publisher": "Nikkei",
+        "accessed": "undefined",
+        "supports": "Institute of Science Tokyo-affiliated VC, 3rd fund establishment with Tokyo Metropolitan Government",
+        "quote": "東京科学大系VCのみらい創造、3号ファンド設立 東京都が出資"
+      },
+      {
+        "url": "https://www.isct.ac.jp/ja/news/s4vd2x2eaigb",
+        "title": "株式会社みらい創造インベストメンツと新連携協定を締結",
+        "publisher": "Institute of Science Tokyo (Science Tokyo)",
+        "accessed": "undefined",
+        "supports": "formal collaboration agreement between Science Tokyo and Mirai Creation Investments",
+        "quote": "株式会社みらい創造インベストメンツと新連携協定を締結"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Formerly みらい創造機構; a Tokyo Tech-'related'/certified VC rather than a wholly-owned arm. Medical nexus: fund scope includes life sciences / medical devices, and Science Tokyo now incorporates the former Tokyo Medical and Dental University. Specific fund sizes were inconsistent across sources and are therefore not asserted here.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-hiroshima-incubation-capital",
+    "name": {
+      "en": "Hiroshima Incubation & Capital (HIC)",
+      "local": "株式会社ひろしまインキュベーション＆キャピタル"
+    },
+    "aka": ["HIC", "ひろしまインキュベーション＆キャピタル"],
+    "type": "university-hospital-fund",
+    "subtypes": ["vc", "incubator"],
+    "status": "active",
+    "founded_year": 2023,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Hiroshima",
+    "website": "https://hicapital.jp/about/",
+    "capital": {
+      "funds": [
+        { "name": "HIC第1号投資事業有限責任組合 (HIC Fund 1)", "vintage_year": 2026, "size": { "raw": "12億円規模 / about JPY 1.2 billion", "usd": null, "currency": "JPY" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["medtech-devices", "therapeutics", "generalist-health"],
+      "thesis": "Hiroshima University-launched venture capital (the first university-originated VC in Hiroshima Prefecture) supporting university spinouts including medical and bio ventures, operated together with Hiroshima Venture Capital and REVIC."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "science_platform_notes": "Founded to commercialize Hiroshima University (and other Hiroshima-area university) research; HIC Fund 1 was formed in January 2026 to back 5–8 companies. Staff/capitalists seconded from Hiroshima Venture Capital and REVIC."
+    },
+    "tags": ["university-vc", "regional", "incubation", "life-sciences"],
+    "summary": {
+      "en": "HIC is Hiroshima University's launched VC (Hiroshima Prefecture's first university-originated VC); its first fund (~JPY 1.2B, formed Jan 2026) backs university spinouts including medical/bio ventures.",
+      "local": "広島大学発のVC(広島県内初の大学発VC)。2026年1月組成の第1号ファンド(約12億円)で、医療・バイオを含む大学発スタートアップ5〜8社の事業化を支援。"
+    },
+    "sources": [
+      {
+        "url": "https://hicapital.jp/about/",
+        "title": "HICとは | 株式会社ひろしまインキュベーション&キャピタル",
+        "publisher": "Hiroshima Incubation & Capital",
+        "accessed": "undefined",
+        "supports": "Hiroshima University-launched VC, operating structure with Hiroshima Venture Capital and REVIC",
+        "quote": "広島県内初の大学発ベンチャーキャピタル ... 広島ベンチャーキャピタル（HVC）および株式会社地域経済活性化支援機構（REVIC）から役員やキャピタリストの派遣を受けており"
+      },
+      {
+        "url": "https://www.nikkei.com/article/DGXZQOCC275ZW0X20C26A3000000/",
+        "title": "広島大学発VC、12億円規模の新興支援ファンド 5〜8社事業化",
+        "publisher": "Nikkei",
+        "accessed": "undefined",
+        "supports": "first fund size ~JPY 1.2 billion, number of companies to commercialize",
+        "quote": "広島大学発VC、12億円規模の新興支援ファンド 5〜8社事業化"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HIC is university-launched but operationally intertwined with the independent Hiroshima Venture Capital and REVIC. Medical/bio nexus is via Hiroshima University spinouts (the university has a medical school); the fund is broad-sector, so life-science exposure is partial. Founding year of the company (~2023/2024 plan) not precisely confirmed.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "jp-oist-innovation",
+    "name": {
+      "en": "OIST Innovation (Okinawa Institute of Science and Technology)",
+      "local": "沖縄科学技術大学院大学 OISTイノベーション"
+    },
+    "aka": ["OIST", "OIST Innovation Accelerator"],
+    "type": "university-hospital-fund",
+    "subtypes": ["accelerator", "incubator"],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Onna, Okinawa",
+    "website": "https://www.oist.jp/innovation",
+    "program": {
+      "length_weeks": 40,
+      "investment": { "raw": "up to JPY 10,000,000 in funding", "usd": null, "currency": "JPY" },
+      "format": "in-person",
+      "location": "Okinawa, Japan",
+      "lab_space": true,
+      "eligibility": "Entrepreneurial scientists and researchers turning science/technology into market-based solutions"
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Japan"],
+      "sector_focus": ["digital-health", "life-science-tools", "generalist-health"],
+      "thesis": "Innovation/commercialization arm of the OIST research graduate institute; its 10-month Innovation Accelerator provides up to JPY 10M per team, and the affiliated OIST–Lifetime Ventures deep-tech fund invests in sectors including healthtech."
+    },
+    "lifesci": {
+      "company_creation": true,
+      "science_platform_notes": "OIST runs an Innovation Accelerator and Incubator; the associated OIST–Lifetime Ventures Fund (managed by the independent VC Lifetime Ventures, est. 2017) targets science-based deep tech including healthtech."
+    },
+    "tags": ["research-institute", "accelerator", "healthtech", "deep-tech"],
+    "summary": {
+      "en": "OIST Innovation is the commercialization arm of the Okinawa Institute of Science and Technology, running a 10-month accelerator (up to JPY 10M/team) and an affiliated deep-tech fund covering healthtech.",
+      "local": "沖縄科学技術大学院大学(OIST)のイノベーション部門。10か月のアクセラレーター(1チーム最大1,000万円)と、ヘルステックを含むディープテックファンド(OIST-ライフタイムベンチャーズ)を有する。"
+    },
+    "sources": [
+      {
+        "url": "https://www.oist.jp/innovation/accelerator-startup-support-innovation",
+        "title": "Accelerator Program Overview | OIST",
+        "publisher": "Okinawa Institute of Science and Technology",
+        "accessed": "undefined",
+        "supports": "accelerator length and per-team funding",
+        "quote": "a competitive 10-month entrepreneurship residency ... provided with up to 10,000,000 Japanese yen in funding, structured coaching, and introductions to partners and early-stage investors"
+      },
+      {
+        "url": "https://www.oist.jp/innovation/venture-capital-startup-support-innovation",
+        "title": "Venture Capital Fund | OIST",
+        "publisher": "Okinawa Institute of Science and Technology",
+        "accessed": "undefined",
+        "supports": "affiliated OIST–Lifetime Ventures fund and healthtech focus",
+        "quote": "Lifetime Ventures launched the OIST-Lifetime Ventures Fund in collaboration with the Okinawa Institute of Science and Technology to deliver impactful science-based deep tech solutions in sectors that include healthtech"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "OIST is a research graduate institute; its own vehicle is the accelerator/incubator (grant-style investment up to JPY 10M), while the equity fund is managed by the independent Lifetime Ventures. Included for research-institute coverage; medical nexus is via healthtech focus rather than a dedicated life-science fund.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  }
+]

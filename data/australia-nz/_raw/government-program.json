@@ -1,0 +1,509 @@
+[
+  {
+    "id": "anz-medical-research-future-fund",
+    "name": { "en": "Medical Research Future Fund (MRFF)" },
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Canberra",
+    "website": "https://www.health.gov.au/our-work/mrff",
+    "capital": {
+      "aum": { "raw": "$20 billion (corpus target reached July 2020; reported at $24.83 billion / $25.4 billion in later 2025 sources)", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["generalist-health", "therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Australian Commonwealth sovereign endowment fund (established under the Medical Research Future Fund Act 2015) whose investment earnings finance health and medical research; it seeded and funds equity/translation vehicles such as the Biomedical Translation Fund and Biomedical Translation Bridge alongside its larger grants program."
+    },
+    "track_record": {
+      "portfolio_count": null
+    },
+    "tags": ["sovereign-fund", "commonwealth", "medical-research", "translation-funding"],
+    "summary": {
+      "en": "The MRFF is Australia's federal medical research endowment; beyond its large grants program, it is the capital source behind national biomedical commercialisation/venture vehicles including the Biomedical Translation Fund and Biomedical Translation Bridge."
+    },
+    "sources": [
+      {
+        "url": "https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/medical-research-future-fund-now-worth-20-billion",
+        "title": "Medical Research Future Fund now worth $20 billion",
+        "publisher": "Australian Government Department of Health, Disability and Ageing",
+        "accessed": "undefined",
+        "supports": "corpus reaching $20 billion in 2020",
+        "quote": "Medical Research Future Fund now worth $20 billion"
+      },
+      {
+        "url": "https://www.health.gov.au/our-work/mrff",
+        "title": "Medical Research Future Fund",
+        "publisher": "Australian Government Department of Health, Disability and Ageing",
+        "accessed": "undefined",
+        "supports": "MRFF purpose and current scale",
+        "quote": "The Medical Research Future Fund (MRFF) is a $25.4 billion long-term investment supporting Australian health and medical research."
+      },
+      {
+        "url": "https://business.gov.au/grants-and-programs/biomedical-translation-fund",
+        "title": "Biomedical Translation Fund (BTF)",
+        "publisher": "business.gov.au",
+        "accessed": "undefined",
+        "supports": "BTF as first MRFF investment",
+        "quote": "The $500 million Biomedical Translation Fund (BTF), the first investment from the Medical Research Future Fund (MRFF), will stimulate private sector investment in biomedical commercialisation"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Corpus figures vary by source date: $20B (2020, ministerial release), $24.83B (Sept 2025 statutory review reference), $25.4B (search-summarized figure from health.gov.au, not independently verified via direct page fetch — WebFetch on health.gov.au/our-work/mrff timed out). MRFF is primarily a grants-funding endowment; only a subset of its activity (BTF, BTB) is equity/venture-style investment, which is why those are listed as separate entities in this dataset.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-biomedical-translation-fund",
+    "name": { "en": "Biomedical Translation Fund (BTF)" },
+    "type": "government-program",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Canberra",
+    "website": "https://business.gov.au/grants-and-programs/biomedical-translation-fund",
+    "capital": {
+      "current_fund": { "raw": "$501.25 million", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "Commonwealth-capitalised venture capital program (funded via the MRFF) that deploys money through three licensed private-sector fund managers — Brandon Capital Partners, OneVentures Management and BioScience Managers — to help Australian early-stage biomedical companies commercialise research discoveries into therapeutics, devices and digital health products."
+    },
+    "tags": ["fund-of-funds", "biomedical-commercialisation", "mrff"],
+    "summary": {
+      "en": "A $501.25M Australian Government program (mixing Commonwealth and private capital) that channels venture funding into early-stage biomedical companies via licensed private VC managers, and was the first investment made using MRFF capital."
+    },
+    "sources": [
+      {
+        "url": "https://business.gov.au/grants-and-programs/biomedical-translation-fund",
+        "title": "Biomedical Translation Fund (BTF)",
+        "publisher": "business.gov.au",
+        "accessed": "undefined",
+        "supports": "total fund size, government/private split, fund managers, eligibility",
+        "quote": "A total of $501.25 million is available through the Biomedical Translation Fund. A total of $250 million is from Commonwealth capital and $251.25 million is from private sector capital."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Program is now closed to new fund managers/new capital raising per business.gov.au (existing investee companies can still contact the three fund managers). Fund managers listed (Brandon Capital, OneVentures, BioScience Managers) are private VC firms and are out of scope for this government-program slice themselves, but are noted here as delivery partners.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-biomedical-translation-bridge",
+    "name": { "en": "Biomedical Translation Bridge (BTB)" },
+    "type": "government-program",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Canberra",
+    "website": "https://www.health.gov.au/our-work/mrff-biomedical-translation-bridge-initiative",
+    "capital": {
+      "current_fund": { "raw": "$22.3 million", "usd": null, "currency": "AUD" }
+    },
+    "program": {
+      "investment": { "raw": "up to $1 million over up to 2 years, 1:1 cash-matched", "usd": null, "currency": "AUD" },
+      "eligibility": "Early-stage Australian health and medical research ventures seeking to reach proof-of-concept; recipients must provide dollar-for-dollar matching cash funding."
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "thesis": "MRFF-funded bridging/proof-of-concept program that nurtures early-stage health and medical research ventures toward investable proof-of-concept, delivered in partnership with MTPConnect, BioCurate, UniQuest and the Medical Device Partnering Program."
+    },
+    "tags": ["proof-of-concept", "matched-funding", "mrff"],
+    "summary": {
+      "en": "A $22.3M Australian Government (MRFF) program providing up to $1M in 1:1 matched funding to bridge early-stage health/medical research to a stage where it can attract further private capital."
+    },
+    "sources": [
+      {
+        "url": "https://www.mtpconnect.org.au/projects/biomedicaltranslationbridgeprogram",
+        "title": "Biomedical Translation Bridge Program",
+        "publisher": "MTPConnect",
+        "accessed": "undefined",
+        "supports": "fund size, structure, delivery partners",
+        "quote": "The $22.3 million BTB Program is an initiative of the Medical Research Future Fund (MRFF)."
+      },
+      {
+        "url": "https://health.gov.au/initiatives-and-programs/biomedical-translation-bridge-initiative",
+        "title": "Biomedical Translation Bridge initiative",
+        "publisher": "Australian Government Department of Health and Aged Care",
+        "accessed": "undefined",
+        "supports": "program description",
+        "quote": "The Biomedical Translation Bridge (BTB) funds and nurtures early-stage health and medical research to reach proof-of-concept with the potential to attract further capital and support."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "One search result indicates BTB 'is now part of the Medical Research Commercialisation initiative under the MRFF 10-year Investment Plan,' suggesting possible administrative consolidation/rebrand; both a dedicated BTB page and the MRC initiative page still exist on health.gov.au, so exact current status (standalone vs folded-in) could not be fully disambiguated within budget.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-national-reconstruction-fund-corporation",
+    "name": { "en": "National Reconstruction Fund Corporation (NRFC)" },
+    "aka": ["National Reconstruction Fund", "NRF"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Canberra",
+    "website": "https://www.nrf.gov.au/",
+    "capital": {
+      "aum": { "raw": "$15 billion", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "healthcare-it"],
+      "thesis": "Australian Commonwealth sovereign investment vehicle providing debt and equity finance (not grants) across seven national priority areas, including a dedicated $1.5 billion 'Medical Science' priority area covering therapeutics, medical devices, digital health and healthcare IT; co-invests alongside private capital, e.g. committing $150M into Brandon Capital's BB6 life-sciences VC fund."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Brandon Capital BB6 Fund", "sector": "life-science VC fund-of-funds commitment", "outcome": "active" }
+      ]
+    },
+    "tags": ["sovereign-investment-vehicle", "debt-and-equity", "medical-science-priority-area"],
+    "summary": {
+      "en": "A $15 billion Australian Government co-investment vehicle established in September 2023 that provides equity and debt finance to priority sectors; its Medical Science priority area ($1.5B) backs therapeutics, medtech, digital health and healthcare IT companies, including a $150M commitment to Brandon Capital's BB6 fund."
+    },
+    "sources": [
+      {
+        "url": "https://www.nrf.gov.au/news-and-media-releases/nrfc-commits-150-million-brandon-capital-help-create-and-scale-next-generation-australian-medical-breakthroughs",
+        "title": "NRFC commits $150 million to Brandon Capital to help create and scale the next generation of Australian medical breakthroughs",
+        "publisher": "National Reconstruction Fund Corporation",
+        "accessed": "undefined",
+        "supports": "the $150M commitment to Brandon Capital's BB6 fund",
+        "quote": "The NRFC has invested $150 million in the BB6 Fund of Brandon Capital, a leading life sciences venture capital firm that invests in early-stage and high-growth Australian medical science companies."
+      },
+      {
+        "url": "https://www.nrf.gov.au/what-we-do/our-priority-areas/medical-science",
+        "title": "Medical science | National Reconstruction Fund Corporation",
+        "publisher": "National Reconstruction Fund Corporation",
+        "accessed": "undefined",
+        "supports": "Medical Science priority area allocation and scope",
+        "quote": "The Fund will co-invest in independently assessed projects that drive economic growth across seven priority areas and over seven years, including $1.5 billion in 'medical science' as well as $1 billion each for critical technologies and advanced manufacturing."
+      },
+      {
+        "url": "https://www.finance.gov.au/government/specialist-investment-vehicles/national-reconstruction-fund-corporation",
+        "title": "National Reconstruction Fund Corporation",
+        "publisher": "Department of Finance (Australian Government)",
+        "accessed": "undefined",
+        "supports": "establishment date and debt/equity mandate",
+        "quote": "The National Reconstruction Fund Corporation (NRFC) was established in September 2023, to provide finance to the priority areas in the form of debt and equity (but not grants)."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Direct WebFetch of nrf.gov.au pages timed out; quotes above are drawn from search-engine snippets that clearly attribute the text to the cited nrf.gov.au / finance.gov.au URLs.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-nz-growth-capital-partners",
+    "name": { "en": "NZ Growth Capital Partners (NZGCP)" },
+    "aka": ["New Zealand Venture Investment Fund", "NZVIF"],
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "website": "https://www.nzgcp.co.nz/",
+    "capital": {
+      "funds": [
+        { "name": "Elevate NZ Venture Fund", "vintage_year": 2020, "size": { "raw": "$300 million government-funded fund-of-funds; ~$246M committed across 11 underlying VC funds since 2020, plus a further $100M added in Budget 2025" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b"],
+      "geo_focus": ["New Zealand"],
+      "sector_focus": ["digital-health", "medtech-devices"],
+      "thesis": "Wholly New Zealand Government-owned investment company (Crown entity) that operates two vehicles — Aspire (direct early-stage fund) and Elevate (a Series A/B fund-of-funds) — to build New Zealand's early-stage capital market; health-tech and biotech are among its named focus sectors alongside software, agri-tech and deep-tech."
+    },
+    "tags": ["crown-entity", "fund-of-funds", "early-stage"],
+    "summary": {
+      "en": "New Zealand's Crown-owned venture capital investor, established in 2002 (as NZVIF, rebranded NZGCP), backing early-stage and growth NZ tech companies including health-tech/biotech through its Aspire direct-investment fund and the $300M Elevate fund-of-funds."
+    },
+    "sources": [
+      {
+        "url": "https://www.govt.nz/organisations/nz-growth-capital-partners-limited/",
+        "title": "NZ Growth Capital Partners | New Zealand Government",
+        "publisher": "New Zealand Government (govt.nz)",
+        "accessed": "undefined",
+        "supports": "government-entity status",
+        "quote": "NZ Growth Capital Partners was established by the New Zealand Government in 2002 to build a vibrant early-stage technology investment market in New Zealand."
+      },
+      {
+        "url": "https://nzentrepreneur.co.nz/new-zealand-growth-capital-partners-catalysing-early-stage-investment-through-aspire-and-elevate-funds/",
+        "title": "New Zealand Growth Capital Partners catalysing early-stage investment through Aspire and Elevate funds",
+        "publisher": "NZ Entrepreneur Magazine",
+        "accessed": "undefined",
+        "supports": "Elevate fund size and sector focus incl. health-tech",
+        "quote": "Elevate is a $300m government-funded fund of funds, that invests into venture capital funds; aimed at filling the Series A and B capital gap for high-growth New Zealand tech companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Direct fetch of nzgcp.co.nz/about-us returned HTTP 403; details corroborated instead via the govt.nz official directory entry and NZ Entrepreneur Magazine. Health-tech is one of several named sectors (alongside software, agri-tech, deep-tech), not an exclusive focus.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-callaghan-innovation",
+    "name": { "en": "Callaghan Innovation" },
+    "type": "government-program",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Wellington",
+    "website": "https://www.callaghaninnovation.govt.nz/",
+    "program": {
+      "investment": { "raw": "Deep Tech Incubators: minimum $1,000,000 start capital per venture, comprising at least $250,000 private funding and $750,000 publicly funded via Callaghan Innovation as a repayable grant (3% of annual revenue once revenue-generating)", "usd": null, "currency": "NZD" }
+    },
+    "strategy": {
+      "stages": ["pre-seed", "seed"],
+      "geo_focus": ["New Zealand"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "New Zealand Crown entity (Ministry of Business, Innovation & Employment funding agency) providing R&D grants, capability funding and Deep Tech Incubator co-funding to NZ innovators; its Biotechnologies Group specifically supports health-technology innovation and commercialisation."
+    },
+    "tags": ["crown-entity", "rd-grants", "deep-tech-incubators", "being-disestablished"],
+    "summary": {
+      "en": "New Zealand's national innovation-funding agency, providing R&D grants and incubator co-funding including dedicated biotech/health-tech support via its Biotechnologies Group; the agency is being disestablished, with biotech functions slated to transfer to a new Institute for Bioeconomy Science."
+    },
+    "sources": [
+      {
+        "url": "https://www.mbie.govt.nz/science-and-technology/science-and-innovation/funding-information-and-opportunities/funding-agencies/callahan-innovation",
+        "title": "Callaghan Innovation",
+        "publisher": "Ministry of Business, Innovation & Employment (NZ)",
+        "accessed": "undefined",
+        "supports": "role as government funding agency",
+        "quote": "Callaghan Innovation has long supported Aotearoa New Zealand's innovators and entrepreneurs, helping turn world-changing ideas into reality"
+      },
+      {
+        "url": "https://www.callaghaninnovation.govt.nz/products/products/deep-tech-incubators/",
+        "title": "Deep Tech Incubators",
+        "publisher": "Callaghan Innovation",
+        "accessed": "undefined",
+        "supports": "Deep Tech Incubator co-funding structure",
+        "quote": "All successful applicants will have a minimum of $1,000,000 to start their commercialisation journey, including a minimum of $250,000 privately funded and $750,000 publicly funded coming from Callaghan Innovation in the form of a repayable grant"
+      },
+      {
+        "url": "https://www.callaghaninnovation.govt.nz/about-us/disestablishment-updates/",
+        "title": "Disestablishment Updates",
+        "publisher": "Callaghan Innovation",
+        "accessed": "undefined",
+        "supports": "biotech function transfer / disestablishment status",
+        "quote": "The Biotechnologies Group will continue to be funded until the end of June 2027 and will transfer to the new Institute for Bioeconomy Science once it is established."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Callaghan Innovation is a broad deep-tech/R&D funding agency, not health-exclusive; included per the task's known-anchor list, with its biotech/health-tech nexus documented via the Biotechnologies Group. The agency is mid-disestablishment as of 2026, with functions transferring to Public Research Organisations and a planned Institute for Bioeconomy Science — future continuity of health-tech support is uncertain. Founding year not independently confirmed within budget and therefore omitted.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-breakthrough-victoria",
+    "name": { "en": "Breakthrough Victoria" },
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2021,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://breakthroughvictoria.com/",
+    "capital": {
+      "aum": { "raw": "$2 billion over 10 years", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "growth"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "life-science-tools"],
+      "thesis": "Victorian State Government-owned $2 billion, 10-year investment fund backing research commercialisation and company growth across five priority sectors, with health and life-sciences (anchored in the Parkville biomedical precinct) as one of its core verticals, alongside agri-food, advanced manufacturing, clean energy and digital technologies."
+    },
+    "track_record": {
+      "portfolio_count": "22 direct investments (across all sectors) as of ~3 years of operation"
+    },
+    "tags": ["state-government-fund", "victoria", "parkville"],
+    "summary": {
+      "en": "A $2 billion Victorian Government investment fund established in 2021 to back research commercialisation, with health & life-sciences (centred on Melbourne's Parkville precinct) as a named priority sector alongside agri-food, manufacturing, clean energy and digital tech."
+    },
+    "sources": [
+      {
+        "url": "https://www.premier.vic.gov.au/breakthrough-fund-boost-research-and-innovation",
+        "title": "Breakthrough Fund To Boost Research And Innovation",
+        "publisher": "Premier of Victoria",
+        "accessed": "undefined",
+        "supports": "fund size and sector scope incl. health & life-sciences",
+        "quote": "The Victorian Budget 2020/21 delivered a landmark $2 billion for the Breakthrough Victoria Fund to ensure Victoria remains at the forefront of research and innovation."
+      },
+      {
+        "url": "https://ia.acs.org.au/article/2024/victoria-s-vc-fund-defends-its-existence.html",
+        "title": "Victoria's VC fund defends its existence",
+        "publisher": "Information Age (ACS)",
+        "accessed": "undefined",
+        "supports": "cumulative deployment figures",
+        "quote": "Breakthrough Victoria has now committed more than $300 million in capital in its three years of operation, and has made 22 direct investments in companies"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Breakthrough Victoria is a generalist state fund across 5 sectors; health & life-sciences is one named vertical (not the sole focus). Portfolio count of 22 is fund-wide (not health-specific); a health-specific sub-count could not be confirmed within budget.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-csiro-innovation-fund",
+    "name": { "en": "CSIRO Innovation Fund (managed by Main Sequence Ventures)" },
+    "type": "government-program",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Sydney",
+    "website": "https://www.csiro.au/en/work-with-us/funding-programs/funding/main-sequence",
+    "capital": {
+      "funds": [
+        { "name": "CSIRO Innovation Fund", "vintage_year": 2016, "size": { "raw": "targeted $100M+ (seeded with $70M Australian Government contribution + $30M from CSIRO's WiFi royalties, aiming to attract further private capital)" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["seed", "series-a"],
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools"],
+      "thesis": "Deep-tech venture fund launched in 2016 by Australia's national science agency CSIRO under the Turnbull Government's National Innovation and Science Agenda, government-seeded to commercialise CSIRO and university research spinouts — health/biotech is one of its core mission areas alongside food, space and industrial productivity."
+    },
+    "track_record": {
+      "notable_investments": [],
+      "portfolio_count": "9+ companies benefited from the original CSIRO Innovation Fund"
+    },
+    "tags": ["deep-tech", "csiro", "national-science-agency", "fund-manager-main-sequence"],
+    "summary": {
+      "en": "A government-seeded ($70M Commonwealth + $30M CSIRO royalty proceeds) venture fund launched in 2016 by Australia's CSIRO and managed by Main Sequence Ventures, which backs deep-tech company creation including health/biotech breakthroughs derived from public research."
+    },
+    "sources": [
+      {
+        "url": "https://www.csiro.au/en/news/All/News/2021/April/Main-Sequence-announces-new-250M-Fund",
+        "title": "Main Sequence announces new $250M Fund",
+        "publisher": "CSIRO",
+        "accessed": "undefined",
+        "supports": "fund manager, sector focus incl. health",
+        "quote": "Investments from Fund II will continue Main Sequence's mission to solve the world's biggest problems in health, food, space, and industrial productivity, by turning science and research into breakthrough companies."
+      },
+      {
+        "url": "https://research.csiro.au/lindfieldhub/csiro-innovation-fund-main-sequence-ventures/",
+        "title": "CSIRO Innovation Fund - Managed by Main Sequence Ventures",
+        "publisher": "CSIRO",
+        "accessed": "undefined",
+        "supports": "original fund origin and government seed capital",
+        "quote": "The CSIRO Innovation Fund was launched in 2016 as part of the then-Turnbull Government's National Innovation and Science Agenda. It was funded from an initial $70 million Government contribution and another $30 million from CSIRO's WiFi royalties"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Main Sequence Ventures, the manager, has since raised much larger, predominantly privately-capitalised follow-on funds (e.g. the $250M Fund II with LPs like Temasek, Lockheed Martin, Horizons Ventures); this entity refers specifically to the original government-seeded CSIRO Innovation Fund vehicle and its health-related mandate, not to Main Sequence's full current AUM. Health is one of several mission areas, not an exclusive focus.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-mtpconnect",
+    "name": { "en": "MTPConnect" },
+    "aka": ["AUScelerate", "Medical Technologies and Pharmaceutical Growth Centre"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://www.mtpconnect.org.au/",
+    "capital": {
+      "current_fund": { "raw": "$15.6 million in Commonwealth project funding (1:1 industry-matched) under the Industry Growth Centres Initiative; separately delivers the $22.3M Biomedical Translation Bridge program", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "geo_focus": ["Australia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "pharma-services"],
+      "thesis": "Australian Government-established (2015) Industry Growth Centre for the medical technology, biotechnology and pharmaceutical sector; channels Commonwealth co-funding (matched 1:1 by industry) into collaborative commercialisation projects and delivers MRFF programs such as the Biomedical Translation Bridge on behalf of the Department of Health."
+    },
+    "tags": ["industry-growth-centre", "not-for-profit", "commonwealth-funded"],
+    "summary": {
+      "en": "One of six Australian Government Industry Growth Centres, MTPConnect (now also operating as AUScelerate) channels federal co-funding into medtech/biotech/pharma commercialisation projects and administers MRFF programs like the Biomedical Translation Bridge."
+    },
+    "sources": [
+      {
+        "url": "https://www.services-exports.gov.au/progress/medical-technologies-and-pharmaceutical-growth-centre-mtpconnect",
+        "title": "Medical Technologies and Pharmaceutical Growth Centre (MTPConnect)",
+        "publisher": "Australian Government (services-exports.gov.au)",
+        "accessed": "undefined",
+        "supports": "government funding amount and matching requirement",
+        "quote": "the Government has provided $15.6 million in project funding to the Medical Technologies and Pharmaceutical Growth Centre, known as MTPConnect, to enable them to undertake collaborative projects with research bodies and industry"
+      },
+      {
+        "url": "https://mtpconnect.org.au/mtpconnect-announces-7-4m-funding-for-14-national-mtp-projects/",
+        "title": "MTPConnect announces $7.4m funding for 14 national MTP projects",
+        "publisher": "MTPConnect",
+        "accessed": "undefined",
+        "supports": "formation as Industry Growth Centre and BTB delivery role",
+        "quote": "MTPConnect was formed in December 2015 as part of the Federal Government's Industry Growth Centres Initiative"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "MTPConnect primarily channels grants/project co-funding rather than making direct equity investments itself; included because it is a formally Commonwealth-established/funded body that administers biomedical commercialisation capital programs (e.g., BTB). Now also branded 'AUScelerate' per search results, though the relationship between the two names (rename vs. sub-brand) was not independently confirmed via a primary source within budget.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "anz-queensland-sovereign-industry-development-fund",
+    "name": { "en": "Queensland Sovereign Industry Development Fund" },
+    "type": "government-program",
+    "status": "active",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Brisbane",
+    "capital": {
+      "aum": { "raw": "$180.6 million", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "geo_focus": ["Australia"],
+      "sector_focus": ["pharma-services", "medtech-devices"],
+      "thesis": "Queensland State Government fund (under the Crisafulli Government) building sovereign manufacturing capability in critical industries; its first biomedical commitments fund a domestic Thorium-228 (radiopharmaceutical precursor for targeted alpha cancer therapy) manufacturing capability and a sterile fill-finish drug manufacturing platform."
+    },
+    "lifesci": {
+      "modalities": ["radiopharmaceuticals"],
+      "indications": ["oncology"]
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "AdvanCell", "sector": "radiopharmaceuticals manufacturing", "outcome": "active" },
+        { "company": "Southern RNA", "sector": "pharma fill-and-finish manufacturing", "outcome": "active" }
+      ]
+    },
+    "tags": ["state-government-fund", "queensland", "sovereign-manufacturing", "radiopharmaceuticals"],
+    "summary": {
+      "en": "A $180.6 million Queensland Government sovereign-capability fund whose first two biomedical commitments ($15.25M for AdvanCell's Thorium-228 cancer-therapy isotope manufacturing and $2.2M for Southern RNA's sterile fill-finish platform) back domestic pharmaceutical manufacturing capacity."
+    },
+    "sources": [
+      {
+        "url": "https://www.indailyqld.com.au/news/just-in/2026/05/11/state-govt-funds-new-sovereign-biomedical-projects",
+        "title": "State govt funds new sovereign biomedical projects",
+        "publisher": "InDaily QLD",
+        "accessed": "undefined",
+        "supports": "fund size, project names, funding amounts",
+        "quote": "The project will position Queensland as the only jurisdiction in the world capable of producing Thorium-228 at a commercial scale."
+      },
+      {
+        "url": "https://opengovasia.com/queensland-funds-new-biomedical-manufacturing-projects-to-strengthen-sovereign-capability/?c=us",
+        "title": "Queensland Funds New Biomedical Manufacturing Projects to Strengthen Sovereign Capability",
+        "publisher": "OpenGov Asia",
+        "accessed": "undefined",
+        "supports": "corroborates fund and biomedical project focus",
+        "quote": "Queensland Funds New Biomedical Manufacturing Projects to Strengthen Sovereign Capability"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Could not confirm the fund's precise establishment year, governing legislation/agency, or whether disbursements are structured as grants, equity, or loans — the sourced article referenced only 'funds' and 'awards' without specifying mechanism; no official Queensland Government URL for the fund itself was successfully fetched (site fetches were not attempted further due to budget). This is a very recent, narrow (2-project) biomedical commitment as of mid-2026; scale/durability as an ongoing biomedical investor is unproven.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  }
+]

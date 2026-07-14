@@ -1,0 +1,306 @@
+[
+  {
+    "id": "kr-kvic-korea-fund-of-funds",
+    "name": { "en": "Korea Venture Investment Corp — Korea Fund of Funds (Healthcare Account)", "local": "한국벤처투자 한국모태펀드 보건계정" },
+    "aka": ["KVIC", "모태펀드", "Korea Fund of Funds", "FoF 보건계정"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2005,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.kvic.or.kr/",
+    "capital": {
+      "aum": { "raw": "약 8.9조원 (모태펀드 전체, 2023년 12월 기준)", "usd": null, "currency": "KRW" },
+      "funds": [
+        { "name": "모태펀드(보건복지부 계정) 임상 3상 특화펀드", "vintage_year": 2026, "size": { "raw": "1,500억원 (보건복지부 700억+수출입은행 100억+기업은행 100억 등 공동출자)", "usd": null, "currency": "KRW" } },
+        { "name": "모태펀드(보건복지부) 2026년 2차 정시 출자사업 — 프리미어파트너스 GP 선정", "vintage_year": 2026, "size": { "raw": "모태펀드 출자 400억원 → 최소 2,000억원 규모 펀드 결성 목표", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["generalist-health", "therapeutics"],
+      "thesis": "KVIC operates Korea's national Fund of Funds (모태펀드), a 30-year (2005-2035) policy vehicle capitalized by 12 government ministries; its Ministry of Health & Welfare-backed healthcare account (보건계정) supplies anchor LP capital to private VC funds that back biotech, digital health and medical-device startups, including a dedicated ₩150bn Phase-3 clinical-stage fund launched in 2026."
+    },
+    "lifesci": { "invests_public_markets": null },
+    "summary": {
+      "en": "KVIC is the state-run manager of South Korea's Fund of Funds; its Ministry of Health & Welfare healthcare account is a major LP behind the country's biotech/health VC ecosystem, most recently anchoring a KRW 150bn Phase-3 clinical-trial-stage fund.",
+      "local": "한국벤처투자(KVIC)는 한국모태펀드를 운용하는 국책기관으로, 보건복지부가 출자하는 보건계정을 통해 바이오·헬스케어 벤처펀드에 앵커 LP로 출자한다."
+    },
+    "sources": [
+      { "url": "https://www.kvic.or.kr/about-business", "title": "사업소개 > 출자사업 > 한국모태펀드 > 사업개요", "publisher": "한국벤처투자(KVIC)", "accessed": "undefined", "supports": "FoF structure, 2005 establishment, 12-ministry LP structure, healthcare account existence, ₩8.9tn AUM", "quote": "Established in 2005 under the Special Measures Act for Venture Business Development, the Korea Fund of Funds operates as a Fund of Funds structure... Twelve government ministries and agencies (including the Ministry of Health and Welfare)... Size: ₩8.9 trillion (as of December 2023)" },
+      { "url": "https://www.bloter.net/news/articleView.html?idxno=662907", "title": "1500억 '바이오 3상 펀드' 등판…현실 외면한 정책에 회의론 커져", "publisher": "블로터", "accessed": "undefined", "supports": "₩150bn clinical phase-3 specialized fund via MOHW account", "quote": "한국벤처투자가 모태펀드 보건복지부 계정을 통해 1500억원 규모의 '임상 3상 특화펀드' 조성" },
+      { "url": "https://kbthink.com/news-list/view.html?newsId=20260624145314357", "title": "프리미어파트너스, 2천억 바이오 펀드레이징 돌입…모태펀드 GP 낙점", "publisher": "KB의 생각", "accessed": "undefined", "supports": "2026 2nd-round GP selection, ₩40bn commitment", "quote": "모태펀드가 이번 출자사업에 배정한 예산은 400억 원입니다. 프리미어파트너스가 위탁운용사(GP) 자격을 따냈습니다." }
+    ],
+    "confidence": "high",
+    "verification_notes": "The ₩8.9tn AUM figure is for the entire Fund of Funds across ~17 sector accounts, not bio-specific; the healthcare/MOHW account size alone was not separately disclosed in sources reviewed.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "kr-k-bio-vaccine-fund",
+    "name": { "en": "K-Bio & Vaccine Fund", "local": "K-바이오·백신 펀드" },
+    "aka": ["K-바이오백신펀드", "K-Bio Vaccine Fund"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2023,
+    "region": "south-korea",
+    "country": "South Korea",
+    "website": "https://www.mohw.go.kr/",
+    "capital": {
+      "funds": [
+        { "name": "K-바이오·백신 2호 펀드 (프리미어파트너스)", "vintage_year": 2023, "size": { "raw": "1,566억원", "usd": null, "currency": "KRW" } },
+        { "name": "K-바이오·백신 4호 펀드", "vintage_year": 2024, "size": { "raw": "800억원 (우선 결성)", "usd": null, "currency": "KRW" } },
+        { "name": "K-바이오·백신 7호 펀드 (프리미어파트너스, 목표 확대)", "vintage_year": 2026, "size": { "raw": "2,000억원 (당초 목표 1,000억원에서 확대)", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "pharma-services"],
+      "thesis": "Ministry of Health & Welfare flagship policy fund series (jointly capitalized with Korea Development Bank and IBK) that anchors private VC funds dedicated to biopharma and vaccine company financing, part of MOHW's plan to grow this into a roughly KRW 1 trillion 'K-Bio Mega Fund'."
+    },
+    "lifesci": { "modalities": ["vaccines"], "indications": ["infectious-disease"] },
+    "summary": {
+      "en": "K-Bio & Vaccine Fund is South Korea's Ministry of Health & Welfare-led policy fund series (1st-7th funds since 2023), co-capitalized with KDB/IBK, that seeds private-sector VC funds investing in biopharma and vaccine developers.",
+      "local": "K-바이오·백신 펀드는 보건복지부가 산업은행·기업은행과 공동 출자해 2023년부터 조성 중인 정책펀드 시리즈로, 민간 VC를 통해 바이오·백신 기업에 투자한다."
+    },
+    "sources": [
+      { "url": "https://mohw.go.kr/board.es?act=view&bid=0027&list_no=1481977&mid=a10503000000", "title": "K-바이오·백신 2호 펀드(프리미어파트너스) 1566억 원 규모 결성 완료", "publisher": "보건복지부", "accessed": "undefined", "supports": "2호 펀드 규모 및 결성 완료", "quote": "K-바이오·백신 2호 펀드(프리미어파트너스) 1566억 원 규모 결성 완료" },
+      { "url": "https://mohw.go.kr/board.es?act=view&bid=0027&list_no=1485638&mid=a10503000000", "title": "K-바이오·백신 4호 펀드 800억 원 규모 우선 결성해 투자 개시", "publisher": "보건복지부", "accessed": "undefined", "supports": "4호 펀드 규모", "quote": "K-바이오·백신 4호 펀드 800억 원 규모 우선 결성해 투자 개시" },
+      { "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=537318", "title": "K-바이오·백신 7호 2천억 펀드 운용사에 프리미어파트너스 선정", "publisher": "약사공론", "accessed": "undefined", "supports": "7호 펀드 목표 확대 (1,000억원 → 2,000억원)", "quote": "K-바이오·백신 7호 2천억 펀드 운용사에 프리미어파트너스 선정" }
+    ],
+    "confidence": "high",
+    "verification_notes": "Cumulative size across funds 1-6 (reported elsewhere as ~₩5,796억원) and the ₩1tn 'mega fund' target were referenced only in aggregated search summaries without a confirmed single verbatim source, so omitted from capital.aum.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "kr-kgrowth",
+    "name": { "en": "Korea Growth Investment Corporation (K-Growth)", "local": "한국성장금융투자운용" },
+    "aka": ["K-Growth", "한국성장금융", "성장사다리펀드"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2016,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.kgrowth.or.kr/",
+    "strategy": {
+      "stages": ["all"],
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "State-backed fund-of-funds operator (jointly established by KDB, IBK and the Korea Youth Entrepreneurship Foundation) whose K-Growth Fund lines direct a core share of capital to AI, bio-health and energy value chains, anchoring private VC/PE funds that invest in Korean healthcare and biotech companies."
+    },
+    "summary": {
+      "en": "K-Growth is a Korean policy fund-of-funds manager, successor to the 성장사다리펀드 (Growth Ladder Fund), that channels government/policy-bank capital into VC and PE funds targeting AI, bio-health and energy as core sectors.",
+      "local": "한국성장금융(K-Growth)은 성장사다리펀드를 계승한 정책 모태펀드 운용사로, AI·바이오헬스·에너지를 핵심 투자 분야로 삼아 벤처·PE 펀드에 출자한다."
+    },
+    "sources": [
+      { "url": "https://ko.wikipedia.org/wiki/%ED%95%9C%EA%B5%AD%EC%84%B1%EC%9E%A5%EA%B8%88%EC%9C%B5%ED%88%AC%EC%9E%90%EC%9A%B4%EC%9A%A9", "title": "한국성장금융투자운용", "publisher": "Wikipedia (ko)", "accessed": "undefined", "supports": "Founding year 2016, KDB/IBK/은행권청년창업재단 origin", "quote": "2013년 대한민국 중소·벤처기업 성장을 지원하기 위하여 한국산업은행, 중소기업은행, 은행권청년창업재단이 공동으로 운용하던 성장사다리펀드 등을 효율적으로 운용하기 위하여 2016년 설립된 주식회사입니다." },
+      { "url": "https://www.numbers.co.kr/news/articleView.html?idxno=21211", "title": "성장금융, '증권금융 K-Growth 펀드' GP 9곳 확정", "publisher": "넘버스", "accessed": "undefined", "supports": "AI/bio-health/energy focus of K-Growth Fund; GP selection example", "quote": "K-Growth 펀드의 주목적 투자 대상이 AI·바이오헬스·에너지 등 3대 핵심 산업 밸류체인에 집중됩니다." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "General fund-of-funds operator, not bio-exclusive; healthcare is one of three named core sectors for its current K-Growth Fund line. Facts based on Wikipedia + trade press, not a direct fetch of kgrowth.or.kr.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "kr-khidi",
+    "name": { "en": "Korea Health Industry Development Institute (KHIDI)", "local": "한국보건산업진흥원" },
+    "aka": ["KHIDI"],
+    "type": "government-program",
+    "subtypes": ["incubator"],
+    "status": "active",
+    "founded_year": 1999,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Cheongju",
+    "website": "https://www.khidi.or.kr/",
+    "program": {
+      "format": "hybrid",
+      "location": "Cheongju / Seoul (Biohealth Innovation Start-up Center)",
+      "perks": ["investment matchmaking (Invest Fair, K-BIC STAR DAY)", "professional-investor-linked funding support"]
+    },
+    "strategy": {
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["generalist-health"],
+      "thesis": "KHIDI is the Ministry of Health & Welfare's implementing agency for the bio-health industry; it runs investment-attraction and startup-incubation programs (Biohealth Innovation Start-up Center, K-BIC STAR DAY investor days, Professional Investment Institution Linkage program) that connect Korean biotech/medtech/digital-health startups with VCs."
+    },
+    "track_record": {
+      "portfolio_count": "98 companies (2021-2024 cohort of the Professional Investment Institution Linkage program)"
+    },
+    "summary": {
+      "en": "KHIDI is South Korea's national health-industry promotion agency (under MOHW, HQ in Cheongju); it runs investor-matchmaking and startup support programs — since 2021 its Professional Investment Institution Linkage program has helped 98 companies raise roughly KRW 105.9bn.",
+      "local": "한국보건산업진흥원(KHIDI)은 보건복지부 산하 보건산업 진흥기관으로, 전문투자기관 연계형 투자유치 지원사업 등을 통해 바이오헬스 스타트업의 투자 유치를 지원한다."
+    },
+    "sources": [
+      { "url": "https://www.khidi.or.kr/", "title": "KHIDI 대표사이트", "publisher": "한국보건산업진흥원", "accessed": "undefined", "supports": "Existence, official site, founded Feb 1999, HQ Cheongju", "quote": "KHIDI is a government institution established in February 1999" },
+      { "url": "https://www.khidi.or.kr/board/view?pageNum=231&rowCnt=10&no1=833&linkId=48926349&menuId=MENU00100&maxIndex=00489264929998&minIndex=00489128079998&schType=0", "title": "2025년 전문 투자기관 연계형 투자유치 지원사업 참여 기업 모집", "publisher": "KHIDI", "accessed": "undefined", "supports": "98 companies, ~₩105.9bn raised via Investment Institution Linkage program since 2021", "quote": "From 2021 onwards, KHIDI has operated a 'Professional Investment Institution Linkage Investment Attraction Support Program,' which has supported a total of 98 promising startup companies over four years and achieved investment attraction results of approximately 105.9 billion won." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded-year and HQ-city facts came from an aggregated search summary rather than a directly fetched primary page; treat as medium confidence pending direct verification.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "kr-kddf",
+    "name": { "en": "Korea Drug Development Fund (KDDF)", "local": "국가신약개발사업단(재단)" },
+    "aka": ["KDDF", "국가신약개발사업단", "국가신약개발재단", "범부처신약개발사업단"],
+    "type": "government-program",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "website": "https://kddf.org/",
+    "strategy": {
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics"],
+      "thesis": "KDDF is Korea's multi-ministerial (범부처) national new-drug development program, providing non-dilutive R&D funding and pipeline-investment support across the full drug-development cycle (target discovery through clinical trials) to strengthen the domestic pharma/biotech industry and drug sovereignty."
+    },
+    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "vaccines"] },
+    "track_record": {
+      "portfolio_count": "128 new-drug development projects planned for support in 2025"
+    },
+    "summary": {
+      "en": "KDDF (Korea Drug Development Fund) is a multi-ministry government program that funds Korean new-drug development end-to-end, from candidate discovery through clinical trials, selecting roughly 128 projects for 2025 support.",
+      "local": "국가신약개발사업단(KDDF)은 범부처 국가 R&D 사업으로 신약개발 전주기를 지원하며, 2025년 128건의 신규 과제 지원을 목표로 한다."
+    },
+    "sources": [
+      { "url": "https://kddf.org/ko/info/welcome", "title": "선택과 집중, 창조와 혁신으로 국가 제약-바이오 산업을 견인", "publisher": "국가신약개발사업단(KDDF)", "accessed": "undefined", "supports": "Mission, multi-ministerial full-cycle drug development program", "quote": "이 사업은 국내 제약·바이오 산업의 글로벌 경쟁력 강화와 국민건강의 필수조건인 의약주권 확보를 위해 신약개발 전주기 단계를 지원하는 범부처 국가 R&D 사업입니다." },
+      { "url": "https://www.news1.kr/bio/pharmaceutical-bio/5627552", "title": "KDDF, 내년 신약개발 128건 지원 목표…임상 예산 30% 늘린다", "publisher": "뉴스1", "accessed": "undefined", "supports": "128 projects planned for 2025, clinical trial budget +30%", "quote": "2025년 국가신약개발 과제는 128건을 선정해 지원할 예정입니다." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year not confirmed in sources reviewed (KDDF traces back to a 2011-era 범부처신약개발사업단 predecessor later reorganized as a foundation); omitted rather than guessed. A total 10-year government R&D budget figure (~₩1.47tn) appeared only in aggregated search summary without a confirmed verbatim source, so omitted.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "kr-kmdf",
+    "name": { "en": "Korea Medical Device Development Fund (KMDF)", "local": "범부처전주기의료기기연구개발사업단" },
+    "aka": ["KMDF", "범부처의료기기연구개발사업단"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "website": "https://www.kmdf.org/",
+    "capital": {
+      "funds": [
+        { "name": "KMDF Phase 1 (2020-2025)", "vintage_year": 2020, "size": { "raw": "약 1.2조원 (6년간, 4개 부처 공동)", "usd": null, "currency": "KRW" } },
+        { "name": "KMDF Phase 2 (2026-2032)", "vintage_year": 2026, "size": { "raw": "9,408억원 (정부 8,383억원 + 민간 1,025억원)", "usd": null, "currency": "KRW" } }
+      ]
+    },
+    "strategy": {
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["medtech-devices"],
+      "thesis": "KMDF is a four-ministry (Science & ICT, Trade/Industry/Energy, Health & Welfare, Food & Drug Safety) national R&D and investment-attraction program for medical devices, funding development from R&D through clinical trials and helping portfolio companies raise follow-on private investment."
+    },
+    "lifesci": { "modalities": ["medical-hardware", "software-samd"] },
+    "summary": {
+      "en": "KMDF is South Korea's inter-ministerial medical-device R&D funding program (2020-2032, roughly KRW 2tn combined across two phases) that also runs investment-attraction and commercialization support for device startups.",
+      "local": "범부처전주기의료기기연구개발사업단(KMDF)은 4개 부처가 공동 운영하는 의료기기 R&D 지원사업으로, 투자유치 및 사업화 지원도 병행한다."
+    },
+    "sources": [
+      { "url": "https://www.kmdf.org/summary", "title": "사업개요", "publisher": "범부처전주기의료기기연구개발사업단(KMDF)", "accessed": "undefined", "supports": "4-ministry funding, Phase 2 (2026-2032) budget figures", "quote": "The current program (2026-2032) allocates approximately 940.8 billion Korean won, comprising Government funding: 838.3 billion won, Private sector contribution: 102.5 billion won" },
+      { "url": "https://www.kmdf.org/portal/sub0207", "title": "투자유치 및 사업화지원", "publisher": "KMDF", "accessed": "undefined", "supports": "Investment attraction and commercialization support function" },
+      { "url": "https://thevc.kr/kmdf", "title": "범부처전주기의료기기연구개발사업단(범부처 전주기 의료기기 연구개발사업) - 기관정보", "publisher": "THE VC", "accessed": "undefined", "supports": "Founded 2020, Phase 1 ~₩1.2tn/2020-2025 budget", "quote": "The organization was launched in May 2020 with support from 4 government departments... receiving approximately 1.2 trillion won in funding over 6 years from 2020 to 2025." }
+    ],
+    "confidence": "high",
+    "verification_notes": "Phase-1 (2020-2025, ~₩1.2tn) figure sourced from THE VC's institutional profile rather than the directly-fetched official summary page (which only covers 2026-2032 figures).",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "kr-kmedihub",
+    "name": { "en": "Daegu-Gyeongbuk Medical Innovation Foundation (K-Medi hub)", "local": "대구경북첨단의료산업진흥재단" },
+    "aka": ["K-Medi hub", "케이메디허브", "DGMIF"],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2012,
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Daegu",
+    "website": "https://www.kmedihub.re.kr/",
+    "capital": {
+      "funds": [ { "name": "메디시티기금 (의료산업육성기금)", "vintage_year": null, "size": { "raw": "500억원", "usd": null, "currency": "KRW" } } ]
+    },
+    "strategy": {
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "medtech-devices"],
+      "thesis": "A Ministry of Health & Welfare-affiliated public institution operating Korea's Daegu-Gyeongbuk Advanced Medical Complex; alongside R&D infrastructure (New Drug Development Support Center, preclinical/GMP centers) it deploys a KRW 50bn Medi-City industry development fund to support pharma/medtech company growth."
+    },
+    "summary": {
+      "en": "K-Medi hub is a MOHW-affiliated public foundation running Korea's Daegu-Gyeongbuk advanced medical complex, combining new-drug/medical-device R&D infrastructure with a KRW 50bn Medi-City fund for industry support.",
+      "local": "대구경북첨단의료산업진흥재단(K-Medi hub)은 보건복지부 산하 공공기관으로, 대구경북첨단의료복합단지의 R&D 인프라와 500억원 규모 메디시티기금을 통해 제약·의료기기 기업을 지원한다."
+    },
+    "sources": [
+      { "url": "https://www.kmedihub.re.kr/", "title": "케이메디허브 K-MEDI hub 대구경북첨단의료산업진흥재단", "publisher": "K-Medi hub", "accessed": "undefined", "supports": "Existence, official site" },
+      { "url": "https://namu.wiki/w/%EB%8C%80%EA%B5%AC%EA%B2%BD%EB%B6%81%EC%B2%A8%EB%8B%A8%EC%9D%98%EB%A3%8C%EC%82%B0%EC%97%85%EC%A7%84%ED%9D%A5%EC%9E%AC%EB%8B%A8", "title": "대구경북첨단의료산업진흥재단", "publisher": "나무위키", "accessed": "undefined", "supports": "Founding year 2012, MOHW affiliation, Medi-City Fund KRW 50bn", "quote": "대구경북첨단의료산업진흥재단은 보건복지부 산하 기타공공기관으로... 2012년 12월 첨단의료산업진흥재단(K-medihub) 설립... 메디시티기금(의료산업육성기금 500억원 조성)" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding details and fund size sourced from Namu Wiki aggregation rather than a directly fetched official page; treat as medium confidence.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "kr-kbiohealth",
+    "name": { "en": "Osong Medical Innovation Foundation (KBIOHealth)", "local": "오송첨단의료산업진흥재단" },
+    "aka": ["KBIOHealth"],
+    "type": "government-program",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Cheongju",
+    "website": "https://www.kbiohealth.kr/",
+    "strategy": {
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "pharma-services"],
+      "thesis": "A Ministry of Health & Welfare-affiliated public foundation in the Osong Bio Health Complex that funds and provides infrastructure for industry-academia-hospital new-drug development collaboration, plus technology-transfer/investment-matchmaking support for biopharma startups."
+    },
+    "summary": {
+      "en": "KBIOHealth is a MOHW-affiliated public foundation based in Osong that supports Korean biopharma R&D and industry-academia-hospital drug-development collaboration, including technology-transfer and investment-recruitment services for startups.",
+      "local": "오송첨단의료산업진흥재단(KBIOHealth)은 보건복지부 산하 공공기관으로 오송첨단의료복합단지에서 산학연병 신약개발 협력과 기술이전·투자유치를 지원한다."
+    },
+    "sources": [
+      { "url": "https://www.kbiohealth.kr/", "title": "KBIOHEALTH 오송첨단의료산업진흥재단", "publisher": "KBIOHealth", "accessed": "undefined", "supports": "Existence, official site, MOHW affiliation" },
+      { "url": "https://m.joongdo.co.kr/view.php?key=20260525010006481", "title": "KBIOHealth, 198억 투입해 '산·학·연·병' 신약개발 생태계 키운다", "publisher": "중도일보", "accessed": "undefined", "supports": "KRW 19.8bn investment in academia-industry-hospital drug development ecosystem", "quote": "KBIOHealth, 198억 투입해 '산·학·연·병' 신약개발 생태계 키운다" }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year not confirmed in sources reviewed; omitted. Based on search-snippet aggregation, not a direct fetch of the official site.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  },
+  {
+    "id": "kr-national-growth-fund",
+    "name": { "en": "National Growth Fund", "local": "국민성장펀드" },
+    "aka": ["국민성장펀드", "KDB National Growth Fund"],
+    "type": "government-program",
+    "status": "active",
+    "region": "south-korea",
+    "country": "South Korea",
+    "website": "https://www.kdb.co.kr/",
+    "capital": {
+      "aum": { "raw": "7조4,500억원 (모펀드 조성 목표)", "usd": null, "currency": "KRW" }
+    },
+    "strategy": {
+      "geo_focus": ["South Korea"],
+      "sector_focus": ["therapeutics", "generalist-health"],
+      "thesis": "A Korea Development Bank (KDB)-led sovereign growth fund targeting AI, bio-health, batteries/semiconductors and energy as core strategic industries; its bio-health track provides direct investment and loans to late-stage (global Phase 3) drug developers to fund commercialization of new medicines."
+    },
+    "lifesci": { "invests_public_markets": false },
+    "summary": {
+      "en": "National Growth Fund is a large KDB-led state development fund (~KRW 7.45tn target) backing AI, bio-health and energy; its bio-health arm directly finances Korean drug developers in global Phase 3 trials en route to commercialization.",
+      "local": "국민성장펀드는 산업은행이 주도하는 대규모 국책성장펀드(조성목표 약 7.45조원)로, AI·바이오헬스·에너지 등을 핵심 산업으로 삼으며 글로벌 임상3상 단계 신약 개발기업에 직접투자·대출을 지원한다."
+    },
+    "sources": [
+      { "url": "https://www.unicornfactory.co.kr/article/2026011516373853248", "title": "산업은행, 7.5조 규모 '국민성장펀드' 모펀드 운용사 뽑는다", "publisher": "유니콘팩토리", "accessed": "undefined", "supports": "Fund size ~KRW 7.45-7.5tn, KDB-led", "quote": "산업은행, 7.5조 규모 '국민성장펀드' 모펀드 운용사 뽑는다" },
+      { "url": "https://www.etoday.co.kr/news/view/2581191", "title": "국민성장펀드, 소버린 AI부터 배터리·바이오까지…올해 8.4조 풀었다", "publisher": "이투데이", "accessed": "undefined", "supports": "Bio-health direct investment/loans to global Phase-3 drug developers", "quote": "차세대 바이오 백신설비 구축 및 R&D 지원사업으로 상업화를 앞둔 마지막 관문인 글로벌 임상3상 기업 등에 대한 직접투자와 대출지원으로 유망신약의 개발과 상용화를 전폭 지원합니다." }
+    ],
+    "confidence": "medium",
+    "verification_notes": "A very new, broad national growth fund (AI/bio/energy/semiconductors) — bio-health is one of several core tracks, not the sole focus; included because it explicitly and verifiably finances late-stage biopharma commercialization. Website listed is KDB's general site; no dedicated fund microsite was found.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
+  }
+]

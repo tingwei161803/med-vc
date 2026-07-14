@@ -1,0 +1,404 @@
+[
+  {
+    "id": "anz-brandon-capital",
+    "name": { "en": "Brandon Capital (Brandon BioCatalyst)" },
+    "aka": ["Brandon Capital Partners", "Medical Research Commercialisation Fund", "MRCF"],
+    "type": "vc",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2007,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "offices": [
+      { "country": "United Kingdom", "city": "London" },
+      { "country": "United States", "city": "" }
+    ],
+    "website": "https://brandoncapital.vc/",
+    "links": { "other": ["https://brandonbiocatalyst.com/"] },
+    "capital": {
+      "aum": { "raw": "over A$1 billion across previous funds", "usd": null, "currency": "AUD" },
+      "current_fund": { "raw": "A$439 million (Fund Six)", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "check_size": { "raw": "$20–30M into companies running phase 1/2 clinical trials" },
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "New Zealand", "United Kingdom", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Australasia's largest life-science venture capital collaboration, deploying capital from seed through late-stage/pre-IPO clinical financing ($20-30M tickets into companies running phase 1/2 trials) via its Brandon BioCatalyst network of 50+ medical research institutes and superannuation-fund LPs."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "radiopharmaceuticals", "medical-hardware", "vaccines"],
+      "indications": ["oncology", "ophthalmology", "infectious-disease"],
+      "company_creation": true,
+      "invests_public_markets": null,
+      "science_platform_notes": "Operates Brandon BioCatalyst, a research-and-investment collaboration with 50+ Australian and NZ medical research institutes, hospitals, and superannuation funds that sources and co-founds spinouts."
+    },
+    "track_record": {
+      "portfolio_count": "30+",
+      "notable_investments": [
+        { "company": "Vaxxas", "sector": "vaccines", "outcome": "active" },
+        { "company": "AdvanCell", "sector": "radiopharmaceuticals", "outcome": "active" },
+        { "company": "EBR Systems", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "George Medicines", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Melbourne-based life-science VC and Australasia's largest biomedical investment collaboration, running seed-to-growth funds (Fund Six closed at A$439M) that can write $20-30M checks into clinical-stage companies ahead of exits/IPO."
+    },
+    "sources": [
+      {
+        "url": "https://brandoncapital.vc/2025/07/24/australian-life-sciences-venture-capital-firm-brandon-capital-announces-fund-six-final-close-totalling-over-a430-m/",
+        "title": "Australian Life Sciences Venture Capital firm Brandon Capital announces Fund Six final close totalling over A$430m",
+        "publisher": "Brandon Capital",
+        "accessed": "undefined",
+        "supports": "Fund Six size, total capital raised, HQ, portfolio companies",
+        "quote": "Fund Six... A$439 million... over A$1 billion across previous funds"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/biotech/brandon-capital-breaks-bank-290m-life-sciences-venture-fund-firms-largest-yet",
+        "title": "Brandon Capital raises $290M for its largest life sciences fund yet",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "General fund history",
+        "quote": "Brandon Capital, Australasia's leading life sciences venture capital firm"
+      },
+      {
+        "url": "https://brandonbiocatalyst.com/2022/03/09/medical-research-commercialisation-fund-mrcf-renamed-brandon-biocatalyst/",
+        "title": "Medical Research Commercialisation Fund (MRCF) renamed Brandon BioCatalyst",
+        "publisher": "Brandon BioCatalyst",
+        "accessed": "undefined",
+        "supports": "Founding year, founders, structure",
+        "quote": "Brandon Capital and the MRCF were founded by Chris Nave, Stephen Thompson and David Fisher in 2007 in Melbourne"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Brandon Capital invests across the full seed-to-growth spectrum (including company creation); included in this growth/crossover slice for its late-stage/pre-IPO clinical financing capacity and Fund Six growth-oriented raise.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "anz-bioscience-managers",
+    "name": { "en": "BioScience Managers" },
+    "aka": ["IB Managers"],
+    "type": "crossover-fund",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "offices": [{ "country": "United Kingdom", "city": "London" }],
+    "website": "https://biosciencemanagers.com/",
+    "links": { "other": ["https://www.crunchbase.com/organization/bioscience-managers-limited"] },
+    "capital": {
+      "current_fund": { "raw": "$100 million Biomedical Translation Fund licence (half Federal Government BTF, half independently raised)", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "global"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "genomics-omics"],
+      "thesis": "Melbourne-headquartered life-science investor that takes meaningful stakes in both private and ASX/public healthcare companies with a crossover, public-plus-private strategy; a manager of the Federal Government-backed Biomedical Translation Fund."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "biologics-antibody", "software-samd"],
+      "indications": ["pediatrics", "rare-disease"],
+      "invests_public_markets": true,
+      "science_platform_notes": "Three investment pillars: Genomic Medicine, Paediatrics, and Digital Technologies; team combines scientific, clinical and commercialisation expertise across 20 years of funds management."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Acrux (ASX:ACR)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Cynata Therapeutics (ASX:CYP)", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Melbourne-based crossover life-science investor taking stakes in both private and ASX-listed healthcare companies, and one of three managers of Australia's Federal Government-backed Biomedical Translation Fund."
+    },
+    "sources": [
+      {
+        "url": "https://biosciencemanagers.com/",
+        "title": "BioScience Managers — Investing in technology and innovation to advance healthcare",
+        "publisher": "BioScience Managers",
+        "accessed": "undefined",
+        "supports": "HQ, strategy pillars, LP base",
+        "quote": "a 20–year track record in funds management with deep scientific, clinical, and commercialisation expertise"
+      },
+      {
+        "url": "https://biosciencemanagers.com/bioscience-managers-translation-fund-to-spur-australian-jobs-and-innovation/",
+        "title": "BioScience Managers Translation Fund to spur Australian jobs and innovation",
+        "publisher": "BioScience Managers",
+        "accessed": "undefined",
+        "supports": "Biomedical Translation Fund licence amount",
+        "quote": "BioScience Managers was awarded a $100 million investment licence for the Federal Government-backed Biomedical Translation Fund"
+      },
+      {
+        "url": "https://biosciencemanagers.com/bioscience-managers-this-biotech-focused-fund-explains-why-it-invested-15m-in-these-2-asx-stocks/",
+        "title": "This biotech focused fund explains why it invested $15m in these 2 ASX stocks",
+        "publisher": "BioScience Managers",
+        "accessed": "undefined",
+        "supports": "Public-market crossover investments",
+        "quote": "buying $5 million and $10 million respectively"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/bioscience-managers",
+        "title": "BioScience Managers Portfolio Investments, Funds, Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Founding background",
+        "quote": "BioScience Managers, formerly IB Managers, is a life sciences investment firm headquartered in Melbourne, Australia. Established in 2003"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founded year (2003) sourced from a secondary aggregator (CB Insights); official site confirms '20-year track record' consistent with that date but does not itself state the exact year, so founded_year is omitted from the structured field pending a primary-source confirmation.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "anz-tenmile",
+    "name": { "en": "Tenmile" },
+    "type": "growth-equity",
+    "subtypes": ["crossover-fund", "vc"],
+    "status": "active",
+    "founded_year": 2022,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Perth",
+    "offices": [
+      { "country": "Australia", "city": "Sydney" },
+      { "country": "United States", "city": "San Francisco" }
+    ],
+    "website": "https://www.tenmile.com/",
+    "capital": {
+      "current_fund": { "raw": "$250 million initial capital allocation from Tattarang", "usd": 250000000, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "global"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "healthcare-services"],
+      "thesis": "Perth-headquartered health-technology investment business, wholly funded by the Forrest family's Tattarang group, dedicated solely to health tech across medical devices, diagnostics, biotech, pharmaceuticals and healthcare services, with 'no obligations to investors and lending providers' allowing fast, patient capital deployment."
+    },
+    "lifesci": {
+      "modalities": ["small-molecule", "cell-therapy", "medical-hardware", "software-samd"],
+      "indications": ["oncology", "immunology-inflammation", "infectious-disease"],
+      "invests_public_markets": true,
+      "science_platform_notes": "Partnered with San Francisco-based Rock Health; led by Steve Burnell, former Roche Group executive."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Emyria (ASX:EMD)", "sector": "therapeutics", "outcome": "active" },
+        { "company": "Carina Biotech", "sector": "cell-gene-therapy", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Tattarang-backed (Andrew and Nicola Forrest) $250M health-technology investment business based in Perth, investing across private and ASX-listed biotech, medtech, diagnostics and healthcare-services companies from growth stage through to public markets."
+    },
+    "sources": [
+      {
+        "url": "https://www.tattarang.com/news/2022/tattarang-launches-250m-dedicated-health-technology-investment-business/",
+        "title": "Tattarang launches $250m dedicated health technology investment business",
+        "publisher": "Tattarang",
+        "accessed": "undefined",
+        "supports": "Capital allocation, founding year, focus areas, HQ",
+        "quote": "Tenmile is backed by an initial capital allocation of $250 million from Tattarang... headquartered in Perth, with team members in Sydney and San Francisco"
+      },
+      {
+        "url": "https://www.startupdaily.net/topic/venture-capital/twiggy-forrest-is-backing-biotech-with-a-new-250-million-vc-fund/",
+        "title": "Twiggy Forrest is backing biotech with a new $250 million VC fund",
+        "publisher": "Startup Daily",
+        "accessed": "undefined",
+        "supports": "Portfolio companies, sector focus",
+        "quote": "key investments include the listed Emyria (ASX: EMD)... and Adelaide-based pre-clinical immunotherapy company Carina Biotech"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "HQ confirmed as Perth with Sydney/San Francisco team presence.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "anz-oneventures",
+    "name": { "en": "OneVentures" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2006,
+    "region": "australia-nz",
+    "country": "Australia",
+    "website": "https://one-ventures.com.au/",
+    "capital": {
+      "aum": { "raw": "over $620 million across eight technology and healthcare funds (target ~$1bn FUM)", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Australia", "New Zealand"],
+      "sector_focus": ["medtech-devices", "digital-health", "healthcare-services"],
+      "thesis": "Sydney-founded growth-equity and credit investor running a dedicated Healthcare vertical alongside its core B2B tech growth-equity strategy, targeting companies 'at or near clinical stage' with global patient-outcome impact."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "software-samd"],
+      "indications": ["cardiovascular"],
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "portfolio_count": "8 funds",
+      "notable_investments": [
+        { "company": "Vaxxas", "sector": "vaccines", "outcome": "active" },
+        { "company": "BiVACOR", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Established Australian growth-equity and venture-debt firm with a dedicated healthcare and biotech investment vertical, backing clinical-stage medtech and digital-health companies such as artificial-heart maker BiVACOR and needle-free vaccine platform Vaxxas."
+    },
+    "sources": [
+      {
+        "url": "https://one-ventures.com.au/clinical-healthcare/",
+        "title": "Healthcare — OneVentures",
+        "publisher": "OneVentures",
+        "accessed": "undefined",
+        "supports": "Healthcare investment thesis, stage focus",
+        "quote": "OneVentures invests in healthcare and biotech companies that are shaping the future of patient treatment... For healthcare companies, OneVentures looks at companies at or near clinical stage."
+      },
+      {
+        "url": "https://one-ventures.com.au/growth-equity/",
+        "title": "Growth Equity — OneVentures",
+        "publisher": "OneVentures",
+        "accessed": "undefined",
+        "supports": "Growth-equity fund target FUM, stage focus",
+        "quote": "set to hit $1bn in FUM... Series A+ through growth stage"
+      },
+      {
+        "url": "https://one-ventures.com.au/about-us/",
+        "title": "About Us — OneVentures",
+        "publisher": "OneVentures",
+        "accessed": "undefined",
+        "supports": "Founding year, total AUM, portfolio standouts",
+        "quote": "Founded in 2006, OneVentures is one of Australia's most established VC platforms with over $620 million across eight technology and healthcare funds, with portfolio standouts including Vaxxas, BiVACOR and Phocas"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "OneVentures is a generalist growth-equity/venture-debt firm (also invests heavily in B2B SaaS) with a distinct, verifiable healthcare investment vertical; included here for that healthcare arm. AUM figures vary slightly across sources ($330M, $620M, ~$750M, target $1bn) reflecting different points in time / fund vintages — most recent reported figure used.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "anz-horizon-3-healthcare",
+    "name": { "en": "Horizon 3 Healthcare" },
+    "aka": ["Horizon3BioTech", "H3 Healthcare"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2020,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://h3healthcare.com.au/",
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["global"],
+      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics", "digital-health"],
+      "thesis": "Melbourne-based specialist healthcare growth-equity fund 'filling the void between start-up ventures and late stage global medtech', investing only in companies that have already achieved clinical validation and are revenue generating."
+    },
+    "lifesci": {
+      "modalities": ["medical-hardware", "small-molecule", "software-samd"],
+      "indications": ["ophthalmology", "cardiovascular"],
+      "invests_public_markets": null
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "LumiThera", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Cardiac Dimensions", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "Canary Health", "sector": "medtech-devices", "outcome": "active" }
+      ]
+    },
+    "people": [
+      { "name": "Matt McNamara", "role": "Chief Investment Officer", "background": "Molecular biologist; fifth fund over 20+ years, prior funds delivered top-quartile returns and backed 3 unicorns" }
+    ],
+    "summary": {
+      "en": "Melbourne healthcare growth-equity fund targeting an IRR of 20% per annum by backing clinically-validated, revenue-generating medical device, drug, digital health and diagnostics companies globally."
+    },
+    "sources": [
+      {
+        "url": "https://h3healthcare.com.au/horizon-3-biotech-fund-and-what-drives-investment-decisions/",
+        "title": "Horizon 3 Biotech Fund and what drives investment decisions",
+        "publisher": "H3 Healthcare",
+        "accessed": "undefined",
+        "supports": "Stage focus, target IRR, HQ, sector",
+        "quote": "Horizon 3 Healthcare is a specialist healthcare growth fund filling the void between start-up ventures and late stage global medtech... targets an IRR of 20% per annum over a 5 year timeframe"
+      },
+      {
+        "url": "https://pitchbook.com/profiles/investor/439514-74",
+        "title": "Horizon 3 Healthcare investment portfolio",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, sector scope",
+        "quote": "Horizon 3 Biotech is a growth equity investment firm headquartered in Melbourne, Australia, founded in 2020"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded-year and 'growth equity firm' framing sourced from PitchBook (secondary); fund's own site confirms strategy, IRR target and portfolio companies directly.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  },
+  {
+    "id": "anz-perennial-future-of-healthcare",
+    "name": { "en": "Perennial Future of Healthcare Fund" },
+    "aka": ["Perennial Private to Public Opportunities Fund", "Perennial Value Health Innovation Fund"],
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2020,
+    "region": "australia-nz",
+    "country": "Australia",
+    "website": "https://perennial.net.au/our-trusts/future-of-healthcare/",
+    "capital": {
+      "current_fund": { "raw": "$54.29 million (as at 30 Apr 2026)", "usd": null, "currency": "AUD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "follow",
+      "geo_focus": ["Australia", "OECD markets"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-it", "healthcare-services", "diagnostics"],
+      "thesis": "Perennial Partners' healthcare crossover strategy: the Future of Healthcare Fund blends venture-capital/private-equity growth investments with listed healthcare equities, while the affiliated Private to Public Opportunities Fund targets unlisted growth, pre-IPO and IPO/listed-placement investments — addressing ageing population, chronic disease and mental-health themes."
+    },
+    "lifesci": {
+      "invests_public_markets": true
+    },
+    "summary": {
+      "en": "Sydney-headquartered Perennial Partners' healthcare crossover vehicle, combining private growth/pre-IPO investments with listed biotech, medtech, pharma and health-IT equities across Australia and OECD markets."
+    },
+    "sources": [
+      {
+        "url": "https://perennial.net.au/our-trusts/future-of-healthcare/",
+        "title": "Future of Healthcare | Perennial Partners",
+        "publisher": "Perennial Partners",
+        "accessed": "undefined",
+        "supports": "Fund strategy, sector scope",
+        "quote": "The Future of Healthcare Fund makes targeted investments in health services, pharmaceuticals, biotechnology, medical technology, health IT, and life sciences companies... intends to have two primary allocations... venture capital and private equity... and listed equities"
+      },
+      {
+        "url": "https://perennial.net.au/our-trusts/private-to-public-opportunities/",
+        "title": "Private to Public Opportunities Fund | Perennial Partners",
+        "publisher": "Perennial Partners",
+        "accessed": "undefined",
+        "supports": "Crossover / pre-IPO strategy",
+        "quote": "will invest in unlisted and listed companies... focusing on investments in Unlisted Growth Investments, Pre-IPO Investments, IPO and Listed Placement Investments"
+      },
+      {
+        "url": "https://www.investsmart.com.au/managed-funds/fund/perennial-future-of-healthcare/44001",
+        "title": "Perennial Future of Healthcare - Managed fund profile",
+        "publisher": "InvestSMART",
+        "accessed": "undefined",
+        "supports": "Fund size, inception date",
+        "quote": "As at 30 Apr 2026, the size of the Perennial Future of Healthcare managed fund was $54.29 million... inception date of 16 Nov 2020"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Perennial Partners (parent asset manager) was founded in 2000; founded_year above reflects the Future of Healthcare Fund's own inception (16 Nov 2020), not the parent firm. Private to Public Opportunities Fund is restricted to wholesale/sophisticated investors only.",
+    "last_updated": "undefined",
+    "researched_by": "growth-crossover-lifesci"
+  }
+]

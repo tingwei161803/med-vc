@@ -1,0 +1,710 @@
+[
+  {
+    "id": "cn-cbc-group",
+    "name": { "en": "CBC Group", "local": "康桥资本" },
+    "aka": ["C-Bridge Capital", "康桥资本集团"],
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "founded_year": 2014,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "offices": [
+      { "country": "China", "city": "Shanghai" },
+      { "country": "China", "city": "Beijing" },
+      { "country": "Hong Kong", "city": "Hong Kong" },
+      { "country": "Singapore", "city": "Singapore" },
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://www.cbridgecap.com/",
+    "capital": {
+      "aum": { "raw": "US$7 billion", "usd": 7000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Greater China", "Asia", "Global"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "thesis": "Asia's largest dedicated healthcare investment platform, originally founded as C-Bridge Capital in Shanghai in 2014; deploys private equity and growth capital into late-stage, commercially-proven healthcare and biotech companies across the value chain, with major hubs in Shanghai, Beijing and Hong Kong within Greater China."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Backed by Temasek Holdings; described by Wikipedia as focused on private investments in healthcare and biotechnology plus late-stage/commercially-proven companies."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "UCB Mature Neurology & Allergy Business (China)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CBC_Group",
+        "title": "CBC Group - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founding year, HQ history, AUM, strategy, notable 2024 deal",
+        "quote": "founded in 2014 as C-Bridge Capital in Shanghai with a focus on private equity investments in China's healthcare sector, and would later be rebranded to CBC Group. It is considered the largest healthcare-focused investment firm in Asia."
+      },
+      {
+        "url": "https://www.cbridgecap.com/",
+        "title": "CBC Group",
+        "publisher": "CBC Group",
+        "accessed": "undefined",
+        "supports": "existence / official site"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official site (cbridgecap.com) did not return readable content via fetch; quantitative facts sourced from Wikipedia (reputable secondary). Some sources describe current global HQ as relocated to Singapore (Temasek-backed) with 12 office locations; firm retains major original/operational presence in Shanghai, Beijing and Hong Kong, meeting this slice's regional-office inclusion criterion. Known anchor for this slice.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-ally-bridge-group",
+    "name": { "en": "Ally Bridge Group" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2013,
+    "region": "greater-china",
+    "country": "Hong Kong",
+    "hq_city": "Hong Kong",
+    "offices": [
+      { "country": "Hong Kong", "city": "Hong Kong" },
+      { "country": "United States", "city": "New York" }
+    ],
+    "website": "https://ally-bridge.com/",
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Greater China", "Global", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Global healthcare investment manager combining a private-equity platform (established 2013) with a public-equity long-biased strategy (launched 2018) to invest across the capital structure in life-science innovation, pairing scientific/clinical diligence with M&A and capital-markets expertise; involved in over $6 billion of transactions since inception, with a dedicated Hong Kong office covering Greater China deal flow."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Combines deep scientific and clinical research diligence with proven M&A and capital markets expertise per company positioning."
+    },
+    "sources": [
+      {
+        "url": "https://ally-bridge.com/",
+        "title": "Ally Bridge Group - Home",
+        "publisher": "Ally Bridge Group",
+        "accessed": "undefined",
+        "supports": "HQ (NY + Hong Kong), founding year 2013, dual public/private strategy, cumulative transaction volume",
+        "quote": "Ally Bridge Group is a global healthcare investment management firm focused on high-impact life science innovation."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Firm maintains dual headquarters in New York and Hong Kong; included in this slice via its dedicated Hong Kong office and explicit Greater China deal activity (e.g., Solve Therapeutics and other Asia-healthcare rounds).",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-vivo-capital",
+    "name": { "en": "Vivo Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 1996,
+    "region": "greater-china",
+    "country": "China",
+    "offices": [
+      { "country": "China", "city": "Beijing" },
+      { "country": "China", "city": "Shanghai" },
+      { "country": "Hong Kong", "city": "Hong Kong" },
+      { "country": "Taiwan", "city": "Taipei" },
+      { "country": "United States", "city": "Palo Alto" }
+    ],
+    "website": "https://vivocapital.com/",
+    "capital": {
+      "current_fund": { "raw": "$750 million (Fund VIII)", "usd": 750000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth", "all"],
+      "lead_or_follow": "both",
+      "geo_focus": ["United States", "Greater China", "Asia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "thesis": "Global healthcare-focused investment firm running a multi-pronged public/private strategy across venture, growth private equity and public equities; backs development- and commercial-stage therapeutics companies in the U.S. and revenue-stage healthcare companies in China, with dedicated Beijing, Shanghai, Hong Kong and Taipei offices covering Greater China."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Multi-strategy platform spanning venture capital, private equity and public equity strategies within healthcare/biotech."
+    },
+    "sources": [
+      {
+        "url": "https://vivocapital.com/our-team/",
+        "title": "Our Team - Vivo Capital",
+        "publisher": "Vivo Capital",
+        "accessed": "undefined",
+        "supports": "Beijing office address confirming dedicated Greater China presence",
+        "quote": "Vivo Capital's Beijing office is located at Suite 1105, West Tower, Twin Towers B-12 Jianguomenwai Avenue Chaoyang District Beijing, China, 100022."
+      },
+      {
+        "url": "https://www.fiercepharma.com/pharma-asia/vivo-capital-closes-oversubscribed-750-million-8th-fund-to-invest-healthcare-u-s-and",
+        "title": "Vivo Capital Closes Oversubscribed $750 Million 8th Fund to Invest in Healthcare in the U.S. and Greater China",
+        "publisher": "Fierce Pharma",
+        "accessed": "undefined",
+        "supports": "8th fund size $750M, U.S. + Greater China mandate",
+        "quote": "Vivo Capital Closes Oversubscribed $750 Million 8th Fund to Invest in Healthcare in the U.S. and Greater China"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vivo_Capital",
+        "title": "Vivo Capital - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "global HQ, public/private strategy",
+        "quote": "Vivo Capital is an American investment firm headquartered in Palo Alto, California, focused on public and private investments in the healthcare and biotechnology industries."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Global HQ is Palo Alto, California (foreign to this region); included because Vivo maintains dedicated Beijing, Shanghai, Hong Kong and Taipei offices with China-focused leadership (Co-CEO Asia Pacific, Head of China Operations) and explicit Greater China investment mandate. Known anchor for this slice.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-decheng-capital",
+    "name": { "en": "Decheng Capital", "local": "德诚资本" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2012,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "offices": [
+      { "country": "China", "city": "Shanghai" },
+      { "country": "United States", "city": "Menlo Park" }
+    ],
+    "website": "https://www.decheng.com/",
+    "capital": {
+      "funds": [
+        { "name": "Global Life Sciences Fund IV", "vintage_year": 2020, "size": { "raw": "$650M target" } },
+        { "name": "Life Sciences Fund V", "vintage_year": null, "size": { "raw": "$700M target" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China", "United States", "Global"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Life-sciences investor with parallel Shanghai and Menlo Park teams providing capital and strategic support to early-stage life-science companies with revolutionary technologies alongside growth-stage healthcare companies with strong market presence, bridging U.S. and China biotech ecosystems."
+    },
+    "lifesci": {
+      "invests_public_markets": null
+    },
+    "sources": [
+      {
+        "url": "https://www.decheng.com/contact.html",
+        "title": "Contact - Decheng Capital",
+        "publisher": "Decheng Capital",
+        "accessed": "undefined",
+        "supports": "dual Shanghai / Menlo Park offices",
+        "quote": "No. 6, 1006 Huashan Road Shanghai 200050, China ... 3000 Sand Hill Road, Building 2, Suite 110 Menlo Park, CA 94025"
+      },
+      {
+        "url": "https://www.caixinglobal.com/2020-12-17/chinas-decheng-capital-looks-to-raise-650m-for-global-life-sciences-fund-iv-101640229.html",
+        "title": "China's Decheng Capital Looks to Raise $650m for Global Life Sciences Fund IV",
+        "publisher": "Caixin Global",
+        "accessed": "undefined",
+        "supports": "Fund IV target size $650M, vintage ~2020"
+      },
+      {
+        "url": "https://www.biospace.com/decheng-capital-eyes-700m-raise-for-fifth-life-sciences-fund-as-vc-heats-up",
+        "title": "Decheng Capital Eyes $700M Raise for Fifth Life Sciences Fund as VC Heats Up",
+        "publisher": "BioSpace",
+        "accessed": "undefined",
+        "supports": "Fund V target size $700M"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founded 2012; invests across early and growth stages so listed primarily for its growth-stage/pre-IPO healthcare book. AUM figure (~$2.1B) seen in secondary aggregator (Golden) but not independently confirmed on primary site, so omitted.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-lake-bleu-capital",
+    "name": { "en": "Lake Bleu Capital" },
+    "type": "crossover-fund",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "greater-china",
+    "country": "Hong Kong",
+    "hq_city": "Hong Kong",
+    "website": "https://lakebleu-cap.com/",
+    "capital": {
+      "funds": [
+        { "name": "LBC Sunshine Healthcare Fund II", "vintage_year": 2021, "size": { "raw": "$560M", "usd": 560000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["Greater China", "Asia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services"],
+      "thesis": "Hong Kong-based healthcare-specialist asset manager formed in 2015 to fill a market gap for a dedicated China/Asia healthcare public-equities and late-stage crossover investor; invests across the full healthcare value chain (pharma, biotech, devices, services) leveraging bilateral US-China scientific diligence."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Team formed specifically to compare US and China standards of care/science; early investor in WuXi Biologics, Innovent, Akeso and RemeGen."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "WuXi Biologics", "sector": "pharma-services", "outcome": "IPO" },
+        { "company": "Innovent Biologics", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "Akeso", "sector": "therapeutics", "outcome": "IPO" },
+        { "company": "RemeGen", "sector": "therapeutics", "outcome": "IPO" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.lakebleu-cap.com/about-us",
+        "title": "About Us - Lake Bleu Capital",
+        "publisher": "Lake Bleu Capital",
+        "accessed": "undefined",
+        "supports": "founding rationale (2015), public/late-stage crossover focus, early investments",
+        "quote": "By 2015, a clear market gap had emerged with no dedicated specialist public equity fund focused exclusively on China and Asian healthcare, so Lake Bleu's team was formed to fill that void, focusing on public markets and late-stage crossovers."
+      },
+      {
+        "url": "https://pitchbook.com/profiles/fund/18274-96F",
+        "title": "LBC Sunshine Healthcare Fund II: Performance",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "fund size $560M, 2021 vintage, Hong Kong location",
+        "quote": "LBC Sunshine Healthcare Fund II is a 2021 vintage buyout fund managed by Lake Bleu Capital, located in Hong Kong and investing across Asia and Greater China. The fund has a size of $560M."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-6-dimensions-capital",
+    "name": { "en": "6 Dimensions Capital" },
+    "aka": ["WuXi Healthcare Ventures", "Frontline BioVentures"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "offices": [
+      { "country": "China", "city": "Shanghai" },
+      { "country": "United States", "city": "Boston" },
+      { "country": "United States", "city": "San Francisco" },
+      { "country": "Hong Kong", "city": "Hong Kong" }
+    ],
+    "website": "http://www.6dimensionscapital.com/en/aboutus/",
+    "capital": {
+      "aum": { "raw": "over $1.5 billion" },
+      "funds": [
+        { "name": "Debut healthcare fund", "vintage_year": 2017, "size": { "raw": "$844 million (US$533M + RMB2.06B tranche)" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-it"],
+      "thesis": "Formed via the 2017 merger of WuXi Healthcare Ventures and Frontline BioVentures; deploys growth-stage capital into biologics, medical devices, in-vitro diagnostics and healthcare IT companies across China and the U.S."
+    },
+    "sources": [
+      {
+        "url": "https://www.avcj.com/avcj/news/3007801/china-s-6-dimensions-raises-usd844m-for-debut-healthcare-fund",
+        "title": "China's 6 Dimensions raises $844m for debut healthcare fund",
+        "publisher": "AVCJ",
+        "accessed": "undefined",
+        "supports": "debut fund size $844M (US$533M + RMB2.06B tranches)",
+        "quote": "The fund comprises two pools of capital: a US dollar-denominated tranche that closed at $533 million and renminbi tranche of RMB2.06 billion ($311 million)."
+      },
+      {
+        "url": "https://www.dealstreetasia.com/stories/frontline-bioventures-wuxi-healthcare-73159",
+        "title": "China: Frontline BioVentures-WuXi Healthcare merger to create $800m fund",
+        "publisher": "DealStreetAsia",
+        "accessed": "undefined",
+        "supports": "2017 merger origin"
+      },
+      {
+        "url": "http://www.6dimensionscapital.com/en/aboutus/",
+        "title": "About Us - 6 Dimensions Capital",
+        "publisher": "6 Dimensions Capital",
+        "accessed": "undefined",
+        "supports": "AUM >$1.5B, sector/geo focus, leadership",
+        "quote": "manages over 1.5 billion dollars in assets under management across multiple investment funds"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-3e-bioventures",
+    "name": { "en": "3E Bioventures Capital", "local": "3E生物风险投资" },
+    "aka": ["3E Bioventures"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "offices": [
+      { "country": "China", "city": "Beijing" },
+      { "country": "China", "city": "Shanghai" },
+      { "country": "United States", "city": "San Francisco Bay Area" }
+    ],
+    "website": "https://www.3ebv.com/",
+    "strategy": {
+      "stages": ["series-a", "series-b", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China", "United States"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "thesis": "Healthcare-focused growth-capital fund investing in breakthrough first-in-class therapies and disruptive, cross-disciplinary innovations in medical devices and diagnostics, bridging China and U.S. markets; manages both RMB and USD funds."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "Alebund Pharmaceuticals", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.linkedin.com/company/3e-bioventures-capital",
+        "title": "3E Bioventures Capital | LinkedIn",
+        "publisher": "LinkedIn",
+        "accessed": "undefined",
+        "supports": "focus, office locations, RMB/USD funds",
+        "quote": "3E Bioventures Capital is a healthcare focused venture investment fund specializing in growth capital... dedicated to investing in cutting-edge life sciences and biomedical technologies, with a focus on breakthrough first-in-class therapies and disruptive cross-disciplinary innovations in medical devices and diagnostics. With offices in Beijing, Shanghai, and the San Francisco Bay Area..."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/alebund-pharmaceuticals-raises-54-5-million-in-series-b-financing-round-to-fuel-development-of-renal-disease-treatment-301375130.html",
+        "title": "Alebund Pharmaceuticals Raises $54.5 Million in Series B+ Financing Round",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "portfolio company / participation evidence"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-sherpa-healthcare-partners",
+    "name": { "en": "Sherpa Healthcare Partners", "local": "夏尔巴投资" },
+    "aka": ["Sherpa Venture Capital", "Sherpa Capital"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2018,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Zhuhai",
+    "website": "https://en.sherpahp.com/",
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["therapeutics", "pharma-services"],
+      "thesis": "Growth-equity firm founded in 2018 dedicated to the investment and cultivation of the pharmaceutical and biotech industry in China."
+    },
+    "sources": [
+      {
+        "url": "https://en.sherpahp.com/",
+        "title": "Sherpa Healthcare Partners 夏尔巴投资",
+        "publisher": "Sherpa Healthcare Partners",
+        "accessed": "undefined",
+        "supports": "existence, focus on pharma/biotech"
+      },
+      {
+        "url": "https://pitchbook.com/profiles/investor/267897-16",
+        "title": "Sherpa Healthcare Partners investment portfolio",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "founded 2018, growth-equity classification, Zhuhai HQ",
+        "quote": "Founded in 2018, Sherpa Venture Capital is a growth equity firm based in Zhuhai, China."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-loyal-valley-capital",
+    "name": { "en": "Loyal Valley Capital", "local": "力鼎资本" },
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2015,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "website": "https://en.loyalvalleycapital.com/",
+    "capital": {
+      "current_fund": { "raw": "$1 billion (third USD fund)", "usd": 1000000000, "currency": "USD" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["generalist-health", "therapeutics", "healthcare-services"],
+      "thesis": "Research-driven growth-equity firm investing across four verticals — new consumer, healthcare, specialty industrials and financial services — targeting leading pre-IPO growth-stage Chinese companies before they are widely known; healthcare is one of its core focus sectors."
+    },
+    "sources": [
+      {
+        "url": "https://news.bloomberglaw.com/private-equity/chinas-loyal-valley-capital-nears-closing-of-1-billion-fund",
+        "title": "China's Loyal Valley Capital Nears Closing of $1 Billion Fund",
+        "publisher": "Bloomberg Law",
+        "accessed": "undefined",
+        "supports": "third USD fund ~$1B, healthcare as target sector",
+        "quote": "was near closing its third dollar-denominated fund, raising $1 billion to invest in new economy and health care startups"
+      },
+      {
+        "url": "https://en.loyalvalleycapital.com/",
+        "title": "Loyal Valley Capital",
+        "publisher": "Loyal Valley Capital",
+        "accessed": "undefined",
+        "supports": "founding year 2015, Shanghai HQ, four sector verticals",
+        "quote": "Loyal Valley Capital was founded in 2015 and is a growth equity firm based in Shanghai, China."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-cpe-yuanfeng",
+    "name": { "en": "CPE Yuanfeng", "local": "CPE源峰" },
+    "aka": ["CITIC Private Equity Funds Management", "中信产业基金"],
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2008,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "website": "https://www.cpe-fund.com/",
+    "capital": {
+      "aum": { "raw": "超过千亿元人民币 (RMB 100B+)" }
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["generalist-health", "therapeutics", "healthcare-services"],
+      "thesis": "Major China growth-equity platform (successor to CITIC Private Equity) providing capital to sector-leading companies across four core areas including 医疗与健康 (healthcare & wellness), alongside consumer/internet, tech/industrial and software/enterprise services; one of China's largest private equity managers by AUM."
+    },
+    "sources": [
+      {
+        "url": "https://www.cpe-fund.com/",
+        "title": "CPE源峰官网",
+        "publisher": "CPE源峰",
+        "accessed": "undefined",
+        "supports": "four sector focus incl. healthcare, AUM figure",
+        "quote": "CPE源峰专注为医疗与健康、消费与互联网、科技与工业、软件与企业服务等四大重点领域的龙头企业提供创新性的投资方案。"
+      },
+      {
+        "url": "https://www.qixin.com/investment-institutions/detail/219",
+        "title": "CPE源峰",
+        "publisher": "启信宝",
+        "accessed": "undefined",
+        "supports": "founding year 2008, entity classification",
+        "quote": "中信产业基金成立于2008年，注册资金为18亿元，机构类型为私募股权、创业投资基金管理人"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare is one of four core sectors (not a dedicated healthcare-only fund); included under generalist-health per taxonomy given explicit, ongoing dedicated healthcare investment practice.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-boyu-capital",
+    "name": { "en": "Boyu Capital", "local": "博裕资本" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2010,
+    "region": "greater-china",
+    "country": "Hong Kong",
+    "hq_city": "Hong Kong",
+    "offices": [
+      { "country": "Hong Kong", "city": "Hong Kong" },
+      { "country": "China", "city": "Beijing" },
+      { "country": "China", "city": "Shanghai" },
+      { "country": "Singapore", "city": "Singapore" }
+    ],
+    "website": "https://boyucapital.com/",
+    "capital": {
+      "funds": [
+        { "name": "Boyu Capital Fund V", "vintage_year": 2021, "size": { "raw": "$6.8 billion", "usd": 6800000000, "currency": "USD" } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth", "series-c-plus"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China", "Global"],
+      "sector_focus": ["generalist-health", "therapeutics", "healthcare-services"],
+      "thesis": "Hong Kong-headquartered alternative investment firm founded 2010 spanning private equity, venture capital, public equities and infrastructure; its private equity funds (e.g. Fund III) explicitly target healthcare services, pharmaceuticals, biotechnology, life science and oncology as flexible minority/growth-capital/control investments."
+    },
+    "sources": [
+      {
+        "url": "https://boyucapital.com/private-equity/",
+        "title": "Private Equity - Boyu",
+        "publisher": "Boyu Capital",
+        "accessed": "undefined",
+        "supports": "healthcare/biotech/oncology sector targeting, growth-capital strategy",
+        "quote": "Boyu Capital Fund III targets healthcare services, pharmaceuticals, biotechnology, life science, and oncology sectors."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Boyu_Capital",
+        "title": "Boyu Capital - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, offices, Fund V size",
+        "quote": "Boyu Capital is a Hong Kong-headquartered alternative investment firm founded in 2010... offices in Hong Kong, Beijing, Shanghai and Singapore."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare is one of several core sectors for this generalist PE/VC platform, not a healthcare-only fund; included under generalist-health given an explicit dedicated healthcare/biotech/oncology investment mandate within its flagship funds.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-orbimed-asia-partners",
+    "name": { "en": "OrbiMed Asia Partners" },
+    "type": "crossover-fund",
+    "subtypes": ["growth-equity"],
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "website": "https://www.orbimed.com/",
+    "capital": {
+      "funds": [
+        { "name": "OrbiMed Asia Partners III", "vintage_year": 2017, "size": { "raw": "$551 million", "usd": 551000000, "currency": "USD" } },
+        { "name": "OrbiMed Asia Partners IV", "vintage_year": 2021, "size": { "raw": null } }
+      ]
+    },
+    "strategy": {
+      "stages": ["growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China", "India", "Asia"],
+      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "thesis": "Dedicated Asia growth-equity vehicle family of global healthcare crossover investor OrbiMed; OrbiMed Asia Partners IV is based in Shanghai and invests in growth-stage product- and services-oriented healthcare companies across China and India, part of a platform with over $2 billion invested in Asian healthcare since OrbiMed opened its Shanghai office in 2007."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "science_platform_notes": "Parent OrbiMed runs both public and private healthcare funds globally; the Asia Partners fund family itself is structured as private growth-equity/expansion capital."
+    },
+    "sources": [
+      {
+        "url": "https://www.orbimed.com/orbimed-launches-551-million-asia-private-equity-fund/",
+        "title": "OrbiMed Launches $551 Million Asia Private Equity Fund",
+        "publisher": "OrbiMed",
+        "accessed": "undefined",
+        "supports": "Asia Partners III size $551M, growth-stage China/India mandate",
+        "quote": "OrbiMed announced the closing of its third Asia-focused private equity fund, OrbiMed Asia Partners III, LP, with approximately $551 million in capital commitments. Asia Partners III will invest broadly across the Asian healthcare industry, with a focus on growth stage product- and services-oriented companies in China and India."
+      },
+      {
+        "url": "https://pitchbook.com/profiles/fund/17198-20F",
+        "title": "OrbiMed Asia Partners IV: Fund Performance",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "Shanghai location, 2021 vintage, China/India focus",
+        "quote": "OrbiMed Asia Partners IV is a 2021 vintage private equity growth expansion fund managed by OrbiMed and is located in Shanghai, China and invests in India and China."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/OrbiMed",
+        "title": "OrbiMed - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "2007 Shanghai office opening",
+        "quote": "In 2007, OrbiMed expanded into Asia, opening offices in Shanghai and Mumbai."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Global parent OrbiMed is headquartered in New York; this entry covers OrbiMed's dedicated Shanghai-based Asia Partners fund family, which meets this slice's regional-office inclusion criterion. Known anchor for this slice (parent firm named as seed).",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-cdh-vgc",
+    "name": { "en": "CDH Investments (VGC - Venture & Growth Capital)", "local": "鼎晖投资（创新与成长基金 VGC）" },
+    "aka": ["CDH VGC", "鼎晖VGC"],
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "founded_year": 2002,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "website": "https://www.cdhfund.com/vgc/",
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
+      "thesis": "CDH's dedicated Venture & Growth Capital (VGC) platform, established 2015 within CDH Investments (founded 2002), has invested in roughly 90 innovation-driven companies across medical healthcare, hard tech, consumer innovation and enterprise services; its healthcare book targets biopharmaceuticals, diagnostics, medical devices and service/platform companies under a 'clinical value and technological innovation' philosophy."
+    },
+    "track_record": {
+      "portfolio_count": "~90 (VGC platform, all sectors)",
+      "notable_investments": [
+        { "company": "Joinn Laboratories (药康生物)", "sector": "life-science-tools", "outcome": "IPO" }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.cdhfund.com/vgc/",
+        "title": "创新与成长-鼎晖投资 CDH Investments VGC",
+        "publisher": "CDH Investments",
+        "accessed": "undefined",
+        "supports": "VGC establishment 2015, ~90 portfolio companies, healthcare sub-focus areas",
+        "quote": "CDH VGC established in 2015, has systematically invested in approximately 90 innovative enterprises across medical healthcare, hard tech, consumer innovation, and enterprise services... systematic positioning in biopharmaceuticals, detection diagnostics, medical devices, service tools and platforms."
+      },
+      {
+        "url": "https://www.cdhfund.com/newslist/1578.html",
+        "title": "硬科技模式动物龙头「药康生物」成功IPO，鼎晖VGC与远大愿景的企业一起奔跑",
+        "publisher": "CDH Investments",
+        "accessed": "undefined",
+        "supports": "notable portfolio IPO (Joinn Laboratories / 药康生物)"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "CDH Investments (鼎晖投资, founded 2002, Beijing) is a large multi-strategy PE firm; entry here specifically represents its VGC vertical, which is the dedicated healthcare-inclusive growth-capital arm.",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  },
+  {
+    "id": "cn-kaitai-capital",
+    "name": { "en": "Kaitai Capital", "local": "凯泰资本" },
+    "type": "growth-equity",
+    "status": "active",
+    "founded_year": 2009,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Hangzhou",
+    "website": "https://kaitaicapital.com/",
+    "capital": {
+      "aum": { "raw": "500亿元人民币 (RMB 50 billion)", "currency": "RMB" }
+    },
+    "strategy": {
+      "stages": ["series-b", "series-c-plus", "growth"],
+      "lead_or_follow": "both",
+      "geo_focus": ["China"],
+      "sector_focus": ["therapeutics", "diagnostics", "genomics-omics"],
+      "thesis": "Hangzhou-based dedicated biomedical investment firm founded in 2009, spanning biopharma & medical services, biomedicine & precision medicine, and biotech & precision agriculture; built out a specialized healthcare investment team from 2014, with total assets under management of RMB 50 billion."
+    },
+    "sources": [
+      {
+        "url": "https://www.jiemian.com/article/3051561.html",
+        "title": "凯泰资本：相信生物医疗是下一波经济热潮的核心驱动力",
+        "publisher": "界面新闻 JMedia",
+        "accessed": "undefined",
+        "supports": "founding year 2009, sector scope, healthcare team build-out from 2014, deal count 2018, AUM RMB 50B",
+        "quote": "凯泰资本成立于2009年，投资领域包括生物医药与医疗服务，生物医学与精准医学，生物技术与精准农业...凯泰资本从2014年起加大了医疗健康领域的投资，这一数量在2018年达到了15起...目前，凯泰资本管理的基金总规模达到500亿元人民币。"
+      },
+      {
+        "url": "https://kaitaicapital.com/",
+        "title": "凯泰资本",
+        "publisher": "Kaitai Capital",
+        "accessed": "undefined",
+        "supports": "existence / official site"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "crossover-growth-lifesci"
+  }
+]

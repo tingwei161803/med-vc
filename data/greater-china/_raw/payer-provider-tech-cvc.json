@@ -1,0 +1,605 @@
+[
+  {
+    "id": "cn-tencent-investment",
+    "name": { "en": "Tencent Investment", "local": "腾讯投资" },
+    "aka": ["Tencent Strategic Investment"],
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shenzhen",
+    "website": "https://www.tencent.com",
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "sector_focus": ["digital-health", "healthcare-services", "therapeutics", "pharma-services"],
+      "geo_focus": ["China", "Global"],
+      "thesis": "Corporate investment arm of Tencent Holdings (tech giant); one of China's most prolific healthcare investors, having shifted from internet-hospital/online-clinic platforms toward CXO and innovative-drug biotech, with cumulative reported healthcare investment exceeding RMB20bn."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "丁香园 (DXY)", "sector": "digital-health", "outcome": "active" },
+        { "company": "微医 (WeDoctor)", "sector": "digital-health", "outcome": "active" },
+        { "company": "圆心科技 (Yuanxin Technology)", "sector": "healthcare-services", "outcome": "IPO" },
+        { "company": "思派健康 (Sinopharm... Sino-Pai/Miracle Healthcare)", "sector": "healthcare-services", "outcome": "IPO" },
+        { "company": "好大夫在线 (Haodaifu Online)", "sector": "digital-health", "outcome": "acquired" }
+      ]
+    },
+    "summary": {
+      "en": "Tencent's in-house corporate investment arm; a top-tier healthcare investor in China spanning internet hospitals, CXO/pharma services and innovative-drug biotech.",
+      "local": "腾讯集团旗下企业投资部门，是中国医疗健康领域最活跃的投资方之一，投资版图涵盖互联网医疗、CXO及创新药领域。"
+    },
+    "sources": [
+      {
+        "url": "https://www.vbdata.cn/1518873728",
+        "title": "投资超200亿，牵手鱼跃迈瑞，揭秘腾讯医疗投资版图",
+        "publisher": "动脉网 (vbdata.cn)",
+        "accessed": "undefined",
+        "supports": "existence, portfolio, investment scale",
+        "quote": "投资超200亿，牵手鱼跃迈瑞，揭秘腾讯医疗投资版图"
+      },
+      {
+        "url": "https://finance.sina.com.cn/stock/relnews/hk/2025-02-24/doc-inempsmp5706557.shtml",
+        "title": "腾讯投资转向，重注医药健康",
+        "publisher": "新浪财经",
+        "accessed": "undefined",
+        "supports": "strategic shift toward biotech/CXO",
+        "quote": "腾讯投资转向，重注医药健康"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Well-documented tech-giant CVC. Notable-investment outcomes (IPO status) drawn from secondary press, not individually re-verified per company.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-ping-an-capital",
+    "name": { "en": "Ping An Capital", "local": "平安资本" },
+    "aka": ["平安创投", "Ping An Ventures", "平安创新投资基金"],
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shenzhen",
+    "website": "https://pafund.pingan.com/",
+    "strategy": {
+      "sector_focus": ["generalist-health", "digital-health", "healthcare-services"],
+      "geo_focus": ["China", "Global"],
+      "thesis": "Core equity-investment platform of Ping An Insurance Group; deploys capital into healthtech, medtech and fintech to support Ping An's 'integrated finance + healthcare/eldercare' ecosystem strategy."
+    },
+    "capital": {
+      "aum": { "raw": "累计投资额超800亿人民币", "usd": null, "currency": "CNY" }
+    },
+    "track_record": {
+      "portfolio_count": "~100"
+    },
+    "summary": {
+      "en": "Ping An Insurance Group's core equity-investment platform, having deployed over RMB80bn across ~100 companies since 2007, with healthcare/medical as one of five focus sectors.",
+      "local": "中国平安集团的核心股权投资平台，自2007年起累计投资约100家企业，投资额超800亿人民币，健康医疗为五大聚焦领域之一。"
+    },
+    "sources": [
+      {
+        "url": "https://www.21jingji.com/article/20240323/herald/6e895ee7384c23f052fe380474df1c1b.html",
+        "title": "21解读｜从'医疗健康'到'医疗养老'，中国平安战略'调整'有何深意",
+        "publisher": "21世纪经济报道",
+        "accessed": "undefined",
+        "supports": "AUM, portfolio count, sector focus",
+        "quote": "平安资本团队累计投资约100家企业，累计投资额超800亿人民币...聚焦消费升级、健康医疗、现代服务及TMT、节能环保和高端制造五大领域"
+      },
+      {
+        "url": "https://pafund.pingan.com/",
+        "title": "平安创投 | 中国平安",
+        "publisher": "Ping An Group",
+        "accessed": "undefined",
+        "supports": "existence, mandate",
+        "quote": "平安创投是平安集团旗下覆盖全阶段、重点在中后期和上市公司PIPE投资的专业股权投资平台"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Ping An operates multiple related investment vehicles (平安创投/平安资本/平安创新投资基金); this entry consolidates them as Ping An's healthcare-relevant CVC platform since public reporting does not cleanly separate their healthcare figures.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-taikang-investments",
+    "name": { "en": "Taikang Investments", "local": "泰康投资" },
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "website": "http://www.taikanginvestment.com/",
+    "strategy": {
+      "sector_focus": ["healthcare-services", "medtech-devices", "digital-health"],
+      "geo_focus": ["China"],
+      "thesis": "Equity-investment platform of Taikang Asset Management, part of Taikang Insurance Group; invests in big-health, consumer and financial-services companies as part of Taikang's integrated 'insurance + healthcare + eldercare' ecosystem model."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "微泰医疗 (Micro Tech Medical)", "sector": "medtech-devices", "outcome": "active" },
+        { "company": "金匙医学 (Genetron-adjacent diagnostics)", "sector": "diagnostics", "outcome": "active" },
+        { "company": "东方启音 (Dongfang Qiyin)", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Taikang Insurance Group's private-equity investment arm (under Taikang Asset Management), backing big-health companies while the group separately builds retirement communities and hospitals under its 'medical + eldercare' model.",
+      "local": "泰康保险集团（泰康资产旗下）的股权投资平台，专注大健康、大消费、大金融领域股权投资，并与泰康的养老社区、医院形成医养融合生态。"
+    },
+    "sources": [
+      {
+        "url": "http://www.21jingji.com/article/20210722/herald/2573773d01ecb6a178dabeaf8758bc12.html",
+        "title": "构筑'养老+医疗'新生态 泰康保险持续加码大健康产业股权投资",
+        "publisher": "21世纪经济报道",
+        "accessed": "undefined",
+        "supports": "existence, thesis, notable investments",
+        "quote": "泰康投资在健康医疗领域进行大手笔股权投资，包括微泰医疗新一轮5.75亿元融资、金匙医学C+轮融资，以及东方启音完成C2轮6000万美元股权融资"
+      },
+      {
+        "url": "http://www.taikanginvestment.com/",
+        "title": "资产子公司官网",
+        "publisher": "Taikang Investments",
+        "accessed": "undefined",
+        "supports": "existence",
+        "quote": "泰康投资是泰康资产管理有限责任公司的控股子公司"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-china-life-healthcare-investment",
+    "name": { "en": "China Life Healthcare Industry Investment", "local": "国寿健康产业投资有限公司" },
+    "aka": ["国寿大健康基金", "China Life Big-Health Fund"],
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "website": "https://www.clhi.com.cn/clhi/gywm/index.shtml",
+    "strategy": {
+      "sector_focus": ["healthcare-services", "healthcare-it", "pharma-services"],
+      "geo_focus": ["China"],
+      "thesis": "China Life Insurance's dedicated healthcare-industry investment platform, sponsoring the China Life Big-Health Fund (set up by China Life Equity Investment Co. in 2016) to back medical services/technology, health informatization, and pharma production & distribution as part of the group's 'Healthy China' push."
+    },
+    "summary": {
+      "en": "China Life Insurance's healthcare-focused investment subsidiary, sponsoring one of the first insurance-backed 'big-health' PE funds approved by China's insurance regulator.",
+      "local": "中国人寿旗下大健康产业投资平台，发起设立国寿大健康基金，是保监会批复的首批险资发起的大健康PE基金之一。"
+    },
+    "sources": [
+      {
+        "url": "https://www.clhi.com.cn/clhi/gywm/index.shtml",
+        "title": "关于我们-国寿健康产业投资有限公司",
+        "publisher": "China Life",
+        "accessed": "undefined",
+        "supports": "existence"
+      },
+      {
+        "url": "https://www.chinalife.com.cn/chinalife/gywm/jtjs/cyjg/241780/",
+        "title": "国寿健康产业投资有限公司-中国人寿",
+        "publisher": "China Life",
+        "accessed": "undefined",
+        "supports": "existence, group affiliation"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund-size figures reported in secondary aggregator summaries (e.g. vbdata.cn org page) were not independently re-verified with a verbatim quote, so capital.* fields are left blank rather than risk a mis-transcribed number.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-cpic-sequoia-health-fund",
+    "name": { "en": "CPIC-Sequoia China Health Industry Fund", "local": "中国太保-红杉中国健康产业基金" },
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "strategy": {
+      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": ["China"],
+      "thesis": "Big-health private equity fund co-sponsored by China Pacific Insurance (CPIC) and Sequoia Capital China in January 2021, investing insurance balance-sheet capital into biotech, life-science and medical-device companies to match CPIC's long-duration liabilities."
+    },
+    "summary": {
+      "en": "A dedicated healthcare-industry fund jointly set up by China Pacific Insurance and Sequoia Capital China; part of CPIC's 100bn+ RMB 'big health' industry-fund program and its '352' large-health strategy.",
+      "local": "由中国太保与红杉资本中国基金于2021年共同发起设立的大健康产业基金，是太保百亿级大健康产业投资基金体系及'352'大健康战略的一部分。"
+    },
+    "sources": [
+      {
+        "url": "https://news.stcn.com/sd/202107/t20210709_3421149.html",
+        "title": "保险巨头成立私募基金！中国太保总裁亲自挂帅，有何布局？险企加大股权投资",
+        "publisher": "证券时报网",
+        "accessed": "undefined",
+        "supports": "existence, CPIC sponsorship of private funds"
+      },
+      {
+        "url": "https://jrj.sh.gov.cn/BX182/20230522/4ef21708bc34411791ffd473ebbafa45.html",
+        "title": "中国太保发布'352'大健康服务蓝图",
+        "publisher": "上海市委金融委员会办公室",
+        "accessed": "undefined",
+        "supports": "CPIC big-health strategy context"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund name/co-sponsorship with Sequoia China drawn from a secondary search summary; not confirmed against a primary CPIC filing with a verbatim quote, hence medium confidence.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-yunfeng-capital",
+    "name": { "en": "Yunfeng Capital", "local": "云锋基金" },
+    "type": "vc",
+    "subtypes": ["cvc"],
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Hangzhou",
+    "strategy": {
+      "sector_focus": ["generalist-health", "healthcare-services", "digital-health"],
+      "geo_focus": ["China", "Global"],
+      "thesis": "Co-founded by Alibaba's Jack Ma and David Yu; one of China's largest private-equity platforms (RMB100bn+ AUM), with healthcare as one of three core investment pillars and frequent co-investments alongside Alibaba Health."
+    },
+    "capital": {
+      "aum": { "raw": "超1000亿元", "usd": null, "currency": "CNY" }
+    },
+    "track_record": {
+      "portfolio_count": "超190家 (~1/3 in healthcare)"
+    },
+    "summary": {
+      "en": "Alibaba-ecosystem-linked investment platform co-founded by Jack Ma; healthcare accounts for roughly a third of its 190+ portfolio companies, and it has co-invested with Alibaba Health on ~27 healthcare deals.",
+      "local": "由马云等人共同创立、与阿里生态密切关联的投资平台，医疗健康是其三大投资板块之一，占投资项目总数约三分之一，并多次与阿里健康联合出手。"
+    },
+    "sources": [
+      {
+        "url": "https://finance.sina.cn/fund/jjgdxw/2021-04-30/detail-ikmxzfmk9900784.d.html",
+        "title": "投资项目数占比超1/3，揭秘云锋基金医疗'生态式'投资逻辑",
+        "publisher": "新浪财经",
+        "accessed": "undefined",
+        "supports": "AUM, portfolio count, healthcare share",
+        "quote": "云锋基金在管资金总规模折合人民币超过1000亿元，投资企业超过190家，其中医疗健康板块已成为云锋基金三大投资板块之一，投资项目占总数1/3"
+      },
+      {
+        "url": "https://t.qianzhan.com/caijing/detail/181205-fd0e421f.html",
+        "title": "阿里腾讯是如何跑步进入医疗健康行业的？",
+        "publisher": "前瞻经济学人",
+        "accessed": "undefined",
+        "supports": "Alibaba/Yunfeng joint healthcare deal count"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Yunfeng is a multi-LP independent fund (not a formal Alibaba corporate department), but is consistently reported as Alibaba-ecosystem-affiliated and frequently co-invests with Alibaba Health; included here under the tech-giant-linked bucket rather than as a pure independent VC.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-alibaba-health",
+    "name": { "en": "Alibaba Health Information Technology", "local": "阿里健康" },
+    "aka": ["Alibaba Health", "AliHealth", "0241.HK"],
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Hangzhou",
+    "website": "https://www.alihealth.cn/",
+    "strategy": {
+      "sector_focus": ["digital-health", "diagnostics", "healthcare-services"],
+      "geo_focus": ["China"],
+      "thesis": "Alibaba Group's HK-listed healthcare arm; alongside its own e-pharmacy/e-commerce operations it makes direct strategic investments into digital-health, diagnostics and pharma-e-commerce startups (e.g., AI-diagnostics company Lanting Medical)."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "兰丁医疗 (Lanting Medical)", "sector": "diagnostics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "Alibaba Group's Hong Kong-listed healthcare subsidiary (0241.HK), which both operates online pharmacy/health platforms and makes direct strategic equity investments, e.g. leading a RMB320m Series D into AI-diagnostics firm Lanting Medical.",
+      "local": "阿里巴巴集团旗下港股上市的医疗健康子公司（0241.HK），除自营医药电商与互联网医疗业务外，也直接进行战略股权投资，如领投AI诊断公司兰丁医疗3.2亿元D轮融资。"
+    },
+    "sources": [
+      {
+        "url": "https://www.cls.cn/detail/874087",
+        "title": "3.2亿元D轮！AI诊断兰丁医疗再获融资 背后阿里健康投资逻辑浮现",
+        "publisher": "财联社",
+        "accessed": "undefined",
+        "supports": "direct investment example",
+        "quote": "3.2亿元D轮！AI诊断兰丁医疗再获融资 背后阿里健康投资逻辑浮现"
+      },
+      {
+        "url": "https://www.alihealth.cn/en-us/investmentrelation?irindex=6",
+        "title": "阿里健康官网—让医疗健康普惠可及",
+        "publisher": "Alibaba Health",
+        "accessed": "undefined",
+        "supports": "existence, investor-relations presence"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-baidu-ventures",
+    "name": { "en": "Baidu Ventures", "local": "百度风投" },
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "strategy": {
+      "sector_focus": ["ai-drug-discovery", "digital-health", "healthcare-it"],
+      "geo_focus": ["China", "United States"],
+      "thesis": "Baidu's corporate venture-capital arm; healthcare — including AI-driven drug discovery and digital health — has been its single largest investment sector by deal count in recent years."
+    },
+    "summary": {
+      "en": "Baidu's CVC arm, with healthcare (notably AI drug discovery and digital health) accounting for roughly a third of its deal flow over the past three years.",
+      "local": "百度旗下企业创投部门，医疗健康（含AI制药、数字健康）是其近三年投资占比最高的赛道，约占其投融资事项的三分之一。"
+    },
+    "sources": [
+      {
+        "url": "https://www.cls.cn/detail/1114037",
+        "title": "百度资本换帅、美团战投电芯 互联网巨头CVC正酝酿巨变？",
+        "publisher": "财联社",
+        "accessed": "undefined",
+        "supports": "healthcare deal share",
+        "quote": "百度风投近三年共参与投融资事项81个，主要集中在医疗健康领域，占比达35.8%"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-meituan-longzhu-capital",
+    "name": { "en": "Meituan Longzhu Capital", "local": "美团龙珠资本" },
+    "aka": ["宁波梅山保税港区美兴投资管理有限公司", "Dragon Ball Capital"],
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "founded_year": 2017,
+    "strategy": {
+      "stages": ["series-a", "series-b", "series-c-plus"],
+      "check_size": { "raw": "RMB 30M–100M per deal" },
+      "sector_focus": ["medtech-devices", "healthcare-services", "surgical-robotics"],
+      "geo_focus": ["China"],
+      "thesis": "Investment platform backed by Meituan, Tencent and New Hope Group; actively deploys capital into medical-device and healthcare-services startups (e.g., surgical-robotics company Kangduoo Robotics) alongside Meituan's broader local-services/healthcare push."
+    },
+    "capital": {
+      "current_fund": { "raw": "目标规模30亿元人民币，首期规模20亿元人民币", "usd": null, "currency": "CNY" }
+    },
+    "summary": {
+      "en": "A China-registered private-equity/VC manager backed by Meituan, Tencent and New Hope Group, targeting RMB3bn (first close RMB2bn), with medical devices and healthcare services as an active investment vertical.",
+      "local": "由美团点评、腾讯、新希望等出资的私募股权/创投基金管理机构，目标规模30亿元人民币，医疗器械及医疗服务是其重点投资方向之一。"
+    },
+    "sources": [
+      {
+        "url": "https://pitchhub.36kr.com/organization/1678216627942402",
+        "title": "美团龙珠 | 投资机构信息-36氪",
+        "publisher": "36氪",
+        "accessed": "undefined",
+        "supports": "founding, fund size, LPs",
+        "quote": "美团龙珠（宁波梅山保税港区美兴投资管理有限公司）成立于2017年...目标规模30亿元人民币，首期规模20亿元人民币，单个项目投资金额在3000万元到1亿元，资金来自美团点评、腾讯、新希望等"
+      },
+      {
+        "url": "https://www.pedaily.cn/vc/2025/127361/",
+        "title": "美团龙珠2025年投过企业,资本事件,美团龙珠高管_美团龙珠年度总结_投资界",
+        "publisher": "投资界",
+        "accessed": "undefined",
+        "supports": "healthcare portfolio examples"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-bytedance-health-investment",
+    "name": { "en": "ByteDance Health Investment (Xiaohe Health / Aurora)", "local": "字节跳动大健康(小荷健康/极光)" },
+    "aka": ["极光部门", "小荷健康", "Xiaohe Health"],
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "founded_year": 2020,
+    "strategy": {
+      "sector_focus": ["healthcare-services", "digital-health"],
+      "geo_focus": ["China"],
+      "thesis": "ByteDance's healthcare business/investment unit (started as the internal 'Aurora' division, now branded Xiaohe Health); unlike Tencent's minority-stake VC style, ByteDance pursues a more capital-intensive strategy of controlling investments and outright acquisitions of internet-hospital and hospital-chain assets."
+    },
+    "capital": {
+      "aum": { "raw": "累计投资已超200亿元", "usd": null, "currency": "CNY" }
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "美中宜和 (Meizhongyihe)", "sector": "healthcare-services", "outcome": "acquired" },
+        { "company": "北京宏达爱瑞肿瘤医院", "sector": "healthcare-services", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "ByteDance's healthcare unit, which has invested/spent over RMB20bn since 2020 to control more than 20 healthcare entities, including full acquisition of the Meizhongyihe high-end women's & children's hospital group.",
+      "local": "字节跳动的大健康业务与投资单元，自2020年以来在医疗领域累计投资超200亿元，控制企业超20家，包括全资收购高端妇儿医院集团美中宜和。"
+    },
+    "sources": [
+      {
+        "url": "https://www.21jingji.com/article/20250224/herald/8fe81ba4217470091cefe14088b2e713.html",
+        "title": "字节跳动，7个亿悄悄加码医疗",
+        "publisher": "21世纪经济报道",
+        "accessed": "undefined",
+        "supports": "cumulative investment, controlled-entity count",
+        "quote": "从2020年至今，字节在医疗领域累计投资已超200亿元，控制企业达20余家"
+      },
+      {
+        "url": "https://www.cn-healthcare.com/articlewm/20220817/content-1419602.html",
+        "title": "持续加码！字节跳动收购高端医院",
+        "publisher": "健康界",
+        "accessed": "undefined",
+        "supports": "Meizhongyihe acquisition"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "ByteDance's healthcare unit skews toward control acquisitions/roll-ups rather than classic minority-stake CVC investing; included per the brief's scope for tech giants' health investment departments, with this distinction flagged.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-sinopharm-capital",
+    "name": { "en": "Healthypower Capital (formerly Sinopharm Capital)", "local": "健壹资本(原国药资本)" },
+    "aka": ["国药资本", "Sinopharm Capital", "健壹资本"],
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "founded_year": 2012,
+    "website": "http://www.sinopharmcapital.com/",
+    "strategy": {
+      "sector_focus": ["pharma-services", "diagnostics", "healthcare-services", "medtech-devices"],
+      "geo_focus": ["China"],
+      "thesis": "Founded in 2012 by Sinopharm Group — China's largest pharmaceutical distributor (via listed unit Sinopharm Holding) and a major manufacturer — as its dedicated healthcare investment platform; rebranded Healthypower Capital in 2022 to pursue a blended 'CVC+IVC' strategy across pharma manufacturing & distribution, devices, diagnostics and healthcare services."
+    },
+    "capital": {
+      "aum": { "raw": "共管理资金等值人民币超过60亿元", "usd": null, "currency": "CNY" }
+    },
+    "summary": {
+      "en": "Investment platform of Sinopharm Group (China's largest pharma distributor/manufacturer conglomerate); has raised three funds totaling over RMB6bn and rebranded as Healthypower Capital in 2022.",
+      "local": "国药集团（中国最大医药流通与制造集团）旗下投资平台，先后设立三期基金，管理资金超60亿元人民币，2022年更名为健壹资本。"
+    },
+    "sources": [
+      {
+        "url": "https://www.sh.chinanews.com.cn/yljk/2022-01-19/95474.shtml",
+        "title": "国药资本正式更名为'健壹资本' 将持续打造特色鲜明的'CVC+IVC'的医药股权投资机构",
+        "publisher": "中新社上海",
+        "accessed": "undefined",
+        "supports": "founding, rebrand, AUM",
+        "quote": "国药资本成立于2012年，是国药集团发起设立的专注于医疗健康领域的专业股权投资机构...先后发起设立三期基金，共管理资金等值人民币超过60亿元"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sinopharm Group's flagship listed unit (Sinopharm Holding, 国药控股) is primarily a pharmaceutical distributor; included here under 'pharmacy & distribution' rather than the sibling pharma-manufacturer-CVC slice, though the group also manufactures drugs.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-cr-pharma-investment-fund",
+    "name": { "en": "China Resources Pharmaceutical Industry Investment Fund", "local": "华润医药产业投资基金" },
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "strategy": {
+      "sector_focus": ["pharma-services", "diagnostics", "therapeutics"],
+      "geo_focus": ["China"],
+      "thesis": "Investment fund of China Resources Pharmaceutical Group — one of China's top-four pharmaceutical distributors — investing to strengthen industrial synergy with CR Pharma's distribution, manufacturing and retail businesses."
+    },
+    "track_record": {
+      "notable_investments": [
+        { "company": "康华生物 (Kanghua Biological)", "sector": "vaccines", "outcome": "active" },
+        { "company": "博圣生物 (Bosheng Bio)", "sector": "diagnostics", "outcome": "active" },
+        { "company": "索元生物 (Sundia/Suoyuan Bio)", "sector": "therapeutics", "outcome": "active" }
+      ]
+    },
+    "summary": {
+      "en": "China Resources Pharmaceutical Group's industry investment fund, which has invested in vaccine maker Kanghua Biological, diagnostics firm Bosheng Bio, and biotech Suoyuan Bio to strengthen industrial synergy.",
+      "local": "华润医药集团（中国主要医药流通企业之一）旗下产业投资基金，已完成对康华生物、博圣生物、索元生物等3个项目的投资，以强化产业协同。"
+    },
+    "sources": [
+      {
+        "url": "https://finance.sina.com.cn/stock/relnews/cn/2024-12-26/doc-ineauzhm1028821.shtml",
+        "title": "国药、上药、华润、九州通，5家千亿巨头就位！医药流通进入'寡头'时代",
+        "publisher": "新浪财经",
+        "accessed": "undefined",
+        "supports": "existence, notable investments",
+        "quote": "华润医药产业投资基金完成康华生物、博圣生物、索元生物等3个项目投资，强化产业协同"
+      },
+      {
+        "url": "https://pitchhub.36kr.com/organization/1678295657608195",
+        "title": "华润医药 | 投资机构信息-36氪",
+        "publisher": "36氪",
+        "accessed": "undefined",
+        "supports": "existence"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-jointown-health-venture",
+    "name": { "en": "Jointown Health Venture Capital", "local": "九州通大健康创投(湖北九州科投健康创业投资基金)" },
+    "type": "cvc",
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Wuhan",
+    "founded_year": 2023,
+    "strategy": {
+      "sector_focus": ["pharma-services", "healthcare-services", "consumer-health"],
+      "geo_focus": ["China"],
+      "thesis": "Venture-investment vehicle of Jointown Pharmaceutical Group, one of China's largest pharmaceutical-distribution companies; backs early-stage 'big health' startups through its own funds and as an LP in third-party health-tech venture funds, forming a 'industry guidance + capital collaboration + incubation' loop."
+    },
+    "capital": {
+      "current_fund": { "raw": "注册资本4亿元人民币", "usd": null, "currency": "CNY" }
+    },
+    "summary": {
+      "en": "Health-focused venture-capital vehicle of Jointown Pharmaceutical Group (major Chinese drug distributor); established the RMB400m Hubei Jiuzhou-Kechuang health venture fund in 2023 and also holds a 34% (RMB170m) LP stake in the Hainan Yingfei-Jiuzhou health-tech venture fund.",
+      "local": "九州通医药集团（中国主要医药流通企业之一）旗下大健康创投平台，2023年设立注册资本4亿元的湖北九州科投健康创业投资基金，并以34%（1.7亿元）份额参投海南英飞九州健康科技创业投资基金。"
+    },
+    "sources": [
+      {
+        "url": "https://bydrug.pharmcube.com/news/detail/4a9b26026de8e8d34a50ef70ed0c81cd",
+        "title": "九州通投资新设健康创投私募公司，注册资本4亿元",
+        "publisher": "医药魔方 ByDrug",
+        "accessed": "undefined",
+        "supports": "founding, fund size, LP stake",
+        "quote": "湖北九州科投健康创业投资基金合伙企业成立，注册资本4亿元人民币...九州通还参与投资私募产业基金——海南省英飞九州健康科技创业投资合伙企业，该基金总规模为5亿元，九州通认缴出资1.7亿元，占比34%"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  },
+  {
+    "id": "cn-aier-eye-hospital-funds",
+    "name": { "en": "Aier Eye Hospital Industrial M&A Funds", "local": "爱尔眼科产业并购基金" },
+    "type": "growth-equity",
+    "subtypes": ["vc"],
+    "status": "active",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Changsha",
+    "founded_year": 2014,
+    "strategy": {
+      "stages": ["growth"],
+      "sector_focus": ["healthcare-services"],
+      "geo_focus": ["China"],
+      "thesis": "Off-balance-sheet industrial M&A funds sponsored by Aier Eye Hospital Group (China's largest ophthalmology hospital chain, SZ:300015) since 2014, used to incubate and acquire eye hospitals outside the listco for later injection — a hospital-group-run investment-vehicle model ('participate–incubate–acquire')."
+    },
+    "capital": {
+      "aum": { "raw": "合计规模169.2亿元 (8支存续基金)", "usd": null, "currency": "CNY" }
+    },
+    "lifesci": {
+      "indications": ["ophthalmology"]
+    },
+    "track_record": {
+      "portfolio_count": "311家体外医院 (截至2023年12月)"
+    },
+    "summary": {
+      "en": "Aier Eye Hospital Group has sponsored 13 industrial M&A funds since 2014 (8 still active, combined RMB16.92bn, Aier contributing ~20%) that incubate/acquire ophthalmology hospitals outside the listed entity for later injection — the investment-vehicle arm of China's dominant hospital-group chain.",
+      "local": "爱尔眼科（中国最大眼科连锁医院集团）自2014年起设立13支产业并购基金（现8支存续，合计规模169.2亿元，爱尔出资约20%），用于体外培育、收购眼科医院后再注入上市公司，是中国医院集团旗下典型的投资并购载体。"
+    },
+    "sources": [
+      {
+        "url": "https://m.jiemian.com/article/10716901.html",
+        "title": "调研早知道｜业绩持续扩张，爱尔眼科揭示并购策略细节",
+        "publisher": "界面新闻",
+        "accessed": "undefined",
+        "supports": "fund count, fund size, off-balance-sheet hospital count",
+        "quote": "爱尔眼科自2014年开始通过设立多支并购基金在体外培育眼科医院。截至2023年12月，爱尔眼科先后设立了13支产业型并购基金，目前仍有8支处于存续阶段，合计规模为169.2亿元，其中爱尔眼科合计出资比例约为20%"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "These funds primarily acquire/build ophthalmology hospitals for the sponsor itself rather than making minority investments in third-party biomedical companies; included per the brief's explicit scope for hospital-group (醫院集團) investment vehicles.",
+    "last_updated": "undefined",
+    "researched_by": "payer-provider-tech-cvc"
+  }
+]
