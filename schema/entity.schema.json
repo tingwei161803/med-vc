@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://med-vc/schema/entity.schema.json",
+  "title": "Medical / Life-Science Investment Entity",
+  "description": "One investment organization active in medical / biomedical / healthcare: a life-science VC, pharma or medtech corporate VC, crossover fund, bio accelerator/incubator, university or hospital venture arm, disease-foundation venture-philanthropy fund, government program, venture studio, angel network, or family office. Each entity carries its own provenance (sources[] with quotes) and a confidence rating.",
+  "type": "object",
+  "required": ["id", "name", "type", "region", "country", "sources", "confidence", "last_updated"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "kebab-case, region-prefixed slug, e.g. tw-taiwania-capital, us-orbimed"
+    },
+    "name": {
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string", "description": "English / romanized name" },
+        "local": { "type": "string", "description": "Name in local language/script if applicable" }
+      }
+    },
+    "aka": { "type": "array", "items": { "type": "string" }, "description": "Alternate names, former names, abbreviations" },
+    "type": {
+      "type": "string",
+      "description": "Primary organization type — must be a value from taxonomy.json#/types",
+      "enum": [
+        "vc", "cvc", "crossover-fund", "growth-equity", "micro-vc", "venture-studio",
+        "accelerator", "incubator", "university-hospital-fund", "venture-philanthropy",
+        "government-program", "angel-network", "angel-syndicate", "family-office", "crowdfunding"
+      ]
+    },
+    "subtypes": { "type": "array", "items": { "type": "string" }, "description": "Secondary classifications, e.g. ['accelerator'] for a VC that also runs one" },
+    "status": { "type": "string", "enum": ["active", "inactive", "acquired", "merged", "dormant", "unknown"] },
+    "founded_year": { "type": ["integer", "null"] },
+    "region": {
+      "type": "string",
+      "description": "Region bucket — must match a folder under data/ and taxonomy.json#/regions",
+      "enum": [
+        "taiwan", "united-states", "europe", "greater-china", "japan", "south-korea",
+        "israel", "canada", "india", "southeast-asia", "australia-nz", "rest-of-world"
+      ]
+    },
+    "country": { "type": "string", "description": "Specific country (esp. for europe/southeast-asia/greater-china/rest-of-world buckets), e.g. 'United Kingdom', 'Singapore', 'China'" },
+    "hq_city": { "type": "string" },
+    "offices": {
+      "type": "array",
+      "items": { "type": "object", "properties": { "country": { "type": "string" }, "city": { "type": "string" } } }
+    },
+    "website": { "type": "string" },
+    "links": {
+      "type": "object",
+      "properties": {
+        "linkedin": { "type": "string" },
+        "twitter": { "type": "string" },
+        "crunchbase": { "type": "string" },
+        "other": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "capital": {
+      "type": "object",
+      "description": "Fund economics (mostly for VC/CVC/crossover/growth)",
+      "properties": {
+        "aum": { "$ref": "#/$defs/money" },
+        "current_fund": { "$ref": "#/$defs/money" },
+        "funds": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "vintage_year": { "type": ["integer", "null"] },
+              "size": { "$ref": "#/$defs/money" }
+            }
+          }
+        }
+      }
+    },
+    "strategy": {
+      "type": "object",
+      "properties": {
+        "stages": { "type": "array", "items": { "type": "string" }, "description": "from taxonomy.json#/stages" },
+        "check_size": { "$ref": "#/$defs/moneyRange" },
+        "ownership_target_pct": { "type": ["string", "number", "null"] },
+        "lead_or_follow": { "type": "string", "description": "'lead', 'follow', or 'both'" },
+        "geo_focus": { "type": "array", "items": { "type": "string" }, "description": "Where they invest (countries/regions)" },
+        "sector_focus": { "type": "array", "items": { "type": "string" }, "description": "Healthcare subsectors from taxonomy.json#/sectors" },
+        "thesis": { "type": "string", "description": "1-3 sentence investment thesis / differentiation; for generalist firms, state the medical/health nexus explicitly" }
+      }
+    },
+    "lifesci": {
+      "type": "object",
+      "description": "Life-science specific investment profile",
+      "properties": {
+        "modalities": { "type": "array", "items": { "type": "string" }, "description": "Therapeutic/tech modalities they back, from taxonomy.json#/modalities" },
+        "indications": { "type": "array", "items": { "type": "string" }, "description": "Disease areas they focus on, from taxonomy.json#/indications" },
+        "company_creation": { "type": ["boolean", "null"], "description": "true if they found/incubate their own companies (Flagship / Third Rock model)" },
+        "invests_public_markets": { "type": ["boolean", "null"], "description": "true for crossover funds also holding public biotech equities" },
+        "science_platform_notes": { "type": "string", "description": "In-house labs, scientific advisory model, tech-transfer relationships, etc." }
+      }
+    },
+    "program": {
+      "type": "object",
+      "description": "Accelerator / incubator program details",
+      "properties": {
+        "length_weeks": { "type": ["integer", "null"] },
+        "cohort_size": { "type": ["integer", "string", "null"] },
+        "batches_per_year": { "type": ["integer", "null"] },
+        "equity_taken_pct": { "type": ["string", "number", "null"] },
+        "investment": { "$ref": "#/$defs/money" },
+        "format": { "type": "string", "description": "in-person / remote / hybrid" },
+        "location": { "type": "string" },
+        "lab_space": { "type": ["boolean", "null"], "description": "true if wet-lab / bench space is provided (JLABS-style)" },
+        "demo_day": { "type": ["boolean", "null"] },
+        "perks": { "type": "array", "items": { "type": "string" } },
+        "application_url": { "type": "string" },
+        "application_cycles": { "type": "array", "items": { "type": "string" }, "description": "deadlines / rolling / dates" },
+        "acceptance_rate": { "type": ["string", "null"] },
+        "eligibility": { "type": "string" }
+      }
+    },
+    "track_record": {
+      "type": "object",
+      "properties": {
+        "portfolio_count": { "type": ["integer", "string", "null"] },
+        "notable_investments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "company": { "type": "string" },
+              "sector": { "type": "string" },
+              "outcome": { "type": "string", "description": "unicorn / IPO / acquired / FDA-approved / active / shutdown" }
+            }
+          }
+        },
+        "exits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "company": { "type": "string" },
+              "type": { "type": "string", "description": "IPO / M&A" },
+              "year": { "type": ["integer", "null"] },
+              "value": { "$ref": "#/$defs/money" }
+            }
+          }
+        },
+        "co_investors": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "background": { "type": "string", "description": "e.g. 'MD/PhD, ex-Genentech BD' — scientific/clinical pedigree matters in this vertical" },
+          "linkedin": { "type": "string" }
+        }
+      }
+    },
+    "team_size": { "type": ["integer", "string", "null"] },
+    "application": {
+      "type": "object",
+      "properties": {
+        "how_to_apply": { "type": "string" },
+        "accepts_cold_inbound": { "type": ["boolean", "null"] },
+        "contact": { "type": "string" }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "summary": {
+      "type": "object",
+      "description": "Short human-readable blurb",
+      "properties": {
+        "en": { "type": "string" },
+        "local": { "type": "string" }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Provenance. Every quantitative claim should be traceable to a quote here.",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string" },
+          "title": { "type": "string" },
+          "publisher": { "type": "string" },
+          "accessed": { "type": "string", "description": "YYYY-MM-DD the page was fetched" },
+          "supports": { "type": "string", "description": "Which facts this source backs" },
+          "quote": { "type": "string", "description": "Verbatim snippet backing a number/claim" }
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "high = official/primary; medium = reputable secondary; low = single weak/old source or inference"
+    },
+    "verification_notes": { "type": "string", "description": "Caveats, conflicting figures, what could not be verified" },
+    "last_updated": { "type": "string", "description": "YYYY-MM-DD" },
+    "researched_by": { "type": "string", "description": "agent segment id that produced this row" }
+  },
+  "$defs": {
+    "money": {
+      "type": "object",
+      "description": "Money kept as reported (raw) to avoid fabricated conversions; usd optional when confidently derivable. All fields nullable so 'undisclosed' figures can be left null rather than guessed.",
+      "properties": {
+        "raw": { "type": ["string", "null"], "description": "As reported, e.g. 'NT$2,000,000', '$150M', '¥100億', 'undisclosed'; null if unknown" },
+        "usd": { "type": ["number", "null"] },
+        "currency": { "type": ["string", "null"] }
+      }
+    },
+    "moneyRange": {
+      "type": "object",
+      "properties": {
+        "raw": { "type": ["string", "null"], "description": "e.g. '$250K–$2M', 'up to NT$10M'; null if unknown" },
+        "usd_min": { "type": ["number", "null"] },
+        "usd_max": { "type": ["number", "null"] }
+      }
+    }
+  }
+}

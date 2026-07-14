@@ -1,0 +1,75 @@
+{
+  "_comment": "Per-region research context: biomedical hub clusters, local languages, and authoritative sources to mine. This is injected into every research agent's prompt to seed search strategy.",
+  "taiwan": {
+    "label_en": "Taiwan", "label_zh": "台灣", "prefix": "tw",
+    "languages": ["en", "zh-TW"],
+    "hubs": ["Taipei (Nangang Biotech Park / 國家生技研究園區)", "Hsinchu Biomedical Science Park (新竹生醫園區/竹北)", "Southern Taiwan Science Park (南科, Tainan/Kaohsiung)", "Central Taiwan Science Park"],
+    "sources": ["環球生技 GlobalBio & Investment (gbimonthly.com)", "TVCA 台灣創業投資商業同業公會會員名錄", "國發基金/台杉投資公開資料", "經濟部生醫產業創新推動方案 (BPIPO)", "DCB 生物技術開發中心", "工商時報/經濟日報生技版", "櫃買中心生技類股資料"]
+  },
+  "united-states": {
+    "label_en": "United States", "label_zh": "美國", "prefix": "us",
+    "languages": ["en"],
+    "hubs": ["Boston/Cambridge MA (Kendall Square)", "SF Bay Area (South San Francisco/Mission Bay)", "San Diego (Torrey Pines)", "New York City", "Philadelphia (Cellicon Valley)", "Research Triangle NC", "Seattle", "Houston (Texas Medical Center)", "Chicago", "Los Angeles"],
+    "sources": ["Endpoints News", "STAT News", "Fierce Biotech / Fierce Healthcare", "BioCentury", "BioPharma Dive", "Rock Health digital health funding reports", "SEC EDGAR Form D filings", "NVCA / HBA member lists", "JPMorgan Healthcare Conference coverage", "LifeSciVC blog (Bruce Booth)"]
+  },
+  "europe": {
+    "label_en": "Europe", "label_zh": "歐洲", "prefix": "eu",
+    "languages": ["en", "de", "fr", "sv", "da", "nl", "es", "it"],
+    "hubs": ["London/Oxford/Cambridge (Golden Triangle)", "Basel/Zurich/Geneva", "Munich/Berlin/Heidelberg/Mainz", "Paris (Genopole/Paris-Saclay)", "Amsterdam/Leiden/Utrecht", "Copenhagen/Malmö (Medicon Valley)", "Stockholm", "Barcelona/Madrid", "Milan", "Dublin", "Vienna", "Warsaw/Krakow"],
+    "sources": ["Labiotech.eu", "Sifted (health section)", "European Biotechnology News", "Endpoints News (EU coverage)", "EIF (European Investment Fund) portfolio & signings", "BVCA / BVK / France Invest / SECA member directories", "LSX / HBA Europe", "BIA (UK BioIndustry Association) member list", "dealroom.co public pages"]
+  },
+  "greater-china": {
+    "label_en": "Greater China", "label_zh": "大中華", "prefix": "cn",
+    "languages": ["en", "zh-CN", "zh-HK"],
+    "hubs": ["Shanghai Zhangjiang 張江藥谷", "Suzhou BioBAY 蘇州生物醫藥產業園", "Beijing Zhongguancun Life Science Park 中關村生命科學園", "Shenzhen 深圳", "Hangzhou 杭州醫藥港", "Wuhan Biolake 光谷生物城", "Guangzhou 廣州國際生物島", "Hong Kong Science Park 香港科學園"],
+    "sources": ["動脈網 vbdata.cn / 蛋殼研究院", "醫藥魔方 PharmCube", "E藥經理人", "藥智網", "36氪醫療健康", "DealStreetAsia (China)", "HKVCA member directory", "清科研究 Zero2IPO", "投中網 ChinaVenture"]
+  },
+  "japan": {
+    "label_en": "Japan", "label_zh": "日本", "prefix": "jp",
+    "languages": ["en", "ja"],
+    "hubs": ["Tokyo Nihonbashi Life Science district 日本橋", "Kawasaki King Skyfront", "Osaka Saito 彩都ライフサイエンスパーク", "Kobe Biomedical Innovation Cluster 神戸医療産業都市", "Tsukuba", "Shonan Health Innovation Park (湘南アイパーク)"],
+    "sources": ["日経バイオテク (Nikkei Biotech)", "AnswersNews", "INITIAL / Uzabase startup DB", "JVCA 日本ベンチャーキャピタル協会会員名簿", "AMED (日本医療研究開発機構)", "BRIDGE / TechCrunch Japan archives", "LINK-J (Life Science Innovation Network Japan) member list"]
+  },
+  "south-korea": {
+    "label_en": "South Korea", "label_zh": "南韓", "prefix": "kr",
+    "languages": ["en", "ko"],
+    "hubs": ["Seoul (Hongneung Bio Cluster 홍릉)", "Pangyo Techno Valley 판교", "Songdo, Incheon 송도", "Osong Bio Cluster 오송", "Daejeon Daedeok 대덕"],
+    "sources": ["THE VC (thevc.kr)", "KVCA 한국벤처캐피탈협회 회원사", "한국바이오협회 (Korea Biotechnology Industry Organization)", "한국경제/매일경제 바이오 섹션", "Platum", "KHIDI 한국보건산업진흥원", "K-BIO 헬스케어 펀드 공시"]
+  },
+  "israel": {
+    "label_en": "Israel", "label_zh": "以色列", "prefix": "il",
+    "languages": ["en", "he"],
+    "hubs": ["Tel Aviv", "Jerusalem (Hadassah/Hebrew U)", "Rehovot (Weizmann)", "Haifa (Technion/Rambam)", "Ness Ziona"],
+    "sources": ["Startup Nation Central Finder", "CTech by Calcalist", "Globes", "IATI (Israel Advanced Technology Industries) reports", "NoCamels (health section)", "Israel Innovation Authority incubator program lists"]
+  },
+  "canada": {
+    "label_en": "Canada", "label_zh": "加拿大", "prefix": "ca",
+    "languages": ["en", "fr"],
+    "hubs": ["Toronto (MaRS Discovery District)", "Montreal", "Vancouver", "Quebec City", "Hamilton", "Ottawa", "Calgary/Edmonton"],
+    "sources": ["BetaKit", "CVCA member directory", "adMare BioInnovations", "BIOTECanada member list", "Genome Canada / provincial genome centres", "Life Sciences Ontario / BC / Quebec (Montréal InVivo) association lists"]
+  },
+  "india": {
+    "label_en": "India", "label_zh": "印度", "prefix": "in",
+    "languages": ["en", "hi"],
+    "hubs": ["Bangalore (Bengaluru)", "Hyderabad (Genome Valley)", "Mumbai/Pune", "Delhi NCR", "Chennai", "Ahmedabad"],
+    "sources": ["Inc42", "YourStory", "ET HealthWorld (Economic Times)", "BIRAC (Biotechnology Industry Research Assistance Council)", "C-CAMP", "IVCA member directory", "Tracxn public pages", "ABLE (Association of Biotechnology Led Enterprises)"]
+  },
+  "southeast-asia": {
+    "label_en": "Southeast Asia", "label_zh": "東南亞", "prefix": "sea",
+    "languages": ["en", "id", "th", "vi", "ms"],
+    "hubs": ["Singapore (Biopolis / one-north)", "Jakarta", "Bangkok", "Kuala Lumpur", "Manila", "Ho Chi Minh City", "Hanoi"],
+    "sources": ["DealStreetAsia", "Tech in Asia", "e27", "KrASIA", "SGInnovate / EDBI / SEEDS Capital portfolios", "A*STAR / Enterprise Singapore programs", "Galen Growth HealthTech Asia reports"]
+  },
+  "australia-nz": {
+    "label_en": "Australia & New Zealand", "label_zh": "澳洲紐西蘭", "prefix": "anz",
+    "languages": ["en"],
+    "hubs": ["Melbourne (Parkville biomedical precinct)", "Sydney (Westmead/Tech Central)", "Brisbane", "Adelaide (BioMed City)", "Perth", "Auckland", "Dunedin"],
+    "sources": ["AusBiotech member directory", "Startup Daily", "Medical Research Commercialisation Fund (MRCF) ecosystem", "NZ Growth Capital Partners", "Callaghan Innovation", "Australian Investment Council member list", "Biotech Dispatch / BioMelbourne Network"]
+  },
+  "rest-of-world": {
+    "label_en": "Rest of World", "label_zh": "其他地區", "prefix": "row",
+    "languages": ["en", "es", "pt", "ar", "tr"],
+    "hubs": ["São Paulo", "Mexico City", "Santiago", "Buenos Aires", "Dubai/Abu Dhabi", "Riyadh", "Doha", "Istanbul", "Cape Town/Johannesburg", "Lagos", "Nairobi", "Cairo"],
+    "sources": ["LAVCA (Latin America)", "MAGNiTT (MENA)", "Wamda", "Disrupt Africa", "IFC / DFC health portfolios", "Salud Digital LatAm reports", "Gulf sovereign fund (PIF/Mubadala/QIA) health platforms"]
+  }
+}
