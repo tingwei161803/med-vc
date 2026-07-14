@@ -15,6 +15,18 @@
 
 ---
 
+## 🌐 線上互動圖鑑
+
+**<https://med-vc.peteraim.com/>**
+
+多軸篩選（地區 × 類型 × 健康子領域 × 治療模式 × 適應症 × 階段）· 全文搜尋（機構名／論點／被投公司／城市）·
+中英雙語切換 · 深淺色模式 · 點卡片看完整詳情與**來源 quote 佐證** · 分析圖表儀表板 · CSV 匯出。
+純靜態 HTML/CSS/JS（Material Design 3、零 build），由 `docs/` 經 GitHub Pages 部署。
+
+> 網站資料層由 `uv run scripts/build_site.py` 從 `data/all-entities.json` 產生。
+
+---
+
 ## 收錄範圍
 
 | 維度 | 內容 |
