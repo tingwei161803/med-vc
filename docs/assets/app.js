@@ -239,9 +239,15 @@
     function animateCounters() {
       var els = [].slice.call(pageEl.querySelectorAll("[data-count]"));
       var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      // Browsers do not run requestAnimationFrame in a hidden tab, so a page
+      // opened in a background tab — cmd-click, "open in new tab", a restored
+      // session — renders every headline number as a literal 0 and holds it
+      // there. The animation is decoration; the number is the content, so when
+      // there is no frame loop to animate in, skip straight to the value.
+      var noFrames = reduce || document.hidden;
       els.forEach(function (el) {
         var target = parseFloat(el.dataset.count) || 0;
-        if (reduce) { el.textContent = el.dataset.suffix ? num(target) + el.dataset.suffix : num(target); return; }
+        if (noFrames) { el.textContent = el.dataset.suffix ? num(target) + el.dataset.suffix : num(target); return; }
         var start = null, dur = 900;
         function step(ts) {
           if (start === null) start = ts;
