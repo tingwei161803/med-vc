@@ -1292,6 +1292,256 @@
         }
       ],
       "notes": "WebFetch could not reach either FDA.gov (www.fda.gov returns 404/blocked on every path tried, including the AI/ML-enabled device list the brief pointed to) or SEC EDGAR (www.sec.gov/cgi-bin/browse-edgar and efts.sec.gov both return 403) in this session — both primary regulatory/financial sources named in the brief were effectively unusable, which is why regulatory and funding detail is uneven across records (rich for companies with a dedicated Wikipedia article or an informative press page; thin for pure marketing sites). Wikipedia's own Special:Search endpoint (en.wikipedia.org/w/index.php?search=...) was a reliable substitute for guessing article titles. A few multi-company founder biography pages (Jonathan Rothberg for Butterfly Network + Hyperfine; Frederic Moll for Auris Health + Intuitive Surgical + Hansen Medical) were unusually efficient sources. Investor names were only recoverable for Butterfly Network (Fidelity, Gates Foundation, Fosun Pharma), Moon Surgical (Sofinnova Partners, NVIDIA), and Koios Medical (Mitsui & Co.) — company marketing sites almost never listed investor names in fetchable text even when an 'Our Investors' section existed (e.g. Viz.ai's investor logos were SVGs, not text)."
+    },
+    "r4-eu-investor-gaps": {
+      "notes": "SESSION RAN WITHOUT WEBSEARCH (per instructions, budget exhausted); all research used WebFetch only. JOB 1 (named gaps): all ~194 rows of missing-investors.txt were cross-checked against rounds['r2-investor-gaps'].rejected and rounds['r3-investor-gaps-2'].rejected in reports/research-backlog.json. Every single row traces to a name already rejected, aliased, or included by those two rounds, EXCEPT a handful of rows neither round had reached (Joyance Partners, Launchpad Venture Group, TBD Angels, Kyto Technology and Life Science, The Helm, Good Growth Capital, Astia Fund, Adaptive Capital Partners, HIG BioHealth Partners, BVF Partners L.P., ShangBay Capital, MBX Capital, Graphene Ventures, Metaplanet Holdings, PTV Sciences, Paul Blavin, NVIDIA, Fred Moll, Mithril Capital, DFJ Growth, InnovaHealth Partners, D1 Capital) — every one of these is a US, individual, or non-European entity except Graphene Ventures and Kyto Technology and Life Science, whose European-ness could not even be confirmed (see rejected[]). Net result: zero new entities came out of Job 1 for Europe; this is a real finding (the missing-investors.txt worklist is overwhelmingly US-sourced), not a shortfall.\n\nJOB 2 (independent discovery): association/member-directory pages were the weakest channel this session — bva.org.uk (misnamed by the brief; actually the British Veterinary Association, not a VC body), bioindustry.org's homepage had no reachable member-list page (600+ members claimed but no directory link found), investeurope.eu's directory required an interactive 'Member search' tool not fetchable via WebFetch, and swedishprivateequity.se / dvca.dk / norskventure.no all failed outright (DNS/cert/404 errors). The productive channel was direct fetches of specific candidate firms' own sites plus Wikipedia cross-checks, seeded from prior knowledge of the UK/Ireland/Nordic ecosystem and cross-referenced against investor-roster.tsv's existing 281 eu-* rows to avoid duplicates. This surfaced 3 new entities that cleared the inclusion bar (Octopus Ventures — UK, named Health sector team; UCL Business/UCL Ventures — UK, university spinout office distinct from the already-catalogued UCL Technology Fund; Sarsia — Norway, life-sciences-dedicated thesis) and 7 candidates that were investigated but rejected (see rejected[]) either for being generalist with no health focus (Eight Roads, IQ Capital, Par Equity) or unverifiable this session (ACT Venture Capital, Atlantic Bridge Capital, Downing Healthcare, Preseed Ventures). Imperial College Innovations was investigated as a likely Job-2 target and confirmed to already be folded into the existing eu-ip-group entity via its 2017 acquisition as Touchstone Innovations — not a gap. Given the existing roster's already-extensive UK (30+ firms including Cambridge Enterprise, Oxford Science Enterprises, Wellcome, LifeArc, Syncona, SV Health Investors, Abingworth, AlbionVC, Cambridge Innovation Capital, Epidarex, IP Group, Kester Capital, Mercia, Northern Gritstone, BGF, Parkwalk, UCL Technology Fund) and Nordic (20+ firms including Novo Holdings, HealthCap, Karolinska Development, Karolinska Institutet Holding, Chalmers Ventures, Industrifonden, Lundbeckfonden BioCapital, EIFO, Sunstone, Lifeline Ventures, Voima Ventures, Investinor, Hadean Ventures, Silfurberg, Brunnur Ventures) coverage, the remaining gap in this geography is genuinely thin — most well-known dedicated life-science investors are already catalogued, and further gains would likely require the association member-directory pages that were unreachable this session (worth a retry with a working search tool or browser-rendering fetch).",
+      "rejected": [
+        {
+          "name": "Eight Roads Ventures (Europe)",
+          "reason": "Independent gap-finding candidate (not from missing-investors.txt). Own site (eightroads.com) shows a generalist portfolio (AppsFlyer, Icertis, Paidy, Fibe) with no healthcare/life-sciences names or dedicated practice page found this session; the eightroads.com/en/healthcare and eightroads.com/en/europe URLs both 404'd. Excluded pending a working source, though the firm is independently reputed to run healthcare investing in some regions."
+        },
+        {
+          "name": "IQ Capital",
+          "reason": "Independent gap-finding candidate (Cambridge deep-tech VC). Own site confirms a sector-agnostic 'frontier technology' / deep-tech thesis (advanced materials, robotics, quantum, fintech) with no life-sciences or medtech specialization and no health names in the visible portfolio. Below the bar."
+        },
+        {
+          "name": "Par Equity",
+          "reason": "Independent gap-finding candidate (Edinburgh/Leeds, Scotland). Own site shows a generalist EIS/VCT tax-efficient-investment focus with no health/medtech names; the firm has also just merged into 'PXN Group' with Praetura Ventures, adding further uncertainty. Below the bar."
+        },
+        {
+          "name": "ACT Venture Capital (Ireland)",
+          "reason": "Independent gap-finding candidate. No Wikipedia article or reachable official site found this session to confirm current focus, founding year, or a health-dedicated track record; excluded as unverifiable rather than asserted from market reputation."
+        },
+        {
+          "name": "Atlantic Bridge Capital",
+          "reason": "Independent gap-finding candidate (Dublin deep-tech/life-sciences VC). The obvious domain (atlanticbridge.com) resolves to an unrelated Irish medical-school admissions program, not the investment firm; crunchbase.com blocked the fetch (403). Could not locate the firm's correct official site this session — excluded as unverifiable."
+        },
+        {
+          "name": "Downing Healthcare (Downing LLP)",
+          "reason": "Independent gap-finding candidate (UK). downing.co.uk/healthcare returned 404; no alternate source located this session to confirm scope, fund size, or a real health-dedicated track record. Excluded as unverifiable."
+        },
+        {
+          "name": "Preseed Ventures (Denmark)",
+          "reason": "Independent gap-finding candidate. Domain (preseed.dk) failed to resolve (DNS error) this session; no alternate source found. Excluded as unverifiable."
+        },
+        {
+          "name": "Graphene Ventures",
+          "reason": "From missing-investors.txt (row 52, 'Graphene Ventures,' 1 mention). No Wikipedia article or other source reachable this session to confirm this is a real, health-relevant investing entity (plausible UK deep-tech name given graphene's Manchester origins, but unverified). Excluded as unverifiable."
+        },
+        {
+          "name": "Kyto Technology and Life Science",
+          "reason": "From missing-investors.txt (row 25, 1 mention). kyto.com is a parked/for-sale GoDaddy domain; no live official site, Wikipedia article, or alternate source found this session. Could not even confirm whether this is an investor or an operating company. Excluded as unverifiable."
+        },
+        {
+          "name": "Imperial Innovations / Imperial College Innovations",
+          "reason": "NOT A GAP — considered as a Job 2 university-commercialisation candidate per the brief, but Wikipedia confirms Imperial Innovations (renamed Touchstone Innovations) was acquired by IP Group in 2017 ('IP Group then acquired Touchstone Innovations plc in 2017'). It is not a standalone entity today; its history and portfolio are already subsumed into the roster's existing eu-ip-group record. No separate entity or alias needed."
+        }
+      ]
+    },
+    "r4-nordic-biotech": {
+      "wanted": [
+        "Nuevolution (Denmark, acquired by Amgen 2018) - re-attempt via an archive.org snapshot or a business-news source not blocked to WebFetch",
+        "Orphazyme (Denmark, bankrupt 2022) - re-attempt via archive.org or a Danish business press source",
+        "Nordic Nanovector (Norway) and Ultimovacs (Norway) - both companies' own domains are unreachable via WebFetch; try Oslo Børs/Euronext filings or press-release aggregators",
+        "Nykode Therapeutics (Norway) - needs a source for stock ticker, IPO details and named investors (Google Translate of Norwegian press, or Euronext Growth Oslo filing)",
+        "Zelluna Immunotherapy, PCI Biotech, Targovax-era Circio investor history - all Norwegian cell/gene and drug-delivery names worth a second pass",
+        "Consider Kerecis (Iceland, fish-skin wound care medtech, acquired by Coloplast 2023) if the directory's medtech-devices scope is meant to extend to Iceland too - excluded here as outside the R4 sector list (drug discovery/oncology/immunology/etc.)"
+      ],
+      "skipped": [
+        {
+          "name": "Nuevolution",
+          "reason": "Danish DNA-encoded-library drug discovery company acquired by Amgen (2018, ~$167M reported); every fetch attempt (own site, Amgen/BusinessWire/Fierce/Endpoints press coverage) returned 404/403/timeout, so no fetched source with a verbatim quote could be obtained."
+        },
+        {
+          "name": "Orphazyme",
+          "reason": "Danish rare-disease company (arimoclomol) that filed for bankruptcy in 2022; Wikipedia and company site both returned 404, and news sources (Reuters, Fierce Biotech, BioSpace) were blocked or 404'd, so dropped rather than writing a thin/unsourced record."
+        },
+        {
+          "name": "Nordic Nanovector",
+          "reason": "Norwegian radioimmunotherapy (Betalutin) company; Wikipedia 404'd and the company domain (nordicnanovector.com / .no) had DNS/redirect failures across multiple attempts."
+        },
+        {
+          "name": "Ultimovacs",
+          "reason": "Norwegian cancer vaccine (UV1) company; Wikipedia 404'd and the company domain returned connection-refused errors across multiple attempts."
+        },
+        {
+          "name": "PCI Biotech",
+          "reason": "Norwegian drug-delivery (photochemical internalization) company; Wikipedia page 404'd and no alternate source was found within budget."
+        },
+        {
+          "name": "Zelluna Immunotherapy",
+          "reason": "Norwegian TCR-based cell therapy company; only fetchable URL had a certificate mismatch (CDN misconfiguration), no valid source obtained."
+        },
+        {
+          "name": "Nykode Therapeutics",
+          "reason": "Considered but ultimately not included as a standalone record within this batch's time budget after two partial fetches (company site, no stock ticker/investor data sourced); flagged as a gap for a follow-up pass rather than written with a low-confidence stub."
+        }
+      ],
+      "notes": "35 companies profiled across Denmark (11), Sweden (12), Norway (4), Finland (5) and Iceland (2). WebSearch was unavailable this session; every fact was sourced via WebFetch against Wikipedia or each company's own site, with a heavy 404/DNS/cert failure rate (roughly half of all attempted URLs failed) that shaped which companies made the cut. Investor names were cross-checked against investor-roster.tsv spelling where a match existed (Novo Holdings, HealthCap, EQT, EIFO, European Investment Bank, Jeito Capital, Vida Ventures, ARCH Venture Partners, SR One, Cystic Fibrosis Foundation, Gates Foundation, CARB-X). entity_id left null throughout per instructions. No unprofiled-companies.txt overlap was found for the Nordic region (grep returned no hits), so all records here are net-new."
+    },
+    "r4-nordic-health": {
+      "wanted": [
+        "Nightingale Health (Finland) — public NMR blood-biomarker diagnostics; needs founding/IPO facts from a source that isn't 404/JS-blocked",
+        "Vitrolife (Sweden) — public IVF/fertility devices maker; needs founding year, HQ city, financials",
+        "Careium (Sweden) — elderly-care telecare/personal alarms; official site unreachable via WebFetch, try press coverage or Wikipedia (Swedish)",
+        "Evondos (Finland) — medicine-dispensing robots for home care; official site unreachable via WebFetch",
+        "Camanio Care (Sweden) — elderly-care robotics/assistive devices, not attempted",
+        "Icura (Denmark) — post-operative wound-monitoring device, not attempted",
+        "Genomill Health (Finland) — diagnostics, not attempted",
+        "Mendor (Finland) — diabetes glucose meter, not attempted",
+        "Sensio (Norway) — elderly/dementia care safety sensors, not attempted",
+        "iZafe Group (Sweden) — medication dispensing robots, not attempted",
+        "Elypta (Sweden) — cancer diagnostics, not attempted"
+      ],
+      "skipped": [
+        {
+          "name": "Nightingale Health",
+          "reason": "Public Finnish biomarker/NMR diagnostics company (Nasdaq Helsinki); only a mission statement and address were sourced via WebFetch, with no verbatim founding year, IPO date, or financial figures found — dropped rather than write a thin record."
+        },
+        {
+          "name": "Vitrolife",
+          "reason": "Swedish public IVF/fertility devices maker; sourced page gave product list but no confirmed founding year, HQ city, or stock/financial figures with a verbatim quote — dropped rather than write a thin record."
+        },
+        {
+          "name": "Careium",
+          "reason": "Swedish elderly-care telecare/personal-alarm company (formerly Tunstall Sweden); about-us page returned 404 on all attempted URLs — could not source at all."
+        },
+        {
+          "name": "Kaiku Health",
+          "reason": "Finnish oncology patient-reported-outcomes app, acquired by Elekta (eu-elekta) in 2021 and now operates as an Elekta product line rather than an independent company; noted in Elekta's verification_notes instead of a standalone record."
+        },
+        {
+          "name": "Evondos",
+          "reason": "Finnish automated medicine-dispensing robot for home care; official about-us page returned 404 and no alternate primary source was found in the WebFetch-only search — dropped rather than write a thin record."
+        }
+      ],
+      "notes": "Researched via WebFetch only (no WebSearch, per instructions). Wikipedia and TechCrunch's own /tag/ pages were the most reliable sources; most individual company official sites (JS-rendered marketing pages) returned empty content or 404s, and Crunchbase, Reuters, NYT, Business Insider, The Times, Sifted, and web.archive.org were all unreachable (403/blocked/paywalled) via this tool. Neko Health (top priority) is fully profiled with founders, technology, clinic locations, and its complete four-round funding history ($30M self-funded by Daniel Ek, then Series A/B/C totaling $1.025B in outside capital) with 9 distinct named investors across rounds (Lakestar, Atomico, General Catalyst, Lightspeed Venture Partners, O.G. Venture Partners, Rosello, Liberty City Ventures, Positive Sum, BDT & MSD) — all four unprofiled-companies.txt investor mentions for Neko Health are now resolvable. Oura (second priority) is profiled and flagged in verification_notes as Finnish-founded (Oulu, 2013) despite its San Francisco operational HQ. Kry/Livi likewise got an unusually complete four-round funding history via TechCrunch's tag archive. For the remaining ~23 companies, funding/investor data was frequently not disclosed on the reachable pages (mostly official 'about' pages rather than funding-specific press releases), so several records carry medium/low confidence with funding blocks omitted rather than guessed, per the 'no quote, no number' rule. Nine of the 12 established Nordic public/PE-owned medtech and hearing-aid majors (Coloplast, Ambu, Demant, GN Store Nord, Össur, Elekta, Getinge, Sectra, WS Audiology) are not venture-funded, so their funding.investors arrays were intentionally left empty/omitted as not applicable."
+    },
+    "r4-uk-biotech": {
+      "wanted": [
+        "Draig Therapeutics, AstronauTX, Autifony Therapeutics, Cumulus — all SV Health-confirmed UK CNS/neuro biotechs seen in the SV Health portfolio listing but not individually verified with a second source this session.",
+        "AdoRx Therapeutics, Caldan Therapeutics, Clyde Biosciences, Curve Therapeutics, Edinburgh Molecular Imaging, Kynos Therapeutics successor entities, Lario Therapeutics, Leucid Bio, Lunac Therapeutics, Mironid, Theolytics — all Epidarex-portfolio UK biotechs (mostly Edinburgh/Glasgow) with only a one-line description; worth a follow-up pass with company-site fetches.",
+        "Acionna Therapeutics, Alethio Therapeutics, Alveogene, Amber Therapeutics, Circadian Therapeutics, Credo Therapies, EndLyz Therapeutics, Ground Truth Labs, ISOgenix, Kesmalea, MatchBio, ORFonyx, Scenic Biotech, Scripta, T-Cypher Bio, Thelior Bio — remaining Oxford Science Enterprises portfolio companies not yet individually sourced.",
+        "Other UK academic spinout hubs not covered this session: Imperial College (e.g. further Apollo Therapeutics-linked assets), UCL, Crick Institute, Dundee, and additional Trinity College Dublin-linked biotechs — Ireland coverage in this batch is thin (only Carrick Therapeutics)."
+      ],
+      "skipped": [
+        {
+          "name": "Enodia Therapeutics",
+          "reason": "Confirmed via own website as a French company (built by Argobio Studio from Institut Pasteur research; seed round led by Elaia/Pfizer Ventures/Bpifrance) — not UK/Ireland despite the name resembling other Epidarex/Irish-sounding portfolio companies."
+        },
+        {
+          "name": "Centessa Pharmaceuticals",
+          "reason": "Originally London-founded (2020, consolidating multiple UK/European biotechs via Medicxi/Sofinnova's asset-centric model) but current operating HQ and Nasdaq filings are Boston, MA — redomiciled to the US, so out of scope per instructions. Recently reported (via Medicxi's site) as being acquired by Eli Lilly for its orexin/sleep-wake program."
+        },
+        {
+          "name": "Barinthus Biotherapeutics (formerly Vaccitech)",
+          "reason": "Originally an Oxford University spin-out (AstraZeneca COVID vaccine), but its own website now lists Germantown, Maryland as HQ — redomiciled to the US."
+        },
+        {
+          "name": "PepGen",
+          "reason": "Built on Oxford University oligonucleotide-delivery (EDO) science, but PepGen Inc. was incorporated and headquartered in the US (Boston) from founding — not a UK-headquartered entity."
+        },
+        {
+          "name": "Adaptimmune Therapeutics",
+          "reason": "Originally Milton Park, Oxfordshire-founded TCR cell-therapy company, but its own materials now list Philadelphia as primary HQ; also in commercial wind-down (selling lead assets to US WorldMeds, July 2025) — dropped as redomiciled/declining rather than a clean UK operating entry."
+        },
+        {
+          "name": "Kynos Therapeutics",
+          "reason": "Epidarex-backed immunometabolic biotech (kynurenine pathway), but UK Companies House shows it is now in liquidation — not an operating company."
+        },
+        {
+          "name": "Neurent Medical",
+          "reason": "Irish (Galway) neurostimulation device for chronic rhinitis — a medtech/device company, out of this slice's therapeutics/biotech/genomics scope (belongs with the medtech-devices research segment)."
+        }
+      ],
+      "notes": "WebSearch was unavailable all session (budget exhausted per instructions); every fact here came from direct WebFetch calls. Wikipedia access was highly inconsistent (worked for Oxford Nanopore, Immunocore, Silence Therapeutics; 404'd for ~10 other well-known companies on repeated tries), and many smaller biotechs' own domains were dead/expired/parked (kymab.com, nightstartx.com, fstartherapeutics.com, trimtech.co, greywolftx.com) — consistent with several being wound down post-acquisition. The single most productive tactic was fetching VC portfolio pages directly (epidarex.com/portfolio, svhealthinvestors.com/portfolio, oxfordscienceenterprises.com/portfolio, medicxi.com/companies) — each returned dozens of confirmed portfolio companies with one-line descriptions in a single fetch, which is how most of the private-company syndicate data below was sourced. UK Companies House (find-and-update.company-information.service.gov.uk) was completely reliable for confirming HQ/incorporation and was used for nearly every private company. For six historic M&A deals (Kymab/Sanofi, Nightstar/Biogen, MiroBio/Gilead, F-star/invoX, Verona/Merck, Centessa/Lilly) the acquirer and general facts are well-established public record but exact deal values/dates could not be re-confirmed via a fetched source this session, so those numbers were omitted per the no-quote-no-number rule rather than guessed."
+    },
+    "r4-uk-health": {
+      "wanted": [
+        "Elvie/Chiaro Technology administration date and full deal terms with Willow Innovations",
+        "Sensyne Health's exact administration/AIM-delisting date via a primary filing (currently inferred only from a Companies House name change)",
+        "Oxford Immunotec / PerkinElmer acquisition date and price",
+        "Wysa founders, HQ narrative and funding/investor history once its own site is fetchable (blocked by 403 on every attempt this pass)",
+        "YuLife funding rounds, investors and valuation (yulife.com would not render body content via WebFetch)",
+        "Huma Therapeutics' full investor roster (Bayer, Hitachi, Samsung, Vitruvian Partners, Amadeus are publicly reported but unconfirmed via a primary source here)",
+        "Zoe's venture funding rounds beyond the government COVID-study grants (a large 2022 raise including Sofina is publicly reported but unconfirmed here)",
+        "Skin Analytics, Ieso Digital Health, Daye, Thriva, Hertility, Unmind — all worth a fresh pass with working site access or a news database"
+      ],
+      "skipped": [
+        {
+          "name": "Oviva",
+          "reason": "Parent entity is Oviva AG, incorporated and registered in Switzerland (Altendorf); UK presence is a branch (Oviva UK Limited / Oviva AG UK establishment) rather than the actual HQ, confirmed via Companies House. Out of scope for a UK/Ireland-headquartered slice despite 4 investor mentions in unprofiled-companies.txt."
+        },
+        {
+          "name": "Ada Health",
+          "reason": "Headquartered in Berlin, Germany per Wikipedia, not UK."
+        },
+        {
+          "name": "Humanoo",
+          "reason": "German company, not UK/Ireland-headquartered."
+        },
+        {
+          "name": "Chemist2U / Chemist 4 U",
+          "reason": "Could not identify a matching, sourceable UK company via Companies House or its own site in this pass; dropped rather than guessed. Note: this is Oviva's fulfilment pharmacy partner per oviva.com, but that alone is not enough to source a standalone record."
+        },
+        {
+          "name": "4Living Biotech",
+          "reason": "Therapeutics company, outside this slice's medtech/digital-health/diagnostics scope."
+        },
+        {
+          "name": "Exscientia",
+          "reason": "AI drug discovery / therapeutics company, outside this slice's scope (covered by techbio-focused research segments)."
+        },
+        {
+          "name": "Skin Analytics",
+          "reason": "Could not source founders, founding year, funding or a working about-page fetch beyond the bare homepage title in this WebFetch-only pass; dropped rather than write a thin record."
+        },
+        {
+          "name": "Ieso Digital Health",
+          "reason": "Could not confirm current operating status (reported to have ceased trading) or founding/funding details via a fetchable primary source in this pass."
+        },
+        {
+          "name": "YuLife",
+          "reason": "Every fetch of yulife.com returned only page titles with no body content (SSL/rendering issues); could not source founders, funding or investors."
+        },
+        {
+          "name": "Thriva",
+          "reason": "Only found user-count/marketing copy; founders, HQ and funding/investors not sourced via a fetchable page in this pass."
+        },
+        {
+          "name": "Daye",
+          "reason": "wearedaye.com did not resolve (DNS failure) in this pass; could not source."
+        },
+        {
+          "name": "Hertility Health",
+          "reason": "Founders, exact HQ and funding not found on the fetchable homepage; dropped rather than write a thin record."
+        },
+        {
+          "name": "Unmind",
+          "reason": "Founders (partially found) but HQ and funding/investors not sourced via a fetchable page in this pass."
+        },
+        {
+          "name": "Isla Health",
+          "reason": "islahealth.com now redirects to a GoDaddy 'domain for sale' parking page, suggesting the company/domain is defunct; could not source a working site."
+        },
+        {
+          "name": "Isansys Lifecare",
+          "reason": "isansys.com's fetchable content showed a Bengaluru, India address rather than the expected Oxfordshire HQ, creating HQ ambiguity that could not be resolved in this pass; dropped rather than guess UK-headquartered status."
+        },
+        {
+          "name": "Provizio",
+          "reason": "provizio.com resolves to an unrelated UV water-treatment retailer, not the Galway spinal-surgery medtech company; correct domain not found in this pass."
+        },
+        {
+          "name": "FIRE1",
+          "reason": "No working domain found (fire1.tech, fire1.health, fire1.com all failed to resolve/connect) and no Wikipedia coverage; could not source."
+        },
+        {
+          "name": "Vitalograph",
+          "reason": "Confirmed UK-headquartered (with an Ireland office) via its own site, but founders, ownership detail and funding history could not be sourced beyond generic marketing copy; dropped rather than write a thin record."
+        }
+      ],
+      "notes": "Session ran WebFetch-only (no WebSearch) per instructions. Hit rate on guessed URLs (Wikipedia article titles, company /about or /press subpages, TechCrunch/Sifted/FinSMEs article slugs) was low; the two techniques that worked reliably were (1) UK Companies House 'search?q=' and '/company/<number>' pages for incorporation facts, and (2) Wikipedia's 'en.wikipedia.org/w/index.php?search=<terms>&title=Special:Search' endpoint, which often surfaces a usable snippet even when no dedicated article exists. Several important UK health-tech collapses/administrations turned up organically during research (Babylon Health, Sensyne Health, DnaNudge, Elvie/Chiaro Technology) alongside notable exits (EMIS Health to Optum for $1.5bn, Congenica to SeqOne, Kheiron to DeepHealth/RadNet, SilverCloud to Amwell for $320m, HealthBeacon to Hamilton Beach Health, Current Health to Best Buy then a 2025 founder buyout) — these are flagged accordingly in status/exit fields rather than left as generic 'private'."
     }
   }
 }

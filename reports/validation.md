@@ -1,6 +1,6 @@
 # Validation report
 
-- Total entities: **1644**
+- Total entities: **1647**
 - Regions with data: **12**
 - Schema violations: **0**
 
@@ -8,7 +8,7 @@
 
 - australia-nz: 69
 - canada: 81
-- europe: 281
+- europe: 284
 - greater-china: 158
 - india: 77
 - israel: 74
