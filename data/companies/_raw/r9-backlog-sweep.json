@@ -1,0 +1,2058 @@
+[
+  {
+    "id": "il-tyto-care",
+    "name": {
+      "en": "Tyto Care"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health",
+      "healthcare-services"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.tytocare.com",
+    "profile": {
+      "what": "Handheld, app-guided device (Home Smart Clinic / Pro Smart Clinic) that lets patients or clinicians replicate an in-person physical exam remotely — heart, lungs, skin, ears, throat and abdomen — for telehealth visits, backed by FDA-cleared AI algorithms that flag abnormal findings.",
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "ai-ml-platform"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "clearance",
+          "item": "AI algorithms for wheeze, rhonchi, crackles and eardrum-bulging detection",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "LionBird",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "OrbiMed",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Ping An (Pingan)",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Cambia Health Solutions",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Walgreens",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "MTIP (Medtech Innovation Partners)",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Insight Partners",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "OTV",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Qumra Capital",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Tiger Global",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Qure Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "OurCrowd",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Israeli remote-physical-exam device maker whose Home/Pro Smart Clinic hardware and FDA-cleared AI algorithms underpin a large share of the telehealth industry's in-home diagnostic capability."
+    },
+    "sources": [
+      {
+        "url": "https://www.tytocare.com/about-us/",
+        "title": "About Us",
+        "publisher": "TytoCare",
+        "accessed": "2026-08-16",
+        "supports": "Product description, investor list",
+        "quote": "We replicate doctors' physical exams, regardless of where you are or what condition you have – acute or chronic."
+      },
+      {
+        "url": "https://www.tytocare.com/",
+        "title": "TytoCare homepage",
+        "publisher": "TytoCare",
+        "accessed": "2026-08-16",
+        "supports": "FDA-cleared AI algorithms for wheeze/rhonchi/crackles/bulging detection"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Investor list is drawn from the company's own 'trusted by' page, not from individual round disclosures — role/round unknown for each. No funding amounts or founding year could be sourced within budget.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-chai-discovery",
+    "name": {
+      "en": "Chai Discovery"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "life-science-tools"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.chaidiscovery.com",
+    "profile": {
+      "what": "Develops Chai-1, a multi-modal AI foundation model for molecular structure prediction that unifies proteins, small molecules, DNA, RNA and glycosylation, released open-source (Apache 2.0) with a commercial partnership track for drug discovery.",
+      "modalities": [
+        "ai-ml-platform"
+      ]
+    },
+    "summary": {
+      "en": "AI-foundation-model company behind Chai-1, an open-sourced structure-prediction model spanning proteins, small molecules and nucleic acids, positioned as an AlphaFold-class tool for drug discovery."
+    },
+    "sources": [
+      {
+        "url": "https://github.com/chaidiscovery/chai-lab",
+        "title": "chai-lab README",
+        "publisher": "GitHub / Chai Discovery",
+        "accessed": "2026-08-16",
+        "supports": "What Chai-1 does, license, commercial contact",
+        "quote": "enables unified prediction of proteins, small molecules, DNA, RNA, glycosylations, and more"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Company's own website (chaidiscovery.com) returned 403 on every attempt; HQ, founding year and funding round (publicly reported ~$30M seed) could not be independently sourced within this session's tooling limits and are omitted rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-toku-eyes",
+    "name": {
+      "en": "Toku Eyes"
+    },
+    "aka": [
+      "Toku"
+    ],
+    "category": "diagnostics",
+    "sectors": [
+      "medical-imaging",
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "website": "https://www.tokueyes.com",
+    "profile": {
+      "what": "AI models that read retinal photographs to screen for systemic disease risk — BioAge (biological-age assessment), CLAiR (cardiovascular risk) and MyKidneyAI (chronic kidney disease detection in diabetics) — built on a dataset of 4.3M+ retinal images.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "indications": [
+        "cardiovascular",
+        "nephrology-urology",
+        "endocrinology"
+      ],
+      "regulatory": [
+        {
+          "body": "CE/UKCA",
+          "kind": "CE mark",
+          "item": "CLAiR cardiovascular-risk algorithm",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Outset Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Icehouse Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "New Zealand-founded (UniServices-linked) retinal-AI company whose BioAge/CLAiR/MyKidneyAI algorithms turn a standard eye photo into a cardiovascular- and kidney-disease risk screen, with CE/UKCA marking on its cardiovascular product."
+    },
+    "sources": [
+      {
+        "url": "https://www.tokueyes.com/",
+        "title": "Toku homepage",
+        "publisher": "Toku",
+        "accessed": "2026-08-16",
+        "supports": "Product description, regulatory status, investor/partner list, dataset size",
+        "quote": "Toku develops tools using AI and retinal photography to enable accessible healthcare for early and accurate diagnosis."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Site lists a San Diego office in its header alongside NZ signals (UniServices — University of Auckland's commercialization arm — as a partner/investor); region/country follow the New Zealand origin per the assigning brief.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "eu-imcheck-therapeutics",
+    "name": {
+      "en": "ImCheck Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "region": "europe",
+    "country": "France",
+    "website": "https://imchecktherapeutics.com",
+    "profile": {
+      "what": "Develops immunotherapeutic antibodies targeting butyrophilin (BTN) and BTN-like (BTNL) checkpoint molecules to activate gamma-delta T cells against cancer, infectious and autoimmune disease; lead candidate ICT01 is in first-line AML trials.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "infectious-disease",
+        "immunology-inflammation"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "ICT01 (anti-BTN3A agonist antibody), first-line AML trials; ICT41 secondary candidate"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Wille Finance",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2025,
+        "acquirer": "Ipsen"
+      }
+    },
+    "summary": {
+      "en": "French immuno-oncology biotech pioneering gamma-delta-T-cell-activating antibodies against butyrophilin checkpoints; acquired by Ipsen (completed December 15, 2025) to expand its oncology pipeline."
+    },
+    "sources": [
+      {
+        "url": "https://imchecktherapeutics.com/",
+        "title": "ImCheck Therapeutics homepage",
+        "publisher": "ImCheck Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "Technology (BTN/BTNL antibodies), lead asset ICT01, AML trial status",
+        "quote": "durable responses and early overall survival signal"
+      },
+      {
+        "url": "https://imchecktherapeutics.com/news/",
+        "title": "News",
+        "publisher": "ImCheck Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "Ipsen acquisition completion",
+        "quote": "Ipsen completes acquisition of ImCheck Therapeutics, expanding oncology pipeline."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Deal value/upfront payment for the Ipsen acquisition not disclosed in any source reachable this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-enzo-health",
+    "name": {
+      "en": "Enzo Health"
+    },
+    "category": "healthcare-it",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.enzo.health",
+    "profile": {
+      "what": "AI-native electronic health record and workflow platform purpose-built for home health agencies, automating eligibility verification, care coordination, scheduling, OASIS documentation, coding, billing and quality assurance.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "last_round": {
+        "stage": "series-a",
+        "amount": {
+          "raw": "$20M",
+          "usd": 20000000,
+          "currency": "USD"
+        },
+        "date": "2026-05",
+        "lead": [
+          "Next47"
+        ]
+      },
+      "investors": [
+        {
+          "name": "Next47",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-a"
+        },
+        {
+          "name": "Gradient Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        },
+        {
+          "name": "Tandem Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        },
+        {
+          "name": "Rigby Watts",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        }
+      ]
+    },
+    "summary": {
+      "en": "AI-native EHR/workflow platform for home health agencies that raised a $20M Series A in May 2026 led by Siemens's Next47, with Gradient Ventures, Tandem Ventures and Rigby Watts participating."
+    },
+    "sources": [
+      {
+        "url": "https://www.enzo.health/",
+        "title": "Enzo Health homepage",
+        "publisher": "Enzo Health",
+        "accessed": "2026-08-16",
+        "supports": "Product description",
+        "quote": "the first AI native EHR for home health"
+      },
+      {
+        "url": "https://homehealthcarenews.com/2026/05/home-health-tech-company-enzo-health-raises-20m/",
+        "title": "Home Health Tech Company Enzo Health Raises $20M",
+        "publisher": "Home Health Care News",
+        "accessed": "2026-08-16",
+        "supports": "$20M Series A, lead/participating investors, May 2026 date",
+        "quote": "The round was led by N47, with backing from existing investors including Gradient, Tandem Ventures and Rigby Watts."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The Home Health Care News URL returned 403 to this agent's own fetch attempts (tried 5x); the round quote is corroborated verbatim across two independently-researched investor entries already in this dataset (eu-next47 and us-gradient-ventures, both citing the same URL/quote), so it is reused here rather than treated as unsourced. HQ location and founding year not found.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-nimbus-therapeutics",
+    "name": {
+      "en": "Nimbus Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "website": "https://www.nimbustx.com",
+    "profile": {
+      "what": "Small-molecule drug discovery company built around computational structure-based design for highly selective targets across oncology, immunology and metabolic disease; sold two clinical-stage programs to Big Pharma (Gilead 2016, Takeda 2023) while advancing its own pipeline.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation",
+        "metabolic-obesity",
+        "dermatology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "NDI-219216 (WRN helicase inhibitor), Phase 1/2 for MSI-high advanced solid tumors"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Atlas Venture",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Boston-based precision small-molecule biotech whose asset-sale playbook produced two major pharma deals — an ACC inhibitor to Gilead (2016, now Phase 2 for MASH) and the TYK2 inhibitor zasocitinib to Takeda (2023, now Phase 2/3 for psoriasis/IBD) — while running an AMPK collaboration with Eli Lilly and its own WRN-inhibitor oncology program."
+    },
+    "sources": [
+      {
+        "url": "https://www.nimbustx.com/",
+        "title": "Nimbus Therapeutics homepage",
+        "publisher": "Nimbus Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ address, general positioning",
+        "quote": "22 Boston Wharf Road, Floor 9, Boston, MA 02210"
+      },
+      {
+        "url": "https://www.nimbustx.com/pipeline/",
+        "title": "Pipeline",
+        "publisher": "Nimbus Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "Gilead ACC deal (2016), Takeda TYK2 deal (2023), Lilly AMPK collaboration, WRN program stage",
+        "quote": "In 2023, Takeda acquired our TYK2 program and is currently conducting multiple Phase 2/3 studies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Deal values for the Gilead and Takeda transactions (publicly reported as up to ~$800M and ~$4B respectively) were not stated in the pages fetched, so amounts are omitted rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "eu-humanoo",
+    "name": {
+      "en": "Humanoo"
+    },
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "acquired",
+    "region": "europe",
+    "country": "Germany",
+    "website": "https://www.humanoo.com",
+    "profile": {
+      "what": "Corporate wellness / employee-engagement platform combining fitness, nutrition and mental-health content with HR analytics for employers."
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "SwissHealth Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Helsana HealthInvest AG",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "acquirer": "TELUS Health"
+      }
+    },
+    "summary": {
+      "en": "German corporate-wellness platform that has been absorbed into TELUS Health's Engage wellbeing product; humanoo.com now redirects into a TELUS Health migration flow."
+    },
+    "sources": [
+      {
+        "url": "https://humanoo.com/",
+        "title": "Humanoo (redirect)",
+        "publisher": "Humanoo / TELUS Health",
+        "accessed": "2026-08-16",
+        "supports": "Redirect target and migration parameter confirming TELUS Health absorption",
+        "quote": "Redirect URL: https://www.telushealth.com/de-de/solutions/engage?migration=pai-humanoo"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "The redirect target page (TELUS Health Engage, German-language) describes the current wellbeing product but does not name Humanoo directly in its body copy; the 'migration=pai-humanoo' URL parameter is the direct evidence of the acquisition/rebrand. Founding year, deal date and terms not found.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "eu-alia-therapeutics",
+    "name": {
+      "en": "Alia Therapeutics"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "Italy",
+    "website": "https://www.aliatherapeutics.com",
+    "profile": {
+      "what": "Gene-editing company developing treatments for genetic diseases, working to unlock new therapeutic targets and tissues while improving editing safety.",
+      "modalities": [
+        "gene-editing"
+      ],
+      "indications": [
+        "rare-disease"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Indaco Venture Partners",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Fondazione Telethon",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Italian gene-editing biotech developing next-generation editing tools for genetic disease, backed by Indaco Venture Partners and Fondazione Telethon."
+    },
+    "sources": [
+      {
+        "url": "https://www.aliatherapeutics.com/",
+        "title": "Alia Therapeutics homepage",
+        "publisher": "Alia Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "Company description",
+        "quote": "a pioneering gene editing company"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ city, founding year and specific lead program not stated on the homepage; Italian HQ inferred from an Italian-format VAT number shown on the page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "cn-prenetics",
+    "name": {
+      "en": "Prenetics Global Limited"
+    },
+    "aka": [
+      "Prenetics",
+      "NASDAQ:PRE"
+    ],
+    "category": "genomics-omics",
+    "sectors": [
+      "diagnostics",
+      "consumer-health"
+    ],
+    "status": "public",
+    "founded_year": 2014,
+    "region": "greater-china",
+    "country": "Hong Kong",
+    "website": "https://www.prenetics.com",
+    "profile": {
+      "what": "Health-sciences company spanning genetic testing/diagnostics and consumer health products, including its IM8 health-supplements brand.",
+      "modalities": [
+        "ai-ml-platform"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "C Capital",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Gobi Partners",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ],
+      "exit": {
+        "type": "SPAC",
+        "ticker": "NASDAQ:PRE"
+      }
+    },
+    "summary": {
+      "en": "Hong Kong-founded genetic-testing and consumer-health company (Nasdaq: PRE), founded 2014 by Danny Yeung, now also operating the IM8 supplements brand."
+    },
+    "sources": [
+      {
+        "url": "https://www.prenetics.com/about-us",
+        "title": "About Us",
+        "publisher": "Prenetics",
+        "accessed": "2026-08-16",
+        "supports": "Founding year, founder, Nasdaq listing, business description",
+        "quote": "Prenetics Global Limited (Nasdaq: PRE)"
+      },
+      {
+        "url": "https://www.prenetics.com/contact",
+        "title": "Contact",
+        "publisher": "Prenetics",
+        "accessed": "2026-08-16",
+        "supports": "Hong Kong HQ",
+        "quote": "Hong Kong-based biotechnology start-up"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "IPO date and pre-IPO funding history not confirmed within budget; SPAC merger inferred from general market knowledge of the listing route but not independently re-verified this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "il-vectorious-medical-technologies",
+    "name": {
+      "en": "Vectorious Medical Technologies"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.vectoriousmedtech.com",
+    "profile": {
+      "what": "Implantable V-LAP sensor placed in the heart's interatrial septum to continuously measure left atrial pressure and transmit daily readings, enabling physician-guided self-management of chronic heart failure.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "phase-2"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "MEDX Xelerator",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "RAD BioMed",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Israeli medtech developing the V-LAP implantable left-atrial-pressure sensor for heart-failure management; still investigational, with EU Horizon 2020 grant support and the largest reported LAP patient dataset in the field."
+    },
+    "sources": [
+      {
+        "url": "https://www.vectoriousmedtech.com/",
+        "title": "Vectorious Medical Technologies homepage",
+        "publisher": "Vectorious Medical Technologies",
+        "accessed": "2026-08-16",
+        "supports": "Product description, regulatory status, EU grant",
+        "quote": "The V-LAP System is an investigational device and is not currently approved for clinical use in any geography."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and private funding rounds not disclosed on the site; only an EU Horizon 2020 grant (No. 811765) is documented there.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "il-lutris-pharma",
+    "name": {
+      "en": "Lutris Pharma"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://lutris-pharma.com",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company developing LUT014, a topical B-RAF inhibitor for acneiform rash caused by EGFR-inhibitor cancer therapies.",
+      "modalities": [
+        "small-molecule",
+        "drug-delivery"
+      ],
+      "indications": [
+        "dermatology",
+        "oncology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "LUT014, topical B-RAF inhibitor"
+    },
+    "summary": {
+      "en": "Tel Aviv-based clinical-stage biopharma developing a topical B-RAF inhibitor (LUT014) to treat the acneiform skin rash that EGFR-inhibitor cancer drugs commonly cause."
+    },
+    "sources": [
+      {
+        "url": "https://lutris-pharma.com/",
+        "title": "Lutris Pharma homepage",
+        "publisher": "Lutris Pharma",
+        "accessed": "2026-08-16",
+        "supports": "Lead asset, mechanism, HQ, clinical stage",
+        "quote": "LUT014, a proprietary, first-in-class, small molecule that is a topical B-RAF inhibitor"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and investor names not found on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "il-biond-biologics",
+    "name": {
+      "en": "Biond Biologics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.biondbio.com",
+    "profile": {
+      "what": "Immuno-oncology biologics company developing first-in-class antibodies against novel immune-evasion pathways, led by BND-22 (anti-ILT2).",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "BND-22, anti-ILT2 blocking antibody, in colorectal cancer and cholangiocarcinoma combination trials"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Harel Insurance Investments and Financial Services",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Guangzhou Sino-Israel Biotech Investment Fund",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Israeli immuno-oncology biotech whose lead ILT2-blocking antibody BND-22 is in Phase 2 combination trials for colorectal cancer and cholangiocarcinoma, alongside earlier-stage anti-CD28 (BND-67) and anti-ILT3 (BND-35) programs."
+    },
+    "sources": [
+      {
+        "url": "https://www.biondbio.com/",
+        "title": "Biond Biologics homepage",
+        "publisher": "Biond Biologics",
+        "accessed": "2026-08-16",
+        "supports": "Pipeline, lead asset, mechanism, trial phase",
+        "quote": "Phase 2 first-in-class Immunoglobulin-Like Transcript 2 (ILT2) blocking antibody"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city and founding year not stated on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-carevive",
+    "name": {
+      "en": "Carevive"
+    },
+    "category": "healthcare-it",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Oncology care-management platform combining EHR data, electronic patient-reported outcomes (ePROs) and evidence-based guidelines to generate personalized cancer-care plans and symptom monitoring.",
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology"
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "Health Catalyst"
+      }
+    },
+    "summary": {
+      "en": "Oncology care-planning and patient-reported-outcomes platform, now sold and operated as 'Carevive by Health Catalyst'."
+    },
+    "sources": [
+      {
+        "url": "https://www.healthcatalyst.com/offerings/carevive-by-health-catalyst",
+        "title": "Carevive by Health Catalyst",
+        "publisher": "Health Catalyst",
+        "accessed": "2026-08-16",
+        "supports": "Product description and Health Catalyst ownership (carevive.com redirects here)",
+        "quote": "combines EHR data, electronic patient-reported outcomes (ePROs), and evidence-based guidelines"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Acquisition date/terms not disclosed on the offerings page; carevive.com 301-redirects directly to this Health Catalyst page, which is the basis for the acquired/acquirer facts. OurCrowd's Qure fund is named as an early investor in this dataset's investor-side research but that source only lists the company in passing, without a dedicated Carevive quote, so it is omitted here rather than restated without support.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-city-therapeutics",
+    "name": {
+      "en": "City Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge, MA",
+    "website": "https://www.citytx.com",
+    "profile": {
+      "what": "RNA interference (RNAi) therapeutics company engineering novel siRNA trigger chemistries and precision tissue-targeting ligands to reach cell types beyond the liver.",
+      "modalities": [
+        "rna-therapeutics"
+      ],
+      "indications": [
+        "cardiovascular",
+        "ophthalmology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "CITY-FXI (Factor XI-targeted siRNA for thromboembolic disease), Phase 1"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "ARCH Venture Partners",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Invus",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "FMRC",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Rock Springs Capital",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Slate Path Capital",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "RTW Investments",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "AN Venture Partners",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Altitude Life Science Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Cambridge, MA RNAi biotech engineering next-generation siRNA triggers and tissue-targeting ligands beyond the liver, with CITY-FXI (Factor XI, thromboembolic disease) in Phase 1 and CITY-RBP4 (Stargardt disease/geographic atrophy) in Phase 1/2-enabling studies."
+    },
+    "sources": [
+      {
+        "url": "https://www.citytx.com/",
+        "title": "City Therapeutics homepage",
+        "publisher": "City Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "Technology, pipeline programs and stages, investor list",
+        "quote": "engineering trigger molecules with unmatched potency, specificity and durability"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Investor list is from a logo wall (no round/date attribution per investor); founding year not stated.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-ableto",
+    "name": {
+      "en": "AbleTo"
+    },
+    "category": "healthcare-services",
+    "sectors": [
+      "mental-health"
+    ],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Virtual behavioral-health provider delivering structured, short-term therapy and psychiatry programs for anxiety, depression and related conditions, integrated with payers.",
+      "indications": [
+        "psychiatry-mental-health"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": ".406 Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "HLM Investment Partners",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "acquirer": "Optum / UnitedHealth Group"
+      }
+    },
+    "summary": {
+      "en": "Virtual behavioral-health company now operating as part of Optum Behavioral Care; ableto.com redirects directly into Optum's behavioral-health site."
+    },
+    "sources": [
+      {
+        "url": "https://www.ableto.com/",
+        "title": "AbleTo (redirect)",
+        "publisher": "AbleTo / Optum",
+        "accessed": "2026-08-16",
+        "supports": "Redirect target confirming Optum integration",
+        "quote": "Redirect URL: https://www.optumbhcare.com/"
+      },
+      {
+        "url": "https://www.optumbhcare.com/",
+        "title": "Optum Behavioral Care",
+        "publisher": "Optum",
+        "accessed": "2026-08-16",
+        "supports": "Description of the successor service",
+        "quote": "Compassionate mental health care, available as soon as tomorrow"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "The redirect target (optumbhcare.com) describes Optum's current behavioral-health offering but does not name AbleTo directly; acquisition date and deal terms (publicly reported as Optum's ~2021 acquisition) could not be confirmed via a source this agent could fetch.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-ascertain",
+    "name": {
+      "en": "Ascertain"
+    },
+    "category": "healthcare-it",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.ascertain.com",
+    "profile": {
+      "what": "Healthcare AI platform automating administrative workflows for provider organizations — prior authorizations, referrals, eligibility checks, denials/appeals and care coordination.",
+      "modalities": [
+        "ai-ml-platform"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Aegis Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Northwell Holdings",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "AI company-creation venture (with Aegis Ventures) automating prior-authorization, eligibility and care-coordination workflows for health systems, with live deployments at The Oncology Institute and Northwell Health."
+    },
+    "sources": [
+      {
+        "url": "https://www.ascertain.com/",
+        "title": "Ascertain homepage",
+        "publisher": "Ascertain",
+        "accessed": "2026-08-16",
+        "supports": "Product description, customer traction",
+        "quote": "executes prior authorizations, referrals, eligibility checks, and care coordination across your existing systems"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ, founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-midi-health",
+    "name": {
+      "en": "Midi Health"
+    },
+    "aka": [
+      "Midi"
+    ],
+    "category": "healthcare-services",
+    "sectors": [
+      "femtech-womens-health"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.joinmidi.com",
+    "profile": {
+      "what": "Virtual clinic specializing in perimenopause and menopause care, offering personalized hormone-therapy and GLP-1 prescriptions, supplements and lab work through insurance-covered and self-pay virtual visits.",
+      "indications": [
+        "womens-health",
+        "endocrinology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "SteelSky Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Felicis Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Menopause-focused virtual clinic serving roughly 450,000 women across all 50 states, covered by major insurers including BCBS, UnitedHealthcare, Cigna and Aetna."
+    },
+    "sources": [
+      {
+        "url": "https://www.joinmidi.com/",
+        "title": "Midi Health homepage",
+        "publisher": "Midi Health",
+        "accessed": "2026-08-16",
+        "supports": "Service description, patient count, insurance coverage",
+        "quote": "95% of patients report symptom improvement after 2+ months of care"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city, founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-oisin-biotechnologies",
+    "name": {
+      "en": "Oisín Biotechnologies"
+    },
+    "aka": [
+      "Oisin Biotechnologies"
+    ],
+    "category": "cell-gene-therapy",
+    "sectors": [
+      "longevity-aging"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Seattle, WA",
+    "website": "https://www.oisinbio.com",
+    "profile": {
+      "what": "Develops redosable genetic medicines targeting aging biology — including senescent-cell clearance, targeted fat removal and muscle building — via its Fusogenix non-viral Proteo-Lipid Vehicle delivery platform.",
+      "modalities": [
+        "gene-therapy",
+        "drug-delivery"
+      ],
+      "indications": [
+        "aging-longevity"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Healthspan Capital",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Methuselah Fund",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Seattle-based longevity biotech using its non-viral Fusogenix delivery platform to build repeat-dosable genetic medicines against aging biology, including senescent-cell clearance."
+    },
+    "sources": [
+      {
+        "url": "https://www.oisinbio.com/",
+        "title": "Oisín Biotechnologies homepage",
+        "publisher": "Oisín Biotechnologies",
+        "accessed": "2026-08-16",
+        "supports": "HQ address, technology platform, R&D lab location",
+        "quote": "powerful, redosable genetic therapies"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-fauna-bio",
+    "name": {
+      "en": "Fauna Bio"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "longevity-aging"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Emeryville, CA",
+    "website": "https://www.faunabio.com",
+    "profile": {
+      "what": "Uses comparative genomics from extreme-adapted animal species (hibernators, etc.) and its proprietary Convergence platform to find novel human drug targets for metabolic and age-related disease.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "aging-longevity",
+        "metabolic-obesity"
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "up to $494M",
+            "usd": 494000000,
+            "currency": "USD"
+          },
+          "date": "2023-12",
+          "lead": [
+            "Eli Lilly"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Eli Lilly",
+          "entity_id": null,
+          "role": "lead",
+          "round": "collaboration"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Emeryville, CA comparative-genomics drug discovery company mining hibernating and other extreme-adapted animals' genomes for human drug targets; entered a December 2023 collaboration with Eli Lilly worth up to $494M in milestones plus an upfront/equity component."
+    },
+    "sources": [
+      {
+        "url": "https://www.faunabio.com/",
+        "title": "Fauna Bio homepage",
+        "publisher": "Fauna Bio",
+        "accessed": "2026-08-16",
+        "supports": "HQ address, platform description, Eli Lilly collaboration value and structure",
+        "quote": "an upfront payment, equity investment and eligibility to receive up to $494 million in milestone payments plus royalties"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Upfront/equity split not itemized; founding year not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-photys-therapeutics",
+    "name": {
+      "en": "Photys Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.photys.com",
+    "profile": {
+      "what": "'Proximity-based therapeutics' company running three modality platforms — PROTAC-based protein degradation, PHICS phosphorylation control, and tPRIME protein-expression restoration — against autoimmune, inflammatory, oncology and cardiometabolic targets.",
+      "modalities": [
+        "protein-degradation",
+        "small-molecule"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "oncology",
+        "cardiovascular"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "PHT-776, oral IRAK4-targeted PROTAC for autoimmune/inflammatory disease (licensed from PolyMed Therapeutics)"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "MPM Capital",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Longwood Fund",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Arkin Holdings",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "MRL Ventures Fund",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Mass General Brigham",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Ono Venture Investment",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Heritage Group",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "US biotech running three 'proximity-based' modalities (PROTAC degradation, PHICS phosphorylation control, tPRIME expression restoration), with a clinical-stage IRAK4 PROTAC (PHT-776) and a Novo Nordisk cardiometabolic partnership on its preclinical PHICS platform."
+    },
+    "sources": [
+      {
+        "url": "https://www.photys.com/",
+        "title": "Photys Therapeutics homepage",
+        "publisher": "Photys Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "Platforms, pipeline, investor list, leadership",
+        "quote": "proximity-based therapeutics"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city, founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "cn-shukun-technology",
+    "name": {
+      "en": "Shukun Technology",
+      "local": "数坤科技"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "diagnostics",
+      "healthcare-it"
+    ],
+    "status": "private",
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Beijing",
+    "website": "https://www.shukun.com",
+    "profile": {
+      "what": "AI-assisted diagnosis and treatment company whose 'Shukun Kun' multimodal medical large language model powers 'Digital Doctor' AI agents across cardiac, brain, chest, abdominal, breast and musculoskeletal imaging for hospitals and primary-care providers.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "indications": [
+        "cardiovascular",
+        "neurology",
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "CE",
+          "kind": "CE-MDR",
+          "item": "AI diagnostic imaging products (4 CE-MDR certifications)",
+          "year": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Beijing/Shanghai-based AI medical-imaging company deployed in 2,000+ Chinese hospitals (90%+ of China's Top 100), with a large multimodal medical LLM ('Shukun Kun') and international expansion into Hong Kong, Korea, Japan, Singapore, Malaysia, the UK, Netherlands, US and Brazil."
+    },
+    "sources": [
+      {
+        "url": "https://www.shukun.com/",
+        "title": "Shukun Technology homepage",
+        "publisher": "Shukun Technology",
+        "accessed": "2026-08-16",
+        "supports": "Product description, hospital deployment numbers, CE certifications, global footprint",
+        "quote": "artificial intelligence-assisted diagnosis and treatment product combinations, covering common major diseases in various parts of the human body"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and funding-round amounts not disclosed on the homepage; investor names (Huagai Capital, Yuanyi Capital) are drawn from this dataset's own investor-side research and included on that basis.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep",
+    "funding": {
+      "investors": [
+        {
+          "name": "Huagai Capital",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Yuanyi Capital",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "id": "us-bivacor",
+    "name": {
+      "en": "BiVACOR"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Huntington Beach, CA",
+    "website": "https://www.bivacor.com",
+    "profile": {
+      "what": "Total Artificial Heart (TAH) — an electro-mechanical rotary blood pump with a single magnetically levitated rotor that simultaneously drives systemic and pulmonary circulation — as a bridge-to-transplant for end-stage biventricular heart failure.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "phase-1",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "Early Feasibility Study",
+          "item": "BiVACOR Total Artificial Heart",
+          "year": 2024
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "OneVentures",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Total-artificial-heart maker with an Australian origin (Gold Coast office) and current US HQ in Huntington Beach, CA; performed its first FDA-authorized human implant on July 9, 2024 at Baylor St. Luke's Medical Center, Houston, as part of a five-patient Early Feasibility Study."
+    },
+    "sources": [
+      {
+        "url": "https://www.bivacor.com/",
+        "title": "BiVACOR homepage",
+        "publisher": "BiVACOR",
+        "accessed": "2026-08-16",
+        "supports": "Device description, HQ/offices, first-in-human implant date and site, FDA EFS status",
+        "quote": "The inaugural implantation occurred on July 9, 2024, at Baylor St. Luke's Medical Center in Houston"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and funding-round amounts not disclosed on the homepage; OneVentures (Australian VC) investor context drawn from this dataset's own investor-side research.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-pendulum",
+    "name": {
+      "en": "Pendulum"
+    },
+    "aka": [
+      "Pendulum Therapeutics"
+    ],
+    "category": "consumer-health",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://pendulumlife.com",
+    "profile": {
+      "what": "Develops next-generation, oxygen-sensitive anaerobic probiotic strains sold as medical/clinical-grade probiotics, including a glucose-control product clinically shown to improve A1C in type 2 diabetes.",
+      "modalities": [
+        "microbiome"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Ki Tua (Fonterra)",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Probiotics company founded by scientists from Johns Hopkins, Harvard, Berkeley and Stanford, manufacturing next-generation anaerobic strains in its own US facility; its Glucose Control product is marketed as the only medical probiotic clinically shown to improve A1C in type 2 diabetes."
+    },
+    "sources": [
+      {
+        "url": "https://pendulumlife.com/",
+        "title": "Pendulum homepage",
+        "publisher": "Pendulum",
+        "accessed": "2026-08-16",
+        "supports": "Product description, founder background, clinical claim",
+        "quote": "the only medical probiotic on the market clinically shown to improve A1C in type 2 diabetes"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city, founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-dimerix",
+    "name": {
+      "en": "Dimerix Limited"
+    },
+    "aka": [
+      "ASX:DXB"
+    ],
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Fitzroy, Victoria",
+    "website": "https://www.dimerix.com",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company with a portfolio of drug candidates for inflammatory diseases, including kidney and respiratory conditions.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "nephrology-urology",
+        "respiratory"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "DMX-200 for Focal Segmental Glomerulosclerosis (FSGS), Phase 3 ACTION3 study"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Yuuwa Capital",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "ASX-listed Australian biopharma running the Phase 3 ACTION3 trial of DMX-200 in Focal Segmental Glomerulosclerosis, alongside earlier-stage inflammatory-disease programs."
+    },
+    "sources": [
+      {
+        "url": "https://www.dimerix.com/",
+        "title": "Dimerix homepage",
+        "publisher": "Dimerix Limited",
+        "accessed": "2026-08-16",
+        "supports": "Company description, HQ address, lead program and trial stage",
+        "quote": "a clinical-stage biopharmaceutical company, with a portfolio of drug candidates for inflammatory diseases, including kidney and respiratory diseases"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "ASX ticker (DXB) and founding year not confirmed within a fetched source this session; omitted from profile fields accordingly but noted in aka based on prior public-market knowledge — flag for re-verification.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-nexhealth",
+    "name": {
+      "en": "NexHealth"
+    },
+    "category": "healthcare-it",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.nexhealth.com",
+    "profile": {
+      "what": "Patient-engagement platform automating front-office operations for medical and dental practices — online scheduling, digital intake, payments and insurance verification — via an EHR-integration API (NexHealth Synchronizer) connecting to 60+ EHR systems.",
+      "modalities": [
+        "software-samd"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Skip Capital",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Patient-scheduling and front-office automation platform serving 10,000+ medical and dental practices, built around an EHR-integration API connecting to 60+ systems."
+    },
+    "sources": [
+      {
+        "url": "https://www.nexhealth.com/",
+        "title": "NexHealth homepage",
+        "publisher": "NexHealth",
+        "accessed": "2026-08-16",
+        "supports": "Product description, customer count, EHR integration breadth",
+        "quote": "scheduling, intake, and payments that sync to the patient record"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ city and founding year not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-healthmatch",
+    "name": {
+      "en": "HealthMatch"
+    },
+    "category": "healthcare-it",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "Australia",
+    "website": "https://www.healthmatch.io",
+    "profile": {
+      "what": "Clinical-trial patient-recruitment platform that matches patients to relevant trials.",
+      "modalities": [
+        "software-samd"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Square Peg Capital",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Australian clinical-trial matching platform connecting patients with relevant trials, backed by Square Peg Capital."
+    },
+    "sources": [
+      {
+        "url": "https://www.healthmatch.io/",
+        "title": "HealthMatch homepage",
+        "publisher": "HealthMatch",
+        "accessed": "2026-08-16",
+        "supports": "Product description"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Homepage content fetched was minimal (single-page app); founding year, funding amounts and further detail not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-sonder",
+    "name": {
+      "en": "Sonder"
+    },
+    "category": "healthcare-services",
+    "sectors": [
+      "mental-health"
+    ],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Waterloo, NSW",
+    "website": "https://www.sonder.io",
+    "profile": {
+      "what": "Employee-wellbeing app combining 24/7 mental-health counselling, telehealth medical support (nurses/GPs) and personal-safety tools (journey tracking, critical-incident response) in a single platform for employers.",
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "IAG Firemark Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Australian employee-wellbeing platform combining mental-health, medical and personal-safety support, serving 1.3M+ members at employers including Woolworths, Allianz and IAG."
+    },
+    "sources": [
+      {
+        "url": "https://www.sonder.io/",
+        "title": "Sonder homepage",
+        "publisher": "Sonder",
+        "accessed": "2026-08-16",
+        "supports": "Product description, HQ address, member count, enterprise customers",
+        "quote": "24/7 medical, mental health and safety support via phone or instant chat"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-mindset-health",
+    "name": {
+      "en": "Mindset Health"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "mental-health"
+    ],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Melbourne",
+    "website": "https://www.mindsethealth.com",
+    "profile": {
+      "what": "AI-powered digital-therapeutic apps that train the brain-body axis via validated behavioral programs, spanning IBS (Nerva), menopause (Evia), mental health (Claria) and chronic pain (Relio).",
+      "modalities": [
+        "digital-therapeutics"
+      ],
+      "indications": [
+        "gastroenterology-hepatology",
+        "womens-health",
+        "psychiatry-mental-health",
+        "pain"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Giant Leap",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Melbourne-based digital-therapeutics company with four brain-body-axis apps (Nerva for IBS, Evia for menopause, Claria for mental health, Relio for chronic pain), reporting 350,000+ patients helped and 10+ published studies."
+    },
+    "sources": [
+      {
+        "url": "https://www.mindsethealth.com/",
+        "title": "Mindset Health homepage",
+        "publisher": "Mindset Health",
+        "accessed": "2026-08-16",
+        "supports": "Product portfolio, HQ, patient/study metrics",
+        "quote": "software that trains the brain–body axis, validated in randomised trials"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-formus-labs",
+    "name": {
+      "en": "Formus Labs"
+    },
+    "aka": [
+      "Formus Health",
+      "Formus"
+    ],
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "website": "https://www.formus.com",
+    "profile": {
+      "what": "AI-automated 3D pre-operative planning software for joint-replacement surgery, converting medical scans into interactive 3D models for patient-specific implant selection and placement; flagship product Formus Hip.",
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "musculoskeletal-orthopedics"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Formus Hip — automated radiological image-processing software for hip-replacement pre-op planning",
+          "year": 2024
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "GD1",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Auckland Bioengineering Institute spinout building AI-automated 3D pre-op planning software for joint replacement; received FDA 510(k) clearance for Formus Hip (Dec 18, 2024) as the first automated radiological image-processing software of its kind, and partners with Zimmer Biomet in ANZ and, from Oct 2025, Japan."
+    },
+    "sources": [
+      {
+        "url": "https://www.formus.com/",
+        "title": "Formus homepage",
+        "publisher": "Formus Labs",
+        "accessed": "2026-08-16",
+        "supports": "Product description, HQ, FDA clearance date, Zimmer Biomet partnership",
+        "quote": "Formus Hip as the first \"automated radiological image processing software\" for hip replacement pre-op planning"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and funding-round amounts not disclosed on the homepage; formuslabs.com 301-redirects to formus.com.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-chemist2u",
+    "name": {
+      "en": "Chemist2U"
+    },
+    "category": "healthcare-services",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "Australia",
+    "website": "https://www.chemist2u.com.au",
+    "profile": {
+      "what": "On-demand pharmacy delivery platform connecting customers to local Australian pharmacies, with a digital script wallet and supported treatment programs for weight loss and menopause.",
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "AirTree Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Australian on-demand pharmacy-delivery platform (1M+ orders dispensed) offering a digital script wallet plus supported weight-loss and menopause treatment programs."
+    },
+    "sources": [
+      {
+        "url": "https://www.chemist2u.com.au/",
+        "title": "Chemist2U homepage",
+        "publisher": "Chemist2U",
+        "accessed": "2026-08-16",
+        "supports": "Product description, order volume, city coverage",
+        "quote": "medication delivered to your door"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-kitea-health",
+    "name": {
+      "en": "Kitea Health"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "website": "https://www.kiteahealth.com",
+    "profile": {
+      "what": "Implantable pressure sensor that continuously monitors cerebrospinal-fluid dynamics for hydrocephalus patients, giving patients and clinicians real-time data as an alternative to unchanged 1950s-era shunt systems.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "neurology"
+      ],
+      "development_stage": "preclinical"
+    },
+    "summary": {
+      "en": "Auckland-based medtech developing an implantable intracranial-pressure sensor for hydrocephalus monitoring; the Kitea System remains investigational and is not yet approved for sale anywhere, with a US office in Delaware."
+    },
+    "sources": [
+      {
+        "url": "https://www.kiteahealth.com/",
+        "title": "Kitea Health homepage",
+        "publisher": "Kitea Health",
+        "accessed": "2026-08-16",
+        "supports": "Device description, HQ address, regulatory status",
+        "quote": "a small implantable pressure sensor"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and investor names not disclosed on the homepage; Pacific Channel investor context drawn from this dataset's own investor-side research.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep",
+    "funding": {
+      "investors": [
+        {
+          "name": "Pacific Channel",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    }
+  },
+  {
+    "id": "anz-sisu-health",
+    "name": {
+      "en": "SiSU Health"
+    },
+    "aka": [
+      "SiSU Health Group",
+      "SiSU Health Station"
+    ],
+    "category": "medtech-devices",
+    "sectors": [
+      "consumer-health",
+      "healthcare-services"
+    ],
+    "status": "acquired",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Docklands, Victoria",
+    "website": "https://www.sisuhealthgroup.com",
+    "profile": {
+      "what": "Self-service health-screening kiosks ('SiSU Health Stations') offering free five-minute health checks (including blood pressure) in pharmacies, workplaces and events, with results delivered on-screen and via a companion app.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "TGA",
+          "kind": "Class IIa registration",
+          "item": "SiSU Health Station (ARTG 317543)",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Wesfarmers Health",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Australian free health-screening kiosk network (310+ public stations) that has been acquired by Wesfarmers Health, per this dataset's investor-side research; delivered 69,000+ free checks to Aboriginal and Torres Strait Islander Australians as of May 2025."
+    },
+    "sources": [
+      {
+        "url": "https://www.sisuhealthgroup.com/",
+        "title": "SiSU Health homepage",
+        "publisher": "SiSU Health",
+        "accessed": "2026-08-16",
+        "supports": "Product description, HQ, TGA registration, deployment scale",
+        "quote": "health checks directly to the community—whether at pharmacies, workplaces or major events"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Own homepage content did not itself confirm the Wesfarmers Health acquisition — that status/acquirer is carried over from this dataset's independently-researched anz-wesfarmers-health investor entry, which lists SiSU Health as 'acquired'; not independently re-verified via a fetch on Wesfarmers' own site this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "us-canary-health",
+    "name": {
+      "en": "Canary Health"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Los Angeles, CA",
+    "website": "https://www.canaryhealth.com",
+    "profile": {
+      "what": "Peer-led digital-therapeutics programs for chronic-disease self-management ('Better Choices, Better Health') and caregiver support ('Building Better Caregivers'), aimed at improving medication adherence and reducing healthcare costs.",
+      "modalities": [
+        "digital-therapeutics"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Horizon 3 Healthcare",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Los Angeles-based peer-led digital-therapeutics company running evidence-based chronic-disease self-management and caregiver-support programs, operating since at least 2015."
+    },
+    "sources": [
+      {
+        "url": "https://www.canaryhealth.com/",
+        "title": "Canary Health homepage",
+        "publisher": "Canary Health",
+        "accessed": "2026-08-16",
+        "supports": "Product description, HQ address, years active",
+        "quote": "a leader in peer-led digital health...since 2015"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Precise founding year and funding-round amounts not disclosed on the homepage.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-respiraq",
+    "name": {
+      "en": "RespirAq"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "website": "https://www.respiraq.com",
+    "profile": {
+      "what": "Active Humidifier System for ventilated patients — a compact HME-scale device using patented smart material to capture moisture from exhaled breath and release it on inhalation, eliminating external water supply needs.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "respiratory"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Movac",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Respiratory-device company (board ties to NZ VCs Movac and Icehouse Ventures) building a compact active-humidifier system for ventilated patients that recycles moisture from exhaled breath."
+    },
+    "sources": [
+      {
+        "url": "https://www.respiraq.com/",
+        "title": "RespirAq homepage",
+        "publisher": "RespirAq",
+        "accessed": "2026-08-16",
+        "supports": "Device description and mechanism; board members from Movac and Icehouse Ventures",
+        "quote": "Active Humidifier System [that] delivers active heated humidification in a compact HME-scale design"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ location not stated on the homepage; New Zealand is inferred from board members being partners at NZ venture firms Movac and Icehouse Ventures, not from a direct address — flag for confirmation.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  },
+  {
+    "id": "anz-everlab",
+    "name": {
+      "en": "Everlab"
+    },
+    "category": "consumer-health",
+    "sectors": [
+      "longevity-aging",
+      "diagnostics"
+    ],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "Australia",
+    "website": "https://www.everlab.com.au",
+    "profile": {
+      "what": "Preventive-health and longevity clinic platform combining blood work, genetic testing, imaging and clinician consultations to identify health risks before symptoms appear.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "aging-longevity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "last_round": {
+        "amount": {
+          "raw": "US$10M (Seed)",
+          "usd": 10000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Australian preventive-health/longevity platform serving 20,000+ members, combining diagnostics (blood, genetic, imaging) with clinician guidance; press coverage references a US$10M seed round and a separate $15M raise from New York-based VC investors."
+    },
+    "sources": [
+      {
+        "url": "https://www.everlab.com.au/",
+        "title": "Everlab homepage",
+        "publisher": "Everlab",
+        "accessed": "2026-08-16",
+        "supports": "Product description, member count, funding references",
+        "quote": "US$10M Seed Round"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Funding figures ($15M and US$10M seed) appear as press-mention references on the homepage rather than a primary announcement with full round/date detail, and investor names were not identified (only 'New York-based venture capital investors' in general terms) — round/date fields omitted accordingly.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r9-backlog-sweep"
+  }
+]
