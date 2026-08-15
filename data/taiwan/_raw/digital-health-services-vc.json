@@ -1,10 +1,19 @@
 [
   {
     "id": "tw-be-health-ventures",
-    "name": { "en": "BE Health Ventures", "local": "比翼生醫（比翼加速器）" },
-    "aka": ["BE Health", "比翼加速器", "BE Accelerator"],
+    "name": {
+      "en": "BE Health Ventures",
+      "local": "比翼生醫（比翼加速器）"
+    },
+    "aka": [
+      "BE Health",
+      "比翼加速器",
+      "BE Accelerator"
+    ],
     "type": "vc",
-    "subtypes": ["accelerator"],
+    "subtypes": [
+      "accelerator"
+    ],
     "status": "active",
     "founded_year": 2018,
     "region": "taiwan",
@@ -15,15 +24,34 @@
       "linkedin": "https://tw.linkedin.com/company/be-accelerator"
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "check_size": { "raw": "$2.4M–$4.1M (typical round size)", "usd_min": 2400000, "usd_max": 4100000 },
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "$2.4M–$4.1M (typical round size)",
+        "usd_min": 2400000,
+        "usd_max": 4100000
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["Taiwan", "Asia"],
-      "sector_focus": ["digital-health", "medtech-devices", "healthcare-services"],
+      "geo_focus": [
+        "Taiwan",
+        "Asia"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "healthcare-services"
+      ],
       "thesis": "Taiwan's first and only hospital-backed VC & accelerator; invests in MedTech and Digital Health (HealthTech) startups and uses its hospital network (Taipei Medical University, Show Chwan Health Care System and others) to provide proof-of-concept (PoC) and proof-of-business (PoB) clinical/market validation before scaling internationally."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware", "digital-therapeutics", "wearables-sensors"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware",
+        "digital-therapeutics",
+        "wearables-sensors"
+      ],
       "company_creation": null,
       "invests_public_markets": null,
       "science_platform_notes": "Runs a hospital-backed accelerator program (PoC/PoB validation with partner hospitals) alongside direct VC investment; invests via its 智康基金 (Zhikang Fund)."
@@ -31,9 +59,18 @@
     "track_record": {
       "portfolio_count": 33,
       "notable_investments": [
-        { "company": "慧康生活科技 (HuiKang Life Technology)", "sector": "healthcare-services", "outcome": "active" }
+        {
+          "company": "慧康生活科技 (HuiKang Life Technology)",
+          "sector": "healthcare-services",
+          "outcome": "active"
+        }
       ],
-      "co_investors": ["Taiwania Buffalo Fund III (台杉水牛三號)", "Wistron", "Pegatron", "Cathay Venture (國泰創投)"]
+      "co_investors": [
+        "Taiwania Buffalo Fund III (台杉水牛三號)",
+        "Wistron",
+        "Pegatron",
+        "Cathay Venture (國泰創投)"
+      ]
     },
     "summary": {
       "en": "Taiwan's first and only hospital-backed venture capital firm and largest MedTech/HealthTech accelerator, founded in 2018; it pairs early-stage capital with hospital-network clinical validation for digital health and medtech startups.",
@@ -84,7 +121,11 @@
       "en": "National Development Fund – Smart Healthcare Innovation & Entrepreneurship Investment Program",
       "local": "國家發展基金-投資智慧醫療創新創業計畫"
     },
-    "aka": ["國發基金智慧醫療計畫", "投資智慧醫療創新創業計畫"],
+    "aka": [
+      "國發基金智慧醫療計畫",
+      "投資智慧醫療創新創業計畫",
+      "国家发展基金-投资智慧医疗创新创业计划"
+    ],
     "type": "government-program",
     "status": "active",
     "region": "taiwan",
@@ -92,17 +133,35 @@
     "hq_city": "Taipei",
     "website": "https://www.df.gov.tw/Content_List.aspx?n=FE9D31DC2999CE61",
     "capital": {
-      "current_fund": { "raw": "NT$100億 (earmarked, Sept 2024)", "usd": null, "currency": "TWD" }
+      "current_fund": {
+        "raw": "NT$100億 (earmarked, Sept 2024)",
+        "usd": null,
+        "currency": "TWD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Taiwan"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "geo_focus": [
+        "Taiwan"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Sovereign co-investment program: Taiwan's National Development Fund (國發基金) earmarked NT$10 billion to invest — via its existing panel of appointed investment-project offices — into domestic 'smart healthcare' (智慧醫療) innovation companies, i.e. digital health, telehealth and health-IT ventures, alongside private investors."
     },
     "lifesci": {
-      "modalities": ["software-samd", "ai-ml-platform", "wearables-sensors"],
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "wearables-sensors"
+      ],
       "company_creation": false,
       "invests_public_markets": false
     },
@@ -139,27 +198,58 @@
   },
   {
     "id": "tw-wi-harper-group",
-    "name": { "en": "WI Harper Group", "local": "漢鼎亞太" },
+    "name": {
+      "en": "WI Harper Group",
+      "local": "漢鼎亞太"
+    },
     "type": "vc",
     "status": "active",
     "region": "taiwan",
     "country": "Taiwan",
     "hq_city": "Taipei (regional office; global HQ San Francisco)",
     "offices": [
-      { "country": "United States", "city": "San Francisco" },
-      { "country": "Taiwan", "city": "Taipei" },
-      { "country": "China", "city": "Beijing" }
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "Taiwan",
+        "city": "Taipei"
+      },
+      {
+        "country": "China",
+        "city": "Beijing"
+      }
     ],
     "website": "https://www.wiharper.com/",
     "capital": {
-      "aum": { "raw": "over $1B across 9 funds", "usd": 1000000000, "currency": "USD" }
+      "aum": {
+        "raw": "over $1B across 9 funds",
+        "usd": 1000000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "check_size": { "raw": "$1.4M–$41M", "usd_min": 1400000, "usd_max": 41000000 },
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "check_size": {
+        "raw": "$1.4M–$41M",
+        "usd_min": 1400000,
+        "usd_max": 41000000
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["Taiwan", "Mainland China", "Silicon Valley"],
-      "sector_focus": ["generalist-health", "digital-health"],
+      "geo_focus": [
+        "Taiwan",
+        "Mainland China",
+        "Silicon Valley"
+      ],
+      "sector_focus": [
+        "generalist-health",
+        "digital-health"
+      ],
       "thesis": "Generalist Greater-China/Taiwan/Silicon-Valley technology VC (est. 1994-era cross-border franchise) whose three core verticals are technology, clean technology and healthcare; invests in healthcare (including digital health and biotech) out of its dedicated Taipei office alongside Beijing and San Francisco."
     },
     "lifesci": {

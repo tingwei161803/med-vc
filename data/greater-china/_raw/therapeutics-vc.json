@@ -1,8 +1,13 @@
 [
   {
     "id": "cn-lilly-asia-ventures",
-    "name": { "en": "Lilly Asia Ventures", "local": "礼来亚洲基金" },
-    "aka": ["LAV"],
+    "name": {
+      "en": "Lilly Asia Ventures",
+      "local": "礼来亚洲基金"
+    },
+    "aka": [
+      "LAV"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2008,
@@ -10,16 +15,38 @@
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "Hong Kong", "city": "Hong Kong" },
-      { "country": "United States", "city": "Palo Alto" }
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      },
+      {
+        "country": "United States",
+        "city": "Palo Alto"
+      }
     ],
     "capital": {
-      "aum": { "raw": "$4 billion+", "usd": 4000000000, "currency": "USD" }
+      "aum": {
+        "raw": "$4 billion+",
+        "usd": 4000000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China", "United States", "Asia"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "United States",
+        "Asia"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "One of Asia's earliest biomedical-only VC firms, originated as Eli Lilly's Asia corporate venture arm before spinning off into an independent investment manager; backs biopharmaceuticals, human therapeutics and medical devices across China and the US."
     },
     "lifesci": {
@@ -28,8 +55,16 @@
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Simcere Pharmaceutical", "sector": "therapeutics", "outcome": "active" },
-        { "company": "BeiGene", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "Simcere Pharmaceutical",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "BeiGene",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -60,25 +95,50 @@
   },
   {
     "id": "cn-cbc-group",
-    "name": { "en": "CBC Group", "local": "康桥资本" },
-    "aka": ["C-Bridge Capital"],
+    "name": {
+      "en": "CBC Group",
+      "local": "康桥资本"
+    },
+    "aka": [
+      "C-Bridge Capital"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "Hong Kong", "city": "Hong Kong" }
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      }
     ],
     "capital": {
-      "aum": { "raw": "$7 billion+", "usd": 7000000000, "currency": "USD" }
+      "aum": {
+        "raw": "$7 billion+",
+        "usd": 7000000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China", "Asia"],
-      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services"],
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "Asia"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "healthcare-services"
+      ],
       "thesis": "Describes itself as Asia's largest healthcare-focused investment firm, deploying capital across early- to late-stage biopharma, medtech and healthcare services in the region."
     },
     "lifesci": {
@@ -106,7 +166,9 @@
   },
   {
     "id": "cn-panacea-venture",
-    "name": { "en": "Panacea Venture (Panacea Capital)" },
+    "name": {
+      "en": "Panacea Venture (Panacea Capital)"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2017,
@@ -115,9 +177,20 @@
     "hq_city": "Shanghai",
     "website": "https://www.panaceacapital.com/",
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["China", "United States", "Global"],
-      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "China",
+        "United States",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "cell-gene-therapy"
+      ],
       "thesis": "Global early-stage life-science VC spun out of Kleiner Perkins China's life-science investing team; backs biopharma innovation with a China-US cross-border bridge, spanning immunotherapeutics, regenerative medicine and neurodegenerative disease."
     },
     "lifesci": {
@@ -157,19 +230,34 @@
   },
   {
     "id": "cn-tf-capital",
-    "name": { "en": "TF Capital", "local": "泰福资本" },
+    "name": {
+      "en": "TF Capital",
+      "local": "泰福资本"
+    },
     "type": "vc",
     "status": "active",
     "region": "greater-china",
     "country": "China",
     "website": "https://www.tfcapital.net/",
     "capital": {
-      "aum": { "raw": "$1B", "usd": 1000000000, "currency": "USD" }
+      "aum": {
+        "raw": "$1B",
+        "usd": 1000000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Early-stage biotech/biopharma specialist positioning itself as foundational capital for innovative Chinese biotech, with a strong track record of MNC out-licensing deals from its portfolio."
     },
     "track_record": {
@@ -204,8 +292,15 @@
   },
   {
     "id": "cn-honghui-capital",
-    "name": { "en": "Honghui Capital", "local": "弘晖基金" },
-    "aka": ["弘晖资本", "HLC", "Loyal Valley Capital"],
+    "name": {
+      "en": "Honghui Capital",
+      "local": "弘晖基金"
+    },
+    "aka": [
+      "弘晖资本",
+      "HLC",
+      "Loyal Valley Capital"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2014,
@@ -214,12 +309,26 @@
     "hq_city": "Shanghai",
     "website": "https://www.hlc.com.cn/",
     "capital": {
-      "aum": { "raw": "近100亿人民币 (~RMB 10 billion)", "currency": "CNY" }
+      "aum": {
+        "raw": "近100亿人民币 (~RMB 10 billion)",
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "pharma-services", "consumer-health"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "pharma-services",
+        "consumer-health"
+      ],
       "thesis": "Invests in \"healthy living\" across the biopharma value chain (innovative drugs, CRO, bioengineering), health devices, and health-consumer businesses; founded by former executives of CDH, SoftBank and Springland."
     },
     "summary": {
@@ -250,8 +359,14 @@
   },
   {
     "id": "cn-6-dimensions-capital",
-    "name": { "en": "6 Dimensions Capital", "local": "通和毓承" },
-    "aka": ["Tonghe Yucheng", "TF Capital (unrelated namesake, do not confuse)"],
+    "name": {
+      "en": "6 Dimensions Capital",
+      "local": "通和毓承"
+    },
+    "aka": [
+      "Tonghe Yucheng",
+      "TF Capital (unrelated namesake, do not confuse)"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2017,
@@ -259,29 +374,74 @@
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "Hong Kong", "city": "Hong Kong" },
-      { "country": "China", "city": "Suzhou" },
-      { "country": "United States", "city": "Boston" },
-      { "country": "United States", "city": "Palo Alto" }
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      },
+      {
+        "country": "China",
+        "city": "Suzhou"
+      },
+      {
+        "country": "United States",
+        "city": "Boston"
+      },
+      {
+        "country": "United States",
+        "city": "Palo Alto"
+      }
     ],
     "website": "http://www.6dimensionscapital.com/en/",
     "capital": {
-      "aum": { "raw": "$1.5 billion+", "usd": 1500000000, "currency": "USD" }
+      "aum": {
+        "raw": "$1.5 billion+",
+        "usd": 1500000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "Formed from the 2017 merger of WuXi Healthcare Ventures and Frontline BioVentures; invests in early- to growth-stage biologics, small-molecule, medical device, diagnostics and healthcare-IT companies with a China-US cross-border strategy."
     },
     "track_record": {
       "portfolio_count": "85",
       "exits": [
-        { "company": "Viela Bio", "type": "M&A", "year": 2021, "value": { "raw": "~$3.05 billion", "usd": 3050000000, "currency": "USD" } }
+        {
+          "company": "Viela Bio",
+          "type": "M&A",
+          "year": 2021,
+          "value": {
+            "raw": "~$3.05 billion",
+            "usd": 3050000000,
+            "currency": "USD"
+          }
+        }
       ],
       "notable_investments": [
-        { "company": "Curon Biopharmaceutical", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Lyvgen Biopharma", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Curon Biopharmaceutical",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Lyvgen Biopharma",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -311,7 +471,10 @@
   },
   {
     "id": "cn-longpan-capital",
-    "name": { "en": "Longpan Capital", "local": "龙磐投资" },
+    "name": {
+      "en": "Longpan Capital",
+      "local": "龙磐投资"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2010,
@@ -319,19 +482,40 @@
     "country": "China",
     "hq_city": "Beijing",
     "capital": {
-      "aum": { "raw": "超100亿元人民币 (100+ billion RMB across funds, per 2022-2023 reporting)", "currency": "CNY" }
+      "aum": {
+        "raw": "超100亿元人民币 (100+ billion RMB across funds, per 2022-2023 reporting)",
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "Specialist biomedical VC focused exclusively on innovative drugs and high-end medical devices, spanning early-mid to growth/mature stage investing."
     },
     "track_record": {
       "portfolio_count": "80+",
       "notable_investments": [
-        { "company": "Betta Pharmaceuticals (贝达药业)", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "RemeGen (荣昌生物)", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "Betta Pharmaceuticals (贝达药业)",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "RemeGen (荣昌生物)",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -362,7 +546,10 @@
   },
   {
     "id": "cn-decheng-capital",
-    "name": { "en": "Decheng Capital", "local": "德诚资本" },
+    "name": {
+      "en": "Decheng Capital",
+      "local": "德诚资本"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2012,
@@ -370,16 +557,37 @@
     "country": "China",
     "website": "https://www.decheng.com/",
     "capital": {
-      "aum": { "raw": "$2.5 billion+", "usd": 2500000000, "currency": "USD" }
+      "aum": {
+        "raw": "$2.5 billion+",
+        "usd": 2500000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "pharma-services"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "pharma-services"
+      ],
       "thesis": "China-US cross-border life-science investor backing early-stage biopharma, traditional Chinese medicine, medical devices, CRO/CDMO and biological-IT companies, with special emphasis on cardiometabolic disease, oncology, immunology and genetic medicine."
     },
     "lifesci": {
-      "indications": ["oncology", "immunology-inflammation", "cardiovascular", "rare-disease"],
+      "indications": [
+        "oncology",
+        "immunology-inflammation",
+        "cardiovascular",
+        "rare-disease"
+      ],
       "company_creation": null
     },
     "track_record": {
@@ -387,7 +595,11 @@
       "exits": []
     },
     "people": [
-      { "name": "Cui Xiangmin (崔相民)", "role": "Founder & Chairman", "background": "PhD in cancer biology, Stanford University; BSc molecular biology, Peking University" }
+      {
+        "name": "Cui Xiangmin (崔相民)",
+        "role": "Founder & Chairman",
+        "background": "PhD in cancer biology, Stanford University; BSc molecular biology, Peking University"
+      }
     ],
     "summary": {
       "en": "China-US cross-border life-sciences VC founded in 2012 by Stanford-trained cancer biologist Cui Xiangmin, with $2.5B+ AUM and 70+ portfolio companies spanning biopharma, TCM, devices and CRO/CDMO.",
@@ -409,7 +621,10 @@
   },
   {
     "id": "cn-efung-capital",
-    "name": { "en": "Efung Capital", "local": "倚锋资本" },
+    "name": {
+      "en": "Efung Capital",
+      "local": "倚锋资本"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2012,
@@ -418,14 +633,27 @@
     "hq_city": "Shenzhen",
     "website": "http://www.efungcapital.com/",
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
-      "geo_focus": ["China", "Global"],
-      "sector_focus": ["therapeutics"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Among the earliest specialist biomedical investment institutions in China, focused on global biopharma VC/PE investing from early to growth stage; investment team composed largely of PhDs."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Mindray Medical", "sector": "medtech-devices", "outcome": "IPO" }
+        {
+          "company": "Mindray Medical",
+          "sector": "medtech-devices",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -455,8 +683,13 @@
   },
   {
     "id": "cn-genesis-capital",
-    "name": { "en": "Genesis Capital", "local": "元生创投" },
-    "aka": ["苏州工业园区元生创业投资管理有限公司"],
+    "name": {
+      "en": "Genesis Capital",
+      "local": "元生创投"
+    },
+    "aka": [
+      "苏州工业园区元生创业投资管理有限公司"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2013,
@@ -465,12 +698,27 @@
     "hq_city": "Suzhou",
     "website": "https://bioventure.com.cn/",
     "capital": {
-      "aum": { "raw": "约30亿人民币 (~RMB 3 billion, reported figures range RMB 2-3 billion)", "currency": "CNY" }
+      "aum": {
+        "raw": "约30亿人民币 (~RMB 3 billion, reported figures range RMB 2-3 billion)",
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["China", "Global"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "China",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Early- and growth-stage healthcare investor based in Suzhou BioBAY, covering new drug creation, medical devices, in-vitro diagnostics/precision medicine and healthcare services."
     },
     "track_record": {
@@ -504,7 +752,10 @@
   },
   {
     "id": "cn-sherpa-healthcare-partners",
-    "name": { "en": "Sherpa Healthcare Partners", "local": "夏尔巴投资" },
+    "name": {
+      "en": "Sherpa Healthcare Partners",
+      "local": "夏尔巴投资"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2018,
@@ -512,9 +763,17 @@
     "country": "China",
     "hq_city": "Beijing",
     "strategy": {
-      "stages": ["series-a", "series-b"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "stages": [
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "Beijing-based healthcare-focused VC investing in pharmaceutical/biotech and medtech companies."
     },
     "summary": {
@@ -538,27 +797,61 @@
   },
   {
     "id": "cn-gaotejia-investment",
-    "name": { "en": "Gaotejia Investment Group", "local": "高特佳投资集团" },
-    "aka": ["深圳市高特佳投资集团有限公司", "GTJA Investment"],
+    "name": {
+      "en": "Gaotejia Investment Group",
+      "local": "高特佳投资集团"
+    },
+    "aka": [
+      "深圳市高特佳投资集团有限公司",
+      "GTJA Investment",
+      "高特佳投資"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2001,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shenzhen",
     "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shanghai" },
-      { "country": "Hong Kong", "city": "Hong Kong" }
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      }
     ],
     "capital": {
-      "aum": { "raw": "超200亿元人民币 (RMB 20 billion+)", "currency": "CNY" }
+      "aum": {
+        "raw": "超200亿元人民币 (RMB 20 billion+)",
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["China", "Global"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Healthcare-dedicated investment group spanning angel through PE/PIPE/M&A stages, with 35 dedicated healthcare funds; evaluates innovative-drug bets (small molecules, antibodies, vaccines) on differentiation and commercial application."
     },
     "track_record": {
@@ -586,21 +879,40 @@
   },
   {
     "id": "cn-huagai-capital",
-    "name": { "en": "Huagai Capital", "local": "华盖资本" },
+    "name": {
+      "en": "Huagai Capital",
+      "local": "华盖资本"
+    },
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2012,
     "region": "greater-china",
     "country": "China",
     "website": "http://huagaicapital.com/",
     "capital": {
-      "aum": { "raw": "超200亿元人民币 (RMB 20 billion+, across medical, TMT and culture funds)", "currency": "CNY" }
+      "aum": {
+        "raw": "超200亿元人民币 (RMB 20 billion+, across medical, TMT and culture funds)",
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "healthcare-services"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health",
+        "healthcare-services"
+      ],
       "thesis": "Healthcare-focused PE/VC with a 'full-stage, full-value-chain' medical investment program (early, growth, PIPE and fund-of-funds vehicles), alongside separate TMT and culture funds; medical fund family targets biopharma, medical devices, healthcare services and digital medicine."
     },
     "track_record": {
@@ -635,23 +947,41 @@
   },
   {
     "id": "cn-mint-angel-fund",
-    "name": { "en": "Mint Angel Fund", "local": "薄荷天使基金" },
+    "name": {
+      "en": "Mint Angel Fund",
+      "local": "薄荷天使基金"
+    },
     "type": "micro-vc",
     "status": "active",
     "founded_year": 2015,
     "region": "greater-china",
     "country": "China",
     "capital": {
-      "current_fund": { "raw": "RMB 200 million (2亿人民币)", "currency": "CNY" }
+      "current_fund": {
+        "raw": "RMB 200 million (2亿人民币)",
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["China", "Global"],
-      "sector_focus": ["therapeutics", "diagnostics"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "China",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics"
+      ],
       "thesis": "China's first angel-stage fund dedicated exclusively to global early biomedical R&D companies; invests in and incubates innovative anti-infective, oncology/immunotherapy drugs, screening/diagnostic technologies and novel medical devices."
     },
     "lifesci": {
-      "indications": ["oncology", "infectious-disease"],
+      "indications": [
+        "oncology",
+        "infectious-disease"
+      ],
       "company_creation": true,
       "science_platform_notes": "Founder Liu Yuwen also runs two incubation platforms, Beijing Xinshengchao and Suzhou Bohe, that work alongside the fund to incubate early life-science technologies."
     },
@@ -659,7 +989,11 @@
       "portfolio_count": "30+"
     },
     "people": [
-      { "name": "Liu Yuwen (刘毓文)", "role": "Founding Partner", "background": "Former managing GM/chairman of Suzhou BioBAY (Suzhou Industrial Park biopharma development company), 2005-2015" }
+      {
+        "name": "Liu Yuwen (刘毓文)",
+        "role": "Founding Partner",
+        "background": "Former managing GM/chairman of Suzhou BioBAY (Suzhou Industrial Park biopharma development company), 2005-2015"
+      }
     ],
     "summary": {
       "en": "RMB 200M angel-stage biomedical fund founded in 2015 by former Suzhou BioBAY chief Liu Yuwen, backed by LPs including WuXi AppTec, Hengrui, Simcere, Tigermed and BGI; China's first fund dedicated purely to angel-stage global biomedical R&D.",
@@ -688,8 +1022,13 @@
   },
   {
     "id": "cn-kaitai-capital",
-    "name": { "en": "Kaitai Capital", "local": "凯泰资本" },
-    "aka": ["杭州凯泰资本管理有限公司"],
+    "name": {
+      "en": "Kaitai Capital",
+      "local": "凯泰资本"
+    },
+    "aka": [
+      "杭州凯泰资本管理有限公司"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2009,
@@ -698,19 +1037,39 @@
     "hq_city": "Hangzhou",
     "website": "https://kaitaicapital.com/",
     "capital": {
-      "aum": { "raw": "500亿元人民币 (RMB 50 billion, across all sectors)", "currency": "CNY" }
+      "aum": {
+        "raw": "500亿元人民币 (RMB 50 billion, across all sectors)",
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "life-science-tools"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools"
+      ],
       "thesis": "Diversified investment manager (biopharma/healthcare services, precision medicine, agri-biotech, consumer and IT) with a large, dedicated biopharma practice; has backed 100+ biopharma startups including cell-therapy and gene-therapy companies."
     },
     "track_record": {
       "portfolio_count": "100+ (biopharma segment)",
       "notable_investments": [
-        { "company": "CARsgen Therapeutics (科济生物)", "sector": "cell-gene-therapy", "outcome": "IPO" },
-        { "company": "HighLight Therapeutics (高光制药)", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "CARsgen Therapeutics (科济生物)",
+          "sector": "cell-gene-therapy",
+          "outcome": "IPO"
+        },
+        {
+          "company": "HighLight Therapeutics (高光制药)",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
