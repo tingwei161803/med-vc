@@ -135,7 +135,17 @@ _TAIL = ("capital", "ventures", "venture", "partners", "partner", "management",
          "advisors", "advisers", "investments", "investment", "fund", "funds",
          "group", "holdings", "holding", "associates", "equity", "asset",
          "technologies", "technology", "labs", "lab", "health", "bio",
-         "therapeutics", "sciences", "science", "systems", "medical", "inc")
+         "therapeutics", "sciences", "science", "systems", "medical", "inc",
+         # The life-science half of the vocabulary. A company files as
+         # "AbCellera Biologics Inc." and the world writes "AbCellera"; without
+         # these the two never meet. Aggressive stripping is safe here because
+         # _pick still demands a UNIQUE hit — two companies collapsing to the
+         # same core produce a refusal, not a wrong link.
+         "biologics", "biosciences", "bioscience", "biopharma",
+         "biopharmaceuticals", "biopharmaceutical", "pharmaceuticals",
+         "pharmaceutical", "pharma", "biotechnologies", "biotechnology",
+         "biotech", "diagnostics", "genomics", "medicines", "medicine",
+         "healthcare", "biolabs", "bioworks", "biotherapeutics")
 # a core this generic identifies nobody; refuse to match on it
 _TOO_GENERIC = {"health", "bio", "medical", "care", "life", "new", "first",
                 "global", "national", "the", "one", "open", "med", "digital",

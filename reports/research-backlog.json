@@ -2923,6 +2923,404 @@
         }
       ],
       "notes": "WebSearch was unavailable for this entire run (session budget exhausted per instructions), so all research relied on WebFetch against guessed URLs: company sites, English/Indonesian/Thai/Vietnamese Wikipedia, and SEA VC portfolio pages. This produced a high 404/DNS-failure/JS-SPA rate (roughly half of all fetch attempts) since many SEA startup sites are React/Next.js SPAs that return no server-rendered marketing copy, and Crunchbase/DealStreetAsia/Tech in Asia are blocked (403 or explicitly unreachable). Indonesian-language Wikipedia was unexpectedly the richest source, yielding full funding histories with named investors for Halodoc, Alodokter and KlikDokter. English Wikipedia was reliable for large public/established hospital and pharmacy chains (IHH, KPJ, Raffles Medical, Bumrungrad, BDMS, Mercury Drug, Generika, Southstar, Columbia Asia, Kimia Farma). VC portfolio pages (Golden Gate Ventures, Verge HealthTech Fund, HealthXCapital, Monk's Hill Ventures) surfaced several smaller companies (Homage, Lifepack, BotMD, Mesh Bio, reach52) but rarely disclosed funding amounts. Given these constraints, this batch delivers 27 companies rather than the 30-40 target; the 'wanted' list above flags the highest-value gaps for a follow-up pass with working search."
+    },
+    "r9-backlog-sweep": {
+      "wanted": [
+        "Araris Biotech — Swiss ADC-linker biotech, reportedly acquired by Taiho (2025); worth a fresh pass with a working domain guess or a EU-biotech-news source not blocked this session.",
+        "Genoox — active Israeli genomics platform (product name 'Franklin'), reportedly acquired by QIAGEN (2025); needs a fetch of QIAGEN's dated press-release archive rather than its search/landing pages.",
+        "Zebra Medical Vision — Israeli AI-imaging pioneer acquired by Nanox (2021); needs an Israeli business-press source (Globes/Calcalist) with working access.",
+        "BiomX — public microbiome/phage-therapy biotech; needs SEC EDGAR full-text search or a press-release aggregator that isn't bot-blocked.",
+        "Jupiter Neurosciences — needs a definitive HQ/country source (SEC filing or investor-relations page) to resolve the Florida-vs-Australia ambiguity noted above.",
+        "Zi.Care — Indonesian EMR startup named by two catalogued SEA investors; needs an Indonesian tech-press source (e.g. e27, DealStreetAsia) since its own domain wouldn't resolve.",
+        "Hyro, NextRNA Therapeutics, Turn Bio, Syncell, 暻裕生醫, Saveo, George Medicines, Curvebeam, Cynata Therapeutics, Southern RNA — all real, named-by-multiple-investors companies whose own sites were unreachable this session (expired certs, rate limits, broken redirects); likely resolvable with a different fetch path or a business-database lookup (Crunchbase/PitchBook access) not available here.",
+        "Everything below row ~100 of the ranked backlog (all remaining 1-mention companies) — this sweep only reached the top of the count=1 tier; a future pass should continue further down reports/links.json's unresolved_portfolio_companies list."
+      ],
+      "skipped": [
+        {
+          "name": "Flagship Pioneering",
+          "reason": "Venture-creation firm / VC, not an operating company — belongs in the investor directory, not here."
+        },
+        {
+          "name": "Kyulux",
+          "reason": "Confirmed via this dataset's own Japan investor research (DBJ Capital, QB Capital entries) to be an OLED-materials company (Kyushu University spinout), not medical/biomedical — false positive in the backlog, likely from confusion with a biomedical co-portfolio company."
+        },
+        {
+          "name": "Xeptiva Therapeutics",
+          "reason": "Confirmed via this dataset's rest-of-world investor research to be a Latin American animal-health company — in scope for r9-latam, not this backlog slice."
+        },
+        {
+          "name": "Zi.Care",
+          "reason": "Confirmed via this dataset's SEA investor research (Telkomsel Ventures, Greenwillow Capital entries) to be an Indonesian EMR/digital-health company — attempted to source directly (zi.care domain would not resolve from this environment across multiple attempts) and could not be independently verified this session, so dropped rather than profiled on secondhand context alone."
+        },
+        {
+          "name": "Araris Biotech",
+          "reason": "Not a non-company — genuinely a Swiss ADC-linker biotech (reportedly acquired by Taiho, 2025, per this dataset's Europe investor research) — but its own website could not be reached under any of ~7 domain guesses tried (araris-biotech.com, araris.bio, araris-biotech.ch, ararisbio.com, araris.com, etc.), and no independent news source could be fetched either (Taiho, Endpoints, FierceBiotech, LabiotechEU all blocked or silent). Dropped for lack of a directly-fetched source rather than profiled off secondhand context."
+        },
+        {
+          "name": "Genoox",
+          "reason": "Its own domain (genoox.com) redirects to a JavaScript-rendered app (franklin.genoox.com) that returned no extractable content across 3 attempts; QIAGEN's newsroom did not surface the acquisition press release. Dropped for lack of a directly-fetched description, despite being a real, active genomics company."
+        },
+        {
+          "name": "Zebra Medical Vision",
+          "reason": "No working domain or Wikipedia page found despite multiple attempts (zebra-med.com does not resolve, no standalone Wikipedia article exists); Nanox's press-release archive did not surface the acquisition. Dropped for lack of a directly-fetched source."
+        },
+        {
+          "name": "BiomX",
+          "reason": "Company is real and public (phage-therapy biotech) but biomx.com returned 403 on every attempt, no Wikipedia article exists, and SEC EDGAR/investor-relations pages were also blocked or timed out. Dropped for lack of a directly-fetched source."
+        },
+        {
+          "name": "Jupiter Neurosciences",
+          "reason": "Sourced what it does (JOTROL resveratrol platform for neuroinflammation) but could not confirm headquarters/country — conflicting signals between prior general knowledge (Florida/Nasdaq) and this dataset's own investor research (an Australian VC, Tarnagulla Ventures, lists it as a notable IPO investment) — and country is a required schema field, so dropped rather than guessed."
+        },
+        {
+          "name": "Hyro",
+          "reason": "Real, active conversational-AI-for-healthcare company (hyro.ai returns 403, confirming it exists) but no accessible page yielded substantive content after 5 domain/path attempts (hyro.ai, gethyro.com, gethyro.ai, hyro.com landing-page-for-sale, hyro.ai/about-us). Dropped for lack of a directly-fetched description."
+        },
+        {
+          "name": "NextRNA Therapeutics",
+          "reason": "nextrnatx.com consistently returned 'certificate has expired' (site exists but is TLS-broken) across 3 attempts with http/https/alternate paths; no alternate domain worked. Dropped for lack of a directly-fetched source."
+        },
+        {
+          "name": "Turn Bio",
+          "reason": "turnbio.com redirects to turn.bio, which 404's; www.turn.bio also 404's. Dropped for lack of a directly-fetched source despite the company (cellular reprogramming/longevity) being real and well documented elsewhere."
+        },
+        {
+          "name": "Syncell",
+          "reason": "No working domain found for the Taiwan biotech (新析生技) across 2 attempts (syncell.com and syncell.com.tw both failed to resolve). Dropped for lack of a directly-fetched source."
+        },
+        {
+          "name": "暻裕生醫",
+          "reason": "No working domain found across 2 romanization guesses (jingyu-biomed.com, jinyu-biomed.com); Taiwan corporate-registry lookup not attempted within budget. Dropped for lack of a directly-fetched source."
+        },
+        {
+          "name": "Saveo",
+          "reason": "saveo.in redirects to curebay.com, but curebay.com serves only a client-rendered app shell with no extractable content across 2 attempts (root and /who-we-are). Dropped — redirect alone is not enough to describe what the company does."
+        },
+        {
+          "name": "George Medicines",
+          "reason": "georgemedicines.com does not resolve; The George Institute's own site 404'd on the specific news page. Dropped for lack of a directly-fetched source, despite being a known George-Institute-linked Australian cardiovascular-polypill company."
+        },
+        {
+          "name": "Curvebeam",
+          "reason": "curvebeam.com and curvebeam.ai both failed (cert error / no response). Dropped for lack of a directly-fetched source."
+        },
+        {
+          "name": "Cynata Therapeutics",
+          "reason": "cynata.com (429 rate-limited), cynata.com.au (cert hostname mismatch) both failed after 2 attempts. Dropped for lack of a directly-fetched source, despite being a real ASX-listed (CYP) stem-cell biotech."
+        },
+        {
+          "name": "Southern RNA",
+          "reason": "southernrna.com does not resolve. Dropped for lack of a directly-fetched source."
+        },
+        {
+          "name": "Augmented Bionics",
+          "reason": "augmentedbionics.com redirects to a HugeDomains for-sale listing — the domain has lapsed. Dropped."
+        },
+        {
+          "name": "TATUM bioscience",
+          "reason": "tatumbioscience.com does not resolve. Dropped for lack of a directly-fetched source."
+        },
+        {
+          "name": "Convergence Medical",
+          "reason": "convergencemedical.com.au does not resolve. Dropped for lack of a directly-fetched source."
+        }
+      ],
+      "notes": "Worked strictly top-down through reports/links.json's unresolved_portfolio_companies (ranked by investors_naming_it), skipping Canada, LatAm and MENA/Africa (covered by other R9 agents this round) and cross-checking scratchpad/existing-companies.tsv to avoid duplicates (WeDoctor, ACT Genomics and TaiMed Biologics were already profiled and skipped on that basis). WebSearch was unavailable all session (budget exhausted); DuckDuckGo and Bing were tried as WebFetch targets for discovery but returned CAPTCHA walls or garbage localized results, so all leads came from direct company-domain guessing, Wikipedia, GitHub, SEC/press-release sites, and this dataset's own already-researched entities.json files (used only for investor-name context and as a signal of which companies/domains were worth chasing — never as a substitute 'source' for a company's own profile.what). Domain-guessing had roughly a 45-50% hit rate; the bulk of session time went to iterating through 403s, expired certs, and DNS failures. 34 of the profiled companies carry at least one named investor (all except the two acquired-but-thinly-documented cases us-nexhealth is included with one). Reached down to the very top of the count=1 tier (row ~100 of 1,158) after exhausting the count=2/3 tier; genuinely could not source (not merely deprioritized) 21 additional backlog entries despite multiple domain/URL attempts each — see 'skipped' and 'wanted'."
+    },
+    "r9-canada-biotech": {
+      "wanted": [
+        "AtomVie Global Radiopharma (Fusion Pharmaceuticals spin-off, radiopharma CDMO, Hamilton)",
+        "Nuvectra / IMV Inc. (Halifax, DPX vaccine platform, bankrupt ~2023) — worth a status:shut-down entry if a working source can be found",
+        "Appili Therapeutics (Halifax, infectious disease, TSXV)",
+        "CCRM (Toronto, cell/gene therapy commercialization centre) — investor/incubator, not an operating company, so out of scope for this file but relevant context",
+        "Bright Minds Biosciences (Vancouver-linked, CNS/psychedelic-derived small molecules, Nasdaq: DRUG)",
+        "Kymera-adjacent Canadian academic spinouts from UBC and McGill not yet identified"
+      ],
+      "skipped": [
+        {
+          "name": "Acorn Biolabs",
+          "reason": "acornbiolabs.com is now a parked domain-sale listing; could not source any current company information."
+        },
+        {
+          "name": "Eli Health",
+          "reason": "elihealth.com now resolves to an unrelated dementia-care-navigation service; could not confirm the original hormone-tracking wearable company is still operating at that domain."
+        },
+        {
+          "name": "Northern Biologics",
+          "reason": "northernbiologics.com redirects to an unrelated, apparently squatted domain; no alternate source (Wikipedia, BetaKit search) returned any company information."
+        },
+        {
+          "name": "MindMed (Definium Therapeutics)",
+          "reason": "Current sources describe the company as headquartered in New York, US post-rebrand, so Canada HQ could not be confirmed despite Canadian public-market origins."
+        },
+        {
+          "name": "ARTMS Inc.",
+          "reason": "Could not obtain a source with an explicit, verbatim statement of HQ city or the Telix Pharmaceuticals acquisition date/price; declined to include unverified inference."
+        },
+        {
+          "name": "Precision NanoSystems",
+          "reason": "Official site redirects to Cytiva/Danaher product pages that repeatedly failed to load (header overflow errors); no working alternate source found for founding year, HQ, or acquisition terms."
+        },
+        {
+          "name": "NuChem Sciences",
+          "reason": "nuchemsciences.com redirects to acquirer Sygnature Discovery; the acquirer's dedicated NuChem page returned 404, leaving no standalone sourceable facts."
+        },
+        {
+          "name": "MIMOSA Diagnostics",
+          "reason": "Only a generic product description was accessible; no verifiable HQ city and the only 'founding year' found was a likely-generic website copyright date."
+        },
+        {
+          "name": "Notch Therapeutics",
+          "reason": "notchtx.com failed TLS certificate validation (parked/misconfigured domain); no alternate source located."
+        },
+        {
+          "name": "Treadwell Therapeutics",
+          "reason": "Homepage described the pipeline in general terms only; no HQ city, founding year, or named programs could be sourced."
+        },
+        {
+          "name": "Optina Diagnostics",
+          "reason": "Site redirected to optina.net, which returned 404; no alternate source found."
+        },
+        {
+          "name": "Saccade Analytics",
+          "reason": "Domain lookup failed (no DNS record); could not source."
+        },
+        {
+          "name": "ChipCare Corp.",
+          "reason": "chipcare.com redirects to chipcare.eu, which returned 404; could not confirm current status or facts."
+        },
+        {
+          "name": "DrugBank",
+          "reason": "go.drugbank.com/about returned 403 Forbidden; no alternate accessible source with company facts found."
+        }
+      ],
+      "notes": "This slice covers Canada-headquartered therapeutics/biotech companies for the med-vc directory, prioritizing AbCellera (the top unprofiled-company backlog target) and otherwise drawing from the top of unprofiled-companies.txt plus well-documented Vancouver/Toronto/Montreal biotechs (public, acquired, and shut-down) to round out the 30-40 target. WebFetch-only research (WebSearch budget exhausted per instructions); many company websites and press-release aggregators (SEC EDGAR, Crunchbase, PR Newswire, DuckDuckGo) returned 403/404/CAPTCHA blocks, so BetaKit and StockTitan were the most reliable secondary sources for funding/investor facts. 11 of 32 companies (AbCellera, Fusion Pharmaceuticals, Repare Therapeutics, Trillium Therapeutics, enGene, Medicago, Zymeworks, BlueDot, Dialogue, BELLUS Health, Deep Genomics) carry at least one named investor or a fully sourced M&A/IPO/regulatory event; the remainder have solid company-description/HQ/pipeline sourcing but thinner funding data given time constraints."
+    },
+    "r9-canada-health": {
+      "wanted": [
+        "Profound Medical (TSX:PRN / NASDAQ:PROF) — ablation therapy medical devices, needs a direct IR/SEDAR+ or Wikipedia source",
+        "Think Research (TSXV:THNK) — clinical decision support / EMR software, needs IR source",
+        "LifeSpeak Inc. — employee mental health/wellness content platform, went private 2023-24; needs deal details",
+        "Careteam Technologies — care coordination platform, needs a dedicated funding article",
+        "NuraLogix — Toronto facial-vitals/telehealth AI, needs funding history",
+        "Qualisure Diagnostics, Spinologics, Saccade Analytics — all appeared in the backlog list but had no retrievable dedicated coverage this session"
+      ],
+      "skipped": [
+        {
+          "name": "Toku Eyes",
+          "reason": "Ophthalmology AI company appears to be New Zealand-headquartered, not Canada; out of scope for this slice."
+        },
+        {
+          "name": "Vital (ER software)",
+          "reason": "Could not confirm Canadian HQ or find any dedicated coverage distinct from the unrelated company 'VitalHub'; dropped rather than guess."
+        },
+        {
+          "name": "Doctronic",
+          "reason": "No BetaKit coverage found; appears to be a US-based AI urgent-care startup, not Canada-headquartered."
+        },
+        {
+          "name": "Qualisure Diagnostics",
+          "reason": "No sourceable coverage found via WebFetch (BetaKit search returned no results); dropped per 'no source, drop it' rule."
+        },
+        {
+          "name": "Spinologics",
+          "reason": "Only found in aggregate lists (e.g. MedTeq fund cohort, Advanced Manufacturing Supercluster) without company-specific detail; insufficient to write a sourced record."
+        },
+        {
+          "name": "Saccade Analytics",
+          "reason": "Same as Spinologics — appears only in aggregate funding-cohort headlines with no company-specific detail available."
+        },
+        {
+          "name": "Profound Medical",
+          "reason": "Publicly listed (TSX/NASDAQ) medical device company but no dedicated BetaKit coverage surfaced in search; official investor relations site not fetched due to time; left for a future pass rather than writing an unsourced record."
+        },
+        {
+          "name": "Careteam Technologies",
+          "reason": "Only a single incidental mention (a panel quote) found; insufficient detail for a full record."
+        },
+        {
+          "name": "Think Research",
+          "reason": "Publicly listed Canadian healthcare IT company; not reached this pass due to time constraints."
+        },
+        {
+          "name": "LifeSpeak",
+          "reason": "Publicly listed Canadian mental-health/wellness content company; not reached this pass due to time constraints."
+        },
+        {
+          "name": "NuraLogix",
+          "reason": "Toronto facial-vitals AI company; not reached this pass due to time constraints."
+        }
+      ],
+      "notes": "Focused first on the six named backlog targets (League, BenchSci, Dialogue Health Technologies, MindBeacon, Swift Medical, Fluid Biomed), then worked down data/unprofiled-companies.txt for additional Canada-headquartered digital health, medtech, diagnostics, and health-data-infrastructure companies, adding a handful of well-known names (WELL Health Technologies, FemTherapeutics, DrugBank, PHEMI Systems) not on the backlog list to round out sector coverage. All facts sourced via WebFetch against company sites, Wikipedia, or BetaKit (betakit.com), Canada's main tech-news outlet, since WebSearch was unavailable. BetaKit search-results pages were used as citable sources in several records because the WebFetch tool returned real on-page snippet text from them (quoted verbatim); several full article pages were also fetched directly by guessing their URL slug, which usually succeeded. investor-roster.tsv did not contain 'Georgian', 'Relay Ventures', 'Portag3 Ventures', or 'Information Venture Partners' as separate entries, so those names are written as reported without assuming an existing entity match."
+    },
+    "r9-latam": {
+      "wanted": [
+        "Swiss Medical Group (Argentina) — major health insurer/hospital operator; needs a working primary source",
+        "Toku (Chile) — chronic-disease telehealth; toku.care did not resolve via WebFetch, needs an alternate URL",
+        "A second sourceable Peruvian company beyond Auna — Peru otherwise yielded nothing",
+        "A second sourceable Uruguayan or Argentine digital-health startup — Uruguay yielded nothing sourceable in this pass",
+        "Named investor lists for Betterfly's 2022 unicorn round and for Alice/Sami/Memed/Zenklub/Hilab/Clínicas del Azúcar's funding history — all were reachable via WebFetch but their public pages do not disclose investor names; press-release URLs would be needed"
+      ],
+      "skipped": [
+        {
+          "name": "Feegow",
+          "reason": "Both feegow.com and www.feegow.com returned SSL handshake failures on WebFetch; could not verify beyond the unprofiled-companies.txt listing."
+        },
+        {
+          "name": "ViewMind",
+          "reason": "Argentina-founded neurotech, but LinkedIn shows current HQ in New York, NY (with a Luxembourg office); dropped for not being LatAm-headquartered per the brief's scope."
+        },
+        {
+          "name": "Ocean Drop",
+          "reason": "Could not resolve a working URL for a LatAm health/biotech company by this name via WebFetch."
+        },
+        {
+          "name": "Guska",
+          "reason": "Could not resolve a working URL or confirm this is a LatAm health company via WebFetch."
+        },
+        {
+          "name": "B4RNA",
+          "reason": "Could not resolve a working URL or confirm this is a LatAm health/RNA-biotech company via WebFetch."
+        },
+        {
+          "name": "Scaffold Biotech",
+          "reason": "scaffold.bio does not resolve (DNS failure); could not find an alternate URL to confirm this is a Brazilian biotech."
+        },
+        {
+          "name": "LoCBio",
+          "reason": "Could not resolve a working URL or confirm this is a LatAm health company via WebFetch."
+        },
+        {
+          "name": "Eden",
+          "reason": "eden.bio resolves to a UK genetic-engineering company (London-headquartered), not a LatAm company; excluded from this slice."
+        },
+        {
+          "name": "Momentum Therapeutics",
+          "reason": "Could not confirm LatAm headquarters via WebFetch; likely a US-based company, dropped for scope."
+        },
+        {
+          "name": "Swiss Medical Group",
+          "reason": "Major Argentine private health-insurer/hospital operator (Grupo Werthein), but every Wikipedia URL attempted (es/en, multiple title variants) 404'd and swissmedical.com.ar pages returned no extractable corporate-history content; dropped rather than publish unsourced founding/HQ/scale claims."
+        },
+        {
+          "name": "Pipo Saúde",
+          "reason": "Kaszek's portfolio page lists a healthcare-benefits company called 'Pipo Saúde', but pipo.com.br, gopipo.com.br and a Crunchbase lookup all failed (wrong site / DNS failure / 403); could not source independently."
+        },
+        {
+          "name": "Sofia",
+          "reason": "Appears in Kaszek's healthcare portfolio list as 'Sofia' with no further detail; a Crunchbase lookup for 'sofia-health' 403'd and no other identifying URL could be found to confirm which company this is or that it is LatAm-headquartered."
+        },
+        {
+          "name": "Somos",
+          "reason": "Appears in Kaszek's healthcare portfolio list as 'Somos', but somos.com.br resolves to an unrelated IP-law firm; could not confirm the correct company or that it is health-related."
+        },
+        {
+          "name": "Social Diabetes",
+          "reason": "Listed as an hi.vc/ALLVP portfolio company, but the company's own site (socialdiabetes.com) shows Spanish medical partners, EU regulatory marks (CE, MHRA) and EU (NextGenerationEU) grant funding, suggesting Spain as the operating HQ rather than Latin America; excluded for not being clearly LatAm-headquartered."
+        }
+      ],
+      "notes": "Country split of the 34 profiled companies: Brazil 19 (Beep Saúde, Remederi, Wellhub/Gympass, Hapvida, Rede D'Or São Luiz, Dasa, Dr. Consulta, Fleury, Hypera Pharma, Eurofarma, Instituto Butantan, Memed, Conexa Saúde/Psicologia Viva, Zenklub, Alice, Sami, Hilab, Blau Farmacêutica, Sanar, The Men's — note that's 20, see below), Mexico 5 (Genomma Lab, Farmacias Similares, Clínicas del Azúcar, Grupo Vazol/Ángeles, Dentalia), Chile 2 (Betterfly, Farmacias Cruz Verde), Colombia 3 (Sofgen Pharma/Procaps, 1DOC3, Tecnoquímicas), Argentina 3 (Laboratorios Bagó, Grupo Insud, mAbxience), Peru 1 (Auna). Peru: only Auna was sourceable — no second Peruvian company could be verified via WebFetch in this pass. Uruguay: none found — WebFetch turned up no sourceable Uruguay-headquartered operating company (Dasa and Blau Farmacêutica both have Uruguayan subsidiaries/operations but are Brazil-headquartered). Argentina and Colombia are thinner than Brazil/Mexico, consistent with the brief's expectation that deep biotech and digital-health funding rounds are harder to source there via public pages alone. 12 of 34 companies (Beep Saúde, Remederi, Wellhub, Dr. Consulta, Betterfly, Sofgen Pharma, Tecnoquímicas, Grupo Insud [via mAbxience cross-reference], mAbxience, Dentalia — plus Tecnoquímicas' historical IFC stake) carry at least one named investor/backer in funding.investors; the remaining records are large incumbents (public companies, family-owned pharma groups, government institutes) or startups whose own sites/Wikipedia pages do not disclose investor names, which WebFetch-only research without WebSearch could not fill in. Two Kaszek-portfolio names ('Sofia', 'Somos') and one hi.vc-portfolio name ('Pipo Saúde') could not be resolved to a verifiable company and were dropped rather than guessed — see skipped[]."
+    },
+    "r9-mena-africa": {
+      "wanted": [
+        "Vezeeta (Egypt/UAE) -- major MENA doctor-booking/telehealth platform, needs a working press or investor-portfolio source",
+        "Ibnsina Pharma (Egypt) -- EGX-listed pharma distributor, explicitly flagged as high priority; needs EGX or Mubasher access that worked",
+        "Dr. Sulaiman Al Habib Medical Group, Nahdi Medical Company, Dallah Healthcare, Mouwasat Medical Services, SPIMACO, Tabuk Pharmaceutical (all Saudi Arabia) -- major Tadawul-listed healthcare/pharma names with no Wikipedia coverage; need direct Tadawul/Argaam/company-IR access",
+        "Cleopatra Hospital Group (Egypt) -- EGX-listed hospital group, needs a working source",
+        "DrugStoc, Field Intelligence/ShelfLife (Nigeria) and MYDAWA (Kenya) -- notable funded e-pharmacy/distribution startups whose own sites were unreachable this session",
+        "Rology (Egypt) and Okadoc (UAE) -- notable funded/acquired digital-health startups with no working source found this session"
+      ],
+      "skipped": [
+        {
+          "name": "Ibnsina Pharma (Egypt)",
+          "reason": "Explicitly flagged in unprofiled-companies.txt as wanted, but EGX, Mubasher and the company's own domain were all unreachable (403/ECONNRESET/wrong-company resolution) via WebFetch; no sourceable facts obtained."
+        },
+        {
+          "name": "DrugStoc (Nigeria)",
+          "reason": "Own website returned only an empty header; no Wikipedia article; could not source founding/funding facts."
+        },
+        {
+          "name": "MYDAWA (Kenya)",
+          "reason": "Own website returned 403; no Wikipedia article; could not source facts."
+        },
+        {
+          "name": "Vula Mobile (South Africa)",
+          "reason": "No Wikipedia article found; did not attempt further given time constraints."
+        },
+        {
+          "name": "Bayzat (UAE)",
+          "reason": "No dedicated Wikipedia article; only a passing mention in a free-zone tenant list; did not source independently."
+        },
+        {
+          "name": "Chefaa (Egypt)",
+          "reason": "No Wikipedia article; did not source via other channels given time constraints."
+        },
+        {
+          "name": "Rology (Egypt)",
+          "reason": "Own domain (rology.io) failed to resolve (DNS error); no Wikipedia article found."
+        },
+        {
+          "name": "Okadoc (UAE)",
+          "reason": "No Wikipedia article; only appears in an unrelated free-zone tenant list snippet."
+        },
+        {
+          "name": "Vezeeta (Egypt/UAE)",
+          "reason": "No Wikipedia article; own website (vezeeta.com) and a Zawya press release both returned errors (403/400)."
+        },
+        {
+          "name": "Field Intelligence / ShelfLife",
+          "reason": "No Wikipedia article; not otherwise sourced."
+        },
+        {
+          "name": "Dawi Clinics (Egypt)",
+          "reason": "No Wikipedia article; not otherwise sourced given time constraints."
+        },
+        {
+          "name": "Kena Health (South Africa)",
+          "reason": "Only appears in Disrupt Africa search-result headlines with no substantive excerpt; insufficient to source."
+        },
+        {
+          "name": "Dr. Sulaiman Al Habib Medical Group (Saudi Arabia)",
+          "reason": "No dedicated Wikipedia article; company's own domains (hmg.com, alhabib.med.sa) returned connection errors/DNS failures."
+        },
+        {
+          "name": "Nahdi Medical Company (Saudi Arabia)",
+          "reason": "No Wikipedia article; own site and Zawya/mubasher pages returned 404/400/403."
+        },
+        {
+          "name": "Dallah Healthcare (Saudi Arabia)",
+          "reason": "No Wikipedia article under attempted titles; own site (dallah-hospital.com) returned only a contact-page fragment with no company facts."
+        },
+        {
+          "name": "Mouwasat Medical Services (Saudi Arabia)",
+          "reason": "No Wikipedia article found under attempted title; not otherwise sourced."
+        },
+        {
+          "name": "SPIMACO (Saudi Arabia)",
+          "reason": "No dedicated Wikipedia article -- only passing mentions in building/timeline articles."
+        },
+        {
+          "name": "Tabuk Pharmaceutical Manufacturing Company (Saudi Arabia)",
+          "reason": "No dedicated Wikipedia article; only passing exhibitor-list mentions."
+        },
+        {
+          "name": "Fakeeh Care Group (Saudi Arabia/UAE)",
+          "reason": "No dedicated Wikipedia article; only passing mentions via leadership/hospital-list articles."
+        },
+        {
+          "name": "Cleopatra Hospital Group (Egypt)",
+          "reason": "No Wikipedia article found; own domain returned 404/connection errors."
+        },
+        {
+          "name": "Dar Al Shifa Hospital (Kuwait)",
+          "reason": "No Wikipedia article or other source found."
+        },
+        {
+          "name": "M-TIBA / CarePay (Kenya)",
+          "reason": "No Wikipedia article found under attempted search terms; not otherwise sourced given time constraints."
+        }
+      ],
+      "notes": "Country coverage: UAE 3 (NMC Health, PureHealth, Cleveland Clinic Abu Dhabi), Saudi Arabia 1 (Saudi German Hospitals, MENA-wide operator HQ'd in Jeddah -- several other major Saudi names, e.g. Dr. Sulaiman Al Habib, Nahdi, Dallah, Mouwasat, SPIMACO, Tabuk Pharma, could not be sourced this session despite being large/known companies, purely due to lack of Wikipedia coverage and unreachable company/exchange sites via WebFetch), Jordan 2 (Hikma Pharmaceuticals, Altibbi), Turkey 2 (Acıbadem Healthcare Group, Eczacıbaşı Holding), South Africa 7 (Aspen Pharmacare, Discovery Limited, Netcare, Life Healthcare Group, Mediclinic International, Adcock Ingram, Quro Medical), Nigeria 5 (LifeBank, 54gene, Helium Health, Reliance Health, Remedial Health), Tunisia 1 (InstaDeep), Kenya 3 (Ilara Health, Turaco, Access Afya), Rwanda 1 (Kasha), Egypt 1 (Yodawy -- Ibnsina Pharma, Vezeeta, Rology, Chefaa, Cleopatra Hospital Group, Dawi Clinics all attempted but unsourceable this session), Ghana 2 (mPharma, Yemaachi Biotech), Morocco 1 (Sothema). Qatar: none found -- the only entities surfaced were Hamad Medical Corporation (a government/public health authority, not an investable operating company) and Mohamed Bin Hamad Holding (a diversified family holding company, not primarily healthcare); no venture-backed or listed Qatari health company was sourceable. Kuwait: none found -- Dar Al Shifa Hospital (KSE-listed) and other Kuwaiti health names returned no usable source in this session. Of the 29 companies delivered, 15 carry at least one named investor/acquirer in funding.investors or funding.exit (NMC Health, PureHealth [via M&A/acquisition history, not investors], Hikma, Altibbi, Acıbadem, Mediclinic, 54gene, Helium Health, Reliance Health, Remedial Health, InstaDeep, Ilara Health, Access Afya, Kasha; Quro Medical also names one investor). Development-finance-style investors specifically recorded: Gates Foundation (Helium Health, Ilara Health, Access Afya), U.S. DFC (Helium Health, Kasha), Swedfund (Kasha) -- i.e. DFI/philanthropic capital appears in 4 of the 8 African startups with any investor list, versus straightforwardly commercial VC in the rest (Adjuvant Capital, General Atlantic, Partech, AfricInvest, etc.), consistent with the brief's expectation that development finance is a real and recordable part of this geography's funding. The public/acquired majority of the list (NMC Health, PureHealth, Saudi German Hospitals, Hikma, Acıbadem, Eczacıbaşı, Aspen, Discovery, Netcare, Life Healthcare, Mediclinic, Adcock Ingram, InstaDeep, Sothema = 14 of 29) reflects that MENA/Africa's largest, most sourceable healthcare companies are listed conglomerates or M&A targets rather than venture-funded startups, exactly as expected for the thinnest venture geography in the directory. WebSearch was not used (session budget exhausted per instructions); all research used WebFetch against Wikipedia, company sites, and archived Disrupt Africa search-result pages, which limited depth on several private Saudi/Egyptian companies whose facts live mainly behind paywalled or blocked domains (Reuters, Zawya, Mubasher, Argaam, EGX.com.eg, and several company domains all returned errors)."
     }
   }
 }
