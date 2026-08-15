@@ -1,8 +1,17 @@
 [
   {
     "id": "cn-fosun-health-capital",
-    "name": { "en": "Fosun Health Capital (Fosun Pharma Venture Capital)", "local": "复星医药产业投资 / 复健资本" },
-    "aka": ["复健资本", "Fohealth Capital", "复健资本新药创新基金"],
+    "name": {
+      "en": "Fosun Health Capital (Fosun Pharma Venture Capital)",
+      "local": "复星医药产业投资 / 复健资本"
+    },
+    "aka": [
+      "复健资本",
+      "Fohealth Capital",
+      "复健资本新药创新基金",
+      "Fosun Pharma",
+      "復星醫藥產業投資"
+    ],
     "type": "cvc",
     "status": "active",
     "founded_year": 2014,
@@ -15,23 +24,45 @@
         {
           "name": "复健资本新药创新基金 (Fohealth Capital New Drug Innovation Fund)",
           "vintage_year": 2020,
-          "size": { "raw": "人民币15亿元 (首期)", "usd": null, "currency": "CNY" }
+          "size": {
+            "raw": "人民币15亿元 (首期)",
+            "usd": null,
+            "currency": "CNY"
+          }
         }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["China", "Greater China", "Global"],
-      "sector_focus": ["therapeutics", "cell-gene-therapy"],
+      "geo_focus": [
+        "China",
+        "Greater China",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "cell-gene-therapy"
+      ],
       "thesis": "Corporate VC and controlling-incubation platform of Fosun Pharma (复星医药), one of China's largest pharma conglomerates; invests in and co-founds early-to-growth-stage biopharma and cell/gene-therapy companies to feed Fosun's drug pipeline, via a dedicated new-drug innovation fund launched in 2020 alongside broader group industrial funds."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "cell-therapy"
+      ],
       "company_creation": true,
       "science_platform_notes": "Runs a '投孵联动' (investment + incubation) model; first dedicated fund (2020, RMB1.5bn first close, final close Feb 2021) had invested in ~10 frontier projects with 6 already in clinical stage as of the last disclosed update; also mandated in 2023 to manage a RMB5bn Shenzhen biomedical industry fund."
     },
-    "track_record": { "portfolio_count": "10+ (new-drug innovation fund alone)" },
+    "track_record": {
+      "portfolio_count": "10+ (new-drug innovation fund alone)"
+    },
     "summary": {
       "en": "Corporate venture and incubation arm of Fosun Pharma, one of China's largest pharmaceutical groups, investing in and co-founding biopharma and cell/gene-therapy startups to feed the parent's innovation pipeline.",
       "local": "复星医药旗下的产业投资与孵化平台，透过复健资本等主体对外进行医药健康领域股权投资与孵化。"
@@ -60,8 +91,16 @@
   },
   {
     "id": "cn-wuxi-apptec-corporate-venture",
-    "name": { "en": "WuXi AppTec Corporate Venture (WuXi Venture Fund)", "local": "药明康德风险投资" },
-    "aka": ["WuXi Venture Fund", "毓承资本 (spun off 2015)", "通和毓承 / 6 Dimensions Capital (post-2017 merger)", "WuXi PharmaTech Healthcare Fund"],
+    "name": {
+      "en": "WuXi AppTec Corporate Venture (WuXi Venture Fund)",
+      "local": "药明康德风险投资"
+    },
+    "aka": [
+      "WuXi Venture Fund",
+      "毓承资本 (spun off 2015)",
+      "通和毓承 / 6 Dimensions Capital (post-2017 merger)",
+      "WuXi PharmaTech Healthcare Fund"
+    ],
     "type": "cvc",
     "status": "active",
     "founded_year": 2011,
@@ -70,24 +109,58 @@
     "hq_city": "Shanghai",
     "website": "https://www.wuxiapptec.com/",
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["China", "United States", "Global"],
-      "sector_focus": ["therapeutics", "diagnostics", "pharma-services", "genomics-omics"],
+      "geo_focus": [
+        "China",
+        "United States",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "pharma-services",
+        "genomics-omics"
+      ],
       "thesis": "In-house corporate venture arm of WuXi AppTec, China's largest pharma/biotech CRDMO; invests in drug-discovery platforms, diagnostics and healthtech companies under a 'Find and Found' strategy that feeds deal flow and services relationships back to WuXi's CRO/CDMO business."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "gene-editing"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "gene-editing"
+      ],
       "company_creation": false,
       "science_platform_notes": "Original WuXi Venture Fund (est. 2011) spun off its second fund as 毓承资本 in July 2015, which merged with 通和资本 in 2017 to form 通和毓承/6 Dimensions Capital — now an independently operated life-science VC still chaired by WuXi founder Li Ge. WuXi AppTec itself continues to make direct corporate fund investments (e.g. WuXi PharmaTech Healthcare Fund I L.P. subscribing into Jeito Capital's Jeito II, announced Dec 2024)."
     },
     "track_record": {
       "portfolio_count": "27+ (17 pharma + 10 medtech within its first 4 years)",
       "notable_investments": [
-        { "company": "Juno Therapeutics", "sector": "cell-gene-therapy", "outcome": "acquired" },
-        { "company": "Foundation Medicine", "sector": "diagnostics", "outcome": "acquired" },
-        { "company": "Twist Bioscience", "sector": "genomics-omics", "outcome": "IPO" },
-        { "company": "23andMe", "sector": "genomics-omics", "outcome": "shutdown" }
+        {
+          "company": "Juno Therapeutics",
+          "sector": "cell-gene-therapy",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Foundation Medicine",
+          "sector": "diagnostics",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Twist Bioscience",
+          "sector": "genomics-omics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "23andMe",
+          "sector": "genomics-omics",
+          "outcome": "shutdown"
+        }
       ]
     },
     "summary": {
@@ -119,8 +192,13 @@
   },
   {
     "id": "cn-sinopharm-capital",
-    "name": { "en": "Sinopharm Capital", "local": "国药资本" },
-    "aka": ["中国医药投资有限公司 China Pharma Investment Co., Ltd."],
+    "name": {
+      "en": "Sinopharm Capital",
+      "local": "国药资本"
+    },
+    "aka": [
+      "中国医药投资有限公司 China Pharma Investment Co., Ltd."
+    ],
     "type": "cvc",
     "status": "active",
     "founded_year": 2012,
@@ -128,15 +206,39 @@
     "country": "China",
     "hq_city": "Beijing",
     "website": "http://www.sinopharmcapital.com/",
-    "capital": { "aum": { "raw": "超60亿元人民币", "usd": null, "currency": "CNY" } },
+    "capital": {
+      "aum": {
+        "raw": "超60亿元人民币",
+        "usd": null,
+        "currency": "CNY"
+      }
+    },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Professional equity-investment platform initiated by China National Pharmaceutical Group (Sinopharm/国药集团), China's largest state-owned pharma/healthcare conglomerate; deploys group and outside capital into pharma, biotech, device and healthcare-service companies across multiple fund phases since 2012."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody"], "company_creation": false },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "company_creation": false
+    },
     "summary": {
       "en": "Sinopharm Capital is the market-oriented private-equity platform of China National Pharmaceutical Group (Sinopharm), China's largest state pharma conglomerate, investing across pharma, biotech, device and healthcare-service companies since 2012.",
       "local": "国药资本是由中国医药集团（国药集团）发起的医疗健康领域专业股权投资机构，成立于2012年，管理资产规模超过60亿元人民币。"
@@ -166,24 +268,56 @@
   },
   {
     "id": "cn-hengrui-shengdi-biomedical-fund",
-    "name": { "en": "Hengrui Shengdi Biomedical Private Investment Fund", "local": "上海盛迪生物医药私募投资基金" },
-    "aka": ["盛迪投资 Shengdi Investment", "恒瑞盛迪基金"],
+    "name": {
+      "en": "Hengrui Shengdi Biomedical Private Investment Fund",
+      "local": "上海盛迪生物医药私募投资基金"
+    },
+    "aka": [
+      "盛迪投资 Shengdi Investment",
+      "恒瑞盛迪基金"
+    ],
     "type": "cvc",
     "status": "active",
     "founded_year": 2022,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
-    "capital": { "current_fund": { "raw": "人民币20亿元 (恒瑞医药与恒瑞集团各出资10亿元)", "usd": null, "currency": "CNY" } },
+    "capital": {
+      "current_fund": {
+        "raw": "人民币20亿元 (恒瑞医药与恒瑞集团各出资10亿元)",
+        "usd": null,
+        "currency": "CNY"
+      }
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics"],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Jiangsu Hengrui Pharmaceutical's first fully self-controlled CVC vehicle, set up in June 2022 to invest in innovative biopharma R&D and build a biopharma ecosystem around China's top R&D-spending listed drugmaker."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody"], "company_creation": false },
-    "track_record": { "co_investors": ["OrbiMed", "Tianhui Capital"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "company_creation": false
+    },
+    "track_record": {
+      "co_investors": [
+        "OrbiMed",
+        "Tianhui Capital"
+      ]
+    },
     "summary": {
       "en": "Self-controlled corporate venture fund of Jiangsu Hengrui Pharmaceutical, China's top R&D-spending drugmaker, launched in June 2022 with RMB2bn from Hengrui Pharma and its parent group to back innovative biopharma startups.",
       "local": "江苏恒瑞医药旗下首支完全自主管控的CVC基金，2022年6月设立，恒瑞医药与恒瑞集团各出资10亿元人民币，聚焦生物医药创新研发投资。"
@@ -204,21 +338,41 @@
   },
   {
     "id": "cn-crpharma-industrial-investment-fund",
-    "name": { "en": "China Resources Pharmaceutical Industrial Investment Fund", "local": "华润医药产业投资基金" },
-    "aka": ["CR Pharma Industrial Fund", "深圳华润资本 Shenzhen CR Capital (fund manager)"],
+    "name": {
+      "en": "China Resources Pharmaceutical Industrial Investment Fund",
+      "local": "华润医药产业投资基金"
+    },
+    "aka": [
+      "CR Pharma Industrial Fund",
+      "深圳华润资本 Shenzhen CR Capital (fund manager)"
+    ],
     "type": "cvc",
     "status": "active",
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shenzhen",
     "strategy": {
-      "stages": ["series-b", "series-c-plus", "growth"],
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "synthetic-biology"],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "synthetic-biology"
+      ],
       "thesis": "Multi-phase industrial investment fund of China Resources Pharmaceutical (华润医药), a top-3 Chinese pharma conglomerate; phase II drew LP commitments from group-affiliated listcos (e.g. 博雅生物, 江中药业) and a 2025 RMB500m vehicle targets synthetic biology and innovative-drug high-growth companies, managed by Shenzhen CR Capital."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ]
+    },
     "summary": {
       "en": "Multi-phase corporate industrial-investment fund of China Resources Pharmaceutical Group, backed by CR Pharma-affiliated listed subsidiaries, targeting synthetic biology and innovative-drug growth companies via GP Shenzhen CR Capital.",
       "local": "华润医药集团旗下多期产业投资基金，由集团旗下博雅生物、江中药业等上市公司出资参与，聚焦合成生物学与创新药高成长企业，由深圳华润资本担任基金管理人。"
@@ -248,26 +402,61 @@
   },
   {
     "id": "cn-tasly-capital",
-    "name": { "en": "Tasly Capital", "local": "天士力资本" },
+    "name": {
+      "en": "Tasly Capital",
+      "local": "天士力资本"
+    },
     "type": "cvc",
     "status": "active",
     "region": "greater-china",
     "country": "China",
     "hq_city": "Tianjin",
     "website": "https://www.tasly.com/tslzb.jhtml",
-    "capital": { "aum": { "raw": "超百亿元人民币 (5支人民币基金+3支美元基金)", "usd": null, "currency": "CNY" } },
+    "capital": {
+      "aum": {
+        "raw": "超百亿元人民币 (5支人民币基金+3支美元基金)",
+        "usd": null,
+        "currency": "CNY"
+      }
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health"
+      ],
       "thesis": "Investment and industrial M&A/incubation platform of Tasly Pharmaceutical Group (天士力), a major Chinese TCM/biopharma company; invests across its self-defined '4D' scope — Drug, Diagnostics, Device, Digital health — focused on cardio-cerebrovascular, oncology, GI/metabolic, respiratory and neuro disease areas."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "digital-therapeutics"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "美年健康 Meinian Onehealth", "sector": "healthcare-services", "outcome": "IPO" },
-        { "company": "济川药业 Jichuan Pharmaceutical", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "美年健康 Meinian Onehealth",
+          "sector": "healthcare-services",
+          "outcome": "IPO"
+        },
+        {
+          "company": "济川药业 Jichuan Pharmaceutical",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -297,20 +486,40 @@
   },
   {
     "id": "cn-yunnan-baiyao-health-innovation-fund",
-    "name": { "en": "Yunnan TCM Health Innovation Equity Investment Fund", "local": "云南中医药大健康创新股权投资基金" },
-    "aka": ["云南白药大健康基金"],
+    "name": {
+      "en": "Yunnan TCM Health Innovation Equity Investment Fund",
+      "local": "云南中医药大健康创新股权投资基金"
+    },
+    "aka": [
+      "云南白药大健康基金"
+    ],
     "type": "cvc",
     "status": "active",
     "founded_year": 2025,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Kunming",
-    "capital": { "current_fund": { "raw": "目标规模人民币70亿元 (云南白药认缴50亿元，占71.43%)", "usd": null, "currency": "CNY" } },
+    "capital": {
+      "current_fund": {
+        "raw": "目标规模人民币70亿元 (云南白药认缴50亿元，占71.43%)",
+        "usd": null,
+        "currency": "CNY"
+      }
+    },
     "strategy": {
-      "stages": ["growth", "all"],
+      "stages": [
+        "growth",
+        "all"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["China", "Yunnan"],
-      "sector_focus": ["therapeutics", "healthcare-services"],
+      "geo_focus": [
+        "China",
+        "Yunnan"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "healthcare-services"
+      ],
       "thesis": "Joint industrial fund anchored by Yunnan Baiyao (云南白药), a leading Chinese TCM/pharma group, as majority LP (RMB5bn / 71.43%) with GP Bank of China International Investment; deploys a 'direct investment + sub-fund' model into TCM and broader biopharma/health companies nationally."
     },
     "summary": {
@@ -333,32 +542,65 @@
   },
   {
     "id": "cn-lilly-asia-ventures",
-    "name": { "en": "Lilly Asia Ventures (LAV)", "local": "礼来亚洲基金" },
+    "name": {
+      "en": "Lilly Asia Ventures (LAV)",
+      "local": "礼来亚洲基金"
+    },
     "type": "cvc",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2008,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "Hong Kong", "city": "Hong Kong" },
-      { "country": "United States", "city": "Palo Alto" }
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      },
+      {
+        "country": "United States",
+        "city": "Palo Alto"
+      }
     ],
     "website": "https://www.lillyasiaventures.com/",
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "check_size": { "raw": "$3M–$8M per company (LAV's original CVC-era check size)" },
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$3M–$8M per company (LAV's original CVC-era check size)"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["China", "Asia", "Global"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "pharma-services"],
+      "geo_focus": [
+        "China",
+        "Asia",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "pharma-services"
+      ],
       "thesis": "Founded in 2008 by Eli Lilly to make venture investments across Asia (particularly China) in CROs, innovative-drug developers/platforms, and China-market healthcare opportunities; has since evolved into an independently operated life-sciences VC while retaining its Lilly-seeded origin and biomedical focus."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "cell-therapy"
+      ],
       "company_creation": false
     },
-    "track_record": { "portfolio_count": "333+ investments" },
+    "track_record": {
+      "portfolio_count": "333+ investments"
+    },
     "summary": {
       "en": "Originally Eli Lilly's dedicated Asia corporate venture arm (founded 2008, Shanghai/Hong Kong/Palo Alto), LAV backs biopharma, CRO and medtech companies across China and Asia and has grown into an independently managed life-sciences VC while keeping its pharma-CVC origin.",
       "local": "礼来亚洲基金于2008年由美国礼来公司发起成立，总部位于上海，并在香港、Palo Alto设有办公室，早期为礼来的亚洲企业创投部门，现已发展为独立管理的生医创投机构。"

@@ -1,19 +1,37 @@
 [
   {
     "id": "cn-jlabs-shanghai",
-    "name": { "en": "JLABS @ Shanghai", "local": "JLABS @ 上海" },
-    "aka": ["Johnson & Johnson Innovation JLABS Shanghai"],
+    "name": {
+      "en": "JLABS @ Shanghai",
+      "local": "JLABS @ 上海"
+    },
+    "aka": [
+      "Johnson & Johnson Innovation JLABS Shanghai"
+    ],
     "type": "incubator",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "website": "https://jnjinnovation.com/locations/jlabs/jlabs-shanghai",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "consumer-health"],
-      "geo_focus": ["China", "Asia-Pacific"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health",
+        "consumer-health"
+      ],
+      "geo_focus": [
+        "China",
+        "Asia-Pacific"
+      ],
       "thesis": "A no-strings-attached, capital-efficient wet-lab and office incubator run by Johnson & Johnson Innovation, giving pharma, medtech, consumer-health and health-tech entrepreneurs shared lab benches and access to J&J's R&D/BD network without requiring equity or an investment commitment."
     },
     "lifesci": {
@@ -28,8 +46,16 @@
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Maiden Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Huayao Kangming Biopharma (华药康明生物药业)", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Maiden Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Huayao Kangming Biopharma (华药康明生物药业)",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -68,19 +94,36 @@
   },
   {
     "id": "cn-hkstp-incu-bio",
-    "name": { "en": "HKSTP Incu-Bio Programme", "local": "科技園生物科技培育計劃 (Incu-Bio)" },
-    "aka": ["Incu-Bio"],
+    "name": {
+      "en": "HKSTP Incu-Bio Programme",
+      "local": "科技園生物科技培育計劃 (Incu-Bio)"
+    },
+    "aka": [
+      "Incu-Bio"
+    ],
     "type": "incubator",
-    "subtypes": ["government-program"],
+    "subtypes": [
+      "government-program"
+    ],
     "status": "active",
     "region": "greater-china",
     "country": "Hong Kong",
     "hq_city": "Hong Kong",
     "website": "https://www.hkstp.org/en/programmes/incubation/incu-bio",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
-      "geo_focus": ["Hong Kong"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "life-science-tools"
+      ],
+      "geo_focus": [
+        "Hong Kong"
+      ],
       "thesis": "A four-year, government-backed wet-lab incubation programme run by Hong Kong Science and Technology Parks Corporation (HKSTP) giving early-stage biotech founders independent lab space inside Science Park's Biotech Centres plus subsidised rent, funding and access to core biomedical facilities."
     },
     "program": {
@@ -88,7 +131,11 @@
       "format": "in-person",
       "location": "Hong Kong Science Park Biotech Centres",
       "lab_space": true,
-      "investment": { "raw": "up to HK$6 million", "usd": null, "currency": "HKD" },
+      "investment": {
+        "raw": "up to HK$6 million",
+        "usd": null,
+        "currency": "HKD"
+      },
       "eligibility": "Hong Kong-registered tech start-up established no more than 2 years before application, founding team holding at least 33% equity, minimum two full-time staff",
       "application_url": "https://www.hkstp.org/en/programmes/incubation/incu-bio"
     },
@@ -120,23 +167,54 @@
   },
   {
     "id": "cn-atlatl-innovation-center",
-    "name": { "en": "ATLATL Innovation Center (ATLATL Beijing International Innovation Platform)", "local": "ATLATL北京飞镖国际创新平台 / 飞镖创新集团" },
-    "aka": ["ATLATL Innovation Group", "飞镖加速器"],
+    "name": {
+      "en": "ATLATL Innovation Center (ATLATL Beijing International Innovation Platform)",
+      "local": "ATLATL北京飞镖国际创新平台 / 飞镖创新集团"
+    },
+    "aka": [
+      "ATLATL Innovation Group",
+      "飞镖加速器",
+      "ATLATL北京飛鏢國際創新平臺",
+      "飛鏢創新集團"
+    ],
     "type": "incubator",
-    "subtypes": ["accelerator"],
+    "subtypes": [
+      "accelerator"
+    ],
     "status": "active",
     "region": "greater-china",
     "country": "China",
     "hq_city": "Beijing",
-    "offices": [{ "country": "China", "city": "Shanghai" }],
+    "offices": [
+      {
+        "country": "China",
+        "city": "Shanghai"
+      }
+    ],
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "sector_focus": ["cell-gene-therapy", "synthetic-biology", "ai-drug-discovery", "genomics-omics"],
-      "geo_focus": ["China"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "cell-gene-therapy",
+        "synthetic-biology",
+        "ai-drug-discovery",
+        "genomics-omics"
+      ],
+      "geo_focus": [
+        "China"
+      ],
       "thesis": "An open, Class-A wet-lab and GMP innovation platform inside Beijing's Zhongguancun Life Science Park that turns the heavy fixed costs of biotech R&D infrastructure into a shared, asset-light service — resident scientist teams run gene/cell therapy, AI drug screening, gene editing and preclinical pharmacology work for tenant companies."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "gene-therapy", "gene-editing", "ai-ml-platform"],
+      "modalities": [
+        "cell-therapy",
+        "gene-therapy",
+        "gene-editing",
+        "ai-ml-platform"
+      ],
       "science_platform_notes": "8,600 sqm Class-A R&D facility with 30+ labs, two sets of B+C-grade GMP space, and a PCR clinical testing center; on-site scientist and project-management teams support gene/cell therapy, large-molecule research, single-cell screening and animal disease models."
     },
     "program": {
@@ -184,22 +262,45 @@
   },
   {
     "id": "cn-nestbio-labs",
-    "name": { "en": "Nest.Bio Labs", "local": "巢生 Nest.Bio" },
-    "aka": ["巢生创新实验室", "Chaosheng"],
+    "name": {
+      "en": "Nest.Bio Labs",
+      "local": "巢生 Nest.Bio"
+    },
+    "aka": [
+      "巢生创新实验室",
+      "Chaosheng"
+    ],
     "type": "incubator",
     "status": "active",
     "region": "greater-china",
     "country": "China",
     "hq_city": "Beijing",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Hangzhou" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "China",
+        "city": "Hangzhou"
+      }
     ],
     "website": "https://www.nestbio.net/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "sector_focus": ["therapeutics", "life-science-tools", "cell-gene-therapy", "synthetic-biology"],
-      "geo_focus": ["China", "Global"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools",
+        "cell-gene-therapy",
+        "synthetic-biology"
+      ],
+      "geo_focus": [
+        "China",
+        "Global"
+      ],
       "thesis": "A shared wet-lab brand combining investment, incubation, R&D and translation for scientist-entrepreneurs, giving early-stage life-science companies turnkey molecular biology, cell culture and imaging lab space instead of requiring them to build their own facilities."
     },
     "lifesci": {
@@ -210,7 +311,14 @@
       "format": "in-person",
       "location": "Beijing, Shanghai, Hangzhou (China); also Boston (US) and Singapore",
       "lab_space": true,
-      "perks": ["shared molecular/biochemistry labs", "cell culture rooms (P2/standard)", "imaging platform", "equipment sharing", "CRO partnership access", "fundraising support"]
+      "perks": [
+        "shared molecular/biochemistry labs",
+        "cell culture rooms (P2/standard)",
+        "imaging platform",
+        "equipment sharing",
+        "CRO partnership access",
+        "fundraising support"
+      ]
     },
     "track_record": {
       "portfolio_count": "200+"
@@ -243,9 +351,14 @@
   },
   {
     "id": "cn-beigene-guangzhou-bio-island-innovation-center",
-    "name": { "en": "BeiGene Guangzhou Bio Island Innovation Center", "local": "百济神州生物岛创新中心" },
+    "name": {
+      "en": "BeiGene Guangzhou Bio Island Innovation Center",
+      "local": "百济神州生物岛创新中心"
+    },
     "type": "incubator",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2021,
     "region": "greater-china",
@@ -253,9 +366,19 @@
     "hq_city": "Guangzhou",
     "website": "https://www.beigene.com.cn/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "sector_focus": ["therapeutics", "cell-gene-therapy", "ai-drug-discovery"],
-      "geo_focus": ["Greater Bay Area", "China"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "cell-gene-therapy",
+        "ai-drug-discovery"
+      ],
+      "geo_focus": [
+        "Greater Bay Area",
+        "China"
+      ],
       "thesis": "A corporate-run wet-lab innovation center built by biopharma company BeiGene on Guangzhou's International Bio Island to support 'source' (upstream) innovation, giving early-stage scientist-entrepreneurs shared lab infrastructure, animal facilities and mentoring to bridge academic discovery and company formation."
     },
     "lifesci": {
@@ -287,24 +410,51 @@
   },
   {
     "id": "cn-merck-china-innovation-center",
-    "name": { "en": "Merck China Innovation Center", "local": "默克中国创新中心" },
-    "aka": ["M Lab Collaboration Center (Zhangjiang)"],
+    "name": {
+      "en": "Merck China Innovation Center",
+      "local": "默克中国创新中心"
+    },
+    "aka": [
+      "M Lab Collaboration Center (Zhangjiang)"
+    ],
     "type": "incubator",
-    "subtypes": ["cvc", "accelerator"],
+    "subtypes": [
+      "cvc",
+      "accelerator"
+    ],
     "status": "active",
     "founded_year": 2019,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
-    "offices": [{ "country": "China", "city": "Guangzhou" }],
+    "offices": [
+      {
+        "country": "China",
+        "city": "Guangzhou"
+      }
+    ],
     "website": "https://www.merckgroup.com.cn/",
     "capital": {
-      "current_fund": { "raw": "RMB 100 million seed fund", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "RMB 100 million seed fund",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "sector_focus": ["therapeutics", "life-science-tools", "digital-health"],
-      "geo_focus": ["China", "Greater Bay Area"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools",
+        "digital-health"
+      ],
+      "geo_focus": [
+        "China",
+        "Greater Bay Area"
+      ],
       "thesis": "Merck's Chinese innovation centers pair a RMB 100M seed fund and cohort-based accelerator with physical lab facilities (including BSL-2 labs at its Zhangjiang life-science training center) to source, incubate and invest in healthcare, life-science and materials start-ups on behalf of the global life-science and healthcare group."
     },
     "lifesci": {
@@ -314,7 +464,11 @@
       "format": "in-person",
       "location": "Shanghai (Zhangjiang) and Guangzhou (Bio Island)",
       "lab_space": true,
-      "investment": { "raw": "EUR 50,000 for first accelerator cohort companies", "usd": null, "currency": "EUR" }
+      "investment": {
+        "raw": "EUR 50,000 for first accelerator cohort companies",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "track_record": {
       "portfolio_count": "18+ (6 first Shanghai cohort + 12 Greater Bay Area cohort)"
@@ -355,7 +509,10 @@
   },
   {
     "id": "cn-biobay-suzhou",
-    "name": { "en": "Suzhou BioBAY", "local": "苏州生物医药产业园 (BioBAY)" },
+    "name": {
+      "en": "Suzhou BioBAY",
+      "local": "苏州生物医药产业园 (BioBAY)"
+    },
     "type": "incubator",
     "status": "active",
     "founded_year": 2007,
@@ -364,9 +521,20 @@
     "hq_city": "Suzhou",
     "website": "http://en.biobay.com.cn/",
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "sector_focus": ["therapeutics", "medtech-devices", "cell-gene-therapy", "life-science-tools"],
-      "geo_focus": ["China"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "cell-gene-therapy",
+        "life-science-tools"
+      ],
+      "geo_focus": [
+        "China"
+      ],
       "thesis": "BioBAY is Suzhou Industrial Park's flagship biomedical incubation carrier, clustering shared wet labs, GMP-testing services and CGT evaluation platforms with capital and talent connections to grow innovative drug, high-end medical device and biotech companies from bench to scale."
     },
     "lifesci": {
@@ -416,10 +584,18 @@
   },
   {
     "id": "cn-astrazeneca-wuxi-icampus",
-    "name": { "en": "AstraZeneca Wuxi International Life Sciences Innovation Park (I·Campus)", "local": "无锡国际生命科学创新园 (I·Campus)" },
-    "aka": ["Wuxi iCampus", "AstraZeneca Wuxi International Life Science Innovation Campus"],
+    "name": {
+      "en": "AstraZeneca Wuxi International Life Sciences Innovation Park (I·Campus)",
+      "local": "无锡国际生命科学创新园 (I·Campus)"
+    },
+    "aka": [
+      "Wuxi iCampus",
+      "AstraZeneca Wuxi International Life Science Innovation Campus"
+    ],
     "type": "incubator",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2019,
     "region": "greater-china",
@@ -427,9 +603,20 @@
     "hq_city": "Wuxi",
     "website": "https://www.icampuswuxi.com/",
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
-      "geo_focus": ["China", "Global"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health"
+      ],
+      "geo_focus": [
+        "China",
+        "Global"
+      ],
       "thesis": "A global innovation-incubation platform co-built by AstraZeneca with the Wuxi municipal and high-tech-zone governments, combining R&D, production and office space (including dedicated research buildings) plus AstraZeneca's China Healthcare Industrial Fund (with CICC Capital) to help international life-science start-ups localize and scale in China."
     },
     "program": {
@@ -476,18 +663,35 @@
   },
   {
     "id": "cn-guangzhou-international-bio-island-incubator",
-    "name": { "en": "Guangzhou International Bio Island Incubator", "local": "广州国际生物岛 (标准产业单元孵化器)" },
+    "name": {
+      "en": "Guangzhou International Bio Island Incubator",
+      "local": "广州国际生物岛 (标准产业单元孵化器)"
+    },
     "type": "incubator",
-    "subtypes": ["government-program"],
+    "subtypes": [
+      "government-program"
+    ],
     "status": "active",
     "region": "greater-china",
     "country": "China",
     "hq_city": "Guangzhou",
     "website": "http://www.bio-island.com/",
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "sector_focus": ["therapeutics", "diagnostics", "genomics-omics", "life-science-tools"],
-      "geo_focus": ["Greater Bay Area", "China"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "genomics-omics",
+        "life-science-tools"
+      ],
+      "geo_focus": [
+        "Greater Bay Area",
+        "China"
+      ],
       "thesis": "State-owned developer (Guangzhou International Bio Island Group) of Guangzhou's dedicated biomedical island, whose 'standard industrial unit' buildings were rated a national-level science & technology enterprise incubator, clustering 500+ biomedical companies including listed firms and multinational R&D/innovation centers (AstraZeneca, Merck, BeiGene) around shared lab-ready space."
     },
     "program": {
@@ -533,7 +737,10 @@
   },
   {
     "id": "cn-xinshengchao-innovation-center",
-    "name": { "en": "Xinshengchao Innovation Center", "local": "新生巢创新中心" },
+    "name": {
+      "en": "Xinshengchao Innovation Center",
+      "local": "新生巢创新中心"
+    },
     "type": "incubator",
     "status": "active",
     "founded_year": 2021,
@@ -542,9 +749,18 @@
     "hq_city": "Beijing",
     "website": "https://www.lifesciencepark.com.cn/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "sector_focus": ["therapeutics", "life-science-tools", "cell-gene-therapy"],
-      "geo_focus": ["China"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools",
+        "cell-gene-therapy"
+      ],
+      "geo_focus": [
+        "China"
+      ],
       "thesis": "A shared office and wet-lab incubation center inside Beijing's Zhongguancun Life Science Park, giving early-stage biomedical teams ready-to-use shared lab space alongside co-working office space; tenants have included Vitalstar (维泰瑞隆), UBrain (优脑银河), STOmics/Shuimu Weilai (水木未来) and Pumo Bio (普沐生物)."
     },
     "program": {
@@ -574,10 +790,21 @@
   },
   {
     "id": "cn-shenzhen-bay-laboratory-incubation",
-    "name": { "en": "Shenzhen Bay Laboratory Incubation Platforms (Bay Gravity)", "local": "深圳湾实验室 - 湾有引力 / 坪山生物医药研发转化中心" },
-    "aka": ["湾有引力", "Wan You Yin Li", "Guangming Innovation Center"],
+    "name": {
+      "en": "Shenzhen Bay Laboratory Incubation Platforms (Bay Gravity)",
+      "local": "深圳湾实验室 - 湾有引力 / 坪山生物医药研发转化中心"
+    },
+    "aka": [
+      "湾有引力",
+      "Wan You Yin Li",
+      "Guangming Innovation Center",
+      "坪山生物醫藥研發轉化中心",
+      "深圳灣實驗室 - 灣有引力"
+    ],
     "type": "incubator",
-    "subtypes": ["university-hospital-fund"],
+    "subtypes": [
+      "university-hospital-fund"
+    ],
     "status": "active",
     "founded_year": 2019,
     "region": "greater-china",
@@ -585,9 +812,18 @@
     "hq_city": "Shenzhen",
     "website": "https://www.szbl.ac.cn/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "sector_focus": ["therapeutics", "diagnostics", "life-science-tools"],
-      "geo_focus": ["China"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "life-science-tools"
+      ],
+      "geo_focus": [
+        "China"
+      ],
       "thesis": "Shenzhen Bay Laboratory, a Guangdong provincial biomedical research institute, runs scientist-entrepreneur incubation platforms — the 10,000 sqm Guangming 'Bay Gravity' innovation center and the Pingshan biomedical R&D translation center — providing fully-fitted lab space to bridge lab discovery and company formation."
     },
     "lifesci": {
@@ -633,9 +869,14 @@
   },
   {
     "id": "cn-boehringer-ingelheim-ceibs-innovation-incubator",
-    "name": { "en": "Boehringer Ingelheim - CEIBS Joint Innovation Incubator", "local": "勃林格殷格翰-中欧中心联合创新孵化器" },
+    "name": {
+      "en": "Boehringer Ingelheim - CEIBS Joint Innovation Incubator",
+      "local": "勃林格殷格翰-中欧中心联合创新孵化器"
+    },
     "type": "incubator",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2024,
     "region": "greater-china",
@@ -643,16 +884,31 @@
     "hq_city": "Shenzhen",
     "website": "https://www.boehringer-ingelheim.cn/hezuo/innovationlab",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
-      "geo_focus": ["Greater Bay Area", "China"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
+      "geo_focus": [
+        "Greater Bay Area",
+        "China"
+      ],
       "thesis": "The Greater Bay Area's first innovation platform jointly built by a multinational pharma company (Boehringer Ingelheim) and an academic innovation center (China Europe Center for Innovation in Medicine and Health, linked to CEIBS), giving biomedical entrepreneurs fully-equipped lab space plus commercialization, patent-strategy and investor-matching support."
     },
     "program": {
       "format": "in-person",
       "location": "Luohu District, Shenzhen",
       "lab_space": true,
-      "perks": ["fully-equipped lab space and scientific instruments", "office space", "concept validation and market positioning support", "patent strategy consulting", "investor connections"]
+      "perks": [
+        "fully-equipped lab space and scientific instruments",
+        "office space",
+        "concept validation and market positioning support",
+        "patent strategy consulting",
+        "investor connections"
+      ]
     },
     "summary": {
       "en": "Launched December 23, 2024 in Shenzhen, this is the Greater Bay Area's first joint innovation incubator between a multinational pharma company (Boehringer Ingelheim) and an academic innovation center (CEIBS-linked China Europe Center for Innovation in Medicine and Health), offering biomedical start-ups fully-equipped lab space and commercialization support.",

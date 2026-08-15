@@ -2012,6 +2012,296 @@
         }
       ],
       "notes": "Country coverage: Spain 6, Italy 5, Poland 5, Czechia 2, Hungary 2, Portugal 3, Slovenia 2, Latvia 1, Lithuania 2, Estonia 1, Croatia 1, Romania 1, Serbia 2, Greece 2 = 35 companies across 14 of the 16 target countries. Bulgaria and Slovakia yielded nothing sourceable: Wikipedia's pharmaceutical/company categories for both are essentially empty (Bulgaria's main company category lists one unrelated firm; Slovakia's lists none). Sopharma (Bulgaria) is a real, large public generics maker but its site could not be fetched (TLS error) and no Wikipedia page exists at the titles tried — flagged in 'wanted' rather than fabricated. Mix skews toward established/public pharma (a genuine feature of this geography — most of Southern/CEE Europe's biggest medical companies are decades-old generics or family pharma groups, not VC-backed startups), but every country's list includes at least one venture-backed or investor-named entry where sourceable: Spain (Idoven, Deepull, AbilityPharma), Italy (Sibylla Biotech Series A), Hungary (Turbine's named investor roster), Portugal (Sword Health's full funding history), Lithuania (Caszyme, Northway Biotech), Poland (Molecure/Ryvu/Selvita as public spin-outs of the venture-backed Selvita R&D business). 4 of 35 records carry ≥1 named investor in funding.investors (AbilityPharma — SciClone Pharmaceuticals; Turbine — 8 named backers incl. MSD Global Health Innovation Fund and Accel; Sword Health — Khosla Ventures/General Catalyst/BOND across its full round history; Caszyme — an Eurostars grant consortium). A further 4 acquired/subsidiary companies (Zentiva, Hemofarm, Bel Medic, BIA Separations) record their acquirer under funding.exit instead, since that is an M&A buyer rather than a funding-round investor. Sibylla Biotech and Northway Biotech have sourced round amounts/dates but no named backer was disclosed on the fetched pages. WebSearch was unavailable all session (budget exhausted); eu-startups.com and Sifted.eu were both blocked (403), which limited discovery of newer, smaller VC-backed startups relative to what a search-capable pass could find — the 'wanted' list reflects that gap."
+    },
+    "r6-asia-investor-gaps": {
+      "notes": "Job 1 (script defect): processed all 218 greater-china/taiwan rows in investor-roster.tsv systematically via char-level simplified<->traditional conversion (OpenCC s2t/t2s), cross-checked against each record's existing name.local + aka set. 203 rows were missing the other script's form and got a script_fix; 1 row (cn-lyfe-capital) already carries both 洲嶺资本/洲岭资本; 5 rows use only script-neutral characters (no fix needed, e.g. 阿里健康, 薄荷天使基金); 9 rows have no Chinese name/aka at all. Two characters (台, 群) needed to be excluded from the simplified/traditional detection signal (though NOT from the output conversion) because OpenCC's char table treats them as 'simplified forms' of 臺/羣 even though 台 and 群 are standard, universally-used characters in genuine Taiwan/HK traditional-script company names (e.g. 台杉投資, 佳世達醫療事業群) -- without this correction, ~10 Taiwan/HK records would have been wrongly skipped as 'already covered'. Job 2 (named gaps): missing-investors.txt (288 rows) has only 2 rows that are Greater-China/HK/Taiwan-related by name (3SBio, Fosun Pharma) after a systematic keyword scan (China/Taiwan/HK place names, romanized mainland/HK/Taiwan fund names, Pinyin city names, etc.); everything else in that list is US/EU/Israel/generalist. Fosun Pharma resolved as an alias_fix onto the already-existing cn-fosun-health-capital rather than a new entity; 3SBio rejected for failing the inclusion bar. No new entities were added -- the two web-searchable rounds of tactics (firm site /about /投资组合, zh.wikipedia.org, HKEX prospectuses, TVCA/MOPS) were not needed since there were no qualifying un-found firms to research from the supplied gap list. One ambiguous English-named lead (Milky Way Investments, 1 mention) could not be geographically confirmed as Greater China without WebSearch and was left uninvestigated rather than guessed.",
+      "rejected": [
+        {
+          "name": "3SBio",
+          "reason": "3SBio (Hong Kong-listed Chinese biopharma, 1530.HK) has no dedicated corporate venture capital arm, health/bio investment fund, or named investment partner found on its official site (3sbio.com) or elsewhere reachable via WebFetch (no WebSearch available this session). The site emphasizes its own in-house R&D/manufacturing/pipeline, not third-party startup investing. Mentioned only once in the roster's missing-investors list as an investor, with no evidence of a real multi-deal investment track record. Fails the inclusion bar (named health/bio partner, dedicated fund/practice, or real multi-investment track record)."
+        }
+      ]
+    },
+    "r6-china-biotech": {
+      "wanted": [
+        "成都赜灵生物医药 (Chengdu Zealing Biopharmaceutical) — ADC company, not researched this session (time budget).",
+        "Westlake Therapeutics (西湖生物医药) / Westlake Yun Valley Smart Medicine (西湖云谷智药) — Westlake University biotech incubation cluster, not researched this session.",
+        "索元生物 (Sundia/Suoyuan Bio) — biomarker-driven drug development, not researched this session.",
+        "泽润生物 (Zerun Biotech) — vaccine/protein CDMO, not researched this session.",
+        "Sinocelltech (神州细胞) — recombinant biologics/biosimilars maker, not researched this session.",
+        "Singleron Biotechnologies (新格元) — single-cell genomics tools feeding drug discovery, borderline fit, not researched.",
+        "Genor Biopharma, LianBio, BioKangtai (Kangtai Biological) — additional oncology/vaccine names surfaced from general knowledge but not sourced this session.",
+        "Retry Alebund Pharmaceuticals, Nuwacell, Chipscreen Biosciences, Abogen Biosciences, Kanghua Biological with alternate sources (HKEX filings, press releases) — connectivity issues blocked all attempts this session."
+      ],
+      "skipped": [
+        {
+          "name": "ViGeneron / VeonGen Therapeutics",
+          "reason": "Rebranded to VeonGen Therapeutics with HQ now in Planegg, Germany — no longer Mainland China/Hong Kong headquartered, so out of region scope."
+        },
+        {
+          "name": "Chipscreen Biosciences (微芯生物)",
+          "reason": "All available source URLs (company site, en/zh Wikipedia) returned certificate errors or 404s in this session; could not source a single verified fact."
+        },
+        {
+          "name": "Abogen Biosciences (艾博生物)",
+          "reason": "Company site returned certificate errors; Wikipedia page and a targeted news URL both 404'd/403'd. No working source found in this session."
+        },
+        {
+          "name": "Kanghua Biological (康华生物)",
+          "reason": "Guessed domain unreachable (DNS failure); Wikipedia page did not exist under tried titles. No working source found."
+        },
+        {
+          "name": "Nuwacell",
+          "reason": "Fetched domain resolved to content about '中盛溯源(广州)生物科技' and '安徽首宁生物科技', which could not be confidently confirmed as the same company as 'Nuwacell' referenced in the unprofiled list — dropped rather than risk misattribution."
+        },
+        {
+          "name": "Alebund Pharmaceuticals (安领生物)",
+          "reason": "Guessed domain unreachable (DNS failure); no alternate source located in this session."
+        },
+        {
+          "name": "康立明生物 / 微医 / 数坤科技 / 迪安诊断 / 长春迪瑞医疗科技 / 吉凯基因 / 贝登医疗 / 唯迈医疗 / MediConCen / 太美医疗科技 / 泛生子 / 亚辉龙 / 丁香园 / 圆心科技 / 思派健康 / 好大夫在线 / 微泰医疗 / 金匙医学 / 东方启音 / 兰丁医疗 / 美中宜和 / 北京宏达爱瑞肿瘤医院 / 博圣生物 / 华大基因 / 锦欣生殖 / 中健云康 / 古奥基因 / 吉因加 / 优迅医学 / 智众医疗 / 微创系列(电生理/机器人/骨科) / Mindray Medical / Berry Genomics / New Industries Biomedical(Snibe) / Peijia Medical / Surgerii Robotics / MicroTech Medical / Urotronic / BMC Medical / Aidite / 朗合医疗 / 北芯生命 / 心擎医疗 / 东星医疗 / 臻亿医疗 / 精锋医疗 / 安钛克医疗 / 脉流科技",
+          "reason": "Diagnostics, medtech devices, surgical robotics, digital health, healthcare-IT, or healthcare-services companies — outside this slice's scope (innovative drug development / ADC-bispecifics / cell-gene-CAR-T / RNA / biosimilars-biologics / vaccines / AI drug discovery / CRO-CDMO / TCM-derived drug development)."
+        },
+        {
+          "name": "上海源申金迈康复医院 / 厦门源申康复医院 / 美年大健康 / 张强医生集团",
+          "reason": "Hospitals and physician-group healthcare-services businesses, not operating biotech/therapeutics companies."
+        },
+        {
+          "name": "TaiMed Biologics (中裕新藥) / 暻裕生醫 and the broader Taiwan cluster (e.g. 上頂/SunTop, 宇心/Ubest Medical, TaiKang Biotech, OBI Pharma, Acepodia, EirGenix, PharmaEssentia, TaiwanJ Pharmaceuticals, etc.)",
+          "reason": "Taiwan-headquartered — explicitly out of scope for this slice, handled by a separate regional agent this round."
+        }
+      ],
+      "notes": "36 companies profiled, all Mainland China or Hong Kong headquartered (region=greater-china), researched via WebFetch only per session constraints (WebSearch budget exhausted). English Wikipedia had very uneven coverage for mid-cap HKEX-listed biotechs (many 404s); stockanalysis.com quote pages (format https://stockanalysis.com/quote/hkg/<code>/) proved to be the most reliable single source for founding year, HQ, ticker, and business description once a plausible HKEX code was guessed and then confirmed in the fetched content. Chinese zh.wikipedia.org worked well when the exact Chinese company name was known (success for Betta Pharmaceuticals) but 404'd for others despite correct percent-encoding, suggesting those pages simply don't exist rather than a fetch problem. Several official company domains (chipscreen.com, asieris.com [subpages], abogenbio.com, betta-pharma.com, hutch-med.com, ir.legendbiotech.com) failed with TLS certificate errors or DNS failures and could not be worked around within WebFetch. Investor names were sourced (not guessed) for Innovent Biologics, CanSino Biologics, Betta Pharmaceuticals, Insilico Medicine, and (strategic) Amgen/BeiGene — all other entries either had no named investors in the sources found, or funding.investors was omitted rather than guessed, consistent with the 'no quote -> omit' rule. Every entry has at least one real fetched URL in sources[]; every numeric claim retained has a supporting quote or is flagged in verification_notes as unconfirmed/from general knowledge."
+    },
+    "r6-china-digital": {
+      "wanted": [
+        "思派健康 (Sipai Health) — HKEX 0314.HK, specialty pharmacy + insurtech, needs a primary HKEX prospectus fetch rather than encyclopedia search.",
+        "数坤科技 (Shukun Technology) — HKEX 2216.HK, needs prospectus-level investor detail (pre-IPO PE rounds reported in press to include IDG Capital, Loyal Valley Capital, etc. — unverified here).",
+        "讯飞医疗 (iFlytek Medical) — HKEX-listed AI spinoff of iFlytek; needs its own IR page rather than the parent company page.",
+        "弘和仁爱医院集团 (Concord Healthcare Group) — HKEX hospital operator, needs prospectus for investor list.",
+        "MediConCen — HK health-insurtech; try Crunchbase/press coverage instead of the corporate site.",
+        "医渡云 (Yidu Tech) HKEX 2158.HK — confirmed >RMB10B valuation but investor names not sourced; worth a dedicated HKEX prospectus pass.",
+        "森亿智能 (Miracle Intelligence) and 深睿医疗/推想医疗 (medical-imaging AI) — not reached this round.",
+        "东软熙康 (Neusoft Xikang) — health-management cloud platform, page not found under guessed titles."
+      ],
+      "skipped": [
+        {
+          "name": "上海源申金迈康复医院",
+          "reason": "Sibling rehab hospital to the sourced Xiamen entity; no independent primary source found (Baidu Baike 404, search blocked by captcha)."
+        },
+        {
+          "name": "思派健康 (Sipai/SinoPai Health)",
+          "reason": "HKEX-listed specialty-pharmacy/insurtech company; every Wikipedia/Baidu Baike title guess returned 404 and search-engine fetches were blocked/unreliable within the WebFetch-only toolset."
+        },
+        {
+          "name": "数坤科技 (Shukun Technology)",
+          "reason": "HKEX-listed (2216.HK) AI medical-imaging company; repeated Baidu Baike title guesses (with and without full legal-entity suffix) all 404'd."
+        },
+        {
+          "name": "讯飞医疗 (iFlytek Medical)",
+          "reason": "HKEX-listed AI/medical spinoff of iFlytek; no dedicated page found under several title guesses, and the parent iFlytek page does not cover the subsidiary's financing/listing history."
+        },
+        {
+          "name": "弘和仁爱医院集团 (Concord Healthcare Group)",
+          "reason": "HKEX-listed hospital group; Baidu Baike title guesses 404'd and no alternate reachable source found in the time available."
+        },
+        {
+          "name": "MediConCen",
+          "reason": "Hong Kong health-insurtech company; official site returned empty/unfetchable content and no alternate source was found."
+        },
+        {
+          "name": "北京宏达爱瑞肿瘤医院",
+          "reason": "Small private oncology hospital named in the unprofiled-companies list; no sourceable page found."
+        },
+        {
+          "name": "Qure.ai, Alodokter, Vezeeta, Altibbi, Prenetics, Halodoc, Eucalyptus",
+          "reason": "Appear in unprofiled-companies.txt but are headquartered outside Mainland China / Hong Kong (India, Indonesia, Egypt, Hong Kong-adjacent SEA/other regions) — out of scope for this Greater-China slice."
+        }
+      ],
+      "notes": "Greater China (Mainland + Hong Kong) digital-health / healthcare-services companies for the med-vc directory, researched with WebFetch only (WebSearch budget exhausted per instructions). Baidu Baike item pages were the highest-yield source once the exact registered legal-entity title was used (pattern: '<city><name><industry>有限公司/股份有限公司'), but are rate-limited in bursts (403) and many correctly-named pages simply don't exist under any guessable title. Wikipedia EN/ZH direct titles mostly 404'd for Chinese-native companies not yet covered; Wikipedia's Special:Search endpoint was useful for confirming a canonical title (worked for Aier Eye Hospital) but not reliable for company-specific queries. Bing and Baidu general search pages returned unusable content through WebFetch (JS-rendered snippets or CAPTCHA walls) — HKEXnews.hk prospectus pages themselves could not be located via guessable URLs either; a follow-up pass with the HKEXnews search UI (not just guessed PDF paths) would likely close most of the gaps listed under 'wanted'. Investor names were spelled to match investor-roster.tsv where a match existed (HongShan, GL Ventures, Fosun Health Capital, Morningside Ventures, Qiming Venture Partners, Tencent Investment, Yunfeng Capital, CDH Investments (VGC), Ping An Capital, ByteDance Health Investment); names with no roster match (Lei Jun, DCM, Trustbridge Partners/挚信, Kleiner Perkins, Boyuan/Boyu Capital ambiguity, IDG Capital, Prosperity7 Ventures, Qianji Capital, Zhenfund, Huachuang Capital, Tim Draper, Swiss Re, Goldman Sachs, GGV Capital, Bertelsmann Asia Investments, China Merchants Bank International, CICC, Sinopharm, SoftBank China, Warburg Pincus, The Carlyle Group, Ant Group/Ant Financial, China Pacific Insurance/CPIC, M3 Inc.) were left as plain reported names for the build script to resolve or leave unlinked. The severe post-2021 correction in this sector shows up directly in the dataset: Haodaifu Online (acquired by Ant Group, 2025), Chunyu Yisheng (valuation collapsed from RMB7B to RMB344M at its Dec-2025 acquisition), iKang Healthcare (NASDAQ delisting, 2019), Rui'er Dental/Arrail Group (HKEX trading suspended since Dec 2025 over accounting irregularities), and United Family Healthcare/New Frontier Health (SPAC IPO then went private in 2021) all carry real, sourced negative-outcome data rather than being dropped."
+    },
+    "r6-china-medtech": {
+      "wanted": [
+        "精锋医疗 Edge Medical (surgical robotics, HKEX 1231.HK) — needs prospectus/press source",
+        "微创机器人 MicroPort MedBot (surgical robotics, HKEX 2252.HK) — needs prospectus/press source",
+        "微创电生理 MicroPort EP (electrophysiology, STAR 688351.SH)",
+        "Novogene 诺禾致源 (genomics sequencing, STAR 688315.SH)",
+        "Burning Rock Biotech 燃石医学 (liquid biopsy, NASDAQ:BNR)",
+        "KingMed Diagnostics 金域医学 (independent clinical labs, SSE 603882.SH)",
+        "Sansure Biotech 圣湘生物 (molecular diagnostics, STAR market)",
+        "Weigao Group 威高集团 (medical devices conglomerate, HKEX 1066.HK)",
+        "YHLO 亚辉龙 (IVD chemiluminescence, STAR 688575.SH)",
+        "Yidu Tech 医渡科技 (healthcare big data/AI, HKEX 2158.HK)",
+        "Winning Health Technology 卫宁健康 (hospital information systems, SZSE 300253.SZ)",
+        "SonoScape / 开立医疗 (ultrasound & endoscopy, STAR market)",
+        "EDAN Instruments 理邦仪器 (patient monitors, SZSE 300206.SZ)",
+        "Jafron Biomedical 健帆生物 (blood purification devices, SZSE 300529.SZ)",
+        "Micro-Tech / 南微医学 (endoscopic devices, SSE 688029.SH)",
+        "Dabo Medical 大博医疗 (orthopedic implants, SZSE 002901.SZ)",
+        "Shukun Technology 数坤科技 (medical imaging AI) — needs live domain or press source",
+        "Vimo Medical 唯迈医疗 (angiography/interventional devices)",
+        "Da Xiang Tech 大橡科技 (soft robotics catheters)",
+        "Surgerii Robotics 术锐机器人 (surgical robotics)"
+      ],
+      "skipped": [
+        {
+          "name": "数坤科技 (Shukun Technology)",
+          "reason": "No fetchable source found — official domain unreachable (expired cert), no Wikipedia/Baidu Baike page accessible via WebFetch, no working search to locate alternates."
+        },
+        {
+          "name": "唯迈医疗 (Vimo Medical)",
+          "reason": "Could not resolve a live official domain or Wikipedia page via WebFetch."
+        },
+        {
+          "name": "吉凯基因 (GeneChem)",
+          "reason": "Could not resolve a live official domain or Wikipedia page via WebFetch."
+        },
+        {
+          "name": "贝登医疗 (Beiden Medical)",
+          "reason": "Could not resolve a live official domain or Wikipedia page via WebFetch."
+        },
+        {
+          "name": "太美医疗科技 / Clinflash (TMT Health)",
+          "reason": "Site fetched but returned no substantive content; no Wikipedia page found."
+        },
+        {
+          "name": "术锐机器人 (Surgerii Robotics)",
+          "reason": "Could not resolve a live official domain or Wikipedia page via WebFetch."
+        },
+        {
+          "name": "朗合医疗 (Longhorn Medical)",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "心擎医疗",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "东星医疗 (East Star Medical)",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "臻亿医疗",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "精锋医疗 (Edge Medical)",
+          "reason": "Domain and Wikipedia guesses 404'd/DNS-failed; could not source without search."
+        },
+        {
+          "name": "安钛克医疗 (Antec Medical)",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "脉流科技 (Pulse Medical)",
+          "reason": "Domain guess 404'd; could not source without search."
+        },
+        {
+          "name": "大橡科技 (Da Xiang Tech)",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "优迅医学",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "微创电生理 (MicroPort EP)",
+          "reason": "Wikipedia title guess 404'd; parent MicroPort Scientific profiled instead."
+        },
+        {
+          "name": "微创机器人 (MicroPort MedBot)",
+          "reason": "Domain guesses failed (DNS); parent MicroPort Scientific profiled instead."
+        },
+        {
+          "name": "微创骨科 (MicroPort Orthopedics)",
+          "reason": "No standalone source found; parent MicroPort Scientific profiled instead."
+        },
+        {
+          "name": "金匙医学",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "兰丁医疗 (Lanting Medical)",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "博圣生物 (Bosheng Bio)",
+          "reason": "Could not identify or reach an official domain without search."
+        },
+        {
+          "name": "亚辉龙 (YHLO)",
+          "reason": "Official domain DNS failed; no Wikipedia page found."
+        },
+        {
+          "name": "Novogene (诺禾致源)",
+          "reason": "About page lacked founding/HQ/investor detail; Wikipedia and zh-Wikipedia pages not found."
+        },
+        {
+          "name": "Burning Rock Biotech (燃石医学)",
+          "reason": "Official domain DNS failed; Wikipedia/zh-Wikipedia pages not found."
+        },
+        {
+          "name": "KingMed Diagnostics (金域医学)",
+          "reason": "Official domain connection refused; Wikipedia page not found."
+        },
+        {
+          "name": "Sansure Biotech (圣湘生物)",
+          "reason": "Domain guesses 404'd/DNS-failed; Wikipedia page not found."
+        },
+        {
+          "name": "Yidu Tech (医渡科技)",
+          "reason": "Domain guesses failed (cert mismatch / connection refused); Wikipedia page not found."
+        },
+        {
+          "name": "WeDoctor (微医)",
+          "reason": "Official site returned an error status; Wikipedia/zh-Wikipedia pages not found."
+        },
+        {
+          "name": "Winning Health Technology (卫宁健康)",
+          "reason": "Domain and Wikipedia guesses 404'd; could not source without search."
+        },
+        {
+          "name": "Weigao Group (威高集团)",
+          "reason": "Official domain connection refused; Wikipedia page not found."
+        },
+        {
+          "name": "Da An Gene (达安基因)",
+          "reason": "Domain guess failed (DNS); Wikipedia page not found."
+        }
+      ],
+      "notes": "This session's WebSearch budget was exhausted before this slice began, so all research relied on WebFetch against guessed URLs (official domains, en/zh Wikipedia, company IR pages). Hit rate on smaller private Chinese medtech/diagnostics companies (the bulk of the unprofiled-companies.txt candidates) was low — most guessed domains 404'd, DNS-failed, or had expired certs, and Baidu Baike blocked WebFetch outright (403). As a result the delivered set (26 companies) leans toward large, well-known public/listed players (Mindray, BGI Genomics, United Imaging, MicroPort, Peijia Medical, Venus Medtech, etc.) that have Wikipedia coverage or reachable official sites, and falls short of the 35-45 target. All records are backed by at least one real fetched source with a verbatim quote; no company, quote, URL, registration number or investor name was invented. Investor data (the stated point of the exercise) is genuinely sparse for this reason — only BGI Genomics, iCarbonX, Lepu Medical (founding), Winner Medical (Sequoia via Purcotton), and Wandong Medical (successive controlling shareholders) carry named investors; the rest are either bootstrapped/state-linked or their financing history simply wasn't recoverable without search. The skipped and wanted lists flag exactly which unprofiled-list companies and known major players (MicroPort MedBot/EP, Novogene, Burning Rock, KingMed, Sansure, Weigao, YHLO, Yidu Tech, Winning Health, SonoScape, EDAN, Jafron, Micro-Tech, Dabo Medical) a follow-up pass with real search should prioritize."
+    },
+    "r6-taiwan": {
+      "wanted": [
+        "Taiwan dental implant / orthodontic device maker (TWSE/TPEx-listed if possible)",
+        "Dedicated hospital information systems (HIS) vendor headquartered in Taiwan",
+        "Health2Sync (智抗糖) — diabetes management app, needs a working source URL",
+        "Panion & BF Biotech — needs identity confirmation",
+        "Additional semiconductor-adjacent biosensing startups beyond Apex Biotechnology"
+      ],
+      "skipped": [
+        {
+          "name": "Panion & BF Biotech",
+          "reason": "Could not locate a fetchable source (wiki/company site) to confirm identity or facts; dropped rather than guessed."
+        },
+        {
+          "name": "Health2Sync (智抗糖)",
+          "reason": "Official site returned 403 Forbidden and no Wikipedia article was found; could not source with a real fetched URL."
+        },
+        {
+          "name": "Sinphar Pharmaceutical (杏輝藥品)",
+          "reason": "Low confidence on current scope/status; no source successfully fetched."
+        },
+        {
+          "name": "Taiwan dental implant/device maker",
+          "reason": "Could not identify and verify a Taiwan-headquartered dental-specific device company via WebFetch-only tactics (no WebSearch available); left out rather than guessed."
+        },
+        {
+          "name": "Dedicated hospital IT vendor",
+          "reason": "Could not identify and verify a Taiwan-headquartered hospital information-systems company distinct from the digital-health/imaging-AI entries already included."
+        }
+      ],
+      "notes": "WebSearch was unavailable for this slice; all 30 companies were sourced via WebFetch against company websites, zh/en Wikipedia, Taiwan Stock Exchange ISIN lookups (owncode query, which return ticker + listing date reliably even when Big5-encoded body text is garbled), and the ClinicalTrials.gov v2 API (query.spons parameter), which proved the most reliable source for pipeline/phase/indication facts for TPEx/TWSE-listed biotechs since many company sites and zh.wikipedia.org pages 404'd. Both Center Laboratories and Bora Pharmaceuticals are recorded here as operating companies even though related entities already exist in the investor roster (tw-center-laboratories, tw-bora-pharmaceuticals) per the schema's guidance for firms that both operate and invest."
     }
   }
 }

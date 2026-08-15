@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["jsonschema>=4.21"]
+# dependencies = ["jsonschema>=4.21", "zhconv>=1.4"]
 # ///
 """Build the company half of the directory and wire it to the investor half.
 
@@ -147,6 +147,16 @@ _TOO_GENERIC = {"health", "bio", "medical", "care", "life", "new", "first",
 _CJK = r"㐀-䶿一-鿿぀-ゟ゠-ヿ가-힯"
 _KEEP = re.compile(rf"[^a-z0-9{_CJK}]+")
 _HAS_CJK = re.compile(rf"[{_CJK}]")
+# Han characters trigger traditional/simplified folding. Any kana or Hangul in
+# the string vetoes it — those are a reliable signal the text is Japanese or
+# Korean, where a Chinese converter has no business.
+_HAS_HAN = re.compile(r"[㐀-䶿一-鿿]")
+_HAS_KANA_HANGUL = re.compile(r"[぀-ゟ゠-ヿ가-힯]")
+
+try:
+    from zhconv import convert as _zh_convert
+except ImportError:  # keep the build runnable without the optional dependency
+    _zh_convert = None
 
 
 def norm(s: str) -> str:
@@ -159,9 +169,21 @@ def norm(s: str) -> str:
     filter below would then delete — turning "한미약품" into "" and "ソニーグループ"
     into "ソニークルーフ". NFC puts them back before anything is filtered.
 
-    Known gap: traditional and simplified Chinese do not fold together, so
-    "紅杉" and "红杉" are separate keys. Handled by recording both forms in `aka`
-    rather than by pulling in a conversion table.
+    Han text is folded to SIMPLIFIED as the canonical key, so "紅杉" and "红杉"
+    land on the same entry. The direction matters and is not arbitrary:
+    traditional -> simplified is many-to-one and deterministic, while
+    simplified -> traditional is one-to-many and has to guess — round-tripping
+    "台杉投資" through traditional yields "臺杉投資", and "启明创投" yields
+    "啓明創投". Folding one way is exact; folding the other invents variants.
+
+    Strings containing kana or Hangul skip the fold entirely — those characters
+    reliably mark Japanese or Korean text, where a Chinese converter has no
+    business. A pure-kanji Japanese name like 塩野義製薬 is indistinguishable
+    from Chinese by characters alone and DOES get folded, to 塩野义制薬. That is
+    mojibake, and it is harmless here for one specific reason: this value is a
+    hash key, never displayed, and the same fold is applied to both the index
+    and the query, so the two sides still meet. Display always uses the
+    original `name` field.
     """
     if not s:
         return ""
@@ -169,6 +191,8 @@ def norm(s: str) -> str:
     s = unicodedata.normalize("NFD", s)
     s = "".join(c for c in s if not unicodedata.combining(c))
     s = unicodedata.normalize("NFC", s)
+    if _zh_convert and _HAS_HAN.search(s) and not _HAS_KANA_HANGUL.search(s):
+        s = _zh_convert(s, "zh-hans")
     s = s.lower().replace("&", " and ").replace("+", " and ")
     s = _KEEP.sub(" ", s)
     s = re.sub(_LEGAL, " ", s)
@@ -581,6 +605,27 @@ def main() -> None:
     (DATA / "company-stats.json").write_text(
         json.dumps(stats, ensure_ascii=False, indent=2), "utf-8")
 
+    # A normalized name that maps to two different records is usually not a
+    # coincidence — it is the same organization entered twice. The resolver
+    # already refuses to link on it, but refusing silently just hides a data
+    # bug, so it is reported. Traditional/simplified folding makes this
+    # especially productive on the Chinese records, where one firm entered
+    # under both scripts previously looked like two unrelated rows.
+    collisions = []
+    ent_name = {e["id"]: e["name"].get("en", "") for e in entities}
+    for key, ids in sorted(inv_res.strict.items()):
+        if len(ids) > 1:
+            regions = {inv_res.region.get(i) for i in ids}
+            collisions.append({
+                "normalized": key,
+                "ids": sorted(ids),
+                "names": [ent_name.get(i, i) for i in sorted(ids)],
+                # Same firm, different geography, is legitimate — OrbiMed runs
+                # four regional vehicles. Same firm, SAME region, is a duplicate.
+                "verdict": "regional-vehicles" if len(regions) == len(ids) else "likely-duplicate",
+            })
+    n_dupe = sum(1 for c in collisions if c["verdict"] == "likely-duplicate")
+
     (ROOT / "reports").mkdir(exist_ok=True)
     (ROOT / "reports" / "links.json").write_text(json.dumps({
         "unresolved_investor_names": [
@@ -589,7 +634,10 @@ def main() -> None:
         "unresolved_portfolio_companies": [
             {"name": n, "investors_naming_it": k}
             for n, k in unresolved_portfolio.most_common()],
+        "investor_name_collisions": collisions,
     }, ensure_ascii=False, indent=2), "utf-8")
+    print(f"name collisions: {len(collisions)} ({n_dupe} look like duplicate records, "
+          f"{len(collisions) - n_dupe} look like per-region vehicles)")
 
     print(f"\nwrote data/all-companies.json, data/links.json, data/company-stats.json")
     print(f"      reports/links.json  <- the backlog for the next round")
