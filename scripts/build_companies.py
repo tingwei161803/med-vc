@@ -353,6 +353,15 @@ def normalize(c: dict, dropped: Counter) -> dict:
     if p:
         c["profile"] = p
 
+    # Researchers write kind as "FDA 510(k)" while body already says "FDA",
+    # which renders as "FDA FDA 510(k) 2019". Strip the redundant prefix only —
+    # deliberately NOT rewriting vaguer kinds like "FDA clearance" into
+    # "510(k)", because that would invent a precision the source did not give.
+    for rg in (p.get("regulatory") or []):
+        body, kind = (rg.get("body") or "").strip(), (rg.get("kind") or "").strip()
+        if body and kind.lower().startswith(body.lower() + " "):
+            rg["kind"] = kind[len(body):].strip()
+
     st = (c.get("status") or "").strip().lower().replace(" ", "-")
     if st:
         c["status"] = st if st in STATUSES else "unknown"

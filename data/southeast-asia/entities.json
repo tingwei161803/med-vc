@@ -6421,6 +6421,82 @@
     "status": "active"
   },
   {
+    "id": "sea-temasek-holdings",
+    "name": {
+      "en": "Temasek Holdings"
+    },
+    "aka": [
+      "Temasek"
+    ],
+    "type": "government-program",
+    "status": "active",
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "website": "https://www.temasek.com.sg/",
+    "strategy": {
+      "stages": [
+        "growth",
+        "all"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "Global",
+        "Asia"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "therapeutics"
+      ],
+      "thesis": "Singapore's state investment company; 'Life Sciences & Agri-Food' is one of Temasek's stated key focus investment areas (alongside Consumer/Media/Technology and Non-Bank Financial Services), through which it takes large direct stakes in healthcare providers and biotech — e.g. a controlling 59% stake in India's largest private hospital chain."
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Manipal Health Enterprises",
+          "sector": "healthcare-services / hospital chain (India)",
+          "outcome": "active"
+        },
+        {
+          "company": "InnovaFeed",
+          "sector": "biotechnology / agri-food",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "sovereign-wealth-fund",
+      "life-sciences-agri-food"
+    ],
+    "summary": {
+      "en": "Singapore's sovereign investment company; Life Sciences & Agri-Food is one of its named strategic sector focus areas, with direct large-stake healthcare investments such as a controlling stake in India's Manipal Health Enterprises hospital chain."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Temasek_Holdings",
+        "title": "Temasek Holdings",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Life Sciences & Agri-Food as a named strategic sector; Manipal Health Enterprises 59% stake (April 2023); InnovaFeed investment (Nov 2020)",
+        "quote": "Its key focus investment areas include Consumer, Media & Technology, Life Sciences & Agri-Food, and Non-Bank Financial Services... Temasek announced that it would acquire an additional 41 percent stake in Bengaluru-based Manipal Health Enterprises (MHE), resulting in a total stake of 59 per cent."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Direct temasek.com.sg fetches were blocked (403) this session; sourced via Wikipedia only, a single (reputable, tertiary) source. Distinct from 'Temasek Life Sciences Accelerator' (sea-temasek-life-sciences-accelerator), already in the roster as a separate seed-stage accelerator program — this entity is the parent sovereign fund itself, which also makes large direct majority-stake healthcare investments well outside the accelerator's scope. Worklist contained both 'Temasek' and 'Temasek Holdings' as separate mention rows referring to the same organization; merged into one entity. AUM/fund-size figures not sourced this session (Temasek's portfolio-wide NAV is publicly reported but was not independently re-verified via a fetched source this round) — left out rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-investor-gaps-2",
+    "backing": {
+      "backers": [
+        {
+          "name": "Temasek",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Temasek); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
+  },
+  {
     "id": "sea-nsg-ventures",
     "name": {
       "en": "NSG Ventures"
