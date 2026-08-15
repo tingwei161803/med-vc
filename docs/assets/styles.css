@@ -323,6 +323,15 @@ h1, h2, h3 { line-height: 1.2; font-weight: 640; letter-spacing: -.01em; }
 }
 .muted { color: var(--on-surface-variant); font-size: .85rem; }
 
+/* divider between the investor and company halves of the analysis page */
+.section-head {
+  margin: 34px 0 14px; font-size: 1.05rem; font-weight: 650;
+  color: var(--on-surface-variant); display: flex; align-items: center; gap: 12px;
+}
+.section-head::after {
+  content: ""; flex: 1; height: 1px; background: var(--outline-variant);
+}
+
 /* coverage note above the grid — states the denominator */
 .dir__note {
   display: flex; align-items: center; gap: 7px;

@@ -12,6 +12,9 @@
     "eu-cathay-innovation": [
       "us-qualified-health"
     ],
+    "eu-ip-group": [
+      "us-hinge-health"
+    ],
     "eu-northzone": [
       "us-spring-health"
     ],
@@ -246,6 +249,9 @@
     "us-highmark-ventures": [
       "us-healthmap-solutions"
     ],
+    "us-illumina-ventures": [
+      "us-truveta"
+    ],
     "us-insight-partners": [
       "us-hinge-health",
       "us-medidata-solutions"
@@ -414,6 +420,9 @@
       "us-iodine-software",
       "us-lifestance-health"
     ],
+    "us-startup-health": [
+      "us-cityblock-health"
+    ],
     "us-steelsky-ventures": [
       "us-proov",
       "us-twentyeight-health"
@@ -565,6 +574,7 @@
       "us-echo-health-ventures",
       "us-general-catalyst-health-assurance",
       "us-maverick-ventures",
+      "us-startup-health",
       "us-thrive-capital",
       "us-tiger-global-management",
       "us-town-hall-ventures",
@@ -677,6 +687,7 @@
     ],
     "us-hinge-health": [
       "eu-atomico",
+      "eu-ip-group",
       "us-bessemer-venture-partners",
       "us-coatue-management",
       "us-insight-partners",
@@ -863,6 +874,7 @@
     ],
     "us-truveta": [
       "us-commonspirit-ventures",
+      "us-illumina-ventures",
       "us-northwell-holdings",
       "us-providence-allumia-ventures",
       "us-regeneron-ventures"
@@ -915,6 +927,11 @@
       "investor": "eu-cathay-innovation",
       "company": "us-qualified-health",
       "via": "both"
+    },
+    {
+      "investor": "eu-ip-group",
+      "company": "us-hinge-health",
+      "via": "company"
     },
     {
       "investor": "eu-northzone",
@@ -1334,7 +1351,7 @@
     {
       "investor": "us-foreground-capital",
       "company": "us-twentyeight-health",
-      "via": "investor"
+      "via": "both"
     },
     {
       "investor": "us-foresite-capital",
@@ -1525,6 +1542,11 @@
       "investor": "us-highmark-ventures",
       "company": "us-healthmap-solutions",
       "via": "investor"
+    },
+    {
+      "investor": "us-illumina-ventures",
+      "company": "us-truveta",
+      "via": "company"
     },
     {
       "investor": "us-insight-partners",
@@ -1955,6 +1977,11 @@
       "investor": "us-silversmith-capital-partners",
       "company": "us-lifestance-health",
       "via": "both"
+    },
+    {
+      "investor": "us-startup-health",
+      "company": "us-cityblock-health",
+      "via": "company"
     },
     {
       "investor": "us-steelsky-ventures",
