@@ -34,11 +34,18 @@ med-vc/
 │   ├── <region>/
 │   │   ├── _raw/<segment>.json   # ← agent 原始產出，一個切片一檔（永不衝突）
 │   │   └── entities.json         # ← build.py 去重合併 + 驗 schema 後的結果
+│   ├── backing.json              # ← 背後金主 enrichment overlay（id → backers[]）
 │   ├── all-entities.json         # 全球合併（build.py 產生）
 │   └── stats.json                # 各維度統計（build.py 產生）
-├── scripts/build.py              # 合併 / 去重 / 驗證 / 統計（uv run）
+├── scripts/build.py              # 合併 / 去重 / 套 overlay / 驗證 / 統計（uv run）
+├── scripts/backfill_backing.py   # 由名稱與描述推論母公司 / 金主，產生 backing.json
+├── scripts/build_site.py         # 產生 docs/data/data.js 網站資料層
 └── reports/validation.md         # schema 違規 + 資料品質報告（build.py 產生）
 ```
+
+**衍生產物警告**：`<region>/entities.json`、`all-entities.json`、`stats.json`、`docs/data/data.js`
+全都由 `build.py` / `build_site.py` 從 `_raw/` 重新產生。手動編輯這些檔案會在下次 build 時**被無聲覆蓋**。
+要改資料就改 `_raw/`；要加跨筆的衍生欄位就走 `backing.json` 這種 overlay 模式。
 
 12 個地區：`taiwan · united-states · europe · greater-china · japan · south-korea · israel · canada · india · southeast-asia · australia-nz · rest-of-world`
 
@@ -53,6 +60,7 @@ med-vc/
 - **策略**：`strategy.stages` · `check_size` · `ownership_target_pct` · `geo_focus` · `sector_focus`（健康子領域）· `thesis`
 - **生醫特有**：`lifesci.modalities`（小分子/抗體/細胞/基因治療/RNA…）· `lifesci.indications`（腫瘤/神經/罕病…）· `company_creation`（Flagship 式公司創建）· `invests_public_markets`（crossover）· `science_platform_notes`
 - **加速器/育成專屬**：`program.{length_weeks, cohort_size, equity_taken_pct, investment, lab_space, demo_day, application_url, acceptance_rate, …}`
+- **背後金主**：`backing.backers[]{name, kind, relationship, note, evidence}` —— 回答「這是誰的錢」。`kind` 16 類受控詞彙（big-tech / ai-lab / pharma / medtech / payer-insurer / government / university / foundation…），`relationship` 7 種出資關係（wholly-owned-cvc / balance-sheet-fund / anchor-lp / major-lp / joint-venture / spinout / affiliated-program），`evidence` 區分 `verified`（來源直述）與 `inferred`（由名稱或描述推得）
 - **戰績**：`track_record.{portfolio_count, notable_investments[], exits[], co_investors[]}`（outcome 含 FDA-approved）
 - **人 / 申請**：`people[]`（含 `background`：MD/PhD、藥廠出身等科學履歷）· `team_size` · `application.{how_to_apply, accepts_cold_inbound, contact}`
 - **佐證 meta**：`sources[]{url,title,publisher,accessed,supports,quote}` · `confidence` · `verification_notes` · `last_updated` · `researched_by`
@@ -64,6 +72,17 @@ med-vc/
 1. **新增 3 種機構類型**：`crossover-fund`（公私跨界，生技特有）、`venture-philanthropy`（疾病基金會創投）、`university-hospital-fund`（大學/醫院創投臂）。
 2. **兩個新維度**：`modalities`（治療模式）與 `indications`（適應症領域）——生醫投資人實際用來分類基金的軸。
 3. **sector 詞彙全面健康化**：therapeutics / medtech / diagnostics / digital-health / AI 製藥 / 合成生物 / 長壽 / 女性健康 / 心理健康…（20 個子領域）。
+4. **`backing` 出資來源維度**：醫療創投的資金結構特別複雜——藥廠 CVC、保險公司創投、醫院體系基金、大學技轉基金、疾病基金會、主權基金、以及近年大舉進場的科技巨頭與 AI 實驗室，全都在同一個池子裡競逐。把「錢是誰的」拉成一等公民欄位，才能區分全資企業創投與只是拿了策略 LP 支票的獨立合夥事業。
+
+### `backing` 的兩層來源
+
+| 層 | 產生方式 | `evidence` | 落地位置 |
+| --- | --- | --- | --- |
+| 推論層 | `backfill_backing.py` 以專有名詞字典比對機構名稱／別名，並從描述中抽取「venture arm of X」「backed by X」「anchored by X」等關係句式 | `inferred` | `data/backing.json` overlay |
+| 研究層 | agent 查證後直接寫進 `_raw/`，附來源 URL 與 quote | `verified` | `_raw/<segment>.json` |
+
+`build.py` 在 merge 階段套用 overlay，且**研究層永遠優先**：同一個金主名稱若兩層都有，`_raw/` 的版本勝出。
+推論層刻意保守——只認少數關係句式，並過濾掉「SAP 共同創辦人 Dietmar Hopp 的投資公司」這類把人名誤判成公司出資的情形。
 
 ---
 

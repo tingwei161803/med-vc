@@ -1,0 +1,216 @@
+[
+  {
+    "id": "jp-softbank-vision-fund",
+    "name": {
+      "en": "SoftBank Vision Fund"
+    },
+    "aka": [
+      "SVF",
+      "Vision Fund 1",
+      "Vision Fund 2",
+      "SoftBank Investment Advisers"
+    ],
+    "type": "growth-equity",
+    "subtypes": [
+      "crossover-fund"
+    ],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "website": "https://visionfund.com/",
+    "backing": {
+      "backers": [
+        {
+          "name": "SoftBank Group Corp.",
+          "kind": "conglomerate",
+          "relationship": "anchor-lp",
+          "note": "SoftBank Group (telecom-rooted Japanese technology/investment conglomerate) is the primary sponsor of the Vision Funds; Vision Fund 1 ($98.6B committed) also drew capital from Saudi PIF and Mubadala, while Vision Fund 2 (~$56B) is funded mainly by SoftBank Group itself."
+        }
+      ]
+    },
+    "capital": {
+      "aum": {
+        "raw": "~$154B combined across Vision Fund 1 (~$98.6B) and Vision Fund 2 (~$56B)",
+        "usd": 154000000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": [
+        "growth",
+        "late-stage"
+      ],
+      "geo_focus": [
+        "Global"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "biotech",
+        "ai-drug-discovery"
+      ],
+      "thesis": "The world's largest tech-focused investment platform; maintains a dedicated Life Sciences & HealthTech investment team (led by director John Cassidy) and has been ranked the #2 late-stage digital health investor globally, deploying billion-dollar-scale checks into digital pharmacy, telehealth and mental-health companies."
+    },
+    "track_record": {
+      "portfolio_count": "250+",
+      "notable_investments": [
+        {
+          "company": "Alto Pharmacy",
+          "sector": "digital pharmacy",
+          "outcome": "active (agreed to be acquired, 2025)"
+        },
+        {
+          "company": "Big Health",
+          "sector": "digital mental health (Series C, 2025)",
+          "outcome": "active"
+        }
+      ]
+    },
+    "summary": {
+      "en": "SoftBank Group's ~$154B Vision Fund platform runs a dedicated Life Sciences & HealthTech team; notable health bets include a $1B investment in digital pharmacy Alto Pharmacy (2022, Vision Fund 2) and leading digital-mental-health company Big Health's $75M Series C (2025). Galen Growth ranked it the #2 late-stage digital health investor globally for 2025."
+    },
+    "sources": [
+      {
+        "url": "https://visionfund.com/team/john-cassidy",
+        "title": "John Cassidy, Director — SoftBank Vision Fund",
+        "publisher": "SoftBank Vision Fund",
+        "accessed": "2026-08-16",
+        "supports": "dedicated Life Sciences & HealthTech investment role"
+      },
+      {
+        "url": "https://www.bighealth.com/news/big-health-raises-75-million-in-series-c-funding-led-by-softbank-vision-fund-2",
+        "title": "Big Health Raises $75 Million in Series C Funding Led by SoftBank Vision Fund 2",
+        "publisher": "Big Health",
+        "accessed": "2026-08-16",
+        "supports": "Big Health Series C led by SoftBank Vision Fund 2"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Region classified as 'japan' reflecting SoftBank Group's Tokyo HQ, though Vision Fund investment decisions are largely made out of London/California via SoftBank Investment Advisers. AUM figure is a combined historical committed-capital figure, not current NAV (which fluctuates significantly with portfolio marks). [fact-check flagged, not auto-applied: track_record.notable_investments[0].outcome_detail: correct 'a $1B investment in digital pharmacy Alto Pharmacy (2022, Vision Fund 2)' in the summary — should read something like 'led a ~$200-250M round valuing Alto Phar] [fact-check removed 1 refuted source(s): 404, wrong page, or quote absent] [fact-check: The #2 late-stage digital health investor ranking (Galen Growth) is independently corroborated via search ('second-largest late-stage digital health investor... following Wellington Management and ahead of Ally Bridge Group'). The Big Health $75M Series C claim is fully confirmed via bighealth.com f] [no verbatim quote on any source — confidence capped at low]",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-bigtech"
+  },
+  {
+    "id": "jp-321catalyst-ventures",
+    "name": {
+      "en": "321Catalyst (Mitsui Chemicals)"
+    },
+    "aka": [
+      "321Catalyst Ventures, Inc.",
+      "321Catalyst LP",
+      "321Catalyst"
+    ],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2025,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      {
+        "country": "United States",
+        "city": "San Jose"
+      }
+    ],
+    "website": "https://jp.mitsuichemicals.com",
+    "links": {},
+    "capital": {
+      "current_fund": {
+        "raw": "$60 million",
+        "usd": 60000000,
+        "currency": "USD"
+      },
+      "funds": [
+        {
+          "name": "321Catalyst LP",
+          "vintage_year": 2025,
+          "size": {
+            "raw": "$60 million",
+            "usd": 60000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": [
+        "seed",
+        "early-stage",
+        "growth"
+      ],
+      "lead_or_follow": "follow",
+      "geo_focus": [
+        "United States",
+        "Europe",
+        "Asia",
+        "Global"
+      ],
+      "sector_focus": [
+        "life-science-tools",
+        "medtech"
+      ],
+      "thesis": "Mitsui Chemicals' second corporate VC fund (after 321Force, 2022, managed by Global Brain), roughly double the first fund's size; multi-industry mandate spanning Life & Healthcare, Mobility, ICT and Sustainability, with healthcare investments targeting emerging biotech platforms, drug-delivery systems, regenerative medicine and materials for medical devices."
+    },
+    "lifesci": {
+      "modalities": [
+        "drug-delivery",
+        "regenerative-medicine"
+      ],
+      "indications": [],
+      "invests_public_markets": null
+    },
+    "people": [
+      {
+        "name": "Shunsuke Fujii",
+        "role": "President, 321Catalyst Ventures, Inc."
+      }
+    ],
+    "tags": [
+      "multi-sector-cvc",
+      "second-fund",
+      "materials-and-health"
+    ],
+    "summary": {
+      "en": "Mitsui Chemicals' second corporate venture fund, launched May 2025 with $60M via new San Jose-based subsidiary 321Catalyst Ventures, Inc.; life sciences/healthcare (biotech platforms, drug delivery, regenerative medicine, medical-device materials) is one of several named priority sectors alongside mobility, ICT and sustainability."
+    },
+    "sources": [
+      {
+        "url": "https://jp.mitsuichemicals.com/en/release/2025/2025_0526_2/index.htm",
+        "title": "Mitsui Chemicals Launches New Corporate Venture Capital Fund '321Catalyst™'",
+        "publisher": "Mitsui Chemicals, Inc.",
+        "accessed": "2026-08-16",
+        "supports": "fund name/size/date/HQ/leadership/sector list, quote",
+        "quote": "321Catalyst(TM)'s mission will be to accelerate the building of global innovation partnerships and the launching of new products and business."
+      },
+      {
+        "url": "https://globalventuring.com/corporate/asia/mitsui-chemicals-launches-60m-second-vc-fund/",
+        "title": "Mitsui Chemicals launches $60m second VC fund",
+        "publisher": "Global Venturing",
+        "accessed": "2026-08-16",
+        "supports": "corroborates second-fund status and size, comparison to 321Force"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare is one of several named sectors (Life & Healthcare, Mobility, ICT, Sustainability), not the fund's sole focus — included per brief's 'new CVC arms' criterion but flagged as a generalist multi-sector CVC, consistent with existing directory entries for other Mitsui-family CVCs. Legal GP entity (321Catalyst Ventures, Inc.) is US-incorporated in San Jose, CA as a 100%-owned Mitsui Chemicals America subsidiary; region set to Japan to match the ultimate parent, per convention used for other dual-listed Japanese pharma CVCs in this directory (e.g., Takeda Ventures). [1 source(s) blocked automated re-fetch (403/paywall/timeout) — kept, but unverified in the fact-check pass; confidence lowered] [fact-check: Mitsui Chemicals' own press release (jp.mitsuichemicals.com) loads cleanly and confirms fund name/size ($60M), launch date (May 6, 2025), San Jose HQ for the GP entity, leadership (Shunsuke Fujii), and that Life & Healthcare is one of several named sectors (not the sole focus) -- matches the entry a]",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-newfunds",
+    "backing": {
+      "backers": [
+        {
+          "name": "Mitsui Chemicals, Inc.",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Funded via 100%-owned subsidiaries 321Catalyst Ventures, Inc. (GP) and 321Indigo Ventures, Inc. (LP)."
+        }
+      ]
+    }
+  }
+]

@@ -295,7 +295,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "accelerator-incubator-bio"
+    "researched_by": "accelerator-incubator-bio",
+    "backing": {
+      "backers": [
+        {
+          "name": "Johnson & Johnson",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Johnson & Johnson); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "ca-biolabs-university-of-toronto",
@@ -1465,7 +1476,18 @@
     "confidence": "high",
     "verification_notes": "Brand was renamed from 'TELUS Ventures' to 'TELUS Global Ventures' in recent years per current telus.com URLs; both names used interchangeably in press. Portfolio count and check size figures are for the fund overall (health + IoT/AI/security), not health-only.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "TELUS",
+          "kind": "telecom",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (TELUS); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "ca-wittington-ventures",
@@ -5729,7 +5751,18 @@
     "confidence": "high",
     "verification_notes": "Knight's own 2024 AIF states it 'has no plans to invest in any new venture capital funds,' so this strategic-investment activity is winding down rather than an ongoing new-deal program; existing fund positions remain held.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Knight Therapeutics Inc.",
+          "kind": "pharma",
+          "relationship": "balance-sheet-fund",
+          "note": "The name carries no separate fund identity, so the operating company appears to invest directly off its own balance sheet rather than through a named vehicle — inferred from the entity name and tags, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "ca-neomed-institute",

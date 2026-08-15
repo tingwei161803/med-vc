@@ -1260,6 +1260,237 @@
     "researched_by": "africa-lifesci"
   },
   {
+    "id": "row-ib-ventures",
+    "name": {
+      "en": "IB Ventures"
+    },
+    "aka": [
+      "Integrated Bio Ventures",
+      "Innovation Booster (per some sources)"
+    ],
+    "type": "vc",
+    "subtypes": [
+      "accelerator"
+    ],
+    "status": "active",
+    "founded_year": 2025,
+    "region": "rest-of-world",
+    "country": "Saudi Arabia",
+    "hq_city": "Riyadh",
+    "offices": [
+      {
+        "country": "Switzerland"
+      },
+      {
+        "country": "United States"
+      }
+    ],
+    "links": {},
+    "capital": {
+      "current_fund": {
+        "raw": "$50 million",
+        "usd": 50000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "Saudi Arabia",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "synthetic-biology"
+      ],
+      "thesis": "Saudi Arabia's first dedicated biotech VC fund, financing local biotech development, marketing expansion and project scale-up while also planning to run its own incubator/accelerator to attract global biotech startups into the Kingdom, under Vision 2030."
+    },
+    "lifesci": {
+      "modalities": [],
+      "invests_public_markets": false
+    },
+    "people": [
+      {
+        "name": "Yazeed Alsufyani",
+        "role": "General Partner & CEO"
+      },
+      {
+        "name": "Faisal Al-Abdulsalam",
+        "role": "General Partner / Co-founder"
+      },
+      {
+        "name": "Hamad Al-Omar",
+        "role": "General Partner"
+      },
+      {
+        "name": "Mohammed Alangari",
+        "role": "General Partner"
+      }
+    ],
+    "tags": [
+      "saudi-vision-2030",
+      "first-saudi-biotech-vc",
+      "riyadh"
+    ],
+    "summary": {
+      "en": "Billed as Saudi Arabia's first dedicated biotech VC fund, IB Ventures officially launched with a $50M raise (Riyadh HQ, plus planned Switzerland and US offices), targeting therapeutics, diagnostics, digital biology and manufacturing startups, with plans to run its own incubator/accelerator."
+    },
+    "sources": [
+      {
+        "url": "https://thestartupscene.me/MenaEcosystems/Saudi-Biotech-Fund-IB-Ventures-Launches-With-50-Million-Raise",
+        "title": "Saudi Biotech Fund IB Ventures Launches With $50 Million Raise",
+        "publisher": "The Startup Scene",
+        "accessed": "2026-08-16",
+        "supports": "fund size, HQ, focus areas, quote",
+        "quote": "The fund is established to support the growth of local biotech firms by financing development, expanding marketing capabilities, and scaling emerging projects."
+      },
+      {
+        "url": "https://en.sharikatmubasher.com/media-hub/news/21511888/ib-ventures-officially-launches-as-first-saudi-biotech-vc-fund?lang=en",
+        "title": "IB Ventures officially launches as first Saudi biotech VC fund",
+        "publisher": "Mubasher (Sharikat Mubasher)",
+        "accessed": "2026-08-16",
+        "supports": "leadership names, launch date, first-Saudi-biotech-VC framing"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Sources disagree on exact launch date (Oct 16, 2025 vs. April 2026 in different outlets) and on what 'IB' stands for ('Innovation Booster' vs. 'Integrated Bio'); GP roster also varies slightly by source (Yazeed Alsufyani appears consistently). Treated as a single entity; team should verify official name/date directly with the firm. [fact-check: Both thestartupscene.me and en.sharikatmubasher.com confirm an actual completed launch (not a plan): 'IB Ventures officially launches as first Saudi biotech VC fund' with a $50M raise, and name all four GPs (Alsufyani, Al-Abdulsalam, Al-Omar, Alangari) matching the entry exactly. Sharikat Mubasher d]",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-newfunds",
+    "backing": {
+      "backers": []
+    }
+  },
+  {
+    "id": "row-saudi-moh-biolabs-accelerator",
+    "name": {
+      "en": "Saudi Biotech Accelerator (MoH x BioLabs)"
+    },
+    "aka": [
+      "MoH x BioLabs Accelerator Program",
+      "Saudi National Biotech Accelerator"
+    ],
+    "type": "accelerator",
+    "subtypes": [
+      "incubator"
+    ],
+    "status": "active",
+    "founded_year": 2025,
+    "region": "rest-of-world",
+    "country": "Saudi Arabia",
+    "website": "https://www.saudi-biotech.com/moh-x-biolabs-accelerator-program",
+    "links": {},
+    "program": {
+      "length_weeks": 30,
+      "cohort_size": 8,
+      "format": "in-person",
+      "location": "Saudi Arabia",
+      "lab_space": true,
+      "application_url": "https://www.saudi-biotech.com/moh-x-biolabs-accelerator-program"
+    },
+    "strategy": {
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "synthetic-biology"
+      ],
+      "geo_focus": [
+        "Saudi Arabia"
+      ],
+      "thesis": "Saudi Ministry of Health's first national biotechnology accelerator, delivered with global wet-lab incubator operator BioLabs — the first BioLabs program in the Middle East — offering training, tailored support and access to advanced research labs to Saudi-founded biotech startups, as part of the Kingdom's National Biotechnology Strategy."
+    },
+    "lifesci": {
+      "science_platform_notes": "Wet-lab access via BioLabs' standard model; inaugural cohort spans protein engineering, precision genomics, vaccines and diagnostics."
+    },
+    "track_record": {
+      "portfolio_count": 8,
+      "notable_investments": [
+        {
+          "company": "Plansulin",
+          "sector": "plant-based insulin",
+          "outcome": "active"
+        },
+        {
+          "company": "SAGEbio",
+          "sector": "next-gen vaccines",
+          "outcome": "active"
+        },
+        {
+          "company": "Novo Genomics",
+          "sector": "precision diagnostics",
+          "outcome": "active"
+        },
+        {
+          "company": "cellNUA",
+          "sector": "bee-derived nanotherapies",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "saudi-vision-2030",
+      "first-in-mena",
+      "biolabs-network",
+      "government-backed"
+    ],
+    "summary": {
+      "en": "Launched at BIO International 2025 (Boston), Saudi Arabia's Ministry of Health partnered with global incubator BioLabs to run the Kingdom's first national biotech accelerator — a seven-month program with wet-lab access — welcoming an inaugural cohort of eight Saudi biotech startups; also backed by NEOM and King Faisal Specialist Hospital."
+    },
+    "sources": [
+      {
+        "url": "https://www.moh.gov.sa/en/Ministry/MediaCenter/News/Pages/News-2025-06-19-001.aspx",
+        "title": "MOH launches Biotech Accelerator at BIO International in Boston",
+        "publisher": "Saudi Ministry of Health",
+        "accessed": "2026-08-16",
+        "supports": "program name/date/length/partners/cohort/quote",
+        "quote": "The first biotechnology accelerator in Saudi Arabia and the first BioLabs program in the Middle East."
+      },
+      {
+        "url": "https://waya.media/saudis-ministry-of-health-launches-biotech-accelerator-with-biolabs/",
+        "title": "Saudi's Ministry of Health Launches Biotech Accelerator with BioLabs",
+        "publisher": "WAYA Media",
+        "accessed": "2026-08-16",
+        "supports": "corroborates launch details and partners"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Government-run accelerator program rather than a fund; included per brief's explicit call-out of 'newly launched accelerators & incubators with wet-lab space.' Distinct from BioLabs' other existing directory entries (BioLabs is a global network operator, not itself Saudi-specific). [fact-check: Official Saudi MoH press release confirms launch date (June 19, 2025, BIO International Boston), 8-startup cohort, 7-month program, partners (BioLabs, NEOM, King Faisal Specialist Hospital, plus Saudi FDA not previously listed), and the 'first biotechnology accelerator in Saudi Arabia and first BioL]",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-newfunds",
+    "backing": {
+      "backers": [
+        {
+          "name": "Saudi Ministry of Health",
+          "kind": "government",
+          "relationship": "anchor-lp",
+          "note": "Program conceived and funded by MoH as part of the National Biotechnology Strategy."
+        },
+        {
+          "name": "BioLabs",
+          "kind": "other",
+          "relationship": "affiliated-program",
+          "note": "Global wet-lab incubator operator delivering the accelerator; first BioLabs program in the Middle East."
+        },
+        {
+          "name": "NEOM",
+          "kind": "government",
+          "relationship": "anchor-lp",
+          "note": "Saudi giga-project partner."
+        },
+        {
+          "name": "King Faisal Specialist Hospital",
+          "kind": "hospital-system",
+          "relationship": "affiliated-program",
+          "note": "Clinical partner institution."
+        }
+      ]
+    }
+  },
+  {
     "id": "row-adjuvant-capital",
     "name": {
       "en": "Adjuvant Capital"
@@ -1360,7 +1591,25 @@
     "confidence": "high",
     "verification_notes": "Founding year reported inconsistently across secondary sources (2012/2018/2019); adjuvantcapital.com blocked automated fetch (403), so relied on PR Newswire, Gates Foundation SIF portfolio page, and ImpactAlpha coverage.",
     "last_updated": "undefined",
-    "researched_by": "global-health-impact"
+    "researched_by": "global-health-impact",
+    "backing": {
+      "backers": [
+        {
+          "name": "Novartis",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Merck, Novartis, IFC and the Gates Foundation among others”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Gates Foundation",
+          "kind": "foundation",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Merck, Novartis, IFC and the Gates Foundation among others”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "row-global-health-investment-corporation",
@@ -2362,7 +2611,18 @@
     "confidence": "medium",
     "verification_notes": "R$45M is the initial fund; a larger successor fund (~R$150M) reported by NeoFeed. Managed by fund manager Valetec.",
     "last_updated": "undefined",
-    "researched_by": "latam-lifesci"
+    "researched_by": "latam-lifesci",
+    "backing": {
+      "backers": [
+        {
+          "name": "Eurofarma",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “venture fund launched by Brazilian pharmaceutical group Eurofarma in 2019 with R”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "row-saude-ventures",
@@ -3503,7 +3763,18 @@
     "confidence": "high",
     "verification_notes": "Group AUM figure is widely reported but left un-normalized. Mubadala Bio is the operating life-sciences arm; Mubadala also invests in life sciences directly and via subsidiaries (M42, KELIX bio).",
     "last_updated": "undefined",
-    "researched_by": "mena-gulf-lifesci"
+    "researched_by": "mena-gulf-lifesci",
+    "backing": {
+      "backers": [
+        {
+          "name": "Mubadala",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Mubadala); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "row-public-investment-fund-pif",
@@ -3580,7 +3851,18 @@
     "confidence": "high",
     "verification_notes": "PIF is a very large sovereign fund; only its health/biopharma activity is in scope here. Sanabil (its VC arm) is listed separately.",
     "last_updated": "undefined",
-    "researched_by": "mena-gulf-lifesci"
+    "researched_by": "mena-gulf-lifesci",
+    "backing": {
+      "backers": [
+        {
+          "name": "PIF (Saudi)",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (PIF (Saudi)); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "row-sanabil-investments",
@@ -3810,7 +4092,18 @@
     "confidence": "high",
     "verification_notes": "QIA is a broad sovereign fund; only its healthcare/life-sciences activity and Fund-of-Funds healthcare priority are in scope.",
     "last_updated": "undefined",
-    "researched_by": "mena-gulf-lifesci"
+    "researched_by": "mena-gulf-lifesci",
+    "backing": {
+      "backers": [
+        {
+          "name": "Qatar Investment Authority",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Qatar Investment Authority); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "row-middle-east-venture-partners",
@@ -4873,7 +5166,18 @@
     "confidence": "high",
     "verification_notes": "$100M is the fund's target commitment (self-reported); healthtech nexus confirmed by Sidra Medicine partnership and MedIQ investment.",
     "last_updated": "undefined",
-    "researched_by": "mena-gulf-lifesci"
+    "researched_by": "mena-gulf-lifesci",
+    "backing": {
+      "backers": [
+        {
+          "name": "Qatar Investment Authority",
+          "kind": "government",
+          "relationship": "anchor-lp",
+          "note": "From the entity description: “anchored by QIA's”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "row-gulf-capital",

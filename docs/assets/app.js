@@ -35,7 +35,11 @@
         clearAll: "Clear all filters",
         axisRegion: "Region", axisType: "Type", axisSector: "Sector",
         axisModality: "Modality", axisIndication: "Indication", axisStage: "Stage",
-        axisConf: "Confidence",
+        axisConf: "Confidence", axisBacker: "Backed by",
+        backers: "Backed by", backerNone: "No notable institutional backer on record",
+        portfolioHint: "is a portfolio company. These listed investors backed it:",
+        portfolioHintMore: "and more",
+        investorsOnly: "This directory catalogues investors, not the companies they fund — searching a startup name only works if a listed investor names it among its notable investments.",
         conf_high: "High", conf_medium: "Medium", conf_low: "Low",
         founded: "Founded", hq: "HQ", status: "Status", website: "Website",
         stages: "Stages", checkSize: "Check size", thesis: "Thesis",
@@ -61,7 +65,11 @@
         clearAll: "清除所有篩選",
         axisRegion: "地區", axisType: "類型", axisSector: "子領域",
         axisModality: "治療模式", axisIndication: "適應症", axisStage: "階段",
-        axisConf: "信心度",
+        axisConf: "信心度", axisBacker: "背後金主",
+        backers: "背後金主", backerNone: "查無重要機構出資方",
+        portfolioHint: "是被投公司。名錄中投資過它的機構:",
+        portfolioHintMore: "等",
+        investorsOnly: "本站收錄的是投資機構,不是被投公司 —— 用新創公司名搜尋,只有在某家收錄機構把它列為代表投資時才查得到。",
         conf_high: "高", conf_medium: "中", conf_low: "低",
         founded: "成立", hq: "總部", status: "狀態", website: "官網",
         stages: "投資階段", checkSize: "單筆金額", thesis: "投資論點",
@@ -81,9 +89,20 @@
     };
     function tt(k) { return (UI[state.lang] || UI.en)[k]; }
 
+    /* ---- icon per backer kind (Material Symbols) ---- */
+    var BACKER_ICON = {
+      "big-tech": "memory", "ai-lab": "neurology", "pharma": "medication",
+      "medtech": "cardiology", "payer-insurer": "shield", "diagnostics-tools": "biotech",
+      "conglomerate": "domain", "financial-institution": "account_balance",
+      "telecom": "cell_tower", "retail-consumer": "storefront", "university": "school",
+      "hospital-system": "local_hospital", "government": "gavel", "foundation": "volunteer_activism",
+      "family-office": "diversity_3", "other": "corporate_fare"
+    };
+
     /* ---- taxonomy label lookup: LABEL[axis][slug] = {en,zh} ---- */
     var LABEL = {};
-    ["types", "sectors", "modalities", "indications", "stages", "regions"].forEach(function (axis) {
+    ["types", "sectors", "modalities", "indications", "stages", "regions",
+     "backerKinds", "backerRels"].forEach(function (axis) {
       LABEL[axis] = {};
       (TAX[axis] || []).forEach(function (x) { LABEL[axis][x.slug] = { en: x.en, zh: x.zh }; });
     });
@@ -193,12 +212,18 @@
           { key: "sector", tax: "sectors", label: tt("axisSector"), multi: true },
           { key: "modality", tax: "modalities", label: tt("axisModality"), multi: true },
           { key: "indication", tax: "indications", label: tt("axisIndication"), multi: true },
-          { key: "stage", tax: "stages", label: tt("axisStage"), multi: true }
+          { key: "stage", tax: "stages", label: tt("axisStage"), multi: true },
+          { key: "backer", tax: "backerKinds", label: tt("axisBacker"), multi: true, counts: STATS.by_backer_kind }
         ];
         var facets = axes.map(function (a) {
-          var chips = (TAX[a.tax] || []).map(function (x) {
+          var chips = (TAX[a.tax] || []).filter(function (x) {
+            // a facet with counts only offers values something actually has —
+            // an "AI lab" chip that always yields 0 results is just noise
+            return !a.counts || a.counts[x.slug];
+          }).map(function (x) {
+            var n = a.counts ? ' <span class="fchip__n">' + esc(String(a.counts[x.slug])) + "</span>" : "";
             return '<button class="fchip" type="button" data-axis="' + a.key + '" data-val="' + esc(x.slug) + '">' +
-              esc(t(x)) + "</button>";
+              esc(t(x)) + n + "</button>";
           }).join("");
           return '<div class="facet"><h3 class="facet__title">' + esc(a.label) + "</h3>" +
             '<div class="facet__chips">' + chips + "</div></div>";
@@ -226,8 +251,10 @@
                 '<button class="linkbtn linkbtn--ghost" id="csvBtn" type="button"><span class="material-symbols-rounded" aria-hidden="true">download</span>' + esc(tt("exportCsv")) + "</button>" +
                 '<span class="dir__count" id="resultCount"></span>' +
               "</div>" +
+              '<div id="ctxBanner"></div>' +
               '<div class="dir__grid" id="grid"></div>' +
-              '<p class="empty" id="empty" hidden>' + esc(tt("noResults")) + "</p>" +
+              '<div class="empty" id="empty" hidden><p>' + esc(tt("noResults")) + "</p>" +
+                '<p class="empty__note">' + esc(tt("investorsOnly")) + "</p></div>" +
             "</div>" +
           "</div>";
       },
@@ -279,6 +306,7 @@
             ["Sourced per institution", "Every entry carries at least one real source URL, and every quantitative claim — fund size, AUM, check size, founding year, portfolio count — is tied to a verbatim quote from a source. Where a figure could not be verified, the field is left empty rather than guessed. Amounts are kept in their reported currency and string form to avoid fabricated conversions."],
             ["Confidence ratings", "Each institution is rated high (official / primary source), medium (reputable secondary source), or low (a single weak or dated source). The split across the dataset is high 795 · medium 698 · low 50. Confidence is shown on every card and in the detail view so you can weigh each entry yourself."],
             ["How it was assembled", "Research was fanned out across 188 slices (organization type × health subsector, per region) so coverage is complementary and overlap is minimal. Each slice was researched independently against live web sources in English and the local language, then everything was merged and de-duplicated — matching on normalized name, website domain, and slug, with accent-folding — into one validated dataset with a controlled vocabulary for type, sector, modality, indication, stage and region."],
+            ["Who is behind the money", "Beyond what an institution invests in, every entry can record who stands behind it — the corporate parent, anchor LPs, or sponsoring institution — as structured `backing.backers[]` rows carrying the backer's name, kind (Big Tech, frontier AI lab, pharma, medtech, payer, sovereign fund, university, foundation and nine more), and the nature of the relationship (wholly-owned venture arm vs balance-sheet fund vs anchor LP). Each row is marked verified when a source states the relationship outright, or inferred when it was derived from the institution's own name or description — a corporate venture arm is almost always named after its parent, which makes that inference reliable but not equivalent to a citation. Use the \"Backed by\" filter to see, for instance, every fund in the directory running on Big Tech money."],
             ["Two-layer quality check", "Because the corpus was built over many runs, it went through two checks. A structural pass validated every record against the schema and flagged duplicates, missing sources and off-vocabulary values (0 critical issues remained). Then an agent fact-check audited a 120-institution sample — weighted toward lower-confidence rows — against the live web: it found 0 fabricated organizations and no systematic degradation, and the 16 minor factual corrections it surfaced (a founding year, a stale status, a fund figure) were applied and noted in each record."],
             ["Disclaimer", "This is an unofficial research compilation provided as-is. Figures on fund size, equity, acceptance rates and the like should be confirmed against each institution's official disclosures via the sources listed on every entry before you rely on them."]
           ],
@@ -287,6 +315,7 @@
             ["逐機構溯源", "每一筆都至少有一個真實來源 URL;每個數字 —— 基金規模、管理資產、單筆金額、成立年份、投資組合數 —— 都對應到來源中的一段原文引用。查不到的欄位寧可留空也不猜。金額保留原始幣別與字串,避免虛構換匯。"],
             ["信心評級", "每家機構標為 高(官方 / 一手來源)、中(可靠二手)、或 低(單一弱或過時來源)。全資料集分佈為 高 795 · 中 698 · 低 50。信心度顯示在每張卡片與詳情頁,讓你自行判斷。"],
             ["如何蒐集", "研究切成 188 個切片(機構類型 × 健康子領域,依地區),讓覆蓋互補、重疊最小。每個切片以英文與當地語言對照即時網路獨立查證,再以正規化名稱、官網網域與 slug(含重音字折疊)合併去重,匯整成一份通過驗證、對 type / sector / modality / indication / stage / region 使用受控詞彙的資料集。"],
+            ["錢是誰的", "除了「投什麼」,每筆資料還可以記錄「背後是誰的錢」——母公司、基石 LP 或主辦機構,以結構化的 `backing.backers[]` 呈現,每列帶金主名稱、金主類型(大型科技公司、前沿 AI 實驗室、藥廠、醫材、保險支付方、主權基金、大學、基金會等 16 類)與出資關係(全資創投部門 / 母公司資產負債表出資 / 基石 LP)。若來源直接寫明關係則標為 verified;若是由機構名稱或描述推得則標為 inferred——企業創投幾乎都以母公司命名,這讓推論相當可靠,但終究不等同於有引用佐證。用「背後金主」篩選器,就能一次看出名錄中哪些基金跑的是大型科技公司的錢。"],
             ["兩層品質檢查", "因資料跨多輪蒐集,做了兩層檢查。結構層對每筆做 schema 驗證,標記重複、缺來源與越界詞彙(最終 0 個嚴重問題)。事實層以 agent 抽樣 120 家機構(偏重低信心筆)對照即時網路查核:發現 0 家捏造機構、無系統性退化,查出的 16 處細節誤差(成立年份、過時狀態、基金數字)已修正並在各筆註記。"],
             ["免責聲明", "本名錄為非官方研究整理,依現況提供。基金規模、股權、錄取率等數字,引用前請依每筆列出的來源,對照各機構官方公開資訊查證。"]
           ]
@@ -315,12 +344,32 @@
         var countEl = document.getElementById("resultCount");
         var emptyEl = document.getElementById("empty");
         var filtersEl = document.getElementById("filters");
-        var sel = { region: set(), type: set(), sector: set(), modality: set(), indication: set(), stage: set(), conf: set() };
+        var sel = { region: set(), type: set(), sector: set(), modality: set(), indication: set(), stage: set(), conf: set(), backer: set() };
         var q = "";
         var visible = [];
 
         function set() { return Object.create(null); }
         function anySel(o) { for (var k in o) return true; return false; }
+
+        // company -> investors, derived at load from the `notable` lists already
+        // in the payload. Costs nothing extra to ship and answers the question
+        // people actually arrive with ("who backs Neko Health?") even though
+        // this directory only catalogues investors.
+        var PORTFOLIO = (function () {
+          var idx = Object.create(null);
+          ents.forEach(function (e) {
+            (e.notable || []).forEach(function (c) {
+              var k = String(c).trim().toLowerCase();
+              if (!k) return;
+              (idx[k] = idx[k] || []).push(e);
+            });
+          });
+          return idx;
+        })();
+
+        function backerKinds(e) {
+          return (e.backers || []).map(function (b) { return b[1]; });
+        }
 
         function matches(e) {
           if (anySel(sel.region) && !sel.region[e.region]) return false;
@@ -330,10 +379,12 @@
           if (!arrHit(sel.modality, e.modalities)) return false;
           if (!arrHit(sel.indication, e.indications)) return false;
           if (!arrHit(sel.stage, e.stages)) return false;
+          if (!arrHit(sel.backer, backerKinds(e))) return false;
           if (q) {
             var hay = (e.name.en + " " + (e.name.local || "") + " " + (e.thesis || "") + " " +
               (e.summary || "") + " " + (e.country || "") + " " + (e.city || "") + " " +
-              (e.notable || []).join(" ")).toLowerCase();
+              (e.notable || []).join(" ") + " " +
+              (e.backers || []).map(function (b) { return b[0]; }).join(" ")).toLowerCase();
             if (hay.indexOf(q) === -1) return false;
           }
           return true;
@@ -360,18 +411,53 @@
               '<span class="dot dot--' + esc(e.conf) + '" title="' + esc(t(CONF[e.conf] || {})) + '"></span></div>' +
             '<div class="ecard__meta"><span class="badge">' + esc(typeLab(e.type)) + "</span>" +
               (loc ? '<span class="ecard__loc">' + loc + "</span>" : "") + "</div>" +
+            backerLine(e) +
             (tags || mod ? '<div class="ecard__tags">' + tags + mod + "</div>" : "") +
             "</article>";
         }
 
+        function backerLine(e) {
+          var bs = e.backers || [];
+          if (!bs.length) return "";
+          var shown = bs.slice(0, 2).map(function (b) {
+            var rel = lab("backerRels", b[2]);
+            return '<span class="backer backer--' + esc(b[1]) + '">' +
+              '<span class="material-symbols-rounded" aria-hidden="true">' + esc(BACKER_ICON[b[1]] || "corporate_fare") + "</span>" +
+              esc(b[0]) + (rel ? ' <i class="backer__rel">' + esc(rel) + "</i>" : "") + "</span>";
+          }).join("");
+          var more = bs.length > 2 ? '<span class="backer backer--more">+' + (bs.length - 2) + "</span>" : "";
+          return '<div class="ecard__backers">' + shown + more + "</div>";
+        }
+
+        // Substring search over a big free-text blob has a precision problem on
+        // short queries: "anthropic" matches "philanthropic", burying the one
+        // Anthropic-linked fund under nine philanthropy foundations. Rather than
+        // tighten the filter and lose recall, rank the obviously-intended hits
+        // first — a match on a backer or organization name beats a match buried
+        // in a thesis paragraph.
+        function relevance(e) {
+          var hit = function (s) { return (s || "").toLowerCase().indexOf(q) !== -1; };
+          if ((e.backers || []).some(function (b) { return hit(b[0]); })) return 0;
+          if (hit(e.name.en) || hit(e.name.local)) return 1;
+          if ((e.notable || []).some(hit)) return 2;
+          return 3;
+        }
+
         function paint() {
           visible = ents.filter(matches);
+          if (q) {
+            visible = visible
+              .map(function (e, i) { return { e: e, r: relevance(e), i: i }; })
+              .sort(function (a, b) { return a.r - b.r || a.i - b.i; })
+              .map(function (x) { return x.e; });
+          }
           if (visible.length > 900) {
             grid.innerHTML = visible.slice(0, 900).map(card).join("");
           } else {
             grid.innerHTML = visible.map(card).join("");
           }
           emptyEl.hidden = visible.length !== 0;
+          paintContext();
           countEl.textContent = num(visible.length) + " " + (visible.length === 1 ? tt("result") : tt("results")) +
             (visible.length > 900 ? " · showing 900" : "");
           [].forEach.call(grid.querySelectorAll(".ecard[data-slug]"), function (c) {
@@ -382,6 +468,31 @@
             });
           });
           syncChips();
+        }
+
+        // Searching a COMPANY name already returns its investors — the search
+        // index covers `notable`. What it does not do is say *why* those rows
+        // matched. This banner names the relationship, which is the actual
+        // question behind "is Neko Health in here?".
+        function paintContext() {
+          var el = document.getElementById("ctxBanner");
+          if (!el) return;
+          var investors = q && PORTFOLIO[q];
+          if (!investors || !investors.length) { el.innerHTML = ""; return; }
+          var label = q.replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+          var links = investors.slice(0, 10).map(function (e) {
+            return '<button class="ctx__link" type="button" data-goto="' + esc(e.id) + '">' +
+              esc(e.name.en) + ' <span class="ctx__where">' + esc(regionLab(e.region)) + " · " +
+              esc(typeLab(e.type)) + "</span></button>";
+          }).join("");
+          var more = investors.length > 10 ? " " + esc(tt("portfolioHintMore")) : "";
+          el.innerHTML = '<div class="ctx">' +
+            '<span class="material-symbols-rounded" aria-hidden="true">alt_route</span>' +
+            '<div><p class="ctx__lead"><b>' + esc(label) + "</b> " + esc(tt("portfolioHint")) + more + "</p>" +
+            '<div class="ctx__links">' + links + "</div></div></div>";
+          [].forEach.call(el.querySelectorAll("[data-goto]"), function (b) {
+            b.addEventListener("click", function () { openItem(b.dataset.goto); });
+          });
         }
 
         function syncChips() {
@@ -424,9 +535,17 @@
             if (pr.url) parts.push('<a href="' + esc(pr.url) + '" target="_blank" rel="noopener">' + esc(tt("apply")) + "</a>");
             if (parts.length) prog = parts.join("<br>");
           }
+          var backersHtml = (e.backers || []).map(function (b) {
+            return '<span class="backer backer--' + esc(b[1]) + '">' +
+              '<span class="material-symbols-rounded" aria-hidden="true">' + esc(BACKER_ICON[b[1]] || "corporate_fare") + "</span>" +
+              esc(b[0]) + ' <i class="backer__rel">' + esc(lab("backerKinds", b[1])) +
+              (b[2] ? " · " + esc(lab("backerRels", b[2])) : "") + "</i></span>";
+          }).join("");
+
           var meta = row("founded", e.founded ? esc(String(e.founded)) : "") +
             row("status", e.status ? esc(e.status) : "") +
             row("website", web) +
+            row("backers", backersHtml) +
             row("stages", slugList("stages", e.stages)) +
             row("checkSize", e.check ? esc(e.check) : "") +
             row("aum", e.aum ? esc(e.aum) : "") +
@@ -500,12 +619,15 @@
 
         var csvBtn = document.getElementById("csvBtn");
         if (csvBtn) csvBtn.addEventListener("click", function () {
-          var cols = ["id", "name", "type", "region", "country", "city", "sectors", "modalities", "confidence", "website"];
+          var cols = ["id", "name", "type", "region", "country", "city", "sectors", "modalities",
+            "backers", "backer_kinds", "confidence", "website"];
           var lines = [cols.join(",")];
           visible.forEach(function (e) {
             var rowv = [e.id, e.name.en, typeLab(e.type), regionLab(e.region), e.country || "", e.city || "",
               (e.sectors || []).map(function (s) { return lab("sectors", s); }).join("; "),
               (e.modalities || []).map(function (m) { return lab("modalities", m); }).join("; "),
+              (e.backers || []).map(function (b) { return b[0]; }).join("; "),
+              (e.backers || []).map(function (b) { return b[1]; }).join("; "),
               e.conf, e.website || ""];
             lines.push(rowv.map(csvCell).join(","));
           });

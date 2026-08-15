@@ -83,7 +83,18 @@
     "confidence": "high",
     "verification_notes": "Investment/funding amount for the accelerator was not confirmed via a verbatim quote and was therefore omitted rather than estimated.",
     "last_updated": "undefined",
-    "researched_by": "accelerator-bio"
+    "researched_by": "accelerator-bio",
+    "backing": {
+      "backers": [
+        {
+          "name": "Roche",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Roche); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-jlabs-shanghai",
@@ -206,7 +217,18 @@
     "verification_notes": "JLABS is branded by J&J as an 'incubator' with flexible, non-cohort residency, but is included here because it also runs structured, cohort/challenge-based QuickFire Challenge accelerator competitions with grants, mentorship and demo elements specific to China/Asia disease areas. [merged from duplicate research rows]",
     "last_updated": "undefined",
     "researched_by": "accelerator-bio",
-    "tags": []
+    "tags": [],
+    "backing": {
+      "backers": [
+        {
+          "name": "Johnson & Johnson",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Johnson & Johnson); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-bayer-g4a-china",
@@ -277,7 +299,18 @@
     "confidence": "medium",
     "verification_notes": "G4A is Bayer's global brand headquartered in Berlin; included here as it runs a dedicated, separately reported China cohort/office program rather than being purely a foreign program with no China presence.",
     "last_updated": "undefined",
-    "researched_by": "accelerator-bio"
+    "researched_by": "accelerator-bio",
+    "backing": {
+      "backers": [
+        {
+          "name": "Bayer",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Bayer); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-merck-china-accelerator",
@@ -522,6 +555,17 @@
       "notable_investments": [],
       "exits": [],
       "co_investors": []
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "AstraZeneca",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (AstraZeneca); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {
@@ -3241,7 +3285,18 @@
     "confidence": "high",
     "verification_notes": "Parent Ping An Insurance (Group) is headquartered in Shenzhen, mainland China; the Voyager fund vehicle itself is managed out of Hong Kong via a dedicated wholly-owned HK subsidiary, so it is included under this region on that basis.",
     "last_updated": "undefined",
-    "researched_by": "digital-health-vc"
+    "researched_by": "digital-health-vc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Ping An",
+          "kind": "payer-insurer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Ping An); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-ccv-genesis-partners",
@@ -3928,6 +3983,206 @@
     "verification_notes": "Predominantly a diversified lifestyle/consumer/tech investment vehicle for the Cheng family; healthcare/biomedical exposure is real but secondary (Prenetics genomic diagnostics IPO, one medical-equipment leasing stake) rather than a dedicated life-science thesis. The firm has also taken on some external capital via a SIX Swiss Exchange-listed vehicle, blurring the line between family office and institutional investor — included here as a family-founded/controlled office with a verifiable biomedical nexus.",
     "last_updated": "undefined",
     "researched_by": "family-office-lifesci"
+  },
+  {
+    "id": "cn-sanofi-cathay-healthcare-innovation-fund",
+    "name": {
+      "en": "Sanofi-Cathay Capital Healthcare Innovation Fund",
+      "local": "赛诺菲-华平医疗健康创新基金"
+    },
+    "aka": [],
+    "type": "cvc",
+    "subtypes": [
+      "vc"
+    ],
+    "status": "active",
+    "founded_year": 2025,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "links": {},
+    "capital": {
+      "current_fund": {
+        "raw": "RMB 2 billion",
+        "usd": 274460000,
+        "currency": "RMB"
+      }
+    },
+    "strategy": {
+      "stages": [],
+      "lead_or_follow": "follow",
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "thesis": "Joint fund between French pharma Sanofi and Franco-Chinese investor Cathay Capital, investing in clinical-stage innovative-medicine pipelines and related industry opportunities in China, launched to support Shanghai's biomedical sector development to international standards."
+    },
+    "lifesci": {
+      "invests_public_markets": false
+    },
+    "people": [
+      {
+        "name": "Cai Mingpo",
+        "role": "Founder & President, Cathay Capital"
+      }
+    ],
+    "tags": [
+      "sino-french",
+      "pharma-pe-jv",
+      "shanghai",
+      "jing-an"
+    ],
+    "summary": {
+      "en": "A RMB 2 billion (~$274M) joint fund launched April 2025 by Sanofi and Cathay Capital in Shanghai's Jing'an district, investing in China's clinical-stage innovative-medicine pipeline as part of Shanghai's push to advance pharmaceutical innovation to international standards."
+    },
+    "sources": [
+      {
+        "url": "https://english.shanghai.gov.cn/en-BusinessEnvironmentJing'an/20250424/74f1b2b191dc4c89876c184fbd0d4920.html",
+        "title": "$274m fund launched in Jing'an to boost pharma innovation",
+        "publisher": "Shanghai Municipal Government (english.shanghai.gov.cn)",
+        "accessed": "2026-08-16",
+        "supports": "fund name, size, backers, launch date, focus, quote",
+        "quote": "The inauguration of the fund is a significant step towards advancing China's pharmaceutical innovation to leading international standards. - Cai Mingpo, founder and president of Cathay Capital"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Single-source verified (official Shanghai government portal); could not cross-confirm with a second independent outlet in this pass. Fund's formal English/Chinese branded name not independently confirmed beyond the government article's description — 'Sanofi-Cathay Capital Healthcare Innovation Fund' is this researcher's rendering of 'the pharma innovation fund launched in Jing'an by Sanofi and Cathay Capital'; team should verify exact official name before publishing. [fact-check: Shanghai municipal government source confirms RMB 2bn / $274.46M size, April 24 2025 launch, Jing'an location, Sanofi + Cathay Capital as backers, and the Cai Mingpo quote verbatim. Fully verified from the single cited (official government) source.]",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-newfunds",
+    "backing": {
+      "backers": [
+        {
+          "name": "Sanofi",
+          "kind": "pharma",
+          "relationship": "anchor-lp",
+          "note": "French pharma co-anchors the RMB 2B ($274M) fund alongside Cathay Capital."
+        },
+        {
+          "name": "Cathay Capital",
+          "kind": "financial-institution",
+          "relationship": "anchor-lp",
+          "note": "Franco-Chinese private-equity/venture firm co-managing the fund."
+        }
+      ]
+    }
+  },
+  {
+    "id": "cn-bayer-colab-shanghai",
+    "name": {
+      "en": "Bayer Co.Lab Shanghai",
+      "local": "拜耳中国Co.Lab"
+    },
+    "aka": [
+      "Bayer Co.Lab AdVenture"
+    ],
+    "type": "incubator",
+    "subtypes": [
+      "accelerator"
+    ],
+    "status": "active",
+    "founded_year": 2024,
+    "region": "greater-china",
+    "country": "China",
+    "hq_city": "Shanghai",
+    "website": "https://www.bayer.com.cn",
+    "links": {},
+    "program": {
+      "format": "in-person",
+      "location": "Shanghai",
+      "lab_space": true
+    },
+    "strategy": {
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "thesis": "Node of Bayer's global Co.Lab life-sciences incubator network hosting China-based biotech startups; in September 2025 launched the 'AdVenture' platform to connect resident startups with a curated network of external Chinese VC firms for financing and strategic advice."
+    },
+    "lifesci": {
+      "science_platform_notes": "Resident startups get Bayer Co.Lab facility access plus, via AdVenture, introductions to partner VCs SIIC, Legend Capital, IDG Capital and Bayland Capital for investment opportunities."
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "OTR Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Nutshell Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "bayer-colab-network",
+      "vc-connector-platform",
+      "shanghai"
+    ],
+    "summary": {
+      "en": "Shanghai node of Bayer's global Co.Lab incubator network (marked its first anniversary in September 2025, implying a ~2024 opening); in September 2025 Bayer layered on the new 'Co.Lab AdVenture' platform connecting resident biotech startups to a curated network of external VC partners (SIIC, Legend Capital, IDG Capital, Bayland Capital) for financing."
+    },
+    "sources": [
+      {
+        "url": "https://www.bayer.com/media/en-us/bayer-launches-bayer-colab-adventure-platform-in-china-to-accelerate-access-to-global-investment-network-enhancing-biotech-innovation/",
+        "title": "Bayer launches Bayer Co.Lab AdVenture platform in China to accelerate access to global investment network enhancing biotech innovation",
+        "publisher": "Bayer",
+        "accessed": "2026-08-16",
+        "supports": "AdVenture platform launch date, VC partners, purpose",
+        "quote": "Bayer Co.Lab AdVenture bridges tenants of high-potential biotech startups with leading venture capital firms, accelerating access to global financing and investment networks."
+      },
+      {
+        "url": "https://www.bayer.com.cn/en/bayer-colab-marks-one-year-anniversary-in-china",
+        "title": "Bayer Co.Lab marks one-year anniversary in China",
+        "publisher": "Bayer China",
+        "accessed": "2026-08-16",
+        "supports": "implies Co.Lab Shanghai opening around September 2024"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Bayer Co.Lab Shanghai's exact opening date is inferred from the 'one-year anniversary' framing of the September 2025 AdVenture article (implying ~Sept 2024 launch), not independently confirmed with a launch announcement. Distinct from the directory's existing separate Bayer entries (Bayer G4A / Grants4Apps China is a different accelerator program; Bayer CoLaborator Berlin and CoLaborator Kobe are different Co.Lab sites). Not itself a fund — functions as an incubator plus VC-introduction platform. [1 source(s) blocked automated re-fetch (403/paywall/timeout) — kept, but unverified in the fact-check pass; confidence lowered] [fact-check: bayer.com.cn's one-year-anniversary release corroborates all core facts: Co.Lab Shanghai opened ~September 2024 (confirmed via the 'first anniversary' framing dated Sept 8 2025), AdVenture platform launched to coincide with that anniversary, and the four partner VCs (SIIC, Legend Capital, IDG Capita]",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-newfunds",
+    "backing": {
+      "backers": [
+        {
+          "name": "Bayer",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Part of Bayer's global Co.Lab incubator network."
+        },
+        {
+          "name": "Shanghai Industrial Investment Capital (SIIC)",
+          "kind": "financial-institution",
+          "relationship": "affiliated-program",
+          "note": "Inaugural external VC partner under the Co.Lab AdVenture platform."
+        },
+        {
+          "name": "Legend Capital",
+          "kind": "financial-institution",
+          "relationship": "affiliated-program",
+          "note": "Inaugural external VC partner."
+        },
+        {
+          "name": "IDG Capital",
+          "kind": "financial-institution",
+          "relationship": "affiliated-program",
+          "note": "Inaugural external VC partner."
+        },
+        {
+          "name": "Bayland Capital",
+          "kind": "financial-institution",
+          "relationship": "affiliated-program",
+          "note": "Inaugural external VC partner."
+        }
+      ]
+    }
   },
   {
     "id": "cn-shanghai-biopharmaceutical-fund",
@@ -5266,7 +5521,18 @@
     "confidence": "medium",
     "verification_notes": "Fund capital figure ('分期投入10亿元人民币') is an older/base commitment figure from secondary reporting; current AUM for the healthcare-specific sleeve was not separately disclosed in sources found.",
     "last_updated": "undefined",
-    "researched_by": "healthcare-services-vc"
+    "researched_by": "healthcare-services-vc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Ping An",
+          "kind": "payer-insurer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Ping An); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-cpic-capital-rehabilitation-fund",
@@ -6295,7 +6561,25 @@
     "confidence": "medium",
     "verification_notes": "No source explicitly used the term 'wet lab'; lab-space provision is inferred from repeated references to dedicated 'research buildings' (研发楼) and an integrated R&D+production+office model at the campus, which was treated as sufficient evidence of physical lab space rather than pure office/accelerator space.",
     "last_updated": "undefined",
-    "researched_by": "incubator-labspace"
+    "researched_by": "incubator-labspace",
+    "backing": {
+      "backers": [
+        {
+          "name": "AstraZeneca",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (AstraZeneca); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        },
+        {
+          "name": "WuXi",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (WuXi); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-guangzhou-international-bio-island-incubator",
@@ -6560,7 +6844,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "incubator-labspace"
+    "researched_by": "incubator-labspace",
+    "backing": {
+      "backers": [
+        {
+          "name": "Boehringer Ingelheim",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Boehringer Ingelheim); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-cd-capital",
@@ -7280,7 +7575,18 @@
     ],
     "subtypes": [],
     "tags": [],
-    "founded_year": 2011
+    "founded_year": 2011,
+    "backing": {
+      "backers": [
+        {
+          "name": "WuXi",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (WuXi); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-huada-gongying",
@@ -7382,7 +7688,18 @@
     "confidence": "high",
     "verification_notes": "Corroborated across three independent reputable secondary sources (动脉网, 21世纪经济报道) with consistent founding year and fund-size figures. No official company website was independently fetched.",
     "last_updated": "undefined",
-    "researched_by": "medtech-tools-cvc"
+    "researched_by": "medtech-tools-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "BGI",
+          "kind": "diagnostics-tools",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (BGI); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-tigermed-capital",
@@ -8064,7 +8381,18 @@
     "confidence": "high",
     "verification_notes": "Well-documented tech-giant CVC. Notable-investment outcomes (IPO status) drawn from secondary press, not individually re-verified per company.",
     "last_updated": "undefined",
-    "researched_by": "payer-provider-tech-cvc"
+    "researched_by": "payer-provider-tech-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Tencent",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Tencent); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-ping-an-capital",
@@ -8129,7 +8457,18 @@
     "confidence": "medium",
     "verification_notes": "Ping An operates multiple related investment vehicles (平安创投/平安资本/平安创新投资基金); this entry consolidates them as Ping An's healthcare-relevant CVC platform since public reporting does not cleanly separate their healthcare figures.",
     "last_updated": "undefined",
-    "researched_by": "payer-provider-tech-cvc"
+    "researched_by": "payer-provider-tech-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Ping An",
+          "kind": "payer-insurer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Ping An); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-taikang-investments",
@@ -8357,7 +8696,18 @@
     "confidence": "medium",
     "verification_notes": "Yunfeng is a multi-LP independent fund (not a formal Alibaba corporate department), but is consistently reported as Alibaba-ecosystem-affiliated and frequently co-invests with Alibaba Health; included here under the tech-giant-linked bucket rather than as a pure independent VC.",
     "last_updated": "undefined",
-    "researched_by": "payer-provider-tech-cvc"
+    "researched_by": "payer-provider-tech-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Alibaba / Ant Group",
+          "kind": "big-tech",
+          "relationship": "major-lp",
+          "note": "From the entity description: “founded by Alibaba's Jack Ma and David Yu”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-alibaba-health",
@@ -8419,7 +8769,18 @@
     ],
     "confidence": "medium",
     "last_updated": "undefined",
-    "researched_by": "payer-provider-tech-cvc"
+    "researched_by": "payer-provider-tech-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Alibaba / Ant Group",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Alibaba / Ant Group); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-baidu-ventures",
@@ -8460,7 +8821,18 @@
     ],
     "confidence": "medium",
     "last_updated": "undefined",
-    "researched_by": "payer-provider-tech-cvc"
+    "researched_by": "payer-provider-tech-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Baidu",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Baidu); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-meituan-longzhu-capital",
@@ -8526,7 +8898,18 @@
     ],
     "confidence": "medium",
     "last_updated": "undefined",
-    "researched_by": "payer-provider-tech-cvc"
+    "researched_by": "payer-provider-tech-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Tencent",
+          "kind": "big-tech",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Meituan, Tencent and New Hope Group, targeting RMB3bn”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-bytedance-health-investment",
@@ -8599,7 +8982,18 @@
     "confidence": "medium",
     "verification_notes": "ByteDance's healthcare unit skews toward control acquisitions/roll-ups rather than classic minority-stake CVC investing; included per the brief's scope for tech giants' health investment departments, with this distinction flagged.",
     "last_updated": "undefined",
-    "researched_by": "payer-provider-tech-cvc"
+    "researched_by": "payer-provider-tech-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "ByteDance",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (ByteDance); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-cr-pharma-investment-fund",
@@ -8859,7 +9253,18 @@
     "confidence": "medium",
     "verification_notes": "Fosun Pharma's venture-capital subsidiary reportedly established 2014 per secondary sources (jiemian.com CVC roundup); the fosunhealthcapital.com domain returned a certificate error at research time so it was not directly fetched for verification, relying instead on the official fosunpharma.com news article for fund figures.",
     "last_updated": "undefined",
-    "researched_by": "pharma-cvc"
+    "researched_by": "pharma-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Fosun Pharma",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Fosun Pharma); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-hengrui-shengdi-biomedical-fund",
@@ -8928,7 +9333,18 @@
     ],
     "confidence": "medium",
     "last_updated": "undefined",
-    "researched_by": "pharma-cvc"
+    "researched_by": "pharma-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Hengrui",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Hengrui); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-crpharma-industrial-investment-fund",
@@ -9270,6 +9686,17 @@
         "usd": 4000000000,
         "currency": "USD"
       }
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Eli Lilly",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Eli Lilly); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {
@@ -9829,7 +10256,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "regional-cluster-funds"
+    "researched_by": "regional-cluster-funds",
+    "backing": {
+      "backers": [
+        {
+          "name": "WuXi",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (WuXi); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-guangzhou-development-zone-bioisland-fund",
@@ -11031,7 +11469,25 @@
     "confidence": "medium",
     "verification_notes": "HQ city not independently confirmed; classified as angel-syndicate/vc hybrid given its explicit angel-stage, incubation-style mandate.",
     "last_updated": "undefined",
-    "researched_by": "seed-early-lifesci-vc"
+    "researched_by": "seed-early-lifesci-vc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Hengrui",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by LPs including WuXi AppTec, Hengrui Medicine and Tigermed, is”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "WuXi",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by LPs including WuXi AppTec, Hengrui Medicine and Tigermed, is”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-tf-capital",
@@ -11342,7 +11798,32 @@
     ],
     "confidence": "medium",
     "last_updated": "undefined",
-    "researched_by": "therapeutics-vc"
+    "researched_by": "therapeutics-vc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Hengrui",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by LPs including WuXi AppTec, Hengrui, Simcere, Tigermed and BGI”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "WuXi",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by LPs including WuXi AppTec, Hengrui, Simcere, Tigermed and BGI”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "BGI",
+          "kind": "diagnostics-tools",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by LPs including WuXi AppTec, Hengrui, Simcere, Tigermed and BGI”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-qiming-venture-partners",
@@ -13408,7 +13889,18 @@
     "confidence": "medium",
     "verification_notes": "Primarily an AI/biocomputing platform company (not a legally distinct 'fund'), included here because its explicit stated mode of operating is to originate and incubate new life-science ventures (BioMap InnoHub/BioX) off its own foundation-model platform, analogous to a tech-driven venture studio. Reported total venture funding raised by BioMap itself (~$200M+ per Chinese-language coverage) is distinct from AUM deployed into portfolio companies and was not independently verified against a primary filing within the research budget.",
     "last_updated": "undefined",
-    "researched_by": "venture-studio-company-creation"
+    "researched_by": "venture-studio-company-creation",
+    "backing": {
+      "backers": [
+        {
+          "name": "Baidu",
+          "kind": "big-tech",
+          "relationship": "major-lp",
+          "note": "From the entity description: “founded by Baidu's Robin Li”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "cn-westlake-university-biotech-incubation",

@@ -29,6 +29,9 @@ from collections import defaultdict
 from pathlib import Path
 from urllib.parse import urlparse
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from backfill_backing import canonical_of  # noqa: E402  (shared backer-name registry)
+
 from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -162,13 +165,78 @@ _VOCAB = {
     "modalities": {m["slug"] for m in _TAX["modalities"]},
     "indications": {i["slug"] for i in _TAX["indications"]},
 }
-_ALIAS = {
-    "sector_focus": {"womens-health": "femtech-womens-health", "aging-longevity": "longevity-aging"},
+# Off-vocabulary values are DROPPED, so anything a researcher plausibly writes
+# instead of the canonical slug has to be mapped here or the field silently
+# empties out. Values may be a single slug or a list (one input term can carry
+# two canonical meanings, e.g. "cardiometabolic").
+_ALIAS: dict[str, dict[str, str | list[str]]] = {
+    "sector_focus": {
+        "womens-health": "femtech-womens-health",
+        "aging-longevity": "longevity-aging",
+        "health-it": "healthcare-it",
+        "healthit": "healthcare-it",
+        "medtech": "medtech-devices",
+        "medical-devices": "medtech-devices",
+        "biotech": "therapeutics",
+        "biopharma": "therapeutics",
+        "biologics": "therapeutics",
+        "drug-discovery": "therapeutics",
+        "biotech-tools": "life-science-tools",
+        "research-tools": "life-science-tools",
+        "genetic-medicine": "cell-gene-therapy",
+        "gene-therapy": "cell-gene-therapy",
+        "synbio": "synthetic-biology",
+        "genomics": "genomics-omics",
+        "rare-disease": [],           # an indication, not a sector — see below
+        "oncology": [],
+    },
+    "stages": {
+        "early-stage": ["seed", "series-a"],
+        "early": ["seed", "series-a"],
+        "late-stage": "growth",
+        "late": "growth",
+        "series-c": "series-c-plus",
+        "series-d": "series-c-plus",
+        "clinical-stage": [],         # a company property, not a funding stage
+    },
+    "modalities": {
+        "medical-devices": "medical-hardware",
+        "devices": "medical-hardware",
+        "regenerative-medicine": "cell-therapy",
+        "ai-drug-discovery": "ai-ml-platform",
+        "ai": "ai-ml-platform",
+        "digital-health": "software-samd",
+        "software": "software-samd",
+        "rna": "rna-therapeutics",
+        "antibodies": "biologics-antibody",
+        "synthetic-biology": [],      # a sector in this taxonomy, not a modality
+    },
+    "indications": {
+        "immunology": "immunology-inflammation",
+        "inflammatory-disease": "immunology-inflammation",
+        "inflammation": "immunology-inflammation",
+        "cardiometabolic": ["cardiovascular", "metabolic-obesity"],
+        "metabolic": "metabolic-obesity",
+        "obesity": "metabolic-obesity",
+        "genetic-disorders": "rare-disease",
+        "rare-diseases": "rare-disease",
+        "mental-health": "psychiatry-mental-health",
+        "cns": "neurology",
+        "oncology-cancer": "oncology",
+    },
 }
+# sector terms that are really indications: move them across instead of dropping
+_SECTOR_TO_INDICATION = {"rare-disease": "rare-disease", "oncology": "oncology"}
 
 
 def normalize_vocab(entity: dict) -> dict:
-    """Map known slug aliases and drop off-vocabulary values from controlled fields."""
+    """Map known slug aliases and drop off-vocabulary values from controlled fields.
+
+    An alias may expand to several canonical slugs, or to none — mapping a term
+    to [] is how a value that belongs to a different axis gets removed here and
+    (for sector->indication) re-homed below.
+    """
+    moved_indications: list[str] = []
     for field, container_key in (("sector_focus", "strategy"), ("stages", "strategy"),
                                  ("modalities", "lifesci"), ("indications", "lifesci")):
         container = entity.get(container_key)
@@ -176,12 +244,52 @@ def normalize_vocab(entity: dict) -> dict:
             continue
         aliases = _ALIAS.get(field, {})
         cleaned, seen = [], set()
-        for v in container[field] or []:
-            v = aliases.get(v, v)
-            if v in _VOCAB[field] and v not in seen:
-                cleaned.append(v)
-                seen.add(v)
+        for raw in container[field] or []:
+            if field == "sector_focus" and raw in _SECTOR_TO_INDICATION:
+                moved_indications.append(_SECTOR_TO_INDICATION[raw])
+            mapped = aliases.get(raw, raw)
+            for v in (mapped if isinstance(mapped, list) else [mapped]):
+                if v in _VOCAB[field] and v not in seen:
+                    cleaned.append(v)
+                    seen.add(v)
         container[field] = cleaned
+
+    if moved_indications:
+        ls = entity.setdefault("lifesci", {})
+        inds = ls.setdefault("indications", [])
+        for i in moved_indications:
+            if i in _VOCAB["indications"] and i not in inds:
+                inds.append(i)
+    return entity
+
+
+# Enrichment overlay: id -> {"backers": [...]}. Produced by backfill_backing.py
+# (inference) and by gap-audit agents (verified rows). Kept out of _raw/ so the
+# research segments stay exactly as their agent wrote them.
+def load_backing() -> dict[str, dict]:
+    path = DATA / "backing.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text("utf-8"))
+
+
+def apply_backing(entity: dict, overlay: dict[str, dict]) -> dict:
+    entry = overlay.get(entity.get("id", ""))
+    if not entry or not entry.get("backers"):
+        return entity
+    prior = (entity.get("backing", {}) or {}).get("backers", [])
+    # Compare through the registry's canonical identity, not the raw string:
+    # a researcher's "Microsoft Corporation" and the inference layer's
+    # "Microsoft" are the same parent and must not both be listed.
+    existing = {b["name"] for b in prior}
+    existing |= {c for c in (canonical_of(b["name"]) for b in prior) if c}
+    backing = entity.setdefault("backing", {})
+    backers = backing.setdefault("backers", [])
+    # entity-level rows (written by a researcher into _raw/) take precedence
+    for b in entry["backers"]:
+        if b["name"] in existing or canonical_of(b["name"]) in existing:
+            continue
+        backers.append(b)
     return entity
 
 
@@ -209,14 +317,16 @@ def main() -> None:
         "by_modality": defaultdict(int),
         "by_indication": defaultdict(int),
         "by_confidence": defaultdict(int),
+        "by_backer_kind": defaultdict(int),
     }
+    backing_overlay = load_backing()
 
     for region_dir in region_dirs:
         region = region_dir.name
         items = load_raw(region_dir)
         if not items:
             continue
-        merged = [normalize_vocab(strip_nulls(e)) for e in dedup(items)]
+        merged = [apply_backing(normalize_vocab(strip_nulls(e)), backing_overlay) for e in dedup(items)]
 
         for entity in merged:
             label = entity.get("id") or entity.get("name", {}).get("en", "?")
@@ -239,13 +349,15 @@ def main() -> None:
                 stats["by_modality"][modality] += 1
             for indication in lifesci.get("indications", []) or []:
                 stats["by_indication"][indication] += 1
+            for backer in (entity.get("backing", {}) or {}).get("backers", []) or []:
+                stats["by_backer_kind"][backer.get("kind", "other")] += 1
         all_entities.extend(merged)
         print(f"  ok {region:>16}: {len(items):>4} raw -> {len(merged):>4} merged")
 
     (DATA / "all-entities.json").write_text(
         json.dumps(all_entities, ensure_ascii=False, indent=2), "utf-8"
     )
-    for key in ("by_type", "by_sector", "by_modality", "by_indication", "by_confidence"):
+    for key in ("by_type", "by_sector", "by_modality", "by_indication", "by_confidence", "by_backer_kind"):
         stats[key] = dict(sorted(stats[key].items(), key=lambda kv: -kv[1]))
     (DATA / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2), "utf-8")
 

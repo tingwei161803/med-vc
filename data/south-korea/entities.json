@@ -1320,7 +1320,18 @@
     "confidence": "high",
     "verification_notes": "Overall firm-wide AUM of Samsung Venture Investment (across all non-health sectors) was not verified; only the Life Sciences Fund series (biotech-focused) figures are confirmed via the Lcnews article.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Samsung",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Samsung); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-lotte-healthcare-biopharma-cvc",
@@ -1388,7 +1399,18 @@
     "confidence": "high",
     "verification_notes": "No official Korean-language name or fund size was found for this CVC vehicle in the sources reviewed; entity name used is the descriptive English name used in press coverage.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Lotte",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Lotte); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-kakao-ventures",
@@ -1507,6 +1529,17 @@
     "summary": {
       "en": "Seoul-based early-stage VC (deep tech, IT services, digital healthcare, gaming) that runs a distinct digital-healthcare investment practice, hosting an annual portfolio showcase and applying a clinical-value-first thesis to healthcare deals.",
       "local": "딥테크, IT서비스, 디지털헬스케어, 게임 분야에 투자하는 서울 소재 초기 전문 벤처캐피탈로, 매년 '디지털헬스케어 데이' 행사를 열고 임상적 가치 입증을 우선하는 투자 기준을 헬스케어 딜에 적용하고 있다."
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Kakao",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Kakao); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {
@@ -1555,7 +1588,18 @@
     "confidence": "high",
     "verification_notes": "D2SF's own founding year (as a general-purpose investment arm) was not independently confirmed; 2017 refers to when it began healthcare-focused investing per the cited article.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Naver",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Naver); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-kb-investment",
@@ -1961,7 +2005,18 @@
     "confidence": "medium",
     "verification_notes": "LG Technology Ventures is operationally headquartered in Santa Clara, California as LG Corp's global CVC vehicle; included here because its parent, LG Corp, is headquartered in Seoul, South Korea. Bio is one of four stated focus areas, not the primary focus.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "LG",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (LG); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-hanwha-life-dreamplus",
@@ -2349,6 +2404,67 @@
     "verification_notes": "The Invention Lab is primarily a generalist early-stage accelerator/TIPS operator (also active in fintech, deep tech and content) rather than a firm dedicated to digital health; inclusion rests on its named 'Boryung D:HealthCovery' digital-health fund vehicle (operated jointly with pharma company Boryung, an open-innovation partnership rather than Boryung's in-house CVC) and recurring, explicitly bio/healthcare-labeled investment tranches. Founding year and total AUM could not be verified from sources fetched this session (official site returned HTTP 403).",
     "last_updated": "undefined",
     "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "kr-daewon-pharmaceutical-cvc",
+    "name": {
+      "en": "Daewon Pharmaceutical CVC (planned)",
+      "local": "대원제약"
+    },
+    "aka": [
+      "Daewon Pharmaceutical Corporate Venture Capital"
+    ],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "unknown",
+    "region": "south-korea",
+    "country": "South Korea",
+    "hq_city": "Seoul",
+    "links": {},
+    "capital": {},
+    "strategy": {
+      "geo_focus": [
+        "South Korea"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices"
+      ],
+      "thesis": "Korean generics/pharma maker Daewon Pharmaceutical is reportedly planning to launch a CVC arm to invest in digital-healthcare startups, aiming to convert investment relationships into commercial partnerships (e.g., distributing digital medical devices through Daewon's existing drug sales network), potentially co-funded with a government fund-of-funds."
+    },
+    "lifesci": {},
+    "tags": [
+      "planning-stage",
+      "digital-health",
+      "korean-generics"
+    ],
+    "summary": {
+      "en": "As of August 2026, Daewon Pharmaceutical was reported to be discussing plans to establish a corporate VC arm within the year to invest in digital-healthcare companies, part of a broader wave of Korean pharma firms moving into venture investing — NOT YET CONFIRMED LAUNCHED."
+    },
+    "sources": [
+      {
+        "url": "https://en.sedaily.com/finance/2026/08/04/daewon-pharmaceutical-to-launch-cvc-this-year-expand",
+        "title": "Daewon Pharmaceutical to Launch CVC This Year, Expand Digital Healthcare",
+        "publisher": "Seoul Economic Daily",
+        "accessed": "2026-08-16",
+        "supports": "plans to launch CVC, digital-health focus, fund-of-funds co-investment idea",
+        "quote": "Daewon Pharmaceutical is discussing plans to establish a CVC within the year to invest in digital healthcare companies."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "PRE-LAUNCH / UNCONFIRMED: as of the August 4, 2026 source, this is reported as a plan/discussion, not a launched, named, or funded entity — no confirmed fund size, structure, or leadership. Included per brief's 'recently announced' criterion but the team should treat this as a watch-item rather than a confirmed directory entry until Daewon formally announces the vehicle. [fact-check: Seoul Economic Daily source confirms this is genuinely still at the discussion/planning stage as of Aug 4 2026 ('Daewon Pharmaceutical is discussing plans to establish a CVC within the year'), not a launched entity. The entry already correctly reflects this with status='unknown' and confidence='low']",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-newfunds",
+    "backing": {
+      "backers": [
+        {
+          "name": "Daewon Pharmaceutical",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Korean generics/pharma maker exploring a CVC arm, potentially with government fund-of-funds co-investment; not yet formally launched as of Aug 2026."
+        }
+      ]
+    }
   },
   {
     "id": "kr-korea-investment-partners",
@@ -3407,7 +3523,18 @@
     "confidence": "medium",
     "verification_notes": "General fund-of-funds operator, not bio-exclusive; healthcare is one of three named core sectors for its current K-Growth Fund line. Facts based on Wikipedia + trade press, not a direct fetch of kgrowth.or.kr.",
     "last_updated": "undefined",
-    "researched_by": "government-program"
+    "researched_by": "government-program",
+    "backing": {
+      "backers": [
+        {
+          "name": "KDB (Korea Development Bank)",
+          "kind": "government",
+          "relationship": "major-lp",
+          "note": "From the entity description: “jointly established by KDB, IBK and the Korea Youth Entrepreneurship Foundation”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-khidi",
@@ -3683,7 +3810,18 @@
     "confidence": "medium",
     "verification_notes": "A very new, broad national growth fund (AI/bio/energy/semiconductors) — bio-health is one of several core tracks, not the sole focus; included because it explicitly and verifiably finances late-stage biopharma commercialization. Website listed is KDB's general site; no dedicated fund microsite was found.",
     "last_updated": "undefined",
-    "researched_by": "government-program"
+    "researched_by": "government-program",
+    "backing": {
+      "backers": [
+        {
+          "name": "KDB (Korea Development Bank)",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (KDB (Korea Development Bank)); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-quad-investment-management",
@@ -4957,7 +5095,18 @@
     "confidence": "high",
     "verification_notes": "Distinct from Samsung Venture Investment's general/tech-focused funds; scoped here to the biotech-dedicated Life Science Fund vehicle co-funded by Samsung's pharma/bio units (Biologics, Bioepis).",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Samsung",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Samsung); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-yuhan-open-innovation",
@@ -5039,7 +5188,18 @@
     "confidence": "high",
     "verification_notes": "No separate GP/fund-management subsidiary identified; Yuhan invests directly off its own balance sheet, which is why it is modeled here as a direct corporate-investor entity rather than a captive fund vehicle.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Yuhan",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Yuhan); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-gc-green-cross-investment",
@@ -5300,7 +5460,18 @@
     "confidence": "high",
     "verification_notes": "Celltrion invests both as LP in co-branded funds with financial partners and via direct equity checks; no single discrete CVC subsidiary name identified so entry represents its aggregate corporate venture-investment activity.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Celltrion",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Celltrion); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "kr-donghwa-pharm-open-innovation",

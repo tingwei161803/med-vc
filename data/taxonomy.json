@@ -104,6 +104,34 @@
     { "slug": "australia-nz", "label_en": "Australia & New Zealand", "label_zh": "澳洲紐西蘭", "prefix": "anz" },
     { "slug": "rest-of-world", "label_en": "Rest of World", "label_zh": "其他地區", "prefix": "row" }
   ],
+  "backer_kinds": [
+    { "slug": "big-tech", "label_en": "Big Tech", "label_zh": "大型科技公司" },
+    { "slug": "ai-lab", "label_en": "Frontier AI lab", "label_zh": "前沿 AI 實驗室" },
+    { "slug": "pharma", "label_en": "Pharma", "label_zh": "藥廠" },
+    { "slug": "medtech", "label_en": "Medtech / device maker", "label_zh": "醫材大廠" },
+    { "slug": "payer-insurer", "label_en": "Payer / insurer", "label_zh": "保險/支付方" },
+    { "slug": "diagnostics-tools", "label_en": "Diagnostics / life-science tools", "label_zh": "診斷/研究工具廠" },
+    { "slug": "conglomerate", "label_en": "Conglomerate", "label_zh": "綜合企業集團" },
+    { "slug": "financial-institution", "label_en": "Bank / asset manager", "label_zh": "金融機構" },
+    { "slug": "telecom", "label_en": "Telecom", "label_zh": "電信商" },
+    { "slug": "retail-consumer", "label_en": "Retail / consumer", "label_zh": "零售消費品牌" },
+    { "slug": "university", "label_en": "University", "label_zh": "大學" },
+    { "slug": "hospital-system", "label_en": "Hospital system", "label_zh": "醫院體系" },
+    { "slug": "government", "label_en": "Government / sovereign", "label_zh": "政府/主權基金" },
+    { "slug": "foundation", "label_en": "Foundation / non-profit", "label_zh": "基金會" },
+    { "slug": "family-office", "label_en": "Family office", "label_zh": "家族辦公室" },
+    { "slug": "other", "label_en": "Other", "label_zh": "其他" }
+  ],
+  "backer_relationships": [
+    { "slug": "wholly-owned-cvc", "label_en": "Wholly-owned venture arm", "label_zh": "全資創投部門" },
+    { "slug": "balance-sheet-fund", "label_en": "Balance-sheet fund", "label_zh": "母公司資產負債表出資" },
+    { "slug": "sponsor-gp", "label_en": "Sponsor / manager (external LP capital)", "label_zh": "發起管理方(資金來自外部 LP)" },
+    { "slug": "anchor-lp", "label_en": "Anchor LP", "label_zh": "基石 LP" },
+    { "slug": "major-lp", "label_en": "Major LP", "label_zh": "主要 LP" },
+    { "slug": "joint-venture", "label_en": "Joint venture", "label_zh": "合資" },
+    { "slug": "spinout", "label_en": "Spun out from", "label_zh": "由母體分拆" },
+    { "slug": "affiliated-program", "label_en": "Affiliated program", "label_zh": "關聯計畫" }
+  ],
   "status": ["active", "inactive", "acquired", "merged", "dormant", "unknown"],
   "confidence": ["high", "medium", "low"]
 }
