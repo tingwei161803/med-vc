@@ -35,6 +35,8 @@ VALID = {
     "region": {r["slug"] for r in TAX["regions"]},
     "status": set(TAX["status"]),
     "confidence": set(TAX["confidence"]),
+    "backer_kind": {b["slug"] for b in TAX.get("backer_kinds", [])},
+    "backer_relationship": {b["slug"] for b in TAX.get("backer_relationships", [])},
 }
 
 # Placeholder / hallucination smells. Checked ONLY in human-facing text fields
@@ -116,6 +118,26 @@ def main() -> None:
         if not re.fullmatch(r"[a-z0-9-]+", eid):
             issues["bad-id-format"].append(label)
 
+        # --- backing dimension ---
+        backers = (e.get("backing") or {}).get("backers") or []
+        for b in backers:
+            if b.get("kind") not in VALID["backer_kind"]:
+                issues["bad-backer-kind"].append(f"{label}: {b.get('kind')}")
+            if b.get("relationship") not in VALID["backer_relationship"]:
+                issues["bad-backer-relationship"].append(f"{label}: {b.get('relationship')}")
+            if not (b.get("name") or "").strip():
+                issues["backer-no-name"].append(label)
+        # a CVC with no recorded parent is a coverage gap, not a data error —
+        # the whole point of a corporate venture arm is that someone owns it
+        if e.get("type") == "cvc" and not backers:
+            issues["cvc-without-backer"].append(label)
+        # inference is fine, but claiming a wholly-owned relationship on nothing
+        # but a name match deserves a human look for the notable parents
+        for b in backers:
+            if b.get("evidence") == "inferred" and b.get("relationship") == "wholly-owned-cvc" \
+                    and b.get("kind") in ("big-tech", "ai-lab"):
+                issues["inferred-bigtech-parent"].append(f"{label}: {b.get('name')}")
+
         # --- name present ---
         name_en = (e.get("name") or {}).get("en", "")
         if not name_en.strip():
@@ -179,8 +201,11 @@ def main() -> None:
     # ---- report ----
     SEV = {
         "critical": ["INVALID-JSON", "schema", "no-sources", "no-http-source", "no-name", "bad-type", "bad-region", "duplicate-id"],
-        "warning": ["malformed-url", "bad-sector", "bad-stage", "bad-modality", "bad-indication", "bad-confidence", "bad-id-format", "cross-region-domain", "smell"],
-        "review": ["thin-file", "cross-region-name", "weak-medical-nexus"],
+        "warning": ["malformed-url", "bad-sector", "bad-stage", "bad-modality", "bad-indication",
+                    "bad-confidence", "bad-id-format", "cross-region-domain", "smell",
+                    "bad-backer-kind", "bad-backer-relationship", "backer-no-name"],
+        "review": ["thin-file", "cross-region-name", "weak-medical-nexus",
+                   "cvc-without-backer", "inferred-bigtech-parent"],
     }
     print("=" * 60)
     print(f"med-vc QA — {n_total} entities")

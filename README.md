@@ -35,9 +35,40 @@
 | **15 類機構** | 生醫 VC · CVC · crossover 基金 · growth equity · Micro-VC · 創業工作室 · 加速器 · 育成/lab space · 大學/醫院基金 · 疾病基金會創投 · 政府計畫 · 天使網絡 · 天使 syndicate · 家族辦公室 · 股權群募 |
 | **20 健康子領域** | 新藥 · 醫材 · 診斷 · 工具 · 數位健康 · 醫療服務 · AI 製藥 · 基因體 · 合成生物 · 細胞基因治療 · 長壽 · 女性健康 · 心理健康 … |
 | **生醫特有維度** | modality（小分子/抗體/細胞/基因/RNA…）× indication（腫瘤/神經/罕病…）× 公司創建模式 × 公私跨界 |
-| **每筆面向** | 身份 / 資本 / 投資策略 / 生醫焦點 / 加速器專屬 / 戰績 / 團隊 / 申請方式 / 來源佐證 |
+| **16 類背後金主** | 大型科技公司 · 前沿 AI 實驗室 · 藥廠 · 醫材大廠 · 保險/支付方 · 診斷工具廠 · 綜合企業 · 金融機構 · 電信 · 零售消費 · 大學 · 醫院體系 · 政府/主權 · 基金會 · 家族辦公室 · 其他 |
+| **每筆面向** | 身份 / 資本 / **背後金主** / 投資策略 / 生醫焦點 / 加速器專屬 / 戰績 / 團隊 / 申請方式 / 來源佐證 |
 
 每筆資料都附 `sources[]`（真實 URL + 佐證 `quote`）與 `confidence` 信心評級。
+
+### 背後金主（`backing.backers[]`）
+
+回答「**這家基金背後是誰的錢**」——把 Alphabet、Microsoft、NVIDIA、OpenAI、Novartis、Temasek 這類母公司／基石 LP
+從機構名稱與描述裡抽成結構化欄位，可直接篩選。每列帶：
+
+| 欄位 | 說明 |
+| --- | --- |
+| `name` | 金主機構名 |
+| `kind` | 金主類型（見上表 16 類，受控詞彙） |
+| `relationship` | 出資關係：全資創投部門 / 母公司資產負債表 / **發起管理方（資金來自外部 LP）** / 基石 LP / 主要 LP / 合資 / 分拆 / 關聯計畫 |
+| `evidence` | `verified`（有來源直述）或 `inferred`（由名稱或描述推得） |
+
+推論層由 `uv run scripts/backfill_backing.py` 產生，輸出到 `data/backing.json`
+（**獨立 overlay，不寫進 `_raw/`**），再由 `build.py` 在 merge 階段套回每筆資料。
+`_raw/` 內由研究者寫入的 `backing` 一律優先於推論結果。
+
+推論分三層，後一層只在前面都沒抓到時才跑：
+
+1. **名稱比對** — 機構名／別名含知名企業字典中的組織（`Sony Innovation Fund` → Sony）。
+   企業創投幾乎都以母公司命名，精確度很高。
+2. **句式比對** — 描述中出現關係句式（`venture arm of X`、`backed by X`、`anchored by X`），
+   且 X 在字典內才採用；論點裡單純提到 Google 不算數。
+3. **非字典母公司** — 母公司真實存在但不是知名企業（Kasikornbank、Sinar Mas Land、Zydus Lifesciences）。
+   此層直接取描述中的組織名，不比對字典；之所以安全，是因為它**只在該筆自己的 tag 已經指明金主類型時才啟用**
+   （`payer-cvc` → 保險支付方、`provider-cvc` → 醫院體系…），所以誤抓最多寫錯名字，不會生出錯誤的分類。
+   描述沒寫的話，退回從基金名稱推導母公司。
+
+> 這層刻意保守：仍有約 100 家 CVC 沒有金主紀錄，它們列在 `reports/qa.json` 的
+> `cvc-without-backer` 當研究待辦，而不是用猜的填滿。
 
 ---
 
@@ -53,10 +84,22 @@ uv run scripts/build.py
 cat data/stats.json          # 各維度數量
 cat reports/validation.md    # schema 違規 / 資料品質
 
-# 資料完整性 QA（Layer-1 結構檢查：重複 / 來源 / 詞彙 / 薄檔 / 幻覺字樣）
+# 重跑背後金主推論 overlay，然後再 build 一次讓它套進資料
+uv run scripts/backfill_backing.py            # 寫 data/backing.json
+uv run scripts/backfill_backing.py --dry-run  # 只看會抓到什麼，不寫檔
+uv run scripts/build.py
+
+# 資料完整性 QA（Layer-1 結構檢查：重複 / 來源 / 詞彙 / 薄檔 / 幻覺字樣 / 金主詞彙）
 uv run scripts/qa_check.py
 cat reports/qa.json          # 完整問題清單
+
+# 重建網站資料層
+uv run scripts/build_site.py
 ```
+
+> 順序有意義：`backfill_backing.py` 讀的是 **build 後**的 `data/all-entities.json`（要有正式 id），
+> 而它的產物又要**再 build 一次**才會併回每筆資料。`data/<region>/entities.json` 與
+> `data/all-entities.json` 都是衍生產物，直接手改會在下次 build 被覆蓋。
 
 ---
 

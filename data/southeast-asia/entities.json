@@ -103,6 +103,17 @@
     "founded_year": 2023,
     "lifesci": {
       "science_platform_notes": "Part of the global JLABS network run by Johnson & Johnson Innovation; companies retain independence (no equity taken for space) but are connected to J&J scientific/regulatory mentorship and, via Johnson & Johnson Innovation - JJDC, potential investment."
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Johnson & Johnson",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Johnson & Johnson); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {
@@ -217,7 +228,25 @@
     "lifesci": {
       "science_platform_notes": "Describes itself as Singapore's largest co-working laboratory; BSL-2 wet-lab and office space. Financing round led by Celadon Partners with participation from Temasek's ClavystBio."
     },
-    "verification_notes": "Included as the incubator/lab arm of the NSG Group; primary role is wet-lab infrastructure rather than a fund, but it invests indirectly via ecosystem support. 'Largest co-working lab' claim is the firm's own marketing. [merged from duplicate research rows]"
+    "verification_notes": "Included as the incubator/lab arm of the NSG Group; primary role is wet-lab infrastructure rather than a fund, but it invests indirectly via ecosystem support. 'Largest co-working lab' claim is the firm's own marketing. [merged from duplicate research rows]",
+    "backing": {
+      "backers": [
+        {
+          "name": "Temasek",
+          "kind": "government",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Enterprise Singapore, Merck and Temasek's ClavystBio. Operate”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "EDBI / Enterprise Singapore",
+          "kind": "government",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Enterprise Singapore, Merck and Temasek's ClavystBio. Operate”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-life-science-incubator",
@@ -1061,7 +1090,18 @@
     "confidence": "medium",
     "verification_notes": "AUM figure and 'Bio Health Fund' name sourced from directory aggregator (e27) rather than MDI's own site, which does not break out fund-level detail publicly.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Telkom Indonesia",
+          "kind": "telecom",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “venture capital arm of Telkom Indonesia”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-kickstart-ventures",
@@ -1128,7 +1168,18 @@
     "confidence": "medium",
     "verification_notes": "Sources describe Kickstart's health-technology mandate but do not name specific healthtech portfolio companies; fund-size figures vary between $150M (ACTIVE fund) and $240M (aggregate AUM across all Kickstart-managed vehicles) across sources.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Globe Telecom",
+          "kind": "telecom",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “venture arm of Philippine telecom Globe Telecom”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-addventures-scg",
@@ -1256,7 +1307,18 @@
     ],
     "confidence": "medium",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Telkomsel",
+          "kind": "telecom",
+          "relationship": "wholly-owned-cvc",
+          "note": "Fund named after its parent (Telkomsel); parent derived from the entity name and kind from its own tags — inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-astra-international",
@@ -1332,7 +1394,18 @@
     "confidence": "high",
     "verification_notes": "Astra's healthcare investing is done as direct strategic/balance-sheet equity (via its 'Astra Digital' investment unit) rather than through a formally named, ring-fenced fund vehicle. Ultimate parent Jardine Matheson is Hong Kong-based, but Astra International itself is headquartered and listed in Indonesia.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Astra International",
+          "kind": "conglomerate",
+          "relationship": "balance-sheet-fund",
+          "note": "The name carries no separate fund identity, so the operating company appears to invest directly off its own balance sheet rather than through a named vehicle — inferred from the entity name and tags, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-singtel-innov8",
@@ -1407,7 +1480,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Singtel",
+          "kind": "telecom",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Singtel); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-living-lab-ventures",
@@ -1486,7 +1570,18 @@
     "confidence": "medium",
     "verification_notes": "Sinar Mas's core businesses are pulp & paper, agribusiness, real estate and financial services (not healthcare); Living Lab Ventures/Biomedical Fund is a recent (2022-launched, fund itself newer) diversification vehicle. Figures sourced mainly from Indonesian-language business press.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Sinar Mas Land",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “venture arm of Sinar Mas Land”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-cr-cp-life-science-fund",
@@ -1873,7 +1968,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "UOB Bank",
+          "kind": "financial-institution",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “UOB Bank's venture”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-gdp-venture",
@@ -1943,7 +2049,18 @@
     "confidence": "medium",
     "verification_notes": "Halodoc's earliest backing is attributed to Djarum (GDP Venture's parent); GDP Venture itself is listed as a Halodoc investor by secondary aggregators but this was not confirmed on GDP Venture's own site. Overlaps with Astra International, Telkomsel Ventures and MDI Ventures as separate Halodoc cap-table investors.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Djarum Group",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “venture arm of Djarum Group, an Indonesian tobacco”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-bri-ventures",
@@ -1998,7 +2115,18 @@
     "confidence": "medium",
     "verification_notes": "Healthcare confirmed as a stated sector for BRI Ventures' second fund via secondary coverage; no single named health portfolio company was independently verified within the research budget.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Bank Rakyat Indonesia",
+          "kind": "financial-institution",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “Bank Rakyat Indonesia's corporate VC”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-beacon-venture-capital",
@@ -2061,7 +2189,18 @@
     ],
     "confidence": "medium",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Kasikornbank",
+          "kind": "financial-institution",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “Kasikornbank's wholly-owned CVC”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-sunway-ilabs",
@@ -2118,7 +2257,18 @@
     "confidence": "medium",
     "verification_notes": "Sunway Group's core businesses are property/construction/education/retail; it also operates Sunway Medical Centre, but Sunway iLabs is the group's diversified corporate venture arm rather than a medical-core CVC, so it is included in this non-medical-core slice.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Sunway Group",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “Sunway Group's CVC”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-healthxcapital",
@@ -4216,7 +4366,18 @@
       "biomedical-sciences",
       "government-linked",
       "singapore-edb"
-    ]
+    ],
+    "backing": {
+      "backers": [
+        {
+          "name": "EDBI / Enterprise Singapore",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (EDBI / Enterprise Singapore); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-sginnovate",
@@ -4290,7 +4451,18 @@
     "confidence": "high",
     "verification_notes": "SGInnovate invests in four verticals including 'Health and Biomedical Sciences' per its own site; exact current portfolio-count figures vary by third-party tracker and were not independently confirmed on a primary SGInnovate page, so portfolio_count is omitted.",
     "last_updated": "undefined",
-    "researched_by": "government-program"
+    "researched_by": "government-program",
+    "backing": {
+      "backers": [
+        {
+          "name": "EDBI / Enterprise Singapore",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (EDBI / Enterprise Singapore); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-astar-accelerate",
@@ -4451,7 +4623,18 @@
     "confidence": "medium",
     "verification_notes": "TLA is government-linked via Temasek (Singapore's state investment company) and Temasek Life Sciences Laboratory rather than a direct government agency; included per the 'Temasek (life science platforms)' anchor in scope. Not independently verified via a second source within budget.",
     "last_updated": "undefined",
-    "researched_by": "government-program"
+    "researched_by": "government-program",
+    "backing": {
+      "backers": [
+        {
+          "name": "Temasek",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Temasek); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-clavystbio",
@@ -4589,6 +4772,17 @@
     ],
     "links": {
       "linkedin": "https://sg.linkedin.com/company/clavystbio"
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Temasek",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "From the entity description: “wholly-owned subsidiary of Temasek”",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {
@@ -5796,7 +5990,18 @@
     "confidence": "medium",
     "verification_notes": "Novartis global HQ is Basel, Switzerland; included here as a dedicated Singapore/APAC innovation-and-investment hub per slice scope. Launch year and cumulative deployed capital not independently confirmed in sources reviewed; single-source verification only.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Novartis",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Novartis); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-bayer-innovation-center-singapore",
@@ -5868,7 +6073,18 @@
     "confidence": "medium",
     "verification_notes": "Bayer global HQ is Leverkusen, Germany; included as a dedicated Singapore regional hub per slice scope. G4A is a global program (not Singapore-exclusive); Singapore is confirmed as one of its Asia hub locations.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Bayer",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Bayer); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-msd-idea-studio-apac",
@@ -5948,7 +6164,18 @@
     "confidence": "high",
     "verification_notes": "MSD (Merck & Co.) global HQ is Rahway, New Jersey, USA; included here as a dedicated Singapore-based APAC studio of the corporate venture arm per slice scope. The $38M spending figure covers Europe + Asia combined, not APAC alone; $500M AUM is for the global MGHIF fund, not APAC-specific capital.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Merck & Co (MSD)",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Merck & Co (MSD)); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-duopharma-biotech",
@@ -6101,7 +6328,18 @@
     "confidence": "medium",
     "verification_notes": "Roche global HQ is Basel, Switzerland; included as a dedicated Singapore/APAC accelerator base per slice scope. Startup Creasphere and In-Co Hub are open-innovation/partnership platforms rather than a direct-equity fund vehicle; no disclosed check size found.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Roche",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Roche); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "sea-nsg-ventures",
@@ -6581,6 +6819,24 @@
     "founded_year": 2016,
     "links": {
       "linkedin": "https://www.linkedin.com/company/lightstone-ventures"
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Temasek",
+          "kind": "government",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Temasek and EDBI, to create and back early-stage biopharma an”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "EDBI / Enterprise Singapore",
+          "kind": "government",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Temasek and EDBI, to create and back early-stage biopharma an”",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {

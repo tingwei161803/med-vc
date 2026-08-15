@@ -239,6 +239,45 @@ h1, h2, h3 { line-height: 1.2; font-weight: 640; letter-spacing: -.01em; }
 .dot--low { background: var(--low); }
 .empty { text-align: center; color: var(--on-surface-variant); padding: 50px 20px; font-size: 1rem; }
 
+/* ---------- backers ("whose money is this") ---------- */
+/* Deliberately one accent family for every backer kind: the dataset ranks
+   nobody. The icon carries the kind; colour carries only "this fund has an
+   institution behind it". */
+.ecard__backers { display: flex; flex-wrap: wrap; gap: 5px; }
+.backer {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: .74rem; font-weight: 600; line-height: 1.35;
+  padding: 3px 9px 3px 6px; border-radius: var(--radius-pill);
+  background: var(--secondary-container); color: var(--on-secondary-container);
+}
+.backer .material-symbols-rounded { font-size: 15px; font-variation-settings: "FILL" 1, "wght" 500; opacity: .8; }
+.backer__rel { font-style: normal; font-weight: 400; opacity: .72; }
+.backer--more { background: var(--surface-container-highest); color: var(--on-surface-variant); padding-left: 9px; }
+.drow .backer { margin: 0 5px 5px 0; }
+
+/* count suffix on facet chips */
+.fchip__n { opacity: .55; font-variant-numeric: tabular-nums; margin-left: 3px; font-size: .92em; }
+.fchip--active .fchip__n { opacity: .8; }
+
+/* context banner: "you searched a company, here is why these investors matched" */
+.ctx {
+  display: flex; gap: 11px; align-items: flex-start;
+  margin: 0 0 14px; padding: 13px 16px; border-radius: var(--radius);
+  background: var(--tertiary-container); color: var(--on-tertiary-container);
+}
+.ctx > .material-symbols-rounded { font-size: 20px; opacity: .8; flex: none; margin-top: 1px; }
+.ctx__lead { margin: 0; font-size: .87rem; line-height: 1.5; }
+.ctx__links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
+.ctx__link {
+  font: inherit; font-size: .78rem; font-weight: 600; cursor: pointer;
+  padding: 4px 11px; border-radius: var(--radius-pill);
+  background: var(--surface); color: var(--on-surface);
+  border: 1px solid transparent; transition: border-color .12s;
+}
+.ctx__link:hover { border-color: var(--primary); }
+.ctx__where { opacity: .6; font-weight: 400; }
+.empty__note { max-width: 440px; margin: 10px auto 0; font-size: .85rem; line-height: 1.55; opacity: .75; }
+
 /* ---------- dialog (shell.js) ---------- */
 .dialog {
   width: min(640px, 94vw); max-height: 88vh; padding: 0; border: 0;

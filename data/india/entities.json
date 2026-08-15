@@ -1599,7 +1599,18 @@
     "confidence": "medium",
     "verification_notes": "JioGenNext markets itself as a 'Scalearator, Not Accelerator' and its flagship Market Access Program (MAP) is described as zero-equity; direct-investment/acquisition activity in healthtech (e.g., KareXpert, Netmeds) has been executed via Reliance Industries/Reliance Retail rather than a discrete JioGenNext fund vehicle, so the equity-investment mechanics are not fully transparent from public sources.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Reliance Industries",
+          "kind": "conglomerate",
+          "relationship": "affiliated-program",
+          "note": "From the entity description: “sponsored by Reliance Industries and Jio Platforms”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "in-qualcomm-ventures-india",
@@ -1676,7 +1687,18 @@
     "confidence": "medium",
     "verification_notes": "Qualcomm Ventures is a global CVC headquartered in the US; included here because it runs a dedicated, repeatedly-renewed India investment commitment ($150M in 2015, another $150M in 2026) and has backed 40+ India startups since 2007, including digital-health company Portea Medical.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Qualcomm",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Qualcomm); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "in-tata-capital-healthcare-fund",
@@ -1838,7 +1860,18 @@
         "country": "India",
         "city": "Mumbai"
       }
-    ]
+    ],
+    "backing": {
+      "backers": [
+        {
+          "name": "Tata Group",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "From the entity description: “subsidiary of Tata Sons, the diversified Tata Group's financial-services ar”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "in-info-edge-ventures",
@@ -5237,7 +5270,18 @@
     "confidence": "medium",
     "verification_notes": "Only secondary aggregator sources (CB Insights 'Cipla Ventures', Foundersuite 'Cipla New Ventures') were found in this research pass; no dedicated page on cipla.com surfaced. Most documented deals (Stempeutics, Chase Pharmaceuticals, MabPharma, BioMab) date to 2014-2016; a 2016 exit from Chase Pharmaceuticals was noted. No confirmed 2020s activity was located, so current operating status is uncertain (marked unknown rather than active).",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Cipla",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Cipla); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "in-zynext-ventures",
@@ -5303,7 +5347,18 @@
     "confidence": "high",
     "verification_notes": "Confirmed via official PR Newswire press release naming Zydus Lifesciences as parent. Press materials describe the investing vehicle as 'Zynext Ventures USA LLC'; the parent, Zydus Lifesciences Ltd, is headquartered in Ahmedabad, India, so the entity is included under India per the dedicated-arm rule.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Zydus Lifesciences",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “venture capital arm of Zydus Lifesciences, backing next-generation medtech and healt”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "in-biocon",
@@ -5360,7 +5415,18 @@
     "confidence": "low",
     "verification_notes": "Biocon does not appear to operate a formally named, dedicated CVC fund; this entry reflects direct strategic-investment/co-development activity rather than an active venture program. Only one confirmed deal (IATRICa) was found in this research pass; deal size, date and ownership stake could not be verified.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Biocon Ltd",
+          "kind": "pharma",
+          "relationship": "balance-sheet-fund",
+          "note": "The name carries no separate fund identity, so the operating company appears to invest directly off its own balance sheet rather than through a named vehicle — inferred from the entity name and tags, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "in-torrent-pharmaceuticals",
@@ -5410,7 +5476,18 @@
     "confidence": "low",
     "verification_notes": "Extremely thin activity, appears to be a one-off strategic/opportunistic investment rather than an active CVC program. Sourced only from a CB Insights aggregator listing; no primary Torrent Pharma confirmation, deal date, or deal size found in this research pass.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Torrent Pharmaceuticals",
+          "kind": "pharma",
+          "relationship": "balance-sheet-fund",
+          "note": "The name carries no separate fund identity, so the operating company appears to invest directly off its own balance sheet rather than through a named vehicle — inferred from the entity name and tags, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "in-endiya-partners",

@@ -1216,7 +1216,18 @@
     "confidence": "medium",
     "verification_notes": "Sony Innovation Fund is a generalist multi-sector CVC (Mobility, Health, Deeptech, Industrial IoT, fintech, AI, robotics), not health-dedicated; the $215M Fund 4 covers all sectors, not just Health. Founding year and health-specific allocation not independently confirmed.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Sony",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Sony); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-m3-1p1y-fund",
@@ -1421,7 +1432,18 @@
     "confidence": "high",
     "verification_notes": "Fujifilm straddles healthcare/medtech (imaging equipment, Bio CDMO) and its historical core (photographic film/electronics); included here per brief's explicit anchor, but note a sibling medtech/pharma-CVC slice may also reference Fujifilm — flag for de-duplication at directory-merge time.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Fujifilm",
+          "kind": "medtech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Fujifilm); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-mitsui-co-healthcare",
@@ -1504,7 +1526,18 @@
     "confidence": "high",
     "verification_notes": "Mitsui invests directly from its balance sheet / joint funds rather than via a single named CVC vehicle; treated here as a corporate healthcare investment arm per the brief's explicit anchor.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Mitsui",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Mitsui); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-sompo-light-vortex",
@@ -1709,7 +1742,18 @@
     "confidence": "medium",
     "verification_notes": "KDDI Open Innovation Fund is a broad multi-sector telecom CVC; healthcare is one of many verticals, not the primary focus. Fund V size undisclosed in sources reviewed.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "KDDI",
+          "kind": "telecom",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (KDDI); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-dai-ichi-life-innovation-fund",
@@ -1775,7 +1819,18 @@
     "confidence": "medium",
     "verification_notes": "Dai-ichi Life's healthcare investing spans both an internal 'Innovation Fund' PoC program (with Plug and Play Japan) and separate direct/impact investments (e.g. Neurotrack) as an institutional investor; figures for the two streams are not cleanly separated in sources reviewed.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Dai-ichi Life",
+          "kind": "payer-insurer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Dai-ichi Life); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-mitsui-sumitomo-insurance-venture-capital",
@@ -1844,7 +1899,25 @@
     "confidence": "medium",
     "verification_notes": "Official MSIVC website URL not independently loaded within budget; entity verified via CB Insights and Tracxn secondary aggregators plus general knowledge of Mitsui Sumitomo Insurance's CVC activity. Healthcare is one of several verticals, not the sole focus.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Mitsui",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Mitsui); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Sumitomo",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Sumitomo); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-sumisei-innovation-fund",
@@ -1911,7 +1984,18 @@
     "confidence": "high",
     "verification_notes": "Fund founding year 2020 corroborated by an SBI Holdings press release on the joint CVC-fund establishment (title referencing 住友生命保険相互会社とのコーポレートベンチャーキャピタルファンドの共同設立), dated 2020-11-20 per the release URL.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Sumitomo",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Sumitomo); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-ntt-docomo-ventures",
@@ -1975,7 +2059,18 @@
     "confidence": "medium",
     "verification_notes": "NTT DOCOMO Ventures is a broad multi-sector telecom CVC; healthcare/medical is one of many listed verticals rather than the primary thesis.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "NTT",
+          "kind": "telecom",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (NTT); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-sumisho-venture-partners",
@@ -2192,7 +2287,18 @@
     "confidence": "medium",
     "verification_notes": "Healthcare is one of several stated target fields (alongside energy) for Panasonic's ¥8B CVC fund, not its sole focus; Panasonic also separately runs Conductive Ventures (US enterprise software, not health-specific) which is excluded here.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Panasonic",
+          "kind": "big-tech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Panasonic); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-fast-track-initiative",
@@ -3037,6 +3143,218 @@
     "verification_notes": "Structured as a government-backed fund vehicle (GP: Nippon Venture Capital) rather than a standalone independent VC firm; classified as government-program with vc subtype since Osaka Prefecture is the anchor sponsor of a dedicated digital-health investment program in the Saito biomedical hub area.",
     "last_updated": "undefined",
     "researched_by": "digital-health-services-vc"
+  },
+  {
+    "id": "jp-softbank-vision-fund",
+    "name": {
+      "en": "SoftBank Vision Fund"
+    },
+    "aka": [
+      "SVF",
+      "Vision Fund 1",
+      "Vision Fund 2",
+      "SoftBank Investment Advisers"
+    ],
+    "type": "growth-equity",
+    "subtypes": [
+      "crossover-fund"
+    ],
+    "status": "active",
+    "founded_year": 2017,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      {
+        "country": "United Kingdom",
+        "city": "London"
+      }
+    ],
+    "website": "https://visionfund.com/",
+    "backing": {
+      "backers": [
+        {
+          "name": "SoftBank Group Corp.",
+          "kind": "conglomerate",
+          "relationship": "anchor-lp",
+          "note": "SoftBank Group (telecom-rooted Japanese technology/investment conglomerate) is the primary sponsor of the Vision Funds; Vision Fund 1 ($98.6B committed) also drew capital from Saudi PIF and Mubadala, while Vision Fund 2 (~$56B) is funded mainly by SoftBank Group itself."
+        }
+      ]
+    },
+    "capital": {
+      "aum": {
+        "raw": "~$154B combined across Vision Fund 1 (~$98.6B) and Vision Fund 2 (~$56B)",
+        "usd": 154000000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "Global"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "therapeutics",
+        "ai-drug-discovery"
+      ],
+      "thesis": "The world's largest tech-focused investment platform; maintains a dedicated Life Sciences & HealthTech investment team (led by director John Cassidy) and has been ranked the #2 late-stage digital health investor globally, deploying billion-dollar-scale checks into digital pharmacy, telehealth and mental-health companies."
+    },
+    "track_record": {
+      "portfolio_count": "250+",
+      "notable_investments": [
+        {
+          "company": "Alto Pharmacy",
+          "sector": "digital pharmacy",
+          "outcome": "active (agreed to be acquired, 2025)"
+        },
+        {
+          "company": "Big Health",
+          "sector": "digital mental health (Series C, 2025)",
+          "outcome": "active"
+        }
+      ]
+    },
+    "summary": {
+      "en": "SoftBank Group's ~$154B Vision Fund platform runs a dedicated Life Sciences & HealthTech team; notable health bets include a $1B investment in digital pharmacy Alto Pharmacy (2022, Vision Fund 2) and leading digital-mental-health company Big Health's $75M Series C (2025). Galen Growth ranked it the #2 late-stage digital health investor globally for 2025."
+    },
+    "sources": [
+      {
+        "url": "https://visionfund.com/team/john-cassidy",
+        "title": "John Cassidy, Director — SoftBank Vision Fund",
+        "publisher": "SoftBank Vision Fund",
+        "accessed": "2026-08-16",
+        "supports": "dedicated Life Sciences & HealthTech investment role"
+      },
+      {
+        "url": "https://www.bighealth.com/news/big-health-raises-75-million-in-series-c-funding-led-by-softbank-vision-fund-2",
+        "title": "Big Health Raises $75 Million in Series C Funding Led by SoftBank Vision Fund 2",
+        "publisher": "Big Health",
+        "accessed": "2026-08-16",
+        "supports": "Big Health Series C led by SoftBank Vision Fund 2"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Region classified as 'japan' reflecting SoftBank Group's Tokyo HQ, though Vision Fund investment decisions are largely made out of London/California via SoftBank Investment Advisers. AUM figure is a combined historical committed-capital figure, not current NAV (which fluctuates significantly with portfolio marks). [fact-check flagged, not auto-applied: track_record.notable_investments[0].outcome_detail: correct 'a $1B investment in digital pharmacy Alto Pharmacy (2022, Vision Fund 2)' in the summary — should read something like 'led a ~$200-250M round valuing Alto Phar] [fact-check removed 1 refuted source(s): 404, wrong page, or quote absent] [fact-check: The #2 late-stage digital health investor ranking (Galen Growth) is independently corroborated via search ('second-largest late-stage digital health investor... following Wellington Management and ahead of Ally Bridge Group'). The Big Health $75M Series C claim is fully confirmed via bighealth.com f] [no verbatim quote on any source — confidence capped at low]",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-bigtech"
+  },
+  {
+    "id": "jp-321catalyst-ventures",
+    "name": {
+      "en": "321Catalyst (Mitsui Chemicals)"
+    },
+    "aka": [
+      "321Catalyst Ventures, Inc.",
+      "321Catalyst LP",
+      "321Catalyst"
+    ],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2025,
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [
+      {
+        "country": "United States",
+        "city": "San Jose"
+      }
+    ],
+    "website": "https://jp.mitsuichemicals.com",
+    "links": {},
+    "capital": {
+      "current_fund": {
+        "raw": "$60 million",
+        "usd": 60000000,
+        "currency": "USD"
+      },
+      "funds": [
+        {
+          "name": "321Catalyst LP",
+          "vintage_year": 2025,
+          "size": {
+            "raw": "$60 million",
+            "usd": 60000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": [
+        "seed",
+        "series-a",
+        "growth"
+      ],
+      "lead_or_follow": "follow",
+      "geo_focus": [
+        "United States",
+        "Europe",
+        "Asia",
+        "Global"
+      ],
+      "sector_focus": [
+        "life-science-tools",
+        "medtech-devices"
+      ],
+      "thesis": "Mitsui Chemicals' second corporate VC fund (after 321Force, 2022, managed by Global Brain), roughly double the first fund's size; multi-industry mandate spanning Life & Healthcare, Mobility, ICT and Sustainability, with healthcare investments targeting emerging biotech platforms, drug-delivery systems, regenerative medicine and materials for medical devices."
+    },
+    "lifesci": {
+      "modalities": [
+        "drug-delivery",
+        "cell-therapy"
+      ],
+      "indications": []
+    },
+    "people": [
+      {
+        "name": "Shunsuke Fujii",
+        "role": "President, 321Catalyst Ventures, Inc."
+      }
+    ],
+    "tags": [
+      "multi-sector-cvc",
+      "second-fund",
+      "materials-and-health"
+    ],
+    "summary": {
+      "en": "Mitsui Chemicals' second corporate venture fund, launched May 2025 with $60M via new San Jose-based subsidiary 321Catalyst Ventures, Inc.; life sciences/healthcare (biotech platforms, drug delivery, regenerative medicine, medical-device materials) is one of several named priority sectors alongside mobility, ICT and sustainability."
+    },
+    "sources": [
+      {
+        "url": "https://jp.mitsuichemicals.com/en/release/2025/2025_0526_2/index.htm",
+        "title": "Mitsui Chemicals Launches New Corporate Venture Capital Fund '321Catalyst™'",
+        "publisher": "Mitsui Chemicals, Inc.",
+        "accessed": "2026-08-16",
+        "supports": "fund name/size/date/HQ/leadership/sector list, quote",
+        "quote": "321Catalyst(TM)'s mission will be to accelerate the building of global innovation partnerships and the launching of new products and business."
+      },
+      {
+        "url": "https://globalventuring.com/corporate/asia/mitsui-chemicals-launches-60m-second-vc-fund/",
+        "title": "Mitsui Chemicals launches $60m second VC fund",
+        "publisher": "Global Venturing",
+        "accessed": "2026-08-16",
+        "supports": "corroborates second-fund status and size, comparison to 321Force"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Healthcare is one of several named sectors (Life & Healthcare, Mobility, ICT, Sustainability), not the fund's sole focus — included per brief's 'new CVC arms' criterion but flagged as a generalist multi-sector CVC, consistent with existing directory entries for other Mitsui-family CVCs. Legal GP entity (321Catalyst Ventures, Inc.) is US-incorporated in San Jose, CA as a 100%-owned Mitsui Chemicals America subsidiary; region set to Japan to match the ultimate parent, per convention used for other dual-listed Japanese pharma CVCs in this directory (e.g., Takeda Ventures). [1 source(s) blocked automated re-fetch (403/paywall/timeout) — kept, but unverified in the fact-check pass; confidence lowered] [fact-check: Mitsui Chemicals' own press release (jp.mitsuichemicals.com) loads cleanly and confirms fund name/size ($60M), launch date (May 6, 2025), San Jose HQ for the GP entity, leadership (Shunsuke Fujii), and that Life & Healthcare is one of several named sectors (not the sole focus) -- matches the entry a]",
+    "last_updated": "2026-08-16",
+    "researched_by": "gap-audit-newfunds",
+    "backing": {
+      "backers": [
+        {
+          "name": "Mitsui Chemicals, Inc.",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Funded via 100%-owned subsidiaries 321Catalyst Ventures, Inc. (GP) and 321Indigo Ventures, Inc. (LP)."
+        }
+      ]
+    }
   },
   {
     "id": "jp-mizuho-capital",
@@ -4032,7 +4350,18 @@
     "confidence": "medium",
     "verification_notes": "INCJ ceased new investment as of March 2025 and was formally absorbed into JIC in October 2025; retained here as a legacy/anchor entity per task scope. Life-science portfolio detail is drawn from a single METI presentation; a fuller company-by-company breakdown was not independently cross-verified within the research budget.",
     "last_updated": "undefined",
-    "researched_by": "government-program"
+    "researched_by": "government-program",
+    "backing": {
+      "backers": [
+        {
+          "name": "JIC (Japan Investment Corp)",
+          "kind": "government",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (JIC (Japan Investment Corp)); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-ghit-fund",
@@ -4627,7 +4956,18 @@
         "role": "Partner",
         "background": "MD; Stanford-affiliated medtech"
       }
-    ]
+    ],
+    "backing": {
+      "backers": [
+        {
+          "name": "JIC (Japan Investment Corp)",
+          "kind": "government",
+          "relationship": "major-lp",
+          "note": "From the entity description: “established by INCJ and Mizuho Bank to build a commercialization model for J”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-diamond-medino-capital",
@@ -5286,7 +5626,18 @@
     "confidence": "high",
     "verification_notes": "Operating unit (Takeda Ventures, Inc.) is based in San Diego, CA as a wholly-owned subsidiary of Tokyo-headquartered Takeda Pharmaceutical Company Limited.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Takeda",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Takeda); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-astellas-venture-management",
@@ -5368,7 +5719,18 @@
     "last_updated": "undefined",
     "researched_by": "pharma-bio-cvc",
     "subtypes": [],
-    "tags": []
+    "tags": [],
+    "backing": {
+      "backers": [
+        {
+          "name": "Astellas",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Astellas); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-eisai-cvi",
@@ -5438,7 +5800,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Eisai",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Eisai); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-shionogi-cvc",
@@ -5517,7 +5890,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Shionogi",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Shionogi); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-ono-venture-investment",
@@ -5822,7 +6206,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Chugai",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Chugai); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-terumo-ventures",
@@ -5898,7 +6293,18 @@
     "confidence": "high",
     "verification_notes": "Terumo Ventures is organized as a department within Terumo Americas Holding, Inc. (US); parent Terumo Corporation is headquartered in Tokyo.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Terumo",
+          "kind": "medtech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Terumo); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-olympus-innovation-ventures",
@@ -6001,7 +6407,18 @@
     "confidence": "high",
     "verification_notes": "Fund is operated out of the US (with Cerity Partners Ventures as manager); parent Olympus Corporation is headquartered in Tokyo.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Olympus",
+          "kind": "medtech",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Olympus); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-taiho-ventures",
@@ -6175,6 +6592,17 @@
           "outcome": "active"
         }
       ]
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Mitsubishi",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "From the entity description: “subsidiary of Mitsubishi Tanabe Pharma and Mitsubishi Chemical Holdings, in”",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {
@@ -6308,7 +6736,39 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Takeda",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Takeda, Astellas and Sumitomo Mitsui Banking Corporation that”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Astellas",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Takeda, Astellas and Sumitomo Mitsui Banking Corporation that”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Mitsui",
+          "kind": "conglomerate",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Takeda, Astellas and Sumitomo Mitsui Banking Corporation that”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Sumitomo",
+          "kind": "conglomerate",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Takeda, Astellas and Sumitomo Mitsui Banking Corporation that”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-sysmex-open-innovation",
@@ -6426,7 +6886,18 @@
     "confidence": "low",
     "verification_notes": "Primary evidence is a circa-2006 press release; could not verify whether this LP program or a successor is still active as of 2026, nor find a more recent dedicated Daiichi Sankyo CVC vehicle (Daiichi Sankyo Healthcare, the OTC subsidiary, separately runs a vaguer 'open innovation'/startup-collaboration program with no disclosed fund size). Status marked unknown pending fresher sourcing.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Daiichi Sankyo",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Daiichi Sankyo); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-saisei-ventures",
@@ -7782,7 +8253,18 @@
       "deep-tech",
       "life-sciences",
       "university-vc"
-    ]
+    ],
+    "backing": {
+      "backers": [
+        {
+          "name": "Astellas",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by LPs including Astellas Pharma. Wholly Kyoto-University-owned”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "jp-osaka-university-venture-capital",

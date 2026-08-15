@@ -157,6 +157,24 @@
     "links": {
       "linkedin": "https://www.linkedin.com/company/futurx",
       "crunchbase": "https://www.crunchbase.com/organization/futurx"
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Johnson & Johnson",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “jointly founded by J&J Innovation, Takeda Ventures, OrbiMed Israel Partners and”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Takeda",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “jointly founded by J&J Innovation, Takeda Ventures, OrbiMed Israel Partners and”",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {
@@ -308,7 +326,18 @@
         "role": "CFO"
       }
     ],
-    "team_size": 13
+    "team_size": 13,
+    "backing": {
+      "backers": [
+        {
+          "name": "Boston Scientific",
+          "kind": "medtech",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Boston Scientific, Sheba Medical Center and Intellectual Vent”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "il-sanara-ventures",
@@ -669,7 +698,32 @@
     "researched_by": "accelerator-incubator-bio",
     "aka": [],
     "tags": [],
-    "verification_notes": "Classified primarily as a venture-studio (company-creation model) rather than a pure fund, per its own description; included in this CVC/strategic-investment slice because it is founded and funded by four global pharma corporates (AstraZeneca, Merck KGaA, Pfizer, Teva) specifically for Israel-based venture creation. [merged from duplicate research rows]"
+    "verification_notes": "Classified primarily as a venture-studio (company-creation model) rather than a pure fund, per its own description; included in this CVC/strategic-investment slice because it is founded and funded by four global pharma corporates (AstraZeneca, Merck KGaA, Pfizer, Teva) specifically for Israel-based venture creation. [merged from duplicate research rows]",
+    "backing": {
+      "backers": [
+        {
+          "name": "Pfizer",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by AstraZeneca, Merck, Pfizer, Teva, the Israel Biotech Fund and”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "AstraZeneca",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by AstraZeneca, Merck, Pfizer, Teva, the Israel Biotech Fund and”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Teva",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by AstraZeneca, Merck, Pfizer, Teva, the Israel Biotech Fund and”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "il-ehealth-ventures",
@@ -832,6 +886,17 @@
         "digital-therapeutics"
       ],
       "indications": []
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Amgen",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Amgen, that has evaluated”",
+          "evidence": "inferred"
+        }
+      ]
     }
   },
   {
@@ -1045,6 +1110,17 @@
           "company": "Lifecord",
           "sector": "medtech-devices",
           "outcome": "active"
+        }
+      ]
+    },
+    "backing": {
+      "backers": [
+        {
+          "name": "Boston Scientific",
+          "kind": "medtech",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Boston Scientific, Edge Medical Partners, Issec Capital”",
+          "evidence": "inferred"
         }
       ]
     }
@@ -2748,7 +2824,25 @@
       "venture-studio"
     ],
     "founded_year": 2014,
-    "track_record": {}
+    "track_record": {},
+    "backing": {
+      "backers": [
+        {
+          "name": "Microsoft",
+          "kind": "big-tech",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Microsoft and Cisco among others”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Cisco",
+          "kind": "big-tech",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Microsoft and Cisco among others”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "il-firstime-ventures",
@@ -5651,7 +5745,18 @@
     "confidence": "medium",
     "verification_notes": "Fund publicly launched in 2011; could not confirm whether it remains active under this name today. Teva's more recent Israel biomed investing/company-building activity runs through AION Labs (separate entity in this dataset) and the Teva–Philips joint venture Sanara Ventures.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Teva",
+          "kind": "pharma",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Teva); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "il-merck-serono-israel-bioincubator",
@@ -7473,7 +7578,25 @@
     "confidence": "high",
     "verification_notes": "Momentum Fund invests across TAU's full research portfolio (engineering, cleantech, pharma/healthcare); medical nexus confirmed via explicit healthcare focus area and QArt Medical spin-off.",
     "last_updated": "undefined",
-    "researched_by": "university-hospital-fund"
+    "researched_by": "university-hospital-fund",
+    "backing": {
+      "backers": [
+        {
+          "name": "Tata Group",
+          "kind": "conglomerate",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Tata Group, Temasek and others”",
+          "evidence": "inferred"
+        },
+        {
+          "name": "Temasek",
+          "kind": "government",
+          "relationship": "major-lp",
+          "note": "From the entity description: “backed by Tata Group, Temasek and others”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "il-yeda",

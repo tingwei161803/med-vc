@@ -75,6 +75,48 @@
         }
       }
     },
+    "backing": {
+      "type": "object",
+      "description": "Who stands behind this investor — the corporate parent, anchor LPs, or sponsoring institution. This is the 'whose money is it' dimension: it separates a wholly-owned Big Tech venture arm from an independent partnership that merely took a strategic LP cheque.",
+      "properties": {
+        "backers": {
+          "type": "array",
+          "description": "Named organizations behind the fund. Empty array = verified independent with no notable institutional backer; omit the field entirely = not yet researched.",
+          "items": {
+            "type": "object",
+            "required": ["name", "kind", "relationship"],
+            "properties": {
+              "name": { "type": "string", "description": "Backer's canonical org name, e.g. 'Alphabet Inc.', 'Novartis AG'" },
+              "kind": {
+                "type": "string",
+                "description": "What sort of organization the backer is — from taxonomy.json#/backer_kinds",
+                "enum": [
+                  "big-tech", "ai-lab", "pharma", "medtech", "payer-insurer", "diagnostics-tools",
+                  "conglomerate", "financial-institution", "telecom", "retail-consumer",
+                  "university", "hospital-system", "government", "foundation", "family-office", "other"
+                ]
+              },
+              "relationship": {
+                "type": "string",
+                "description": "How the money flows — from taxonomy.json#/backer_relationships",
+                "enum": [
+                  "wholly-owned-cvc", "balance-sheet-fund", "sponsor-gp", "anchor-lp", "major-lp",
+                  "joint-venture", "spinout", "affiliated-program"
+                ]
+              },
+              "note": { "type": "string", "description": "One line on the nature of the backing" },
+              "source_url": { "type": "string", "description": "URL backing this specific relationship, if distinct from entity-level sources[]" },
+              "evidence": {
+                "type": "string",
+                "enum": ["verified", "inferred"],
+                "description": "verified = a source states the relationship; inferred = derived from naming/description without a direct citation"
+              }
+            }
+          }
+        },
+        "notes": { "type": "string", "description": "Anything about the capital base that does not fit a single backer row (sovereign LP mix, undisclosed LPs, etc.)" }
+      }
+    },
     "strategy": {
       "type": "object",
       "properties": {

@@ -36,6 +36,8 @@ TAXONOMY = {
     "indications": [{"slug": i["slug"], "en": i["label_en"], "zh": i["label_en"]} for i in tax["indications"]],
     "stages": [{"slug": s["slug"], "en": s["label_en"], "zh": s.get("label_en")} for s in tax["stages"]],
     "regions": vocab("regions"),
+    "backerKinds": vocab("backer_kinds"),
+    "backerRels": vocab("backer_relationships"),
 }
 
 
@@ -54,6 +56,12 @@ def trim(e):
     cap = e.get("capital", {}) or {}
     tr = e.get("track_record", {}) or {}
     prog = e.get("program", {}) or {}
+    # backers ship as compact triples: [name, kind, relationship]. Positional
+    # rather than keyed because this repeats up to a few hundred times and the
+    # keys would cost more than the values.
+    backers = [[b.get("name", ""), b.get("kind", "other"), b.get("relationship", "")]
+               for b in (e.get("backing", {}) or {}).get("backers", []) or []
+               if b.get("name")]
     out = {
         "id": e["id"],
         "name": {"en": name.get("en", ""), "local": name.get("local", "")},
@@ -74,6 +82,7 @@ def trim(e):
         "check": (strat.get("check_size", {}) or {}).get("raw"),
         "aum": money(cap.get("aum")),
         "fund": money(cap.get("current_fund")),
+        "backers": backers,
         "portfolio": tr.get("portfolio_count"),
         "notable": [n.get("company", "") for n in (tr.get("notable_investments", []) or [])[:6] if n.get("company")],
         "program": {
@@ -111,6 +120,7 @@ MED_VC = {
         "by_sector": stats["by_sector"],
         "by_modality": stats.get("by_modality", {}),
         "by_indication": stats.get("by_indication", {}),
+        "by_backer_kind": stats.get("by_backer_kind", {}),
         "by_confidence": stats["by_confidence"],
         "sources": sum(len(e.get("sources", [])) for e in ent),
     },

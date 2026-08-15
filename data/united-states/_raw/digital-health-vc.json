@@ -1,101 +1,298 @@
 [
   {
     "id": "us-general-catalyst-health-assurance",
-    "name": { "en": "General Catalyst (Health Assurance)" },
-    "aka": ["GC Health Assurance", "General Catalyst"],
+    "name": {
+      "en": "General Catalyst (Health Assurance)"
+    },
+    "aka": [
+      "GC Health Assurance",
+      "General Catalyst"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2000,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Cambridge",
     "website": "https://www.generalcatalyst.com/health-assurance",
-    "links": { "other": ["https://www.generalcatalyst.com/health-assurance"] },
-    "capital": {
-      "funds": [
-        { "name": "Health Assurance Fund", "size": { "raw": "$600M", "currency": "USD" } },
-        { "name": "Health Assurance Fund II", "vintage_year": 2022, "size": { "raw": "$675M", "currency": "USD" } }
+    "links": {
+      "other": [
+        "https://www.generalcatalyst.com/health-assurance"
       ]
     },
+    "capital": {
+      "funds": [
+        {
+          "name": "Health Assurance Fund",
+          "size": {
+            "raw": "$600M",
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Health Assurance Fund II",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$675M",
+            "currency": "USD"
+          }
+        }
+      ],
+      "aum": {
+        "raw": "$43B+ firm-wide (as of Dec 2024)",
+        "usd": 43000000000,
+        "currency": "USD"
+      }
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "$500K-$2M" },
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$500K-$2M"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it", "generalist-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-services",
+        "healthcare-it",
+        "generalist-health"
+      ],
       "thesis": "Health Assurance thesis: move US healthcare from reactive 'sick care' to a resilient, proactive, value-oriented system that improves quality, access, equity and affordability, pursued through 'radical collaboration' with a network of health-system partners."
     },
-    "lifesci": { "modalities": ["ai-ml-platform", "software-samd", "digital-therapeutics"], "company_creation": true },
+    "lifesci": {
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd",
+        "digital-therapeutics"
+      ],
+      "company_creation": true
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Livongo", "sector": "digital-health", "outcome": "acquired" },
-        { "company": "Transcarent", "sector": "digital-health", "outcome": "active" },
-        { "company": "Cityblock Health", "sector": "healthcare-services", "outcome": "active" },
-        { "company": "Commure", "sector": "healthcare-it", "outcome": "active" }
+        {
+          "company": "Livongo",
+          "sector": "digital-health",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Transcarent",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Cityblock Health",
+          "sector": "healthcare-services",
+          "outcome": "active"
+        },
+        {
+          "company": "Commure",
+          "sector": "healthcare-it",
+          "outcome": "active"
+        },
+        {
+          "company": "Neko Health",
+          "sector": "consumer-health / preventive diagnostics",
+          "outcome": "active"
+        },
+        {
+          "company": "Summa Health",
+          "sector": "healthcare-services / health system",
+          "outcome": "acquired (nonprofit converted to for-profit, $485M)"
+        }
       ]
     },
     "people": [
-      { "name": "Hemant Taneja", "role": "CEO & Managing Director" },
-      { "name": "Chris Bischoff", "role": "Head of Global Healthcare Investing" }
+      {
+        "name": "Hemant Taneja",
+        "role": "CEO & Managing Director"
+      },
+      {
+        "name": "Chris Bischoff",
+        "role": "Head of Global Healthcare Investing"
+      }
     ],
     "summary": {
       "en": "General Catalyst's dedicated healthcare practice, built around its 'Health Assurance' thesis and a network of partner health systems, backing digital-health and tech-enabled care companies from seed through growth."
     },
     "sources": [
-      { "url": "https://www.generalcatalyst.com/stories/introducing-health-assurance-fund-ii-the-next-chapter-in-the-digital-transformation-of-healthcare", "title": "Introducing Health Assurance Fund II", "publisher": "General Catalyst", "accessed": "undefined", "supports": "Health Assurance thesis and Fund II", "quote": "Introducing Health Assurance Fund II: the next chapter in the digital transformation of healthcare" },
-      { "url": "https://hitconsultant.net/2022/07/27/general-catalyst-health-assurance-fund-ii/", "title": "VC General Catalyst Closes $675M Health Assurance Fund II", "publisher": "HIT Consultant", "accessed": "undefined", "supports": "Fund II size $675M", "quote": "VC General Catalyst Closes $675M Health Assurance Fund II" },
-      { "url": "https://www.forbes.com/sites/katiejennings/2022/07/20/defying-pullback-in-investments-general-catalyst-launches-670-million-healthcare-fund/", "title": "Defying Pullback In Investments, General Catalyst Launches $670 Million Healthcare Fund", "publisher": "Forbes", "accessed": "undefined", "supports": "Health Assurance Fund II ~$670-675M", "quote": "Defying Pullback In Investments, General Catalyst Launches $670 Million Healthcare Fund" }
+      {
+        "url": "https://www.generalcatalyst.com/stories/introducing-health-assurance-fund-ii-the-next-chapter-in-the-digital-transformation-of-healthcare",
+        "title": "Introducing Health Assurance Fund II",
+        "publisher": "General Catalyst",
+        "accessed": "undefined",
+        "supports": "Health Assurance thesis and Fund II",
+        "quote": "Introducing Health Assurance Fund II: the next chapter in the digital transformation of healthcare"
+      },
+      {
+        "url": "https://hitconsultant.net/2022/07/27/general-catalyst-health-assurance-fund-ii/",
+        "title": "VC General Catalyst Closes $675M Health Assurance Fund II",
+        "publisher": "HIT Consultant",
+        "accessed": "undefined",
+        "supports": "Fund II size $675M",
+        "quote": "VC General Catalyst Closes $675M Health Assurance Fund II"
+      },
+      {
+        "url": "https://www.forbes.com/sites/katiejennings/2022/07/20/defying-pullback-in-investments-general-catalyst-launches-670-million-healthcare-fund/",
+        "title": "Defying Pullback In Investments, General Catalyst Launches $670 Million Healthcare Fund",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "Health Assurance Fund II ~$670-675M",
+        "quote": "Defying Pullback In Investments, General Catalyst Launches $670 Million Healthcare Fund"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/General_Catalyst",
+        "title": "General Catalyst",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Firm-wide AUM and the Health Assurance Fund's place within the wider firm",
+        "quote": "manages more than US$43 billion in assets as of December 2024"
+      },
+      {
+        "url": "https://techcrunch.com/2023/07/05/daniel-eks-neko-health-raises-65m-for-preventative-healthcare-through-full-body-scans/",
+        "title": "Daniel Ek's Neko Health raises $65M for preventative healthcare through full-body scans",
+        "publisher": "TechCrunch",
+        "accessed": "2026-08-16",
+        "supports": "General Catalyst's participation in Neko Health's Series A",
+        "quote": "The Series A round was led by Lakestar, with participation from Atomico and General Catalyst."
+      }
     ],
     "confidence": "high",
-    "verification_notes": "General Catalyst is a multi-stage generalist firm (HQ Cambridge, MA with NYC and SF offices); Health Assurance is its dedicated healthcare practice. Straddles digital health and care delivery (it has also moved into owning a health system via HATCo); the sibling care-delivery slice may overlap. Fund II reported as $675M (HIT Consultant) / $670M (Forbes); check-size range is from a secondary aggregator.",
-    "last_updated": "undefined",
+    "verification_notes": "General Catalyst is a multi-stage generalist firm (HQ Cambridge, MA with NYC and SF offices); Health Assurance is its dedicated healthcare practice. Straddles digital health and care delivery (it has also moved into owning a health system via HATCo); the sibling care-delivery slice may overlap. Fund II reported as $675M (HIT Consultant) / $670M (Forbes); check-size range is from a secondary aggregator. [2026-08 gap audit: a separate research pass proposed the main General Catalyst firm as its own row; the fact-check pass ruled that a duplicate of this record and recommended folding its facts in here instead, per this directory's convention of keeping same-firm variants in one entry. Absorbed: firm-wide $43B+ AUM, the Neko Health position (Series A participation, verified via TechCrunch), and the $485M Summa Health acquisition. This row therefore covers General Catalyst as a firm, with the Health Assurance strategy as its health-specific vehicle.]",
+    "last_updated": "2026-08-16",
     "researched_by": "digital-health-vc"
   },
   {
     "id": "us-a16z-bio-health",
-    "name": { "en": "Andreessen Horowitz (a16z) Bio + Health" },
-    "aka": ["a16z Bio + Health", "Andreessen Horowitz Bio Fund"],
+    "name": {
+      "en": "Andreessen Horowitz (a16z) Bio + Health"
+    },
+    "aka": [
+      "a16z Bio + Health",
+      "Andreessen Horowitz Bio Fund"
+    ],
     "type": "vc",
-    "subtypes": ["venture-studio"],
+    "subtypes": [
+      "venture-studio"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Menlo Park",
     "website": "https://a16z.com/bio-health/",
-    "links": { "other": ["https://a16z.com/bio-health/"] },
+    "links": {
+      "other": [
+        "https://a16z.com/bio-health/"
+      ]
+    },
     "capital": {
       "funds": [
-        { "name": "Bio Fund IV", "vintage_year": 2022, "size": { "raw": "$1.5 billion", "currency": "USD" } }
+        {
+          "name": "Bio Fund IV",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$1.5 billion",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "ai-drug-discovery", "therapeutics", "healthcare-services", "generalist-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "ai-drug-discovery",
+        "therapeutics",
+        "healthcare-services",
+        "generalist-health"
+      ],
       "thesis": "Backs founders at the intersection of AI, computation and biology, spanning digital health, novel therapeutics/modalities and health infrastructure; partners with health systems (e.g. Bassett) and, via an up-to-$500M vehicle with Eli Lilly, invests across company creation to growth."
     },
-    "lifesci": { "modalities": ["ai-ml-platform", "software-samd", "digital-therapeutics"], "company_creation": true },
+    "lifesci": {
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd",
+        "digital-therapeutics"
+      ],
+      "company_creation": true
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Devoted Health", "sector": "digital-health", "outcome": "active" },
-        { "company": "Function Health", "sector": "consumer-health", "outcome": "active" },
-        { "company": "Freenome", "sector": "diagnostics", "outcome": "active" }
+        {
+          "company": "Devoted Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Function Health",
+          "sector": "consumer-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Freenome",
+          "sector": "diagnostics",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Vijay Pande", "role": "Founding Partner (stepped down June 2025)", "background": "Founding GP of a16z Bio + Health" },
-      { "name": "Vineeta Agarwala", "role": "General Partner", "background": "MD/PhD" },
-      { "name": "Julie Yoo", "role": "General Partner" }
+      {
+        "name": "Vijay Pande",
+        "role": "Founding Partner (stepped down June 2025)",
+        "background": "Founding GP of a16z Bio + Health"
+      },
+      {
+        "name": "Vineeta Agarwala",
+        "role": "General Partner",
+        "background": "MD/PhD"
+      },
+      {
+        "name": "Julie Yoo",
+        "role": "General Partner"
+      }
     ],
     "summary": {
       "en": "The bio and health practice of Andreessen Horowitz, investing across digital health, AI-driven healthcare and biotech from company creation to growth; raised a $1.5B fund in 2022 and a smaller successor thereafter."
     },
     "sources": [
-      { "url": "https://a16z.com/bio-health/", "title": "a16z Bio + Health", "publisher": "Andreessen Horowitz", "accessed": "undefined", "supports": "Focus on intersection of AI, computation and biology; digital health", "quote": "a16z Bio + Health partners with founders redefining medicine and healthcare" },
-      { "url": "https://a16z.com/announcement-andreessen-horowitz-partners-with-lilly-to-launch-first-of-its-kind-biotech-ecosystem-venture-fund/", "title": "Andreessen Horowitz Partners with Lilly to Launch First-of-Its-Kind Biotech Ecosystem Fund", "publisher": "Andreessen Horowitz", "accessed": "undefined", "supports": "Up to $500M with Eli Lilly across stages; founded 2014, four funds incl. $1.5B (2022)", "quote": "Since its founding in 2014, a16z Bio + Health has raised four funds, including a $1.5 billion fund that closed in 2022." }
+      {
+        "url": "https://a16z.com/bio-health/",
+        "title": "a16z Bio + Health",
+        "publisher": "Andreessen Horowitz",
+        "accessed": "undefined",
+        "supports": "Focus on intersection of AI, computation and biology; digital health",
+        "quote": "a16z Bio + Health partners with founders redefining medicine and healthcare"
+      },
+      {
+        "url": "https://a16z.com/announcement-andreessen-horowitz-partners-with-lilly-to-launch-first-of-its-kind-biotech-ecosystem-venture-fund/",
+        "title": "Andreessen Horowitz Partners with Lilly to Launch First-of-Its-Kind Biotech Ecosystem Fund",
+        "publisher": "Andreessen Horowitz",
+        "accessed": "undefined",
+        "supports": "Up to $500M with Eli Lilly across stages; founded 2014, four funds incl. $1.5B (2022)",
+        "quote": "Since its founding in 2014, a16z Bio + Health has raised four funds, including a $1.5 billion fund that closed in 2022."
+      }
     ],
     "confidence": "high",
     "verification_notes": "a16z's Bio + Health arm straddles digital health and biotech/therapeutics (sibling slices own biopharma). Founding partner Vijay Pande stepped down in June 2025. Fund figures ($1.5B 2022 fund; ~$750M successor being raised; up-to-$500M Lilly vehicle) from a16z announcements and TechCrunch.",
@@ -104,8 +301,12 @@
   },
   {
     "id": "us-7wireventures",
-    "name": { "en": "7wireVentures" },
-    "aka": ["7wire Ventures"],
+    "name": {
+      "en": "7wireVentures"
+    },
+    "aka": [
+      "7wire Ventures"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2011,
@@ -113,42 +314,126 @@
     "country": "United States",
     "hq_city": "Chicago",
     "website": "https://www.7wireventures.com/",
-    "links": { "other": ["https://www.7wireventures.com/"] },
+    "links": {
+      "other": [
+        "https://www.7wireventures.com/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "more than $500 million", "currency": "USD" },
+      "aum": {
+        "raw": "more than $500 million",
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Connected Consumer Health Fund", "vintage_year": 2021, "size": { "raw": "$150 million", "currency": "USD" } },
-        { "name": "Growth & Opportunity Fund", "vintage_year": 2023, "size": { "raw": "$217 million", "currency": "USD" } }
+        {
+          "name": "Connected Consumer Health Fund",
+          "vintage_year": 2021,
+          "size": {
+            "raw": "$150 million",
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Growth & Opportunity Fund",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "$217 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "consumer-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "consumer-health"
+      ],
       "thesis": "'Informed connected health consumer' thesis: technology, shared data and aligned incentives can empower patients to manage their own health; invests in early-stage consumer-centered, technology-enabled healthcare."
     },
-    "lifesci": { "modalities": ["digital-therapeutics", "software-samd", "ai-ml-platform"] },
+    "lifesci": {
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd",
+        "ai-ml-platform"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Livongo", "sector": "digital-health", "outcome": "acquired" },
-        { "company": "NOCD", "sector": "mental-health", "outcome": "active" },
-        { "company": "Folx Health", "sector": "digital-health", "outcome": "active" },
-        { "company": "Brightline", "sector": "mental-health", "outcome": "active" }
+        {
+          "company": "Livongo",
+          "sector": "digital-health",
+          "outcome": "acquired"
+        },
+        {
+          "company": "NOCD",
+          "sector": "mental-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Folx Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Brightline",
+          "sector": "mental-health",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Glen Tullman", "role": "Co-founder & Managing Partner", "background": "Former CEO of Livongo and Allscripts" },
-      { "name": "Lee Shapiro", "role": "Co-founder & Managing Partner" },
-      { "name": "Alyssa Jaffee", "role": "Partner" }
+      {
+        "name": "Glen Tullman",
+        "role": "Co-founder & Managing Partner",
+        "background": "Former CEO of Livongo and Allscripts"
+      },
+      {
+        "name": "Lee Shapiro",
+        "role": "Co-founder & Managing Partner"
+      },
+      {
+        "name": "Alyssa Jaffee",
+        "role": "Partner"
+      }
     ],
     "summary": {
       "en": "Chicago-based early-stage digital-health VC founded in 2011, known for incubating Livongo; invests behind its 'informed connected health consumer' thesis with $500M+ AUM across a $150M consumer fund and a $217M growth fund."
     },
     "sources": [
-      { "url": "https://www.fiercehealthcare.com/digital-health/healthcare-vc-7wireventures-closes-217m-fund-double-down-digital-health-investments", "title": "Healthcare VC 7wireVentures closes $217M fund to 'double down' on digital health investments", "publisher": "Fierce Healthcare", "accessed": "undefined", "supports": "$217M Growth & Opportunity Fund; $500M+ AUM", "quote": "Healthcare VC 7wireVentures closes $217M fund to 'double down' on digital health investments" },
-      { "url": "https://www.businesswire.com/news/home/20210518005112/en/7wireVentures-Closes-%24150-Million-Connected-Consumer-Health-Fund", "title": "7wireVentures Closes $150 Million Connected Consumer Health Fund", "publisher": "Business Wire", "accessed": "undefined", "supports": "$150M Connected Consumer Health Fund (2021)", "quote": "7wireVentures Closes $150 Million Connected Consumer Health Fund" },
-      { "url": "https://medcitynews.com/2023/10/venture-capital-digital-health/", "title": "7wireVentures Launches $217M Digital Health Fund", "publisher": "MedCity News", "accessed": "undefined", "supports": "Founded 2011, Chicago, digital health focus, Livongo", "quote": "7wireVentures Launches $217M Digital Health Fund" }
+      {
+        "url": "https://www.fiercehealthcare.com/digital-health/healthcare-vc-7wireventures-closes-217m-fund-double-down-digital-health-investments",
+        "title": "Healthcare VC 7wireVentures closes $217M fund to 'double down' on digital health investments",
+        "publisher": "Fierce Healthcare",
+        "accessed": "undefined",
+        "supports": "$217M Growth & Opportunity Fund; $500M+ AUM",
+        "quote": "Healthcare VC 7wireVentures closes $217M fund to 'double down' on digital health investments"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20210518005112/en/7wireVentures-Closes-%24150-Million-Connected-Consumer-Health-Fund",
+        "title": "7wireVentures Closes $150 Million Connected Consumer Health Fund",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "$150M Connected Consumer Health Fund (2021)",
+        "quote": "7wireVentures Closes $150 Million Connected Consumer Health Fund"
+      },
+      {
+        "url": "https://medcitynews.com/2023/10/venture-capital-digital-health/",
+        "title": "7wireVentures Launches $217M Digital Health Fund",
+        "publisher": "MedCity News",
+        "accessed": "undefined",
+        "supports": "Founded 2011, Chicago, digital health focus, Livongo",
+        "quote": "7wireVentures Launches $217M Digital Health Fund"
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -156,8 +441,12 @@
   },
   {
     "id": "us-rock-health-capital",
-    "name": { "en": "Rock Health Capital" },
-    "aka": ["Rock Health"],
+    "name": {
+      "en": "Rock Health Capital"
+    },
+    "aka": [
+      "Rock Health"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2010,
@@ -165,29 +454,77 @@
     "country": "United States",
     "hq_city": "San Francisco",
     "website": "https://rockhealthcapital.com/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/rock-health", "other": ["https://rockhealthcapital.com/"] },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/rock-health",
+      "other": [
+        "https://rockhealthcapital.com/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "$50,000,000", "currency": "USD" }
+      "aum": {
+        "raw": "$50,000,000",
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "check_size": { "raw": "$100,000 to $5,000,000 (sweet spot ~$1.5M)" },
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "$100,000 to $5,000,000 (sweet spot ~$1.5M)"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health"
+      ],
       "thesis": "Invests in entrepreneurs working at the intersection of healthcare and technology; part of the broader Rock Health platform (advisory, research and the nonprofit RockHealth.org)."
     },
-    "lifesci": { "modalities": ["digital-therapeutics", "software-samd", "ai-ml-platform"] },
+    "lifesci": {
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd",
+        "ai-ml-platform"
+      ]
+    },
     "people": [
-      { "name": "Bill Evans", "role": "Managing Director & CEO" }
+      {
+        "name": "Bill Evans",
+        "role": "Managing Director & CEO"
+      }
     ],
     "summary": {
       "en": "San Francisco pre-seed/seed/Series A digital-health fund at the center of the Rock Health ecosystem, which also produces the widely cited annual digital-health funding reports."
     },
     "sources": [
-      { "url": "https://rockhealthcapital.com/", "title": "Capital | Rock Health", "publisher": "Rock Health Capital", "accessed": "undefined", "supports": "Digital health thesis, healthcare-technology intersection", "quote": "We invest in remarkable entrepreneurs working at the intersection of healthcare and technology." },
-      { "url": "https://www.openvc.app/fund/Rock%20Health%20Capital", "title": "Rock Health Capital | Investor Profile", "publisher": "OpenVC", "accessed": "undefined", "supports": "Stage focus, $100K-$5M checks, ~$1.5M sweet spot, $50M AUM", "quote": "The fund typically invests between $100,000 and $5,000,000, with a sweet spot of around $1,500,000." },
-      { "url": "https://rockhealth.com/insights/2025-year-end-digital-health-funding-overview-a-tale-of-two-markets/", "title": "2025 year-end digital health funding overview", "publisher": "Rock Health", "accessed": "undefined", "supports": "Rock Health research/insights arm", "quote": "2025 year-end digital health funding overview: A tale of two markets" }
+      {
+        "url": "https://rockhealthcapital.com/",
+        "title": "Capital | Rock Health",
+        "publisher": "Rock Health Capital",
+        "accessed": "undefined",
+        "supports": "Digital health thesis, healthcare-technology intersection",
+        "quote": "We invest in remarkable entrepreneurs working at the intersection of healthcare and technology."
+      },
+      {
+        "url": "https://www.openvc.app/fund/Rock%20Health%20Capital",
+        "title": "Rock Health Capital | Investor Profile",
+        "publisher": "OpenVC",
+        "accessed": "undefined",
+        "supports": "Stage focus, $100K-$5M checks, ~$1.5M sweet spot, $50M AUM",
+        "quote": "The fund typically invests between $100,000 and $5,000,000, with a sweet spot of around $1,500,000."
+      },
+      {
+        "url": "https://rockhealth.com/insights/2025-year-end-digital-health-funding-overview-a-tale-of-two-markets/",
+        "title": "2025 year-end digital health funding overview",
+        "publisher": "Rock Health",
+        "accessed": "undefined",
+        "supports": "Rock Health research/insights arm",
+        "quote": "2025 year-end digital health funding overview: A tale of two markets"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "The official Capital site is thin on numbers; AUM ($50M) and check-size figures come from secondary investor-profile aggregators (OpenVC / AngelsPartners) and should be treated as approximate. 'Rock Health' also refers to the advisory/community and the separate nonprofit RockHealth.org.",
@@ -196,47 +533,115 @@
   },
   {
     "id": "us-oak-hc-ft",
-    "name": { "en": "Oak HC/FT" },
-    "aka": ["Oak HC/FT Partners"],
+    "name": {
+      "en": "Oak HC/FT"
+    },
+    "aka": [
+      "Oak HC/FT Partners"
+    ],
     "type": "growth-equity",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Stamford",
     "website": "https://www.oakhcft.com/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/oak-hc-ft-partners", "other": ["https://www.oakhcft.com/"] },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/oak-hc-ft-partners",
+      "other": [
+        "https://www.oakhcft.com/"
+      ]
+    },
     "capital": {
       "funds": [
-        { "name": "Fund I", "size": { "raw": "$500 million", "currency": "USD" } },
-        { "name": "Fund V", "vintage_year": 2022, "size": { "raw": "$1.94 billion", "currency": "USD" } }
+        {
+          "name": "Fund I",
+          "size": {
+            "raw": "$500 million",
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund V",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$1.94 billion",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "$1M to $100M" },
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$1M to $100M"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Venture-growth firm investing in Healthcare Information & Services and Financial Services Technology; on the health side backs digital-health, health IT and tech-enabled services from seed to growth."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Oshi Health", "sector": "digital-health", "outcome": "active" },
-        { "company": "Main Street Health", "sector": "healthcare-services", "outcome": "active" }
+        {
+          "company": "Oshi Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Main Street Health",
+          "sector": "healthcare-services",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Annie Lamont", "role": "Co-founder & Managing Partner" }
+      {
+        "name": "Annie Lamont",
+        "role": "Co-founder & Managing Partner"
+      }
     ],
     "summary": {
       "en": "Stamford-based venture-growth firm splitting its focus between healthcare information/services and fintech; its healthcare arm is one of the largest dedicated digital-health / health-IT growth investors, having closed a $1.94B Fund V in 2022."
     },
     "sources": [
-      { "url": "https://www.oakhcft.com/news/oak-hc-ft-closes-fifth-fund-at-1-94-billion-continuing-our-legacy-while-investing-in-the-future", "title": "Oak HC/FT Closes Fifth Fund at $1.94 Billion", "publisher": "Oak HC/FT", "accessed": "undefined", "supports": "Fund V $1.94B", "quote": "Oak HC/FT Closes Fifth Fund at $1.94 Billion: Continuing our Legacy While Investing in The Future" },
-      { "url": "https://www.oakhcft.com/news/oak-hc-ft-launches-500-million-healthcare-information-fintech-fund", "title": "Oak HC/FT Launches $500 Million Healthcare Information, Fintech Fund", "publisher": "Oak HC/FT", "accessed": "undefined", "supports": "Debut $500M fund; healthcare information + fintech focus", "quote": "Oak HC/FT Launches $500 Million Healthcare Information, Fintech Fund" }
+      {
+        "url": "https://www.oakhcft.com/news/oak-hc-ft-closes-fifth-fund-at-1-94-billion-continuing-our-legacy-while-investing-in-the-future",
+        "title": "Oak HC/FT Closes Fifth Fund at $1.94 Billion",
+        "publisher": "Oak HC/FT",
+        "accessed": "undefined",
+        "supports": "Fund V $1.94B",
+        "quote": "Oak HC/FT Closes Fifth Fund at $1.94 Billion: Continuing our Legacy While Investing in The Future"
+      },
+      {
+        "url": "https://www.oakhcft.com/news/oak-hc-ft-launches-500-million-healthcare-information-fintech-fund",
+        "title": "Oak HC/FT Launches $500 Million Healthcare Information, Fintech Fund",
+        "publisher": "Oak HC/FT",
+        "accessed": "undefined",
+        "supports": "Debut $500M fund; healthcare information + fintech focus",
+        "quote": "Oak HC/FT Launches $500 Million Healthcare Information, Fintech Fund"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Half of the firm's mandate is fintech (out of scope); the 'HC' (Healthcare Information & Services) half is the digital-health/health-IT practice. HQ Stamford, CT with an SF office. A sixth ~$2B fund was reported to be in the market in 2025.",
@@ -245,44 +650,114 @@
   },
   {
     "id": "us-venrock",
-    "name": { "en": "Venrock" },
-    "aka": ["Venrock Associates"],
+    "name": {
+      "en": "Venrock"
+    },
+    "aka": [
+      "Venrock Associates"
+    ],
     "type": "vc",
-    "subtypes": ["generalist-health"],
+    "subtypes": [
+      "generalist-health"
+    ],
     "status": "active",
     "founded_year": 1969,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Palo Alto",
     "website": "https://www.venrock.com/",
-    "links": { "other": ["https://www.venrock.com/"] },
+    "links": {
+      "other": [
+        "https://www.venrock.com/"
+      ]
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services", "therapeutics", "generalist-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services",
+        "therapeutics",
+        "generalist-health"
+      ],
       "thesis": "Long-standing generalist VC (Rockefeller roots) with a deep healthcare-technology and services practice; has moved beyond digital-health 'point solutions' toward platform companies in care delivery, benefits and clinical AI."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Aledade", "sector": "healthcare-services", "outcome": "active" },
-        { "company": "Devoted Health", "sector": "digital-health", "outcome": "active" },
-        { "company": "Lyra Health", "sector": "mental-health", "outcome": "active" },
-        { "company": "Included Health", "sector": "digital-health", "outcome": "active" },
-        { "company": "Suki.ai", "sector": "healthcare-it", "outcome": "active" }
+        {
+          "company": "Aledade",
+          "sector": "healthcare-services",
+          "outcome": "active"
+        },
+        {
+          "company": "Devoted Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Lyra Health",
+          "sector": "mental-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Included Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Suki.ai",
+          "sector": "healthcare-it",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Bryan Roberts", "role": "Partner", "background": "Healthcare & life-science investing since 1997" },
-      { "name": "Bob Kocher", "role": "Partner", "background": "MD; former Special Assistant to the President for Healthcare & Economic Policy" }
+      {
+        "name": "Bryan Roberts",
+        "role": "Partner",
+        "background": "Healthcare & life-science investing since 1997"
+      },
+      {
+        "name": "Bob Kocher",
+        "role": "Partner",
+        "background": "MD; former Special Assistant to the President for Healthcare & Economic Policy"
+      }
     ],
     "summary": {
       "en": "One of the oldest US venture firms, with a marquee healthcare-technology franchise led by Bryan Roberts and Bob Kocher that has backed Aledade, Devoted Health, Lyra Health and other digital-health and care platforms."
     },
     "sources": [
-      { "url": "https://www.venrock.com/teammember/bob-kocher/", "title": "Bob Kocher - Venrock", "publisher": "Venrock", "accessed": "undefined", "supports": "Health-tech/services investing; board seats at Devoted Health, Virta, Aledade, Lyra", "quote": "Bob Kocher is a Partner at Venrock and focuses on health tech and services investments." },
-      { "url": "https://www.statnews.com/2024/05/17/bob-kocher-venture-capitalist-health-tech-stat-summit/", "title": "Venture capitalist Bob Kocher on the state of digital health", "publisher": "STAT News", "accessed": "undefined", "supports": "Digital-health investment perspective", "quote": "Venture capitalist Bob Kocher on the state of digital health" }
+      {
+        "url": "https://www.venrock.com/teammember/bob-kocher/",
+        "title": "Bob Kocher - Venrock",
+        "publisher": "Venrock",
+        "accessed": "undefined",
+        "supports": "Health-tech/services investing; board seats at Devoted Health, Virta, Aledade, Lyra",
+        "quote": "Bob Kocher is a Partner at Venrock and focuses on health tech and services investments."
+      },
+      {
+        "url": "https://www.statnews.com/2024/05/17/bob-kocher-venture-capitalist-health-tech-stat-summit/",
+        "title": "Venture capitalist Bob Kocher on the state of digital health",
+        "publisher": "STAT News",
+        "accessed": "undefined",
+        "supports": "Digital-health investment perspective",
+        "quote": "Venture capitalist Bob Kocher on the state of digital health"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Venrock is a multi-sector generalist (also tech and biotech/therapeutics); included here for its dedicated healthcare-technology/services practice. HQ Palo Alto with a New York office.",
@@ -291,8 +766,12 @@
   },
   {
     "id": "us-406-ventures",
-    "name": { "en": ".406 Ventures" },
-    "aka": ["406 Ventures"],
+    "name": {
+      "en": ".406 Ventures"
+    },
+    "aka": [
+      "406 Ventures"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2005,
@@ -300,40 +779,110 @@
     "country": "United States",
     "hq_city": "Boston",
     "website": "https://www.406ventures.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/.406-ventures", "other": ["https://www.406ventures.com/"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/.406-ventures",
+      "other": [
+        "https://www.406ventures.com/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "over $1.4B", "currency": "USD" },
+      "aum": {
+        "raw": "over $1.4B",
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund V", "vintage_year": 2024, "size": { "raw": "$265 million", "currency": "USD" } }
+        {
+          "name": "Fund V",
+          "vintage_year": 2024,
+          "size": {
+            "raw": "$265 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "check_size": { "raw": "$4 million to $8 million" },
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "$4 million to $8 million"
+      },
       "lead_or_follow": "lead",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it"
+      ],
       "thesis": "Boston enterprise-focused early-stage firm investing across three verticals — healthcare, data + AI, and cybersecurity — typically leading $4-8M rounds in digital-health and health-data companies."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "AbleTo", "sector": "mental-health", "outcome": "acquired" },
-        { "company": "Iora Health", "sector": "healthcare-services", "outcome": "acquired" },
-        { "company": "Health Dialog", "sector": "digital-health", "outcome": "acquired" }
+        {
+          "company": "AbleTo",
+          "sector": "mental-health",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Iora Health",
+          "sector": "healthcare-services",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Health Dialog",
+          "sector": "digital-health",
+          "outcome": "acquired"
+        }
       ]
     },
     "people": [
-      { "name": "Liam Donohue", "role": "Co-founder & Managing Partner" },
-      { "name": "Larry Begley", "role": "Co-founder & Managing Partner" }
+      {
+        "name": "Liam Donohue",
+        "role": "Co-founder & Managing Partner"
+      },
+      {
+        "name": "Larry Begley",
+        "role": "Co-founder & Managing Partner"
+      }
     ],
     "summary": {
       "en": "Boston-based early-stage firm with ~$1.4B AUM investing in enterprise healthcare, data + AI and cybersecurity; raised a $265M Fund V in 2024 and has led digital-health winners such as AbleTo and Iora Health."
     },
     "sources": [
-      { "url": "https://www.406ventures.com/", "title": ".406 Ventures", "publisher": ".406 Ventures", "accessed": "undefined", "supports": "Three verticals (healthcare, data + AI, cybersecurity); Boston HQ; ~20 years", "quote": "We've been proving the value of great relationships for nearly 20 years, partnering with founders to help transform their companies into category-defining powerhouses." },
-      { "url": "https://techcrunch.com/2024/02/15/406-ventures-secures-265m-for-fifth-fund/", "title": ".406 Ventures secures $265M for fifth fund", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund V $265M; digital health / AI / cybersecurity; $4-8M lead checks", "quote": ".406 Ventures secures $265M for fifth fund" },
-      { "url": "https://www.bostonglobe.com/2024/02/20/business/406-ventures-ai-cyber-health/", "title": "With new fund, Boston's .406 Ventures drills down on AI, cybersecurity, and health care", "publisher": "The Boston Globe", "accessed": "undefined", "supports": ">$1.4B AUM; early-stage healthcare/AI/cyber", "quote": "With new fund, Boston's .406 Ventures drills down on AI, cybersecurity, and health care" }
+      {
+        "url": "https://www.406ventures.com/",
+        "title": ".406 Ventures",
+        "publisher": ".406 Ventures",
+        "accessed": "undefined",
+        "supports": "Three verticals (healthcare, data + AI, cybersecurity); Boston HQ; ~20 years",
+        "quote": "We've been proving the value of great relationships for nearly 20 years, partnering with founders to help transform their companies into category-defining powerhouses."
+      },
+      {
+        "url": "https://techcrunch.com/2024/02/15/406-ventures-secures-265m-for-fifth-fund/",
+        "title": ".406 Ventures secures $265M for fifth fund",
+        "publisher": "TechCrunch",
+        "accessed": "undefined",
+        "supports": "Fund V $265M; digital health / AI / cybersecurity; $4-8M lead checks",
+        "quote": ".406 Ventures secures $265M for fifth fund"
+      },
+      {
+        "url": "https://www.bostonglobe.com/2024/02/20/business/406-ventures-ai-cyber-health/",
+        "title": "With new fund, Boston's .406 Ventures drills down on AI, cybersecurity, and health care",
+        "publisher": "The Boston Globe",
+        "accessed": "undefined",
+        "supports": ">$1.4B AUM; early-stage healthcare/AI/cyber",
+        "quote": "With new fund, Boston's .406 Ventures drills down on AI, cybersecurity, and health care"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Multi-sector: healthcare is one of three verticals alongside data/AI and cybersecurity. Founding year (~2005) inferred from 'nearly two decades' framing in 2024. AUM (>$1.4B) from firm materials via Boston Globe.",
@@ -342,7 +891,9 @@
   },
   {
     "id": "us-flare-capital-partners",
-    "name": { "en": "Flare Capital Partners" },
+    "name": {
+      "en": "Flare Capital Partners"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2013,
@@ -350,34 +901,99 @@
     "country": "United States",
     "hq_city": "Boston",
     "website": "https://www.flarecapital.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/flare-capital-partners", "crunchbase": "https://www.crunchbase.com/organization/flare-capitalpartners", "other": ["https://www.flarecapital.com/"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/flare-capital-partners",
+      "crunchbase": "https://www.crunchbase.com/organization/flare-capitalpartners",
+      "other": [
+        "https://www.flarecapital.com/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "approximately $1 billion", "currency": "USD" },
+      "aum": {
+        "raw": "approximately $1 billion",
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund III", "vintage_year": 2022, "size": { "raw": "$350 million", "currency": "USD" } }
+        {
+          "name": "Fund III",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$350 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "check_size": { "raw": "$1M-$8M" },
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "check_size": {
+        "raw": "$1M-$8M"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "medtech-devices"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "medtech-devices"
+      ],
       "thesis": "Early-stage healthcare-technology specialist backing digital health, healthcare SaaS, clinical information systems and tech-enabled services; among the most active US digital-health investors."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "people": [
-      { "name": "Michael Greeley", "role": "Co-founder & General Partner" },
-      { "name": "Bill Geary", "role": "Co-founder & General Partner" },
-      { "name": "Dan Gebremedhin", "role": "General Partner", "background": "MD" }
+      {
+        "name": "Michael Greeley",
+        "role": "Co-founder & General Partner"
+      },
+      {
+        "name": "Bill Geary",
+        "role": "Co-founder & General Partner"
+      },
+      {
+        "name": "Dan Gebremedhin",
+        "role": "General Partner",
+        "background": "MD"
+      }
     ],
     "summary": {
       "en": "Boston-based early-stage healthcare-technology VC with roughly $1B AUM, focused on digital health, healthcare SaaS and clinical information systems; ranked among the most active US digital-health investors in 2024."
     },
     "sources": [
-      { "url": "https://www.flarecapital.com/about", "title": "About | Flare Capital Partners", "publisher": "Flare Capital Partners", "accessed": "undefined", "supports": "Healthcare-technology focus, Boston", "quote": "Flare Capital Partners" },
-      { "url": "https://www.vcsheet.com/fund/flare-capital-partners", "title": "Flare Capital Partners - VC Fund Breakdown", "publisher": "VC Sheet", "accessed": "undefined", "supports": "~$1B AUM; Fund III $350M (2022); digital health / healthcare SaaS", "quote": "Flare Capital manages approximately $1 billion in assets under management across multiple funds, including Fund III, which raised $350 million in 2022." },
-      { "url": "https://www.rho.co/blog/vcs-in-healthcare", "title": "15 Best Healthcare VC Firms: The 2025 Investor List", "publisher": "Rho", "accessed": "undefined", "supports": "Among most active US digital-health investors (16 deals in 2024)", "quote": "Flare Capital was one of the most active U.S. digital health investors in 2024, with 16 deals" }
+      {
+        "url": "https://www.flarecapital.com/about",
+        "title": "About | Flare Capital Partners",
+        "publisher": "Flare Capital Partners",
+        "accessed": "undefined",
+        "supports": "Healthcare-technology focus, Boston",
+        "quote": "Flare Capital Partners"
+      },
+      {
+        "url": "https://www.vcsheet.com/fund/flare-capital-partners",
+        "title": "Flare Capital Partners - VC Fund Breakdown",
+        "publisher": "VC Sheet",
+        "accessed": "undefined",
+        "supports": "~$1B AUM; Fund III $350M (2022); digital health / healthcare SaaS",
+        "quote": "Flare Capital manages approximately $1 billion in assets under management across multiple funds, including Fund III, which raised $350 million in 2022."
+      },
+      {
+        "url": "https://www.rho.co/blog/vcs-in-healthcare",
+        "title": "15 Best Healthcare VC Firms: The 2025 Investor List",
+        "publisher": "Rho",
+        "accessed": "undefined",
+        "supports": "Among most active US digital-health investors (16 deals in 2024)",
+        "quote": "Flare Capital was one of the most active U.S. digital health investors in 2024, with 16 deals"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM (~$1B) and Fund III ($350M, 2022) come from secondary fund databases (VC Sheet); a Fund IV size was not confirmed at time of research.",
@@ -386,7 +1002,9 @@
   },
   {
     "id": "us-define-ventures",
-    "name": { "en": "Define Ventures" },
+    "name": {
+      "en": "Define Ventures"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2018,
@@ -394,40 +1012,112 @@
     "country": "United States",
     "hq_city": "San Francisco",
     "website": "https://www.definevc.com/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/define-ventures", "other": ["https://www.definevc.com/"] },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/define-ventures",
+      "other": [
+        "https://www.definevc.com/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "roughly $800 million", "currency": "USD" },
+      "aum": {
+        "raw": "roughly $800 million",
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund III + Opportunities Fund", "vintage_year": 2023, "size": { "raw": "$460 million (across two funds)", "currency": "USD" } }
+        {
+          "name": "Fund III + Opportunities Fund",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "$460 million (across two funds)",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health"
+      ],
       "thesis": "One of the few Silicon Valley firms investing solely in early-stage digital health (incubation, seed, Series A/B), combining Silicon Valley company-building with deep healthcare operating experience."
     },
-    "lifesci": { "modalities": ["digital-therapeutics", "software-samd", "ai-ml-platform"], "company_creation": true },
+    "lifesci": {
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd",
+        "ai-ml-platform"
+      ],
+      "company_creation": true
+    },
     "track_record": {
       "portfolio_count": 21,
       "notable_investments": [
-        { "company": "Hims & Hers", "sector": "digital-health", "outcome": "IPO" },
-        { "company": "Unite Us", "sector": "healthcare-it", "outcome": "active" },
-        { "company": "Cohere Health", "sector": "digital-health", "outcome": "active" },
-        { "company": "Folx Health", "sector": "digital-health", "outcome": "active" }
+        {
+          "company": "Hims & Hers",
+          "sector": "digital-health",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Unite Us",
+          "sector": "healthcare-it",
+          "outcome": "active"
+        },
+        {
+          "company": "Cohere Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Folx Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Lynne Chou O'Keefe", "role": "Founder & Managing Partner", "background": "Former partner at Kleiner Perkins; medtech/digital-health operator" }
+      {
+        "name": "Lynne Chou O'Keefe",
+        "role": "Founder & Managing Partner",
+        "background": "Former partner at Kleiner Perkins; medtech/digital-health operator"
+      }
     ],
     "summary": {
       "en": "Silicon Valley firm investing exclusively in early-stage digital health, with roughly $800M AUM; raised $460M across two funds in 2023 and backs Hims & Hers, Unite Us and Cohere Health."
     },
     "sources": [
-      { "url": "https://www.definevc.com/", "title": "Define Ventures - Digital Health Venture Capital", "publisher": "Define Ventures", "accessed": "undefined", "supports": "Early-stage digital-health focus; portfolio; Lynne Chou O'Keefe founder", "quote": "one of the largest funds focused on early-stage health tech companies" },
-      { "url": "https://www.forbes.com/sites/katiejennings/2023/04/18/define-ventures-raises-460-million-for-early-stage-digital-health-investments/", "title": "Define Ventures Raises $460 Million For Early-Stage Digital Health Investments", "publisher": "Forbes", "accessed": "undefined", "supports": "$460M across two funds; ~$800M AUM; early-stage digital health", "quote": "Define Ventures Raises $460 Million For Early-Stage Digital Health Investments" },
-      { "url": "https://www.fiercehealthcare.com/digital-health/define-ventures-raises-460m-invest-early-stage-digital-health-startups", "title": "Define Ventures raises $460M to invest in early-stage digital health startups", "publisher": "Fierce Healthcare", "accessed": "undefined", "supports": "$460M raise; Fund III + Opportunities; portfolio of 21", "quote": "Define Ventures raises $460M to invest in early-stage digital health startups" }
+      {
+        "url": "https://www.definevc.com/",
+        "title": "Define Ventures - Digital Health Venture Capital",
+        "publisher": "Define Ventures",
+        "accessed": "undefined",
+        "supports": "Early-stage digital-health focus; portfolio; Lynne Chou O'Keefe founder",
+        "quote": "one of the largest funds focused on early-stage health tech companies"
+      },
+      {
+        "url": "https://www.forbes.com/sites/katiejennings/2023/04/18/define-ventures-raises-460-million-for-early-stage-digital-health-investments/",
+        "title": "Define Ventures Raises $460 Million For Early-Stage Digital Health Investments",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "$460M across two funds; ~$800M AUM; early-stage digital health",
+        "quote": "Define Ventures Raises $460 Million For Early-Stage Digital Health Investments"
+      },
+      {
+        "url": "https://www.fiercehealthcare.com/digital-health/define-ventures-raises-460m-invest-early-stage-digital-health-startups",
+        "title": "Define Ventures raises $460M to invest in early-stage digital health startups",
+        "publisher": "Fierce Healthcare",
+        "accessed": "undefined",
+        "supports": "$460M raise; Fund III + Opportunities; portfolio of 21",
+        "quote": "Define Ventures raises $460M to invest in early-stage digital health startups"
+      }
     ],
     "confidence": "high",
     "verification_notes": "HQ described as Silicon Valley / San Francisco Bay Area; exact city not stated on official site. AUM (~$800M) from Forbes/Fierce coverage of the 2023 raise.",
@@ -436,43 +1126,105 @@
   },
   {
     "id": "us-transformation-capital",
-    "name": { "en": "Transformation Capital" },
-    "aka": ["TransformCap"],
+    "name": {
+      "en": "Transformation Capital"
+    },
+    "aka": [
+      "TransformCap"
+    ],
     "type": "growth-equity",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2019,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Boston",
     "website": "https://transformcap.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/transformationcapital", "other": ["https://transformcap.com/"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/transformationcapital",
+      "other": [
+        "https://transformcap.com/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "over $800 million", "currency": "USD" },
+      "aum": {
+        "raw": "over $800 million",
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Transformation Capital Fund II (TCF II)", "size": { "raw": "$500 million", "currency": "USD" } }
+        {
+          "name": "Transformation Capital Fund II (TCF II)",
+          "size": {
+            "raw": "$500 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "$20 million to $100 million" },
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$20 million to $100 million"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Growth-equity firm dedicated exclusively to commercial-stage digital health and technology-enabled healthcare-services businesses; 'digital health is the future of health.'"
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "people": [
-      { "name": "Todd Cozzens", "role": "Co-founder & Managing Partner" },
-      { "name": "Jared Kesselheim", "role": "Co-founder & Managing Partner", "background": "MD" },
-      { "name": "Mike Dixon", "role": "Managing Partner" }
+      {
+        "name": "Todd Cozzens",
+        "role": "Co-founder & Managing Partner"
+      },
+      {
+        "name": "Jared Kesselheim",
+        "role": "Co-founder & Managing Partner",
+        "background": "MD"
+      },
+      {
+        "name": "Mike Dixon",
+        "role": "Managing Partner"
+      }
     ],
     "summary": {
       "en": "Boston growth-equity firm investing exclusively in commercial-stage digital health, writing $20-100M checks; manages over $800M including a $500M Fund II."
     },
     "sources": [
-      { "url": "https://transformcap.com/", "title": "Transformation Capital | Digital Healthcare Investor", "publisher": "Transformation Capital", "accessed": "undefined", "supports": "Exclusive digital-health focus", "quote": "Digital health is the future of health - let's make it together." },
-      { "url": "https://www.prnewswire.com/news-releases/transformation-capital-launches-500-million-digital-health-fund-to-support-entrepreneurs-transforming-healthcare-301202883.html", "title": "Transformation Capital Launches $500 Million Digital Health Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund II $500M; digital-health growth focus; founded 2019", "quote": "Transformation Capital Launches $500 Million Digital Health Fund to Support Entrepreneurs Transforming Healthcare" }
+      {
+        "url": "https://transformcap.com/",
+        "title": "Transformation Capital | Digital Healthcare Investor",
+        "publisher": "Transformation Capital",
+        "accessed": "undefined",
+        "supports": "Exclusive digital-health focus",
+        "quote": "Digital health is the future of health - let's make it together."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/transformation-capital-launches-500-million-digital-health-fund-to-support-entrepreneurs-transforming-healthcare-301202883.html",
+        "title": "Transformation Capital Launches $500 Million Digital Health Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund II $500M; digital-health growth focus; founded 2019",
+        "quote": "Transformation Capital Launches $500 Million Digital Health Fund to Support Entrepreneurs Transforming Healthcare"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM (>$800M), check-size range and founding year from PR Newswire and secondary profiles; not all figures restated on the current homepage.",
@@ -481,8 +1233,13 @@
   },
   {
     "id": "us-lrvhealth",
-    "name": { "en": "LRVHealth" },
-    "aka": ["Long River Ventures", "LRV Health"],
+    "name": {
+      "en": "LRVHealth"
+    },
+    "aka": [
+      "Long River Ventures",
+      "LRV Health"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2000,
@@ -490,30 +1247,81 @@
     "country": "United States",
     "hq_city": "Boston",
     "website": "https://lrvhealth.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/lrvhealth", "other": ["https://lrvhealth.com/"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/lrvhealth",
+      "other": [
+        "https://lrvhealth.com/"
+      ]
+    },
     "capital": {
       "funds": [
-        { "name": "Fund V", "vintage_year": 2023, "size": { "raw": "$200 million", "currency": "USD" } }
+        {
+          "name": "Fund V",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "$200 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "'Inside Healthcare' investing platform: a network of provider, payer and vendor LPs — reaching one in three US healthcare consumers — that co-identifies, invests in and adopts early-stage digital-health and health-IT solutions."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "people": [
-      { "name": "Keith Figlioli", "role": "Managing Partner" }
+      {
+        "name": "Keith Figlioli",
+        "role": "Managing Partner"
+      }
     ],
     "summary": {
       "en": "Boston early-stage healthcare VC built around an 'Inside Healthcare' network of provider and payer LPs; raised a $200M Fund V in 2023 to back digital-health and health-IT companies with built-in strategic customers."
     },
     "sources": [
-      { "url": "https://lrvhealth.com/", "title": "LRVHealth | Healthcare Venture Capital Platform", "publisher": "LRVHealth", "accessed": "undefined", "supports": "'Inside Healthcare' platform; provider/payer/vendor network", "quote": "LRVHealth is the 'Inside Healthcare' venture capital platform." },
-      { "url": "https://www.businesswire.com/news/home/20230517005157/en/LRVHealth-Raises-$200-Million-Fund-V-to-Transform-Healthcare-from-the-Inside", "title": "LRVHealth Raises $200 Million Fund V to Transform Healthcare from the Inside", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund V $200M (2023)", "quote": "LRVHealth Raises $200 Million Fund V to Transform Healthcare from the Inside" },
-      { "url": "https://www.fiercehealthcare.com/digital-health/lrvhealth-raises-200m-fund-second-wave-digital-health-innovation", "title": "LRVHealth raises $200M to fund the 'second wave' of digital health innovation", "publisher": "Fierce Healthcare", "accessed": "undefined", "supports": "Founded 2000; digital-health focus", "quote": "LRVHealth raises $200M to fund the 'second wave' of digital health innovation" }
+      {
+        "url": "https://lrvhealth.com/",
+        "title": "LRVHealth | Healthcare Venture Capital Platform",
+        "publisher": "LRVHealth",
+        "accessed": "undefined",
+        "supports": "'Inside Healthcare' platform; provider/payer/vendor network",
+        "quote": "LRVHealth is the 'Inside Healthcare' venture capital platform."
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20230517005157/en/LRVHealth-Raises-$200-Million-Fund-V-to-Transform-Healthcare-from-the-Inside",
+        "title": "LRVHealth Raises $200 Million Fund V to Transform Healthcare from the Inside",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Fund V $200M (2023)",
+        "quote": "LRVHealth Raises $200 Million Fund V to Transform Healthcare from the Inside"
+      },
+      {
+        "url": "https://www.fiercehealthcare.com/digital-health/lrvhealth-raises-200m-fund-second-wave-digital-health-innovation",
+        "title": "LRVHealth raises $200M to fund the 'second wave' of digital health innovation",
+        "publisher": "Fierce Healthcare",
+        "accessed": "undefined",
+        "supports": "Founded 2000; digital-health focus",
+        "quote": "LRVHealth raises $200M to fund the 'second wave' of digital health innovation"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Model overlaps with care delivery (health-system LPs adopt portfolio solutions); included for its digital-health/health-IT investing focus.",
@@ -522,43 +1330,102 @@
   },
   {
     "id": "us-maverick-ventures",
-    "name": { "en": "Maverick Ventures" },
+    "name": {
+      "en": "Maverick Ventures"
+    },
     "type": "vc",
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "San Francisco",
     "website": "https://www.maverickventures.com/",
-    "links": { "other": ["https://www.maverickventures.com/"] },
+    "links": {
+      "other": [
+        "https://www.maverickventures.com/"
+      ]
+    },
     "capital": {
       "funds": [
-        { "name": "Third evergreen fund", "vintage_year": 2021, "size": { "raw": "$600 million", "currency": "USD" } }
+        {
+          "name": "Third evergreen fund",
+          "vintage_year": 2021,
+          "size": {
+            "raw": "$600 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-services", "generalist-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-services",
+        "generalist-health"
+      ],
       "thesis": "Evergreen venture arm of hedge fund Maverick Capital, investing from inception through IPO with a deep focus on healthcare innovation (including digital health) and enterprise AI."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"], "invests_public_markets": true },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ],
+      "invests_public_markets": true
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Hims & Hers", "sector": "digital-health", "outcome": "IPO" },
-        { "company": "One Medical", "sector": "healthcare-services", "outcome": "acquired" }
+        {
+          "company": "Hims & Hers",
+          "sector": "digital-health",
+          "outcome": "IPO"
+        },
+        {
+          "company": "One Medical",
+          "sector": "healthcare-services",
+          "outcome": "acquired"
+        }
       ]
     },
     "people": [
-      { "name": "Ambar Bhattacharyya", "role": "Managing Director" },
-      { "name": "David Singer", "role": "Managing Director" }
+      {
+        "name": "Ambar Bhattacharyya",
+        "role": "Managing Director"
+      },
+      {
+        "name": "David Singer",
+        "role": "Managing Director"
+      }
     ],
     "summary": {
       "en": "The evergreen venture arm of Maverick Capital, backing healthcare (including digital health) and enterprise-AI founders from seed to IPO; added a $600M third fund in 2021."
     },
     "sources": [
-      { "url": "https://www.maverickventures.com/", "title": "Maverick Ventures", "publisher": "Maverick Ventures", "accessed": "undefined", "supports": "Healthcare + enterprise AI focus, inception to IPO", "quote": "Maverick Ventures" },
-      { "url": "https://www.forbes.com/sites/alexkonrad/2021/04/12/maverick-ventures-600m-third-evergreen-fund/", "title": "Fresh Off Coupang Exit, Maverick Ventures Adds $600 Million Third Evergreen Fund", "publisher": "Forbes", "accessed": "undefined", "supports": "$600M third evergreen fund (2021)", "quote": "Fresh Off Coupang Exit, Maverick Ventures Adds $600 Million Third Evergreen Fund" }
+      {
+        "url": "https://www.maverickventures.com/",
+        "title": "Maverick Ventures",
+        "publisher": "Maverick Ventures",
+        "accessed": "undefined",
+        "supports": "Healthcare + enterprise AI focus, inception to IPO",
+        "quote": "Maverick Ventures"
+      },
+      {
+        "url": "https://www.forbes.com/sites/alexkonrad/2021/04/12/maverick-ventures-600m-third-evergreen-fund/",
+        "title": "Fresh Off Coupang Exit, Maverick Ventures Adds $600 Million Third Evergreen Fund",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "$600M third evergreen fund (2021)",
+        "quote": "Fresh Off Coupang Exit, Maverick Ventures Adds $600 Million Third Evergreen Fund"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Evergreen structure tied to Maverick Capital's hedge-fund platform; also invests in enterprise AI and some biotech (partly out of scope). Reliable public figure is the $600M third fund (Forbes, 2021); other AUM/check-size figures seen in secondary aggregators were inconsistent and are not asserted here. Founding year of the venture arm not confidently established.",
@@ -567,47 +1434,119 @@
   },
   {
     "id": "us-health-velocity-capital",
-    "name": { "en": "Health Velocity Capital" },
+    "name": {
+      "en": "Health Velocity Capital"
+    },
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "San Francisco",
     "website": "https://www.healthvelocitycapital.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/health-velocity-capital", "other": ["https://www.healthvelocitycapital.com/"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/health-velocity-capital",
+      "other": [
+        "https://www.healthvelocitycapital.com/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "approximately $485 million", "currency": "USD" },
+      "aum": {
+        "raw": "approximately $485 million",
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund I", "size": { "raw": "$185 million", "currency": "USD" } },
-        { "name": "Fund II", "size": { "raw": "$300 million", "currency": "USD" } }
+        {
+          "name": "Fund I",
+          "size": {
+            "raw": "$185 million",
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund II",
+          "size": {
+            "raw": "$300 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Invests in growth-stage healthcare software and services companies aiming to make healthcare more affordable, sustainable and consumer-friendly; positions itself as founders' preferred innovation partner."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Teladoc Health", "sector": "digital-health", "outcome": "IPO" },
-        { "company": "Livongo", "sector": "digital-health", "outcome": "acquired" },
-        { "company": "Change Healthcare", "sector": "healthcare-it", "outcome": "acquired" }
+        {
+          "company": "Teladoc Health",
+          "sector": "digital-health",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Livongo",
+          "sector": "digital-health",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Change Healthcare",
+          "sector": "healthcare-it",
+          "outcome": "acquired"
+        }
       ]
     },
     "people": [
-      { "name": "Marty Felsenthal", "role": "Managing Partner" },
-      { "name": "David Felsenthal", "role": "Managing Partner" }
+      {
+        "name": "Marty Felsenthal",
+        "role": "Managing Partner"
+      },
+      {
+        "name": "David Felsenthal",
+        "role": "Managing Partner"
+      }
     ],
     "summary": {
       "en": "San Francisco / Nashville growth-stage healthcare software and services investor with ~$485M AUM across a $185M Fund I and $300M Fund II; principals backed Teladoc, Livongo and Change Healthcare."
     },
     "sources": [
-      { "url": "https://healthvelocitycapital.medium.com/health-velocity-capital-raises-300m-fund-to-continue-advancing-healthcare-software-and-services-9e781b2f7d10", "title": "Health Velocity Capital Raises $300M Fund", "publisher": "Health Velocity Capital (Medium)", "accessed": "undefined", "supports": "Fund II $300M; healthcare software & services focus", "quote": "Health Velocity Capital Raises $300M Fund to Continue Advancing Healthcare Software and Services Innovation" },
-      { "url": "https://news.crunchbase.com/venture/health-velocity-capital-raises-185-million-for-oversubscribed-first-healthcare-tech-fund/", "title": "Health Velocity Capital Raises $185 Million For Oversubscribed First Healthcare Tech Fund", "publisher": "Crunchbase News", "accessed": "undefined", "supports": "Fund I $185M", "quote": "Health Velocity Capital Raises $185 Million For Oversubscribed First Healthcare Tech Fund" }
+      {
+        "url": "https://healthvelocitycapital.medium.com/health-velocity-capital-raises-300m-fund-to-continue-advancing-healthcare-software-and-services-9e781b2f7d10",
+        "title": "Health Velocity Capital Raises $300M Fund",
+        "publisher": "Health Velocity Capital (Medium)",
+        "accessed": "undefined",
+        "supports": "Fund II $300M; healthcare software & services focus",
+        "quote": "Health Velocity Capital Raises $300M Fund to Continue Advancing Healthcare Software and Services Innovation"
+      },
+      {
+        "url": "https://news.crunchbase.com/venture/health-velocity-capital-raises-185-million-for-oversubscribed-first-healthcare-tech-fund/",
+        "title": "Health Velocity Capital Raises $185 Million For Oversubscribed First Healthcare Tech Fund",
+        "publisher": "Crunchbase News",
+        "accessed": "undefined",
+        "supports": "Fund I $185M",
+        "quote": "Health Velocity Capital Raises $185 Million For Oversubscribed First Healthcare Tech Fund"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Total AUM (~$485M) is the sum of the two disclosed funds per secondary profiles. Some portfolio names reflect where the principals invested prior to/at the firm. HQ San Francisco with a Nashville office.",
@@ -616,33 +1555,72 @@
   },
   {
     "id": "us-healthy-ventures",
-    "name": { "en": "Healthy Ventures" },
+    "name": {
+      "en": "Healthy Ventures"
+    },
     "type": "vc",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "San Francisco",
     "website": "https://healthy.vc/",
-    "links": { "other": ["https://healthy.vc/"] },
+    "links": {
+      "other": [
+        "https://healthy.vc/"
+      ]
+    },
     "strategy": {
-      "stages": ["seed"],
-      "check_size": { "raw": "$1M-$3M" },
+      "stages": [
+        "seed"
+      ],
+      "check_size": {
+        "raw": "$1M-$3M"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it"
+      ],
       "thesis": "Women-led seed fund focused on digital-health infrastructure — the 'core guts' of healthcare (middleware, payments, clinical-trial systems, data architecture) rather than consumer apps — and acting as a go-to-market-heavy partner for technical founders."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform"
+      ]
+    },
     "people": [
-      { "name": "Anya Schiess", "role": "Co-founder & General Partner" }
+      {
+        "name": "Anya Schiess",
+        "role": "Co-founder & General Partner"
+      }
     ],
     "summary": {
       "en": "Women-led seed-stage fund investing in the infrastructural software layer of healthcare — middleware, payments, clinical-trial and data systems — with hands-on commercialization support for technical founders."
     },
     "sources": [
-      { "url": "https://healthy.vc/", "title": "Healthy Ventures", "publisher": "Healthy Ventures", "accessed": "undefined", "supports": "Seed-stage healthcare infrastructure focus", "quote": "Healthy Ventures" },
-      { "url": "https://bluedoor.us/why-is-this-vc-focused-on-digital-health-infrastructure-ask-an-investor-anya-schiess-healthy-ventures/", "title": "Why Is This VC Focused on Digital Health Infrastructure? Ask An Investor: Anya Schiess, Healthy Ventures", "publisher": "Bluedoor Group", "accessed": "undefined", "supports": "Digital-health infrastructure thesis; Anya Schiess", "quote": "Why Is This VC Focused on Digital Health Infrastructure? Ask An Investor: Anya Schiess, Healthy Ventures" }
+      {
+        "url": "https://healthy.vc/",
+        "title": "Healthy Ventures",
+        "publisher": "Healthy Ventures",
+        "accessed": "undefined",
+        "supports": "Seed-stage healthcare infrastructure focus",
+        "quote": "Healthy Ventures"
+      },
+      {
+        "url": "https://bluedoor.us/why-is-this-vc-focused-on-digital-health-infrastructure-ask-an-investor-anya-schiess-healthy-ventures/",
+        "title": "Why Is This VC Focused on Digital Health Infrastructure? Ask An Investor: Anya Schiess, Healthy Ventures",
+        "publisher": "Bluedoor Group",
+        "accessed": "undefined",
+        "supports": "Digital-health infrastructure thesis; Anya Schiess",
+        "quote": "Why Is This VC Focused on Digital Health Infrastructure? Ask An Investor: Anya Schiess, Healthy Ventures"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Check-size ($1M-$3M) from secondary aggregators (Massively Better Healthcare / VC Sheet); fund size and founding year not confirmed from a primary source.",
@@ -651,39 +1629,98 @@
   },
   {
     "id": "us-aegis-ventures",
-    "name": { "en": "Aegis Ventures" },
+    "name": {
+      "en": "Aegis Ventures"
+    },
     "type": "venture-studio",
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "New York",
     "website": "https://aegisventures.com/",
-    "links": { "other": ["https://aegisventures.com/"] },
+    "links": {
+      "other": [
+        "https://aegisventures.com/"
+      ]
+    },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "medtech-devices"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "medtech-devices"
+      ],
       "thesis": "NYC venture studio that co-builds AI-native healthtech companies with a 'Digital Consortium' of leading health systems (Northwell, Ochsner, Sharp, Stanford Health Care and others), targeting practical AI tools for clinical and administrative workflows."
     },
-    "lifesci": { "modalities": ["ai-ml-platform", "software-samd", "medical-hardware"], "company_creation": true, "science_platform_notes": "Builds companies in partnership with a 14-health-system Digital Consortium that co-develops, invests in and deploys the studio's ventures." },
+    "lifesci": {
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd",
+        "medical-hardware"
+      ],
+      "company_creation": true,
+      "science_platform_notes": "Builds companies in partnership with a 14-health-system Digital Consortium that co-develops, invests in and deploys the studio's ventures."
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Ascertain", "sector": "healthcare-it", "outcome": "active" },
-        { "company": "Avandra", "sector": "medical-imaging", "outcome": "active" },
-        { "company": "Caregentic", "sector": "digital-health", "outcome": "active" }
+        {
+          "company": "Ascertain",
+          "sector": "healthcare-it",
+          "outcome": "active"
+        },
+        {
+          "company": "Avandra",
+          "sector": "medical-imaging",
+          "outcome": "active"
+        },
+        {
+          "company": "Caregentic",
+          "sector": "digital-health",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Bunny Ellerin", "role": "Chief Ecosystem Officer" }
+      {
+        "name": "Bunny Ellerin",
+        "role": "Chief Ecosystem Officer"
+      }
     ],
     "summary": {
       "en": "New York venture studio building and scaling AI-native healthtech companies alongside a consortium of major health systems; has launched ventures such as Ascertain, Avandra and Caregentic."
     },
     "sources": [
-      { "url": "https://aegisventures.com/", "title": "Aegis Ventures", "publisher": "Aegis Ventures", "accessed": "undefined", "supports": "NYC AI-native healthtech venture studio", "quote": "Aegis Ventures" },
-      { "url": "https://www.prnewswire.com/news-releases/aegis-ventures-announces-partnership-with-nine-health-systems-to-build-and-deploy-healthtech-solutions-302104921.html", "title": "Aegis Ventures Announces Partnership with Nine Health Systems to Build and Deploy Healthtech Solutions", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Health-system Digital Consortium; company-building model", "quote": "Aegis Ventures Announces Partnership with Nine Health Systems to Build and Deploy Healthtech Solutions" },
-      { "url": "https://www.northwell.edu/news/the-latest/northwell-aegis-ventures-artificial-intelligence-partnership", "title": "Northwell and Aegis Ventures form artificial intelligence partnership", "publisher": "Northwell Health", "accessed": "undefined", "supports": "Northwell AI partnership", "quote": "Northwell and Aegis Ventures form artificial intelligence partnership" }
+      {
+        "url": "https://aegisventures.com/",
+        "title": "Aegis Ventures",
+        "publisher": "Aegis Ventures",
+        "accessed": "undefined",
+        "supports": "NYC AI-native healthtech venture studio",
+        "quote": "Aegis Ventures"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/aegis-ventures-announces-partnership-with-nine-health-systems-to-build-and-deploy-healthtech-solutions-302104921.html",
+        "title": "Aegis Ventures Announces Partnership with Nine Health Systems to Build and Deploy Healthtech Solutions",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Health-system Digital Consortium; company-building model",
+        "quote": "Aegis Ventures Announces Partnership with Nine Health Systems to Build and Deploy Healthtech Solutions"
+      },
+      {
+        "url": "https://www.northwell.edu/news/the-latest/northwell-aegis-ventures-artificial-intelligence-partnership",
+        "title": "Northwell and Aegis Ventures form artificial intelligence partnership",
+        "publisher": "Northwell Health",
+        "accessed": "undefined",
+        "supports": "Northwell AI partnership",
+        "quote": "Northwell and Aegis Ventures form artificial intelligence partnership"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year and fund/AUM figures not disclosed publicly; classified as a venture studio (company creation). Digital Consortium reported at 9-14 health systems across different announcements.",
@@ -692,34 +1729,83 @@
   },
   {
     "id": "us-f-prime-capital",
-    "name": { "en": "F-Prime Capital" },
-    "aka": ["Fidelity Biosciences (former)"],
+    "name": {
+      "en": "F-Prime Capital"
+    },
+    "aka": [
+      "Fidelity Biosciences (former)"
+    ],
     "type": "vc",
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "Cambridge",
     "website": "https://fprimecapital.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/f-prime-capital-partners", "other": ["https://fprimecapital.com/portfolio/healthtech-services/"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/f-prime-capital-partners",
+      "other": [
+        "https://fprimecapital.com/portfolio/healthtech-services/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "$5.3 billion (across all sectors)", "currency": "USD" }
+      "aum": {
+        "raw": "$5.3 billion (across all sectors)",
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "$5 million to $30 million" },
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$5 million to $30 million"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["United States", "Europe"],
-      "sector_focus": ["digital-health", "healthcare-services", "healthcare-it", "therapeutics", "medtech-devices"],
+      "geo_focus": [
+        "United States",
+        "Europe"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-services",
+        "healthcare-it",
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "Global venture firm with roots in Fidelity Investments; its 'Healthtech + Services' practice backs virtual care, health-insurance/clinical services, interoperability and digital therapeutics, stage-agnostic."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "people": [],
     "summary": {
       "en": "The independent venture arm rooted in Fidelity Investments, investing across healthcare and technology with $5.3B AUM; its Healthtech + Services vertical is a dedicated digital-health / tech-enabled-services practice."
     },
     "sources": [
-      { "url": "https://fprimecapital.com/about/", "title": "About - F-Prime Capital", "publisher": "F-Prime Capital", "accessed": "undefined", "supports": "$5.3B AUM; healthcare + technology; Fidelity roots", "quote": "The firm's $5.3 billion under management support breakthroughs across healthcare and technology." },
-      { "url": "https://fprimecapital.com/portfolio/healthtech-services/", "title": "Healthtech + Services - F-Prime Capital", "publisher": "F-Prime Capital", "accessed": "undefined", "supports": "Healthtech + services (digital health) portfolio", "quote": "Healthtech + Services" }
+      {
+        "url": "https://fprimecapital.com/about/",
+        "title": "About - F-Prime Capital",
+        "publisher": "F-Prime Capital",
+        "accessed": "undefined",
+        "supports": "$5.3B AUM; healthcare + technology; Fidelity roots",
+        "quote": "The firm's $5.3 billion under management support breakthroughs across healthcare and technology."
+      },
+      {
+        "url": "https://fprimecapital.com/portfolio/healthtech-services/",
+        "title": "Healthtech + Services - F-Prime Capital",
+        "publisher": "F-Prime Capital",
+        "accessed": "undefined",
+        "supports": "Healthtech + services (digital health) portfolio",
+        "quote": "Healthtech + Services"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Broad healthcare-and-technology firm: $5.3B AUM spans therapeutics, medtech and healthtech + services (plus a tech practice); the digital-health slice is the Healthtech + Services vertical. HQ Cambridge, MA with a London office; formerly Fidelity Biosciences.",
@@ -728,32 +1814,79 @@
   },
   {
     "id": "us-health2047-capital-partners",
-    "name": { "en": "Health2047 Capital Partners" },
-    "aka": ["HCAP", "Health2047"],
+    "name": {
+      "en": "Health2047 Capital Partners"
+    },
+    "aka": [
+      "HCAP",
+      "Health2047"
+    ],
     "type": "vc",
-    "subtypes": ["venture-studio"],
+    "subtypes": [
+      "venture-studio"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "San Francisco",
     "website": "https://health2047capital.com/",
-    "links": { "other": ["https://health2047capital.com/"] },
+    "links": {
+      "other": [
+        "https://health2047capital.com/"
+      ]
+    },
     "strategy": {
-      "stages": ["series-a", "series-b"],
+      "stages": [
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "medtech-devices"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "medtech-devices"
+      ],
       "thesis": "AMA-anchored fund investing in technology and tech-enabled services driving system-level change across the US health industry (pharma, devices, provider and payer), typically Series A and beyond alongside top-tier co-investors."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "people": [],
     "summary": {
       "en": "San Francisco fund tied to the American Medical Association's Health2047 innovation platform, investing in tech-enabled companies pursuing system-level change in US healthcare, with the AMA as anchor partner."
     },
     "sources": [
-      { "url": "https://health2047capital.com/", "title": "Health2047 Capital Partners", "publisher": "Health2047 Capital Partners", "accessed": "undefined", "supports": "AMA-anchored fund; system-level change thesis", "quote": "Health2047 Capital Partners" },
-      { "url": "https://health2047capital.com/investing", "title": "Health2047 Capital Partners Model for Collaboration, Innovation, and Commercialization", "publisher": "Health2047 Capital Partners", "accessed": "undefined", "supports": "Series A+ tech and tech-enabled services across pharma/devices/provider/payer; AMA anchor", "quote": "The American Medical Association is the anchor partner" },
-      { "url": "https://www.fiercehealthcare.com/tech/ama-health2047-27-2m-health-technology-innovation-james-madara", "title": "AMA sinks $27M in Health2047 to ramp up development of new clinical tools", "publisher": "Fierce Healthcare", "accessed": "undefined", "supports": "AMA funding of Health2047 innovation platform", "quote": "AMA sinks $27M in Health2047 to ramp up development of new clinical tools" }
+      {
+        "url": "https://health2047capital.com/",
+        "title": "Health2047 Capital Partners",
+        "publisher": "Health2047 Capital Partners",
+        "accessed": "undefined",
+        "supports": "AMA-anchored fund; system-level change thesis",
+        "quote": "Health2047 Capital Partners"
+      },
+      {
+        "url": "https://health2047capital.com/investing",
+        "title": "Health2047 Capital Partners Model for Collaboration, Innovation, and Commercialization",
+        "publisher": "Health2047 Capital Partners",
+        "accessed": "undefined",
+        "supports": "Series A+ tech and tech-enabled services across pharma/devices/provider/payer; AMA anchor",
+        "quote": "The American Medical Association is the anchor partner"
+      },
+      {
+        "url": "https://www.fiercehealthcare.com/tech/ama-health2047-27-2m-health-technology-innovation-james-madara",
+        "title": "AMA sinks $27M in Health2047 to ramp up development of new clinical tools",
+        "publisher": "Fierce Healthcare",
+        "accessed": "undefined",
+        "supports": "AMA funding of Health2047 innovation platform",
+        "quote": "AMA sinks $27M in Health2047 to ramp up development of new clinical tools"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Health2047 Capital Partners (the fund) is a separate entity from Health2047 Inc. (the AMA-powered venture studio founded in 2016); the $27M figure is AMA capital into the studio, not the fund's size, which was not disclosed. San Francisco-based.",
@@ -762,31 +1895,71 @@
   },
   {
     "id": "us-optum-ventures",
-    "name": { "en": "Optum Ventures" },
+    "name": {
+      "en": "Optum Ventures"
+    },
     "type": "cvc",
     "status": "active",
     "founded_year": 2017,
     "region": "united-states",
     "country": "United States",
     "website": "https://www.optumventures.com/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/optum-ventures", "other": ["https://www.optumventures.com/"] },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/optum-ventures",
+      "other": [
+        "https://www.optumventures.com/"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "over $2 billion", "currency": "USD" }
+      "aum": {
+        "raw": "over $2 billion",
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services", "ai-drug-discovery"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services",
+        "ai-drug-discovery"
+      ],
       "thesis": "Independent corporate venture firm founded in partnership with UnitedHealth Group, investing in digital-health companies that use data and insights to improve access, delivery and payment of care; themes include clinical AI, value-based care enablement and health-system infrastructure."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "track_record": {
       "portfolio_count": "more than 75",
       "notable_investments": [
-        { "company": "Ambience Healthcare", "sector": "healthcare-it", "outcome": "active" },
-        { "company": "DispatchHealth", "sector": "healthcare-services", "outcome": "active" },
-        { "company": "LetsGetChecked", "sector": "diagnostics", "outcome": "active" }
+        {
+          "company": "Ambience Healthcare",
+          "sector": "healthcare-it",
+          "outcome": "active"
+        },
+        {
+          "company": "DispatchHealth",
+          "sector": "healthcare-services",
+          "outcome": "active"
+        },
+        {
+          "company": "LetsGetChecked",
+          "sector": "diagnostics",
+          "outcome": "active"
+        }
       ]
     },
     "people": [],
@@ -794,8 +1967,22 @@
       "en": "The UnitedHealth Group-affiliated but independently run corporate venture firm, with over $2B across six funds and 75+ portfolio companies, focused on data-driven digital health, clinical AI and value-based-care enablement."
     },
     "sources": [
-      { "url": "https://www.optumventures.com/about", "title": "About | Optum Ventures", "publisher": "Optum Ventures", "accessed": "undefined", "supports": "AUM >$2B; 6 funds; >75 portfolio companies; founded 2017; UnitedHealth partnership", "quote": "over $2 billion in assets under management across 6 funds in support of more than 75 portfolio companies" },
-      { "url": "https://www.healthcarefinancenews.com/news/optum-forms-250-million-venture-fund-invest-big-healthcare-innovation", "title": "Optum forms $250 million venture fund to invest big in healthcare innovation", "publisher": "Healthcare Finance News", "accessed": "undefined", "supports": "Original $250M fund; digital-health investment focus", "quote": "Optum forms $250 million venture fund to invest big in healthcare innovation" }
+      {
+        "url": "https://www.optumventures.com/about",
+        "title": "About | Optum Ventures",
+        "publisher": "Optum Ventures",
+        "accessed": "undefined",
+        "supports": "AUM >$2B; 6 funds; >75 portfolio companies; founded 2017; UnitedHealth partnership",
+        "quote": "over $2 billion in assets under management across 6 funds in support of more than 75 portfolio companies"
+      },
+      {
+        "url": "https://www.healthcarefinancenews.com/news/optum-forms-250-million-venture-fund-invest-big-healthcare-innovation",
+        "title": "Optum forms $250 million venture fund to invest big in healthcare innovation",
+        "publisher": "Healthcare Finance News",
+        "accessed": "undefined",
+        "supports": "Original $250M fund; digital-health investment focus",
+        "quote": "Optum forms $250 million venture fund to invest big in healthcare innovation"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Payer/health-services-affiliated CVC (UnitedHealth Group / Optum); straddles digital health and care delivery, so overlaps the sibling care-delivery slice. Included for its dominant digital-health/health-data investing focus. HQ (offices in the US and London) not pinned to a single city here.",
@@ -804,32 +1991,72 @@
   },
   {
     "id": "us-cvs-health-ventures",
-    "name": { "en": "CVS Health Ventures" },
+    "name": {
+      "en": "CVS Health Ventures"
+    },
     "type": "cvc",
     "status": "active",
     "founded_year": 2021,
     "region": "united-states",
     "country": "United States",
     "website": "https://www.cvshealth.com/about/ventures",
-    "links": { "linkedin": "https://www.linkedin.com/showcase/cvs-health-ventures/", "other": ["https://www.cvshealth.com/about/ventures"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/showcase/cvs-health-ventures/",
+      "other": [
+        "https://www.cvshealth.com/about/ventures"
+      ]
+    },
     "capital": {
-      "current_fund": { "raw": "$100 million (initial)", "currency": "USD" }
+      "current_fund": {
+        "raw": "$100 million (initial)",
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-services", "consumer-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-services",
+        "consumer-health"
+      ],
       "thesis": "Corporate venture fund of CVS Health investing in and partnering with early-stage companies using technology-enabled innovation to make healthcare more accessible, affordable and simpler."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "people": [],
     "summary": {
       "en": "CVS Health's dedicated corporate venture fund, launched in 2021 with an initial $100M, backing early-stage digital-health companies focused on accessible, affordable, technology-enabled care."
     },
     "sources": [
-      { "url": "https://www.prnewswire.com/news-releases/cvs-health-launches-100-million-venture-fund-301279691.html", "title": "CVS Health Launches $100 Million Venture Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "$100M initial fund; early-stage digital-health CVC (2021)", "quote": "CVS Health Launches $100 Million Venture Fund" },
-      { "url": "https://www.fiercehealthcare.com/finance/cvs-health-seeks-new-digital-health-opportunities-100m-venture-fund", "title": "CVS Health launches $100M digital health investment fund", "publisher": "Fierce Healthcare", "accessed": "undefined", "supports": "Digital-health investment focus", "quote": "CVS Health launches $100M digital health investment fund" }
+      {
+        "url": "https://www.prnewswire.com/news-releases/cvs-health-launches-100-million-venture-fund-301279691.html",
+        "title": "CVS Health Launches $100 Million Venture Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "$100M initial fund; early-stage digital-health CVC (2021)",
+        "quote": "CVS Health Launches $100 Million Venture Fund"
+      },
+      {
+        "url": "https://www.fiercehealthcare.com/finance/cvs-health-seeks-new-digital-health-opportunities-100m-venture-fund",
+        "title": "CVS Health launches $100M digital health investment fund",
+        "publisher": "Fierce Healthcare",
+        "accessed": "undefined",
+        "supports": "Digital-health investment focus",
+        "quote": "CVS Health launches $100M digital health investment fund"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Corporate VC of CVS Health (payer/PBM/pharmacy); straddles care delivery. Launched with $100M initial capital in 2021 and has continued to deploy; total current fund size not restated publicly. HQ tied to CVS Health (Woonsocket, RI) but a single ventures city is not asserted.",
@@ -838,45 +2065,105 @@
   },
   {
     "id": "us-distributed-ventures",
-    "name": { "en": "Distributed Ventures" },
-    "aka": ["NFP Ventures (former)"],
+    "name": {
+      "en": "Distributed Ventures"
+    },
+    "aka": [
+      "NFP Ventures (former)"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2021,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Chicago",
-    "links": { "linkedin": "https://www.linkedin.com/company/distributedventures", "other": ["https://www.linkedin.com/company/distributedventures"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/distributedventures",
+      "other": [
+        "https://www.linkedin.com/company/distributedventures"
+      ]
+    },
     "capital": {
-      "aum": { "raw": "$155 million", "currency": "USD" },
+      "aum": {
+        "raw": "$155 million",
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund I (Distributed Ventures)", "vintage_year": 2023, "size": { "raw": "$100 million", "currency": "USD" } }
+        {
+          "name": "Fund I (Distributed Ventures)",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "$100 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "check_size": { "raw": "$1 million to $5 million" },
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "$1 million to $5 million"
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it"
+      ],
       "thesis": "Early-stage firm (spun out of NFP Ventures) investing in digital health, distributable benefits, insurtech and fintech, leaning on strategic insurance-carrier and brokerage LPs for enterprise distribution."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Kindbody", "sector": "femtech-womens-health", "outcome": "active" },
-        { "company": "Armadillo", "sector": "healthcare-it", "outcome": "active" }
+        {
+          "company": "Kindbody",
+          "sector": "femtech-womens-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Armadillo",
+          "sector": "healthcare-it",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Shawn Ellis", "role": "Managing Partner" }
+      {
+        "name": "Shawn Ellis",
+        "role": "Managing Partner"
+      }
     ],
     "summary": {
       "en": "Chicago/NYC seed and Series A firm born out of NFP Ventures, investing in digital health alongside insurtech and fintech with $155M AUM and a $100M fund closed in 2023."
     },
     "sources": [
-      { "url": "https://www.businesswire.com/news/home/20230713600358/en/Distributed-Ventures-Closes-$100M-Fund-and-Plans-To-Accelerate-Growth-with-Key-Leadership-Hire", "title": "Distributed Ventures Closes $100M Fund", "publisher": "Business Wire", "accessed": "undefined", "supports": "$100M fund (2023); digital health + insurtech/fintech", "quote": "Distributed Ventures Closes $100M Fund and Plans To Accelerate Growth with Key Leadership Hire" },
-      { "url": "https://www.mobihealthnews.com/news/qa-distributed-ventures-its-100m-raise-and-digital-health-investment", "title": "Q&A: Distributed Ventures on its $100M raise and digital health investment", "publisher": "MobiHealthNews", "accessed": "undefined", "supports": "$155M AUM; $1-5M checks; seed/Series A; digital health focus", "quote": "Q&A: Distributed Ventures on its $100M raise and digital health investment" }
+      {
+        "url": "https://www.businesswire.com/news/home/20230713600358/en/Distributed-Ventures-Closes-$100M-Fund-and-Plans-To-Accelerate-Growth-with-Key-Leadership-Hire",
+        "title": "Distributed Ventures Closes $100M Fund",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "$100M fund (2023); digital health + insurtech/fintech",
+        "quote": "Distributed Ventures Closes $100M Fund and Plans To Accelerate Growth with Key Leadership Hire"
+      },
+      {
+        "url": "https://www.mobihealthnews.com/news/qa-distributed-ventures-its-100m-raise-and-digital-health-investment",
+        "title": "Q&A: Distributed Ventures on its $100M raise and digital health investment",
+        "publisher": "MobiHealthNews",
+        "accessed": "undefined",
+        "supports": "$155M AUM; $1-5M checks; seed/Series A; digital health focus",
+        "quote": "Q&A: Distributed Ventures on its $100M raise and digital health investment"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Also invests in insurtech/fintech (partly out of scope). Offices in Chicago and New York; spun out of NFP Ventures in 2021 under Managing Partner Shawn Ellis. No standalone official website confirmed at research time (LinkedIn used).",
@@ -885,19 +2172,34 @@
   },
   {
     "id": "us-startup-health",
-    "name": { "en": "StartUp Health" },
+    "name": {
+      "en": "StartUp Health"
+    },
     "type": "accelerator",
-    "subtypes": ["incubator", "angel-syndicate"],
+    "subtypes": [
+      "incubator",
+      "angel-syndicate"
+    ],
     "status": "active",
     "founded_year": 2011,
     "region": "united-states",
     "country": "United States",
     "hq_city": "New York",
     "website": "https://www.startuphealth.com/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/startup-health", "other": ["https://www.startuphealth.com/"] },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/startup-health",
+      "other": [
+        "https://www.startuphealth.com/"
+      ]
+    },
     "capital": {
       "funds": [
-        { "name": "StartUp Health Moonshots Impact Fund", "size": { "raw": "undisclosed (rolling fund)" } }
+        {
+          "name": "StartUp Health Moonshots Impact Fund",
+          "size": {
+            "raw": "undisclosed (rolling fund)"
+          }
+        }
       ]
     },
     "program": {
@@ -905,29 +2207,71 @@
       "location": "Global (HQ New York)",
       "cohort_size": "330+ portfolio companies",
       "demo_day": true,
-      "perks": ["Peer networks", "Coaching", "Term-sheet reviews", "Broadcast/media network", "Investor introductions"]
+      "perks": [
+        "Peer networks",
+        "Coaching",
+        "Term-sheet reviews",
+        "Broadcast/media network",
+        "Investor introductions"
+      ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["United States", "Global"],
-      "sector_focus": ["digital-health", "consumer-health", "mental-health"],
+      "geo_focus": [
+        "United States",
+        "Global"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "consumer-health",
+        "mental-health"
+      ],
       "thesis": "A 'Health Moonshot' community and rolling fund backing a global 'army' of Health Transformers pursuing moonshots such as Access to Care, Cost to Zero, Cure Disease, Women's Health and Mental Health."
     },
-    "lifesci": { "modalities": ["digital-therapeutics", "software-samd", "ai-ml-platform"] },
+    "lifesci": {
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd",
+        "ai-ml-platform"
+      ]
+    },
     "track_record": {
       "portfolio_count": "more than 330"
     },
     "people": [
-      { "name": "Steven Krein", "role": "Co-founder & CEO" },
-      { "name": "Unity Stoakes", "role": "Co-founder & President" }
+      {
+        "name": "Steven Krein",
+        "role": "Co-founder & CEO"
+      },
+      {
+        "name": "Unity Stoakes",
+        "role": "Co-founder & President"
+      }
     ],
     "summary": {
       "en": "New York-based global digital-health platform, community and rolling investment fund founded in 2011, organizing 330+ 'Health Transformer' startups around a set of 'Health Moonshots.'"
     },
     "sources": [
-      { "url": "https://www.startuphealth.com/", "title": "StartUp Health", "publisher": "StartUp Health", "accessed": "undefined", "supports": "Health Moonshots mission; global health-innovation community since 2011", "quote": "For 15 years, StartUp Health has pursued a bold mission to help solve the world's biggest health challenges" },
-      { "url": "https://www.angellist.com/blog/startup-health-rolling-fund", "title": "Sending 'Health Moonshots' Into Orbit With a Rolling Fund", "publisher": "AngelList", "accessed": "undefined", "supports": "Health Moonshots Impact Fund is a rolling fund", "quote": "Sending 'Health Moonshots' Into Orbit With a Rolling Fund" }
+      {
+        "url": "https://www.startuphealth.com/",
+        "title": "StartUp Health",
+        "publisher": "StartUp Health",
+        "accessed": "undefined",
+        "supports": "Health Moonshots mission; global health-innovation community since 2011",
+        "quote": "For 15 years, StartUp Health has pursued a bold mission to help solve the world's biggest health challenges"
+      },
+      {
+        "url": "https://www.angellist.com/blog/startup-health-rolling-fund",
+        "title": "Sending 'Health Moonshots' Into Orbit With a Rolling Fund",
+        "publisher": "AngelList",
+        "accessed": "undefined",
+        "supports": "Health Moonshots Impact Fund is a rolling fund",
+        "quote": "Sending 'Health Moonshots' Into Orbit With a Rolling Fund"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Global portfolio (330+ companies across 26 countries), but headquartered in New York; blends an accelerator/community platform with the Moonshots Impact Fund (rolling fund on AngelList). Fund size not disclosed.",
@@ -936,7 +2280,9 @@
   },
   {
     "id": "us-seae-ventures",
-    "name": { "en": "Seae Ventures" },
+    "name": {
+      "en": "Seae Ventures"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2019,
@@ -944,36 +2290,93 @@
     "country": "United States",
     "hq_city": "Boston",
     "website": "https://seaeventures.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/seae-ventures", "other": ["https://seaeventures.com/"] },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/seae-ventures",
+      "other": [
+        "https://seaeventures.com/"
+      ]
+    },
     "capital": {
       "funds": [
-        { "name": "Inaugural Fund", "vintage_year": 2022, "size": { "raw": "$107 million", "currency": "USD" } }
+        {
+          "name": "Inaugural Fund",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$107 million",
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "mental-health", "femtech-womens-health", "healthcare-services"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "mental-health",
+        "femtech-womens-health",
+        "healthcare-services"
+      ],
       "thesis": "Early-stage healthcare-technology and services firm advancing health equity, backing diverse (women and BIPOC) founders building solutions for underserved populations across mental health, women's health, personalized medicine and financial wellness."
     },
-    "lifesci": { "modalities": ["software-samd", "ai-ml-platform", "digital-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "digital-therapeutics"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Health In Her Hue", "sector": "femtech-womens-health", "outcome": "active" },
-        { "company": "Hurdle", "sector": "mental-health", "outcome": "active" }
+        {
+          "company": "Health In Her Hue",
+          "sector": "femtech-womens-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Hurdle",
+          "sector": "mental-health",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Jason Robart", "role": "Co-founder & General Partner", "background": "Former Blue Cross Blue Shield of Massachusetts executive" },
-      { "name": "Tuoyo Louis", "role": "Co-founder & General Partner" }
+      {
+        "name": "Jason Robart",
+        "role": "Co-founder & General Partner",
+        "background": "Former Blue Cross Blue Shield of Massachusetts executive"
+      },
+      {
+        "name": "Tuoyo Louis",
+        "role": "Co-founder & General Partner"
+      }
     ],
     "summary": {
       "en": "Boston early-stage healthcare-technology fund founded by former Blue Cross Blue Shield of Massachusetts executives to advance health equity, investing behind women and BIPOC founders through a $107M inaugural fund."
     },
     "sources": [
-      { "url": "https://seaeventures.com/", "title": "Seae Ventures - Home", "publisher": "Seae Ventures", "accessed": "undefined", "supports": "Health-equity thesis; co-founders Jason Robart and Tuoyo Louis", "quote": "early-stage companies creating a more just, accessible, and efficient healthcare system-especially for underserved populations" },
-      { "url": "https://www.prnewswire.com/news-releases/seae-ventures-launches-107m-fund-investing-in-solutions-addressing-equity-gaps-in-healthcare-and-financial-technologies-301563376.html", "title": "Seae Ventures Launches $107M Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "$107M inaugural fund (2022); health/fintech equity focus", "quote": "Seae Ventures Launches $107M Fund Investing in Solutions Addressing Equity Gaps in Healthcare and Financial Technologies" }
+      {
+        "url": "https://seaeventures.com/",
+        "title": "Seae Ventures - Home",
+        "publisher": "Seae Ventures",
+        "accessed": "undefined",
+        "supports": "Health-equity thesis; co-founders Jason Robart and Tuoyo Louis",
+        "quote": "early-stage companies creating a more just, accessible, and efficient healthcare system-especially for underserved populations"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/seae-ventures-launches-107m-fund-investing-in-solutions-addressing-equity-gaps-in-healthcare-and-financial-technologies-301563376.html",
+        "title": "Seae Ventures Launches $107M Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "$107M inaugural fund (2022); health/fintech equity focus",
+        "quote": "Seae Ventures Launches $107M Fund Investing in Solutions Addressing Equity Gaps in Healthcare and Financial Technologies"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Thesis also touches financial-wellness/fintech and care delivery for underserved populations (partial overlap with sibling slices); included for its digital-health and health-technology focus.",

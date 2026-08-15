@@ -134,7 +134,18 @@
     "confidence": "high",
     "verification_notes": "Exact opening year of the incubator (as distinct from the 2021-2022 announcement dates) was not independently confirmed; program.investment/fund-size not disclosed per-startup.",
     "last_updated": "undefined",
-    "researched_by": "accelerator-incubator-bio"
+    "researched_by": "accelerator-incubator-bio",
+    "backing": {
+      "backers": [
+        {
+          "name": "CSL",
+          "kind": "pharma",
+          "relationship": "major-lp",
+          "note": "From the entity description: “jointly backed by CSL, WEHI, the University of Melbourne and Victoria's Breakth”",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-cureator",
@@ -1345,7 +1356,18 @@
     "confidence": "high",
     "verification_notes": "Medibank later moved from minority investment to 100% acquisition of Medinet (announced separately). Ventures activity is run as an internal corporate function rather than a formally named external fund.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Medibank",
+          "kind": "payer-insurer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Medibank); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-nib-group-ventures",
@@ -1432,7 +1454,18 @@
     "confidence": "high",
     "verification_notes": "nib does not appear to run a formally branded 'nib Ventures' fund; investments are made directly by the corporate group (nib holdings / nib Health Funds).",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "nib Group",
+          "kind": "payer-insurer",
+          "relationship": "balance-sheet-fund",
+          "note": "The name carries no separate fund identity, so the operating company appears to invest directly off its own balance sheet rather than through a named vehicle — inferred from the entity name and tags, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-hcf-catalyst",
@@ -1528,7 +1561,18 @@
     "confidence": "high",
     "verification_notes": "HCF's own capital is deployed both as accelerator seed funding ($50K per Catalyst cohort company) and as an LP-style cornerstone investment into the independently managed XT Ventures fund; HCF does not itself directly hold XT Ventures' portfolio stakes.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "HCF Catalyst",
+          "kind": "payer-insurer",
+          "relationship": "balance-sheet-fund",
+          "note": "The name carries no separate fund identity, so the operating company appears to invest directly off its own balance sheet rather than through a named vehicle — inferred from the entity name and tags, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-bupa-ventures",
@@ -1624,7 +1668,18 @@
     "confidence": "high",
     "verification_notes": "Bupa's global HQ is in the UK (Bupa is not medically-core in the sense of being a hospital/pharma operator — it is an international health insurer/aged-care group); Bupa Ventures specifically funds and operates out of Bupa Asia Pacific, headquartered in Melbourne, Australia. An earlier globalventuring.com report cited a smaller AU$13m figure for the fund; AU$20m is the figure given directly on Bupa's own newsroom.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Bupa",
+          "kind": "payer-insurer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Bupa); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-hbf-ventures",
@@ -1701,7 +1756,18 @@
     "confidence": "high",
     "verification_notes": "Very recently launched (Feb 2026); no portfolio companies disclosed yet at time of research.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "HBF",
+          "kind": "payer-insurer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Fund named after its parent (HBF); parent derived from the entity name and kind from its own tags — inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-woolworths-w23",
@@ -1780,7 +1846,18 @@
     "confidence": "medium",
     "verification_notes": "The Hola Health investment was made by HealthyLife (a wholly-owned Woolworths operating subsidiary), not confirmed to be booked directly through the W23 fund vehicle; both are treated here as part of Woolworths Group's broader corporate health-investment activity.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Woolworths",
+          "kind": "retail-consumer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Woolworths); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-telstra-health",
@@ -1882,7 +1959,18 @@
     "confidence": "high",
     "verification_notes": "Telstra Health operates predominantly through full/majority acquisitions and buy-and-build rather than a formal minority-stake CVC fund; included here as the dedicated health-investment division of a non-medical (telecom) parent, per slice scope. HQ city inferred from Telstra's general Melbourne base, not independently confirmed for Telstra Health specifically.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Telstra",
+          "kind": "telecom",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Telstra); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-wesfarmers-health",
@@ -1963,7 +2051,18 @@
     "confidence": "high",
     "verification_notes": "Wesfarmers Health invests via full-ownership acquisitions rather than minority VC stakes; included as the health-investment arm of a non-medical (diversified retail/industrial) parent, consistent with slice scope.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Wesfarmers",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Wesfarmers); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-iag-firemark-ventures",
@@ -2049,7 +2148,18 @@
     "confidence": "medium",
     "verification_notes": "Firemark Ventures' core mandate is insurtech/fintech, not healthcare; included here on the strength of its verified direct investment in mental-health/medical-support platform Sonder. Most of its broader portfolio is out of scope for this medical-VC directory.",
     "last_updated": "undefined",
-    "researched_by": "corporate-cvc-other"
+    "researched_by": "corporate-cvc-other",
+    "backing": {
+      "backers": [
+        {
+          "name": "Insurance Australia Group",
+          "kind": "payer-insurer",
+          "relationship": "wholly-owned-cvc",
+          "note": "Parent named in the entity's own description: “corporate venture capital arm of Insurance Australia Group, primarily focused on insurtech”. Backer kind taken from the entity's tags. Inferred, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-ki-tua-fonterra",
@@ -5613,7 +5723,18 @@
     "confidence": "medium",
     "verification_notes": "Sonic Healthcare does not brand a named venture fund; its CVC-style activity documented here is limited to the Harrison.ai/Franklin.ai deal cluster found in company and press sources. No dedicated 'Sonic Ventures' unit could be verified.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Sonic Healthcare",
+          "kind": "diagnostics-tools",
+          "relationship": "wholly-owned-cvc",
+          "note": "Named after its parent organization (Sonic Healthcare); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-ramsay-health-care",
@@ -5684,7 +5805,18 @@
     "confidence": "low",
     "verification_notes": "Only source found is a data-aggregator (CB Insights) snippet rather than an official Ramsay or Harrison.ai press release; could not independently corroborate deal terms or confirm Ramsay runs any broader, named venture program beyond this single disclosed investment.",
     "last_updated": "undefined",
-    "researched_by": "pharma-bio-cvc"
+    "researched_by": "pharma-bio-cvc",
+    "backing": {
+      "backers": [
+        {
+          "name": "Ramsay Health Care",
+          "kind": "hospital-system",
+          "relationship": "balance-sheet-fund",
+          "note": "The name carries no separate fund identity, so the operating company appears to invest directly off its own balance sheet rather than through a named vehicle — inferred from the entity name and tags, not separately sourced.",
+          "evidence": "inferred"
+        }
+      ]
+    }
   },
   {
     "id": "anz-i-med-radiology-network",
