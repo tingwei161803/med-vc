@@ -1,0 +1,2206 @@
+[
+  {
+    "id": "eu-biontech",
+    "name": {
+      "en": "BioNTech",
+      "local": "BioNTech SE"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 2008,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Mainz",
+    "website": "https://www.biontech.com",
+    "profile": {
+      "what": "mRNA-based immunotherapies and vaccines company, developing cancer treatments and infectious-disease vaccines; co-developed the Comirnaty COVID-19 vaccine with Pfizer.",
+      "modalities": [
+        "rna-therapeutics",
+        "vaccines"
+      ],
+      "indications": [
+        "oncology",
+        "infectious-disease"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Comirnaty (mRNA COVID-19 vaccine, with Pfizer)",
+      "regulatory": [
+        {
+          "body": "EMA",
+          "kind": "conditional marketing authorization",
+          "item": "Comirnaty",
+          "year": 2020
+        }
+      ]
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "€180M seed + $270M Series A + $325M Series B",
+        "usd": null,
+        "currency": null
+      },
+      "rounds": [
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$325 million",
+            "usd": 325000000,
+            "currency": "USD"
+          },
+          "date": "2019-07",
+          "lead": [
+            "Fidelity Management & Research Company"
+          ]
+        },
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$270 million",
+            "usd": 270000000,
+            "currency": "USD"
+          },
+          "date": "2018-01",
+          "lead": []
+        },
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "€180 million",
+            "usd": null,
+            "currency": "EUR"
+          },
+          "date": null,
+          "lead": [
+            "Strüngmann family office",
+            "MIG Capital"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "MIG Capital",
+          "entity_id": null,
+          "role": "lead",
+          "round": "seed",
+          "source_url": "https://en.wikipedia.org/wiki/BioNTech"
+        },
+        {
+          "name": "Strüngmann family office (Andreas & Thomas Strüngmann)",
+          "entity_id": null,
+          "role": "lead",
+          "round": "seed",
+          "source_url": "https://en.wikipedia.org/wiki/BioNTech"
+        },
+        {
+          "name": "Helmut Jeggle",
+          "entity_id": null,
+          "role": "angel",
+          "round": "seed",
+          "source_url": "https://en.wikipedia.org/wiki/BioNTech"
+        },
+        {
+          "name": "Fidelity Management & Research Company",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-b",
+          "source_url": "https://en.wikipedia.org/wiki/BioNTech"
+        },
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-b",
+          "source_url": "https://en.wikipedia.org/wiki/BioNTech"
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2019,
+        "value": {
+          "raw": "$150 million gross proceeds",
+          "usd": 150000000,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:BNTX"
+      }
+    },
+    "summary": {
+      "en": "Mainz-based mRNA pioneer, co-creator of the Comirnaty COVID-19 vaccine with Pfizer, now pushing an mRNA cancer immunotherapy pipeline; acquired rival CureVac in 2025."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/BioNTech",
+        "title": "BioNTech",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, investors, IPO, funding rounds, Comirnaty approval",
+        "quote": "The seed investment totaled €180 million"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/BioNTech",
+        "title": "BioNTech",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Series B lead investor and Gates Foundation",
+        "quote": "Series B (July 2019): $325 million led by Fidelity Management & Research Company"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-curevac",
+    "name": {
+      "en": "CureVac",
+      "local": "CureVac SE"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "founded_year": 2000,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Tübingen",
+    "website": "https://www.curevac.com",
+    "profile": {
+      "what": "Develops therapies and vaccines based on messenger RNA (mRNA) for infectious disease, cancer and rare diseases.",
+      "modalities": [
+        "rna-therapeutics",
+        "vaccines"
+      ],
+      "indications": [
+        "infectious-disease",
+        "oncology",
+        "rare-disease"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "CV2CoV (next-gen mRNA COVID-19 vaccine, with GSK)"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "German Federal Government (via KfW)",
+          "entity_id": null,
+          "role": "lead",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/CureVac"
+        },
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/CureVac"
+        },
+        {
+          "name": "GlaxoSmithKline",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/CureVac"
+        }
+      ],
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "€300 million",
+            "usd": null,
+            "currency": "EUR"
+          },
+          "date": "2020-06",
+          "lead": [
+            "German Federal Government"
+          ]
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2025,
+        "acquirer": "BioNTech",
+        "value": {
+          "raw": "approximately $1.25 billion (all-stock)",
+          "usd": 1250000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Tübingen mRNA pioneer that partnered with GSK on next-gen COVID vaccines and was acquired by cross-town rival BioNTech in an all-stock deal completed December 2025."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CureVac",
+        "title": "CureVac",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, investors, IPO, acquisition",
+        "quote": "German Federal Government (€300 million investment in June 2020, with KfW holding ~23%)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/CureVac",
+        "title": "CureVac",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "BioNTech acquisition value and completion",
+        "quote": "BioNTech announced plans to acquire CureVac for $1.25 billion in an all-stock transaction, which completed in December 2025"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-evotec",
+    "name": {
+      "en": "Evotec"
+    },
+    "category": "pharma-services",
+    "sectors": [
+      "ai-drug-discovery"
+    ],
+    "status": "public",
+    "founded_year": 1993,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Hamburg",
+    "website": "https://www.evotec.com",
+    "profile": {
+      "what": "Drug discovery and development company operating as a contract research organization (CRO/CDMO), partnering with pharma and biotech on early-stage R&D.",
+      "modalities": [
+        "small-molecule",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "neurology",
+        "metabolic-obesity",
+        "oncology",
+        "infectious-disease"
+      ],
+      "development_stage": "commercial",
+      "team_size": 4200
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "FWB:EVT / Nasdaq:EVO"
+      }
+    },
+    "summary": {
+      "en": "Hamburg-based drug-discovery CRO with more than 130 partnered pharma programs, listed on Frankfurt (TecDAX/MDAX) and Nasdaq."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Evotec",
+        "title": "Evotec",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business model, listings, size",
+        "quote": "operates \"globally, largely through external alliances with pharmaceutical and biotechnology companies, academic institutions, patient advocacy groups, and venture capitalists\""
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-morphosys",
+    "name": {
+      "en": "MorphoSys"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "founded_year": 1992,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Planegg",
+    "website": "https://www.morphosys.com",
+    "profile": {
+      "what": "Biopharmaceutical company specializing in antibody, protein and peptide technologies for cancer and autoimmune disease drug discovery.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Monjuvi (tafasitamab)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Monjuvi (tafasitamab)",
+          "year": 2020
+        },
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Tremfya (guselkumab, licensed to GSK/J&J)",
+          "year": 2017
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2024,
+        "acquirer": "Novartis",
+        "value": {
+          "raw": "€2.7 billion (~$2.9 billion)",
+          "usd": 2900000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Munich-area antibody-discovery pioneer behind Monjuvi and Tremfya; acquired by Novartis for €2.7 billion in 2024, delisting from Frankfurt."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/MorphoSys",
+        "title": "MorphoSys",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, products, Novartis acquisition",
+        "quote": "Monjuvi (tafasitamab) - FDA approved July 2020 for relapsed/refractory diffuse large B-cell lymphoma"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-sartorius",
+    "name": {
+      "en": "Sartorius",
+      "local": "Sartorius AG"
+    },
+    "category": "life-science-tools",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 1870,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Göttingen",
+    "website": "https://www.sartorius.com",
+    "profile": {
+      "what": "Supplies bioprocess and laboratory equipment for biopharmaceutical manufacturing and research.",
+      "modalities": [
+        "lab-automation"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 14042
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "FWB:SRT3"
+      }
+    },
+    "summary": {
+      "en": "Göttingen bioprocess and lab-equipment giant supplying tools for biopharma manufacturing worldwide."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sartorius_AG",
+        "title": "Sartorius AG",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, listings, employees",
+        "quote": "supplies \"pharmaceutical and laboratory equipment\" and serves as \"an international supplier\" providing \"tools and services for the biopharmaceutical industry\""
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-siemens-healthineers",
+    "name": {
+      "en": "Siemens Healthineers"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "public",
+    "founded_year": 2017,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Erlangen",
+    "website": "https://www.siemens-healthineers.com",
+    "profile": {
+      "what": "Medical imaging and diagnostics: CT scanners, ultrasound systems, laboratory diagnostics and molecular imaging.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 70000
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2018,
+        "ticker": "FWB:SHL"
+      }
+    },
+    "summary": {
+      "en": "Siemens' medical-technology arm, spun off in 2017 and IPO'd in 2018; DAX-listed leader in imaging and lab diagnostics."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Siemens_Healthineers",
+        "title": "Siemens Healthineers",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding/spin-off, HQ, IPO, ownership",
+        "quote": "Siemens Healthineers trades on the Frankfurt Stock Exchange under the ticker symbol SHL and is a DAX component. The company went public in March 2018"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-ottobock",
+    "name": {
+      "en": "Ottobock"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "founded_year": 1919,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Duderstadt",
+    "website": "https://www.ottobock.com",
+    "profile": {
+      "what": "World market leader in prosthetics, orthotics, wheelchairs and exoskeletons.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "musculoskeletal-orthopedics"
+      ],
+      "development_stage": "commercial",
+      "team_size": 9100
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "EQT (former minority owner, exited 2024)",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Ottobock"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Duderstadt-based, family-owned (Näder) world leader in prosthetics and orthotics; EQT's minority stake was bought back by the family in 2024 for €1.1 billion."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ottobock",
+        "title": "Ottobock",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, ownership, revenue",
+        "quote": "the world market leader in the field of prosthetics"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-biotronik",
+    "name": {
+      "en": "Biotronik"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "founded_year": 1963,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Berlin",
+    "website": "https://www.biotronik.com",
+    "profile": {
+      "what": "Cardiac rhythm management, cardiac monitoring, electrophysiology and neuromodulation devices.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "team_size": 9000
+    },
+    "funding": {},
+    "summary": {
+      "en": "Berlin-based, family-held (limited partnership) maker of pacemakers, ICDs and cardiac monitoring devices, manufacturing in Germany, Switzerland, the US and Singapore."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Biotronik",
+        "title": "Biotronik",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, ownership, size",
+        "quote": "cardiac rhythm management, monitoring, electrophysiology, and neuromodulation"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-bayer",
+    "name": {
+      "en": "Bayer",
+      "local": "Bayer AG"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 1863,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Leverkusen",
+    "website": "https://www.bayer.com",
+    "profile": {
+      "what": "Pharmaceuticals and biotechnology company; prescription products for women's healthcare, cardiology, oncology, hematology and ophthalmology (also a diversified crop-science/consumer-health group).",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "cardiovascular",
+        "oncology",
+        "hematology",
+        "womens-health",
+        "ophthalmology"
+      ],
+      "development_stage": "commercial",
+      "team_size": 92815
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "FWB:BAYN"
+      }
+    },
+    "summary": {
+      "en": "Leverkusen pharma major (Xarelto, Eylea) with global oncology, cardiology and women's health franchises; also a diversified crop-science/consumer-health conglomerate."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bayer",
+        "title": "Bayer",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, pharma division, revenue",
+        "quote": "prescription products, especially for women's healthcare and cardiology, and also on specialty therapeutics in the areas of oncology, hematology and ophthalmology"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-merck-kgaa",
+    "name": {
+      "en": "Merck KGaA",
+      "local": "Merck KGaA"
+    },
+    "aka": [
+      "Merck Group",
+      "EMD (US/Canada)",
+      "MilliporeSigma (US life science brand)"
+    ],
+    "category": "therapeutics",
+    "sectors": [
+      "life-science-tools"
+    ],
+    "status": "public",
+    "founded_year": 1668,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Darmstadt",
+    "website": "https://www.merckgroup.com",
+    "profile": {
+      "what": "Science and technology company across Healthcare (oncology, neurology, immunology drugs), Life Sciences (lab/bioprocessing, as MilliporeSigma in North America) and Electronics.",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "lab-automation"
+      ],
+      "indications": [
+        "oncology",
+        "neurology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "commercial",
+      "team_size": 62461
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "FWB:MRK"
+      }
+    },
+    "summary": {
+      "en": "The world's oldest operating pharma/chemical company, still ~70% family-owned; Healthcare, Life Sciences (MilliporeSigma) and Electronics divisions."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Merck_Group",
+        "title": "Merck Group",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, divisions, ownership, revenue",
+        "quote": "the world's oldest operating chemical and pharmaceutical company\" and remains majority-owned by the Merck family (70.3% of shares)"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-boehringer-ingelheim",
+    "name": {
+      "en": "Boehringer Ingelheim"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "founded_year": 1885,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Ingelheim am Rhein",
+    "website": "https://www.boehringer-ingelheim.com",
+    "profile": {
+      "what": "Human pharmaceuticals, animal health and biopharmaceuticals, with focus on respiratory, metabolism, immunology, oncology and CNS.",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "respiratory",
+        "metabolic-obesity",
+        "immunology-inflammation",
+        "oncology",
+        "neurology"
+      ],
+      "development_stage": "commercial",
+      "team_size": 54300
+    },
+    "funding": {},
+    "summary": {
+      "en": "Ingelheim-based, family-owned (Boehringer/Liebrecht/von Baumbach) — the world's largest private pharmaceutical company; its venture fund BIVF is a distinct, separately-catalogued CVC."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Boehringer_Ingelheim",
+        "title": "Boehringer Ingelheim",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, ownership, revenue",
+        "quote": "fully owned by the Boehringer, Liebrecht and von Baumbach families"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-miltenyi-biotec",
+    "name": {
+      "en": "Miltenyi Biotec"
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "cell-gene-therapy"
+    ],
+    "status": "private",
+    "founded_year": 1989,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Bergisch Gladbach",
+    "website": "https://www.miltenyibiotec.com",
+    "profile": {
+      "what": "Cell separation (MACS magnetic-activated cell sorting), flow cytometry, cell culture and molecular analysis tools, plus cell-therapy manufacturing equipment.",
+      "modalities": [
+        "lab-automation",
+        "medical-hardware"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 5500
+    },
+    "funding": {},
+    "summary": {
+      "en": "Cologne-area, privately-held inventor of MACS cell-separation technology; a foundational tools supplier to the cell & gene therapy industry."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Miltenyi_Biotec",
+        "title": "Miltenyi Biotec",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, technology, ownership",
+        "quote": "Stefan Miltenyi invented magnetic-activated cell separation (MACS technology) in 1989"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-b-braun",
+    "name": {
+      "en": "B. Braun"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "founded_year": 1839,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Melsungen",
+    "website": "https://www.bbraun.com",
+    "profile": {
+      "what": "Surgical instruments, infusion systems and dialysis equipment.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "nephrology-urology"
+      ],
+      "development_stage": "commercial",
+      "team_size": 63000
+    },
+    "funding": {},
+    "summary": {
+      "en": "Melsungen-based, family-owned (Braun family) medtech maker of infusion, dialysis and surgical equipment; ~€8.8B revenue (2023)."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/B._Braun",
+        "title": "B. Braun",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, ownership, revenue",
+        "quote": "still owned by the Braun family"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-inflarx",
+    "name": {
+      "en": "InflaRx",
+      "local": "InflaRx N.V."
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Jena",
+    "website": "https://www.inflarx.de",
+    "profile": {
+      "what": "Biopharmaceutical company applying proprietary anti-C5a and C5aR inhibitors to treat life-threatening or debilitating inflammatory diseases.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "immunology-inflammation"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Vilobelimab (anti-C5a, GOHIBIC)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "Emergency Use Authorization",
+          "item": "GOHIBIC (vilobelimab)",
+          "year": 2023
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "NASDAQ:IFRX"
+      }
+    },
+    "summary": {
+      "en": "Jena biopharma targeting the complement C5a/C5aR pathway; its anti-C5a antibody GOHIBIC holds a COVID-19 EUA from the FDA."
+    },
+    "sources": [
+      {
+        "url": "http://www.inflarx.de/about-us",
+        "title": "InflaRx — About Us",
+        "publisher": "InflaRx",
+        "accessed": "2026-08-16",
+        "supports": "HQ, business focus, GOHIBIC EUA",
+        "quote": "biopharmaceutical company focused on applying its proprietary anti-C5a and C5aR inhibitors to the treatment of life-threatening or debilitating inflammatory diseases"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and exact IPO date not found in the sourced page; ticker NASDAQ:IFRX confirmed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-kaia-health",
+    "name": {
+      "en": "Kaia Health"
+    },
+    "category": "digital-health",
+    "sectors": [],
+    "status": "merged",
+    "founded_year": 2016,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "website": "https://kaiahealth.com",
+    "profile": {
+      "what": "Digital multimodal-therapy programs (exercise + mind-body support) for back, joint and chronic pain, and for COPD.",
+      "modalities": [
+        "digital-therapeutics"
+      ],
+      "indications": [
+        "pain",
+        "musculoskeletal-orthopedics",
+        "respiratory"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "merger",
+        "year": 2026,
+        "acquirer": "Sword Health"
+      }
+    },
+    "summary": {
+      "en": "Munich/NYC digital-therapeutics company for chronic pain and COPD; merged into Sword Health in early 2026."
+    },
+    "sources": [
+      {
+        "url": "https://kaiahealth.com/about/",
+        "title": "Kaia Health — About",
+        "publisher": "Kaia Health",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, product, Sword Health merger",
+        "quote": "digital programs to help people with back, joint and chronic pain, as well as chronic obstructive pulmonary disease (COPD)"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-cegat",
+    "name": {
+      "en": "CeGaT",
+      "local": "CeGaT GmbH"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "private",
+    "founded_year": 2009,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Tübingen",
+    "website": "https://www.cegat.com",
+    "profile": {
+      "what": "Genetic-diagnostics and DNA-sequencing services, covering both patient diagnostics and pharma/research sequencing.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "rare-disease",
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "team_size": 200
+    },
+    "funding": {},
+    "summary": {
+      "en": "Tübingen genetic-diagnostics lab, ~200 staff, serving both patients and pharma/research clients."
+    },
+    "sources": [
+      {
+        "url": "https://www.cegat.com/en/about-us/",
+        "title": "CeGaT — About Us",
+        "publisher": "CeGaT GmbH",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, size",
+        "quote": "a world leader in genetic analyses for a wide range of medical, research and pharmaceutical applications"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-tubulis",
+    "name": {
+      "en": "Tubulis"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "website": "https://www.tubulis.com",
+    "profile": {
+      "what": "Antibody-drug conjugates (ADCs) for oncology, built on its proprietary Alco5 conjugation platform.",
+      "modalities": [
+        "biologics-antibody",
+        "drug-delivery"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "€344 million (~$401M) total",
+            "usd": 401000000,
+            "currency": "USD"
+          },
+          "date": "2025-10",
+          "lead": []
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2026,
+        "acquirer": "Gilead Sciences"
+      }
+    },
+    "summary": {
+      "en": "Munich ADC platform company that raised a €344M Series C in October 2025 before being acquired by Gilead Sciences in April 2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.tubulis.com/news",
+        "title": "Tubulis — News",
+        "publisher": "Tubulis",
+        "accessed": "2026-08-16",
+        "supports": "business, Series C amounts/dates, Gilead acquisition",
+        "quote": "Series C (First Closing): €308 million raised in October 2025"
+      },
+      {
+        "url": "https://www.tubulis.com/news",
+        "title": "Tubulis — News",
+        "publisher": "Tubulis",
+        "accessed": "2026-08-16",
+        "supports": "Gilead acquisition date",
+        "quote": "Gilead acquired Tubulis on April 7, 2026"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Named Series C investors not found on the fetched page; only aggregate round amounts and the Gilead acquisition were sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-t-knife",
+    "name": {
+      "en": "T-knife Therapeutics",
+      "local": "T-knife GmbH"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [],
+    "status": "private",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Berlin",
+    "website": "https://t-knife.com",
+    "profile": {
+      "what": "T-cell receptor (TCR-T) cell therapies for solid tumors.",
+      "modalities": [
+        "cell-therapy",
+        "gene-editing"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "TK-6302 (multi-armored, CRISPR-based TCR-T therapy)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$110 million",
+            "usd": 110000000,
+            "currency": "USD"
+          },
+          "date": "2021-08",
+          "lead": []
+        }
+      ]
+    },
+    "summary": {
+      "en": "Berlin/Philadelphia TCR-T cell-therapy developer spun out of Charité/BioNTech research; raised a $110M Series B in 2021."
+    },
+    "sources": [
+      {
+        "url": "https://t-knife.com/news/",
+        "title": "T-knife — News",
+        "publisher": "T-knife Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "business, lead asset, Series B",
+        "quote": "$110 Million Series B Financing to Advance Pipeline of T-cell Receptor Therapies"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Named Series B investors not found on the fetched page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-qiagen",
+    "name": {
+      "en": "QIAGEN"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": 1984,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Hilden",
+    "website": "https://www.qiagen.com",
+    "profile": {
+      "what": "Sample- and assay-technology provider for molecular diagnostics, applied testing, academic research and pharma research.",
+      "modalities": [
+        "lab-automation",
+        "software-samd"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 5967
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "NYSE:QGEN / FWB:QIA"
+      }
+    },
+    "summary": {
+      "en": "German-founded molecular-diagnostics and sample-tech giant, operationally headquartered in Hilden; legally domiciled in the Netherlands since a 2005 reincorporation."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/QIAGEN",
+        "title": "QIAGEN",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, listings, employees",
+        "quote": "a German-founded multinational provider of sample and assay technologies for molecular diagnostics, applied testing, academic research, and pharmaceutical research"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "QIAGEN N.V.'s legal/corporate HQ is Venlo, Netherlands (since a 2005 reincorporation); operational HQ and founding location is Hilden, Germany. Recorded here under Germany given its founding, operational base and public identity as a German company — flagging for the build script/team lead to confirm this judgment call.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-epigenomics",
+    "name": {
+      "en": "Epigenomics",
+      "local": "Epigenomics AG"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": 1998,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Berlin",
+    "website": "https://www.epigenomics.com",
+    "profile": {
+      "what": "DNA-methylation-based molecular diagnostics for cancer detection: Epi proColon (colon cancer, blood-based) and Epi proLung (lung cancer, bronchial fluid).",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "CE",
+          "kind": "CE-mark",
+          "item": "Epi proColon",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "FWB:ECX"
+      }
+    },
+    "summary": {
+      "en": "Berlin methylation-diagnostics company behind the Epi proColon blood test for colon-cancer screening; CE-marked but not US-available directly (licensed to Quest, ARUP)."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Epigenomics_AG",
+        "title": "Epigenomics AG",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, products, listing",
+        "quote": "measures SEPT9 methylation in blood plasma \"as an aid in early detection of colon cancer\""
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-roche",
+    "name": {
+      "en": "Roche",
+      "local": "F. Hoffmann-La Roche AG"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "public",
+    "founded_year": 1896,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "website": "https://www.roche.com",
+    "profile": {
+      "what": "Global healthcare company operating two divisions: Pharmaceuticals (incl. oncology, HIV) and Diagnostics (applied science, professional diagnostics, diabetes care, molecular and tissue diagnostics).",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "software-samd"
+      ],
+      "indications": [
+        "oncology",
+        "infectious-disease"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "SIX:ROG"
+      }
+    },
+    "summary": {
+      "en": "Basel pharma-and-diagnostics giant, the world's fifth-largest pharmaceutical company by revenue (CHF 62.4B, 2024); owns Genentech and Chugai. Its CVC arm, Roche Venture Fund, is catalogued separately in the investor directory."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roche",
+        "title": "Roche",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, divisions, revenue, ticker",
+        "quote": "a Swiss multinational holding healthcare company that operates worldwide under two divisions: Pharmaceuticals and Diagnostics"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-novartis",
+    "name": {
+      "en": "Novartis",
+      "local": "Novartis AG"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 1996,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "website": "https://www.novartis.com",
+    "profile": {
+      "what": "Swiss multinational pharmaceutical corporation manufacturing prescription drugs and diagnostics, historically also generics/vaccines/animal health (Sandoz generics spun off in 2023).",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "gene-therapy"
+      ],
+      "indications": [
+        "oncology",
+        "cardiovascular",
+        "immunology-inflammation",
+        "neurology"
+      ],
+      "development_stage": "commercial",
+      "team_size": 75883
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "SIX:NOVN / NYSE:NVS"
+      }
+    },
+    "summary": {
+      "en": "Basel pharma major (formed 1996 from the Ciba-Geigy/Sandoz merger), $50.3B revenue (2024); spun off its generics arm Sandoz in 2023. Its CVC arm, Novartis Venture Fund, is catalogued separately in the investor directory."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Novartis",
+        "title": "Novartis",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, revenue, tickers",
+        "quote": "Swiss multinational pharmaceutical corporation"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-lonza",
+    "name": {
+      "en": "Lonza",
+      "local": "Lonza Group AG"
+    },
+    "category": "pharma-services",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 1897,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "website": "https://www.lonza.com",
+    "profile": {
+      "what": "Contract development and manufacturing organization (CDMO) for pharma, biotech and nutrition, including monoclonal antibody and cell/gene-therapy manufacturing.",
+      "modalities": [
+        "biologics-antibody",
+        "cell-therapy",
+        "gene-therapy"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 18000
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "SIX:LONN"
+      }
+    },
+    "summary": {
+      "en": "Basel CDMO and SMI component, CHF 6.7B revenue (2023), a leading manufacturer of biologics and cell & gene therapies for the industry."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lonza_Group",
+        "title": "Lonza Group",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, listings, revenue",
+        "quote": "a Swiss multinational manufacturing company for the pharmaceutical, biotechnology and nutrition sectors"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-idorsia",
+    "name": {
+      "en": "Idorsia",
+      "local": "Idorsia Pharmaceuticals Ltd"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 2017,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Allschwil",
+    "website": "https://www.idorsia.com",
+    "profile": {
+      "what": "Pharmaceutical research company spun off from Actelion's R&D unit after the Johnson & Johnson acquisition.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "neurology",
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Daridorexant (Quviviq, insomnia)",
+      "regulatory": [
+        {
+          "body": "FDA/Swissmedic/EMA",
+          "kind": "approval",
+          "item": "Daridorexant (insomnia)",
+          "year": null
+        },
+        {
+          "body": "PMDA",
+          "kind": "approval",
+          "item": "Clazosentan (cerebral vasospasm)",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2017,
+        "ticker": "SIX:IDIA"
+      }
+    },
+    "summary": {
+      "en": "Allschwil-based spin-off of Actelion's R&D arm; markets the approved insomnia drug daridorexant, but underwent major 2023 layoffs and divested Asian operations to Sosei Heptares."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Idorsia",
+        "title": "Idorsia",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, pipeline, financial status",
+        "quote": "Daridorexant (approved for insomnia in US, Switzerland, EU)"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-adc-therapeutics",
+    "name": {
+      "en": "ADC Therapeutics",
+      "local": "ADC Therapeutics SA"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Epalinges",
+    "website": "https://www.adctherapeutics.com",
+    "profile": {
+      "what": "Commercial-stage oncology company specializing in antibody-drug conjugates (ADCs).",
+      "modalities": [
+        "biologics-antibody",
+        "drug-delivery"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "ZYNLONTA (loncastuximab tesirine-lpyl)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "accelerated approval",
+          "item": "ZYNLONTA (relapsed/refractory DLBCL)",
+          "year": null
+        },
+        {
+          "body": "European Commission",
+          "kind": "conditional approval",
+          "item": "ZYNLONTA",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "NYSE:ADCT"
+      }
+    },
+    "summary": {
+      "en": "Epalinges (Lausanne-area) ADC company; ZYNLONTA has FDA accelerated approval and EU conditional approval for relapsed/refractory DLBCL, now being tested in combination regimens."
+    },
+    "sources": [
+      {
+        "url": "https://www.stocktitan.net/news/ADCT/",
+        "title": "ADC Therapeutics coverage",
+        "publisher": "StockTitan",
+        "accessed": "2026-08-16",
+        "supports": "HQ, business, ZYNLONTA regulatory status, financials",
+        "quote": "CD19-directed ADC"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and exact approval years not confirmed by the fetched source.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-crispr-therapeutics",
+    "name": {
+      "en": "CRISPR Therapeutics",
+      "local": "CRISPR Therapeutics AG"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 2013,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Zug",
+    "website": "https://www.crisprtx.com",
+    "profile": {
+      "what": "CRISPR gene-editing therapeutics for rare and common diseases including sickle cell disease, beta thalassemia, cancers, type 1 diabetes and cardiovascular conditions.",
+      "modalities": [
+        "gene-editing",
+        "cell-therapy"
+      ],
+      "indications": [
+        "hematology",
+        "oncology",
+        "endocrinology",
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Casgevy (exagamglogene autotemcel / exa-cel)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Casgevy (sickle cell disease & beta thalassemia)",
+          "year": 2023
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2016,
+        "ticker": "NASDAQ:CRSP"
+      }
+    },
+    "summary": {
+      "en": "Zug/Boston gene-editing company co-founded by Nobel laureate Emmanuelle Charpentier; Casgevy became the first FDA-approved CRISPR therapy (Dec 2023, for sickle cell disease/beta thalassemia)."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CRISPR_Therapeutics",
+        "title": "CRISPR Therapeutics",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, IPO, Casgevy approval, founders",
+        "quote": "The FDA granted regulatory approval in December 2023 for treating sickle cell disease and beta thalassemia"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-sonova",
+    "name": {
+      "en": "Sonova",
+      "local": "Sonova Holding AG"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 1947,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Stäfa",
+    "website": "https://www.sonova.com",
+    "profile": {
+      "what": "Hearing care: hearing instruments, cochlear implants and wireless communication devices.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 17990
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "SIX:SOON"
+      }
+    },
+    "summary": {
+      "en": "Stäfa-based global hearing-care leader (hearing aids, cochlear implants); CHF 3.6B revenue (2024)."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sonova",
+        "title": "Sonova Holding AG",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, listing, revenue",
+        "quote": "hearing care (hearing instruments, cochlear implants, wireless communication)"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-basilea",
+    "name": {
+      "en": "Basilea Pharmaceutica"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 2000,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Allschwil",
+    "website": "https://www.basilea.com",
+    "profile": {
+      "what": "Drugs for severe, resistant bacterial infections and life-threatening invasive fungal diseases.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "infectious-disease"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Ceftobiprole (Zevtera/Mabelio)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Ceftobiprole (Zevtera) — bloodstream infections, endocarditis, skin infections, CABP",
+          "year": 2024
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2004,
+        "ticker": "SIX:BSLN"
+      }
+    },
+    "summary": {
+      "en": "Allschwil anti-infectives company spun off from Roche in 2000; Cresemba (antifungal) and Zevtera (antibiotic, FDA-approved 2024) are its lead commercial products."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basilea_Pharmaceutica",
+        "title": "Basilea Pharmaceutica",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, spin-off, products, FDA approval",
+        "quote": "In April 2024, the FDA approved Ceftobiprole for bloodstream infections, endocarditis, skin infections, and community-acquired bacterial pneumonia"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-sophia-genetics",
+    "name": {
+      "en": "Sophia Genetics"
+    },
+    "category": "genomics-omics",
+    "sectors": [
+      "diagnostics",
+      "ai-drug-discovery"
+    ],
+    "status": "public",
+    "founded_year": 2011,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Rolle",
+    "website": "https://www.sophiagenetics.com",
+    "profile": {
+      "what": "AI-driven genomic and radiomic analysis software platform (Sophia DDM) for hospitals, labs and biopharma.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "indications": [
+        "oncology",
+        "rare-disease"
+      ],
+      "development_stage": "commercial",
+      "team_size": 400
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2021,
+        "value": {
+          "raw": "$234 million raised",
+          "usd": 234000000,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:SOPH"
+      }
+    },
+    "summary": {
+      "en": "EPFL spin-out (Rolle/Boston) behind the Sophia DDM data-driven-medicine platform; IPO'd on Nasdaq in 2021, partners with Illumina, GE HealthCare, Qiagen, AstraZeneca and Microsoft."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sophia_Genetics",
+        "title": "Sophia Genetics",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, product, IPO",
+        "quote": "a Swiss-founded data-driven medicine software company"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-molecular-partners",
+    "name": {
+      "en": "Molecular Partners",
+      "local": "Molecular Partners AG"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 2004,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Schlieren",
+    "website": "https://www.molecularpartners.com",
+    "profile": {
+      "what": "Designed ankyrin repeat proteins (DARPins) — small-protein binders for research, diagnostics and therapy, in oncology, immuno-oncology, ophthalmology and infectious disease.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "ophthalmology",
+        "infectious-disease"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "Abicipar (DARPin, licensed to Allergan for ophthalmology)"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Novartis",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Molecular_Partners"
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2014,
+        "ticker": "SIX:MOLN / NASDAQ:MOLN"
+      }
+    },
+    "summary": {
+      "en": "Zurich-area (Schlieren) DARPin-protein therapeutics company spun out of University of Zürich research; Novartis took a 6% stake in 2020 as part of a COVID-19 therapeutics joint venture."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Molecular_Partners",
+        "title": "Molecular Partners",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, technology, listings, Novartis stake",
+        "quote": "In October 2020, pharmaceutical giant Novartis acquired a 6% stake at 23 CHF per share as part of a joint venture to develop COVID-19 therapeutics"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-actelion",
+    "name": {
+      "en": "Actelion",
+      "local": "Actelion Pharmaceuticals Ltd"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "founded_year": 1997,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Allschwil",
+    "website": "https://www.actelion.com",
+    "profile": {
+      "what": "Treatments for rare and orphan diseases, notably pulmonary arterial hypertension (PAH).",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "cardiovascular",
+        "rare-disease"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Opsumit (macitentan)"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2017,
+        "acquirer": "Johnson & Johnson",
+        "value": {
+          "raw": "$30 billion",
+          "usd": 30000000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Allschwil PAH-therapeutics pioneer (Tracleer, Opsumit); acquired by Johnson & Johnson for $30B in 2017, with its R&D unit spun off as Idorsia."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Actelion",
+        "title": "Actelion",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, products, J&J acquisition, Idorsia spin-off",
+        "quote": "pulmonary arterial hypertension (PAH), a heart condition that leaves patients with a short life expectancy (7–9 years) even with treatment"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-oculis",
+    "name": {
+      "en": "Oculis",
+      "local": "Oculis Holding AG"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 2017,
+    "region": "europe",
+    "country": "Switzerland",
+    "website": "https://www.oculis.com",
+    "profile": {
+      "what": "Biopharmaceutical company developing eye-drop and small-molecule therapies for neuro-ophthalmic and ophthalmic conditions.",
+      "modalities": [
+        "small-molecule",
+        "drug-delivery"
+      ],
+      "indications": [
+        "ophthalmology",
+        "neurology"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "OCS-01 (topical dexamethasone, Phase 3 for diabetic macular edema / post-cataract inflammation)",
+      "regulatory": []
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2023,
+        "ticker": "NASDAQ:OCS"
+      }
+    },
+    "summary": {
+      "en": "Swiss-incorporated ophthalmology biopharma; Nasdaq-listed since 2023 (secondary Nasdaq Iceland listing 2024). Privosegtor holds Breakthrough Therapy and EMA PRIME designations for optic neuritis."
+    },
+    "sources": [
+      {
+        "url": "http://oculis.com/about-us/",
+        "title": "Oculis — About Us",
+        "publisher": "Oculis",
+        "accessed": "2026-08-16",
+        "supports": "founding, business, pipeline, listings",
+        "quote": "a global biopharmaceutical company focused on innovation addressing neuro-ophthalmic and ophthalmic conditions with significant unmet medical needs"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact HQ city within Switzerland not confirmed by the fetched page (commonly reported as Lausanne/Zug in press but not verified here).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-oviva",
+    "name": {
+      "en": "Oviva"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "private",
+    "founded_year": 2014,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Zurich",
+    "website": "https://oviva.com",
+    "profile": {
+      "what": "Digital health provider for weight-related conditions — a medical-device-certified app combined with clinical teams of doctors, dietitians and behavioral specialists, treating obesity, hypertension and type 2 diabetes.",
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "cardiovascular",
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "team_size": 600
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "€200 million",
+            "usd": null,
+            "currency": "EUR"
+          },
+          "date": "2026",
+          "lead": []
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$80 million",
+            "usd": 80000000,
+            "currency": "USD"
+          },
+          "date": "2021",
+          "lead": []
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$21 million",
+            "usd": 21000000,
+            "currency": "USD"
+          },
+          "date": "2019",
+          "lead": []
+        },
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$11 million",
+            "usd": 11000000,
+            "currency": "USD"
+          },
+          "date": "2017",
+          "lead": []
+        },
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "$800k",
+            "usd": 800000,
+            "currency": "USD"
+          },
+          "date": "2016",
+          "lead": []
+        }
+      ]
+    },
+    "summary": {
+      "en": "Zurich-headquartered (also London, Berlin, Potsdam, Warsaw, Paris) digital health provider for obesity/T2D/hypertension, serving 1M+ patients; raised a €200M Series D in 2026."
+    },
+    "sources": [
+      {
+        "url": "https://oviva.com/en-ch/about-us/",
+        "title": "Oviva — About Us",
+        "publisher": "Oviva",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, funding history, team size",
+        "quote": "Europe's leading digital health provider for weight-related conditions"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Named investors were not disclosed on the fetched page for any round, including the 2026 Series D described only as 'long-term, impact-focused healthcare investors'.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-straumann",
+    "name": {
+      "en": "Straumann",
+      "local": "Straumann Group"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 1954,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "website": "https://www.straumann.com",
+    "profile": {
+      "what": "Dental implants and related technologies: prosthetics, orthodontics and digital dentistry.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 12000
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "SIX:STMN"
+      }
+    },
+    "summary": {
+      "en": "Basel dental-implant leader (evolved from a watchmaking-materials research institute), CHF 2.5B revenue (2024)."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Straumann",
+        "title": "Straumann Group",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, listing, revenue",
+        "quote": "manufacturing dental implants and specialized in related technologies"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-sandoz",
+    "name": {
+      "en": "Sandoz",
+      "local": "Sandoz Group AG"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "pharma-services"
+    ],
+    "status": "public",
+    "founded_year": 1886,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "website": "https://www.sandoz.com",
+    "profile": {
+      "what": "Generic pharmaceuticals and biosimilars, the self-described world leader in the category.",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 23848
+    },
+    "funding": {
+      "exit": {
+        "type": "spin-off/IPO",
+        "year": 2023,
+        "ticker": "SIX:SDZ"
+      }
+    },
+    "summary": {
+      "en": "Generics/biosimilars leader spun off from Novartis as an independent, Basel-listed company in October 2023, after decades as a Novartis division."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sandoz",
+        "title": "Sandoz",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, spin-off, business, listing, revenue",
+        "quote": "Novartis completed the spin-off of Sandoz as a stand-alone company"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Prior to the 2023 spin-off, Sandoz's operational base was Holzkirchen, Germany; legal/listed HQ is now Basel, Switzerland.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-ypsomed",
+    "name": {
+      "en": "Ypsomed",
+      "local": "Ypsomed Holding AG"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 2003,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Burgdorf",
+    "website": "https://www.ypsomed.com",
+    "profile": {
+      "what": "Injection and infusion systems for self-medication — insulin pens, auto-injectors and infusion pumps for diabetes care and biotech.",
+      "modalities": [
+        "medical-hardware",
+        "drug-delivery"
+      ],
+      "indications": [
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "team_size": 2800
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": null,
+        "ticker": "SIX Swiss Exchange"
+      }
+    },
+    "summary": {
+      "en": "Burgdorf-based drug-delivery device maker (insulin pens, auto-injectors, infusion pumps); ~CHF 729M revenue (2025)."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ypsomed",
+        "title": "Swiss life-sciences companies",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, revenue",
+        "quote": "injection and infusion systems for self-medication, primarily in the areas of diabetes care and biotechnology"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact SIX ticker symbol not confirmed by the fetched source.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-apeiron-biologics",
+    "name": {
+      "en": "Apeiron Biologics",
+      "local": "APEIRON Biologics AG"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "founded_year": 2003,
+    "region": "europe",
+    "country": "Austria",
+    "hq_city": "Vienna",
+    "website": "https://www.apeiron-biologics.com",
+    "profile": {
+      "what": "Immunotherapy and oncology drug developer, translating academic research (Josef Penninger's lab) into cancer therapeutics.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-2"
+    },
+    "funding": {},
+    "summary": {
+      "en": "Vienna oncology-immunotherapy company founded by Josef Penninger in 2003; spun off its operational R&D into invIOs GmbH in January 2022."
+    },
+    "sources": [
+      {
+        "url": "https://www.apeiron-biologics.com/about-us/",
+        "title": "APEIRON Biologics — About Us",
+        "publisher": "Apeiron Biologics",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, invIOs spin-off",
+        "quote": "founded in 2003 by Josef Penninger to translate academic basic research into therapeutic products in diseases with high unmet need, namely cancer"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-med-el",
+    "name": {
+      "en": "MED-EL"
+    },
+    "category": "medtech-devices",
+    "sectors": [],
+    "status": "private",
+    "founded_year": 1990,
+    "region": "europe",
+    "country": "Austria",
+    "hq_city": "Innsbruck",
+    "website": "https://www.medel.com",
+    "profile": {
+      "what": "Hearing implants and devices: cochlear implants, middle-ear implants and bone-conduction systems.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 3300
+    },
+    "funding": {},
+    "summary": {
+      "en": "Innsbruck-based, privately-held cochlear/hearing-implant maker founded by Ingeborg Hochmair; ~200,000 device users across 140 countries."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/MED-EL",
+        "title": "MED-EL",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, ownership, size",
+        "quote": "a global medical technology company specializing in hearing implants and devices"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-dach"
+  }
+]
