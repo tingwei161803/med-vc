@@ -2302,6 +2302,290 @@
         }
       ],
       "notes": "WebSearch was unavailable for this slice; all 30 companies were sourced via WebFetch against company websites, zh/en Wikipedia, Taiwan Stock Exchange ISIN lookups (owncode query, which return ticker + listing date reliably even when Big5-encoded body text is garbled), and the ClinicalTrials.gov v2 API (query.spons parameter), which proved the most reliable source for pipeline/phase/indication facts for TPEx/TWSE-listed biotechs since many company sites and zh.wikipedia.org pages 404'd. Both Center Laboratories and Bora Pharmaceuticals are recorded here as operating companies even though related entities already exist in the investor roster (tw-center-laboratories, tw-bora-pharmaceuticals) per the schema's guidance for firms that both operate and invest."
+    },
+    "r7-japan-biotech": {
+      "wanted": [
+        "StemRIM (need working URL: TSE Growth ticker, HMGB1 peptide regenerative drug pipeline, investors)",
+        "Orizuru Therapeutics (need working URL: Sumitomo Pharma x Kyoto University CiRA iPSC drug discovery JV, founding year, investors)",
+        "Chiome Bioscience (need working URL: ADLib antibody platform, TSE ticker, pipeline, investors)",
+        "ID Pharma / DNAVEC (need working URL: Sendai virus vector platform used across the iPSC ecosystem, investors, partnerships)",
+        "SymBio Pharmaceuticals (need deeper pages: founding year, TSE ticker, pipeline, investors)",
+        "Nxera Pharma / Sosei Group (need IR/history pages: founding year, GPCR platform pipeline, financials)",
+        "Elix Inc and other AI drug discovery startups (site fetch failed with SSL error; worth retrying)",
+        "Regenerative-medicine SAKIGAKE-designated programs generally — none confirmed sourced this session despite the brief's emphasis on this Japan-specific regulatory pathway"
+      ],
+      "skipped": [
+        {
+          "name": "StemRIM",
+          "reason": "TSE Growth-listed regenerative medicine company (HMGB1 peptide drugs) but every domain/URL guess (stemrim.com/en, stemrim.co.jp, ja.wikipedia ステムリム / ステムリム株式会社) 404'd or failed DNS this session; no WebSearch available to find the correct URL."
+        },
+        {
+          "name": "OncoTherapy Science",
+          "reason": "University of Tokyo genomics-based cancer vaccine/antibody spinout; no English or Japanese Wikipedia page found under guessed titles, no working domain found without WebSearch."
+        },
+        {
+          "name": "Perseus Proteomics (PPMX)",
+          "reason": "Antibody drug discovery company; could not locate a working source URL without WebSearch."
+        },
+        {
+          "name": "VLP Therapeutics",
+          "reason": "VLP vaccine platform company with Japan ties; could not confirm Japan HQ vs. US HQ, and no working source URL found without WebSearch."
+        },
+        {
+          "name": "Chiome Bioscience",
+          "reason": "ADLib antibody discovery platform company; guessed Wikipedia titles (カイオム・バイオサイエンス, カイオム・バイオサイエンス株式会社) both 404'd; no working source found without WebSearch."
+        },
+        {
+          "name": "SymBio Pharmaceuticals",
+          "reason": "Oncology/CNS drug licensing company; official site fetched twice but returned only navigation content with no founding/HQ/ticker facts, insufficient for a sourced entry."
+        },
+        {
+          "name": "ID Pharma (DNAVEC)",
+          "reason": "Sendai-virus-vector platform company used in iPSC reprogramming; official domain (id-pharma.com) failed SSL, guessed Wikipedia titles 404'd; no working source found without WebSearch."
+        },
+        {
+          "name": "Orizuru Therapeutics",
+          "reason": "Sumitomo Pharma / Kyoto University CiRA iPSC drug-discovery joint venture; guessed domain (orizuru-tx.com) failed DNS; no working source found without WebSearch."
+        },
+        {
+          "name": "GNI Group",
+          "reason": "Tokyo-listed fibrosis/oncology drug developer; guessed Wikipedia title 404'd; no working source found without WebSearch."
+        },
+        {
+          "name": "Sosei Group / Nxera Pharma",
+          "reason": "GPCR drug-discovery platform company (Heptares/StaR technology), rebranded Nxera Pharma; company site (nxera.life) reached but returned only a thin homepage with no founding/HQ/financial facts, insufficient for a sourced entry within budget."
+        }
+      ],
+      "notes": "WebSearch was unavailable this session (budget exhausted per instructions), so all research relied on WebFetch against guessed/known URLs. This was the binding constraint: a large fraction of candidate companies (StemRIM, Orizuru Therapeutics, Chiome Bioscience, ID Pharma, GNI Group, Perseus Proteomics, OncoTherapy Science, VLP Therapeutics) could not be reached because their exact domain or Wikipedia article title could not be guessed correctly, and Google/Bing search pages fetched via WebFetch returned unusable region-localized or JS-rendered content rather than real results. 28 of 31 delivered companies carry at least one Japanese name.local. Investor links were sourced for 4 companies (AnGes, Carna Biosciences, CMIC Group, Delta-Fly Pharma) via major-shareholder disclosures on Japanese Wikipedia rather than formal VC funding-round announcements, since PR Times / Crunchbase-style funding-round sources were unreachable without search. None of the 31 delivered companies carry a sourced SAKIGAKE designation, though AnGes' Collategene conditional/time-limited PMDA approval (Japan's first gene therapy product, March 2019) is exactly the kind of Japan-distinctive regenerative-medicine regulatory status the brief asked to capture, and is well sourced with a direct quote."
+    },
+    "r7-japan-health": {
+      "wanted": [
+        "Henry, Inc. -- cloud EMR + hospital billing (strong funding signal, worth a dedicated follow-up pass with working search access)",
+        "Riverfield Inc. -- TSE Growth-listed pneumatic surgical robot maker, would round out surgical-robotics coverage alongside Medicaroid",
+        "A dedicated femtech entry beyond Lily MedTech (Fermata was the target but unreachable)",
+        "A dedicated mental-health entry (Mental Health Technologies / Awarefy / emol all attempted and unreachable this session)",
+        "JMDC and Medical Data Vision tickers -- both confirmed public but exact TSE codes unverified this session",
+        "A-Traction Inc. -- Olympus's saroa surgical robot subsidiary, would add a second robotics player and tie to an already-catalogued strategic (Olympus)"
+      ],
+      "skipped": [
+        {
+          "name": "Henry Inc. (株式会社ヘンリー)",
+          "reason": "Cloud EMR/hospital billing startup with substantial funding is known by name (from unprofiled-companies.txt context and general knowledge) but its official site (henry.jp) rendered only a JS-shell with no body text on WebFetch, and Wikipedia/Wantedly/PR TIMES/Crunchbase lookups all 404'd or blocked; dropped rather than guess founding year, HQ or investors."
+        },
+        {
+          "name": "Riverfield Inc.",
+          "reason": "Pneumatic-driven surgical robot maker (TSE Growth-listed) could not be sourced: riverfield.co.jp resolved to an unrelated orthopedic-clinic/aesthetics business, ja.wikipedia guesses 404'd, and no other reachable source was found this session."
+        },
+        {
+          "name": "Splink, Inc.",
+          "reason": "AI dementia/Alzheimer's MRI-analysis company; domain splink.co.jp does not resolve (DNS failure) and no working alternate URL was found."
+        },
+        {
+          "name": "Welby Inc.",
+          "reason": "TSE Growth-listed PHR/disease-management app confirmed to be publicly listed via welby.jp, but founding year, HQ city and founders could not be extracted from any reachable page this session; dropped for lack of a foundational quote."
+        },
+        {
+          "name": "A-Traction Inc.",
+          "reason": "Olympus's surgical-robot (saroa) subsidiary; a-traction.com does not resolve (DNS failure) and no alternate source was found."
+        },
+        {
+          "name": "Fermata Inc.",
+          "reason": "Japanese femtech company; fermata.co.jp returned empty content on every path tried and no alternate source (Wikipedia, PR TIMES) surfaced usable info this session."
+        },
+        {
+          "name": "Awarefy Inc.",
+          "reason": "Mental-health AI app; awarefy.com does not resolve (DNS failure) and a PR TIMES guess landed on an unrelated company's release."
+        },
+        {
+          "name": "emol Inc.",
+          "reason": "AI mental-health counseling chatbot; emol.co.jp connection was refused and no alternate source was found."
+        },
+        {
+          "name": "Mental Health Technologies Inc.",
+          "reason": "TSE Growth-listed workplace stress-check SaaS company named in unprofiled-companies.txt; every domain guess (mental-health-technologies.co.jp, mentalhealth-tech.co.jp) failed to resolve and Wikipedia lookups 404'd."
+        },
+        {
+          "name": "MedTech Heart Inc.",
+          "reason": "Named in unprofiled-companies.txt (medical device, likely cardiac); no reachable source found before time ran out on this research pass."
+        },
+        {
+          "name": "Rehab for JAPAN Inc.",
+          "reason": "Named in unprofiled-companies.txt (nursing-care/rehab facility SaaS); rehab-for-japan.co.jp does not resolve and a PR TIMES guess hit an unrelated company."
+        },
+        {
+          "name": "Restore Vision Inc.",
+          "reason": "Named in unprofiled-companies.txt (ophthalmology device); restorevision.co.jp does not resolve and no alternate source was found."
+        },
+        {
+          "name": "Buzzreach Inc.",
+          "reason": "Named in unprofiled-companies.txt (clinical-trial recruitment platform); buzzreach.co.jp lookup 404'd and no alternate source was found."
+        },
+        {
+          "name": "AMI Inc.",
+          "reason": "Named in unprofiled-companies.txt (AI cardiac stethoscope); ami-inc.co.jp and Wikipedia guesses both 404'd."
+        },
+        {
+          "name": "Mediphone",
+          "reason": "Named in unprofiled-companies.txt; no working URL guess found before time ran out."
+        },
+        {
+          "name": "ACCELStars",
+          "reason": "Named in unprofiled-companies.txt; no working URL guess found before time ran out."
+        },
+        {
+          "name": "Healthcare Management Co.",
+          "reason": "Named in unprofiled-companies.txt; name too generic to guess a URL for without a working web-search tool."
+        },
+        {
+          "name": "Personal Health Tech (けんさぽ / Kensapo)",
+          "reason": "Named in unprofiled-companies.txt; no working URL guess found before time ran out."
+        },
+        {
+          "name": "Kaipoke / Medical Care Service Corporation",
+          "reason": "Nursing-care-operator SaaS platform; no working URL guess found before time ran out."
+        }
+      ],
+      "notes": "WebSearch was unavailable all session (budget exhausted); every lookup was a WebFetch guess against Wikipedia (EN/JA), official company sites, or PR TIMES. Hit rate was roughly 60% -- many official Japanese startup sites are JS-rendered SPAs that return an empty shell to WebFetch, and a large fraction of guessed domains/Wikipedia article-title variants 404'd or failed DNS. 33 companies were successfully sourced and written; 19 more were identified by name (mostly from unprofiled-companies.txt) but could not be sourced and are listed under skipped/wanted for a follow-up pass with working search. No id collides with existing-companies.tsv (zero jp- rows existed there before this pass). All investor names for funding.investors were left with entity_id: null per instructions for the build script to resolve; none were manually matched against investor-roster.tsv ids."
+    },
+    "r7-jpkr-investor-gaps": {
+      "notes": "Job 1 (named gaps): grepped missing-investors.txt for Japan/Korea signal and found exactly five relevant mentions — 'M3 Inc.', 'Astellas' (ambiguous-core:2), 'Eisai', 'Mitsui', 'Mitsui & Co.' — zero Korea-specific names appeared anywhere in the file. All five already have a roster entry (jp-m3-1p1y-fund, jp-astellas-venture-management, jp-eisai-cvi, jp-mitsui-co-healthcare); none needed a new entity. 'Astellas' and 'Eisai' stay ambiguous by design: both have near-duplicate entries in japan AND united-states (jp-astellas-venture-management / us-astellas-venture-management; jp-eisai-cvi / us-eisai-innovation) with the same or near-same name, so no alias_fix was proposed for those two — flagging this cross-region duplication for whoever owns roster QA, since it looks unintentional. 'M3 Inc.' and 'Mitsui'/'Mitsui & Co.' had exactly one unambiguous roster candidate each, so those got alias_fixes. Job 2 (independent research): Japan's 105-entry roster already covers essentially every category the brief suggested — JVCA-adjacent generalists, JIC-family funds, all four named university funds (UTokyo IPC, Kyoto-iCAP, Osaka University VC, Tohoku THVP) plus six more universities, and CVCs for every named pharma (Takeda x2, Astellas x2, Daiichi Sankyo, Eisai x2, Shionogi, Chugai) and most named financial/trading houses (Mitsui x2, Mitsubishi UFJ, Mizuho). Fetchable research (WebFetch only, no WebSearch, so no way to survey full member/portfolio lists systematically) surfaced two solid new additions: Beyond Next Ventures (major life-science/deep-tech VC operating the already-rostered Beyond BioLAB TOKYO incubator, but not itself in the roster as a fund) and SMBC Venture Capital (SMFG's generalist CVC with an 11%-of-portfolio life-sciences book and a long run of biotech IPO exits — the one megabank-family arm not yet covered, since Mizuho, MUFG and Sumitomo Mitsui Insurance were already present but SMBC itself was not). Sumitomo Pharma and Marubeni were checked and rejected (no CVC evidence found). Korea's 79-entry roster is similarly comprehensive (Samsung, LG, Celltrion, GC/Green Cross, Yuhan, Hanwha Life, KVCA-adjacent government funds, five university tech holding companies, four regional bio-industry foundations already present); targeted checks on SK Group, Hanmi, JW Holdings, LG Chem Life Sciences, and Samsung/Asan hospital funds found no qualifying independent CVC/fund distinct from what is already rostered, all logged in rejected[] with the specific dead-end. KVCA's member directory (kvca.or.kr) is paginated (241 firms, ~10 per page) with no bio/health filter reachable via WebFetch, so it was not exhaustively paginated — a gap a future round with WebSearch or a scriptable fetch could close. Net result: 2 new entities (both Japan), 0 new Korea entities, 3 alias_fixes, 10 rejected.",
+      "rejected": [
+        {
+          "name": "Sumitomo Pharma",
+          "reason": "No corporate venture capital arm, venture fund, or open-innovation investment program found on the official site (sumitomo-pharma.co.jp / sumitomo-pharma.com); the company frames innovation as in-house R&D, not external startup investing. No WebSearch available to check further; fails the inclusion bar absent a named fund or investment partner."
+        },
+        {
+          "name": "Marubeni",
+          "reason": "No evidence of a corporate venture capital arm or healthcare/life-science investment fund found on marubeni.com; the fetchable pages show IT/digital and general business segments only, no venture-investment vehicle. Unlike Mitsui & Co. (which has a documented Healthcare Business CVC already in the roster), Marubeni does not appear to run an equivalent healthcare investment program."
+        },
+        {
+          "name": "JAFCO",
+          "reason": "Japan's largest independent VC (est. 1973, ~¥135.2bn AUM per ja.wikipedia) but its official English homepage describes only two generalist practices (Venture Investment, Buyout Investment) with no dedicated healthcare/biotech/life-science practice, named health partner, or health-specific fund found via WebFetch. Without a search tool to survey its full portfolio for a genuine multi-deal health track record, it does not clear the inclusion bar on the evidence available this session."
+        },
+        {
+          "name": "Mitsubishi Corporation (trading house, healthcare business unit)",
+          "reason": "mitsubishicorp.com healthcare business-unit page returned HTTP 403 and could not be fetched; no alternate source reachable via WebFetch this session (no WebSearch) to confirm a dedicated investment vehicle distinct from the operating healthcare business. Left uninvestigated rather than guessed — a plausible candidate for a future round with search access."
+        },
+        {
+          "name": "SK Group / SK Inc. (Korea)",
+          "reason": "SK Group has substantial biotech operating subsidiaries (SK Biopharmaceuticals, SK Bioscience, SK Innovation's life-sciences R&D) but no dedicated corporate venture capital arm or startup-investment fund for healthcare was found via WebFetch (en.wikipedia.org/wiki/SK_Group and sk.com); these are portfolio/operating companies, not investment vehicles, so the entity fails the 'is an investor' threshold on current evidence."
+        },
+        {
+          "name": "Hanmi Pharmaceutical (Korea) — standalone CVC",
+          "reason": "en.wikipedia.org/wiki/Hanmi_Pharmaceutical states that in 2016 the late founder Lim Sung-ki 'intended to invest more heavily ... including through a venture capital firm set up by Sung-ki and colleagues,' but gives no fund name. This appears to be the same lineage as kr-atinum-investment, whose roster aka already records its former name as 'Hanmi Venture Capital' — treated as already covered rather than a new gap; not added as a duplicate or as an alias_fix since the connection (via founder identity, not corporate name) is circumstantial rather than a direct name match."
+        },
+        {
+          "name": "JW Holdings / JW Pharmaceutical (Korea)",
+          "reason": "No dedicated corporate venture capital arm or startup investment fund found; en.wikipedia.org/wiki/JW_Holdings and the pharmaceutical company's page both returned HTTP 404 via WebFetch this session, and no alternate reachable source confirmed a fund. Left uninvestigated rather than guessed."
+        },
+        {
+          "name": "LG Chem Life Sciences (Korea) — standalone CVC",
+          "reason": "lgchem.com life-sciences page returned HTTP 404; could not confirm whether LG Chem's Life Sciences division runs a venture-investment vehicle distinct from the already-rostered kr-lg-technology-ventures (LG's Silicon-Valley generalist CVC). Left uninvestigated rather than guessed."
+        },
+        {
+          "name": "Samsung Medical Center (Korea) — dedicated venture fund",
+          "reason": "samsunghospital.com pages returned redirect loops that WebFetch could not resolve to content; no independent source confirmed a hospital-affiliated investment fund distinct from kr-samsung-venture-investment / kr-samsung-life-science-fund (Samsung Group's corporate arms, already in the roster). Left uninvestigated rather than guessed."
+        },
+        {
+          "name": "Asan Medical Center (Korea) — dedicated venture fund",
+          "reason": "en.wikipedia.org/wiki/Asan_Medical_Center describes the hospital's clinical services, the Asan Institute for Life Sciences, and the parent Asan Foundation, but no venture-investment or startup-incubation fund. Fails the inclusion bar as researched this session."
+        }
+      ]
+    },
+    "r7-korea-biotech": {
+      "wanted": [
+        "Verbatim upfront/milestone figures for: LigaChem Biosciences' ADC deals with J&J/Amgen/Iksuda/Fosun; the Yuhan-to-Janssen lazertinib deal; ABL Bio's Sanofi (ABL301) and I-Mab/Compass deals; the Boehringer Ingelheim BBT-877 deal value and 2022 return terms for Bridge Biotherapeutics.",
+        "Confirmation of NKMax's current legal-entity relationship to NKGen Biotech Korea (rename vs. separate subsidiary) and the SPAC-merger deal value for NKGen Biotech's Nasdaq listing.",
+        "Follow-up sourcing for Frontline Bio, Cyren Therapeutics, AiNBI, Nbiocell, Jincast, Biome, Pinobio, S-Alpha Therapeutics, HEM Bio and Primepodia — all appear to be real, small Korean biotech/AI-drug-discovery names from the unprofiled-companies watchlist but could not be located via the Korean/English Wikipedia article-title guesses tried in this session; likely need direct company-site or DART fetches instead.",
+        "SK biopharmaceuticals (CNS drug spinoff of SK, maker of Xywav/Sunosi-class drugs) and Legochem-adjacent peers (e.g., Standigm for AI drug discovery, Panolos Bioscience, Enzychem Lifesciences, CG Bio, HLB/HLB Life Science) were identified as plausible additions but not researched this session due to time — worth adding in a follow-up pass to round out the ADC/CDMO/AI-drug-discovery categories further."
+      ],
+      "skipped": [
+        {
+          "name": "SD Biosensor",
+          "reason": "Diagnostics-only company (COVID rapid test kits); falls outside this slice's therapeutics/biotech focus and likely belongs to a diagnostics-focused Korea slice."
+        },
+        {
+          "name": "Genomictree",
+          "reason": "Diagnostics company (epigenetic cancer biomarker tests); out of scope for this therapeutics/biotech slice."
+        },
+        {
+          "name": "Vuno",
+          "reason": "AI medical-imaging/diagnostics software, not drug development; digital-health/diagnostics scope, not this slice."
+        },
+        {
+          "name": "Humanscape",
+          "reason": "Digital health data platform, not a biotech/therapeutics company."
+        },
+        {
+          "name": "PeopleBio",
+          "reason": "Alzheimer's biomarker diagnostics company; diagnostics scope, not therapeutics."
+        },
+        {
+          "name": "Sugentech",
+          "reason": "In-vitro diagnostic test-kit maker; diagnostics scope, not therapeutics."
+        },
+        {
+          "name": "GenSystem",
+          "reason": "Real-time PCR diagnostic device manufacturer; diagnostics/medtech scope, not therapeutics."
+        },
+        {
+          "name": "Tomocube",
+          "reason": "Holotomography imaging instrument maker; life-science-tools/imaging hardware, judged lower priority than the therapeutics-focused targets and not independently sourced in this pass."
+        },
+        {
+          "name": "3billion",
+          "reason": "Rare-disease genetic testing/diagnostics company, not a therapeutics developer."
+        },
+        {
+          "name": "Emocog",
+          "reason": "Digital cognitive-health app, not biotech/therapeutics."
+        },
+        {
+          "name": "Cenacle Soft, Kitten Planet, Caredoc, Motion Labs, UrbanDataLab, NeuroN, Lemon Healthcare, Asleep, DeepMetrics",
+          "reason": "Digital health / health-IT / consumer wellness companies; outside this slice's biotech/therapeutics/CDMO/cell-gene/vaccine/aesthetics-biologics scope."
+        },
+        {
+          "name": "Latus Bio",
+          "reason": "Could not confirm Korean headquarters — publicly available information suggests a US (Seattle-area)-headquartered AAV gene-therapy company; excluded to avoid a false region claim."
+        },
+        {
+          "name": "Cartography Biosciences",
+          "reason": "US-headquartered oncology diagnostics company despite a name that could be mistaken for Korean; excluded."
+        },
+        {
+          "name": "Frontline Bio, Cyren Therapeutics, AiNBI, Nbiocell, Jincast, Biome, Genopsy, Ubixis Therapeutics, Pinobio, S-Alpha Therapeutics, HEM Bio, iCure, Primepodia",
+          "reason": "Could not source via available WebFetch (Wikipedia/company-site) lookups in this pass within the session's time budget — names appear in the unprofiled-companies watchlist and are plausible Korean biotech/AI-drug-discovery candidates worth a targeted follow-up with dedicated company-site or DART fetches."
+        }
+      ],
+      "notes": "34 companies delivered against a 30-40 target, all newly profiled (existing-companies.tsv had zero prior kr- entries). All Hangul name.local fields were captured directly from Korean-language sources (Wikipedia articles at ko.wikipedia.org and one company homepage) and recorded as whole-syllable Hangul text, consistent with the brief's note that the earlier Hangul-decomposition bug is fixed. Every record carries at least one fetched URL in sources[]; every numeric claim in a structured field (funding amounts, revenue, deal values, employee/plant capacity) is backed by a verbatim quote in that source's 'quote' field. Where a widely-reported number (e.g., the Yuhan/Janssen lazertinib deal size, LigaChem's pharma-partner deal terms) could not be re-confirmed with a verbatim quote from the pages actually fetched in this session, it was deliberately omitted from structured fields rather than estimated, per instructions, and flagged in verification_notes/wanted instead. Out-licensing deals (Hanmi's four biodollar deals, Alteogen's MSD/Keytruda-SC royalty, Y-Biologics/IM Biologics/HK inno.N's IMB-101 package, Oscotec/ABL Bio's Sanofi deals, KoBioLabs' Korea Colmar termination) were consistently kept OUT of funding.total_raised and instead placed in summary/verification_notes with their real upfront-vs-milestone structure, per the brief's explicit instruction not to conflate licensing headline numbers with equity funding. funding.investors[] entries use plain names exactly as spelled in the fetched sources; cross-checked spellings against investor-roster.tsv where the same investor already exists there (Magna Investment, Smilegate Investment, InterVest, Dong Hwa Pharmaceutical/Donghwa Pharm, GC/GC Pharma, Korea Development Bank) — entity_id left null throughout per instructions for the build script to resolve. One record (Bridge Biotherapeutics) documents a company that fully exited biotech for an unrelated bitcoin-mining business post-clinical-failure; kept in the directory with status 'shut-down' and heavy annotation since it is a well-known Korean out-licensing cautionary tale (BBT-877/Boehringer Ingelheim) that investors in this directory would recognize, rather than silently dropped."
+    },
+    "r7-korea-health": {
+      "wanted": [
+        "Noul (malaria/blood-smear AI diagnostics) — verify site/DART and add if sourceable",
+        "Standigm or another Korean AI-drug-discovery company if the health slice is later widened",
+        "Kakao Healthcare / Naver's health AI initiatives — likely large-corp subsidiaries, need to confirm standalone entity status before adding",
+        "Femtech and elderly-care-tech Korean companies — this pass did not surface a sourceable femtech or eldercare-tech company; worth a targeted search",
+        "Numeric IPO year/ticker for Coreline Soft, InBody, Bit Computer, GenBody, Osstem Implant — partially unsourced in this pass"
+      ],
+      "skipped": [
+        {
+          "name": "AITRICS",
+          "reason": "included with partial data (no founding year, no investor names) — flagged in confidence/verification, not fully skipped"
+        },
+        {
+          "name": "Standigm",
+          "reason": "AI drug discovery, not medtech/digital-health per this slice's brief; better suited to a therapeutics/AI-drug-discovery Korea slice"
+        },
+        {
+          "name": "Noul",
+          "reason": "malaria/blood diagnostics AI company — could not fetch a working source (site and wiki both unreachable in this session) before time ran out"
+        },
+        {
+          "name": "Welt (as standalone)",
+          "reason": "Welt is Huinno's product brand, not a separate legal entity — folded into kr-huinno as aka"
+        }
+      ],
+      "notes": "34 companies delivered. Wikipedia (Korean-language, via WebFetch) was the dominant source since WebSearch was unavailable and many company .co.kr/.io domains 404'd, redirected, or blocked WebFetch (namu.wiki uniformly returned 403). All Hangul name.local fields were taken directly from the fetched Wikipedia article text. FDA/MFDS regulatory entries are recorded only where a fetched source stated an actual grant with a quote (VUNO DeepBrain FDA 2023, Koh Young Kymero FDA 2025, Medipixel MPXA FDA+MFDS, Meerecompany Revo-i MFDS 2017, Coreline Soft FDA 2026, Seegene FDA/MFDS EUA 2020, Huinno FDA 510(k), AITRICS Malaysia/Indonesia approvals). Femtech, POC-testing-only, and elderly-care-tech categories from the brief were not filled — no sourceable standalone company surfaced in this pass; flagged in 'wanted' for a follow-up pass with WebSearch or DART search restored."
     }
   }
 }

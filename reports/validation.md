@@ -1,6 +1,6 @@
 # Validation report
 
-- Total entities: **1647**
+- Total entities: **1648**
 - Regions with data: **12**
 - Schema violations: **0**
 
@@ -12,7 +12,7 @@
 - greater-china: 158
 - india: 77
 - israel: 74
-- japan: 105
+- japan: 106
 - rest-of-world: 60
 - south-korea: 79
 - southeast-asia: 94

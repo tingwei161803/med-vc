@@ -158,8 +158,17 @@ def check_companies(issues: dict[str, list[str]], entity_names: set[str]) -> dic
             issues["co-duplicate-id"].append(f"{cid} appears {n}x")
 
     total = len(companies)
+    # n_linked counts only the COMPANY side of the graph — companies whose own
+    # record names an investor that resolved. The graph is bigger than that,
+    # because investors also assert edges from their portfolio lists. Report
+    # both, and label them, so the smaller number is not mistaken for total
+    # connectivity.
+    stats_path = DATA / "company-stats.json"
+    graph_linked = None
+    if stats_path.exists():
+        graph_linked = json.loads(stats_path.read_text("utf-8")).get("linked_companies")
     return {"total": total, "sourced": n_sourced, "quoted": n_quote,
-            "linked": n_linked, "confidence": dict(conf)}
+            "linked": n_linked, "graph_linked": graph_linked, "confidence": dict(conf)}
 
 
 def main() -> None:
@@ -340,9 +349,11 @@ def main() -> None:
     if co.get("total"):
         ct = co["total"]
         print(f"med-vc QA — {ct} companies")
+        gl = co.get("graph_linked")
         print(f"  sourced: {co['sourced']}/{ct} ({100*co['sourced']//ct}%) · "
-              f"with quote: {co['quoted']} ({100*co['quoted']//ct}%) · "
-              f"linked to a listed investor: {co['linked']} ({100*co['linked']//ct}%)")
+              f"with quote: {co['quoted']} ({100*co['quoted']//ct}%)")
+        print(f"  investor named on the company record: {co['linked']} ({100*co['linked']//ct}%)"
+              + (f" · connected in the link graph: {gl} ({100*gl//ct}%)" if gl else ""))
         print(f"  confidence: {co['confidence']}")
     print("=" * 60)
     for sev, keys in SEV.items():
