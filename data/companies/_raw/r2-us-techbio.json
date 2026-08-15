@@ -1,0 +1,2008 @@
+[
+  {
+    "id": "us-ginkgo-bioworks",
+    "name": {
+      "en": "Ginkgo Bioworks"
+    },
+    "category": "synthetic-biology",
+    "sectors": [
+      "life-science-tools",
+      "pharma-services"
+    ],
+    "status": "public",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "website": "https://www.ginkgobioworks.com",
+    "profile": {
+      "what": "Synthetic-biology foundry that engineers custom organisms (cells, enzymes, DNA) as a platform service for other biotech, industrial and pharma companies.",
+      "modalities": [
+        "lab-automation",
+        "ai-ml-platform"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$45 million",
+            "usd": 45000000,
+            "currency": "USD"
+          },
+          "date": "2015",
+          "lead": [
+            "Viking Global Investors"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Viking Global Investors",
+          "entity_id": null,
+          "role": "lead",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Ginkgo_Bioworks"
+        },
+        {
+          "name": "Baillie Gifford",
+          "entity_id": null,
+          "role": "participant",
+          "round": "post-ipo",
+          "source_url": "https://en.wikipedia.org/wiki/Ginkgo_Bioworks"
+        }
+      ],
+      "exit": {
+        "type": "SPAC",
+        "year": 2021,
+        "acquirer": "Soaring Eagle Acquisition Corp",
+        "value": {
+          "raw": "$17.5 billion valuation",
+          "usd": null,
+          "currency": null
+        },
+        "ticker": "NYSE:DNA"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ginkgo_Bioworks",
+        "title": "Ginkgo Bioworks",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business description, Viking Global round, SPAC merger, Baillie Gifford stake",
+        "quote": "This included $45 million from Viking Global in 2015. ... specializes in using genetic engineering to produce bacteria with industrial applications for other biotech companies."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "2019 rounds ($290M Sep 2019, $350M Oct 2019) mentioned by Wikipedia without named investors, so omitted from investors[]. SPAC merger with Soaring Eagle Acquisition Corp valued the company at $17.5B; trading began Sep 17, 2021 on NYSE:DNA.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-recursion-pharmaceuticals",
+    "name": {
+      "en": "Recursion Pharmaceuticals"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Salt Lake City, UT",
+    "website": "https://www.recursion.com",
+    "profile": {
+      "what": "AI-driven drug discovery company that runs automated cell-imaging experiments at scale and mines a >50-petabyte proprietary biological dataset to identify drug targets and design molecules.",
+      "modalities": [
+        "ai-ml-platform",
+        "small-molecule"
+      ],
+      "development_stage": "phase-3"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2021,
+        "value": null,
+        "ticker": "NASDAQ:RXRX"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.recursion.com",
+        "title": "Recursion - company site",
+        "publisher": "Recursion Pharmaceuticals",
+        "accessed": "2026-08-16",
+        "supports": "what it does, HQ, pipeline stage range, Genentech/NVIDIA collaborations",
+        "quote": "Recursion uses cell imaging, artificial intelligence, and machine learning to identify drug targets and design optimized molecules... Multiple programs ranging from preclinical through Phase 3/Pivotal stages"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/rxrx/",
+        "title": "Recursion Pharmaceuticals (RXRX)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "IPO date, ticker, market cap",
+        "quote": "IPO Date: April 16, 2021; Exchange & Ticker: NASDAQ: RXRX; a clinical-stage biotechnology company"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Widely reported 2024 merger with Exscientia (combined entity trades as RXRX) could not be re-confirmed this session (Wikipedia article for Recursion does not exist under tried titles, and IR press pages timed out repeatedly) — flagged for a follow-up pass rather than asserted here. No pre-IPO VC syndicate sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-schrodinger",
+    "name": {
+      "en": "Schrödinger, Inc."
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "life-science-tools",
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 1990,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://www.schrodinger.com",
+    "profile": {
+      "what": "Computational platform (physics-based simulation plus ML) for molecular design, licensed to pharma/biotech/materials companies and also used to advance Schrödinger's own drug pipeline.",
+      "modalities": [
+        "ai-ml-platform",
+        "small-molecule"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2020,
+        "value": null,
+        "ticker": "NASDAQ:SDGR"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Schr%C3%B6dinger,_Inc.",
+        "title": "Schrödinger, Inc.",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founders, HQ, business description, IPO, revenue",
+        "quote": "Schrödinger develops computational tools and software for drug discovery and materials science... 2023 Revenue: $217 million"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders per Wikipedia: Richard A. Friesner and William A. Goddard III. Pre-IPO investor syndicate not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-tempus-ai",
+    "name": {
+      "en": "Tempus AI"
+    },
+    "category": "genomics-omics",
+    "sectors": [
+      "diagnostics",
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago, IL",
+    "website": "https://www.tempus.com",
+    "profile": {
+      "what": "Uses genomic sequencing and AI to power precision-medicine diagnostics across oncology, cardiology, radiology and mental health.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology",
+        "cardiovascular"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "SoftBank Group",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Tempus_AI"
+        },
+        {
+          "name": "Baillie Gifford",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Tempus_AI"
+        },
+        {
+          "name": "New Enterprise Associates",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Tempus_AI"
+        },
+        {
+          "name": "Novo Holdings",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Tempus_AI"
+        },
+        {
+          "name": "Franklin Templeton Investments",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Tempus_AI"
+        },
+        {
+          "name": "T. Rowe Price",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Tempus_AI"
+        },
+        {
+          "name": "Revolution LLC",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Tempus_AI"
+        },
+        {
+          "name": "Google",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Tempus_AI"
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2024,
+        "value": {
+          "raw": "$410.7 million raised",
+          "usd": 410700000,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:TEM"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tempus_AI",
+        "title": "Tempus AI",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founder, HQ, investors, IPO, acquisitions",
+        "quote": "Key Investors: SoftBank Group, Baillie Gifford, New Enterprise Associates, Novo Holdings, Franklin Templeton Investments, T. Rowe Price, Revolution LLC, and Google LLC ... Went public on Nasdaq on June 14, 2024, under ticker symbol TEM, raising $410.7 million"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founder: Eric Lefkofsky. Acquired Ambry Genetics ($600M, Nov 2024) and announced agreement to acquire Personalis ($1.5-1.7B, Jul 2026, expected to close late 2026/early 2027) — see us-personalis record.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-10x-genomics",
+    "name": {
+      "en": "10x Genomics"
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Pleasanton, CA",
+    "website": "https://www.10xgenomics.com",
+    "profile": {
+      "what": "Designs and manufactures single-cell and spatial-omics sequencing instruments and reagent kits for life-science research.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2019,
+        "value": {
+          "raw": "$390 million raised",
+          "usd": 390000000,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:TXG"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/10x_Genomics",
+        "title": "10x Genomics",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founders, HQ, business description, IPO, 2024 revenue",
+        "quote": "designs and manufactures sequencing technologies for use in scientific research, with a focus on product development for single-cell and spatial omics... IPO Date: September 12, 2019 on Nasdaq under ticker symbol TXG (Class A), raising $390 million"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders: Serge Saxonov, Ben Hindson, Kevin Ness. Pre-IPO VC syndicate not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-seer",
+    "name": {
+      "en": "Seer, Inc."
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Redwood City, CA",
+    "website": "https://www.seer.bio",
+    "profile": {
+      "what": "Proteomics company whose Proteograph platform uses engineered nanoparticles to enable deep, unbiased protein profiling from biological samples.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Maverick Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-ipo",
+          "source_url": "https://en.wikipedia.org/wiki/Seer,_Inc."
+        },
+        {
+          "name": "aMoon Fund",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-ipo",
+          "source_url": "https://en.wikipedia.org/wiki/Seer,_Inc."
+        },
+        {
+          "name": "Wing VC",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-ipo",
+          "source_url": "https://en.wikipedia.org/wiki/Seer,_Inc."
+        },
+        {
+          "name": "T. Rowe Price",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-ipo",
+          "source_url": "https://en.wikipedia.org/wiki/Seer,_Inc."
+        },
+        {
+          "name": "Fidelity",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-ipo",
+          "source_url": "https://en.wikipedia.org/wiki/Seer,_Inc."
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2020,
+        "value": {
+          "raw": "approximately $336.2 million in proceeds",
+          "usd": 336200000,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:SEER"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Seer,_Inc.",
+        "title": "Seer, Inc.",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founders, HQ, investors, IPO",
+        "quote": "Early investors included Maverick Capital, aMoon Fund, Wing VC, T. Rowe Price, and Fidelity ... IPO Date: December 4, 2020; Ticker: NASDAQ: SEER; approximately $336.2 million in proceeds"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders: Omid Farokhzad, Philip Ma, Robert Langer. Technology emerged from Brigham and Women's Hospital / Harvard Medical School nanoparticle research.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-grail",
+    "name": {
+      "en": "GRAIL, Inc."
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Menlo Park, CA",
+    "website": "https://grail.com",
+    "profile": {
+      "what": "Develops the Galleri multi-cancer early detection (MCED) blood test that screens for evidence of multiple cancer types from a single blood draw.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Illumina",
+          "entity_id": null,
+          "role": "lead",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Grail_(company)"
+        }
+      ],
+      "exit": {
+        "type": "spinoff",
+        "year": 2024,
+        "acquirer": null,
+        "value": null,
+        "ticker": "NASDAQ:GRAL"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grail_(company)",
+        "title": "GRAIL, Inc.",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business description, Illumina acquisition/spinoff history",
+        "quote": "Illumina acquired GRAIL outright for $7.1 billion in September 2020 ... Spun off from Illumina on June 24, 2024 ... Now trades on Nasdaq under ticker symbol GRAL. Illumina retained 14.5% ownership stake post-spinoff."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "GRAIL was originally spun out of Illumina in 2016, majority-reacquired by Illumina in 2020-2021, then re-spun-off onto Nasdaq (GRAL) in June 2024 with Illumina retaining a 14.5% stake — recorded here as 'spinoff' exit type since it was not a conventional IPO.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-guardant-health",
+    "name": {
+      "en": "Guardant Health"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto, CA",
+    "website": "https://guardanthealth.com",
+    "profile": {
+      "what": "Precision-oncology company whose liquid-biopsy blood tests detect cancer-related mutations for screening, treatment selection and monitoring.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$30 million",
+            "usd": 30000000,
+            "currency": "USD"
+          },
+          "date": "2014",
+          "lead": [
+            "Sequoia Capital"
+          ]
+        },
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$50 million",
+            "usd": 50000000,
+            "currency": "USD"
+          },
+          "date": "2015",
+          "lead": [
+            "Lightspeed Venture Partners"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$360 million",
+            "usd": 360000000,
+            "currency": "USD"
+          },
+          "date": "2017",
+          "lead": [
+            "SoftBank"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Sequoia Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Guardant_Health"
+        },
+        {
+          "name": "Lightspeed Venture Partners",
+          "entity_id": null,
+          "role": "lead",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Guardant_Health"
+        },
+        {
+          "name": "SoftBank Group",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-c-plus",
+          "source_url": "https://en.wikipedia.org/wiki/Guardant_Health"
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2018,
+        "value": {
+          "raw": "$237.5 million raised; $3.3 billion valuation at IPO",
+          "usd": null,
+          "currency": null
+        },
+        "ticker": "NASDAQ:GH"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Guardant_Health",
+        "title": "Guardant Health",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founders, HQ, funding rounds, IPO",
+        "quote": "2014: $30 million (includes $10 million from Sequoia Capital) ... 2015: $50 million (led by Lightspeed Venture Partners) ... 2017: $360 million (led by SoftBank Group subsidiary) ... IPO: October 2018 on Nasdaq (ticker: GH); raised $237.5 million ... Post-IPO Valuation: $3.3 billion"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders: Helmy Eltoukhy and AmirAli Talasaz.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-natera",
+    "name": {
+      "en": "Natera"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics",
+      "femtech-womens-health"
+    ],
+    "status": "public",
+    "founded_year": 2004,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Austin, TX",
+    "website": "https://www.natera.com",
+    "profile": {
+      "what": "Clinical genetic-testing company built on cell-free DNA (cfDNA) technology, serving women's health, oncology and organ-health testing.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "womens-health",
+        "oncology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2015,
+        "value": {
+          "raw": "$18.00 per share",
+          "usd": null,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:NTRA"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Natera",
+        "title": "Natera",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founders, HQ, business description, IPO, 2022 revenue",
+        "quote": "non-invasive, cell-free DNA (cfDNA) testing technology, with a focus on women's health, cancer, and organ health ... IPO Details: July 2015 at $18.00 per share; trades on Nasdaq under ticker symbol NTRA"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders: Matthew Rabinowitz and Jonathan Sheena. Pre-IPO VC syndicate not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-absci",
+    "name": {
+      "en": "Absci"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics",
+      "life-science-tools"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Vancouver, WA",
+    "website": "https://www.absci.com",
+    "profile": {
+      "what": "Generative-AI platform for designing and wet-lab-validating antibody therapeutics, paired with an in-house pipeline (lead program ABS-201 for androgenetic alopecia).",
+      "modalities": [
+        "ai-ml-platform",
+        "biologics-antibody"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "ABS-201 (androgenetic alopecia)"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2021,
+        "value": null,
+        "ticker": "NASDAQ:ABSI"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://stockanalysis.com/stocks/absi/",
+        "title": "Absci Corporation (ABSI)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "HQ, IPO date/ticker, business description, lead program",
+        "quote": "Absci Corporation, a clinical-stage biopharmaceutical company, develops various antibody therapeutics in the United States... lead programs including ABS-201 for androgenic alopecia... IPO Date: July 22, 2021; Exchange/Ticker: NASDAQ: ABSI"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Source describes Absci only as 'clinical-stage' without stating an exact trial phase for ABS-201; phase-1 used as the best defensible estimate and should be re-verified. Pre-IPO investors and founding year not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-certara",
+    "name": {
+      "en": "Certara"
+    },
+    "category": "pharma-services",
+    "sectors": [
+      "ai-drug-discovery",
+      "life-science-tools"
+    ],
+    "status": "public",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Radnor, PA",
+    "website": "https://www.certara.com",
+    "profile": {
+      "what": "Biosimulation and model-informed drug-development software and services used across preclinical research, clinical trials and regulatory submissions.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2020,
+        "value": null,
+        "ticker": "NASDAQ:CERT"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.certara.com/about-us/",
+        "title": "About Certara",
+        "publisher": "Certara",
+        "accessed": "2026-08-16",
+        "supports": "founding year, business description, scale",
+        "quote": "Founded through the merger of Tripos International and Pharsight Corporation ... Serves 2,600 companies with 94,000 global users ... Over 1,550 employees in 30+ countries"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/cert/",
+        "title": "Certara, Inc. (CERT)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "HQ, IPO date, ticker, revenue",
+        "quote": "Headquarters Location: Radnor, Pennsylvania; IPO Date: December 11, 2020; NASDAQ: CERT; Revenue (trailing twelve months): $421.75 million"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Certara was owned by private-equity firm EQT prior to its 2020 IPO; that ownership history was referenced by the team-lead brief but could not be re-confirmed with a quotable source this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-nautilus-biotechnology",
+    "name": {
+      "en": "Nautilus Biotechnology"
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Seattle, WA",
+    "website": "https://www.nautilus.bio",
+    "profile": {
+      "what": "Development-stage proteomics company building the Nautilus Voyager Platform — instruments, reagents and software for single-molecule protein analysis at scale.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "development_stage": "pilot"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "SPAC",
+        "year": null,
+        "value": null,
+        "ticker": "NASDAQ:NAUT"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://stockanalysis.com/stocks/naut/",
+        "title": "Nautilus Biotechnology (NAUT)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, ticker, business description",
+        "quote": "a development stage life sciences company, engages in creating a platform technology for quantifying and unlocking the complexity of the proteome ... Founded: 2016 ... NASDAQ: NAUT"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Went public via SPAC merger (with ARYA Sciences Acquisition Corp IV, publicly reported in 2021) but exact date not sourced this session, so exit.year left null. No investor syndicate sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-adaptive-biotechnologies",
+    "name": {
+      "en": "Adaptive Biotechnologies"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics",
+      "ai-drug-discovery"
+    ],
+    "status": "public",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Seattle, WA",
+    "website": "https://www.adaptivebiotech.com",
+    "profile": {
+      "what": "Immune-medicine platform that reads and translates the adaptive immune system at scale (immunosequencing) for both diagnostics — e.g. the clonoSEQ minimal-residual-disease test — and drug discovery.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2019,
+        "value": null,
+        "ticker": "NASDAQ:ADPT"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.adaptivebiotech.com/about-us/",
+        "title": "About Adaptive Biotechnologies",
+        "publisher": "Adaptive Biotechnologies",
+        "accessed": "2026-08-16",
+        "supports": "founding year, founders, business description",
+        "quote": "Adaptive develops proprietary immunosequencing technology and an immune medicine platform to read and translate the adaptive immune system at scale and with precision ... Primary products include clonoSEQ® MRD testing"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/adpt/",
+        "title": "Adaptive Biotechnologies (ADPT)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "HQ, IPO date, ticker, revenue",
+        "quote": "IPO Date: June 27, 2019; NASDAQ: ADPT; Revenue (trailing twelve months): $308.08M"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders: Harlan Robins and Chad Robins. Pre-IPO investor syndicate not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-quantum-si",
+    "name": {
+      "en": "Quantum-Si"
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Branford, CT",
+    "website": "https://quantum-si.com",
+    "profile": {
+      "what": "Develops a single-molecule, semiconductor-chip protein-sequencing platform (Platinum / Platinum Pro) for next-generation proteomics.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "SPAC",
+        "year": null,
+        "value": null,
+        "ticker": "NASDAQ:QSI"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://stockanalysis.com/stocks/qsi/",
+        "title": "Quantum-Si Incorporated (QSI)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, ticker, business description",
+        "quote": "Quantum-Si incorporated, a life sciences company, develops proprietary, universal, and single-molecule detection platform applied to proteomics to enable next-gen protein sequencing (NGPS) ... Founded: 2013 ... NASDAQ: QSI"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Went public via SPAC merger (with HighCape Capital, publicly reported in 2021) but exact date not sourced this session, so exit.year left null. No investor syndicate sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-personalis",
+    "name": {
+      "en": "Personalis"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Fremont, CA",
+    "website": "https://www.personalis.com",
+    "profile": {
+      "what": "Cancer genomics company offering NeXT Personal, a tumor-informed liquid-biopsy test for minimal-residual-disease detection and monitoring, and ImmunoID NeXT tissue profiling.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2019,
+        "value": null,
+        "ticker": "NASDAQ:PSNL"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://stockanalysis.com/stocks/psnl/",
+        "title": "Personalis, Inc. (PSNL)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "HQ, IPO date, ticker, business description, pending Tempus AI acquisition",
+        "quote": "IPO Date: June 20, 2019 ... Tempus AI announced a definitive agreement on July 20, 2026 to acquire Personalis for $16.25 per share in an all-stock deal valued at approximately $1.5-1.7 billion... expected to close in late 2026 or early 2027"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Pending acquisition by Tempus AI (see us-tempus-ai) had not closed as of this session (2026-08-16); status kept as 'public' until closing is confirmed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-veracyte",
+    "name": {
+      "en": "Veracyte"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.veracyte.com",
+    "profile": {
+      "what": "Genomic-diagnostics company offering sequencing-based classifiers for thyroid, prostate, bladder, breast and lung cancers.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2013,
+        "value": null,
+        "ticker": "NASDAQ:VCYT"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://stockanalysis.com/stocks/vcyt/",
+        "title": "Veracyte, Inc. (VCYT)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "HQ, IPO date, ticker, business description, former name",
+        "quote": "Headquarters Location: South San Francisco, California; IPO Date: October 30, 2013; NASDAQ: VCYT ... formerly known as Calderome, Inc."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and founders not sourced this session; investor syndicate not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-twist-bioscience",
+    "name": {
+      "en": "Twist Bioscience"
+    },
+    "category": "synthetic-biology",
+    "sectors": [
+      "genomics-omics",
+      "life-science-tools"
+    ],
+    "status": "public",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.twistbioscience.com",
+    "profile": {
+      "what": "Manufactures synthetic DNA at scale using semiconductor-based synthesis — genes, oligo pools, NGS tools and antibody libraries — for drug discovery, diagnostics and data-storage applications.",
+      "modalities": [
+        "lab-automation"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2018,
+        "value": null,
+        "ticker": "NASDAQ:TWST"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Twist_Bioscience",
+        "title": "Twist Bioscience",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founders, HQ, business description",
+        "quote": "manufactures synthetic DNA and DNA products for customers in a wide range of industries. Founders: Emily Leproust, Bill Banyai, and Bill Peck"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/twst/",
+        "title": "Twist Bioscience (TWST)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "IPO date, ticker, market cap, fiscal 2025 revenue",
+        "quote": "IPO Date: October 31, 2018; NASDAQ: TWST ... Fiscal 2025 revenue: $376.57 million (+20.32% YoY)"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Pre-IPO investor syndicate not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-codexis",
+    "name": {
+      "en": "Codexis"
+    },
+    "category": "synthetic-biology",
+    "sectors": [
+      "pharma-services",
+      "life-science-tools"
+    ],
+    "status": "public",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Redwood City, CA",
+    "website": "https://www.codexis.com",
+    "profile": {
+      "what": "Protein-engineering company whose CodeEvolver platform designs enzymes used in pharmaceutical, RNAi therapeutics manufacturing, food and other industrial applications.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2010,
+        "value": null,
+        "ticker": "NASDAQ:CDXS"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Codexis",
+        "title": "Codexis",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, business description, IPO",
+        "quote": "protein engineering company that develops enzymes for pharmaceutical, food and medical applications ... went public in April 2010 on NASDAQ"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/cdxs/",
+        "title": "Codexis, Inc. (CDXS)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "current platform description, ticker, market cap",
+        "quote": "Codexis provides technology solutions for therapeutics manufacturing, leveraging its proprietary CodeEvolver technology platform ... NASDAQ: CDXS"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders not sourced this session. Pre-IPO investor syndicate not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-standard-biotools",
+    "name": {
+      "en": "Standard BioTools"
+    },
+    "aka": [
+      "Fluidigm"
+    ],
+    "category": "life-science-tools",
+    "sectors": [
+      "genomics-omics",
+      "diagnostics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.standardbio.com",
+    "profile": {
+      "what": "Develops instruments, consumables and assays for proteomics and genomics research, including the SomaScan protein-measurement platform.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2011,
+        "value": null,
+        "ticker": "NASDAQ:LAB"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://stockanalysis.com/stocks/lab/",
+        "title": "Standard BioTools Inc. (LAB)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "HQ, IPO date, ticker, business description, pending Treeline Biosciences merger",
+        "quote": "Standard BioTools develops and manufactures instrumentation, consumables, and services for biomedical researchers ... IPO Date: February 10, 2011; NASDAQ: LAB ... announced a merger agreement with Treeline Biosciences in an all-stock transaction, expected to close in the second half of 2026"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Company was renamed from Fluidigm to Standard BioTools in 2023 (per general knowledge, not re-confirmed with a quote this session). Pending all-stock merger with Treeline Biosciences not yet closed as of 2026-08-16.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-charles-river-laboratories",
+    "name": {
+      "en": "Charles River Laboratories"
+    },
+    "category": "pharma-services",
+    "sectors": [
+      "life-science-tools"
+    ],
+    "status": "public",
+    "founded_year": 1947,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Wilmington, MA",
+    "website": "https://www.criver.com",
+    "profile": {
+      "what": "Contract research organization (CRO) providing preclinical and clinical laboratory services — toxicology, safety testing and research models — for drug, vaccine and medical-device development.",
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2000,
+        "value": null,
+        "ticker": "NYSE:CRL"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_River_Laboratories",
+        "title": "Charles River Laboratories",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, founder, HQ, business description",
+        "quote": "Henry Foster, a veterinarian who established the company in Boston, 1947 ... provides preclinical and clinical laboratory services for the development of new drugs, vaccines, and medical devices"
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/crl/",
+        "title": "Charles River Laboratories International (CRL)",
+        "publisher": "stockanalysis.com",
+        "accessed": "2026-08-16",
+        "supports": "IPO date, ticker, market cap, employee count",
+        "quote": "IPO Date: June 23, 2000; NYSE: CRL; Employees: 19,700"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Went public in 2000 following Jim Foster's buyback from Bausch & Lomb, per Wikipedia.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-solugen",
+    "name": {
+      "en": "Solugen"
+    },
+    "category": "synthetic-biology",
+    "sectors": [
+      "life-science-tools"
+    ],
+    "status": "private",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Houston, TX",
+    "website": "https://www.solugen.com",
+    "profile": {
+      "what": "Runs 'Bioforge' biomanufacturing plants that combine enzymatic and chemical processes to make bio-based specialty chemicals as sustainable replacements for petroleum-derived products.",
+      "modalities": [
+        "lab-automation"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "$640M+",
+        "usd": null,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$13.5M",
+            "usd": 13500000,
+            "currency": "USD"
+          },
+          "date": "2018",
+          "lead": [
+            "Fifty Years",
+            "Founders Fund",
+            "Y Combinator"
+          ]
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$32M",
+            "usd": 32000000,
+            "currency": "USD"
+          },
+          "date": "2019",
+          "lead": [
+            "Founders Fund"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$350M",
+            "usd": 350000000,
+            "currency": "USD"
+          },
+          "date": "2021",
+          "lead": [
+            "GIC",
+            "Baillie Gifford"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$200M",
+            "usd": 200000000,
+            "currency": "USD"
+          },
+          "date": "2022"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Fifty Years",
+          "entity_id": null,
+          "role": "co-lead",
+          "round": "series-a",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "Founders Fund",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-b",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "Y Combinator",
+          "entity_id": null,
+          "role": "co-lead",
+          "round": "series-a",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "Refactor Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "KdT Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "GIC",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-c-plus",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "Baillie Gifford",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-c-plus",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "Temasek Holdings",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c-plus",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "BlackRock",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c-plus",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "Carbon Direct Capital Management",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "Kennivik",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.solugen.com/about"
+        },
+        {
+          "name": "Lowercarbon Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.solugen.com/about"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.solugen.com/about",
+        "title": "About Solugen",
+        "publisher": "Solugen",
+        "accessed": "2026-08-16",
+        "supports": "founding, founders, HQ, technology, full funding history and investor list, DOE loan guarantee",
+        "quote": "2018: $13.5M Series A (led by Fifty Years, Founders Fund, Y Combinator) ... 2019: $32M Series B (led by Founders Fund) ... 2021: $350M in Series C funding (led by GIC and Baillie Gifford) ... 2022: $200M in a Series D ... Total Raised: $640M+ ... Investors: Fifty Years, Founders Fund, Y Combinator, Refactor Capital, KdT Ventures, GIC, Baillie Gifford, Temasek Holdings, BlackRock, Carbon Direct Capital Management, Kennivik, Lowercarbon Capital"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founders: Gaurab Chakrabarti and Sean Hunt (Hunt's surname not directly confirmed in the fetched extract). Round-to-investor mapping beyond the leads named per-round is approximate — several investors listed only in the company's cumulative investor roll call rather than tied to a specific round.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-resilience",
+    "name": {
+      "en": "Resilience",
+      "local": "National Resilience, Inc."
+    },
+    "category": "pharma-services",
+    "sectors": [
+      "cell-gene-therapy",
+      "life-science-tools"
+    ],
+    "status": "private",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Blue Ash, OH",
+    "website": "https://www.resilience.com",
+    "profile": {
+      "what": "Biopharmaceutical CDMO (contract development and manufacturing organization) offering end-to-end development, scale-up and manufacturing across biologics, cell therapy, gene therapy and complex drug products.",
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$625 million",
+            "usd": 625000000,
+            "currency": "USD"
+          },
+          "date": "2022-06"
+        },
+        {
+          "stage": "debt",
+          "amount": {
+            "raw": "$410 million",
+            "usd": 410000000,
+            "currency": "USD"
+          },
+          "date": "2023-03",
+          "lead": [
+            "U.S. Department of Defense"
+          ]
+        },
+        {
+          "stage": "debt",
+          "amount": {
+            "raw": "up to $825 million",
+            "usd": null,
+            "currency": "USD"
+          },
+          "date": "2025"
+        }
+      ],
+      "investors": [
+        {
+          "name": "ARCH Venture Partners",
+          "entity_id": null,
+          "role": "lead",
+          "round": "unknown",
+          "source_url": "https://www.resilience.com/about/"
+        },
+        {
+          "name": "8VC",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.resilience.com/about/"
+        },
+        {
+          "name": "GV (Google Ventures)",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.resilience.com/about/"
+        },
+        {
+          "name": "New Enterprise Associates",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.resilience.com/about/"
+        },
+        {
+          "name": "Eli Lilly and Company",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.resilience.com/about/"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.resilience.com/about/",
+        "title": "About Resilience",
+        "publisher": "Resilience",
+        "accessed": "2026-08-16",
+        "supports": "founding leadership, business description, financing history, investors",
+        "quote": "Resilience Founder: Robert Nelsen (Chairman, ARCH Venture Partners) ... Resilience Announces Long-Term Financing of up to $825 Million to Accelerate CDMO Strategy ... Resilience and Lilly Invest $750 Million to Increase U.S.-Manufactured Medicine Supply"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ is reported variously across Resilience's own pages (Blue Ash, OH site page vs. commonly reported South San Francisco/Boston corporate HQ); used the explicitly labeled 'HQ' in the fetched page. Founded November 2020 by Robert Nelsen of ARCH Venture Partners. The Government of Canada's ~$164M (2021) investment and DoD's $410M (2023) financing were structured as government funding/loans rather than confirmed equity rounds, so they are recorded under funding.rounds rather than funding.investors. Total cumulative raised not confirmed with a single verbatim figure.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-enveda-biosciences",
+    "name": {
+      "en": "Enveda Biosciences"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boulder, CO",
+    "website": "https://www.enveda.com",
+    "profile": {
+      "what": "Uses mass-spectrometry and AI to read and translate the chemistry of natural compounds at scale, aiming to discover medicines faster than traditional drug discovery.",
+      "modalities": [
+        "ai-ml-platform",
+        "small-molecule"
+      ],
+      "development_stage": "preclinical"
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "$335 million across Series B, B1, C and D as reported on the company's own news page",
+        "usd": null,
+        "currency": "USD"
+      },
+      "unicorn": true,
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$51M",
+            "usd": 51000000,
+            "currency": "USD"
+          },
+          "date": "2021-06",
+          "lead": [
+            "Lux Capital"
+          ]
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$68M (equity and debt combined)",
+            "usd": 68000000,
+            "currency": "USD"
+          },
+          "date": "2022-12"
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$119M total (Series B1, oversubscribed)",
+            "usd": 119000000,
+            "currency": "USD"
+          },
+          "date": "2023-04"
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$130 million",
+            "usd": 130000000,
+            "currency": "USD"
+          },
+          "date": "2024-11"
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$150 million",
+            "usd": 150000000,
+            "currency": "USD"
+          },
+          "date": "2025-09"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Lux Capital",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-a",
+          "source_url": "https://www.enveda.com/press"
+        },
+        {
+          "name": "Sanofi",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c-plus",
+          "source_url": "https://www.enveda.com/press"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.enveda.com/press",
+        "title": "Enveda Press",
+        "publisher": "Enveda Biosciences",
+        "accessed": "2026-08-16",
+        "supports": "HQ, funding round amounts and dates, unicorn status, Sanofi and Lux Capital involvement",
+        "quote": "Series D (September 4, 2025): $150 million; Milestone: Reached unicorn status ... Series A (June 22, 2021): $51M; Lead Investor: Lux Capital ... Series C (February 26, 2025): $150M total (Series C financing); Investor: Sanofi (backing announced)"
+      },
+      {
+        "url": "https://www.enveda.com/",
+        "title": "Enveda - homepage",
+        "publisher": "Enveda Biosciences",
+        "accessed": "2026-08-16",
+        "supports": "HQ address, business description",
+        "quote": "5700 Flatiron Parkway, Boulder, CO 80301 ... reads and translate nature's hidden chemistry ... discover medicines 4X faster than the industry average"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The company's own press page presents overlapping/renamed round labels (e.g. a 'Series C' announced Nov 2024 at $130M and a further 'Series C financing' of $150M in Feb 2025 with Sanofi) that could not be fully reconciled into a single clean round history this session; recorded as separate line items rather than resolved. Founders and founding year not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-glyphic-biotechnologies",
+    "name": {
+      "en": "Glyphic Biotechnologies"
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "genomics-omics"
+    ],
+    "status": "private",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Berkeley, CA",
+    "website": "https://www.glyphic.bio",
+    "profile": {
+      "what": "Developing Protein Sequencing by Expansion (ProSE), a de novo high-throughput proteome sequencing technology able to discriminate all 20 amino acids and post-translational modifications with single-molecule sensitivity.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "development_stage": "discovery"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.glyphic.bio",
+        "title": "Glyphic Biotechnologies",
+        "publisher": "Glyphic Biotechnologies",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, technology description",
+        "quote": "Protein Sequencing by Expansion (ProSE™) — the first truly de novo high-throughput proteome sequencing technology capable of discriminating all 20 AAs and PTMs accurately with single molecule sensitivity"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founders and funding/investor information not found on the fetched page this session; company appears on the investor-roster unprofiled list with 3 investors naming it (source not identified this session — flagged for a follow-up pass with search access).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-generate-biomedicines",
+    "name": {
+      "en": "Generate:Biomedicines"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Somerville, MA",
+    "website": "https://generatebiomedicines.com",
+    "profile": {
+      "what": "Uses machine learning and biological engineering ('generative biology') to design protein-based medicines across multiple therapeutic modalities, spanning immunology, oncology and infectious disease.",
+      "modalities": [
+        "ai-ml-platform",
+        "biologics-antibody"
+      ],
+      "development_stage": "preclinical"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$273 million",
+            "usd": 273000000,
+            "currency": "USD"
+          },
+          "date": "2023"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Flagship Pioneering",
+          "entity_id": null,
+          "role": "lead",
+          "round": "pre-seed",
+          "source_url": "https://en.wikipedia.org/wiki/Generate:Biomedicines"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Generate:Biomedicines",
+        "title": "Generate:Biomedicines",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, founder (Flagship Pioneering), HQ, business description, Series C amount, Novartis deal",
+        "quote": "using machine learning to design and optimize proteins for therapeutic applications, focusing on immunology, oncology, and infectious diseases ... Series C round of $273 million in 2023, described as the largest biotech Series C of the year ... September 2024 deal with Novartis valued at over $1 billion"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Named investors for the $273M Series C were not itemized in the fetched source beyond founder Flagship Pioneering (a venture-creation firm, recorded here at 'pre-seed' as company creator rather than as a traditional Series C participant).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-insitro",
+    "name": {
+      "en": "Insitro"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.insitro.com",
+    "profile": {
+      "what": "Machine-learning-driven drug discovery and development company applying causal human biology models across ALS, metabolic disease and cancer.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "development_stage": "preclinical"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$400 million",
+            "usd": 400000000,
+            "currency": "USD"
+          },
+          "date": "unknown"
+        }
+      ],
+      "investors": [
+        {
+          "name": "CPP Investments",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c-plus",
+          "source_url": "https://www.insitro.com/news"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.insitro.com/news",
+        "title": "insitro news",
+        "publisher": "insitro",
+        "accessed": "2026-08-16",
+        "supports": "HQ, business description, Series C amount, CPP Investments",
+        "quote": "the physical AI company unlocking causal human biology ... Series C: $400 million ... CPP Investments"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "CEO/co-founder Daphne Koller confirmed; other co-founders and founding year not sourced this session. Exact date of the $400M Series C round not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-dyno-therapeutics",
+    "name": {
+      "en": "Dyno Therapeutics"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "cell-gene-therapy"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Watertown, MA",
+    "website": "https://www.dynotx.com",
+    "profile": {
+      "what": "AI platform for designing high-performance AAV gene-delivery vehicles ('CapsidMap') licensed to gene-therapy partners.",
+      "modalities": [
+        "ai-ml-platform",
+        "gene-therapy"
+      ],
+      "development_stage": "discovery"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.dynotx.com/",
+        "title": "Dyno Therapeutics",
+        "publisher": "Dyno Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ, business description",
+        "quote": "AI and biotech pioneers building high-performance genetic technologies to unlock the potential of next-gen medicine"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only the homepage was reachable this session; founding year, founders, funding rounds and investors were not found and should be re-sourced with search access (publicly reported partners/investors such as Andreessen Horowitz and Novartis/Sarepta/Roche licensing deals could not be verbatim-confirmed this session).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-xaira-therapeutics",
+    "name": {
+      "en": "Xaira Therapeutics"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.xaira.com",
+    "profile": {
+      "what": "Builds predictive and agentic AI models spanning the full drug discovery and development process.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "development_stage": "discovery"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.xaira.com",
+        "title": "Xaira Therapeutics",
+        "publisher": "Xaira Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ, business description",
+        "quote": "predictive and agentic AI models across the complete spectrum of the drug discovery and development process"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Xaira launched in 2024 with a widely reported >$1B founding round (publicly attributed to ARCH Venture Partners, Foresite Capital, Sequoia Capital, F-Prime, Two Sigma Ventures and others), but none of that could be re-confirmed with a quotable source this session — every /news and /press URL tried 404'd. Flagged as a priority re-check with search access given the size of the round and likely Big Tech/AI-lab investor overlap.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-paige",
+    "name": {
+      "en": "Paige",
+      "local": "Paige.AI"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://paige.ai",
+    "profile": {
+      "what": "AI-assisted digital pathology company offering diagnostic applications and foundation models to help pathologists identify and classify cancer from tissue samples.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://paige.ai",
+        "title": "Paige",
+        "publisher": "Paige.AI",
+        "accessed": "2026-08-16",
+        "supports": "HQ, business description",
+        "quote": "AI to solve cancer's most critical issues... Paige Alba: a clinical-grade multi-modal co-pilot designed to revolutionize personalized medicine and precision oncology"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Site states the company is 'Funded and Trusted by the industry's most influential investors' without naming them; founding year and specific investor names not sourced this session. Paige holds what is widely reported as the first FDA-approved AI product in pathology (Paige Prostate) but that could not be re-confirmed with a quote this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  },
+  {
+    "id": "us-bighat-biosciences",
+    "name": {
+      "en": "BigHat Biosciences"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics",
+      "life-science-tools"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Mateo, CA",
+    "website": "https://www.bighatbio.com",
+    "profile": {
+      "what": "Antibody-therapeutics platform ('Milliner') that integrates machine learning, automation and synthetic biology to discover and engineer antibodies from target through the clinic.",
+      "modalities": [
+        "ai-ml-platform",
+        "biologics-antibody",
+        "lab-automation"
+      ],
+      "development_stage": "preclinical"
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "$100M+",
+        "usd": null,
+        "currency": "USD"
+      },
+      "investors": [
+        {
+          "name": "Andreessen Horowitz",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.bighatbio.com/about"
+        },
+        {
+          "name": "Section 32",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.bighatbio.com/about"
+        },
+        {
+          "name": "8VC",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.bighatbio.com/about"
+        },
+        {
+          "name": "Amgen Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.bighatbio.com/about"
+        },
+        {
+          "name": "Bristol Myers Squibb",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.bighatbio.com/about"
+        },
+        {
+          "name": "Quadrille Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.bighatbio.com/about"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.bighatbio.com/about",
+        "title": "About BigHat Biosciences",
+        "publisher": "BigHat Biosciences",
+        "accessed": "2026-08-16",
+        "supports": "HQ, CEO, business description, total raised, investor list",
+        "quote": "Peyton Greenside (CEO & Co-Founder) ... 1900 Alameda de las Pulgas, Suite 400, San Mateo, California ... $100M+ in funding ... investors including a16z, Section 32, 8VC, Amgen, Bristol Myers Squibb, Quadrille Capital"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Investor list is from a cumulative 'backed by' logo display rather than a round-by-round breakdown, so round and role are marked 'unknown'/'participant' rather than asserted; 'Amgen' recorded as Amgen Ventures per typical CVC naming (not independently re-confirmed as the exact legal entity name this session).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-techbio"
+  }
+]

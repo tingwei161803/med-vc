@@ -1,0 +1,946 @@
+{
+  "_comment": [
+    "Named gaps the research rounds could not close, kept in the repo so they",
+    "survive the scratchpad. `wanted` is what an agent would have researched",
+    "with a working WebSearch; `skipped`/`rejected` record deliberate exclusions",
+    "and WHY, so a later round does not redo the same rejected work.",
+    "Machine-generated per round from the agents' own output; edit freely."
+  ],
+  "rounds": {
+    "r1-batch-a": {
+      "notes": "Researched under this session's tool constraints: the shared WebSearch budget for the session was already exhausted (200/200) before this batch began, so all research after the first few calls relied on WebFetch against company newsroom pages, PR Newswire/company-hosted press releases, Wikipedia, and TechCrunch tag/site-search pages (techcrunch.com/tag/<slug>/ and techcrunch.com/?s=<query> both worked well as a search substitute; Bing, Google, DuckDuckGo, Marginalia, and web.archive.org were all inaccessible or bot-blocked via WebFetch in this environment). This means funding-round coverage is uneven: Devoted Health, DispatchHealth, Hinge Health, Innovaccer, and Omada Health have multi-round histories with named investors; Aledade, Main Street Health, and Thyme Care have only their most recent (best-covered) round; Livongo has only one 2017 round plus the Teladoc acquisition. No Series A-C for Aledade could be sourced at all. All 10 assigned companies were researched and written (none skipped as out-of-scope) — all are confirmed US-headquartered operating companies. Every funding figure and investor name in this file traces to a URL actually fetched in this session; nothing was filled in from unverified background knowledge."
+    },
+    "r1-batch-b": {
+      "notes": "WebSearch tool was exhausted session-wide (200/200) before this batch started, and the Brave Search proxy via WebFetch was rate-limited after light use; Yahoo Search (search.yahoo.com) via WebFetch was the most reliable substitute and was used for the bulk of this research, supplemented by direct WebFetch of company newsrooms, PR Newswire/Business Wire releases, TechCrunch/Fierce Healthcare/Forbes/Fortune articles, and Wikipedia. All 10 assigned companies were researched and written; none were skipped. Investor round-attribution for a handful of entries (e.g., Cityblock's Series A/B 'existing investor' overlaps, Hims & Hers' unlabeled Series B) relies on the cited article's own phrasing rather than a dedicated primary press release for that specific round, since standalone primary sources for every single early round were not always locatable. All amounts, dates, and investor names are backed by at least one fetched source; anything I could not corroborate (e.g., Oscar Health's 2013 seed round, an Oscar IPO total-proceeds figure, Maven's Series F valuation) was left out rather than guessed."
+    },
+    "r1-batch-c": {
+      "notes": "All 9 assigned companies were researched and written. WebSearch tool budget was exhausted session-wide before this agent could use it (shared 200/200 quota consumed by other concurrent agents), so all research relied on WebFetch: direct company/press-release URLs (PR Newswire per-company archive pages worked well for Monogram Health, Pearl Health, CareBridge, Lyra Health, Grand Rounds), Google News RSS search (news.google.com/rss/search) to discover article titles/sources, marginalia-search.com and Bing News (www.bing.com/news/search) as fallback search engines once Google/DuckDuckGo/Yandex/Startpage returned CAPTCHAs and direct Google/Bing web search returned locale-mismatched junk. Many outlets (Fierce Healthcare, Business Insider, CNBC, bizjournals.com, Becker's, HomeHealthCareNews, mcknightshomecare.com, web.archive.org, SEC EDGAR) blocked WebFetch outright (403/blocked), which limited depth on: NOCD's 2023 round and Series A investor names, Included Health's post-merger funding history and valuation, Spring Health's seed/2023-round investor names, Cadence's Series A amount, and precise founding years for CareBridge and exact HQ for Strive Health (Denver vs. St. Louis conflict noted in that record's verification_notes). The CareBridge/Elevance Health acquisition date was corrected from the brief's assumed 2023 to 2024 based on multiple real, dated source URLs actually fetched (Forbes, The Business Journals, an Elevance earnings-call transcript) — flagged clearly in that record's verification_notes for the requester to double check against any authoritative internal source. No companies were skipped; all 9 are US-headquartered operating companies confirmed via primary company sites."
+    },
+    "r1-batch-d": {
+      "notes": "All 9 assigned companies were US-headquartered operating companies and were written as records; none were skipped. Web search (WebSearch tool) was unavailable for this entire session (budget exhausted before this agent started), so all research relied on WebFetch against company newsrooms/press pages, investor press releases, HIT Consultant, Mercom Capital Group, Behavioral Health Business, Wikipedia, and marginalia-search.com / search.yahoo.com as SERP substitutes (both of which were fetched directly and are cited only where they were the actual source of a fact, mostly basic founding/HQ facts). Notable finding: the brief's premise that Brightline 'merged/combined with Little Otter in 2024' could not be confirmed anywhere -- see Brightline's verification_notes for what was actually found (Brightline contracted operations and partnered with Teladoc in 2024; Little Otter separately merged with Hazel Health in October 2025). Some numeric fields (e.g. Oshi Health and Iora Health cumulative total_raised, LifeStance post-IPO valuation) were deliberately left blank per the no-quote-no-number rule even though rough figures could be inferred, because no single source stated a clean cumulative/verbatim figure."
+    },
+    "r1-us-care-delivery": {
+      "wanted": [
+        "Oak Street Health",
+        "VillageMD",
+        "agilon health",
+        "Privia Health",
+        "ChenMed",
+        "Cano Health",
+        "CareMax",
+        "P3 Health Partners",
+        "American Well (Amwell)",
+        "Teladoc Health",
+        "MDLIVE",
+        "AbleTo",
+        "Sword Health",
+        "CopilotIQ",
+        "Twin Health",
+        "Vytalize Health",
+        "Zocdoc",
+        "GoodRx",
+        "Rightway",
+        "Little Otter",
+        "Hazel Health",
+        "Function Health",
+        "Alto Pharmacy"
+      ],
+      "notes": "[r1-batch-a.json] Researched under this session's tool constraints: the shared WebSearch budget for the session was already exhausted (200/200) before this batch began, so all research after the first few calls relied on WebFetch against company newsroom pages, PR Newswire/company-hosted press releases, Wikipedia, and TechCrunch tag/site-search pages (techcrunch.com/tag/<slug>/ and techcrunch.com/?s=<query> both worked well as a search substitute; Bing, Google, DuckDuckGo, Marginalia, and web.archive.org were all inaccessible or bot-blocked via WebFetch in this environment). This means funding-round coverage is uneven: Devoted Health, DispatchHealth, Hinge Health, Innovaccer, and Omada Health have multi-round histories with named investors; Aledade, Main Street Health, and Thyme Care have only their most recent (best-covered) round; Livongo has only one 2017 round plus the Teladoc acquisition. No Series A-C for Aledade could be sourced at all. All 10 assigned companies were researched and written (none skipped as out-of-scope) — all are confirmed US-headquartered operating companies. Every funding figure and investor name in this file traces to a URL actually fetched in this session; nothing was filled in from unverified background knowledge. || [r1-batch-b.json] WebSearch tool was exhausted session-wide (200/200) before this batch started, and the Brave Search proxy via WebFetch was rate-limited after light use; Yahoo Search (search.yahoo.com) via WebFetch was the most reliable substitute and was used for the bulk of this research, supplemented by direct WebFetch of company newsrooms, PR Newswire/Business Wire releases, TechCrunch/Fierce Healthcare/Forbes/Fortune articles, and Wikipedia. All 10 assigned companies were researched and written; none were skipped. Investor round-attribution for a handful of entries (e.g., Cityblock's Series A/B 'existing investor' overlaps, Hims & Hers' unlabeled Series B) relies on the cited article's own phrasing rather than a dedicated primary press release for that specific round, since standalone primary sources for every single early round were not always locatable. All amounts, dates, and investor names are backed by at least one fetched source; anything I could not corroborate (e.g., Oscar Health's 2013 seed round, an Oscar IPO total-proceeds figure, Maven's Series F valuation) was left out rather than guessed. || [r1-batch-c.json] All 9 assigned companies were researched and written. WebSearch tool budget was exhausted session-wide before this agent could use it (shared 200/200 quota consumed by other concurrent agents), so all research relied on WebFetch: direct company/press-release URLs (PR Newswire per-company archive pages worked well for Monogram Health, Pearl Health, CareBridge, Lyra Health, Grand Rounds), Google News RSS search (news.google.com/rss/search) to discover article titles/sources, marginalia-search.com and Bing News (www.bing.com/news/search) as fallback search engines once Google/DuckDuckGo/Yandex/Startpage returned CAPTCHAs and direct Google/Bing web search returned locale-mismatched junk. Many outlets (Fierce Healthcare, Business Insider, CNBC, bizjournals.com, Becker's, HomeHealthCareNews, mcknightshomecare.com, web.archive.org, SEC EDGAR) blocked WebFetch outright (403/blocked), which limited depth on: NOCD's 2023 round and Series A investor names, Included Health's post-merger funding history and valuation, Spring Health's seed/2023-round investor names, Cadence's Series A amount, and precise founding years for CareBridge and exact HQ for Strive Health (Denver vs. St. Louis conflict noted in that record's verification_notes). The CareBridge/Elevance Health acquisition date was corrected from the brief's assumed 2023 to 2024 based on multiple real, dated source URLs actually fetched (Forbes, The Business Journals, an Elevance earnings-call transcript) — flagged clearly in that record's verification_notes for the requester to double check against any authoritative internal source. No companies were skipped; all 9 are US-headquartered operating companies confirmed via primary company sites. || [r1-batch-d.json] All 9 assigned companies were US-headquartered operating companies and were written as records; none were skipped. Web search (WebSearch tool) was unavailable for this entire session (budget exhausted before this agent started), so all research relied on WebFetch against company newsrooms/press pages, investor press releases, HIT Consultant, Mercom Capital Group, Behavioral Health Business, Wikipedia, and marginalia-search.com / search.yahoo.com as SERP substitutes (both of which were fetched directly and are cited only where they were the actual source of a fact, mostly basic founding/HQ facts). Notable finding: the brief's premise that Brightline 'merged/combined with Little Otter in 2024' could not be confirmed anywhere -- see Brightline's verification_notes for what was actually found (Brightline contracted operations and partnered with Teladoc in 2024; Little Otter separately merged with Hazel Health in October 2025). Some numeric fields (e.g. Oshi Health and Iora Health cumulative total_raised, LifeStance post-IPO valuation) were deliberately left blank per the no-quote-no-number rule even though rough figures could be inferred, because no single source stated a clean cumulative/verbatim figure. || [r1-us-care-delivery FOLLOW-UP] This slice ran with the session WebSearch budget already exhausted (200/200, consumed by concurrent agents) for its entire duration, including all 4 research sub-batches -- every fact was sourced via WebFetch against direct company/press URLs, PR Newswire/BusinessWire archives, and news-search-page fallbacks (Bing News, Yahoo, Google News RSS), never via WebSearch proper. All 38 delivered records are still source-backed per the no-guess rule (0 schema errors, 0 taxonomy violations, every record has >=1 fetched source and >=1 named investor). Known major US value-based-care / care-delivery companies NOT covered in this round -- known to exist but not researched due to scope/time, not due to failure to source -- are listed in the top-level  array; most notably Oak Street Health, VillageMD, agilon health, Privia Health, ChenMed, and Cano Health, which are among the largest names in VBC senior primary care and were an oversight in the original 38-company slice, not a sourcing failure."
+    },
+    "r1-us-clinical-ai": {
+      "wanted": [
+        "Nabla",
+        "Akili Interactive",
+        "Viz.ai",
+        "Aidoc",
+        "Tempus AI",
+        "Nym Health",
+        "Tennr",
+        "Adonis",
+        "Rhyme",
+        "Notable Health",
+        "Akido",
+        "Galileo Health",
+        "Thesis Care",
+        "Availity",
+        "Candid Health",
+        "Anterior (deeper round-by-round investor detail)",
+        "Cohere Health (resolve Boston vs Portsmouth NH HQ discrepancy)",
+        "OpenEvidence (HQ and founding year)",
+        "Suki AI (HQ and founding year)",
+        "DeepScribe (HQ, founding year, named investors)",
+        "Commure (HQ, founding year — Wikipedia page did not resolve at expected URL)",
+        "Akasa (HQ)",
+        "H1 (founding year, earlier funding rounds prior to May 2026)",
+        "Massive Bio (HQ, founding year)",
+        "Carta Healthcare (HQ, founding year, confirmed website domain)",
+        "KelaHealth (any funding-round data at all)",
+        "Glass Health (current status — only one 2023 article found; may be dormant)",
+        "Aiva Health (any priced funding round since 2018)",
+        "RapidClaims (resolve $8M vs $11M Series A discrepancy)",
+        "Xealth (confirmed Samsung acquisition deal value)",
+        "SmarterDx (HQ, founding year, named investors for the May 2024 $50M round)",
+        "Syllable (HQ, founding year)",
+        "Machinify (HQ, founding year, VC investors prior to the 2025 New Mountain Capital acquisition)",
+        "Humata Health (HQ, full investor list beyond Optum Ventures)",
+        "Cofactor AI (named investors, founding year, working company domain)"
+      ],
+      "skipped": [
+        {
+          "name": "Waystar",
+          "reason": "Investor's portfolio context aside, Waystar itself is the acquirer of Iodine Software (recorded within us-iodine-software), not a separate clinical-AI operating company in scope for this slice."
+        }
+      ],
+      "notes": "32 US-headquartered clinical-AI companies researched, spanning: ambient documentation/scribes (Abridge, Ambience Healthcare, Suki AI, Freed, DeepScribe), clinical decision support/medical search (OpenEvidence, Regard, Glass Health, KelaHealth), medical coding/RCM/prior-auth (Iodine Software, CodaMetrix, Codoxo, AKASA, Anterior, Cohere Health, RapidClaims, Fathom, Carta Healthcare), AI nursing/patient-facing agents (Hippocratic AI, Infinitus Systems, Memora Health, Assort Health, Aiva Health), health-system-facing genAI platforms/governance (Qualified Health, Commure, Innovaccer, Truveta, Xealth, Epic Systems), and clinical-trial-matching AI (Triomics, H1, Massive Bio). Qualified Health, Truveta, and Epic Systems specifically address the 'governance' and 'notable non-VC' angles requested in the brief — Epic never raised institutional VC and Truveta is jointly owned by 17 US health systems rather than a conventional VC-backed startup. Iodine Software (acquired by Waystar, Oct 2025), Memora Health (acquired by Commure, Dec 2024), and Xealth (acquired by Samsung, 2025) are marked status=acquired but retained since they operated as independent VC-backed clinical-AI companies for most of their life and their acquirers are directly relevant to the investor graph. IMPORTANT CAVEAT ON SOURCING METHOD: this session's WebSearch tool was already at its budget cap (200/200, exhausted by other agents in the same shared session) before I could issue a single query, and direct WebFetch of Google's search UI (google.com), Bing, and DuckDuckGo returned CAPTCHA/garbage pages. I worked around this by (1) fetching each company's own website directly (highest confidence, used for 'what', HQ, founders where available) and (2) fetching Google News RSS *search* URLs (news.google.com/rss/search?q=...), which reliably returned real aggregated article titles/dates/publishers/snippets even though the tool could not follow through to render most individual publisher pages (Google News redirect links mostly returned empty JS shells). Every funding figure in this file is backed by at least one such source and, where possible, a verbatim article headline as the quote. Numbers that could not be corroborated by a clear title/snippet (e.g., a Cohere Health '$450M round with Nvidia and Salesforce', a Xealth '2.7 trillion won' Samsung deal value) were deliberately dropped rather than guessed — see individual verification_notes. Investor round-attribution for Qualified Health's 9 named backers, and Truveta's 17 health-system co-owners, could not be resolved to individual named entities per round from available coverage; recorded as best-effort collective/unattributed entries with notes flagging the limitation. HQ city and founding year are missing (nulled/omitted, never guessed) for a number of companies (Abridge, Suki, DeepScribe, OpenEvidence, Commure, Iodine Software, Akasa, Cohere Health's Boston-vs-Portsmouth discrepancy, Infinitus, Assort Health, Innovaccer, Truveta's founding year, H1, Massive Bio, Carta Healthcare, Aiva Health, Fathom, KelaHealth, Glass Health) because no fetched source stated them explicitly, even though several are common industry knowledge — flagging for a future pass with working web search. Skipped: Waystar (the acquirer, not an operating clinical-AI company in this slice's scope; its acquisition of Iodine Software is recorded on that record instead). Considered but excluded from the final 32 due to time/budget: Nym Health, Akili Interactive, Viz.ai, Aidoc, and Tempus AI (the latter two lean more toward imaging/genomics AI than the clinical-workflow/LLM focus of this brief). --- ROUND 2 ADDENDUM (still 2026-08-16) --- This slice's second pass ran under an explicit WebSearch-only-exhausted constraint from the team lead: the session's WebSearch tool was already at 200/200 before I could issue a query, and the team lead confirmed it could not be raised, so this round used WebFetch exclusively — no search calls were made at all in round 2. Method: (1) direct company-site fetches (`/`, `/about`, `/portfolio`), (2) VC/CVC portfolio pages fetched by URL guess from the investor-roster.tsv name list (Oak HC/FT, General Catalyst, Town Hall Ventures, Optum Ventures worked; Flare Capital Partners and CVS Health Ventures 404'd), (3) Google News RSS search URLs (news.google.com/rss/search?q=...) — a WebFetch call, not WebSearch, so unaffected by the budget cap — which continued to reliably return real aggregated headlines/dates/publishers, and (4) Wikipedia, which resolved founding-year/founder/HQ gaps for Innovaccer, Truveta, and Epic Systems but 404'd for Abridge and Commure (no article at the guessed URL). Portfolio-page fetching was the most productive technique per the team lead's suggestion: Oak HC/FT's page surfaced Syllable, Town Hall Ventures' page surfaced Machinify, and Optum Ventures' page surfaced Humata Health — all three added as new records with the portfolio page itself as a source for the investor edge. SmarterDx and Cofactor AI were added from the team lead's named URL list and a Google News RSS lookup respectively. Investor names for Abridge, Ambience Healthcare, Infinitus Systems (Andreessen Horowitz -> a16z Bio + Health), Abridge again (CVS Health -> CVS Health Ventures, Mayo Clinic -> Mayo Clinic Ventures), and Iodine Software (Silversmith Management -> Silversmith Capital Partners) were corrected to match investor-roster.tsv's exact name_en spelling so the link resolver in build_companies.py finds a unique match instead of silently failing to link. Truveta's investor list was upgraded from a single generic '17 U.S. health systems' placeholder to 14 individually named founding/participating health systems per Wikipedia. Companies I know exist in this space but could NOT source well enough to include this round are listed in the top-level `wanted` array — notably Nabla (ambiguous whether its Brooklyn, NY office is now the actual HQ or just a US office of a Paris-headquartered company, which matters under this project's US-HQ-only rule; needs a working search to resolve), Akili Interactive, Viz.ai, Aidoc, and Tempus AI (all considered but left out as more imaging/DTx/genomics-leaning than core clinical-workflow LLM, consistent with round 1's reasoning), plus several General Catalyst / Oak HC/FT portfolio names (Notable Health, Akido, Galileo Health, Thesis Care, Adonis) that looked plausibly in-scope from their one-line portfolio descriptions but that I did not have time to independently verify and source this round. Total company count after this round: 37 (32 from round 1 + 5 new: SmarterDx, Syllable, Machinify, Humata Health, Cofactor AI)."
+    },
+    "r1-us-consumer-health": {
+      "wanted": [
+        "Brightline (pediatric/family behavioral health — confirmed as a Rock Health Capital portfolio company via https://rockhealthcapital.com/portfolio/, but hellobrightline.com and brightline.com both 403'd, so no company description could be sourced this session)",
+        "Teal Health (at-home cervical-cancer screening — tealhealth.co had an SSL error, tealhealth.com and gettealhealth.com both failed; likely fits femtech-womens-health/diagnostics but unsourced)",
+        "Included Health (huge enterprise virtual-care player, Grand Rounds Health + Doctor On Demand merger — no dedicated Wikipedia page, own site's About/newsroom pages 404'd, so founding year/HQ/funding are all unsourced)",
+        "Kindbody (fertility clinics — kindbody.com homepage fetched but had no funding/founding/HQ info; /press and /news paths 404'd)",
+        "Maven Clinic's actual institutional investors (its Wikipedia page is flagged for unreliable citations and only vaguely names '23andMe's Wojcicki' and 'A-list actors'; well documented in press per general market knowledge — e.g. investors commonly cited include Sequoia and Oak HC/FT — but NOT sourced this session so deliberately omitted)",
+        "GoodRx's pre-IPO venture investors (e.g. Silver Lake, Spectrum Equity per general market knowledge — not sourced this session)",
+        "Fitbit's pre-IPO VC investors (Wikipedia article doesn't list them)",
+        "Superpower (longevity/preventive-testing membership — appeared in Forerunner Ventures' portfolio list but not independently researched this session)",
+        "Doctor On Demand (predecessor entity to Included Health — appeared in Rock Health Capital's portfolio list but not independently researched)",
+        "Natalist (Ro's fertility/prenatal supplement brand — appeared in Rock Health Capital's portfolio list; likely better treated as a Ro sub-brand than a standalone entry, needs a judgment call)",
+        "WellTheory, Wellth, Wildflower Health, Foodsmart, Kurbo Health, JOON, Sitka, Health IQ (all appeared in Rock Health Capital's portfolio list and plausibly fit this slice — e.g. Kurbo Health is pediatric weight management, WellTheory is autoimmune/consumer chronic care — but none were individually researched this session due to time)",
+        "Bonafide Health (parent of Uqora, dba structure spotted on Uqora's own site — worth researching as its own operating-company entry rather than folding into Uqora)",
+        "Alto Pharmacy's founding year and funding rounds/investors (only revenue/headcount sourced via a tangential Wikipedia bio; Alto has no dedicated Wikipedia article and its /press page 404'd)",
+        "Willow Innovations' funding history (only sourced via CEO Laura Chambers' Wikipedia bio, no dedicated company article)",
+        "NOCD's funding rounds and investors (own site sourced for HQ/description only, no funding data anywhere found)",
+        "Twentyeight Health's founding year, HQ and funding/investors (own site sourced for services only)",
+        "FOLX Health's funding round amount (a '~$30M' figure was glimpsed via an on-page Yahoo News reference but not independently confirmed/quoted)",
+        "Big Health's HQ, founding year, and the investor names behind its 2016 $12M round (only the TechCrunch headline was visible via Wikipedia's Sleepio article, not the investor list)",
+        "Owlet's exchange/ticker and SPAC-merger details (confirmed publicly traded and founded 2012 via investors.owletcare.com, but ticker/SPAC counterparty not independently confirmed this session)",
+        "Prenuvo, Curology, Virta Health, Oula, Evidation Health, Neurotrack — all newly added this round via investor-portfolio-page sourcing (Forerunner Ventures / Rock Health Capital); all still need founding year, HQ, and actual funding-round dates/amounts, which their own homepages didn't disclose",
+        "Cofertility's Series A lead investor name and amount (homepage text was truncated: 'led by Next…')",
+        "Axena Health, May Health, Levels Health, Fountain Life, Charlie Health, Hey Jane, Maude — all still need funding rounds/investor names; own-site sourcing only got descriptions"
+      ],
+      "skipped": [
+        {
+          "name": "Neko Health",
+          "reason": "Explicitly out of scope per instructions — Swedish-headquartered, belongs to a later European round, not this US slice."
+        },
+        {
+          "name": "Included Health",
+          "reason": "Not skipped for being an investor/fund — it is an operating company — but dropped from this delivery because no founding year, HQ, funding history or investor names could be sourced this session (no dedicated Wikipedia article, WebSearch budget exhausted, and its own site's About/who-we-are pages 404'd). Flagging for a follow-up pass rather than submitting a near-empty record."
+        },
+        {
+          "name": "Bonafide Health (parent of Uqora)",
+          "reason": "Uqora's own site footer identifies it as 'Bonafide Health, LLC dba Uqora' — investigated as a possible separate entry but not enough was sourced this session to write either a solid Uqora or Bonafide Health record, so both were left out rather than submitted thin; worth a follow-up look since Bonafide Health is itself a women's-health-focused operating company, not a fund."
+        }
+      ],
+      "notes": "IMPORTANT CONSTRAINT: this slice ran almost entirely WITHOUT WebSearch. The session's WebSearch budget was already exhausted (200/200, shared across all parallel research agents) before I made a single call, and team-lead later confirmed it could not be raised. Per team-lead's follow-up instruction, I switched to WebFetch-only research using URL construction rather than search: Wikipedia articles/searches, direct company-site fetches (home/about/press/newsroom paths), and — most productively — investor portfolio pages (Forerunner Ventures, Rock Health Capital, General Catalyst) read directly for their listed portfolio-company names, which is how Omada Health, Virta Health, Prenuvo, Curology, Oula, Evidation Health and Neurotrack were added in this round. SEC EDGAR (https://www.sec.gov/cgi-bin/browse-edgar) was attempted for Form D filings on several private companies (Twentyeight Health, Hey Jane) but consistently returned HTTP 403 via WebFetch and had to be abandoned as a source path. This produced strong, well-sourced records with named investors for most PUBLIC or well-known VC-scale companies (Hims & Hers, GoodRx, Amwell, Teladoc, Talkspace, 23andMe, Fitbit, Ro, AliveCor, Cerebral, Bicycle Health, Spring Health, Function Health, Hinge Health, LifeStance Health, Whoop, Materna Medical, Evvy, Everly Health, Omada Health, Virta Health, Prenuvo, Curology, Oula, Evidation Health, Neurotrack), but left many private DTC consumer-health startups with only a company-site-sourced description and no funding/investor data, because their own homepages rarely list funding history and press coverage was unreachable without search. Companies I know exist and considered for this slice but could NOT source at all this session, so they are NOT in the companies array (see the 'wanted' list above for the full detail on each): Brightline, Teal Health, Included Health, Superpower, Bonafide Health. Also removed Oura from this file per team-lead's explicit correction that it is Finnish-headquartered and belongs to a later European round, not this US slice. Category coverage achieved: DTC/telehealth prescribing (Hims&Hers, Ro, Alto, Cerebral, Bicycle Health, FOLX, Twentyeight Health, Hey Jane, Curology), preventive screening/whole-body diagnostics (Function Health, Everly Health/Everlywell, Fountain Life, Proov, Evvy, Prenuvo), longevity (Fountain Life, Neurotrack), mental & behavioral health (Spring Health, Talkspace, LifeStance Health, NOCD, Cerebral, Big Health, Bicycle Health, Charlie Health), women's health across fertility/maternity/menopause (Maven Clinic, Materna Medical, Axena Health, May Health, Cofertility, Twentyeight Health, Hey Jane, Evvy, Oula), sleep/nutrition/GLP-1/metabolic (Noom, Levels Health, Virta Health, Omada Health), wearables/consumer biosensing (Whoop, Fitbit, AliveCor, Owlet, Willow Innovations, Evidation Health), and pediatric (Owlet, Charlie Health). Men's health is thin (only Ro/Hims&Hers as multi-category players; no standalone men's-health entry sourced). Delivered 44 companies total, all with a real fetched source per record; 25 of 44 carry >=1 named investor."
+    },
+    "r1-us-health-data": {
+      "wanted": [
+        "Verato",
+        "Qventus",
+        "Rhyme",
+        "NexHealth",
+        "Rightway",
+        "Hospital IQ",
+        "Cardinal Analytx Solutions",
+        "Zelis",
+        "HealthEdge",
+        "Evolent Health",
+        "Availity",
+        "Surescripts",
+        "Iodine Software",
+        "Ribbon Health",
+        "Talix",
+        "Ingenious Med",
+        "ClosedLoop",
+        "Shyft",
+        "Codoxo (recheck for funding/investors)",
+        "Bamboo Health (recheck for funding/investors/current ownership)",
+        "Validic (recheck for ChartSpan deal date/value)",
+        "Xealth (recheck for Samsung acquisition date/value)",
+        "TriNetX (recheck for funding rounds/investors)",
+        "Cohere Health (verify HQ; recheck for funding/investors)",
+        "Clarify Health (recheck for funding/investors)",
+        "Azara Healthcare (recheck for funding/investors)",
+        "CodaMetrix (recheck for founding year, funding/investors)",
+        "MedCrypt (recheck for founding year, funding/investors)",
+        "Health Gorilla (recheck for founding year, HQ, funding/investors)",
+        "1upHealth (recheck for founding year, HQ, funding/investors)",
+        "Turquoise Health (recheck for founding year, HQ, funding rounds beyond Oak HC/FT relationship)",
+        "Waystar (confirm IPO date/ticker, EQT/Bain Capital/CPPIB ownership history)",
+        "Health Catalyst (confirm public listing/ticker, founding year, HQ)",
+        "Olive / Olive AI (confirm founding, funding history, exact wind-down timeline)",
+        "Verata Health (confirm what it actually did before the Olive acquisition)",
+        "Kyruus Health (confirm founding year, HQ, historical funding rounds)",
+        "Madaket Health, Anatomy, Flume Health, Mendel, Veda, Rialtic, OODA Health (all: founding year, HQ, funding rounds/amounts)",
+        "MedVentive, Upfront, Story Health, RxLightning, Life Image (all: confirm actual product descriptions beyond bare acquirer name)",
+        "GetWell Network (reconcile Welsh Carson vs. SAIGroup ownership claim)",
+        "Judi Health / Capital Rx (confirm whether a formal corporate rebrand to 'Judi Health' has actually happened)",
+        "HiLabs, Collective Medical founding year/HQ",
+        "Diameter Health (confirm acquisition date/value by Availity)"
+      ],
+      "notes": "SESSION RAN WITHOUT WEBSEARCH. The shared WebSearch budget was exhausted (200/200, used by other teammates) before I made a single search call, and stayed exhausted for the rest of the session — team-lead confirmed it could not be raised. All research after that point used WebFetch only: company homepages/about/press pages, Wikipedia, and — the most productive channel by far — investor portfolio pages (Flare Capital, LRVHealth, .406 Ventures, Oak HC/FT, Town Hall Ventures, Optum Ventures, F-Prime Capital, Kaiser Permanente Ventures, Rock Health Capital), read off investor-roster.tsv, which yielded real investor-authored company->investor edges even where the company's own site was unreachable (404/DNS failure/403 on nearly every guessed path). SEC EDGAR and Crunchbase were tried and blocked (403) every time; two blind search-engine-via-WebFetch attempts (DuckDuckGo, Bing) were also tried and failed (CAPTCHA / irrelevant localized results) before this approach was abandoned in favor of direct URL construction.\n\nResult: 70 companies, all schema-valid (validated against schema/company.schema.json with jsonschema.Draft202012Validator — zero errors) and against taxonomy.json's controlled vocabularies. 44 of the 70 carry >=1 named investor with a real fetched source (up from 10 before the investor-portfolio-page pass); 55 carry a funding block of some kind. Roughly 20 of the 70 are still thin (confidence 'low': a one-line description plus one investor-page or company-site source, no founding year/HQ/funding amount) — each says exactly what's missing in its own verification_notes rather than guessing. A handful of records also surface unresolved discrepancies between sources rather than silently picking one (e.g. GetWell Network: LRVHealth says 'acquired by Welsh Carson', the company's own site says 'part of SAIGroup'; Capital Rx vs. 'Judi Health (Formerly Capital Rx)' per F-Prime Capital's portfolio page vs. the company's own current site still branded Capital Rx).\n\nCompanies I know exist and would have researched with a working search, but could not source enough for a full record (or at all) this session, are listed in the top-level 'wanted' array — that's the worklist for a later round. It includes both companies never reached at all (Verato, Qventus, Rhyme, Zelis, HealthEdge, Evolent Health, Availity, Surescripts, Hospital IQ, Cardinal Analytx Solutions, NexHealth, Rightway, Iodine Software, Ribbon Health, Talix, Ingenious Med, ClosedLoop, Shyft) and existing thin records that need a follow-up pass to fill in founding year/HQ/funding amounts/investor names (most of the LRVHealth-alumni-sourced acquisitions, several Oak HC/FT and Optum Ventures portfolio companies, Waystar, Health Catalyst, Turquoise Health, and others — see 'wanted' for the full list with specifics)."
+    },
+    "r2-investor-gaps": {
+      "rejected": [
+        {
+          "name": "Spark Capital",
+          "reason": "Generalist consumer/enterprise VC (Twitter, Jelly); only 2 distinct health deals found this session (Talkspace, Abridge) with no dedicated health partner, fund, or stated sector focus on its own site — below the bar for a 'real track record' of repeat health investing."
+        },
+        {
+          "name": "Lead Edge Capital",
+          "reason": "Generalist growth-equity firm ($9B AUM); own site's featured portfolio (Alibaba, Toast, Wise, etc.) shows zero healthcare names. Only one company found in this session's data (Hinge Health, across 2 rounds) — a single incidental deal, not a repeat pattern."
+        },
+        {
+          "name": "Bain Capital Ventures",
+          "reason": "Wikipedia shows a generalist software/fintech/data-infrastructure portfolio (LinkedIn, DocuSign, Twilio) with no described healthcare or life-sciences practice; distinct from the already-catalogued 'Bain Capital Life Sciences'. Only one incidental health deal (Iodine Software) found this session."
+        },
+        {
+          "name": "DST Global",
+          "reason": "Late-stage consumer-internet crossover fund (Facebook, Alibaba, Spotify, ByteDance); no healthcare focus found, and only one incidental deal (OpenEvidence, via a low-quality news-aggregator source) identified this session."
+        },
+        {
+          "name": "Blackstone",
+          "reason": "Could not confirm which Blackstone entity invested in OpenEvidence (source was a Google News aggregator link, not a primary source); Blackstone's own site and Wikipedia article did not surface a 'Blackstone Life Sciences' description this session despite attempts. Single incidental, unverified deal — insufficient evidence to include."
+        },
+        {
+          "name": "Highland Capital Partners",
+          "reason": "Generalist multi-sector VC (280+ portfolio companies); Wikipedia shows only one healthcare-adjacent company (Everlywell), no dedicated healthcare practice described — a single incidental deal."
+        },
+        {
+          "name": "Battery Ventures",
+          "reason": "Wikipedia lists 'industrial technology and life sciences' as one of four sector foci, but 'life sciences' here reads as industrial/manufacturing-adjacent rather than clinical healthcare, and only one incidental deal (Triomics) was found this session with no other health names in its stated focus."
+        },
+        {
+          "name": "Threshold Ventures",
+          "reason": "Formerly DFJ; broad historical multi-sector portfolio with no described dedicated healthcare practice; only one incidental deal (Transcarent) found this session, and the firm's own site could not be reached to verify further."
+        },
+        {
+          "name": "Genentech",
+          "reason": "No distinct Genentech-branded venture vehicle (separate from Roche Venture Fund) could be found; gene.com/about-us/ventures returned 404. Its 2007 investment in 23andMe (alongside Google, NEA and Mohr Davidow Ventures) was a direct corporate strategic investment from a pharma company's balance sheet, not a repeat venture program. Better captured as a 'backing' relationship on 23andMe's own entity record."
+        },
+        {
+          "name": "GlaxoSmithKline",
+          "reason": "Pharma company with an existing dedicated venture arm already in the roster (SR One, us-sr-one). Its $300M 2018 investment in 23andMe was a direct strategic/data-partnership deal from GSK's own balance sheet, not made through SR One or any other repeat venture vehicle — a single large but incidental corporate deal. Better captured as a 'backing' relationship on 23andMe's own entity record."
+        },
+        {
+          "name": "Elad Gil",
+          "reason": "Individual angel investor (participated in Abridge as lead 'angel' role); does not run a named institutional fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "CVS Health",
+          "reason": "ALIAS — see alias_fixes[] (existing_id us-cvs-health-ventures)."
+        },
+        {
+          "name": "Omron",
+          "reason": "Japanese medtech/device conglomerate (OMRON Healthcare); its AliveCor investments (2017, 2020) were tied to an exclusive commercial/distribution partnership rather than a distinct 'Omron Ventures' vehicle. Single-company corporate strategic investor, not a repeat venture investing program."
+        },
+        {
+          "name": "WP Global Partners",
+          "reason": "Could not locate any independent information about this firm (official site, Wikipedia, and search all failed/blocked). Appears twice in AliveCor's cap table (2020, 2022) but that is a single portfolio company; insufficient evidence to assess health-dedication or legitimacy as an institutional investor."
+        },
+        {
+          "name": "Pegasus Tech Ventures",
+          "reason": "Large multi-corporate-LP syndicate VC investing broadly across tech sectors; only one incidental health deal (AliveCor Series F participant) found this session, no dedicated healthcare practice identified."
+        },
+        {
+          "name": "Smash Capital",
+          "reason": "Could not verify firm focus or track record this session; single incidental deal (Ambience Healthcare Series C)."
+        },
+        {
+          "name": "Georgian",
+          "reason": "Site fetch returned only a navigation header with no substantive content; Wikipedia and other sources not checked further given time constraints. Only one incidental deal (Ambience Healthcare) found this session — insufficient verified evidence of a dedicated health practice."
+        },
+        {
+          "name": "Founders Circle Capital",
+          "reason": "Secondary-market-focused generalist growth fund; single incidental deal (Ambience Healthcare) found, no dedicated healthcare focus identified."
+        },
+        {
+          "name": "First Round",
+          "reason": "Same firm as 'First Round Capital' also in the worklist. Own site shows a sector-agnostic thesis with healthcare mentioned only as one of many portfolio clusters (enterprise, AI, hardware, healthcare, fintech, consumer); only one incidental deal (Assort Health) independently verified — insufficient dedicated evidence to include either name variant."
+        },
+        {
+          "name": "Chemistry",
+          "reason": "Small early-stage generalist fund; single incidental deal (Assort Health), no dedicated healthcare focus found."
+        },
+        {
+          "name": "InterAlpen Partners",
+          "reason": "Generalist growth-equity firm; single incidental deal (Bicycle Health Series B lead), no dedicated healthcare practice identified this session."
+        },
+        {
+          "name": "UnityPoint Health",
+          "reason": "ALIAS/DUPLICATE — same organization as 'UnityPoint Health Ventures', included as one entity (us-unitypoint-health-ventures) with this as an aka."
+        },
+        {
+          "name": "Prysm Capital",
+          "reason": "Generalist growth-equity firm; single incidental deal (Cerebral Series C), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Access Industries",
+          "reason": "Len Blavatnik's diversified holding company (media, telecom, chemicals, real estate); single incidental deal (Cerebral), no dedicated healthcare practice evidence found this session."
+        },
+        {
+          "name": "WestCap Group",
+          "reason": "Generalist fintech/proptech growth-equity firm; single incidental deal (Cerebral), no healthcare focus found."
+        },
+        {
+          "name": "Mitsui",
+          "reason": "Ambiguous — the roster already contains three distinct Mitsui-affiliated entities (jp-mitsui-co-healthcare, jp-mitsui-sumitomo-insurance-venture-capital, jp-321catalyst-ventures / Mitsui Chemicals). Change Healthcare's 2011 financing (via Wikipedia) names only 'Mitsui' without specifying which unit invested. Not confident enough to assert an alias to any one of the three; recommend the lead investigate the specific investing entity before linking."
+        },
+        {
+          "name": "Blue Cross Blue Shield Venture Partners",
+          "reason": "POSSIBLE ALIAS — see alias_fixes[] (existing_id us-blue-venture-fund); flagged rather than merged with certainty."
+        },
+        {
+          "name": "StartUp Health",
+          "reason": "ALIAS — see alias_fixes[] (existing_id us-startup-health), flagged ambiguous against two existing roster rows."
+        },
+        {
+          "name": "Sidewalk Labs",
+          "reason": "Alphabet's urban-innovation subsidiary, not a VC firm; single incidental strategic investment (Cityblock Health), no repeat venture-investing pattern found."
+        },
+        {
+          "name": "EmblemHealth",
+          "reason": "NY nonprofit health insurer; single incidental strategic investment (Cityblock Health), no dedicated venture arm found this session."
+        },
+        {
+          "name": "Spectrum Equity",
+          "reason": "Generalist growth-equity firm (media/software); single incidental deal (Definitive Healthcare, 2015), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Uprising",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Devoted Health Series D)."
+        },
+        {
+          "name": "Premji Invest",
+          "reason": "Azim Premji's large diversified family-office investment vehicle; while independently reputed to have broader healthcare exposure, only one deal (Devoted Health) could be verified this session and no dedicated healthcare page/practice was fetched — insufficient session-verified evidence."
+        },
+        {
+          "name": "NextView Ventures",
+          "reason": "Boston generalist seed fund; single incidental deal (Devoted Health), no healthcare focus found."
+        },
+        {
+          "name": "Base10 Advancement Initiative",
+          "reason": "This is Base10 Partners' internal advancement/1% philanthropic initiative, not a standalone investing vehicle in its own right; single incidental appearance (Devoted Health Series D)."
+        },
+        {
+          "name": "The Space Between (TSB)",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Devoted Health Series E)."
+        },
+        {
+          "name": "Highbury Holdings",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Devoted Health Series E)."
+        },
+        {
+          "name": "Stardust Equity",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Devoted Health Series E)."
+        },
+        {
+          "name": "Fearless Ventures",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Devoted Health Series E)."
+        },
+        {
+          "name": "Socium Ventures",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Devoted Health Series E)."
+        },
+        {
+          "name": "The Private Shares Fund",
+          "reason": "A retail-access interval-fund product (managed by Liberty Street Advisors), not a dedicated venture firm; single incidental deal (Devoted Health), no health focus."
+        },
+        {
+          "name": "Cox Enterprises, Inc.",
+          "reason": "Diversified family-owned media/telecom conglomerate; single incidental deal (Devoted Health), no dedicated healthcare practice found."
+        },
+        {
+          "name": "White Road Capital",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Devoted Health Series E)."
+        },
+        {
+          "name": "Adams Street Partners",
+          "reason": "Large generalist private-markets fund-of-funds (~$50B+ AUM); single incidental deal (DispatchHealth) found, no dedicated healthcare practice identified."
+        },
+        {
+          "name": "Silicon Valley Bank",
+          "reason": "Venture-debt lender (not an equity VC investor); same underlying institution as already-included SVB Capital. Providing debt facilities across all of tech, not health-dedicated as a distinct entity — excluded to avoid duplicating SVB Capital."
+        },
+        {
+          "name": "Highland Capital Partners",
+          "reason": "DUPLICATE — see above rejection with same reasoning."
+        },
+        {
+          "name": "Left Lane",
+          "reason": "Consumer growth-equity fund (Left Lane Capital); single incidental deal (Evvy), no dedicated healthcare focus found."
+        },
+        {
+          "name": "G9",
+          "reason": "Could not verify firm identity or an official site this session (empty/blocked fetches). Appears as 'G9' in Evvy and 'G9 Ventures' in Function Health — plausibly the same fund with a real 2-company femtech/consumer-health pattern, but identity and focus could not be independently confirmed; excluded pending verification rather than asserted as fact."
+        },
+        {
+          "name": "BBGV",
+          "reason": "Likely 'BBG Ventures' (women-founder-focused seed fund); single incidental deal (Evvy) confirmed this session and firm identity could not be independently verified — excluded pending confirmation."
+        },
+        {
+          "name": "Box Group",
+          "reason": "NYC generalist seed fund; single incidental deal (Evvy), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Amboy St. Ventures",
+          "reason": "ALIAS — see alias_fixes note; this is a spelling variant of 'Amboy Street Ventures' already in the roster (us-amboy-street-ventures), not a new entity."
+        },
+        {
+          "name": "Human Ventures",
+          "reason": "NYC company-builder/studio, generalist across sectors; single incidental deal (Evvy), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Wisdom.vc",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Function Health)."
+        },
+        {
+          "name": "Draft Ventures",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Function Health)."
+        },
+        {
+          "name": "K5",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Function Health)."
+        },
+        {
+          "name": "G9 Ventures",
+          "reason": "DUPLICATE — see 'G9' rejection above (same reasoning; possibly the same fund, excluded pending verification)."
+        },
+        {
+          "name": "Goldman Sachs Alternatives",
+          "reason": "Goldman Sachs' alternatives-investing umbrella brand; the roster already separately catalogues its dedicated biotech vehicle (West Street Life Sciences, us-goldman-sachs-west-street-life-sciences). Grow Therapy is a mental-health services company (not biotech/pharma), so this appears to be a different, more generalist growth-equity pool within the same umbrella — single incidental deal, insufficient evidence of a distinct dedicated health practice to catalogue separately."
+        },
+        {
+          "name": "PLUS Capital",
+          "reason": "Celebrity-adjacent impact-investing syndicate; single incidental deal (Grow Therapy), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Anna Kendrick",
+          "reason": "Individual celebrity angel investor, no named fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Lily Collins",
+          "reason": "Individual celebrity angel investor, no named fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Dak Prescott",
+          "reason": "Individual celebrity/athlete angel investor, no named fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Joe Burrow",
+          "reason": "Individual athlete angel investor, no named fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Jrue Holiday",
+          "reason": "Individual athlete angel investor, no named fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Lauren Holiday",
+          "reason": "Individual angel investor, no named fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "SVB",
+          "reason": "Ambiguous shorthand for Silicon Valley Bank / SVB Capital; treated consistently with the 'Silicon Valley Bank' rejection to avoid duplicating the already-included SVB Capital entity."
+        },
+        {
+          "name": "SV Angel",
+          "reason": "Ron Conway's broad generalist super-angel seed fund; single incidental deal (Hims & Hers), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Eleven Two Capital",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Hinge Health Series A)."
+        },
+        {
+          "name": "Jon Reynolds",
+          "reason": "Individual angel investor (Hinge Health Series A), no named fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Alkeon Capital",
+          "reason": "Large generalist crossover/hedge fund; single incidental deal (Hinge Health Series E), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Whale Rock",
+          "reason": "Large generalist crossover hedge fund (public+private tech); single incidental deal (Hinge Health Series E), no dedicated healthcare focus found. Duplicate spelling of 'Whale Rock Capital' also in the worklist — same reasoning applies to both."
+        },
+        {
+          "name": "IP Group",
+          "reason": "POSSIBLE ALIAS to existing roster entity 'IP Group' (eu-ip-group), a UK deep-tech/life-sciences investor; Hinge Health's cap table (via Wikipedia) lists 'IP Group' without further detail. Not asserted as a confirmed alias_fix given thin sourcing (a single Wikipedia mention with no date/round detail), but flagged for the lead's review — see alias candidate."
+        },
+        {
+          "name": "Avenir Growth",
+          "reason": "Generalist growth-equity fund; single incidental deal (Hippocratic AI seed), no dedicated healthcare focus found."
+        },
+        {
+          "name": "NVentures (Nvidia)",
+          "reason": "ALIAS — see alias_fixes[] (existing_id us-nvidia-nventures)."
+        },
+        {
+          "name": "Whale Rock Capital",
+          "reason": "DUPLICATE — see 'Whale Rock' rejection above."
+        },
+        {
+          "name": "Avidity Partners",
+          "reason": "Could not independently verify this session whether Avidity Partners Management is a healthcare-dedicated crossover fund (name is easily confused with the unrelated pharma company Avidity Biosciences); only one deal (Innovaccer) found and no firm page fetched — excluded pending verification rather than asserted as fact."
+        },
+        {
+          "name": "Dragoneer",
+          "reason": "DUPLICATE — same firm as 'Dragoneer Investment Group', included as one entity (us-dragoneer-investment-group) with this as an aka."
+        },
+        {
+          "name": "Schonfeld Strategic Advisors",
+          "reason": "Large multi-strategy hedge fund; single incidental deal (Innovaccer), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Steadview Capital",
+          "reason": "India-focused generalist growth-equity fund; single incidental deal (Innovaccer), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Banner Health",
+          "reason": "Nonprofit hospital system; single incidental strategic investment (Innovaccer Series F), no dedicated venture arm found this session."
+        },
+        {
+          "name": "Generation Investment Management",
+          "reason": "Al Gore's sustainability/ESG-focused growth-equity firm; single incidental deal (Innovaccer), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Bain Capital Ventures",
+          "reason": "DUPLICATE — see rejection above."
+        },
+        {
+          "name": "Valspring Capital Management",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Iodine Software)."
+        },
+        {
+          "name": "Iconiq Growth",
+          "reason": "DUPLICATE — same firm as 'ICONIQ Growth', included as one entity (us-iconiq-growth) with this as an aka."
+        },
+        {
+          "name": "IA Ventures",
+          "reason": "Generalist data/AI-infrastructure early-stage fund; single incidental deal (Komodo Health), no dedicated healthcare focus found."
+        },
+        {
+          "name": "TQ Ventures",
+          "reason": "Alex Rodriguez-affiliated generalist growth fund; single incidental deal (Ro Series C), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Astia Angels",
+          "reason": "Women-founder-focused angel network (not health-focused); single incidental deal (Materna Medical), insufficient evidence of dedicated health investing."
+        },
+        {
+          "name": "Band of Angels",
+          "reason": "Generalist Silicon Valley angel network; single incidental deal (Materna Medical), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Gaingels",
+          "reason": "LGBTQ+-focused generalist syndicate across all sectors; single incidental deal (Materna Medical), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Golden Seeds",
+          "reason": "Women-founder-focused generalist angel network; single incidental deal (Materna Medical), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Women's VC Fund II",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Materna Medical)."
+        },
+        {
+          "name": "La Famiglia",
+          "reason": "Berlin-based generalist enterprise VC; single incidental deal (Maven Clinic), no dedicated healthcare focus found."
+        },
+        {
+          "name": "BOND",
+          "reason": "Mary Meeker's large generalist growth fund (BOND Capital); single incidental deal (Maven Clinic) found this session, no dedicated healthcare practice confirmed."
+        },
+        {
+          "name": "Oprah Winfrey",
+          "reason": "Individual celebrity angel investor, no named fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Milestone Venture Partners",
+          "reason": "Small NY generalist early-stage VC; single, very old incidental deal (Medidata Solutions Series A, ~2000), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Stonehenge Capital Fund",
+          "reason": "CDFI/community-development-focused generalist fund; single incidental deal (Medidata Solutions), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Esther Dyson",
+          "reason": "Individual angel investor operating through a personal vehicle (EDventure Holdings), not an institutional fund. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Kapor Capital",
+          "reason": "Broad social-impact-focused generalist fund across many sectors; only one deal (Omada Health) verified this session, no dedicated healthcare practice page fetched — insufficient session-verified evidence despite a plausible broader reputation."
+        },
+        {
+          "name": "The Carlyle Group",
+          "reason": "DUPLICATE — see inclusion above."
+        },
+        {
+          "name": "GV (Google Ventures) / Alphabet Inc.",
+          "reason": "ALIAS — see alias_fixes[] (existing_id us-gv)."
+        },
+        {
+          "name": "DST Global",
+          "reason": "DUPLICATE — see rejection above."
+        },
+        {
+          "name": "Blackstone",
+          "reason": "DUPLICATE — see rejection above."
+        },
+        {
+          "name": "Formation 8",
+          "reason": "Defunct generalist early-stage VC (active ~2011-2016); single incidental deal (Oscar Health Series A lead), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Jim Breyer (Breyer Capital)",
+          "reason": "Breyer Capital is a real named investment firm (not merely personal angel investing), but its portfolio (Facebook, Marvel, Spotify) is generalist consumer/media; single incidental deal (Oscar Health, as 'angel' role) found this session with no dedicated healthcare focus — insufficient evidence to include despite being a named fund."
+        },
+        {
+          "name": "Stanley Druckenmiller",
+          "reason": "Individual angel investor (Oscar Health, 'angel' role); while he operates Duquesne Family Office, no dedicated healthcare focus or additional health deals could be verified this session. Out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "Together Fund",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (RapidClaims Series A)."
+        },
+        {
+          "name": "FirstMark Capital",
+          "reason": "DUPLICATE — see inclusion above."
+        },
+        {
+          "name": "TQ Ventures",
+          "reason": "DUPLICATE — see rejection above."
+        },
+        {
+          "name": "Fidelity Management & Research Company",
+          "reason": "DUPLICATE — see inclusion above."
+        },
+        {
+          "name": "Inova Health System",
+          "reason": "DUPLICATE of 'Inova' (Truveta member); nonprofit health system with only single-deal evidence (Somatus / Truveta membership), no dedicated venture arm found this session — rejected consistent with the other Truveta-only health systems."
+        },
+        {
+          "name": "Guardian Life Insurance",
+          "reason": "Large mutual life/health insurer; single incidental deal (Spring Health), no dedicated venture arm found this session."
+        },
+        {
+          "name": "Zoom Ventures",
+          "reason": "Zoom's corporate venture arm, tech/communications-focused, not health-dedicated; single incidental deal (Suki AI), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Hedosophia",
+          "reason": "Generalist growth/crossover fund (Ian Osborne); single incidental deal (Suki AI), no dedicated healthcare focus found."
+        },
+        {
+          "name": "March Capital",
+          "reason": "LA-based generalist enterprise/AI growth fund; single incidental deal (Suki AI), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Norwest Venture Partners",
+          "reason": "DUPLICATE — see inclusion above."
+        },
+        {
+          "name": "Qumra Capital",
+          "reason": "Israeli generalist growth-equity fund; single incidental deal (Talkspace Series C+), no dedicated healthcare focus found."
+        },
+        {
+          "name": "AlleyCorp",
+          "reason": "NYC company-builder/studio (Kevin Ryan); independently reputed to have built multiple health-tech companies, but only one deal (Thyme Care) could be verified this session and the firm's own portfolio/focus page could not be fetched — insufficient session-verified evidence despite plausible broader track record."
+        },
+        {
+          "name": "Texas Oncology",
+          "reason": "Oncology physician-practice group (part of US Oncology/McKesson), not an investment firm; its Thyme Care stake is a single strategic corporate partnership deal, not a repeat venture-investing program."
+        },
+        {
+          "name": "Intermountain Healthcare",
+          "reason": "POSSIBLE ALIAS — see alias_fixes[] (existing_id us-intermountain-ventures)."
+        },
+        {
+          "name": "Rush University Medical Center",
+          "reason": "Academic medical center; single incidental deal (Transcarent Series C), no dedicated venture arm found this session."
+        },
+        {
+          "name": "Geodesic Capital",
+          "reason": "SF-based generalist growth-equity fund; single incidental deal (Transcarent), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Threshold Ventures",
+          "reason": "DUPLICATE — see rejection above."
+        },
+        {
+          "name": "Battery Ventures",
+          "reason": "DUPLICATE — see rejection above."
+        },
+        {
+          "name": "Tenet Healthcare",
+          "reason": "Truveta co-owner only (single joint data-collaborative membership, not a repeat venture-investing track record); no dedicated venture arm identified this session."
+        },
+        {
+          "name": "Advocate Aurora Health",
+          "reason": "POSSIBLE ALIAS — see alias_fixes[] (existing_id us-advocate-health-enterprises); otherwise Truveta co-owner only, same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "AdventHealth",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Baptist Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Bon Secours Mercy Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Hawaii Pacific Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "HealthPartners",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Henry Ford Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "HonorHealth",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Inova",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems. (See also 'Inova Health System' duplicate rejection.)"
+        },
+        {
+          "name": "MedStar Health",
+          "reason": "Truveta co-owner only this session; a 'MedStar Health Ventures' program is independently reputed to exist, but could not be verified via any fetchable source this session (own Wikipedia article makes no mention of it) — excluded pending verification rather than asserted as fact."
+        },
+        {
+          "name": "Novant Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Ochsner Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Sanford Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Sentara Healthcare",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Texas Health Resources",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "TriHealth",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Virtua Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "WellSpan Health",
+          "reason": "Truveta co-owner only; no dedicated venture arm identified this session — same reasoning as other Truveta-only health systems."
+        },
+        {
+          "name": "Illumina",
+          "reason": "POSSIBLE ALIAS — see alias_fixes[] (existing_id us-illumina-ventures), flagged rather than merged with certainty since this may instead refer to the Illumina Inc. corporate parent's direct Truveta stake, distinct from its already-catalogued Illumina Ventures VC arm."
+        },
+        {
+          "name": "17 U.S. health systems (collective founding owners)",
+          "reason": "Not a distinct named investor entity — an aggregate description of Truveta's founding health-system consortium (per truveta.com/members, 30 health systems as of the current member list; 14 named at the 2021 founding). Each named health system is already addressed individually elsewhere in this worklist."
+        },
+        {
+          "name": "Impact America Fund",
+          "reason": "Impact-focused seed fund with financial-health/health/future-of-work themes for underserved communities; single incidental deal (Twentyeight Health) found this session — reasonably health-adjacent thesis but insufficient verified evidence (no dedicated site fetched) to confirm it clears the bar."
+        },
+        {
+          "name": "The Social Entrepreneurs' Fund",
+          "reason": "Generalist impact-investing vehicle; single incidental deal (Twentyeight Health), no dedicated healthcare focus found."
+        },
+        {
+          "name": "RH Capital",
+          "reason": "ALIAS — see alias_fixes[] (existing_id us-rh-capital), flagged ambiguous against two existing roster rows."
+        },
+        {
+          "name": "Impact Engine",
+          "reason": "Chicago-based impact VC reputed to name health as one of several impact themes, but the fetched site returned unrelated ad-tech content (likely a domain/name collision) and no dedicated healthcare evidence could be verified this session; single incidental deal (Twentyeight Health)."
+        },
+        {
+          "name": "Gratitude Railroad",
+          "reason": "Generalist impact-focused angel syndicate; single incidental deal (Twentyeight Health), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Townhall Ventures",
+          "reason": "ALIAS — spelling variant of 'Town Hall Ventures', which already exists in the roster as us-town-hall-ventures. See alias_fixes[]; no new entity created (the draft entity built for this session was removed once the roster collision was discovered)."
+        },
+        {
+          "name": "Third Prime",
+          "reason": "Generalist growth-equity fund; single incidental deal (Twentyeight Health seed, lead), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Aglaé Ventures",
+          "reason": "Bernard Arnault (LVMH) family's generalist luxury/consumer/tech venture arm; single incidental deal (Twentyeight Health), no dedicated healthcare focus found."
+        },
+        {
+          "name": "GingerBread Capital",
+          "reason": "Women-founder-focused generalist early-stage fund; single incidental deal (Twentyeight Health), no dedicated healthcare focus found."
+        },
+        {
+          "name": "Rucker Park Capital",
+          "reason": "Could not verify firm identity/focus this session; single incidental deal (Twentyeight Health seed)."
+        },
+        {
+          "name": "Predictive VC",
+          "reason": "Generalist AI-focused early-stage fund; single incidental deal (Twentyeight Health seed), no dedicated healthcare focus found."
+        },
+        {
+          "name": "ResMed",
+          "reason": "Medtech device maker (sleep apnea/respiratory); single incidental strategic investment (Xealth), no dedicated venture arm found this session."
+        },
+        {
+          "name": "Cerner",
+          "reason": "Health-IT company (acquired by Oracle in 2022, now Oracle Health); single incidental strategic investment (Xealth), no dedicated venture arm found and unlikely to still be independently active as an investor post-acquisition."
+        }
+      ],
+      "notes": "WebSearch was unavailable this session (budget exhausted); all research used WebFetch only. Cross-referencing the 189-name worklist against this repo's own data/companies/_raw/*.json (130 already-researched US company records) found that every single name in the worklist traces back to a funding-round investor list already present in this codebase — this is how sourcing was anchored for most records (reusing peer agents' already-verified press-release/Wikipedia quotes as valid provenance), supplemented with fresh WebFetch of each investor's own site/Wikipedia page where reachable. Many official investor sites, SEC EDGAR, Crunchbase, Bing and DuckDuckGo were blocked or returned no usable content (403/404/CAPTCHA/empty) for a large share of attempted lookups; those cases are called out explicitly in each record's verification_notes or in the corresponding rejected[] reason. A major structural finding: 19 of the 189 names (Tenet Healthcare, Advocate Aurora Health, AdventHealth, Baptist Health, Bon Secours Mercy Health, Hawaii Pacific Health, HealthPartners, Henry Ford Health, HonorHealth, Inova, MedStar Health, Novant Health, Ochsner Health, Sanford Health, Sentara Healthcare, Texas Health Resources, TriHealth, Virtua Health, WellSpan Health) plus 'Illumina' and the aggregate row '17 U.S. health systems (collective founding owners)' all trace to a single source: truveta.com/members, the health-data collaborative Truveta. These are co-ownership stakes in one joint venture, not a repeat venture-investing track record, so all were rejected under the 'not one incidental deal' rule — except Memorial Hermann, Trinity Health, and UnityPoint Health(Ventures), which the task brief had already confirmed as real and which also showed multi-company investing patterns beyond Truveta membership in this repo's own company data, so those three were included. Two entities collided with the existing roster during a final ID check and were converted to alias_fixes instead of new entities: 'Town Hall Ventures' (already us-town-hall-ventures — the worklist's 'Townhall Ventures' spelling variant is now proposed as an aka) and several NVentures/CVS Health Ventures/StartUp Health/RH Capital cases caught by the earlier fuzzy-match pass. A number of rejections are marked 'insufficient session-verified evidence' rather than definitively non-qualifying — these are cases (e.g. AlleyCorp, Avidity Partners, Kapor Capital, Premji Invest, G9/G9 Ventures, MedStar Health) where independent reputation suggests they might clear the bar, but this session could not fetch a corroborating source, so they were left out rather than asserted on memory alone; worth a second pass if better search access becomes available."
+    },
+    "r2-us-cell-gene-rna": {
+      "wanted": [
+        "Excision BioTherapeutics (CRISPR cure for HIV) - site returned repeated TLS certificate errors this session",
+        "Orna Therapeutics (circular RNA / oRNA therapeutics) - site returned repeated HTTP 409 errors this session",
+        "SQZ Biotechnologies (microfluidic cell-squeeze platform) - site had an SSL handshake failure and Wikipedia 404'd; status (possible wind-down) needs verification",
+        "Capstan Therapeutics (in vivo CAR-T via RNA-LNP) - confirmed acquired by AbbVie via a 301 redirect from capstantx.com to abbvie.com/capstan-therapeutics.html, but that AbbVie page returned HTTP 403 both times it was fetched, so no quotable content was obtained",
+        "Taysha Gene Therapies, Tenaya Therapeutics, Obsidian Therapeutics, Arsenal Biosciences, Dispatch Bio, City Therapeutics, Alltrna, Sail Biomedicines, Foghorn Therapeutics, Repertoire Immune Medicines, Encoded Therapeutics, Skylark Bio, Myeloid Therapeutics, AIRNA, Vilya, LifeMine Therapeutics, Remix Therapeutics, Trotana Therapeutics, Magnet Biomedicine, Gate Bioscience, Parabilis Medicines, Caribou Biosciences, Precision Biosciences, Affinia Therapeutics, AviadoBio, Ensoma, nChroma Bio - all surfaced as cell/gene/RNA companies via ARCH Venture Partners / Flagship Pioneering / F-Prime Capital / GV portfolio pages but not individually researched this pass due to time; would be high-value next targets since their venture-studio origin is already confirmed"
+      ],
+      "skipped": [
+        {
+          "name": "Vor Biopharma",
+          "reason": "Originally a gene-edited hematopoietic stem cell therapy company (trem-cel/VOR33), but its current site (vorbio.com) shows a pivot to autoimmune disease biologics (telitacicept, a BAFF/APRIL inhibitor); no longer clearly fits the cell/gene/RNA slice as of this research pass, so left out rather than mis-profiled."
+        }
+      ],
+      "notes": "WebSearch was unavailable this session (budget exhausted), so all research relied on direct WebFetch guesses at company domains, Wikipedia pages, and known VC portfolio pages. Many company press/news pages, SEC EDGAR (blocked with HTTP 403 on every attempt), and several company domains (elevatebio.com, several TLS-broken sites) could not be reached, which limited investor-syndicate depth for private/early-stage companies. Investor coverage is strongest where a company was confirmed directly on ARCH Venture Partners' (archventure.com/portfolio), Flagship Pioneering's (flagshippioneering.com/companies), F-Prime Capital's (fprimecapital.com/portfolio), or GV's (gv.com/portfolio) own portfolio pages -- these four fetches alone supplied at least one sourced investor for roughly two-thirds of the batch. Where a company is widely known to be public/acquired/investor-backed from general knowledge but that fact could not be confirmed by an actual fetch this session, the fact was deliberately omitted rather than asserted, per the no-fabrication rule; several verification_notes flag these gaps explicitly for a future pass with working search."
+    },
+    "r2-us-neuro-metabolic": {
+      "wanted": [
+        "Zogenix",
+        "BlueRock Therapeutics",
+        "BridgeBio Pharma",
+        "Metsera",
+        "Denali Therapeutics",
+        "Disc Medicine",
+        "Be Biopharma",
+        "Versanis Bio",
+        "Rhythm Pharmaceuticals",
+        "Praxis Precision Medicines",
+        "Structure Therapeutics",
+        "Longboard Pharmaceuticals",
+        "Mineralys Therapeutics",
+        "Alnylam Pharmaceuticals",
+        "Regenacy Pharmaceuticals",
+        "Genetesis",
+        "Vivace Therapeutics",
+        "Alector",
+        "Annexon Biosciences",
+        "Neurocrine Biosciences",
+        "Supernus Pharmaceuticals",
+        "Akili Interactive"
+      ],
+      "skipped": [
+        {
+          "name": "Regenacy Pharmaceuticals",
+          "reason": "regenacypharma.com is a parked/for-sale domain; could not locate the correct live company site without search, so dropped rather than writing a thin/unsourced record."
+        },
+        {
+          "name": "Genetesis",
+          "reason": "Both http and https fetches of genetesis.com failed with SSL handshake errors; no alternate source found without a search tool."
+        },
+        {
+          "name": "Vivace Therapeutics",
+          "reason": "vervetx-style domain vivacetx.com redirects to an expired-domain parking page; could not source."
+        },
+        {
+          "name": "Denali Therapeutics",
+          "reason": "Public/well-known rare-disease and neurodegeneration company (TransportVehicle platform, approved product AVLAYAH for a rare lysosomal disease), but the site's pipeline/product pages are JS-rendered and returned only navigation content across multiple fetch attempts — could not get a quotable indication/phase, so dropped rather than writing a thin record."
+        },
+        {
+          "name": "Disc Medicine",
+          "reason": "discmedicine.com returned 403 Forbidden on every path tried (root, /investors); no Wikipedia article found; dropped for lack of a fetchable source."
+        },
+        {
+          "name": "Be Biopharma",
+          "reason": "bebiopharma.com fetches returned no content (command failed / empty) across three attempts; no Wikipedia article found; dropped."
+        },
+        {
+          "name": "Versanis Bio",
+          "reason": "No official site or Wikipedia article reachable in this session (acquired by Eli Lilly in 2023); could not source without a search tool."
+        },
+        {
+          "name": "Zogenix",
+          "reason": "No reachable Wikipedia article (multiple title variants 404'd) and no company site tried succeeded within session time budget after UCB's 2022 acquisition folded the brand; dropped rather than writing from memory."
+        },
+        {
+          "name": "BlueRock Therapeutics",
+          "reason": "No reachable Wikipedia article (multiple title variants 404'd); ran out of session time to find the post-Bayer-acquisition company site."
+        },
+        {
+          "name": "BridgeBio Pharma",
+          "reason": "Company site (bridgebio.com) confirms an approved rare-disease drug (Attruby) but every page fetched lacked HQ/founding/investor content and Wikipedia 404'd on both title variants tried; dropped as too thin to meet the sourcing bar."
+        },
+        {
+          "name": "Metsera",
+          "reason": "metsera.com now 301-redirects to pfizer.com, confirming the Pfizer acquisition, but no further sourced detail (dates, value, prior investors) could be obtained without a search tool; dropped rather than writing a bare-fact record."
+        }
+      ],
+      "notes": "This slice was researched entirely via WebFetch with no working search tool (WebSearch budget exhausted per instructions; SEC EDGAR blocked WebFetch with 403 on every cgi-bin/browse-edgar and company_tickers.json attempt, likely due to SEC's User-Agent policy; ClinicalTrials.gov's search UI is JS-rendered and returned no data to WebFetch). Many corporate biotech sites (vervetx.com, discmedicine.com, bebiopharma.com, genetesis.com, and others) returned 403/SSL/empty errors, consistent with bot-blocking (Cloudflare/Akamai) rather than content absence. Wikipedia was the single most reliable source when an article existed, but roughly half of candidate companies checked had no matching article title (multiple casing/naming variants tried and 404'd) and were dropped rather than guessed. As a result: (1) many private/early-stage companies in this slice have no funding.investors because no investor names could be sourced with a verbatim quote, even though funding almost certainly occurred; (2) several well-known, highly-relevant companies (Denali, BridgeBio, Zogenix, BlueRock, Metsera, Disc Medicine, Be Biopharma, Versanis) were dropped despite being obviously in-scope, purely because a fetchable, quotable source could not be found in this session — see 'skipped' and 'wanted'. A follow-up pass with WebSearch or an authenticated SEC/Crunchbase tool would likely double the investor-link coverage on this slice without needing new company discovery."
+    },
+    "r2-us-onc-immuno": {
+      "wanted": [
+        "Tallac Therapeutics (immuno-oncology bispecific SMART Ig) - site returned a certificate error",
+        "Xaira Therapeutics - too broad an AI platform focus to confirm oncology/immunology centrality from a single homepage fetch",
+        "Aileron Therapeutics / REIN Therapeutics - rebrand confirmed but pipeline/status page did not return content",
+        "Modifi Biosciences - domain used (modifibio.com) did not resolve; correct domain not found",
+        "Nabla Bio - domain used (nablabio.com) is an expired/parked domain; correct site not found",
+        "Adaptive Biotechnologies - primarily genomics/diagnostics with a drug-discovery arm; deferred to keep this slice tightly on therapeutics",
+        "Pionyr Immunotherapeutics, Aragon Pharmaceuticals, Celator Pharmaceuticals - older Gilead/J&J/Jazz oncology acquisitions, likely well documented but not reached this session",
+        "Photys Therapeutics, Ascertain - appeared multiple times in the unprofiled-companies list but could not be identified/confirmed as US oncology/immunology operating companies this session",
+        "SEC EDGAR (browse-edgar) was blocked (403) for every company tried this session, which is the normal path to named pre-IPO/crossover investors from S-1 filings for the public companies above -- worth a retry with a different fetch path if this dataset is revisited"
+      ],
+      "notes": "WebSearch budget was exhausted per instructions, so all research relied on WebFetch. SEC EDGAR (both the browse-edgar HTML endpoint and most IR-subdomain news pages) was consistently blocked or timed out this session, which sharply limited access to named pre-IPO/crossover VC investors -- the one channel that worked well was individual biotech company homepages/pipeline pages (reliable) and Wikipedia for well-known, older, or acquired companies (about 50% hit rate). As a result, investor syndicates are populated for only 3 of 30 companies (Juno's founding institutions, Editas's seed/Series B backers, Clasp Therapeutics's Series A syndicate) plus one inferred venture-creator (Flagship Pioneering for Generate:Biomedicines) and one structured-financing partner (Blackstone Life Sciences for Apogee). Several very recent (2025-2026) M&A events were discovered organically via redirects and press-release feeds: AbbVie/Capstan, AbbVie/Apogee (announced), J&J/Halda, Merck KGaA/SpringWorks, Concentra Biosciences/Kronos Bio, Servier/Day One. Three companies (Ambagon, Aktis Oncology, Dispatch Biotherapeutics) have only a homepage tagline sourced and should be treated as placeholders pending deeper research."
+    },
+    "r2-us-techbio": {
+      "wanted": [
+        "Chai Discovery (chaidiscovery.com) — AI protein/molecule structure prediction; every URL tried (root domain, /news, /about) returned 403/404 this session.",
+        "Iambic Therapeutics — AI drug discovery (Enchant/NeuralPLexer platform, Bayer partnership); no HQ, founders, or funding sourced.",
+        "Terray Therapeutics — AI + high-throughput chemistry small-molecule discovery; only a generic platform description was recoverable, no HQ/founders/funding.",
+        "EvolutionaryScale — ESM3 protein language models; confirmed NVIDIA and AWS as technology partners but could not source funding round, investor list, HQ or founding year (known ~$142M seed is publicly reported but unconfirmed here).",
+        "Genesis Therapeutics / Genesis Molecular AI (genesis.ml) — Pearl foundation model; confirmed a $120M Incyte partnership but no funding/investor/HQ data.",
+        "Profluent Bio — AI-designed proteins/OpenCRISPR gene editor, Eli Lilly partnership; investor data limited to an unconfirmed Jeff Bezos mention in a secondary source.",
+        "Inceptive — mRNA/AI design; site unreachable (certificate mismatch) this session.",
+        "Synthego, Freenome, PathAI, Valo Health — all in scope for this slice but returned 404 on every attempted URL (own site and Wikipedia) this session.",
+        "Recursion Pharmaceuticals' 2024 Exscientia merger and pre-IPO investor syndicate — company has no Wikipedia article under the titles tried, and IR press pages repeatedly timed out.",
+        "Xaira Therapeutics' >$1B founding round investor list — high priority given likely NVIDIA/Big Tech/pharma CVC participation, but not sourceable via WebFetch this session."
+      ],
+      "skipped": [
+        {
+          "name": "BenchSci",
+          "reason": "Canadian (Toronto)-headquartered, not in the United States slice."
+        },
+        {
+          "name": "AbCellera",
+          "reason": "Canadian (Vancouver)-headquartered, not in the United States slice; explicitly flagged by team lead as belonging to a later (Canada) round."
+        },
+        {
+          "name": "Insilico Medicine",
+          "reason": "Primary HQ is Hong Kong (with a US/Zhongshan presence), not a US-headquartered operating company for this slice."
+        }
+      ],
+      "notes": "This slice was researched WebFetch-only (no WebSearch budget). Coverage was heavily constrained by two recurring failure modes: (1) many corporate sites are JS-rendered SPAs whose blog/news/press listings return no usable content to the fetcher even at 200 status, and (2) Wikipedia article titles had to be guessed and many newer/private AI-drug-discovery startups have no article at all. Public companies were the highest-yield category because stockanalysis.com and Wikipedia both reliably surface founding, HQ, IPO and ticker data server-side. As a result the 30 delivered companies skew toward already-public techbio/tools names (20 of 30) plus 10 private companies, several of which (Xaira, Paige, Dyno, Glyphic, Terray-class names) are recorded with 'low'/'medium' confidence and no funding block because their own sites would not yield financial detail to WebFetch. SEC EDGAR (cgi-bin/browse-edgar) returned HTTP 403 on every attempt, so no S-1/10-K data was used. Investor-syndicate depth is uneven: Solugen, Enveda, Resilience, BigHat Biosciences and Tempus AI carry multi-investor lists; several public companies (10x Genomics, Twist Bioscience, Codexis, Charles River, Certara, Veracyte, Natera, Personalis, Standard BioTools, Absci, Nautilus, Quantum-Si) carry an IPO/ticker record but no named pre-IPO VCs because that detail sits behind sources (Crunchbase, PitchBook, SEC S-1) that 403'd or weren't guessable this session."
+    }
+  }
+}

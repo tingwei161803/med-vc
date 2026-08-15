@@ -1,0 +1,1664 @@
+[
+  {
+    "id": "us-kite-pharma",
+    "name": {
+      "en": "Kite Pharma"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "founded_year": 2009,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Santa Monica, CA",
+    "website": "https://www.kitepharma.com",
+    "profile": {
+      "what": "Developer of CAR T-cell cancer immunotherapies; created Yescarta (axicabtagene ciloleucel), the first FDA-approved CAR-T therapy.",
+      "modalities": [
+        "cell-therapy"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Axicabtagene ciloleucel (Yescarta, anti-CD19 CAR-T)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Yescarta (axicabtagene ciloleucel)",
+          "year": 2017
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$15 million",
+            "usd": 15000000,
+            "currency": "USD"
+          },
+          "date": "2011-03"
+        },
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$35 million",
+            "usd": 35000000,
+            "currency": "USD"
+          },
+          "date": "2013-05"
+        }
+      ],
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": 2017,
+        "acquirer": "Gilead Sciences",
+        "value": {
+          "raw": "$11.9 billion",
+          "usd": 11900000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kite_Pharma",
+        "title": "Kite Pharma",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, funding rounds, IPO, FDA approval, Gilead acquisition",
+        "quote": "Gilead Sciences announced that it would acquire Kite Pharma for $11.9 billion"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding/round/exit facts from Wikipedia, cross-checked across two fetches; no primary SEC/company source consulted for financials.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-juno-therapeutics",
+    "name": {
+      "en": "Juno Therapeutics"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Seattle, WA",
+    "website": "https://en.wikipedia.org/wiki/Juno_Therapeutics",
+    "profile": {
+      "what": "Developer of CAR T-cell cancer immunotherapies, co-founded by Fred Hutchinson Cancer Research Center, Memorial Sloan-Kettering and Seattle Children's; created Breyanzi (lisocabtagene maraleucel).",
+      "modalities": [
+        "cell-therapy"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Lisocabtagene maraleucel (Breyanzi, anti-CD19 CAR-T)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Breyanzi (lisocabtagene maraleucel)",
+          "year": 2021
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Fred Hutchinson Cancer Research Center",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-seed"
+        },
+        {
+          "name": "Memorial Sloan-Kettering Cancer Center",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-seed"
+        },
+        {
+          "name": "Seattle Children's Research Institute",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-seed"
+        }
+      ],
+      "last_round": {
+        "stage": "growth",
+        "amount": {
+          "raw": "$300 million private funding",
+          "usd": 300000000,
+          "currency": "USD"
+        }
+      },
+      "exit": {
+        "type": "M&A",
+        "year": 2018,
+        "acquirer": "Celgene",
+        "value": {
+          "raw": "$9 billion",
+          "usd": 9000000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Juno_Therapeutics",
+        "title": "Juno Therapeutics",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founding institutions, IPO, FDA approval, Celgene acquisition",
+        "quote": "The company raised $300 million through private funding and a further $265 million through their IPO."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Wikipedia only; company later folded into Bristol-Myers Squibb (via Celgene) so no standalone IR site remains.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-allogene-therapeutics",
+    "name": {
+      "en": "Allogene Therapeutics"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.allogene.com",
+    "profile": {
+      "what": "Developer of allogeneic (off-the-shelf) CAR T-cell therapies (AlloCAR T) for cancer, in contrast to patient-specific autologous CAR-T.",
+      "modalities": [
+        "cell-therapy"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "Cemacabtagene ansegedleucel (cema-cel, anti-CD19 AlloCAR T)",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.allogene.com/pipeline",
+        "title": "Pipeline",
+        "publisher": "Allogene Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ, pipeline programs and phase",
+        "quote": "Allogene Therapeutics is headquartered in South San Francisco, CA"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Pipeline and HQ from company site; founding date, funding rounds and named investors not sourced (SEC EDGAR blocked this session).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-kymera-therapeutics",
+    "name": {
+      "en": "Kymera Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Watertown, MA",
+    "website": "https://www.kymeratx.com",
+    "profile": {
+      "what": "Targeted protein degradation company developing oral small-molecule degraders for immunology and inflammation, partnered with Sanofi and Gilead.",
+      "modalities": [
+        "protein-degradation",
+        "small-molecule"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "oncology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "KT-621 (STAT6 degrader) for atopic dermatitis and other Type 2 inflammatory diseases",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.kymeratx.com/pipeline",
+        "title": "Pipeline",
+        "publisher": "Kymera Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "pipeline programs, targets, phases",
+        "quote": "First-in-class, once-daily oral STAT6 degrader"
+      },
+      {
+        "url": "https://www.kymeratx.com/about/",
+        "title": "About",
+        "publisher": "Kymera Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ",
+        "quote": "500 North Beacon Street, 4th Floor, Watertown, MA 02472"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year and named investors not sourced this session; IPO occurred 2020 per general knowledge but not verified with a quote so omitted.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-tscan-therapeutics",
+    "name": {
+      "en": "TScan Therapeutics"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Waltham, MA",
+    "website": "https://www.tscan.com",
+    "profile": {
+      "what": "Developer of T-cell receptor-engineered T-cell (TCR-T) therapies for hematologic and solid cancers, and TCR-directed therapies for autoimmunity.",
+      "modalities": [
+        "cell-therapy"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "TSC-101 (HA-2-directed TCR-T) for AML/MDS, advancing to Phase 3 ALLOHA-2 trial",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.tscan.com/pipeline/",
+        "title": "Pipeline",
+        "publisher": "TScan Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ, pipeline programs and phases",
+        "quote": "830 Winter Street, Waltham, MA 02451"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year, funding rounds and named investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-arvinas",
+    "name": {
+      "en": "Arvinas"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New Haven, CT",
+    "website": "https://www.arvinas.com",
+    "profile": {
+      "what": "Targeted protein degradation (PROTAC) company; developed vepdegestrant, an oral estrogen receptor degrader for breast cancer, partnered with Pfizer, and luxdegalutamide, an androgen receptor degrader partnered with Novartis.",
+      "modalities": [
+        "protein-degradation",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Vepdegestrant (ARV-471, ER degrader) for ER+/HER2- breast cancer",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Veppanu (vepdegestrant)",
+          "year": 2026
+        }
+      ]
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.arvinas.com/pipeline/",
+        "title": "Pipeline",
+        "publisher": "Arvinas",
+        "accessed": "2026-08-16",
+        "supports": "pipeline programs, targets, phases, approval status",
+        "quote": "VEPPANU (Vepdegestrant) ... Target: Estrogen Receptor (ER) ... Status: FDA Approved"
+      },
+      {
+        "url": "https://www.stocktitan.net/news/ARVN/",
+        "title": "Arvinas press release feed",
+        "publisher": "StockTitan",
+        "accessed": "2026-08-16",
+        "supports": "date of FDA approval",
+        "quote": "05/01/2026: FDA Approval of VEPPANU"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year, funding rounds and named investors not sourced this session (SEC EDGAR blocked).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-editas-medicine",
+    "name": {
+      "en": "Editas Medicine"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 2013,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge, MA",
+    "website": "https://www.editasmedicine.com",
+    "profile": {
+      "what": "CRISPR gene-editing company co-founded by Jennifer Doudna, Feng Zhang, George Church, David Liu and J. Keith Joung; develops in vivo and ex vivo gene-edited medicines including for sickle cell disease.",
+      "modalities": [
+        "gene-editing"
+      ],
+      "indications": [
+        "rare-disease",
+        "hematology",
+        "ophthalmology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "EDIT-301 (Cas12a-edited cell therapy) for sickle cell disease and beta-thalassemia",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Third Rock Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "seed"
+        },
+        {
+          "name": "Polaris Partners",
+          "entity_id": null,
+          "role": "participant",
+          "round": "seed"
+        },
+        {
+          "name": "Flagship Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "seed"
+        }
+      ],
+      "rounds": [
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "$43M",
+            "usd": 43000000,
+            "currency": "USD"
+          },
+          "lead": [
+            "Third Rock Ventures",
+            "Polaris Partners",
+            "Flagship Ventures"
+          ]
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$120 million",
+            "usd": 120000000,
+            "currency": "USD"
+          },
+          "date": "2015-08"
+        }
+      ],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Editas_Medicine",
+        "title": "Editas Medicine",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, founders, funding rounds, IPO, pipeline",
+        "quote": "$43M in VC cash from Third Rock Ventures, Polaris Partners, and Flagship Ventures"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Note: Editas ended development of reni-cel and cut 65% of staff in Dec 2024 per the same source; company pivoted focus toward in vivo programs.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-sutro-biopharma",
+    "name": {
+      "en": "Sutro Biopharma"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "founded_year": 2003,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.sutrobio.com",
+    "profile": {
+      "what": "Developer of antibody-drug conjugates, cytokine-based immuno-oncology therapies and bispecific antibodies using a cell-free protein synthesis platform.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "STRO-002 (folate receptor alpha-targeted ADC) for gynecological cancers",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sutro_Biopharma",
+        "title": "Sutro Biopharma",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, pipeline",
+        "quote": "originally as \"Fundamental Applied Biology\"; renamed to Sutro Biopharma in 2009"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Named investors and funding round amounts not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-apogee-therapeutics",
+    "name": {
+      "en": "Apogee Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Waltham, MA",
+    "website": "https://www.apogeetherapeutics.com",
+    "profile": {
+      "what": "Developer of best-in-class monoclonal antibodies for inflammatory and immunological (I&I) conditions such as atopic dermatitis, asthma and COPD.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "dermatology",
+        "respiratory"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "Zumilokibart (APG777, IL-13 antibody) for atopic dermatitis and asthma",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Blackstone Life Sciences",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://www.stocktitan.net/news/APGE/"
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2026,
+        "acquirer": "AbbVie",
+        "value": {
+          "raw": "$135.11 per share",
+          "usd": null,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.apogeetherapeutics.com/pipeline",
+        "title": "Pipeline",
+        "publisher": "Apogee Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "pipeline programs, targets, indications, phase",
+        "quote": "ZUMILOKIBART (APG777) ... Target: IL-13 ... Atopic Dermatitis, Asthma, Eosinophilic Esophagitis"
+      },
+      {
+        "url": "https://www.stocktitan.net/news/APGE/",
+        "title": "Apogee Therapeutics press release feed",
+        "publisher": "StockTitan",
+        "accessed": "2026-08-16",
+        "supports": "AbbVie acquisition price/date and Blackstone financing",
+        "quote": "AbbVie Acquisition Agreement (06/22/2026) - $135.11 per share ... Blackstone Life Sciences Financing Deal (05/27/2026) - up to $1.3 billion"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "AbbVie deal appears very recently announced (June 2026) relative to today's date (2026-08-16); treat as pending/near-term close unless a later source confirms completion. Blackstone deal is a structured royalty/financing arrangement, not a traditional VC round.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-spyre-therapeutics",
+    "name": {
+      "en": "Spyre Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.spyre.com",
+    "profile": {
+      "what": "Developer of half-life-extended and combination antibodies against validated targets (alpha4beta7, TL1A, IL-23) for inflammatory bowel disease and other immune-mediated conditions.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "gastroenterology-hepatology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "SPY001 (anti-alpha4beta7 antibody) for ulcerative colitis",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.spyre.com/pipeline",
+        "title": "Pipeline",
+        "publisher": "Spyre Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "pipeline programs, targets, indications, phase",
+        "quote": "SPY001 | α4β7 | Ulcerative Colitis (UC) | Phase 2"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ, founding year and named investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-oruka-therapeutics",
+    "name": {
+      "en": "Oruka Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.orukatx.com",
+    "profile": {
+      "what": "Developer of long-acting monoclonal antibodies for chronic dermatologic diseases, aiming for complete disease clearance with one or two doses annually.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "dermatology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "ORKA-001 (IL-23 antibody) for moderate-to-severe plaque psoriasis",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.orukatx.com/",
+        "title": "Oruka Therapeutics",
+        "publisher": "Oruka Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "company description, pipeline",
+        "quote": "ORKA-001 and ORKA-002 ... Moderate-to-severe plaque psoriasis, psoriatic arthritis"
+      },
+      {
+        "url": "https://www.stocktitan.net/news/ORKA/",
+        "title": "Oruka Therapeutics press release feed",
+        "publisher": "StockTitan",
+        "accessed": "2026-08-16",
+        "supports": "recent financing activity",
+        "quote": "Oruka Therapeutics Announces Pricing of Upsized $700 Million Underwritten Public Offering"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and named pre-IPO investors not sourced this session; company IPO'd in 2024 per general knowledge but not verified with a quote.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-vor-bio",
+    "name": {
+      "en": "Vor Bio"
+    },
+    "aka": [
+      "Vor Biopharma"
+    ],
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge, MA",
+    "website": "https://www.vorbio.com",
+    "profile": {
+      "what": "Biopharmaceutical company originally focused on engineered hematopoietic stem cell/CAR-T combination therapy for AML; pivoted in 2025 to autoimmune disease via a US license to telitacicept, a BAFF/APRIL inhibitor already approved in China.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "nephrology-urology"
+      ],
+      "development_stage": "unknown",
+      "lead_asset": "Telitacicept (BAFF/APRIL inhibitor) for autoimmune indications including lupus, myasthenia gravis, IgA nephropathy",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.vorbio.com/",
+        "title": "Vor Bio",
+        "publisher": "Vor Bio",
+        "accessed": "2026-08-16",
+        "supports": "current company focus and lead asset",
+        "quote": "Telitacicept - A first-in-class BAFF/APRIL inhibitor designed for autoimmune diseases"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Company underwent a major strategic pivot; original oncology cell-therapy history (trem-cel/VOR33) and founding/funding details not re-sourced this session. Telitacicept is licensed from RemeGen (China) per general knowledge, not directly quoted here.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-day-one-biopharmaceuticals",
+    "name": {
+      "en": "Day One Biopharmaceuticals"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Brisbane, CA",
+    "website": "https://dayonebio.com",
+    "profile": {
+      "what": "Developer of cancer treatments for children and adults; created Ojemda (tovorafenib), an oral RAF kinase inhibitor for pediatric low-grade glioma. Now part of Servier Group.",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "pediatrics"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Tovorafenib (Ojemda, Type II RAF kinase inhibitor) for BRAF-altered pediatric low-grade glioma",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "accelerated approval",
+          "item": "OJEMDA (tovorafenib)",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": null,
+        "acquirer": "Servier Group",
+        "value": {
+          "raw": null,
+          "usd": null,
+          "currency": null
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "http://www.dayonebio.com/pipeline/",
+        "title": "Pipeline",
+        "publisher": "Day One Biopharmaceuticals",
+        "accessed": "2026-08-16",
+        "supports": "pipeline programs, FDA approval, acquisition",
+        "quote": "Now a part of Servier Group ... OJEMDA received accelerated approval from the U.S. FDA"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact Servier acquisition date/price and named investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-pyxis-oncology",
+    "name": {
+      "en": "Pyxis Oncology"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "website": "https://pyxisoncology.com",
+    "profile": {
+      "what": "Developer of antibody-drug conjugates and monoclonal-antibody immuno-oncology therapies for difficult-to-treat cancers.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "Micvotabart pelidotin (PYX-201, ADC)",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://pyxisoncology.com/",
+        "title": "Pyxis Oncology",
+        "publisher": "Pyxis Oncology",
+        "accessed": "2026-08-16",
+        "supports": "HQ, company description",
+        "quote": "321 Harrison Avenue, 11th Floor, Suite 1, Boston, MA 02118"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only homepage fetched; specific pipeline program names/phases, founding year and investors not sourced this session (lead_asset name is from general knowledge, not a direct quote -- flagged for follow-up verification).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-clasp-therapeutics",
+    "name": {
+      "en": "Clasp Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "founded_year": 2024,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Cambridge, MA",
+    "website": "https://www.clasptx.com",
+    "profile": {
+      "what": "Developer of precision T-cell engagers (pHLAre molecules) that target mutated protein fragments displayed on cancer cells (e.g. KRAS, p53) while sparing healthy tissue.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "CLSP-1025 (p53-mutant-targeted T-cell engager)",
+      "regulatory": []
+    },
+    "funding": {
+      "last_round": {
+        "stage": "series-a",
+        "amount": {
+          "raw": "$150 million",
+          "usd": 150000000,
+          "currency": "USD"
+        },
+        "date": "2024-03"
+      },
+      "investors": [
+        {
+          "name": "Novo Holdings",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        },
+        {
+          "name": "Vivo Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        },
+        {
+          "name": "Blackbird Bioventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        },
+        {
+          "name": "Pictet",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        },
+        {
+          "name": "Catalio",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        }
+      ],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.clasptx.com/",
+        "title": "Clasp Therapeutics",
+        "publisher": "Clasp Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, pipeline, Series A investors",
+        "quote": "Series A: $150 million (March 2024) ... Named investors include: Novo Holdings, Vivo Capital, Blackbird Bioventures, Pictet, Catalio, and others"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Source lists 'and others' beyond the five named firms; exact lead investor not distinguished so all marked participant.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-capstan-therapeutics",
+    "name": {
+      "en": "Capstan Therapeutics"
+    },
+    "category": "cell-gene-therapy",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego, CA",
+    "website": "https://www.abbvie.com/capstan-therapeutics.html",
+    "profile": {
+      "what": "Developer of in vivo CAR-T cell therapy using targeted lipid nanoparticles to reprogram immune cells directly inside the body, avoiding ex vivo cell manufacturing.",
+      "modalities": [
+        "cell-therapy",
+        "rna-therapeutics"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "CPTX2309 (in vivo anti-CD19 CAR-T)",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": 2025,
+        "acquirer": "AbbVie",
+        "value": {
+          "raw": null,
+          "usd": null,
+          "currency": null
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/AbbVie",
+        "title": "AbbVie",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "acquisition year",
+        "quote": "Capstan Therapeutics, Inc. (Acq 2025)"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Capstan's own site (capstantx.com) now redirects to abbvie.com/capstan-therapeutics.html, corroborating the acquisition but the destination page returned 403 so could not be fetched directly. Deal price, exact date, HQ, founding year, lead asset name/target and prior investors are from general industry knowledge, not a directly fetched quote this session -- flagged for follow-up.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-halda-therapeutics",
+    "name": {
+      "en": "Halda Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New Haven, CT",
+    "website": "https://www.jnj.com/innovativemedicine/",
+    "profile": {
+      "what": "Developer of RIPTAC (Regulated Induced Proximity TArgeting Chimeras) small-molecule drugs; lead program targets prostate cancer.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "HLD-0915 (RIPTAC, androgen receptor pathway) for prostate cancer",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": 2025,
+        "acquirer": "Johnson & Johnson",
+        "value": {
+          "raw": "$3.05 billion",
+          "usd": 3050000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Johnson_%26_Johnson",
+        "title": "Johnson & Johnson",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "acquisition price and date",
+        "quote": "In November 2025, the company acquired Halda Therapeutics for $3.05 billion."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Halda's own site (haldatx.com) now redirects to jnj.com/innovativemedicine/, corroborating the acquisition. HQ, founding year, lead asset name/target/phase and prior investors are from general industry knowledge, not a directly fetched quote this session -- flagged for follow-up verification.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-rgenta-therapeutics",
+    "name": {
+      "en": "Rgenta Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Woburn, MA",
+    "website": "https://www.rgentatx.com",
+    "profile": {
+      "what": "Clinical-stage biotech developing oral small molecules that target RNA to modulate splicing and gene expression for oncology and CNS diseases.",
+      "modalities": [
+        "small-molecule",
+        "rna-therapeutics"
+      ],
+      "indications": [
+        "oncology",
+        "neurology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "MYB-targeted RNA-splicing modulator program for solid tumors and blood cancers",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.rgentatx.com/",
+        "title": "Rgenta Therapeutics",
+        "publisher": "Rgenta Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ, company description, pipeline",
+        "quote": "300 TradeCenter, Suite 6600, Woburn, MA 01801"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and named investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-werewolf-therapeutics",
+    "name": {
+      "en": "Werewolf Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Watertown, MA",
+    "website": "https://www.werewolftx.com",
+    "profile": {
+      "what": "Developer of conditionally activated pro-inflammatory immune modulators (INDUKINE cytokine molecules) designed to stimulate anti-tumor immunity selectively within tumors.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "WTX-124 (conditionally activated IL-2 INDUKINE molecule)",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.werewolftx.com/",
+        "title": "Werewolf Therapeutics",
+        "publisher": "Werewolf Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ, company description, pipeline",
+        "quote": "conditionally activated proinflammatory immune modulators"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, clinical phase detail and named investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-ambagon-therapeutics",
+    "name": {
+      "en": "Ambagon Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "unknown",
+    "website": "https://www.ambagontx.com",
+    "profile": {
+      "what": "Developer of 14-3-3 molecular glue medicines designed to drug intrinsically disordered proteins previously considered undruggable, for oncology.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "discovery",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.ambagontx.com/",
+        "title": "Ambagon Therapeutics",
+        "publisher": "Ambagon Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "company description",
+        "quote": "The 14-3-3 Molecular Glue Company"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only homepage tagline fetched; HQ, founding year, pipeline phase and investors not disclosed there and not sourced further this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-aktis-oncology",
+    "name": {
+      "en": "Aktis Oncology"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "unknown",
+    "website": "https://www.aktisoncology.com",
+    "profile": {
+      "what": "Developer of targeted alpha-particle radiopharmaceuticals using a proprietary miniprotein radioconjugate platform for cancer.",
+      "modalities": [
+        "radiopharmaceuticals"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "discovery",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.aktisoncology.com/",
+        "title": "Aktis Oncology",
+        "publisher": "Aktis Oncology",
+        "accessed": "2026-08-16",
+        "supports": "company description",
+        "quote": "Developing targeted alpha-based radiopharmaceuticals for the treatment of cancer patients"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only homepage fetched; HQ, founding year, specific pipeline programs/phases and investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-dispatch-biotherapeutics",
+    "name": {
+      "en": "Dispatch Biotherapeutics"
+    },
+    "aka": [
+      "Dispatch Bio"
+    ],
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "unknown",
+    "website": "https://www.dispatchbio.com",
+    "profile": {
+      "what": "Developer of a novel immunotherapy platform (Flare) for solid tumors, engineered to address tumor-targeting and resistance challenges.",
+      "modalities": [],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "discovery",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.dispatchbio.com/",
+        "title": "Dispatch Biotherapeutics",
+        "publisher": "Dispatch Biotherapeutics",
+        "accessed": "2026-08-16",
+        "supports": "company description",
+        "quote": "engineering a groundbreaking treatment across solid tumors with a novel immunotherapy approach"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only homepage fetched; HQ, founding year, modality specifics, pipeline phase and investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-inhibrx-biosciences",
+    "name": {
+      "en": "Inhibrx Biosciences"
+    },
+    "aka": [
+      "Inhibrx"
+    ],
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "La Jolla, CA",
+    "website": "https://www.inhibrx.com",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company using a proprietary single-domain antibody platform; sold its lead AATD program (INBRX-101) to Sanofi in 2024 and continues independently as Inhibrx Biosciences with an oncology pipeline.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "rare-disease"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "Ozekibart (INBRX-109) for sarcoma",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": 2024,
+        "acquirer": "Sanofi",
+        "value": {
+          "raw": "up to $2.2 billion",
+          "usd": 2200000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.inhibrx.com/",
+        "title": "Inhibrx Biosciences",
+        "publisher": "Inhibrx Biosciences",
+        "accessed": "2026-08-16",
+        "supports": "HQ, pipeline programs",
+        "quote": "Ozekibart (INBRX-109) - clinical stage, indicated for Sarcoma"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sanofi",
+        "title": "Sanofi",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Sanofi deal price/date for INBRX-101 program",
+        "quote": "had agreed to buy a U.S. biotech firm Inhibrx for up to $2.2 billion, with a focus on obtaining Inhibrx's INBRX-101"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The Sanofi transaction acquired the INBRX-101 (AATD) program and a related shell, not the entire company; the remaining oncology-focused entity trades as Inhibrx Biosciences (INBX). Founding year and investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-springworks-therapeutics",
+    "name": {
+      "en": "SpringWorks Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Stamford, CT",
+    "website": "https://www.springworkstx.com",
+    "profile": {
+      "what": "Developer of precision medicines for severe rare tumors; created Ogsiveo (nirogacestat) for desmoid tumors and Gomekli/Ezmekly (mirdametinib) for NF1-associated plexiform neurofibromas. Now a subsidiary of Merck KGaA, Darmstadt, Germany.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology",
+        "rare-disease"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Nirogacestat (Ogsiveo, gamma-secretase inhibitor) for desmoid tumors",
+      "regulatory": [
+        {
+          "body": "European Commission",
+          "kind": "marketing authorization",
+          "item": "OGSIVEO (nirogacestat)",
+          "year": null
+        },
+        {
+          "body": "European Commission",
+          "kind": "conditional marketing authorization",
+          "item": "EZMEKLY (mirdametinib)",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": null,
+        "acquirer": "Merck KGaA, Darmstadt, Germany",
+        "value": {
+          "raw": null,
+          "usd": null,
+          "currency": null
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.springworkstx.com/",
+        "title": "SpringWorks Therapeutics",
+        "publisher": "SpringWorks Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "parent company, pipeline drugs and EU approvals",
+        "quote": "SpringWorks is described as \"a healthcare company of\" Merck KGaA, Darmstadt, Germany"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Acquisition price/date and prior investors not sourced this session; SpringWorks was formerly public (NASDAQ:SWTX) before being acquired by Merck KGaA.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-recursion-pharmaceuticals",
+    "name": {
+      "en": "Recursion Pharmaceuticals"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Salt Lake City, UT",
+    "website": "https://www.recursion.com",
+    "profile": {
+      "what": "AI-driven drug discovery company that maps biology at scale to generate and prioritize drug candidates, with a pipeline spanning oncology and rare disease.",
+      "modalities": [
+        "small-molecule",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology",
+        "rare-disease"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "REC-4881 (MEK1/2 inhibitor) for familial adenomatous polyposis",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.recursion.com/pipeline",
+        "title": "Pipeline",
+        "publisher": "Recursion Pharmaceuticals",
+        "accessed": "2026-08-16",
+        "supports": "HQ, pipeline programs, targets, indications, phases",
+        "quote": "41 S Rio Grande Street, Salt Lake City, UT 84101"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Founding year, funding rounds, named investors and the 2024 Exscientia merger not sourced this session (Wikipedia fetch failed).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-molecular-templates",
+    "name": {
+      "en": "Molecular Templates"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "shut-down",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Austin, TX",
+    "website": "https://www.moleculartemplates.com",
+    "profile": {
+      "what": "Developer of Engineered Toxin Bodies (ETBs), a protein-based therapeutic platform, for solid tumors and autoimmune disease targeting PD-L1, CTLA-4 and CD38.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "phase-1",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.stocktitan.net/news/MTEM/",
+        "title": "Molecular Templates (MTEM) news feed",
+        "publisher": "StockTitan",
+        "accessed": "2026-08-16",
+        "supports": "delisting, wind-down, platform and pipeline description",
+        "quote": "Delisted from Nasdaq as of December 26, 2024 ... proprietary Engineered Toxin Bodies (ETB) platform ... programs targeting PD-L1, CTLA-4, and CD38"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Company was delisted from Nasdaq Dec 2024 after depleting cash reserves; effectively defunct as of this writing (market cap ~$191.9K per source). Founding year and historical investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-kronos-bio",
+    "name": {
+      "en": "Kronos Bio"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Mateo, CA",
+    "website": "https://www.kronosbio.com",
+    "profile": {
+      "what": "Biopharmaceutical company developing small-molecule therapeutics targeting transcription factors in cancer and autoimmune disease.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "preclinical",
+      "lead_asset": "KB-9558 (p300 KAT inhibitor) for multiple myeloma and HPV-driven tumors",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": 2025,
+        "acquirer": "Concentra Biosciences",
+        "value": {
+          "raw": "$0.57 per share in cash plus a non-tradeable contingent value right (CVR)",
+          "usd": null,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.stocktitan.net/news/KRON/",
+        "title": "Kronos Bio (KRON) news feed",
+        "publisher": "StockTitan",
+        "accessed": "2026-08-16",
+        "supports": "acquisition terms, pipeline, wind-down history",
+        "quote": "As of May 1, 2025, Kronos Bio entered into a definitive merger agreement with Concentra Biosciences. The acquisition terms include \"$0.57 per share in cash plus a non-tradeable contingent value right (CVR)\""
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Kronos discontinued its lead clinical program (istisociclib) in Nov 2024 on safety concerns before the Concentra acquisition (a known biotech-liquidation acquirer). Founding year and original VC investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-stemline-therapeutics",
+    "name": {
+      "en": "Stemline Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://en.wikipedia.org/wiki/Stemline_Therapeutics",
+    "profile": {
+      "what": "Biopharmaceutical company specializing in oncology therapies; developed Elzonris (tagraxofusp) for blastic plasmacytoid dendritic cell neoplasm (BPDCN).",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "hematology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Tagraxofusp (Elzonris) for BPDCN",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": 2020,
+        "acquirer": "Menarini",
+        "value": {
+          "raw": null,
+          "usd": null,
+          "currency": null
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Menarini",
+        "title": "Menarini",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "acquisition completion date and company description",
+        "quote": "Stemline Therapeutics is \"a United States-based biopharmaceutical company then listed on the Nasdaq, specialising in the development of innovative oncology therapies.\" ... Completion: June 10, 2020"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Acquisition price not disclosed in the source consulted; founding year and pre-acquisition investors not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-generate-biomedicines",
+    "name": {
+      "en": "Generate:Biomedicines"
+    },
+    "aka": [
+      "Generate Biomedicines"
+    ],
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Somerville, MA",
+    "website": "https://generatebiomedicines.com",
+    "profile": {
+      "what": "Generative-biology company that designs protein therapeutics computationally; pipeline spans respiratory/immunology and oncology, with partnerships with Amgen, Novartis and Roswell Park.",
+      "modalities": [
+        "biologics-antibody",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "respiratory",
+        "oncology"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "GB-0895 for severe asthma",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Flagship Pioneering",
+          "entity_id": null,
+          "role": "lead",
+          "round": "pre-seed"
+        }
+      ],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://generatebiomedicines.com/pipeline",
+        "title": "Pipeline",
+        "publisher": "Generate:Biomedicines",
+        "accessed": "2026-08-16",
+        "supports": "HQ, pipeline programs and phases, partnerships",
+        "quote": "GB-0895 | Severe Asthma | Phase 3 ... collaboration with Amgen (six confidential programs announced January 2022) and Novartis"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Flagship Pioneering identified only via its logo on the site's partners section (Generate is a well-known Flagship-founded company), not an explicit funding statement -- flagged as lower-certainty. Founding year and round amounts not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  },
+  {
+    "id": "us-neximmune",
+    "name": {
+      "en": "NexImmune"
+    },
+    "category": "therapeutics",
+    "sectors": [],
+    "status": "unknown",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Gaithersburg, MD",
+    "website": "https://www.neximmune.com",
+    "profile": {
+      "what": "Developer of antigen-directed immunotherapies (AIM nanoparticle platform) intended to direct antigen-specific T cells across oncology, autoimmune and infectious disease.",
+      "modalities": [
+        "cell-therapy",
+        "drug-delivery"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation",
+        "infectious-disease"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "NEXI-001 (AIM ACT adoptive cellular therapy)",
+      "regulatory": []
+    },
+    "funding": {
+      "investors": [],
+      "exit": null
+    },
+    "sources": [
+      {
+        "url": "https://www.neximmune.com/",
+        "title": "NexImmune",
+        "publisher": "NexImmune",
+        "accessed": "2026-08-16",
+        "supports": "HQ, platform description, pipeline",
+        "quote": "9119 Gaither Road, Gaithersburg, MD 20877"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Site content appears to reflect the company's last active state (2023 news); could not confirm current operating status (industry reporting suggests NexImmune ceased operations in 2024, but that was not directly sourced this session -- status left as unknown rather than guessed). Founding year and investors not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-us-onc-immuno"
+  }
+]
