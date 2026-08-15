@@ -1,0 +1,2229 @@
+[
+  {
+    "id": "il-aidoc",
+    "name": {
+      "en": "Aidoc"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2016,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.aidoc.com",
+    "profile": {
+      "what": "AI system that runs continuously in the background on radiology imaging, automatically flagging urgent findings such as intracranial hemorrhage, pulmonary embolism, and large-vessel occlusion for faster triage.",
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "neurology",
+        "respiratory",
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Intracranial hemorrhage detection",
+          "year": 2018
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Pulmonary embolism detection",
+          "year": 2019
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Large-vessel occlusion detection (stroke)",
+          "year": 2020
+        },
+        {
+          "body": "FDA",
+          "kind": "Breakthrough Device",
+          "item": "Multi-triage CT imaging solution",
+          "year": 2025
+        }
+      ]
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "$370M",
+        "usd": 370000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$7M",
+            "usd": 7000000,
+            "currency": "USD"
+          },
+          "date": "2017-04",
+          "lead": [
+            "TLV Partners"
+          ]
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$27M",
+            "usd": 27000000,
+            "currency": "USD"
+          },
+          "date": "2019-04",
+          "lead": [
+            "Square Peg Capital"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "TLV Partners",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-a"
+        },
+        {
+          "name": "Square Peg Capital",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-b"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aidoc",
+        "title": "Aidoc",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, funding rounds, FDA clearances",
+        "quote": "constantly running in the background and automatically analyzing medical imaging data, identifying urgent findings"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-insightec",
+    "name": {
+      "en": "Insightec"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "medical-imaging"
+    ],
+    "status": "private",
+    "founded_year": 1999,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tirat Carmel",
+    "website": "https://www.insightec.com",
+    "profile": {
+      "what": "MRI-guided focused ultrasound system (Exablate) that ablates tissue non-invasively, used to treat essential tremor, Parkinson's tremor, uterine fibroids, and pain from bone metastases.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "neurology",
+        "womens-health",
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "PMA",
+          "item": "Exablate for uterine fibroids",
+          "year": 2004
+        },
+        {
+          "body": "FDA",
+          "kind": "PMA",
+          "item": "Exablate for metastatic bone cancer pain",
+          "year": 2012
+        },
+        {
+          "body": "FDA",
+          "kind": "PMA",
+          "item": "Exablate uterine fibroid treatment expansion",
+          "year": 2015
+        },
+        {
+          "body": "FDA",
+          "kind": "PMA",
+          "item": "Exablate Neuro for essential tremor",
+          "year": 2016
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Elbit Medical Imaging",
+          "entity_id": null,
+          "role": "unknown",
+          "round": "seed"
+        },
+        {
+          "name": "GE Healthcare",
+          "entity_id": null,
+          "role": "unknown",
+          "round": "seed"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Insightec",
+        "title": "Insightec",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, technology, FDA history",
+        "quote": "The technology can destroy deep tissue in the body without the need for incisions."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-rewalk-robotics",
+    "name": {
+      "en": "ReWalk Robotics"
+    },
+    "aka": [
+      "Lifeward"
+    ],
+    "category": "medtech-devices",
+    "status": "public",
+    "founded_year": 2011,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Yokneam",
+    "website": "https://lifeward.com",
+    "profile": {
+      "what": "Powered exoskeleton that enables people with paraplegia to stand, walk, and climb stairs, controlled by a wrist-mounted remote that detects the user's movements.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "neurology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "ReWalk exoskeleton, hospital use",
+          "year": 2011
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "ReWalk exoskeleton, home and public use",
+          "year": 2014
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "ticker": "NASDAQ:LFWD"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ReWalk",
+        "title": "ReWalk",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "product description, FDA clearances, IPO/ticker",
+        "quote": "The system is powered by a backpack battery, and is controlled by a simple wrist-mounted remote which detects and enhances the user's movements."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-earlysense",
+    "name": {
+      "en": "EarlySense"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "acquired",
+    "founded_year": 2004,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Ramat Gan",
+    "website": "https://www.earlysense.com",
+    "profile": {
+      "what": "Contact-free continuous patient monitoring using under-mattress sensors to track vital signs and alert staff to fall risk or pressure-ulcer risk.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Contact-free continuous monitoring system",
+          "year": 2009
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "Hill-Rom (now Baxter International)"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/EarlySense",
+        "title": "EarlySense",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, FDA clearance, acquisition by Hill-Rom",
+        "quote": "The company sells a version of the product designed for use in hospitals that received 510K marketing clearance from the FDA in 2009."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-itamar-medical",
+    "name": {
+      "en": "Itamar Medical"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "acquired",
+    "founded_year": 1995,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Caesarea",
+    "website": "https://www.itamar-medical.com",
+    "profile": {
+      "what": "Medical devices for diagnosing sleep disorders (WatchPAT, home sleep apnea testing) and assessing early cardiovascular disease (EndoPAT).",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "respiratory",
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "WatchPAT sleep apnea diagnostic device",
+          "year": 2002
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "WatchPAT expanded indication, ages 12+",
+          "year": 2016
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "EndoPAT cardiovascular assessment device",
+          "year": 2004
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$8M",
+            "usd": 8000000,
+            "currency": "USD"
+          },
+          "date": "2002-07"
+        },
+        {
+          "amount": {
+            "raw": "$12M",
+            "usd": 12000000,
+            "currency": "USD"
+          },
+          "date": "2019-01"
+        },
+        {
+          "amount": {
+            "raw": "$40M",
+            "usd": 40000000,
+            "currency": "USD"
+          },
+          "date": "2020"
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2021,
+        "acquirer": "ZOLL Medical Corporation"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Itamar_Medical",
+        "title": "Itamar Medical",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, funding history, FDA clearances, ZOLL acquisition",
+        "quote": "The company is a medical device company providing continuum of care in the area of sleep disorder based on its WatchPAT diagnostic devices and early diagnosis of Atherosclerosis."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-given-imaging",
+    "name": {
+      "en": "Given Imaging"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "medical-imaging",
+      "medtech-devices"
+    ],
+    "status": "acquired",
+    "founded_year": 1998,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Yokneam Illit",
+    "profile": {
+      "what": "Pioneer of capsule endoscopy (PillCam) and capsule-based pH monitoring for visualizing and detecting disorders of the gastrointestinal tract.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "gastroenterology-hepatology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "M2A capsule, visualization of small intestine abnormalities",
+          "year": 2001
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "PillCam ESO, esophageal visualization",
+          "year": 2004
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Agile Patency System",
+          "year": 2006
+        },
+        {
+          "body": "CE",
+          "kind": "CE-MDR",
+          "item": "First product CE mark",
+          "year": 2001
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2014,
+        "acquirer": "Covidien"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Given_Imaging",
+        "title": "Given Imaging",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, FDA clearance history, Covidien acquisition",
+        "quote": "manufactures and markets diagnostic products for the visualization and detection of disorders of the gastrointestinal tract"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-mediwound",
+    "name": {
+      "en": "MediWound"
+    },
+    "category": "medtech-devices",
+    "status": "public",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.mediwound.com",
+    "profile": {
+      "what": "Develops enzymatic debridement therapeutics (NexoBrid) that selectively remove damaged/burned tissue while preserving healthy tissue for wound and burn care.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "dermatology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "NexoBrid",
+          "year": null
+        },
+        {
+          "body": "EMA",
+          "kind": "approval",
+          "item": "NexoBrid",
+          "year": null
+        },
+        {
+          "body": "PMDA",
+          "kind": "approval",
+          "item": "NexoBrid",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "ticker": "NASDAQ:MDWD"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.mediwound.com/about/",
+        "title": "About MediWound",
+        "publisher": "MediWound",
+        "accessed": "2026-08-16",
+        "supports": "product description, regulatory approvals, ticker",
+        "quote": "FDA, EMA and PMDA approved"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "HQ city and founding year not confirmed by a fetched source; MediWound is widely reported as based in Yavne, Israel but that was not verified in this session."
+  },
+  {
+    "id": "il-nanox-imaging",
+    "name": {
+      "en": "Nano-X Imaging"
+    },
+    "aka": [
+      "Nanox"
+    ],
+    "category": "medical-imaging",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "public",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.nanox.vision",
+    "profile": {
+      "what": "Develops digital multi-source 3D tomosynthesis imaging hardware (Nanox.ARC) and AI-powered diagnostic software (Nanox.AI) for radiology.",
+      "modalities": [
+        "medical-hardware",
+        "ai-ml-platform"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Nanox.ARC digital tomosynthesis system",
+          "year": null
+        },
+        {
+          "body": "CE",
+          "kind": "CE-MDR",
+          "item": "Nanox.ARC digital tomosynthesis system",
+          "year": null
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Nanox.AI cardiac, liver, and bone detection solutions",
+          "year": null
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.nanox.vision",
+        "title": "Nanox company site",
+        "publisher": "Nano-X Imaging",
+        "accessed": "2026-08-16",
+        "supports": "product description, FDA/CE status",
+        "quote": "FDA-cleared, CE-marked stationary digital multi-source 3D tomosynthesis imaging system"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-dariohealth",
+    "name": {
+      "en": "DarioHealth"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "public",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://dariohealth.com",
+    "profile": {
+      "what": "Digital health platform providing connected devices and personalized coaching for managing chronic conditions including diabetes, hypertension, obesity, musculoskeletal issues, and behavioral health.",
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "DarioHealth connected glucose monitoring devices",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "ticker": "NASDAQ:DRIO"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://dariohealth.com",
+        "title": "DarioHealth",
+        "publisher": "DarioHealth",
+        "accessed": "2026-08-16",
+        "supports": "product description, ticker, FDA-cleared status",
+        "quote": "FDA Cleared"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "HQ city not confirmed by a fetched source; DarioHealth has both Israeli (Caesarea) and US operations."
+  },
+  {
+    "id": "il-tytocare",
+    "name": {
+      "en": "TytoCare"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-it"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.tytocare.com",
+    "profile": {
+      "what": "Remote physical-examination device and platform that lets patients and clinicians replicate an in-person physical exam from home, for acute and chronic conditions.",
+      "modalities": [
+        "medical-hardware",
+        "software-samd"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "AI algorithms for detecting wheeze, rhonchi, crackles, and bulging (tympanic membrane)",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "LionBird",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "OrbiMed",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Ping An",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Cambia",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Walgreens",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "MTIP",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Insight Partners",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Olive Tree Ventures",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Qumra Capital",
+          "entity_id": null,
+          "role": "unknown"
+        },
+        {
+          "name": "Tiger Global",
+          "entity_id": null,
+          "role": "unknown"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.tytocare.com/about-us/",
+        "title": "About TytoCare",
+        "publisher": "TytoCare",
+        "accessed": "2026-08-16",
+        "supports": "product description, investor list",
+        "quote": "We replicate doctors' physical exams, regardless of where you are or what condition you have – acute or chronic."
+      },
+      {
+        "url": "https://www.tytocare.com",
+        "title": "TytoCare",
+        "publisher": "TytoCare",
+        "accessed": "2026-08-16",
+        "supports": "FDA-cleared AI algorithms, customer scale"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "Investor names sourced from company site's backer list; individual round/role not disclosed there. HQ city (commonly reported as Netanya, Israel) not confirmed by a fetched source."
+  },
+  {
+    "id": "il-diagnostic-robotics",
+    "name": {
+      "en": "Diagnostic Robotics"
+    },
+    "category": "healthcare-it",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.diagnosticrobotics.com",
+    "profile": {
+      "what": "AI automation platform with agentic AI, voice agents, and predictive analytics for healthcare workflows across payers, providers, and care organizations.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$45M",
+            "usd": 45000000,
+            "currency": "USD"
+          },
+          "date": "2022-07"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.diagnosticrobotics.com",
+        "title": "Diagnostic Robotics",
+        "publisher": "Diagnostic Robotics",
+        "accessed": "2026-08-16",
+        "supports": "product description, customer scale",
+        "quote": "28M+ members served"
+      },
+      {
+        "url": "https://nocamels.com/?s=Diagnostic+Robotics",
+        "title": "NoCamels search: Diagnostic Robotics",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "Series B funding amount and date",
+        "quote": "Diagnostic Robotics, developer of AI technologies for the healthcare industry, has raised $45 million in a Series B funding round."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-navina",
+    "name": {
+      "en": "Navina"
+    },
+    "category": "healthcare-it",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.navina.ai",
+    "profile": {
+      "what": "AI-powered clinical copilot that helps primary-care clinicians and care teams with value-based care workflows: risk adjustment, quality management, and clinical documentation.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$55M",
+            "usd": 55000000,
+            "currency": "USD"
+          },
+          "date": "2025-03",
+          "lead": [
+            "Goldman Sachs Alternatives"
+          ]
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$22M",
+            "usd": 22000000,
+            "currency": "USD"
+          },
+          "date": "2022-10"
+        },
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$15M",
+            "usd": 15000000,
+            "currency": "USD"
+          },
+          "date": "2021-10",
+          "lead": [
+            "Vertex Ventures Israel"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Goldman Sachs Alternatives",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-c-plus"
+        },
+        {
+          "name": "Vertex Ventures Israel",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-a"
+        },
+        {
+          "name": "Schusterman Family Investments",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        },
+        {
+          "name": "Grove Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.navina.ai",
+        "title": "Navina",
+        "publisher": "Navina",
+        "accessed": "2026-08-16",
+        "supports": "Series A/B/C funding amounts, dates, investors",
+        "quote": "Investment will fuel the advancement of Navina's AI-powered clinical intelligence platform, transforming patient care and value-based care outcomes"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-ibex-medical-analytics",
+    "name": {
+      "en": "Ibex Medical Analytics"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.ibex-ai.com",
+    "profile": {
+      "what": "AI-powered diagnostic platform that helps pathologists detect cancer and other diagnostic features across multiple tissue types.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "CE",
+          "kind": "CE-IVDR",
+          "item": "Breast panel IHC algorithms",
+          "year": null
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.ibex-ai.com",
+        "title": "Ibex Medical Analytics",
+        "publisher": "Ibex Medical Analytics",
+        "accessed": "2026-08-16",
+        "supports": "product description"
+      },
+      {
+        "url": "https://www.ibex-ai.com/news/",
+        "title": "Ibex Medical Analytics news",
+        "publisher": "Ibex Medical Analytics",
+        "accessed": "2026-08-16",
+        "supports": "CE-IVDR certification, partnerships (CorePlus, HNL Lab Medicine, mTuitive)"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-scopio-labs",
+    "name": {
+      "en": "Scopio Labs"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "private",
+    "founded_year": 2014,
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.scopiolabs.com",
+    "profile": {
+      "what": "Digital morphology imaging and AI-powered analysis platform for hematology and blood-cell examination.",
+      "modalities": [
+        "medical-hardware",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "hematology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Full-Field Peripheral Blood Smear Application",
+          "year": null
+        },
+        {
+          "body": "CE",
+          "kind": "CE-MDR",
+          "item": "Bone Marrow Aspirate Application",
+          "year": null
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.scopiolabs.com",
+        "title": "Scopio Labs",
+        "publisher": "Scopio Labs",
+        "accessed": "2026-08-16",
+        "supports": "product description, FDA/CE status",
+        "quote": "FDA-cleared, and is commercially available across the U.S., UK and Europe"
+      },
+      {
+        "url": "https://nocamels.com/?s=Scopio+Labs",
+        "title": "NoCamels search: Scopio Labs",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "founding year",
+        "quote": "Founded in 2014, Scopio is headed by co-founder and CEO Itai Hayut."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-magenta-medical",
+    "name": {
+      "en": "Magenta Medical"
+    },
+    "category": "medtech-devices",
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Kadima",
+    "website": "https://www.magentamed.com",
+    "profile": {
+      "what": "Develops percutaneous mechanical circulatory support devices, including the Elevate pLVAD, for temporary cardiac support during high-risk interventions and cardiogenic shock.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "pilot"
+    },
+    "sources": [
+      {
+        "url": "https://www.magentamed.com",
+        "title": "Magenta Medical",
+        "publisher": "Magenta Medical",
+        "accessed": "2026-08-16",
+        "supports": "product description, HQ address",
+        "quote": "1 Ha'Ofeh Street, P.O.B. 5035, Kadima 60920"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-pixcell-medical",
+    "name": {
+      "en": "PixCell Medical"
+    },
+    "category": "diagnostics",
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.pixcell-medical.com",
+    "profile": {
+      "what": "Develops the HemoScreen portable point-of-care blood diagnostic analyzer for complete blood count testing.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "hematology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "HemoScreen point-of-care CBC analyzer",
+          "year": null
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.pixcell-medical.com",
+        "title": "PixCell Medical",
+        "publisher": "PixCell Medical",
+        "accessed": "2026-08-16",
+        "supports": "product description, FDA clearance",
+        "quote": "FDA-cleared for Point of Care use"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-memed",
+    "name": {
+      "en": "MeMed"
+    },
+    "category": "diagnostics",
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tirat Carmel",
+    "website": "https://www.me-med.com",
+    "profile": {
+      "what": "Rapid diagnostic tests that use machine learning on host immune-response biomarkers to distinguish bacterial from viral infections in about 15 minutes.",
+      "modalities": [
+        "medical-hardware",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "infectious-disease"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "MeMed BV host-immune response assay",
+          "year": null
+        },
+        {
+          "body": "FDA",
+          "kind": "Breakthrough Device",
+          "item": "MeMed BV Flex Capillary Blood",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$93M",
+            "usd": 93000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.me-med.com",
+        "title": "MeMed",
+        "publisher": "MeMed",
+        "accessed": "2026-08-16",
+        "supports": "product description, HQ, FDA clearance",
+        "quote": "the first FDA-cleared host-immune response assay for accurately distinguishing between bacterial and viral infections"
+      },
+      {
+        "url": "https://www.me-med.com/news/",
+        "title": "MeMed news",
+        "publisher": "MeMed",
+        "accessed": "2026-08-16",
+        "supports": "Series C funding amount",
+        "quote": "accelerate commercialization of its host immune-response"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-cardiovalve",
+    "name": {
+      "en": "Cardiovalve"
+    },
+    "category": "medtech-devices",
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Or Yehuda",
+    "website": "https://www.cardiovalve.com",
+    "profile": {
+      "what": "Develops a transcatheter valve replacement system for minimally invasive treatment of mitral and tricuspid valve disease, currently in clinical trials (TARGET, AHEAD).",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "unknown"
+    },
+    "sources": [
+      {
+        "url": "https://www.cardiovalve.com",
+        "title": "Cardiovalve",
+        "publisher": "Cardiovalve",
+        "accessed": "2026-08-16",
+        "supports": "product description, HQ, trial status",
+        "quote": "Cardiovalve system is currently restricted to use in research only"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "Site lists the entity as 'Venus Medtech IL' at the Or Yehuda address, suggesting a corporate/ownership link to Venus Medtech; not independently confirmed in this session, and history with Edwards Lifesciences/Valtech Cardio was not verified."
+  },
+  {
+    "id": "il-orcam",
+    "name": {
+      "en": "OrCam Technologies"
+    },
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2010,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "website": "https://orcam.com",
+    "profile": {
+      "what": "Wearable AI-powered assistive devices for people with visual impairment (OrCam MyEye) and, more recently, hearing assistance (OrCam Hear).",
+      "modalities": [
+        "wearables-sensors",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "ophthalmology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "valuation": {
+        "raw": "$1.5B",
+        "usd": 1500000000,
+        "currency": "USD"
+      },
+      "unicorn": true,
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$50M",
+            "usd": 50000000,
+            "currency": "USD"
+          },
+          "date": "2021-03"
+        },
+        {
+          "amount": {
+            "raw": "$30.4M",
+            "usd": 30400000,
+            "currency": "USD"
+          },
+          "date": "2018-02",
+          "lead": [
+            "Clal Insurance",
+            "Meitav Dash"
+          ]
+        },
+        {
+          "amount": {
+            "raw": "$41M",
+            "usd": 41000000,
+            "currency": "USD"
+          },
+          "date": "2017-03"
+        },
+        {
+          "amount": {
+            "raw": "$22M",
+            "usd": 22000000,
+            "currency": "USD"
+          }
+        }
+      ],
+      "investors": [
+        {
+          "name": "Intel Capital",
+          "entity_id": null,
+          "role": "participant"
+        },
+        {
+          "name": "Clal Insurance",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2018"
+        },
+        {
+          "name": "Meitav Dash",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2018"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/OrCam_Technologies",
+        "title": "OrCam Technologies",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, funding rounds, valuations, investors",
+        "quote": "a small camera that clipped magnetically onto eyeglass frames"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "By 2025 the company had shrunk substantially after layoffs, discontinued its vision products, and faced a disputed down-round valuation conversion of $30-40M, per the same source."
+  },
+  {
+    "id": "il-alphatau",
+    "name": {
+      "en": "Alpha Tau Medical"
+    },
+    "category": "medtech-devices",
+    "status": "public",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.alphatau.com",
+    "profile": {
+      "what": "Develops Alpha DaRT, an intratumoral alpha-particle-emitting radiotherapeutic device designed to deliver radiation precisely to solid tumors.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-2"
+    },
+    "funding": {
+      "exit": {
+        "type": "SPAC",
+        "ticker": "NASDAQ:DRTS"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.alphatau.com",
+        "title": "Alpha Tau Medical",
+        "publisher": "Alpha Tau Medical",
+        "accessed": "2026-08-16",
+        "supports": "product description, clinical stage",
+        "quote": "deliver treatment precisely where it's needed"
+      },
+      {
+        "url": "https://www.alphatau.com/investors",
+        "title": "Alpha Tau Medical Investors",
+        "publisher": "Alpha Tau Medical",
+        "accessed": "2026-08-16",
+        "supports": "ticker symbol"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-theranica",
+    "name": {
+      "en": "Theranica"
+    },
+    "category": "medtech-devices",
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Netanya",
+    "website": "https://theranica.com",
+    "profile": {
+      "what": "Makes Nerivio, a wearable remote electrical neuromodulation (REN) device worn on the upper arm to treat migraine via conditioned pain modulation.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware"
+      ],
+      "indications": [
+        "pain",
+        "neurology"
+      ],
+      "development_stage": "commercial"
+    },
+    "sources": [
+      {
+        "url": "https://theranica.com",
+        "title": "Theranica",
+        "publisher": "Theranica",
+        "accessed": "2026-08-16",
+        "supports": "product description",
+        "quote": "Nerivio is a novel, remote electrical neuromodulation (REN) prescribed wearable that stimulates upper arm peripheral nerves to induce conditioned pain modulation (CPM)"
+      },
+      {
+        "url": "https://nocamels.com/?s=wearable",
+        "title": "NoCamels search: wearable",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "HQ city",
+        "quote": "Developed by Netanya-based Theranica, the Nerivio REN migraine bioband is placed on the upper arm"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-binah-ai",
+    "name": {
+      "en": "Binah.ai"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Ramat Gan",
+    "website": "https://binah.ai",
+    "profile": {
+      "what": "AI-powered, video-based health-monitoring platform that measures vital signs and wellness indicators from a smartphone camera in about 35 seconds.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "development_stage": "pilot",
+      "regulatory": [
+        {
+          "body": "CE",
+          "kind": "CE-MDR",
+          "item": "come stai solution powered by Binah.ai (Class 1)",
+          "year": null
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://binah.ai",
+        "title": "Binah.ai",
+        "publisher": "Binah.ai",
+        "accessed": "2026-08-16",
+        "supports": "product description, ISO/CE status, FDA pursuit",
+        "quote": "ISO 13485:2016 certified"
+      },
+      {
+        "url": "https://nocamels.com/?s=wearable",
+        "title": "NoCamels search: wearable",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "HQ city",
+        "quote": "wearable devices developed by Ramat Gan-headquartered Binah.ai to gather data"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-v-wave",
+    "name": {
+      "en": "V-Wave Medical"
+    },
+    "category": "medtech-devices",
+    "status": "acquired",
+    "founded_year": 2010,
+    "region": "israel",
+    "country": "Israel",
+    "profile": {
+      "what": "Makes the Ventura Interatrial Shunt (IAS), a minimally invasive device designed to treat heart-failure patients.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2024,
+        "acquirer": "Johnson & Johnson",
+        "value": {
+          "raw": "up to $1.7 billion",
+          "usd": 1700000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=V-Wave",
+        "title": "NoCamels search: V-Wave",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "founding year, device description, J&J acquisition value/date",
+        "quote": "minimally invasive Ventura Interatrial Shunt (IAS) is designed to treat patients with heart failure"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-mdclone",
+    "name": {
+      "en": "MDClone"
+    },
+    "category": "healthcare-it",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2016,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Beersheba",
+    "website": "https://www.mdclone.com",
+    "profile": {
+      "what": "Healthcare data platform (ADAMS) that lets health organizations explore, analyze, and share synthetic patient data in real time without compromising patient privacy.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$63M",
+            "usd": 63000000,
+            "currency": "USD"
+          },
+          "date": "2022-03"
+        },
+        {
+          "amount": {
+            "raw": "$26M",
+            "usd": 26000000,
+            "currency": "USD"
+          },
+          "date": "2019-08",
+          "lead": [
+            "aMoon"
+          ]
+        },
+        {
+          "amount": {
+            "raw": "$15M",
+            "usd": 15000000,
+            "currency": "USD"
+          },
+          "date": "2018-02"
+        }
+      ],
+      "investors": [
+        {
+          "name": "aMoon",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2019"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=MDClone",
+        "title": "NoCamels search: MDClone",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, funding rounds, aMoon lead investment",
+        "quote": "MDClone developed a platform that organizes healthcare data in real-time to allow for medical analytics and research, without infringing upon privacy."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-mazor-robotics",
+    "name": {
+      "en": "Mazor Robotics"
+    },
+    "category": "surgical-robotics",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "acquired",
+    "founded_year": 2001,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Caesarea",
+    "profile": {
+      "what": "Made a robotic guidance system for spine surgery.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "musculoskeletal-orthopedics"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2018,
+        "acquirer": "Medtronic",
+        "value": {
+          "raw": "$1.7 billion",
+          "usd": 1700000000,
+          "currency": "USD"
+        },
+        "ticker": "former NASDAQ:MZOR; TASE:MZOR"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mazor_Robotics",
+        "title": "Mazor Robotics",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, ticker, Medtronic acquisition value and date",
+        "quote": "a robotic guidance system for spine surgery that was acquired by Medtronic in December 2018"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-intuition-robotics",
+    "name": {
+      "en": "Intuition Robotics"
+    },
+    "aka": [
+      "ElliQ"
+    ],
+    "category": "digital-health",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "private",
+    "founded_year": 2015,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Ramat Gan",
+    "profile": {
+      "what": "Makes ElliQ, an AI-powered tabletop companion robot designed to combat loneliness and support independent aging for seniors.",
+      "modalities": [
+        "medical-hardware",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "aging-longevity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$25M",
+            "usd": 25000000,
+            "currency": "USD"
+          },
+          "date": "2023-08"
+        },
+        {
+          "amount": {
+            "raw": "$36M",
+            "usd": 36000000,
+            "currency": "USD"
+          },
+          "date": "2020-02"
+        },
+        {
+          "amount": {
+            "raw": "$6M",
+            "usd": 6000000,
+            "currency": "USD"
+          },
+          "date": "2017-12",
+          "lead": [
+            "Mirai Creation Investment Fund"
+          ]
+        },
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$14M",
+            "usd": 14000000,
+            "currency": "USD"
+          },
+          "date": "2017-07",
+          "lead": [
+            "Toyota Research Institute"
+          ]
+        },
+        {
+          "amount": {
+            "raw": "$6M",
+            "usd": 6000000,
+            "currency": "USD"
+          },
+          "date": "2017-02",
+          "lead": [
+            "iRobot Corp",
+            "OurCrowd"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "iRobot Corp",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2017-02"
+        },
+        {
+          "name": "OurCrowd",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2017-02"
+        },
+        {
+          "name": "Toyota Research Institute",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-a"
+        },
+        {
+          "name": "Mirai Creation Investment Fund",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2017-12"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=Intuition+Robotics",
+        "title": "NoCamels search: Intuition Robotics",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, founders, funding history",
+        "quote": "an AI-powered robot companion meant to improve the lives of the aging population"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-memic",
+    "name": {
+      "en": "Memic"
+    },
+    "category": "surgical-robotics",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "profile": {
+      "what": "Developed Hominis, an FDA-authorized surgical robotic platform for transvaginal minimally invasive surgery.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "De Novo",
+          "item": "Hominis surgical robotic platform",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$96M",
+            "usd": 96000000,
+            "currency": "USD"
+          },
+          "date": "2021-04"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=Memic",
+        "title": "NoCamels search: Memic",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "product description, FDA authorization, funding amount and date",
+        "quote": "Memic developed a medical device called Hominis, an FDA-authorized surgical robotic platform for surgeries."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "HQ city and founding year not confirmed by a fetched source."
+  },
+  {
+    "id": "il-biobeat",
+    "name": {
+      "en": "Biobeat"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "profile": {
+      "what": "Makes wearable wrist and chest devices for continuous remote monitoring of vital signs -- blood pressure, blood oxygen, heart rate, and other parameters -- for hospital, clinic, long-term-care, and home use.",
+      "modalities": [
+        "wearables-sensors"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Wearable wristwatch and patch monitoring blood pressure",
+          "year": 2019
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=Biobeat",
+        "title": "NoCamels search: Biobeat",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "product description, FDA clearance date",
+        "quote": "501K clearance from the US Food and Drug Administration (FDA) for its smart and wearable wristwatch and patch that monitor blood pressure"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "HQ city and founding year not confirmed by a fetched source."
+  },
+  {
+    "id": "il-forsight-robotics",
+    "name": {
+      "en": "ForSight Robotics"
+    },
+    "category": "surgical-robotics",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "profile": {
+      "what": "Develops a robotic surgical platform aimed at increasing accessibility to ophthalmic surgery, starting with cataract procedures.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "ophthalmology"
+      ],
+      "development_stage": "preclinical"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$55M",
+            "usd": 55000000,
+            "currency": "USD"
+          },
+          "date": "2022-07"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=ForSight+Robotics",
+        "title": "NoCamels search: ForSight Robotics",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "product description, funding amount and date",
+        "quote": "ForSight said its robotic platform will increase accessibility to ophthalmic surgery procedures worldwide."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "HQ city and founding year not confirmed by a fetched source."
+  },
+  {
+    "id": "il-pulsenmore",
+    "name": {
+      "en": "PulseNmore"
+    },
+    "category": "femtech-womens-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.pulsenmore.com",
+    "profile": {
+      "what": "Self-operated prenatal handheld ultrasound device that connects to a smartphone app, letting pregnant women perform ultrasound scans at home and send results to their caregiver.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "GE Healthcare",
+          "entity_id": null,
+          "role": "participant",
+          "source_url": "https://nocamels.com/?s=PulseNmore"
+        }
+      ],
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$50M",
+            "usd": 50000000,
+            "currency": "USD"
+          },
+          "date": "2022-05",
+          "lead": [
+            "GE Healthcare"
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=PulseNmore",
+        "title": "NoCamels search: PulseNmore",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "product description, GE Healthcare investment amount and date",
+        "quote": "A self-operated prenatal handheld ultrasound device that connects with a user's smartphone through a mobile app."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-mobileodt",
+    "name": {
+      "en": "MobileODT"
+    },
+    "category": "femtech-womens-health",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "unknown",
+    "founded_year": 2012,
+    "region": "israel",
+    "country": "Israel",
+    "profile": {
+      "what": "Mobile digital colposcopy and cervical-cancer screening technology (EVA System) intended to make pap smears and colposcopies more comfortable and accessible.",
+      "modalities": [
+        "medical-hardware",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "womens-health",
+        "oncology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$6.85M",
+            "usd": 6850000,
+            "currency": "USD"
+          },
+          "date": "2017-07",
+          "lead": [
+            "OrbiMed Advisors"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "OrbiMed Advisors",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2017-07"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=MobileODT",
+        "title": "NoCamels search: MobileODT",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "founding year, product description, funding amount/date/lead investor",
+        "quote": "$6.85 million funding round led by the OrbiMed Advisors LLC venture capital fund"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "www.mobileodt.com now redirects to a Liger Medical (a US cervical-cancer-prevention device maker) acquisition-announcement page bearing the MobileODT logo, suggesting MobileODT may have been acquired by Liger Medical, but the fetched page did not contain explicit acquisition terms/date, so status is left 'unknown' rather than asserting 'acquired'."
+  },
+  {
+    "id": "il-microbot-medical",
+    "name": {
+      "en": "Microbot Medical"
+    },
+    "category": "surgical-robotics",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "public",
+    "region": "israel",
+    "country": "Israel",
+    "profile": {
+      "what": "Develops a robotic surgical system with a tiny robot designed to navigate a patient's blood vessels during endovascular procedures.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "preclinical"
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "ticker": "NASDAQ:MBOT"
+      },
+      "rounds": [
+        {
+          "stage": "grant",
+          "amount": {
+            "raw": "approximately $440,000",
+            "usd": 440000,
+            "currency": "USD"
+          },
+          "date": "2023-06",
+          "lead": [
+            "Israel Innovation Authority"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Israel Innovation Authority",
+          "entity_id": null,
+          "role": "participant",
+          "round": "grant"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=Microbot+Medical",
+        "title": "NoCamels search: Microbot Medical",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "product description, Israel Innovation Authority grant amount and date",
+        "quote": "a tiny robot to navigate a patient's blood vessels during operations"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "NASDAQ:MBOT ticker is widely reported public information but was not independently confirmed by a fetched source in this session; HQ city and founding year also not confirmed."
+  },
+  {
+    "id": "il-x-trodes",
+    "name": {
+      "en": "X-trodes"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "profile": {
+      "what": "Makes Smart Skin, a wearable device of electrode patches placeable anywhere on the body to monitor brain, cardiac, muscle, and eye signals.",
+      "modalities": [
+        "wearables-sensors"
+      ],
+      "indications": [
+        "neurology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Smart Skin wearable electrode device",
+          "year": 2024
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=X-trodes",
+        "title": "NoCamels search: X-trodes",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "product description, HQ, FDA approval date",
+        "quote": "The Smart Skin device made by Herzliya-based biotechnology company X-trodes comprises electrode patches that can be placed at any point on the body"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-brainq",
+    "name": {
+      "en": "BrainQ"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Jerusalem",
+    "profile": {
+      "what": "Develops EMAGINE, an AI-powered wearable electromagnetic-field therapy for neural damage, including recovery after moderate-to-severe ischemic stroke.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware"
+      ],
+      "indications": [
+        "neurology"
+      ],
+      "development_stage": "phase-2",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "Breakthrough Device",
+          "item": "EMAGINE, reducing post-stroke disability",
+          "year": 2021
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "amount": {
+            "raw": "$40M",
+            "usd": 40000000,
+            "currency": "USD"
+          },
+          "date": "2021-08"
+        },
+        {
+          "amount": {
+            "raw": "$8.8M",
+            "usd": 8800000,
+            "currency": "USD"
+          },
+          "date": "2018-05"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=BrainQ",
+        "title": "NoCamels search: BrainQ",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "product description, HQ, FDA Breakthrough designation, funding history",
+        "quote": "BrainQ develops therapies for people with neural damage, says its electromagnetic treatment could help significant recovery after a stroke."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health"
+  },
+  {
+    "id": "il-endocure",
+    "name": {
+      "en": "EndoCure"
+    },
+    "category": "femtech-womens-health",
+    "status": "private",
+    "region": "israel",
+    "country": "Israel",
+    "profile": {
+      "what": "Uses AI to develop new approaches to diagnosing and treating endometriosis.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "unknown"
+    },
+    "sources": [
+      {
+        "url": "https://nocamels.com/?s=femtech",
+        "title": "NoCamels search: femtech",
+        "publisher": "NoCamels",
+        "accessed": "2026-08-16",
+        "supports": "product description",
+        "quote": "Israeli femtech company EndoCure is on a mission to change the way that we diagnose and treat endometriosis"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-08-16",
+    "researched_by": "r5-israel-health",
+    "verification_notes": "Only a brief search-snippet source found; founding year, HQ, and funding not sourced."
+  }
+]

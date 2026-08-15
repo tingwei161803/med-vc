@@ -4,7 +4,7 @@
     "survive the scratchpad. `wanted` is what an agent would have researched",
     "with a working WebSearch; `skipped`/`rejected` record deliberate exclusions",
     "and WHY, so a later round does not redo the same rejected work.",
-    "Machine-generated per round from the agents' own output; edit freely."
+    "Machine-generated per round by scripts/stage_round.py; edit freely."
   ],
   "rounds": {
     "r1-batch-a": {
@@ -1542,6 +1542,476 @@
         }
       ],
       "notes": "Session ran WebFetch-only (no WebSearch) per instructions. Hit rate on guessed URLs (Wikipedia article titles, company /about or /press subpages, TechCrunch/Sifted/FinSMEs article slugs) was low; the two techniques that worked reliably were (1) UK Companies House 'search?q=' and '/company/<number>' pages for incorporation facts, and (2) Wikipedia's 'en.wikipedia.org/w/index.php?search=<terms>&title=Special:Search' endpoint, which often surfaces a usable snippet even when no dedicated article exists. Several important UK health-tech collapses/administrations turned up organically during research (Babylon Health, Sensyne Health, DnaNudge, Elvie/Chiaro Technology) alongside notable exits (EMIS Health to Optum for $1.5bn, Congenica to SeqOne, Kheiron to DeepHealth/RadNet, SilverCloud to Amwell for $320m, HealthBeacon to Hamilton Beach Health, Current Health to Best Buy then a 2025 founder buyout) — these are flagged accordingly in status/exit fields rather than left as generic 'private'."
+    },
+    "r5-dach": {
+      "wanted": [
+        "Araris Biotech (Switzerland, ADC platform — 2 investors already named in other profiles, high priority to wire up)",
+        "Humanoo (Germany, corporate wellness — 2 investors already named in other profiles, high priority to wire up)",
+        "Hookipa Pharma (Austria, NASDAQ:HOOK, viral vector vaccines)",
+        "Marinomed Biotech (Austria, antiviral therapeutics)",
+        "Themis Bioscience (Austria, vaccines, acquired by Merck & Co 2020)",
+        "Cardior Pharmaceuticals (Germany, RNA therapeutics, acquired by Novo Nordisk)",
+        "NBE-Therapeutics (Switzerland, ADC platform, acquired by Boehringer Ingelheim 2020)",
+        "Santhera Pharmaceuticals (Switzerland, rare disease, AGAMREE)",
+        "Formycon (Germany, biosimilars, public)",
+        "MindMaze (Switzerland, VR neurorehabilitation, unicorn)",
+        "Ava Women (Switzerland, femtech wearable)",
+        "Clue / BioWink (Germany, femtech app)",
+        "Ada Health (Germany, AI symptom checker)",
+        "Cara Care (Germany, digital gut health)",
+        "Formel Skin (Germany, dermatology telemedicine)",
+        "Greiner Bio-One (Austria, life science tools)",
+        "Kyan Health (Switzerland, mental health platform)",
+        "Nia Health (Germany, dermatology digital health)",
+        "Doctorbox, Recare, Selfapy, Inne, Caspar Health, cosinuss° (German digital-health names not yet attempted)"
+      ],
+      "skipped": [
+        {
+          "name": "Araris Biotech",
+          "reason": "Swiss ADC company flagged with 2 named investors in unprofiled-companies.txt, but araris.ch returned 404/403 on every attempted path (root, /about, /news) and press coverage (Fierce Biotech, GEN, BusinessWire) was blocked (403/timeout/404) via WebFetch. Could not source with a real fetched URL + verbatim quote."
+        },
+        {
+          "name": "Humanoo",
+          "reason": "German corporate-wellness digital health app flagged with 2 named investors; humanoo.com now redirects into a TELUS Health migration page, about-us paths 404'd, and eu-startups/finsmes searches 403/429'd. Not sourced."
+        },
+        {
+          "name": "Clue (BioWink)",
+          "reason": "Berlin femtech app; helloclue.com and Wikipedia (Helloclue) both 404'd on every URL variant tried."
+        },
+        {
+          "name": "Ada Health",
+          "reason": "Berlin AI symptom-checker; ada.com/about-us and /company/ both 404'd."
+        },
+        {
+          "name": "MindMaze",
+          "reason": "Lausanne VR-neurorehabilitation unicorn; mindmazetherapeutics.com/company returned 403; no alternate source reached in budget."
+        },
+        {
+          "name": "Ava Women",
+          "reason": "Zurich fertility-wearable company; avawomen.com/about-ava 404'd on both https and http variants."
+        },
+        {
+          "name": "Cara Care",
+          "reason": "Berlin digestive-health digital app; cara.care about pages 404'd on both URL variants tried."
+        },
+        {
+          "name": "Formel Skin",
+          "reason": "Berlin dermatology telemedicine; formelskin.de about pages 404'd."
+        },
+        {
+          "name": "Hookipa Pharma",
+          "reason": "Vienna/NYC viral-vector vaccine biotech (NASDAQ:HOOK); no Wikipedia article exists under tried titles, hookipapharma.com refused connection, and press-release URLs guessed were not found."
+        },
+        {
+          "name": "Marinomed Biotech",
+          "reason": "Austrian antiviral biotech (Carragelose); no Wikipedia article found, marinomed.com about pages 404'd."
+        },
+        {
+          "name": "Santhera Pharmaceuticals",
+          "reason": "Swiss rare-disease biotech (AGAMREE); no dedicated Wikipedia article exists, santhera.com/about-us 404'd; only fragmentary indirect mentions found via Wikipedia search, insufficient for a solid record."
+        },
+        {
+          "name": "Formycon",
+          "reason": "Munich biosimilars company (approved FYB201/202/203); formycon.com pages returned only nav/footer content with no founding year, HQ, or ticker — Wikipedia article not found under tried titles."
+        },
+        {
+          "name": "Cardior Pharmaceuticals",
+          "reason": "Hannover RNA-therapeutics company acquired by Novo Nordisk; novonordisk.com press pages returned only nav/footer, Wikipedia article not found, Fierce Biotech blocked (403)."
+        },
+        {
+          "name": "NBE-Therapeutics",
+          "reason": "Basel ADC company acquired by Boehringer Ingelheim (2020); boehringer-ingelheim.com and prnewswire/businesswire press-release URLs guessed all 404'd or returned empty content."
+        },
+        {
+          "name": "Themis Bioscience",
+          "reason": "Vienna vaccine company acquired by Merck & Co (2020); no Wikipedia article found under tried titles, merck.com and gene.com press-release URLs guessed 404'd."
+        },
+        {
+          "name": "Greiner Bio-One",
+          "reason": "Austrian lab-plasticware/life-science-tools maker; Wikipedia (Greiner Bio-One, Greiner AG) both 404'd."
+        },
+        {
+          "name": "Kyan Health",
+          "reason": "Zurich mental-health platform; not attempted this session due to time budget — candidate for follow-up."
+        },
+        {
+          "name": "Nia Health",
+          "reason": "Berlin dermatology digital health; not attempted this session due to time budget — candidate for follow-up."
+        }
+      ],
+      "notes": "38 DACH-headquartered companies sourced (Germany 20, Switzerland 16, Austria 2), spanning therapeutics/mRNA (BioNTech, CureVac, Idorsia, Basilea), cell & gene therapy (CRISPR Therapeutics, T-knife, Tubulis), diagnostics/genomics (QIAGEN, Sophia Genetics, Epigenomics, CeGaT), medtech devices (Ottobock, Biotronik, Siemens Healthineers, B.Braun, Sonova, Straumann, Ypsomed, MED-EL), pharma majors (Roche, Novartis, Sandoz, Bayer, Merck KGaA, Boehringer Ingelheim), life-science tools (Sartorius, Miltenyi Biotec, Lonza) and digital health (Oviva, Kaia Health). Three notable exits were caught live: CureVac→BioNTech (completed Dec 2025), Tubulis→Gilead (Apr 2026), MorphoSys→Novartis (2024), plus historical Actelion→J&J (2017). Named investors were sourced for 4 of 38 companies: BioNTech (MIG Capital, Strüngmann family office, Fidelity, Gates Foundation), CureVac (German Federal Government/KfW, Gates Foundation, GSK), Molecular Partners (Novartis stake), and Ottobock (EQT, former minority owner) — entity_id left null throughout for the build script to resolve. Many DACH VC-backed private biotechs/digital-health startups (Araris Biotech, Humanoo, MindMaze, Ava Women, Clue, Ada Health, Cara Care, Formel Skin) had their official sites and press coverage blocked by 403/404/timeout errors across every attempted URL — these are listed in skipped/wanted for follow-up with different tooling. The WebSearch budget was exhausted per instructions, so only WebFetch on guessed/known URLs was used; several well-known DACH companies (Formycon, Hookipa Pharma, Marinomed Biotech, Santhera, Cardior, NBE-Therapeutics, Themis Bioscience) could not be verified within that constraint and were dropped rather than guessed."
+    },
+    "r5-france-benelux": {
+      "wanted": [
+        "MDxHealth (Belgium/US dual-domiciled diagnostics) — needs a source clarifying legal HQ/country",
+        "Pharming Group, Kiadis Pharma, Byondis (Netherlands biotechs) — need working primary sources",
+        "Sequana Medical, Oxurion, Precirix, Epics Therapeutics, ChromaCure, iTeos Therapeutics (Belgium biotechs) — need working primary sources; iTeos in particular needs a source explaining what happened to the company (domain now parked for sale)",
+        "ImCheck Therapeutics, Stilla Technologies, Implicity, Amolyt Pharma (France) — need working primary sources",
+        "More Luxembourg-headquartered operating companies beyond Eurofins Scientific — very few appear to exist; investor entities dominate that jurisdiction",
+        "Deeper investor lists for GenSight Biologics, Confo Therapeutics, argenx, Alan, Doctolib and Owkin rounds — current entries list only the investors explicitly named in sourced pages; earlier/smaller rounds likely had additional named backers (e.g. Sofinnova, Kurma, Andera, V-Bio Ventures, Gilde Healthcare) not confirmed in this session"
+      ],
+      "skipped": [
+        {
+          "name": "iTeos Therapeutics",
+          "reason": "Belgian (Gosselies) immuno-oncology biotech; all Wikipedia and company-domain fetches 404'd, and its primary domain (iteostx.com) now resolves to a GoDaddy parked-domain sale page, suggesting a major corporate change (delisting/acquisition/wind-down) that could not be confirmed with a real source in this session."
+        },
+        {
+          "name": "MDxHealth",
+          "reason": "Belgian-founded molecular diagnostics company (urology/oncology); the only fetchable page described a US (Irvine, CA) lab address without clarifying corporate HQ/domicile, so country/HQ could not be confidently sourced without risking a misclassification."
+        },
+        {
+          "name": "Pharming Group",
+          "reason": "Dutch (Leiden) biotech (Ruconest, Joenja/leniolisib); every Wikipedia title guess and both pharming.com URLs returned 404/403 in this session."
+        },
+        {
+          "name": "Kiadis Pharma",
+          "reason": "Dutch (Amsterdam) NK-cell therapy biotech acquired by Sanofi in 2020; no working source found (EN/NL Wikipedia both 404)."
+        },
+        {
+          "name": "Byondis (formerly Synthon Biopharmaceuticals)",
+          "reason": "Dutch (Nijmegen) ADC biotech; no dedicated source found. Its parent, Synthon, is included instead with sourced facts."
+        },
+        {
+          "name": "Sequana Medical",
+          "reason": "Belgian (Ghent) medtech (alfapump); Wikipedia and company-site fetches 404'd."
+        },
+        {
+          "name": "Oxurion / ThromboGenics",
+          "reason": "Belgian (Leuven) ophthalmology biotech; Wikipedia pages 404'd under both names."
+        },
+        {
+          "name": "Precirix",
+          "reason": "Belgian (Brussels) radiopharmaceuticals biotech (Nasdaq); both precirix.com domains failed TLS certificate validation in this session."
+        },
+        {
+          "name": "Epics Therapeutics",
+          "reason": "Belgian (Gosselies) drug-discovery biotech; no resolvable domain found in this session."
+        },
+        {
+          "name": "ChromaCure",
+          "reason": "Belgian (Ghent/Leuven) epigenetics-oncology biotech; no resolvable domain found in this session."
+        },
+        {
+          "name": "ImCheck Therapeutics",
+          "reason": "French (Marseille) immuno-oncology biotech (gamma-delta T cells); every domain guess (imcheck-therapeutics.com, imcheck-tx.com) and Wikipedia (EN/FR) failed to resolve."
+        },
+        {
+          "name": "Stilla Technologies",
+          "reason": "French (Paris/Villejuif) digital-PCR life-science-tools company; stilla.com/.it and stilla-technologies.com all resolved to unrelated companies or connection errors; French Wikipedia 404'd."
+        },
+        {
+          "name": "Implicity",
+          "reason": "French (Paris) remote-cardiac-monitoring digital health company; company site and French Wikipedia both 404'd."
+        },
+        {
+          "name": "Amolyt Pharma",
+          "reason": "French (Lyon) rare-disease/endocrine biotech acquired by AstraZeneca; company site timed out and Wikipedia (EN/FR) 404'd."
+        },
+        {
+          "name": "Batavia Biosciences",
+          "reason": "Dutch (Leiden) vaccines/biologics CDMO; both domain variants failed TLS certificate validation in this session."
+        }
+      ],
+      "notes": "Researched via WebFetch only (WebSearch budget exhausted per instructions). A large fraction of direct company-website and Wikipedia-title guesses 404'd or hit TLS/DNS errors without a search tool to find the correct URL; entries above reflect only pages that actually resolved, with confidence downgraded (medium/low) wherever founding year, funding rounds or investors could not be independently confirmed by a verbatim quote. Notable finds: Mithra Pharmaceuticals' bankruptcy (June 2024) and asset sale to Gedeon Richter, CARMAT's 2025 insolvency filing and trading suspension, Galapagos NV's April 2026 rename to 'Lakefront Biotherapeutics', and Merus now being 'part of Genmab' were all surfaced serendipitously through failed/redirected fetches and are worth a follow-up pass to fully source (exact acquisition dates/prices)."
+    },
+    "r5-israel-biotech": {
+      "wanted": [
+        "NovellusDx — functional-genomics precision-oncology company, Jerusalem; worth a retry with a different fetch path.",
+        "Genoox — clinical-genomics data platform; worth checking Crunchbase/press coverage directly rather than the app subdomain.",
+        "Nucleai — AI spatial-biology platform for oncology drug development; strong fit, needs a working domain or press source.",
+        "Kahr Medical — bifunctional immune-checkpoint fusion proteins, Kfar Saba; needs a working domain or SEC/press source.",
+        "Prilenia Therapeutics — pridopidine for Huntington's/ALS; needs confirmation of primary HQ (Israel vs. Netherlands).",
+        "Gamida Cell — needs a follow-up pass via SEC EDGAR 20-F/10-K to confirm HQ, ticker and the 2023 FDA approval of omidubicel (Omisirge).",
+        "NeuroDerm — Rehovot Parkinson's-disease drug-delivery company acquired by Mitsubishi Tanabe (2017) for a widely reported ~$1.1B; worth a source-confirmed entry.",
+        "cCAM Biotherapeutics — confirm founding year and the reported Merck acquisition price (~$618M, 2015) via a working press-release source.",
+        "VBL Therapeutics / Notable Labs — clarify post-2023-merger status and whether VBL's Israel history belongs as a standalone historical entry."
+      ],
+      "skipped": [
+        {
+          "name": "NeuroSense Therapeutics",
+          "reason": "Company's own site and StockAnalysis both list headquarters as Cambridge, Massachusetts (Ra'anana, Israel listed only as an additional office) — does not clear the Israel-headquartered bar despite Israeli founding."
+        },
+        {
+          "name": "Oramed Pharmaceuticals",
+          "reason": "Both the company's own site and StockAnalysis list New York, NY as headquarters; no Israel HQ address found this session despite the company's Jerusalem origins."
+        },
+        {
+          "name": "Immunai",
+          "reason": "Company's own site lists headquarters as New York, NY (430 E 29th St); large Tel Aviv R&D presence but not the stated HQ."
+        },
+        {
+          "name": "BrainStorm Cell Therapeutics",
+          "reason": "StockAnalysis lists headquarters as New York City, NY, despite Israeli (Petach Tikva) origins of the NurOwn platform."
+        },
+        {
+          "name": "Eloxx Pharmaceuticals",
+          "reason": "StockAnalysis lists headquarters as Arlington, MA, despite originating as an Israeli company (reverse merger with Sevion Therapeutics)."
+        },
+        {
+          "name": "VYNE Therapeutics (Foamix)",
+          "reason": "StockAnalysis indicates VYNE was delisted July 27, 2026 following a reverse merger with Yarrow Bioscience; could not confirm a clean current Israel-HQ identity."
+        },
+        {
+          "name": "NovoCure",
+          "reason": "Headquarters confirmed as Baar, Switzerland despite Israeli founder/origin (Prof. Yoram Palti); devices (TTFields), not a clear fit either."
+        },
+        {
+          "name": "Taro Pharmaceutical Industries",
+          "reason": "Headquarters listed as Hawthorne, NY even pre-acquisition; delisted June 24, 2024 after being fully acquired by Sun Pharma (India)."
+        },
+        {
+          "name": "BiomX",
+          "reason": "Ticker PHGE now resolves (per StockAnalysis) to an unrelated defense/security company, suggesting a reverse merger or ticker reassignment; could not confirm BiomX's current standalone status or HQ."
+        },
+        {
+          "name": "VBL Therapeutics",
+          "reason": "StockAnalysis shows ticker VBLT now belongs to Notable Labs (merged 2023); could not source clean standalone facts about VBL's Israel operations this session."
+        },
+        {
+          "name": "Ayala Pharmaceuticals",
+          "reason": "Lead assets AL101/AL102 were acquired by Immunome, Inc. in Q1 2024; could not confirm Ayala continues as an independent Israeli entity."
+        },
+        {
+          "name": "Anima Biotech",
+          "reason": "Company's own site lists headquarters as Bernardsville, New Jersey, despite Israeli (Ness Ziona) R&D origins."
+        },
+        {
+          "name": "D-Pharm",
+          "reason": "dpharm.com domain has lapsed and redirects to a GoDaddy for-sale page; could not verify current operating status."
+        },
+        {
+          "name": "Silenseed",
+          "reason": "Own domain unreachable (connection refused) this session; no alternate source found."
+        },
+        {
+          "name": "Vaxil Bio",
+          "reason": "Own domain unreachable/returned no content this session; no alternate source found."
+        },
+        {
+          "name": "Genoox",
+          "reason": "Site redirects to an app subdomain (franklin.genoox.com) that returned no usable company information this session."
+        },
+        {
+          "name": "NovellusDx",
+          "reason": "Own domain unreachable (connection refused) this session; no alternate source found."
+        },
+        {
+          "name": "Nucleai",
+          "reason": "Own domain unreachable (DNS failure) this session; no alternate source found."
+        },
+        {
+          "name": "Kahr Medical",
+          "reason": "Own domain unreachable (DNS failure) this session; no alternate source found."
+        },
+        {
+          "name": "Raziel Therapeutics",
+          "reason": "Own domain unreachable (DNS failure) this session; only a brief Pontifax portfolio description was available, judged too thin to include."
+        },
+        {
+          "name": "Prilenia Therapeutics",
+          "reason": "Own site did not disclose a clear headquarters city (registered as a Netherlands B.V.); could not confirm Israel as the primary HQ this session."
+        },
+        {
+          "name": "OncoHost",
+          "reason": "Product (PROphet) is a companion-diagnostic blood test rather than drug discovery/therapeutics — judged out of this slice's category scope on reflection."
+        },
+        {
+          "name": "Ibex Medical Analytics",
+          "reason": "AI computational pathology is diagnostics-focused rather than drug discovery/therapeutics — out of category scope."
+        },
+        {
+          "name": "NeuroDerm",
+          "reason": "Acquired by Mitsubishi Tanabe Pharma in 2017; all fetch attempts (Wikipedia, own site) failed this session, so no fresh source could support an entry."
+        },
+        {
+          "name": "Can-Fite BioPharma (early attempts)",
+          "reason": "Not actually skipped — included via stockanalysis.com after multiple direct-site fetch failures; noted here only because early attempts failed."
+        }
+      ],
+      "notes": "Delivered 30 companies, all Israel-headquartered per at least one real fetched source, covering therapeutics/biopharma (the large majority), cell & gene therapy, AI drug discovery/computational biology, genomics (one historical/shut-down entry), and one agri-adjacent/human-health food-tech company. WebFetch reliability was poor this session: roughly half of all fetch attempts failed (DNS failures, connection resets/refusals, 403s, timeouts, or 404s on guessed URL paths), which is why several well-known Israeli biotechs (Can-Fite required 4 attempts before StockAnalysis worked; NovellusDx, Kahr Medical, Silenseed, Nucleai, Genoox, Raziel Therapeutics never worked) ended up thin or omitted. StockAnalysis.com and company home pages (root domain, not subpaths) were the most reliable sources; Wikipedia worked for older/larger companies but 404'd for many smaller ones; SEC EDGAR was inaccessible (403) all session. A useful side-discovery was Pontifax's own portfolio page (pontifax.com/portfolio/), which yielded several real Israeli companies with investor linkage in one fetch (Protalix, Enlivex, CytoReason, cCAM Biotherapeutics, Metabomed, Kamari/Orvida Pharma) — other Israeli VC portfolio pages (aMoon, Grove Ventures, FutuRx, Israel Biotech Fund, Trendlines) were attempted but failed outright (connection refused / bad TLS certs), and are worth retrying with different tooling. A non-trivial number of well-known 'Israeli' biotech names turned out, on verification, to now be headquartered elsewhere (Oramed, NeuroSense, Immunai, BrainStorm, Eloxx, NovoCure, Anima Biotech, Taro) and were excluded to honor the strict Israel-headquartered requirement — see the skipped[] list for each with its specific evidence."
+    },
+    "r5-israel-health": {
+      "wanted": [
+        "CathWorks funding rounds/investors (FFRangio FDA clearance is well documented publicly but this session could not reach a live source)",
+        "Zebra Medical Vision acquisition value/date from Nanox (no working source found this session)",
+        "MediWound and Nanox Imaging precise HQ cities and founding years",
+        "TytoCare, Diagnostic Robotics, Navina, Ibex Medical Analytics, PixCell Medical, Scopio Labs precise HQ cities and founding years",
+        "Confirmation of BELKIN Vision's reported acquisition by Alcon (date, value)",
+        "MobileODT's current ownership status (possible Liger Medical acquisition)",
+        "More femtech names: GalBio, Zero Candida, Gynica need primary sourcing before they can be added",
+        "Additional elder-care-specific companies beyond Intuition Robotics/ElliQ"
+      ],
+      "skipped": [
+        {
+          "name": "K Health",
+          "reason": "Israeli-founded but official presence/HQ shown as New York, NY on its own materials; excluded per Israel-headquartered-only rule."
+        },
+        {
+          "name": "Eleos Health",
+          "reason": "Official site footer lists Waltham, MA as address; not clearly Israel-headquartered despite Israeli founding team."
+        },
+        {
+          "name": "QuantHealth",
+          "reason": "Official site lists Worcester, MA as HQ with Tel Aviv as a secondary office; not clearly Israel-headquartered."
+        },
+        {
+          "name": "UltraSight",
+          "reason": "Official site lists Cambridge, MA as HQ; not clearly Israel-headquartered despite Israeli origin."
+        },
+        {
+          "name": "Healthy.io",
+          "reason": "Official site lists Boston as HQ (with London/Tel Aviv offices); not clearly Israel-headquartered."
+        },
+        {
+          "name": "Corindus Vascular Robotics",
+          "reason": "Founded in Israel but relocated HQ to Waltham, MA before its 2019 Siemens Healthineers acquisition; not Israel-headquartered at time of relevance."
+        },
+        {
+          "name": "Zebra Medical Vision",
+          "reason": "Well-known Nanox acquisition target but no dedicated Wikipedia article and no working official source found this session (FDA/press URLs 404'd or timed out); dropped rather than guessing acquisition value/date."
+        },
+        {
+          "name": "CathWorks",
+          "reason": "cathworks.com now resolves to a domain-resale marketplace; no alternate live source located despite multiple attempts (Globes, FDA, Wikipedia all failed), so dropped rather than writing a thin/unsourced record."
+        },
+        {
+          "name": "Vectorious Medical Technologies",
+          "reason": "Domain unreachable (ENOTFOUND); no alternate source found in this session."
+        },
+        {
+          "name": "CartiHeal",
+          "reason": "No Wikipedia page and no working official source found in this session."
+        },
+        {
+          "name": "Medi-Tate",
+          "reason": "No Wikipedia page and no working official source found in this session."
+        },
+        {
+          "name": "BELKIN Vision / BELKIN Laser",
+          "reason": "belkin-vision.com redirects to an Alcon glaucoma DSLT page suggesting acquisition, but the Alcon page itself makes no mention of Belkin, so the link could not be confirmed; dropped rather than guessing."
+        },
+        {
+          "name": "Genoox",
+          "reason": "Official about page redirected to a thin product landing page with no company facts; dropped rather than guessing founding/HQ/funding."
+        },
+        {
+          "name": "Jimini Health",
+          "reason": "jimini.health domain now resolves to an unrelated domain-resale marketplace; likely defunct or rebranded, could not source."
+        },
+        {
+          "name": "BAIBYS Fertility",
+          "reason": "Official site returned 403 Forbidden; no alternate source found."
+        },
+        {
+          "name": "Compugen",
+          "reason": "In-scope taxonomically as computational drug discovery but functionally a clinical-stage immuno-oncology biopharma company; better suited to the r5-israel-biotech slice, so left out of this medtech/health slice to avoid duplication."
+        },
+        {
+          "name": "Kamada",
+          "reason": "Plasma-derived biopharmaceutical company; left to the r5-israel-biotech slice to avoid duplication."
+        },
+        {
+          "name": "Check-Cap",
+          "reason": "Originally a capsule colonoscopy device maker, but its own site now shows the company has reverse-merged into 'MBody AI' (NASDAQ:MBAI), an embodied-AI robotics company, and no longer operates in health; excluded as no longer an operating health company."
+        },
+        {
+          "name": "Circles",
+          "reason": "NoCamels coverage confirms an online mental-health support platform (launched 2020, raised $16.5M May 2022) but no fetched source explicitly confirmed Israel as HQ, and the name risks confusion with an unrelated Israeli telecom company of the same name; dropped to avoid a misattribution."
+        },
+        {
+          "name": "GalBio",
+          "reason": "Only a one-line search snippet found (Tulipon tampon/menstrual-cup diagnostics concept); no founding/HQ/funding data and no working official site located."
+        },
+        {
+          "name": "Zero Candida",
+          "reason": "Only a one-line search snippet found; no founding/HQ/funding data and no working official site located."
+        },
+        {
+          "name": "Gynica",
+          "reason": "Only a one-line search snippet found; no founding/HQ/funding data and no working official site located."
+        },
+        {
+          "name": "Sight Diagnostics",
+          "reason": "sightdx.com resolved to an unrelated 'immune signatures' company page, not the known blood-testing (OLO analyzer) company; could not confirm the correct domain in this session."
+        },
+        {
+          "name": "Tyto Care (duplicate mention)",
+          "reason": "Already captured as il-tytocare; the unprofiled-companies list's 'Tyto Care' and 'TytoCare' entries are the same company."
+        },
+        {
+          "name": "Diagnostic Robotics (already captured)",
+          "reason": "See il-diagnostic-robotics; noted here only because it appeared with 3 investor mentions in the unprofiled list and was prioritized accordingly."
+        }
+      ],
+      "notes": "WebSearch was unavailable for this slice (session budget exhausted), so research relied entirely on WebFetch against official company sites, Wikipedia, and NoCamels (an Israeli tech-news outlet) search-result pages. Many smaller Israeli health-tech companies have thin or unreachable web presences (dead domains, 403s, 404s, JS-only pages) and no Wikipedia coverage, which capped the achievable count below the 35-45 target band. A recurring judgment call was distinguishing genuinely Israel-headquartered companies from Israeli-founded companies that have since moved their official HQ to the US (K Health, Eleos Health, QuantHealth, UltraSight, Healthy.io, Corindus) -- all six were excluded per the brief's 'Israel-headquartered only' instruction even though they are commonly described in Israeli press as Israeli companies. Biotech/pharma-leaning companies that also appeared in health-tech coverage (Compugen, Kamada) were left to the r5-israel-biotech slice to avoid duplication."
+    },
+    "r5-southern-cee": {
+      "wanted": [
+        "A sourceable Bulgarian venture-backed medical company (Sopharma is the only large pharma identified but its site could not be fetched; smaller digital-health/biotech startups were not found via Wikipedia categories, which are sparse for Bulgaria).",
+        "A sourceable Slovak medical company — Wikipedia's Slovakia company categories surfaced no pharma/biotech/medtech entries at all.",
+        "Named investors and round amounts/dates for Genespire, Kither Biotech, Sibylla Biotech's Series A, and Ryvu Therapeutics — company sites gave product/HQ facts but not cap-table detail; would need press releases or Crunchbase-equivalent access.",
+        "Confirmation of Minoryx Therapeutics and Celon Pharma facts once rate-limiting/availability issues clear.",
+        "More digital-health / consumer-health / femtech startups in Portugal and Greece beyond the legacy pharma majors found here — eu-startups.com and Sifted were both blocked (403) for this session, which likely undercounts younger VC-backed companies."
+      ],
+      "skipped": [
+        {
+          "name": "Minoryx Therapeutics",
+          "reason": "Spain — company site returned HTTP 429 on two attempts; no Wikipedia page found at attempted title. Known from the unprofiled-companies list but could not be independently sourced within budget."
+        },
+        {
+          "name": "Celon Pharma",
+          "reason": "Poland — company site (multiple URL variants) and Wikipedia both 404'd."
+        },
+        {
+          "name": "Sopharma",
+          "reason": "Bulgaria — official site returned a TLS certificate error; no Wikipedia page found."
+        },
+        {
+          "name": "SPARTA Biodiscovery",
+          "reason": "Spain — site returned HTTP 403 Forbidden."
+        },
+        {
+          "name": "Insignals Neurotech",
+          "reason": "Spain — DNS resolution failed for the known domain."
+        },
+        {
+          "name": "Axithra",
+          "reason": "Spain — fetch timed out."
+        },
+        {
+          "name": "Resalis Therapeutics",
+          "reason": "Italy — DNS resolution failed; site may have changed domain."
+        },
+        {
+          "name": "Diadem srl",
+          "reason": "Italy — no Wikipedia page found at attempted titles."
+        },
+        {
+          "name": "Fidelta",
+          "reason": "Croatia — no Wikipedia page found at attempted titles."
+        },
+        {
+          "name": "Genos (Zagreb)",
+          "reason": "Croatia — DNS resolution failed for the known domain."
+        },
+        {
+          "name": "Pharmathen",
+          "reason": "Greece — official site and Wikipedia both returned 403/404."
+        },
+        {
+          "name": "Doctoranytime",
+          "reason": "Greece — site returned HTTP 403 Forbidden."
+        },
+        {
+          "name": "Causaly",
+          "reason": "Confirmed HQ is London, UK (Greek co-founders but not Greek-headquartered) — out of this region's scope."
+        },
+        {
+          "name": "Kilo / Kilo Health",
+          "reason": "Lithuania — kilo.health redirects to kilo.co (rebranded as a health/wellness venture builder); could not confirm headquarters location on the fetched pages despite circumstantial Lithuanian ties."
+        }
+      ],
+      "notes": "Country coverage: Spain 6, Italy 5, Poland 5, Czechia 2, Hungary 2, Portugal 3, Slovenia 2, Latvia 1, Lithuania 2, Estonia 1, Croatia 1, Romania 1, Serbia 2, Greece 2 = 35 companies across 14 of the 16 target countries. Bulgaria and Slovakia yielded nothing sourceable: Wikipedia's pharmaceutical/company categories for both are essentially empty (Bulgaria's main company category lists one unrelated firm; Slovakia's lists none). Sopharma (Bulgaria) is a real, large public generics maker but its site could not be fetched (TLS error) and no Wikipedia page exists at the titles tried — flagged in 'wanted' rather than fabricated. Mix skews toward established/public pharma (a genuine feature of this geography — most of Southern/CEE Europe's biggest medical companies are decades-old generics or family pharma groups, not VC-backed startups), but every country's list includes at least one venture-backed or investor-named entry where sourceable: Spain (Idoven, Deepull, AbilityPharma), Italy (Sibylla Biotech Series A), Hungary (Turbine's named investor roster), Portugal (Sword Health's full funding history), Lithuania (Caszyme, Northway Biotech), Poland (Molecure/Ryvu/Selvita as public spin-outs of the venture-backed Selvita R&D business). 4 of 35 records carry ≥1 named investor in funding.investors (AbilityPharma — SciClone Pharmaceuticals; Turbine — 8 named backers incl. MSD Global Health Innovation Fund and Accel; Sword Health — Khosla Ventures/General Catalyst/BOND across its full round history; Caszyme — an Eurostars grant consortium). A further 4 acquired/subsidiary companies (Zentiva, Hemofarm, Bel Medic, BIA Separations) record their acquirer under funding.exit instead, since that is an M&A buyer rather than a funding-round investor. Sibylla Biotech and Northway Biotech have sourced round amounts/dates but no named backer was disclosed on the fetched pages. WebSearch was unavailable all session (budget exhausted); eu-startups.com and Sifted.eu were both blocked (403), which limited discovery of newer, smaller VC-backed startups relative to what a search-capable pass could find — the 'wanted' list reflects that gap."
     }
   }
 }
