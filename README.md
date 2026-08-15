@@ -19,11 +19,12 @@
 
 **<https://med-vc.peteraim.com/>**
 
-多軸篩選（地區 × 類型 × 健康子領域 × 治療模式 × 適應症 × 階段）· 全文搜尋（機構名／論點／被投公司／城市）·
+兩個互通的名錄：**投資機構**與**被投公司**。
+多軸篩選（地區 × 類型 × 健康子領域 × 治療模式 × 適應症 × 階段 × 背後金主）· 全文搜尋 ·
 中英雙語切換 · 深淺色模式 · 點卡片看完整詳情與**來源 quote 佐證** · 分析圖表儀表板 · CSV 匯出。
 純靜態 HTML/CSS/JS（Material Design 3、零 build），由 `docs/` 經 GitHub Pages 部署。
 
-> 網站資料層由 `uv run scripts/build_site.py` 從 `data/all-entities.json` 產生。
+> 網站資料層由 `uv run scripts/build_site.py` 從 `data/all-entities.json` + `data/all-companies.json` + `data/links.json` 產生。
 
 ---
 
@@ -39,6 +40,29 @@
 | **每筆面向** | 身份 / 資本 / **背後金主** / 投資策略 / 生醫焦點 / 加速器專屬 / 戰績 / 團隊 / 申請方式 / 來源佐證 |
 
 每筆資料都附 `sources[]`（真實 URL + 佐證 `quote`）與 `confidence` 信心評級。
+
+### 公司名錄與雙向連結
+
+本專案有**兩半**：`entity`（投資機構，誰出錢）與 `company`（被投公司，錢進了哪裡），
+schema 分離但**共用同一套 taxonomy**——公司的 `category` 用的就是機構的 `sector_focus` 詞彙，
+`modalities` / `indications` 也完全相同。因此「篩選 digital-health 的機構」與「篩選 digital-health 的公司」
+是同一個動作，兩邊可以無縫互跳。
+
+連結不是手寫的，是 `build_companies.py` 在 build 階段**解析名稱**產生的，而且雙向都認：
+
+| 方向 | 來源 | 意義 |
+| --- | --- | --- |
+| 公司 → 機構 | `funding.investors[].name` | 公司說誰投了它 |
+| 機構 → 公司 | `track_record.notable_investments[].company` | 機構說它投了誰 |
+
+兩邊都主張的邊標記 `via: "both"`。這也解釋了公司半邊為何能快速長出來：
+投資機構那半在還沒研究任何一家公司之前，就已經帶著 1,600+ 筆投資紀錄、1,400+ 個不重複公司名。
+
+解析器**寧缺勿錯**：只在唯一命中時建立連結。`"OrbiMed"` 同時是美/以/印/中四筆機構的名稱，
+所以會用公司所在地區消歧（美國公司 → `us-orbimed`、以色列公司 → `il-orbimed`）；
+真的無法消歧就留空，寫進 `reports/links.json` 當下一輪的待辦。
+**未解析的名稱同時也是投資機構半邊的缺口偵測器**——公司點名了某家投資人而名錄裡沒有，
+那多半是名錄漏了，而不是解析器壞了。
 
 ### 背後金主（`backing.backers[]`）
 
@@ -74,9 +98,10 @@
 
 ## 怎麼用這份資料
 
-- 結構化資料在 `data/<region>/entities.json`，全球合併在 `data/all-entities.json`。
-- 欄位定義見 [`schema/entity.schema.json`](schema/entity.schema.json)，受控詞彙見 [`data/taxonomy.json`](data/taxonomy.json)。
-- 整體架構、蒐集方法論、切片計畫、去重規則見 [`ARCHITECTURE.md`](ARCHITECTURE.md)。
+- 投資機構在 `data/<region>/entities.json`，全球合併在 `data/all-entities.json`。
+- 公司在 `data/companies/_raw/*.json`，合併後在 `data/all-companies.json`，連結圖在 `data/links.json`。
+- 欄位定義見 [`schema/entity.schema.json`](schema/entity.schema.json) 與 [`schema/company.schema.json`](schema/company.schema.json)，受控詞彙見 [`data/taxonomy.json`](data/taxonomy.json)。
+- 整體架構、蒐集方法論、切片計畫、去重規則、名稱解析器見 [`ARCHITECTURE.md`](ARCHITECTURE.md)。
 
 ```bash
 # 重建合併資料 + 驗證 + 統計（全程 uv）
@@ -89,7 +114,12 @@ uv run scripts/backfill_backing.py            # 寫 data/backing.json
 uv run scripts/backfill_backing.py --dry-run  # 只看會抓到什麼，不寫檔
 uv run scripts/build.py
 
-# 資料完整性 QA（Layer-1 結構檢查：重複 / 來源 / 詞彙 / 薄檔 / 幻覺字樣 / 金主詞彙）
+# 公司半邊 + 兩半之間的連結圖
+uv run scripts/build_companies.py
+cat data/company-stats.json  # 公司統計 + 連結覆蓋率
+cat reports/links.json       # 未解析的名稱 = 下一輪待辦
+
+# 資料完整性 QA（兩半共用：重複 / 來源 / 詞彙 / 薄檔 / 幻覺字樣 / 金主詞彙 / 兩半同名）
 uv run scripts/qa_check.py
 cat reports/qa.json          # 完整問題清單
 
@@ -98,8 +128,10 @@ uv run scripts/build_site.py
 ```
 
 > 順序有意義：`backfill_backing.py` 讀的是 **build 後**的 `data/all-entities.json`（要有正式 id），
-> 而它的產物又要**再 build 一次**才會併回每筆資料。`data/<region>/entities.json` 與
-> `data/all-entities.json` 都是衍生產物，直接手改會在下次 build 被覆蓋。
+> 而它的產物又要**再 build 一次**才會併回每筆資料；`build_companies.py` 的名稱解析器同樣要拿
+> **最新的** `all-entities.json` 當索引，所以排在 `build.py` 之後、`build_site.py` 之前。
+> `data/<region>/entities.json`、`data/all-entities.json`、`data/all-companies.json`、
+> `data/links.json` 全都是衍生產物，直接手改會在下次 build 被覆蓋。
 
 ---
 

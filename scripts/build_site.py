@@ -24,6 +24,21 @@ tax = json.loads((DATA / "taxonomy.json").read_text("utf-8"))
 stats = json.loads((DATA / "stats.json").read_text("utf-8"))
 
 
+def optional(name, fallback):
+    """Company data is built by a separate script and may not exist yet.
+
+    The site must build from the investor half alone — otherwise a failure in
+    scripts/build_companies.py takes the whole site down with it.
+    """
+    p = DATA / name
+    return json.loads(p.read_text("utf-8")) if p.exists() else fallback
+
+
+comp = optional("all-companies.json", [])
+links = optional("links.json", {"investor_to_company": {}, "company_to_investor": {}})
+cstats = optional("company-stats.json", {"total": 0})
+
+
 def vocab(key, label_en="label_en", label_zh="label_zh"):
     return [{"slug": x["slug"], "en": x.get(label_en, x["slug"]), "zh": x.get(label_zh, x.get(label_en, x["slug"]))}
             for x in tax[key]]
@@ -38,6 +53,8 @@ TAXONOMY = {
     "regions": vocab("regions"),
     "backerKinds": vocab("backer_kinds"),
     "backerRels": vocab("backer_relationships"),
+    "companyStatus": vocab("company_status"),
+    "devStages": vocab("development_stages"),
 }
 
 
@@ -105,13 +122,90 @@ def trim(e):
     return clean
 
 
+def trim_company(c):
+    """Same shape discipline as trim(): only what the page renders.
+
+    Investors ship as positional triples [name, entity_id, role]. entity_id is
+    null when that investor is not in the directory — the site renders those as
+    plain text rather than a dead link, which is the honest rendering of "we
+    know who funded this, we just haven't profiled them".
+    """
+    name = c.get("name", {})
+    p = c.get("profile", {}) or {}
+    f = c.get("funding", {}) or {}
+    lr = f.get("last_round") or {}
+    ex = f.get("exit") or {}
+    out = {
+        "id": c["id"],
+        "name": {"en": name.get("en", ""), "local": name.get("local", "")},
+        "cat": c.get("category", ""),
+        "sectors": c.get("sectors", []) or [],
+        "region": c.get("region", ""),
+        "country": c.get("country", ""),
+        "city": c.get("hq_city", ""),
+        "founded": c.get("founded_year"),
+        "status": c.get("status", ""),
+        "website": c.get("website", ""),
+        "conf": c.get("confidence", ""),
+        "what": p.get("what", ""),
+        "dev": p.get("development_stage", ""),
+        "lead": p.get("lead_asset", ""),
+        "modalities": p.get("modalities", []) or [],
+        "indications": p.get("indications", []) or [],
+        "reg": [[r.get("body", ""), r.get("kind", ""), r.get("item", ""), r.get("year")]
+                for r in (p.get("regulatory") or [])],
+        "raised": money(f.get("total_raised")),
+        "val": money(f.get("valuation")),
+        "unicorn": bool(f.get("unicorn")) or None,
+        "last": {"stage": lr.get("stage", ""), "date": lr.get("date", ""),
+                 "amount": money(lr.get("amount"))} if lr else None,
+        "inv": [[i.get("name", ""), i.get("entity_id"), i.get("role", "")]
+                for i in (f.get("investors") or []) if i.get("name")],
+        "exit": {"type": ex.get("type", ""), "year": ex.get("year"),
+                 "acquirer": ex.get("acquirer", ""), "value": money(ex.get("value")),
+                 "ticker": ex.get("ticker", "")} if ex else None,
+        "summary": (c.get("summary", {}) or {}).get("en", ""),
+        "sources": [{"url": s.get("url", ""), "title": s.get("title", ""), "quote": s.get("quote", "")}
+                    for s in (c.get("sources", []) or [])[:6] if s.get("url")],
+    }
+    clean = {}
+    for k, v in out.items():
+        if v in (None, "", [], {}):
+            continue
+        clean[k] = v
+    if clean.get("last") and not any(clean["last"].values()):
+        clean.pop("last", None)
+    if clean.get("exit") and not any(clean["exit"].values()):
+        clean.pop("exit", None)
+    return clean
+
+
 entities = [trim(e) for e in ent]
 # sort: confidence (high first) then region then name — stable, nice default order
 _rank = {"high": 0, "medium": 1, "low": 2}
 entities.sort(key=lambda e: (_rank.get(e.get("conf"), 3), e.get("region", ""), e.get("name", {}).get("en", "").lower()))
 
+companies = [trim_company(c) for c in comp]
+companies.sort(key=lambda c: (_rank.get(c.get("conf"), 3), c.get("region", ""), c.get("name", {}).get("en", "").lower()))
+
+# Only the investor -> company direction ships as a lookup table. The reverse
+# is already inside each company's `inv` triples, so shipping it too would be
+# paying twice for the same edges.
+i2c = {k: v for k, v in (links.get("investor_to_company") or {}).items() if v}
+# ...except for edges the investor asserted and the company record does not
+# mention. Those exist only in the link table, so the company page would show
+# an investor list missing rows the investor page shows. Fold them in.
+_from_company = {c["id"]: {i[1] for i in c.get("inv", []) if i[1]} for c in companies}
+c2i_extra = {}
+for cid, invs in (links.get("company_to_investor") or {}).items():
+    extra = sorted(set(invs) - _from_company.get(cid, set()))
+    if extra:
+        c2i_extra[cid] = extra
+
 MED_VC = {
     "entities": entities,
+    "companies": companies,
+    "links": {"i2c": i2c, "c2iExtra": c2i_extra},
     "taxonomy": TAXONOMY,
     "stats": {
         "total": stats["total"],
@@ -124,6 +218,7 @@ MED_VC = {
         "by_confidence": stats["by_confidence"],
         "sources": sum(len(e.get("sources", [])) for e in ent),
     },
+    "companyStats": cstats,
 }
 
 SITE_META = {
@@ -135,15 +230,24 @@ SITE_META = {
     "repo": "tingwei161803/med-vc",
 }
 
+# Hardcoding these went stale the moment the dataset grew. Derive them.
+_N_INV = f"{stats['total']:,}"
+_N_CO = f"{cstats.get('total', 0):,}"
+_N_REGION = len(stats["by_region"])
+
 SITE_PAGES = [
     {"slug": "home", "layout": "hub", "icon": "home",
      "title": {"en": "Overview", "zh": "總覽"},
-     "subtitle": {"en": "1,543 medical & biomedical investors across 12 regions",
-                  "zh": "12 個地區、1,543 家醫療生醫投資機構"}},
+     "subtitle": {"en": f"{_N_INV} medical & biomedical investors and {_N_CO} companies across {_N_REGION} regions",
+                  "zh": f"{_N_REGION} 個地區、{_N_INV} 家醫療生醫投資機構與 {_N_CO} 家新創"}},
     {"slug": "directory", "layout": "directory", "icon": "travel_explore",
-     "title": {"en": "Directory", "zh": "名錄"},
+     "title": {"en": "Investors", "zh": "投資機構"},
      "subtitle": {"en": "Filter by region, type, sector, modality, indication & stage — search anything",
                   "zh": "依地區 × 類型 × 子領域 × 治療模式 × 適應症 × 階段篩選,全文搜尋"}},
+    {"slug": "companies", "layout": "companies", "icon": "rocket_launch",
+     "title": {"en": "Companies", "zh": "新創"},
+     "subtitle": {"en": "The medical and biomedical companies these investors fund — every one linked to its backers",
+                  "zh": "被這些機構投資的醫療生醫公司 —— 每一家都連得回它的投資人"}},
     {"slug": "analysis", "layout": "analysis", "icon": "monitoring",
      "title": {"en": "Analysis", "zh": "分析"},
      "subtitle": {"en": "The shape of medical venture capital, by the numbers",

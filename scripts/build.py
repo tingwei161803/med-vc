@@ -306,7 +306,20 @@ def dedup(items: list[dict]) -> list[dict]:
 
 
 def main() -> None:
-    region_dirs = [d for d in sorted(DATA.iterdir()) if d.is_dir() and not d.name.startswith("_")]
+    # Regions are discovered from the directory listing, so the region set must
+    # be validated against the taxonomy rather than assumed. data/companies/ is
+    # the other half of the dataset and has the same <dir>/_raw/*.json shape —
+    # without this guard it is silently ingested as a 13th "region" and its
+    # company records are validated against the investor schema.
+    valid_regions = {r["slug"] for r in _TAX["regions"]}
+    region_dirs = []
+    for d in sorted(DATA.iterdir()):
+        if not d.is_dir() or d.name.startswith("_"):
+            continue
+        if d.name not in valid_regions:
+            print(f"  skip  {d.name}/ — not a region in taxonomy.json")
+            continue
+        region_dirs.append(d)
     all_entities: list[dict] = []
     violations: list[str] = []
     stats = {

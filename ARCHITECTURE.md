@@ -24,27 +24,40 @@
 
 ## 2. 目錄結構
 
+本專案有**兩半**：投資機構（entity）與被投公司（company）。兩者 schema 分離、pipeline 分離，
+靠一張在 build 階段解析出來的連結表互指。
+
 ```
 med-vc/
 ├── schema/entity.schema.json     # 一個「投資機構」的 JSON Schema（欄位定義 + 型別）
+├── schema/company.schema.json    # 一家「醫療新創/公司」的 JSON Schema
 ├── data/
 │   ├── taxonomy.json             # 受控詞彙：type / stage / sector / modality / indication / region…
 │   ├── regions.json              # 12 地區 metadata（生醫聚落 / 語言 / 權威來源站）
 │   ├── segments.json             # 研究切片計畫（模板 × 地區 + 錨點範例）
-│   ├── <region>/
+│   ├── link_aliases.json         # 連結解析器的人工別名表（只放自動化不該自己決定的案例）
+│   ├── <region>/                 # ── 投資機構半邊 ──
 │   │   ├── _raw/<segment>.json   # ← agent 原始產出，一個切片一檔（永不衝突）
 │   │   └── entities.json         # ← build.py 去重合併 + 驗 schema 後的結果
 │   ├── backing.json              # ← 背後金主 enrichment overlay（id → backers[]）
 │   ├── all-entities.json         # 全球合併（build.py 產生）
-│   └── stats.json                # 各維度統計（build.py 產生）
+│   ├── stats.json                # 各維度統計（build.py 產生）
+│   ├── companies/_raw/*.json     # ── 公司半邊 ── agent 原始產出，一個切片一檔
+│   ├── all-companies.json        # 公司合併（build_companies.py 產生）
+│   ├── links.json                # 兩半之間的連結圖（build_companies.py 產生）
+│   └── company-stats.json        # 公司統計（build_companies.py 產生）
 ├── scripts/build.py              # 合併 / 去重 / 套 overlay / 驗證 / 統計（uv run）
 ├── scripts/backfill_backing.py   # 由名稱與描述推論母公司 / 金主，產生 backing.json
+├── scripts/build_companies.py    # 公司合併 + 名稱解析 + 產生連結圖
 ├── scripts/build_site.py         # 產生 docs/data/data.js 網站資料層
-└── reports/validation.md         # schema 違規 + 資料品質報告（build.py 產生）
+├── scripts/qa_check.py           # 兩半共用的資料健康報告
+├── reports/validation.md         # schema 違規 + 資料品質報告（build.py 產生）
+└── reports/links.json            # 未解析的名稱 = 下一輪的待辦（build_companies.py 產生）
 ```
 
-**衍生產物警告**：`<region>/entities.json`、`all-entities.json`、`stats.json`、`docs/data/data.js`
-全都由 `build.py` / `build_site.py` 從 `_raw/` 重新產生。手動編輯這些檔案會在下次 build 時**被無聲覆蓋**。
+**衍生產物警告**：`<region>/entities.json`、`all-entities.json`、`stats.json`、
+`all-companies.json`、`links.json`、`company-stats.json`、`docs/data/data.js`
+全都由 build 腳本從 `_raw/` 重新產生。手動編輯這些檔案會在下次 build 時**被無聲覆蓋**。
 要改資料就改 `_raw/`；要加跨筆的衍生欄位就走 `backing.json` 這種 overlay 模式。
 
 12 個地區：`taiwan · united-states · europe · greater-china · japan · south-korea · israel · canada · india · southeast-asia · australia-nz · rest-of-world`
@@ -103,6 +116,60 @@ med-vc/
 
 ---
 
+## 4.5 公司半邊與連結圖
+
+### 資料模型（company）
+
+完整定義見 [`schema/company.schema.json`](schema/company.schema.json)。與 entity 刻意**共用同一套 taxonomy**：
+`category` / `sectors` 用的是 entity 的 `sector_focus` 詞彙、`modalities` 與 `indications` 也完全相同。
+這不是省事，是為了讓「篩選 digital-health 的投資機構」和「篩選 digital-health 的公司」是同一個動作——
+另立一套分類就得維護映射表，而映射表一定會漂移。
+
+- **身份**：`name{en,local}` · `aka`（改名前的舊名，連結解析器會用到）· `category` · `sectors` · `status`（private/public/acquired/merged/shut-down）· `founded_year` · `region` · `country` · `hq_city` · `website`
+- **在做什麼**：`profile.what`（一句話，具體可查證）· `development_stage`（藥物走臨床期別，器材/軟體走 pilot→commercial）· `lead_asset` · `regulatory[]`（真的拿到的核准，不含申請中）
+- **募資**：`funding.total_raised` · `valuation` · `unicorn` · `last_round` · `rounds[]` · **`investors[]`** · `exit`
+- **佐證 meta**：與 entity 同構
+
+一家公司若同時經營本業又設有創投臂（例如藥廠），會被記兩筆：本業在 company、創投臂在 entity。
+`qa_check.py` 的 `co-name-in-both-halves` 會把兩邊同名的情形挑出來人工確認。
+
+### 連結是解析出來的，不是手寫的
+
+邊有兩個來源，`build_companies.py` 把它們合併：
+
+| 方向 | 來源欄位 | 意義 |
+| --- | --- | --- |
+| 公司 → 機構 | `funding.investors[].name` | 這家公司說誰投了它 |
+| 機構 → 公司 | `track_record.notable_investments[].company` | 這家機構說它投了誰 |
+
+兩邊都主張的邊標 `via: "both"`，比單邊主張的可信。**這是本專案能快速長出公司半邊的原因**：
+投資機構半邊在還沒研究任何一家公司之前，就已經帶著 1,645 筆投資紀錄、1,461 個不重複公司名；
+研究 agent 的工作因此是「補公司本身的資料」，而不是「從零挖掘誰投了誰」。
+
+`funding.investors[].entity_id` 是**衍生欄位**，研究者一律寫 `null`。手寫的 id 會活得比讓它失效的那次改名還久。
+
+### 名稱解析：寧缺勿錯
+
+`Resolver`（`scripts/build_companies.py`）依序嘗試：人工別名表 → 正規化全名精確比對 → 「核心名」比對。
+每一步都**只在唯一命中時**成立。理由是錯誤的連結比缺少的連結更糟：缺少的看得出來，錯誤的會被當成事實。
+
+三個具體設計：
+
+1. **核心名會拒絕回答**。`core("Google Ventures")` = `"google"`，但 `core("Health Capital")` = `None`——
+   名字剝掉通用尾綴後只剩 `health` 這種泛詞的機構，不該和其他十幾家一起塌縮成同一個 key。
+2. **地區當消歧鍵**。`"OrbiMed"` 同時是美/以/印/中四筆的名稱，但那**真的是四支不同的基金**：
+   美國公司的 OrbiMed 解析到 `us-orbimed`，以色列公司的解析到 `il-orbimed`。反方向（機構 → 公司）
+   刻意**不**用這招——投資人的所在地說明不了它投的公司在哪，而兩家不同公司同名的機率遠高於同一家機構有多個地區分身。
+3. **CJK 必須活著通過正規化**。`norm()` 走 NFKC → NFD → 去結合符 → **NFC** 再過濾字元；
+   少了最後那步 NFC，NFD 會把韓文音節拆成 Jamo、把日文濁點拆離，然後被字元過濾清掉——
+   `"한미약품"` 會變成空字串，整個亞洲區的連結全部失效。已知缺口：繁簡不互通（`紅杉` ≠ `红杉`），
+   靠 agent 在 `aka` 同時記兩種寫法處理，而不是引入轉換表。
+
+未解析的名稱不會被丟掉，會寫進 `reports/links.json`，並區分「機構不在名錄裡」與「撞名撞了 N 筆」——
+這兩種需要的處理方式不同。這份報表就是下一輪的待辦清單。
+
+---
+
 ## 5. 去重與合併（Dedup）
 
 `build.py` 讀所有 `_raw/*.json` → 攤平 → 以 `is_same_entity(a,b)` 兩兩判斷是否同一機構 → 合併（`sources` 取聯集、`confidence` 取高者、空欄位回填）。
@@ -114,11 +181,22 @@ med-vc/
 ## 6. 重建資料集
 
 ```bash
-# 全程使用 uv（本專案偏好）；jsonschema 由 build.py 的 PEP 723 標頭自動解析
-uv run scripts/build.py
+# 全程使用 uv（本專案偏好）；jsonschema 由各腳本的 PEP 723 標頭自動解析
+uv run scripts/build.py            # 投資機構半邊
+uv run scripts/backfill_backing.py # 重跑背後金主推論 overlay
+uv run scripts/build.py            # 再 build 一次讓 overlay 套進資料
+uv run scripts/build_companies.py  # 公司半邊 + 連結圖（需要 all-entities.json 已是最新）
+uv run scripts/qa_check.py         # 兩半的健康報告
+uv run scripts/build_site.py       # 網站資料層
 ```
 
-產出：各 `data/<region>/entities.json`、`data/all-entities.json`、`data/stats.json`、`reports/validation.md`。
+**順序有意義**：`build_companies.py` 的名稱解析器要拿最新的 `all-entities.json` 當索引，
+所以一定跑在 `build.py` 之後；`build_site.py` 要吃兩半的產物，所以跑在最後。
+`build_site.py` 允許公司資料不存在（用空集合），這樣公司 pipeline 出錯不會把整個網站拖下水。
+
+產出：各 `data/<region>/entities.json`、`data/all-entities.json`、`data/stats.json`、
+`data/all-companies.json`、`data/links.json`、`data/company-stats.json`、
+`reports/validation.md`、`reports/links.json`。
 
 ---
 
