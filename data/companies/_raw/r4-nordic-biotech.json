@@ -1,0 +1,1959 @@
+[
+  {
+    "id": "eu-novo-nordisk",
+    "name": {
+      "en": "Novo Nordisk"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 1923,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Bagsværd",
+    "website": "https://www.novonordisk.com",
+    "profile": {
+      "what": "Global pharmaceutical company manufacturing and marketing diabetes and obesity medications and devices, best known for the GLP-1 drug semaglutide.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Semaglutide (Ozempic/Rybelsus for diabetes, Wegovy for obesity)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Novo_Nordisk",
+        "title": "Novo Nordisk",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, product, financials",
+        "quote": "Novo Nordisk manufactures and markets pharmaceutical products and services, specifically diabetes and obesity medications and devices."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year ambiguous between predecessor labs (1920s) and the 1989 merger that created the modern corporation; used 1923 per sourced text.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-genmab",
+    "name": {
+      "en": "Genmab"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 1999,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Copenhagen",
+    "website": "https://www.genmab.com",
+    "profile": {
+      "what": "Antibody-engineering biotechnology company developing fully human antibodies for cancer and autoimmune disease using proprietary platforms like DuoBody and UniBody.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Daratumumab (DARZALEX, anti-CD38 antibody for multiple myeloma)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "DARZALEX (daratumumab)",
+          "year": 2015
+        },
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "TECVAYLI (teclistamab)",
+          "year": 2022
+        },
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "EPKINLY (epcoritamab)",
+          "year": 2023
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "ipo",
+          "amount": {
+            "raw": "DKK 1.56 billion",
+            "usd": null,
+            "currency": "DKK"
+          },
+          "date": "2000-10"
+        }
+      ],
+      "investors": [
+        {
+          "name": "BankInvest",
+          "entity_id": null,
+          "role": "lead",
+          "round": "seed",
+          "source_url": "https://en.wikipedia.org/wiki/Genmab"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Genmab",
+        "title": "Genmab",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, products, approvals, IPO, seed investor",
+        "quote": "Danish investment firm BankInvest, under Florian Schönharting, provided the seed investment for the company to start up in Copenhagen."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-zealand-pharma",
+    "name": {
+      "en": "Zealand Pharma"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 1997,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Søborg",
+    "website": "https://www.zealandpharma.com",
+    "profile": {
+      "what": "Danish biotechnology company specializing in peptide-based medicines, mainly for metabolic diseases like diabetes and obesity.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "Lyxumia (lixisenatide, GLP-1 receptor agonist)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "ipo",
+          "amount": {
+            "raw": null,
+            "usd": null,
+            "currency": null
+          },
+          "date": "2010"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Van Herk Investments",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Zealand_Pharma"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zealand_Pharma",
+        "title": "Zealand Pharma",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, IPO, investor",
+        "quote": "Zealand Pharma A/S was founded by Bjarne Due Larsen, Lars Hellerung Christiansen, Leif Helth Jensen, Dan Buxbom, and Florian Schönharting in 1997"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Lead asset/development stage reflects Lyxumia's status as reported in the sourced Wikipedia snapshot (registration outside US, Phase III in US); the company's current pipeline (e.g., petrilintide, glepaglutide) is more advanced but not sourced here.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-ascendis-pharma",
+    "name": {
+      "en": "Ascendis Pharma"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 2007,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Copenhagen",
+    "website": "https://ascendispharma.com",
+    "profile": {
+      "what": "Biopharmaceutical company built on the TransCon drug-conjugation technology platform, focused on rare endocrinology and other severe diseases.",
+      "modalities": [
+        "drug-delivery"
+      ],
+      "indications": [
+        "rare-disease",
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "TransCon platform products: SKYTROFA (lonapegsomatropin) and YORVIPATH (palopegteriparatide)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "ipo",
+          "amount": {
+            "raw": null,
+            "usd": null,
+            "currency": null
+          },
+          "date": "2015"
+        }
+      ],
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://ascendispharma.com/about/",
+        "title": "About Ascendis Pharma",
+        "publisher": "Ascendis Pharma",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, IPO, products",
+        "quote": "We are headquartered in Copenhagen, Denmark and are publicly traded, following an initial public offering in 2015 (Nasdaq: ASND)."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-bavarian-nordic",
+    "name": {
+      "en": "Bavarian Nordic"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 1994,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Hellerup",
+    "website": "https://www.bavarian-nordic.com",
+    "profile": {
+      "what": "Danish biotechnology company focused on the development, manufacturing and commercialization of vaccines, including smallpox/mpox and Ebola.",
+      "modalities": [
+        "vaccines"
+      ],
+      "indications": [
+        "infectious-disease"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Jynneos/Imvanex (smallpox and mpox vaccine)",
+      "regulatory": [
+        {
+          "body": "EMA",
+          "kind": "approval",
+          "item": "Imvanex",
+          "year": 2013
+        },
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Jynneos",
+          "year": 2019
+        },
+        {
+          "body": "EMA",
+          "kind": "approval",
+          "item": "Mvabea",
+          "year": 2020
+        }
+      ]
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bavarian_Nordic",
+        "title": "Bavarian Nordic",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, product, approvals, ticker",
+        "quote": "a Danish biotechnology company focused on the development, manufacturing and commercialization of vaccines."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-alk-abello",
+    "name": {
+      "en": "ALK-Abelló"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 1923,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Hørsholm",
+    "website": "https://www.alk.net",
+    "profile": {
+      "what": "Danish company specializing in the development and manufacturing of allergy immunotherapy (AIT) products for the prevention and treatment of allergy.",
+      "modalities": [
+        "vaccines"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "respiratory"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Acarizax (house dust mite sublingual immunotherapy tablet)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ALK-Abello",
+        "title": "ALK-Abelló",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, products, ownership",
+        "quote": "specializes in the development and manufacturing of allergy immunotherapy (AIT) products for the prevention and treatment of allergy."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Part-owned by the Lundbeck Foundation per source.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-evaxion-biotech",
+    "name": {
+      "en": "Evaxion Biotech"
+    },
+    "aka": [
+      "Evaxion"
+    ],
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "therapeutics",
+      "ai-drug-discovery"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Hørsholm",
+    "website": "https://evaxion.ai",
+    "profile": {
+      "what": "AI-driven vaccine discovery company that harnesses artificial intelligence to decode the human immune system and develop novel vaccine candidates for cancer and infectious disease.",
+      "modalities": [
+        "vaccines",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology",
+        "infectious-disease"
+      ],
+      "development_stage": "phase-2"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "ipo",
+          "amount": {
+            "raw": null,
+            "usd": null,
+            "currency": null
+          },
+          "date": "2021"
+        }
+      ],
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://evaxion.ai/about-us",
+        "title": "About Us",
+        "publisher": "Evaxion Biotech",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, pipeline stage, ticker",
+        "quote": "harnesses the power of artificial intelligence to decode the human immune system and develop novel vaccine candidates for cancer and infectious diseases."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year not sourced; ticker EVAX on Nasdaq Capital Market per site, listed since 2021.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-snipr-biome",
+    "name": {
+      "en": "SNIPR Biome"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "genomics-omics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Copenhagen",
+    "website": "https://sniprbiome.com",
+    "profile": {
+      "what": "Develops CRISPR-powered medicines targeting antibiotic-resistant bacteria through engineered bacteriophages and probiotics for precision drug delivery.",
+      "modalities": [
+        "gene-editing",
+        "microbiome"
+      ],
+      "indications": [
+        "infectious-disease"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "SNIPR001 (CRISPR-armed bacteriophage targeting E. coli bloodstream infections)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "fast-track",
+          "item": "SNIPR001",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$50M",
+            "usd": 50000000,
+            "currency": "USD"
+          },
+          "date": "2019"
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "Over $40M",
+            "usd": null,
+            "currency": "USD"
+          },
+          "date": "2025"
+        }
+      ],
+      "investors": [
+        {
+          "name": "SPRIN-D",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://sniprbiome.com"
+        },
+        {
+          "name": "Cystic Fibrosis Foundation",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://sniprbiome.com"
+        },
+        {
+          "name": "Gates Foundation",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://sniprbiome.com"
+        },
+        {
+          "name": "CARB-X",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://sniprbiome.com"
+        },
+        {
+          "name": "European Investment Bank",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://sniprbiome.com"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://sniprbiome.com",
+        "title": "SNIPR Biome",
+        "publisher": "SNIPR Biome",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, funding rounds, investors",
+        "quote": "By harnessing CRISPR-powered technology to target antibiotic-resistant bacteria, we are spearheading the development of the next generation of lifesaving treatments."
+      },
+      {
+        "url": "https://sniprbiome.com/news/",
+        "title": "News (old)",
+        "publisher": "SNIPR Biome",
+        "accessed": "2026-08-16",
+        "supports": "FDA Fast Track designation for SNIPR001",
+        "quote": "FDA Fast Track Designation for SNIPR001"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-symphogen",
+    "name": {
+      "en": "Symphogen"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "founded_year": 2000,
+    "region": "europe",
+    "country": "Denmark",
+    "hq_city": "Copenhagen",
+    "profile": {
+      "what": "Antibody-engineering biotechnology company developing recombinant monoclonal antibody mixtures for cancer, infectious disease and immunoglobulin replacement.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "infectious-disease",
+        "immunology-inflammation"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "Rozrolimupab (Sym001)"
+    },
+    "funding": {
+      "investors": [],
+      "exit": {
+        "type": "M&A",
+        "year": 2020,
+        "acquirer": "Laboratoires Servier"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Symphogen",
+        "title": "Symphogen",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, pipeline, acquisition",
+        "quote": "Laboratoires Servier acquired Symphogen in 2020"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Deal value not disclosed in source. No named VC/financial investors identified prior to acquisition; development partners (Genentech, Meiji Seika, Biovitrum, NIH/NIAID) are not equity investors so omitted from investors[].",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-hemab-therapeutics",
+    "name": {
+      "en": "Hemab Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Denmark",
+    "website": "https://hemab.com",
+    "profile": {
+      "what": "Develops targeted therapies for rare bleeding disorders such as Glanzmann Thrombasthenia, Factor VII Deficiency and Von Willebrand Disease.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "hematology",
+        "rare-disease"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "Sutacimig (for Glanzmann Thrombasthenia and Factor VII Deficiency)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c",
+          "amount": {
+            "raw": null,
+            "usd": null,
+            "currency": null
+          },
+          "date": null
+        }
+      ],
+      "investors": [
+        {
+          "name": "Novo Holdings",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://novoholdings.dk/"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://hemab.com/",
+        "title": "Hemab Therapeutics",
+        "publisher": "Hemab Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "focus, pipeline, IPO, Series C mention",
+        "quote": "Developing therapies for bleeding disorders in need of new treatment options"
+      },
+      {
+        "url": "https://novoholdings.dk/",
+        "title": "Novo Holdings homepage",
+        "publisher": "Novo Holdings",
+        "accessed": "2026-08-16",
+        "supports": "Novo Holdings as investor, IPO",
+        "quote": "Hemab Therapeutics (Nasdaq IPO)"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ city not independently confirmed via a direct quote in this session (commonly reported as Copenhagen-founded with a Boston presence); founding year and IPO ticker not sourced. Series C amount not disclosed in sourced content.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-adcendo",
+    "name": {
+      "en": "Adcendo"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Denmark",
+    "website": "https://www.adcendo.com",
+    "profile": {
+      "what": "Develops a new generation of antibody-drug conjugates (ADCs) engineered to address cancers with high unmet medical need.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c",
+          "amount": {
+            "raw": "$75 million",
+            "usd": 75000000,
+            "currency": "USD"
+          },
+          "date": "2026-04",
+          "lead": [
+            "Jeito Capital"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Jeito Capital",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-c",
+          "source_url": "https://www.adcendo.com"
+        },
+        {
+          "name": "Vida Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c",
+          "source_url": "https://www.adcendo.com"
+        },
+        {
+          "name": "BPI France",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c",
+          "source_url": "https://www.adcendo.com"
+        },
+        {
+          "name": "EIFO",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c",
+          "source_url": "https://www.adcendo.com"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.adcendo.com/",
+        "title": "Adcendo",
+        "publisher": "Adcendo",
+        "accessed": "2026-08-16",
+        "supports": "focus, pipeline, funding round, investors",
+        "quote": "We are developing a new generation of antibody-drug conjugates (ADCs) engineered to address cancers with high unmet medical need."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Lead asset/program name not disclosed by name on the source page beyond the Tiffany-01 Phase 1b study, so omitted rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-sobi",
+    "name": {
+      "en": "Sobi (Swedish Orphan Biovitrum)"
+    },
+    "aka": [
+      "Swedish Orphan Biovitrum"
+    ],
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 2010,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Stockholm",
+    "website": "https://www.sobi.com",
+    "profile": {
+      "what": "Develops treatments in haematology, immunology and specialty care, concentrating on rare disease therapeutics.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "rare-disease",
+        "hematology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Elocta/Eloctate (efmoroctocog alfa, hemophilia A)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Swedish_Orphan_Biovitrum",
+        "title": "Swedish Orphan Biovitrum",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, ticker, financials",
+        "quote": "haematology, immunology and specialty care"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-bioarctic",
+    "name": {
+      "en": "BioArctic"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "website": "https://www.bioarctic.com",
+    "profile": {
+      "what": "Swedish research-oriented biopharma company developing treatments for neurodegenerative disorders, including Alzheimer's, Parkinson's and ALS.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "neurology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Lecanemab (Leqembi, anti-amyloid-beta antibody, partnered with Eisai)",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Leqembi Iqlik (lecanemab-irmb) subcutaneous injection",
+          "year": 2026
+        }
+      ]
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.bioarctic.com/",
+        "title": "BioArctic",
+        "publisher": "BioArctic",
+        "accessed": "2026-08-16",
+        "supports": "focus, product, FDA approval",
+        "quote": "FDA approved Leqembi Iqlik® (lecanemab-irmb) subcutaneous injection as a starting dose for early Alzheimer's disease (July 13, 2026)"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ city, founding year and stock ticker not independently confirmed with a verbatim quote in this session (widely reported as Stockholm-based, Nasdaq Stockholm: BIOA B).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-hansa-biopharma",
+    "name": {
+      "en": "Hansa Biopharma"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Lund",
+    "website": "https://hansabiopharma.com",
+    "profile": {
+      "what": "Develops immunomodulating therapies using antibody-cleaving enzyme technology (imlifidase and HNSA-5487) for rare immunologic diseases including transplant desensitization.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "nephrology-urology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Imlifidase (IDEFIRIX)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://hansabiopharma.com/",
+        "title": "Hansa Biopharma",
+        "publisher": "Hansa Biopharma",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, product, ticker",
+        "quote": "We develop innovative immunomodulating therapies with the potential to transform the lives of people affected by rare immunologic conditions."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-camurus",
+    "name": {
+      "en": "Camurus"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 1991,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Lund",
+    "website": "https://www.camurus.com",
+    "profile": {
+      "what": "Develops nanoscale drug-delivery systems (FluidCrystal technology) for sustained release of peptides, proteins and small molecules.",
+      "modalities": [
+        "drug-delivery"
+      ],
+      "indications": [
+        "pain",
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "CAM2029 (octreotide depot, growth hormone disorders/acromegaly, partnered with Novartis)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Camurus",
+        "title": "Camurus",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, technology, products, ticker",
+        "quote": "nanoscale drug-delivery systems for development of high-value therapeutics"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-oncopeptides",
+    "name": {
+      "en": "Oncopeptides"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 2000,
+    "region": "europe",
+    "country": "Sweden",
+    "website": "https://www.oncopeptides.com",
+    "profile": {
+      "what": "Develops cancer therapies for difficult-to-treat hematological cancers, centered on Peptide Drug Conjugate (PDC) technology.",
+      "modalities": [
+        "drug-delivery"
+      ],
+      "indications": [
+        "oncology",
+        "hematology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Melflufen (Pepaxti, peptide-drug conjugate for multiple myeloma)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.oncopeptides.com/",
+        "title": "Oncopeptides",
+        "publisher": "Oncopeptides",
+        "accessed": "2026-08-16",
+        "supports": "founding, focus, product, EMA status",
+        "quote": "Melflufen is the first Peptide Drug Conjugate (PCD) with an alkylating payload."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Melflufen (Pepaxto) had its US accelerated approval withdrawn in 2021 after a confirmatory trial miss; EMA approval as Pepaxti remains referenced on the company's own site.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-cantargia",
+    "name": {
+      "en": "Cantargia"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Lund",
+    "website": "https://www.cantargia.com",
+    "profile": {
+      "what": "Develops antibody-based medicines targeting IL1RAP to treat cancer, autoimmune diseases and inflammatory conditions.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "unknown",
+      "lead_asset": "Nadunolimab (CAN04, anti-IL1RAP antibody)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.cantargia.com/",
+        "title": "Cantargia",
+        "publisher": "Cantargia",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, lead candidate",
+        "quote": "Vi utvecklar antikroppsbaserade läkemedel riktade mot IL1RAP"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Stock ticker/exchange (commonly reported as CANTA, Nasdaq Stockholm) not confirmed with a verbatim quote in this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-alligator-bioscience",
+    "name": {
+      "en": "Alligator Bioscience"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Lund",
+    "website": "https://alligatorbioscience.se",
+    "profile": {
+      "what": "Clinical-stage biotechnology company developing antibody-based pharmaceuticals for cancer treatment, focused on tumor-directed agonistic mono- and bispecific antibodies.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "unknown"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://alligatorbioscience.se/en/",
+        "title": "Alligator Bioscience",
+        "publisher": "Alligator Bioscience",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, ticker",
+        "quote": "Alligator, a clinical-stage biotechnology company, develops antibody-based pharmaceuticals for cancer treatment."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-bioinvent-international",
+    "name": {
+      "en": "BioInvent International"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Lund",
+    "website": "https://www.bioinvent.com",
+    "profile": {
+      "what": "Discovers and develops antibodies for cancer therapy, translating cancer antibody biology into novel immuno-oncology drugs.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "unknown"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.bioinvent.com/about-us/",
+        "title": "About Us",
+        "publisher": "BioInvent International",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, technology platforms, partnerships",
+        "quote": "discovers and develops antibodies for cancer therapy"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Stock ticker/exchange not confirmed with a verbatim quote in this session (commonly reported as BINV, Nasdaq Stockholm).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-vicore-pharma",
+    "name": {
+      "en": "Vicore Pharma"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Stockholm",
+    "website": "https://vicorepharma.com",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company developing treatments for respiratory and fibrotic diseases where the AT2 receptor has a central role, notably idiopathic pulmonary fibrosis.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "respiratory"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "Buloxibutid (oral AT2 receptor agonist, IPF)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://vicorepharma.com/",
+        "title": "Vicore Pharma",
+        "publisher": "Vicore Pharma",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, lead program, ticker",
+        "quote": "Vicore is an innovative clinical-stage biopharmaceutical company dedicated to creating life-changing treatments in diseases where the AT2 (angiotensin II type 2) receptor has a central role in stopping and reversing disease pathology."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Also has offices in Hørsholm, Denmark and Cambridge, MA per source; primary HQ recorded as Stockholm.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-recipharm",
+    "name": {
+      "en": "Recipharm"
+    },
+    "category": "pharma-services",
+    "sectors": [
+      "pharma-services"
+    ],
+    "status": "private",
+    "founded_year": 1995,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Stockholm",
+    "profile": {
+      "what": "Contract development and manufacturing organisation (CDMO) providing sterile fill & finish, oral solid dosage, and biologics manufacturing services to pharma customers worldwide.",
+      "modalities": [],
+      "indications": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$2.1 billion",
+            "usd": 2100000000,
+            "currency": "USD"
+          },
+          "date": "2021-02",
+          "lead": [
+            "EQT"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "EQT",
+          "entity_id": null,
+          "role": "lead",
+          "round": "growth",
+          "source_url": "https://en.wikipedia.org/wiki/Recipharm"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Recipharm",
+        "title": "Recipharm",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, business, EQT acquisition, scale",
+        "quote": "Acquired by private equity firm EQT in February 2021 for $2.1 billion"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-affibody",
+    "name": {
+      "en": "Affibody"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Solna",
+    "website": "https://www.affibody.se",
+    "profile": {
+      "what": "Develops next-generation radiopharmaceuticals and immunology therapeutics based on the proprietary Affibody molecule protein-engineering platform.",
+      "modalities": [
+        "radiopharmaceuticals",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "ABY-271 (HER2-targeted Affibody radioligand therapeutic for metastatic breast cancer)"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "HealthCap",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.healthcap.eu/portfolio"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.affibody.se/",
+        "title": "Affibody",
+        "publisher": "Affibody Medical AB",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, lead program",
+        "quote": "next generation radiopharmaceuticals based on our proprietary Affibody® platform"
+      },
+      {
+        "url": "https://www.healthcap.eu/portfolio",
+        "title": "Portfolio",
+        "publisher": "HealthCap",
+        "accessed": "2026-08-16",
+        "supports": "HealthCap investment",
+        "quote": "Affibody was a Swedish biotech company focused on developing biopharmaceuticals based on its unique proprietary technology platforms Affibody® molecules and Albumod™."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year not sourced (Affibody Medical AB copyright starts 2016, but the Affibody platform/company traces further back; left null rather than guessing).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-synact-pharma",
+    "name": {
+      "en": "SynAct Pharma"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Lund",
+    "website": "https://www.synactpharma.com",
+    "profile": {
+      "what": "Develops resolution-based therapies for inflammatory disease through selective activation of melanocortin receptors.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "immunology-inflammation"
+      ],
+      "development_stage": "unknown",
+      "lead_asset": "Resomelagon (AP1189, melanocortin receptor agonist)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.synactpharma.com/about-us",
+        "title": "About Us",
+        "publisher": "SynAct Pharma",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, lead program",
+        "quote": "Resomelagon (AP1189), is a once-daily oral therapy that selectively activates melanocortin receptors"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Company has dual offices in Lund, Sweden and Holte, Denmark; recorded under Sweden. Stock exchange listing not confirmed with a verbatim quote in this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-egetis-therapeutics",
+    "name": {
+      "en": "Egetis Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Stockholm",
+    "website": "https://www.egetis.com",
+    "profile": {
+      "what": "Integrated pharmaceutical company focused on late-stage orphan drug development, including treatments for MCT8 deficiency and acetaminophen overdose.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "rare-disease",
+        "endocrinology"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "Emcitate (tiratricol, for MCT8 deficiency / Allan-Herndon-Dudley syndrome)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.egetis.com/",
+        "title": "Egetis Therapeutics",
+        "publisher": "Egetis Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, lead product",
+        "quote": "An innovative and integrated pharmaceutical company, focusing on projects in late-stage development for commercialization for treatment of serious diseases with significant unmet medical needs in the orphan drug segment."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "development_stage of 'phase-3' is inferred from the site's 'late-stage development for commercialization' language, not an explicit phase label.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-photocure",
+    "name": {
+      "en": "Photocure"
+    },
+    "category": "diagnostics",
+    "sectors": [
+      "diagnostics",
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 1993,
+    "region": "europe",
+    "country": "Norway",
+    "hq_city": "Oslo",
+    "profile": {
+      "what": "Develops pharmaceuticals and medical devices using proprietary photodynamic technology, with a focus on bladder cancer detection and treatment.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Hexvix/Cysview (hexaminolevulinate, bladder cancer diagnosis)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Photocure",
+        "title": "Photocure",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, products, ticker",
+        "quote": "continue the commercialization of Hexvix for bladder cancer diagnostics, and continue the development of the cancer portfolio."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-algeta",
+    "name": {
+      "en": "Algeta"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "founded_year": 1997,
+    "region": "europe",
+    "country": "Norway",
+    "hq_city": "Oslo",
+    "profile": {
+      "what": "Specialized in alpha-particle emitting radiopharmaceuticals for cancer treatment; developed the first marketed alpha-emitter radiopharmaceutical.",
+      "modalities": [
+        "radiopharmaceuticals"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Xofigo (radium-223 dichloride)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": null,
+            "usd": null,
+            "currency": null
+          },
+          "date": "2005",
+          "lead": [
+            "HealthCap"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "HealthCap",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Algeta"
+        },
+        {
+          "name": "Advent Venture",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Algeta"
+        },
+        {
+          "name": "SR One",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Algeta"
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2013,
+        "acquirer": "Bayer AG",
+        "value": {
+          "raw": "$2.9 billion",
+          "usd": 2900000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Algeta",
+        "title": "Algeta",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, product, investors, acquisition",
+        "quote": "the first marketed alpha-particle emitting radiopharmaceutics for cancer treatment"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-oncoinvent",
+    "name": {
+      "en": "Oncoinvent"
+    },
+    "aka": [
+      "BerGenBio"
+    ],
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Norway",
+    "hq_city": "Oslo",
+    "website": "https://www.oncoinvent.com",
+    "profile": {
+      "what": "Develops targeted radiotherapeutics for peritoneal cancers, including a Phase 2 program in ovarian cancer; combined in 2025 with former AXL-kinase-inhibitor developer BerGenBio.",
+      "modalities": [
+        "radiopharmaceuticals",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "Radspherin (radium-224-labeled alpha-emitter microparticles for peritoneal cancer)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.oncoinvent.com/",
+        "title": "Oncoinvent",
+        "publisher": "Oncoinvent",
+        "accessed": "2026-08-16",
+        "supports": "HQ, lead product, development stage",
+        "quote": "Phase 2 ovarian cancer study underway (50% recruitment milestone achieved as of June 18, 2026)"
+      },
+      {
+        "url": "https://www.bergenbio.com/",
+        "title": "BerGenBio",
+        "publisher": "BerGenBio / Oncoinvent",
+        "accessed": "2026-08-16",
+        "supports": "merger history",
+        "quote": "The merger between BerGenBio ASA and Oncoinvent ASA was completed 29 October 2025, and the Combined company was renamed to Oncoinvent."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Record covers the post-merger combined entity; BerGenBio ASA (AXL kinase inhibitor bemcentinib, oncology) merged into Oncoinvent ASA in October 2025.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-circio",
+    "name": {
+      "en": "Circio"
+    },
+    "aka": [
+      "Targovax"
+    ],
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Norway",
+    "hq_city": "Oslo",
+    "website": "https://www.circio.com",
+    "profile": {
+      "what": "Biotechnology company developing circular RNA and immunotherapy medicines for genetic disease; formerly Targovax, an oncolytic virus/neoantigen-vaccine oncology company.",
+      "modalities": [
+        "rna-therapeutics"
+      ],
+      "indications": [
+        "oncology",
+        "rare-disease"
+      ],
+      "development_stage": "unknown"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.circio.com/about-us/",
+        "title": "About Us",
+        "publisher": "Circio Holding ASA",
+        "accessed": "2026-08-16",
+        "supports": "HQ, rebrand from Targovax, focus",
+        "quote": "We can now substantially scale up our R&D activities with financial visibility well into 2030."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Rebrand/pivot timeline from Targovax to Circio not precisely dated in sourced content.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-orion-corporation",
+    "name": {
+      "en": "Orion Corporation"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "animal-health"
+    ],
+    "status": "public",
+    "founded_year": 1917,
+    "region": "europe",
+    "country": "Finland",
+    "hq_city": "Espoo",
+    "profile": {
+      "what": "Develops, manufactures and markets human and veterinary pharmaceuticals plus active pharmaceutical ingredients, with manufacturing and most R&D based in Finland.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "neurology",
+        "oncology",
+        "respiratory"
+      ],
+      "development_stage": "commercial",
+      "lead_asset": "Nubeqa (darolutamide, prostate cancer, partnered with Bayer)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Orion_Corporation_(pharmaceutical_company)",
+        "title": "Orion Corporation (pharmaceutical company)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, products, financials, ticker",
+        "quote": "Orion was established on September 21, 1917, and is headquartered in Espoo, Finland."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-faron-pharmaceuticals",
+    "name": {
+      "en": "Faron Pharmaceuticals"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": 2003,
+    "region": "europe",
+    "country": "Finland",
+    "hq_city": "Turku",
+    "profile": {
+      "what": "Develops treatments for acute organ trauma, vascular damage and cancer immunotherapy.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "respiratory"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "Bexmarilimab (Clevegen, anti-Clever-1 antibody)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "€14 million",
+            "usd": null,
+            "currency": "EUR"
+          },
+          "date": "2020-04"
+        }
+      ],
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Faron_Pharmaceuticals",
+        "title": "Faron Pharmaceuticals",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, products, listing, funding",
+        "quote": "the development of treatments for acute organ traumas, vascular damage and cancer immunotherapy."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-herantis-pharma",
+    "name": {
+      "en": "Herantis Pharma"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Finland",
+    "hq_city": "Espoo",
+    "website": "https://www.herantis.com",
+    "profile": {
+      "what": "Clinical-stage biotechnology company developing neurorestorative therapies aimed at slowing or stopping the progression of Parkinson's disease.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "neurology"
+      ],
+      "development_stage": "unknown",
+      "lead_asset": "HER-096 (CDNF-derived peptidomimetic for Parkinson's disease)"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.herantis.com/about-us/",
+        "title": "About Us",
+        "publisher": "Herantis Pharma",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, lead program, ticker",
+        "quote": "A clinical-stage biotechnology company developing neurorestorative therapies aimed at slowing or stopping the progression of Parkinson's disease."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-nanoform-finland",
+    "name": {
+      "en": "Nanoform Finland"
+    },
+    "category": "pharma-services",
+    "sectors": [
+      "pharma-services",
+      "life-science-tools"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Finland",
+    "hq_city": "Helsinki",
+    "website": "https://www.nanoform.com",
+    "profile": {
+      "what": "Develops nanoparticle-based drug formulation technology (nanoforming) to improve the performance and delivery of small- and large-molecule drugs.",
+      "modalities": [
+        "drug-delivery"
+      ],
+      "indications": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.nanoform.com/about-us/",
+        "title": "About Us",
+        "publisher": "Nanoform Finland Oyj",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, technology",
+        "quote": "Improve the performance of your small- and large-molecule formulations — from early development through to lifecycle management — by enabling higher drug loads in smaller tablets, in subcutaneous injections, and alternative delivery formats."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Stock ticker/exchange not confirmed with a verbatim quote (commonly reported as NANOFH, Nasdaq First North Growth Market Finland).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-desentum",
+    "name": {
+      "en": "Desentum"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "europe",
+    "country": "Finland",
+    "hq_city": "Espoo",
+    "website": "https://desentum.fi",
+    "profile": {
+      "what": "Develops allergen immunotherapy (AIT) products using recombinant allergens specifically modified to suppress histamine release during desensitization.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "respiratory"
+      ],
+      "development_stage": "unknown"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "€18 million",
+            "usd": null,
+            "currency": "EUR"
+          },
+          "date": "2026-04"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Springvest",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth",
+          "source_url": "https://desentum.fi"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://desentum.fi/",
+        "title": "Desentum",
+        "publisher": "Desentum",
+        "accessed": "2026-08-16",
+        "supports": "HQ, focus, funding round, investor",
+        "quote": "€18 million share issue from private investors and family offices (April 2026), described as the largest public share issue ever conducted in Finland by an unlisted growth company"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-alvotech",
+    "name": {
+      "en": "Alvotech"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "pharma-services"
+    ],
+    "status": "public",
+    "founded_year": 2013,
+    "region": "europe",
+    "country": "Iceland",
+    "hq_city": "Reykjavík",
+    "website": "https://www.alvotech.com",
+    "profile": {
+      "what": "Develops and manufactures biosimilars, cost-competitive versions of biologic medicines, to make proven biologic treatments more accessible globally.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "immunology-inflammation"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "sources": [
+      {
+        "url": "https://www.alvotech.com/about-us",
+        "title": "About Us",
+        "publisher": "Alvotech",
+        "accessed": "2026-08-16",
+        "supports": "focus",
+        "quote": "We believe it should be accessible to all patients in need"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alvogen",
+        "title": "Alvogen",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding year, ticker, HQ",
+        "quote": "Alvotech, a separate biosimilars company founded by Wessman in 2013... researches and manufactures biosimilars and is based in Reykjavik."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Trades on Nasdaq (ALVO) plus Nasdaq Iceland and Nasdaq Stockholm per the Alvogen Wikipedia article, which covers the related but separate parent/founder company.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  },
+  {
+    "id": "eu-decode-genetics",
+    "name": {
+      "en": "deCODE genetics"
+    },
+    "category": "genomics-omics",
+    "sectors": [
+      "genomics-omics",
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "founded_year": 1996,
+    "region": "europe",
+    "country": "Iceland",
+    "hq_city": "Reykjavík",
+    "profile": {
+      "what": "Conducts population-level genetics studies to identify genomic variations associated with common diseases, using human genetic analysis to discover and validate drug targets.",
+      "modalities": [],
+      "indications": [
+        "oncology",
+        "cardiovascular",
+        "rare-disease"
+      ],
+      "development_stage": "discovery"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "ARCH Venture Partners",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://en.wikipedia.org/wiki/DeCODE_genetics"
+        },
+        {
+          "name": "Polaris Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://en.wikipedia.org/wiki/DeCODE_genetics"
+        },
+        {
+          "name": "Illumina, Inc.",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://en.wikipedia.org/wiki/DeCODE_genetics"
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2012,
+        "acquirer": "Amgen",
+        "value": {
+          "raw": "$415 million",
+          "usd": 415000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/DeCODE_genetics",
+        "title": "deCODE genetics",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, focus, investors, Amgen acquisition",
+        "quote": "It was really working on targets like PCSK9 [for heart disease]...that really drove home the immense value of having targets that have either been discovered or validated by the kind of human genetic analysis that Decode is a world expert in."
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r4-nordic-biotech"
+  }
+]
