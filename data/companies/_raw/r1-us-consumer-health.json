@@ -1,0 +1,3625 @@
+[
+  {
+    "id": "us-hims-hers",
+    "name": {
+      "en": "Hims & Hers Health"
+    },
+    "aka": [
+      "Hims",
+      "Hers",
+      "Hims Inc."
+    ],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, CA",
+    "website": "https://www.hims.com",
+    "profile": {
+      "what": "Direct-to-consumer telehealth platform prescribing and shipping prescription and OTC medications and personal-care products by subscription, spanning sexual health, hair loss, dermatology, mental health and weight loss.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "dermatology",
+        "psychiatry-mental-health",
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "$7M",
+            "usd": 7000000,
+            "currency": "USD"
+          },
+          "lead": []
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$100M",
+            "usd": 100000000,
+            "currency": "USD"
+          },
+          "date": "2019-01"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Forerunner Ventures",
+          "entity_id": null,
+          "role": "angel",
+          "round": "seed"
+        },
+        {
+          "name": "Thrive Capital",
+          "entity_id": null,
+          "role": "angel",
+          "round": "seed"
+        }
+      ],
+      "exit": {
+        "type": "SPAC",
+        "year": 2021,
+        "acquirer": "Oaktree Acquisition Corp.",
+        "value": {
+          "raw": "$1.6B",
+          "usd": 1600000000,
+          "currency": "USD"
+        },
+        "ticker": "NYSE:HIMS"
+      }
+    },
+    "summary": {
+      "en": "DTC telehealth and pharmacy platform; went public via SPAC in Jan 2021 and has since acquired Apostrophe, MedisourceRx, ZAVA and Eucalyptus Health."
+    },
+    "tags": [
+      "telehealth",
+      "dtc-prescribing",
+      "glp-1"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hims_%26_Hers_Health",
+        "title": "Hims & Hers Health",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, funding, SPAC, acquisitions",
+        "quote": "The transaction closed on January 20, 2021 at a valuation of $1.6 billion, and shares began trading the following day on the New York Stock Exchange."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Wikipedia-sourced; seed-round dollar figure ($7M) and Series C ($100M at $1B pre-money, Jan 2019) not independently re-verified against a primary filing this session (WebSearch budget was exhausted session-wide). Kirsten Green (Forerunner) and Josh Kushner (Thrive Capital) named as seed backers.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-goodrx",
+    "name": {
+      "en": "GoodRx Holdings"
+    },
+    "aka": [
+      "GoodRx"
+    ],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health",
+      "healthcare-it"
+    ],
+    "status": "public",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Santa Monica, CA",
+    "website": "https://www.goodrx.com",
+    "profile": {
+      "what": "Free prescription-price comparison website/app tracking drug prices across 75,000+ U.S. pharmacies and issuing discount coupons, plus a GoodRx Care telehealth and subscription arm.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "last_round": {
+        "stage": "ipo",
+        "amount": {
+          "raw": "$1.1B+",
+          "usd": 1100000000,
+          "currency": "USD"
+        },
+        "date": "2020-09"
+      },
+      "investors": [],
+      "exit": {
+        "type": "IPO",
+        "year": 2020,
+        "value": {
+          "raw": "~$12.7B valuation",
+          "usd": 12700000000,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:GDRX"
+      }
+    },
+    "summary": {
+      "en": "Consumer prescription-price transparency platform; IPO'd Sept 2020 on Nasdaq at ~$12.7B valuation, raising over $1.1B."
+    },
+    "tags": [
+      "rx-discount",
+      "price-transparency",
+      "telehealth"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/GoodRx",
+        "title": "GoodRx",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, IPO valuation, capital raised, 2024 financials",
+        "quote": "raising more than $1.1 billion"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No pre-IPO venture round or named VC investor found this session (search budget exhausted); GoodRx was in fact VC-backed pre-IPO (e.g. Silver Lake, Spectrum Equity per general market knowledge) but that is NOT sourced here and is deliberately omitted rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-amwell",
+    "name": {
+      "en": "Amwell"
+    },
+    "aka": [
+      "American Well"
+    ],
+    "category": "digital-health",
+    "sectors": [
+      "consumer-health",
+      "healthcare-it"
+    ],
+    "status": "public",
+    "founded_year": 2006,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "website": "https://www.amwell.com",
+    "profile": {
+      "what": "B2B2C telehealth platform selling subscription video-visit infrastructure to health systems, payers and employers, who in turn offer it to consumers/patients.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "$500M+",
+        "usd": 500000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$10M",
+            "usd": 10000000,
+            "currency": "USD"
+          },
+          "date": "2009"
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$81M",
+            "usd": 81000000,
+            "currency": "USD"
+          },
+          "date": "2014"
+        },
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$291M",
+            "usd": 291000000,
+            "currency": "USD"
+          },
+          "date": "2018-06"
+        },
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$100M",
+            "usd": 100000000,
+            "currency": "USD"
+          },
+          "date": "2020-08",
+          "lead": [
+            "Google"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Google",
+          "entity_id": null,
+          "role": "participant",
+          "round": "growth (concurrent with IPO)",
+          "source_url": "https://en.wikipedia.org/wiki/Amwell_(company)"
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2020,
+        "ticker": "NYSE:AMWL"
+      }
+    },
+    "summary": {
+      "en": "Enterprise-sold telehealth platform (patients reach it through their health system/payer); IPO'd Aug 2020 with a concurrent $100M Google investment; acquired SilverCloud and Conversa in 2021."
+    },
+    "tags": [
+      "telehealth",
+      "b2b2c",
+      "virtual-care"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amwell_(company)",
+        "title": "Amwell (company)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "funding history, IPO, Google investment",
+        "quote": "more than $500 million from investors"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Consumer-facing only indirectly (B2B2C); included because end patients are consumers of the telehealth visit itself. 2024 reporting (Axios, cited secondhand by Wikipedia) described the company in financial distress — worth a status recheck by verification pass.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-teladoc-health",
+    "name": {
+      "en": "Teladoc Health"
+    },
+    "aka": [
+      "Teladoc"
+    ],
+    "category": "digital-health",
+    "sectors": [
+      "consumer-health",
+      "healthcare-it"
+    ],
+    "status": "public",
+    "founded_year": 2002,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://www.teladochealth.com",
+    "profile": {
+      "what": "Telemedicine and virtual-care company offering on-demand doctor visits, mental health (via BetterHelp), chronic-condition management and AI health analytics.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health",
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$9M",
+            "usd": 9000000,
+            "currency": "USD"
+          },
+          "date": "2009",
+          "lead": [
+            "HLM Venture Partners"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$50M",
+            "usd": 50000000,
+            "currency": "USD"
+          },
+          "date": "2014"
+        }
+      ],
+      "investors": [
+        {
+          "name": "HLM Venture Partners",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2009 round",
+          "source_url": "https://en.wikipedia.org/wiki/Teladoc"
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2015,
+        "value": {
+          "raw": "$758M market cap at IPO",
+          "usd": 758000000,
+          "currency": "USD"
+        },
+        "ticker": "NYSE:TDOC"
+      }
+    },
+    "summary": {
+      "en": "Largest US telehealth company by revenue; IPO'd 2015, acquired BetterHelp (2015), Best Doctors (2017), InTouch Health (2020, $600M) and Livongo Health (2020, $13.9B)."
+    },
+    "tags": [
+      "telehealth",
+      "chronic-disease",
+      "mental-health"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Teladoc",
+        "title": "Teladoc Health",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, funding rounds, IPO, acquisitions, 2024 financials",
+        "quote": "Teladoc's initial public offering listed at $19 per share, giving the company a market capitalization of $758 million."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-talkspace",
+    "name": {
+      "en": "Talkspace"
+    },
+    "aka": [],
+    "category": "mental-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://www.talkspace.com",
+    "profile": {
+      "what": "Online/mobile therapy and psychiatry platform connecting users with licensed clinicians via text, audio, video messaging and live video sessions.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$9.5M",
+            "usd": 9500000,
+            "currency": "USD"
+          },
+          "date": "2015-05",
+          "lead": [
+            "Spark Capital",
+            "SoftBank"
+          ]
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$15M",
+            "usd": 15000000,
+            "currency": "USD"
+          },
+          "date": "2016-06",
+          "lead": [
+            "Norwest Venture Partners"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$31M",
+            "usd": 31000000,
+            "currency": "USD"
+          },
+          "date": "2017-09",
+          "lead": [
+            "Qumra Capital"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$50M",
+            "usd": 50000000,
+            "currency": "USD"
+          },
+          "date": "2019-08"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Spark Capital",
+          "entity_id": null,
+          "role": "co-lead",
+          "round": "series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Talkspace"
+        },
+        {
+          "name": "SoftBank",
+          "entity_id": null,
+          "role": "co-lead",
+          "round": "series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Talkspace"
+        },
+        {
+          "name": "Norwest Venture Partners",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-b",
+          "source_url": "https://en.wikipedia.org/wiki/Talkspace"
+        },
+        {
+          "name": "Qumra Capital",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-c-plus",
+          "source_url": "https://en.wikipedia.org/wiki/Talkspace"
+        }
+      ],
+      "exit": {
+        "type": "SPAC",
+        "year": 2021,
+        "acquirer": "Hudson Executive Investment Corp.",
+        "value": {
+          "raw": "$1.4B",
+          "usd": 1400000000,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:TALK"
+      }
+    },
+    "summary": {
+      "en": "Teletherapy pioneer; SPAC'd June 2021 at $1.4B. In March 2026, Universal Health Services agreed to acquire Talkspace for $835M."
+    },
+    "tags": [
+      "teletherapy",
+      "mental-health"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Talkspace",
+        "title": "Talkspace",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "funding rounds, SPAC, pending UHS acquisition",
+        "quote": "Universal Health Services agreed to acquire Talkspace for $835 million."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "UHS acquisition announced March 2026 per source; not confirmed closed as of this record's last_updated date, so status is left 'public' rather than 'acquired' — worth rechecking.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-23andme",
+    "name": {
+      "en": "23andMe"
+    },
+    "aka": [],
+    "category": "genomics-omics",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "acquired",
+    "founded_year": 2006,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Palo Alto, CA",
+    "website": "https://www.23andme.com",
+    "profile": {
+      "what": "Direct-to-consumer genetic testing service analyzing saliva samples via SNP genotyping to report ancestry and genetic health-predisposition information.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "rare-disease"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$50M",
+            "usd": 50000000,
+            "currency": "USD"
+          },
+          "date": "2012"
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$115M",
+            "usd": 115000000,
+            "currency": "USD"
+          },
+          "date": "2015"
+        },
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "~$250M",
+            "usd": 250000000,
+            "currency": "USD"
+          },
+          "date": "2017"
+        },
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$82.5M",
+            "usd": 82500000,
+            "currency": "USD"
+          },
+          "date": "2020"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Google",
+          "entity_id": null,
+          "role": "angel",
+          "round": "2007 round",
+          "source_url": "https://en.wikipedia.org/wiki/23andMe"
+        },
+        {
+          "name": "Genentech",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2007 round",
+          "source_url": "https://en.wikipedia.org/wiki/23andMe"
+        },
+        {
+          "name": "New Enterprise Associates",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2007 round",
+          "source_url": "https://en.wikipedia.org/wiki/23andMe"
+        },
+        {
+          "name": "Mohr Davidow Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2007 round",
+          "source_url": "https://en.wikipedia.org/wiki/23andMe"
+        },
+        {
+          "name": "GlaxoSmithKline",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2018 partnership investment",
+          "source_url": "https://en.wikipedia.org/wiki/23andMe"
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2025,
+        "acquirer": "TTAM Research Institute",
+        "value": {
+          "raw": "$305M",
+          "usd": 305000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Pioneering consumer genomics company; SPAC'd 2021 at $3.5B, filed Chapter 11 in March 2025, and had its assets acquired by TTAM Research Institute (a nonprofit founded by ex-CEO Anne Wojcicki) for $305M in July 2025, now operating as a nonprofit."
+    },
+    "tags": [
+      "consumer-genomics",
+      "dtc-testing"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/23andMe",
+        "title": "23andMe",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "funding history, SPAC, bankruptcy, TTAM acquisition",
+        "quote": "TTAM Research Institute completed acquisition of substantially all 23andMe assets on July 14, 2025, for $305 million."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Also had a 2021 SPAC IPO (VG Acquisition Corp, $3.5B, NASDAQ:ME) prior to the 2025 bankruptcy/TTAM acquisition; exit block records only the most recent (final) corporate event per schema guidance.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-fitbit",
+    "name": {
+      "en": "Fitbit"
+    },
+    "aka": [],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "acquired",
+    "founded_year": 2007,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, CA",
+    "website": "https://www.fitbit.com",
+    "profile": {
+      "what": "Wireless wearable fitness technology — smartwatches, activity trackers, pedometers and heart-rate monitors — with companion software and mobile apps.",
+      "modalities": [
+        "wearables-sensors"
+      ],
+      "indications": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2021,
+        "acquirer": "Google",
+        "value": {
+          "raw": "$2.1B",
+          "usd": 2100000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Consumer wearables pioneer; IPO'd 2015 raising $732M (NASDAQ:FIT), then acquired by Google for $2.1B, completed Jan 2021."
+    },
+    "tags": [
+      "wearables",
+      "fitness-tracker"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fitbit",
+        "title": "Fitbit",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, IPO, Google acquisition",
+        "quote": "In January 2021, Fitbit was acquired by Google for $2.1 billion and incorporated into its hardware division."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "No named pre-IPO VC investors found this session (Wikipedia article doesn't list them; WebSearch budget was exhausted so this wasn't independently dug up).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-ro",
+    "name": {
+      "en": "Ro"
+    },
+    "aka": [
+      "Roman Health Ventures",
+      "Roman"
+    ],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://ro.co",
+    "profile": {
+      "what": "DTC telehealth company (launched as men's-health brand Roman) that diagnoses, prescribes and delivers treatment via integrated labs and pharmacy, spanning men's health, women's fertility (Modern Fertility, acquired 2021) and weight care.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "valuation": {
+        "raw": "$5B",
+        "usd": 5000000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "$3.1M",
+            "usd": 3100000,
+            "currency": "USD"
+          },
+          "date": "2017",
+          "lead": [
+            "General Catalyst"
+          ]
+        },
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$88M",
+            "usd": 88000000,
+            "currency": "USD"
+          },
+          "date": "2018",
+          "lead": [
+            "FirstMark Capital"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$200M",
+            "usd": 200000000,
+            "currency": "USD"
+          },
+          "date": "2020-07"
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$500M",
+            "usd": 500000000,
+            "currency": "USD"
+          },
+          "date": "2021-03",
+          "lead": [
+            "General Catalyst",
+            "FirstMark Capital",
+            "TQ Ventures"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "General Catalyst",
+          "entity_id": null,
+          "role": "lead",
+          "round": "seed",
+          "source_url": "https://en.wikipedia.org/wiki/Ro_(company)"
+        },
+        {
+          "name": "FirstMark Capital",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Ro_(company)"
+        },
+        {
+          "name": "TQ Ventures",
+          "entity_id": null,
+          "role": "co-lead",
+          "round": "series-c-plus (2021)",
+          "source_url": "https://en.wikipedia.org/wiki/Ro_(company)"
+        }
+      ]
+    },
+    "summary": {
+      "en": "DTC telehealth platform (Roman/Rory/Zero) valued at $5B after a $500M March-2021 round; acquired Modern Fertility and Kit in 2021."
+    },
+    "tags": [
+      "telehealth",
+      "dtc-prescribing",
+      "mens-health",
+      "fertility"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ro_(company)",
+        "title": "Ro (company)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "funding rounds, investors, valuation, acquisitions",
+        "quote": "a $5 billion valuation"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-alivecor",
+    "name": {
+      "en": "AliveCor"
+    },
+    "aka": [],
+    "category": "medtech-devices",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "private",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Mountain View, CA",
+    "website": "https://www.alivecor.com",
+    "profile": {
+      "what": "Medical device and AI company making FDA-cleared ECG hardware/software (KardiaMobile, KardiaBand) that pairs with consumer mobile devices for remote heart-rhythm monitoring.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "clearance",
+          "item": "KardiaMobile 6L (six-lead ECG)",
+          "year": 2019
+        },
+        {
+          "body": "FDA",
+          "kind": "clearance",
+          "item": "Kardia 12L (AI-based 12-lead system)",
+          "year": 2024
+        }
+      ]
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "$43.5M (through 2017)",
+        "usd": 43500000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "$3M",
+            "usd": 3000000,
+            "currency": "USD"
+          },
+          "date": "2011"
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$30M",
+            "usd": 30000000,
+            "currency": "USD"
+          },
+          "date": "2017",
+          "lead": [
+            "Omron"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$65M",
+            "usd": 65000000,
+            "currency": "USD"
+          },
+          "date": "2020",
+          "lead": [
+            "Omron"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "undisclosed",
+            "usd": null,
+            "currency": null
+          },
+          "date": "2022",
+          "lead": [
+            "GE Healthcare"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Omron",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2017 & 2020 rounds",
+          "source_url": "https://en.wikipedia.org/wiki/AliveCor"
+        },
+        {
+          "name": "Mayo Clinic",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2017 round",
+          "source_url": "https://en.wikipedia.org/wiki/AliveCor"
+        },
+        {
+          "name": "Khosla Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2020 round",
+          "source_url": "https://en.wikipedia.org/wiki/AliveCor"
+        },
+        {
+          "name": "WP Global Partners",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2020 round",
+          "source_url": "https://en.wikipedia.org/wiki/AliveCor"
+        },
+        {
+          "name": "Qualcomm Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2020 round",
+          "source_url": "https://en.wikipedia.org/wiki/AliveCor"
+        },
+        {
+          "name": "BOLD Capital Partners",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2020 round",
+          "source_url": "https://en.wikipedia.org/wiki/AliveCor"
+        },
+        {
+          "name": "GE Healthcare",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2022 round",
+          "source_url": "https://en.wikipedia.org/wiki/AliveCor"
+        },
+        {
+          "name": "Pegasus Tech Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "2022 round",
+          "source_url": "https://en.wikipedia.org/wiki/AliveCor"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Maker of FDA-cleared personal ECG devices (KardiaMobile); backed by med-device strategics Omron and GE Healthcare alongside Khosla Ventures and Qualcomm Ventures."
+    },
+    "tags": [
+      "wearables",
+      "ecg",
+      "cardiac-monitoring"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/AliveCor",
+        "title": "AliveCor",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "funding rounds, investors, FDA clearances",
+        "quote": "$30 million in series D funding from medical-device maker Omron and the Mayo Clinic, bringing the total raised to date to $43.5 million"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-cerebral",
+    "name": {
+      "en": "Cerebral"
+    },
+    "aka": [
+      "Cerebral Inc."
+    ],
+    "category": "mental-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2020,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://cerebral.com",
+    "profile": {
+      "what": "DTC telehealth platform for therapy, counseling and psychiatric medication management, including ADHD and depression/anxiety treatment.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "valuation": {
+        "raw": "$4.8B (peak)",
+        "usd": 4800000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$127M",
+            "usd": 127000000,
+            "currency": "USD"
+          },
+          "date": "2021-06"
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$300M",
+            "usd": 300000000,
+            "currency": "USD"
+          },
+          "date": "2021-12",
+          "lead": [
+            "SoftBank Vision Fund 2"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "SoftBank Vision Fund 2",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-c-plus",
+          "source_url": "https://en.wikipedia.org/wiki/Cerebral_(company)"
+        },
+        {
+          "name": "Prysm Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c-plus",
+          "source_url": "https://en.wikipedia.org/wiki/Cerebral_(company)"
+        },
+        {
+          "name": "Access Industries",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c-plus",
+          "source_url": "https://en.wikipedia.org/wiki/Cerebral_(company)"
+        },
+        {
+          "name": "WestCap Group",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c-plus",
+          "source_url": "https://en.wikipedia.org/wiki/Cerebral_(company)"
+        }
+      ]
+    },
+    "summary": {
+      "en": "DTC mental-health/ADHD telehealth company; peaked at $4.8B valuation (Dec 2021), then faced a DOJ controlled-substances investigation, ceased most controlled-substance prescribing, and in Nov 2024 agreed to pay $3.65M to resolve the probe."
+    },
+    "tags": [
+      "telehealth",
+      "mental-health",
+      "adhd"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cerebral_(company)",
+        "title": "Cerebral (company)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "funding, valuation, DOJ settlement",
+        "quote": "$300 million in a Series C funding round led by SoftBank Vision Fund 2"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city not found in source; regulatory history (DOJ) is significant context for a consumer-health directory and is included for balance.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-bicycle-health",
+    "name": {
+      "en": "Bicycle Health"
+    },
+    "aka": [],
+    "category": "mental-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "private",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "website": "https://www.bicyclehealth.com",
+    "profile": {
+      "what": "Virtual medication-assisted-treatment (buprenorphine/Suboxone via telemedicine) provider for opioid use disorder, with medication management, support groups, drug testing and care coordination.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "$83M (through Series B)",
+        "usd": 83000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "seed",
+          "date": "2020-05",
+          "lead": [
+            "SignalFire"
+          ]
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$50M",
+            "usd": 50000000,
+            "currency": "USD"
+          },
+          "date": "2022-06",
+          "lead": [
+            "InterAlpen Partners"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "SignalFire",
+          "entity_id": null,
+          "role": "lead",
+          "round": "seed",
+          "source_url": "https://en.wikipedia.org/wiki/Bicycle_Health"
+        },
+        {
+          "name": "InterAlpen Partners",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-b",
+          "source_url": "https://en.wikipedia.org/wiki/Bicycle_Health"
+        },
+        {
+          "name": "Questa Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-b",
+          "source_url": "https://en.wikipedia.org/wiki/Bicycle_Health"
+        },
+        {
+          "name": "Frist Cressey Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-b",
+          "source_url": "https://en.wikipedia.org/wiki/Bicycle_Health"
+        },
+        {
+          "name": "City Light Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-b",
+          "source_url": "https://en.wikipedia.org/wiki/Bicycle_Health"
+        },
+        {
+          "name": "Cobalt Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-b",
+          "source_url": "https://en.wikipedia.org/wiki/Bicycle_Health"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Telehealth opioid-use-disorder treatment provider; named a TIME 100 Most Influential Company in 2022; served 18,000+ patients across 29 states as of Oct 2022."
+    },
+    "tags": [
+      "telehealth",
+      "opioid-use-disorder",
+      "substance-use"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bicycle_Health",
+        "title": "Bicycle Health",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, funding, investors, patient reach",
+        "quote": "raised $50 million in series B funding round, bringing its total fundraise to date to $83 million"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-spring-health",
+    "name": {
+      "en": "Spring Health"
+    },
+    "aka": [],
+    "category": "mental-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2016,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://www.springhealth.com",
+    "profile": {
+      "what": "Digital mental-health company offering employer/health-plan mental health benefits: self-guided CBT exercises, coaching, clinical therapy and psychiatric medication management, matched via a machine-learning algorithm.",
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "valuation": {
+        "raw": "$3.3B (2024)",
+        "usd": 3300000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "$6M",
+            "usd": 6000000,
+            "currency": "USD"
+          },
+          "date": "2018"
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$190M",
+            "usd": 190000000,
+            "currency": "USD"
+          },
+          "date": "2021-09",
+          "lead": [
+            "Kinnevik"
+          ]
+        },
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$71M",
+            "usd": 71000000,
+            "currency": "USD"
+          },
+          "date": "2023"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Kinnevik",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-c-plus (2021)",
+          "source_url": "https://en.wikipedia.org/wiki/Spring_Health"
+        },
+        {
+          "name": "Guardian Life Insurance",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-c-plus (2021)",
+          "source_url": "https://en.wikipedia.org/wiki/Spring_Health"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Employer-sold mental-health benefits platform; reached $3.3B valuation in 2024. Founder April Koh became, in 2021, the youngest woman to lead a multibillion-dollar startup at that time."
+    },
+    "tags": [
+      "mental-health",
+      "employer-benefits",
+      "ai-matching"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spring_Health",
+        "title": "Spring Health",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "funding, valuation, investors",
+        "quote": "$190 million, led by Kinnevik; included investment from Guardian Life Insurance"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-function-health",
+    "name": {
+      "en": "Function Health"
+    },
+    "aka": [
+      "Function"
+    ],
+    "category": "diagnostics",
+    "sectors": [
+      "consumer-health",
+      "longevity-aging"
+    ],
+    "status": "private",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Austin, TX",
+    "website": "https://www.functionhealth.com",
+    "profile": {
+      "what": "Membership-based, direct-to-consumer whole-body diagnostics platform running ~160 blood/urine biomarker tests with AI-generated reports and supplement/lifestyle recommendations.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology",
+        "endocrinology",
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "valuation": {
+        "raw": "$2.5B (Nov 2025)",
+        "usd": 2500000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "$3M",
+            "usd": 3000000,
+            "currency": "USD"
+          },
+          "date": "2022-03"
+        },
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$53M",
+            "usd": 53000000,
+            "currency": "USD"
+          },
+          "date": "2024-06"
+        },
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$298M",
+            "usd": 298000000,
+            "currency": "USD"
+          },
+          "date": "2025-11"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Andreessen Horowitz",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Hyman_(doctor)"
+        },
+        {
+          "name": "Wisdom.vc",
+          "entity_id": null,
+          "role": "participant",
+          "round": "seed/series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Hyman_(doctor)"
+        },
+        {
+          "name": "Draft Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "seed/series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Hyman_(doctor)"
+        },
+        {
+          "name": "K5",
+          "entity_id": null,
+          "role": "participant",
+          "round": "seed/series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Hyman_(doctor)"
+        },
+        {
+          "name": "G9 Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "seed/series-a",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Hyman_(doctor)"
+        }
+      ]
+    },
+    "people": [
+      {
+        "name": "Mark Hyman",
+        "role": "Co-founder / Chief Medical Officer"
+      },
+      {
+        "name": "Jonathan Swerdlin",
+        "role": "Co-founder / CEO"
+      }
+    ],
+    "summary": {
+      "en": "DTC lab-testing membership (founded by Dr. Mark Hyman and Jonathan Swerdlin); reached $2.5B valuation on a $298M Series B (Nov 2025) after acquiring whole-body-MRI startup Ezra (May 2025)."
+    },
+    "tags": [
+      "whole-body-diagnostics",
+      "longevity",
+      "biomarkers",
+      "dtc-testing"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Function_Health",
+        "title": "Function Health",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, funding timeline, valuation, acquisitions",
+        "quote": "Series B of \"$298 million\" at \"$2.5 billion valuation\""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mark_Hyman_(doctor)",
+        "title": "Mark Hyman (doctor)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "investor names, seed/Series A total",
+        "quote": "raised $53 million in seed and series A fundraising rounds... Major investors include Andreessen Horowitz, Wisdom.vc, Draft Ventures, K5, and G9 Ventures"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-hinge-health",
+    "name": {
+      "en": "Hinge Health"
+    },
+    "aka": [],
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services",
+      "consumer-health"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, CA",
+    "website": "https://www.hingehealth.com",
+    "profile": {
+      "what": "Software-enabled digital musculoskeletal (MSK) care platform combining wearable motion sensors, exercise therapy and health coaching, sold to employers and health plans.",
+      "modalities": [
+        "wearables-sensors",
+        "software-samd"
+      ],
+      "indications": [
+        "musculoskeletal-orthopedics"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "IP Group",
+          "entity_id": null,
+          "role": "unknown",
+          "round": "early (pre-IPO)",
+          "source_url": "https://en.wikipedia.org/wiki/IP_Group"
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2025,
+        "ticker": "NYSE:HNGE"
+      }
+    },
+    "summary": {
+      "en": "Digital MSK-care company; IPO'd on NYSE in May 2025 under ticker HNGE; UK-listed IP Group was an early institutional investor that realized proceeds at IPO."
+    },
+    "tags": [
+      "digital-msk",
+      "wearable-sensors",
+      "employer-benefits"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/IP_Group",
+        "title": "IP Group",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "IPO date/ticker, early investor",
+        "quote": "IP Group was an early investor in Hinge Health and realised proceeds following the IPO."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only one source found this session (via a tangential IP Group article, since Hinge Health has no dedicated Wikipedia page and WebSearch was unavailable); founding year, HQ, and most funding/investor detail are NOT sourced here and should be filled in by a verification pass. HQ city given as San Francisco from general knowledge only — NOT sourced this session, please verify.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-lifestance-health",
+    "name": {
+      "en": "LifeStance Health"
+    },
+    "aka": [
+      "LifeStance"
+    ],
+    "category": "healthcare-services",
+    "sectors": [
+      "mental-health"
+    ],
+    "status": "public",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Scottsdale, AZ",
+    "website": "https://lifestance.com",
+    "profile": {
+      "what": "Outpatient behavioral-health services provider offering therapy, psychiatry, TMS and ketamine-assisted psychotherapy in-person and via telehealth.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$1.2B (equity, buyout)",
+            "usd": 1200000000,
+            "currency": "USD"
+          },
+          "date": "2020-04",
+          "lead": [
+            "TPG"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "TPG",
+          "entity_id": null,
+          "role": "lead",
+          "round": "2020 buyout",
+          "source_url": "https://en.wikipedia.org/wiki/Lifestance_Health"
+        },
+        {
+          "name": "Summit Partners",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-IPO",
+          "source_url": "https://en.wikipedia.org/wiki/Lifestance_Health"
+        },
+        {
+          "name": "Silversmith Capital Partners",
+          "entity_id": null,
+          "role": "participant",
+          "round": "pre-IPO",
+          "source_url": "https://en.wikipedia.org/wiki/Lifestance_Health"
+        }
+      ],
+      "exit": {
+        "type": "IPO",
+        "year": 2021,
+        "value": {
+          "raw": "~$7.5B",
+          "usd": 7500000000,
+          "currency": "USD"
+        },
+        "ticker": "NASDAQ:LFST"
+      }
+    },
+    "summary": {
+      "en": "Largest outpatient mental-health clinician network in the US (7,424 clinicians, 569 locations, 2024); TPG-backed buyout in 2020, IPO'd June 2021 at ~$7.5B."
+    },
+    "tags": [
+      "mental-health",
+      "outpatient-therapy",
+      "clinic-network"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lifestance_Health",
+        "title": "LifeStance Health",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, buyout, IPO, investors, 2024 metrics",
+        "quote": "Private equity firm TPG acquired the company in April 2020 for $1.2 billion in equity... Post-IPO, TPG retained ownership alongside Summit Partners and Silversmith Capital Partners"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-whoop",
+    "name": {
+      "en": "Whoop"
+    },
+    "aka": [
+      "WHOOP"
+    ],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "website": "https://www.whoop.com",
+    "profile": {
+      "what": "Wearable strap tracking strain, recovery and sleep via heart-rate variability, resting heart rate and respiratory rate, delivered as a subscription (no on-device screen).",
+      "modalities": [
+        "wearables-sensors"
+      ],
+      "indications": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "valuation": {
+        "raw": "$10.1B",
+        "usd": 10100000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$200M",
+            "usd": 200000000,
+            "currency": "USD"
+          },
+          "date": "2021-08",
+          "lead": [
+            "SoftBank"
+          ]
+        },
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$575M",
+            "usd": 575000000,
+            "currency": "USD"
+          },
+          "date": "2026-04"
+        }
+      ],
+      "investors": [
+        {
+          "name": "SoftBank",
+          "entity_id": null,
+          "role": "lead",
+          "round": "series-f (2021)",
+          "source_url": "https://en.wikipedia.org/wiki/Whoop_(company)"
+        },
+        {
+          "name": "IVP",
+          "entity_id": null,
+          "role": "participant",
+          "round": "early",
+          "source_url": "https://en.wikipedia.org/wiki/Whoop_(company)"
+        },
+        {
+          "name": "Mayo Clinic",
+          "entity_id": null,
+          "role": "participant",
+          "round": "series-g (2026)",
+          "source_url": "https://en.wikipedia.org/wiki/Whoop_(company)"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Screen-free fitness/recovery wearable sold by subscription; reached $10.1B valuation on a $575M round (April 2026), with strategic backing from Abbott and Mayo Clinic."
+    },
+    "tags": [
+      "wearables",
+      "fitness-tracker",
+      "recovery"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Whoop_(company)",
+        "title": "Whoop (company)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, funding rounds, investors, valuation",
+        "quote": "\"$575 million\" ... $10.1 billion"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-maven-clinic",
+    "name": {
+      "en": "Maven Clinic"
+    },
+    "aka": [
+      "Maven"
+    ],
+    "category": "femtech-womens-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2014,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://www.mavenclinic.com",
+    "profile": {
+      "what": "Women's and family digital-health platform connecting members to virtual visits with ob-gyns, fertility specialists and other providers, plus employer-sponsored benefit administration (Maven Wallet).",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "womens-health",
+        "pediatrics"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "valuation": {
+        "raw": "$1.7B",
+        "usd": 1700000000,
+        "currency": "USD"
+      },
+      "rounds": [
+        {
+          "stage": "series-c-plus",
+          "amount": {
+            "raw": "$45M",
+            "usd": 45000000,
+            "currency": "USD"
+          },
+          "date": "2020-02"
+        },
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$125M",
+            "usd": 125000000,
+            "currency": "USD"
+          },
+          "date": "2024"
+        }
+      ],
+      "investors": []
+    },
+    "people": [
+      {
+        "name": "Kate Ryder",
+        "role": "Founder / CEO"
+      }
+    ],
+    "summary": {
+      "en": "Women's and family digital-health benefits platform founded by Kate Ryder; reached unicorn status by 2021 and was valued at $1.7B on a $125M round in 2024."
+    },
+    "tags": [
+      "womens-health",
+      "fertility",
+      "family-benefits"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maven_Clinic",
+        "title": "Maven Clinic",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, funding, valuation",
+        "quote": "Women-focused health startup Maven valued at $1.7 bln in funding round"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kate_Ryder",
+        "title": "Kate Ryder",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founder bio, early funding"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No individually-named institutional investors could be confirmed this session (Wikipedia article is flagged for undisclosed paid content / unreliable citations, and only vaguely mentions '23andMe's Wojcicki' and 'A-list actors' as backers); WebSearch was unavailable to chase primary funding announcements. This is a high-value gap for a follow-up verification pass — Maven's investors are well documented in press (e.g. Sequoia, Oak HC/FT per general knowledge) but that is NOT sourced here and is deliberately omitted.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-noom",
+    "name": {
+      "en": "Noom"
+    },
+    "aka": [],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2008,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Princeton, NJ",
+    "website": "https://www.noom.com",
+    "profile": {
+      "what": "Subscription mobile app for weight management and behavioral health, combining cognitive-behavioral-therapy-based coaching with, more recently, GLP-1 weight-loss medication access.",
+      "modalities": [
+        "software-samd",
+        "digital-therapeutics"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$540M",
+            "usd": 540000000,
+            "currency": "USD"
+          },
+          "date": "2021-05"
+        }
+      ],
+      "investors": []
+    },
+    "summary": {
+      "en": "Weight-management/behavior-change subscription app; reported $400M revenue in 2020 and raised $540M in May 2021; relocated HQ from NYC to Princeton, NJ in 2025."
+    },
+    "tags": [
+      "weight-loss",
+      "behavior-change",
+      "glp-1",
+      "metabolic"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Noom",
+        "title": "Noom",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, revenue, 2021 funding",
+        "quote": "bulks up on $540 million in new funding"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No individual investor names found this session for the $540M 2021 round (Wikipedia article doesn't list them and WebSearch was unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-materna-medical",
+    "name": {
+      "en": "Materna Medical"
+    },
+    "aka": [],
+    "category": "medtech-devices",
+    "sectors": [
+      "femtech-womens-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Mountain View, CA",
+    "website": "https://www.maternamedical.com",
+    "profile": {
+      "what": "Medical-device company building pelvic-health products for women: the FDA-cleared, DTC Milli vaginal dilator (launched 2019) and the clinical-stage Ellora System, which gradually stretches the vaginal canal to prepare pelvic-floor muscles during labor.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "clearance",
+          "item": "Milli Vaginal Dilator",
+          "year": 2019
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Astia Angels",
+          "entity_id": null,
+          "role": "angel",
+          "round": "unknown",
+          "source_url": "https://www.maternamedical.com"
+        },
+        {
+          "name": "Band of Angels",
+          "entity_id": null,
+          "role": "angel",
+          "round": "unknown",
+          "source_url": "https://www.maternamedical.com"
+        },
+        {
+          "name": "Gaingels",
+          "entity_id": null,
+          "role": "angel",
+          "round": "unknown",
+          "source_url": "https://www.maternamedical.com"
+        },
+        {
+          "name": "Golden Seeds",
+          "entity_id": null,
+          "role": "angel",
+          "round": "unknown",
+          "source_url": "https://www.maternamedical.com"
+        },
+        {
+          "name": "Women's VC Fund II",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.maternamedical.com"
+        },
+        {
+          "name": "Fogarty Innovation",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.maternamedical.com"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Women's pelvic-health medtech company (Milli dilator, Ellora labor-prep device); backed by a cluster of women-focused angel networks and funds."
+    },
+    "tags": [
+      "femtech",
+      "pelvic-health",
+      "medical-device"
+    ],
+    "sources": [
+      {
+        "url": "https://www.maternamedical.com",
+        "title": "Materna Medical",
+        "publisher": "Materna Medical",
+        "accessed": "2026-08-16",
+        "supports": "products, FDA clearance, investor list",
+        "quote": "the first and only dilator that expands incrementally"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No dollar amounts or round dates found on the company site; investor names are drawn from a logo list on the homepage (no round attribution given), so 'round' is unknown for all. Also excluded 'Stanford Center for Biodesign' from the investor list as it reads as an academic affiliation rather than a capital investor.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-evvy",
+    "name": {
+      "en": "Evvy"
+    },
+    "aka": [],
+    "category": "diagnostics",
+    "sectors": [
+      "femtech-womens-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://evvy.com",
+    "profile": {
+      "what": "At-home vaginal-microbiome test using metagenomic sequencing to analyze vaginal bacteria and fungi, paired with follow-on care.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Labcorp",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        },
+        {
+          "name": "General Catalyst",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        },
+        {
+          "name": "Left Lane",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        },
+        {
+          "name": "G9",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        },
+        {
+          "name": "BBGV",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        },
+        {
+          "name": "Box Group",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        },
+        {
+          "name": "Foreground Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        },
+        {
+          "name": "Amboy St. Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        },
+        {
+          "name": "Human Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://evvy.com"
+        }
+      ]
+    },
+    "summary": {
+      "en": "At-home vaginal microbiome testing and care company; claims 100,000+ users; backed by Labcorp and General Catalyst among others."
+    },
+    "tags": [
+      "femtech",
+      "vaginal-health",
+      "at-home-testing",
+      "microbiome"
+    ],
+    "sources": [
+      {
+        "url": "https://evvy.com",
+        "title": "Evvy",
+        "publisher": "Evvy",
+        "accessed": "2026-08-16",
+        "supports": "product description, investor logos, user count",
+        "quote": "Trusted by 100,000+ Users"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Investor list drawn from an unattributed logo strip on the homepage (no round, date or dollar amount disclosed); founding year and HQ city not found this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-everly-health",
+    "name": {
+      "en": "Everly Health"
+    },
+    "aka": [
+      "Everlywell"
+    ],
+    "category": "diagnostics",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "private",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.everlyhealth.com",
+    "profile": {
+      "what": "DTC at-home lab-testing platform (mail-in blood/saliva/swab kits with clinician-reviewed results); parent company of Everlywell plus acquired PWNHealth and Home Access Health Corporation.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Highland Capital Partners",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://en.wikipedia.org/wiki/Highland_Capital_Partners"
+        }
+      ]
+    },
+    "people": [
+      {
+        "name": "Julia Cheek",
+        "role": "Founder / CEO"
+      }
+    ],
+    "summary": {
+      "en": "At-home lab-testing pioneer founded by Julia Cheek in 2015 (pitched on Shark Tank 2018); became the second-highest-revenue company in Shark Tank history per a 2023 report."
+    },
+    "tags": [
+      "dtc-testing",
+      "at-home-diagnostics"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Julia_Cheek",
+        "title": "Julia Cheek",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, business structure",
+        "quote": "Julia Cheek is the CEO and Founder of Everly Health, which consists of Everlywell and more recent acquisitions"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Highland_Capital_Partners",
+        "title": "Highland Capital Partners",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "investor relationship (no round/amount)"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Funding rounds, amounts and HQ city not found this session; Highland Capital Partners is listed only in Highland's own 'notable investments' list with no round/date attached.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-alto-pharmacy",
+    "name": {
+      "en": "Alto Pharmacy"
+    },
+    "aka": [
+      "Alto"
+    ],
+    "category": "consumer-health",
+    "sectors": [
+      "healthcare-it"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, CA",
+    "website": "https://www.alto.com",
+    "profile": {
+      "what": "Full-service digital pharmacy that fills and hand-delivers prescriptions, integrated with telehealth and copay-assistance tools.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [],
+      "development_stage": "commercial",
+      "team_size": 1200
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "San Francisco-based digital pharmacy; had approximately $1B in revenue and 1,200 employees as of mid-2022, when Alicia Boler Davis became CEO."
+    },
+    "tags": [
+      "digital-pharmacy",
+      "prescription-delivery"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alicia_Boler_Davis",
+        "title": "Alicia Boler Davis",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "HQ, revenue, employee count",
+        "quote": "a digital pharmacy startup with about $1 billion in revenue and 1,200 employees"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, funding rounds or investor names found this session (WebSearch was unavailable and Alto has no dedicated Wikipedia article); revenue/headcount figure is from mid-2022.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-owlet",
+    "name": {
+      "en": "Owlet"
+    },
+    "aka": [
+      "Owlet Baby Care"
+    ],
+    "category": "medtech-devices",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "public",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://owletcare.com",
+    "profile": {
+      "what": "Connected-nursery company making the first FDA-cleared smart baby monitor, providing pulse-oximetry-based health insights for infants.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware"
+      ],
+      "indications": [
+        "pediatrics"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "clearance",
+          "item": "Owlet smart baby monitor",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Maker of the first FDA-cleared smart baby monitor; publicly traded with an active investor-relations program."
+    },
+    "tags": [
+      "pediatric",
+      "wearables",
+      "baby-monitor"
+    ],
+    "sources": [
+      {
+        "url": "https://investors.owletcare.com/",
+        "title": "Owlet Investor Relations",
+        "publisher": "Owlet, Inc.",
+        "accessed": "2026-08-16",
+        "supports": "founding year, public-company status",
+        "quote": "Owlet was founded by a team of parents in 2012"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Confirmed publicly traded (has an active IR site referencing a stockholder-derivative-matter settlement) but exact ticker/exchange and SPAC-merger details were NOT confirmed by a source fetched this session, so they are deliberately omitted rather than asserted from general knowledge. HQ city (commonly reported as Lehi, UT) likewise not sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-willow-innovations",
+    "name": {
+      "en": "Willow Innovations"
+    },
+    "aka": [
+      "Willow"
+    ],
+    "category": "medtech-devices",
+    "sectors": [
+      "femtech-womens-health",
+      "consumer-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Mountain View, CA",
+    "website": "https://www.willowpump.com",
+    "profile": {
+      "what": "Maker of the Willow wearable, in-bra breast pump for nursing mothers.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Wearable breast-pump maker, notable at CES 2018; led by CEO Laura Chambers since 2020."
+    },
+    "tags": [
+      "femtech",
+      "wearables",
+      "breastfeeding"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Laura_Chambers",
+        "title": "Laura Chambers",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "HQ, CEO, product category",
+        "quote": "Chambers became the CEO of Willow Innovations, a wearable breast pump company headquartered in Mountain View, California"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No funding, investor or founding-year data found this session; only sourced via the CEO's Wikipedia bio (no dedicated company article, WebSearch unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-folx-health",
+    "name": {
+      "en": "FOLX Health"
+    },
+    "aka": [
+      "Folx Health"
+    ],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health",
+      "mental-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "website": "https://folxhealth.com",
+    "profile": {
+      "what": "LGBTQIA+-focused virtual healthcare platform offering gender-affirming care, primary care, mental health, and sexual/reproductive health and fertility services, with 81% of providers identifying as LGBTQIA+.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health",
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Telehealth platform built specifically for LGBTQIA+ patients, covering gender-affirming, primary, mental and sexual/reproductive health."
+    },
+    "tags": [
+      "lgbtq-health",
+      "telehealth",
+      "gender-affirming-care"
+    ],
+    "sources": [
+      {
+        "url": "https://folxhealth.com",
+        "title": "FOLX Health",
+        "publisher": "FOLX Health",
+        "accessed": "2026-08-16",
+        "supports": "HQ, services, provider demographics",
+        "quote": "81% of our providers identify as LGBTQIA+"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "A funding announcement (roughly '$30M' per an indirect Yahoo News reference on the site) was glimpsed but not independently confirmed/quoted, so no amount is recorded; no investor names found this session (WebSearch unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-twentyeight-health",
+    "name": {
+      "en": "Twentyeight Health"
+    },
+    "aka": [],
+    "category": "femtech-womens-health",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://twentyeighthealth.com",
+    "profile": {
+      "what": "Virtual sexual- and reproductive-health clinic serving Medicaid and underinsured patients: birth control, emergency contraception, herpes and vaginal-health treatment, weight care, delivered via online consult and mail-order medication.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Telehealth reproductive-health provider positioned around Medicaid/underinsured access, accepting Medicaid, UnitedHealthcare and Aetna among other payers."
+    },
+    "tags": [
+      "femtech",
+      "telehealth",
+      "medicaid",
+      "reproductive-health"
+    ],
+    "sources": [
+      {
+        "url": "https://twentyeighthealth.com",
+        "title": "Twentyeight Health",
+        "publisher": "Twentyeight Health",
+        "accessed": "2026-08-16",
+        "supports": "services, payer partners",
+        "quote": "professional consultations, judgment free"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, HQ, funding or investor data found this session (WebSearch unavailable); company is otherwise well covered in Forbes/Business Insider/Fast Company per its own site, which a future search-enabled pass should chase down.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-nocd",
+    "name": {
+      "en": "NOCD"
+    },
+    "aka": [],
+    "category": "mental-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Chicago, IL",
+    "website": "https://www.treatmyocd.com",
+    "profile": {
+      "what": "Teletherapy platform specializing in OCD and related-disorder treatment (exposure and response prevention), with live video sessions and 24/7 in-app support between sessions.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Largest OCD-specialist teletherapy provider in the US per its own positioning; partnered with Talkiatry (2023) and spokesperson Howie Mandel."
+    },
+    "tags": [
+      "mental-health",
+      "ocd",
+      "teletherapy"
+    ],
+    "sources": [
+      {
+        "url": "https://www.treatmyocd.com",
+        "title": "NOCD",
+        "publisher": "NOCD, Inc.",
+        "accessed": "2026-08-16",
+        "supports": "HQ, service description",
+        "quote": "the world's leading provider of OCD treatment"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, funding or investor data found this session (WebSearch unavailable); NOCD has no dedicated Wikipedia page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-big-health",
+    "name": {
+      "en": "Big Health"
+    },
+    "aka": [],
+    "category": "mental-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.bighealth.com",
+    "profile": {
+      "what": "Digital therapeutics company making fully-automated, app-based CBT programs — Sleepio for insomnia and Daylight for anxiety — sold to employers and health plans.",
+      "modalities": [
+        "digital-therapeutics"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$12M",
+            "usd": 12000000,
+            "currency": "USD"
+          },
+          "date": "2016-07"
+        }
+      ],
+      "investors": []
+    },
+    "people": [
+      {
+        "name": "Colin Espie",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Peter Hames",
+        "role": "Co-founder"
+      }
+    ],
+    "summary": {
+      "en": "Digital CBT therapeutics company behind Sleepio (insomnia) and Daylight (anxiety); named Best Health Startup at The Europas Awards in 2014."
+    },
+    "tags": [
+      "digital-therapeutics",
+      "insomnia",
+      "cbt"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sleepio",
+        "title": "Sleepio",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founders, 2016 funding, product history",
+        "quote": "Big Health, the startup behind Sleepio, raises $12M to scale delivery of non-drug mental health solutions"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ city, founding year and investor names for the $12M 2016 round not found this session (Wikipedia's Sleepio article cites a TechCrunch headline but not the investor list; WebSearch unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-proov",
+    "name": {
+      "en": "Proov"
+    },
+    "aka": [],
+    "category": "femtech-womens-health",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.proovtest.com",
+    "profile": {
+      "what": "At-home hormone testing kits for fertility (ovulation confirmation via PdG) and perimenopause hormone tracking; FDA-cleared diagnostic.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "clearance",
+          "item": "Proov PdG ovulation test",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": []
+    },
+    "people": [
+      {
+        "name": "Amy Beckley",
+        "role": "Founder"
+      }
+    ],
+    "summary": {
+      "en": "At-home fertility/hormone testing company founded by Dr. Amy Beckley; claims 5,000+ conceptions tracked and 50,000+ couples served since 2017."
+    },
+    "tags": [
+      "femtech",
+      "fertility",
+      "at-home-testing"
+    ],
+    "sources": [
+      {
+        "url": "https://www.proovtest.com",
+        "title": "Proov",
+        "publisher": "Proov",
+        "accessed": "2026-08-16",
+        "supports": "product, founder, FDA clearance, usage claims",
+        "quote": "Over 5,000 Conceptions & Counting"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, HQ, funding or investor data found this session (WebSearch unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-cofertility",
+    "name": {
+      "en": "Cofertility"
+    },
+    "aka": [],
+    "category": "femtech-womens-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.cofertility.com",
+    "profile": {
+      "what": "Fertility platform running an egg-freezing marketplace: a 'Split' program (freeze eggs for free by donating half to intended parents) and a self-funded 'Keep' egg-freezing option, plus egg-donor matching.",
+      "modalities": [],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Egg-freezing/egg-donation marketplace with 225+ fertility-clinic partners; press coverage includes Fortune, NYT, Vogue and TechCrunch."
+    },
+    "tags": [
+      "femtech",
+      "fertility",
+      "egg-freezing"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cofertility.com",
+        "title": "Cofertility",
+        "publisher": "Cofertility",
+        "accessed": "2026-08-16",
+        "supports": "business model, clinic-partner count",
+        "quote": "225+ clinic partners nationwide"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Homepage referenced a Series A 'led by Next…' but the text was truncated/unreadable in the fetched content, so the lead investor name and amount are deliberately omitted rather than guessed. No founding year or HQ found this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-axena-health",
+    "name": {
+      "en": "Axena Health"
+    },
+    "aka": [],
+    "category": "medtech-devices",
+    "sectors": [
+      "femtech-womens-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Newton, MA",
+    "website": "https://www.axenahealth.com",
+    "profile": {
+      "what": "Women's pelvic-health medtech company; makes the Leva Pelvic Health System, a non-drug, non-surgical device shown to improve bladder leakage (stress urinary incontinence) and fecal incontinence symptoms.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "womens-health",
+        "nephrology-urology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "people": [
+      {
+        "name": "Samantha Pulliam",
+        "role": "CEO / Chief Medical Officer"
+      }
+    ],
+    "summary": {
+      "en": "Maker of the Leva Pelvic Health System for bladder leakage and fecal incontinence, distributed in part through the Veterans Health Administration."
+    },
+    "tags": [
+      "femtech",
+      "pelvic-health",
+      "medical-device",
+      "incontinence"
+    ],
+    "sources": [
+      {
+        "url": "https://www.axenahealth.com",
+        "title": "Axena Health",
+        "publisher": "Axena Health, Inc.",
+        "accessed": "2026-08-16",
+        "supports": "HQ, product, leadership",
+        "quote": "a non-drug, non-surgical solution shown to improve bladder leakage in just 4 weeks"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, funding rounds or investor names found this session (WebSearch unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-may-health",
+    "name": {
+      "en": "May Health"
+    },
+    "aka": [],
+    "category": "medtech-devices",
+    "sectors": [
+      "femtech-womens-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Menlo Park, CA",
+    "website": "https://www.mayhealth.com",
+    "profile": {
+      "what": "Medical-device company treating polycystic ovary syndrome (PCOS) via the Anavi procedure, a targeted ovarian-ablation device that lowers androgen production and restores ovulation.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "endocrinology",
+        "womens-health"
+      ],
+      "development_stage": "pilot",
+      "regulatory": [
+        {
+          "body": "CE",
+          "kind": "CE-MDR",
+          "item": "Anavi System",
+          "year": null
+        }
+      ]
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "PCOS medtech company; Anavi System is CE-marked in Europe and currently in the FDA pivotal REBALANCE trial in the US."
+    },
+    "tags": [
+      "femtech",
+      "pcos",
+      "medical-device"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mayhealth.com",
+        "title": "May Health",
+        "publisher": "May Health",
+        "accessed": "2026-08-16",
+        "supports": "product, regulatory status, HQ",
+        "quote": "targeted ovarian ablation"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, funding rounds or investor names found this session (WebSearch unavailable); also has an office in Paris, France.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-levels-health",
+    "name": {
+      "en": "Levels Health"
+    },
+    "aka": [
+      "Levels"
+    ],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.levelshealth.com",
+    "profile": {
+      "what": "Metabolic-health platform combining continuous glucose monitors (CGM), food logging and wearable-data integration to show users how diet/lifestyle affect blood sugar.",
+      "modalities": [
+        "wearables-sensors",
+        "software-samd"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Consumer CGM/metabolic-health app with 100,000+ members; runs one of the largest observational glucose studies in people without diabetes."
+    },
+    "tags": [
+      "cgm",
+      "metabolic-health",
+      "wearables"
+    ],
+    "sources": [
+      {
+        "url": "https://www.levelshealth.com",
+        "title": "Levels Health",
+        "publisher": "Levels",
+        "accessed": "2026-08-16",
+        "supports": "product, member count, study claim",
+        "quote": "one of the largest observational glucose studies ever conducted in people without diabetes"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, HQ, funding or investor data found this session (WebSearch unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-fountain-life",
+    "name": {
+      "en": "Fountain Life"
+    },
+    "aka": [],
+    "category": "longevity-aging",
+    "sectors": [
+      "consumer-health",
+      "diagnostics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.fountainlife.com",
+    "profile": {
+      "what": "Membership-based preventive-longevity clinic network offering AI-guided whole-body diagnostics and physician-led care, with locations in Dallas, New York, Orlando, Naples and Houston.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "aging-longevity",
+        "oncology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Longevity-clinic membership network; named Longevity Clinic of the Year 2025 and won a 2025 Global Tech Award in the health category."
+    },
+    "tags": [
+      "longevity",
+      "preventive-screening",
+      "membership-clinic"
+    ],
+    "sources": [
+      {
+        "url": "https://www.fountainlife.com",
+        "title": "Fountain Life",
+        "publisher": "Fountain Life",
+        "accessed": "2026-08-16",
+        "supports": "business model, clinic locations, awards",
+        "quote": "Winner, Longevity Clinic of the Year 2025"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, single HQ city, funding rounds or investor names found this session (WebSearch unavailable); operates a multi-city clinic network rather than a single HQ.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-charlie-health",
+    "name": {
+      "en": "Charlie Health"
+    },
+    "aka": [],
+    "category": "mental-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.charliehealth.com",
+    "profile": {
+      "what": "Virtual Intensive Outpatient Program (IOP) for kids (8-11), teens (12-17) and adults (18-64) treating depression, anxiety, self-harm, suicidality and substance use, via online group/individual therapy.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health",
+        "pediatrics"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Virtual intensive outpatient behavioral-health program for youth and adults; partners with 600+ insurance providers and cites outcome data from 13 peer-reviewed studies."
+    },
+    "tags": [
+      "mental-health",
+      "teen-health",
+      "iop",
+      "substance-use"
+    ],
+    "sources": [
+      {
+        "url": "https://www.charliehealth.com",
+        "title": "Charlie Health",
+        "publisher": "Charlie Health",
+        "accessed": "2026-08-16",
+        "supports": "program structure, payer partnerships, outcomes claims",
+        "quote": "92% of individuals who complete our programs show improvement"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, HQ, funding or investor data found this session (WebSearch unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-hey-jane",
+    "name": {
+      "en": "Hey Jane"
+    },
+    "aka": [],
+    "category": "femtech-womens-health",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "private",
+    "founded_year": 2021,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.heyjane.com",
+    "profile": {
+      "what": "Virtual telemedicine clinic providing FDA-approved medication-abortion pills plus birth control, emergency contraception, and UTI/yeast-infection/BV/herpes treatment, with sliding-scale pricing.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Telehealth medication-abortion and reproductive-health provider launched January 2021; serves 125,000+ patients and is a National Abortion Federation member."
+    },
+    "tags": [
+      "femtech",
+      "abortion-care",
+      "telehealth",
+      "reproductive-health"
+    ],
+    "sources": [
+      {
+        "url": "https://www.heyjane.com",
+        "title": "Hey Jane",
+        "publisher": "Hey Jane",
+        "accessed": "2026-08-16",
+        "supports": "founding date, services, patient count",
+        "quote": "Serves 125,000+ patients"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "A '$2.2M' funding figure was glimpsed via an on-page TechCrunch link but not independently confirmed/quoted, so it is deliberately omitted; no investor names or HQ city found this session (WebSearch unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-maude",
+    "name": {
+      "en": "Maude"
+    },
+    "aka": [],
+    "category": "consumer-health",
+    "sectors": [
+      "femtech-womens-health"
+    ],
+    "status": "private",
+    "founded_year": 2018,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.getmaude.com",
+    "profile": {
+      "what": "Direct-to-consumer intimate-wellness brand selling lubricants, intimate devices, condoms, supplements and body care, positioned at the intersection of design and sexual health.",
+      "modalities": [],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "people": [
+      {
+        "name": "Éva Goicochea",
+        "role": "Founder"
+      },
+      {
+        "name": "Dakota Johnson",
+        "role": "Co-Creative Director"
+      }
+    ],
+    "summary": {
+      "en": "DTC sexual-wellness brand founded by Eva Goicochea in 2018, with actress Dakota Johnson as co-creative director; claims 600,000+ units of its core product sold."
+    },
+    "tags": [
+      "sexual-wellness",
+      "dtc-brand",
+      "consumer-product"
+    ],
+    "sources": [
+      {
+        "url": "https://www.getmaude.com",
+        "title": "Maude",
+        "publisher": "Maude",
+        "accessed": "2026-08-16",
+        "supports": "founding year, founders, product claim",
+        "quote": "600,000+ nightstands upgraded"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No funding rounds, investor names or HQ city found this session (WebSearch unavailable); included as a consumer sexual-wellness brand rather than a clinical product.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-omada-health",
+    "name": {
+      "en": "Omada Health"
+    },
+    "aka": [],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2011,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.omadahealth.com",
+    "profile": {
+      "what": "Virtual-first, integrated chronic-condition-management programs (prediabetes/weight management, diabetes, hypertension, cholesterol, MSK, GLP-1 support) sold to employers, health plans, health systems and individual consumers.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "cardiovascular",
+        "musculoskeletal-orthopedics"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Rock Health Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://rockhealthcapital.com/portfolio/"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Virtual chronic-disease-management platform spanning prediabetes/weight, diabetes, hypertension, MSK and GLP-1 support programs."
+    },
+    "tags": [
+      "chronic-disease",
+      "metabolic",
+      "employer-benefits"
+    ],
+    "sources": [
+      {
+        "url": "https://www.omadahealth.com/about",
+        "title": "Omada Health — About",
+        "publisher": "Omada Health",
+        "accessed": "2026-08-16",
+        "supports": "founding year, program description",
+        "quote": "prediabetes/weight management, diabetes, hypertension, cholesterol, musculoskeletal conditions, and GLP-1 medication support"
+      },
+      {
+        "url": "https://rockhealthcapital.com/portfolio/",
+        "title": "Rock Health Capital — Portfolio",
+        "publisher": "Rock Health Capital",
+        "accessed": "2026-08-16",
+        "supports": "investor relationship (no round/amount)",
+        "quote": "Omada Health"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No round dates or dollar amounts sourced this session; investor confirmed only via Rock Health Capital's own portfolio listing (no round attribution given there).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-virta-health",
+    "name": {
+      "en": "Virta Health"
+    },
+    "aka": [],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.virtahealth.com",
+    "profile": {
+      "what": "Personalized nutrition program with clinical support and technology aimed at reversing type 2 diabetes and obesity, delivered virtually.",
+      "modalities": [
+        "software-samd",
+        "digital-therapeutics"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Rock Health Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://rockhealthcapital.com/portfolio/"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Virtual diabetes/obesity-reversal program combining personalized nutrition with clinical oversight; mission stated as reversing metabolic disease 'in one billion people.'"
+    },
+    "tags": [
+      "metabolic",
+      "diabetes-reversal",
+      "nutrition"
+    ],
+    "sources": [
+      {
+        "url": "https://www.virtahealth.com/about",
+        "title": "Virta Health — About",
+        "publisher": "Virta Health",
+        "accessed": "2026-08-16",
+        "supports": "mission, program description",
+        "quote": "We're on a mission to reverse metabolic disease in one billion people"
+      },
+      {
+        "url": "https://rockhealthcapital.com/portfolio/",
+        "title": "Rock Health Capital — Portfolio",
+        "publisher": "Rock Health Capital",
+        "accessed": "2026-08-16",
+        "supports": "investor relationship (no round/amount)",
+        "quote": "Virta"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, HQ city, round dates or dollar amounts sourced this session; investor confirmed only via Rock Health Capital's own portfolio listing (no round attribution given there). Virta's well-known Series C ($93M, 2018) and prior rounds are NOT sourced here and are deliberately omitted.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-prenuvo",
+    "name": {
+      "en": "Prenuvo"
+    },
+    "aka": [],
+    "category": "diagnostics",
+    "sectors": [
+      "consumer-health",
+      "longevity-aging"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://www.prenuvo.com",
+    "profile": {
+      "what": "Whole-body MRI preventive screening (plus blood-biomarker testing) that screens for conditions across major organ systems without radiation or contrast, in under an hour.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "oncology",
+        "aging-longevity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Forerunner Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.forerunnerventures.com/portfolio"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Whole-body MRI preventive-screening company; over 170,000 patients served, with research partnerships including Mount Sinai, UCLA Health, Johns Hopkins, Penn and Stanford."
+    },
+    "tags": [
+      "whole-body-mri",
+      "preventive-screening",
+      "longevity"
+    ],
+    "sources": [
+      {
+        "url": "https://www.prenuvo.com",
+        "title": "Prenuvo",
+        "publisher": "Prenuvo",
+        "accessed": "2026-08-16",
+        "supports": "service description, patient count, research partners",
+        "quote": "screens for hundreds of conditions across major organ systems with no radiation or contrast in under an hour"
+      },
+      {
+        "url": "https://www.forerunnerventures.com/portfolio",
+        "title": "Forerunner Ventures — Portfolio",
+        "publisher": "Forerunner Ventures",
+        "accessed": "2026-08-16",
+        "supports": "investor relationship (no round/amount)",
+        "quote": "Prenuvo"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Note: Prenuvo was co-founded in Canada (Vancouver) and has since expanded HQ/clinic operations into the US; included here on the strength of its US investor (Forerunner Ventures) and heavy US clinic/research footprint, but a verification pass should confirm current legal HQ before treating this as unambiguously US-headquartered. No founding year, round dates or dollar amounts sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-curology",
+    "name": {
+      "en": "Curology"
+    },
+    "aka": [],
+    "category": "consumer-health",
+    "sectors": [
+      "diagnostics"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://curology.com",
+    "profile": {
+      "what": "Direct-to-consumer dermatology platform: online consult matches customers with a dermatology provider who prescribes a personalized topical formula, shipped by subscription with ongoing provider support.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "dermatology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Forerunner Ventures",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://www.forerunnerventures.com/portfolio"
+        }
+      ]
+    },
+    "summary": {
+      "en": "DTC prescription-skincare subscription platform; 1M+ patients treated."
+    },
+    "tags": [
+      "dtc-prescribing",
+      "dermatology",
+      "subscription"
+    ],
+    "sources": [
+      {
+        "url": "https://curology.com",
+        "title": "Curology",
+        "publisher": "Curology",
+        "accessed": "2026-08-16",
+        "supports": "service description, patient count",
+        "quote": "1M+ patients treated"
+      },
+      {
+        "url": "https://www.forerunnerventures.com/portfolio",
+        "title": "Forerunner Ventures — Portfolio",
+        "publisher": "Forerunner Ventures",
+        "accessed": "2026-08-16",
+        "supports": "investor relationship (no round/amount)",
+        "quote": "Curology"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, HQ city, round dates or dollar amounts sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-oula",
+    "name": {
+      "en": "Oula"
+    },
+    "aka": [
+      "Oula Health"
+    ],
+    "category": "femtech-womens-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://www.oulahealth.com",
+    "profile": {
+      "what": "Maternity- and gynecology-care clinics combining board-certified OB-GYNs with certified nurse midwives, offering pregnancy, preconception, miscarriage and gynecologic care across NY/CT/NC locations.",
+      "modalities": [],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Rock Health Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://rockhealthcapital.com/portfolio/"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Co-led OB-GYN/midwifery maternity-care clinic network; over 3,000 babies delivered, with a reported 25% lower C-section rate than the national average."
+    },
+    "tags": [
+      "maternity-care",
+      "midwifery",
+      "womens-health-clinic"
+    ],
+    "sources": [
+      {
+        "url": "https://www.oulahealth.com",
+        "title": "Oula",
+        "publisher": "Oula",
+        "accessed": "2026-08-16",
+        "supports": "service description, locations, outcomes claims",
+        "quote": "25% lower likelihood of needing cesarean section"
+      },
+      {
+        "url": "https://rockhealthcapital.com/portfolio/",
+        "title": "Rock Health Capital — Portfolio",
+        "publisher": "Rock Health Capital",
+        "accessed": "2026-08-16",
+        "supports": "investor relationship (no round/amount)",
+        "quote": "Oula"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, round dates or dollar amounts sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-evidation-health",
+    "name": {
+      "en": "Evidation Health"
+    },
+    "aka": [
+      "Evidation"
+    ],
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Mateo, CA",
+    "website": "https://evidation.com",
+    "profile": {
+      "what": "Health-data platform that connects with a 5M+-person consumer community (wearables, patient-reported outcomes, clinical records, biosamples) to generate real-world evidence for life-sciences research.",
+      "modalities": [
+        "wearables-sensors",
+        "ai-ml-platform"
+      ],
+      "indications": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Rock Health Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://rockhealthcapital.com/portfolio/"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Consumer real-world-data platform for life-sciences research; connects with 5M+ people across 97% of US zip codes, partnered with 90% of top biopharma companies."
+    },
+    "tags": [
+      "real-world-data",
+      "wearables",
+      "research-platform"
+    ],
+    "sources": [
+      {
+        "url": "https://evidation.com",
+        "title": "Evidation",
+        "publisher": "Evidation",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, business description, reach",
+        "quote": "connects directly with millions of people to capture continuous, multimodal real-world data"
+      },
+      {
+        "url": "https://rockhealthcapital.com/portfolio/",
+        "title": "Rock Health Capital — Portfolio",
+        "publisher": "Rock Health Capital",
+        "accessed": "2026-08-16",
+        "supports": "investor relationship (no round/amount)",
+        "quote": "Evidation Health"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No round dates or dollar amounts sourced this session; investor confirmed only via Rock Health Capital's own portfolio listing (no round attribution given there). Company also runs consumer-facing rewards app (Evidation app) not detailed here.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-neurotrack",
+    "name": {
+      "en": "Neurotrack"
+    },
+    "aka": [
+      "Neurotrack Technologies"
+    ],
+    "category": "digital-health",
+    "sectors": [
+      "consumer-health",
+      "longevity-aging"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": null,
+    "website": "https://neurotrack.com",
+    "profile": {
+      "what": "Cognitive-care platform equipping providers with clinically-validated digital assessments (Smart Logic adaptive intelligence) to detect and manage mild cognitive impairment and dementia earlier.",
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "neurology",
+        "aging-longevity"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Rock Health Capital",
+          "entity_id": null,
+          "role": "participant",
+          "round": "unknown",
+          "source_url": "https://rockhealthcapital.com/portfolio/"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Digital cognitive-assessment platform for early detection of mild cognitive impairment and dementia."
+    },
+    "tags": [
+      "cognitive-health",
+      "dementia",
+      "digital-assessment"
+    ],
+    "sources": [
+      {
+        "url": "https://neurotrack.com",
+        "title": "Neurotrack",
+        "publisher": "Neurotrack Technologies",
+        "accessed": "2026-08-16",
+        "supports": "product description",
+        "quote": "cognitive care enablement platform that equips providers to assess, diagnose, and care for people living with MCI and dementia, earlier and with greater accuracy"
+      },
+      {
+        "url": "https://rockhealthcapital.com/portfolio/",
+        "title": "Rock Health Capital — Portfolio",
+        "publisher": "Rock Health Capital",
+        "accessed": "2026-08-16",
+        "supports": "investor relationship (no round/amount)",
+        "quote": "Neurotrack"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "No founding year, HQ city, round dates or dollar amounts sourced this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r1-us-consumer-health"
+  }
+]

@@ -26,6 +26,10 @@ SCHEMA = json.loads((ROOT / "schema" / "entity.schema.json").read_text("utf-8"))
 TAX = json.loads((DATA / "taxonomy.json").read_text("utf-8"))
 VALIDATOR = Draft202012Validator(SCHEMA)
 
+CO_SCHEMA_PATH = ROOT / "schema" / "company.schema.json"
+CO_VALIDATOR = Draft202012Validator(json.loads(CO_SCHEMA_PATH.read_text("utf-8"))) \
+    if CO_SCHEMA_PATH.exists() else None
+
 VALID = {
     "type": {t["slug"] for t in TAX["types"]},
     "sector": {s["slug"] for s in TAX["sectors"]},
@@ -37,6 +41,8 @@ VALID = {
     "confidence": set(TAX["confidence"]),
     "backer_kind": {b["slug"] for b in TAX.get("backer_kinds", [])},
     "backer_relationship": {b["slug"] for b in TAX.get("backer_relationships", [])},
+    "company_status": {s["slug"] for s in TAX.get("company_status", [])},
+    "development_stage": {s["slug"] for s in TAX.get("development_stages", [])},
 }
 
 # Placeholder / hallucination smells. Checked ONLY in human-facing text fields
@@ -49,6 +55,99 @@ SMELLS = ["example.com", "lorem ipsum", "placeholder text", "todo", "xxxx", "tbd
 def norm_name(s: str) -> str:
     s = re.sub(r"[^a-z0-9]+", " ", s.lower())
     return " ".join(s.split())
+
+
+def check_companies(issues: dict[str, list[str]], entity_names: set[str]) -> dict:
+    """QA the company half. Returns a summary dict; empty when there is no data.
+
+    Kept in this file rather than a sibling script so `uv run scripts/qa_check.py`
+    stays the single answer to "is the data healthy". A second entry point is a
+    second thing to forget to run.
+    """
+    path = DATA / "all-companies.json"
+    if not path.exists() or CO_VALIDATOR is None:
+        return {}
+    companies = json.loads(path.read_text("utf-8"))
+    if not companies:
+        return {"total": 0}
+
+    ids: Counter[str] = Counter()
+    n_sourced = n_quote = n_linked = 0
+    conf: Counter[str] = Counter()
+
+    for c in companies:
+        cid = c.get("id", "??")
+        label = f"co/{cid}"
+        ids[cid] += 1
+        for err in CO_VALIDATOR.iter_errors(c):
+            issues["co-schema"].append(f"{label}: {err.message[:120]}")
+
+        srcs = c.get("sources") or []
+        if not srcs:
+            issues["co-no-sources"].append(label)
+        else:
+            n_sourced += 1
+            if any(s.get("quote") for s in srcs):
+                n_quote += 1
+            if not any(s.get("url", "").startswith("http") for s in srcs):
+                issues["co-no-http-source"].append(label)
+
+        if c.get("region") not in VALID["region"]:
+            issues["co-bad-region"].append(f"{label}: {c.get('region')}")
+        if c.get("category") and c["category"] not in VALID["sector"]:
+            issues["co-bad-category"].append(f"{label}: {c.get('category')}")
+        for s in c.get("sectors") or []:
+            if s not in VALID["sector"]:
+                issues["co-bad-sector"].append(f"{label}: {s}")
+        st = c.get("status")
+        if st and VALID["company_status"] and st not in VALID["company_status"]:
+            issues["co-bad-status"].append(f"{label}: {st}")
+        prof = c.get("profile") or {}
+        ds = prof.get("development_stage")
+        if ds and VALID["development_stage"] and ds not in VALID["development_stage"]:
+            issues["co-bad-dev-stage"].append(f"{label}: {ds}")
+        for m in prof.get("modalities") or []:
+            if m not in VALID["modality"]:
+                issues["co-bad-modality"].append(f"{label}: {m}")
+        for i in prof.get("indications") or []:
+            if i not in VALID["indication"]:
+                issues["co-bad-indication"].append(f"{label}: {i}")
+
+        if not re.fullmatch(r"[a-z0-9-]+", cid):
+            issues["co-bad-id-format"].append(label)
+
+        conf[c.get("confidence", "?")] += 1
+
+        invs = (c.get("funding") or {}).get("investors") or []
+        if any(i.get("entity_id") for i in invs):
+            n_linked += 1
+        elif not invs:
+            # not an error — a bootstrapped or state-funded company genuinely
+            # has none — but it is the coverage gap this directory is about
+            issues["co-no-investors"].append(label)
+
+        # The two halves are supposed to be disjoint. A name in both is either
+        # an operating company mis-filed as an investor, or a company that also
+        # runs a venture arm and needs its two roles recorded as two records.
+        nm = norm_name((c.get("name") or {}).get("en", ""))
+        if nm and nm in entity_names:
+            issues["co-name-in-both-halves"].append(f"{label}: '{nm}'")
+
+        blurb = " ".join([(c.get("name") or {}).get("en", ""),
+                          prof.get("what", ""),
+                          (c.get("summary") or {}).get("en", "")]).lower()
+        for smell in SMELLS:
+            if smell in blurb:
+                issues["co-smell"].append(f"{label}: '{smell}'")
+                break
+
+    for cid, n in ids.items():
+        if n > 1:
+            issues["co-duplicate-id"].append(f"{cid} appears {n}x")
+
+    total = len(companies)
+    return {"total": total, "sourced": n_sourced, "quoted": n_quote,
+            "linked": n_linked, "confidence": dict(conf)}
 
 
 def main() -> None:
@@ -198,19 +297,32 @@ def main() -> None:
             if not isinstance(arr, list) or len(arr) <= 1:
                 issues["thin-file"].append(f"{region_dir.name}/{f.stem} (n={len(arr) if isinstance(arr, list) else '?'})")
 
+    co = check_companies(issues, set(name_regions.keys()))
+
     # ---- report ----
     SEV = {
-        "critical": ["INVALID-JSON", "schema", "no-sources", "no-http-source", "no-name", "bad-type", "bad-region", "duplicate-id"],
+        "critical": ["INVALID-JSON", "schema", "no-sources", "no-http-source", "no-name", "bad-type", "bad-region", "duplicate-id",
+                     "co-schema", "co-no-sources", "co-no-http-source", "co-bad-region", "co-duplicate-id"],
         "warning": ["malformed-url", "bad-sector", "bad-stage", "bad-modality", "bad-indication",
                     "bad-confidence", "bad-id-format", "cross-region-domain", "smell",
-                    "bad-backer-kind", "bad-backer-relationship", "backer-no-name"],
+                    "bad-backer-kind", "bad-backer-relationship", "backer-no-name",
+                    "co-bad-category", "co-bad-sector", "co-bad-status", "co-bad-dev-stage",
+                    "co-bad-modality", "co-bad-indication", "co-bad-id-format", "co-smell"],
         "review": ["thin-file", "cross-region-name", "weak-medical-nexus",
-                   "cvc-without-backer", "inferred-bigtech-parent"],
+                   "cvc-without-backer", "inferred-bigtech-parent",
+                   "co-no-investors", "co-name-in-both-halves"],
     }
     print("=" * 60)
     print(f"med-vc QA — {n_total} entities")
     print(f"  sourced: {n_sourced}/{n_total} ({100*n_sourced//max(n_total,1)}%) · with quote: {n_with_quote} ({100*n_with_quote//max(n_total,1)}%)")
     print(f"  confidence: {dict(conf_counter)}")
+    if co.get("total"):
+        ct = co["total"]
+        print(f"med-vc QA — {ct} companies")
+        print(f"  sourced: {co['sourced']}/{ct} ({100*co['sourced']//ct}%) · "
+              f"with quote: {co['quoted']} ({100*co['quoted']//ct}%) · "
+              f"linked to a listed investor: {co['linked']} ({100*co['linked']//ct}%)")
+        print(f"  confidence: {co['confidence']}")
     print("=" * 60)
     for sev, keys in SEV.items():
         total = sum(len(issues[k]) for k in keys)

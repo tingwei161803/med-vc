@@ -54,7 +54,24 @@
         capModality: "By modality (top 10)", capIndication: "By indication (top 10)",
         capConf: "By source confidence",
         provenance: "Provenance", quoteBacked: "quote-backed", entities: "institutions",
-        regionsN: "regions", typesN: "organization types", sourcesN: "sources"
+        regionsN: "regions", typesN: "organization types", sourcesN: "sources",
+
+        /* ---- companies page ---- */
+        coSearch: "Search company, product, investor, city…",
+        coNone: "No companies match these filters.",
+        coCount: "companies", coCount1: "company",
+        axisCategory: "Sector", axisStatus: "Status", axisDev: "Stage of development",
+        coWhat: "What it does", coRaised: "Total raised", coVal: "Valuation",
+        coLastRound: "Last round", coInvestors: "Investors", coDev: "Development stage",
+        coLead: "Lead program", coReg: "Regulatory", coExit: "Exit", coUnicorn: "Unicorn",
+        coPortfolio: "Portfolio in this directory",
+        coInvestorsNone: "No investors recorded yet",
+        coNotListed: "not in this directory",
+        coOpenInvestor: "Open investor profile",
+        coOpenCompany: "Open company profile",
+        coBacklog: "companies named by listed investors are not profiled yet — coverage is being filled in region by region.",
+        coInvestorHint: "is an investor. Companies here that it backed:",
+        coEmptyNote: "This half of the directory is newer than the investor half and still filling in."
       },
       zh: {
         pitch: "一份開放、逐筆帶來源的「投資醫療的資金」名錄 —— 生醫創投、藥廠與醫材企業創投、公私跨界基金、生醫加速器、大學與醫院基金、疾病基金會公益創投、政府計畫等。",
@@ -84,7 +101,24 @@
         capModality: "依治療模式(前 10)", capIndication: "依適應症(前 10)",
         capConf: "依來源信心度",
         provenance: "溯源", quoteBacked: "帶原文引用", entities: "家機構",
-        regionsN: "個地區", typesN: "種機構類型", sourcesN: "條來源"
+        regionsN: "個地區", typesN: "種機構類型", sourcesN: "條來源",
+
+        /* ---- companies page ---- */
+        coSearch: "搜尋公司名、產品、投資人、城市…",
+        coNone: "沒有符合這些條件的公司。",
+        coCount: "家公司", coCount1: "家公司",
+        axisCategory: "領域", axisStatus: "公司狀態", axisDev: "發展階段",
+        coWhat: "在做什麼", coRaised: "累計募資", coVal: "估值",
+        coLastRound: "最近一輪", coInvestors: "投資人", coDev: "發展階段",
+        coLead: "主力產品/管線", coReg: "法規核准", coExit: "退出", coUnicorn: "獨角獸",
+        coPortfolio: "名錄中的投資組合",
+        coInvestorsNone: "尚無投資人紀錄",
+        coNotListed: "未收錄於本名錄",
+        coOpenInvestor: "查看投資機構",
+        coOpenCompany: "查看公司",
+        coBacklog: "家被收錄機構點名、但尚未建檔的公司 —— 正依地區逐輪補齊。",
+        coInvestorHint: "是投資機構。名錄中它投過的公司:",
+        coEmptyNote: "新創這一半比投資機構那一半年輕,仍在逐輪補齊中。"
       }
     };
     function tt(k) { return (UI[state.lang] || UI.en)[k]; }
@@ -99,10 +133,38 @@
       "family-office": "diversity_3", "other": "corporate_fare"
     };
 
+    /* ---- the company half + the link table between the two halves ---- */
+    var COMPANIES = DB.companies || [];
+    var LINKS = DB.links || {};
+    var I2C = LINKS.i2c || {};          // investor id -> [company id]
+    var C2I_EXTRA = LINKS.c2iExtra || {}; // edges only the investor side asserts
+    var CSTATS = DB.companyStats || {};
+    var ENT_BY_ID = Object.create(null);
+    DB.entities.forEach(function (e) { ENT_BY_ID[e.id] = e; });
+    var CO_BY_ID = Object.create(null);
+    COMPANIES.forEach(function (c) { CO_BY_ID[c.id] = c; });
+
+    /* A company's full investor list is the union of two sources: the names on
+       its own record, and edges asserted only by an investor's portfolio page.
+       Merging here rather than at build time keeps the payload from carrying
+       the same edge twice. */
+    function investorsOf(c) {
+      var out = [], seen = Object.create(null);
+      (c.inv || []).forEach(function (i) {
+        out.push({ name: i[0], id: i[1], role: i[2] });
+        if (i[1]) seen[i[1]] = 1;
+      });
+      (C2I_EXTRA[c.id] || []).forEach(function (eid) {
+        if (seen[eid] || !ENT_BY_ID[eid]) return;
+        out.push({ name: ENT_BY_ID[eid].name.en, id: eid, role: "" });
+      });
+      return out;
+    }
+
     /* ---- taxonomy label lookup: LABEL[axis][slug] = {en,zh} ---- */
     var LABEL = {};
     ["types", "sectors", "modalities", "indications", "stages", "regions",
-     "backerKinds", "backerRels"].forEach(function (axis) {
+     "backerKinds", "backerRels", "companyStatus", "devStages"].forEach(function (axis) {
       LABEL[axis] = {};
       (TAX[axis] || []).forEach(function (x) { LABEL[axis][x.slug] = { en: x.en, zh: x.zh }; });
     });
@@ -112,6 +174,32 @@
     function regionLab(slug) { return lab("regions", slug); }
 
     function num(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ","); }
+
+    /* ---- filter/export primitives, shared by both directory pages ---- */
+    function set() { return Object.create(null); }
+    function anySel(o) { for (var k in o) return true; return false; }
+    /* OR within an axis, AND across axes: picking "oncology" and "neurology"
+       should widen the result set, while adding a region should narrow it. */
+    function arrHit(selSet, vals) {
+      if (!anySel(selSet)) return true;
+      for (var i = 0; i < (vals || []).length; i++) if (selSet[vals[i]]) return true;
+      return false;
+    }
+    function csvCell(v) {
+      v = String(v == null ? "" : v);
+      return /[",\r\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+    }
+    function downloadCsv(filename, cols, rows) {
+      var lines = [cols.join(",")].concat(rows.map(function (rw) { return rw.map(csvCell).join(","); }));
+      // The BOM is what makes Excel read the CJK columns as UTF-8 rather than mojibake.
+      var blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement("a");
+      a.href = url; a.download = filename;
+      document.body.appendChild(a); a.click();
+      document.body.removeChild(a);
+      setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    }
 
     /* ---- SVG bar chart (horizontal, label + value) ---- */
     function barsH(series, accentVar) {
@@ -259,6 +347,66 @@
           "</div>";
       },
 
+      /* ---------------- companies ----------------
+         Same skeleton as `directory` on purpose: one search box, one facet
+         rail, one grid, one dialog. The two halves of the site are different
+         data, not different interaction models, and a user who has learned one
+         should not have to learn the other. */
+      companies: function (p) {
+        var axes = [
+          { key: "region", tax: "regions", label: tt("axisRegion"), counts: CSTATS.by_region },
+          { key: "category", tax: "sectors", label: tt("axisCategory"), counts: CSTATS.by_category },
+          { key: "status", tax: "companyStatus", label: tt("axisStatus"), counts: CSTATS.by_status },
+          { key: "dev", tax: "devStages", label: tt("axisDev"), counts: CSTATS.by_development_stage },
+          { key: "modality", tax: "modalities", label: tt("axisModality") },
+          { key: "indication", tax: "indications", label: tt("axisIndication") }
+        ];
+        var facets = axes.map(function (a) {
+          var chips = (TAX[a.tax] || []).filter(function (x) {
+            return !a.counts || a.counts[x.slug];
+          }).map(function (x) {
+            var n = a.counts ? ' <span class="fchip__n">' + esc(String(a.counts[x.slug])) + "</span>" : "";
+            return '<button class="fchip" type="button" data-axis="' + a.key + '" data-val="' + esc(x.slug) + '">' +
+              esc(t(x)) + n + "</button>";
+          }).join("");
+          if (!chips) return "";
+          return '<div class="facet"><h3 class="facet__title">' + esc(a.label) + "</h3>" +
+            '<div class="facet__chips">' + chips + "</div></div>";
+        }).join("");
+
+        // State the backlog in the page furniture, not only in the empty state:
+        // the count is the honest denominator for everything shown below it.
+        var pending = CSTATS.unprofiled_portfolio_names || 0;
+        var backlog = pending
+          ? '<p class="dir__note"><span class="material-symbols-rounded" aria-hidden="true">pending</span>' +
+            num(pending) + " " + esc(tt("coBacklog")) + "</p>"
+          : "";
+
+        return head(p) +
+          '<div class="dir">' +
+            '<aside class="dir__filters" id="filters" aria-label="' + esc(tt("filters")) + '">' +
+              '<div class="dir__filters-head"><span class="material-symbols-rounded" aria-hidden="true">tune</span>' +
+                '<b>' + esc(tt("filters")) + "</b>" +
+                '<button class="linkbtn" id="resetBtn" type="button">' + esc(tt("reset")) + "</button></div>" +
+              facets +
+            "</aside>" +
+            '<div class="dir__main">' +
+              '<div class="dir__bar">' +
+                '<div class="searchbox"><span class="material-symbols-rounded" aria-hidden="true">search</span>' +
+                  '<input id="search" type="search" autocomplete="off" placeholder="' + esc(tt("coSearch")) + '" aria-label="' + esc(tt("coSearch")) + '"></div>' +
+                '<button class="linkbtn" id="mobFilterBtn" type="button" aria-expanded="false"><span class="material-symbols-rounded" aria-hidden="true">tune</span>' + esc(tt("filters")) + "</button>" +
+                '<button class="linkbtn linkbtn--ghost" id="csvBtn" type="button"><span class="material-symbols-rounded" aria-hidden="true">download</span>' + esc(tt("exportCsv")) + "</button>" +
+                '<span class="dir__count" id="resultCount"></span>' +
+              "</div>" +
+              backlog +
+              '<div id="ctxBanner"></div>' +
+              '<div class="dir__grid" id="grid"></div>' +
+              '<div class="empty" id="empty" hidden><p>' + esc(tt("coNone")) + "</p>" +
+                '<p class="empty__note">' + esc(tt("coEmptyNote")) + "</p></div>" +
+            "</div>" +
+          "</div>";
+      },
+
       /* ---------------- analysis (charts) ---------------- */
       analysis: function (p) {
         var tiles = [
@@ -348,9 +496,6 @@
         var q = "";
         var visible = [];
 
-        function set() { return Object.create(null); }
-        function anySel(o) { for (var k in o) return true; return false; }
-
         // company -> investors, derived at load from the `notable` lists already
         // in the payload. Costs nothing extra to ship and answers the question
         // people actually arrive with ("who backs Neko Health?") even though
@@ -389,13 +534,6 @@
           }
           return true;
         }
-        function arrHit(selSet, vals) {
-          if (!anySel(selSet)) return true;
-          vals = vals || [];
-          for (var i = 0; i < vals.length; i++) if (selSet[vals[i]]) return true;
-          return false;
-        }
-
         function card(e) {
           var name = esc(e.name.en) + (e.name.local ? ' <span class="ecard__local">' + esc(e.name.local) + "</span>" : "");
           var loc = [e.city, regionLab(e.region)].filter(Boolean).map(esc).join(" · ");
@@ -524,8 +662,23 @@
           var web = e.website ? '<a href="' + esc(e.website) + '" target="_blank" rel="noopener">' + esc(tt("visit")) +
             ' <span class="material-symbols-rounded" aria-hidden="true">open_in_new</span></a>' : "";
 
-          var notable = (e.notable || []).length
-            ? (e.notable || []).map(function (c) { return '<span class="tag">' + esc(c) + "</span>"; }).join("") : "";
+          /* Portfolio companies that have their own profile become links to the
+             companies page. The remaining `notable` names stay plain text —
+             they are real investments this investor claims, just not profiled
+             yet, and hiding them would understate the record. Names already
+             shown as links are filtered out so the same company is not listed
+             twice under two headings. */
+          var linked = (I2C[e.id] || []).map(function (cid) { return CO_BY_ID[cid]; }).filter(Boolean);
+          var linkedNames = Object.create(null);
+          linked.forEach(function (c) { linkedNames[c.name.en.toLowerCase()] = 1; });
+          var portfolioHtml = linked.map(function (c) {
+            return '<a class="xlink" href="companies.html#' + esc(c.id) + '" title="' + esc(tt("coOpenCompany")) + '">' +
+              esc(c.name.en) +
+              '<span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span></a>';
+          }).join("");
+          var notable = (e.notable || []).filter(function (c) {
+            return !linkedNames[String(c).toLowerCase()];
+          }).map(function (c) { return '<span class="tag">' + esc(c) + "</span>"; }).join("");
           var prog = "";
           if (e.program) {
             var pr = e.program, parts = [];
@@ -553,6 +706,7 @@
             row("modalities", slugList("modalities", e.modalities)) +
             row("indications", slugList("indications", e.indications)) +
             row("portfolio", e.portfolio ? esc(String(e.portfolio)) : "") +
+            row("coPortfolio", portfolioHtml) +
             row("notable", notable) +
             row("program", prog) +
             row("confidence", '<span class="dot dot--' + esc(e.conf) + '"></span> ' + esc(t(CONF[e.conf] || {})));
@@ -619,30 +773,21 @@
 
         var csvBtn = document.getElementById("csvBtn");
         if (csvBtn) csvBtn.addEventListener("click", function () {
-          var cols = ["id", "name", "type", "region", "country", "city", "sectors", "modalities",
-            "backers", "backer_kinds", "confidence", "website"];
-          var lines = [cols.join(",")];
-          visible.forEach(function (e) {
-            var rowv = [e.id, e.name.en, typeLab(e.type), regionLab(e.region), e.country || "", e.city || "",
-              (e.sectors || []).map(function (s) { return lab("sectors", s); }).join("; "),
-              (e.modalities || []).map(function (m) { return lab("modalities", m); }).join("; "),
-              (e.backers || []).map(function (b) { return b[0]; }).join("; "),
-              (e.backers || []).map(function (b) { return b[1]; }).join("; "),
-              e.conf, e.website || ""];
-            lines.push(rowv.map(csvCell).join(","));
-          });
-          var blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
-          var url = URL.createObjectURL(blob);
-          var a = document.createElement("a");
-          a.href = url; a.download = "med-vc-directory.csv";
-          document.body.appendChild(a); a.click();
-          document.body.removeChild(a);
-          setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+          downloadCsv("med-vc-investors.csv",
+            ["id", "name", "type", "region", "country", "city", "sectors", "modalities",
+             "backers", "backer_kinds", "portfolio_in_directory", "confidence", "website"],
+            visible.map(function (e) {
+              return [e.id, e.name.en, typeLab(e.type), regionLab(e.region), e.country || "", e.city || "",
+                (e.sectors || []).map(function (s) { return lab("sectors", s); }).join("; "),
+                (e.modalities || []).map(function (m) { return lab("modalities", m); }).join("; "),
+                (e.backers || []).map(function (b) { return b[0]; }).join("; "),
+                (e.backers || []).map(function (b) { return b[1]; }).join("; "),
+                (I2C[e.id] || []).map(function (cid) {
+                  return CO_BY_ID[cid] ? CO_BY_ID[cid].name.en : cid;
+                }).join("; "),
+                e.conf, e.website || ""];
+            }));
         });
-        function csvCell(v) {
-          v = String(v == null ? "" : v);
-          return /[",\r\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
-        }
 
         /* dialog: deep link + arrow nav */
         var dlg = L.dialog();
@@ -669,6 +814,316 @@
           document.removeEventListener("keydown", onKey);
           dlg.removeEventListener("close", onClose);
           window.removeEventListener("hashchange", onHash);
+          clearTimeout(debounce);
+        });
+
+        paint();
+        syncHash();
+      },
+
+      /* ---------------- companies ---------------- */
+      companies: function () {
+        var cos = COMPANIES;
+        var grid = document.getElementById("grid");
+        var searchEl = document.getElementById("search");
+        var countEl = document.getElementById("resultCount");
+        var emptyEl = document.getElementById("empty");
+        var filtersEl = document.getElementById("filters");
+        var sel = { region: set(), category: set(), status: set(), dev: set(),
+                    modality: set(), indication: set() };
+        var q = "";
+        var visible = [];
+
+        /* Mirror of the directory page's PORTFOLIO index, pointing the other
+           way: investor name -> companies here that it backed. It lets someone
+           type a fund name on the companies page and get its portfolio, which
+           is the question this page exists to answer. */
+        var BY_INVESTOR = (function () {
+          var idx = Object.create(null);
+          cos.forEach(function (c) {
+            investorsOf(c).forEach(function (i) {
+              var k = String(i.name || "").trim().toLowerCase();
+              if (!k) return;
+              (idx[k] || (idx[k] = [])).push(c);
+            });
+          });
+          return idx;
+        })();
+
+        function matches(c) {
+          if (anySel(sel.region) && !sel.region[c.region]) return false;
+          if (anySel(sel.status) && !sel.status[c.status || "unknown"]) return false;
+          if (anySel(sel.dev) && !sel.dev[(c.dev || "unknown")]) return false;
+          if (!arrHit(sel.category, c.sectors)) return false;
+          if (!arrHit(sel.modality, c.modalities)) return false;
+          if (!arrHit(sel.indication, c.indications)) return false;
+          if (q) {
+            var hay = (c.name.en + " " + (c.name.local || "") + " " + (c.what || "") + " " +
+              (c.summary || "") + " " + (c.city || "") + " " + (c.country || "") + " " +
+              (c.lead || "") + " " +
+              (c.sectors || []).join(" ") + " " +
+              investorsOf(c).map(function (i) { return i.name; }).join(" ")).toLowerCase();
+            if (hay.indexOf(q) === -1) return false;
+          }
+          return true;
+        }
+
+        function money(m) { return m ? esc(String(m)) : ""; }
+
+        function card(c) {
+          var name = esc(c.name.en) + (c.name.local ? ' <span class="ecard__local">' + esc(c.name.local) + "</span>" : "");
+          var loc = [c.city, regionLab(c.region)].filter(Boolean).map(esc).join(" · ");
+          var tags = (c.sectors || []).slice(0, 2).map(function (s) {
+            return '<span class="tag">' + esc(lab("sectors", s)) + "</span>";
+          }).join("");
+          var dev = c.dev && c.dev !== "unknown"
+            ? '<span class="tag tag--alt">' + esc(lab("devStages", c.dev)) + "</span>" : "";
+          var invs = investorsOf(c);
+          var invLine = invs.length
+            ? '<div class="ecard__backers">' + invs.slice(0, 3).map(function (i) {
+                return '<span class="backer backer--' + (i.id ? "linked" : "plain") + '">' +
+                  '<span class="material-symbols-rounded" aria-hidden="true">' +
+                  (i.id ? "account_balance_wallet" : "help") + "</span>" + esc(i.name) + "</span>";
+              }).join("") +
+              (invs.length > 3 ? '<span class="backer backer--more">+' + (invs.length - 3) + "</span>" : "") +
+              "</div>"
+            : "";
+          var raised = c.raised ? '<span class="ecard__raised">' + money(c.raised) + "</span>" : "";
+          var stat = c.status && c.status !== "private"
+            ? '<span class="badge badge--' + esc(c.status) + '">' + esc(lab("companyStatus", c.status)) + "</span>" : "";
+          return '<article class="ecard card" tabindex="0" role="button" data-item data-slug="' + esc(c.id) + '" ' +
+            'aria-label="' + esc(c.name.en) + '">' +
+            '<div class="ecard__head"><h3 class="ecard__name">' + name + "</h3>" +
+              '<span class="dot dot--' + esc(c.conf) + '" title="' + esc(t(CONF[c.conf] || {})) + '"></span></div>' +
+            '<div class="ecard__meta">' + stat +
+              (loc ? '<span class="ecard__loc">' + loc + "</span>" : "") + raised + "</div>" +
+            (c.what ? '<p class="ecard__what">' + esc(c.what) + "</p>" : "") +
+            invLine +
+            (tags || dev ? '<div class="ecard__tags">' + tags + dev + "</div>" : "") +
+            "</article>";
+        }
+
+        function relevance(c) {
+          var hit = function (s) { return (s || "").toLowerCase().indexOf(q) !== -1; };
+          if (hit(c.name.en) || hit(c.name.local)) return 0;
+          if (investorsOf(c).some(function (i) { return hit(i.name); })) return 1;
+          if (hit(c.what)) return 2;
+          return 3;
+        }
+
+        function paint() {
+          visible = cos.filter(matches);
+          if (q) {
+            visible = visible
+              .map(function (c, i) { return { c: c, r: relevance(c), i: i }; })
+              .sort(function (a, b) { return a.r - b.r || a.i - b.i; })
+              .map(function (x) { return x.c; });
+          }
+          grid.innerHTML = visible.slice(0, 900).map(card).join("");
+          emptyEl.hidden = visible.length !== 0;
+          paintContext();
+          countEl.textContent = num(visible.length) + " " +
+            (visible.length === 1 ? tt("coCount1") : tt("coCount")) +
+            (visible.length > 900 ? " · showing 900" : "");
+          [].forEach.call(grid.querySelectorAll(".ecard[data-slug]"), function (el) {
+            var slug = el.dataset.slug;
+            el.addEventListener("click", function () { openItem(slug); });
+            el.addEventListener("keydown", function (ev) {
+              if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); openItem(slug); }
+            });
+          });
+          syncChips();
+        }
+
+        function paintContext() {
+          var el = document.getElementById("ctxBanner");
+          if (!el) return;
+          var hits = q && BY_INVESTOR[q];
+          if (!hits || !hits.length) { el.innerHTML = ""; return; }
+          var label = q.replace(/\b\w/g, function (ch) { return ch.toUpperCase(); });
+          var links = hits.slice(0, 10).map(function (c) {
+            return '<button class="ctx__link" type="button" data-goto="' + esc(c.id) + '">' +
+              esc(c.name.en) + ' <span class="ctx__where">' + esc(regionLab(c.region)) +
+              (c.cat ? " · " + esc(lab("sectors", c.cat)) : "") + "</span></button>";
+          }).join("");
+          el.innerHTML = '<div class="ctx">' +
+            '<span class="material-symbols-rounded" aria-hidden="true">alt_route</span>' +
+            '<div><p class="ctx__lead"><b>' + esc(label) + "</b> " + esc(tt("coInvestorHint")) +
+            (hits.length > 10 ? " " + esc(tt("portfolioHintMore")) : "") + "</p>" +
+            '<div class="ctx__links">' + links + "</div></div></div>";
+          [].forEach.call(el.querySelectorAll("[data-goto]"), function (b) {
+            b.addEventListener("click", function () { openItem(b.dataset.goto); });
+          });
+        }
+
+        function syncChips() {
+          [].forEach.call(pageEl.querySelectorAll(".fchip"), function (chip) {
+            var on = sel[chip.dataset.axis] && sel[chip.dataset.axis][chip.dataset.val];
+            chip.classList.toggle("fchip--active", !!on);
+            chip.setAttribute("aria-pressed", on ? "true" : "false");
+          });
+        }
+
+        function findItem(slug) { return CO_BY_ID[slug] || null; }
+
+        function row(labelKey, valHtml) {
+          if (!valHtml) return "";
+          return '<div class="drow"><dt>' + esc(tt(labelKey)) + "</dt><dd>" + valHtml + "</dd></div>";
+        }
+        function slugList(axis, arr) {
+          if (!arr || !arr.length) return "";
+          return arr.map(function (s) { return '<span class="tag">' + esc(lab(axis, s)) + "</span>"; }).join("");
+        }
+
+        function openItem(slug) {
+          var c = findItem(slug); if (!c) return;
+          var dlg = L.dialog(), body = document.getElementById("dialogBody");
+          var title = esc(c.name.en) + (c.name.local ? ' <span class="dlg__local">' + esc(c.name.local) + "</span>" : "");
+          var sub = [c.cat ? lab("sectors", c.cat) : "", [c.city, c.country].filter(Boolean).join(", ")]
+            .filter(Boolean).map(esc).join("  ·  ");
+          var web = c.website ? '<a href="' + esc(c.website) + '" target="_blank" rel="noopener">' + esc(tt("visit")) +
+            ' <span class="material-symbols-rounded" aria-hidden="true">open_in_new</span></a>' : "";
+
+          /* The link back to the investor half. An investor we have profiled
+             becomes a deep link into the directory page; one we have not stays
+             plain text with a quiet "not in this directory" marker, so the
+             difference between "no investor" and "investor not yet catalogued"
+             is visible rather than inferred from a missing link. */
+          var invs = investorsOf(c);
+          var invHtml = invs.length ? invs.map(function (i) {
+            var role = i.role && i.role !== "unknown" ? ' <i class="backer__rel">' + esc(i.role) + "</i>" : "";
+            if (i.id && ENT_BY_ID[i.id]) {
+              return '<a class="xlink" href="directory.html#' + esc(i.id) + '" title="' + esc(tt("coOpenInvestor")) + '">' +
+                esc(i.name) + role +
+                '<span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span></a>';
+            }
+            return '<span class="xlink xlink--dead" title="' + esc(tt("coNotListed")) + '">' + esc(i.name) + role + "</span>";
+          }).join("") : '<span class="muted">' + esc(tt("coInvestorsNone")) + "</span>";
+
+          var lastRound = c.last
+            ? [c.last.stage ? lab("stages", c.last.stage) || c.last.stage : "", c.last.amount, c.last.date]
+                .filter(Boolean).map(esc).join(" · ")
+            : "";
+          var regHtml = (c.reg || []).map(function (rg) {
+            return '<span class="tag">' + esc([rg[0], rg[1], rg[3]].filter(Boolean).join(" ")) +
+              (rg[2] ? " — " + esc(rg[2]) : "") + "</span>";
+          }).join("");
+          var exitHtml = c.exit
+            ? esc([c.exit.type, c.exit.acquirer, c.exit.value, c.exit.year, c.exit.ticker]
+                .filter(Boolean).join(" · "))
+            : "";
+
+          var meta = row("founded", c.founded ? esc(String(c.founded)) : "") +
+            row("status", c.status ? esc(lab("companyStatus", c.status)) : "") +
+            row("website", web) +
+            row("coDev", c.dev && c.dev !== "unknown" ? esc(lab("devStages", c.dev)) : "") +
+            row("coLead", c.lead ? esc(c.lead) : "") +
+            row("modalities", slugList("modalities", c.modalities)) +
+            row("indications", slugList("indications", c.indications)) +
+            row("coReg", regHtml) +
+            row("coRaised", c.raised ? esc(String(c.raised)) : "") +
+            row("coVal", c.val ? esc(String(c.val)) + (c.unicorn ? " 🦄" : "") : "") +
+            row("coLastRound", lastRound) +
+            row("coInvestors", invHtml) +
+            row("coExit", exitHtml) +
+            row("confidence", '<span class="dot dot--' + esc(c.conf) + '"></span> ' + esc(t(CONF[c.conf] || {})));
+
+          var blurb = c.what ? '<p class="dlg__thesis">' + esc(c.what) + "</p>"
+            : (c.summary ? '<p class="dlg__thesis">' + esc(c.summary) + "</p>" : "");
+
+          var sources = (c.sources || []).length
+            ? '<div class="dlg__sources"><h3>' + esc(tt("sources")) + "</h3>" +
+              (c.sources || []).map(function (s) {
+                return '<div class="src"><a href="' + esc(s.url) + '" target="_blank" rel="noopener" class="src__link">' +
+                  esc(s.title || s.url) + ' <span class="material-symbols-rounded" aria-hidden="true">open_in_new</span></a>' +
+                  (s.quote ? '<blockquote class="src__quote">' + esc(s.quote) + "</blockquote>" : "") + "</div>";
+              }).join("") + "</div>"
+            : "";
+
+          body.innerHTML = '<h2 id="dialogTitle" class="dlg__title">' + title + "</h2>" +
+            (sub ? '<p class="dlg__sub">' + sub + "</p>" : "") +
+            blurb + '<dl class="dlg__grid">' + meta + "</dl>" + sources;
+          if (!dlg.open) dlg.showModal();
+          if (location.hash.slice(1) !== slug) history.replaceState(null, "", "#" + slug);
+        }
+
+        function navBy(d) {
+          var slug = location.hash.slice(1), i = -1;
+          for (var k = 0; k < visible.length; k++) if (visible[k].id === slug) { i = k; break; }
+          if (i === -1) return;
+          openItem(visible[(i + d + visible.length) % visible.length].id);
+        }
+
+        function onChip(ev) {
+          var chip = ev.target.closest && ev.target.closest(".fchip");
+          if (!chip) return;
+          var axis = chip.dataset.axis, val = chip.dataset.val;
+          if (sel[axis][val]) delete sel[axis][val]; else sel[axis][val] = true;
+          paint();
+        }
+        pageEl.addEventListener("click", onChip);
+
+        var resetBtn = document.getElementById("resetBtn");
+        if (resetBtn) resetBtn.addEventListener("click", function () {
+          for (var a in sel) sel[a] = set();
+          if (searchEl) searchEl.value = ""; q = "";
+          paint();
+        });
+
+        var mobBtn = document.getElementById("mobFilterBtn");
+        if (mobBtn) mobBtn.addEventListener("click", function () {
+          var open = filtersEl.classList.toggle("dir__filters--open");
+          mobBtn.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+
+        var debounce;
+        if (searchEl) searchEl.addEventListener("input", function () {
+          var v = this.value.trim().toLowerCase();
+          clearTimeout(debounce);
+          debounce = setTimeout(function () { q = v; paint(); }, 120);
+        });
+
+        var csvBtn = document.getElementById("csvBtn");
+        if (csvBtn) csvBtn.addEventListener("click", function () {
+          downloadCsv("med-vc-companies.csv",
+            ["id", "name", "category", "region", "country", "city", "founded", "status",
+             "development_stage", "total_raised", "valuation", "investors",
+             "investors_in_directory", "confidence", "website"],
+            visible.map(function (c) {
+              var iv = investorsOf(c);
+              return [c.id, c.name.en, c.cat ? lab("sectors", c.cat) : "", regionLab(c.region),
+                c.country || "", c.city || "", c.founded || "",
+                c.status ? lab("companyStatus", c.status) : "",
+                c.dev ? lab("devStages", c.dev) : "", c.raised || "", c.val || "",
+                iv.map(function (i) { return i.name; }).join("; "),
+                iv.filter(function (i) { return i.id; }).map(function (i) { return i.id; }).join("; "),
+                c.conf, c.website || ""];
+            }));
+        });
+
+        var dlg = L.dialog();
+        function onKey(ev) {
+          if (!dlg.open) return;
+          if (ev.key === "ArrowRight") { ev.preventDefault(); navBy(1); }
+          else if (ev.key === "ArrowLeft") { ev.preventDefault(); navBy(-1); }
+        }
+        document.addEventListener("keydown", onKey);
+        function onClose() {
+          var slug = location.hash.slice(1);
+          if (slug && findItem(slug)) history.replaceState(null, "", location.pathname + location.search);
+        }
+        dlg.addEventListener("close", onClose);
+        function syncHash() {
+          var slug = location.hash.slice(1);
+          if (slug && findItem(slug)) openItem(slug);
+        }
+        window.addEventListener("hashchange", syncHash);
+
+        teardowns.push(function () {
+          pageEl.removeEventListener("click", onChip);
+          document.removeEventListener("keydown", onKey);
+          dlg.removeEventListener("close", onClose);
+          window.removeEventListener("hashchange", syncHash);
           clearTimeout(debounce);
         });
 

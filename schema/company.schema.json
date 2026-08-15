@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://med-vc.peteraim.com/schema/company.schema.json",
+  "title": "Medical / biomedical company",
+  "description": "An operating company in medicine or the life sciences — the thing investors put money INTO. Strictly disjoint from entity.schema.json, which describes the investors. A firm that both operates and invests (e.g. a pharma with a CVC arm) is recorded twice: the operating business here, the venture arm there, linked by name. Companies are in scope regardless of whether they ever raised venture capital; the funding block is optional so bootstrapped and state-owned players still fit.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "category", "region", "country", "sources", "confidence", "last_updated"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Stable slug, region-prefixed to match the investor convention: 'us-abridge', 'eu-oviva', 'jp-preferred-networks'."
+    },
+    "name": {
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string", "description": "English / romanized name" },
+        "local": { "type": "string", "description": "Name in local language/script if applicable" }
+      }
+    },
+    "aka": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Former names, tickers, common abbreviations. Feeds the link resolver — a company renamed after a merger is still reachable from an investor's older portfolio listing."
+    },
+
+    "category": {
+      "type": "string",
+      "description": "Primary bucket. Deliberately drawn from the SAME vocabulary as an investor's strategy.sector_focus (taxonomy.json > sectors) so a sector filter crosses cleanly between the two directories."
+    },
+    "sectors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Secondary buckets, same vocabulary. Most companies straddle two or three."
+    },
+
+    "status": {
+      "type": "string",
+      "enum": ["private", "public", "acquired", "merged", "shut-down", "unknown"],
+      "description": "Corporate status, NOT clinical status. 'public' covers any listed venue; the exchange goes in exit.ticker."
+    },
+    "founded_year": { "type": ["integer", "null"] },
+    "region": { "type": "string", "description": "taxonomy.json > regions slug" },
+    "country": { "type": "string" },
+    "hq_city": { "type": "string" },
+    "website": { "type": "string" },
+    "links": {
+      "type": "object",
+      "properties": {
+        "linkedin": { "type": "string" },
+        "crunchbase": { "type": "string" },
+        "twitter": { "type": "string" },
+        "pitchbook": { "type": "string" }
+      }
+    },
+
+    "profile": {
+      "type": "object",
+      "description": "What the company actually does and how far along it is.",
+      "properties": {
+        "what": {
+          "type": "string",
+          "description": "One sentence, concrete and checkable. 'Ambient AI scribe that drafts clinical notes from the patient visit' — not 'transforming healthcare with AI'."
+        },
+        "modalities": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "taxonomy.json > modalities. Shared with investors, so a fund's stated modality focus lines up with real companies."
+        },
+        "indications": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "taxonomy.json > indications."
+        },
+        "development_stage": {
+          "type": "string",
+          "enum": ["discovery", "preclinical", "phase-1", "phase-2", "phase-3", "approved", "commercial", "pilot", "unknown"],
+          "description": "For therapeutics use the trial phase of the LEAD asset; for devices/software use pilot -> commercial. 'approved' means a regulator cleared it; 'commercial' means it is selling."
+        },
+        "lead_asset": {
+          "type": "string",
+          "description": "Therapeutics only: the lead program name/target, e.g. 'BNT327 (PD-L1xVEGF bispecific)'."
+        },
+        "regulatory": {
+          "type": "array",
+          "description": "Clearances and designations actually granted. Do not list applications or intentions.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "body": { "type": "string", "description": "FDA / EMA / CE / PMDA / NMPA / MFDS / TFDA / MHRA / TGA / CDSCO" },
+              "kind": { "type": "string", "description": "510(k) / De Novo / PMA / CE-MDR / NDA / BLA / Breakthrough Device / orphan-drug / fast-track" },
+              "item": { "type": "string", "description": "Product or program the clearance covers" },
+              "year": { "type": ["integer", "null"] }
+            }
+          }
+        },
+        "team_size": { "type": ["integer", "string", "null"] }
+      }
+    },
+
+    "funding": {
+      "type": "object",
+      "description": "Optional — absent means unknown or never raised, which are different things; say which in verification_notes when it matters.",
+      "properties": {
+        "total_raised": { "$ref": "#/$defs/money" },
+        "valuation": { "$ref": "#/$defs/money" },
+        "unicorn": { "type": ["boolean", "null"], "description": "true only with a sourced >=$1B valuation" },
+        "last_round": { "$ref": "#/$defs/round" },
+        "rounds": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/round" },
+          "description": "Newest first. Partial history is fine and expected."
+        },
+        "investors": {
+          "type": "array",
+          "description": "THE LINK. Written by researchers as plain names; scripts/build_companies.py resolves each to an investor id where one exists in this directory and leaves entity_id null otherwise. Never hand-write entity_id — a stale hand-written id outlives the rename that broke it.",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string", "description": "As reported, e.g. 'General Catalyst', 'a16z Bio + Health'" },
+              "entity_id": {
+                "type": ["string", "null"],
+                "description": "DERIVED by the build. Points at an id in all-entities.json, or null when that investor is not (yet) in this directory."
+              },
+              "role": { "type": "string", "enum": ["lead", "co-lead", "participant", "angel", "unknown"] },
+              "round": { "type": "string", "description": "Which round they came in at, e.g. 'series-b'" },
+              "source_url": { "type": "string" }
+            }
+          }
+        },
+        "exit": {
+          "type": "object",
+          "properties": {
+            "type": { "type": "string", "description": "IPO / M&A / SPAC / shutdown" },
+            "year": { "type": ["integer", "null"] },
+            "acquirer": { "type": "string" },
+            "value": { "$ref": "#/$defs/money" },
+            "ticker": { "type": "string", "description": "e.g. 'NASDAQ:RXRX'" }
+          }
+        }
+      }
+    },
+
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "note": { "type": "string" },
+          "linkedin": { "type": "string" }
+        }
+      }
+    },
+
+    "summary": {
+      "type": "object",
+      "description": "Short human-readable blurb",
+      "properties": {
+        "en": { "type": "string" },
+        "local": { "type": "string" }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Provenance. Every quantitative claim should be traceable to a quote here.",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string" },
+          "title": { "type": "string" },
+          "publisher": { "type": "string" },
+          "accessed": { "type": "string", "description": "YYYY-MM-DD the page was fetched" },
+          "supports": { "type": "string", "description": "Which facts this source backs" },
+          "quote": { "type": "string", "description": "Verbatim snippet backing a number/claim" }
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "high = official/primary; medium = reputable secondary; low = single weak/old source or inference"
+    },
+    "verification_notes": { "type": "string" },
+    "last_updated": { "type": "string", "description": "YYYY-MM-DD" },
+    "researched_by": { "type": "string", "description": "agent segment id that produced this row" }
+  },
+
+  "$defs": {
+    "money": {
+      "type": "object",
+      "description": "Money kept as reported (raw) to avoid fabricated conversions; usd optional when confidently derivable.",
+      "properties": {
+        "raw": { "type": ["string", "null"], "description": "As reported, e.g. '$30M', '€12.5M', '¥50億'; null if unknown" },
+        "usd": { "type": ["number", "null"] },
+        "currency": { "type": ["string", "null"] }
+      }
+    },
+    "round": {
+      "type": "object",
+      "properties": {
+        "stage": { "type": "string", "description": "taxonomy.json > stages slug, or 'ipo' / 'debt' / 'grant' / 'crowdfunding'" },
+        "amount": { "$ref": "#/$defs/money" },
+        "date": { "type": "string", "description": "YYYY-MM or YYYY" },
+        "lead": { "type": "array", "items": { "type": "string" }, "description": "Lead investor names, as reported" }
+      }
+    }
+  }
+}
