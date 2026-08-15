@@ -385,6 +385,30 @@
         "quote": "2014年8月設立...1号ファンド（55億円）...2号ファンド（165億円）...3号ファンド（250億円規模）"
       },
       {
+        "url": "https://beyondnextventures.com/en/about/",
+        "title": "About — Beyond Next Ventures",
+        "publisher": "Beyond Next Ventures",
+        "accessed": "2026-08-16",
+        "supports": "Founding year 2014, AUM, HQ location, deep-tech/life-science focus",
+        "quote": "約480億円"
+      },
+      {
+        "url": "https://beyondnextventures.com/en/portfolio/",
+        "title": "Portfolio — Beyond Next Ventures",
+        "publisher": "Beyond Next Ventures",
+        "accessed": "2026-08-16",
+        "supports": "Notable biotech/pharma investments SCOHIA PHARMA and Kanjin Therapeutics",
+        "quote": "Kanjin Therapeutics ... SCOHIA PHARMA"
+      },
+      {
+        "url": "https://beyondnextventures.com/en/team/",
+        "title": "Team — Beyond Next Ventures",
+        "publisher": "Beyond Next Ventures",
+        "accessed": "2026-08-16",
+        "supports": "Named partners including CEO Tsuyoshi Ito and M.D. senior associate Yasutaka Kashiwagi",
+        "quote": "伊藤 毅 (Tsuyoshi Ito) - CEO / Representative Partner"
+      },
+      {
         "url": "https://prtimes.jp/main/html/rd/p/000000138.000017460.html",
         "title": "Beyond Next Ventures、ディープテックに特化した3号ファンドを設立",
         "publisher": "PR TIMES",
@@ -485,7 +509,33 @@
       "notable_investments": [],
       "co_investors": []
     },
-    "verification_notes": "Beyond Next Ventures is a generalist deep-tech VC (also invests in robotics, materials, agri-tech); included here for its explicit and long-running medical-device/digital-health vertical and Nihonbashi biomedical infrastructure (Beyond BioLAB TOKYO). [merged from duplicate research rows] [merged from duplicate research rows] [merged from duplicate research rows]"
+    "verification_notes": "Beyond Next Ventures is a generalist deep-tech VC (also invests in robotics, materials, agri-tech); included here for its explicit and long-running medical-device/digital-health vertical and Nihonbashi biomedical infrastructure (Beyond BioLAB TOKYO). [merged from duplicate research rows] [merged from duplicate research rows] [merged from duplicate research rows] [merged from duplicate research rows]",
+    "people": [
+      {
+        "name": "Tsuyoshi Ito",
+        "role": "CEO / Representative Partner"
+      },
+      {
+        "name": "Kengo Ueha",
+        "role": "Representative Director / General Partner"
+      },
+      {
+        "name": "Katsuya Hashizume",
+        "role": "Partner / Head of Investment Division"
+      },
+      {
+        "name": "Akito Arima",
+        "role": "Partner / Head of Investment & Open Innovation Division"
+      },
+      {
+        "name": "Yasutaka Kashiwagi",
+        "role": "Senior Associate",
+        "background": "M.D."
+      }
+    ],
+    "backing": {
+      "backers": []
+    }
   },
   {
     "id": "jp-beyond-biolab-tokyo",
@@ -6894,6 +6944,175 @@
           "kind": "pharma",
           "relationship": "wholly-owned-cvc",
           "note": "Named after its parent organization (Daiichi Sankyo); relationship inferred from the entity name.",
+          "evidence": "inferred"
+        }
+      ]
+    }
+  },
+  {
+    "id": "jp-smbc-venture-capital",
+    "name": {
+      "en": "SMBC Venture Capital",
+      "local": "SMBCベンチャーキャピタル株式会社"
+    },
+    "aka": [],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "region": "japan",
+    "country": "Japan",
+    "hq_city": "Tokyo",
+    "offices": [],
+    "website": "https://www.smbc-vc.co.jp/",
+    "capital": {},
+    "strategy": {
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "cell-gene-therapy",
+        "ai-drug-discovery",
+        "healthcare-services"
+      ],
+      "thesis": "Wholly-owned venture capital subsidiary of Sumitomo Mitsui Banking Corporation / SMFG; sector-agnostic generalist investor with over 20 years of venture investing and a life-sciences book that the firm states makes up roughly 11% of total investments, spanning regenerative medicine, AI drug discovery, CRO/preclinical services and primary-care services, with multiple IPO exits in the sector."
+    },
+    "lifesci": {
+      "modalities": [
+        "cell-therapy",
+        "ai-ml-platform"
+      ],
+      "indications": [],
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Heartseed",
+          "sector": "cell-gene-therapy",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Chordia Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Veritas In Silico",
+          "sector": "ai-drug-discovery",
+          "outcome": "IPO"
+        },
+        {
+          "company": "QPS Research Institute",
+          "sector": "pharma-services",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Solasia Pharma",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "SanBio",
+          "sector": "cell-gene-therapy",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Kubota Pharmaceutical Holdings (Acucela)",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Hyuga Primary Care",
+          "sector": "healthcare-services",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Perseus Proteomics",
+          "sector": "life-science-tools",
+          "outcome": "IPO"
+        },
+        {
+          "company": "UMN Pharma",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
+      ],
+      "exits": [
+        {
+          "company": "Heartseed",
+          "type": "IPO",
+          "year": 2024,
+          "value": {}
+        },
+        {
+          "company": "Chordia Therapeutics",
+          "type": "IPO",
+          "year": 2024,
+          "value": {}
+        },
+        {
+          "company": "Veritas In Silico",
+          "type": "IPO",
+          "year": 2024,
+          "value": {}
+        },
+        {
+          "company": "QPS Research Institute",
+          "type": "IPO",
+          "year": 2023,
+          "value": {}
+        }
+      ]
+    },
+    "summary": {
+      "en": "Corporate venture arm of Sumitomo Mitsui Banking Corporation (SMFG), a generalist Japanese VC with over two decades of investing whose life-sciences book (~11% of the portfolio) has produced a long run of biotech/medtech IPOs including Heartseed, Chordia Therapeutics and SanBio.",
+      "local": "三井住友銀行（SMFGグループ）系のCVC。20年以上の投資実績を持つセクター横断型VCで、ライフサイエンス領域（投資全体の約11%）からHeartseed、Chordia Therapeutics、SanBioなど多数のIPOを輩出。"
+    },
+    "sources": [
+      {
+        "url": "https://www.smbc-vc.co.jp/",
+        "title": "SMBCベンチャーキャピタル",
+        "publisher": "SMBC Venture Capital",
+        "accessed": "2026-08-16",
+        "supports": "SMFG/SMBC parent relationship, 20+ years investing, sector-agnostic strategy, named healthcare portfolio companies",
+        "quote": "continued venture investing for over 20 years"
+      },
+      {
+        "url": "https://www.smbc-vc.co.jp/portfolio/",
+        "title": "投資実績 — SMBCベンチャーキャピタル",
+        "publisher": "SMBC Venture Capital",
+        "accessed": "2026-08-16",
+        "supports": "Life-sciences portfolio share and list of biotech/medtech IPO exits",
+        "quote": "11% of total investments [target life sciences sectors]"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Exact founding year not stated on the fetched pages (only 'over 20 years' of activity). IPO years for portfolio companies beyond the four with explicit dates in the fetched content, and all deal values, are unconfirmed and left null rather than guessed. Life-sciences percentage (11%) is firm-stated but the denominator (count vs. capital) is not specified.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r7-jpkr-investor-gaps",
+    "backing": {
+      "backers": [
+        {
+          "name": "Sumitomo Mitsui Banking Corporation",
+          "kind": "financial-institution",
+          "relationship": "wholly-owned-cvc",
+          "note": "SMBC/SMFG group's dedicated venture capital subsidiary.",
+          "evidence": "verified"
+        },
+        {
+          "name": "Sumitomo",
+          "kind": "conglomerate",
+          "relationship": "wholly-owned-cvc",
+          "note": "From the entity description: “venture arm of Sumitomo Mitsui Banking Corporation”",
           "evidence": "inferred"
         }
       ]
