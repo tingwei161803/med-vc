@@ -217,6 +217,9 @@ MED_VC = {
         "by_backer_kind": stats.get("by_backer_kind", {}),
         "by_confidence": stats["by_confidence"],
         "sources": sum(len(e.get("sources", [])) for e in ent),
+        # The methodology page used to hardcode these and they went stale the
+        # moment the dataset grew. Derive them so the page can never lie.
+        "quoted": sum(1 for e in ent if any(s.get("quote") for s in e.get("sources") or [])),
     },
     "companyStats": cstats,
 }
@@ -224,8 +227,8 @@ MED_VC = {
 SITE_META = {
     "title": {"en": "med-vc", "zh": "med-vc"},
     "subtitle": {
-        "en": "A global directory of medical & biomedical venture investors",
-        "zh": "全球醫療 / 生醫創投名錄",
+        "en": "A global directory of medical & biomedical venture investors — and the companies they fund",
+        "zh": "全球醫療 / 生醫創投名錄 —— 以及它們投資的公司",
     },
     "repo": "tingwei161803/med-vc",
 }

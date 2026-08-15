@@ -38,7 +38,26 @@
     "Rock Health": "us-rock-health-capital",
     "SoftBank": "jp-softbank-vision-fund",
     "SoftBank Vision Fund 2": "jp-softbank-vision-fund",
-    "OpenAI": "us-openai-startup-fund"
+    "OpenAI": "us-openai-startup-fund",
+
+    "_comment_ambiguity": [
+      "Below: names the resolver correctly refused because they matched more",
+      "than one record and region could not break the tie. Each is a judgement",
+      "about which record a press release means by the bare name.",
+      "RH Capital rebranded to Foreground Capital in 2024 and the same team",
+      "still manages RH Capital Funds I and II — one continuing firm held as two",
+      "records. This alias points links at the surviving name; deduplicating the",
+      "two records themselves is a data fix, not a linking fix, and belongs in",
+      "the cleanup round.",
+      "Illumina Accelerator and Illumina Ventures are genuinely different",
+      "vehicles; a cap table saying just 'Illumina' means the venture fund.",
+      "IP Group plc is the UK parent; the Australian entity is its subsidiary."
+    ],
+    "RH Capital": "us-foreground-capital",
+    "Rhia Ventures": "us-foreground-capital",
+    "Illumina": "us-illumina-ventures",
+    "StartUp Health": "us-startup-health",
+    "IP Group": "eu-ip-group"
   },
   "companies": {}
 }

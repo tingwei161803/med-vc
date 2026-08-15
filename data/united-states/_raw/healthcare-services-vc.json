@@ -1,50 +1,136 @@
 [
   {
     "id": "us-oak-hc-ft",
-    "name": { "en": "Oak HC/FT" },
-    "aka": ["Oak HC/FT Partners"],
+    "name": {
+      "en": "Oak HC/FT"
+    },
+    "aka": [
+      "Oak HC/FT Partners"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "Stamford",
     "offices": [
-      { "country": "United States", "city": "Stamford" },
-      { "country": "United States", "city": "San Francisco" }
+      {
+        "country": "United States",
+        "city": "Stamford"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
     ],
     "website": "https://www.oakhcft.com/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/oak-hc-ft-partners" },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/oak-hc-ft-partners"
+    },
     "capital": {
-      "current_fund": { "raw": "$1.94 billion", "usd": 1940000000, "currency": "USD" },
+      "current_fund": {
+        "raw": "$1.94 billion",
+        "usd": 1940000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund I", "size": { "raw": "$500 million", "usd": 500000000, "currency": "USD" } },
-        { "name": "Fund II", "size": { "raw": "$600M", "usd": 600000000, "currency": "USD" } },
-        { "name": "Fund IV", "size": { "raw": "$1.4 billion", "usd": 1400000000, "currency": "USD" } },
-        { "name": "Fund V", "size": { "raw": "$1.94 billion", "usd": 1940000000, "currency": "USD" } }
+        {
+          "name": "Fund I",
+          "size": {
+            "raw": "$500 million",
+            "usd": 500000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund II",
+          "size": {
+            "raw": "$600M",
+            "usd": 600000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund IV",
+          "size": {
+            "raw": "$1.4 billion",
+            "usd": 1400000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund V",
+          "size": {
+            "raw": "$1.94 billion",
+            "usd": 1940000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it"
+      ],
       "thesis": "Backs entrepreneurs scaling businesses driving the transformation of the U.S. healthcare system (healthcare services, payer/provider services and health IT) and international fintech. Medical nexus: care delivery, value-based care and healthcare information technology."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Oshi Health", "sector": "virtual digestive care", "outcome": "active" }
+        {
+          "company": "Oshi Health",
+          "sector": "virtual digestive care",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Annie Lamont", "role": "Co-Founder & Managing Partner" }
+      {
+        "name": "Annie Lamont",
+        "role": "Co-Founder & Managing Partner"
+      }
     ],
     "summary": {
       "en": "Stamford- and San Francisco-based venture and growth-equity firm investing exclusively in healthcare (services, IT) and fintech; closed its $1.94 billion Fund V in 2022."
     },
     "sources": [
-      { "url": "https://www.oakhcft.com/news/oak-hc-ft-closes-fifth-fund-at-1-94-billion-continuing-our-legacy-while-investing-in-the-future", "title": "Oak HC/FT Closes Fifth Fund at $1.94 Billion", "publisher": "Oak HC/FT", "accessed": "undefined", "supports": "Fund V size; healthcare + fintech focus", "quote": "the closing of our $1.94 billion Fund V" },
-      { "url": "https://www.oakhcft.com/news/oak-hc-ft-closes-fifth-fund-at-1-94-billion-continuing-our-legacy-while-investing-in-the-future", "title": "Oak HC/FT Closes Fifth Fund at $1.94 Billion", "publisher": "Oak HC/FT", "accessed": "undefined", "supports": "sector focus", "quote": "proven partner for entrepreneurs scaling businesses that are driving the transformation of the U.S. Healthcare system and international FinTech sector" },
-      { "url": "https://www.finsmes.com/2017/04/oak-hcft-closes-second-healthcare-fintech-venture-capital-fund-at-600m.html", "title": "Oak HC/FT Closes Second Healthcare & Fintech Venture Capital Fund, at $600M", "publisher": "FinSMEs", "accessed": "undefined", "supports": "Fund II size", "quote": "Oak HC/FT Closes Second Healthcare & Fintech Venture Capital Fund, at $600M" },
-      { "url": "https://techcrunch.com/2021/02/24/oak-hc-ft-1-4-billion/", "title": "Oak HC/FT closes on $1.4 billion to invest in fintech and healthcare startups", "publisher": "TechCrunch", "accessed": "undefined", "supports": "Fund IV size", "quote": "Oak HC/FT closes on $1.4 billion to invest in fintech and healthcare startups" }
+      {
+        "url": "https://www.oakhcft.com/news/oak-hc-ft-closes-fifth-fund-at-1-94-billion-continuing-our-legacy-while-investing-in-the-future",
+        "title": "Oak HC/FT Closes Fifth Fund at $1.94 Billion",
+        "publisher": "Oak HC/FT",
+        "accessed": "undefined",
+        "supports": "Fund V size; healthcare + fintech focus",
+        "quote": "the closing of our $1.94 billion Fund V"
+      },
+      {
+        "url": "https://www.oakhcft.com/news/oak-hc-ft-closes-fifth-fund-at-1-94-billion-continuing-our-legacy-while-investing-in-the-future",
+        "title": "Oak HC/FT Closes Fifth Fund at $1.94 Billion",
+        "publisher": "Oak HC/FT",
+        "accessed": "undefined",
+        "supports": "sector focus",
+        "quote": "proven partner for entrepreneurs scaling businesses that are driving the transformation of the U.S. Healthcare system and international FinTech sector"
+      },
+      {
+        "url": "https://www.finsmes.com/2017/04/oak-hcft-closes-second-healthcare-fintech-venture-capital-fund-at-600m.html",
+        "title": "Oak HC/FT Closes Second Healthcare & Fintech Venture Capital Fund, at $600M",
+        "publisher": "FinSMEs",
+        "accessed": "undefined",
+        "supports": "Fund II size",
+        "quote": "Oak HC/FT Closes Second Healthcare & Fintech Venture Capital Fund, at $600M"
+      },
+      {
+        "url": "https://techcrunch.com/2021/02/24/oak-hc-ft-1-4-billion/",
+        "title": "Oak HC/FT closes on $1.4 billion to invest in fintech and healthcare startups",
+        "publisher": "TechCrunch",
+        "accessed": "undefined",
+        "supports": "Fund IV size",
+        "quote": "Oak HC/FT closes on $1.4 billion to invest in fintech and healthcare startups"
+      }
     ],
     "confidence": "high",
     "verification_notes": "HQ (Stamford, CT + San Francisco) taken from firm public profile; not re-verified verbatim. Fund V figure and sector language quoted from the firm's own announcement.",
@@ -53,7 +139,9 @@
   },
   {
     "id": "us-town-hall-ventures",
-    "name": { "en": "Town Hall Ventures" },
+    "name": {
+      "en": "Town Hall Ventures"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2018,
@@ -62,26 +150,68 @@
     "hq_city": "New York",
     "website": "https://www.townhallventures.com/",
     "capital": {
-      "aum": { "raw": "$1.4 billion", "usd": 1400000000, "currency": "USD" },
-      "current_fund": { "raw": "$440 million", "usd": 440000000, "currency": "USD" }
+      "aum": {
+        "raw": "$1.4 billion",
+        "usd": 1400000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "$440 million",
+        "usd": 440000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services"
+      ],
       "thesis": "Invests in technology-enabled healthcare companies improving access, affordability and quality of care for low-income, Medicaid/Medicare and other vulnerable populations, with a heavy value-based care orientation (primary care, behavioral health, home-based and chronic care)."
     },
     "people": [
-      { "name": "Andy Slavitt", "role": "General Partner / Co-Founder", "background": "Former Acting Administrator of the Centers for Medicare & Medicaid Services; ex-EVP Optum" },
-      { "name": "David Whelan", "role": "General Partner / Co-Founder" },
-      { "name": "Meera Mani", "role": "General Partner" }
+      {
+        "name": "Andy Slavitt",
+        "role": "General Partner / Co-Founder",
+        "background": "Former Acting Administrator of the Centers for Medicare & Medicaid Services; ex-EVP Optum"
+      },
+      {
+        "name": "David Whelan",
+        "role": "General Partner / Co-Founder"
+      },
+      {
+        "name": "Meera Mani",
+        "role": "General Partner"
+      }
     ],
     "summary": {
       "en": "New York value-based care VC founded by ex-CMS chief Andy Slavitt in 2018; raised a $440M fourth fund in 2025, bringing AUM to $1.4B, focused on care for underserved populations."
     },
     "sources": [
-      { "url": "https://www.forbes.com/sites/amyfeldman/2025/10/15/medicare-administrator-turned-health-venture-capitalist-raises-440-million-for-new-fund/", "title": "Medicare Administrator Turned Health Venture Capitalist Raises $440 Million For New Fund", "publisher": "Forbes", "accessed": "undefined", "supports": "Fund IV size, AUM, founding year, founders, focus", "quote": "Town Hall Ventures told Forbes it has now raised $440 million for a fourth fund, bringing its total assets under management to $1.4 billion." },
-      { "url": "https://www.forbes.com/sites/amyfeldman/2025/10/15/medicare-administrator-turned-health-venture-capitalist-raises-440-million-for-new-fund/", "title": "Medicare Administrator Turned Health Venture Capitalist Raises $440 Million For New Fund", "publisher": "Forbes", "accessed": "undefined", "supports": "founding year and GPs", "quote": "the New York-based firm, whose general partners consist of Slavitt, David Whelan and Meera Mani" },
-      { "url": "https://www.townhallventures.com/team", "title": "Team — Town Hall Ventures", "publisher": "Town Hall Ventures", "accessed": "undefined", "supports": "team / firm existence" }
+      {
+        "url": "https://www.forbes.com/sites/amyfeldman/2025/10/15/medicare-administrator-turned-health-venture-capitalist-raises-440-million-for-new-fund/",
+        "title": "Medicare Administrator Turned Health Venture Capitalist Raises $440 Million For New Fund",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "Fund IV size, AUM, founding year, founders, focus",
+        "quote": "Town Hall Ventures told Forbes it has now raised $440 million for a fourth fund, bringing its total assets under management to $1.4 billion."
+      },
+      {
+        "url": "https://www.forbes.com/sites/amyfeldman/2025/10/15/medicare-administrator-turned-health-venture-capitalist-raises-440-million-for-new-fund/",
+        "title": "Medicare Administrator Turned Health Venture Capitalist Raises $440 Million For New Fund",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "founding year and GPs",
+        "quote": "the New York-based firm, whose general partners consist of Slavitt, David Whelan and Meera Mani"
+      },
+      {
+        "url": "https://www.townhallventures.com/team",
+        "title": "Team — Town Hall Ventures",
+        "publisher": "Town Hall Ventures",
+        "accessed": "undefined",
+        "supports": "team / firm existence"
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -89,8 +219,12 @@
   },
   {
     "id": "us-frist-cressey-ventures",
-    "name": { "en": "Frist Cressey Ventures" },
-    "aka": ["FCV"],
+    "name": {
+      "en": "Frist Cressey Ventures"
+    },
+    "aka": [
+      "FCV"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2016,
@@ -98,29 +232,83 @@
     "country": "United States",
     "hq_city": "Nashville",
     "website": "https://fcventures.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/frist-cressey-ventures" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/frist-cressey-ventures"
+    },
     "capital": {
-      "aum": { "raw": "nearly $1 billion", "usd": 1000000000, "currency": "USD" },
-      "current_fund": { "raw": "$425 million", "usd": 425000000, "currency": "USD" }
+      "aum": {
+        "raw": "nearly $1 billion",
+        "usd": 1000000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "$425 million",
+        "usd": 425000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it"
+      ],
       "thesis": "Backs high-potential healthcare companies transforming care delivery with technology and tech-enabled services; increasing emphasis on AI-native care-delivery business models. Strategic LPs include Cigna Group Ventures, MedStar Health and OhioHealth."
     },
     "people": [
-      { "name": "Bill Frist", "role": "Co-Founder", "background": "MD; former U.S. Senate Majority Leader (transplant surgeon)" },
-      { "name": "Bryan Cressey", "role": "Co-Founder", "background": "Healthcare private-equity veteran (Cressey & Company)" }
+      {
+        "name": "Bill Frist",
+        "role": "Co-Founder",
+        "background": "MD; former U.S. Senate Majority Leader (transplant surgeon)"
+      },
+      {
+        "name": "Bryan Cressey",
+        "role": "Co-Founder",
+        "background": "Healthcare private-equity veteran (Cressey & Company)"
+      }
     ],
     "summary": {
       "en": "Nashville healthcare VC co-founded by Senator Bill Frist and Bryan Cressey in 2016; closed a $425M Fund IV (2026) bringing AUM to nearly $1B, focused on reshaping care delivery."
     },
     "sources": [
-      { "url": "https://www.prnewswire.com/news-releases/frist-cressey-ventures-announces-oversubscribed-425m-fund-iv-to-reshape-care-delivery-302691405.html", "title": "Frist Cressey Ventures Announces Oversubscribed $425M Fund IV to Reshape Care Delivery", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund IV size and AUM", "quote": "closed an oversubscribed $425 million Fund IV" },
-      { "url": "https://www.prnewswire.com/news-releases/frist-cressey-ventures-announces-oversubscribed-425m-fund-iv-to-reshape-care-delivery-302691405.html", "title": "Frist Cressey Ventures Announces Oversubscribed $425M Fund IV", "publisher": "PR Newswire", "accessed": "undefined", "supports": "AUM", "quote": "bringing total assets under management to nearly $1 billion" },
-      { "url": "https://www.prnewswire.com/news-releases/frist-cressey-ventures-announces-oversubscribed-425m-fund-iv-to-reshape-care-delivery-302691405.html", "title": "Frist Cressey Ventures Announces Oversubscribed $425M Fund IV", "publisher": "PR Newswire", "accessed": "undefined", "supports": "focus and founders", "quote": "companies transforming care delivery with technology and tech-enabled services" },
-      { "url": "https://fortune.com/2026/02/18/exclusive-sen-bill-frists-frist-cressey-ventures-raises-425-million-fourth-fund/", "title": "Sen. Bill Frist's Frist Cressey Ventures raises $425 million fourth fund", "publisher": "Fortune", "accessed": "undefined", "supports": "fund and founding context" }
+      {
+        "url": "https://www.prnewswire.com/news-releases/frist-cressey-ventures-announces-oversubscribed-425m-fund-iv-to-reshape-care-delivery-302691405.html",
+        "title": "Frist Cressey Ventures Announces Oversubscribed $425M Fund IV to Reshape Care Delivery",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund IV size and AUM",
+        "quote": "closed an oversubscribed $425 million Fund IV"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/frist-cressey-ventures-announces-oversubscribed-425m-fund-iv-to-reshape-care-delivery-302691405.html",
+        "title": "Frist Cressey Ventures Announces Oversubscribed $425M Fund IV",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "AUM",
+        "quote": "bringing total assets under management to nearly $1 billion"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/frist-cressey-ventures-announces-oversubscribed-425m-fund-iv-to-reshape-care-delivery-302691405.html",
+        "title": "Frist Cressey Ventures Announces Oversubscribed $425M Fund IV",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "focus and founders",
+        "quote": "companies transforming care delivery with technology and tech-enabled services"
+      },
+      {
+        "url": "https://fortune.com/2026/02/18/exclusive-sen-bill-frists-frist-cressey-ventures-raises-425-million-fourth-fund/",
+        "title": "Sen. Bill Frist's Frist Cressey Ventures raises $425 million fourth fund",
+        "publisher": "Fortune",
+        "accessed": "undefined",
+        "supports": "fund and founding context"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Founding ~2016 inferred from the firm's stated ten-year anniversary at the 2026 Fund IV close; stages are the firm's stated early-stage emphasis rather than a precise disclosed mandate.",
@@ -129,33 +317,79 @@
   },
   {
     "id": "us-heritage-group",
-    "name": { "en": "Heritage Group" },
+    "name": {
+      "en": "Heritage Group"
+    },
     "type": "growth-equity",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 1986,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Nashville",
     "website": "https://heritagegroupusa.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/heritage-group-llc" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/heritage-group-llc"
+    },
     "capital": {
-      "aum": { "raw": "approximately $1 billion", "usd": 1000000000, "currency": "USD" },
-      "current_fund": { "raw": "north of $370 million", "usd": 370000000, "currency": "USD" }
+      "aum": {
+        "raw": "approximately $1 billion",
+        "usd": 1000000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "north of $370 million",
+        "usd": 370000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it"
+      ],
       "thesis": "Makes majority and minority investments in high-growth healthcare services and healthcare technology businesses addressing U.S. healthcare-system challenges; LPs are leading provider systems and payers collectively operating 600+ hospitals and insuring 45M+ lives."
     },
     "summary": {
       "en": "Nashville healthcare-focused investment firm founded in 1986; invests in healthcare services and health-tech via its Heritage Healthcare Innovation Funds (Fund IV closed north of $370M in 2025), with roughly $1B under management."
     },
     "sources": [
-      { "url": "https://heritagegroupusa.com/", "title": "Heritage Group | Healthcare Investment Partners", "publisher": "Heritage Group", "accessed": "undefined", "supports": "founding year, longevity, Nashville", "quote": "Heritage Group was founded in 1986 by experienced healthcare entrepreneurs and operators." },
-      { "url": "https://heritagegroupusa.com/", "title": "Heritage Group | Healthcare Investment Partners", "publisher": "Heritage Group", "accessed": "undefined", "supports": "experience", "quote": "For over 35 years, first as entrepreneurs and now as investors, we have built, financed and partnered with some of the leading healthcare companies in the industry." },
-      { "url": "https://www.thehealthcareinvestor.com/2025/07/articles/healthcare-services-investing/heritage-group-closes-new-fund-with-370-million/", "title": "Heritage Group Closes New Fund With $370 Million", "publisher": "The Healthcare Investor", "accessed": "undefined", "supports": "Fund IV size", "quote": "Heritage Group Closes New Fund With $370 Million" },
-      { "url": "https://www.prnewswire.com/news-releases/heritage-group-launches-300-million-oversubscribed-third-fund-301207976.html", "title": "Heritage Group Launches $300 Million Oversubscribed Third Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "prior fund size / strategy" }
+      {
+        "url": "https://heritagegroupusa.com/",
+        "title": "Heritage Group | Healthcare Investment Partners",
+        "publisher": "Heritage Group",
+        "accessed": "undefined",
+        "supports": "founding year, longevity, Nashville",
+        "quote": "Heritage Group was founded in 1986 by experienced healthcare entrepreneurs and operators."
+      },
+      {
+        "url": "https://heritagegroupusa.com/",
+        "title": "Heritage Group | Healthcare Investment Partners",
+        "publisher": "Heritage Group",
+        "accessed": "undefined",
+        "supports": "experience",
+        "quote": "For over 35 years, first as entrepreneurs and now as investors, we have built, financed and partnered with some of the leading healthcare companies in the industry."
+      },
+      {
+        "url": "https://www.thehealthcareinvestor.com/2025/07/articles/healthcare-services-investing/heritage-group-closes-new-fund-with-370-million/",
+        "title": "Heritage Group Closes New Fund With $370 Million",
+        "publisher": "The Healthcare Investor",
+        "accessed": "undefined",
+        "supports": "Fund IV size",
+        "quote": "Heritage Group Closes New Fund With $370 Million"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/heritage-group-launches-300-million-oversubscribed-third-fund-301207976.html",
+        "title": "Heritage Group Launches $300 Million Oversubscribed Third Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "prior fund size / strategy"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM (~$1B across four funds) and Fund IV ($370M) come from reputable secondary sources; founding year and Nashville HQ confirmed on the official site. The firm operates as a healthcare-focused PE/growth investor rather than a classic early-stage VC.",
@@ -164,47 +398,125 @@
   },
   {
     "id": "us-questa-capital",
-    "name": { "en": "Questa Capital" },
-    "aka": ["Questa Capital Management"],
+    "name": {
+      "en": "Questa Capital"
+    },
+    "aka": [
+      "Questa Capital Management"
+    ],
     "type": "growth-equity",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "Washington",
     "offices": [
-      { "country": "United States", "city": "Washington" },
-      { "country": "United States", "city": "San Francisco" }
+      {
+        "country": "United States",
+        "city": "Washington"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
     ],
     "website": "https://www.questacapital.com/",
     "capital": {
-      "aum": { "raw": "more than $1 billion", "usd": 1000000000, "currency": "USD" },
-      "current_fund": { "raw": "$397 million", "usd": 397000000, "currency": "USD" },
+      "aum": {
+        "raw": "more than $1 billion",
+        "usd": 1000000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "$397 million",
+        "usd": 397000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund I", "vintage_year": 2018, "size": { "raw": "$199 million", "usd": 199000000, "currency": "USD" } },
-        { "name": "Fund II", "size": { "raw": "$348 million", "usd": 348000000, "currency": "USD" } },
-        { "name": "Fund III", "size": { "raw": "$397 million", "usd": 397000000, "currency": "USD" } }
+        {
+          "name": "Fund I",
+          "vintage_year": 2018,
+          "size": {
+            "raw": "$199 million",
+            "usd": 199000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund II",
+          "size": {
+            "raw": "$348 million",
+            "usd": 348000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund III",
+          "size": {
+            "raw": "$397 million",
+            "usd": 397000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it", "medtech-devices"],
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it",
+        "medtech-devices"
+      ],
       "thesis": "Venture growth-equity firm exclusively dedicated to healthcare, investing in expansion-stage companies across three sectors: healthcare services, healthcare technology and medical devices."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "DispatchHealth", "sector": "hospital-at-home / in-home care", "outcome": "active" },
-        { "company": "Bicycle Health", "sector": "virtual opioid-use-disorder treatment", "outcome": "active" }
+        {
+          "company": "DispatchHealth",
+          "sector": "hospital-at-home / in-home care",
+          "outcome": "active"
+        },
+        {
+          "company": "Bicycle Health",
+          "sector": "virtual opioid-use-disorder treatment",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Washington/San Francisco venture growth-equity firm dedicated to healthcare services, technology and medical devices; closed its $397M Fund III in 2023, exceeding $1B in aggregate commitments."
     },
     "sources": [
-      { "url": "https://www.prnewswire.com/news-releases/questa-capital-closes-397m-fund-iii-to-invest-in-expansion-stage-healthcare-companies-301908751.html", "title": "Questa Capital Closes $397M Fund III to Invest in Expansion Stage Healthcare Companies", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund III size and aggregate", "quote": "Questa Capital Partners III, LP (the \"Fund\") with $397 million of capital commitments, bringing the firm's aggregate committed capital to more than $1 billion." },
-      { "url": "https://www.prnewswire.com/news-releases/questa-capital-closes-397m-fund-iii-to-invest-in-expansion-stage-healthcare-companies-301908751.html", "title": "Questa Capital Closes $397M Fund III", "publisher": "PR Newswire", "accessed": "undefined", "supports": "sector focus", "quote": "The Fund will invest selectively in a portfolio of growth companies in three healthcare sectors of focus: services, technology, and medical devices." },
-      { "url": "https://www.prnewswire.com/news-releases/questa-capital-closes-348m-fund-ii-to-invest-in-transformational-healthcare-companies-301132822.html", "title": "Questa Capital Closes $348M Fund II", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund II size" }
+      {
+        "url": "https://www.prnewswire.com/news-releases/questa-capital-closes-397m-fund-iii-to-invest-in-expansion-stage-healthcare-companies-301908751.html",
+        "title": "Questa Capital Closes $397M Fund III to Invest in Expansion Stage Healthcare Companies",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund III size and aggregate",
+        "quote": "Questa Capital Partners III, LP (the \"Fund\") with $397 million of capital commitments, bringing the firm's aggregate committed capital to more than $1 billion."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/questa-capital-closes-397m-fund-iii-to-invest-in-expansion-stage-healthcare-companies-301908751.html",
+        "title": "Questa Capital Closes $397M Fund III",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "sector focus",
+        "quote": "The Fund will invest selectively in a portfolio of growth companies in three healthcare sectors of focus: services, technology, and medical devices."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/questa-capital-closes-348m-fund-ii-to-invest-in-transformational-healthcare-companies-301132822.html",
+        "title": "Questa Capital Closes $348M Fund II",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund II size"
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -212,8 +524,12 @@
   },
   {
     "id": "us-health-enterprise-partners",
-    "name": { "en": "Health Enterprise Partners" },
-    "aka": ["HEP"],
+    "name": {
+      "en": "Health Enterprise Partners"
+    },
+    "aka": [
+      "HEP"
+    ],
     "type": "growth-equity",
     "status": "active",
     "founded_year": 2006,
@@ -221,28 +537,83 @@
     "country": "United States",
     "hq_city": "New York",
     "website": "https://www.hepfund.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/health-enterprise-partners" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/health-enterprise-partners"
+    },
     "capital": {
-      "current_fund": { "raw": "$188 million", "usd": 188000000, "currency": "USD" },
+      "current_fund": {
+        "raw": "$188 million",
+        "usd": 188000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund I", "size": { "raw": "$91 million", "usd": 91000000, "currency": "USD" } },
-        { "name": "Fund II", "size": { "raw": "$148 million", "usd": 148000000, "currency": "USD" } },
-        { "name": "Fund III", "size": { "raw": "$188 million", "usd": 188000000, "currency": "USD" } }
+        {
+          "name": "Fund I",
+          "size": {
+            "raw": "$91 million",
+            "usd": 91000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund II",
+          "size": {
+            "raw": "$148 million",
+            "usd": 148000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund III",
+          "size": {
+            "raw": "$188 million",
+            "usd": 188000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-it", "healthcare-services"],
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Lower-middle-market growth-equity and buy-and-build investing in healthcare IT and healthcare services companies whose customers are hospital systems and health plans; backed by a network of payer/provider strategic LPs representing 300 hospitals and 125M covered lives."
     },
     "summary": {
       "en": "New York growth-equity firm (formed 2006) focused exclusively on healthcare IT and services businesses selling to providers and payers, with a large strategic payer/provider LP base."
     },
     "sources": [
-      { "url": "https://www.prnewswire.com/news-releases/health-enterprise-partners-raises-188-million-in-oversubscribed-third-fund-300676848.html", "title": "Health Enterprise Partners Raises $188 Million in Oversubscribed Third Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "focus on healthcare IT and services", "quote": "HEP III will focus on making growth equity and buy-and-build investments in innovative healthcare IT and healthcare services companies." },
-      { "url": "https://www.prnewswire.com/news-releases/health-enterprise-partners-raises-188-million-in-oversubscribed-third-fund-300676848.html", "title": "Health Enterprise Partners Raises $188 Million", "publisher": "PR Newswire", "accessed": "undefined", "supports": "founding year, HQ, strategic LP network", "quote": "Health Enterprise Partners, formed in 2006, is based in New York City and invests throughout the United States in growth equity and small buy-outs in healthcare services and information technology companies." },
-      { "url": "https://www.prnewswire.com/news-releases/health-enterprise-partners-raises-188-million-in-oversubscribed-third-fund-300676848.html", "title": "Health Enterprise Partners Raises $188 Million", "publisher": "PR Newswire", "accessed": "undefined", "supports": "strategic investor network", "quote": "this group of 40 industry participants represents 300 hospitals and 125 million covered lives and employs 850,000 people throughout the United States." }
+      {
+        "url": "https://www.prnewswire.com/news-releases/health-enterprise-partners-raises-188-million-in-oversubscribed-third-fund-300676848.html",
+        "title": "Health Enterprise Partners Raises $188 Million in Oversubscribed Third Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "focus on healthcare IT and services",
+        "quote": "HEP III will focus on making growth equity and buy-and-build investments in innovative healthcare IT and healthcare services companies."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/health-enterprise-partners-raises-188-million-in-oversubscribed-third-fund-300676848.html",
+        "title": "Health Enterprise Partners Raises $188 Million",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "founding year, HQ, strategic LP network",
+        "quote": "Health Enterprise Partners, formed in 2006, is based in New York City and invests throughout the United States in growth equity and small buy-outs in healthcare services and information technology companies."
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/health-enterprise-partners-raises-188-million-in-oversubscribed-third-fund-300676848.html",
+        "title": "Health Enterprise Partners Raises $188 Million",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "strategic investor network",
+        "quote": "this group of 40 industry participants represents 300 hospitals and 125 million covered lives and employs 850,000 people throughout the United States."
+      }
     ],
     "confidence": "high",
     "verification_notes": "Website hepfund.com is the firm's press-release domain; not independently re-fetched. Fund I/II sizes from secondary reporting.",
@@ -251,41 +622,108 @@
   },
   {
     "id": "us-health-velocity-capital",
-    "name": { "en": "Health Velocity Capital" },
+    "name": {
+      "en": "Health Velocity Capital"
+    },
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2016,
     "region": "united-states",
     "country": "United States",
     "hq_city": "San Francisco",
     "offices": [
-      { "country": "United States", "city": "San Francisco" },
-      { "country": "United States", "city": "Nashville" }
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "Nashville"
+      }
     ],
     "website": "https://www.healthvelocitycapital.com/",
     "capital": {
-      "aum": { "raw": "approximately $485 million", "usd": 485000000, "currency": "USD" },
-      "current_fund": { "raw": "more than $300 million", "usd": 300000000, "currency": "USD" },
+      "aum": {
+        "raw": "approximately $485 million",
+        "usd": 485000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "more than $300 million",
+        "usd": 300000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund I", "vintage_year": 2017, "size": { "raw": "$185 million", "usd": 185000000, "currency": "USD" } },
-        { "name": "Fund II", "size": { "raw": "$300 million", "usd": 300000000, "currency": "USD" } }
+        {
+          "name": "Fund I",
+          "vintage_year": 2017,
+          "size": {
+            "raw": "$185 million",
+            "usd": 185000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund II",
+          "size": {
+            "raw": "$300 million",
+            "usd": 300000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
-      "check_size": { "raw": "$10M–$50M", "usd_min": 10000000, "usd_max": 50000000 },
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-it", "healthcare-services"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$10M–$50M",
+        "usd_min": 10000000,
+        "usd_max": 50000000
+      },
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Invests exclusively in innovative healthcare software and services companies making U.S. healthcare more affordable, sustainable and consumer-friendly; partners' prior companies include Teladoc, Livongo, Change Healthcare and MDLive."
     },
     "summary": {
       "en": "San Francisco/Nashville venture firm (est. 2016) investing exclusively in healthcare software and services businesses at early and growth stage; raised a $300M+ Fund II."
     },
     "sources": [
-      { "url": "https://healthvelocitycapital.medium.com/health-velocity-capital-raises-300m-fund-to-continue-advancing-healthcare-software-and-services-9e781b2f7d10", "title": "Health Velocity Capital Raises $300M Fund", "publisher": "Health Velocity Capital", "accessed": "undefined", "supports": "Fund II size, offices, focus", "quote": "the San Francisco, CA and Nashville, TN — based healthcare investment firm announced today that it has raised more than $300 million for its newest fund" },
-      { "url": "https://healthvelocitycapital.medium.com/health-velocity-capital-raises-300m-fund-to-continue-advancing-healthcare-software-and-services-9e781b2f7d10", "title": "Health Velocity Capital Raises $300M Fund", "publisher": "Health Velocity Capital", "accessed": "undefined", "supports": "exclusive focus and stage", "quote": "Health Velocity Capital invests exclusively in innovative healthcare software and services companies." },
-      { "url": "https://news.crunchbase.com/venture/health-velocity-capital-raises-185-million-for-oversubscribed-first-healthcare-tech-fund/", "title": "Health Velocity Capital Raises $185 Million For Oversubscribed First Healthcare Tech Fund", "publisher": "Crunchbase News", "accessed": "undefined", "supports": "Fund I size", "quote": "Health Velocity Capital Raises $185 Million For Oversubscribed First Healthcare Tech Fund" }
+      {
+        "url": "https://healthvelocitycapital.medium.com/health-velocity-capital-raises-300m-fund-to-continue-advancing-healthcare-software-and-services-9e781b2f7d10",
+        "title": "Health Velocity Capital Raises $300M Fund",
+        "publisher": "Health Velocity Capital",
+        "accessed": "undefined",
+        "supports": "Fund II size, offices, focus",
+        "quote": "the San Francisco, CA and Nashville, TN — based healthcare investment firm announced today that it has raised more than $300 million for its newest fund"
+      },
+      {
+        "url": "https://healthvelocitycapital.medium.com/health-velocity-capital-raises-300m-fund-to-continue-advancing-healthcare-software-and-services-9e781b2f7d10",
+        "title": "Health Velocity Capital Raises $300M Fund",
+        "publisher": "Health Velocity Capital",
+        "accessed": "undefined",
+        "supports": "exclusive focus and stage",
+        "quote": "Health Velocity Capital invests exclusively in innovative healthcare software and services companies."
+      },
+      {
+        "url": "https://news.crunchbase.com/venture/health-velocity-capital-raises-185-million-for-oversubscribed-first-healthcare-tech-fund/",
+        "title": "Health Velocity Capital Raises $185 Million For Oversubscribed First Healthcare Tech Fund",
+        "publisher": "Crunchbase News",
+        "accessed": "undefined",
+        "supports": "Fund I size",
+        "quote": "Health Velocity Capital Raises $185 Million For Oversubscribed First Healthcare Tech Fund"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Total AUM (~$485M) and check-size range are from secondary sources; Fund I/II sizes and focus are from the firm's own release and Crunchbase News.",
@@ -294,33 +732,76 @@
   },
   {
     "id": "us-lrvhealth",
-    "name": { "en": "LRVHealth" },
-    "aka": ["Long River Ventures"],
+    "name": {
+      "en": "LRVHealth"
+    },
+    "aka": [
+      "Long River Ventures"
+    ],
     "type": "vc",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2000,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Boston",
     "website": "https://lrvhealth.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/lrvhealth" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/lrvhealth"
+    },
     "capital": {
-      "current_fund": { "raw": "$200 million", "usd": 200000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "$200 million",
+        "usd": 200000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it", "digital-health"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it",
+        "digital-health"
+      ],
       "thesis": "The 'Inside Healthcare' venture platform: invests alongside a network of provider, payer and vendor strategic LPs who are also customers of portfolio companies, focused on care-delivery innovation ('Care Anywhere')."
     },
     "summary": {
       "en": "Boston healthcare venture platform (founded 2000) whose 'Inside Healthcare' model unites provider/payer strategic LPs with entrepreneurs; raised a $200M Fund V in 2023."
     },
     "sources": [
-      { "url": "https://lrvhealth.com/", "title": "LRVHealth | Healthcare Venture Capital Platform", "publisher": "LRVHealth", "accessed": "undefined", "supports": "Inside Healthcare model, Boston HQ", "quote": "Real healthcare change has to be an inside job." },
-      { "url": "https://lrvhealth.com/", "title": "LRVHealth | Healthcare Venture Capital Platform", "publisher": "LRVHealth", "accessed": "undefined", "supports": "Boston location", "quote": "One Boston Place, 38th Floor Boston, MA 02108" },
-      { "url": "https://www.businesswire.com/news/home/20230517005157/en/LRVHealth-Raises-$200-Million-Fund-V-to-Transform-Healthcare-from-the-Inside", "title": "LRVHealth Raises $200 Million Fund V to Transform Healthcare from the Inside", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund V size", "quote": "LRVHealth Raises $200 Million Fund V to Transform Healthcare from the Inside" }
+      {
+        "url": "https://lrvhealth.com/",
+        "title": "LRVHealth | Healthcare Venture Capital Platform",
+        "publisher": "LRVHealth",
+        "accessed": "undefined",
+        "supports": "Inside Healthcare model, Boston HQ",
+        "quote": "Real healthcare change has to be an inside job."
+      },
+      {
+        "url": "https://lrvhealth.com/",
+        "title": "LRVHealth | Healthcare Venture Capital Platform",
+        "publisher": "LRVHealth",
+        "accessed": "undefined",
+        "supports": "Boston location",
+        "quote": "One Boston Place, 38th Floor Boston, MA 02108"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20230517005157/en/LRVHealth-Raises-$200-Million-Fund-V-to-Transform-Healthcare-from-the-Inside",
+        "title": "LRVHealth Raises $200 Million Fund V to Transform Healthcare from the Inside",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Fund V size",
+        "quote": "LRVHealth Raises $200 Million Fund V to Transform Healthcare from the Inside"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Founding year (2000) from secondary sources; provider/payer strategic-LP model and Boston HQ confirmed on the official site.",
@@ -329,31 +810,69 @@
   },
   {
     "id": "us-council-capital",
-    "name": { "en": "Council Capital" },
-    "aka": ["Council Ventures"],
+    "name": {
+      "en": "Council Capital"
+    },
+    "aka": [
+      "Council Ventures"
+    ],
     "type": "growth-equity",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2000,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Nashville",
     "website": "https://councilcapital.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/council-capital" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/council-capital"
+    },
     "strategy": {
-      "stages": ["growth"],
-      "check_size": { "raw": "$10-100M enterprise value companies", "usd_min": null, "usd_max": null },
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it"],
+      "stages": [
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$10-100M enterprise value companies",
+        "usd_min": null,
+        "usd_max": null
+      },
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it"
+      ],
       "thesis": "Lower-middle-market healthcare private-equity investing in healthcare technology, health IT and healthcare services (home health, behavioral health, post-acute, workers' comp) on the 'right side of change'; distinguished by a CEO Council of 34+ senior healthcare executives who invest in and support the funds."
     },
     "summary": {
       "en": "Nashville healthcare-focused private-equity firm (founded 2000 as Council Ventures) investing in lower-middle-market healthcare services and health-IT companies, leveraging a CEO Council of senior healthcare operators."
     },
     "sources": [
-      { "url": "https://councilcapital.com/", "title": "Council Capital – Growing Exceptional Healthcare Companies", "publisher": "Council Capital", "accessed": "undefined", "supports": "healthcare focus, Nashville, CEO Council model" },
-      { "url": "https://en.wikipedia.org/wiki/Council_Capital", "title": "Council Capital - Wikipedia", "publisher": "Wikipedia", "accessed": "undefined", "supports": "founding year, rebranding, sectors, CEO Council", "quote": "founded in 2000 by Nashville businessman Dennis C. Bottorff, initially operating as Council Ventures before rebranding to Council Capital in 2011" },
-      { "url": "https://councilcapital.com/about/", "title": "About - Council Capital", "publisher": "Council Capital", "accessed": "undefined", "supports": "investment focus and model" }
+      {
+        "url": "https://councilcapital.com/",
+        "title": "Council Capital – Growing Exceptional Healthcare Companies",
+        "publisher": "Council Capital",
+        "accessed": "undefined",
+        "supports": "healthcare focus, Nashville, CEO Council model"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Council_Capital",
+        "title": "Council Capital - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "founding year, rebranding, sectors, CEO Council",
+        "quote": "founded in 2000 by Nashville businessman Dennis C. Bottorff, initially operating as Council Ventures before rebranding to Council Capital in 2011"
+      },
+      {
+        "url": "https://councilcapital.com/about/",
+        "title": "About - Council Capital",
+        "publisher": "Council Capital",
+        "accessed": "undefined",
+        "supports": "investment focus and model"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Fund sizes not disclosed publicly; firm currently investing out of its fourth fund. Enterprise-value focus and CEO Council figures are from the firm and Wikipedia (secondary).",
@@ -362,7 +881,9 @@
   },
   {
     "id": "us-silversmith-capital-partners",
-    "name": { "en": "Silversmith Capital Partners" },
+    "name": {
+      "en": "Silversmith Capital Partners"
+    },
     "type": "growth-equity",
     "status": "active",
     "founded_year": 2015,
@@ -370,35 +891,103 @@
     "country": "United States",
     "hq_city": "Boston",
     "website": "https://www.silversmith.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/silversmith-capital-partners/" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/silversmith-capital-partners/"
+    },
     "capital": {
-      "aum": { "raw": "over $5 billion", "usd": 5000000000, "currency": "USD" },
-      "current_fund": { "raw": "$1.7 billion", "usd": 1700000000, "currency": "USD" },
+      "aum": {
+        "raw": "over $5 billion",
+        "usd": 5000000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "$1.7 billion",
+        "usd": 1700000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund III", "size": { "raw": "$880 million", "usd": 880000000, "currency": "USD" } },
-        { "name": "Fund IV", "vintage_year": 2022, "size": { "raw": "$1.25 billion", "usd": 1250000000, "currency": "USD" } },
-        { "name": "Fund V", "vintage_year": 2025, "size": { "raw": "$1.7 billion", "usd": 1700000000, "currency": "USD" } }
+        {
+          "name": "Fund III",
+          "size": {
+            "raw": "$880 million",
+            "usd": 880000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund IV",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$1.25 billion",
+            "usd": 1250000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund V",
+          "vintage_year": 2025,
+          "size": {
+            "raw": "$1.7 billion",
+            "usd": 1700000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-it", "healthcare-services"],
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Boston growth-equity firm backing profitable, founder-led companies in two verticals: technology/SaaS and healthcare, with healthcare information technology & services a core focus (e.g., LifeStance Health, Iodine Software)."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "LifeStance Health", "sector": "outpatient behavioral health", "outcome": "IPO" },
-        { "company": "Iodine Software", "sector": "clinical AI / healthcare IT", "outcome": "active" }
+        {
+          "company": "LifeStance Health",
+          "sector": "outpatient behavioral health",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Iodine Software",
+          "sector": "clinical AI / healthcare IT",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Boston growth-equity firm with $5B+ under management; healthcare information technology & services is one of its two core investment areas. Closed its $1.7B Fund V in 2025."
     },
     "sources": [
-      { "url": "https://www.silversmith.com/news/silversmith-capital-partners-closes-1-7-billion-fifth-fund", "title": "Silversmith Capital Partners Closes $1.7 Billion Fifth Fund", "publisher": "Silversmith Capital Partners", "accessed": "undefined", "supports": "Fund V size", "quote": "Fund V closed with $1.7 billion in total commitments, including $1.6 billion from limited partners and $110 million from the Silversmith team." },
-      { "url": "https://www.silversmith.com/news/silversmith-capital-partners-closes-1-7-billion-fifth-fund", "title": "Silversmith Capital Partners Closes $1.7 Billion Fifth Fund", "publisher": "Silversmith Capital Partners", "accessed": "undefined", "supports": "AUM and Boston HQ", "quote": "Boston-based growth equity firm with over $5 billion in capital under management" },
-      { "url": "https://growthcapadvisory.com/firms/silversmith-capital-partners/", "title": "Silversmith Capital Partners - GrowthCap", "publisher": "GrowthCap", "accessed": "undefined", "supports": "healthcare IT & services focus" }
+      {
+        "url": "https://www.silversmith.com/news/silversmith-capital-partners-closes-1-7-billion-fifth-fund",
+        "title": "Silversmith Capital Partners Closes $1.7 Billion Fifth Fund",
+        "publisher": "Silversmith Capital Partners",
+        "accessed": "undefined",
+        "supports": "Fund V size",
+        "quote": "Fund V closed with $1.7 billion in total commitments, including $1.6 billion from limited partners and $110 million from the Silversmith team."
+      },
+      {
+        "url": "https://www.silversmith.com/news/silversmith-capital-partners-closes-1-7-billion-fifth-fund",
+        "title": "Silversmith Capital Partners Closes $1.7 Billion Fifth Fund",
+        "publisher": "Silversmith Capital Partners",
+        "accessed": "undefined",
+        "supports": "AUM and Boston HQ",
+        "quote": "Boston-based growth equity firm with over $5 billion in capital under management"
+      },
+      {
+        "url": "https://growthcapadvisory.com/firms/silversmith-capital-partners/",
+        "title": "Silversmith Capital Partners - GrowthCap",
+        "publisher": "GrowthCap",
+        "accessed": "undefined",
+        "supports": "healthcare IT & services focus"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Silversmith is a generalist growth-equity firm spanning technology AND healthcare; included here for its dedicated healthcare information technology & services practice. Founding year (2015) inferred from 'fifth fund in 10 years'.",
@@ -407,9 +996,13 @@
   },
   {
     "id": "us-rubicon-founders",
-    "name": { "en": "Rubicon Founders" },
+    "name": {
+      "en": "Rubicon Founders"
+    },
     "type": "venture-studio",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2021,
     "region": "united-states",
@@ -417,29 +1010,80 @@
     "hq_city": "Nashville",
     "website": "https://rubiconfounders.com/",
     "capital": {
-      "current_fund": { "raw": "north of $1.18BN", "usd": 1180000000, "currency": "USD" },
+      "current_fund": {
+        "raw": "north of $1.18BN",
+        "usd": 1180000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Rubicon Opportunity Fund I", "vintage_year": 2021, "size": { "raw": "more than $471 million", "usd": 471000000, "currency": "USD" } },
-        { "name": "Rubicon Founders Fund II", "size": { "raw": "north of $1.18BN", "usd": 1180000000, "currency": "USD" } }
+        {
+          "name": "Rubicon Opportunity Fund I",
+          "vintage_year": 2021,
+          "size": {
+            "raw": "more than $471 million",
+            "usd": 471000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Rubicon Founders Fund II",
+          "size": {
+            "raw": "north of $1.18BN",
+            "usd": 1180000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services"
+      ],
       "thesis": "Entrepreneurial firm that builds, incubates and grows transformational healthcare companies advancing value-based care delivery; portfolio it created includes Evergreen Nephrology and Honest Medical Group."
     },
-    "lifesci": { "company_creation": true },
+    "lifesci": {
+      "company_creation": true
+    },
     "people": [
-      { "name": "Adam Boehler", "role": "Founder & CEO", "background": "Founder/ex-CEO of Landmark Health; former Director of the Center for Medicare & Medicaid Innovation (CMMI)" }
+      {
+        "name": "Adam Boehler",
+        "role": "Founder & CEO",
+        "background": "Founder/ex-CEO of Landmark Health; former Director of the Center for Medicare & Medicaid Innovation (CMMI)"
+      }
     ],
     "summary": {
       "en": "Nashville healthcare company-creation firm founded by Adam Boehler in 2021, building value-based care delivery companies; Fund II gathered north of $1.18B in commitments."
     },
     "sources": [
-      { "url": "https://www.venturenashville.com/rubicon-founders-fund-ii-said-to-have-commitments-of-1bn--cms-2328", "title": "Rubicon Founders' Fund II said to have commitments of $1BN+", "publisher": "Venture Nashville", "accessed": "undefined", "supports": "Fund II size, Nashville HQ, founder", "quote": "RUBICON Founders Fund II, based in Nashville and led by Founder Adam Boehler, has received capital commmitments totaling north of $1.18BN" },
-      { "url": "https://rubiconfounders.com/news/adam-boehler-announces-new-healthcare-firm-rubicon-founders-headquartered-in-nashville/", "title": "Adam Boehler Announces New Healthcare Firm, Rubicon Founders, Headquartered In Nashville", "publisher": "Rubicon Founders", "accessed": "undefined", "supports": "company creation focus, Nashville HQ, founding" },
-      { "url": "https://www.prnewswire.com/news-releases/adam-boehler-announces-launch-of-rubicon-founders-301264974.html", "title": "Adam Boehler Announces Launch of Rubicon Founders", "publisher": "PR Newswire", "accessed": "undefined", "supports": "launch April 2021 and mission" }
+      {
+        "url": "https://www.venturenashville.com/rubicon-founders-fund-ii-said-to-have-commitments-of-1bn--cms-2328",
+        "title": "Rubicon Founders' Fund II said to have commitments of $1BN+",
+        "publisher": "Venture Nashville",
+        "accessed": "undefined",
+        "supports": "Fund II size, Nashville HQ, founder",
+        "quote": "RUBICON Founders Fund II, based in Nashville and led by Founder Adam Boehler, has received capital commmitments totaling north of $1.18BN"
+      },
+      {
+        "url": "https://rubiconfounders.com/news/adam-boehler-announces-new-healthcare-firm-rubicon-founders-headquartered-in-nashville/",
+        "title": "Adam Boehler Announces New Healthcare Firm, Rubicon Founders, Headquartered In Nashville",
+        "publisher": "Rubicon Founders",
+        "accessed": "undefined",
+        "supports": "company creation focus, Nashville HQ, founding"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/adam-boehler-announces-launch-of-rubicon-founders-301264974.html",
+        "title": "Adam Boehler Announces Launch of Rubicon Founders",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "launch April 2021 and mission"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Opportunity Fund I ($471M) size from secondary reporting; Fund II figure from Venture Nashville (which quotes commitments of $1.18BN).",
@@ -448,35 +1092,82 @@
   },
   {
     "id": "us-valtruis",
-    "name": { "en": "Valtruis" },
+    "name": {
+      "en": "Valtruis"
+    },
     "type": "venture-studio",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2021,
     "region": "united-states",
     "country": "United States",
     "website": "https://www.valtruis.com/",
     "capital": {
-      "current_fund": { "raw": "initial $300 million", "usd": 300000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "initial $300 million",
+        "usd": 300000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services"
+      ],
       "thesis": "Value-based care venture-building platform (formed by Welsh, Carson, Anderson & Stowe) that invests in and partners with companies to realign and transform U.S. healthcare along value-based care principles; portfolio includes Wellvana, HarmonyCares, Honest, Evergreen and TailorCare."
     },
-    "lifesci": { "company_creation": true },
+    "lifesci": {
+      "company_creation": true
+    },
     "people": [
-      { "name": "Anna Haghgooie", "role": "Managing Partner", "background": "Former Managing Director of the Blue Venture Fund and Sandbox Industries" },
-      { "name": "Tracy Bahl", "role": "Managing Partner", "background": "Former President/CEO of OneOncology; ex-EVP Health Plans, CVS Health" },
-      { "name": "Karey Witty", "role": "Managing Partner", "background": "Former COO of Envision Healthcare" }
+      {
+        "name": "Anna Haghgooie",
+        "role": "Managing Partner",
+        "background": "Former Managing Director of the Blue Venture Fund and Sandbox Industries"
+      },
+      {
+        "name": "Tracy Bahl",
+        "role": "Managing Partner",
+        "background": "Former President/CEO of OneOncology; ex-EVP Health Plans, CVS Health"
+      },
+      {
+        "name": "Karey Witty",
+        "role": "Managing Partner",
+        "background": "Former COO of Envision Healthcare"
+      }
     ],
     "summary": {
       "en": "Value-based care venture builder launched by Welsh, Carson, Anderson & Stowe with an initial $300M commitment, partnering with and building companies that shift U.S. healthcare to value-based care."
     },
     "sources": [
-      { "url": "https://www.valtruis.com/news/launch-announcement", "title": "WCAS Announces the Formation of Valtruis", "publisher": "Valtruis / WCAS", "accessed": "undefined", "supports": "initial commitment, mission, leadership", "quote": "WCAS is committing an initial $300 million to this platform." },
-      { "url": "https://www.valtruis.com/news/launch-announcement", "title": "WCAS Announces the Formation of Valtruis", "publisher": "Valtruis / WCAS", "accessed": "undefined", "supports": "value-based care mission", "quote": "Valtruis, a unique portfolio company that will invest in and partner with healthcare companies whose mission is to realign and transform U.S. healthcare along the principles of value-based care." },
-      { "url": "https://wcas.com/news/welsh-carson-anderson-stowe-announces-the-formation-of-valtruis-a-newly-formed-value-based-care-portfolio-company-with-initial-300-million-commitment/", "title": "WCAS Announces the Formation of Valtruis", "publisher": "Welsh, Carson, Anderson & Stowe", "accessed": "undefined", "supports": "leadership and commitment", "quote": "Valtruis' founding leadership team includes Managing Partners Anna Haghgooie, Tracy Bahl and Karey Witty" }
+      {
+        "url": "https://www.valtruis.com/news/launch-announcement",
+        "title": "WCAS Announces the Formation of Valtruis",
+        "publisher": "Valtruis / WCAS",
+        "accessed": "undefined",
+        "supports": "initial commitment, mission, leadership",
+        "quote": "WCAS is committing an initial $300 million to this platform."
+      },
+      {
+        "url": "https://www.valtruis.com/news/launch-announcement",
+        "title": "WCAS Announces the Formation of Valtruis",
+        "publisher": "Valtruis / WCAS",
+        "accessed": "undefined",
+        "supports": "value-based care mission",
+        "quote": "Valtruis, a unique portfolio company that will invest in and partner with healthcare companies whose mission is to realign and transform U.S. healthcare along the principles of value-based care."
+      },
+      {
+        "url": "https://wcas.com/news/welsh-carson-anderson-stowe-announces-the-formation-of-valtruis-a-newly-formed-value-based-care-portfolio-company-with-initial-300-million-commitment/",
+        "title": "WCAS Announces the Formation of Valtruis",
+        "publisher": "Welsh, Carson, Anderson & Stowe",
+        "accessed": "undefined",
+        "supports": "leadership and commitment",
+        "quote": "Valtruis' founding leadership team includes Managing Partners Anna Haghgooie, Tracy Bahl and Karey Witty"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Valtruis is structured as a WCAS portfolio-company / venture-building platform rather than a conventional fund; classified as venture-studio with a growth-equity subtype. HQ city not confirmed.",
@@ -485,36 +1176,72 @@
   },
   {
     "id": "us-concord-health-partners",
-    "name": { "en": "Concord Health Partners" },
+    "name": {
+      "en": "Concord Health Partners"
+    },
     "type": "growth-equity",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2018,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Summit",
     "website": "https://www.concordhp.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/concord-health-partners" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/concord-health-partners"
+    },
     "capital": {
-      "current_fund": { "raw": "$150 million", "usd": 150000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "$150 million",
+        "usd": 150000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-it", "healthcare-services", "medtech-devices"],
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-it",
+        "healthcare-services",
+        "medtech-devices"
+      ],
       "thesis": "Growth-stage investing in healthcare companies with innovative technologies and solutions that enhance the value of care through lower costs, improved quality and expanded access, across healthcare IT, tech-enabled services, healthcare services and medical technology."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Clarify Health", "sector": "healthcare analytics", "outcome": "active" }
+        {
+          "company": "Clarify Health",
+          "sector": "healthcare analytics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "New Jersey growth-equity firm (founded 2018) investing in growth-stage healthcare IT, tech-enabled services, healthcare services and medtech; closed its $150M Concord Innovation Fund II in 2022."
     },
     "sources": [
-      { "url": "https://www.prnewswire.com/news-releases/concord-health-partners-completes-final-close-of-concord-innovation-fund-ii-with-commitments-of-150-million-301626871.html", "title": "Concord Health Partners Completes Final Close of Concord Innovation Fund II with Commitments of $150 Million", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund II size, growth stage, HQ, focus", "quote": "$150 million in new commitments for Concord Innovation Fund II" },
-      { "url": "https://www.prnewswire.com/news-releases/concord-health-partners-completes-final-close-of-concord-innovation-fund-ii-with-commitments-of-150-million-301626871.html", "title": "Concord Health Partners Completes Final Close of Concord Innovation Fund II", "publisher": "PR Newswire", "accessed": "undefined", "supports": "stage focus", "quote": "Innovation Fund II focuses on growth stage investments." }
+      {
+        "url": "https://www.prnewswire.com/news-releases/concord-health-partners-completes-final-close-of-concord-innovation-fund-ii-with-commitments-of-150-million-301626871.html",
+        "title": "Concord Health Partners Completes Final Close of Concord Innovation Fund II with Commitments of $150 Million",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund II size, growth stage, HQ, focus",
+        "quote": "$150 million in new commitments for Concord Innovation Fund II"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/concord-health-partners-completes-final-close-of-concord-innovation-fund-ii-with-commitments-of-150-million-301626871.html",
+        "title": "Concord Health Partners Completes Final Close of Concord Innovation Fund II",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "stage focus",
+        "quote": "Innovation Fund II focuses on growth stage investments."
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -522,39 +1249,86 @@
   },
   {
     "id": "us-echo-health-ventures",
-    "name": { "en": "Echo Health Ventures" },
+    "name": {
+      "en": "Echo Health Ventures"
+    },
     "type": "cvc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2016,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Durham",
     "offices": [
-      { "country": "United States", "city": "Durham" },
-      { "country": "United States", "city": "Portland" },
-      { "country": "United States", "city": "Seattle" },
-      { "country": "United States", "city": "Boston" }
+      {
+        "country": "United States",
+        "city": "Durham"
+      },
+      {
+        "country": "United States",
+        "city": "Portland"
+      },
+      {
+        "country": "United States",
+        "city": "Seattle"
+      },
+      {
+        "country": "United States",
+        "city": "Boston"
+      }
     ],
     "website": "https://www.echohealthventures.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/echo-health-ventures" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/echo-health-ventures"
+    },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it", "digital-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it",
+        "digital-health"
+      ],
       "thesis": "Strategic venture-capital and growth-equity arm formed by Cambia Health Solutions and Mosaic Health Solutions (with Blue plan members incl. BlueCross BlueShield of Tennessee) to drive systemic healthcare transformation; e.g., value-based cancer-care investment in Thyme Care."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Thyme Care", "sector": "value-based oncology care", "outcome": "active" }
+        {
+          "company": "Thyme Care",
+          "sector": "value-based oncology care",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Payer-backed strategic investor (Cambia + Mosaic/Blue plans) launched in 2016, doing venture and growth-equity investing in healthcare transformation, with offices in Durham, Portland, Seattle and Boston."
     },
     "sources": [
-      { "url": "https://www.echohealthventures.com/news/echo-health-ventures-launches-to-accelerate-and-invest-in-transforming-health-care/", "title": "Echo Health Ventures Launches to Accelerate and Invest in Transforming Health Care", "publisher": "Echo Health Ventures", "accessed": "undefined", "supports": "launch, payer backing, mission", "quote": "Echo Health Ventures Launches to Accelerate and Invest in Transforming Health Care" },
-      { "url": "https://www.healthcarefinancenews.com/news/mosaic-cambia-health-solutions-partner-create-echo-health-ventures", "title": "Mosaic, Cambia Health Solutions partner to create Echo Health Ventures", "publisher": "Healthcare Finance News", "accessed": "undefined", "supports": "2016 formation by Cambia and Mosaic" },
-      { "url": "https://www.prnewswire.com/news-releases/thyme-care-closes-strategic-investment-from-echo-health-ventures-and-cvs-health-ventures-to-scale-its-value-based-cancer-care-model-302155532.html", "title": "Thyme Care Closes Strategic Investment from Echo Health Ventures and CVS Health Ventures", "publisher": "PR Newswire", "accessed": "undefined", "supports": "value-based care investment example" }
+      {
+        "url": "https://www.echohealthventures.com/news/echo-health-ventures-launches-to-accelerate-and-invest-in-transforming-health-care/",
+        "title": "Echo Health Ventures Launches to Accelerate and Invest in Transforming Health Care",
+        "publisher": "Echo Health Ventures",
+        "accessed": "undefined",
+        "supports": "launch, payer backing, mission",
+        "quote": "Echo Health Ventures Launches to Accelerate and Invest in Transforming Health Care"
+      },
+      {
+        "url": "https://www.healthcarefinancenews.com/news/mosaic-cambia-health-solutions-partner-create-echo-health-ventures",
+        "title": "Mosaic, Cambia Health Solutions partner to create Echo Health Ventures",
+        "publisher": "Healthcare Finance News",
+        "accessed": "undefined",
+        "supports": "2016 formation by Cambia and Mosaic"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/thyme-care-closes-strategic-investment-from-echo-health-ventures-and-cvs-health-ventures-to-scale-its-value-based-cancer-care-model-302155532.html",
+        "title": "Thyme Care Closes Strategic Investment from Echo Health Ventures and CVS Health Ventures",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "value-based care investment example"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Fund size not publicly disclosed; a joint strategic investment vehicle rather than an independent fund.",
@@ -563,8 +1337,12 @@
   },
   {
     "id": "us-ascension-ventures",
-    "name": { "en": "Ascension Ventures" },
-    "aka": ["AV"],
+    "name": {
+      "en": "Ascension Ventures"
+    },
+    "aka": [
+      "AV"
+    ],
     "type": "cvc",
     "status": "active",
     "founded_year": 2001,
@@ -572,24 +1350,66 @@
     "country": "United States",
     "hq_city": "St. Louis",
     "website": "https://ascensionventures.org/",
-    "links": { "linkedin": "https://www.linkedin.com/company/ascension-ventures" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/ascension-ventures"
+    },
     "capital": {
-      "aum": { "raw": "more than $1 billion", "usd": 1000000000, "currency": "USD" }
+      "aum": {
+        "raw": "more than $1 billion",
+        "usd": 1000000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "$10 million to $20 million", "usd_min": 10000000, "usd_max": 20000000 },
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-it", "healthcare-services", "medtech-devices", "diagnostics"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$10 million to $20 million",
+        "usd_min": 10000000,
+        "usd_max": 20000000
+      },
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-it",
+        "healthcare-services",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "Strategic healthcare venture fund (founded as the venture arm of Ascension, the largest U.S. nonprofit/Catholic health system) making venture and growth-equity investments in healthcare IT and services, and medical devices and diagnostics, on behalf of health-system LPs."
     },
     "summary": {
       "en": "St. Louis strategic healthcare venture fund with $1B+ under management across five funds, investing in healthcare IT/services and medical devices/diagnostics on behalf of 450+ hospitals and 13 health-system LPs."
     },
     "sources": [
-      { "url": "https://ascensionventures.org/who-we-are/", "title": "Who We Are | Ascension Ventures", "publisher": "Ascension Ventures", "accessed": "undefined", "supports": "AUM", "quote": "Ascension Ventures is a strategic healthcare venture fund and innovation catalyst with more than $1 billion in capital under management." },
-      { "url": "https://ascensionventures.org/who-we-are/", "title": "Who We Are | Ascension Ventures", "publisher": "Ascension Ventures", "accessed": "undefined", "supports": "sector focus", "quote": "Venture and growth equity investments in healthcare information technology and services, and medical devices and diagnostics." },
-      { "url": "https://www.caplight.com/investor/ascension-ventures-1", "title": "Ascension Ventures | Portfolio, Investments & AUM", "publisher": "Caplight", "accessed": "undefined", "supports": "founding 2001, five funds, health-system LPs, check size" }
+      {
+        "url": "https://ascensionventures.org/who-we-are/",
+        "title": "Who We Are | Ascension Ventures",
+        "publisher": "Ascension Ventures",
+        "accessed": "undefined",
+        "supports": "AUM",
+        "quote": "Ascension Ventures is a strategic healthcare venture fund and innovation catalyst with more than $1 billion in capital under management."
+      },
+      {
+        "url": "https://ascensionventures.org/who-we-are/",
+        "title": "Who We Are | Ascension Ventures",
+        "publisher": "Ascension Ventures",
+        "accessed": "undefined",
+        "supports": "sector focus",
+        "quote": "Venture and growth equity investments in healthcare information technology and services, and medical devices and diagnostics."
+      },
+      {
+        "url": "https://www.caplight.com/investor/ascension-ventures-1",
+        "title": "Ascension Ventures | Portfolio, Investments & AUM",
+        "publisher": "Caplight",
+        "accessed": "undefined",
+        "supports": "founding 2001, five funds, health-system LPs, check size"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Founding year (2001), five-fund count, St. Louis HQ and check-size range are from the firm profile / Caplight (secondary); AUM and sector focus quoted from the official site.",
@@ -598,44 +1418,96 @@
   },
   {
     "id": "us-cvs-health-ventures",
-    "name": { "en": "CVS Health Ventures" },
+    "name": {
+      "en": "CVS Health Ventures"
+    },
     "type": "cvc",
     "status": "active",
     "founded_year": 2021,
     "region": "united-states",
     "country": "United States",
     "website": "https://www.cvshealthventures.com/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/cvs-health-ventures" },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/cvs-health-ventures"
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "digital-health", "healthcare-it"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "digital-health",
+        "healthcare-it"
+      ],
       "thesis": "Corporate venture arm of CVS Health investing in early-stage companies aligned to CVS's strategy: transforming care delivery, whole-person care, consumer-centric health and disruptive technology enablement — with several value-based care bets (Wayspring, Thyme Care, AbsoluteCare, Main Street Health)."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Thyme Care", "sector": "value-based oncology care", "outcome": "active" },
-        { "company": "Wayspring", "sector": "value-based substance-use-disorder care", "outcome": "active" },
-        { "company": "Main Street Health", "sector": "rural value-based primary care", "outcome": "active" }
+        {
+          "company": "Thyme Care",
+          "sector": "value-based oncology care",
+          "outcome": "active"
+        },
+        {
+          "company": "Wayspring",
+          "sector": "value-based substance-use-disorder care",
+          "outcome": "active"
+        },
+        {
+          "company": "Main Street Health",
+          "sector": "rural value-based primary care",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Corporate venture fund of CVS Health (formed 2021) investing in early-stage healthcare companies transforming care delivery and value-based care."
     },
     "sources": [
-      { "url": "https://www.cvshealthventures.com/portfolio.html", "title": "Portfolio | CVS Health Ventures", "publisher": "CVS Health Ventures", "accessed": "undefined", "supports": "investment focus", "quote": "Our investments support the overall strategy of CVS Health® and align to our key areas of focus: transforming care delivery, whole person care, consumer-centric health and disruptive technology enablement." },
-      { "url": "https://www.cvshealth.com/about/ventures", "title": "CVS Health Ventures: Transforming Care Delivery", "publisher": "CVS Health", "accessed": "undefined", "supports": "care-delivery focus and corporate arm" },
-      { "url": "https://www.prnewswire.com/news-releases/thyme-care-closes-strategic-investment-from-echo-health-ventures-and-cvs-health-ventures-to-scale-its-value-based-cancer-care-model-302155532.html", "title": "Thyme Care Closes Strategic Investment from Echo Health Ventures and CVS Health Ventures", "publisher": "PR Newswire", "accessed": "undefined", "supports": "value-based care investment example" }
+      {
+        "url": "https://www.cvshealthventures.com/portfolio.html",
+        "title": "Portfolio | CVS Health Ventures",
+        "publisher": "CVS Health Ventures",
+        "accessed": "undefined",
+        "supports": "investment focus",
+        "quote": "Our investments support the overall strategy of CVS Health® and align to our key areas of focus: transforming care delivery, whole person care, consumer-centric health and disruptive technology enablement."
+      },
+      {
+        "url": "https://www.cvshealth.com/about/ventures",
+        "title": "CVS Health Ventures: Transforming Care Delivery",
+        "publisher": "CVS Health",
+        "accessed": "undefined",
+        "supports": "care-delivery focus and corporate arm"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/thyme-care-closes-strategic-investment-from-echo-health-ventures-and-cvs-health-ventures-to-scale-its-value-based-cancer-care-model-302155532.html",
+        "title": "Thyme Care Closes Strategic Investment from Echo Health Ventures and CVS Health Ventures",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "value-based care investment example"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Founding year (2021, when CVS Health Ventures was formed) from secondary sources; stages are typical early-stage emphasis rather than a disclosed mandate. Fund size not publicly disclosed.",
     "last_updated": "undefined",
-    "researched_by": "healthcare-services-vc"
+    "researched_by": "healthcare-services-vc",
+    "aka": [
+      "CVS Health"
+    ]
   },
   {
     "id": "us-enhanced-healthcare-partners",
-    "name": { "en": "Enhanced Healthcare Partners" },
-    "aka": ["EHP"],
+    "name": {
+      "en": "Enhanced Healthcare Partners"
+    },
+    "aka": [
+      "EHP"
+    ],
     "type": "growth-equity",
     "status": "active",
     "founded_year": 2005,
@@ -643,27 +1515,65 @@
     "country": "United States",
     "hq_city": "Santa Monica",
     "offices": [
-      { "country": "United States", "city": "Santa Monica" },
-      { "country": "United States", "city": "New York" }
+      {
+        "country": "United States",
+        "city": "Santa Monica"
+      },
+      {
+        "country": "United States",
+        "city": "New York"
+      }
     ],
     "website": "https://www.enhancedhealthcare.com/",
     "capital": {
-      "current_fund": { "raw": "$521 million", "usd": 521000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "$521 million",
+        "usd": 521000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["growth"],
-      "check_size": { "raw": "$25 to $75 million or more", "usd_min": 25000000, "usd_max": 75000000 },
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services"],
+      "stages": [
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$25 to $75 million or more",
+        "usd_min": 25000000,
+        "usd_max": 75000000
+      },
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services"
+      ],
       "thesis": "Middle-market healthcare private-equity firm partnering with founder- and family-run healthcare services businesses across many subsectors to build market leaders."
     },
     "summary": {
       "en": "Middle-market healthcare private-equity firm (est. 2005, Santa Monica/New York) focused on healthcare services businesses; closed a $521M Fund II."
     },
     "sources": [
-      { "url": "https://www.enhancedhealthcare.com/", "title": "Enhanced Healthcare Partners", "publisher": "Enhanced Healthcare Partners", "accessed": "undefined", "supports": "healthcare services focus, family-run businesses" },
-      { "url": "https://www.crunchbase.com/organization/enhanced-healthcare-partners", "title": "Enhanced Healthcare Partners - Crunchbase Company Profile", "publisher": "Crunchbase", "accessed": "undefined", "supports": "founding year 2005, Santa Monica HQ, Fund II size, check size" },
-      { "url": "https://pitchbook.com/profiles/fund/16624-00F", "title": "Enhanced Healthcare Partners Fund: Performance", "publisher": "PitchBook", "accessed": "undefined", "supports": "fund performance / existence" }
+      {
+        "url": "https://www.enhancedhealthcare.com/",
+        "title": "Enhanced Healthcare Partners",
+        "publisher": "Enhanced Healthcare Partners",
+        "accessed": "undefined",
+        "supports": "healthcare services focus, family-run businesses"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/enhanced-healthcare-partners",
+        "title": "Enhanced Healthcare Partners - Crunchbase Company Profile",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "founding year 2005, Santa Monica HQ, Fund II size, check size"
+      },
+      {
+        "url": "https://pitchbook.com/profiles/fund/16624-00F",
+        "title": "Enhanced Healthcare Partners Fund: Performance",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "fund performance / existence"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Fund II size ($521M), founding year and HQ are from secondary aggregators (Crunchbase/Tracxn); could not verify a primary press release for the fund figure. Control-oriented healthcare-services PE rather than early-stage VC.",
@@ -672,31 +1582,71 @@
   },
   {
     "id": "us-navimed-capital",
-    "name": { "en": "NaviMed Capital" },
+    "name": {
+      "en": "NaviMed Capital"
+    },
     "type": "growth-equity",
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "Washington",
     "website": "https://navimed.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/navimed-capital" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/navimed-capital"
+    },
     "capital": {
-      "aum": { "raw": "more than $850 million", "usd": 850000000, "currency": "USD" },
-      "current_fund": { "raw": "$450 million", "usd": 450000000, "currency": "USD" }
+      "aum": {
+        "raw": "more than $850 million",
+        "usd": 850000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "$450 million",
+        "usd": 450000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it", "pharma-services"],
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it",
+        "pharma-services"
+      ],
       "thesis": "Washington, DC private-equity firm focused exclusively on healthcare, investing in fast-growing lower-middle-market healthcare services, healthcare IT, business-process-outsourcing and specialty-provider businesses."
     },
     "summary": {
       "en": "Washington, DC healthcare-focused private-equity firm managing $850M+, investing in lower-middle-market healthcare services and IT; closed a $450M Fund III at its hard cap."
     },
     "sources": [
-      { "url": "https://www.prweb.com/releases/navimed-capital-closes-fund-iii-at-450-million-hard-cap-302311116.html", "title": "NaviMed Capital Closes Fund III at $450 Million Hard Cap", "publisher": "PRWeb", "accessed": "undefined", "supports": "Fund III size", "quote": "NaviMed Partners III (\"Fund III\"). The substantially oversubscribed new fund closed at its hard cap of $450 million" },
-      { "url": "https://www.prweb.com/releases/navimed-capital-closes-fund-iii-at-450-million-hard-cap-302311116.html", "title": "NaviMed Capital Closes Fund III at $450 Million Hard Cap", "publisher": "PRWeb", "accessed": "undefined", "supports": "AUM and healthcare focus", "quote": "NaviMed now manages more than $850 million of capital commitments." },
-      { "url": "https://navimed.com/", "title": "NaviMed Capital", "publisher": "NaviMed Capital", "accessed": "undefined", "supports": "healthcare exclusivity, DC HQ, focus areas" }
+      {
+        "url": "https://www.prweb.com/releases/navimed-capital-closes-fund-iii-at-450-million-hard-cap-302311116.html",
+        "title": "NaviMed Capital Closes Fund III at $450 Million Hard Cap",
+        "publisher": "PRWeb",
+        "accessed": "undefined",
+        "supports": "Fund III size",
+        "quote": "NaviMed Partners III (\"Fund III\"). The substantially oversubscribed new fund closed at its hard cap of $450 million"
+      },
+      {
+        "url": "https://www.prweb.com/releases/navimed-capital-closes-fund-iii-at-450-million-hard-cap-302311116.html",
+        "title": "NaviMed Capital Closes Fund III at $450 Million Hard Cap",
+        "publisher": "PRWeb",
+        "accessed": "undefined",
+        "supports": "AUM and healthcare focus",
+        "quote": "NaviMed now manages more than $850 million of capital commitments."
+      },
+      {
+        "url": "https://navimed.com/",
+        "title": "NaviMed Capital",
+        "publisher": "NaviMed Capital",
+        "accessed": "undefined",
+        "supports": "healthcare exclusivity, DC HQ, focus areas"
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -704,8 +1654,13 @@
   },
   {
     "id": "us-tt-capital-partners",
-    "name": { "en": "TT Capital Partners" },
-    "aka": ["TTCP", "TripleTree Capital Partners"],
+    "name": {
+      "en": "TT Capital Partners"
+    },
+    "aka": [
+      "TTCP",
+      "TripleTree Capital Partners"
+    ],
     "type": "growth-equity",
     "status": "active",
     "founded_year": 2011,
@@ -714,22 +1669,55 @@
     "hq_city": "Minneapolis",
     "website": "https://www.ttcapitalpartners.com/",
     "capital": {
-      "aum": { "raw": "$1 billion", "usd": 1000000000, "currency": "USD" },
-      "current_fund": { "raw": "approximately $230 million", "usd": 230000000, "currency": "USD" }
+      "aum": {
+        "raw": "$1 billion",
+        "usd": 1000000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "approximately $230 million",
+        "usd": 230000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-it", "healthcare-services"],
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Healthcare-focused private-equity firm (the principal investment arm of the TripleTree platform) making growth-equity and buyout investments in high-growth healthcare IT and tech-enabled services companies."
     },
     "summary": {
       "en": "Healthcare-focused growth-equity firm (founded 2011; spun out of investment bank TripleTree in 2021) with ~$1B AUM, investing in healthcare IT and tech-enabled services; Fund III closed near $230M."
     },
     "sources": [
-      { "url": "https://www.ttcapitalpartners.com/", "title": "Healthcare Private Equity Firm | TT Capital Partners", "publisher": "TT Capital Partners", "accessed": "undefined", "supports": "healthcare IT & services focus, AUM" },
-      { "url": "https://truehelm.com/healthcare-pe-news-and-insights/tt-capital-partners-closes-healthcare-private-equity-fund/", "title": "TT Capital Partners Closes Healthcare Private Equity Fund", "publisher": "Truehelm", "accessed": "undefined", "supports": "founding 2011, growth equity/buyout, Fund III ~$230M, TripleTree separation 2021" },
-      { "url": "https://www.businesswire.com/news/home/20210817005707/en/TT-Capital-Partners-Strengthens-Healthcare-Investing-Team", "title": "TT Capital Partners Strengthens Healthcare Investing Team", "publisher": "Business Wire", "accessed": "undefined", "supports": "healthcare-focused independent manager" }
+      {
+        "url": "https://www.ttcapitalpartners.com/",
+        "title": "Healthcare Private Equity Firm | TT Capital Partners",
+        "publisher": "TT Capital Partners",
+        "accessed": "undefined",
+        "supports": "healthcare IT & services focus, AUM"
+      },
+      {
+        "url": "https://truehelm.com/healthcare-pe-news-and-insights/tt-capital-partners-closes-healthcare-private-equity-fund/",
+        "title": "TT Capital Partners Closes Healthcare Private Equity Fund",
+        "publisher": "Truehelm",
+        "accessed": "undefined",
+        "supports": "founding 2011, growth equity/buyout, Fund III ~$230M, TripleTree separation 2021"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20210817005707/en/TT-Capital-Partners-Strengthens-Healthcare-Investing-Team",
+        "title": "TT Capital Partners Strengthens Healthcare Investing Team",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "healthcare-focused independent manager"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Fund III (~$230M) and $1B AUM figures are from secondary sources; Minneapolis HQ inferred from the TripleTree platform's base. Could not confirm the fund figure in a primary press release.",
@@ -738,7 +1726,9 @@
   },
   {
     "id": "us-cressey-and-company",
-    "name": { "en": "Cressey & Company" },
+    "name": {
+      "en": "Cressey & Company"
+    },
     "type": "growth-equity",
     "status": "active",
     "founded_year": 2008,
@@ -746,27 +1736,68 @@
     "country": "United States",
     "hq_city": "Chicago",
     "offices": [
-      { "country": "United States", "city": "Chicago" },
-      { "country": "United States", "city": "Nashville" }
+      {
+        "country": "United States",
+        "city": "Chicago"
+      },
+      {
+        "country": "United States",
+        "city": "Nashville"
+      }
     ],
     "website": "https://www.cresseyco.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/cressey-and-company" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/cressey-and-company"
+    },
     "capital": {
-      "aum": { "raw": "$5+ billion", "usd": 5000000000, "currency": "USD" },
-      "current_fund": { "raw": "$995 million", "usd": 995000000, "currency": "USD" }
+      "aum": {
+        "raw": "$5+ billion",
+        "usd": 5000000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "$995 million",
+        "usd": 995000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it"
+      ],
       "thesis": "Private-equity firm focused exclusively on healthcare, investing in healthcare services, providers, facilities and information-technology businesses in North America (home care, specialty facilities, physician partnerships, outsourced services, etc.)."
     },
     "summary": {
       "en": "Chicago/Nashville private-equity firm investing exclusively in healthcare services and IT businesses; co-founded by Bryan Cressey (also of Frist Cressey Ventures). Raised a $995M Fund VI, with $5B+ under management."
     },
     "sources": [
-      { "url": "https://www.prnewswire.com/news-releases/cressey--company-raises-new-995-million-private-equity-fund-300667549.html", "title": "Cressey & Company Raises New $995 Million Private Equity Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund VI size, focus, offices", "quote": "Cressey & Company Fund VI, LP (\"Fund VI\") on $995 million" },
-      { "url": "https://www.prnewswire.com/news-releases/cressey--company-raises-new-995-million-private-equity-fund-300667549.html", "title": "Cressey & Company Raises New $995 Million Private Equity Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "sector focus and offices", "quote": "Based in Chicago, IL and Nashville, TN, Cressey & Company" },
-      { "url": "https://www.cresseyco.com/", "title": "Homepage | Cressey & Company", "publisher": "Cressey & Company", "accessed": "undefined", "supports": "healthcare-exclusive focus, $5B+ AUM, subsectors" }
+      {
+        "url": "https://www.prnewswire.com/news-releases/cressey--company-raises-new-995-million-private-equity-fund-300667549.html",
+        "title": "Cressey & Company Raises New $995 Million Private Equity Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund VI size, focus, offices",
+        "quote": "Cressey & Company Fund VI, LP (\"Fund VI\") on $995 million"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/cressey--company-raises-new-995-million-private-equity-fund-300667549.html",
+        "title": "Cressey & Company Raises New $995 Million Private Equity Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "sector focus and offices",
+        "quote": "Based in Chicago, IL and Nashville, TN, Cressey & Company"
+      },
+      {
+        "url": "https://www.cresseyco.com/",
+        "title": "Homepage | Cressey & Company",
+        "publisher": "Cressey & Company",
+        "accessed": "undefined",
+        "supports": "healthcare-exclusive focus, $5B+ AUM, subsectors"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Cressey is a control-oriented healthcare private-equity (buyout) firm rather than a venture/growth-venture fund; included as a canonical healthcare-services investor and for its tie to anchor Frist Cressey Ventures. $5B+ AUM from the firm's site (secondary within page).",
@@ -775,32 +1806,70 @@
   },
   {
     "id": "us-martin-ventures",
-    "name": { "en": "Martin Ventures" },
+    "name": {
+      "en": "Martin Ventures"
+    },
     "type": "family-office",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2009,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Nashville",
     "website": "https://www.martinventures.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/martin-ventures" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/martin-ventures"
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "healthcare-it", "digital-health"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it",
+        "digital-health"
+      ],
       "thesis": "Nashville healthcare-focused family office / investment firm that partners with founders to build and scale healthcare services, value-based care and technology-enabled services companies that optimize provider businesses and create new care models; invests off its own balance sheet."
     },
     "people": [
-      { "name": "Charlie Martin", "role": "Founder & Chairman", "background": "50+ years operating large healthcare systems; founder of Vanguard Health Systems" }
+      {
+        "name": "Charlie Martin",
+        "role": "Founder & Chairman",
+        "background": "50+ years operating large healthcare systems; founder of Vanguard Health Systems"
+      }
     ],
     "summary": {
       "en": "Nashville healthcare-focused family office (founded 2009) led by veteran hospital operator Charlie Martin, investing in healthcare services, value-based care and health-tech companies from its own balance sheet."
     },
     "sources": [
-      { "url": "https://www.martinventures.com/our-firm/", "title": "Our Firm – Martin Ventures", "publisher": "Martin Ventures", "accessed": "undefined", "supports": "healthcare services / value-based care focus, Nashville, balance-sheet investing" },
-      { "url": "https://www.martinventures.com/charlie-martin/", "title": "Charlie Martin – Martin Ventures", "publisher": "Martin Ventures", "accessed": "undefined", "supports": "founder background and focus" },
-      { "url": "https://foundersuite.com/firms/martin-ventures", "title": "Martin Ventures | Investor profile", "publisher": "Foundersuite", "accessed": "undefined", "supports": "founding year 2009, family office, sectors" }
+      {
+        "url": "https://www.martinventures.com/our-firm/",
+        "title": "Our Firm – Martin Ventures",
+        "publisher": "Martin Ventures",
+        "accessed": "undefined",
+        "supports": "healthcare services / value-based care focus, Nashville, balance-sheet investing"
+      },
+      {
+        "url": "https://www.martinventures.com/charlie-martin/",
+        "title": "Charlie Martin – Martin Ventures",
+        "publisher": "Martin Ventures",
+        "accessed": "undefined",
+        "supports": "founder background and focus"
+      },
+      {
+        "url": "https://foundersuite.com/firms/martin-ventures",
+        "title": "Martin Ventures | Investor profile",
+        "publisher": "Foundersuite",
+        "accessed": "undefined",
+        "supports": "founding year 2009, family office, sectors"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year (2009) and family-office structure from secondary profiles; the firm invests off its balance sheet rather than a discrete fund, so no fund size is reported. Also active in digital health, but primary identity is healthcare services / value-based care.",

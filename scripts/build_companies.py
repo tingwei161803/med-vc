@@ -333,10 +333,20 @@ def normalize(c: dict, dropped: Counter) -> dict:
     for axis, key in (("modality", "modalities"), ("indication", "indications")):
         vals = []
         for v in p.get(key) or []:
+            # A value that is a valid SECTOR slug filed under modalities is real
+            # research on the wrong axis, not a typo — "synthetic-biology" is a
+            # field of work, not a treatment modality. Move it rather than drop
+            # it; dropping loses a fact the researcher actually established.
+            slug = re.sub(r"[^a-z0-9]+", "-", norm(v)).strip("-")
+            if slug in VOCAB["sector"] and slug not in VOCAB[axis]:
+                if slug not in secs:
+                    secs.append(slug)
+                continue
             if (f := fix_vocab(v, axis, dropped)) and f not in vals:
                 vals.append(f)
         if vals or key in p:
             p[key] = vals
+    c["sectors"] = secs
     ds = (p.get("development_stage") or "").strip().lower().replace(" ", "-")
     if ds:
         p["development_stage"] = ds if ds in DEV_STAGES else "unknown"

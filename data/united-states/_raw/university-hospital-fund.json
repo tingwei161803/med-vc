@@ -1,44 +1,127 @@
 [
   {
     "id": "us-osage-university-partners",
-    "name": { "en": "Osage University Partners" },
-    "aka": ["OUP"],
+    "name": {
+      "en": "Osage University Partners"
+    },
+    "aka": [
+      "OUP"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2011,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Bala Cynwyd, Pennsylvania",
     "website": "https://oup.vc/",
-    "links": { "linkedin": "https://www.linkedin.com/company/osage-university-partners", "crunchbase": "https://www.crunchbase.com/organization/osage-university-partners" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/osage-university-partners",
+      "crunchbase": "https://www.crunchbase.com/organization/osage-university-partners"
+    },
     "capital": {
-      "aum": { "raw": "$800M", "usd": 800000000, "currency": "USD" },
+      "aum": {
+        "raw": "$800M",
+        "usd": 800000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "OUP I", "vintage_year": 2011, "size": { "raw": "$100 million", "usd": 100000000, "currency": "USD" } },
-        { "name": "OUP II", "vintage_year": 2015, "size": { "raw": "$215 million", "usd": 215000000, "currency": "USD" } },
-        { "name": "OUP III", "vintage_year": 2019, "size": { "raw": "$273m", "usd": 273000000, "currency": "USD" } },
-        { "name": "OUP IV", "vintage_year": 2023, "size": { "raw": null, "usd": null, "currency": "USD" } }
+        {
+          "name": "OUP I",
+          "vintage_year": 2011,
+          "size": {
+            "raw": "$100 million",
+            "usd": 100000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "OUP II",
+          "vintage_year": 2015,
+          "size": {
+            "raw": "$215 million",
+            "usd": 215000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "OUP III",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "$273m",
+            "usd": 273000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "OUP IV",
+          "vintage_year": 2023,
+          "size": {
+            "raw": null,
+            "usd": null,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools", "generalist-health"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "life-science-tools",
+        "generalist-health"
+      ],
       "lead_or_follow": "both",
       "thesis": "Dedicated fund that invests exclusively in startups commercializing research spun out of its 150+ partner universities and research institutions, with a large life-science practice (therapeutics, medtech, diagnostics, research tools). Its exclusive-rights partnership model with tech-transfer offices gives it privileged access to academic biomedical spinouts."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ],
       "company_creation": false,
       "science_platform_notes": "Partners with 150+ university and research-institution tech-transfer offices (Caltech, MIT, the UC system, Columbia, Duke, Harvard, Penn, Michigan, etc.), gaining preferential rights to co-invest in their spinouts."
     },
-    "track_record": { "portfolio_count": 200 },
-    "tags": ["university-spinout", "tech-transfer", "academic"],
-    "summary": { "en": "Philadelphia-area venture fund that backs startups commercializing university and research-institute discoveries across its 150+ partner institutions, with a major life-science portfolio; ~$800M AUM across four funds." },
+    "track_record": {
+      "portfolio_count": 200
+    },
+    "tags": [
+      "university-spinout",
+      "tech-transfer",
+      "academic"
+    ],
+    "summary": {
+      "en": "Philadelphia-area venture fund that backs startups commercializing university and research-institute discoveries across its 150+ partner institutions, with a major life-science portfolio; ~$800M AUM across four funds."
+    },
     "sources": [
-      { "url": "https://oup.vc/", "title": "Osage University Partners", "publisher": "Osage University Partners", "accessed": "undefined", "supports": "AUM, partner count, life-science focus", "quote": "$800M Under Management ... 150+ Partner Universities & Research Institutions ... Life Science: Therapeutics, Medtech, Diagnostics, Research Tools" },
-      { "url": "https://globalventuring.com/university/osage-university-partners-closes-273m-fund/", "title": "Osage University Partners closes $273m fund", "publisher": "Global University Venturing", "accessed": "undefined", "supports": "Fund sizes and history, ~200 investments", "quote": "Osage University Partners closed its third fund at $273m ... a $100 million debut fund in 2011 and a $215 million fund in 2015" }
+      {
+        "url": "https://oup.vc/",
+        "title": "Osage University Partners",
+        "publisher": "Osage University Partners",
+        "accessed": "undefined",
+        "supports": "AUM, partner count, life-science focus",
+        "quote": "$800M Under Management ... 150+ Partner Universities & Research Institutions ... Life Science: Therapeutics, Medtech, Diagnostics, Research Tools"
+      },
+      {
+        "url": "https://globalventuring.com/university/osage-university-partners-closes-273m-fund/",
+        "title": "Osage University Partners closes $273m fund",
+        "publisher": "Global University Venturing",
+        "accessed": "undefined",
+        "supports": "Fund sizes and history, ~200 investments",
+        "quote": "Osage University Partners closed its third fund at $273m ... a $100 million debut fund in 2011 and a $215 million fund in 2015"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM and partner count are from OUP's own site; fund vintages/sizes from Global University Venturing. OUP IV (launched 2023) size not disclosed in sources seen. Also co-manages the $50M Penn-BioNTech (PxB) seed fund.",
@@ -47,31 +130,67 @@
   },
   {
     "id": "us-mayo-clinic-ventures",
-    "name": { "en": "Mayo Clinic Ventures" },
+    "name": {
+      "en": "Mayo Clinic Ventures"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 1985,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Rochester, Minnesota",
     "website": "https://ventures.mayoclinic.org/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/mayo-clinic-ventures" },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/mayo-clinic-ventures"
+    },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "healthcare-it"
+      ],
       "thesis": "Commercialization and venture arm of Mayo Clinic that licenses Mayo-created technologies, forms startups and co-invests in companies aligned with Mayo's clinical practice; the new Mayo Venture Partner (MVP) program adds industry veterans to build and co-invest in new ventures."
     },
     "lifesci": {
       "company_creation": true,
       "science_platform_notes": "Draws on Mayo Clinic's clinical, research and IP base; runs licensing, startup formation and equity investment; launched the Mayo Venture Partner (MVP) program to co-create companies."
     },
-    "track_record": { "portfolio_count": 180 },
-    "tags": ["hospital-venture", "tech-transfer", "company-creation"],
-    "summary": { "en": "The commercialization and venture-capital arm of Mayo Clinic (Rochester, MN), founded 1985; licenses Mayo technologies and invests in/creates healthcare, life-science, device and diagnostics companies." },
+    "track_record": {
+      "portfolio_count": 180
+    },
+    "tags": [
+      "hospital-venture",
+      "tech-transfer",
+      "company-creation"
+    ],
+    "summary": {
+      "en": "The commercialization and venture-capital arm of Mayo Clinic (Rochester, MN), founded 1985; licenses Mayo technologies and invests in/creates healthcare, life-science, device and diagnostics companies."
+    },
     "sources": [
-      { "url": "https://newsnetwork.mayoclinic.org/discussion/new-mayo-venture-partner-mvp-program-announced-to-accelerate-innovation/", "title": "New Mayo Venture Partner (MVP) program announced", "publisher": "Mayo Clinic News Network", "accessed": "undefined", "supports": "MVP program, revenue and companies created", "quote": "returned more than $1.2B in revenue to Mayo Clinic ... helped create more than 180 companies, licensed 4,848 Mayo Clinic-created technologies through 2,913 agreements" },
-      { "url": "https://www.crunchbase.com/organization/mayo-clinic-ventures", "title": "Mayo Clinic Ventures - Crunchbase", "publisher": "Crunchbase", "accessed": "undefined", "supports": "Founded 1985, Rochester MN, ~180 investments", "quote": "corporate venture capital arm of Mayo Clinic based in Rochester, Minnesota, founded in 1985" }
+      {
+        "url": "https://newsnetwork.mayoclinic.org/discussion/new-mayo-venture-partner-mvp-program-announced-to-accelerate-innovation/",
+        "title": "New Mayo Venture Partner (MVP) program announced",
+        "publisher": "Mayo Clinic News Network",
+        "accessed": "undefined",
+        "supports": "MVP program, revenue and companies created",
+        "quote": "returned more than $1.2B in revenue to Mayo Clinic ... helped create more than 180 companies, licensed 4,848 Mayo Clinic-created technologies through 2,913 agreements"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/mayo-clinic-ventures",
+        "title": "Mayo Clinic Ventures - Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founded 1985, Rochester MN, ~180 investments",
+        "quote": "corporate venture capital arm of Mayo Clinic based in Rochester, Minnesota, founded in 1985"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year and portfolio count corroborated across Crunchbase/CB Insights; the $1.2B revenue and 180-companies figures are Mayo's own cumulative business-development numbers aggregated by secondary sources. Could not load ventures.mayoclinic.org directly (TLS cert error).",
@@ -80,10 +199,17 @@
   },
   {
     "id": "us-cleveland-clinic-ventures",
-    "name": { "en": "Cleveland Clinic Ventures" },
-    "aka": ["Cleveland Clinic Innovations"],
+    "name": {
+      "en": "Cleveland Clinic Ventures"
+    },
+    "aka": [
+      "Cleveland Clinic Innovations"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["cvc", "incubator"],
+    "subtypes": [
+      "cvc",
+      "incubator"
+    ],
     "status": "active",
     "founded_year": 2000,
     "region": "united-states",
@@ -91,8 +217,15 @@
     "hq_city": "Cleveland, Ohio",
     "website": "https://my.clevelandclinic.org/innovations",
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics", "digital-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "therapeutics",
+        "diagnostics",
+        "digital-health"
+      ],
       "thesis": "Commercialization and venture arm of Cleveland Clinic; since 2000 it has bridged the gap from caregiver invention to market, creating and investing in spin-off companies across medical devices, pharmaceuticals, diagnostics and digital health."
     },
     "lifesci": {
@@ -102,15 +235,43 @@
     "track_record": {
       "portfolio_count": "40+ active startups",
       "notable_investments": [
-        { "company": "Cleveland Diagnostics", "sector": "diagnostics", "outcome": "active" },
-        { "company": "NeuroTherapia", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Cleveland Diagnostics",
+          "sector": "diagnostics",
+          "outcome": "active"
+        },
+        {
+          "company": "NeuroTherapia",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["hospital-venture", "tech-transfer", "company-creation"],
-    "summary": { "en": "Cleveland Clinic's innovation/commercialization and venture arm; since 2000 it has launched 40+ active startups (100+ spin-offs historically) across devices, pharma, diagnostics and digital health." },
+    "tags": [
+      "hospital-venture",
+      "tech-transfer",
+      "company-creation"
+    ],
+    "summary": {
+      "en": "Cleveland Clinic's innovation/commercialization and venture arm; since 2000 it has launched 40+ active startups (100+ spin-offs historically) across devices, pharma, diagnostics and digital health."
+    },
     "sources": [
-      { "url": "https://magazine.clevelandclinic.org/2024-spring/inside-the-innovation-factory", "title": "Inside the Innovation Factory", "publisher": "Cleveland Clinic Magazine", "accessed": "undefined", "supports": "Since 2000, 40+ active startups", "quote": "Since 2000, Cleveland Clinic Innovations (CCI) has worked to bridge that gap ... to launch more than 40 active startups." },
-      { "url": "https://ventures.clevelandclinic.org/Cleveland-Clinic-Ventures/About-Us", "title": "Cleveland Clinic Ventures - About Us", "publisher": "Cleveland Clinic", "accessed": "undefined", "supports": "Ventures team creates and invests in spinoffs; sector coverage", "quote": "The portfolio includes a wide range of venture technology companies, including medical devices, pharmaceuticals, diagnostics and digital health" }
+      {
+        "url": "https://magazine.clevelandclinic.org/2024-spring/inside-the-innovation-factory",
+        "title": "Inside the Innovation Factory",
+        "publisher": "Cleveland Clinic Magazine",
+        "accessed": "undefined",
+        "supports": "Since 2000, 40+ active startups",
+        "quote": "Since 2000, Cleveland Clinic Innovations (CCI) has worked to bridge that gap ... to launch more than 40 active startups."
+      },
+      {
+        "url": "https://ventures.clevelandclinic.org/Cleveland-Clinic-Ventures/About-Us",
+        "title": "Cleveland Clinic Ventures - About Us",
+        "publisher": "Cleveland Clinic",
+        "accessed": "undefined",
+        "supports": "Ventures team creates and invests in spinoffs; sector coverage",
+        "quote": "The portfolio includes a wide range of venture technology companies, including medical devices, pharmaceuticals, diagnostics and digital health"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "The magazine cites 40+ currently-active startups; the CCI 'invest' page cites 100+ spin-offs launched since 2000 and 900+ technologies licensed. Cleveland Clinic Ventures is the venture unit within Cleveland Clinic Innovations.",
@@ -119,36 +280,86 @@
   },
   {
     "id": "us-mass-general-brigham-ventures",
-    "name": { "en": "Mass General Brigham Ventures" },
-    "aka": ["Partners Innovation Fund", "MGB Ventures"],
+    "name": {
+      "en": "Mass General Brigham Ventures"
+    },
+    "aka": [
+      "Partners Innovation Fund",
+      "MGB Ventures"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2008,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Boston, Massachusetts",
     "website": "https://www.massgeneralbrigham.org/en/research-and-innovation/innovation/ventures",
-    "links": { "linkedin": "https://www.linkedin.com/company/mass-general-brigham-ventures" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/mass-general-brigham-ventures"
+    },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health"
+      ],
       "lead_or_follow": "follow",
       "thesis": "Early-stage venture arm of Mass General Brigham, investing in next-generation life-science companies built on IP from its own research community (five research/teaching hospitals affiliated with Harvard Medical School), with first access to disruptive deal flow."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
-      "indications": ["oncology", "rare-disease", "neurology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "cell-therapy",
+        "gene-therapy"
+      ],
+      "indications": [
+        "oncology",
+        "rare-disease",
+        "neurology"
+      ],
       "company_creation": true,
       "science_platform_notes": "Sources IP from Mass General Brigham hospitals (MGH, Brigham and Women's, etc.), the largest teaching affiliate of Harvard Medical School; seeks strong co-investor syndicates."
     },
-    "track_record": { "portfolio_count": 92 },
-    "tags": ["hospital-venture", "academic-medical-center", "bench-to-bedside"],
-    "summary": { "en": "Founded 2008, the early-stage venture arm of Mass General Brigham; invests at seed/Series A in drugs, devices, diagnostics and digital health built on IP from its Harvard-affiliated hospitals. ~20 exits including 8 IPOs." },
+    "track_record": {
+      "portfolio_count": 92
+    },
+    "tags": [
+      "hospital-venture",
+      "academic-medical-center",
+      "bench-to-bedside"
+    ],
+    "summary": {
+      "en": "Founded 2008, the early-stage venture arm of Mass General Brigham; invests at seed/Series A in drugs, devices, diagnostics and digital health built on IP from its Harvard-affiliated hospitals. ~20 exits including 8 IPOs."
+    },
     "sources": [
-      { "url": "https://www.massgeneralbrigham.org/en/research-and-innovation/innovation/ventures/about", "title": "About | Mass General Brigham Ventures", "publisher": "Mass General Brigham", "accessed": "undefined", "supports": "Founded 2008, stages, sectors, IP model", "quote": "founded in 2008 to advance new life science technologies emerging from Mass General Brigham ... Initial investments are directed at the seed and Series A stages ... products across a range of categories including drugs, devices, diagnostics, and digital health" },
-      { "url": "https://www.cbinsights.com/investor/mass-general-brigham-ventures", "title": "Mass General Brigham Ventures Portfolio", "publisher": "CB Insights", "accessed": "undefined", "supports": "92 investments, 20 exits (8 IPOs, 12 M&A)", "quote": "Since inception, Mass General Brigham Ventures has realized 20 exits, including eight initial public offerings and 12 mergers and acquisitions. Mass General Brigham Ventures has made 92 investments." }
+      {
+        "url": "https://www.massgeneralbrigham.org/en/research-and-innovation/innovation/ventures/about",
+        "title": "About | Mass General Brigham Ventures",
+        "publisher": "Mass General Brigham",
+        "accessed": "undefined",
+        "supports": "Founded 2008, stages, sectors, IP model",
+        "quote": "founded in 2008 to advance new life science technologies emerging from Mass General Brigham ... Initial investments are directed at the seed and Series A stages ... products across a range of categories including drugs, devices, diagnostics, and digital health"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/mass-general-brigham-ventures",
+        "title": "Mass General Brigham Ventures Portfolio",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "92 investments, 20 exits (8 IPOs, 12 M&A)",
+        "quote": "Since inception, Mass General Brigham Ventures has realized 20 exits, including eight initial public offerings and 12 mergers and acquisitions. Mass General Brigham Ventures has made 92 investments."
+      }
     ],
     "confidence": "high",
     "verification_notes": "Founding year, stages and sectors confirmed on the official About page; exit/investment counts from CB Insights (secondary). Formerly known as the Partners Innovation Fund (Partners HealthCare).",
@@ -157,10 +368,17 @@
   },
   {
     "id": "us-johns-hopkins-technology-ventures",
-    "name": { "en": "Johns Hopkins Technology Ventures" },
-    "aka": ["JHTV"],
+    "name": {
+      "en": "Johns Hopkins Technology Ventures"
+    },
+    "aka": [
+      "JHTV"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["incubator", "accelerator"],
+    "subtypes": [
+      "incubator",
+      "accelerator"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "united-states",
@@ -168,8 +386,16 @@
     "hq_city": "Baltimore, Maryland",
     "website": "https://ventures.jhu.edu/",
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "life-science-tools"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "life-science-tools"
+      ],
       "thesis": "Johns Hopkins University's commercialization and entrepreneurship hub; protects IP, spins out companies and runs the FastForward accelerator. ~75% of the innovations it sees come from Hopkins' healthcare researchers."
     },
     "lifesci": {
@@ -179,14 +405,38 @@
     "track_record": {
       "portfolio_count": "130+ startups",
       "notable_investments": [
-        { "company": "Thrive Earlier Detection", "sector": "diagnostics", "outcome": "acquired by Exact Sciences (~$2.1B)" }
+        {
+          "company": "Thrive Earlier Detection",
+          "sector": "diagnostics",
+          "outcome": "acquired by Exact Sciences (~$2.1B)"
+        }
       ]
     },
-    "tags": ["university-tto", "academic-medical-center", "accelerator"],
-    "summary": { "en": "Johns Hopkins University's tech-transfer and venture hub in Baltimore; has spun out 130+ startups and licensed 2,000+ technologies, with portfolio companies raising $4.8B+; ~75% of its inventions come from healthcare research." },
+    "tags": [
+      "university-tto",
+      "academic-medical-center",
+      "accelerator"
+    ],
+    "summary": {
+      "en": "Johns Hopkins University's tech-transfer and venture hub in Baltimore; has spun out 130+ startups and licensed 2,000+ technologies, with portfolio companies raising $4.8B+; ~75% of its inventions come from healthcare research."
+    },
     "sources": [
-      { "url": "https://technical.ly/startups/johns-hopkins-tech-ventures-annual-report/", "title": "Johns Hopkins Tech Ventures startups raised more than $1B", "publisher": "Technical.ly", "accessed": "undefined", "supports": "Portfolio funding raised, startup counts", "quote": "JHTV has been instrumental in raising over $4.8 billion in venture funding for its portfolio companies" },
-      { "url": "https://ventures.jhu.edu/", "title": "Johns Hopkins Technology Ventures", "publisher": "Johns Hopkins University", "accessed": "undefined", "supports": "TTO/commercialization mission, FastForward", "quote": "protect intellectual property, build companies, and form strategic collaborations with industry and investors" }
+      {
+        "url": "https://technical.ly/startups/johns-hopkins-tech-ventures-annual-report/",
+        "title": "Johns Hopkins Tech Ventures startups raised more than $1B",
+        "publisher": "Technical.ly",
+        "accessed": "undefined",
+        "supports": "Portfolio funding raised, startup counts",
+        "quote": "JHTV has been instrumental in raising over $4.8 billion in venture funding for its portfolio companies"
+      },
+      {
+        "url": "https://ventures.jhu.edu/",
+        "title": "Johns Hopkins Technology Ventures",
+        "publisher": "Johns Hopkins University",
+        "accessed": "undefined",
+        "supports": "TTO/commercialization mission, FastForward",
+        "quote": "protect intellectual property, build companies, and form strategic collaborations with industry and investors"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Startup/licensing/funding figures come from JHTV reporting via secondary coverage. JHTV is primarily a tech-transfer and incubation organization (FastForward) rather than a discretionary equity fund, but it takes equity in spinouts.",
@@ -195,19 +445,35 @@
   },
   {
     "id": "us-mount-sinai-innovation-partners",
-    "name": { "en": "Mount Sinai Innovation Partners" },
-    "aka": ["MSIP"],
+    "name": {
+      "en": "Mount Sinai Innovation Partners"
+    },
+    "aka": [
+      "MSIP"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["accelerator"],
+    "subtypes": [
+      "accelerator"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "New York, New York",
     "website": "https://ip.mountsinai.org/",
-    "links": { "linkedin": "https://www.linkedin.com/company/mount-sinai-innovation-partners" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/mount-sinai-innovation-partners"
+    },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "genomics-omics"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "genomics-omics"
+      ],
       "thesis": "Technology-transfer and commercialization arm of the Icahn School of Medicine at Mount Sinai; translates faculty discoveries into startups and spinouts and funds early commercialization through the i3 Accelerator."
     },
     "lifesci": {
@@ -217,15 +483,43 @@
     "track_record": {
       "portfolio_count": "230+ active partnerships",
       "notable_investments": [
-        { "company": "Sema4 (now GeneDx)", "sector": "genomics/diagnostics", "outcome": "public via SPAC / merged" },
-        { "company": "Monogram Technologies", "sector": "surgical robotics", "outcome": "acquired by Zimmer Biomet (2025)" }
+        {
+          "company": "Sema4 (now GeneDx)",
+          "sector": "genomics/diagnostics",
+          "outcome": "public via SPAC / merged"
+        },
+        {
+          "company": "Monogram Technologies",
+          "sector": "surgical robotics",
+          "outcome": "acquired by Zimmer Biomet (2025)"
+        }
       ]
     },
-    "tags": ["academic-medical-center", "tech-transfer", "accelerator"],
-    "summary": { "en": "The tech-transfer and commercialization arm of the Icahn School of Medicine at Mount Sinai (NYC); manages 230+ active partnerships and funds spinouts through the $10.75M i3 Accelerator." },
+    "tags": [
+      "academic-medical-center",
+      "tech-transfer",
+      "accelerator"
+    ],
+    "summary": {
+      "en": "The tech-transfer and commercialization arm of the Icahn School of Medicine at Mount Sinai (NYC); manages 230+ active partnerships and funds spinouts through the $10.75M i3 Accelerator."
+    },
     "sources": [
-      { "url": "https://ip.mountsinai.org/", "title": "Mount Sinai Innovation Partners", "publisher": "Mount Sinai", "accessed": "undefined", "supports": "Role as commercialization arm of Icahn School of Medicine", "quote": "facilitates the transfer of discovery from the laboratory to the marketplace ... to bring the Icahn School of Medicine's inventions to life" },
-      { "url": "https://reports.mountsinai.org/article/field-notes-2025-reflections-and-plans", "title": "Field Notes 2025: Reflections and Plans", "publisher": "Mount Sinai", "accessed": "undefined", "supports": "i3 Accelerator size, partnerships, spinouts", "quote": "the i3 Accelerator, which is a $10.75 million, four-year investment to increase the pace of commercialization" }
+      {
+        "url": "https://ip.mountsinai.org/",
+        "title": "Mount Sinai Innovation Partners",
+        "publisher": "Mount Sinai",
+        "accessed": "undefined",
+        "supports": "Role as commercialization arm of Icahn School of Medicine",
+        "quote": "facilitates the transfer of discovery from the laboratory to the marketplace ... to bring the Icahn School of Medicine's inventions to life"
+      },
+      {
+        "url": "https://reports.mountsinai.org/article/field-notes-2025-reflections-and-plans",
+        "title": "Field Notes 2025: Reflections and Plans",
+        "publisher": "Mount Sinai",
+        "accessed": "undefined",
+        "supports": "i3 Accelerator size, partnerships, spinouts",
+        "quote": "the i3 Accelerator, which is a $10.75 million, four-year investment to increase the pace of commercialization"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "MSIP is principally a TTO/commercialization office; its dedicated capital is the i3 Accelerator gap fund rather than a large discretionary VC fund. Spinout outcomes (Sema4/GeneDx, Monogram/Zimmer Biomet) confirmed via secondary sources.",
@@ -234,10 +528,16 @@
   },
   {
     "id": "us-msk-ventures",
-    "name": { "en": "MSK Ventures" },
-    "aka": ["Memorial Sloan Kettering Ventures"],
+    "name": {
+      "en": "MSK Ventures"
+    },
+    "aka": [
+      "Memorial Sloan Kettering Ventures"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2026,
     "region": "united-states",
@@ -245,25 +545,66 @@
     "hq_city": "New York, New York",
     "website": "https://www.mskcc.org/commercialization/msk-ventures",
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "diagnostics", "digital-health"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "digital-health"
+      ],
       "thesis": "Dedicated venture fund of Memorial Sloan Kettering Cancer Center that invests in early-stage, high-conviction companies with an affiliation or mission alignment with MSK, translating oncology discoveries while diversifying long-term revenue."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "biologics-antibody", "small-molecule"],
-      "indications": ["oncology"],
+      "modalities": [
+        "cell-therapy",
+        "biologics-antibody",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
       "company_creation": true,
       "science_platform_notes": "Part of MSK's Commercialization Ecosystem alongside the Office of Entrepreneurship & Commercialization; invests in companies created/nurtured by MSK faculty and staff."
     },
     "people": [
-      { "name": "Whitney Snider", "role": "Managing Partner (inaugural)", "background": "MD, MBA" }
+      {
+        "name": "Whitney Snider",
+        "role": "Managing Partner (inaugural)",
+        "background": "MD, MBA"
+      }
     ],
-    "tags": ["cancer-center", "oncology", "company-creation", "new-fund"],
-    "summary": { "en": "The dedicated venture fund of Memorial Sloan Kettering Cancer Center (NYC), launching Fund I in 2026 to invest in early-stage, MSK-aligned oncology and healthcare startups." },
+    "tags": [
+      "cancer-center",
+      "oncology",
+      "company-creation",
+      "new-fund"
+    ],
+    "summary": {
+      "en": "The dedicated venture fund of Memorial Sloan Kettering Cancer Center (NYC), launching Fund I in 2026 to invest in early-stage, MSK-aligned oncology and healthcare startups."
+    },
     "sources": [
-      { "url": "https://www.mskcc.org/commercialization/msk-ventures", "title": "MSK Ventures", "publisher": "Memorial Sloan Kettering Cancer Center", "accessed": "undefined", "supports": "Dedicated VC fund, mission alignment, structured capital", "quote": "MSK Ventures is designed to invest in high-conviction companies with an affiliation or mission alignment with MSK" },
-      { "url": "https://www.mskcc.org/news-releases/whitney-snider-md-mba-joins-mskcc-as-inaugural-managing-partner-of-msk-ventures", "title": "Whitney Snider joins MSKCC as inaugural Managing Partner of MSK Ventures", "publisher": "Memorial Sloan Kettering Cancer Center", "accessed": "undefined", "supports": "Leadership, dedicated investment pool, launch", "quote": "Whitney Snider, MD, MBA, as the inaugural Managing Partner of MSK Ventures – a dedicated investment pool" }
+      {
+        "url": "https://www.mskcc.org/commercialization/msk-ventures",
+        "title": "MSK Ventures",
+        "publisher": "Memorial Sloan Kettering Cancer Center",
+        "accessed": "undefined",
+        "supports": "Dedicated VC fund, mission alignment, structured capital",
+        "quote": "MSK Ventures is designed to invest in high-conviction companies with an affiliation or mission alignment with MSK"
+      },
+      {
+        "url": "https://www.mskcc.org/news-releases/whitney-snider-md-mba-joins-mskcc-as-inaugural-managing-partner-of-msk-ventures",
+        "title": "Whitney Snider joins MSKCC as inaugural Managing Partner of MSK Ventures",
+        "publisher": "Memorial Sloan Kettering Cancer Center",
+        "accessed": "undefined",
+        "supports": "Leadership, dedicated investment pool, launch",
+        "quote": "Whitney Snider, MD, MBA, as the inaugural Managing Partner of MSK Ventures – a dedicated investment pool"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Newly formed (Fund I launching 2026); fund size not yet disclosed in sources seen. Distinct from Mount Sinai (a different NYC institution).",
@@ -272,9 +613,14 @@
   },
   {
     "id": "us-upmc-enterprises",
-    "name": { "en": "UPMC Enterprises" },
+    "name": {
+      "en": "UPMC Enterprises"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["cvc", "venture-studio"],
+    "subtypes": [
+      "cvc",
+      "venture-studio"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
@@ -282,24 +628,64 @@
     "website": "https://enterprises.upmc.com/",
     "capital": {
       "funds": [
-        { "name": "Life Sciences commitment", "vintage_year": 2020, "size": { "raw": "$1 billion (by 2024)", "usd": 1000000000, "currency": "USD" } }
+        {
+          "name": "Life Sciences commitment",
+          "vintage_year": 2020,
+          "size": {
+            "raw": "$1 billion (by 2024)",
+            "usd": 1000000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "digital-health", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "medtech-devices",
+        "digital-health",
+        "healthcare-it"
+      ],
       "thesis": "Innovation, venture-capital and commercialization arm of UPMC (a large Pittsburgh integrated provider/insurer); builds and funds companies, deploying $1B into new drugs, diagnostics and devices with a focus on immunotherapy, transplantation and diseases of aging."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "biologics-antibody", "small-molecule"],
-      "indications": ["oncology", "aging-longevity", "immunology-inflammation", "respiratory", "ophthalmology"],
+      "modalities": [
+        "cell-therapy",
+        "biologics-antibody",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology",
+        "aging-longevity",
+        "immunology-inflammation",
+        "respiratory",
+        "ophthalmology"
+      ],
       "company_creation": true,
       "science_platform_notes": "Provides 'industry-grade' infrastructure (drug-screening facilities, business/legal talent) to portfolio companies; $200M funded a University of Pittsburgh immunotherapy partnership."
     },
-    "tags": ["hospital-venture", "payer-provider", "company-creation", "life-sciences"],
-    "summary": { "en": "The innovation, venture-capital and commercialization arm of UPMC (Pittsburgh); committed $1 billion to develop new drugs, diagnostics and devices by 2024, focused on immunotherapy, transplantation and aging-related disease." },
+    "tags": [
+      "hospital-venture",
+      "payer-provider",
+      "company-creation",
+      "life-sciences"
+    ],
+    "summary": {
+      "en": "The innovation, venture-capital and commercialization arm of UPMC (Pittsburgh); committed $1 billion to develop new drugs, diagnostics and devices by 2024, focused on immunotherapy, transplantation and aging-related disease."
+    },
     "sources": [
-      { "url": "https://www.upmc.com/media/news/011420-enterprises-fund", "title": "UPMC Enterprises to Invest $1 Billion in Life Sciences", "publisher": "UPMC", "accessed": "undefined", "supports": "$1B commitment, role, therapeutic focus", "quote": "UPMC Enterprises announced today that it will deploy $1 billion to develop new drugs, diagnostics and devices by 2024. ... UPMC Enterprises — the innovation, venture capital and commercialization arm of UPMC" }
+      {
+        "url": "https://www.upmc.com/media/news/011420-enterprises-fund",
+        "title": "UPMC Enterprises to Invest $1 Billion in Life Sciences",
+        "publisher": "UPMC",
+        "accessed": "undefined",
+        "supports": "$1B commitment, role, therapeutic focus",
+        "quote": "UPMC Enterprises announced today that it will deploy $1 billion to develop new drugs, diagnostics and devices by 2024. ... UPMC Enterprises — the innovation, venture capital and commercialization arm of UPMC"
+      }
     ],
     "confidence": "high",
     "verification_notes": "$1B life-sciences commitment confirmed on UPMC's own newsroom. UPMC Enterprises also invests broadly in health IT/digital health beyond the life-sciences commitment.",
@@ -308,10 +694,16 @@
   },
   {
     "id": "us-kaiser-permanente-ventures",
-    "name": { "en": "Kaiser Permanente Ventures" },
-    "aka": ["KPV"],
+    "name": {
+      "en": "Kaiser Permanente Ventures"
+    },
+    "aka": [
+      "KPV"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 1998,
     "region": "united-states",
@@ -319,34 +711,87 @@
     "hq_city": "Oakland, California",
     "website": "https://www.kpventures.com/",
     "capital": {
-      "aum": { "raw": "more than $500 million", "usd": 500000000, "currency": "USD" },
-      "current_fund": { "raw": "$141 million", "usd": 141000000, "currency": "USD" },
+      "aum": {
+        "raw": "more than $500 million",
+        "usd": 500000000,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "$141 million",
+        "usd": 141000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund V", "vintage_year": 2019, "size": { "raw": "$141 million", "usd": 141000000, "currency": "USD" } }
+        {
+          "name": "Fund V",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "$141 million",
+            "usd": 141000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services", "medtech-devices", "diagnostics"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "Venture arm of Kaiser Permanente investing in healthcare companies that advance clinical quality, service and affordability across health IT, digital health, care services, medical devices, diagnostics and precision medicine."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware", "wearables-sensors"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware",
+        "wearables-sensors"
+      ],
       "company_creation": false,
       "science_platform_notes": "Provider-CVC leveraging Kaiser Permanente's integrated care and health-plan perspective; Fund V includes external strategic LPs (Tufts Health Plan, Henry Ford Health, Highmark Ventures)."
     },
     "track_record": {
       "portfolio_count": "70+",
       "notable_investments": [
-        { "company": "iRhythm", "sector": "diagnostics/cardiac monitoring", "outcome": "IPO" },
-        { "company": "Health Catalyst", "sector": "healthcare-it", "outcome": "IPO" },
-        { "company": "Omada Health", "sector": "digital-health", "outcome": "active" }
+        {
+          "company": "iRhythm",
+          "sector": "diagnostics/cardiac monitoring",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Health Catalyst",
+          "sector": "healthcare-it",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Omada Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["provider-cvc", "digital-health", "medtech"],
-    "summary": { "en": "The venture arm of Kaiser Permanente (est. 1998); closed Fund V at $141M bringing AUM to $500M+, having backed 70+ health IT, digital health, device and diagnostics companies including iRhythm, Health Catalyst and Omada." },
+    "tags": [
+      "provider-cvc",
+      "digital-health",
+      "medtech"
+    ],
+    "summary": {
+      "en": "The venture arm of Kaiser Permanente (est. 1998); closed Fund V at $141M bringing AUM to $500M+, having backed 70+ health IT, digital health, device and diagnostics companies including iRhythm, Health Catalyst and Omada."
+    },
     "sources": [
-      { "url": "https://www.prnewswire.com/news-releases/kaiser-permanente-ventures-closes-fund-v-with-141-million-in-total-capital-300969495.html", "title": "Kaiser Permanente Ventures closes Fund V with $141 million", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund V size, AUM, portfolio count, inception year, focus", "quote": "closed its fifth investment fund at $141 million ... bringing the total assets under management to more than $500 million. The firm has invested in more than 70 companies through its venture funds since the program's inception in 1998." }
+      {
+        "url": "https://www.prnewswire.com/news-releases/kaiser-permanente-ventures-closes-fund-v-with-141-million-in-total-capital-300969495.html",
+        "title": "Kaiser Permanente Ventures closes Fund V with $141 million",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund V size, AUM, portfolio count, inception year, focus",
+        "quote": "closed its fifth investment fund at $141 million ... bringing the total assets under management to more than $500 million. The firm has invested in more than 70 companies through its venture funds since the program's inception in 1998."
+      }
     ],
     "confidence": "high",
     "verification_notes": "Fund V close and AUM confirmed via PR Newswire release. Leans toward digital health / health services / devices rather than novel therapeutics.",
@@ -355,39 +800,95 @@
   },
   {
     "id": "us-ascension-ventures",
-    "name": { "en": "Ascension Ventures" },
+    "name": {
+      "en": "Ascension Ventures"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["cvc", "growth-equity"],
+    "subtypes": [
+      "cvc",
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2001,
     "region": "united-states",
     "country": "United States",
     "hq_city": "St. Louis, Missouri",
     "website": "https://ascensionventures.org/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/ascension-ventures" },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/ascension-ventures"
+    },
     "capital": {
-      "aum": { "raw": "more than $1 billion", "usd": 1000000000, "currency": "USD" },
+      "aum": {
+        "raw": "more than $1 billion",
+        "usd": 1000000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund V", "vintage_year": 2021, "size": { "raw": "$285 million", "usd": 285000000, "currency": "USD" } }
+        {
+          "name": "Fund V",
+          "vintage_year": 2021,
+          "size": {
+            "raw": "$285 million",
+            "usd": 285000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-it", "healthcare-services", "medtech-devices", "diagnostics"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-it",
+        "healthcare-services",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "Strategic healthcare venture fund founded as the venture arm of Ascension (largest Catholic/nonprofit US health system); makes venture and growth-equity investments in healthcare IT and services, medical devices and diagnostics, with multiple health-system LPs."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware"
+      ],
       "company_creation": false,
       "science_platform_notes": "Multi-LP model backed by Ascension and other US health systems; $1B+ across five funds."
     },
-    "track_record": { "portfolio_count": "104" },
-    "tags": ["provider-cvc", "growth-equity", "health-system-lp"],
-    "summary": { "en": "St. Louis-based strategic healthcare venture fund, founded 2001 as the venture arm of Ascension; manages $1B+ across five funds (Fund V $285M) investing in healthcare IT/services, devices and diagnostics." },
+    "track_record": {
+      "portfolio_count": "104"
+    },
+    "tags": [
+      "provider-cvc",
+      "growth-equity",
+      "health-system-lp"
+    ],
+    "summary": {
+      "en": "St. Louis-based strategic healthcare venture fund, founded 2001 as the venture arm of Ascension; manages $1B+ across five funds (Fund V $285M) investing in healthcare IT/services, devices and diagnostics."
+    },
     "sources": [
-      { "url": "https://ascensionventures.org/who-we-are/", "title": "Who We Are | Ascension Ventures", "publisher": "Ascension Ventures", "accessed": "undefined", "supports": "AUM, sectors", "quote": "Ascension Ventures is a strategic healthcare venture fund and innovation catalyst with more than $1 billion in capital under management." },
-      { "url": "https://www.businesswire.com/news/home/20210305005101/en/", "title": "Ascension Ventures Finalizes Fifth Strategic Healthcare Venture Fund", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund V $285M, founded 2001, $1B AUM", "quote": "Founded in 2001 as the venture arm of Ascension ... Fund V, which closed in March 2021 with a total size of $285 million" }
+      {
+        "url": "https://ascensionventures.org/who-we-are/",
+        "title": "Who We Are | Ascension Ventures",
+        "publisher": "Ascension Ventures",
+        "accessed": "undefined",
+        "supports": "AUM, sectors",
+        "quote": "Ascension Ventures is a strategic healthcare venture fund and innovation catalyst with more than $1 billion in capital under management."
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20210305005101/en/",
+        "title": "Ascension Ventures Finalizes Fifth Strategic Healthcare Venture Fund",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Fund V $285M, founded 2001, $1B AUM",
+        "quote": "Founded in 2001 as the venture arm of Ascension ... Fund V, which closed in March 2021 with a total size of $285 million"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM confirmed on Ascension Ventures' own site; Fund V size, founding year and portfolio count from the Business Wire release and secondary trackers.",
@@ -396,21 +897,41 @@
   },
   {
     "id": "us-northwell-holdings",
-    "name": { "en": "Northwell Holdings" },
-    "aka": ["Northwell Ventures"],
+    "name": {
+      "en": "Northwell Holdings"
+    },
+    "aka": [
+      "Northwell Ventures"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["cvc", "venture-studio"],
+    "subtypes": [
+      "cvc",
+      "venture-studio"
+    ],
     "status": "active",
     "founded_year": 2013,
     "region": "united-states",
     "country": "United States",
     "hq_city": "New Hyde Park, New York",
     "website": "https://www.northwell.edu/about/our-organization/northwell-holdings",
-    "links": { "linkedin": "https://www.linkedin.com/company/northwell-holdings" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/northwell-holdings"
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "medtech-devices", "diagnostics", "healthcare-it"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-it"
+      ],
       "lead_or_follow": "lead",
       "thesis": "For-profit commercialization and venture arm of Northwell Health (New York's largest health system); invests in and co-creates early-stage healthcare companies to improve patient care and diversify revenue, preferring Seed to Series B."
     },
@@ -421,15 +942,43 @@
     "track_record": {
       "portfolio_count": "~40",
       "notable_investments": [
-        { "company": "Clarapath", "sector": "lab automation/robotics", "outcome": "active" },
-        { "company": "Ascertain", "sector": "digital-health/AI", "outcome": "active" }
+        {
+          "company": "Clarapath",
+          "sector": "lab automation/robotics",
+          "outcome": "active"
+        },
+        {
+          "company": "Ascertain",
+          "sector": "digital-health/AI",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["hospital-venture", "company-creation", "digital-health"],
-    "summary": { "en": "The for-profit commercialization and venture arm of Northwell Health (New Hyde Park, NY), established 2013; invests Seed-Series B in and co-creates healthcare companies such as Clarapath and Ascertain." },
+    "tags": [
+      "hospital-venture",
+      "company-creation",
+      "digital-health"
+    ],
+    "summary": {
+      "en": "The for-profit commercialization and venture arm of Northwell Health (New Hyde Park, NY), established 2013; invests Seed-Series B in and co-creates healthcare companies such as Clarapath and Ascertain."
+    },
     "sources": [
-      { "url": "https://www.northwell.edu/about/our-organization/northwell-holdings/overview", "title": "Overview - Northwell Holdings", "publisher": "Northwell Health", "accessed": "undefined", "supports": "Founded 2013, stage preference, mission", "quote": "Northwell Holdings was established in 2013 ... We are agnostic to stage of financing, however our preference is in Seed, Series A, and Series B rounds." },
-      { "url": "https://pitchbook.com/profiles/investor/160671-43", "title": "Northwell Holdings investment portfolio", "publisher": "PitchBook", "accessed": "undefined", "supports": "~40 investments, spinouts", "quote": "Northwell Holdings has made numerous investments in companies like Hume, Prolucent, and Playback Health" }
+      {
+        "url": "https://www.northwell.edu/about/our-organization/northwell-holdings/overview",
+        "title": "Overview - Northwell Holdings",
+        "publisher": "Northwell Health",
+        "accessed": "undefined",
+        "supports": "Founded 2013, stage preference, mission",
+        "quote": "Northwell Holdings was established in 2013 ... We are agnostic to stage of financing, however our preference is in Seed, Series A, and Series B rounds."
+      },
+      {
+        "url": "https://pitchbook.com/profiles/investor/160671-43",
+        "title": "Northwell Holdings investment portfolio",
+        "publisher": "PitchBook",
+        "accessed": "undefined",
+        "supports": "~40 investments, spinouts",
+        "quote": "Northwell Holdings has made numerous investments in companies like Hume, Prolucent, and Playback Health"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year and stage focus confirmed on Northwell's official site; investment count (~40) from secondary trackers. Northwell Ventures operates under Northwell Holdings.",
@@ -438,9 +987,13 @@
   },
   {
     "id": "us-osf-ventures",
-    "name": { "en": "OSF Ventures" },
+    "name": {
+      "en": "OSF Ventures"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2016,
     "region": "united-states",
@@ -448,26 +1001,64 @@
     "hq_city": "Peoria, Illinois",
     "website": "https://www.osfinnovation.org/invest/osf-ventures",
     "capital": {
-      "aum": { "raw": "$250 million", "usd": 250000000, "currency": "USD" },
+      "aum": {
+        "raw": "$250 million",
+        "usd": 250000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund III", "vintage_year": 2023, "size": { "raw": "$100 million", "usd": 100000000, "currency": "USD" } }
+        {
+          "name": "Fund III",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "$100 million",
+            "usd": 100000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-services", "medtech-devices", "diagnostics", "therapeutics"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-services",
+        "medtech-devices",
+        "diagnostics",
+        "therapeutics"
+      ],
       "thesis": "Corporate venture arm of OSF HealthCare that ties investments to OSF's priorities of improved patient care, outcomes and efficiency; invests in digital solutions, tech-enabled services and medical technology."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware"
+      ],
       "company_creation": false,
       "science_platform_notes": "Also invests as an LP in aligned funds (Ascension Ventures, LRV Health); part of OSF Innovation."
     },
-    "track_record": { "portfolio_count": "43" },
-    "tags": ["hospital-venture", "digital-health", "medtech"],
-    "summary": { "en": "The venture arm of OSF HealthCare (Peoria, IL); launched a third fund of $100M (bringing AUM to $250M) to invest in digital health, tech-enabled services and medical technology aligned with OSF's care priorities." },
+    "track_record": {
+      "portfolio_count": "43"
+    },
+    "tags": [
+      "hospital-venture",
+      "digital-health",
+      "medtech"
+    ],
+    "summary": {
+      "en": "The venture arm of OSF HealthCare (Peoria, IL); launched a third fund of $100M (bringing AUM to $250M) to invest in digital health, tech-enabled services and medical technology aligned with OSF's care priorities."
+    },
     "sources": [
-      { "url": "https://newsroom.osfhealthcare.org/osf-ventures-launches-third-and-largest-venture-capital-fund/", "title": "OSF Ventures launches third and largest venture capital fund", "publisher": "OSF HealthCare", "accessed": "undefined", "supports": "Fund III $100M, AUM $250M, focus", "quote": "The $100 million fund ... The third fund brings total assets under management in the venture program to $250 million. ... Investments are focused on digital solutions, tech-enabled services and medical technology, including medical devices, diagnostics and therapeutics." }
+      {
+        "url": "https://newsroom.osfhealthcare.org/osf-ventures-launches-third-and-largest-venture-capital-fund/",
+        "title": "OSF Ventures launches third and largest venture capital fund",
+        "publisher": "OSF HealthCare",
+        "accessed": "undefined",
+        "supports": "Fund III $100M, AUM $250M, focus",
+        "quote": "The $100 million fund ... The third fund brings total assets under management in the venture program to $250 million. ... Investments are focused on digital solutions, tech-enabled services and medical technology, including medical devices, diagnostics and therapeutics."
+      }
     ],
     "confidence": "high",
     "verification_notes": "Fund III size and AUM confirmed on OSF's own newsroom. Program launched its first fund in 2015-2016.",
@@ -476,35 +1067,79 @@
   },
   {
     "id": "us-cancer-focus-fund",
-    "name": { "en": "Cancer Focus Fund" },
+    "name": {
+      "en": "Cancer Focus Fund"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2020,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Houston, Texas",
     "website": "https://www.cancerfocusfund.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/cancer-focus-fund" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/cancer-focus-fund"
+    },
     "capital": {},
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "check_size": { "raw": "$4-7 million", "usd_min": 4000000, "usd_max": 7000000 },
-      "geo_focus": ["Global"],
-      "sector_focus": ["therapeutics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "$4-7 million",
+        "usd_min": 4000000,
+        "usd_max": 7000000
+      },
+      "geo_focus": [
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Oncology-focused venture fund established with The University of Texas MD Anderson Cancer Center; funds late-preclinical through Phase I/Ib-II cancer therapies and provides access to MD Anderson's clinical trial infrastructure and expertise."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "biologics-antibody", "small-molecule", "radiopharmaceuticals"],
-      "indications": ["oncology"],
+      "modalities": [
+        "cell-therapy",
+        "biologics-antibody",
+        "small-molecule",
+        "radiopharmaceuticals"
+      ],
+      "indications": [
+        "oncology"
+      ],
       "company_creation": false,
       "science_platform_notes": "Scientific Advisory Committee of MD Anderson experts selects assets; jointly administered by MD Anderson physicians/researchers and biotech investment professionals; takes equity plus downstream economics tied to the asset tested."
     },
-    "tags": ["cancer-center", "oncology", "clinical-stage"],
-    "summary": { "en": "An oncology venture fund established with MD Anderson Cancer Center; invests ~$4-7M into cancer therapies at/near Phase I-II trials, pairing capital with MD Anderson's clinical and scientific expertise." },
+    "tags": [
+      "cancer-center",
+      "oncology",
+      "clinical-stage"
+    ],
+    "summary": {
+      "en": "An oncology venture fund established with MD Anderson Cancer Center; invests ~$4-7M into cancer therapies at/near Phase I-II trials, pairing capital with MD Anderson's clinical and scientific expertise."
+    },
     "sources": [
-      { "url": "https://www.cancerfocusfund.com/", "title": "Cancer Focus Fund", "publisher": "Cancer Focus Fund", "accessed": "undefined", "supports": "MD Anderson partnership, model", "quote": "Cancer Focus Fund combines decades of venture capital experience with the research and clinical trials expertise of MD Anderson." },
-      { "url": "https://www.mdanderson.org/newsroom/focus-fund-and-md-anderson-launch-investment-fund-for-cancer-therapies.h00-159385890.html", "title": "Focus Fund and MD Anderson launch investment fund", "publisher": "MD Anderson Cancer Center", "accessed": "undefined", "supports": "Check size, stage focus", "quote": "The typical investment is expected to be between $4-7 million" }
+      {
+        "url": "https://www.cancerfocusfund.com/",
+        "title": "Cancer Focus Fund",
+        "publisher": "Cancer Focus Fund",
+        "accessed": "undefined",
+        "supports": "MD Anderson partnership, model",
+        "quote": "Cancer Focus Fund combines decades of venture capital experience with the research and clinical trials expertise of MD Anderson."
+      },
+      {
+        "url": "https://www.mdanderson.org/newsroom/focus-fund-and-md-anderson-launch-investment-fund-for-cancer-therapies.h00-159385890.html",
+        "title": "Focus Fund and MD Anderson launch investment fund",
+        "publisher": "MD Anderson Cancer Center",
+        "accessed": "undefined",
+        "supports": "Check size, stage focus",
+        "quote": "The typical investment is expected to be between $4-7 million"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Structured as a partnership with MD Anderson; MD Anderson is the academic partner while the fund is managed by dedicated investment professionals. Fund size not publicly disclosed in sources seen; check-size figure from MD Anderson/PR Newswire launch coverage.",
@@ -513,38 +1148,87 @@
   },
   {
     "id": "us-warf-ventures",
-    "name": { "en": "WARF (Wisconsin Alumni Research Foundation)" },
-    "aka": ["WARF Ventures"],
+    "name": {
+      "en": "WARF (Wisconsin Alumni Research Foundation)"
+    },
+    "aka": [
+      "WARF Ventures"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 1925,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Madison, Wisconsin",
     "website": "https://www.warf.org/",
-    "links": { "linkedin": "https://www.linkedin.com/company/wisconsin-alumni-research-foundation", "crunchbase": "https://www.crunchbase.com/organization/wisconsin-alumni-research-foundation" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/wisconsin-alumni-research-foundation",
+      "crunchbase": "https://www.crunchbase.com/organization/wisconsin-alumni-research-foundation"
+    },
     "capital": {
       "funds": [
-        { "name": "WARF Ventures", "vintage_year": null, "size": { "raw": "$110 million", "usd": 110000000, "currency": "USD" } }
+        {
+          "name": "WARF Ventures",
+          "vintage_year": null,
+          "size": {
+            "raw": "$110 million",
+            "usd": 110000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "life-science-tools"
+      ],
       "thesis": "The patent/licensing and technology-transfer foundation for the University of Wisconsin-Madison; through WARF Ventures it invests in seed/early-stage healthcare, biotech and medical-device startups built on UW-Madison technology."
     },
     "lifesci": {
       "company_creation": true,
       "science_platform_notes": "Runs three commercialization initiatives — WARF Therapeutics (in-house drug discovery), WARF Accelerator, and WARF Ventures (a ~$110M venture fund); contributes $100M+/year to UW-Madison research."
     },
-    "track_record": { "portfolio_count": "30+ (WARF Ventures)" },
-    "tags": ["university-tto", "alumni-research-foundation", "century-old"],
-    "summary": { "en": "The 1925-founded patent and licensing foundation for UW-Madison; invests in UW-Madison biotech/medtech spinouts via the ~$110M WARF Ventures fund and runs WARF Therapeutics and WARF Accelerator." },
+    "track_record": {
+      "portfolio_count": "30+ (WARF Ventures)"
+    },
+    "tags": [
+      "university-tto",
+      "alumni-research-foundation",
+      "century-old"
+    ],
+    "summary": {
+      "en": "The 1925-founded patent and licensing foundation for UW-Madison; invests in UW-Madison biotech/medtech spinouts via the ~$110M WARF Ventures fund and runs WARF Therapeutics and WARF Accelerator."
+    },
     "sources": [
-      { "url": "https://www.warf.org/", "title": "WARF - Wisconsin Alumni Research Foundation", "publisher": "WARF", "accessed": "undefined", "supports": "Role as UW-Madison tech-transfer/patent org, grants", "quote": "$4.6 billion of cumulative grants to UW-Madison & the Morgridge Institute since inception ... 2,200 active issued U.S. patents" },
-      { "url": "https://www.ibmadison.com/industries/health-care/after-a-century-investing-in-innovation-warf-looks-to-the-future/article_ac1af1f7-f83f-4dd5-aebf-0b03c1536948.html", "title": "After a century investing in innovation, WARF looks to the future", "publisher": "In Business Madison", "accessed": "undefined", "supports": "WARF Ventures $110M fund, 30+ portfolio companies, initiatives", "quote": "WARF Ventures, a $110 million venture capital fund created by the foundation, is currently working with more than 30 portfolio companies" }
+      {
+        "url": "https://www.warf.org/",
+        "title": "WARF - Wisconsin Alumni Research Foundation",
+        "publisher": "WARF",
+        "accessed": "undefined",
+        "supports": "Role as UW-Madison tech-transfer/patent org, grants",
+        "quote": "$4.6 billion of cumulative grants to UW-Madison & the Morgridge Institute since inception ... 2,200 active issued U.S. patents"
+      },
+      {
+        "url": "https://www.ibmadison.com/industries/health-care/after-a-century-investing-in-innovation-warf-looks-to-the-future/article_ac1af1f7-f83f-4dd5-aebf-0b03c1536948.html",
+        "title": "After a century investing in innovation, WARF looks to the future",
+        "publisher": "In Business Madison",
+        "accessed": "undefined",
+        "supports": "WARF Ventures $110M fund, 30+ portfolio companies, initiatives",
+        "quote": "WARF Ventures, a $110 million venture capital fund created by the foundation, is currently working with more than 30 portfolio companies"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "WARF's tech-transfer role, patents and grants confirmed on warf.org; the $110M WARF Ventures fund size and 30+ portfolio count are from In Business Madison (secondary) — could not fetch that page directly (403), figure taken from search index of the article. Founding year 1925 widely documented.",
@@ -553,76 +1237,189 @@
   },
   {
     "id": "us-intermountain-ventures",
-    "name": { "en": "Intermountain Ventures" },
+    "name": {
+      "en": "Intermountain Ventures"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2019,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Salt Lake City, Utah",
     "website": "https://intermountainventures.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/intermountain-ventures" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/intermountain-ventures"
+    },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus"],
-      "check_size": { "raw": "minimum $1M; target $3M-$5M over life of company", "usd_min": 1000000, "usd_max": 5000000 },
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-it", "healthcare-services"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus"
+      ],
+      "check_size": {
+        "raw": "minimum $1M; target $3M-$5M over life of company",
+        "usd_min": 1000000,
+        "usd_max": 5000000
+      },
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-it",
+        "healthcare-services"
+      ],
       "thesis": "Venture and innovation arm of Intermountain Health; funds early- and growth-stage health-IT and care-delivery companies that demonstrably improve outcomes and lower costs, providing access to capital, data and clinical expertise."
     },
     "lifesci": {
-      "modalities": ["software-samd"],
+      "modalities": [
+        "software-samd"
+      ],
       "company_creation": false,
       "science_platform_notes": "Invests across enterprise enablement, care-site optimization, workforce transformation, consumer experience, clinical advancement and proactive care."
     },
-    "track_record": { "portfolio_count": "46" },
-    "tags": ["hospital-venture", "digital-health", "health-it"],
-    "summary": { "en": "The venture and innovation arm of Intermountain Health (Salt Lake City), founded 2019; invests $1M+ (target $3-5M) into health IT and care-delivery companies that improve outcomes and reduce cost." },
+    "track_record": {
+      "portfolio_count": "46"
+    },
+    "tags": [
+      "hospital-venture",
+      "digital-health",
+      "health-it"
+    ],
+    "summary": {
+      "en": "The venture and innovation arm of Intermountain Health (Salt Lake City), founded 2019; invests $1M+ (target $3-5M) into health IT and care-delivery companies that improve outcomes and reduce cost."
+    },
     "sources": [
-      { "url": "https://intermountainhealthcare.org/about/ventures", "title": "Intermountain Ventures", "publisher": "Intermountain Health", "accessed": "undefined", "supports": "Role, focus areas", "quote": "Intermountain Ventures is the venture capital and innovation arm of Intermountain Health" },
-      { "url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/intermountain-ventures-7-things-to-know/", "title": "Intermountain Ventures: 7 things to know", "publisher": "Becker's Hospital Review", "accessed": "undefined", "supports": "Founded 2019, check size", "quote": "invests in health IT firms ... with a minimum investment of $1 million, a target of $3 million to $5 million over the life of the portfolio company" }
+      {
+        "url": "https://intermountainhealthcare.org/about/ventures",
+        "title": "Intermountain Ventures",
+        "publisher": "Intermountain Health",
+        "accessed": "undefined",
+        "supports": "Role, focus areas",
+        "quote": "Intermountain Ventures is the venture capital and innovation arm of Intermountain Health"
+      },
+      {
+        "url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/intermountain-ventures-7-things-to-know/",
+        "title": "Intermountain Ventures: 7 things to know",
+        "publisher": "Becker's Hospital Review",
+        "accessed": "undefined",
+        "supports": "Founded 2019, check size",
+        "quote": "invests in health IT firms ... with a minimum investment of $1 million, a target of $3 million to $5 million over the life of the portfolio company"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year, check size and focus from Intermountain and Becker's. Primarily health-IT / care-delivery rather than therapeutics.",
     "last_updated": "undefined",
-    "researched_by": "university-hospital-fund"
+    "researched_by": "university-hospital-fund",
+    "aka": [
+      "Intermountain Healthcare"
+    ]
   },
   {
     "id": "us-allumia-ventures",
-    "name": { "en": "Allumia Ventures" },
-    "aka": ["Providence Ventures"],
+    "name": {
+      "en": "Allumia Ventures"
+    },
+    "aka": [
+      "Providence Ventures"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["cvc", "vc"],
+    "subtypes": [
+      "cvc",
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "united-states",
     "country": "United States",
     "hq_city": "Renton, Washington",
     "website": "https://allumiaventures.com/",
-    "links": { "crunchbase": "https://www.crunchbase.com/organization/providence-ventures" },
+    "links": {
+      "crunchbase": "https://www.crunchbase.com/organization/providence-ventures"
+    },
     "capital": {
-      "aum": { "raw": "$300 million", "usd": 300000000, "currency": "USD" },
+      "aum": {
+        "raw": "$300 million",
+        "usd": 300000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund I", "vintage_year": null, "size": { "raw": "$150 million", "usd": 150000000, "currency": "USD" } },
-        { "name": "Fund II", "vintage_year": null, "size": { "raw": "$150 million", "usd": 150000000, "currency": "USD" } },
-        { "name": "Fund III (raising)", "vintage_year": 2025, "size": { "raw": "$200-250 million (target)", "usd": null, "currency": "USD" } }
+        {
+          "name": "Fund I",
+          "vintage_year": null,
+          "size": {
+            "raw": "$150 million",
+            "usd": 150000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund II",
+          "vintage_year": null,
+          "size": {
+            "raw": "$150 million",
+            "usd": 150000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Fund III (raising)",
+          "vintage_year": 2025,
+          "size": {
+            "raw": "$200-250 million (target)",
+            "usd": null,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-services", "medtech-devices"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-services",
+        "medtech-devices"
+      ],
       "thesis": "Healthcare-focused venture firm founded in 2014 as Providence Ventures (the VC arm of Providence health system); spun out in 2025 as independent Allumia Ventures, anchored by Providence and adding other health-system LPs, investing in digital health, tech-enabled services and medtech."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware"
+      ],
       "company_creation": false,
       "science_platform_notes": "Previously invested from two $150M Providence-funded vehicles; raising a third fund (~$200-250M) with Providence as anchor plus 3-5 other health systems as LPs."
     },
-    "tags": ["hospital-venture", "spun-out", "digital-health"],
-    "summary": { "en": "Formerly Providence Ventures, spun out of Providence health system in 2025 as independent Allumia Ventures (Renton, WA); manages ~$300M and invests in digital health, tech-enabled services and medtech, anchored by health-system LPs." },
+    "tags": [
+      "hospital-venture",
+      "spun-out",
+      "digital-health"
+    ],
+    "summary": {
+      "en": "Formerly Providence Ventures, spun out of Providence health system in 2025 as independent Allumia Ventures (Renton, WA); manages ~$300M and invests in digital health, tech-enabled services and medtech, anchored by health-system LPs."
+    },
     "sources": [
-      { "url": "https://www.geekwire.com/2025/meet-allumia-ventures-healthcare-focused-fund-backed-by-providence-eyes-new-investments/", "title": "Meet Allumia Ventures", "publisher": "GeekWire", "accessed": "undefined", "supports": "Spin-out, fund sizes, AUM", "quote": "Providence Ventures, now Allumia, previously invested out of two separate $150 million funds financed by Providence" },
-      { "url": "https://medcitynews.com/2025/01/providence-venture-capital-investing-healthcare/", "title": "Providence Spun Out Its VC Arm So It Can Partner with Other Health Systems", "publisher": "MedCity News", "accessed": "undefined", "supports": "Founded 2014, spin-out, third fund target", "quote": "aiming for its third fund to end up in the $200-250 million range" }
+      {
+        "url": "https://www.geekwire.com/2025/meet-allumia-ventures-healthcare-focused-fund-backed-by-providence-eyes-new-investments/",
+        "title": "Meet Allumia Ventures",
+        "publisher": "GeekWire",
+        "accessed": "undefined",
+        "supports": "Spin-out, fund sizes, AUM",
+        "quote": "Providence Ventures, now Allumia, previously invested out of two separate $150 million funds financed by Providence"
+      },
+      {
+        "url": "https://medcitynews.com/2025/01/providence-venture-capital-investing-healthcare/",
+        "title": "Providence Spun Out Its VC Arm So It Can Partner with Other Health Systems",
+        "publisher": "MedCity News",
+        "accessed": "undefined",
+        "supports": "Founded 2014, spin-out, third fund target",
+        "quote": "aiming for its third fund to end up in the $200-250 million range"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Origin as Providence health-system VC arm keeps it in scope; note it spun out in 2025 as an independent multi-health-system fund. Fund/AUM figures from GeekWire and MedCity News.",
@@ -631,28 +1428,53 @@
   },
   {
     "id": "us-commonspirit-ventures",
-    "name": { "en": "CommonSpirit Ventures" },
+    "name": {
+      "en": "CommonSpirit Ventures"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "Chicago, Illinois",
     "website": "https://www.commonspirit.org/ventures",
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-services", "digital-health", "healthcare-it"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "digital-health",
+        "healthcare-it"
+      ],
       "thesis": "Investment arm of CommonSpirit Health (one of the largest US nonprofit health systems, formed from the Dignity Health / Catholic Health Initiatives merger); funds services, technologies and care models that improve outcomes, experience, equity and growth, now investing from its fourth fund."
     },
     "lifesci": {
-      "modalities": ["software-samd"],
+      "modalities": [
+        "software-samd"
+      ],
       "company_creation": false,
       "science_platform_notes": "Runs a co-investment program alongside firms such as a16z, NEA, Oak HC/FT, General Catalyst-style investors; focuses on novel care models (primary care, behavioral health, hospital-at-home) and generative AI."
     },
-    "tags": ["hospital-venture", "care-delivery", "co-investment"],
-    "summary": { "en": "The investment arm of CommonSpirit Health (Chicago), one of the longest continuously operating health-system venture funds; now investing from its fourth fund in care-delivery models, digital health and health IT." },
+    "tags": [
+      "hospital-venture",
+      "care-delivery",
+      "co-investment"
+    ],
+    "summary": {
+      "en": "The investment arm of CommonSpirit Health (Chicago), one of the longest continuously operating health-system venture funds; now investing from its fourth fund in care-delivery models, digital health and health IT."
+    },
     "sources": [
-      { "url": "https://www.commonspirit.org/ventures", "title": "Ventures | CommonSpirit Health", "publisher": "CommonSpirit Health", "accessed": "undefined", "supports": "Role, fourth fund, co-investment", "quote": "CommonSpirit Ventures is one of the longest continuously operating health system venture funds and is now investing from its fourth fund." }
+      {
+        "url": "https://www.commonspirit.org/ventures",
+        "title": "Ventures | CommonSpirit Health",
+        "publisher": "CommonSpirit Health",
+        "accessed": "undefined",
+        "supports": "Role, fourth fund, co-investment",
+        "quote": "CommonSpirit Ventures is one of the longest continuously operating health system venture funds and is now investing from its fourth fund."
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Fund size not disclosed on the page seen. CommonSpirit was formed in 2019 from the Dignity Health / Catholic Health Initiatives merger; the venture program predates the merger. Focus is care-delivery/digital rather than therapeutics.",
@@ -661,10 +1483,17 @@
   },
   {
     "id": "us-cedars-sinai-health-ventures",
-    "name": { "en": "Cedars-Sinai Health Ventures" },
-    "aka": ["Cedars-Sinai Technology Ventures"],
+    "name": {
+      "en": "Cedars-Sinai Health Ventures"
+    },
+    "aka": [
+      "Cedars-Sinai Technology Ventures"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["cvc", "accelerator"],
+    "subtypes": [
+      "cvc",
+      "accelerator"
+    ],
     "status": "active",
     "founded_year": 2022,
     "region": "united-states",
@@ -672,22 +1501,59 @@
     "hq_city": "Los Angeles, California",
     "website": "https://cedarssinaihv.com/",
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["United States", "Netherlands"],
-      "sector_focus": ["digital-health", "medtech-devices", "diagnostics", "therapeutics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States",
+        "Netherlands"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "diagnostics",
+        "therapeutics"
+      ],
       "thesis": "Corporate venture arm of Cedars-Sinai (Los Angeles); invests in early-stage healthtech, biotech and medtech companies whose innovations could be adopted by Cedars-Sinai, as part of the broader Cedars-Sinai Technology Ventures group with an accelerator and IP office."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware", "biologics-antibody"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware",
+        "biologics-antibody"
+      ],
       "company_creation": false,
       "science_platform_notes": "Part of Cedars-Sinai Technology Ventures (which also runs the Cedars-Sinai Accelerator with Techstars); launched international vehicle Coronet Ventures in the Netherlands."
     },
-    "track_record": { "portfolio_count": "18" },
-    "tags": ["hospital-venture", "healthtech", "accelerator"],
-    "summary": { "en": "The corporate venture arm of Cedars-Sinai (LA), founded 2022; invests in early-stage digital health, biotech and medtech, and is part of Cedars-Sinai Technology Ventures with an accelerator and international funds." },
+    "track_record": {
+      "portfolio_count": "18"
+    },
+    "tags": [
+      "hospital-venture",
+      "healthtech",
+      "accelerator"
+    ],
+    "summary": {
+      "en": "The corporate venture arm of Cedars-Sinai (LA), founded 2022; invests in early-stage digital health, biotech and medtech, and is part of Cedars-Sinai Technology Ventures with an accelerator and international funds."
+    },
     "sources": [
-      { "url": "https://cedarssinaihv.com/", "title": "Cedars-Sinai Health Ventures", "publisher": "Cedars-Sinai", "accessed": "undefined", "supports": "Role, healthtech/life-science focus", "quote": "Cedars Sinai Health Ventures is the corporate venture capital arm of Cedars-Sinai" },
-      { "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-launches-venture-fund-in-the-netherlands/", "title": "Cedars-Sinai Launches Venture Fund in the Netherlands", "publisher": "Cedars-Sinai", "accessed": "undefined", "supports": "Coronet Ventures Netherlands, international expansion", "quote": "Cedars-Sinai Technology Ventures has launched Coronet Ventures Netherlands ... to invest in health and life sciences startups in the Netherlands" }
+      {
+        "url": "https://cedarssinaihv.com/",
+        "title": "Cedars-Sinai Health Ventures",
+        "publisher": "Cedars-Sinai",
+        "accessed": "undefined",
+        "supports": "Role, healthtech/life-science focus",
+        "quote": "Cedars Sinai Health Ventures is the corporate venture capital arm of Cedars-Sinai"
+      },
+      {
+        "url": "https://www.cedars-sinai.org/newsroom/cedars-sinai-launches-venture-fund-in-the-netherlands/",
+        "title": "Cedars-Sinai Launches Venture Fund in the Netherlands",
+        "publisher": "Cedars-Sinai",
+        "accessed": "undefined",
+        "supports": "Coronet Ventures Netherlands, international expansion",
+        "quote": "Cedars-Sinai Technology Ventures has launched Coronet Ventures Netherlands ... to invest in health and life sciences startups in the Netherlands"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founded 2022; portfolio count (18) from secondary trackers. Cedars-Sinai Technology Ventures encompasses the venture arm, accelerator and IP management.",
@@ -696,40 +1562,89 @@
   },
   {
     "id": "us-texas-medical-center-venture-fund",
-    "name": { "en": "Texas Medical Center Venture Fund" },
-    "aka": ["TMC Venture Fund", "TMCVF"],
+    "name": {
+      "en": "Texas Medical Center Venture Fund"
+    },
+    "aka": [
+      "TMC Venture Fund",
+      "TMCVF"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["vc", "accelerator"],
+    "subtypes": [
+      "vc",
+      "accelerator"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "Houston, Texas",
     "website": "https://tmcventurefund.com/",
     "capital": {
-      "current_fund": { "raw": "$50 million", "usd": 50000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "$50 million",
+        "usd": 50000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "medtech-devices", "therapeutics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "therapeutics"
+      ],
       "thesis": "Venture-capital arm of Texas Medical Center Corporation; invests in early-stage healthcare companies aligned with TMC's life-science mission, often those emerging from TMC Innovation's accelerators, in digital health, medical devices and therapeutics."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware", "biologics-antibody"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware",
+        "biologics-antibody"
+      ],
       "company_creation": true,
       "science_platform_notes": "Anchored to the Texas Medical Center campus and TMC Innovation accelerators; the fund was CrossBridge Bio's initial investor (spun out of TMC's Accelerator for Cancer Therapeutics, acquired by Eli Lilly for $300M)."
     },
     "track_record": {
       "portfolio_count": "24",
       "notable_investments": [
-        { "company": "CrossBridge Bio", "sector": "oncology therapeutics (ADC)", "outcome": "acquired by Eli Lilly for $300M" }
+        {
+          "company": "CrossBridge Bio",
+          "sector": "oncology therapeutics (ADC)",
+          "outcome": "acquired by Eli Lilly for $300M"
+        }
       ]
     },
-    "tags": ["medical-campus", "accelerator", "life-sciences"],
-    "summary": { "en": "The venture-capital arm of Texas Medical Center (Houston), doubled to $50M in 2022; backs early-stage digital health, device and therapeutics startups, many from TMC Innovation's accelerators (e.g., CrossBridge Bio, acquired by Lilly for $300M)." },
+    "tags": [
+      "medical-campus",
+      "accelerator",
+      "life-sciences"
+    ],
+    "summary": {
+      "en": "The venture-capital arm of Texas Medical Center (Houston), doubled to $50M in 2022; backs early-stage digital health, device and therapeutics startups, many from TMC Innovation's accelerators (e.g., CrossBridge Bio, acquired by Lilly for $300M)."
+    },
     "sources": [
-      { "url": "https://www.tmc.edu/press-releases/texas-medical-center-doubles-the-size-of-the-tmc-venture-fund/", "title": "Texas Medical Center Doubles the Size of the TMC Venture Fund", "publisher": "Texas Medical Center", "accessed": "undefined", "supports": "Fund size $50M, focus, startup count", "quote": "increased the size of the TMC Venture Fund to $50 million dollars ... TMC Venture Fund has partnered with 16 startups" },
-      { "url": "https://www.tmc.edu/press-releases/texas-medical-center-venture-fund-announces-acquisition-of-crossbridge-bio-for-300-million-by-eli-lilly/", "title": "TMC Venture Fund Announces Acquisition of CrossBridge Bio for $300 Million by Eli Lilly", "publisher": "Texas Medical Center", "accessed": "undefined", "supports": "CrossBridge Bio exit, fund as initial investor", "quote": "CrossBridge Bio ... was founded in 2023 through TMC Innovation's Accelerator for Cancer Therapeutics, with the TMC Venture Fund as its initial investor" }
+      {
+        "url": "https://www.tmc.edu/press-releases/texas-medical-center-doubles-the-size-of-the-tmc-venture-fund/",
+        "title": "Texas Medical Center Doubles the Size of the TMC Venture Fund",
+        "publisher": "Texas Medical Center",
+        "accessed": "undefined",
+        "supports": "Fund size $50M, focus, startup count",
+        "quote": "increased the size of the TMC Venture Fund to $50 million dollars ... TMC Venture Fund has partnered with 16 startups"
+      },
+      {
+        "url": "https://www.tmc.edu/press-releases/texas-medical-center-venture-fund-announces-acquisition-of-crossbridge-bio-for-300-million-by-eli-lilly/",
+        "title": "TMC Venture Fund Announces Acquisition of CrossBridge Bio for $300 Million by Eli Lilly",
+        "publisher": "Texas Medical Center",
+        "accessed": "undefined",
+        "supports": "CrossBridge Bio exit, fund as initial investor",
+        "quote": "CrossBridge Bio ... was founded in 2023 through TMC Innovation's Accelerator for Cancer Therapeutics, with the TMC Venture Fund as its initial investor"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Fund size ($50M) and CrossBridge Bio/Lilly exit confirmed on TMC's own press releases. Startup count ranges 16-24 across sources (16 at the fund-doubling; 24 in later coverage).",
@@ -738,10 +1653,16 @@
   },
   {
     "id": "us-university-hospitals-ventures",
-    "name": { "en": "University Hospitals Ventures" },
-    "aka": ["UH Ventures"],
+    "name": {
+      "en": "University Hospitals Ventures"
+    },
+    "aka": [
+      "UH Ventures"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2018,
     "region": "united-states",
@@ -749,19 +1670,45 @@
     "hq_city": "Cleveland, Ohio",
     "website": "https://ventures.uhhospitals.org/",
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "medtech-devices", "diagnostics", "healthcare-services"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Venture arm of Cleveland-based University Hospitals; brings new products to market through venture investment, technology transfer, adoption and pilots, and oversees the health system's tech-transfer office."
     },
     "lifesci": {
       "company_creation": true,
       "science_platform_notes": "Oversees UH's tech-transfer office and deploys non-dilutive (grant) funding (typically ~$25,000) to help commercialize internal IP, alongside equity venture investments."
     },
-    "tags": ["hospital-venture", "tech-transfer"],
-    "summary": { "en": "The venture arm of University Hospitals (Cleveland), founded 2018; combines venture investment, technology transfer and pilots to commercialize healthcare innovation." },
+    "tags": [
+      "hospital-venture",
+      "tech-transfer"
+    ],
+    "summary": {
+      "en": "The venture arm of University Hospitals (Cleveland), founded 2018; combines venture investment, technology transfer and pilots to commercialize healthcare innovation."
+    },
     "sources": [
-      { "url": "https://ventures.uhhospitals.org/", "title": "UH Ventures", "publisher": "University Hospitals", "accessed": "undefined", "supports": "Role as venture arm, activities", "quote": "We Empower You to Transform Healthcare" },
-      { "url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/university-hospitals-ventures-8-things-to-know/", "title": "University Hospitals Ventures: 8 things to know", "publisher": "Becker's Hospital Review", "accessed": "undefined", "supports": "Founded 2018, Cleveland, tech-transfer + grant funding", "quote": "founded in 2018 and is based in Cleveland, Ohio ... the group invests non-dilutive (grant) funding – typically in $25,000 chunks – to help commercialise intellectual property" }
+      {
+        "url": "https://ventures.uhhospitals.org/",
+        "title": "UH Ventures",
+        "publisher": "University Hospitals",
+        "accessed": "undefined",
+        "supports": "Role as venture arm, activities",
+        "quote": "We Empower You to Transform Healthcare"
+      },
+      {
+        "url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/university-hospitals-ventures-8-things-to-know/",
+        "title": "University Hospitals Ventures: 8 things to know",
+        "publisher": "Becker's Hospital Review",
+        "accessed": "undefined",
+        "supports": "Founded 2018, Cleveland, tech-transfer + grant funding",
+        "quote": "founded in 2018 and is based in Cleveland, Ohio ... the group invests non-dilutive (grant) funding – typically in $25,000 chunks – to help commercialise intellectual property"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year and grant-funding model from Becker's. Distinct from University Hospitals of Cleveland's academic affiliate Case Western Reserve; UH Ventures is the health system's own arm.",
@@ -770,10 +1717,19 @@
   },
   {
     "id": "us-penn-center-for-innovation",
-    "name": { "en": "Penn Center for Innovation" },
-    "aka": ["PCI", "PCI Ventures", "PCIV"],
+    "name": {
+      "en": "Penn Center for Innovation"
+    },
+    "aka": [
+      "PCI",
+      "PCI Ventures",
+      "PCIV"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["incubator", "vc"],
+    "subtypes": [
+      "incubator",
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "united-states",
@@ -782,27 +1738,81 @@
     "website": "https://pci.upenn.edu/",
     "capital": {
       "funds": [
-        { "name": "Penn StartUP Fund", "vintage_year": 2026, "size": { "raw": "$10M commitment", "usd": 10000000, "currency": "USD" } },
-        { "name": "PxB (Penn-BioNTech Innovative Therapeutics Seed) Fund", "vintage_year": null, "size": { "raw": "$50 million", "usd": 50000000, "currency": "USD" } }
+        {
+          "name": "Penn StartUP Fund",
+          "vintage_year": 2026,
+          "size": {
+            "raw": "$10M commitment",
+            "usd": 10000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "PxB (Penn-BioNTech Innovative Therapeutics Seed) Fund",
+          "vintage_year": null,
+          "size": {
+            "raw": "$50 million",
+            "usd": 50000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health"
+      ],
       "thesis": "The University of Pennsylvania's tech-transfer office; through PCI Ventures it forms and launches startups on Penn IP, and it anchors dedicated seed vehicles including the new Penn StartUP Fund and the $50M Penn-BioNTech PxB Fund for early-stage Penn life-science companies."
     },
     "lifesci": {
-      "modalities": ["rna-therapeutics", "cell-therapy", "gene-therapy", "biologics-antibody", "medical-hardware"],
+      "modalities": [
+        "rna-therapeutics",
+        "cell-therapy",
+        "gene-therapy",
+        "biologics-antibody",
+        "medical-hardware"
+      ],
       "company_creation": true,
       "science_platform_notes": "PCI Ventures (PCIV) supports 60+ companies (raised $189M+) across devices, diagnostics, digital health and therapeutics; the PxB Fund is co-launched with BioNTech and Osage University Partners; Penn StartUP Fund is managed by Penn's Office of the Chief Investment Officer."
     },
-    "track_record": { "portfolio_count": "60+ (PCI Ventures)" },
-    "tags": ["university-tto", "seed-fund", "mRNA"],
-    "summary": { "en": "The University of Pennsylvania's tech-transfer arm; PCI Ventures forms 60+ Penn spinouts and Penn anchors dedicated seed vehicles including the $10M Penn StartUP Fund and the $50M Penn-BioNTech PxB life-science seed fund." },
+    "track_record": {
+      "portfolio_count": "60+ (PCI Ventures)"
+    },
+    "tags": [
+      "university-tto",
+      "seed-fund",
+      "mRNA"
+    ],
+    "summary": {
+      "en": "The University of Pennsylvania's tech-transfer arm; PCI Ventures forms 60+ Penn spinouts and Penn anchors dedicated seed vehicles including the $10M Penn StartUP Fund and the $50M Penn-BioNTech PxB life-science seed fund."
+    },
     "sources": [
-      { "url": "https://pci.upenn.edu/entrepreneurs/pci-ventures/", "title": "PCI Ventures - Penn Center for Innovation", "publisher": "University of Pennsylvania", "accessed": "undefined", "supports": "PCIV portfolio, verticals, funding raised", "quote": "PCI Ventures supports more than 60 companies and has collectively raised over $189 million in funding" },
-      { "url": "https://pci.upenn.edu/university-of-pennsylvania-launches-startup-fund/", "title": "University of Pennsylvania Launches StartUP Fund", "publisher": "University of Pennsylvania", "accessed": "undefined", "supports": "Penn StartUP Fund $10M, OCINO", "quote": "a new early-stage investment fund ... backed by a $10M commitment from the University" }
+      {
+        "url": "https://pci.upenn.edu/entrepreneurs/pci-ventures/",
+        "title": "PCI Ventures - Penn Center for Innovation",
+        "publisher": "University of Pennsylvania",
+        "accessed": "undefined",
+        "supports": "PCIV portfolio, verticals, funding raised",
+        "quote": "PCI Ventures supports more than 60 companies and has collectively raised over $189 million in funding"
+      },
+      {
+        "url": "https://pci.upenn.edu/university-of-pennsylvania-launches-startup-fund/",
+        "title": "University of Pennsylvania Launches StartUP Fund",
+        "publisher": "University of Pennsylvania",
+        "accessed": "undefined",
+        "supports": "Penn StartUP Fund $10M, OCINO",
+        "quote": "a new early-stage investment fund ... backed by a $10M commitment from the University"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "PCI is primarily a tech-transfer office; the discretionary capital sits in the Penn StartUP Fund ($10M, 2026) and the PxB Fund ($50M, with BioNTech and OUP). PCIV figures from Penn's site.",
@@ -811,9 +1821,14 @@
   },
   {
     "id": "us-yale-ventures",
-    "name": { "en": "Yale Ventures" },
+    "name": {
+      "en": "Yale Ventures"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["incubator", "accelerator"],
+    "subtypes": [
+      "incubator",
+      "accelerator"
+    ],
     "status": "active",
     "founded_year": 2022,
     "region": "united-states",
@@ -821,27 +1836,69 @@
     "hq_city": "New Haven, Connecticut",
     "website": "https://ventures.yale.edu/",
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "life-science-tools"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health",
+        "life-science-tools"
+      ],
       "thesis": "Yale University's innovation and tech-transfer organization; translates Yale research into startups and runs a suite of accelerator/translational funds (Blavatnik Fund, HealthTech Works, Colton Center) that seed life-science and biotech spinouts."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "protein-degradation"],
-      "indications": ["oncology", "immunology-inflammation"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "protein-degradation"
+      ],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
       "company_creation": true,
       "science_platform_notes": "Runs five accelerator funds including the Blavatnik Fund for Translational Research and HealthTech Works (digital health/medtech); Yale spinouts include Arvinas, Biohaven, Inozyme, NextCure and IsoPlexis."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Arvinas", "sector": "targeted protein degradation", "outcome": "IPO" },
-        { "company": "Modifi Biosciences", "sector": "oncology therapeutics", "outcome": "acquired by Merck" }
+        {
+          "company": "Arvinas",
+          "sector": "targeted protein degradation",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Modifi Biosciences",
+          "sector": "oncology therapeutics",
+          "outcome": "acquired by Merck"
+        }
       ]
     },
-    "tags": ["university-tto", "accelerator", "biotech-spinouts"],
-    "summary": { "en": "Yale University's innovation and tech-transfer hub (New Haven), launched 2022; runs translational/accelerator funds seeding Yale biotech spinouts such as Arvinas, Biohaven and Modifi Biosciences." },
+    "tags": [
+      "university-tto",
+      "accelerator",
+      "biotech-spinouts"
+    ],
+    "summary": {
+      "en": "Yale University's innovation and tech-transfer hub (New Haven), launched 2022; runs translational/accelerator funds seeding Yale biotech spinouts such as Arvinas, Biohaven and Modifi Biosciences."
+    },
     "sources": [
-      { "url": "https://ventures.yale.edu/", "title": "Yale Ventures", "publisher": "Yale University", "accessed": "undefined", "supports": "Tech-transfer role, life-science focus", "quote": "translating Yale research into commercial ventures that benefit society ... life sciences, biotechnology, digital health, and climate technology" },
-      { "url": "https://ventures.yale.edu/news/yale-spinout-modifi-biosciences-acquired-merck", "title": "Yale Spinout Modifi Biosciences Acquired by Merck", "publisher": "Yale Ventures", "accessed": "undefined", "supports": "Spinout + Yale Ventures investment", "quote": "Modifi Biosciences, which was formed in 2021 based on technology spun out of Yale University ... investors including ... Yale Ventures" }
+      {
+        "url": "https://ventures.yale.edu/",
+        "title": "Yale Ventures",
+        "publisher": "Yale University",
+        "accessed": "undefined",
+        "supports": "Tech-transfer role, life-science focus",
+        "quote": "translating Yale research into commercial ventures that benefit society ... life sciences, biotechnology, digital health, and climate technology"
+      },
+      {
+        "url": "https://ventures.yale.edu/news/yale-spinout-modifi-biosciences-acquired-merck",
+        "title": "Yale Spinout Modifi Biosciences Acquired by Merck",
+        "publisher": "Yale Ventures",
+        "accessed": "undefined",
+        "supports": "Spinout + Yale Ventures investment",
+        "quote": "Modifi Biosciences, which was formed in 2021 based on technology spun out of Yale University ... investors including ... Yale Ventures"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Yale Ventures is chiefly a TTO/accelerator that co-invests small translational checks; large biotech outcomes are Yale spinouts backed by external VCs. The independent Yale-focused fund Elm Street Ventures is a separate entity.",
@@ -850,38 +1907,88 @@
   },
   {
     "id": "us-boston-childrens-idha",
-    "name": { "en": "Boston Children's Hospital — Innovation and Digital Health Accelerator" },
-    "aka": ["IDHA", "Boston Children's Innovation"],
+    "name": {
+      "en": "Boston Children's Hospital — Innovation and Digital Health Accelerator"
+    },
+    "aka": [
+      "IDHA",
+      "Boston Children's Innovation"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["accelerator", "incubator"],
+    "subtypes": [
+      "accelerator",
+      "incubator"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "Boston, Massachusetts",
     "website": "https://accelerator.childrenshospital.org/",
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "medtech-devices", "healthcare-services", "mental-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "healthcare-services",
+        "mental-health"
+      ],
       "thesis": "Boston Children's Hospital's innovation and digital-health accelerator; funds and spins out pediatric digital-health and medtech companies built on clinicians' inventions."
     },
     "lifesci": {
-      "modalities": ["software-samd", "digital-therapeutics", "medical-hardware"],
-      "indications": ["pediatrics", "psychiatry-mental-health"],
+      "modalities": [
+        "software-samd",
+        "digital-therapeutics",
+        "medical-hardware"
+      ],
+      "indications": [
+        "pediatrics",
+        "psychiatry-mental-health"
+      ],
       "company_creation": true,
       "science_platform_notes": "Portfolio companies have raised $100M+ and IDHA has spun out five companies; separately, Deerfield created the $65M Blackfan Circle Innovations fund to back Boston Children's biomedical research."
     },
     "track_record": {
       "portfolio_count": "5 spinouts",
       "notable_investments": [
-        { "company": "Circulation", "sector": "digital health / medical transport", "outcome": "active" },
-        { "company": "Mightier", "sector": "pediatric digital therapeutics", "outcome": "active" }
+        {
+          "company": "Circulation",
+          "sector": "digital health / medical transport",
+          "outcome": "active"
+        },
+        {
+          "company": "Mightier",
+          "sector": "pediatric digital therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["pediatric", "hospital-accelerator", "digital-health"],
-    "summary": { "en": "Boston Children's Hospital's Innovation and Digital Health Accelerator; funds and spins out pediatric digital-health and medtech ventures (e.g., Circulation, Mightier); a $65M Deerfield 'Blackfan Circle' fund also backs its research." },
+    "tags": [
+      "pediatric",
+      "hospital-accelerator",
+      "digital-health"
+    ],
+    "summary": {
+      "en": "Boston Children's Hospital's Innovation and Digital Health Accelerator; funds and spins out pediatric digital-health and medtech ventures (e.g., Circulation, Mightier); a $65M Deerfield 'Blackfan Circle' fund also backs its research."
+    },
     "sources": [
-      { "url": "https://accelerator.childrenshospital.org/about/", "title": "About - IDHA - Boston Children's Hospital", "publisher": "Boston Children's Hospital", "accessed": "undefined", "supports": "Accelerator role, spinouts, funding raised", "quote": "Companies in their portfolio have raised over $100 million and they have successfully spun out five companies." },
-      { "url": "https://globalventuring.com/university/boston-childrens-catches-65m-from-deerfield/", "title": "Boston Children's catches $65m from Deerfield", "publisher": "Global University Venturing", "accessed": "undefined", "supports": "Deerfield $65M Blackfan Circle fund", "quote": "Deerfield unveiled a $65 million venture fund called Blackfan Circle Innovations to back nascent biomedical research from Boston Children's Hospital" }
+      {
+        "url": "https://accelerator.childrenshospital.org/about/",
+        "title": "About - IDHA - Boston Children's Hospital",
+        "publisher": "Boston Children's Hospital",
+        "accessed": "undefined",
+        "supports": "Accelerator role, spinouts, funding raised",
+        "quote": "Companies in their portfolio have raised over $100 million and they have successfully spun out five companies."
+      },
+      {
+        "url": "https://globalventuring.com/university/boston-childrens-catches-65m-from-deerfield/",
+        "title": "Boston Children's catches $65m from Deerfield",
+        "publisher": "Global University Venturing",
+        "accessed": "undefined",
+        "supports": "Deerfield $65M Blackfan Circle fund",
+        "quote": "Deerfield unveiled a $65 million venture fund called Blackfan Circle Innovations to back nascent biomedical research from Boston Children's Hospital"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Boston Children's investment activity runs through the IDHA accelerator (equity in spinouts) rather than a large discretionary VC fund; the $65M Blackfan Circle fund is managed by Deerfield, not the hospital, so it is noted rather than listed as a separate entity.",
@@ -890,10 +1997,17 @@
   },
   {
     "id": "us-the-engine-ventures",
-    "name": { "en": "The Engine Ventures" },
-    "aka": ["The Engine"],
+    "name": {
+      "en": "The Engine Ventures"
+    },
+    "aka": [
+      "The Engine"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["vc", "incubator"],
+    "subtypes": [
+      "vc",
+      "incubator"
+    ],
     "status": "active",
     "founded_year": 2016,
     "region": "united-states",
@@ -901,33 +2015,90 @@
     "hq_city": "Cambridge, Massachusetts",
     "website": "https://engine.xyz/",
     "capital": {
-      "aum": { "raw": "more than $1 billion", "usd": 1000000000, "currency": "USD" },
+      "aum": {
+        "raw": "more than $1 billion",
+        "usd": 1000000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fund III", "vintage_year": 2024, "size": { "raw": "$398 million", "usd": 398000000, "currency": "USD" } }
+        {
+          "name": "Fund III",
+          "vintage_year": 2024,
+          "size": {
+            "raw": "$398 million",
+            "usd": 398000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "life-science-tools", "synthetic-biology", "cell-gene-therapy", "generalist-health"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools",
+        "synthetic-biology",
+        "cell-gene-therapy",
+        "generalist-health"
+      ],
       "thesis": "Tough-Tech venture firm that spun out of MIT in 2016 to commercialize breakthrough science from lab to market; a core sector is biotech/health tech, and it provides resident companies with managed wet-lab and engineering space."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "biologics-antibody", "lab-automation"],
+      "modalities": [
+        "cell-therapy",
+        "biologics-antibody",
+        "lab-automation"
+      ],
       "company_creation": true,
       "science_platform_notes": "Provides 220,000 sq ft of managed wet-lab, engineering and office space (The Engine Accelerator); backs deep-tech biotech such as Cellino, Amide Technologies and Droplet Biosciences."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Cellino Biotech", "sector": "regenerative medicine / cell therapy manufacturing", "outcome": "active" },
-        { "company": "Droplet Biosciences", "sector": "cancer diagnostics", "outcome": "active" }
+        {
+          "company": "Cellino Biotech",
+          "sector": "regenerative medicine / cell therapy manufacturing",
+          "outcome": "active"
+        },
+        {
+          "company": "Droplet Biosciences",
+          "sector": "cancer diagnostics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["mit-spinout", "tough-tech", "deep-tech", "wet-lab"],
-    "summary": { "en": "MIT-spun-out (2016) 'Tough Tech' venture firm in Cambridge, MA with $1B+ AUM (Fund III $398M); biotech/health tech is a core sector and it offers 220,000 sq ft of wet-lab space." },
+    "tags": [
+      "mit-spinout",
+      "tough-tech",
+      "deep-tech",
+      "wet-lab"
+    ],
+    "summary": {
+      "en": "MIT-spun-out (2016) 'Tough Tech' venture firm in Cambridge, MA with $1B+ AUM (Fund III $398M); biotech/health tech is a core sector and it offers 220,000 sq ft of wet-lab space."
+    },
     "sources": [
-      { "url": "https://www.forbes.com/sites/alexknapp/2024/06/18/mit-spinout-the-engine-ventures-raises-new-400-million-fund-to-tackle-techs-toughest-problems/", "title": "MIT Spinout The Engine Ventures Raises New $398 Million Fund", "publisher": "Forbes", "accessed": "undefined", "supports": "MIT origin, Fund III $398M, $1B AUM", "quote": "The Engine Ventures raised a $398 million Fund III, bringing the firm's total assets under management to more than $1 billion." },
-      { "url": "https://tlo.mit.edu/resources/engine", "title": "Engine Ventures and the Engine Accelerator", "publisher": "MIT Technology Licensing Office", "accessed": "undefined", "supports": "MIT relationship, tough-tech, wet-lab", "quote": "The Engine ... translates breakthrough science and engineering from lab to market" }
+      {
+        "url": "https://www.forbes.com/sites/alexknapp/2024/06/18/mit-spinout-the-engine-ventures-raises-new-400-million-fund-to-tackle-techs-toughest-problems/",
+        "title": "MIT Spinout The Engine Ventures Raises New $398 Million Fund",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "MIT origin, Fund III $398M, $1B AUM",
+        "quote": "The Engine Ventures raised a $398 million Fund III, bringing the firm's total assets under management to more than $1 billion."
+      },
+      {
+        "url": "https://tlo.mit.edu/resources/engine",
+        "title": "Engine Ventures and the Engine Accelerator",
+        "publisher": "MIT Technology Licensing Office",
+        "accessed": "undefined",
+        "supports": "MIT relationship, tough-tech, wet-lab",
+        "quote": "The Engine ... translates breakthrough science and engineering from lab to market"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Included for its MIT origin and translation of academic science; note it is now an independent, generalist deep-tech (Tough Tech) firm — biotech/health is one of several core sectors, not exclusive. Borderline for a purely biomedical directory.",
@@ -936,10 +2107,17 @@
   },
   {
     "id": "us-fred-hutch-business-development",
-    "name": { "en": "Fred Hutchinson Cancer Center — Business Development & Ventures" },
-    "aka": ["Fred Hutch", "Hutch"],
+    "name": {
+      "en": "Fred Hutchinson Cancer Center — Business Development & Ventures"
+    },
+    "aka": [
+      "Fred Hutch",
+      "Hutch"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["incubator"],
+    "subtypes": [
+      "incubator"
+    ],
     "status": "active",
     "region": "united-states",
     "country": "United States",
@@ -947,31 +2125,82 @@
     "website": "https://www.fredhutch.org/en/investors.html",
     "capital": {
       "funds": [
-        { "name": "Evergreen Fund (translational gap fund)", "vintage_year": null, "size": { "raw": "up to $200,000 per project", "usd": 200000, "currency": "USD" } }
+        {
+          "name": "Evergreen Fund (translational gap fund)",
+          "vintage_year": null,
+          "size": {
+            "raw": "up to $200,000 per project",
+            "usd": 200000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "diagnostics", "cell-gene-therapy", "life-science-tools"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "cell-gene-therapy",
+        "life-science-tools"
+      ],
       "thesis": "Commercialization and business-development arm of Fred Hutchinson Cancer Center; funds early translation via the Evergreen Fund and creates/co-invests in spinouts built on Hutch research, especially in oncology, immunotherapy and cell therapy."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "gene-therapy", "biologics-antibody"],
-      "indications": ["oncology", "hematology", "infectious-disease"],
+      "modalities": [
+        "cell-therapy",
+        "gene-therapy",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "hematology",
+        "infectious-disease"
+      ],
       "company_creation": true,
       "science_platform_notes": "Spinouts include Juno Therapeutics, Adaptive Biotechnologies, Nohla Therapeutics and Ensoma; the Evergreen Fund provides pilot (up to $50K) and translational (up to $200K) support; co-invests with partners such as Seattle Children's and MSK."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Juno Therapeutics", "sector": "CAR-T cell therapy", "outcome": "IPO / acquired by Celgene" },
-        { "company": "Adaptive Biotechnologies", "sector": "immune diagnostics", "outcome": "IPO" }
+        {
+          "company": "Juno Therapeutics",
+          "sector": "CAR-T cell therapy",
+          "outcome": "IPO / acquired by Celgene"
+        },
+        {
+          "company": "Adaptive Biotechnologies",
+          "sector": "immune diagnostics",
+          "outcome": "IPO"
+        }
       ]
     },
-    "tags": ["research-institute", "cancer-center", "tech-transfer"],
-    "summary": { "en": "The commercialization/business-development arm of Fred Hutchinson Cancer Center (Seattle); funds translation via the Evergreen Fund and creates and co-invests in oncology/cell-therapy spinouts such as Juno, Adaptive and Ensoma." },
+    "tags": [
+      "research-institute",
+      "cancer-center",
+      "tech-transfer"
+    ],
+    "summary": {
+      "en": "The commercialization/business-development arm of Fred Hutchinson Cancer Center (Seattle); funds translation via the Evergreen Fund and creates and co-invests in oncology/cell-therapy spinouts such as Juno, Adaptive and Ensoma."
+    },
     "sources": [
-      { "url": "https://www.fredhutch.org/en/investors/business-development/strategic-collaborations-and-spinoff-companies.html", "title": "Strategic Collaborations & Spinoff Companies - Fred Hutch", "publisher": "Fred Hutchinson Cancer Center", "accessed": "undefined", "supports": "Spinouts (Juno, Adaptive, Nohla, Faraday)", "quote": "spinouts and startups, including high-profile launches such as Juno Therapeutics, Adaptive Biotechnologies, Nohla Therapeutics and Faraday Pharmaceuticals" },
-      { "url": "https://www.fredhutch.org/en/investors/business-development/commercialization-programs.html", "title": "Commercialization Programs - Fred Hutch", "publisher": "Fred Hutchinson Cancer Center", "accessed": "undefined", "supports": "Evergreen Fund gap funding levels", "quote": "pilot funding of up to $50,000, and up to $200,000 for work that has already yielded promising data" }
+      {
+        "url": "https://www.fredhutch.org/en/investors/business-development/strategic-collaborations-and-spinoff-companies.html",
+        "title": "Strategic Collaborations & Spinoff Companies - Fred Hutch",
+        "publisher": "Fred Hutchinson Cancer Center",
+        "accessed": "undefined",
+        "supports": "Spinouts (Juno, Adaptive, Nohla, Faraday)",
+        "quote": "spinouts and startups, including high-profile launches such as Juno Therapeutics, Adaptive Biotechnologies, Nohla Therapeutics and Faraday Pharmaceuticals"
+      },
+      {
+        "url": "https://www.fredhutch.org/en/investors/business-development/commercialization-programs.html",
+        "title": "Commercialization Programs - Fred Hutch",
+        "publisher": "Fred Hutchinson Cancer Center",
+        "accessed": "undefined",
+        "supports": "Evergreen Fund gap funding levels",
+        "quote": "pilot funding of up to $50,000, and up to $200,000 for work that has already yielded promising data"
+      }
     ],
     "confidence": "low",
     "verification_notes": "Fred Hutch commercializes via business development, spinout creation and the internal Evergreen gap fund rather than a large external discretionary VC fund; included as a research-institute TTO/venture-creation arm. Evergreen figures from Fred Hutch pages (verbatim taken from search index; direct fetch not performed for these two pages).",

@@ -6080,6 +6080,81 @@
     "researched_by": "pharma-bio-cvc"
   },
   {
+    "id": "ca-omers-growth-equity",
+    "name": {
+      "en": "OMERS Growth Equity"
+    },
+    "type": "growth-equity",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://growthequity.omers.com/",
+    "strategy": {
+      "stages": [
+        "series-c-plus",
+        "growth"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "United States",
+        "Canada"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "healthcare-it"
+      ],
+      "thesis": "Growth-equity arm of Canadian pension fund OMERS, distinct from early-stage OMERS Ventures; repeat participant in U.S. healthcare-IT and value-based-care growth rounds."
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Aledade",
+          "sector": "healthcare-services",
+          "outcome": "active"
+        },
+        {
+          "company": "Innovaccer",
+          "sector": "healthcare-it",
+          "outcome": "active"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/aledade-raises-100-million-series-d-to-help-more-primary-care-practices-thrive-in-value-based-care-301209969.html",
+        "title": "Aledade Raises $100 Million Series D",
+        "publisher": "PR Newswire",
+        "accessed": "2026-08-16",
+        "supports": "OMERS Growth Equity participated in Aledade Series D",
+        "quote": "Aledade announced it has closed a $100 million Series D funding round"
+      },
+      {
+        "url": "https://techcrunch.com/2021/12/15/innovaccer-valued-at-3-2-billion-in-150-million-funding/",
+        "title": "Innovaccer valued at $3.2 billion in $150 million funding",
+        "publisher": "TechCrunch",
+        "accessed": "2026-08-16",
+        "supports": "OMERS Growth Equity participated in Innovaccer growth round",
+        "quote": "$150 million funding"
+      }
+    ],
+    "backing": {
+      "backers": [
+        {
+          "name": "OMERS (Ontario Municipal Employees Retirement System)",
+          "kind": "financial-institution",
+          "relationship": "balance-sheet-fund",
+          "note": "Growth-equity investing arm of the Canadian public pension fund, distinct from the earlier-stage OMERS Ventures.",
+          "evidence": "inferred"
+        }
+      ]
+    },
+    "confidence": "medium",
+    "verification_notes": "Pension-backed growth-equity platform; two distinct U.S. healthcare-IT/value-based-care growth investments found (Aledade, Innovaccer).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r2-investor-gaps",
+    "status": "active"
+  },
+  {
     "id": "ca-accel-rx-health-sciences-accelerator",
     "name": {
       "en": "Accel-Rx Health Sciences Accelerator"

@@ -51,6 +51,15 @@ VALID = {
 # ("website was a 'Coming Soon' placeholder") produce false positives there.
 SMELLS = ["example.com", "lorem ipsum", "placeholder text", "todo", "xxxx", "tbd", "your-", "insert here"]
 
+# The id-prefix convention, derived from the dataset rather than declared: every
+# existing record's id begins with its region's short code.
+REGION_PREFIX = {
+    "taiwan": "tw", "united-states": "us", "europe": "eu", "greater-china": "cn",
+    "japan": "jp", "south-korea": "kr", "israel": "il", "canada": "ca",
+    "india": "in", "southeast-asia": "sea", "australia-nz": "anz",
+    "rest-of-world": "row",
+}
+
 
 def norm_name(s: str) -> str:
     s = re.sub(r"[^a-z0-9]+", " ", s.lower())
@@ -115,6 +124,9 @@ def check_companies(issues: dict[str, list[str]], entity_names: set[str]) -> dic
 
         if not re.fullmatch(r"[a-z0-9-]+", cid):
             issues["co-bad-id-format"].append(label)
+        want = REGION_PREFIX.get(c.get("region", ""))
+        if want and not cid.startswith(want + "-"):
+            issues["co-id-prefix-region-mismatch"].append(f"{label}: expected '{want}-' prefix")
 
         conf[c.get("confidence", "?")] += 1
 
@@ -216,6 +228,13 @@ def main() -> None:
         # --- id format ---
         if not re.fullmatch(r"[a-z0-9-]+", eid):
             issues["bad-id-format"].append(label)
+        # Every one of the 1,596 ids agrees with its region prefix, so this is a
+        # real invariant rather than a style preference. It matters because
+        # build.py files records by `region` while humans read the prefix — a
+        # `us-` id sitting in data/europe/ is a record nobody will find again.
+        want = REGION_PREFIX.get(region)
+        if want and not eid.startswith(want + "-"):
+            issues["id-prefix-region-mismatch"].append(f"{label}: expected '{want}-' prefix")
 
         # --- backing dimension ---
         backers = (e.get("backing") or {}).get("backers") or []
@@ -306,8 +325,10 @@ def main() -> None:
         "warning": ["malformed-url", "bad-sector", "bad-stage", "bad-modality", "bad-indication",
                     "bad-confidence", "bad-id-format", "cross-region-domain", "smell",
                     "bad-backer-kind", "bad-backer-relationship", "backer-no-name",
+                    "id-prefix-region-mismatch",
                     "co-bad-category", "co-bad-sector", "co-bad-status", "co-bad-dev-stage",
-                    "co-bad-modality", "co-bad-indication", "co-bad-id-format", "co-smell"],
+                    "co-bad-modality", "co-bad-indication", "co-bad-id-format", "co-smell",
+                    "co-id-prefix-region-mismatch"],
         "review": ["thin-file", "cross-region-name", "weak-medical-nexus",
                    "cvc-without-backer", "inferred-bigtech-parent",
                    "co-no-investors", "co-name-in-both-halves"],

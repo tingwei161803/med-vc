@@ -1,46 +1,62 @@
 {
-  "total": 116,
+  "total": 217,
   "by_region": {
-    "united-states": 116
+    "united-states": 217
   },
   "by_category": {
     "healthcare-it": 43,
+    "therapeutics": 37,
+    "cell-gene-therapy": 27,
     "digital-health": 20,
     "healthcare-services": 19,
+    "medtech-devices": 12,
     "consumer-health": 11,
+    "diagnostics": 10,
+    "ai-drug-discovery": 8,
     "mental-health": 7,
-    "medtech-devices": 6,
+    "life-science-tools": 6,
+    "synthetic-biology": 5,
+    "pharma-services": 4,
     "femtech-womens-health": 4,
-    "diagnostics": 4,
-    "genomics-omics": 1,
-    "longevity-aging": 1
+    "genomics-omics": 2,
+    "longevity-aging": 1,
+    "medical-imaging": 1
   },
   "by_status": {
-    "private": 87,
-    "acquired": 15,
-    "public": 13,
+    "private": 111,
+    "public": 57,
+    "acquired": 32,
+    "unknown": 14,
+    "shut-down": 2,
     "merged": 1
   },
   "by_development_stage": {
-    "commercial": 114,
-    "pilot": 2
+    "commercial": 144,
+    "phase-1": 23,
+    "phase-2": 13,
+    "phase-3": 12,
+    "unknown": 8,
+    "discovery": 6,
+    "preclinical": 5,
+    "pilot": 3,
+    "approved": 3
   },
   "by_last_round": {
-    "unknown": 83,
-    "series-c-plus": 12,
+    "unknown": 179,
+    "series-c-plus": 13,
     "series-b": 8,
+    "ipo": 6,
     "growth": 6,
-    "series-a": 4,
-    "ipo": 3
+    "series-a": 5
   },
   "by_confidence": {
-    "medium": 56,
-    "low": 35,
-    "high": 25
+    "medium": 107,
+    "high": 59,
+    "low": 51
   },
-  "linked_companies": 89,
-  "linked_investors": 113,
-  "edges": 244,
-  "edges_confirmed_both_sides": 47,
-  "unprofiled_portfolio_names": 1406
+  "linked_companies": 177,
+  "linked_investors": 240,
+  "edges": 513,
+  "edges_confirmed_both_sides": 125,
+  "unprofiled_portfolio_names": 1345
 }

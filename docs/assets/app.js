@@ -27,7 +27,7 @@
     /* ---- bilingual UI strings emitted by renderers ---- */
     var UI = {
       en: {
-        pitch: "An open, sourced directory of the investors funding medicine — life-science VCs, pharma & medtech corporate arms, crossover funds, bio accelerators, university & hospital funds, disease-foundation venture philanthropy, government programs and more.",
+        pitch: "An open, sourced directory of the money behind medicine, in two halves that point at each other: the investors — life-science VCs, pharma & medtech corporate arms, crossover funds, bio accelerators, university & hospital funds, disease-foundation venture philanthropy, government programs — and the companies they fund. Every link between them is resolved from the data, never hand-written.",
         browse: "Browse the directory", explore: "Explore",
         search: "Search name, thesis, company, city…",
         filters: "Filters", reset: "Reset", results: "results", result: "result",
@@ -71,10 +71,17 @@
         coOpenCompany: "Open company profile",
         coBacklog: "companies named by listed investors are not profiled yet — coverage is being filled in region by region.",
         coInvestorHint: "is an investor. Companies here that it backed:",
-        coEmptyNote: "This half of the directory is newer than the investor half and still filling in."
+        coEmptyNote: "This half of the directory is newer than the investor half and still filling in.",
+        companiesN: "companies", linksN: "investor–company links",
+        secInvestors: "Investors", secCompanies: "Companies & the link graph",
+        capCoRegion: "Companies by region", capCoCategory: "Companies by sector",
+        capCoStatus: "By corporate status", capCoDev: "By stage of development",
+        capLinks: "Link coverage",
+        linkBoth: "Confirmed by both sides", linkCo: "Companies with a listed investor",
+        linkInv: "Investors with a profiled company", linkPending: "Named but not yet profiled"
       },
       zh: {
-        pitch: "一份開放、逐筆帶來源的「投資醫療的資金」名錄 —— 生醫創投、藥廠與醫材企業創投、公私跨界基金、生醫加速器、大學與醫院基金、疾病基金會公益創投、政府計畫等。",
+        pitch: "一份開放、逐筆帶來源的「醫療背後的錢」名錄,分成互相指向的兩半:一半是出錢的人 —— 生醫創投、藥廠與醫材企業創投、公私跨界基金、生醫加速器、大學與醫院基金、疾病基金會公益創投、政府計畫;另一半是拿錢的公司。兩邊之間的每一條連結都由資料解析而來,不是手寫的。",
         browse: "瀏覽名錄", explore: "前往",
         search: "搜尋機構名、論點、被投公司、城市…",
         filters: "篩選", reset: "重設", results: "筆結果", result: "筆結果",
@@ -118,7 +125,14 @@
         coOpenCompany: "查看公司",
         coBacklog: "家被收錄機構點名、但尚未建檔的公司 —— 正依地區逐輪補齊。",
         coInvestorHint: "是投資機構。名錄中它投過的公司:",
-        coEmptyNote: "新創這一半比投資機構那一半年輕,仍在逐輪補齊中。"
+        coEmptyNote: "新創這一半比投資機構那一半年輕,仍在逐輪補齊中。",
+        companiesN: "家新創", linksN: "條投資關係連結",
+        secInvestors: "投資機構", secCompanies: "新創與連結圖",
+        capCoRegion: "各地區新創數", capCoCategory: "依領域",
+        capCoStatus: "依公司狀態", capCoDev: "依發展階段",
+        capLinks: "連結覆蓋率",
+        linkBoth: "兩邊都證實", linkCo: "已連上投資人的公司",
+        linkInv: "已連上公司的機構", linkPending: "被點名但尚未建檔"
       }
     };
     function tt(k) { return (UI[state.lang] || UI.en)[k]; }
@@ -248,7 +262,7 @@
     /* provenance figures (live from stats) */
     var TOTAL = STATS.total || DB.entities.length;
     var SRC = STATS.sources || 0;
-    var QUOTE_PCT = 96;
+    var QUOTE_PCT = TOTAL ? Math.round(((STATS.quoted || 0) / TOTAL) * 100) : 0;
     var REGION_CT = (TAX.regions || []).length || 12;
     var TYPE_CT = (TAX.types || []).length || 15;
 
@@ -261,11 +275,12 @@
       hub: function (p) {
         var tiles = [
           { v: TOTAL, s: "", label: tt("entities") },
+          { v: CSTATS.total || 0, s: "", label: tt("companiesN") },
+          { v: CSTATS.edges || 0, s: "", label: tt("linksN") },
           { v: REGION_CT, s: "", label: tt("regionsN") },
-          { v: TYPE_CT, s: "", label: tt("typesN") },
           { v: SRC, s: "", label: tt("sourcesN") },
           { v: QUOTE_PCT, s: "%", label: tt("quoteBacked") }
-        ].map(function (x) {
+        ].filter(function (x) { return x.v; }).map(function (x) {
           return '<div class="stat" data-item>' +
             '<b class="stat__value" data-count="' + esc(String(x.v)) + '" data-suffix="' + esc(x.s) + '">0</b>' +
             '<span class="stat__label">' + esc(x.label) + "</span></div>";
@@ -409,8 +424,11 @@
 
       /* ---------------- analysis (charts) ---------------- */
       analysis: function (p) {
+        var CO_N = CSTATS.total || 0;
         var tiles = [
           { v: TOTAL, s: "", label: tt("entities") },
+          { v: CO_N, s: "", label: tt("companiesN") },
+          { v: CSTATS.edges || 0, s: "", label: tt("linksN") },
           { v: REGION_CT, s: "", label: tt("regionsN") },
           { v: SRC, s: "", label: tt("sourcesN") },
           { v: QUOTE_PCT, s: "%", label: tt("quoteBacked") }
@@ -426,8 +444,28 @@
         var conf = ["high", "medium", "low"].map(function (c) {
           return { slug: c, value: (STATS.by_confidence || {})[c] || 0, label: t(CONF[c]) };
         });
+
+        /* The link graph deserves its own read-out, because its interesting
+           number is not the edge count but how much of it is corroborated:
+           an edge both sides assert is a stronger claim than either alone. */
+        var coverage = CO_N ? [
+          { slug: "both", value: CSTATS.edges_confirmed_both_sides || 0, label: tt("linkBoth") },
+          { slug: "linkedco", value: CSTATS.linked_companies || 0, label: tt("linkCo") },
+          { slug: "linkedinv", value: CSTATS.linked_investors || 0, label: tt("linkInv") },
+          { slug: "pending", value: CSTATS.unprofiled_portfolio_names || 0, label: tt("linkPending") }
+        ] : [];
+
+        var coPanels = CO_N
+          ? panel(tt("capCoCategory"), statsSeries(CSTATS.by_category || {}, "sectors", 12), "--primary") +
+            panel(tt("capCoRegion"), statsSeries(CSTATS.by_region || {}, "regions"), "--secondary") +
+            panel(tt("capCoStatus"), statsSeries(CSTATS.by_status || {}, "companyStatus"), "--tertiary") +
+            panel(tt("capCoDev"), statsSeries(CSTATS.by_development_stage || {}, "devStages"), "--primary") +
+            panel(tt("capLinks"), coverage, "--secondary")
+          : "";
+
         return head(p) +
           '<div class="stats">' + tiles + "</div>" +
+          '<h2 class="section-head">' + esc(tt("secInvestors")) + "</h2>" +
           '<div class="panels">' +
             panel(tt("capBy"), statsSeries(STATS.by_region || {}, "regions"), "--primary") +
             panel(tt("capType"), statsSeries(STATS.by_type || {}, "types"), "--secondary") +
@@ -435,7 +473,11 @@
             panel(tt("capModality"), statsSeries(STATS.by_modality || {}, "modalities", 10), "--tertiary") +
             panel(tt("capIndication"), statsSeries(STATS.by_indication || {}, "indications", 10), "--secondary") +
             panel(tt("capConf"), conf, "--tertiary") +
-          "</div>";
+          "</div>" +
+          (coPanels
+            ? '<h2 class="section-head">' + esc(tt("secCompanies")) + "</h2>" +
+              '<div class="panels">' + coPanels + "</div>"
+            : "");
       },
 
       /* ---------------- methodology (article) ---------------- */
@@ -448,11 +490,32 @@
           return '<div class="stat" data-item><b class="stat__value">' + esc(num(x.v) + x.s) + "</b>" +
             '<span class="stat__label">' + esc(x.label) + "</span></div>";
         }).join("");
+        /* Counts are interpolated, never typed. Every hardcoded figure in this
+           article went stale the first time the dataset grew. */
+        var C = STATS.by_confidence || {};
+        var CONF_SPLIT = "high " + num(C.high || 0) + " · medium " + num(C.medium || 0) + " · low " + num(C.low || 0);
+        var CONF_SPLIT_ZH = "高 " + num(C.high || 0) + " · 中 " + num(C.medium || 0) + " · 低 " + num(C.low || 0);
+        var CO_N = CSTATS.total || 0;
+        var LINK_EN = CO_N
+          ? "The directory has two halves. One catalogues investors; the other catalogues the medical and biomedical companies they fund — " +
+            num(CO_N) + " so far, against " + num(TOTAL) + " investors. They are linked by " + num(CSTATS.edges || 0) +
+            " investor–company edges, " + num(CSTATS.edges_confirmed_both_sides || 0) +
+            " of which both sides independently assert. Those links are resolved by name at build time rather than hand-written, and only on an unambiguous match: a wrong link reads as a fact, while a missing one is visibly missing, so ambiguity is left unresolved and published as a backlog instead of guessed. The two halves share one vocabulary for sector, modality and indication, which is what lets a filter carry across from a fund to the companies it funds. Coverage of the company half is being filled in region by region; " +
+            num(CSTATS.unprofiled_portfolio_names || 0) + " companies named by listed investors are not profiled yet, and the Companies page says so on its face."
+          : "";
+        var LINK_ZH = CO_N
+          ? "本名錄有兩半:一半收錄投資機構,另一半收錄它們投資的醫療生醫公司 —— 目前 " +
+            num(CO_N) + " 家公司對 " + num(TOTAL) + " 家機構,之間有 " + num(CSTATS.edges || 0) +
+            " 條投資關係連結,其中 " + num(CSTATS.edges_confirmed_both_sides || 0) +
+            " 條是兩邊各自獨立主張、互相印證的。這些連結不是手寫的,而是在 build 階段用名稱解析出來,而且只在唯一命中時才建立:錯誤的連結會被當成事實,缺少的連結至少看得出來缺,所以模糊的情況一律留空並公開成待辦清單,不用猜的補。兩半共用同一套子領域 / 治療模式 / 適應症詞彙,篩選條件才能從基金一路帶到它投的公司。公司這一半正依地區逐輪補齊;目前還有 " +
+            num(CSTATS.unprofiled_portfolio_names || 0) + " 家被收錄機構點名、但尚未建檔的公司,「新創」頁面上就直接寫著這個數字。"
+          : "";
+
         var SECTIONS = {
           en: [
-            ["What this is", "med-vc is an open, structured directory of the organizations that invest in medicine and biomedicine worldwide — venture capital firms, pharma / medtech / payer / provider corporate venture arms, crossover funds, bio accelerators and incubators, university and hospital funds, disease-foundation venture philanthropy, government programs, venture studios, angel networks and family offices. The subject is the investor, not the funded company."],
+            ["What this is", "med-vc is an open, structured directory of the organizations that invest in medicine and biomedicine worldwide — venture capital firms, pharma / medtech / payer / provider corporate venture arms, crossover funds, bio accelerators and incubators, university and hospital funds, disease-foundation venture philanthropy, government programs, venture studios, angel networks and family offices — together with the companies they fund."],
             ["Sourced per institution", "Every entry carries at least one real source URL, and every quantitative claim — fund size, AUM, check size, founding year, portfolio count — is tied to a verbatim quote from a source. Where a figure could not be verified, the field is left empty rather than guessed. Amounts are kept in their reported currency and string form to avoid fabricated conversions."],
-            ["Confidence ratings", "Each institution is rated high (official / primary source), medium (reputable secondary source), or low (a single weak or dated source). The split across the dataset is high 795 · medium 698 · low 50. Confidence is shown on every card and in the detail view so you can weigh each entry yourself."],
+            ["Confidence ratings", "Each institution is rated high (official / primary source), medium (reputable secondary source), or low (a single weak or dated source). The split across the dataset is " + CONF_SPLIT + ". Confidence is shown on every card and in the detail view so you can weigh each entry yourself."],
             ["How it was assembled", "Research was fanned out across 188 slices (organization type × health subsector, per region) so coverage is complementary and overlap is minimal. Each slice was researched independently against live web sources in English and the local language, then everything was merged and de-duplicated — matching on normalized name, website domain, and slug, with accent-folding — into one validated dataset with a controlled vocabulary for type, sector, modality, indication, stage and region."],
             ["Who is behind the money", "Beyond what an institution invests in, every entry can record who stands behind it — the corporate parent, anchor LPs, or sponsoring institution — as structured `backing.backers[]` rows carrying the backer's name, kind (Big Tech, frontier AI lab, pharma, medtech, payer, sovereign fund, university, foundation and nine more), and the nature of the relationship (wholly-owned venture arm vs balance-sheet fund vs anchor LP). Each row is marked verified when a source states the relationship outright, or inferred when it was derived from the institution's own name or description — a corporate venture arm is almost always named after its parent, which makes that inference reliable but not equivalent to a citation. Use the \"Backed by\" filter to see, for instance, every fund in the directory running on Big Tech money."],
             ["Two-layer quality check", "Because the corpus was built over many runs, it went through two checks. A structural pass validated every record against the schema and flagged duplicates, missing sources and off-vocabulary values (0 critical issues remained). Then an agent fact-check audited a 120-institution sample — weighted toward lower-confidence rows — against the live web: it found 0 fabricated organizations and no systematic degradation, and the 16 minor factual corrections it surfaced (a founding year, a stale status, a fund figure) were applied and noted in each record."],
@@ -461,13 +524,20 @@
           zh: [
             ["這是什麼", "med-vc 是一份開放、結構化的全球「醫療 / 生醫投資機構」名錄 —— 涵蓋生醫創投、藥廠 / 醫材 / 保險 / 醫療體系的企業創投、公私跨界基金、生醫加速器與育成中心、大學與醫院基金、疾病基金會公益創投、政府計畫、創業工作室、天使網絡與家族辦公室。主角是「投資者本身」,不是被投公司。"],
             ["逐機構溯源", "每一筆都至少有一個真實來源 URL;每個數字 —— 基金規模、管理資產、單筆金額、成立年份、投資組合數 —— 都對應到來源中的一段原文引用。查不到的欄位寧可留空也不猜。金額保留原始幣別與字串,避免虛構換匯。"],
-            ["信心評級", "每家機構標為 高(官方 / 一手來源)、中(可靠二手)、或 低(單一弱或過時來源)。全資料集分佈為 高 795 · 中 698 · 低 50。信心度顯示在每張卡片與詳情頁,讓你自行判斷。"],
+            ["信心評級", "每家機構標為 高(官方 / 一手來源)、中(可靠二手)、或 低(單一弱或過時來源)。全資料集分佈為 " + CONF_SPLIT_ZH + "。信心度顯示在每張卡片與詳情頁,讓你自行判斷。"],
             ["如何蒐集", "研究切成 188 個切片(機構類型 × 健康子領域,依地區),讓覆蓋互補、重疊最小。每個切片以英文與當地語言對照即時網路獨立查證,再以正規化名稱、官網網域與 slug(含重音字折疊)合併去重,匯整成一份通過驗證、對 type / sector / modality / indication / stage / region 使用受控詞彙的資料集。"],
             ["錢是誰的", "除了「投什麼」,每筆資料還可以記錄「背後是誰的錢」——母公司、基石 LP 或主辦機構,以結構化的 `backing.backers[]` 呈現,每列帶金主名稱、金主類型(大型科技公司、前沿 AI 實驗室、藥廠、醫材、保險支付方、主權基金、大學、基金會等 16 類)與出資關係(全資創投部門 / 母公司資產負債表出資 / 基石 LP)。若來源直接寫明關係則標為 verified;若是由機構名稱或描述推得則標為 inferred——企業創投幾乎都以母公司命名,這讓推論相當可靠,但終究不等同於有引用佐證。用「背後金主」篩選器,就能一次看出名錄中哪些基金跑的是大型科技公司的錢。"],
             ["兩層品質檢查", "因資料跨多輪蒐集,做了兩層檢查。結構層對每筆做 schema 驗證,標記重複、缺來源與越界詞彙(最終 0 個嚴重問題)。事實層以 agent 抽樣 120 家機構(偏重低信心筆)對照即時網路查核:發現 0 家捏造機構、無系統性退化,查出的 16 處細節誤差(成立年份、過時狀態、基金數字)已修正並在各筆註記。"],
             ["免責聲明", "本名錄為非官方研究整理,依現況提供。基金規模、股權、錄取率等數字,引用前請依每筆列出的來源,對照各機構官方公開資訊查證。"]
           ]
         };
+        /* Insert the link-graph section right after "What this is" — it is the
+           structural fact a reader needs before anything else on this page
+           makes sense — and only when there is a company half to describe. */
+        if (LINK_EN) {
+          SECTIONS.en.splice(1, 0, ["Two halves, and the links between them", LINK_EN]);
+          SECTIONS.zh.splice(1, 0, ["兩半資料與它們之間的連結", LINK_ZH]);
+        }
         var secs = (SECTIONS[state.lang] || SECTIONS.en).map(function (s, i) {
           return '<section class="prose" data-item id="sec-' + i + '"><h2>' + esc(s[0]) + "</h2><p>" + esc(s[1]) + "</p></section>";
         }).join("");
