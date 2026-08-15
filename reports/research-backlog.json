@@ -2586,6 +2586,343 @@
         }
       ],
       "notes": "34 companies delivered. Wikipedia (Korean-language, via WebFetch) was the dominant source since WebSearch was unavailable and many company .co.kr/.io domains 404'd, redirected, or blocked WebFetch (namu.wiki uniformly returned 403). All Hangul name.local fields were taken directly from the fetched Wikipedia article text. FDA/MFDS regulatory entries are recorded only where a fetched source stated an actual grant with a quote (VUNO DeepBrain FDA 2023, Koh Young Kymero FDA 2025, Medipixel MPXA FDA+MFDS, Meerecompany Revo-i MFDS 2017, Coreline Soft FDA 2026, Seegene FDA/MFDS EUA 2020, Huinno FDA 510(k), AITRICS Malaysia/Indonesia approvals). Femtech, POC-testing-only, and elderly-care-tech categories from the brief were not filled — no sourceable standalone company surfaced in this pass; flagged in 'wanted' for a follow-up pass with WebSearch or DART search restored."
+    },
+    "r8-anz": {
+      "wanted": [
+        "MedAdvisor (Australia, medication adherence/pharmacy app — ASX-listed) — ran out of time to source before this batch closed.",
+        "Genea (Australia, IVF/fertility technology) — private, needed a working source for founding year and ownership.",
+        "Opthea (Australia, ophthalmology biologics, ASX/NASDAQ:OPT) — high-profile but Wikipedia/company site fetches were not attempted this round.",
+        "Imugene (Australia, immuno-oncology, ASX:IMU) — same reason.",
+        "George Clinical / Avance Clinical / Nucleus Network (Australia CRO cluster) — flagged in the brief as a distinctive local industry (R&D tax incentive) but none were fetched; worth a dedicated follow-up given how many ASX/NZX biotechs in this file rely on them for trials.",
+        "Genesis Fertility / Monash IVF (Australia, fertility) — not attempted.",
+        "Halter (NZ/Australia agri-tech, AI cattle collars) — surfaced in Blackbird's portfolio; excluded as animal husbandry rather than human health, but flagged in case the brief's 'agri-adjacent biotech with a human-health application' framing was meant to include it.",
+        "Heidi Health (Australia, ambient AI clinical scribe) — surfaced in Blackbird's portfolio alongside Harrison.ai and Eucalyptus; not profiled this round for lack of time, but is a strong, well-known candidate for a future ANZ clinical-AI batch."
+      ],
+      "skipped": [
+        {
+          "name": "Toku Eyes",
+          "reason": "Originated in NZ (Auckland; backed by Icehouse Ventures and named in the backlog with 2 investor mentions) but the company's own site (tokueyes.com) now lists its headquarters as San Diego, USA. Per instructions, a company that has redomiciled to the US belongs elsewhere, so it was left out of this ANZ batch rather than force-fit."
+        },
+        {
+          "name": "Novotech",
+          "reason": "Founded in Australia in 1997 as a CRO, but a fetched profile indicates its HQ moved to Singapore in 2026 (TPG/GIC/Temasek-backed). Ambiguous redomicile situation; skipped rather than include a company that may no longer be Australia-headquartered without being able to verify current HQ from a primary source."
+        },
+        {
+          "name": "Fluid Biomed",
+          "reason": "Neurovascular stent developer (ReSolv flow-diverting stent) named twice in the backlog, but could not confirm an Australia/NZ headquarters from any accessible source (company site gave no location; Crunchbase and LinkedIn were blocked). Possible false positive for this region — dropped rather than guess."
+        },
+        {
+          "name": "Hola Health",
+          "reason": "Domain (holahealth.com / holahealth.co) unreachable across multiple attempts (DNS/TLS errors); could not confirm this is an Australia/NZ company at all (name pattern suggests it may be a Southeast Asian telehealth brand instead)."
+        },
+        {
+          "name": "Medinet",
+          "reason": "Likely refers to Medinet Co., Ltd, a Japanese cell-therapy company (メディネット), not an Australia/NZ entity; Wikipedia lookup for an ANZ 'Medinet' returned nothing. Excluded as out of region."
+        },
+        {
+          "name": "Fred IT Group",
+          "reason": "Australian pharmacy-software company (Telstra Health-affiliated, per PowerHealth Solutions' own page referencing the Telstra Health ecosystem) but fred.com.au's TLS certificate does not match the hostname (misconfigured/migrated Azure site), so no page content could be fetched to source a profile."
+        },
+        {
+          "name": "Umps Health — funding detail",
+          "reason": "Not skipped as a company (profiled), but no funding round or investor names could be sourced; flagged separately so downstream editors know to revisit with better sources rather than assume none exists."
+        }
+      ],
+      "notes": "31 companies profiled (25 Australia, 6 New Zealand) across therapeutics/radiopharma, medtech devices, diagnostics, clinical/medical-imaging AI, digital health and femtech/consumer health, plus one CRO-adjacent healthcare-IT cluster (MedicalDirector/PowerHealth Solutions/Telstra Health ecosystem). Top-priority targets: Harrison.ai (Australia, Sydney) profiled with 10 named investors — I-MED Radiology Network, Sonic Healthcare, Horizons Ventures, Aware Super, Blackbird Ventures, National Reconstruction Fund, Skip Capital, Wollemi Capital Group, Ord Minnett, Equity Capital Partners — all sourced from harrison.ai/about. Alimetry (New Zealand, Auckland) profiled with 3 named investors — Icehouse Ventures, Matū, GD1 — each confirmed via that fund's own portfolio page. Wellumio (New Zealand, Wellington) profiled but its investors page shows only logos with no names, so funding.investors is empty rather than guessed; founders (Shieak Tzeng, Sergei Obruchkov) and product (Axana portable stroke MRI) are sourced. Five companies are recorded as acquired/absorbed rather than standalone: See-Mode Technologies (-> DeepHealth), Perx Health (-> Navigator Group, 2026), MedicalDirector (-> Telstra Health), InstantScripts (-> Wesfarmers Health), Volpara Health (-> Lunit) — each still valid directory entries per the brief. ASX announcement pages and NZX/ASX ticker pages are JavaScript-rendered SPAs that WebFetch could not extract data from directly (returned only navigation chrome); stockanalysis.com quote pages worked as a reliable proxy for founding year / ticker / sector on several ASX-listed biotechs (Telix, Pro Medicus, Clarity Pharmaceuticals, Neuren, PYC Therapeutics, Lumos Diagnostics, CurveBeam AI) and are cited accordingly. AdvanCell is a borderline redomicile case flagged in its own verification_notes: Sydney-founded and MRCF/Brandon Capital-backed, but its own site now calls Boston its 'global headquarters' as of June 2026; kept in this batch given its deep Australian ecosystem ties and majority-Australian investor syndicate, but worth re-checking."
+    },
+    "r8-india-health": {
+      "wanted": [
+        "Portea Medical - named VC/PE investors (Accel, Qualcomm Ventures, Ventureast etc. are recalled but unsourced this session; only a 2021 DFC debt facility was confirmed)",
+        "HealthifyMe - investor names for the November 2024 $45M round",
+        "Eka.care - founding year, HQ city, funding history/investors (eka.care/team page unreachable)",
+        "PharmEasy/API Holdings - named investors (Prosus/Naspers, TPG, Temasek etc. recalled but unsourced), total funding raised, current valuation",
+        "MedPlus Health Services - confirmation of NSE/BSE listing, ticker, IPO date, founding year",
+        "MFine - founding year, HQ, investors, and clarification of the 'Demerger Scheme' referenced on its own site",
+        "Niramai Health Analytix - founding year and investor names",
+        "Dozee - founding year, HQ city, investor names, and any specific FDA 510(k)/De Novo number (site only shows a compliance badge)",
+        "CARPL.ai - founding year, single HQ city, investors",
+        "Truemeds - investor names",
+        "Redcliffe Labs - diagnostics lab chain; every URL tried (own site, multiple path variants) returned HTTP 403",
+        "Consure Medical - low-resource medical device maker (fecal management system); own site returned HTTP 404",
+        "Noccarc / Noccarc Robotics - ICU ventilator maker; no Wikipedia article, site not yet tried",
+        "Acculi Labs (Cardiotrack) - wearable ECG device maker; not yet attempted",
+        "ekincare - corporate health-benefits/insurance-tech platform; not yet attempted",
+        "Ayu Health - affordable hospital network; not yet attempted",
+        "Orange Health Labs - at-home diagnostics/rapid lab; not yet attempted",
+        "Apex Kidney Care - dialysis chain; not yet attempted",
+        "Centre For Sight - eye-hospital chain; not yet attempted",
+        "Cult.fit / Cure.fit (Curefit Healthcare) - fitness/wellness chain; not yet attempted",
+        "Lissun - mental health platform; not yet attempted",
+        "Glamyo Health - single-specialty (ENT/cosmetic) surgical care; not yet attempted",
+        "Livofy - fertility/IVF platform (femtech); not yet attempted",
+        "Manipal Health Enterprises - major private hospital chain; not yet attempted",
+        "KareXpert - hospital IT/HIS SaaS; not yet attempted",
+        "Indira IVF, Star Health and Allied Insurance, Emoha Elder Care, Wysa, SS Innovations International - well-known India names in fertility/insurance/elder-care/mental-health/surgical-robotics that were on the target list but not reached before this checkpoint"
+      ],
+      "skipped": [
+        {
+          "name": "Bugworks Research",
+          "reason": "biotech (antibiotics) - out of scope for r8-india-health, belongs to r8-india-pharma"
+        },
+        {
+          "name": "Stempeutics",
+          "reason": "cell therapy biotech - r8-india-pharma territory"
+        },
+        {
+          "name": "LifeCell",
+          "reason": "stem-cell banking / biotech-adjacent - closer to r8-india-pharma territory; not attempted this pass"
+        },
+        {
+          "name": "Occamy Bioscience",
+          "reason": "biotech - r8-india-pharma territory"
+        },
+        {
+          "name": "MabPharma / BioMab / Promaxo / IATRICa / Epigeneres Biotech / Alyssum Therapeutics / Fermbox Bio / Pandorum Technologies / Eyestem / QRL Bioscience / Amrita Therapeutics / Zero Cow Factory / ZeroHarm Sciences / Zumutor Biologics",
+          "reason": "biotech/pharma/life-science-tools names appearing in the same unprofiled block - r8-india-pharma territory"
+        },
+        {
+          "name": "Cipla Health / Laurus Labs / Akumentis Healthcare / Bharat Serums and Vaccines / Corona Remedies",
+          "reason": "pharma companies - r8-india-pharma territory"
+        },
+        {
+          "name": "Sirona Medical",
+          "reason": "appears in the unprofiled list amid a block of US companies; this is the US radiology-AI workflow company, not an India-headquartered femtech brand of the same name - excluded as not India-HQ'd"
+        },
+        {
+          "name": "Wellthy",
+          "reason": "ambiguous - likely the US caregiving-benefits company (appears in a US-heavy block of the unprofiled list), not India's Wellthy Therapeutics; could not confirm India HQ this session so dropped rather than guessed"
+        },
+        {
+          "name": "Innovaccer",
+          "reason": "India-founded health-data infrastructure company but now US (San Francisco) headquartered - excluded as not India-HQ'd per brief"
+        }
+      ],
+      "notes": "Checkpoint write triggered by team-lead status request; research was mid-pass through the target list of 30-40 companies. 18 companies profiled (Qure.ai and Portea Medical - both flagged top priority - are included). WebSearch was unavailable all session (budget exhausted); WebFetch alone was used, with heavy 403/404 rates on Wikipedia (many India digital-health companies lack an article) and on several company sites (bot protection). Investor-name coverage is strong for Qure.ai (10 investors), Fitterfly (6) and DeepTek/Forus Health (4 each), but essentially absent for Portea Medical, PharmEasy, HealthifyMe's latest round, Eka.care, Niramai, Dozee, CARPL.ai and Truemeds - all listed in 'wanted' for a follow-up pass focused specifically on investor sourcing (try investor portfolio pages from investor-roster.tsv rather than company sites, since company sites rarely name backers)."
+    },
+    "r8-india-pharma": {
+      "wanted": [
+        "Hetero Drugs / Hetero Labs — large private generics/API maker, promoter-controlled (B. Parthasaradhi Reddy); worth a dedicated fetch attempt at hetero.com or a news source.",
+        "Macleods Pharmaceuticals — large private generics maker (Agarwal family); no Wikipedia page found on a quick check, would need macleodspharma.com.",
+        "Cohance Lifesciences (formerly Suven Pharmaceuticals) — CDMO, recently PE-backed (Advent International) and merged; good next-batch candidate for the CDMO cluster.",
+        "Solara Active Pharma Sciences — API maker demerged from Strides Pharma; fits the API/intermediates category.",
+        "Hikal Limited — API/CDMO and crop-science company with a pharma segment.",
+        "Zumutor Biologics and Curadev Pharma — both real, investor-named companies that this slice could not source; worth another pass with WebSearch enabled.",
+        "Karkinos Healthcare, 4baseCare, Strand Life Sciences, MedGenome — India-HQ'd oncology-genomics/diagnostics companies that sit closer to the diagnostics/genomics brief than this pharma slice; flagging for whichever slice covers Indian diagnostics/genomics.",
+        "Cadila Pharmaceuticals (distinct from Zydus/Cadila Healthcare) — a separate, still-private Cadila-family generics company worth disambiguating and sourcing separately."
+      ],
+      "skipped": [
+        {
+          "name": "Zumutor Biologics",
+          "reason": "Named by 2 investors in the unprofiled list, but every domain guess failed (zumutor.com 403, zumutorbiologics.com DNS failure, no Wikipedia page) and WebSearch was unavailable to find an alternate source — could not source at all."
+        },
+        {
+          "name": "Curadev Pharma",
+          "reason": "curadev.com is now a parked/for-sale domain (redirects to HugeDomains) and no Wikipedia page exists — could not source at all."
+        },
+        {
+          "name": "Innoplexus",
+          "reason": "Rebranded to Partex.ai; the current site gives no headquarters location and the company appears to now operate primarily out of Germany, so India-HQ status could not be confirmed — excluded per India-headquartered-only rule."
+        },
+        {
+          "name": "Aganitha AI (Aganitha Cognitive Solutions)",
+          "reason": "AI drug-discovery company; site confirms business description but not headquarters city/country, and the corporate name 'Aganitha AI Inc.' suggests possible US incorporation — excluded because India HQ could not be confirmed."
+        },
+        {
+          "name": "Cipla Health",
+          "reason": "Cipla's OTC/consumer-health subsidiary — would duplicate the Cipla entry and sits closer to consumer-health than the pharma/biotech/vaccines brief; left to avoid double-counting the Cipla group."
+        },
+        {
+          "name": "Niramai / Niramai Health Analytix",
+          "reason": "AI breast-cancer screening diagnostics device, not pharma/biotech/vaccines — out of this slice's scope, likely belongs with a diagnostics/medtech research slice."
+        },
+        {
+          "name": "Forus Health",
+          "reason": "Ophthalmology screening device maker — medtech/diagnostics, out of scope for this pharma/biotech/vaccines slice."
+        },
+        {
+          "name": "Molbio Diagnostics",
+          "reason": "Point-of-care molecular diagnostics device maker — diagnostics/medtech, out of scope for this pharma/biotech/vaccines slice."
+        },
+        {
+          "name": "Epigeneres Biotech",
+          "reason": "Appeared in the unprofiled list but no working source (site and Wikipedia both failed) could be found within budget — could not source at all."
+        }
+      ],
+      "notes": "R8 India pharma/biotech/vaccines slice. 39 companies delivered (target was 30-40). All research done via WebFetch only (no WebSearch, no WebSearch-derived guesses) — official company sites, Wikipedia, and Screener.in (for one company where the official domain could not be resolved). The overwhelming majority (24 of 34) are large, decades-old, promoter/family-controlled public or private generics, API/CDMO, or vaccine majors that never raised venture capital — Sun Pharma, Dr. Reddy's, Cipla, Lupin, Aurobindo, Zydus, Glenmark, Torrent, Alkem, Mankind, Ipca, Natco, Wockhardt, Biocon, Syngene, Laurus, Granules, Neuland, Piramal, Jubilant Pharmova, Serum Institute, Bharat Biotech, Panacea Biotec, Biological E, Indian Immunologicals, Reliance Life Sciences, Emcure — consistent with the brief that this category is dominated by promoter capital, not VC. Only Intas Pharmaceuticals (Temasek Holdings, ChrysCapital minority stakes) and Mynvax (BIRAC government grant) yielded a sourced named backer; the handful of newer venture-style biotechs (Bugworks Research, ImmunoACT, Immuneel Therapeutics, Anthem Biosciences) are known/likely to be VC-backed but funding syndicates could not be confirmed via WebFetch alone within budget, so funding.investors was left empty for them rather than guessed, per instructions. 14 companies carry at least one sourced profile.regulatory[] entry (WHO prequalification/recommendation, CDSCO market authorization/EUA, or USFDA facility/ANDA approval or warning letter) — Zydus, Bharat Biotech, Panacea Biotec, Indian Immunologicals, Serum Institute, ImmunoACT, Dr. Reddy's, Alkem, Lupin, Aurobindo, Glenmark, Biocon, Anthem Biosciences, Aarti Pharmalabs, plus (Wockhardt and Divi's had no fetchable regulatory quote and so carry none). Several company sites and Wikipedia pages 404'd or DNS-failed (SPARC, Jubilant Pharmova standalone page, Reliance Life Sciences standalone page, Gennova, Zumutor, Curadev, Aganitha) — these gaps are logged in 'skipped' and 'wanted' rather than papered over with guesses."
+    },
+    "r8-sea-biotech": {
+      "wanted": [
+        "Tessa Therapeutics (Singapore, cell therapy) — verify current operating status with a working domain/search tool",
+        "Lucence (Singapore, liquid biopsy diagnostics) — retry with full-page fetch, not truncated",
+        "Cerecin (Singapore, Alzheimer's/epilepsy therapeutics) — retry once TLS issue is resolved",
+        "Aslan Pharmaceuticals (Singapore, immuno-oncology, Nasdaq/TPEx-listed) — retry via SEC EDGAR or a working IR page",
+        "AMILI (Singapore, microbiome) — relocate current domain",
+        "Willowmore (Singapore, longevity/senescence biotech) — relocate current domain",
+        "Albatroz Therapeutics (Singapore, A*STAR oncology spinout) — relocate current domain",
+        "Etana Biotechnologies (Indonesia, vaccine/biologics manufacturer) — relocate current domain",
+        "Kalbe Genexine Biologics / KG Bio (Indonesia-Korea vaccine JV) — relocate current domain",
+        "Duopharma Biotech Berhad (Malaysia, Bursa-listed pharma manufacturer) — retry with working URL",
+        "Cuprina (Malaysia, medical maggot/larval debridement therapy) — locate and verify company site",
+        "N Health (Thailand, BDMS diagnostics lab network) — not yet attempted this session",
+        "Genepeutic Bio (Thailand, reported cell/gene therapy) — existence/details unverified this session",
+        "Vietnam and Philippines biotech/medtech/diagnostics companies generally — none found sourceable this session; needs a dedicated search pass with working search tools"
+      ],
+      "skipped": [
+        {
+          "name": "Callio Therapeutics",
+          "reason": "Primarily Seattle-headquartered (1201 3rd Ave, Suite 2200) with a Singapore office; strong SG investor syndicate (ClavystBio, EDBI, SEEDS Capital) but fails the ASEAN-HQ requirement for this slice."
+        },
+        {
+          "name": "Eyexora",
+          "reason": "Primarily New York-headquartered (31 Hudson Yards); Singapore announced as a co-headquarters only in November 2025, seed led by ClavystBio. Borderline — excluded for strict SEA-HQ requirement."
+        },
+        {
+          "name": "Paratus Sciences",
+          "reason": "ClavystBio portfolio company, but primarily US (South San Francisco) headquartered per public record; not confirmed as ASEAN-HQ'd."
+        },
+        {
+          "name": "AMILI",
+          "reason": "Primary domain (amili.co) has expired and now shows a GoDaddy for-sale page; could not locate a working current site or verify operating status this session."
+        },
+        {
+          "name": "Willowmore",
+          "reason": "Could not locate a live company website under domains tried (DNS failure); insufficient sourcing this session."
+        },
+        {
+          "name": "Albatroz Therapeutics",
+          "reason": "Domain (albatroztx.com) redirects to a GoDaddy for-sale/parked page; could not verify current status."
+        },
+        {
+          "name": "Neuroglee Health",
+          "reason": "Live site (neuroglee.com) now describes a US-based, Mayo-Clinic-partnered dementia care service model, not the Singapore digital-therapeutics product company previously reported; could not confirm current SEA HQ or continuity this session."
+        },
+        {
+          "name": "Duopharma Biotech Berhad",
+          "reason": "Company site and Wikipedia page both unreachable this session (redirect loop / 404); known Bursa Malaysia-listed Malaysian pharma manufacturer, but insufficient fresh sourcing to include with confidence in this pass."
+        },
+        {
+          "name": "Etana Biotechnologies",
+          "reason": "Indonesian vaccine/biologics manufacturer; guessed domain (etanabiotech.com) refused connection, could not locate a working site this session."
+        },
+        {
+          "name": "Kalbe Genexine Biologics (KG Bio)",
+          "reason": "Indonesia-Korea vaccine/biologics manufacturing JV; guessed domain failed to resolve, could not source this session."
+        },
+        {
+          "name": "Cuprina",
+          "reason": "Malaysian medical-maggot (larval debridement) therapy biotech; could not locate or verify a live company website this session."
+        },
+        {
+          "name": "Tessa Therapeutics",
+          "reason": "Official domain (tessatherapeutics.com) has expired and now redirects to an unrelated tattoo website; could not confirm current operating status of this once well-funded Singapore CAR-T/TIL cell-therapy company this session."
+        },
+        {
+          "name": "Lucence",
+          "reason": "Company site fetches returned only truncated/partial content this session (liquid-biopsy diagnostics, Singapore); insufficient verbatim detail captured to include with confidence."
+        },
+        {
+          "name": "Cerecin",
+          "reason": "Site fetch blocked by TLS certificate error every attempt this session; could not source this Singapore Alzheimer's/epilepsy therapeutics company (formerly Accera)."
+        },
+        {
+          "name": "Aslan Pharmaceuticals",
+          "reason": "Company site returned 403 Forbidden on all attempts this session; Wikipedia page and search engines were also unreachable/unusable, so this Nasdaq/TPEx-listed Singapore immuno-oncology biotech could not be sourced."
+        },
+        {
+          "name": "Vaxxas",
+          "reason": "Australian (Brisbane), not Southeast Asian — out of region scope despite appearing in the shared unprofiled-companies list."
+        },
+        {
+          "name": "Harrison.ai / Alimetry / Toku Eyes / See-Mode Technologies / AdvanCell",
+          "reason": "Australian/New Zealand companies, out of region scope for this Southeast Asia slice despite appearing in the shared unprofiled-companies list."
+        }
+      ],
+      "notes": "Southeast Asia biotech/medtech/diagnostics slice, researched without WebSearch (budget exhausted) — WebFetch-only against company sites, investor portfolio pages (ClavystBio, Quadria Capital, SGInnovate, HealthXCapital, TVM Capital Healthcare) and a couple of Google/Bing/DuckDuckGo attempts that mostly failed (search engines served unrelated cached/CAPTCHA content to this fetcher). Many individual company domains were dead, parked-for-resale, or misdirected (tessatherapeutics.com, amili.co, albatroztx.com, straitsortho.com, biolidics.com all redirect elsewhere), which significantly limited coverage versus a session with working search. Country split of the 25 companies included: Singapore 22 (incl. Nuevocor which also has Paris/US offices, and Biosyngen which also has a Guangzhou, China facility), Malaysia 2 (Straits Orthopaedics, Apex Healthcare), Thailand 1 (BioNet-Asia). Indonesia: no standalone Indonesia-HQ'd company could be sourced this session (NalaGenetics has a genuine Jakarta office but is recorded under its Singapore HQ; Etana Biotechnologies and Kalbe Genexine Biologics are known Indonesian vaccine/biologics manufacturers but their sites could not be reached — see wanted list). Vietnam: none found sourceable. Philippines: none found sourceable. 16 of the 25 included companies carry at least one named, sourced investor (mostly ClavystBio, Quadria Capital, SGInnovate, HealthXCapital, CBC Group, ZIG Ventures, or board-affiliated funds at Hummingbird Bioscience); the other 9 (Biolidics/EFH, Aevice Health, Esco Lifesciences, Vela Diagnostics, BioNet-Asia, Apex Healthcare's manufacturing detail, HistoIndex, NalaGenetics, Biosyngen) have no investor named in the sources found. Two companies are recorded with status=acquired and a sourced exit (MediSix Therapeutics -> IASO Biotechnology, 2026; CoV Biotechnology -> Leyden Labs, 2024); two are public (MiRXES on HKEX since 2025, described on its own site as \"Southeast Asia's First Biotech Unicorn\"; Biolidics/Embracing Future Holdings on SGX)."
+    },
+    "r8-sea-health": {
+      "wanted": [
+        "Speedoc (Singapore house-call/virtual-hospital telemedicine) - needs a press or Crunchbase-style source reachable without WebSearch to confirm founding year and Series A/B investors.",
+        "CXA Group (Singapore corporate health-benefits platform) - needs current company URL; cxa.io domain has lapsed.",
+        "Biofourmis (Singapore-founded remote patient monitoring unicorn) - Wikipedia page does not exist and company site is US-focused post-relocation; needs a source confirming original Singapore incorporation and SEA investor syndicate (reportedly Openspace Ventures, EDBI, Sequoia).",
+        "Lucence (Singapore precision-oncology liquid-biopsy diagnostics) - needs a non-truncated source for founding/funding.",
+        "Vietnam clinic-chain and Philippines/Malaysia insurtech players (Jio Health, Maxicare, PhilCare) - domains either timed out, DNS-failed, or their Wikipedia pages don't exist; worth another pass with a working search tool.",
+        "Amili, Holmusk, Neuroglee Health, Aevice Health, Straits Orthopaedics (Malaysia CDMO) - all appear in credible investor portfolios (OSK Ventures/EDBI-linked funds, Quadria Capital) but their own sites/Wikipedia were unreachable in this session."
+      ],
+      "skipped": [
+        {
+          "name": "Perx Health",
+          "reason": "Wikipedia/site confirm HQ is Australia (remote-first), not Southeast Asia; belongs to ANZ slice."
+        },
+        {
+          "name": "Prenetics",
+          "reason": "Confirmed HQ Hong Kong, not Southeast Asia; belongs to Greater China slice."
+        },
+        {
+          "name": "Zi.Care",
+          "reason": "Domain unresolvable and Crunchbase blocked (403); could not source region/identity with a real fetched page."
+        },
+        {
+          "name": "Saveo",
+          "reason": "Could not resolve a working company page (404s on guessed URLs); could not confirm SEA HQ or any facts."
+        },
+        {
+          "name": "Speedoc",
+          "reason": "Site is a JS SPA with no server-rendered content beyond the tagline; no HQ/funding/founding facts obtainable, so dropped per 'no thin records' rule."
+        },
+        {
+          "name": "PolicyStreet",
+          "reason": "Site is a JS SPA with no extractable content; Wikipedia page does not exist."
+        },
+        {
+          "name": "CXA Group",
+          "reason": "cxa.io domain now shows a GoDaddy parked/for-sale page; no live source found to confirm current status."
+        },
+        {
+          "name": "Docosan",
+          "reason": "Only a one-line tagline extractable; insufficient for a full record."
+        },
+        {
+          "name": "Med247",
+          "reason": "Domain resolves to an unrelated/different Vietnamese supplement e-commerce site under testing, not the clinic-chain company; too thin and possibly mismatched entity."
+        },
+        {
+          "name": "Buymed / thuocsi.vn",
+          "reason": "Page renders with no extractable body content beyond a header; could not source founding/HQ/funding facts."
+        },
+        {
+          "name": "Novi",
+          "reason": "Domain expired/parked (GoDaddy for-sale page); could not source."
+        },
+        {
+          "name": "Lucence",
+          "reason": "Company site content repeatedly truncated by the fetch tool before reaching founding/funding details; Wikipedia page does not exist."
+        },
+        {
+          "name": "Holmusk",
+          "reason": "Company about-us page 404'd; Wikipedia page does not exist; no other source reachable given WebSearch unavailable."
+        },
+        {
+          "name": "Neuroglee Health",
+          "reason": "Only a mission-statement sentence extractable; no HQ/founding/funding facts found."
+        },
+        {
+          "name": "Amili",
+          "reason": "About page and Wikipedia both 404'd; could not source."
+        },
+        {
+          "name": "Aevice Health",
+          "reason": "Domain unresolvable (DNS failure)."
+        },
+        {
+          "name": "Papaya (Vietnam insurtech)",
+          "reason": "papaya.tech resolved to an unrelated US B2B SaaS company, not the Vietnamese health-insurance TPA named in Verge HealthTech Fund's portfolio; correct domain not found."
+        },
+        {
+          "name": "Mobio Interactive",
+          "reason": "Page content repeatedly truncated by the fetch tool; could not extract founding/HQ/funding facts."
+        }
+      ],
+      "notes": "WebSearch was unavailable for this entire run (session budget exhausted per instructions), so all research relied on WebFetch against guessed URLs: company sites, English/Indonesian/Thai/Vietnamese Wikipedia, and SEA VC portfolio pages. This produced a high 404/DNS-failure/JS-SPA rate (roughly half of all fetch attempts) since many SEA startup sites are React/Next.js SPAs that return no server-rendered marketing copy, and Crunchbase/DealStreetAsia/Tech in Asia are blocked (403 or explicitly unreachable). Indonesian-language Wikipedia was unexpectedly the richest source, yielding full funding histories with named investors for Halodoc, Alodokter and KlikDokter. English Wikipedia was reliable for large public/established hospital and pharmacy chains (IHH, KPJ, Raffles Medical, Bumrungrad, BDMS, Mercury Drug, Generika, Southstar, Columbia Asia, Kimia Farma). VC portfolio pages (Golden Gate Ventures, Verge HealthTech Fund, HealthXCapital, Monk's Hill Ventures) surfaced several smaller companies (Homage, Lifepack, BotMD, Mesh Bio, reach52) but rarely disclosed funding amounts. Given these constraints, this batch delivers 27 companies rather than the 30-40 target; the 'wanted' list above flags the highest-value gaps for a follow-up pass with working search."
     }
   }
 }
