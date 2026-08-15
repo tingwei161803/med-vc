@@ -941,6 +941,357 @@
         }
       ],
       "notes": "This slice was researched WebFetch-only (no WebSearch budget). Coverage was heavily constrained by two recurring failure modes: (1) many corporate sites are JS-rendered SPAs whose blog/news/press listings return no usable content to the fetcher even at 200 status, and (2) Wikipedia article titles had to be guessed and many newer/private AI-drug-discovery startups have no article at all. Public companies were the highest-yield category because stockanalysis.com and Wikipedia both reliably surface founding, HQ, IPO and ticker data server-side. As a result the 30 delivered companies skew toward already-public techbio/tools names (20 of 30) plus 10 private companies, several of which (Xaira, Paige, Dyno, Glyphic, Terray-class names) are recorded with 'low'/'medium' confidence and no funding block because their own sites would not yield financial detail to WebFetch. SEC EDGAR (cgi-bin/browse-edgar) returned HTTP 403 on every attempt, so no S-1/10-K data was used. Investor-syndicate depth is uneven: Solugen, Enveda, Resilience, BigHat Biosciences and Tempus AI carry multi-investor lists; several public companies (10x Genomics, Twist Bioscience, Codexis, Charles River, Certara, Veracyte, Natera, Personalis, Standard BioTools, Absci, Nautilus, Quantum-Si) carry an IPO/ticker record but no named pre-IPO VCs because that detail sits behind sources (Crunchbase, PitchBook, SEC S-1) that 403'd or weren't guessable this session."
+    },
+    "r3-investor-gaps-2": {
+      "rejected": [
+        {
+          "name": "Novo Holdings",
+          "reason": "NOT A GAP — already in the roster twice under the exact same name (eu-novo-holdings and us-novo-holdings), which is why the linker flagged it 'ambiguous-exact:2' rather than missing. No new entity or alias needed; the link resolver should disambiguate by the investing company's own region (a US portfolio company almost certainly links to us-novo-holdings, a CVC entity, rather than the European crossover fund) — flagging for the team lead / linker logic rather than fixing here since this session has no way to see which specific company row triggered the ambiguity."
+        },
+        {
+          "name": "Bill Gates",
+          "reason": "Individual philanthropist/angel, not an institutional fund manager. Out of scope per angel-investor exclusion. His institutional philanthropic vehicle is already separately catalogued as the Gates Foundation Strategic Investment Fund (us-gates-foundation-strategic-investment-fund / row-gates-foundation-strategic-investment-fund)."
+        },
+        {
+          "name": "CPP Investments",
+          "reason": "DUPLICATE mention of 'Canada Pension Plan Investment Board' (see below) — same organization, same rejection reasoning."
+        },
+        {
+          "name": "Christoph Westphal",
+          "reason": "Individual serial biotech founder/investor. Out of scope per angel-investor exclusion; his named institutional vehicle, Longwood Fund, already exists in the roster (us-longwood-fund) and was not re-created here."
+        },
+        {
+          "name": "John Kennedy Clarke",
+          "reason": "Could not verify this individual's identity, fund affiliation, or track record this session (Wikipedia and Google News RSS searches returned no results). No named fund found — out of scope per angel-investor exclusion pending future identification."
+        },
+        {
+          "name": "Yuri Milner",
+          "reason": "Individual angel/founder of DST Global, which was already rejected in the prior round (generalist late-stage consumer-internet crossover fund, no healthcare focus, single incidental deal). Out of scope per angel-investor exclusion; no separate named health vehicle found for Milner personally."
+        },
+        {
+          "name": "Jeff Bezos",
+          "reason": "Individual angel investor. His family investment office, Bezos Expeditions (us-bezos-expeditions), is already in the roster as a generalist family office with no dedicated healthcare focus — out of scope per angel-investor exclusion."
+        },
+        {
+          "name": "TGC (The Growth Company)",
+          "reason": "Could not verify this session — thegrowthcompany.com returned a server error (HTTP 522) on every attempt and no alternate source was found. Likely refers to a UK (Manchester) business-support/skills organization rather than a dedicated healthcare investor, but this could not be confirmed or refuted; single incidental mention."
+        },
+        {
+          "name": "Bristol Myers Squibb",
+          "reason": "No dedicated BMS corporate venture capital arm (comparable to Lilly Ventures or the Novartis Venture Fund) was found this session. Wikipedia surfaces one direct strategic investment ($180M in Owkin, 2022) funded from BMS's own balance sheet, not a repeat venture-investing vehicle — same reasoning as the prior round's Genentech/GSK rejections. Better captured as a 'backing' relationship on Owkin's own entity record if/when researched."
+        },
+        {
+          "name": "Bain Capital",
+          "reason": "Ambiguous — the roster already contains a distinct dedicated entity, Bain Capital Life Sciences (us-bain-capital-life-sciences), and the prior round separately rejected the generalist 'Bain Capital Ventures' (only one incidental health deal, no dedicated practice). This worklist mention is the bare parent name 'Bain Capital' with a single occurrence and no company-level context available this session to determine which specific Bain Capital vehicle actually invested — not asserted as an alias to Bain Capital Life Sciences without that confirmation. Flagging for the team lead to check the source company: if it is a biotech/pharma deal, it likely IS us-bain-capital-life-sciences and just needs an aka added; if not, it is likely the already-rejected generalist arm."
+        },
+        {
+          "name": "Blackbird Bioventures",
+          "reason": "Could not verify this session. The roster already contains the unrelated generalist 'Blackbird Ventures' (anz-blackbird-ventures); Blackbird Ventures' own Wikipedia article makes no mention of a separate 'Blackbird Bioventures' fund or life-sciences sub-brand. Possibly a name-confusion artifact rather than a real distinct entity — excluded pending verification."
+        },
+        {
+          "name": "Pictet",
+          "reason": "Pictet Group / Pictet Asset Management's Wikipedia article describes only generalist equities/fixed-income/multi-asset/alternatives strategies and an environmental-themes SRI focus (clean energy, timber); no dedicated biotech, life-sciences, or healthcare fund or practice was found this session. (Pictet is known in the market to run a public-markets biotech-themed equity fund, but this could not be independently confirmed via a fetched source this round, and such a fund would likely sit outside this directory's private-investor scope regardless.)"
+        },
+        {
+          "name": "Queensland BioCapital Funds",
+          "reason": "Could not verify this session — the guessed domain (qldbiocapital.com.au) failed to resolve (DNS error) and a Google News RSS search returned zero article results. Single incidental mention; excluded pending a working search tool or the correct domain."
+        },
+        {
+          "name": "Seattle Children's Research Institute",
+          "reason": "The institute's own site references only an 'Office of Innovation and New Ventures' focused on partnerships/collaborations and technology licensing, not an equity-investing venture fund. No evidence of a dedicated venture-investing vehicle was found this session — same reasoning pattern as other academic/research-institute rejections in the prior round."
+        },
+        {
+          "name": "DNS Capital",
+          "reason": "dnscapital.com is a parked/for-sale GoDaddy domain (redirected to forsale.godaddy.com); no live official site, Wikipedia article, or news coverage was reachable this session to confirm identity, focus, or a healthcare track record. Excluded as unverifiable."
+        },
+        {
+          "name": "Hartford HealthCare",
+          "reason": "hartfordhealthcare.org's innovation/press pages returned a connection error on every attempt this session (ECONNREFUSED) and no alternate source (Wikipedia, news) was checked in time. Could not confirm whether a dedicated venture/innovation-investment arm exists — excluded pending verification rather than asserted as fact."
+        },
+        {
+          "name": "Two Sigma Ventures",
+          "reason": "Two Sigma Ventures' Wikipedia entry describes a data-science-focused generalist thesis with no healthcare or life-sciences specialization; the firm's own site (twosigmaventures.com) returned a certificate error and could not be checked directly. No dedicated healthcare practice or track record found this session."
+        },
+        {
+          "name": "Canada Pension Plan Investment Board",
+          "reason": "CPP Investments' Wikipedia article shows a generalist mandate ('maximum rate of return, without undue risk of loss') across private equity, public companies and real estate, with no dedicated healthcare or life-sciences practice described; only two incidental healthcare-adjacent items were found (a 2009 co-investment in IMS Health's buyout, and a stake in SBI Life Insurance in India, which is financial-services/insurance rather than healthcare delivery or biotech). Insufficient evidence of a dedicated health practice or repeat health-investing pattern. Also covers the duplicate worklist row 'CPP Investments' (same organization, same reasoning)."
+        },
+        {
+          "name": "Alaska Permanent Fund",
+          "reason": "Alaska Permanent Fund Corporation's Wikipedia article describes only a general 'maximum prudent return' mandate with no sector-specific strategy disclosed; no dedicated healthcare or life-sciences investment practice was found this session."
+        },
+        {
+          "name": "Public Sector Pension Investment Board",
+          "reason": "PSP Investments' own site lists six generalist asset classes (Capital Markets, Real Estate, Private Equity, Infrastructure, Credit Investments, Natural Resources) with no healthcare or life-sciences category identified as a dedicated practice. No evidence of a repeat health-investing pattern found this session."
+        },
+        {
+          "name": "Invus Group",
+          "reason": "Invus Group's own site (invus.com) returned HTTP 403 on every path tried, and a Wikipedia article at the guessed title was not found. A Google News RSS search surfaced one genuine healthcare item (a Stanford Medicine collaboration on glioblastoma drug development, Jan 2023) alongside clearly non-healthcare items (CAVA restaurant IPO congratulations, a ClearScore fintech investment, other restaurant ventures) — consistent with a generalist private-equity firm rather than a healthcare-dedicated one, at least based on what could be verified this session. Excluded pending a working search tool, though Invus is independently reputed in the market as a healthcare/consumer-focused PE firm — that reputation was not independently re-confirmed via a fetched source this round."
+        },
+        {
+          "name": "Wing VC",
+          "reason": "Wing Venture Capital's own site describes an 'AI-first' generalist thesis (autonomous apps, AI infrastructure, data, PLG, Web3) with no dedicated healthcare practice or named health partner; only two incidental health-adjacent portfolio companies (Rula, Cartography Bio) were found. Below the bar for a dedicated practice or repeat track record."
+        },
+        {
+          "name": "Y Combinator",
+          "reason": "Y Combinator's Wikipedia article lists its various programs (main accelerator, Fellowship, Continuity Fund, Startup School, Series A Program, Growth Program, YC China) with no dedicated biotech/healthcare track or program (e.g. no 'YC Bio' identified this session) despite YC having backed individual health-related companies (e.g. Watsi) as part of its broad, sector-agnostic batch model. Same reasoning pattern as other large generalist accelerators/VCs rejected in the prior round."
+        },
+        {
+          "name": "BlackRock",
+          "reason": "BlackRock's Wikipedia article describes a dedicated geographic India Fund but no dedicated private healthcare, biotech, or life-sciences investment fund distinct from its public-market health-sector index/mutual funds (e.g. BlackRock Health Sciences Trust, not independently checked this session). No repeat private health-investing track record confirmed."
+        },
+        {
+          "name": "Carbon Direct Capital Management",
+          "reason": "Carbon Direct Capital's own site describes a carbon-management/climate-solutions investment thesis exclusively (carbon capture, alternative fuels, emissions reduction); no healthcare or life-sciences investment activity is mentioned."
+        },
+        {
+          "name": "Kennivik",
+          "reason": "Could not verify this session — no Wikipedia article, official site, or Google News coverage found under this name. Possibly a misspelling or name-parsing artifact from the source company page; excluded as unverifiable."
+        },
+        {
+          "name": "Lowercarbon Capital",
+          "reason": "Lowercarbon Capital's own site confirms an exclusively climate-tech/decarbonization thesis (new-emissions reduction, carbon removal, climate adaptation); its shown portfolio (Antora, Crux, Crusoe, Commonwealth Fusion Systems, Solugen, etc.) is climate/energy-focused with no healthcare or biotech investments identified this session, despite the firm's broader reputation for some pandemic-preparedness-adjacent bets."
+        },
+        {
+          "name": "Franklin Templeton Investments",
+          "reason": "Franklin Templeton's Wikipedia article describes generalist bond/international/value fund brands (Franklin, Templeton, Mutual Series) with no dedicated healthcare, biotech, or life-sciences fund or division identified this session."
+        },
+        {
+          "name": "Revolution LLC",
+          "reason": "Revolution's own site describes three generalist strategies (Venture Capital, Advancing Entrepreneurship, Real Estate & Hospitality) emphasizing geographic diversity outside Silicon Valley across many sectors (logistics, sports, real estate, finance, food); only two incidental health-adjacent portfolio companies (Tempus, Tala — the latter is fintech, not health) were found, with no dedicated healthcare practice or named health partner."
+        }
+      ],
+      "notes": "Worked the tail of the 173-name missing-investors.txt worklist not reached by the prior r2-investor-gaps round (whose 109-item rejected[] list in reports/research-backlog.json was read first and not re-litigated). Of the ~139 remaining worklist rows, 105 were exact re-mentions or near-duplicates of names r2-investor-gaps already rejected/aliased (Truveta-co-owner health systems, celebrity/athlete angels, generalist funds with a single incidental health deal, etc.) and were left untouched per the task brief. The genuinely new ~34 names were each independently researched via WebFetch this session (no WebSearch calls; the session's WebSearch budget was reported exhausted). 6 new entities were written, all clearing the 'named health partner / dedicated health fund or practice / real multi-deal track record' bar: Blackstone Life Sciences ($6.3B record dedicated life-sciences fund, 7 named biopharma deals), General Atlantic (dedicated Healthcare + Life Sciences sector pages, 30+ portfolio companies), Temasek Holdings (Life Sciences & Agri-Food named strategic sector, majority stake in a hospital chain), Menlo Ventures ('Bio + Healthcare' named as one of nine focus areas, 8+ named health portfolio companies), Altitude Life Science Ventures (dedicated early-stage life-science VC, 14 Fund IV portfolio companies), and Nestlé Health Science (Nestlé's dedicated health-science business unit with a real multi-company investment track record). 4 alias_fixes were identified where a worklist name is the parent/legal-name variant of an entity already in the roster (Alexandria Real Estate Equities -> Alexandria Venture Investments; Eli Lilly and Company -> Lilly Ventures; Fred Hutchinson Cancer Research Center -> Fred Hutch Business Development & Ventures; Memorial Sloan Kettering Cancer Center -> MSK Ventures) — all are genuine alternate NAMES the outside world uses, not annotations. 23 names were rejected with individual reasons (5 individual angels/founders with no qualifying named fund; several large generalist pension funds/sovereign vehicles and asset managers with no dedicated health practice found — CPP Investments/Canada Pension Plan Investment Board, Alaska Permanent Fund, PSP Investments, BlackRock, Franklin Templeton; several unreachable/unverifiable firms — TGC, DNS Capital (parked domain), Hartford HealthCare (connection refused), Queensland BioCapital Funds, Kennivik, Blackbird Bioventures, John Kennedy Clarke, Pictet, Invus Group; several confirmed-generalist or wrong-sector firms — Two Sigma Ventures, Wing VC, Y Combinator, Carbon Direct Capital Management, Lowercarbon Capital, Revolution LLC, Bristol Myers Squibb). One name (Novo Holdings) required no action — it is already correctly in the roster twice under identical names, which is exactly why the link graph flagged it 'ambiguous-exact:2' rather than missing; that is a linker-disambiguation issue, not a data gap. One name (Bain Capital, generic) was left ambiguous rather than force-matched to the existing Bain Capital Life Sciences entity, since this session had no way to see which underlying company/deal triggered the mention."
+    },
+    "r3-us-diagnostics": {
+      "wanted": [
+        "Foresight Diagnostics (MRD/lymphoma liquid biopsy) — needs a working source; try press coverage (Fierce Biotech, GenomeWeb) rather than the company's own broken site.",
+        "Genetesis (CardioFlux magnetocardiography) — needs a working source; genetesis.com had TLS errors throughout this session.",
+        "Day Zero Diagnostics (antibiotic-resistance ID diagnostics) — needs a working source; dayzerodx.com is misconfigured/parked.",
+        "Natera, Guardant Health, Adaptive Biotechnologies, Veracyte, 23andMe, Tempus AI, Personalis, GRAIL, Everly Health, Evvy, Function Health, Prenuvo — all already exist in the directory (see existing-companies.tsv); a future pass could enrich their funding.investors arrays if thin.",
+        "Biodesix, Interpace Biosciences, OpGen, Predicine, Devyser, Sysmex America, Butterfly Network, Cue Health, Lucira Health, Talis Biomedical, Stilla Technologies (US ops), MiRus — additional US diagnostics/POC names seen in adjacent scans but not researched this session for lack of time.",
+        "Vizgen, Olink Proteomics (Sweden, out of region), Deciphex (Ireland, out of region), IonPath/Ionpath (folded into Akoya, largely superseded by the Akoya record) — considered and set aside as out-of-scope or redundant."
+      ],
+      "skipped": [
+        {
+          "name": "Foresight Diagnostics",
+          "reason": "MRD (lymphoma ctDNA) liquid biopsy company flagged in unprofiled-companies.txt with 2 investor references, but its domain (foresightdx.com) returned empty/unrenderable content on every fetch and foresightdiagnostics.com is a parked/for-sale domain; no alternate primary source was found in the WebFetch-only budget available, so dropped rather than writing a thin/unsourced record."
+        },
+        {
+          "name": "Genetesis",
+          "reason": "Magnetocardiography cardiac diagnostics company (CardioFlux) with an FDA clearance and funding history, but every fetch to genetesis.com (root, /about, /newsroom) failed with TLS/SSL handshake errors; dropped for lack of any successfully fetched source."
+        },
+        {
+          "name": "Day Zero Diagnostics",
+          "reason": "Antibiotic-resistance infectious-disease diagnostics company; dayzerodx.com returned a certificate/hostname mismatch error on every fetch attempt (site appears to be parked on a website builder), so no source could be fetched."
+        },
+        {
+          "name": "Mammoth Biosciences",
+          "reason": "CRISPR diagnostics platform company flagged in unprofiled-companies.txt, but already exists in the directory as us-mammoth-biosciences (category cell-gene-therapy); not re-added to avoid duplication."
+        },
+        {
+          "name": "Matterworks",
+          "reason": "Metabolomics mass-spec platform company flagged in unprofiled-companies.txt; not pursued due to time budget after prioritizing better-sourced candidates, and it leans more life-science-tools/biomarker-discovery than a clinical diagnostics test per se."
+        },
+        {
+          "name": "Universal Diagnostics / Universal DX",
+          "reason": "Liquid-biopsy colorectal cancer screening company appearing twice in unprofiled-companies.txt; headquarters is genuinely ambiguous between Sevilla, Spain and a US (Miami) commercial/CLIA operation, and this could not be resolved within the WebFetch-only budget, so left for the EU or a cross-region researcher to classify correctly rather than mis-assigning region."
+        },
+        {
+          "name": "Truvian Sciences FDA status",
+          "reason": "Not a skipped company — Truvian Sciences IS included — but its widely-reported FDA De Novo submission could not be confirmed via a fetched source, so it is omitted from that record's regulatory field rather than asserted; noting here for the build team's awareness."
+        }
+      ],
+      "notes": "r3-us-diagnostics: 32 companies delivered (target 30-40). Mix of private venture-backed (Freenome, Truvian, C2N, BillionToOne, VedaBio, AOA Dx, Mission Bio, Ultima Genomics, LetsGetChecked, Color Health, Visby Medical, Teal Health, Mercy BioAnalytics, Karius, Sherlock Biosciences, Detect), public companies (Sera Prognostics, Castle Biosciences, iRhythm, Quanterix, Caris Life Sciences, GeneDx, Exact Sciences), and acquired/exited companies (PGDx, NeuMoDx, Foundation Medicine, Invitae, Akoya Biosciences, GenMark Diagnostics, BioFire Diagnostics, Cepheid) plus one shut-down (T2 Biosystems). WebFetch-only research (no WebSearch per instructions); many company domains had TLS/redirect/parked-domain issues that limited depth on several private, earlier-stage names -- those are marked confidence:low with verification_notes explaining exactly what could and could not be sourced. AOA Dx investors[] length: 14"
+    },
+    "r3-us-dtx-monitoring": {
+      "wanted": [
+        "Medically Home (hospital-at-home enablement, Cardinal Health/Baxter-backed) -- worth another pass once web search or SEC EDGAR access is restored.",
+        "Homeward Health (rural hospital-at-home / value-based care) -- site fully blocked WebFetch this session.",
+        "Current Health -- needs region confirmation (UK vs US HQ) before it can be added to a US slice; also needs Best Buy acquisition and 2024/2025 shutdown sourced.",
+        "AdhereTech, Common Sensing/Gocap -- smart pill bottle / smart insulin pen cap; sites unreachable this session, retry later.",
+        "Owlet, Willow Innovations, Livongo, Hinge Health, Omada Health, DispatchHealth, Whoop, Levels Health, Big Health, AliveCor, Teladoc Health -- already profiled elsewhere in the directory (confirmed via existing-companies.tsv); correctly excluded from this batch."
+      ],
+      "skipped": [
+        {
+          "name": "Cadence",
+          "reason": "Already fully profiled as us-cadence in r1-us-care-delivery.json (another agent's completed output) -- excluded to avoid duplication."
+        },
+        {
+          "name": "Sword Health",
+          "reason": "Founded and headquartered in Porto, Portugal (Wikipedia: 'Headquarters: Portugal (founded in Porto; expanded to US offices...)'); does not clearly meet the US-headquartered bar for this slice despite large US operations/investor base. Left for a EU or global researcher to claim."
+        },
+        {
+          "name": "Medically Home",
+          "reason": "Every fetch attempt (medicallyhome.com root, /about, /about-us, investors subdomain) returned 403/404; could not source a single usable fact this session."
+        },
+        {
+          "name": "Homeward Health",
+          "reason": "Every fetch attempt (homewardhealth.com, with/without www) returned 403; could not source a single usable fact this session."
+        },
+        {
+          "name": "Common Sensing / Gocap",
+          "reason": "commonsensing.com and gocap.md both failed to resolve/404; no alternate source found without web search."
+        },
+        {
+          "name": "AdhereTech",
+          "reason": "adheretech.com returned 502 Bad Gateway on repeated attempts across multiple paths; could not source."
+        },
+        {
+          "name": "Current Health",
+          "reason": "FDA 510(k) filings found and confirmed under 'Current Health, Ltd.' (a UK company suffix), and the Best Buy acquisition/subsequent shutdown widely reported in industry press could not be independently sourced this session (Wikipedia has no dedicated article, Best Buy's own article doesn't mention it). Given the apparent UK origin and inability to confirm current US HQ status, dropped rather than risk misclassifying a non-US-headquartered company."
+        },
+        {
+          "name": "Vivify Health",
+          "reason": "Reported to have been acquired by Optum/UnitedHealth Group, but this could not be confirmed via any fetchable source this session (Optum's Wikipedia acquisitions list does not mention it); dropped rather than guess."
+        },
+        {
+          "name": "MobileHelp",
+          "reason": "mobilehelp.com/pages/about-us 404'd; no alternate source found without web search."
+        }
+      ],
+      "notes": "WebSearch budget was exhausted for this session and virtually all conventional search engines (Google, Bing, DuckDuckGo) either returned localized junk or CAPTCHA walls via WebFetch, and sec.gov/cgi-bin/browse-edgar returned 403 on every attempt (likely User-Agent-based bot blocking that WebFetch cannot bypass). The FDA's openFDA REST API (api.fda.gov/device/510k.json) was the single most reliable and valuable tool this session -- it returned clean, quotable, machine-readable regulatory data for nearly every company that has a cleared device, and is the backbone of the regulatory[] arrays and much of the 'what' text above. Company-owned websites were fetchable roughly 50% of the time (many return 403/404/429/502 to WebFetch, apparently varying by CDN/bot-protection vendor); Wikipedia has standalone articles for only a minority of these companies (mostly the large public medtechs -- Masimo, Dexcom -- plus Boston Scientific, AptarGroup, PureTech Health, and a handful of general topic pages), so many funding/investor/HQ facts that are well-established in the industry could not be re-sourced this session and were left blank rather than guessed, with the gap flagged explicitly in each record's verification_notes. As a result, funding.investors[] is thin across this batch (solid only for Click Therapeutics) despite genuine effort -- press-release-specific URLs (the usual source for named syndicates) generally require search to locate and could not be guessed reliably."
+    },
+    "r3-us-medtech-devices": {
+      "wanted": [
+        "Ivantis (Alcon acquisition, glaucoma Hydrus Microstent)",
+        "Twelve, Inc. (Medtronic acquisition, transcatheter mitral valve)",
+        "4C Medical Technologies (AltaValve transcatheter mitral valve)",
+        "MiRus (spine implants)",
+        "Endovascular Engineering (vascular thrombectomy)",
+        "Genetesis (CardioFlux magnetocardiography)",
+        "Aria CV (pulmonary hypertension implant)",
+        "Mainstay Medical (ReActiv8 neurostimulation for back pain)",
+        "U-Systems (automated whole-breast ultrasound, GE Healthcare acquisition)",
+        "Vortex Medical / Walk Vascular (mechanical thrombectomy)"
+      ],
+      "skipped": [
+        {
+          "name": "4C Medical Technologies",
+          "reason": "domain (4cmedicaltech.com / 4cmedical.com) unreachable / expired; could not source"
+        },
+        {
+          "name": "MiRus",
+          "reason": "could not locate correct company domain (mirus-llc.com and mirusmedical.com resolve to unrelated businesses)"
+        },
+        {
+          "name": "Endovascular Engineering",
+          "reason": "domain unreachable, could not source"
+        },
+        {
+          "name": "Genetesis",
+          "reason": "domain SSL handshake failure, could not source"
+        },
+        {
+          "name": "Aria CV",
+          "reason": "domain unreachable, could not source"
+        },
+        {
+          "name": "Mainstay Medical",
+          "reason": "domain certificate expired, could not source"
+        },
+        {
+          "name": "Ivantis",
+          "reason": "no working company domain found and no accessible press release; SEC/FDA .gov domains returned 403/404 for WebFetch"
+        },
+        {
+          "name": "PediaMetrix",
+          "reason": "domain now redirects to an unrelated site (connect.softspot.online), appears defunct/rebranded and unverifiable"
+        },
+        {
+          "name": "Rinovum Women's Health",
+          "reason": "domain returned server error (522), could not source"
+        },
+        {
+          "name": "TearSolutions",
+          "reason": "domain is a parked/hosting page, could not source"
+        },
+        {
+          "name": "Vortex Medical",
+          "reason": "could not find a working source confirming AngioDynamics/Walk Vascular acquisition details"
+        },
+        {
+          "name": "Twelve, Inc.",
+          "reason": "reported in press as acquired by Medtronic (2022) but not listed in Medtronic's Wikipedia acquisitions list and no other accessible primary source found; dropped rather than guess deal terms"
+        },
+        {
+          "name": "U-Systems",
+          "reason": "GE HealthCare Wikipedia acquisitions list does not mention it and no other accessible source found"
+        },
+        {
+          "name": "SetPoint Medical",
+          "reason": "already present in existing-companies.tsv as us-setpoint-medical; not a duplicate candidate"
+        }
+      ],
+      "notes": "WebSearch was unavailable for this task (budget exhausted) and WebFetch to SEC EDGAR (sec.gov) and the FDA 510(k)/PMA database (accessdata.fda.gov, fda.gov) consistently returned 403/404, so SEC filings and FDA clearance-database lookups specified in the brief were not usable as sources. Sourcing instead relied on company websites (About/News pages), Wikipedia (only available for large/acquired companies - MicroVention, Boston Scientific, Medtronic, GE HealthCare, Intersect ENT), and PR Newswire's archive. Many smaller/private medtech sites returned 404s for guessed sub-page paths (About, Investors) or had dead/expired/wrong domains, which limited founding-year, HQ, and investor-syndicate detail for roughly half the private companies below (flagged individually in verification_notes) even though the core product/regulatory facts were solidly sourced. Company tickers for several newly-public names (NeuroPace, Sight Sciences, Myomo, Shoulder Innovations) could not be confirmed with a quotable source and were deliberately omitted rather than guessed."
+    },
+    "r3-us-robotics-imaging": {
+      "wanted": [
+        "THINK Surgical (TSolution One robotic orthopedics, OTC-listed) — retry with a different fetch path or IR site.",
+        "Monogram Orthopaedics (robotic knee replacement, OTC:MGRM) — retry, site had connectivity issues.",
+        "Delphinus Medical Technologies (whole-breast ultrasound tomography) — retry past the 403.",
+        "Proscia (digital pathology software) — retry with a working URL; strong candidate given Paige is already in the directory as its main competitor.",
+        "HeartFlow — confirm 2024 IPO, ticker, founding year, and pre-IPO investor syndicate; this record is currently too thin on funding despite being a major player.",
+        "Auris Health / Monarch — find the J&J acquisition price (reported publicly, not sourced here) and any pre-acquisition VC investor list (Auris raised from Coatue, Mithril, Highland, NEA per public reporting — needs a primary source).",
+        "PathAI — founding year and its historical VC syndicate (General Catalyst, Tiger Global, Blackstone, Bristol Myers Squibb per public reporting) before the Roche deal.",
+        "Viz.ai — HQ and funding syndicate (reported as San Francisco, raised from Kleiner Perkins, Insight Partners, Threshold, etc. per public reporting) — needs a primary source.",
+        "12 Sigma Technologies, Riverain Technologies, Levita Magnetics, Galen Robotics, Kaliber Labs — none successfully fetched; worth a retry with different network conditions."
+      ],
+      "skipped": [
+        {
+          "name": "Harrison.ai",
+          "reason": "Australian-headquartered — belongs to the ANZ regional round, not this US slice."
+        },
+        {
+          "name": "Qure.ai",
+          "reason": "Indian-headquartered — belongs to the India regional round, not this US slice."
+        },
+        {
+          "name": "Proscia",
+          "reason": "Could not load any page on proscia.com (repeated 404s); no other source attempted before time ran out."
+        },
+        {
+          "name": "THINK Surgical",
+          "reason": "thinksurgical.com returned a TLS certificate error on fetch; no alternate source found."
+        },
+        {
+          "name": "Monogram Orthopaedics",
+          "reason": "monogramorthopaedics.com returned connection refused; no alternate source found."
+        },
+        {
+          "name": "Delphinus Medical Technologies",
+          "reason": "delphinusmt.com returned HTTP 403; no alternate source found."
+        },
+        {
+          "name": "Levita Magnetics",
+          "reason": "levitamagnetics.com domain did not resolve; no alternate source found."
+        },
+        {
+          "name": "Riverain Technologies",
+          "reason": "riverainhealth.com domain did not resolve; no alternate source found."
+        },
+        {
+          "name": "Galen Robotics",
+          "reason": "galenrobotics.com returned HTTP 500 / connection reset on repeated attempts."
+        },
+        {
+          "name": "Kaliber Labs",
+          "reason": "kaliberlabs.com returned a connection reset; no alternate source found."
+        },
+        {
+          "name": "12 Sigma Technologies",
+          "reason": "No Wikipedia article found and company site not attempted before time ran out."
+        },
+        {
+          "name": "Hansen Medical",
+          "reason": "Sourced founding (2002) and product via the Frederic Moll Wikipedia page, but its eventual acquisition/status was not confirmed in any fetched source, so dropped rather than guess."
+        },
+        {
+          "name": "Medrobotics (Flex Robotic System)",
+          "reason": "en.wikipedia.org/wiki/Medrobotics returned 404; current operating status (rumored to have shut down) not confirmed."
+        }
+      ],
+      "notes": "WebFetch could not reach either FDA.gov (www.fda.gov returns 404/blocked on every path tried, including the AI/ML-enabled device list the brief pointed to) or SEC EDGAR (www.sec.gov/cgi-bin/browse-edgar and efts.sec.gov both return 403) in this session — both primary regulatory/financial sources named in the brief were effectively unusable, which is why regulatory and funding detail is uneven across records (rich for companies with a dedicated Wikipedia article or an informative press page; thin for pure marketing sites). Wikipedia's own Special:Search endpoint (en.wikipedia.org/w/index.php?search=...) was a reliable substitute for guessing article titles. A few multi-company founder biography pages (Jonathan Rothberg for Butterfly Network + Hyperfine; Frederic Moll for Auris Health + Intuitive Surgical + Hansen Medical) were unusually efficient sources. Investor names were only recoverable for Butterfly Network (Fidelity, Gates Foundation, Fosun Pharma), Moon Surgical (Sofinnova Partners, NVIDIA), and Koios Medical (Mitsui & Co.) — company marketing sites almost never listed investor names in fetchable text even when an 'Our Investors' section existed (e.g. Viz.ai's investor logos were SVGs, not text)."
     }
   }
 }

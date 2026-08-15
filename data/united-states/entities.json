@@ -16047,14 +16047,38 @@
         "accessed": "2026-08-16",
         "supports": "Menlo Ventures led Particle Health Series A",
         "quote": "Series A"
+      },
+      {
+        "url": "https://menlovc.com/",
+        "title": "Menlo Ventures",
+        "publisher": "Menlo Ventures",
+        "accessed": "2026-08-16",
+        "supports": "'Bio + Healthcare' named as one of nine investment focus areas; recent $3B capital raise mentioning healthcare as a key vertical",
+        "quote": "Innovations at the intersection of technology and biology will drive major improvements in the quality of our health and the cost of healthcare."
+      },
+      {
+        "url": "https://menlovc.com/portfolio/",
+        "title": "Menlo Ventures — Portfolio",
+        "publisher": "Menlo Ventures",
+        "accessed": "2026-08-16",
+        "supports": "Named bio/healthcare portfolio companies",
+        "quote": "OpenEvidence — AI copilot for doctors that helps them make high-stakes decisions at the point of care"
       }
     ],
     "confidence": "high",
-    "verification_notes": "This is NOT an Anthropic-owned CVC — flagged per instructions. Anthropic's role is a technology/GTM partnership, not an LP capital commitment, based on all sources reviewed. The '~$250M deployed' figure comes from a non-primary blog aggregator and is unconfirmed. [fact-check flagged, not auto-applied: track_record.notable_investments: consider adding: fund has now backed 60+ companies with 3 exits (per Crunchbase News, mid-2026), not just the original 18-company first cohort — New Lantern remains the clearest health e] [fact-check: This is real and well-verified. menlovc.com/menlo-anthology-fund/ fetch confirms $100M fund, Menlo-Anthropic partnership, $25K in Claude credits per company (source's '$25K-$30K' range is close enough), and explicitly confirms 'no evidence Anthropic contributes fund capital' — Anthropic's role is mo] [merged from duplicate research rows]",
+    "verification_notes": "This is NOT an Anthropic-owned CVC — flagged per instructions. Anthropic's role is a technology/GTM partnership, not an LP capital commitment, based on all sources reviewed. The '~$250M deployed' figure comes from a non-primary blog aggregator and is unconfirmed. [fact-check flagged, not auto-applied: track_record.notable_investments: consider adding: fund has now backed 60+ companies with 3 exits (per Crunchbase News, mid-2026), not just the original 18-company first cohort — New Lantern remains the clearest health e] [fact-check: This is real and well-verified. menlovc.com/menlo-anthology-fund/ fetch confirms $100M fund, Menlo-Anthropic partnership, $25K in Claude credits per company (source's '$25K-$30K' range is close enough), and explicitly confirms 'no evidence Anthropic contributes fund capital' — Anthropic's role is mo] [merged from duplicate research rows] [merged from duplicate research rows]",
     "last_updated": "2026-08-16",
     "researched_by": "gap-audit-bigtech",
     "subtypes": [],
-    "tags": []
+    "tags": [
+      "bio-plus-healthcare",
+      "generalist-multistage"
+    ],
+    "lifesci": {
+      "modalities": [
+        "ai-ml-platform"
+      ]
+    }
   },
   {
     "id": "us-intel-capital",
@@ -40826,6 +40850,335 @@
     "last_updated": "2026-08-16",
     "researched_by": "r2-investor-gaps",
     "status": "active"
+  },
+  {
+    "id": "us-blackstone-life-sciences",
+    "name": {
+      "en": "Blackstone Life Sciences"
+    },
+    "aka": [
+      "BXLS",
+      "Clarus (predecessor)"
+    ],
+    "type": "crossover-fund",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.bxlifesciences.com/",
+    "capital": {
+      "current_fund": {
+        "raw": "$6.3B",
+        "usd": 6300000000,
+        "currency": "USD"
+      },
+      "funds": [
+        {
+          "vintage_year": 2024,
+          "size": {
+            "raw": "$4.6B",
+            "usd": 4600000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "vintage_year": 2026,
+          "size": {
+            "raw": "$6.3B",
+            "usd": 6300000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": [
+        "growth"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "thesis": "Provides large-scale structured equity, royalty, and strategic financing (individual deals commonly $250M-$1.3B+) to late-stage and commercial-stage biopharma companies and their pivotal clinical programs, spanning both privately held biotechs and financing collaborations with public pharma majors — a distinct dedicated life-sciences investing platform within Blackstone, not the generalist Blackstone parent fund."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Anagram Therapeutics",
+          "sector": "therapeutics / pancreatic enzyme replacement",
+          "outcome": "active"
+        },
+        {
+          "company": "Apogee Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Teva Pharmaceuticals (duvakitug program)",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Johnson & Johnson (bleximenib / AML program)",
+          "sector": "therapeutics / oncology",
+          "outcome": "active"
+        },
+        {
+          "company": "Moderna (flu vaccine program)",
+          "sector": "therapeutics / vaccines",
+          "outcome": "active"
+        },
+        {
+          "company": "Merck (sac-TMT ADC program)",
+          "sector": "therapeutics / oncology",
+          "outcome": "active"
+        },
+        {
+          "company": "Anthos Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "acquired"
+        }
+      ]
+    },
+    "tags": [
+      "structured-financing",
+      "royalty-financing",
+      "late-stage-biopharma"
+    ],
+    "summary": {
+      "en": "Blackstone's dedicated life-sciences investing platform, providing large structured equity, royalty, and strategic-financing deals to late-stage and commercial biopharma programs; closed a record $6.3B life-sciences fund in 2026 described as the largest private fund dedicated to life sciences."
+    },
+    "sources": [
+      {
+        "url": "https://news.google.com/rss/search?q=%22Blackstone%20Life%20Sciences%22%20fund%20size",
+        "title": "Blackstone Announces Final Close of Record $6.3 Billion Life Sciences Fund",
+        "publisher": "Business Wire / BioPharma Dive / Fierce Biotech / Bloomberg (aggregated via Google News)",
+        "accessed": "2026-08-16",
+        "supports": "Fund size $6.3B close (2026) and prior $4.6B close (Dec 2024); 'largest private fund dedicated to life sciences' claim",
+        "quote": "Blackstone Announces Final Close of Record $6.3 Billion Life Sciences Fund — the Largest Private Fund Dedicated to Life Sciences"
+      },
+      {
+        "url": "https://news.google.com/rss/search?q=%22Blackstone%20Life%20Sciences%22%20invests%20in",
+        "title": "Blackstone Life Sciences Invests $250M in Anagram Therapeutics for Pancreatic Enzyme Replacement",
+        "publisher": "Contract Pharma / Business Wire / GlobeNewswire / Pharmaceutical Executive (aggregated via Google News)",
+        "accessed": "2026-08-16",
+        "supports": "Named deals: Anagram Therapeutics, Apogee Therapeutics ($1.3B strategic financing), Teva ($400M for duvakitug), J&J (bleximenib), Moderna (flu program, $750M), Merck ($700M for sac-TMT ADC), Anthos (acquired by Novartis)",
+        "quote": "$1.3 Billion Strategic Financing Collaboration with Blackstone Life Sciences to Advance Phase 3"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "WebFetch-only session: blackstone.com/businesses/life-sciences/ and bxlifesciences.com both blocked/unreachable (403 / DNS failure), so sourcing relies on Google News RSS search result pages (a WebFetch call, not WebSearch), which returned real, dated headlines from named outlets (BioPharma Dive, Fierce Biotech, Bloomberg, Business Wire, GlobeNewswire, Pharmaceutical Executive, Pulse 2.0, FirstWord Pharma) rather than a single primary press release. Exact fund numbering (e.g. 'Fund V' vs 'Fund VI') could not be confirmed from headline text alone, so fund entries are listed by vintage year only, not by name. Founded year and HQ city not sourced this session — left null rather than guessed (the firm was built from Blackstone's 2018-2019 acquisition of Clarus per general market knowledge, but that specific fact was not independently re-verified via a fetched source this round).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-investor-gaps-2"
+  },
+  {
+    "id": "us-general-atlantic",
+    "name": {
+      "en": "General Atlantic"
+    },
+    "aka": [],
+    "type": "growth-equity",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.generalatlantic.com/",
+    "strategy": {
+      "stages": [
+        "growth"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "thesis": "Global generalist growth-equity firm (Technology, Financial Services, Consumer, Energy Transition, Infrastructure) that runs Life Sciences and Healthcare as two separately listed, dedicated sector-investment categories on its own site, with 30+ current and exited biopharma/healthcare portfolio companies spanning oncology, immunology, neuropsychiatric and cardiometabolic disease, and biomanufacturing infrastructure across the US, China, EMEA and Southeast Asia."
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Nurix Therapeutics",
+          "sector": "therapeutics / targeted protein degradation",
+          "outcome": "active"
+        },
+        {
+          "company": "Centessa Pharmaceuticals",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "WuXi XDC",
+          "sector": "pharma services / bioconjugation",
+          "outcome": "active"
+        },
+        {
+          "company": "HUTCHMED",
+          "sector": "therapeutics / oncology",
+          "outcome": "active"
+        },
+        {
+          "company": "Pharvaris",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Karuna Therapeutics",
+          "sector": "therapeutics / neuropsychiatric",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Royalty Pharma",
+          "sector": "pharma royalty financing",
+          "outcome": "IPO"
+        },
+        {
+          "company": "CANbridge Pharmaceuticals",
+          "sector": "therapeutics / rare disease",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "generalist-growth-equity",
+      "healthcare-sector-practice",
+      "life-sciences-sector-practice"
+    ],
+    "summary": {
+      "en": "Global growth-equity firm with dedicated Healthcare and Life Sciences investment sectors, holding a 30+ company biopharma/healthcare portfolio (oncology, immunology, neuropsychiatric, rare and cardiometabolic disease, pharma manufacturing) alongside its larger generalist tech/consumer/financial-services book."
+    },
+    "sources": [
+      {
+        "url": "https://www.generalatlantic.com/",
+        "title": "General Atlantic",
+        "publisher": "General Atlantic",
+        "accessed": "2026-08-16",
+        "supports": "Dedicated Healthcare and Life Sciences sector categories alongside Technology, Financial Services, Consumer, Energy Transition, Infrastructure",
+        "quote": "Investments > Sectors: Technology, Healthcare, Financial Services, Consumer, Life Sciences, Energy Transition, Infrastructure"
+      },
+      {
+        "url": "https://www.generalatlantic.com/investments/?type=Life+Sciences",
+        "title": "General Atlantic — Life Sciences Investments",
+        "publisher": "General Atlantic",
+        "accessed": "2026-08-16",
+        "supports": "Named current and exited Life Sciences portfolio companies",
+        "quote": "Nurix Therapeutics, Seaport Therapeutics, Verdiva Bio, WuXi XDC, Lepure Biotech, WuXi Biologics, Centessa Pharmaceuticals, Pharvaris, HUTCHMED... Akero Therapeutics, Alumis, Karuna Therapeutics, Third Harmonic Bio, CinCor Pharma, Biotheus, Royalty Pharma, CANbridge"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Own-site portfolio page directly enumerates 30+ life-sciences companies (current + exited), which is why this clears the 'real track record of multiple health investments' bar despite General Atlantic being a generalist multi-sector growth firm overall. HQ city and founding year not sourced this session (both pages fetched were sector/portfolio listings, not an About/history page) — left null rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-investor-gaps-2"
+  },
+  {
+    "id": "us-altitude-life-science-ventures",
+    "name": {
+      "en": "Altitude Life Science Ventures"
+    },
+    "aka": [],
+    "type": "vc",
+    "status": "active",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.altitudelsv.com/",
+    "strategy": {
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "cell-gene-therapy",
+        "diagnostics",
+        "medtech-devices",
+        "ai-drug-discovery"
+      ],
+      "thesis": "Early-stage life-science VC investing across therapeutics, diagnostics, gene editing, AI/ML-driven drug discovery, medical devices and drug-delivery platforms, differentiated by in-house IP-strategy expertise: 'the integration of the fundamental activities of early stage life science companies with the creation, development and presentation of the company's IP portfolio, on a worldwide basis.' Operates multiple numbered fund vehicles (Fund II, III, IV)."
+    },
+    "lifesci": {},
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Generate Biomedicines",
+          "sector": "ai-drug-discovery / generative biology",
+          "outcome": "active"
+        },
+        {
+          "company": "Tessera Therapeutics",
+          "sector": "cell-gene-therapy / gene writing",
+          "outcome": "active"
+        },
+        {
+          "company": "Altos Labs",
+          "sector": "longevity-aging / cellular rejuvenation",
+          "outcome": "active"
+        },
+        {
+          "company": "City Therapeutics",
+          "sector": "cell-gene-therapy / RNAi",
+          "outcome": "active"
+        },
+        {
+          "company": "Ansa Biotechnologies",
+          "sector": "life-science-tools / enzymatic DNA synthesis",
+          "outcome": "active"
+        },
+        {
+          "company": "Sail Biomedicines",
+          "sector": "cell-gene-therapy / RNA therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Ring Therapeutics",
+          "sector": "cell-gene-therapy / gene therapy vectors",
+          "outcome": "active"
+        },
+        {
+          "company": "Bionaut Labs",
+          "sector": "medtech-devices / targeted drug delivery microrobots",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "early-stage-life-science",
+      "ip-strategy-focused"
+    ],
+    "summary": {
+      "en": "US early-stage life-science VC running multiple numbered funds (II, III, IV) across therapeutics, diagnostics, gene editing, and medical devices; Fund IV alone backs a 14-company roster including Generate Biomedicines, Tessera Therapeutics, Altos Labs, and Ring Therapeutics."
+    },
+    "sources": [
+      {
+        "url": "https://www.altitudelsv.com/about",
+        "title": "Altitude Life Science Ventures — About",
+        "publisher": "Altitude Life Science Ventures",
+        "accessed": "2026-08-16",
+        "supports": "Investment focus, sector scope, IP-strategy differentiation",
+        "quote": "Altitude Life Science Ventures seeks opportunities to invest in early stage life science companies within markets with significant demand and growth potential."
+      },
+      {
+        "url": "https://www.altitudelsv.com/fund-iv",
+        "title": "Altitude Life Science Ventures — Fund IV",
+        "publisher": "Altitude Life Science Ventures",
+        "accessed": "2026-08-16",
+        "supports": "Named Fund IV portfolio companies",
+        "quote": "Generate Biomedicines, Lila Sciences, Tessera Therapeutics, City Therapeutics, Altos Labs, Ansa Biotechnologies, Interdict Bio, Aera Therapeutics, Mozart Therapeutics, Expedition Medicines, Bionaut Labs, Vilya Therapeutics, Sail Biomedicines, Ring Therapeutics"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Fund sizes/AUM, founding year, named partners and HQ city were not disclosed on the About/Fund IV pages fetched this session (Team and Historical pages exist per site navigation but were not fetched) — left null rather than guessed. Fund II and Fund III portfolio pages exist per site nav but were not individually fetched this round; Fund IV alone already clears the multi-investment bar.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-investor-gaps-2"
   },
   {
     "id": "us-avalon-bioventures",

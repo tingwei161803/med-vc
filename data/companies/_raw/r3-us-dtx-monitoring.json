@@ -1,0 +1,1824 @@
+[
+  {
+    "id": "us-pear-therapeutics",
+    "name": {
+      "en": "Pear Therapeutics"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "mental-health",
+      "healthcare-services"
+    ],
+    "status": "shut-down",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Prescription digital therapeutics company that developed FDA-authorized software treatments for substance use disorder (reSET), opioid use disorder (reSET-O), and chronic insomnia (Somryst).",
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "De Novo",
+          "item": "reSET",
+          "year": 2017
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "reSET-O",
+          "year": 2018
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Somryst",
+          "year": 2020
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "shutdown"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Pear+Therapeutics%22&limit=10",
+        "title": "openFDA 510(k)/De Novo records for Pear Therapeutics, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "reSET-O | Decision Date: 2018-12-10 | K173681; Somryst | Decision Date: 2020-03-23 | K191716; reSet | Decision Date: 2017-09-14 | DEN160018"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Pear Therapeutics is one of the most prominent failures in prescription digital therapeutics -- it ceased independent operations in 2023 after financial distress, widely reported in industry press. The three FDA authorizations above are independently confirmed via the openFDA API. This session's web-search tool was unavailable (budget exhausted) and sec.gov / Wikipedia did not yield a fetchable primary source for the bankruptcy filing date, disposition of assets, or investor list, so those specifics are omitted rather than guessed. Status 'shut-down' and funding.exit.type 'shutdown' reflect the well-documented outcome even though a citable quote for the exact date could not be retrieved this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-akili-interactive",
+    "name": {
+      "en": "Akili, Inc."
+    },
+    "aka": [
+      "Akili Interactive Labs",
+      "Akili Interactive"
+    ],
+    "category": "digital-health",
+    "sectors": [
+      "mental-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Developer of prescription and over-the-counter video-game-based digital therapeutics for cognitive impairment; EndeavorRx treats pediatric ADHD and was the first FDA-authorized prescription video game treatment.",
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health",
+        "neurology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "De Novo",
+          "item": "EndeavorRx",
+          "year": 2020
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "EndeavorRx",
+          "year": 2023
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "EndeavorOTC",
+          "year": 2024
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-c",
+          "amount": {
+            "raw": "$13M (add-on)",
+            "usd": null,
+            "currency": "USD"
+          },
+          "date": "2018-08"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Akili%22&limit=10",
+        "title": "openFDA 510(k)/De Novo records for Akili Interactive Labs, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Akili Interactive Labs, Inc. | EndeavorOTC | Decision Date: 2024-06-14 | K233496; EndeavorRx | Decision Date: 2020-06-15 | DEN200026; EndeavorRx | Decision Date: 2023-12-13 | K231337"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/PureTech_Health",
+        "title": "PureTech Health",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "funding, corporate origin",
+        "quote": "Akili Interactive adds $13 million to Series C funding pool"
+      },
+      {
+        "url": "https://www.akiliinteractive.com/",
+        "title": "Akili Interactive homepage",
+        "publisher": "Akili Interactive",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, current product status",
+        "quote": "the first FDA-authorized prescription video game treatment"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Akili was spun out of PureTech Health. Public reporting elsewhere describes a 2022 SPAC merger (NASDAQ: AKLI) and a 2024 take-private/restructuring; neither could be independently re-confirmed via available tools this session (web search unavailable, Wikipedia has no dedicated Akili article, SEC EDGAR blocked WebFetch with 403). Status is recorded as 'private' based on the company's own site, which currently shows both EndeavorRx (Rx) and EndeavorOTC as active/available products -- this should be treated as provisional pending re-verification of listing status.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-proteus-digital-health",
+    "name": {
+      "en": "Proteus Digital Health"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "shut-down",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Developer of an ingestible sensor for medication-adherence tracking, activated by stomach acid and read by a wearable patch; partnered with Otsuka Pharmaceutical on Abilify MyCite, the first FDA-approved digital pill.",
+      "modalities": [
+        "drug-delivery",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "NDA (companion device)",
+          "item": "Abilify MyCite (aripiprazole tablets with ingestible sensor, with Otsuka Pharmaceutical)",
+          "year": 2017
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "shutdown"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Digital_pill",
+        "title": "Digital pill",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "what the company did, FDA milestone",
+        "quote": "This digital pill's sensor, developed by Proteus Digital Health, is activated by acid in the stomach, and generates an electrical signal that is picked up by a patch worn on the ribcage. Otsuka Pharmaceutical Co., Ltd. (Otsuka) and Proteus Digital Health (Proteus) were the first to be granted approval for a digital medicine system by the FDA."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Proteus filed for Chapter 11 bankruptcy in 2020 after failing to find a buyer or secure a bridge round -- a widely reported, prominent digital-health failure -- but a citable primary source for the exact filing date, funding total, and named investors could not be retrieved this session (web search unavailable; no dedicated Wikipedia article; sec.gov blocked WebFetch with 403). Included per instructions to record notable shutdowns even where full financial detail is unavailable; status/exit type reflect the well-documented outcome.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-welldoc",
+    "name": {
+      "en": "WellDoc, Inc."
+    },
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "AI-powered digital therapeutics platform (BlueStar) for cardiometabolic chronic-disease management, covering diabetes, hypertension, weight management and other conditions, with EHR and payer integrations.",
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "cardiovascular",
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "BlueStar Rx",
+          "year": 2020
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "WellDoc DiabetesManager System / DiabetesManager-Rx System",
+          "year": 2010
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "BlueStar CGM insulin dose calculator",
+          "year": 2023
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.welldoc.com/about-us/",
+        "title": "About Welldoc",
+        "publisher": "WellDoc",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, regulatory count, HQ",
+        "quote": "11 FDA clearances"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Welldoc%22&limit=10",
+        "title": "openFDA 510(k) records for Welldoc, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "BlueStar Rx | Decision Date: 2020-04-07 | K193654; DIABETESMANAGER SYSTEM AND DIABETESMANAGER-RX SYSTEM MODEL VERSION 1.1 | Decision Date: 2010-07-15 | K100066; BlueStar CGM insulin dose calculator | Decision Date: 2023-08-11 | K222888"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "WellDoc's own page states a 'U.S. Headquarters' plus a secondary center in Bangalore, India (CIDR), without naming the US city; hq_city left blank rather than guessed. Funding/investor history not disclosed on the fetched page and could not be sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-better-therapeutics",
+    "name": {
+      "en": "Better Therapeutics, Inc."
+    },
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "shut-down",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Developer of AspyreRx (BT-001), an FDA-authorized prescription digital therapeutic delivering cognitive behavioral therapy for type 2 diabetes.",
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "De Novo",
+          "item": "BT-001 (AspyreRx) — Diabetes Digital Therapeutic Device",
+          "year": 2023
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "shutdown"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Better+Therapeutics%22&limit=10",
+        "title": "openFDA De Novo record for Better Therapeutics",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearance",
+        "quote": "Applicant: Better Therapeutics | Device Name: BT-001 | Decision Date: 2023-07-07 | Clearance Number: DEN220058 | \"Diabetes Digital Therapeutic Device\""
+      },
+      {
+        "url": "https://www.clicktherapeutics.com/newsroom/",
+        "title": "Click Therapeutics newsroom (attempted fetch)",
+        "publisher": "Click Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "corroborating that Better Therapeutics no longer operates independently",
+        "quote": "server returned HTTP 404"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Better Therapeutics publicly reported bankruptcy/wind-down in 2024 (Nasdaq: BTTX went to zero). This session's attempt to fetch the company's own domain (bettertx.com) failed with DNS resolution error (getaddrinfo ENOTFOUND), consistent with the company no longer operating an active website. A primary source with the exact bankruptcy filing date and disposition of the AspyreRx asset could not be retrieved (web search unavailable, sec.gov blocked). Separately, Click Therapeutics' own site now lists 'AspyreRx for Type 2 Diabetes' among its FDA-authorized products, suggesting Click may have acquired the asset out of the wind-down -- flagged here as an unconfirmed lead, not asserted as fact.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-click-therapeutics",
+    "name": {
+      "en": "Click Therapeutics, Inc."
+    },
+    "category": "digital-health",
+    "sectors": [
+      "mental-health"
+    ],
+    "status": "private",
+    "founded_year": 2012,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Prescription digital therapeutics platform combining neuroscience and software; commercial/authorized products include Rejoyn (CT-152, with Otsuka) for major depressive disorder and CT-132 for episodic migraine, plus AspyreRx for type 2 diabetes.",
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health",
+        "neurology",
+        "metabolic-obesity"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "De Novo",
+          "item": "CT-132 (episodic migraine)",
+          "year": 2025
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Motivista (CT-155)",
+          "year": 2026
+        }
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "HIG BioHealth Partners",
+          "entity_id": null,
+          "role": "unknown",
+          "round": "unknown"
+        },
+        {
+          "name": "Accelmed",
+          "entity_id": null,
+          "role": "unknown",
+          "round": "unknown"
+        },
+        {
+          "name": "Sanofi Ventures",
+          "entity_id": null,
+          "role": "unknown",
+          "round": "unknown"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.clicktherapeutics.com/about/",
+        "title": "About Click Therapeutics",
+        "publisher": "Click Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "founding year, products, investors",
+        "quote": "supported by a biotech/pharma investor base, including HIG, Accelmed, & Sanofi Ventures"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Click+Therapeutics%22&limit=10",
+        "title": "openFDA records for Click Therapeutics, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Click Therapeutics, Inc. | CT-132 | Decision Date: 2025-04-11 | DEN240064; Motivista (CT-155) | Decision Date: 2026-07-30 | K254038"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Investor role and entry round not stated on the fetched page -- recorded as 'unknown' rather than guessed. HQ city not confirmed via a fetched source this session and left blank.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-nightware",
+    "name": {
+      "en": "NightWare, Inc."
+    },
+    "category": "digital-health",
+    "sectors": [
+      "mental-health",
+      "medtech-devices"
+    ],
+    "status": "private",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Apple Watch-based prescription digital therapeutic that detects and interrupts nightmares associated with PTSD/nightmare disorder via haptic vibration, to improve sleep quality.",
+      "modalities": [
+        "digital-therapeutics",
+        "wearables-sensors",
+        "software-samd"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "De Novo",
+          "item": "NightWare Kit (Apple Watch/iPhone-based)",
+          "year": 2020
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.nightware.com/about",
+        "title": "About NightWare",
+        "publisher": "NightWare",
+        "accessed": "2026-08-16",
+        "supports": "founding story, what the company does",
+        "quote": "help people with frequent, traumatic nightmares to enjoy improved sleep quality and get a more restful sleep"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22NightWare%22&limit=10",
+        "title": "openFDA De Novo record for Nightware, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearance",
+        "quote": "Applicant Name: Nightware, Inc. | Device Name: \"NightWare Kit, Apple iPhone, Apple Watch...\" | Decision Date: 2020-11-06 | Clearance Number: DEN200033"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Funding/investor history and HQ city not disclosed on the fetched page; not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-freespira",
+    "name": {
+      "en": "Freespira, Inc."
+    },
+    "category": "digital-health",
+    "sectors": [
+      "mental-health",
+      "medtech-devices"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Kirkland, WA",
+    "profile": {
+      "what": "FDA-cleared digital therapeutic using respiratory (capnometry) biofeedback delivered via a breathing sensor and tablet to treat panic disorder and PTSD symptoms without medication.",
+      "modalities": [
+        "digital-therapeutics",
+        "medical-hardware"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Freespira Breathing System",
+          "year": 2025
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://freespira.com/",
+        "title": "Freespira homepage",
+        "publisher": "Freespira",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, HQ address, indication",
+        "quote": "Kirkland, WA (12020 113th Ave NE, Suite 215, Kirkland, WA 98034-6951)"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Freespira%22&limit=10",
+        "title": "openFDA 510(k) record for Freespira, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearance",
+        "quote": "Applicant Name: Freespira, Inc. | Device Name: \"Freespira Breathing System\" | Decision Date: 2025-04-24 | Clearance Number: K233337"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Funding/investor history not disclosed on the fetched pages and not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-preventice-solutions",
+    "name": {
+      "en": "Preventice Solutions, Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "acquired",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Minneapolis, MN",
+    "profile": {
+      "what": "Mobile cardiac health company that made the BodyGuardian remote ECG/vitals monitoring system for ambulatory cardiac monitoring.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware",
+        "software-samd"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "BodyGuardian Remote Monitoring System",
+          "year": 2020
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "BodyGuardian System / BodyGuardian Control Unit / BodyGuardian Connect",
+          "year": 2012
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2021,
+        "acquirer": "Boston Scientific",
+        "value": {
+          "raw": "up to $1.2 billion",
+          "usd": 1200000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Boston_Scientific",
+        "title": "Boston Scientific",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "acquisition date, price, HQ, what the company did",
+        "quote": "Boston announced it would acquire Minneapolis-based Preventice Solutions, Inc., and its portfolio of mobile cardiac health solutions for up to $1.2 billion."
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Preventice%22&limit=15",
+        "title": "openFDA 510(k) records for Preventice",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Preventice Technologies, Inc. | BodyGuardian Remote Monitoring System | Decision Date: 2020-03-26 | K192732; Preventice, Inc. | BODYGUARDIAN SYSTEM... | Decision Date: 2012-08-10 | K121197"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-health-recovery-solutions",
+    "name": {
+      "en": "Health Recovery Solutions"
+    },
+    "aka": [
+      "HRS"
+    ],
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Enterprise remote patient monitoring, chronic care management and virtual-care platform (PatientConnect, ClinicianConnect, WoundConnect) used across acute, post-acute and ambulatory care settings; acquired Rimidi in 2026.",
+      "modalities": [
+        "software-samd",
+        "wearables-sensors"
+      ],
+      "development_stage": "commercial"
+    },
+    "sources": [
+      {
+        "url": "https://www.healthrecoverysolutions.com/",
+        "title": "Health Recovery Solutions homepage",
+        "publisher": "Health Recovery Solutions",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, scale, Rimidi acquisition",
+        "quote": "the award-winning pioneer in Remote Patient Monitoring (RPM), Chronic Care Management (CCM), and longitudinal virtual care ... over 1 million patient lives impacted"
+      },
+      {
+        "url": "https://www.healthrecoverysolutions.com/rimidi-acquisition",
+        "title": "Rimidi acquisition announcement",
+        "publisher": "Health Recovery Solutions",
+        "accessed": "2026-08-16",
+        "supports": "Rimidi acquisition",
+        "quote": "combines proven software, comprehensive services, and connected devices to deliver enterprise-scale virtual care—from new diagnosis through acute, post-acute, and ambulatory settings"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, HQ city, and funding/investor history not disclosed on the fetched pages; not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-rimidi",
+    "name": {
+      "en": "Rimidi"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "acquired",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Chronic-disease remote patient monitoring software company; acquired by Health Recovery Solutions.",
+      "modalities": [
+        "software-samd"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "Health Recovery Solutions"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.rimidi.com/",
+        "title": "rimidi.com (redirects to HRS acquisition page)",
+        "publisher": "Rimidi / Health Recovery Solutions",
+        "accessed": "2026-08-16",
+        "supports": "acquisition by Health Recovery Solutions",
+        "quote": "301 Moved Permanently -> https://www.healthrecoverysolutions.com/rimidi-acquisition"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "rimidi.com now redirects entirely to Health Recovery Solutions' acquisition announcement page, confirming the acquisition, but exact date/price were not stated on the fetched content.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-contessa-health",
+    "name": {
+      "en": "Contessa Health"
+    },
+    "category": "healthcare-services",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "acquired",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Hospital-at-home enablement company providing recovery care, rehabilitation care and other acute-level services delivered in the home; acquired by Amedisys.",
+      "modalities": [],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "Amedisys"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.contessahealth.com/about/",
+        "title": "contessahealth.com (site retired, redirects to Amedisys)",
+        "publisher": "Contessa Health / Amedisys",
+        "accessed": "2026-08-16",
+        "supports": "acquisition by Amedisys, services offered",
+        "quote": "This Website Is No Longer Active ... Recovery Care at Home, Rehabilitation Care at Home"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Contessa's own site is retired and directs to Amedisys, confirming the acquisition, but the exact date and price could not be retrieved this session (Amedisys newsroom/IR pages returned 429/DNS errors; web search unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-biofourmis",
+    "name": {
+      "en": "Biofourmis"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services",
+      "medtech-devices"
+    ],
+    "status": "private",
+    "founded_year": 2015,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "profile": {
+      "what": "AI-driven remote patient monitoring and digital-therapeutics platform used for hospital-at-home and post-acute care, combining a wearable biosensor (Everion+) with predictive analytics (Biovitals).",
+      "modalities": [
+        "wearables-sensors",
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Everion+ System",
+          "year": 2023
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Biovitals Analytics Engine",
+          "year": 2019
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "RhythmAnalytics",
+          "year": 2019
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.biofourmis.com/about/",
+        "title": "About Biofourmis",
+        "publisher": "Biofourmis",
+        "accessed": "2026-08-16",
+        "supports": "founding year, HQ, board members",
+        "quote": "Founded: 2015; HQ: Boston (with additional global offices in Singapore and India); board members from Bessemer Venture Partners, General Atlantic, and Openspace Ventures"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Biofourmis%22&limit=10",
+        "title": "openFDA 510(k) records for Biofourmis Singapore Pte., Ltd.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Biofourmis Singapore Pte., Ltd. | Everion+ System | Decision Date: 2023-02-23 | K213863; Biovitals Analytics Engine | Decision Date: 2019-08-15 | K183282"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "FDA 510(k) filings are under the entity name 'Biofourmis Singapore Pte., Ltd.' (regulatory affiliate) even though the company's own site states its headquarters is Boston, MA. Board members named (Bessemer Venture Partners, General Atlantic, Openspace Ventures) are listed as directors/affiliations on the About page, not explicitly as funding-round investors with amounts, so they are described in profile text rather than in funding.investors to avoid overstating what was sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-biointellisense",
+    "name": {
+      "en": "BioIntelliSense, Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of the BioButton, a continuous multi-parameter wearable vital-sign sensor used for remote patient monitoring in facility and home settings.",
+      "modalities": [
+        "wearables-sensors",
+        "software-samd"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "BioButton System",
+          "year": 2024
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "BioSticker System",
+          "year": 2019
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://www.biointellisense.com/",
+        "title": "BioIntelliSense homepage",
+        "publisher": "BioIntelliSense",
+        "accessed": "2026-08-16",
+        "supports": "what the company does",
+        "quote": "delivers scalable continuous monitoring that proactively identifies early signs of patient deterioration"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22BioIntelliSense%22&limit=10",
+        "title": "openFDA 510(k) records for Biointellisense, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Biointellisense, Inc. | BioButton System | Decision Date: 2024-09-26 | K241101; BioSticker System | Decision Date: 2019-12-18 | K191614"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, HQ city, and funding/investor history not disclosed on the fetched page; not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-irhythm-technologies",
+    "name": {
+      "en": "iRhythm Technologies, Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of the Zio patch, a wearable ambulatory ECG monitor paired with an AI-assisted analysis service (ZEUS System) for arrhythmia detection.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "ZIO PATCH",
+          "year": 2009
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Zio AT ECG Monitoring System, ZEUS System",
+          "year": 2018
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "ZEUS System (Zio Watch)",
+          "year": 2022
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "ticker": "NASDAQ:IRTC"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22iRhythm%22&limit=10",
+        "title": "openFDA 510(k) records for iRhythm Technologies, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "product history, regulatory clearances",
+        "quote": "ZIO PATCH | Decision Date: 2009-05-08 | K090363; Zio AT ECG Monitoring System, ZEUS System | Decision Date: 2018-08-29 | K181502; ZEUS System (Zio Watch) | Decision Date: 2022-07-19 | K213409"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Public company (NASDAQ: IRTC); founding year, HQ city, and IPO date not independently sourced this session (Wikipedia article not found under attempted titles; irhythmtech.com about page 404'd). Ticker is well-established public information.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-eko-health",
+    "name": {
+      "en": "Eko Health"
+    },
+    "aka": [
+      "Eko Devices"
+    ],
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of AI-powered digital stethoscopes (CORE 500, 3M Littmann CORE Digital Stethoscope) with FDA-cleared algorithms for detecting heart murmurs and atrial fibrillation.",
+      "modalities": [
+        "medical-hardware",
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "indications": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "CORE 500 Digital Stethoscope",
+          "year": 2023
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Eko Murmur Analysis Software (EMAS)",
+          "year": 2022
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Eko Electronic Stethoscope System",
+          "year": 2015
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://ekohealth.com/",
+        "title": "Eko Health homepage",
+        "publisher": "Eko Health",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, clearance count, device sales",
+        "quote": "9 FDA CLEARANCES ... More than 750,000 devices sold"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Eko+Devices%22&limit=10",
+        "title": "openFDA 510(k) records for Eko Devices, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Eko Devices, Inc. | CORE 500 Digital Stethoscope | Decision Date: 2023-05-26 | K230111; Eko Murmur Analysis Software (EMAS) | Decision Date: 2022-06-29 | K213794"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, HQ city, and funding/investor history not disclosed on the fetched page; not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-masimo",
+    "name": {
+      "en": "Masimo Corporation"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "consumer-health"
+    ],
+    "status": "public",
+    "founded_year": 1989,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Irvine, CA",
+    "profile": {
+      "what": "Maker of pulse-oximetry and multi-parameter patient-monitoring devices and sensors for hospital and home settings, using Signal Extraction Technology (SET); expanded into consumer health-tracking hardware before divesting its consumer audio division.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2007,
+        "ticker": "NASDAQ:MASI"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Masimo",
+        "title": "Masimo",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, IPO, recent corporate events",
+        "quote": "Masimo was established in 1989 by engineer Joe Kiani in Irvine, California ... Masimo went public in 2007 and trades on Nasdaq under ticker symbol MASI ... In February 2026, Danaher Corporation agreed to acquire Masimo for $9.9 billion"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Per the fetched source, in February 2026 Danaher Corporation agreed to acquire Masimo for $9.9 billion (a pending/agreed deal as of this writing) -- recorded here via status 'public' since the deal had not yet closed per the source; flagged for re-check as the transaction progresses. Also sold its consumer audio division (Denon, Bowers & Wilkins) to Harman International for $350 million in May 2025.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-dexcom",
+    "name": {
+      "en": "Dexcom, Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": 1999,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego, CA",
+    "profile": {
+      "what": "Maker of continuous glucose monitoring (CGM) systems for diabetes management, including the G-series (G6, G7) wearable sensors.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "STS system (3-day sensor)",
+          "year": 2006
+        },
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "G4 Platinum",
+          "year": 2012
+        },
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "G7",
+          "year": 2022
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2005,
+        "ticker": "NASDAQ:DXCM"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dexcom",
+        "title": "Dexcom",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, IPO, FDA milestones, financials",
+        "quote": "Dexcom was established in 1999 ... global headquarters and R&D center in San Diego, California, U.S. ... Dexcom went public in 2005 and trades on Nasdaq under ticker DXCM"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-senseonics",
+    "name": {
+      "en": "Senseonics Holdings, Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of the Eversense implantable continuous glucose monitor (CGM) -- the only long-duration implantable CGM on the market, most recently the one-year Eversense 365.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "De Novo",
+          "item": "Eversense AP CGM System",
+          "year": 2024
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Eversense 365 Continuous Glucose Monitoring (CGM) System",
+          "year": 2024
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Continuous_glucose_monitor",
+        "title": "Continuous glucose monitor",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "product history, FDA approvals",
+        "quote": "In June 2018, the FDA approved the Eversense CGM system (manufactured by Senseonics Inc) for use in people 18 years of age and older with diabetes ... In October 2024, Senseonics launched the Eversense 365 in the US, the first one-year CGM system."
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Senseonics%22&limit=10",
+        "title": "openFDA records for Senseonics, Incorporated",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Senseonics, Incorporated | Eversense 365 Continuous Glucose Monitoring (CGM) System | Decision Date: 2024-09-16 | K241335; Eversense AP CGM System | Decision Date: 2024-04-29 | DEN230052"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Public company; ticker and founding year not confirmed via a fetched source this session (Wikipedia has no standalone Senseonics article; other sources only mention it in passing) and left unsourced rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-insulet",
+    "name": {
+      "en": "Insulet Corporation"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": 2000,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of the Omnipod tubeless, wearable insulin patch-pump system for automated insulin delivery.",
+      "modalities": [
+        "medical-hardware",
+        "drug-delivery"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Omnipod DASH Insulin Management System with interoperable technology",
+          "year": 2019
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Omnipod 5 ACE Pump (Pod)",
+          "year": 2022
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Omnipod 5 algorithm",
+          "year": 2025
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "ticker": "NASDAQ:PODD"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.insulet.com/about-us",
+        "title": "About Insulet",
+        "publisher": "Insulet Corporation",
+        "accessed": "2026-08-16",
+        "supports": "founding, ticker",
+        "quote": "A father's determination to free his son from the burden of daily insulin injections was the driving force that created Insulet in 2000."
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Insulet%22&limit=15",
+        "title": "openFDA 510(k) records for Insulet Corporation",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Insulet Corporation | Omnipod DASH Insulin Management System with interoperable technology | Decision Date: 2019-09-20 | K191679; Omnipod 5 ACE Pump (Pod) | Decision Date: 2022-01-27 | K203768"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "HQ city and IPO date not confirmed via a fetched source this session (commonly reported as Acton/Massachusetts but left blank pending verification).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-tandem-diabetes-care",
+    "name": {
+      "en": "Tandem Diabetes Care"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": 2006,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego, CA",
+    "profile": {
+      "what": "Maker of the t:slim X2 touchscreen insulin pump and automated insulin delivery systems, interoperable with Dexcom CGM.",
+      "modalities": [
+        "medical-hardware",
+        "drug-delivery"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "clearance",
+          "item": "t:slim insulin pump",
+          "year": 2011
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2013,
+        "ticker": "NASDAQ:TNDM",
+        "value": {
+          "raw": "~$108M raised",
+          "usd": 108000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/w/index.php?search=Tandem+Diabetes+Care",
+        "title": "Tandem Diabetes Care (via fetch tool summary of Wikipedia content)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "founding, HQ, IPO, FDA milestone, current scale",
+        "quote": "established in 2006 and is headquartered in San Diego, California ... Tandem went public on the Nasdaq in November 2013 under ticker symbol TNDM. The company sold eight million shares at $15 each in its initial public offering, raising approximately $108 million after costs ... FDA clearance of the original t:slim in November 2011"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-twin-health",
+    "name": {
+      "en": "Twin Health"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "consumer-health",
+      "healthcare-services"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "AI 'Whole Body Digital Twin' platform that ingests continuous data from CGMs and wearables to deliver personalized nutrition, activity, sleep and stress guidance aimed at reversing type 2 diabetes and metabolic disease, sold to employers and health plans.",
+      "modalities": [
+        "ai-ml-platform",
+        "wearables-sensors",
+        "digital-therapeutics"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "endocrinology"
+      ],
+      "development_stage": "commercial"
+    },
+    "sources": [
+      {
+        "url": "https://usa.twinhealth.com/",
+        "title": "Twin Health (US) homepage",
+        "publisher": "Twin Health",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, clinical outcomes, customers",
+        "quote": "71% of participants lowering A1C below 6.5% without glucose-lowering medications ... notable clients including Benjamin Moore, HCSC, Invitation Homes, and Baptist Children's"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ city, founding year, funding and investors were not stated on the fetched pages and could not be sourced elsewhere this session (web search unavailable). Country is recorded as United States based on the company's primary market presence (usa.twinhealth.com) and general market positioning as a Silicon Valley-based digital-health company; this should be treated as provisional and re-verified.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-vivalink",
+    "name": {
+      "en": "VivaLNK, Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of clinically validated wearable biosensor patches (ECG, temperature, SpO2) and an integrated remote-patient-monitoring platform used in clinical trials and healthcare settings.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Fever Scout Continuous Monitoring thermometer",
+          "year": 2017
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "VV330 Continuous ECG Platform, VivaLNK Adhesive Patch",
+          "year": 2020
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://vivalink.com/",
+        "title": "VivaLNK homepage",
+        "publisher": "VivaLNK",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, customer base",
+        "quote": "400+ customers rely on Vivalink's platform, including ... Eli Lilly, AbbVie, Bristol Myers Squibb, Novartis, AstraZeneca ... Harvard, Stanford, UCSF"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22VivaLNK%22&limit=10",
+        "title": "openFDA 510(k) records for VivaLNK, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "VivaLNK, Inc. | Fever Scout | Decision Date: 2018-08-21 | K181013; VV330 Continuous ECG Platform, VivaLNK Adhesive Patch | Decision Date: 2020-01-07 | K191870"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, HQ city, and funding/investor history not disclosed on the fetched page; not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-propeller-health",
+    "name": {
+      "en": "Propeller Health"
+    },
+    "aka": [
+      "Asthmapolis"
+    ],
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "acquired",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of sensor add-ons for inhalers that digitally track medication use and connect to a mobile asthma/COPD management platform; formerly branded Asthmapolis.",
+      "modalities": [
+        "wearables-sensors",
+        "software-samd",
+        "medical-hardware"
+      ],
+      "indications": [
+        "respiratory"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "ResMed"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.propellerhealth.com/",
+        "title": "propellerhealth.com (now redirects to ResMed)",
+        "publisher": "Propeller Health / ResMed",
+        "accessed": "2026-08-16",
+        "supports": "acquisition by ResMed",
+        "quote": "301 Moved Permanently -> https://www.resmed.com/en-us/health-professionals/digital-health/"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/AptarGroup",
+        "title": "AptarGroup",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, early partnership",
+        "quote": "in 2016, the company partnered with Propeller Health Partners to develop a digitally connected medication inhaler"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "propellerhealth.com now redirects permanently to a ResMed digital-health page, confirming Propeller Health is part of ResMed, but the acquisition date and price were not retrieved from a fetchable source this session (ResMed newsroom/investor pages returned 403; web search unavailable).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-nanit",
+    "name": {
+      "en": "Nanit"
+    },
+    "category": "consumer-health",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "profile": {
+      "what": "Maker of a smart baby monitor camera with computer-vision-based sleep tracking, safety alerts and behavior analysis for infants.",
+      "modalities": [
+        "medical-hardware",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "pediatrics"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "$6.6M",
+            "usd": 6600000,
+            "currency": "USD"
+          },
+          "date": "2016-06"
+        }
+      ]
+    },
+    "people": [
+      {
+        "name": "Assaf Glazer",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Tor Ivry",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Andrew Berman",
+        "role": "Co-founder"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nanit",
+        "title": "Nanit",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "HQ, founders, seed funding, what the company does",
+        "quote": "Headquarters: New York City ... $6.6 million in seed funding ... Founders: Tor Ivry, Andrew Berman, and Assaf Glazer"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year not stated in the fetched source; later funding rounds (Nanit has raised well beyond its 2016 seed per general industry knowledge) could not be sourced this session and are omitted rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-etectrx",
+    "name": {
+      "en": "etectRx, Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Alachua, FL",
+    "profile": {
+      "what": "Developer of the ID-Cap System, an FDA-cleared ingestible sensor (ingestible event marker) for objectively confirming medication adherence.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "ID-Cap System (Ingestible Event Marker)",
+          "year": 2019
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://etectrx.com/about-us/",
+        "title": "About etectRx",
+        "publisher": "etectRx",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, HQ address",
+        "quote": "13859 Progress Blvd, Suite 300, Alachua, FL 32615, USA"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22etectRx%22&limit=10",
+        "title": "openFDA 510(k) record for Etectrx, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearance",
+        "quote": "Applicant Name: Etectrx, Inc. | Device Name: ID-Cap System | Decision Date: 2019-12-06 | Clearance Number: K183052 ... classified as an \"Ingestible Event Marker\""
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and funding/investor history not disclosed on the fetched page; not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-cylinder-health",
+    "name": {
+      "en": "Cylinder Health"
+    },
+    "aka": [
+      "Vivante Health",
+      "GIThrive"
+    ],
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services"
+    ],
+    "status": "acquired",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Digital gastrointestinal-health platform (formerly Vivante Health / GIThrive) providing GI specialist and dietitian consultations, coaching and microbiome testing; rebranded to Cylinder Health and subsequently acquired by Hinge Health.",
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd"
+      ],
+      "indications": [
+        "gastroenterology-hepatology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "Hinge Health"
+      }
+    },
+    "sources": [
+      {
+        "url": "https://cylinderhealth.com/",
+        "title": "Cylinder Health homepage",
+        "publisher": "Cylinder Health",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, acquisition by Hinge Health, scale",
+        "quote": "Cylinder Health is joining Hinge Health ... Over 150,000 people served; 91% of members report improved GI symptoms"
+      },
+      {
+        "url": "https://www.vivantehealth.com/about-us",
+        "title": "vivantehealth.com/about-us (redirects to Cylinder Health)",
+        "publisher": "Vivante Health / Cylinder Health",
+        "accessed": "2026-08-16",
+        "supports": "rebrand from Vivante Health to Cylinder Health",
+        "quote": "301 Moved Permanently -> https://cylinderhealth.com/about-us"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, HQ city, and prior Vivante Health funding history were not available on the fetched pages and could not be sourced elsewhere this session. Hinge Health (the acquirer) is already profiled in the directory as us-hinge-health.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-neuroflow",
+    "name": {
+      "en": "NeuroFlow"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "mental-health",
+      "healthcare-it"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Philadelphia, PA",
+    "profile": {
+      "what": "Behavioral-health integration and measurement-based care platform that identifies population behavioral-health risk early and routes patients to acuity-specific resources; grew via acquisitions of Owl (2024) and Quartet Health (2025).",
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "sources": [
+      {
+        "url": "https://www.neuroflow.com/about",
+        "title": "About NeuroFlow",
+        "publisher": "NeuroFlow",
+        "accessed": "2026-08-16",
+        "supports": "HQ, what the company does",
+        "quote": "Philadelphia, PA ... create platforms that identify population behavioral health risk early, engage individuals with acuity-specific resources, and enable care teams to make smarter and more efficient decisions"
+      },
+      {
+        "url": "https://www.neuroflow.com/press",
+        "title": "NeuroFlow press page",
+        "publisher": "NeuroFlow",
+        "accessed": "2026-08-16",
+        "supports": "acquisitions of Owl and Quartet Health",
+        "quote": "Jan 29 [2025]: Acquisition of Quartet Health ... Jun 11 [2024]: Acquisition of Owl, a measurement-based care company"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and funding/investor history not disclosed on the fetched pages; not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-podimetrics",
+    "name": {
+      "en": "Podimetrics, Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of the SmartMat, a connected remote temperature-sensing mat that screens for and helps prevent diabetic foot ulcers; SmartMat+ extended to fall and heart-failure signal monitoring.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware"
+      ],
+      "indications": [
+        "metabolic-obesity",
+        "endocrinology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Podimetrics Remote Temperature Monitoring System",
+          "year": 2015
+        }
+      ]
+    },
+    "people": [
+      {
+        "name": "Jon Bloom",
+        "role": "CEO and Co-Founder"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.podimetrics.com/news/",
+        "title": "Podimetrics news page",
+        "publisher": "Podimetrics",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, leadership, recent product (SmartMat+), recognitions",
+        "quote": "Launched SmartMat+, designed to reduce falls and monitor heart failure signs ... Jon Bloom serves as CEO and Co-Founder"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Podimetrics%22&limit=10",
+        "title": "openFDA 510(k) record for Podimetrics, Inc.",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearance",
+        "quote": "Applicant Name: Podimetrics, Inc. | Device Name: Podimetrics Remote Temperature Monitoring System | Decision Date: 2015-10-08 | Clearance Number: K150557"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, HQ city, and funding/investor history not disclosed on the fetched pages; not sourced elsewhere this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-biotricity",
+    "name": {
+      "en": "Biotricity Inc."
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "digital-health"
+    ],
+    "status": "public",
+    "founded_year": null,
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Maker of connected cardiac monitoring devices (Bioflux ambulatory cardiac monitor, Biotres, Biocore/Biocore Pro arrhythmia monitors, Bioheart, Biokit) for remote cardiac care.",
+      "modalities": [
+        "wearables-sensors",
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Bioflux Software",
+          "year": 2016
+        },
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Biotres",
+          "year": 2022
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2021
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.biotricity.com/about-us/",
+        "title": "About Biotricity",
+        "publisher": "Biotricity",
+        "accessed": "2026-08-16",
+        "supports": "what the company does, products, Nasdaq listing",
+        "quote": "its listing on Nasdaq in 2021 ... hold an individual's hand throughout their cardiac journey"
+      },
+      {
+        "url": "https://api.fda.gov/device/510k.json?search=applicant:%22Biotricity%22&limit=10",
+        "title": "openFDA 510(k) records for Biotricity",
+        "publisher": "FDA openFDA API",
+        "accessed": "2026-08-16",
+        "supports": "regulatory clearances",
+        "quote": "Biotricity | Biotres | Decision Date: 2022-07-28 | K222017; Biotricity, Inc. | Bioflux Software | Decision Date: 2016-10-13 | K162571"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year given only approximately on the fetched page ('a little over 8 years ago' as of the page's current date), so left as null rather than an inferred number. HQ city not confirmed via a fetched source this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r3-us-dtx-monitoring"
+  }
+]
