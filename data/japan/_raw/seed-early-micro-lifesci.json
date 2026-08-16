@@ -1,9 +1,14 @@
 [
   {
     "id": "jp-beyond-next-ventures",
-    "name": { "en": "Beyond Next Ventures", "local": "Beyond Next Ventures株式会社" },
+    "name": {
+      "en": "Beyond Next Ventures",
+      "local": "Beyond Next Ventures株式会社"
+    },
     "type": "vc",
-    "subtypes": ["accelerator"],
+    "subtypes": [
+      "accelerator"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "japan",
@@ -11,18 +16,56 @@
     "hq_city": "Tokyo",
     "website": "https://beyondnextventures.com/",
     "capital": {
-      "aum": { "raw": "約480億円 (across Funds I-III)", "usd": null, "currency": "JPY" },
+      "aum": {
+        "raw": "約480億円 (across Funds I-III)",
+        "usd": null,
+        "currency": "JPY"
+      },
       "funds": [
-        { "name": "Beyond Next Ventures 1号ファンド", "vintage_year": 2015, "size": { "raw": "約55億円", "usd": null, "currency": "JPY" } },
-        { "name": "Beyond Next Ventures 2号ファンド", "vintage_year": 2019, "size": { "raw": "165億円", "usd": null, "currency": "JPY" } },
-        { "name": "Beyond Next Ventures 3号ファンド", "vintage_year": 2023, "size": { "raw": "257億円 (final close)", "usd": null, "currency": "JPY" } }
+        {
+          "name": "Beyond Next Ventures 1号ファンド",
+          "vintage_year": 2015,
+          "size": {
+            "raw": "約55億円",
+            "usd": null,
+            "currency": "JPY"
+          }
+        },
+        {
+          "name": "Beyond Next Ventures 2号ファンド",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "165億円",
+            "usd": null,
+            "currency": "JPY"
+          }
+        },
+        {
+          "name": "Beyond Next Ventures 3号ファンド",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "257億円 (final close)",
+            "usd": null,
+            "currency": "JPY"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Japan"],
-      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "generalist-health"
+      ],
       "thesis": "Japan's leading independent deep-tech VC investing from pre-seed with a dedicated medical/healthcare and drug-discovery/bio practice alongside agri-food, space and climate tech; runs the BRAVE company-creation program that has spun out 53 companies from university research and an in-house shared lab facility in Tokyo for biopharma founders."
     },
     "lifesci": {
@@ -32,8 +75,16 @@
     "track_record": {
       "portfolio_count": 80,
       "notable_investments": [
-        { "company": "SUSMED (サスメド)", "sector": "digital-therapeutics", "outcome": "IPO" },
-        { "company": "QD Laser (QDレーザ)", "sector": "medtech-devices", "outcome": "IPO" }
+        {
+          "company": "SUSMED (サスメド)",
+          "sector": "digital-therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "QD Laser (QDレーザ)",
+          "sector": "medtech-devices",
+          "outcome": "IPO"
+        }
       ]
     },
     "sources": [
@@ -63,7 +114,10 @@
   },
   {
     "id": "jp-fast-track-initiative",
-    "name": { "en": "Fast Track Initiative", "local": "株式会社ファストトラックイニシアティブ" },
+    "name": {
+      "en": "Fast Track Initiative",
+      "local": "株式会社ファストトラックイニシアティブ"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2004,
@@ -71,20 +125,46 @@
     "country": "Japan",
     "hq_city": "Tokyo",
     "offices": [
-      { "country": "Japan", "city": "Tokyo" },
-      { "country": "United States", "city": "Boston" }
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      },
+      {
+        "country": "United States",
+        "city": "Boston"
+      }
     ],
     "website": "https://us.fasttrackinitiative.com/",
     "capital": {
-      "aum": { "raw": "$200M AUM (18+ years)", "usd": 200000000, "currency": "USD" },
+      "aum": {
+        "raw": "$200M AUM (18+ years)",
+        "usd": 200000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Fast Track Initiative Fund IV", "vintage_year": 2025, "size": { "raw": "approx. $130 million (¥20 billion)", "usd": 130000000, "currency": "USD" } }
+        {
+          "name": "Fast Track Initiative Fund IV",
+          "vintage_year": 2025,
+          "size": {
+            "raw": "approx. $130 million (¥20 billion)",
+            "usd": 130000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["Japan", "United States"],
-      "sector_focus": ["therapeutics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Japan",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Tokyo-founded (2004) life-science-dedicated VC investing in early-stage biotechnology and therapeutics companies, since 2022 also operating a Boston office; unveiled a ~$130M fourth fund in October 2025, one of Japan's longest-running independent biotech-only VCs."
     },
     "sources": [
@@ -114,7 +194,10 @@
   },
   {
     "id": "jp-saisei-ventures",
-    "name": { "en": "Saisei Ventures", "local": null },
+    "name": {
+      "en": "Saisei Ventures",
+      "local": null
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2020,
@@ -122,22 +205,46 @@
     "country": "Japan",
     "hq_city": "Boston",
     "offices": [
-      { "country": "United States", "city": "Boston" }
+      {
+        "country": "United States",
+        "city": "Boston"
+      }
     ],
     "website": "https://www.saiseiventures.com/",
     "capital": {
       "funds": [
-        { "name": "Saisei Bioventures L.P.", "vintage_year": 2021, "size": { "raw": "undisclosed total; $30M anchor commitment from Japan Investment Corporation", "usd": null, "currency": null } }
+        {
+          "name": "Saisei Bioventures L.P.",
+          "vintage_year": 2021,
+          "size": {
+            "raw": "undisclosed total; $30M anchor commitment from Japan Investment Corporation",
+            "usd": null,
+            "currency": null
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["Japan", "United States", "Canada"],
-      "sector_focus": ["cell-gene-therapy", "therapeutics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Japan",
+        "United States",
+        "Canada"
+      ],
+      "sector_focus": [
+        "cell-gene-therapy",
+        "therapeutics"
+      ],
       "thesis": "Boston-based biotech VC founded in 2020 (first fund vintage 2021) whose stated mission is building cell & gene therapy and regenerative-medicine companies from foundational technologies originating in Japan, anchored by a $30M commitment from Japan Investment Corporation and AMED-certified as a registered VC for Japan's pharmaceutical startup ecosystem program."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "gene-therapy"],
+      "modalities": [
+        "cell-therapy",
+        "gene-therapy"
+      ],
       "company_creation": true
     },
     "verification_notes": "HQ is in Boston, Massachusetts (no confirmed physical Tokyo office found), but the firm's explicit mandate is sourcing and building Japan-origin regenerative-medicine technology, it is AMED-certified for Japan's pharma startup ecosystem program, and its anchor LP is Japan Investment Corporation.",
@@ -176,7 +283,10 @@
   },
   {
     "id": "jp-catalys-pacific",
-    "name": { "en": "Catalys Pacific", "local": null },
+    "name": {
+      "en": "Catalys Pacific",
+      "local": null
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2019,
@@ -184,15 +294,32 @@
     "country": "Japan",
     "hq_city": "Tokyo",
     "offices": [
-      { "country": "Japan", "city": "Tokyo" },
-      { "country": "Japan", "city": "Kanagawa (Shonan Health Innovation Park)" },
-      { "country": "United States", "city": "Seattle" }
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      },
+      {
+        "country": "Japan",
+        "city": "Kanagawa (Shonan Health Innovation Park)"
+      },
+      {
+        "country": "United States",
+        "city": "Seattle"
+      }
     ],
     "website": "https://catalyspacific.com/",
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["Japan", "United States"],
-      "sector_focus": ["therapeutics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Japan",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Life-sciences VC launched in Japan in June 2019 with offices in Tokyo and at Shonan Health Innovation Park (Kanagawa) plus Seattle, creating and co-investing in early-stage bioventure companies alongside global life-science VCs such as Abingworth, Domain Associates and Frazier Healthcare Partners."
     },
     "lifesci": {
@@ -225,7 +352,10 @@
   },
   {
     "id": "jp-axil-capital-advisors",
-    "name": { "en": "Axil Capital Advisors", "local": "アクシル・キャピタル・アドバイザーズ株式会社" },
+    "name": {
+      "en": "Axil Capital Advisors",
+      "local": "アクシル・キャピタル・アドバイザーズ株式会社"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2017,
@@ -235,13 +365,35 @@
     "website": "https://www.axilcapital.com/",
     "capital": {
       "funds": [
-        { "name": "TaiAx Life Science Fund L.P.", "vintage_year": 2024, "size": { "raw": "$200M target", "usd": 200000000, "currency": "USD" } }
+        {
+          "name": "TaiAx Life Science Fund L.P.",
+          "vintage_year": 2024,
+          "size": {
+            "raw": "$200M target",
+            "usd": 200000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["Japan", "Taiwan", "Global"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "healthcare-services"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "Japan",
+        "Taiwan",
+        "Global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health",
+        "healthcare-services"
+      ],
       "thesis": "Independent biomedical & healthcare-focused VC founded in Tokyo in August 2017, investing across the life-sciences stack (biopharmaceuticals, platform technologies, medical devices, digital health, healthcare services) from seed through crossover stage; jointly launched the $200M-target TaiAx Life Science Fund with Taiwania Capital in August 2024."
     },
     "sources": [
@@ -271,9 +423,14 @@
   },
   {
     "id": "jp-indee-capital",
-    "name": { "en": "INDEE Capital", "local": "INDEE Capital株式会社" },
+    "name": {
+      "en": "INDEE Capital",
+      "local": "INDEE Capital株式会社"
+    },
     "type": "micro-vc",
-    "subtypes": ["accelerator"],
+    "subtypes": [
+      "accelerator"
+    ],
     "status": "active",
     "founded_year": 2024,
     "region": "japan",
@@ -281,9 +438,17 @@
     "hq_city": "Tokyo",
     "website": "https://indee-capital.com/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["Japan"],
-      "sector_focus": ["medtech-devices", "generalist-health"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "generalist-health"
+      ],
       "thesis": "Tokyo deep-tech VC established July 2024 as a subsidiary of INDEE Japan/INDEE Group, investing pre-seed through seed in science- and technology-based startups spanning medical/healthcare, AI and robotics, with hands-on support on capital strategy, IP strategy, product strategy and international expansion; affiliated with the X-DOJO pre-seed accelerator (running since 2021)."
     },
     "sources": [
@@ -313,7 +478,10 @@
   },
   {
     "id": "jp-medventure-partners",
-    "name": { "en": "MedVenture Partners", "local": "MedVenture Partners株式会社" },
+    "name": {
+      "en": "MedVenture Partners",
+      "local": "MedVenture Partners株式会社"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2013,
@@ -323,20 +491,63 @@
     "website": "https://www.medvp.co.jp/",
     "capital": {
       "funds": [
-        { "name": "MPI-2投資事業有限責任組合", "vintage_year": 2019, "size": { "raw": "9.9 billion yen", "usd": null, "currency": "JPY" } },
-        { "name": "MPI-3投資事業有限責任組合", "vintage_year": null, "size": { "raw": "approx. 13 billion yen target", "usd": null, "currency": "JPY" } }
+        {
+          "name": "MPI-2投資事業有限責任組合",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "9.9 billion yen",
+            "usd": null,
+            "currency": "JPY"
+          }
+        },
+        {
+          "name": "MPI-3投資事業有限責任組合",
+          "vintage_year": null,
+          "size": {
+            "raw": "approx. 13 billion yen target",
+            "usd": null,
+            "currency": "JPY"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["Japan"],
-      "sector_focus": ["medtech-devices"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "medtech-devices"
+      ],
       "thesis": "Japan's first venture capital firm specialized exclusively in medical devices, founded in Tokyo (Nihonbashi) in October 2013 by Hajime Oshita, investing seed through late stage to build a commercialization model for Japanese medtech technology."
     },
     "track_record": {
       "exits": [
-        { "company": "Biomedical Solutions", "type": "M&A", "year": null, "value": { "raw": "acquired by JIMRO (Otsuka Holdings subsidiary)", "usd": null, "currency": null } },
-        { "company": "A-Traction", "type": "M&A", "year": null, "value": { "raw": "acquired by Asahi Intecc (now Asahi Surgical Robotics)", "usd": null, "currency": null } }
+        {
+          "company": "Biomedical Solutions",
+          "type": "M&A",
+          "year": null,
+          "value": {
+            "raw": "acquired by JIMRO (Otsuka Holdings subsidiary)",
+            "usd": null,
+            "currency": null
+          }
+        },
+        {
+          "company": "A-Traction",
+          "type": "M&A",
+          "year": null,
+          "value": {
+            "raw": "acquired by Asahi Intecc (now Asahi Surgical Robotics)",
+            "usd": null,
+            "currency": null
+          }
+        }
       ]
     },
     "sources": [
@@ -366,7 +577,10 @@
   },
   {
     "id": "jp-diamond-medino-capital",
-    "name": { "en": "Diamond Medino Capital", "local": "Diamond Medino Capital株式会社" },
+    "name": {
+      "en": "Diamond Medino Capital",
+      "local": "Diamond Medino Capital株式会社"
+    },
     "type": "micro-vc",
     "status": "active",
     "founded_year": 2022,
@@ -375,18 +589,41 @@
     "website": "https://diamondmedino.com/",
     "capital": {
       "funds": [
-        { "name": "DMC1号投資事業有限責任組合", "vintage_year": 2022, "size": { "raw": "4-5 billion yen", "usd": null, "currency": "JPY" } }
+        {
+          "name": "DMC1号投資事業有限責任組合",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "4-5 billion yen",
+            "usd": null,
+            "currency": "JPY"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["Japan"],
-      "sector_focus": ["medtech-devices", "therapeutics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "therapeutics"
+      ],
       "thesis": "Micro-VC founded in 2022 and led by a sitting medical school professor (Mitsuizumi Hasebe) together with clinicians, financial and regulatory specialists, investing via its ¥4-5B DMC1 fund to commercialize Japan's medical device and pharmaceutical technologies globally through physician-informed, hands-on support."
     },
     "people": [
-      { "name": "Mitsuizumi Hasebe (長谷部光泉)", "role": "Representative", "background": "Practicing medical school professor" },
-      { "name": "Hideyuki Satani (里谷英之)", "role": "Director" }
+      {
+        "name": "Mitsuizumi Hasebe (長谷部光泉)",
+        "role": "Representative",
+        "background": "Practicing medical school professor"
+      },
+      {
+        "name": "Hideyuki Satani (里谷英之)",
+        "role": "Director"
+      }
     ],
     "sources": [
       {
@@ -414,79 +651,39 @@
     }
   },
   {
-    "id": "jp-realtech-fund",
-    "name": { "en": "Real Tech Fund (UntroD Capital Japan)", "local": "リアルテックファンド" },
-    "type": "vc",
-    "aka": ["UntroD Capital Japan", "リアルテックホールディングス"],
-    "status": "active",
-    "founded_year": 2016,
-    "region": "japan",
-    "country": "Japan",
-    "hq_city": "Tokyo",
-    "website": "https://www.realtech.fund/",
-    "capital": {
-      "funds": [
-        { "name": "リアルテックファンド1号投資事業有限責任組合", "vintage_year": 2016, "size": { "raw": "75億円", "usd": null, "currency": "JPY" } },
-        { "name": "リアルテックファンド (国内3号+海外1号 final close)", "vintage_year": 2021, "size": { "raw": "134億円", "usd": null, "currency": "JPY" } },
-        { "name": "リアルテックファンド4号投資事業有限責任組合", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": null } }
-      ]
-    },
-    "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["Japan"],
-      "sector_focus": ["therapeutics", "life-science-tools"],
-      "thesis": "Tokyo deep-tech VC (managed by UntroD Capital Japan, formerly Real Tech Fund) investing seed-to-early stage across a dedicated drug-discovery ecosystem strategy — university-origin 'academia drug discovery' spinouts, pharma carve-outs of specific technologies/disease areas, and project financing for clinical development — alongside other real-tech verticals such as aerospace, agri/marine and new materials."
-    },
-    "sources": [
-      {
-        "url": "https://www.euglena.jp/en/news/20210506-2/",
-        "title": "リアルテックファンド、国内3号及び海外1号ファンドが総額134億円で最終クローズ",
-        "publisher": "euglena",
-        "accessed": "undefined",
-        "supports": "fund final close size 2021"
-      },
-      {
-        "url": "https://startup-db.com/funds/NQJmXVMAs2YVaZ9w",
-        "title": "リアルテックファンド1号投資事業有限責任組合",
-        "publisher": "STARTUP DB",
-        "accessed": "undefined",
-        "supports": "fund 1 vintage year and size",
-        "quote": "リアルテックファンド1号は2016年5月2日に開始し、ファンド額は75億円で、投資対象は技術特化ベンチャーです。"
-      },
-      {
-        "url": "https://impact-consortium.fsa.go.jp/wp-content/uploads/2025/03/wg03_04_02.pdf",
-        "title": "リアルテックファンド概要資料 UntroD Capital Japan株式会社",
-        "publisher": "金融庁 (FSA) Impact Consortium",
-        "accessed": "undefined",
-        "supports": "drug discovery / academia carve-out / project finance strategy",
-        "quote": "日本でも創薬のエコシステムを円滑に構築することを戦略として掲げており、大学発のベンチャー企業（アカデミア創薬）への投資、製薬会社から切り出された特定技術・疾患領域に特化したベンチャー企業（カーブアウト）への投資、製薬会社のプロジェクトへのリスクマネーの供給（プロジェクトファイナンス）といった、創薬シーズの育成から臨床開発までの様々なステージを支援しています。"
-      }
-    ],
-    "confidence": "medium",
-    "last_updated": "undefined",
-    "researched_by": "seed-early-micro-lifesci",
-    "summary": {
-      "en": "Tokyo deep-tech VC (Real Tech Fund / UntroD Capital Japan, founded 2016) with a dedicated drug-discovery/bio investment line spanning academia spinouts, pharma carve-outs and clinical-development project finance, alongside other real-tech sectors; grew from a ¥7.5B first fund to a combined ¥13.4B by 2021.",
-      "local": "2016年設立のディープテック系VC（リアルテックファンド/UntroD Capital Japan）。アカデミア創薬・製薬カーブアウト・プロジェクトファイナンスなど創薬エコシステム戦略を持つ。"
-    }
-  },
-  {
     "id": "jp-newton-biocapital-partners",
-    "name": { "en": "Newton Biocapital", "local": null },
+    "name": {
+      "en": "Newton Biocapital",
+      "local": null
+    },
     "type": "vc",
     "status": "active",
     "region": "japan",
     "country": "Japan",
     "hq_city": "Brussels",
     "offices": [
-      { "country": "Belgium", "city": "Brussels" },
-      { "country": "Japan", "city": "Tokyo" }
+      {
+        "country": "Belgium",
+        "city": "Brussels"
+      },
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      }
     ],
     "website": "https://newtonbiocapital.com/",
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["Europe", "Japan"],
-      "sector_focus": ["therapeutics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Europe",
+        "Japan"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Brussels-headquartered early-stage life-sciences VC with a dedicated Tokyo office at the Nihonbashi Muromachi Mitsui Tower life-science hub, AMED-certified as a registered VC for Japan's Strengthening Program for the Pharmaceutical Startup Ecosystem, investing in chronic-disease therapeutics and bridging European and Japanese biotech innovation."
     },
     "verification_notes": "HQ is Brussels, Belgium; included in this Japan slice because it maintains a dedicated Tokyo office (Nihonbashi Muromachi Mitsui Tower, per company contact info) and is one of AMED's certified VCs for Japan's pharmaceutical startup ecosystem program.",

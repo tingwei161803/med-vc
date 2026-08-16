@@ -1,7 +1,10 @@
 [
   {
     "id": "eu-fund-plus",
-    "name": { "en": "Fund+", "local": "Fund+" },
+    "name": {
+      "en": "Fund+",
+      "local": "Fund+"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2015,
@@ -10,16 +13,36 @@
     "hq_city": "Leuven",
     "website": "https://fundplus.be/",
     "capital": {
-      "aum": { "raw": "over €200M", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "over €200M",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices"],
-      "geo_focus": ["Belgium", "Europe"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "medtech-devices"
+      ],
+      "geo_focus": [
+        "Belgium",
+        "Europe"
+      ],
       "thesis": "Open-ended evergreen fund investing in innovative life sciences companies with a focus on Belgium, primarily in therapeutics but also diagnostics and medical devices."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "gene-therapy", "vaccines"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "gene-therapy",
+        "vaccines"
+      ],
       "indications": [],
       "company_creation": null,
       "invests_public_markets": null
@@ -27,9 +50,21 @@
     "track_record": {
       "portfolio_count": 16,
       "notable_investments": [
-        { "company": "Tubulis", "sector": "therapeutics", "outcome": "acquired (by Gilead, 2026)" },
-        { "company": "Confo Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Minoryx", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Tubulis",
+          "sector": "therapeutics",
+          "outcome": "acquired (by Gilead, 2026)"
+        },
+        {
+          "company": "Confo Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Minoryx",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -37,8 +72,22 @@
       "local": "Fund+ is een in Leuven gevestigd, open-end levensfonds dat investeert in innovatieve life sciences-bedrijven, met een focus op België en therapeutica."
     },
     "sources": [
-      { "url": "https://fundplus.be/", "title": "Fund+ – Investing in Life Sciences", "publisher": "Fund+", "accessed": "undefined", "supports": "HQ location, mission statement, portfolio companies", "quote": "Fund+ is an open-ended Fund for long term equity investment in innovative Life Sciences companies with a focus on Belgium." },
-      { "url": "https://www.life-sciences-europe.com/organisation/fund-2015-leuven-louvain-belgium-west-europe-venture-2001-37760.html", "title": "Fund+ N.V.", "publisher": "Life-Sciences-Europe.com", "accessed": "undefined", "supports": "Founding year, AUM, portfolio count", "quote": "Fund+ was founded in May 2015 by the private foundation \"Désiré Collen\" ... With over €200M in assets under management, Fund+ has built a strong track record since 2015, investing in 16 portfolio companies with two major exits." }
+      {
+        "url": "https://fundplus.be/",
+        "title": "Fund+ – Investing in Life Sciences",
+        "publisher": "Fund+",
+        "accessed": "undefined",
+        "supports": "HQ location, mission statement, portfolio companies",
+        "quote": "Fund+ is an open-ended Fund for long term equity investment in innovative Life Sciences companies with a focus on Belgium."
+      },
+      {
+        "url": "https://www.life-sciences-europe.com/organisation/fund-2015-leuven-louvain-belgium-west-europe-venture-2001-37760.html",
+        "title": "Fund+ N.V.",
+        "publisher": "Life-Sciences-Europe.com",
+        "accessed": "undefined",
+        "supports": "Founding year, AUM, portfolio count",
+        "quote": "Fund+ was founded in May 2015 by the private foundation \"Désiré Collen\" ... With over €200M in assets under management, Fund+ has built a strong track record since 2015, investing in 16 portfolio companies with two major exits."
+      }
     ],
     "confidence": "high",
     "verification_notes": "Not to be confused with V-Bio Ventures or Ysios Capital, which are covered under the tier1 flagship slice for this region.",
@@ -47,7 +96,9 @@
   },
   {
     "id": "eu-pureos-bioventures",
-    "name": { "en": "Pureos Bioventures" },
+    "name": {
+      "en": "Pureos Bioventures"
+    },
     "type": "vc",
     "status": "active",
     "region": "europe",
@@ -55,35 +106,91 @@
     "hq_city": "Basel",
     "website": "https://www.pureosbio.com/",
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "sector_focus": ["therapeutics"],
-      "geo_focus": ["Europe", "United States"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "geo_focus": [
+        "Europe",
+        "United States"
+      ],
       "thesis": "Invests in private innovative drug development companies with an emphasis on next-generation biological drugs and drug formats, aiming to advance innovative treatments for severe diseases."
     },
     "lifesci": {
-      "modalities": ["biologics-antibody", "small-molecule"],
-      "indications": ["oncology", "cardiovascular", "ophthalmology", "neurology", "immunology-inflammation", "infectious-disease", "rare-disease"],
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology",
+        "cardiovascular",
+        "ophthalmology",
+        "neurology",
+        "immunology-inflammation",
+        "infectious-disease",
+        "rare-disease"
+      ],
       "company_creation": null,
       "invests_public_markets": true
     },
     "people": [
-      { "name": "Dominik Escher", "role": "Managing Partner", "background": "Previously founded ESBATech, acquired by Alcon/Novartis for $589M" },
-      { "name": "Klaus Breiner", "role": "Managing Partner", "background": "Venture investor since 2001" },
-      { "name": "Martin Münchbach", "role": "Managing Partner", "background": "Venture investor since 1999" }
+      {
+        "name": "Dominik Escher",
+        "role": "Managing Partner",
+        "background": "Previously founded ESBATech, acquired by Alcon/Novartis for $589M"
+      },
+      {
+        "name": "Klaus Breiner",
+        "role": "Managing Partner",
+        "background": "Venture investor since 2001"
+      },
+      {
+        "name": "Martin Münchbach",
+        "role": "Managing Partner",
+        "background": "Venture investor since 1999"
+      }
     ],
     "track_record": {
       "notable_investments": [
-        { "company": "Alentis Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "ImCheck Therapeutics", "sector": "therapeutics", "outcome": "acquired (by Ipsen, 2025)" },
-        { "company": "Araris Biotech", "sector": "therapeutics", "outcome": "acquired (by Taiho, 2025)" },
-        { "company": "Acrivon Therapeutics", "sector": "therapeutics", "outcome": "IPO (NASDAQ, Nov 2022)" }
+        {
+          "company": "Alentis Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "ImCheck Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "acquired (by Ipsen, 2025)"
+        },
+        {
+          "company": "Araris Biotech",
+          "sector": "therapeutics",
+          "outcome": "acquired (by Taiho, 2025)"
+        },
+        {
+          "company": "Acrivon Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "IPO (NASDAQ, Nov 2022)"
+        }
       ]
     },
     "summary": {
       "en": "Pureos Bioventures is a Basel-based VC backing private drug-development companies developing next-generation biological drugs and novel formats to treat severe diseases, with a track record including exits to Ipsen and Taiho."
     },
     "sources": [
-      { "url": "https://www.pureosbio.com/", "title": "Home - Pureos Bioventures", "publisher": "Pureos Bioventures", "accessed": "undefined", "supports": "Sector focus, investment strategy, founders' background, notable exits", "quote": "Pureos Bioventures invests venture capital in private innovative drug development companies, with an emphasis on the next generation of biological drugs and drug formats" }
+      {
+        "url": "https://www.pureosbio.com/",
+        "title": "Home - Pureos Bioventures",
+        "publisher": "Pureos Bioventures",
+        "accessed": "undefined",
+        "supports": "Sector focus, investment strategy, founders' background, notable exits",
+        "quote": "Pureos Bioventures invests venture capital in private innovative drug development companies, with an emphasis on the next generation of biological drugs and drug formats"
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -91,8 +198,14 @@
   },
   {
     "id": "eu-biomedvc",
-    "name": { "en": "BiomedVC (formerly BioMedPartners)" },
-    "aka": ["BioMedPartners", "BiomedVC"],
+    "name": {
+      "en": "BiomedVC (formerly BioMedPartners)"
+    },
+    "aka": [
+      "BioMedPartners",
+      "BiomedVC",
+      "BioMedPartners AG"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2003,
@@ -102,19 +215,48 @@
     "website": "https://biomedvc.com/",
     "capital": {
       "funds": [
-        { "name": "BioMedInvest III", "vintage_year": 2018, "size": { "raw": "CHF 100 million", "usd": null, "currency": "CHF" } },
-        { "name": "BiomedInvest IV", "vintage_year": 2026, "size": { "raw": "undisclosed, in fundraising toward second close", "usd": null, "currency": null } }
+        {
+          "name": "BioMedInvest III",
+          "vintage_year": 2018,
+          "size": {
+            "raw": "CHF 100 million",
+            "usd": null,
+            "currency": "CHF"
+          }
+        },
+        {
+          "name": "BiomedInvest IV",
+          "vintage_year": 2026,
+          "size": {
+            "raw": "undisclosed, in fundraising toward second close",
+            "usd": null,
+            "currency": null
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "sector_focus": ["therapeutics"],
-      "geo_focus": ["Switzerland", "Germany", "Europe"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "geo_focus": [
+        "Switzerland",
+        "Germany",
+        "Europe"
+      ],
       "lead_or_follow": "lead",
       "thesis": "Empowers life-science entrepreneurs to build venture-backed biotechs developing innovative therapeutics for high-unmet-need diseases, with a DACH-region focus (especially Switzerland and Germany)."
     },
     "lifesci": {
-      "modalities": ["biologics-antibody", "small-molecule", "gene-therapy"],
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule",
+        "gene-therapy"
+      ],
       "indications": [],
       "company_creation": null,
       "invests_public_markets": null
@@ -122,46 +264,112 @@
     "track_record": {
       "portfolio_count": "55+ since 2003",
       "notable_investments": [
-        { "company": "AMAL Therapeutics", "sector": "therapeutics", "outcome": "acquired (by Boehringer Ingelheim, 2019)" },
-        { "company": "Cardior Pharmaceuticals", "sector": "therapeutics", "outcome": "acquired (by Novo Nordisk, 2024)" },
-        { "company": "Tubulis", "sector": "therapeutics", "outcome": "acquired (by Gilead, 2026)" },
-        { "company": "Syndax", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "AnaptysBio", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "AMAL Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "acquired (by Boehringer Ingelheim, 2019)"
+        },
+        {
+          "company": "Cardior Pharmaceuticals",
+          "sector": "therapeutics",
+          "outcome": "acquired (by Novo Nordisk, 2024)"
+        },
+        {
+          "company": "Tubulis",
+          "sector": "therapeutics",
+          "outcome": "acquired (by Gilead, 2026)"
+        },
+        {
+          "company": "Syndax",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "AnaptysBio",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
       "en": "BiomedVC (formerly BioMedPartners) is a Basel-based, independent European VC founded in 2003 providing seed and Series A capital to early-stage life-sciences companies developing new therapeutics, with a focus on Switzerland and Germany."
     },
     "sources": [
-      { "url": "https://biomedvc.com/", "title": "biomedvc.com", "publisher": "BiomedVC", "accessed": "undefined", "supports": "Founding year, HQ, stage/geo focus, notable exits", "quote": "empowering the next generation of Life Science entrepreneurs to take their scientific innovation from academic labs and build them into venture-backed biotechs developing innovative therapeutics for high-unmet medical needs" },
-      { "url": "https://www.swissbiotech.org/listing/biomedpartners-close-their-new-healthcare-venture-fund-biomedinvest-iii-at-chf-100-million/", "title": "BioMedPartners Close Their New Healthcare Venture Fund BioMedInvest III at CHF 100 Million", "publisher": "Swiss Biotech Association", "accessed": "undefined", "supports": "Fund III size", "quote": "BioMedPartners announced on 1 March 2018 the final closing of BioMedInvest III at CHF 100 million." }
+      {
+        "url": "https://biomedvc.com/",
+        "title": "biomedvc.com",
+        "publisher": "BiomedVC",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, stage/geo focus, notable exits",
+        "quote": "empowering the next generation of Life Science entrepreneurs to take their scientific innovation from academic labs and build them into venture-backed biotechs developing innovative therapeutics for high-unmet medical needs"
+      },
+      {
+        "url": "https://www.swissbiotech.org/listing/biomedpartners-close-their-new-healthcare-venture-fund-biomedinvest-iii-at-chf-100-million/",
+        "title": "BioMedPartners Close Their New Healthcare Venture Fund BioMedInvest III at CHF 100 Million",
+        "publisher": "Swiss Biotech Association",
+        "accessed": "undefined",
+        "supports": "Fund III size",
+        "quote": "BioMedPartners announced on 1 March 2018 the final closing of BioMedInvest III at CHF 100 million."
+      }
     ],
     "confidence": "high",
-    "verification_notes": "Rebranded from BioMedPartners to BiomedVC; exact rebrand date not independently confirmed beyond secondary sources.",
+    "verification_notes": "Rebranded from BioMedPartners to BiomedVC; exact rebrand date not independently confirmed beyond secondary sources. Merged eu-biomedpartners into this record on 2026-08-16: biomedvc.com states outright: 'BioMedPartners is the predecessor of BiomedVC and was founded in 2002' and 'BiomedVC was founded in 2021 to continue the legacy o",
     "last_updated": "undefined",
     "researched_by": "therapeutics-vc"
   },
   {
     "id": "eu-nextech-invest",
-    "name": { "en": "Nextech Invest" },
+    "name": {
+      "en": "Nextech Invest"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 1998,
     "region": "europe",
     "country": "Switzerland",
     "hq_city": "Zurich",
-    "offices": [{ "country": "United States", "city": "Boston" }, { "country": "United States", "city": "San Francisco" }],
+    "offices": [
+      {
+        "country": "United States",
+        "city": "Boston"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
+    ],
     "website": "https://www.nextechinvest.com/",
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "CHF 1 million to CHF 5 million per financing round", "usd_min": null, "usd_max": null },
-      "sector_focus": ["therapeutics", "ai-drug-discovery"],
-      "geo_focus": ["Europe", "United States", "Global"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "CHF 1 million to CHF 5 million per financing round",
+        "usd_min": null,
+        "usd_max": null
+      },
+      "sector_focus": [
+        "therapeutics",
+        "ai-drug-discovery"
+      ],
+      "geo_focus": [
+        "Europe",
+        "United States",
+        "Global"
+      ],
       "thesis": "Global therapeutics-focused VC that identifies and fuels transformative cancer medicines, investing from discovery through clinical development and into publicly listed companies."
     },
     "lifesci": {
-      "modalities": ["biologics-antibody", "small-molecule"],
-      "indications": ["oncology"],
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
       "company_creation": null,
       "invests_public_markets": true
     },
@@ -172,7 +380,14 @@
       "en": "Nextech Invest is a Zurich-headquartered, therapeutics-focused venture firm with affiliate offices in Boston and San Francisco that specializes in identifying and funding transformative oncology and oncology-adjacent medicines from discovery through public markets."
     },
     "sources": [
-      { "url": "https://www.nextechinvest.com/", "title": "Nextech Invest – Finding and fueling tomorrow's advances", "publisher": "Nextech Invest", "accessed": "undefined", "supports": "Sector focus, HQ, thesis", "quote": "Nextech is a global therapeutics-focused venture capital firm headquartered in Zurich, Switzerland ... identifying transformative cancer medicines" }
+      {
+        "url": "https://www.nextechinvest.com/",
+        "title": "Nextech Invest – Finding and fueling tomorrow's advances",
+        "publisher": "Nextech Invest",
+        "accessed": "undefined",
+        "supports": "Sector focus, HQ, thesis",
+        "quote": "Nextech is a global therapeutics-focused venture capital firm headquartered in Zurich, Switzerland ... identifying transformative cancer medicines"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year (1998) and portfolio/fund count sourced from secondary aggregators (Crunchbase/PitchBook via search snippets), not independently confirmed on the primary site due to limited page content.",
@@ -181,8 +396,12 @@
   },
   {
     "id": "eu-aglaia-oncology-funds",
-    "name": { "en": "Aglaia Oncology Funds (Aglaia BioMedical Ventures)" },
-    "aka": ["Aglaia BioMedical Ventures"],
+    "name": {
+      "en": "Aglaia Oncology Funds (Aglaia BioMedical Ventures)"
+    },
+    "aka": [
+      "Aglaia BioMedical Ventures"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2004,
@@ -191,37 +410,82 @@
     "hq_city": "Bilthoven",
     "website": "https://aglaia-oncology.com/",
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "sector_focus": ["therapeutics"],
-      "geo_focus": ["Netherlands", "Europe"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "geo_focus": [
+        "Netherlands",
+        "Europe"
+      ],
       "thesis": "Oncology-exclusive investor that selects and matures early-stage breakthrough inventions with the potential to transform cancer prevention, diagnosis and therapy."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "drug-delivery"],
-      "indications": ["oncology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "drug-delivery"
+      ],
+      "indications": [
+        "oncology"
+      ],
       "company_creation": true,
       "invests_public_markets": null,
       "science_platform_notes": "Team has decades of experience in cancer research/oncology drug development; involved in founding 6 of 12 invested companies."
     },
     "people": [
-      { "name": "Karl Rothweiler", "role": "Partner" },
-      { "name": "Folkert van Cleef", "role": "Partner" },
-      { "name": "Eric van der Putten", "role": "Partner" },
-      { "name": "Mark Krul", "role": "Partner/Co-founder" }
+      {
+        "name": "Karl Rothweiler",
+        "role": "Partner"
+      },
+      {
+        "name": "Folkert van Cleef",
+        "role": "Partner"
+      },
+      {
+        "name": "Eric van der Putten",
+        "role": "Partner"
+      },
+      {
+        "name": "Mark Krul",
+        "role": "Partner/Co-founder"
+      }
     ],
     "track_record": {
       "portfolio_count": 12,
       "notable_investments": [
-        { "company": "Merus", "sector": "oncology therapeutics", "outcome": "acquired (by Genmab for $8 billion, December 2025)" },
-        { "company": "Cristal Therapeutics", "sector": "oncology therapeutics", "outcome": "active" },
-        { "company": "ORCA Therapeutics", "sector": "oncology therapeutics", "outcome": "exited" }
+        {
+          "company": "Merus",
+          "sector": "oncology therapeutics",
+          "outcome": "acquired (by Genmab for $8 billion, December 2025)"
+        },
+        {
+          "company": "Cristal Therapeutics",
+          "sector": "oncology therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "ORCA Therapeutics",
+          "sector": "oncology therapeutics",
+          "outcome": "exited"
+        }
       ]
     },
     "summary": {
       "en": "Aglaia Oncology Funds is a Netherlands-based, oncology-exclusive venture firm that has helped found and finance early-stage cancer drug-development companies since 2004, including Merus, which was acquired by Genmab for $8 billion."
     },
     "sources": [
-      { "url": "https://aglaia-oncology.com/", "title": "Aglaia Oncology Funds | Investing in the Fight Against Cancer", "publisher": "Aglaia Oncology Funds", "accessed": "undefined", "supports": "Founding year, HQ, sector focus, portfolio, exits", "quote": "Aglaia is an oncology specialist investor which selects and matures early-stage breakthrough inventions that have the potential to transform cancer prevention, diagnosis and therapy." }
+      {
+        "url": "https://aglaia-oncology.com/",
+        "title": "Aglaia Oncology Funds | Investing in the Fight Against Cancer",
+        "publisher": "Aglaia Oncology Funds",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, sector focus, portfolio, exits",
+        "quote": "Aglaia is an oncology specialist investor which selects and matures early-stage breakthrough inventions that have the potential to transform cancer prevention, diagnosis and therapy."
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -229,7 +493,9 @@
   },
   {
     "id": "eu-thuja-capital",
-    "name": { "en": "Thuja Capital" },
+    "name": {
+      "en": "Thuja Capital"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2006,
@@ -238,33 +504,75 @@
     "hq_city": "Leiden",
     "website": "https://www.thujacapital.com/",
     "capital": {
-      "aum": { "raw": "in excess of EUR 125M across several funds", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "in excess of EUR 125M across several funds",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
-      "geo_focus": ["Europe"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health"
+      ],
+      "geo_focus": [
+        "Europe"
+      ],
       "thesis": "Early-stage life-sciences investor and 'lifecycle investor' financing growth from startup to scale-up in biopharmaceuticals, healthcare, medtech and digital health."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy"],
-      "indications": ["oncology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "cell-therapy"
+      ],
+      "indications": [
+        "oncology"
+      ],
       "company_creation": null,
       "invests_public_markets": null
     },
     "track_record": {
       "portfolio_count": 25,
       "notable_investments": [
-        { "company": "argenx", "sector": "therapeutics", "outcome": "IPO (market cap ~$16.5B)" },
-        { "company": "MILabs", "sector": "medical imaging", "outcome": "active" }
+        {
+          "company": "argenx",
+          "sector": "therapeutics",
+          "outcome": "IPO (market cap ~$16.5B)"
+        },
+        {
+          "company": "MILabs",
+          "sector": "medical imaging",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Thuja Capital is a Leiden-based early-stage life-sciences VC founded in 2006 that has backed biopharmaceutical, medtech and digital-health companies including argenx, one of Europe's largest biotech IPO successes."
     },
     "sources": [
-      { "url": "https://www.thujacapital.com/", "title": "Home - Thuja Capital", "publisher": "Thuja Capital", "accessed": "undefined", "supports": "HQ, mission, sector focus", "quote": "a leading early-stage venture capital firm dedicated to investing in the most innovative life science companies in Europe" },
-      { "url": "https://www.life-sciences-europe.com/organisation/thuja-capital-group-utrecht-netherlands-west-europe-venture-2001-27804.html", "title": "Thuja Capital (Group)", "publisher": "Life-Sciences-Europe.com", "accessed": "undefined", "supports": "Founding year, AUM, portfolio count, notable investment argenx", "quote": "Thuja Capital was founded in 2006 ... It has operated several funds totaling in excess of EUR 125M under management ... amongst which Argenx (market cap 16.5 Bn USD) ... To date, Thuja invested in 25 life sciences companies." }
+      {
+        "url": "https://www.thujacapital.com/",
+        "title": "Home - Thuja Capital",
+        "publisher": "Thuja Capital",
+        "accessed": "undefined",
+        "supports": "HQ, mission, sector focus",
+        "quote": "a leading early-stage venture capital firm dedicated to investing in the most innovative life science companies in Europe"
+      },
+      {
+        "url": "https://www.life-sciences-europe.com/organisation/thuja-capital-group-utrecht-netherlands-west-europe-venture-2001-27804.html",
+        "title": "Thuja Capital (Group)",
+        "publisher": "Life-Sciences-Europe.com",
+        "accessed": "undefined",
+        "supports": "Founding year, AUM, portfolio count, notable investment argenx",
+        "quote": "Thuja Capital was founded in 2006 ... It has operated several funds totaling in excess of EUR 125M under management ... amongst which Argenx (market cap 16.5 Bn USD) ... To date, Thuja invested in 25 life sciences companies."
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -272,7 +580,9 @@
   },
   {
     "id": "eu-aescap-venture",
-    "name": { "en": "Aescap Venture" },
+    "name": {
+      "en": "Aescap Venture"
+    },
     "type": "crossover-fund",
     "status": "active",
     "region": "europe",
@@ -280,27 +590,55 @@
     "hq_city": "Amsterdam",
     "website": "https://www.aescap.com/",
     "strategy": {
-      "stages": ["growth", "all"],
-      "sector_focus": ["therapeutics"],
-      "geo_focus": ["Europe", "United States"],
+      "stages": [
+        "growth",
+        "all"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "geo_focus": [
+        "Europe",
+        "United States"
+      ],
       "invests_public_markets": true,
       "thesis": "Invests in publicly-traded, highly innovative biotech/life-sciences companies through the Aescap Life Sciences and Aescap Genetics funds, each holding a concentrated portfolio of ~20 listed biotech names."
     },
     "lifesci": {
-      "modalities": ["biologics-antibody", "small-molecule"],
-      "indications": ["oncology"],
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
       "company_creation": null,
       "invests_public_markets": true
     },
     "people": [
-      { "name": "Michiel de Haan", "role": "Founder/CEO", "background": "Founder and former CEO of Atlas Venture (until 2000)" },
-      { "name": "Dinko Valerio", "role": "Founder", "background": "Founder and former CEO of Crucell, a Euronext/NASDAQ-listed company with ~€1 billion market cap" }
+      {
+        "name": "Michiel de Haan",
+        "role": "Founder/CEO",
+        "background": "Founder and former CEO of Atlas Venture (until 2000)"
+      },
+      {
+        "name": "Dinko Valerio",
+        "role": "Founder",
+        "background": "Founder and former CEO of Crucell, a Euronext/NASDAQ-listed company with ~€1 billion market cap"
+      }
     ],
     "summary": {
       "en": "Aescap Venture is an Amsterdam-based crossover investment firm founded by ex-Atlas Venture and ex-Crucell executives that runs public-equity biotech funds (Aescap Life Sciences, Aescap Genetics) concentrated in listed European and US biotech/oncology companies."
     },
     "sources": [
-      { "url": "https://www.aescap.com/funds/", "title": "Funds - Aescap", "publisher": "Aescap Venture", "accessed": "undefined", "supports": "Fund strategy, public-market focus, founders", "quote": "The Aescap Life Sciences and Aescap Genetics funds invest in highly innovative publicly traded biotech/life sciences companies." }
+      {
+        "url": "https://www.aescap.com/funds/",
+        "title": "Funds - Aescap",
+        "publisher": "Aescap Venture",
+        "accessed": "undefined",
+        "supports": "Fund strategy, public-market focus, founders",
+        "quote": "The Aescap Life Sciences and Aescap Genetics funds invest in highly innovative publicly traded biotech/life sciences companies."
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Primarily a public-markets crossover investor rather than a private-company VC; included because of its clear, exclusive biotech/therapeutics investment nexus and Amsterdam HQ within scope. Fund size not disclosed in accessible sources.",
@@ -309,7 +647,9 @@
   },
   {
     "id": "eu-vesalius-biocapital-partners",
-    "name": { "en": "Vesalius Biocapital Partners" },
+    "name": {
+      "en": "Vesalius Biocapital Partners"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2007,
@@ -319,37 +659,96 @@
     "website": "https://vesaliusbiocapital.com/",
     "capital": {
       "funds": [
-        { "name": "Vesalius Biocapital III", "vintage_year": 2019, "size": { "raw": "EUR 120 million", "usd": null, "currency": "EUR" } }
+        {
+          "name": "Vesalius Biocapital III",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "EUR 120 million",
+            "usd": null,
+            "currency": "EUR"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
-      "check_size": { "raw": "a few hundred thousand euros (seed) up to €10 million per portfolio company", "usd_min": null, "usd_max": null },
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "a few hundred thousand euros (seed) up to €10 million per portfolio company",
+        "usd_min": null,
+        "usd_max": null
+      },
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["Europe"],
+      "geo_focus": [
+        "Europe"
+      ],
       "thesis": "Invests in later-stage European companies in drug development, medical devices & diagnostics and eHealth/mHealth, always leading or co-leading and holding a board seat."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
-      "indications": ["womens-health", "immunology-inflammation", "oncology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "womens-health",
+        "immunology-inflammation",
+        "oncology"
+      ],
       "company_creation": null,
       "invests_public_markets": null
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Memo Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Forendo Pharma", "sector": "therapeutics", "outcome": "active" },
-        { "company": "CatalYm", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Topas Therapeutics", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Memo Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Forendo Pharma",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "CatalYm",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Topas Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Vesalius Biocapital Partners is a Luxembourg-based life-sciences VC, founded in 2007, that leads or co-leads investments in European drug-development, medtech and digital-health companies, with its EUR 120M Fund III backing names like Forendo Pharma and CatalYm."
     },
     "sources": [
-      { "url": "https://vesaliusbiocapital.com/about-us/", "title": "About us – Vesalius Biocapital Partners Sàrl", "publisher": "Vesalius Biocapital Partners", "accessed": "undefined", "supports": "Investment approach, check size, lead investor status", "quote": "up to €10 million in a single portfolio company ... a few hundred thousand euro in a seed project ... lead or co-lead investments and will always hold a board seat" },
-      { "url": "https://www.prnewswire.com/news-releases/vesalius-biocapital-iii-announces-final-close-of-eur-120-million-fund-300873316.html", "title": "Vesalius Biocapital III Announces Final Close of EUR 120 Million Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund III size and close date", "quote": "The Vesalius Biocapital III fund had a final closing in May 2019 with €120 million in commitments." }
+      {
+        "url": "https://vesaliusbiocapital.com/about-us/",
+        "title": "About us – Vesalius Biocapital Partners Sàrl",
+        "publisher": "Vesalius Biocapital Partners",
+        "accessed": "undefined",
+        "supports": "Investment approach, check size, lead investor status",
+        "quote": "up to €10 million in a single portfolio company ... a few hundred thousand euro in a seed project ... lead or co-lead investments and will always hold a board seat"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/vesalius-biocapital-iii-announces-final-close-of-eur-120-million-fund-300873316.html",
+        "title": "Vesalius Biocapital III Announces Final Close of EUR 120 Million Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund III size and close date",
+        "quote": "The Vesalius Biocapital III fund had a final closing in May 2019 with €120 million in commitments."
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -357,7 +756,9 @@
   },
   {
     "id": "eu-panakes-partners",
-    "name": { "en": "Panakès Partners" },
+    "name": {
+      "en": "Panakès Partners"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2015,
@@ -367,40 +768,103 @@
     "website": "https://www.panakes.it/",
     "capital": {
       "funds": [
-        { "name": "Purple Fund (Fund II)", "vintage_year": 2023, "size": { "raw": "€175 million", "usd": null, "currency": "EUR" } }
+        {
+          "name": "Purple Fund (Fund II)",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "€175 million",
+            "usd": null,
+            "currency": "EUR"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
-      "geo_focus": ["Europe", "United States"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics"
+      ],
+      "geo_focus": [
+        "Europe",
+        "United States"
+      ],
       "thesis": "Backs ambitious early-stage life-sciences companies developing revolutionary technologies and products across oncology, cardiovascular, dermatology, ophthalmology, neuromodulation and diagnostics."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"],
-      "indications": ["oncology", "cardiovascular", "dermatology", "ophthalmology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ],
+      "indications": [
+        "oncology",
+        "cardiovascular",
+        "dermatology",
+        "ophthalmology"
+      ],
       "company_creation": null,
       "invests_public_markets": null
     },
     "people": [
-      { "name": "Fabrizio Landi", "role": "Managing Partner, Co-founder" },
-      { "name": "Alessio Beverina", "role": "Managing Partner, Co-founder" },
-      { "name": "Diana Saraceni", "role": "Managing Partner, Co-founder" }
+      {
+        "name": "Fabrizio Landi",
+        "role": "Managing Partner, Co-founder"
+      },
+      {
+        "name": "Alessio Beverina",
+        "role": "Managing Partner, Co-founder"
+      },
+      {
+        "name": "Diana Saraceni",
+        "role": "Managing Partner, Co-founder"
+      }
     ],
     "track_record": {
       "portfolio_count": 27,
       "notable_investments": [
-        { "company": "Nouscom", "sector": "oncology therapeutics", "outcome": "active" },
-        { "company": "Complement Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Vivasure Medical", "sector": "medtech", "outcome": "active" }
+        {
+          "company": "Nouscom",
+          "sector": "oncology therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Complement Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Vivasure Medical",
+          "sector": "medtech",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Panakès Partners is a Milan-based life-sciences VC founded in 2015 that raised Italy's largest VC fund (the €175M Purple Fund) to back European and US biotech, medtech and diagnostics companies in oncology, cardiovascular and other areas."
     },
     "sources": [
-      { "url": "https://www.panakes.it/", "title": "Panakès Partners", "publisher": "Panakès Partners", "accessed": "undefined", "supports": "HQ, sector focus, founders, portfolio count", "quote": "Via Boscovich 31, 20124 - Milano" },
-      { "url": "https://www.panakes.it/News?ni=44", "title": "Panakès Partners Announces the Final Closing of the \"Purple\" Fund at 175 Million Euros", "publisher": "Panakès Partners", "accessed": "undefined", "supports": "Fund II size and close", "quote": "PANAKÈS PARTNERS ANNOUNCES THE FINAL CLOSING OF THE \"PURPLE\" FUND AT 175 MILLION EUROS" }
+      {
+        "url": "https://www.panakes.it/",
+        "title": "Panakès Partners",
+        "publisher": "Panakès Partners",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus, founders, portfolio count",
+        "quote": "Via Boscovich 31, 20124 - Milano"
+      },
+      {
+        "url": "https://www.panakes.it/News?ni=44",
+        "title": "Panakès Partners Announces the Final Closing of the \"Purple\" Fund at 175 Million Euros",
+        "publisher": "Panakès Partners",
+        "accessed": "undefined",
+        "supports": "Fund II size and close",
+        "quote": "PANAKÈS PARTNERS ANNOUNCES THE FINAL CLOSING OF THE \"PURPLE\" FUND AT 175 MILLION EUROS"
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -408,7 +872,9 @@
   },
   {
     "id": "eu-claris-ventures",
-    "name": { "en": "Claris Ventures" },
+    "name": {
+      "en": "Claris Ventures"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2020,
@@ -418,35 +884,94 @@
     "website": "https://www.clarisventures.com/",
     "capital": {
       "funds": [
-        { "name": "Claris Biotech I (+ Parallel Fund)", "vintage_year": 2020, "size": { "raw": "€85 million ($100M)", "usd": 100000000, "currency": "EUR" } },
-        { "name": "Claris Biotech II", "vintage_year": 2025, "size": { "raw": "undisclosed", "usd": null, "currency": null } }
+        {
+          "name": "Claris Biotech I (+ Parallel Fund)",
+          "vintage_year": 2020,
+          "size": {
+            "raw": "€85 million ($100M)",
+            "usd": 100000000,
+            "currency": "EUR"
+          }
+        },
+        {
+          "name": "Claris Biotech II",
+          "vintage_year": 2025,
+          "size": {
+            "raw": "undisclosed",
+            "usd": null,
+            "currency": null
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "sector_focus": ["therapeutics"],
-      "geo_focus": ["Italy", "Europe"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "geo_focus": [
+        "Italy",
+        "Europe"
+      ],
       "thesis": "Makes equity investments in early-stage biopharma companies with a clear scientific vision, spanning rare diseases, oncology, immunology and other life-threatening disease areas."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
-      "indications": ["oncology", "rare-disease", "immunology-inflammation", "metabolic-obesity", "neurology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "rare-disease",
+        "immunology-inflammation",
+        "metabolic-obesity",
+        "neurology"
+      ],
       "company_creation": null,
       "invests_public_markets": null
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Kither Biotech", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Resalis Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Sibylla Biotech", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Kither Biotech",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Resalis Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Sibylla Biotech",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Claris Ventures is a Turin-based, biotech-exclusive VC that closed an €85M first fund (2020) dedicated to early-stage biopharma, followed by Claris Biotech II (2025), targeting oncology, rare disease and immunology."
     },
     "sources": [
-      { "url": "http://www.clarisventures.com/", "title": "Claris Ventures", "publisher": "Claris Ventures", "accessed": "undefined", "supports": "HQ, sector focus, portfolio companies", "quote": "equity investments in early stage biopharma companies with a clear vision and solid scientific evidence" },
-      { "url": "https://www.finsmes.com/2020/09/claris-ventures-holds-first-close-of-maiden-fund-at-30m.html", "title": "Claris Ventures Holds First Close of Maiden Fund, at $30M", "publisher": "FinSMEs", "accessed": "undefined", "supports": "Fund I close/size", "quote": "Claris Ventures announced the closing of subscriptions for the \"Claris Biotech I\" fund and the \"Claris Biotech I – Parallel fund\", for a total of $100 million (€85 million)." }
+      {
+        "url": "http://www.clarisventures.com/",
+        "title": "Claris Ventures",
+        "publisher": "Claris Ventures",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus, portfolio companies",
+        "quote": "equity investments in early stage biopharma companies with a clear vision and solid scientific evidence"
+      },
+      {
+        "url": "https://www.finsmes.com/2020/09/claris-ventures-holds-first-close-of-maiden-fund-at-30m.html",
+        "title": "Claris Ventures Holds First Close of Maiden Fund, at $30M",
+        "publisher": "FinSMEs",
+        "accessed": "undefined",
+        "supports": "Fund I close/size",
+        "quote": "Claris Ventures announced the closing of subscriptions for the \"Claris Biotech I\" fund and the \"Claris Biotech I – Parallel fund\", for a total of $100 million (€85 million)."
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -454,7 +979,9 @@
   },
   {
     "id": "eu-indaco-venture-partners",
-    "name": { "en": "Indaco Venture Partners (Indaco BIO)" },
+    "name": {
+      "en": "Indaco Venture Partners (Indaco BIO)"
+    },
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -464,43 +991,115 @@
     "hq_city": "Milan",
     "website": "https://www.indacosgr.com/",
     "capital": {
-      "aum": { "raw": "€363 million across 7 funds (firm-wide)", "usd": null, "currency": "EUR" },
+      "aum": {
+        "raw": "€363 million across 7 funds (firm-wide)",
+        "usd": null,
+        "currency": "EUR"
+      },
       "funds": [
-        { "name": "Indaco BIO Fund", "vintage_year": 2022, "size": { "raw": "€97 million", "usd": null, "currency": "EUR" } }
+        {
+          "name": "Indaco BIO Fund",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "€97 million",
+            "usd": null,
+            "currency": "EUR"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
-      "geo_focus": ["Italy", "Europe", "United States", "Canada", "Israel"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
+      "geo_focus": [
+        "Italy",
+        "Europe",
+        "United States",
+        "Canada",
+        "Israel"
+      ],
       "thesis": "Indaco BIO, the dedicated pharma/biotech fund of Indaco Venture Partners (Italy's largest independent VC manager), invests in innovative pharmacological therapies across oncology, CNS, ophthalmology, metabolic disease and infectious disease."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "gene-therapy"],
-      "indications": ["oncology", "neurology", "ophthalmology", "metabolic-obesity", "infectious-disease"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "gene-therapy"
+      ],
+      "indications": [
+        "oncology",
+        "neurology",
+        "ophthalmology",
+        "metabolic-obesity",
+        "infectious-disease"
+      ],
       "company_creation": null,
       "invests_public_markets": null
     },
     "people": [
-      { "name": "Davide Turco", "role": "Co-Founder, Managing Director" },
-      { "name": "Elizabeth Robinson", "role": "Co-Founder, Vice Chairman" },
-      { "name": "Giovanni Rizzo", "role": "Partner" },
-      { "name": "Goncalo Rebelo De Andrade", "role": "Partner" }
+      {
+        "name": "Davide Turco",
+        "role": "Co-Founder, Managing Director"
+      },
+      {
+        "name": "Elizabeth Robinson",
+        "role": "Co-Founder, Vice Chairman"
+      },
+      {
+        "name": "Giovanni Rizzo",
+        "role": "Partner"
+      },
+      {
+        "name": "Goncalo Rebelo De Andrade",
+        "role": "Partner"
+      }
     ],
     "track_record": {
       "portfolio_count": 10,
       "notable_investments": [
-        { "company": "Nouscom", "sector": "oncology therapeutics", "outcome": "active" },
-        { "company": "Genespire", "sector": "gene therapy", "outcome": "active" },
-        { "company": "Alia Therapeutics", "sector": "gene editing", "outcome": "active" }
+        {
+          "company": "Nouscom",
+          "sector": "oncology therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Genespire",
+          "sector": "gene therapy",
+          "outcome": "active"
+        },
+        {
+          "company": "Alia Therapeutics",
+          "sector": "gene editing",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Indaco Venture Partners is Italy's largest independent VC manager (multi-sector across electronics, robotics, medtech and biotech); its dedicated €97M Indaco BIO fund invests specifically in innovative pharmacological therapies across oncology, CNS and other indications, giving it a clear therapeutics nexus."
     },
     "sources": [
-      { "url": "https://www.indacosgr.com/", "title": "Indaco Venture Partners SGR", "publisher": "Indaco Venture Partners", "accessed": "undefined", "supports": "Founding year, HQ, AUM, sector breadth", "quote": "the largest independent Italian venture capital asset management company ... over €350m of capital invested through six funds" },
-      { "url": "https://www.indacosgr.com/en/indaco-bio/", "title": "Indaco BIO Fund", "publisher": "Indaco Venture Partners", "accessed": "undefined", "supports": "Indaco BIO fund size, focus, portfolio", "quote": "Indaco Bio Fund invests in the development of innovative pharmacological therapies. All therapeutic indications are covered, with particular attention to Oncology, CNS, Ophthalmology, Metabolic diseases, Virology and Infectious diseases." }
+      {
+        "url": "https://www.indacosgr.com/",
+        "title": "Indaco Venture Partners SGR",
+        "publisher": "Indaco Venture Partners",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, AUM, sector breadth",
+        "quote": "the largest independent Italian venture capital asset management company ... over €350m of capital invested through six funds"
+      },
+      {
+        "url": "https://www.indacosgr.com/en/indaco-bio/",
+        "title": "Indaco BIO Fund",
+        "publisher": "Indaco Venture Partners",
+        "accessed": "undefined",
+        "supports": "Indaco BIO fund size, focus, portfolio",
+        "quote": "Indaco Bio Fund invests in the development of innovative pharmacological therapies. All therapeutic indications are covered, with particular attention to Oncology, CNS, Ophthalmology, Metabolic diseases, Virology and Infectious diseases."
+      }
     ],
     "confidence": "high",
     "verification_notes": "Indaco Venture Partners is a multi-sector deep-tech/biotech manager; included on the strength of its dedicated Indaco BIO pharma/biotech fund, which is the entity's clear therapeutics nexus.",
@@ -509,7 +1108,9 @@
   },
   {
     "id": "eu-arax-capital-partners",
-    "name": { "en": "ARAX Capital Partners" },
+    "name": {
+      "en": "ARAX Capital Partners"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2007,
@@ -518,38 +1119,85 @@
     "hq_city": "Vienna",
     "website": "https://www.arax.at/",
     "capital": {
-      "aum": { "raw": "over €72 million invested across 25 companies since 2007", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "over €72 million invested across 25 companies since 2007",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "growth"],
-      "sector_focus": ["therapeutics", "life-science-tools"],
-      "geo_focus": ["Austria"],
+      "stages": [
+        "seed",
+        "series-a",
+        "growth"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools"
+      ],
+      "geo_focus": [
+        "Austria"
+      ],
       "thesis": "Finances the growth of Austrian high-tech and biotech companies with patentable technology, exclusively focused on domestic ventures."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
-      "indications": ["infectious-disease", "immunology-inflammation"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "infectious-disease",
+        "immunology-inflammation"
+      ],
       "company_creation": null,
       "invests_public_markets": null
     },
     "people": [
-      { "name": "Christian Tiringer", "role": "Partner" },
-      { "name": "Beatrix Schuberth", "role": "Partner" },
-      { "name": "Thomas Cimbal", "role": "Partner" }
+      {
+        "name": "Christian Tiringer",
+        "role": "Partner"
+      },
+      {
+        "name": "Beatrix Schuberth",
+        "role": "Partner"
+      },
+      {
+        "name": "Thomas Cimbal",
+        "role": "Partner"
+      }
     ],
     "track_record": {
       "portfolio_count": 25,
       "notable_investments": [
-        { "company": "Nabriva Therapeutics", "sector": "antibiotics", "outcome": "IPO" },
-        { "company": "AFFiRiS", "sector": "immunotherapy", "outcome": "exited" },
-        { "company": "EUCODIS Bioscience", "sector": "enzyme discovery", "outcome": "active" }
+        {
+          "company": "Nabriva Therapeutics",
+          "sector": "antibiotics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "AFFiRiS",
+          "sector": "immunotherapy",
+          "outcome": "exited"
+        },
+        {
+          "company": "EUCODIS Bioscience",
+          "sector": "enzyme discovery",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "ARAX Capital Partners is a Vienna-based VC founded in 2007 with an exclusive focus on financing Austrian high-tech and biotech companies, including therapeutics developers Nabriva Therapeutics (antibiotics) and AFFiRiS (immunotherapy)."
     },
     "sources": [
-      { "url": "https://www.lifesciencesdirectory.at/detail/ARAX%20Capital%20Partners%20GmbH", "title": "Life Sciences Directory: ARAX Capital Partners GmbH", "publisher": "LISAvienna / Life Sciences Directory Austria", "accessed": "undefined", "supports": "Founding year, HQ, AUM/portfolio, sector focus", "quote": "financed the growth of 25 Austrian high-tech and biotech companies...with an investment sum of over 72 million euros" }
+      {
+        "url": "https://www.lifesciencesdirectory.at/detail/ARAX%20Capital%20Partners%20GmbH",
+        "title": "Life Sciences Directory: ARAX Capital Partners GmbH",
+        "publisher": "LISAvienna / Life Sciences Directory Austria",
+        "accessed": "undefined",
+        "supports": "Founding year, HQ, AUM/portfolio, sector focus",
+        "quote": "financed the growth of 25 Austrian high-tech and biotech companies...with an investment sum of over 72 million euros"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Primary site (arax.at) could not be fetched directly (connection error); data sourced from LISAvienna life-sciences directory and secondary aggregators.",
@@ -558,28 +1206,61 @@
   },
   {
     "id": "eu-fountain-healthcare-partners",
-    "name": { "en": "Fountain Healthcare Partners" },
+    "name": {
+      "en": "Fountain Healthcare Partners"
+    },
     "type": "vc",
     "status": "active",
     "region": "europe",
     "country": "Ireland",
     "hq_city": "Dublin",
-    "offices": [{ "country": "United States", "city": "New York" }],
+    "offices": [
+      {
+        "country": "United States",
+        "city": "New York"
+      }
+    ],
     "website": "https://www.fh-partners.com/",
     "capital": {
-      "aum": { "raw": "over €425M under management", "usd": null, "currency": "EUR" },
+      "aum": {
+        "raw": "over €425M under management",
+        "usd": null,
+        "currency": "EUR"
+      },
       "funds": [
-        { "name": "Fountain Healthcare Partners Fund III", "vintage_year": 2020, "size": { "raw": "€125 million", "usd": null, "currency": "EUR" } }
+        {
+          "name": "Fountain Healthcare Partners Fund III",
+          "vintage_year": 2020,
+          "size": {
+            "raw": "€125 million",
+            "usd": null,
+            "currency": "EUR"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
-      "geo_focus": ["Ireland", "Europe", "United States"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics"
+      ],
+      "geo_focus": [
+        "Ireland",
+        "Europe",
+        "United States"
+      ],
       "thesis": "Provides risk capital and expertise to entrepreneurs building life-sciences companies, focused on specialty pharma, biopharmaceuticals, medical devices and diagnostics, with a strong Ireland focus."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
       "indications": [],
       "company_creation": null,
       "invests_public_markets": null
@@ -587,16 +1268,38 @@
     "track_record": {
       "portfolio_count": 30,
       "notable_investments": [
-        { "company": "Calypso Biotech", "sector": "therapeutics", "outcome": "acquired (by Novartis, January 2024)" },
-        { "company": "Neurent Medical", "sector": "medtech", "outcome": "active (Series C, Feb 2026)" }
+        {
+          "company": "Calypso Biotech",
+          "sector": "therapeutics",
+          "outcome": "acquired (by Novartis, January 2024)"
+        },
+        {
+          "company": "Neurent Medical",
+          "sector": "medtech",
+          "outcome": "active (Series C, Feb 2026)"
+        }
       ]
     },
     "summary": {
       "en": "Fountain Healthcare Partners is a Dublin-based life-sciences VC managing over €425M that backs specialty pharma, biopharmaceutical, medtech and diagnostics companies across Ireland, Europe and the US, with exits including Calypso Biotech's sale to Novartis."
     },
     "sources": [
-      { "url": "https://www.fh-partners.com/", "title": "Fountain Healthcare Partners", "publisher": "Fountain Healthcare Partners", "accessed": "undefined", "supports": "HQ, AUM, sector focus", "quote": "Over €425M under management ... Specialty Pharma, Biopharmaceuticals, Medical Devices, Diagnostics" },
-      { "url": "https://www.businesswire.com/news/home/20201103005264/en/Fountain-Healthcare-Partners-Announces-Final-Close-of-%E2%82%AC125-million-for-Fund-III", "title": "Fountain Healthcare Partners Announces Final Close of €125 million for Fund III", "publisher": "Business Wire", "accessed": "undefined", "supports": "Fund III size", "quote": "Fountain Healthcare Partners Fund III achieved a Final Closing with €125 million of committed capital" }
+      {
+        "url": "https://www.fh-partners.com/",
+        "title": "Fountain Healthcare Partners",
+        "publisher": "Fountain Healthcare Partners",
+        "accessed": "undefined",
+        "supports": "HQ, AUM, sector focus",
+        "quote": "Over €425M under management ... Specialty Pharma, Biopharmaceuticals, Medical Devices, Diagnostics"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20201103005264/en/Fountain-Healthcare-Partners-Announces-Final-Close-of-%E2%82%AC125-million-for-Fund-III",
+        "title": "Fountain Healthcare Partners Announces Final Close of €125 million for Fund III",
+        "publisher": "Business Wire",
+        "accessed": "undefined",
+        "supports": "Fund III size",
+        "quote": "Fountain Healthcare Partners Fund III achieved a Final Closing with €125 million of committed capital"
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -604,8 +1307,13 @@
   },
   {
     "id": "eu-invivo-partners",
-    "name": { "en": "Invivo Partners" },
-    "aka": ["Invivo Capital Partners", "Invivo Ventures"],
+    "name": {
+      "en": "Invivo Partners"
+    },
+    "aka": [
+      "Invivo Capital Partners",
+      "Invivo Ventures"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2012,
@@ -615,42 +1323,120 @@
     "website": "https://invivo.partners/",
     "capital": {
       "funds": [
-        { "name": "Invivo Ventures", "vintage_year": 2019, "size": { "raw": "€60M (final close)", "usd": null, "currency": "EUR" } },
-        { "name": "Invivo Ventures III", "vintage_year": 2024, "size": { "raw": "targeting €100M", "usd": null, "currency": "EUR" } }
+        {
+          "name": "Invivo Ventures",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "€60M (final close)",
+            "usd": null,
+            "currency": "EUR"
+          }
+        },
+        {
+          "name": "Invivo Ventures III",
+          "vintage_year": 2024,
+          "size": {
+            "raw": "targeting €100M",
+            "usd": null,
+            "currency": "EUR"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "check_size": { "raw": "initial investments €2-4M, follow-ons up to €10M", "usd_min": null, "usd_max": null },
-      "sector_focus": ["therapeutics", "ai-drug-discovery", "synthetic-biology"],
-      "geo_focus": ["Spain", "Europe"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "initial investments €2-4M, follow-ons up to €10M",
+        "usd_min": null,
+        "usd_max": null
+      },
+      "sector_focus": [
+        "therapeutics",
+        "ai-drug-discovery",
+        "synthetic-biology"
+      ],
+      "geo_focus": [
+        "Spain",
+        "Europe"
+      ],
       "thesis": "Invests in early-stage life-science companies at the intersection of advanced therapies, synthetic biology and AI-driven drug discovery, backed by EIF and Spanish/Catalan public investors."
     },
     "lifesci": {
-      "modalities": ["biologics-antibody", "gene-editing", "gene-therapy", "ai-ml-platform"],
-      "indications": ["rare-disease", "oncology"],
+      "modalities": [
+        "biologics-antibody",
+        "gene-editing",
+        "gene-therapy",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "rare-disease",
+        "oncology"
+      ],
       "company_creation": null,
       "invests_public_markets": null
     },
     "people": [
-      { "name": "Luis Pareras", "role": "Founder, Managing Partner" },
-      { "name": "Albert Ferrer", "role": "Founder, Partner" },
-      { "name": "Laura Rodríguez", "role": "Partner" }
+      {
+        "name": "Luis Pareras",
+        "role": "Founder, Managing Partner"
+      },
+      {
+        "name": "Albert Ferrer",
+        "role": "Founder, Partner"
+      },
+      {
+        "name": "Laura Rodríguez",
+        "role": "Partner"
+      }
     ],
     "track_record": {
       "notable_investments": [
-        { "company": "Minoryx Therapeutics", "sector": "therapeutics (CNS orphan disease)", "outcome": "active" },
-        { "company": "Sanifit", "sector": "therapeutics (vascular calcification)", "outcome": "acquired (by Vifor Pharma)" },
-        { "company": "Peptomyc", "sector": "therapeutics (oncology)", "outcome": "active" },
-        { "company": "Versantis", "sector": "therapeutics", "outcome": "acquired (by Genfit)" }
+        {
+          "company": "Minoryx Therapeutics",
+          "sector": "therapeutics (CNS orphan disease)",
+          "outcome": "active"
+        },
+        {
+          "company": "Sanifit",
+          "sector": "therapeutics (vascular calcification)",
+          "outcome": "acquired (by Vifor Pharma)"
+        },
+        {
+          "company": "Peptomyc",
+          "sector": "therapeutics (oncology)",
+          "outcome": "active"
+        },
+        {
+          "company": "Versantis",
+          "sector": "therapeutics",
+          "outcome": "acquired (by Genfit)"
+        }
       ]
     },
     "summary": {
       "en": "Invivo Partners is a Barcelona-based VC founded in 2012 investing in early-stage biotech at the intersection of advanced therapies, synthetic biology and AI drug discovery, with exits including Sanifit (to Vifor Pharma) and Versantis (to Genfit)."
     },
     "sources": [
-      { "url": "https://invivo.partners/", "title": "Invivo Partners", "publisher": "Invivo Partners", "accessed": "undefined", "supports": "HQ, founding, sector focus, stage, portfolio, team", "quote": "innovative drugs, with particular interest in Advanced therapies and Synthetic Biology" },
-      { "url": "https://invivo.partners/2024/03/05/invivo-partners-is-preparing-to-launch-a-e100m-invivo-ventures-iii-fund-to-invest-in-leading-edge-life-sciences/", "title": "Invivo Partners is preparing to launch a €100M Invivo Ventures III Fund", "publisher": "Invivo Partners", "accessed": "undefined", "supports": "Fund III target size", "quote": "Invivo Partners is preparing to launch a €100M Invivo Ventures III Fund to invest in Leading-Edge Life Sciences" }
+      {
+        "url": "https://invivo.partners/",
+        "title": "Invivo Partners",
+        "publisher": "Invivo Partners",
+        "accessed": "undefined",
+        "supports": "HQ, founding, sector focus, stage, portfolio, team",
+        "quote": "innovative drugs, with particular interest in Advanced therapies and Synthetic Biology"
+      },
+      {
+        "url": "https://invivo.partners/2024/03/05/invivo-partners-is-preparing-to-launch-a-e100m-invivo-ventures-iii-fund-to-invest-in-leading-edge-life-sciences/",
+        "title": "Invivo Partners is preparing to launch a €100M Invivo Ventures III Fund",
+        "publisher": "Invivo Partners",
+        "accessed": "undefined",
+        "supports": "Fund III target size",
+        "quote": "Invivo Partners is preparing to launch a €100M Invivo Ventures III Fund to invest in Leading-Edge Life Sciences"
+      }
     ],
     "confidence": "high",
     "last_updated": "undefined",
@@ -658,24 +1444,48 @@
   },
   {
     "id": "eu-crb-inverbio",
-    "name": { "en": "CRB Inverbío" },
+    "name": {
+      "en": "CRB Inverbío"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2002,
     "region": "europe",
     "country": "Spain",
     "hq_city": "Madrid",
-    "offices": [{ "country": "Spain", "city": "Barcelona" }],
+    "offices": [
+      {
+        "country": "Spain",
+        "city": "Barcelona"
+      }
+    ],
     "website": "https://www.crbinverbio.com/",
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "check_size": { "raw": "up to €4M per project", "usd_min": null, "usd_max": null },
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
-      "geo_focus": ["Spain", "Europe"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "up to €4M per project",
+        "usd_min": null,
+        "usd_max": null
+      },
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health"
+      ],
+      "geo_focus": [
+        "Spain",
+        "Europe"
+      ],
       "thesis": "Specialized life-sciences venture manager investing in innovative early-stage Spanish and European start-ups across biotech, medtech and digital health, historically through separate Biotech, Medtech and Digital Health-focused funds."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
       "indications": [],
       "company_creation": null,
       "invests_public_markets": null
@@ -684,7 +1494,14 @@
       "en": "CRB Inverbío is a Madrid/Barcelona-based life-sciences VC founded in 2002 that has run dedicated Biotech, Medtech and Digital Health funds, investing in early-to-Series-A Spanish and European life-sciences start-ups."
     },
     "sources": [
-      { "url": "https://www.crbinverbio.com/", "title": "CRB Inverbio", "publisher": "CRB Inverbío", "accessed": "undefined", "supports": "HQ, founding year, fund structure, check size", "quote": "CRB Inverbio is a private venture capital management firm specialized in life sciences investing in innovative early stage start-ups in biotech, med tech, digital health and medical technologies." }
+      {
+        "url": "https://www.crbinverbio.com/",
+        "title": "CRB Inverbio",
+        "publisher": "CRB Inverbío",
+        "accessed": "undefined",
+        "supports": "HQ, founding year, fund structure, check size",
+        "quote": "CRB Inverbio is a private venture capital management firm specialized in life sciences investing in innovative early stage start-ups in biotech, med tech, digital health and medical technologies."
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Fund-size figures not independently verified beyond secondary aggregator descriptions; sector mix spans biotech/medtech/digital health across separate fund vintages.",
@@ -693,9 +1510,14 @@
   },
   {
     "id": "eu-dievini-hopp-biotech-holding",
-    "name": { "en": "dievini Hopp BioTech Holding", "local": "dievini Hopp BioTech holding GmbH & Co. KG" },
+    "name": {
+      "en": "dievini Hopp BioTech Holding",
+      "local": "dievini Hopp BioTech holding GmbH & Co. KG"
+    },
     "type": "family-office",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2005,
     "region": "europe",
@@ -703,25 +1525,64 @@
     "hq_city": "Walldorf",
     "website": "https://www.dievini.de/",
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
-      "sector_focus": ["therapeutics", "diagnostics"],
-      "geo_focus": ["Germany", "Europe"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics"
+      ],
+      "geo_focus": [
+        "Germany",
+        "Europe"
+      ],
       "thesis": "Family office of SAP co-founder Dietmar Hopp that has strategically invested a large share of his personal fortune into German and European biotech, supporting management teams in business and corporate development."
     },
     "lifesci": {
-      "modalities": ["biologics-antibody", "cell-therapy", "rna-therapeutics", "drug-delivery"],
-      "indications": ["oncology", "neurology", "infectious-disease"],
+      "modalities": [
+        "biologics-antibody",
+        "cell-therapy",
+        "rna-therapeutics",
+        "drug-delivery"
+      ],
+      "indications": [
+        "oncology",
+        "neurology",
+        "infectious-disease"
+      ],
       "company_creation": null,
       "invests_public_markets": true,
       "science_platform_notes": "Focus on innovative therapy and diagnostic procedures (oncology, neurology, infectious disease, cell therapy, improved drug formulation) plus molecular diagnostics for personalized medicine."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "CureVac", "sector": "mRNA therapeutics/vaccines", "outcome": "IPO" },
-        { "company": "AC Immune", "sector": "neurology therapeutics", "outcome": "IPO" },
-        { "company": "Immatics", "sector": "cell therapy/oncology", "outcome": "IPO" },
-        { "company": "Agennix", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Wilex", "sector": "oncology therapeutics", "outcome": "active" }
+        {
+          "company": "CureVac",
+          "sector": "mRNA therapeutics/vaccines",
+          "outcome": "IPO"
+        },
+        {
+          "company": "AC Immune",
+          "sector": "neurology therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Immatics",
+          "sector": "cell therapy/oncology",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Agennix",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Wilex",
+          "sector": "oncology therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -729,8 +1590,22 @@
       "local": "dievini Hopp BioTech Holding ist das Family Office des SAP-Mitgründers Dietmar Hopp mit Sitz in Walldorf, das seit 2005 gezielt in deutsche und europäische Therapeutika- und Diagnostik-Unternehmen wie CureVac, AC Immune und Immatics investiert."
     },
     "sources": [
-      { "url": "https://www.dievini.de/", "title": "dievini Hopp BioTech holding GmbH & Co. KG", "publisher": "dievini Hopp BioTech holding", "accessed": "undefined", "supports": "Sector focus, indication focus, geography", "quote": "Onkologie, ferner Neurologie, Infektiologie, Zelltherapie und verbesserte Arzneimittelformulierung ... Deutschland und Europa" },
-      { "url": "https://www.fiercebiotech.com/special-report/dietmar-hopp-dievini-hopp-biotech-holding", "title": "Dietmar Hopp - dievini Hopp BioTech Holding", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "Founding purpose, portfolio companies", "quote": "dievini Hopp lists 15 [companies]—always drawn by cutting-edge ideas and big goals ... roster of Hopp-backed companies includes CureVac, AC Immune in Switzerland, Immatics, Agennix and Wilex" }
+      {
+        "url": "https://www.dievini.de/",
+        "title": "dievini Hopp BioTech holding GmbH & Co. KG",
+        "publisher": "dievini Hopp BioTech holding",
+        "accessed": "undefined",
+        "supports": "Sector focus, indication focus, geography",
+        "quote": "Onkologie, ferner Neurologie, Infektiologie, Zelltherapie und verbesserte Arzneimittelformulierung ... Deutschland und Europa"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/special-report/dietmar-hopp-dievini-hopp-biotech-holding",
+        "title": "Dietmar Hopp - dievini Hopp BioTech Holding",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "Founding purpose, portfolio companies",
+        "quote": "dievini Hopp lists 15 [companies]—always drawn by cutting-edge ideas and big goals ... roster of Hopp-backed companies includes CureVac, AC Immune in Switzerland, Immatics, Agennix and Wilex"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founded year (2005) and structured-fund details sourced from secondary press coverage rather than a fetched primary page with explicit dates.",
@@ -739,7 +1614,9 @@
   },
   {
     "id": "eu-alsa-ventures",
-    "name": { "en": "ALSA Ventures" },
+    "name": {
+      "en": "ALSA Ventures"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2019,
@@ -749,34 +1626,81 @@
     "website": "https://www.alsaventures.com/",
     "capital": {
       "funds": [
-        { "name": "ALSA Ventures Fund I", "vintage_year": 2021, "size": { "raw": "targeting $150M final close", "usd": 150000000, "currency": "USD" } }
+        {
+          "name": "ALSA Ventures Fund I",
+          "vintage_year": 2021,
+          "size": {
+            "raw": "targeting $150M final close",
+            "usd": 150000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "sector_focus": ["therapeutics"],
-      "geo_focus": ["Europe", "United States"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "geo_focus": [
+        "Europe",
+        "United States"
+      ],
       "thesis": "Europe-focused biotechnology fund manager investing across the drug-development spectrum from company formation to public-market listing, targeting novel drugs and modalities across a wide variety of disease areas."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
       "indications": [],
       "company_creation": null,
       "invests_public_markets": true
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Oxford BioTherapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Epsilogen", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Axovia Therapeutics", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Oxford BioTherapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Epsilogen",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Axovia Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "ALSA Ventures is a London-based international life-sciences investor founded in 2019 that focuses exclusively on novel therapeutics, investing from company formation through public-market listing."
     },
     "sources": [
-      { "url": "https://www.alsaventures.com/", "title": "ALSA Ventures", "publisher": "ALSA Ventures", "accessed": "undefined", "supports": "HQ, sector focus, portfolio companies", "quote": "We believe that European innovation in life sciences has the power to create valuable businesses with global impact." },
-      { "url": "https://globalventuring.com/university/alsa-secures-59m-for-biotech-venture-fund/", "title": "Alsa secures $59m for biotech venture fund", "publisher": "Global University Venturing", "accessed": "undefined", "supports": "Fund size target, founding activity", "quote": "Alsa Ventures ... anticipates to reach a final close of $150m" }
+      {
+        "url": "https://www.alsaventures.com/",
+        "title": "ALSA Ventures",
+        "publisher": "ALSA Ventures",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus, portfolio companies",
+        "quote": "We believe that European innovation in life sciences has the power to create valuable businesses with global impact."
+      },
+      {
+        "url": "https://globalventuring.com/university/alsa-secures-59m-for-biotech-venture-fund/",
+        "title": "Alsa secures $59m for biotech venture fund",
+        "publisher": "Global University Venturing",
+        "accessed": "undefined",
+        "supports": "Fund size target, founding activity",
+        "quote": "Alsa Ventures ... anticipates to reach a final close of $150m"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year and fund-size figures sourced from secondary aggregator coverage (2021 reporting); not independently re-confirmed for a more recent close amount.",
@@ -785,7 +1709,9 @@
   },
   {
     "id": "eu-newton-biocapital",
-    "name": { "en": "Newton Biocapital" },
+    "name": {
+      "en": "Newton Biocapital"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2017,
@@ -795,40 +1721,104 @@
     "website": "https://newtonbiocapital.com/",
     "capital": {
       "funds": [
-        { "name": "Newton Biocapital I", "vintage_year": 2017, "size": { "raw": "€114 million", "usd": null, "currency": "EUR" } },
-        { "name": "Newton Biocapital II", "vintage_year": 2023, "size": { "raw": "targeting €150 million", "usd": null, "currency": "EUR" } }
+        {
+          "name": "Newton Biocapital I",
+          "vintage_year": 2017,
+          "size": {
+            "raw": "€114 million",
+            "usd": null,
+            "currency": "EUR"
+          }
+        },
+        {
+          "name": "Newton Biocapital II",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "targeting €150 million",
+            "usd": null,
+            "currency": "EUR"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
-      "sector_focus": ["therapeutics"],
-      "geo_focus": ["Belgium", "Netherlands", "Germany", "France", "Japan"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
+      "geo_focus": [
+        "Belgium",
+        "Netherlands",
+        "Germany",
+        "France",
+        "Japan"
+      ],
       "lead_or_follow": "lead",
       "thesis": "Lead investor financing biotech start-ups and undervalued late-stage projects tackling chronic diseases, with emphasis on oncology, metabolic disease and neurological conditions, across the 'core of Europe' and Japan."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
-      "indications": ["oncology", "metabolic-obesity", "neurology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "metabolic-obesity",
+        "neurology"
+      ],
       "company_creation": null,
       "invests_public_markets": null
     },
     "people": [
-      { "name": "Alain Parthoens", "role": "Founder, Managing Partner" }
+      {
+        "name": "Alain Parthoens",
+        "role": "Founder, Managing Partner"
+      }
     ],
     "track_record": {
       "portfolio_count": 14,
       "notable_investments": [
-        { "company": "Epics Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "ChromaCure", "sector": "therapeutics", "outcome": "active" },
-        { "company": "EditForce", "sector": "gene editing", "outcome": "active" }
+        {
+          "company": "Epics Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "ChromaCure",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "EditForce",
+          "sector": "gene editing",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
       "en": "Newton Biocapital is a Brussels-based VC founded in 2017 focused on chronic-disease therapeutics (oncology, metabolic disease, neurology), investing as lead investor across Belgium, the Netherlands, Germany, France and Japan via its €114M Fund I and follow-on €150M Fund II."
     },
     "sources": [
-      { "url": "https://newtonbiocapital.com/en/news-article/newton-biocapital-invests-in-neuvasq-eur-20-million-series-a-to-develop-unique-blood-brain-barrier-therapy", "title": "Newton Biocapital news", "publisher": "Newton Biocapital", "accessed": "undefined", "supports": "Existence, active investing", "quote": "Newton Biocapital" },
-      { "url": "https://globalventuring.com/university/newton-starts-sowing-second-fund/", "title": "Newton starts sowing second fund", "publisher": "Global University Venturing", "accessed": "undefined", "supports": "Founding year, fund sizes, sector focus, geography", "quote": "Newton Biocapital is a Belgian venture capital fund focused on financing biotech and life science projects in the \"core of Europe\" (B, NL, D, F) and Japan for the prevention and treatment of chronic diseases ... Newton Biocapital I (€114M) and Newton Biocapital II, which is currently targeting €150M." }
+      {
+        "url": "https://newtonbiocapital.com/en/news-article/newton-biocapital-invests-in-neuvasq-eur-20-million-series-a-to-develop-unique-blood-brain-barrier-therapy",
+        "title": "Newton Biocapital news",
+        "publisher": "Newton Biocapital",
+        "accessed": "undefined",
+        "supports": "Existence, active investing",
+        "quote": "Newton Biocapital"
+      },
+      {
+        "url": "https://globalventuring.com/university/newton-starts-sowing-second-fund/",
+        "title": "Newton starts sowing second fund",
+        "publisher": "Global University Venturing",
+        "accessed": "undefined",
+        "supports": "Founding year, fund sizes, sector focus, geography",
+        "quote": "Newton Biocapital is a Belgian venture capital fund focused on financing biotech and life science projects in the \"core of Europe\" (B, NL, D, F) and Japan for the prevention and treatment of chronic diseases ... Newton Biocapital I (€114M) and Newton Biocapital II, which is currently targeting €150M."
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Primary website content could not be directly fetched (network restriction); figures cross-checked across multiple secondary sources (PitchBook/Global Venturing/EuroQuity summaries).",
@@ -837,7 +1827,9 @@
   },
   {
     "id": "eu-embl-ventures",
-    "name": { "en": "EMBL Ventures" },
+    "name": {
+      "en": "EMBL Ventures"
+    },
     "type": "vc",
     "status": "active",
     "region": "europe",
@@ -845,18 +1837,38 @@
     "hq_city": "Heidelberg",
     "website": "https://www.embl-ventures.com/",
     "capital": {
-      "aum": { "raw": "EUR 120 million (per official site); other secondary sources cite ~EUR 68 million across two funds", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "EUR 120 million (per official site); other secondary sources cite ~EUR 68 million across two funds",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "check_size": { "raw": "EUR 3-5 million as lead or co-lead", "usd_min": null, "usd_max": null },
-      "sector_focus": ["therapeutics", "diagnostics"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "EUR 3-5 million as lead or co-lead",
+        "usd_min": null,
+        "usd_max": null
+      },
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["Europe"],
+      "geo_focus": [
+        "Europe"
+      ],
       "thesis": "Life-science-exclusive investor building companies around new therapeutic treatment modalities and pharmaceuticals, next-generation enabling technology platforms, or diagnostics/medical-device innovations, with unique access to EMBL's scientific network."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "gene-therapy"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "gene-therapy"
+      ],
       "indications": [],
       "company_creation": null,
       "invests_public_markets": null,
@@ -866,7 +1878,14 @@
       "en": "EMBL Ventures is a Heidelberg-based, life-science-exclusive VC affiliated with the European Molecular Biology Laboratory that leads or co-leads early-stage investments in new therapeutic modalities, pharmaceuticals, diagnostics and enabling technology platforms across Europe."
     },
     "sources": [
-      { "url": "https://www.embl-ventures.com/", "title": "EMBL Ventures - we invest in life science companies", "publisher": "EMBL Ventures", "accessed": "undefined", "supports": "HQ, sector focus, EMBL affiliation, check size", "quote": "Based in Heidelberg, we invest throughout Europe with the aim to build companies that create significant commercial opportunities based on new therapeutic treatment modalities and pharmaceuticals, next generation enabling technology platforms or innovations in the diagnostics and medical device area." }
+      {
+        "url": "https://www.embl-ventures.com/",
+        "title": "EMBL Ventures - we invest in life science companies",
+        "publisher": "EMBL Ventures",
+        "accessed": "undefined",
+        "supports": "HQ, sector focus, EMBL affiliation, check size",
+        "quote": "Based in Heidelberg, we invest throughout Europe with the aim to build companies that create significant commercial opportunities based on new therapeutic treatment modalities and pharmaceuticals, next generation enabling technology platforms or innovations in the diagnostics and medical device area."
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year not confirmed on primary site; AUM figures conflict between EUR 120M (site-adjacent secondary summary) and ~EUR 68M across two funds (other aggregator) — both retained in capital.aum.raw pending clearer disclosure. EMBL affiliation means this could alternatively be classified as a university/research-institute fund; kept as 'vc' given it raises external capital and invests broadly across Europe, not solely in EMBL spinouts.",

@@ -1,8 +1,16 @@
 [
   {
     "id": "il-amoon",
-    "name": { "en": "aMoon", "local": "aMoon" },
-    "aka": ["aMoon Fund", "aMoon Partners", "aMoon Velocity", "aMoon Growth"],
+    "name": {
+      "en": "aMoon",
+      "local": "aMoon"
+    },
+    "aka": [
+      "aMoon Fund",
+      "aMoon Partners",
+      "aMoon Velocity",
+      "aMoon Growth"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2016,
@@ -10,38 +18,102 @@
     "country": "Israel",
     "hq_city": "Ra'anana",
     "website": "https://www.amoon.fund/",
-    "links": { "linkedin": "https://il.linkedin.com/company/amoon-fund" },
+    "links": {
+      "linkedin": "https://il.linkedin.com/company/amoon-fund"
+    },
     "capital": {
-      "aum": { "raw": "$1.1B", "usd": 1100000000, "currency": "USD" },
+      "aum": {
+        "raw": "$1.1B",
+        "usd": 1100000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "aMoon 2", "size": { "raw": "$660M", "usd": 660000000, "currency": "USD" } }
+        {
+          "name": "aMoon 2",
+          "size": {
+            "raw": "$660M",
+            "usd": 660000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["all"],
+      "stages": [
+        "all"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states", "europe"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "diagnostics"],
+      "geo_focus": [
+        "israel",
+        "united-states",
+        "europe"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health",
+        "diagnostics"
+      ],
       "thesis": "Israel's largest HealthTech and life-sciences fund, backing biopharma, digital health and medical-technology companies pursuing disruptive solutions for high unmet medical needs; invests from venture formation through growth and public equities via Velocity (early), Growth (late) and Edge (public) vehicles."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform", "software-samd"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "ai-ml-platform",
+        "software-samd"
+      ],
       "company_creation": true,
       "invests_public_markets": true
     },
     "people": [
-      { "name": "Marius Nacht", "role": "Founder / Chairman", "background": "Co-founder of Check Point Software; Israeli tech billionaire" },
-      { "name": "Yair Schindel", "role": "Co-founder / Managing Partner", "background": "MD; healthtech investor" }
+      {
+        "name": "Marius Nacht",
+        "role": "Founder / Chairman",
+        "background": "Co-founder of Check Point Software; Israeli tech billionaire"
+      },
+      {
+        "name": "Yair Schindel",
+        "role": "Co-founder / Managing Partner",
+        "background": "MD; healthtech investor"
+      }
     ],
     "summary": {
       "en": "aMoon is Israel's largest HealthTech & life-sciences venture fund, investing across biopharma, digital health and medtech from early stage to growth and public markets.",
       "local": "aMoon היא קרן ההשקעות הגדולה בישראל בתחום הבריאות ומדעי החיים, המשקיעה בביו-פארמה, בריאות דיגיטלית וטכנולוגיה רפואית מהשלב המוקדם ועד לצמיחה ולשוק הציבורי."
     },
     "sources": [
-      { "url": "https://www.amoon.fund/", "title": "aMoon Fund", "publisher": "aMoon", "accessed": "undefined", "supports": "HQ, healthtech/life-sciences focus, Velocity/Growth vehicles", "quote": "Ra'anana, Israel" },
-      { "url": "https://www.timesofisrael.com/israel-health-fund-amoon-2-raises-660-million-in-investor-commitments/", "title": "Israel health fund aMoon 2 raises $660 million in investor commitments", "publisher": "The Times of Israel", "accessed": "undefined", "supports": "aMoon 2 fund size", "quote": "Israel health fund aMoon 2 raises $660 million in investor commitments" },
-      { "url": "https://en.globes.co.il/en/article-amoon-closes-660m-israeli-health-tech-vc-fund-1001276888", "title": "aMoon closes $660m Israeli health-tech VC fund", "publisher": "Globes", "accessed": "undefined", "supports": "aMoon 2 fund size", "quote": "aMoon closes $660m Israeli health-tech VC fund" },
-      { "url": "https://il.linkedin.com/company/amoon-fund", "title": "aMoon Fund | LinkedIn", "publisher": "LinkedIn", "accessed": "undefined", "supports": "AUM ~$1.1B, founded 2016" }
+      {
+        "url": "https://www.amoon.fund/",
+        "title": "aMoon Fund",
+        "publisher": "aMoon",
+        "accessed": "undefined",
+        "supports": "HQ, healthtech/life-sciences focus, Velocity/Growth vehicles",
+        "quote": "Ra'anana, Israel"
+      },
+      {
+        "url": "https://www.timesofisrael.com/israel-health-fund-amoon-2-raises-660-million-in-investor-commitments/",
+        "title": "Israel health fund aMoon 2 raises $660 million in investor commitments",
+        "publisher": "The Times of Israel",
+        "accessed": "undefined",
+        "supports": "aMoon 2 fund size",
+        "quote": "Israel health fund aMoon 2 raises $660 million in investor commitments"
+      },
+      {
+        "url": "https://en.globes.co.il/en/article-amoon-closes-660m-israeli-health-tech-vc-fund-1001276888",
+        "title": "aMoon closes $660m Israeli health-tech VC fund",
+        "publisher": "Globes",
+        "accessed": "undefined",
+        "supports": "aMoon 2 fund size",
+        "quote": "aMoon closes $660m Israeli health-tech VC fund"
+      },
+      {
+        "url": "https://il.linkedin.com/company/amoon-fund",
+        "title": "aMoon Fund | LinkedIn",
+        "publisher": "LinkedIn",
+        "accessed": "undefined",
+        "supports": "AUM ~$1.1B, founded 2016"
+      }
     ],
     "confidence": "high",
     "verification_notes": "$1.1B AUM figure is from secondary databases/LinkedIn (one source cites ~$1.3B); the $660M aMoon 2 figure is well-sourced. Founded 2016 per multiple secondary sources.",
@@ -50,8 +122,14 @@
   },
   {
     "id": "il-pitango-healthtech",
-    "name": { "en": "Pitango HealthTech", "local": "פיטנגו הלת'טק" },
-    "aka": ["Pitango HealthTech", "Pitango Venture Capital (HealthTech arm)"],
+    "name": {
+      "en": "Pitango HealthTech",
+      "local": "פיטנגו הלת'טק"
+    },
+    "aka": [
+      "Pitango HealthTech",
+      "Pitango Venture Capital (HealthTech arm)"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2019,
@@ -61,29 +139,78 @@
     "website": "https://www.pitango.com/healthtech/",
     "capital": {
       "funds": [
-        { "name": "Pitango HealthTech II", "vintage_year": 2023, "size": { "raw": "$175M", "usd": 175000000, "currency": "USD" } }
+        {
+          "name": "Pitango HealthTech II",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "$175M",
+            "usd": 175000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states", "europe"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "ai-drug-discovery", "diagnostics"],
+      "geo_focus": [
+        "israel",
+        "united-states",
+        "europe"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health",
+        "ai-drug-discovery",
+        "diagnostics"
+      ],
       "thesis": "Dedicated life-sciences arm of Pitango Venture Capital, specializing in breakthrough ventures across digital medicine, medical devices, biopharma and AI-driven healthcare."
     },
     "lifesci": {
-      "modalities": ["ai-ml-platform", "software-samd", "biologics-antibody", "medical-hardware"]
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd",
+        "biologics-antibody",
+        "medical-hardware"
+      ]
     },
     "people": [
-      { "name": "Ittai Harel", "role": "Managing Partner" },
-      { "name": "Hila Karah", "role": "Partner" },
-      { "name": "Jonathan Glazer", "role": "Partner", "background": "MD" }
+      {
+        "name": "Ittai Harel",
+        "role": "Managing Partner"
+      },
+      {
+        "name": "Hila Karah",
+        "role": "Partner"
+      },
+      {
+        "name": "Jonathan Glazer",
+        "role": "Partner",
+        "background": "MD"
+      }
     ],
     "track_record": {
       "notable_investments": [
-        { "company": "TScan Therapeutics", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "QuantHealth", "sector": "ai-drug-discovery", "outcome": "active" },
-        { "company": "Somite", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "TScan Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "QuantHealth",
+          "sector": "ai-drug-discovery",
+          "outcome": "active"
+        },
+        {
+          "company": "Somite",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -91,10 +218,36 @@
       "local": "פיטנגו הלת'טק היא הזרוע הייעודית של קרן פיטנגו להשקעות במדעי החיים, הרפואה הדיגיטלית, המכשור הרפואי והבריאות מבוססת AI."
     },
     "sources": [
-      { "url": "https://www.pitango.com/healthtech/", "title": "HealthTech – Pitango", "publisher": "Pitango", "accessed": "undefined", "supports": "Focus on digital medicine, medical devices, biopharma, AI healthcare; leadership" },
-      { "url": "https://www.finsmes.com/2023/09/pitango-healthtech-holds-first-close-of-second-fund-at-175m.html", "title": "Pitango HealthTech Holds First Close Of Second Fund, at $175M", "publisher": "FinSMEs", "accessed": "undefined", "supports": "HealthTech II fund size", "quote": "Pitango HealthTech Holds First Close Of Second Fund, at $175M" },
-      { "url": "https://www.timesofisrael.com/pitango-pulls-in-175-million-to-invest-in-israeli-health-tech-startups/", "title": "Pitango pulls in $175 million to invest in Israeli health tech startups", "publisher": "The Times of Israel", "accessed": "undefined", "supports": "$175M health-tech fund", "quote": "Pitango pulls in $175 million to invest in Israeli health tech startups" },
-      { "url": "https://en.globes.co.il/en/article-pitango-closes-300m-for-early-stage-and-healthcare-vc-funds-1001525720", "title": "Pitango closes $300m for early-stage, healthcare VC funds", "publisher": "Globes", "accessed": "undefined", "supports": "HealthTech among two new $300M funds" }
+      {
+        "url": "https://www.pitango.com/healthtech/",
+        "title": "HealthTech – Pitango",
+        "publisher": "Pitango",
+        "accessed": "undefined",
+        "supports": "Focus on digital medicine, medical devices, biopharma, AI healthcare; leadership"
+      },
+      {
+        "url": "https://www.finsmes.com/2023/09/pitango-healthtech-holds-first-close-of-second-fund-at-175m.html",
+        "title": "Pitango HealthTech Holds First Close Of Second Fund, at $175M",
+        "publisher": "FinSMEs",
+        "accessed": "undefined",
+        "supports": "HealthTech II fund size",
+        "quote": "Pitango HealthTech Holds First Close Of Second Fund, at $175M"
+      },
+      {
+        "url": "https://www.timesofisrael.com/pitango-pulls-in-175-million-to-invest-in-israeli-health-tech-startups/",
+        "title": "Pitango pulls in $175 million to invest in Israeli health tech startups",
+        "publisher": "The Times of Israel",
+        "accessed": "undefined",
+        "supports": "$175M health-tech fund",
+        "quote": "Pitango pulls in $175 million to invest in Israeli health tech startups"
+      },
+      {
+        "url": "https://en.globes.co.il/en/article-pitango-closes-300m-for-early-stage-and-healthcare-vc-funds-1001525720",
+        "title": "Pitango closes $300m for early-stage, healthcare VC funds",
+        "publisher": "Globes",
+        "accessed": "undefined",
+        "supports": "HealthTech among two new $300M funds"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Pitango is a large generalist VC (>$2.8B committed across funds); this entry covers its dedicated HealthTech life-sciences arm, first launched 2019. HealthTech II ($175M) held first close in 2023.",
@@ -103,8 +256,13 @@
   },
   {
     "id": "il-israel-biotech-fund",
-    "name": { "en": "Israel Biotech Fund", "local": "קרן הביוטק הישראלית" },
-    "aka": ["IBF"],
+    "name": {
+      "en": "Israel Biotech Fund",
+      "local": "קרן הביוטק הישראלית"
+    },
+    "aka": [
+      "IBF"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2015,
@@ -112,27 +270,58 @@
     "country": "Israel",
     "hq_city": "Rehovot",
     "website": "https://ibf.fund/",
-    "links": { "linkedin": "https://il.linkedin.com/company/israel-biotech-fund" },
+    "links": {
+      "linkedin": "https://il.linkedin.com/company/israel-biotech-fund"
+    },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["therapeutics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Invests exclusively in Israeli and Israeli-related biotechnology and pharmaceutical companies at or near clinical stage, supported by a bench of ~30 venture advisors drawn from senior global pharma/biotech leadership."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "rna-therapeutics", "cell-therapy", "gene-therapy"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "rna-therapeutics",
+        "cell-therapy",
+        "gene-therapy"
+      ],
       "science_platform_notes": "Network of ~30 Venture Advisors including Sol Barer (former Celgene chairman/CEO) and Jeff Kindler (former Pfizer chairman/CEO)."
     },
     "people": [
-      { "name": "David Sidransky", "role": "Co-founder / General Partner", "background": "MD, Johns Hopkins oncologist and serial biotech entrepreneur" },
-      { "name": "Yuval Cabilly", "role": "Co-founder / General Partner", "background": "PhD" },
-      { "name": "Ido Zairi", "role": "Co-founder / General Partner" }
+      {
+        "name": "David Sidransky",
+        "role": "Co-founder / General Partner",
+        "background": "MD, Johns Hopkins oncologist and serial biotech entrepreneur"
+      },
+      {
+        "name": "Yuval Cabilly",
+        "role": "Co-founder / General Partner",
+        "background": "PhD"
+      },
+      {
+        "name": "Ido Zairi",
+        "role": "Co-founder / General Partner"
+      }
     ],
     "track_record": {
       "portfolio_count": "~15",
       "notable_investments": [
-        { "company": "Ukko", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Ukko",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -140,9 +329,27 @@
       "local": "קרן הביוטק הישראלית משקיעה באופן בלעדי בחברות ביוטק ותרופות ישראליות בשלבים קליניים, בגיבוי רשת רחבה של יועצי תעשייה."
     },
     "sources": [
-      { "url": "https://ibf.fund/", "title": "Israel Biotech Fund", "publisher": "Israel Biotech Fund", "accessed": "undefined", "supports": "Exclusive Israeli biotech/pharma focus, clinical-stage, ~30 venture advisors" },
-      { "url": "https://www.cbinsights.com/investor/israel-biotech-fund", "title": "Israel Biotech Fund Portfolio Investments", "publisher": "CB Insights", "accessed": "undefined", "supports": "Investment count, portfolio incl. Ukko" },
-      { "url": "https://www.lonza.com/news/2022-05-24-14-02", "title": "Lonza and Israel Biotech Fund Collaboration Framework Agreement", "publisher": "Lonza", "accessed": "undefined", "supports": "Existence, CDMO collaboration for portfolio companies" }
+      {
+        "url": "https://ibf.fund/",
+        "title": "Israel Biotech Fund",
+        "publisher": "Israel Biotech Fund",
+        "accessed": "undefined",
+        "supports": "Exclusive Israeli biotech/pharma focus, clinical-stage, ~30 venture advisors"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/israel-biotech-fund",
+        "title": "Israel Biotech Fund Portfolio Investments",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Investment count, portfolio incl. Ukko"
+      },
+      {
+        "url": "https://www.lonza.com/news/2022-05-24-14-02",
+        "title": "Lonza and Israel Biotech Fund Collaboration Framework Agreement",
+        "publisher": "Lonza",
+        "accessed": "undefined",
+        "supports": "Existence, CDMO collaboration for portfolio companies"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Founding year reported as 2014 (some databases) and 2015 (IBF states 'since its inception in 2015'); HQ reported as Rehovot. Runs Fund I and Fund II; specific fund sizes not verified with a primary quote.",
@@ -151,8 +358,14 @@
   },
   {
     "id": "il-pontifax",
-    "name": { "en": "Pontifax", "local": "פונטיפקס" },
-    "aka": ["Pontifax Venture Capital", "The Pontifax Group"],
+    "name": {
+      "en": "Pontifax",
+      "local": "פונטיפקס"
+    },
+    "aka": [
+      "Pontifax Venture Capital",
+      "The Pontifax Group"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2004,
@@ -160,40 +373,101 @@
     "country": "Israel",
     "hq_city": "Herzliya",
     "offices": [
-      { "country": "Israel", "city": "Herzliya" },
-      { "country": "United States", "city": "Boston" }
+      {
+        "country": "Israel",
+        "city": "Herzliya"
+      },
+      {
+        "country": "United States",
+        "city": "Boston"
+      }
     ],
     "website": "https://www.pontifax.com/",
     "capital": {
-      "aum": { "raw": "$1.2B", "usd": 1200000000, "currency": "USD" },
+      "aum": {
+        "raw": "$1.2B",
+        "usd": 1200000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Pontifax fifth fund", "size": { "raw": "$240M", "usd": 240000000, "currency": "USD" } }
+        {
+          "name": "Pontifax fifth fund",
+          "size": {
+            "raw": "$240M",
+            "usd": 240000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["all"],
+      "stages": [
+        "all"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states", "europe"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "geo_focus": [
+        "israel",
+        "united-states",
+        "europe"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health"
+      ],
       "thesis": "Healthcare-dedicated VC investing exclusively in life sciences across biopharma, medtech and digital health, from company formation and seed through late-stage clinical and growth-equity rounds."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "gene-therapy", "cell-therapy"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "gene-therapy",
+        "cell-therapy"
+      ],
       "company_creation": true
     },
     "people": [
-      { "name": "Ran Nussbaum", "role": "Managing Partner" },
-      { "name": "Tomer Kariv", "role": "Managing Partner" }
+      {
+        "name": "Ran Nussbaum",
+        "role": "Managing Partner"
+      },
+      {
+        "name": "Tomer Kariv",
+        "role": "Managing Partner"
+      }
     ],
-    "track_record": { "portfolio_count": "~75-100" },
+    "track_record": {
+      "portfolio_count": "~75-100"
+    },
     "summary": {
       "en": "Pontifax is a healthcare-dedicated Israeli VC investing exclusively in life sciences (biopharma, medtech, digital health) across all stages, with ~$1.2B AUM.",
       "local": "פונטיפקס היא קרן הון-סיכון ישראלית המתמחה בהשקעות במדעי החיים ובבריאות בכל השלבים, עם נכסים מנוהלים של כ-1.2 מיליארד דולר."
     },
     "sources": [
-      { "url": "https://www.pontifax.com/", "title": "Home - Pontifax Venture Capital", "publisher": "Pontifax", "accessed": "undefined", "supports": "AUM, HQ Herzliya, life-sciences focus", "quote": "$1.2B managed" },
-      { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3858311,00.html", "title": "Due to high demand for biotech, Pontifax crosses $1.3 billion funding threshold", "publisher": "CTech by Calcalist", "accessed": "undefined", "supports": "AUM scale", "quote": "Due to high demand for biotech, Pontifax crosses $1.3 billion funding threshold" },
-      { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3728581,00.html", "title": "Pontifax Raises a $240 Million Fifth Fund", "publisher": "CTech by Calcalist", "accessed": "undefined", "supports": "Fifth fund size", "quote": "Pontifax Raises a $240 Million Fifth Fund" }
+      {
+        "url": "https://www.pontifax.com/",
+        "title": "Home - Pontifax Venture Capital",
+        "publisher": "Pontifax",
+        "accessed": "undefined",
+        "supports": "AUM, HQ Herzliya, life-sciences focus",
+        "quote": "$1.2B managed"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3858311,00.html",
+        "title": "Due to high demand for biotech, Pontifax crosses $1.3 billion funding threshold",
+        "publisher": "CTech by Calcalist",
+        "accessed": "undefined",
+        "supports": "AUM scale",
+        "quote": "Due to high demand for biotech, Pontifax crosses $1.3 billion funding threshold"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3728581,00.html",
+        "title": "Pontifax Raises a $240 Million Fifth Fund",
+        "publisher": "CTech by Calcalist",
+        "accessed": "undefined",
+        "supports": "Fifth fund size",
+        "quote": "Pontifax Raises a $240 Million Fifth Fund"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM stated as $1.2B on the official site; CTech reports the group crossing a $1.3B threshold. Portfolio count varies by source (official site shows '75'; other sources cite ~100). Founded 2004 per multiple secondary sources.",
@@ -202,32 +476,70 @@
   },
   {
     "id": "il-peregrine-ventures",
-    "name": { "en": "Peregrine Ventures", "local": "פרגרין ונצ'רס" },
-    "aka": ["Peregrine", "Incentive Incubator"],
+    "name": {
+      "en": "Peregrine Ventures",
+      "local": "פרגרין ונצ'רס"
+    },
+    "aka": [
+      "Peregrine",
+      "Incentive Incubator"
+    ],
     "type": "vc",
-    "subtypes": ["incubator"],
+    "subtypes": [
+      "incubator"
+    ],
     "status": "active",
     "founded_year": 2001,
     "region": "israel",
     "country": "Israel",
     "hq_city": "Herzliya",
     "website": "https://www.peregrinevc.com/",
-    "links": { "linkedin": "https://www.linkedin.com/company/peregrinevc" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/peregrinevc"
+    },
     "capital": {
-      "aum": { "raw": "$400M total managed and co-invest capital", "usd": 400000000, "currency": "USD" },
+      "aum": {
+        "raw": "$400M total managed and co-invest capital",
+        "usd": 400000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Peregrine fourth fund", "size": { "raw": "$115M", "usd": 115000000, "currency": "USD" } }
+        {
+          "name": "Peregrine fourth fund",
+          "size": {
+            "raw": "$115M",
+            "usd": 115000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["medtech-devices", "therapeutics", "digital-health", "diagnostics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "therapeutics",
+        "digital-health",
+        "diagnostics"
+      ],
       "thesis": "Israel's first dedicated healthcare fund; invests across medical devices, pharma & biotech and digital health via early/mid-stage funds, the 'Incentive' incubator (with the Israel Innovation Authority) and a growth fund for mature companies."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "software-samd", "biologics-antibody"],
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "biologics-antibody"
+      ],
       "company_creation": true,
       "science_platform_notes": "Operates the 'Incentive' incubator, Israel's first privatized healthcare incubator, in partnership with the Israel Innovation Authority, Bristol Myers Squibb and Becton Dickinson."
     },
@@ -239,7 +551,11 @@
     "track_record": {
       "portfolio_count": "60 companies established in the Incentive incubator (34 remain active)",
       "notable_investments": [
-        { "company": "Incentive incubator graduates (aggregate)", "sector": "medtech-devices", "outcome": "aggregate value ~$5B" }
+        {
+          "company": "Incentive incubator graduates (aggregate)",
+          "sector": "medtech-devices",
+          "outcome": "aggregate value ~$5B"
+        }
       ]
     },
     "summary": {
@@ -247,10 +563,37 @@
       "local": "פרגרין ונצ'רס היא קרן הבריאות הייעודית הראשונה בישראל, המשקיעה במכשור רפואי, ביוטק ובריאות דיגיטלית ומפעילה את חממת Incentive."
     },
     "sources": [
-      { "url": "https://www.peregrinevc.com/", "title": "Homepage - Peregrine", "publisher": "Peregrine Ventures", "accessed": "undefined", "supports": "First dedicated healthcare fund; sectors; Incentive incubator; investment vehicles", "quote": "Peregrine's dedicated investment vehicles include early and mid-stage funds, Peregrine's 'Incentive' Incubator, and Peregrine Growth." },
-      { "url": "https://www.timesofisrael.com/israels-peregrine-ventures-raises-115-million-for-new-med-tech-fund/", "title": "Israel's Peregrine Ventures raises $115 million for new med-tech fund", "publisher": "The Times of Israel", "accessed": "undefined", "supports": "Fourth fund size", "quote": "Israel's Peregrine Ventures raises $115 million for new med-tech fund" },
-      { "url": "https://www.biospace.com/peregrine-ventures-raises-115-million-for-its-fourth-fund-bringing-total-managed-funds-and-co-invest-capital-to-400-million", "title": "Peregrine Ventures Raises $115 Million for its Fourth Fund Bringing Total Managed Funds and Co-Invest Capital to $400 Million", "publisher": "BioSpace", "accessed": "undefined", "supports": "Total managed + co-invest $400M", "quote": "Bringing Total Managed Funds and Co-Invest Capital to $400 Million" },
-      { "url": "https://www.jpost.com/israel-news/article-837235", "title": "Peregrine Ventures: Israel's most active investor in health tech venture capital investments", "publisher": "The Jerusalem Post", "accessed": "undefined", "supports": "Most active health-tech investor; Incentive incubator track record" }
+      {
+        "url": "https://www.peregrinevc.com/",
+        "title": "Homepage - Peregrine",
+        "publisher": "Peregrine Ventures",
+        "accessed": "undefined",
+        "supports": "First dedicated healthcare fund; sectors; Incentive incubator; investment vehicles",
+        "quote": "Peregrine's dedicated investment vehicles include early and mid-stage funds, Peregrine's 'Incentive' Incubator, and Peregrine Growth."
+      },
+      {
+        "url": "https://www.timesofisrael.com/israels-peregrine-ventures-raises-115-million-for-new-med-tech-fund/",
+        "title": "Israel's Peregrine Ventures raises $115 million for new med-tech fund",
+        "publisher": "The Times of Israel",
+        "accessed": "undefined",
+        "supports": "Fourth fund size",
+        "quote": "Israel's Peregrine Ventures raises $115 million for new med-tech fund"
+      },
+      {
+        "url": "https://www.biospace.com/peregrine-ventures-raises-115-million-for-its-fourth-fund-bringing-total-managed-funds-and-co-invest-capital-to-400-million",
+        "title": "Peregrine Ventures Raises $115 Million for its Fourth Fund Bringing Total Managed Funds and Co-Invest Capital to $400 Million",
+        "publisher": "BioSpace",
+        "accessed": "undefined",
+        "supports": "Total managed + co-invest $400M",
+        "quote": "Bringing Total Managed Funds and Co-Invest Capital to $400 Million"
+      },
+      {
+        "url": "https://www.jpost.com/israel-news/article-837235",
+        "title": "Peregrine Ventures: Israel's most active investor in health tech venture capital investments",
+        "publisher": "The Jerusalem Post",
+        "accessed": "undefined",
+        "supports": "Most active health-tech investor; Incentive incubator track record"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Runs both VC funds and the Incentive incubator (Innovation Authority partnership) — included here with primary type 'vc' and incubator as subtype. Founded 2001 per secondary sources.",
@@ -258,64 +601,19 @@
     "researched_by": "tier1-lifesci-vc"
   },
   {
-    "id": "il-arkin-bio-ventures",
-    "name": { "en": "Arkin Bio Ventures (Arkin Holdings)", "local": "ארקין ביו ונצ'רס" },
-    "aka": ["Arkin Holdings", "Arkin Capital", "Arkin Bio-Ventures"],
-    "type": "vc",
-    "status": "active",
-    "region": "israel",
-    "country": "Israel",
-    "hq_city": "Herzliya Pituach",
-    "links": { "other": ["https://www.biospace.com/arkin-holdings-raises-140-million-in-second-partnership-arkin-bio-ventures-ii-to-invest-in-groundbreaking-pharma-and-biotechnology-companies"] },
-    "capital": {
-      "aum": { "raw": "over $600 million in biotech-focused assets", "usd": 600000000, "currency": "USD" },
-      "funds": [
-        { "name": "Arkin Bio-Ventures II", "vintage_year": 2020, "size": { "raw": "$140M", "usd": 140000000, "currency": "USD" } },
-        { "name": "Arkin Bio Ventures III", "size": { "raw": "$100M", "usd": 100000000, "currency": "USD" } }
-      ]
-    },
-    "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states"],
-      "sector_focus": ["therapeutics"],
-      "thesis": "Life-sciences investing arm of Mori Arkin's Arkin Holdings, backing early-stage biotech developing gene/RNA/DNA-based and targeted therapies for high unmet needs in oncology, immunology, inflammation and rare disease."
-    },
-    "lifesci": {
-      "modalities": ["gene-therapy", "rna-therapeutics", "cell-therapy", "small-molecule", "biologics-antibody"],
-      "indications": ["oncology", "immunology-inflammation", "rare-disease"]
-    },
-    "people": [
-      { "name": "Mori Arkin", "role": "Founder / Chairman", "background": "Founder of Agis (sold to Perrigo); serial life-sciences investor" }
-    ],
-    "track_record": {
-      "notable_investments": [
-        { "company": "UroGen Pharma", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "BioSight", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Lutris Pharma", "sector": "therapeutics", "outcome": "active" },
-        { "company": "CCAM Biotherapeutics", "sector": "therapeutics", "outcome": "active" }
-      ]
-    },
-    "summary": {
-      "en": "Arkin Bio Ventures is the life-sciences arm of Mori Arkin's Arkin Holdings, one of Israel's largest biotech investors, backing early-stage therapeutics with over $600M under management.",
-      "local": "ארקין ביו ונצ'רס היא זרוע ההשקעות במדעי החיים של ארקין החזקות, מהמשקיעים הגדולים בישראל בתחום הביוטק."
-    },
-    "sources": [
-      { "url": "https://www.biospace.com/arkin-holdings-raises-140-million-in-second-partnership-arkin-bio-ventures-ii-to-invest-in-groundbreaking-pharma-and-biotechnology-companies", "title": "Arkin Holdings Raises $140 Million in Second Partnership Arkin Bio-Ventures II", "publisher": "BioSpace", "accessed": "undefined", "supports": "Bio-Ventures II size and strategy", "quote": "Arkin Holdings Raises $140 Million in Second Partnership Arkin Bio-Ventures II to Invest in Groundbreaking Pharma and Biotechnology Companies" },
-      { "url": "https://en.globes.co.il/en/article-arkin-raises-100m-for-early-stage-biotech-fund-1001531757", "title": "Arkin raises $100m for early-stage biotech fund", "publisher": "Globes", "accessed": "undefined", "supports": "Bio Ventures III size", "quote": "Arkin raises $100m for early-stage biotech fund" },
-      { "url": "https://www.bioxconomy.com/investment/arkin-capital-closes-100m-arkin-bio-ventures-iii-to-back-early-stage-biotech-firms", "title": "Arkin capital closes $100m Arkin Bio Ventures III", "publisher": "BioXconomy", "accessed": "undefined", "supports": "Fund III close; >$600M total AUM; portfolio names" }
-    ],
-    "confidence": "high",
-    "verification_notes": "Described as 'the largest and leading Israel-based life sciences investor'; >$600M AUM figure from BioXconomy. Founding year of Arkin Holdings not pinned to a primary quote (omitted). Mori Arkin also co-founded Accelmed.",
-    "last_updated": "undefined",
-    "researched_by": "tier1-lifesci-vc"
-  },
-  {
     "id": "il-accelmed-ventures",
-    "name": { "en": "Accelmed Ventures", "local": "אקסלמד ונצ'רס" },
-    "aka": ["Accelmed", "Accelmed Group"],
+    "name": {
+      "en": "Accelmed Ventures",
+      "local": "אקסלמד ונצ'רס"
+    },
+    "aka": [
+      "Accelmed",
+      "Accelmed Group"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2009,
     "region": "israel",
@@ -323,37 +621,97 @@
     "hq_city": "Herzliya",
     "website": "https://www.accelmed-ventures.com/",
     "offices": [
-      { "country": "Israel", "city": "Herzliya" },
-      { "country": "United States", "city": "" }
+      {
+        "country": "Israel",
+        "city": "Herzliya"
+      },
+      {
+        "country": "United States",
+        "city": ""
+      }
     ],
     "capital": {
-      "aum": { "raw": "over $630 million of equity capital (Accelmed group)", "usd": 630000000, "currency": "USD" },
+      "aum": {
+        "raw": "over $630 million of equity capital (Accelmed group)",
+        "usd": 630000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Accelmed Ventures II", "size": { "raw": "$100M", "usd": 100000000, "currency": "USD" } }
+        {
+          "name": "Accelmed Ventures II",
+          "size": {
+            "raw": "$100M",
+            "usd": 100000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states"],
-      "sector_focus": ["medtech-devices", "digital-health", "diagnostics"],
+      "geo_focus": [
+        "israel",
+        "united-states"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health",
+        "diagnostics"
+      ],
       "thesis": "HealthTech investor focused on pre-commercialization and early-revenue medical device, diagnostics and digital-health companies; Israel-based Accelmed Ventures complements the US-based Accelmed Partners buyout/growth arm."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"]
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "ai-ml-platform"
+      ]
     },
     "people": [
-      { "name": "Uri Geiger", "role": "Co-founder / Managing Partner", "background": "PhD; medtech investor and author" },
-      { "name": "Mori Arkin", "role": "Co-founder", "background": "Life-sciences investor (Arkin Holdings)" }
+      {
+        "name": "Uri Geiger",
+        "role": "Co-founder / Managing Partner",
+        "background": "PhD; medtech investor and author"
+      },
+      {
+        "name": "Mori Arkin",
+        "role": "Co-founder",
+        "background": "Life-sciences investor (Arkin Holdings)"
+      }
     ],
     "summary": {
       "en": "Accelmed is an Israeli HealthTech investor (medical devices, diagnostics, digital health) operating an Israel-based venture arm and a US private-equity arm, managing over $630M in equity capital.",
       "local": "אקסלמד היא קבוצת השקעות ישראלית בתחום הטכנולוגיה הרפואית (מכשור רפואי, אבחון ובריאות דיגיטלית), המנהלת מעל 630 מיליון דולר."
     },
     "sources": [
-      { "url": "https://accelmed.com/about", "title": "Accelmed | About Us", "publisher": "Accelmed", "accessed": "undefined", "supports": "HealthTech focus, two arms, founding by Mori Arkin & Uri Geiger, ~$630M capital" },
-      { "url": "https://www.prnewswire.com/news-releases/accelmed-launches-accelmed-ventures-ii-a-new-100-million-venture-healthtech-fund-300932928.html", "title": "Accelmed Launches Accelmed Ventures II, a New $100 Million Venture HealthTech Fund", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Accelmed Ventures II size", "quote": "Accelmed Launches Accelmed Ventures II, a New $100 Million Venture HealthTech Fund" },
-      { "url": "https://accelmed.com/news/emerging-healthtech-investor-accelmed-closes-fund-ii-at-400m-hard-cap", "title": "Emerging healthtech investor Accelmed closes Fund II at $400m hard cap", "publisher": "Accelmed", "accessed": "undefined", "supports": "Fund II hard cap $400M" }
+      {
+        "url": "https://accelmed.com/about",
+        "title": "Accelmed | About Us",
+        "publisher": "Accelmed",
+        "accessed": "undefined",
+        "supports": "HealthTech focus, two arms, founding by Mori Arkin & Uri Geiger, ~$630M capital"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/accelmed-launches-accelmed-ventures-ii-a-new-100-million-venture-healthtech-fund-300932928.html",
+        "title": "Accelmed Launches Accelmed Ventures II, a New $100 Million Venture HealthTech Fund",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Accelmed Ventures II size",
+        "quote": "Accelmed Launches Accelmed Ventures II, a New $100 Million Venture HealthTech Fund"
+      },
+      {
+        "url": "https://accelmed.com/news/emerging-healthtech-investor-accelmed-closes-fund-ii-at-400m-hard-cap",
+        "title": "Emerging healthtech investor Accelmed closes Fund II at $400m hard cap",
+        "publisher": "Accelmed",
+        "accessed": "undefined",
+        "supports": "Fund II hard cap $400M"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Accelmed group spans Israel-based Accelmed Ventures and US-based Accelmed Partners (PE). The $400M 'Fund II hard cap' refers to a separate (Partners) fund; Accelmed Ventures II was launched at $100M. Founded 2009 in Herzliya by Mori Arkin and Uri Geiger.",
@@ -362,8 +720,13 @@
   },
   {
     "id": "il-orbimed-israel",
-    "name": { "en": "OrbiMed Israel Partners", "local": "אורבימד ישראל" },
-    "aka": ["OrbiMed Israel"],
+    "name": {
+      "en": "OrbiMed Israel Partners",
+      "local": "אורבימד ישראל"
+    },
+    "aka": [
+      "OrbiMed Israel"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2010,
@@ -373,19 +736,49 @@
     "website": "https://www.orbimed.com/",
     "capital": {
       "funds": [
-        { "name": "OrbiMed Israel Partners", "vintage_year": 2011, "size": { "raw": "$222M", "usd": 222000000, "currency": "USD" } },
-        { "name": "OrbiMed Israel Partners II", "vintage_year": 2016, "size": { "raw": "$307M", "usd": 307000000, "currency": "USD" } }
+        {
+          "name": "OrbiMed Israel Partners",
+          "vintage_year": 2011,
+          "size": {
+            "raw": "$222M",
+            "usd": 222000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "OrbiMed Israel Partners II",
+          "vintage_year": 2016,
+          "size": {
+            "raw": "$307M",
+            "usd": 307000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["all"],
+      "stages": [
+        "all"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health", "diagnostics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health",
+        "diagnostics"
+      ],
       "thesis": "Israel-dedicated life-sciences funds of the global healthcare investor OrbiMed, investing across biopharma, medical devices, diagnostics and digital health in Israeli and Israeli-related companies; anchored in part by a Government of Israel investment."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware", "software-samd"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware",
+        "software-samd"
+      ],
       "invests_public_markets": true
     },
     "track_record": {
@@ -396,9 +789,29 @@
       "local": "אורבימד ישראל הן קרנות ההשקעה הייעודיות לישראל של אורבימד, המשקיעות בחברות ישראליות בתחומי הפארמה, המכשור הרפואי, האבחון והבריאות הדיגיטלית."
     },
     "sources": [
-      { "url": "https://www.fiercebiotech.com/biotech/orbimed-launches-222-million-fund-focused-on-israel-life-sciences", "title": "OrbiMed Launches $222 Million Fund Focused on Israel Life Sciences", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "First Israel fund size; Govt of Israel anchor", "quote": "OrbiMed Launches $222 Million Fund Focused on Israel Life Sciences" },
-      { "url": "https://www.timesofisrael.com/orbimed-launches-307m-fund-for-israeli-med-tech-investments/", "title": "OrbiMed launches $307m fund for Israeli med-tech investments", "publisher": "The Times of Israel", "accessed": "undefined", "supports": "Second Israel fund size", "quote": "OrbiMed launches $307m fund for Israeli med-tech investments" },
-      { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3886331,00.html", "title": "OrbiMed chooses against raising a third Israeli healthcare-dedicated fund", "publisher": "CTech by Calcalist", "accessed": "undefined", "supports": "No third dedicated Israel fund; continues investing via global funds" }
+      {
+        "url": "https://www.fiercebiotech.com/biotech/orbimed-launches-222-million-fund-focused-on-israel-life-sciences",
+        "title": "OrbiMed Launches $222 Million Fund Focused on Israel Life Sciences",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "First Israel fund size; Govt of Israel anchor",
+        "quote": "OrbiMed Launches $222 Million Fund Focused on Israel Life Sciences"
+      },
+      {
+        "url": "https://www.timesofisrael.com/orbimed-launches-307m-fund-for-israeli-med-tech-investments/",
+        "title": "OrbiMed launches $307m fund for Israeli med-tech investments",
+        "publisher": "The Times of Israel",
+        "accessed": "undefined",
+        "supports": "Second Israel fund size",
+        "quote": "OrbiMed launches $307m fund for Israeli med-tech investments"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3886331,00.html",
+        "title": "OrbiMed chooses against raising a third Israeli healthcare-dedicated fund",
+        "publisher": "CTech by Calcalist",
+        "accessed": "undefined",
+        "supports": "No third dedicated Israel fund; continues investing via global funds"
+      }
     ],
     "confidence": "high",
     "verification_notes": "OrbiMed is HQ'd in New York; OrbiMed Israel Partners is its dedicated Israel arm/office (Herzliya) — included on that basis. Fund I ($222M, 2011) included a ~$40M Government of Israel anchor; Fund II ($307M, 2016). OrbiMed opted not to raise a third Israel-dedicated fund but continues to invest in Israel via its global funds.",
@@ -407,8 +820,14 @@
   },
   {
     "id": "il-alive-healthtech",
-    "name": { "en": "ALIVE Israel HealthTech Fund", "local": "ALIVE" },
-    "aka": ["ALIVE VC", "ALIVE HealthTech"],
+    "name": {
+      "en": "ALIVE Israel HealthTech Fund",
+      "local": "ALIVE"
+    },
+    "aka": [
+      "ALIVE VC",
+      "ALIVE HealthTech"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2020,
@@ -418,25 +837,66 @@
     "website": "https://www.alivevc.com/",
     "capital": {
       "funds": [
-        { "name": "ALIVE Growth Fund III", "vintage_year": 2025, "size": { "raw": "targeting ~$180–200M", "usd": null, "currency": "USD" } }
+        {
+          "name": "ALIVE Growth Fund III",
+          "vintage_year": 2025,
+          "size": {
+            "raw": "targeting ~$180–200M",
+            "usd": null,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-b", "series-c-plus", "growth"],
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states", "europe"],
-      "sector_focus": ["medtech-devices", "digital-health", "diagnostics", "healthcare-it"],
+      "geo_focus": [
+        "israel",
+        "united-states",
+        "europe"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health",
+        "diagnostics",
+        "healthcare-it"
+      ],
       "thesis": "Mid-to-late-stage HealthTech fund investing in both medical devices and digital health, leveraging an ecosystem of hospital chains, HMOs and financial institutions to accelerate clinical and commercial expansion."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"]
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "ai-ml-platform"
+      ]
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Innovalve Bio Medical", "sector": "medtech-devices", "outcome": "acquired by Edwards Lifesciences" },
-        { "company": "Magenta Medical", "sector": "medtech-devices", "outcome": "active" },
-        { "company": "Cynerio", "sector": "digital-health", "outcome": "acquired by Axonius" },
-        { "company": "Medisafe", "sector": "digital-health", "outcome": "active" }
+        {
+          "company": "Innovalve Bio Medical",
+          "sector": "medtech-devices",
+          "outcome": "acquired by Edwards Lifesciences"
+        },
+        {
+          "company": "Magenta Medical",
+          "sector": "medtech-devices",
+          "outcome": "active"
+        },
+        {
+          "company": "Cynerio",
+          "sector": "digital-health",
+          "outcome": "acquired by Axonius"
+        },
+        {
+          "company": "Medisafe",
+          "sector": "digital-health",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -444,9 +904,27 @@
       "local": "ALIVE היא קרן ישראלית לטכנולוגיות בריאות בשלבי צמיחה, המשקיעה הן במכשור רפואי והן בבריאות דיגיטלית."
     },
     "sources": [
-      { "url": "https://www.alivevc.com/about", "title": "About | ALIVE - Israel HealthTech Fund", "publisher": "ALIVE", "accessed": "undefined", "supports": "Mid-to-late-stage focus; medtech + digital health; strategic partners; founded 2020" },
-      { "url": "https://israelvc.com/funds/alive-israel-healthtech-fund/", "title": "ALIVE Israel HealthTech Fund", "publisher": "IsraelVC", "accessed": "undefined", "supports": "Fund profile, stage/sector focus" },
-      { "url": "https://www.alivevc.com/portfolio", "title": "Portfolio | ALIVE - Israel HealthTech Fund", "publisher": "ALIVE", "accessed": "undefined", "supports": "Portfolio incl. Innovalve, Magenta Medical, Cynerio, Medisafe" }
+      {
+        "url": "https://www.alivevc.com/about",
+        "title": "About | ALIVE - Israel HealthTech Fund",
+        "publisher": "ALIVE",
+        "accessed": "undefined",
+        "supports": "Mid-to-late-stage focus; medtech + digital health; strategic partners; founded 2020"
+      },
+      {
+        "url": "https://israelvc.com/funds/alive-israel-healthtech-fund/",
+        "title": "ALIVE Israel HealthTech Fund",
+        "publisher": "IsraelVC",
+        "accessed": "undefined",
+        "supports": "Fund profile, stage/sector focus"
+      },
+      {
+        "url": "https://www.alivevc.com/portfolio",
+        "title": "Portfolio | ALIVE - Israel HealthTech Fund",
+        "publisher": "ALIVE",
+        "accessed": "undefined",
+        "supports": "Portfolio incl. Innovalve, Magenta Medical, Cynerio, Medisafe"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "ALIVE Growth Fund III target (~$180–200M) is from secondary reporting/summaries, not confirmed with a primary verbatim quote. Founded 2020, based in Savyon. Exits (Innovalve→Edwards; Cynerio→Axonius) reported in secondary sources.",
@@ -455,34 +933,72 @@
   },
   {
     "id": "il-triventures",
-    "name": { "en": "Triventures", "local": "טרייונצ'רס" },
-    "aka": ["Triventures ARC"],
+    "name": {
+      "en": "Triventures",
+      "local": "טרייונצ'רס"
+    },
+    "aka": [
+      "Triventures ARC"
+    ],
     "type": "vc",
     "status": "active",
     "region": "israel",
     "country": "Israel",
     "hq_city": "Ra'anana",
     "website": "https://www.triventures.vc/",
-    "links": { "linkedin": "https://www.linkedin.com/company/triventures" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/triventures"
+    },
     "offices": [
-      { "country": "Israel", "city": "Ra'anana" },
-      { "country": "United States", "city": "Silicon Valley" }
+      {
+        "country": "Israel",
+        "city": "Ra'anana"
+      },
+      {
+        "country": "United States",
+        "city": "Silicon Valley"
+      }
     ],
     "capital": {
-      "aum": { "raw": "over $100 million under management", "usd": 100000000, "currency": "USD" },
+      "aum": {
+        "raw": "over $100 million under management",
+        "usd": 100000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Triventures ARC", "size": { "raw": "$45M", "usd": 45000000, "currency": "USD" } }
+        {
+          "name": "Triventures ARC",
+          "size": {
+            "raw": "$45M",
+            "usd": 45000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states"],
-      "sector_focus": ["medtech-devices", "digital-health"],
+      "geo_focus": [
+        "israel",
+        "united-states"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health"
+      ],
       "thesis": "Invests in disruptive medical-device and digital-health companies impacting the quality and cost of healthcare; its Triventures ARC fund is the VC arm of the ARC Innovation Center inside Sheba Medical Center, giving startups access to longitudinal patient data."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"],
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "ai-ml-platform"
+      ],
       "science_platform_notes": "Triventures ARC partnered with Sheba Medical Center's ARC Innovation Center; portfolio companies gain access to Sheba's enterprise data warehouse."
     },
     "summary": {
@@ -490,9 +1006,29 @@
       "local": "טרייונצ'רס היא קרן הון-סיכון (ישראל/עמק הסיליקון) המשקיעה במכשור רפואי ובבריאות דיגיטלית ומפעילה את קרן ARC בשיתוף המרכז הרפואי שיבא."
     },
     "sources": [
-      { "url": "https://www.triventures.vc/", "title": "Triventures - Beyond Healthcare", "publisher": "Triventures", "accessed": "undefined", "supports": "Medtech + digital health focus, Israel/US" },
-      { "url": "https://www.forbes.com/sites/startupnationcentral/2018/12/27/vc-brings-the-cash-hospital-opens-its-data-israelis-launch-45m-medical-innovation-fund/", "title": "Israeli VC, Hospital Launch $45M Medical Innovation Fund", "publisher": "Forbes", "accessed": "undefined", "supports": "Triventures ARC $45M fund with Sheba", "quote": "Israeli VC, Hospital Launch $45M Medical Innovation Fund" },
-      { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3770592,00.html", "title": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund", "publisher": "CTech by Calcalist", "accessed": "undefined", "supports": "ARC fund launch; Sheba partnership", "quote": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund" }
+      {
+        "url": "https://www.triventures.vc/",
+        "title": "Triventures - Beyond Healthcare",
+        "publisher": "Triventures",
+        "accessed": "undefined",
+        "supports": "Medtech + digital health focus, Israel/US"
+      },
+      {
+        "url": "https://www.forbes.com/sites/startupnationcentral/2018/12/27/vc-brings-the-cash-hospital-opens-its-data-israelis-launch-45m-medical-innovation-fund/",
+        "title": "Israeli VC, Hospital Launch $45M Medical Innovation Fund",
+        "publisher": "Forbes",
+        "accessed": "undefined",
+        "supports": "Triventures ARC $45M fund with Sheba",
+        "quote": "Israeli VC, Hospital Launch $45M Medical Innovation Fund"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3770592,00.html",
+        "title": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund",
+        "publisher": "CTech by Calcalist",
+        "accessed": "undefined",
+        "supports": "ARC fund launch; Sheba partnership",
+        "quote": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "AUM 'over $100M' and ARC '$45M' from secondary sources. Founding year not pinned to a primary quote (omitted).",
@@ -501,8 +1037,13 @@
   },
   {
     "id": "il-almeda-ventures",
-    "name": { "en": "Almeda Ventures", "local": "אלמידה ונצ'רס" },
-    "aka": ["Almeda"],
+    "name": {
+      "en": "Almeda Ventures",
+      "local": "אלמידה ונצ'רס"
+    },
+    "aka": [
+      "Almeda"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2020,
@@ -510,30 +1051,70 @@
     "country": "Israel",
     "hq_city": "Tel Aviv",
     "website": "https://www.almedaventures.com/",
-    "links": { "linkedin": "https://il.linkedin.com/company/almeda-ventures" },
+    "links": {
+      "linkedin": "https://il.linkedin.com/company/almeda-ventures"
+    },
     "strategy": {
-      "stages": ["series-a", "series-b"],
+      "stages": [
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["medtech-devices", "digital-health", "diagnostics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health",
+        "diagnostics"
+      ],
       "thesis": "HealthTech-focused public R&D partnership investing globally with a focus on medical devices, digital health and bio-convergence."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"]
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "ai-ml-platform"
+      ]
     },
     "people": [
-      { "name": "Irit Yaniv", "role": "General Partner / Chairperson", "background": "MD" },
-      { "name": "Amir Blatt", "role": "Founding Partner / CEO", "background": "Former partner at Accelmed" },
-      { "name": "Efrat Hess", "role": "CFO" }
+      {
+        "name": "Irit Yaniv",
+        "role": "General Partner / Chairperson",
+        "background": "MD"
+      },
+      {
+        "name": "Amir Blatt",
+        "role": "Founding Partner / CEO",
+        "background": "Former partner at Accelmed"
+      },
+      {
+        "name": "Efrat Hess",
+        "role": "CFO"
+      }
     ],
-    "track_record": { "portfolio_count": "~13" },
+    "track_record": {
+      "portfolio_count": "~13"
+    },
     "summary": {
       "en": "Almeda Ventures is a Tel Aviv HealthTech public R&D partnership investing in medical devices, digital health and bio-convergence, primarily at Series B.",
       "local": "אלמידה ונצ'רס היא שותפות מו\"פ ציבורית בתל אביב המשקיעה במכשור רפואי, בריאות דיגיטלית וביו-קונברג'נס."
     },
     "sources": [
-      { "url": "https://www.almedaventures.com/", "title": "Almeda Ventures - HealthTech venture fund", "publisher": "Almeda Ventures", "accessed": "undefined", "supports": "HealthTech focus; medical devices, digital health, bio-convergence; public R&D partnership" },
-      { "url": "https://www.crunchbase.com/organization/almeda-ventures", "title": "Almeda Ventures - Crunchbase", "publisher": "Crunchbase", "accessed": "undefined", "supports": "Founded 2020, Tel Aviv, leadership, portfolio count" }
+      {
+        "url": "https://www.almedaventures.com/",
+        "title": "Almeda Ventures - HealthTech venture fund",
+        "publisher": "Almeda Ventures",
+        "accessed": "undefined",
+        "supports": "HealthTech focus; medical devices, digital health, bio-convergence; public R&D partnership"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/almeda-ventures",
+        "title": "Almeda Ventures - Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founded 2020, Tel Aviv, leadership, portfolio count"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Publicly traded R&D partnership. Founded 2020; ~13 portfolio companies and Series B focus from secondary databases (Crunchbase/Tracxn). No formal 'Clalit' link confirmed despite the search seed.",
@@ -542,10 +1123,18 @@
   },
   {
     "id": "il-ehealth-ventures",
-    "name": { "en": "eHealth Ventures", "local": "eHealth Ventures" },
-    "aka": ["eHV", "eHV Advanced"],
+    "name": {
+      "en": "eHealth Ventures",
+      "local": "eHealth Ventures"
+    },
+    "aka": [
+      "eHV",
+      "eHV Advanced"
+    ],
     "type": "vc",
-    "subtypes": ["incubator"],
+    "subtypes": [
+      "incubator"
+    ],
     "status": "active",
     "founded_year": 2016,
     "region": "israel",
@@ -553,18 +1142,38 @@
     "website": "https://ehv.health/",
     "capital": {
       "funds": [
-        { "name": "eHV Advanced", "size": { "raw": "$30M (aim $40M)", "usd": 30000000, "currency": "USD" } }
+        {
+          "name": "eHV Advanced",
+          "size": {
+            "raw": "$30M (aim $40M)",
+            "usd": 30000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["israel"],
-      "sector_focus": ["digital-health", "diagnostics", "healthcare-services"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Digital-health incubator and VC fund (part of the Israel Innovation Authority incubator network) finding, funding and growing early-stage Israeli digital-health companies in diagnostics, digital monitoring, digital treatments, home care and bio-convergence."
     },
     "lifesci": {
-      "modalities": ["software-samd", "digital-therapeutics", "ai-ml-platform"],
+      "modalities": [
+        "software-samd",
+        "digital-therapeutics",
+        "ai-ml-platform"
+      ],
       "company_creation": true,
       "science_platform_notes": "Partnership including Maccabi Healthcare Services, Amgen Ventures and Medison Ventures; strategic partnerships with Cleveland Clinic and Mayo Clinic."
     },
@@ -576,9 +1185,29 @@
       "local": "eHealth Ventures היא חממה וקרן הון-סיכון לבריאות דיגיטלית הנתמכות ברשות החדשנות, בשיתוף מכבי, Amgen Ventures ו-Medison."
     },
     "sources": [
-      { "url": "https://ehv.health/", "title": "eHV - eHealth Ventures", "publisher": "eHealth Ventures", "accessed": "undefined", "supports": "Digital-health incubator/fund; Innovation Authority network; partners" },
-      { "url": "https://en.globes.co.il/en/article-digital-health-incubator-ehealth-ventures-raising-30m-1001370057", "title": "Digital health incubator eHealth Ventures raising $30m", "publisher": "Globes", "accessed": "undefined", "supports": "$30M eHV Advanced fund", "quote": "Digital health incubator eHealth Ventures raising $30m" },
-      { "url": "https://www.mobihealthnews.com/news/emea/ehealth-ventures-raises-30-million-digital-health-fund", "title": "eHealth Ventures raises $30 million for digital health fund", "publisher": "MobiHealthNews", "accessed": "undefined", "supports": "$30M fund; partners Maccabi, Amgen Ventures, Medison", "quote": "eHealth Ventures raises $30 million for digital health fund" }
+      {
+        "url": "https://ehv.health/",
+        "title": "eHV - eHealth Ventures",
+        "publisher": "eHealth Ventures",
+        "accessed": "undefined",
+        "supports": "Digital-health incubator/fund; Innovation Authority network; partners"
+      },
+      {
+        "url": "https://en.globes.co.il/en/article-digital-health-incubator-ehealth-ventures-raising-30m-1001370057",
+        "title": "Digital health incubator eHealth Ventures raising $30m",
+        "publisher": "Globes",
+        "accessed": "undefined",
+        "supports": "$30M eHV Advanced fund",
+        "quote": "Digital health incubator eHealth Ventures raising $30m"
+      },
+      {
+        "url": "https://www.mobihealthnews.com/news/emea/ehealth-ventures-raises-30-million-digital-health-fund",
+        "title": "eHealth Ventures raises $30 million for digital health fund",
+        "publisher": "MobiHealthNews",
+        "accessed": "undefined",
+        "supports": "$30M fund; partners Maccabi, Amgen Ventures, Medison",
+        "quote": "eHealth Ventures raises $30 million for digital health fund"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Straddles the incubator slice (Innovation Authority incubator) and the VC slice (eHV Advanced fund) — included here with primary type 'vc' and incubator as subtype since it is a named anchor. Founded 2016 as a Maccabi/Teva partnership.",
@@ -587,10 +1216,17 @@
   },
   {
     "id": "il-shavit-capital",
-    "name": { "en": "Shavit Capital", "local": "שביט קפיטל" },
-    "aka": ["Shavit Capital Fund"],
+    "name": {
+      "en": "Shavit Capital",
+      "local": "שביט קפיטל"
+    },
+    "aka": [
+      "Shavit Capital Fund"
+    ],
     "type": "growth-equity",
-    "subtypes": ["crossover-fund"],
+    "subtypes": [
+      "crossover-fund"
+    ],
     "status": "active",
     "founded_year": 2008,
     "region": "israel",
@@ -598,30 +1234,79 @@
     "hq_city": "Jerusalem",
     "website": "https://www.shavitcapital.com/",
     "capital": {
-      "aum": { "raw": "over $500 million under management across five funds", "usd": 500000000, "currency": "USD" },
+      "aum": {
+        "raw": "over $500 million under management across five funds",
+        "usd": 500000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Shavit Capital Fund V", "size": { "raw": "$100M", "usd": 100000000, "currency": "USD" } }
+        {
+          "name": "Shavit Capital Fund V",
+          "size": {
+            "raw": "$100M",
+            "usd": 100000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["growth", "series-c-plus"],
-      "check_size": { "raw": "leads rounds of $20M–$200M", "usd_min": 20000000, "usd_max": 200000000 },
+      "stages": [
+        "growth",
+        "series-c-plus"
+      ],
+      "check_size": {
+        "raw": "leads rounds of $20M–$200M",
+        "usd_min": 20000000,
+        "usd_max": 200000000
+      },
       "lead_or_follow": "lead",
-      "geo_focus": ["israel"],
-      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "generalist-health"
+      ],
       "thesis": "Late-stage / pre-IPO investor in Israeli and Israeli-related companies (equity mezzanine, bridge and pre-IPO rounds); one of the most active investors in late-stage Israeli life-sciences companies heading to a Nasdaq or dual TASE listing."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware", "radiopharmaceuticals"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware",
+        "radiopharmaceuticals"
+      ],
       "invests_public_markets": true
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Gamida Cell", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "BrainsWay", "sector": "medtech-devices", "outcome": "IPO" },
-        { "company": "Alpha Tau Medical", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "PolyPid", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Kamada", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "Gamida Cell",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "BrainsWay",
+          "sector": "medtech-devices",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Alpha Tau Medical",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "PolyPid",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Kamada",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -629,8 +1314,21 @@
       "local": "שביט קפיטל היא קרן השקעות ירושלמית לשלב מאוחר/טרום-הנפקה, מהמשקיעות הפעילות ביותר בחברות מדעי החיים הישראליות המתקדמות."
     },
     "sources": [
-      { "url": "https://www.shavitcapital.com/about-us/", "title": "About Us - Shavit Capital", "publisher": "Shavit Capital", "accessed": "undefined", "supports": "Late-stage/pre-IPO strategy; >$500M AUM across five funds; life-sciences activity" },
-      { "url": "https://www.biospectrumasia.com/news/86/12004/shavit-capital-completes-100m-funding-round-for-its-fifth-fund.html", "title": "Shavit Capital completes $100M funding round for its fifth fund", "publisher": "BioSpectrum Asia", "accessed": "undefined", "supports": "Fifth fund size", "quote": "Shavit Capital completes $100M funding round for its fifth fund" }
+      {
+        "url": "https://www.shavitcapital.com/about-us/",
+        "title": "About Us - Shavit Capital",
+        "publisher": "Shavit Capital",
+        "accessed": "undefined",
+        "supports": "Late-stage/pre-IPO strategy; >$500M AUM across five funds; life-sciences activity"
+      },
+      {
+        "url": "https://www.biospectrumasia.com/news/86/12004/shavit-capital-completes-100m-funding-round-for-its-fifth-fund.html",
+        "title": "Shavit Capital completes $100M funding round for its fifth fund",
+        "publisher": "BioSpectrum Asia",
+        "accessed": "undefined",
+        "supports": "Fifth fund size",
+        "quote": "Shavit Capital completes $100M funding round for its fifth fund"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Not exclusively life sciences — a late-stage/pre-IPO generalist with a large and highly active life-sciences practice (medical nexus). Founded 2008. Round-size range ($20M–$200M) describes rounds led, not necessarily its own check.",
@@ -639,8 +1337,14 @@
   },
   {
     "id": "il-welltech-ventures",
-    "name": { "en": "Welltech Ventures", "local": "וולטק ונצ'רס" },
-    "aka": ["WellTech Ventures", "WellTech"],
+    "name": {
+      "en": "Welltech Ventures",
+      "local": "וולטק ונצ'רס"
+    },
+    "aka": [
+      "WellTech Ventures",
+      "WellTech"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2019,
@@ -648,29 +1352,68 @@
     "country": "Israel",
     "hq_city": "Tel Aviv",
     "website": "https://welltechventures.com/",
-    "links": { "linkedin": "https://il.linkedin.com/company/welltechventures" },
+    "links": {
+      "linkedin": "https://il.linkedin.com/company/welltechventures"
+    },
     "strategy": {
-      "stages": ["seed", "series-a"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states", "europe"],
-      "sector_focus": ["consumer-health", "digital-health", "mental-health", "longevity-aging"],
+      "geo_focus": [
+        "israel",
+        "united-states",
+        "europe"
+      ],
+      "sector_focus": [
+        "consumer-health",
+        "digital-health",
+        "mental-health",
+        "longevity-aging"
+      ],
       "thesis": "Israel's first and leading VC focused exclusively on the wellness space — preventative health, fitness, mental well-being, nutrition and longevity — where software, data science and behavioral science intersect with health outcomes."
     },
     "lifesci": {
-      "modalities": ["digital-therapeutics", "software-samd", "ai-ml-platform", "wearables-sensors"]
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd",
+        "ai-ml-platform",
+        "wearables-sensors"
+      ]
     },
     "people": [
-      { "name": "Amir Alroy", "role": "Co-founder" },
-      { "name": "Galit Horovitz", "role": "Co-founder" }
+      {
+        "name": "Amir Alroy",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Galit Horovitz",
+        "role": "Co-founder"
+      }
     ],
-    "track_record": { "portfolio_count": "~35" },
+    "track_record": {
+      "portfolio_count": "~35"
+    },
     "summary": {
       "en": "Welltech Ventures is Israel's first VC focused exclusively on wellness — preventative health, mental well-being, fitness, nutrition and longevity — at seed and Series A.",
       "local": "וולטק ונצ'רס היא קרן ההון-סיכון הראשונה בישראל המתמקדת בלעדית בתחום הבריאות והוולנס."
     },
     "sources": [
-      { "url": "https://welltechventures.com/", "title": "WellTech", "publisher": "Welltech Ventures", "accessed": "undefined", "supports": "Wellness focus; seed/Series A; thesis" },
-      { "url": "https://israelvc.com/funds/welltech-ventures/", "title": "Welltech Ventures – Seed & Series A Israeli Venture Capital", "publisher": "IsraelVC", "accessed": "undefined", "supports": "Tel Aviv HQ, seed/Series A stage, founded 2019, co-founders, ~35 investments" }
+      {
+        "url": "https://welltechventures.com/",
+        "title": "WellTech",
+        "publisher": "Welltech Ventures",
+        "accessed": "undefined",
+        "supports": "Wellness focus; seed/Series A; thesis"
+      },
+      {
+        "url": "https://israelvc.com/funds/welltech-ventures/",
+        "title": "Welltech Ventures – Seed & Series A Israeli Venture Capital",
+        "publisher": "IsraelVC",
+        "accessed": "undefined",
+        "supports": "Tel Aviv HQ, seed/Series A stage, founded 2019, co-founders, ~35 investments"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Wellness/preventative-health leaning (adjacent to core medical); clear health nexus via digital therapeutics, mental health and longevity. Founded 2019 in Tel Aviv by Amir Alroy and Galit Horovitz. Portfolio count ~35 from secondary databases.",
@@ -679,40 +1422,87 @@
   },
   {
     "id": "il-longevity-venture-partners",
-    "name": { "en": "Longevity Venture Partners", "local": "Longevity Venture Partners" },
+    "name": {
+      "en": "Longevity Venture Partners",
+      "local": "Longevity Venture Partners"
+    },
     "type": "vc",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2020,
     "region": "israel",
     "country": "Israel",
     "website": "https://www.longevityventurepartners.com/",
     "offices": [
-      { "country": "United States", "city": "Baltimore" }
+      {
+        "country": "United States",
+        "city": "Baltimore"
+      }
     ],
     "strategy": {
-      "stages": ["seed", "series-a"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["longevity-aging", "consumer-health", "digital-health", "healthcare-services"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "longevity-aging",
+        "consumer-health",
+        "digital-health",
+        "healthcare-services"
+      ],
       "thesis": "Early-stage fund backing entrepreneurs in Silvertech, Healthcare and Wellness; invests in four to six Israeli companies per year with a pilot ecosystem via the CommuniCare family of post-acute care providers."
     },
     "lifesci": {
-      "modalities": ["digital-therapeutics", "software-samd", "wearables-sensors"],
-      "indications": ["aging-longevity"]
+      "modalities": [
+        "digital-therapeutics",
+        "software-samd",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "aging-longevity"
+      ]
     },
     "people": [
-      { "name": "Stephen Rosedale", "role": "Co-founder", "background": "CommuniCare Family of Companies (US post-acute care)" },
-      { "name": "Ronald Wilheim", "role": "Co-founder", "background": "CommuniCare Family of Companies" }
+      {
+        "name": "Stephen Rosedale",
+        "role": "Co-founder",
+        "background": "CommuniCare Family of Companies (US post-acute care)"
+      },
+      {
+        "name": "Ronald Wilheim",
+        "role": "Co-founder",
+        "background": "CommuniCare Family of Companies"
+      }
     ],
-    "track_record": { "portfolio_count": "~10" },
+    "track_record": {
+      "portfolio_count": "~10"
+    },
     "summary": {
       "en": "Longevity Venture Partners is an early-stage fund dedicated to Israeli Silvertech, healthcare and wellness startups, investing 4–6 Israeli companies per year with a US care-provider pilot ecosystem.",
       "local": "Longevity Venture Partners היא קרן בשלב מוקדם המשקיעה בסטארטאפים ישראליים בתחומי הזדקנות, בריאות ורווחה."
     },
     "sources": [
-      { "url": "https://www.longevityventurepartners.com/about", "title": "About — Longevity Venture Partners", "publisher": "Longevity Venture Partners", "accessed": "undefined", "supports": "Silvertech/healthcare/wellness focus; 4-6 Israeli companies/year; HQ Baltimore", "quote": "Baltimore, Maryland, United States" },
-      { "url": "https://www.crunchbase.com/organization/longevity-venture-partners", "title": "Longevity Venture Partners - Crunchbase", "publisher": "Crunchbase", "accessed": "undefined", "supports": "Founded 2020, co-founders, portfolio count" }
+      {
+        "url": "https://www.longevityventurepartners.com/about",
+        "title": "About — Longevity Venture Partners",
+        "publisher": "Longevity Venture Partners",
+        "accessed": "undefined",
+        "supports": "Silvertech/healthcare/wellness focus; 4-6 Israeli companies/year; HQ Baltimore",
+        "quote": "Baltimore, Maryland, United States"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/longevity-venture-partners",
+        "title": "Longevity Venture Partners - Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founded 2020, co-founders, portfolio count"
+      }
     ],
     "confidence": "low",
     "verification_notes": "Headquartered in Baltimore, MD (US), but its stated strategy is to invest exclusively/primarily in Israeli companies (4–6/year) — included on the 'dedicated arm/fund for this region' basis. Smaller/emerging manager, borderline for a 'tier-1' cut; included with low confidence.",
@@ -721,29 +1511,56 @@
   },
   {
     "id": "il-medica-venture-partners",
-    "name": { "en": "Medica Venture Partners", "local": "מדיקה ונצ'רס" },
-    "aka": ["Medica"],
+    "name": {
+      "en": "Medica Venture Partners",
+      "local": "מדיקה ונצ'רס"
+    },
+    "aka": [
+      "Medica"
+    ],
     "type": "vc",
     "status": "unknown",
     "founded_year": 1995,
     "region": "israel",
     "country": "Israel",
     "hq_city": "Herzliya",
-    "links": { "linkedin": "" },
+    "links": {
+      "linkedin": ""
+    },
     "strategy": {
-      "stages": ["seed", "series-a"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel", "united-states", "europe"],
-      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics", "genomics-omics"],
+      "geo_focus": [
+        "israel",
+        "united-states",
+        "europe"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "therapeutics",
+        "diagnostics",
+        "genomics-omics"
+      ],
       "thesis": "Veteran healthcare and life-sciences VC providing equity and management support to early- and seed-stage companies across medical devices, pharma, biotech and genomics."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "small-molecule", "biologics-antibody"]
+      "modalities": [
+        "medical-hardware",
+        "small-molecule",
+        "biologics-antibody"
+      ]
     },
     "track_record": {
       "portfolio_count": "~21",
       "notable_investments": [
-        { "company": "Lumenis", "sector": "medtech-devices", "outcome": "IPO/acquired" }
+        {
+          "company": "Lumenis",
+          "sector": "medtech-devices",
+          "outcome": "IPO/acquired"
+        }
       ]
     },
     "summary": {
@@ -751,8 +1568,20 @@
       "local": "מדיקה ונצ'רס היא קרן הון-סיכון ותיקה מהרצליה (נוסדה ב-1995) המשקיעה בשלב מוקדם במכשור רפואי, פארמה, ביוטק וגנומיקה."
     },
     "sources": [
-      { "url": "https://tracxn.com/d/venture-capital/medicaventurepartners/__umctPbkxb5D0dk7ikmt5LEGW9Dm1BDglUTVaBMDii9w", "title": "Medica Venture Partners - Investor Profile", "publisher": "Tracxn", "accessed": "undefined", "supports": "Established 1995; ~21 portfolio companies; Herzliya; life-sciences focus" },
-      { "url": "https://www.crunchbase.com/organization/medica-venture-partners", "title": "Medica Venture Partners - Crunchbase", "publisher": "Crunchbase", "accessed": "undefined", "supports": "Healthcare/life-sciences VC, Israel" }
+      {
+        "url": "https://tracxn.com/d/venture-capital/medicaventurepartners/__umctPbkxb5D0dk7ikmt5LEGW9Dm1BDglUTVaBMDii9w",
+        "title": "Medica Venture Partners - Investor Profile",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "Established 1995; ~21 portfolio companies; Herzliya; life-sciences focus"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/medica-venture-partners",
+        "title": "Medica Venture Partners - Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Healthcare/life-sciences VC, Israel"
+      }
     ],
     "confidence": "low",
     "verification_notes": "Veteran fund (established 1995); current activity/fundraising not confirmed — status marked 'unknown'. Portfolio figures from secondary databases; included for historical/ecosystem completeness rather than as a currently active tier-1 raiser.",
@@ -761,8 +1590,13 @@
   },
   {
     "id": "il-sanara-ventures",
-    "name": { "en": "Sanara Ventures", "local": "סנארה ונצ'רס" },
-    "aka": ["Sanara Capital"],
+    "name": {
+      "en": "Sanara Ventures",
+      "local": "סנארה ונצ'רס"
+    },
+    "aka": [
+      "Sanara Capital"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2015,
@@ -770,17 +1604,33 @@
     "country": "Israel",
     "website": "https://sanaracapital.com/",
     "capital": {
-      "current_fund": { "raw": "$100 million venture capital fund", "usd": 100000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "$100 million venture capital fund",
+        "usd": 100000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["digital-health", "medtech-devices"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices"
+      ],
       "thesis": "Innovation-investment platform backed by strategic healthcare partners — Philips Healthcare (lead investor) and Teva — elevating early-stage digital-health, data-driven medical-equipment and bio-convergence companies from early stage toward global market maturity."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware", "digital-therapeutics"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware",
+        "digital-therapeutics"
+      ],
       "science_platform_notes": "Strategic partnership structure with Philips Healthcare and Teva providing clinical/commercial validation for portfolio companies; follow-on capital raised via Sanara Capital."
     },
     "summary": {
@@ -788,8 +1638,21 @@
       "local": "סנארה ונצ'רס היא קרן הון-סיכון ישראלית לבריאות דיגיטלית שהוקמה ב-2015 בגיבוי פיליפס וטבע, ומשקיעה בחברות בריאות דיגיטלית, ציוד רפואי מבוסס נתונים וביו-קונברג'נס בשלב מוקדם."
     },
     "sources": [
-      { "url": "https://en.globes.co.il/en/article-sanara-sets-up-100m-vc-fund-to-transform-healthcare-1001411095", "title": "Sanara sets up $100m VC fund to transform healthcare", "publisher": "Globes", "accessed": "undefined", "supports": "fund size, Philips as lead investor, founding, thesis", "quote": "Sanara is setting up a $100 million venture capital fund" },
-      { "url": "https://sanaracapital.com/", "title": "Sanara Capital", "publisher": "Sanara Capital", "accessed": "undefined", "supports": "existence; follow-on fund structure to Sanara Ventures" }
+      {
+        "url": "https://en.globes.co.il/en/article-sanara-sets-up-100m-vc-fund-to-transform-healthcare-1001411095",
+        "title": "Sanara sets up $100m VC fund to transform healthcare",
+        "publisher": "Globes",
+        "accessed": "undefined",
+        "supports": "fund size, Philips as lead investor, founding, thesis",
+        "quote": "Sanara is setting up a $100 million venture capital fund"
+      },
+      {
+        "url": "https://sanaracapital.com/",
+        "title": "Sanara Capital",
+        "publisher": "Sanara Capital",
+        "accessed": "undefined",
+        "supports": "existence; follow-on fund structure to Sanara Ventures"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year reported as 2014 in some secondary databases and 2015 in Globes' coverage of the fund's establishment; used 2015. Operates today under a follow-on entity, Sanara Capital.",

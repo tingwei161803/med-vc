@@ -1,7 +1,9 @@
 [
   {
     "id": "us-mission-bay-capital",
-    "name": { "en": "Mission Bay Capital" },
+    "name": {
+      "en": "Mission Bay Capital"
+    },
     "type": "micro-vc",
     "status": "active",
     "founded_year": 2009,
@@ -11,17 +13,41 @@
     "website": "https://www.missionbaycapital.com/",
     "capital": {
       "funds": [
-        { "name": "Mission Bay Capital Fund II", "vintage_year": 2015, "size": { "raw": "$25M", "usd": 25000000, "currency": "USD" } }
+        {
+          "name": "Mission Bay Capital Fund II",
+          "vintage_year": 2015,
+          "size": {
+            "raw": "$25M",
+            "usd": 25000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "life-science-tools"
+      ],
       "thesis": "UC-affiliated seed fund created by QB3 in 2009 to make pivotal early investments in bioscience startups emerging from the University of California system; deal flow is sourced through its affiliated MBC BioLabs incubator network."
     },
-    "track_record": { "portfolio_count": null },
-    "tags": ["bay-area", "UC-affiliated", "seed-stage"],
+    "track_record": {
+      "portfolio_count": null
+    },
+    "tags": [
+      "bay-area",
+      "UC-affiliated",
+      "seed-stage"
+    ],
     "summary": {
       "en": "A San Francisco seed-stage venture firm spun out of UC's QB3 institute in 2009 that backs early bioscience companies emerging from the University of California system; closed a $25M Fund II in 2015."
     },
@@ -49,10 +75,16 @@
   },
   {
     "id": "us-qb3",
-    "name": { "en": "QB3 (California Institute for Quantitative Biosciences)" },
-    "aka": ["QB3"],
+    "name": {
+      "en": "QB3 (California Institute for Quantitative Biosciences)"
+    },
+    "aka": [
+      "QB3"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["incubator"],
+    "subtypes": [
+      "incubator"
+    ],
     "status": "active",
     "founded_year": 2000,
     "region": "united-states",
@@ -60,11 +92,21 @@
     "hq_city": "San Francisco",
     "website": "https://qb3.org/",
     "strategy": {
-      "sector_focus": ["therapeutics", "life-science-tools", "diagnostics"],
-      "geo_focus": ["United States"],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools",
+        "diagnostics"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
       "thesis": "Multi-campus University of California research institute (UCSF, UC Berkeley, UC Santa Cruz) that seeds Bay Area bioscience company creation, having created the Mission Bay Capital seed fund and lab-incubator sites including QB3 Garage and MBC BioLabs."
     },
-    "tags": ["bay-area", "UC-institute", "company-creation"],
+    "tags": [
+      "bay-area",
+      "UC-institute",
+      "company-creation"
+    ],
     "summary": {
       "en": "University of California research institute (est. 2000) spanning UCSF, UC Berkeley and UC Santa Cruz that supports bioscience entrepreneurship, having launched the Mission Bay Capital seed fund and multiple biotech incubator sites."
     },
@@ -92,8 +134,12 @@
   },
   {
     "id": "us-life-science-angels",
-    "name": { "en": "Life Science Angels" },
-    "aka": ["LSA"],
+    "name": {
+      "en": "Life Science Angels"
+    },
+    "aka": [
+      "LSA"
+    ],
     "type": "angel-network",
     "status": "active",
     "founded_year": 2005,
@@ -102,15 +148,29 @@
     "hq_city": "Palo Alto",
     "website": "https://www.lifescienceangels.com/",
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health"
+      ],
       "thesis": "Angel investment group formed by senior life-science executives investing solely in early-stage biotech, medical-device, diagnostics and digital-health companies, mostly in the Bay Area."
     },
     "track_record": {
       "portfolio_count": "100+"
     },
-    "tags": ["bay-area", "angel-group", "healthcare-only"],
+    "tags": [
+      "bay-area",
+      "angel-group",
+      "healthcare-only"
+    ],
     "summary": {
       "en": "Bay Area angel-investor group founded in 2005 by life-science executives, focused solely on healthcare investing (biotech, medical devices, diagnostics, digital health); has deployed over $60M across 100+ early-stage companies."
     },
@@ -138,23 +198,38 @@
   },
   {
     "id": "us-mbc-biolabs",
-    "name": { "en": "MBC BioLabs" },
+    "name": {
+      "en": "MBC BioLabs"
+    },
     "type": "incubator",
     "status": "active",
     "region": "united-states",
     "country": "United States",
     "hq_city": "San Francisco",
     "strategy": {
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
-      "geo_focus": ["United States"],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "life-science-tools"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
       "thesis": "Shared wet-lab incubator network (four sites in San Francisco and San Carlos) that houses ~117 active early-stage life-science and biotech companies; serves as the deal-sourcing pipeline for affiliated seed fund Mission Bay Capital."
     },
     "program": {
       "lab_space": true,
       "location": "San Francisco & San Carlos, CA"
     },
-    "track_record": { "portfolio_count": "117 active companies" },
-    "tags": ["bay-area", "wet-lab", "incubator"],
+    "track_record": {
+      "portfolio_count": "117 active companies"
+    },
+    "tags": [
+      "bay-area",
+      "wet-lab",
+      "incubator"
+    ],
     "summary": {
       "en": "Life-science incubator network run out of Mission Bay Capital's ecosystem, providing shared wet-lab space across four San Francisco and San Carlos sites to roughly 117 active bioscience startups."
     },
@@ -183,8 +258,12 @@
   },
   {
     "id": "us-rock-health",
-    "name": { "en": "Rock Health" },
-    "aka": ["Rock Health Capital"],
+    "name": {
+      "en": "Rock Health"
+    },
+    "aka": [
+      "Rock Health Capital"
+    ],
     "type": "micro-vc",
     "status": "active",
     "founded_year": 2010,
@@ -192,14 +271,30 @@
     "country": "United States",
     "hq_city": "San Francisco",
     "website": "https://rockhealth.com/",
-    "links": { "other": ["https://rockhealthcapital.com/"] },
+    "links": {
+      "other": [
+        "https://rockhealthcapital.com/"
+      ]
+    },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health"
+      ],
       "thesis": "The original dedicated digital-health venture fund, investing pre-seed through Series A in software- and data-driven health companies, paired with an in-house research and market-insights practice."
     },
-    "tags": ["bay-area", "digital-health", "seed-stage"],
+    "tags": [
+      "bay-area",
+      "digital-health",
+      "seed-stage"
+    ],
     "summary": {
       "en": "San Francisco's pioneering digital-health seed fund, founded in 2010 by Halle Tecco and Nate Gross, combining early-stage investing with widely cited digital-health market research and reports."
     },
@@ -226,7 +321,9 @@
   },
   {
     "id": "us-healthy-ventures",
-    "name": { "en": "Healthy Ventures" },
+    "name": {
+      "en": "Healthy Ventures"
+    },
     "type": "micro-vc",
     "status": "active",
     "region": "united-states",
@@ -234,13 +331,29 @@
     "hq_city": "San Francisco",
     "website": "https://healthy.vc/",
     "strategy": {
-      "stages": ["seed"],
-      "check_size": { "raw": "$1-3M", "usd_min": 1000000, "usd_max": 3000000 },
-      "geo_focus": ["United States"],
-      "sector_focus": ["healthcare-it", "healthcare-services", "digital-health"],
+      "stages": [
+        "seed"
+      ],
+      "check_size": {
+        "raw": "$1-3M",
+        "usd_min": 1000000,
+        "usd_max": 3000000
+      },
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "healthcare-it",
+        "healthcare-services",
+        "digital-health"
+      ],
       "thesis": "Women-led, thesis-driven seed fund backing the infrastructure layer of healthcare -- middleware, payments, clinical-trial systems and data architecture -- rather than consumer-facing health apps."
     },
-    "tags": ["bay-area", "healthcare-infrastructure", "women-led"],
+    "tags": [
+      "bay-area",
+      "healthcare-infrastructure",
+      "women-led"
+    ],
     "summary": {
       "en": "San Francisco seed fund focused on healthcare infrastructure (middleware, payments, clinical-trial systems and data architecture), writing $1-3M seed checks into health-tech infrastructure startups such as Turquoise Health."
     },
@@ -268,9 +381,13 @@
   },
   {
     "id": "us-indiebio",
-    "name": { "en": "IndieBio" },
+    "name": {
+      "en": "IndieBio"
+    },
     "type": "accelerator",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2015,
     "region": "united-states",
@@ -278,9 +395,18 @@
     "hq_city": "San Francisco",
     "website": "https://indiebio.co/",
     "strategy": {
-      "stages": ["pre-seed"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "synthetic-biology", "ai-drug-discovery", "life-science-tools"],
+      "stages": [
+        "pre-seed"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "synthetic-biology",
+        "ai-drug-discovery",
+        "life-science-tools"
+      ],
       "thesis": "Silicon Valley's first biotech-dedicated accelerator, offering on-site BSL-2 wet labs plus pre-seed capital to scientist-founders; run as the life-sciences program of global VC firm SOSV."
     },
     "lifesci": {
@@ -288,15 +414,26 @@
       "science_platform_notes": "Operates in-house BSL-2 wet labs in San Francisco (and New York) for portfolio companies."
     },
     "program": {
-      "investment": { "raw": "up to $525K ($250K equity + $250K Genesis Consortium SAFE at $6M cap)", "usd": 525000, "currency": "USD" },
+      "investment": {
+        "raw": "up to $525K ($250K equity + $250K Genesis Consortium SAFE at $6M cap)",
+        "usd": 525000,
+        "currency": "USD"
+      },
       "equity_taken_pct": "6-8%",
       "lab_space": true,
       "format": "in-person",
       "location": "San Francisco, CA (also New York)",
       "demo_day": true
     },
-    "track_record": { "portfolio_count": "300+" },
-    "tags": ["bay-area", "biotech-accelerator", "wet-lab", "SOSV"],
+    "track_record": {
+      "portfolio_count": "300+"
+    },
+    "tags": [
+      "bay-area",
+      "biotech-accelerator",
+      "wet-lab",
+      "SOSV"
+    ],
     "summary": {
       "en": "San Francisco biotech accelerator launched by SOSV in 2015, providing wet-lab space and up to $525K in pre-seed funding to scientist-led biotech startups; portfolio includes unicorns NotCo and UPSIDE Foods."
     },
@@ -324,8 +461,16 @@
   },
   {
     "id": "us-bakar-biolabs",
-    "name": { "en": "Bakar BioLabs (Bakar BioEnginuity Hub)" },
-    "aka": ["Bakar BioEnginuity Hub", "QB3 Garage@Berkeley"],
+    "name": {
+      "en": "Bakar BioLabs (Bakar BioEnginuity Hub)"
+    },
+    "aka": [
+      "Bakar BioEnginuity Hub",
+      "QB3 Garage@Berkeley",
+      "Bakar Labs (Bakar BioEnginuity Hub)",
+      "Bakar Labs",
+      "QB3 Bakar Labs"
+    ],
     "type": "incubator",
     "status": "active",
     "region": "united-states",
@@ -333,15 +478,27 @@
     "hq_city": "Berkeley",
     "website": "https://bio.bakarlabs.org/",
     "strategy": {
-      "sector_focus": ["therapeutics", "life-science-tools", "synthetic-biology", "diagnostics"],
-      "geo_focus": ["United States"],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools",
+        "synthetic-biology",
+        "diagnostics"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
       "thesis": "UC Berkeley's life-science incubator providing 40,000+ sq ft of wet-lab and office infrastructure to early-stage biotech and biomanufacturing startups, operated alongside the QB3 Garage@Berkeley program."
     },
     "program": {
       "lab_space": true,
       "location": "Woo Hon Fai Hall, UC Berkeley campus, Berkeley, CA"
     },
-    "tags": ["bay-area", "berkeley", "wet-lab", "UC-affiliated"],
+    "tags": [
+      "bay-area",
+      "berkeley",
+      "wet-lab",
+      "UC-affiliated"
+    ],
     "summary": {
       "en": "UC Berkeley-affiliated life-science incubator offering more than 40,000 square feet of wet-lab and office space to early-stage bioscience startups on the Berkeley campus."
     },
@@ -357,13 +514,18 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "sf-bay-hub"
+    "researched_by": "sf-bay-hub",
+    "verification_notes": "Merged us-bakar-labs into this record on 2026-08-16: bakarlabs.org and bio.bakarlabs.org both confirm 'Bakar Labs' reorganized into an umbrella organization comprising 'Bakar Bio Labs' (the life-science incubator "
   },
   {
     "id": "us-startx-med",
-    "name": { "en": "StartX Med" },
+    "name": {
+      "en": "StartX Med"
+    },
     "type": "accelerator",
-    "subtypes": ["incubator"],
+    "subtypes": [
+      "incubator"
+    ],
     "status": "active",
     "founded_year": 2012,
     "region": "united-states",
@@ -371,8 +533,16 @@
     "hq_city": "Palo Alto",
     "website": "https://startx.com/pages/med",
     "strategy": {
-      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-it", "diagnostics", "healthcare-services"],
-      "geo_focus": ["United States"],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "healthcare-it",
+        "diagnostics",
+        "healthcare-services"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
       "thesis": "Nonprofit, equity-free accelerator vertical of Stanford's StartX program dedicated to Stanford-affiliated medical entrepreneurs across biotech, medical devices, health IT, care delivery and diagnostics."
     },
     "program": {
@@ -380,7 +550,11 @@
       "location": "Stanford Research Park, Palo Alto, CA",
       "eligibility": "Stanford-affiliated founders (students, faculty, alumni, staff)"
     },
-    "tags": ["bay-area", "stanford-affiliated", "equity-free"],
+    "tags": [
+      "bay-area",
+      "stanford-affiliated",
+      "equity-free"
+    ],
     "summary": {
       "en": "Stanford-affiliated nonprofit accelerator (est. 2012) supporting Stanford medical entrepreneurs building biotech, device, diagnostics and health-IT companies, offering equity-free acceleration and on-site research facilities."
     },
@@ -408,7 +582,9 @@
   },
   {
     "id": "us-healthtech-capital",
-    "name": { "en": "HealthTech Capital" },
+    "name": {
+      "en": "HealthTech Capital"
+    },
     "type": "angel-network",
     "status": "active",
     "founded_year": 2010,
@@ -417,11 +593,22 @@
     "hq_city": "Los Altos Hills",
     "website": "https://healthtechcapital.com/",
     "strategy": {
-      "geo_focus": ["United States"],
-      "sector_focus": ["digital-health", "healthcare-services", "medtech-devices", "diagnostics"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-services",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "Membership organization of accredited angel investors, health systems and corporate/venture investors that funds and mentors 'HealthTech' startups improving the efficiency of healthcare delivery from hospital to home."
     },
-    "tags": ["bay-area", "angel-network", "silicon-valley"],
+    "tags": [
+      "bay-area",
+      "angel-network",
+      "silicon-valley"
+    ],
     "summary": {
       "en": "Silicon Valley angel-investor membership network founded in 2010 that funds and mentors digital-health, medtech and healthcare-delivery startups; portfolio companies have raised over $1B in follow-on capital."
     },
@@ -448,7 +635,9 @@
   },
   {
     "id": "us-boutique-venture-partners",
-    "name": { "en": "Boutique Venture Partners" },
+    "name": {
+      "en": "Boutique Venture Partners"
+    },
     "type": "micro-vc",
     "status": "active",
     "founded_year": 2020,
@@ -457,12 +646,25 @@
     "hq_city": "Palo Alto",
     "website": "https://www.boutiquevc.com/",
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "healthcare-services"
+      ],
       "thesis": "Scientist- and clinician-led seed fund providing capital to early-stage healthcare and life-science companies pursuing distributive approaches to improve health and wellness."
     },
-    "tags": ["bay-area", "seed-stage", "clinician-led"],
+    "tags": [
+      "bay-area",
+      "seed-stage",
+      "clinician-led"
+    ],
     "summary": {
       "en": "Palo Alto seed-stage fund founded in 2020 and run by scientists and clinicians, backing early healthcare and life-science startups spanning drug discovery, surgical devices and healthcare IT."
     },
@@ -490,7 +692,9 @@
   },
   {
     "id": "us-telegraph-hill-partners",
-    "name": { "en": "Telegraph Hill Partners" },
+    "name": {
+      "en": "Telegraph Hill Partners"
+    },
     "type": "growth-equity",
     "status": "active",
     "founded_year": 2001,
@@ -499,22 +703,54 @@
     "hq_city": "San Francisco",
     "website": "https://thpartners.net/",
     "offices": [
-      { "country": "United States", "city": "Research Triangle Park, NC" },
-      { "country": "United States", "city": "Miami, FL" },
-      { "country": "United States", "city": "New Haven, CT" }
+      {
+        "country": "United States",
+        "city": "Research Triangle Park, NC"
+      },
+      {
+        "country": "United States",
+        "city": "Miami, FL"
+      },
+      {
+        "country": "United States",
+        "city": "New Haven, CT"
+      }
     ],
     "capital": {
       "funds": [
-        { "name": "THP V (Telegraph Hill Partners Fund V)", "vintage_year": null, "size": { "raw": "$525M", "usd": 525000000, "currency": "USD" } }
+        {
+          "name": "THP V (Telegraph Hill Partners Fund V)",
+          "vintage_year": null,
+          "size": {
+            "raw": "$525M",
+            "usd": 525000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["life-science-tools", "medtech-devices", "diagnostics", "healthcare-it", "healthcare-services", "animal-health"],
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "life-science-tools",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-it",
+        "healthcare-services",
+        "animal-health"
+      ],
       "thesis": "Growth-equity investor focused exclusively on life sciences and healthcare, providing capital and strategic support (acquisitions, management buyouts) to commercial-stage companies in life-science tools/reagents, medtech, diagnostics, healthcare IT, healthcare services and animal health."
     },
-    "tags": ["bay-area", "growth-equity", "life-science-tools"],
+    "tags": [
+      "bay-area",
+      "growth-equity",
+      "life-science-tools"
+    ],
     "summary": {
       "en": "San Francisco growth-equity firm founded in 2001 that has raised five funds -- most recently a $525M Fund V -- dedicated to commercial-stage life-science, medtech and healthcare companies."
     },
@@ -541,10 +777,16 @@
   },
   {
     "id": "us-illumina-ventures-labs",
-    "name": { "en": "Illumina Ventures Labs" },
-    "aka": ["Illumina Accelerator"],
+    "name": {
+      "en": "Illumina Ventures Labs"
+    },
+    "aka": [
+      "Illumina Accelerator"
+    ],
     "type": "accelerator",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "united-states",
@@ -552,8 +794,15 @@
     "hq_city": "San Francisco",
     "website": "https://www.illumina.com/company/illumina-for-startups.html",
     "strategy": {
-      "geo_focus": ["United States", "United Kingdom"],
-      "sector_focus": ["genomics-omics", "diagnostics", "ai-drug-discovery"],
+      "geo_focus": [
+        "United States",
+        "United Kingdom"
+      ],
+      "sector_focus": [
+        "genomics-omics",
+        "diagnostics",
+        "ai-drug-discovery"
+      ],
       "thesis": "Genomics-focused company-creation accelerator co-located with Illumina's Bay Area R&D site, providing seed capital, sequencing-system access and lab space to early genomics startups; relaunched in 2023 as Illumina Ventures Labs under Illumina Ventures."
     },
     "program": {
@@ -565,7 +814,11 @@
     "track_record": {
       "portfolio_count": "68 genomics startups (since inception)"
     },
-    "tags": ["bay-area", "genomics", "corporate-accelerator"],
+    "tags": [
+      "bay-area",
+      "genomics",
+      "corporate-accelerator"
+    ],
     "summary": {
       "en": "Illumina's genomics-focused startup accelerator, based in the San Francisco Bay Area since 2014, has invested in 68+ genomics startups that collectively raised over $1B in follow-on venture funding; relaunched as Illumina Ventures Labs in 2023."
     },
@@ -593,7 +846,9 @@
   },
   {
     "id": "us-pivotal-bioventure-partners",
-    "name": { "en": "Pivotal bioVenture Partners" },
+    "name": {
+      "en": "Pivotal bioVenture Partners"
+    },
     "type": "vc",
     "status": "active",
     "region": "united-states",
@@ -601,11 +856,20 @@
     "hq_city": "San Francisco",
     "website": "https://pivotallifesciences.com/pivotal-bioventure-partners/",
     "strategy": {
-      "geo_focus": ["United States", "Europe"],
-      "sector_focus": ["therapeutics"],
+      "geo_focus": [
+        "United States",
+        "Europe"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Therapeutics-focused venture capital firm with a San Francisco (South Park) investment office, backed by Hong Kong's Nan Fung Group, investing in US and European companies developing solutions for major unmet medical needs."
     },
-    "tags": ["bay-area", "therapeutics", "family-conglomerate-backed"],
+    "tags": [
+      "bay-area",
+      "therapeutics",
+      "family-conglomerate-backed"
+    ],
     "summary": {
       "en": "Therapeutics-focused VC firm with a San Francisco office, backed by Hong Kong conglomerate Nan Fung Group, investing in US and European biotech companies addressing major unmet medical needs."
     },
@@ -633,7 +897,9 @@
   },
   {
     "id": "us-alexandria-launchlabs",
-    "name": { "en": "Alexandria LaunchLabs" },
+    "name": {
+      "en": "Alexandria LaunchLabs"
+    },
     "type": "incubator",
     "status": "active",
     "region": "united-states",
@@ -641,15 +907,25 @@
     "hq_city": "Palo Alto",
     "website": "https://www.alexandrialaunchlabs.com/",
     "strategy": {
-      "sector_focus": ["therapeutics", "life-science-tools", "medtech-devices"],
-      "geo_focus": ["United States"],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools",
+        "medtech-devices"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
       "thesis": "Purpose-built life-science incubator at the Alexandria Center for Life Science, Stanford Research Park, offering move-in-ready wet-lab and office space, shared equipment and access to strategic capital for early-stage scientist-entrepreneurs."
     },
     "program": {
       "lab_space": true,
       "location": "3160 Porter Drive, Stanford Research Park, Palo Alto, CA"
     },
-    "tags": ["bay-area", "wet-lab", "real-estate-backed"],
+    "tags": [
+      "bay-area",
+      "wet-lab",
+      "real-estate-backed"
+    ],
     "summary": {
       "en": "Life-science incubator at Stanford Research Park in Palo Alto offering wet-lab space and strategic-capital access to early scientist-entrepreneurs, operated by life-science real-estate investor Alexandria Real Estate Equities."
     },

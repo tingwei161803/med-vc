@@ -1,9 +1,13 @@
 [
   {
     "id": "il-peregrine-ventures",
-    "name": { "en": "Peregrine Ventures" },
+    "name": {
+      "en": "Peregrine Ventures"
+    },
     "type": "vc",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2001,
     "region": "israel",
@@ -11,28 +15,79 @@
     "hq_city": "Or Yehuda",
     "website": "https://www.peregrinevc.com/",
     "capital": {
-      "aum": { "raw": "~$600M across five funds", "usd": null, "currency": "USD" },
-      "current_fund": { "raw": "$115M (Fund IV)", "usd": 115000000, "currency": "USD" }
+      "aum": {
+        "raw": "~$600M across five funds",
+        "usd": null,
+        "currency": "USD"
+      },
+      "current_fund": {
+        "raw": "$115M (Fund IV)",
+        "usd": 115000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["medtech-devices", "digital-health", "diagnostics", "therapeutics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health",
+        "diagnostics",
+        "therapeutics"
+      ],
       "thesis": "Israel's first dedicated healthcare-only VC (founded 2001); runs a pre-seed 'Incentive Incubator' plus seed-to-growth funds and was named Israel's most active health-tech investor in 2024 with 15 deals, giving it a unique early-seed-to-scale pipeline in medtech, digital health and diagnostics."
     },
     "track_record": {
       "portfolio_count": 75
     },
-    "tags": ["most-active-health-investor-2024", "pre-seed-incubator"],
+    "tags": [
+      "most-active-health-investor-2024",
+      "pre-seed-incubator"
+    ],
     "summary": {
       "en": "Or Yehuda-based life-science VC founded in 2001, widely cited as Israel's most active seed/early-stage health-tech investor, running a dedicated pre-seed incubator alongside seed-to-growth funds across medtech, digital health and diagnostics."
     },
     "sources": [
-      { "url": "https://www.peregrinevc.com/", "title": "Homepage - Peregrine", "publisher": "Peregrine Ventures", "accessed": "undefined", "supports": "existence, thesis, stage focus" },
-      { "url": "https://www.jpost.com/israel-news/article-837235", "title": "Peregrine Ventures: Israel's most active investor in health tech venture capital investments", "publisher": "The Jerusalem Post", "accessed": "undefined", "supports": "most active health-tech investor 2024 claim", "quote": "Peregrine Ventures: Israel's most active investor in health tech venture capital investments" },
-      { "url": "https://www.mobihealthnews.com/news/emea/peregrine-ventures-raises-more-115m-medtech-fund", "title": "Peregrine Ventures raises more than $115m MedTech fund", "publisher": "MobiHealthNews", "accessed": "undefined", "supports": "fund size", "quote": "Peregrine Ventures raises more than $115m MedTech fund" },
-      { "url": "https://www.crunchbase.com/organization/peregrine-ventures", "title": "Peregrine Ventures - Crunchbase Company Profile & Funding", "publisher": "Crunchbase", "accessed": "undefined", "supports": "founded year, HQ city", "quote": "Founded in 2001, Peregrine Ventures is a venture capital firm headquartered in Or Yehuda, Israel." }
+      {
+        "url": "https://www.peregrinevc.com/",
+        "title": "Homepage - Peregrine",
+        "publisher": "Peregrine Ventures",
+        "accessed": "undefined",
+        "supports": "existence, thesis, stage focus"
+      },
+      {
+        "url": "https://www.jpost.com/israel-news/article-837235",
+        "title": "Peregrine Ventures: Israel's most active investor in health tech venture capital investments",
+        "publisher": "The Jerusalem Post",
+        "accessed": "undefined",
+        "supports": "most active health-tech investor 2024 claim",
+        "quote": "Peregrine Ventures: Israel's most active investor in health tech venture capital investments"
+      },
+      {
+        "url": "https://www.mobihealthnews.com/news/emea/peregrine-ventures-raises-more-115m-medtech-fund",
+        "title": "Peregrine Ventures raises more than $115m MedTech fund",
+        "publisher": "MobiHealthNews",
+        "accessed": "undefined",
+        "supports": "fund size",
+        "quote": "Peregrine Ventures raises more than $115m MedTech fund"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/peregrine-ventures",
+        "title": "Peregrine Ventures - Crunchbase Company Profile & Funding",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "founded year, HQ city",
+        "quote": "Founded in 2001, Peregrine Ventures is a venture capital firm headquartered in Or Yehuda, Israel."
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founded 2001 (not 2018+) but included because seed/early-stage focus (pre-seed incubator) and 'most active seed-stage health investor' status match this slice's scope; AUM/portfolio figures vary slightly across secondary sources ($300M–$600M, 75 portfolio companies as of mid-2025) and were not confirmed on a primary page.",
@@ -40,89 +95,88 @@
     "researched_by": "seed-early-micro-lifesci"
   },
   {
-    "id": "il-arkin-bio-ventures",
-    "name": { "en": "Arkin Bio Ventures" },
-    "aka": ["Arkin Capital"],
-    "type": "vc",
-    "subtypes": ["micro-vc"],
-    "status": "active",
-    "founded_year": 2016,
-    "region": "israel",
-    "country": "Israel",
-    "website": "https://arkin-capital.com/",
-    "capital": {
-      "funds": [
-        { "name": "Arkin Bio Ventures III", "vintage_year": 2024, "size": { "raw": "$100M", "usd": 100000000, "currency": "USD" } }
-      ]
-    },
-    "strategy": {
-      "stages": ["seed", "series-a"],
-      "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["therapeutics"],
-      "thesis": "Israeli biotech-only fund (JV between Arkin Holdings and Phoenix Group) that backs seed/Series-A pre-clinical and early-clinical therapeutics companies emerging from Israeli academic research, with a focus on immunotherapy, oncology, metabolism, microbiome, CNS, autoimmune and orphan disease."
-    },
-    "lifesci": {
-      "modalities": ["biologics-antibody", "small-molecule", "microbiome", "drug-delivery"],
-      "indications": ["oncology", "metabolic-obesity", "neurology", "immunology-inflammation", "rare-disease"],
-      "company_creation": null,
-      "invests_public_markets": null
-    },
-    "people": [
-      { "name": "Mori Arkin", "role": "Chairman, Arkin Holdings" },
-      { "name": "Pini Orbach", "role": "Managing Partner, Arkin Bio Ventures" }
-    ],
-    "tags": ["biotech-only", "academic-spinouts"],
-    "summary": {
-      "en": "Israeli early-stage biotech fund (Bio Ventures I in 2016, III closed at $100M in 2024) investing in seed/Series-A therapeutics companies out of immunology, oncology, CNS, microbiome and rare-disease research."
-    },
-    "sources": [
-      { "url": "https://arkin-capital.com/", "title": "Homepage | Arkin", "publisher": "Arkin Capital", "accessed": "undefined", "supports": "existence, thesis" },
-      { "url": "https://www.jpost.com/business-and-innovation/article-883333", "title": "Arkin raises $100m for early-stage biotech fund", "publisher": "The Jerusalem Post", "accessed": "undefined", "supports": "fund size, early-stage focus", "quote": "Arkin raises $100m for early-stage biotech fund" },
-      { "url": "https://en.globes.co.il/en/article-arkin-raises-100m-for-early-stage-biotech-fund-1001531757", "title": "Arkin raises $100m for early-stage biotech fund - Globes English", "publisher": "Globes", "accessed": "undefined", "supports": "fund size, early-stage focus" },
-      { "url": "https://www.bioxconomy.com/investment/arkin-capital-closes-100m-arkin-bio-ventures-iii-to-back-early-stage-biotech-firms", "title": "Arkin capital closes $100m Arkin Bio Ventures III", "publisher": "BioXconomy", "accessed": "undefined", "supports": "founding year of first fund (2016), fund III target (seed/Series A pre-clinical and early clinical)", "quote": "The initial Bio Ventures fund was formed in 2016 and the second was created in 2020." }
-    ],
-    "confidence": "medium",
-    "verification_notes": "Exact HQ city not confirmed from available sources; fund size ($100M for Bio Ventures III) corroborated by two independent Israeli outlets (Jerusalem Post, Globes).",
-    "last_updated": "undefined",
-    "researched_by": "seed-early-micro-lifesci"
-  },
-  {
     "id": "il-sanara-ventures",
-    "name": { "en": "Sanara Ventures" },
-    "aka": ["Sanara Capital"],
+    "name": {
+      "en": "Sanara Ventures"
+    },
+    "aka": [
+      "Sanara Capital"
+    ],
     "type": "vc",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2015,
     "region": "israel",
     "country": "Israel",
     "website": "https://sanaracapital.com/",
     "capital": {
-      "current_fund": { "raw": "$100M (Sanara Capital)", "usd": 100000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "$100M (Sanara Capital)",
+        "usd": 100000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["digital-health", "medtech-devices", "life-science-tools"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "life-science-tools"
+      ],
       "thesis": "Started in 2015 as Sanara Ventures, a seed-stage investment platform backed by Philips and Teva focused on digital health, bio-convergence and medical devices; now also runs the follow-on Sanara Capital fund for A/B rounds of the same portfolio."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "software-samd", "wearables-sensors", "ai-ml-platform"]
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "wearables-sensors",
+        "ai-ml-platform"
+      ]
     },
     "team_size": 5,
     "track_record": {
       "portfolio_count": "~20"
     },
-    "tags": ["backed-by-philips-teva", "bio-convergence"],
+    "tags": [
+      "backed-by-philips-teva",
+      "bio-convergence"
+    ],
     "summary": {
       "en": "Israeli seed-stage health-tech investment platform (est. 2015, backed by Philips and Teva) spanning digital health, bio-convergence and medical devices, with a newer $100M follow-on fund (Sanara Capital) for A/B rounds."
     },
     "sources": [
-      { "url": "https://sanaracapital.com/", "title": "Sanara Capital", "publisher": "Sanara Capital", "accessed": "undefined", "supports": "existence, thesis" },
-      { "url": "https://tracxn.com/d/venture-capital/sanara-capital/__PvAKY9Y6cjDrK260vYKagd_THItr057ihzpZBW90eSU", "title": "Sanara Capital - 2025 Investor Profile, Portfolio, Team & Investment Trends - Tracxn", "publisher": "Tracxn", "accessed": "undefined", "supports": "founding year 2015, backers Philips/Teva, current fund size $100M, team size", "quote": "Sanara Capital is a follow-on fund of Sanara Ventures, a seed-stage investment platform, established in 2015, and backed by industry leaders Philips and Teva." },
-      { "url": "https://www.crunchbase.com/organization/sanara-capital", "title": "Sanara Capital - Crunchbase Company Profile & Funding", "publisher": "Crunchbase", "accessed": "undefined", "supports": "corroborates founding/backers" }
+      {
+        "url": "https://sanaracapital.com/",
+        "title": "Sanara Capital",
+        "publisher": "Sanara Capital",
+        "accessed": "undefined",
+        "supports": "existence, thesis"
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/sanara-capital/__PvAKY9Y6cjDrK260vYKagd_THItr057ihzpZBW90eSU",
+        "title": "Sanara Capital - 2025 Investor Profile, Portfolio, Team & Investment Trends - Tracxn",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "founding year 2015, backers Philips/Teva, current fund size $100M, team size",
+        "quote": "Sanara Capital is a follow-on fund of Sanara Ventures, a seed-stage investment platform, established in 2015, and backed by industry leaders Philips and Teva."
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/sanara-capital",
+        "title": "Sanara Capital - Crunchbase Company Profile & Funding",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "corroborates founding/backers"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Treated Sanara Ventures (2015 seed platform) and Sanara Capital (2023 follow-on A/B fund) as one continuous entity per multiple secondary sources; fund-size figure not confirmed on the official site directly.",
@@ -131,10 +185,16 @@
   },
   {
     "id": "il-triventures",
-    "name": { "en": "Triventures" },
-    "aka": ["Triventures ARC"],
+    "name": {
+      "en": "Triventures"
+    },
+    "aka": [
+      "Triventures ARC"
+    ],
     "type": "vc",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2010,
     "region": "israel",
@@ -142,27 +202,71 @@
     "website": "https://www.triventures.vc/",
     "capital": {
       "funds": [
-        { "name": "Triventures ARC (with Sheba Medical Center)", "vintage_year": 2019, "size": { "raw": "$45M seed fund", "usd": 45000000, "currency": "USD" } }
+        {
+          "name": "Triventures ARC (with Sheba Medical Center)",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "$45M seed fund",
+            "usd": 45000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["medtech-devices", "digital-health"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health"
+      ],
       "thesis": "Medical-device-turned-digital-health investor (founded 2010) that co-launched Triventures ARC in 2018/2019 with Chaim Sheba Medical Center — a $45M seed-stage fund giving portfolio companies access to Sheba's clinical data for personalized healthcare, AI diagnostics and smart medical devices."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"]
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "ai-ml-platform"
+      ]
     },
-    "tags": ["hospital-partnered-fund", "sheba-medical-center"],
+    "tags": [
+      "hospital-partnered-fund",
+      "sheba-medical-center"
+    ],
     "summary": {
       "en": "Tel Aviv-area medtech/digital-health VC (est. 2010) known for Triventures ARC, a $45M seed-stage fund run jointly with Sheba Medical Center — the first VC-hospital partnership of its kind in Israel."
     },
     "sources": [
-      { "url": "https://www.triventures.vc/", "title": "Triventures - Beyond Healthcare", "publisher": "Triventures", "accessed": "undefined", "supports": "existence, thesis" },
-      { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3770592,00.html", "title": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund - CTech", "publisher": "CTech/Calcalist", "accessed": "undefined", "supports": "ARC fund launch, seed-stage focus, Sheba partnership", "quote": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund" },
-      { "url": "https://www.forbes.com/sites/startupnationcentral/2018/12/27/vc-brings-the-cash-hospital-opens-its-data-israelis-launch-45m-medical-innovation-fund/", "title": "Israeli VC, Hospital Launch $45M Medical Innovation Fund", "publisher": "Forbes (Startup Nation Central)", "accessed": "undefined", "supports": "$45M fund size", "quote": "Israeli VC, Hospital Launch $45M Medical Innovation Fund" }
+      {
+        "url": "https://www.triventures.vc/",
+        "title": "Triventures - Beyond Healthcare",
+        "publisher": "Triventures",
+        "accessed": "undefined",
+        "supports": "existence, thesis"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3770592,00.html",
+        "title": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund - CTech",
+        "publisher": "CTech/Calcalist",
+        "accessed": "undefined",
+        "supports": "ARC fund launch, seed-stage focus, Sheba partnership",
+        "quote": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund"
+      },
+      {
+        "url": "https://www.forbes.com/sites/startupnationcentral/2018/12/27/vc-brings-the-cash-hospital-opens-its-data-israelis-launch-45m-medical-innovation-fund/",
+        "title": "Israeli VC, Hospital Launch $45M Medical Innovation Fund",
+        "publisher": "Forbes (Startup Nation Central)",
+        "accessed": "undefined",
+        "supports": "$45M fund size",
+        "quote": "Israeli VC, Hospital Launch $45M Medical Innovation Fund"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founded 2010 (main Triventures fund is not 2018+), but ARC seed fund (2018-2019) and continued seed/early focus in digital health/medtech place it in scope; some sources put AUM at $150M as of 2019 for the broader platform.",
@@ -171,37 +275,85 @@
   },
   {
     "id": "il-ehealth-ventures",
-    "name": { "en": "eHealth Ventures" },
-    "aka": ["eHV"],
+    "name": {
+      "en": "eHealth Ventures"
+    },
+    "aka": [
+      "eHV"
+    ],
     "type": "incubator",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2016,
     "region": "israel",
     "country": "Israel",
     "website": "https://ehv.health/",
     "capital": {
-      "current_fund": { "raw": "$30M (eHV Advanced fund, targeting $40M)", "usd": 30000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "$30M (eHV Advanced fund, targeting $40M)",
+        "usd": 30000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["digital-health", "medtech-devices"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices"
+      ],
       "thesis": "Israel Innovation Authority-licensed digital-health/medtech incubator launched in 2016 as a partnership between Maccabi Healthcare Services and Teva, backed by Amgen; runs a fast-track pre-seed program and an 'eHV Advanced' fund for companies graduating its incubator."
     },
     "track_record": {
       "portfolio_count": 35
     },
-    "tags": ["hmo-backed", "iia-licensed-incubator", "pre-seed-fast-track"],
+    "tags": [
+      "hmo-backed",
+      "iia-licensed-incubator",
+      "pre-seed-fast-track"
+    ],
     "summary": {
       "en": "IIA-licensed digital-health incubator (2016) founded by Maccabi Healthcare Services and Teva with Amgen as an investor, offering pre-seed fast-track and seed funding; has reviewed ~1,800 startups and invested in 35 companies."
     },
     "sources": [
-      { "url": "https://ehv.health/partners/", "title": "Partners - eHV - eHealth Ventures", "publisher": "eHealth Ventures", "accessed": "undefined", "supports": "existence, partners" },
-      { "url": "https://www.amgen.com/newsroom/press-releases/2016/10/amgen-to-invest-in-israel-based-ehealth-ventures", "title": "Amgen To Invest In Israel-Based eHealth Ventures", "publisher": "Amgen", "accessed": "undefined", "supports": "founding year 2016, Amgen investment, Maccabi/Teva partnership" },
-      { "url": "https://www.jpost.com/business-and-innovation/banking-and-finance/article-694039", "title": "Medtech firm eHV sets up new $40 million fund for seed investments", "publisher": "The Jerusalem Post", "accessed": "undefined", "supports": "fund size target, seed focus", "quote": "Medtech firm eHV sets up new $40 million fund for seed investments" },
-      { "url": "https://www.calcalistech.com/ctechnews/article/hj3mq1luc", "title": "eHealth Ventures launches fast-track pre-Seed investment program for health tech companies", "publisher": "CTech/Calcalist", "accessed": "undefined", "supports": "pre-seed fast-track program", "quote": "eHealth Ventures launches fast-track pre-Seed investment program for health tech companies" }
+      {
+        "url": "https://ehv.health/partners/",
+        "title": "Partners - eHV - eHealth Ventures",
+        "publisher": "eHealth Ventures",
+        "accessed": "undefined",
+        "supports": "existence, partners"
+      },
+      {
+        "url": "https://www.amgen.com/newsroom/press-releases/2016/10/amgen-to-invest-in-israel-based-ehealth-ventures",
+        "title": "Amgen To Invest In Israel-Based eHealth Ventures",
+        "publisher": "Amgen",
+        "accessed": "undefined",
+        "supports": "founding year 2016, Amgen investment, Maccabi/Teva partnership"
+      },
+      {
+        "url": "https://www.jpost.com/business-and-innovation/banking-and-finance/article-694039",
+        "title": "Medtech firm eHV sets up new $40 million fund for seed investments",
+        "publisher": "The Jerusalem Post",
+        "accessed": "undefined",
+        "supports": "fund size target, seed focus",
+        "quote": "Medtech firm eHV sets up new $40 million fund for seed investments"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctechnews/article/hj3mq1luc",
+        "title": "eHealth Ventures launches fast-track pre-Seed investment program for health tech companies",
+        "publisher": "CTech/Calcalist",
+        "accessed": "undefined",
+        "supports": "pre-seed fast-track program",
+        "quote": "eHealth Ventures launches fast-track pre-Seed investment program for health tech companies"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Portfolio count (35) and pipeline (~1,800 startups reviewed) come from a single secondary summary and were not cross-checked on the official site.",
@@ -210,45 +362,110 @@
   },
   {
     "id": "il-otv",
-    "name": { "en": "OTV" },
-    "aka": ["Olive Tree Ventures"],
+    "name": {
+      "en": "OTV"
+    },
+    "aka": [
+      "Olive Tree Ventures"
+    ],
     "type": "vc",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2015,
     "region": "israel",
     "country": "Israel",
     "website": "https://www.otv.vc/",
     "capital": {
-      "current_fund": { "raw": "$170M", "usd": 170000000, "currency": "USD" }
+      "current_fund": {
+        "raw": "$170M",
+        "usd": 170000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "growth"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["digital-health", "diagnostics", "genomics-omics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "diagnostics",
+        "genomics-omics"
+      ],
       "thesis": "One of the only Israeli VCs whose sole focus is digital health; invests selectively from pre-seed/late-seed through Series A and mid-growth across telehealth, diagnostics, genomics and chronic-disease management. Founded 2015 by operators with prior digital-health exits; closed a $170M dedicated digital-health fund in 2020."
     },
     "lifesci": {
-      "modalities": ["software-samd", "ai-ml-platform", "medical-hardware"]
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "medical-hardware"
+      ]
     },
     "track_record": {
       "portfolio_count": 29,
       "notable_investments": [
-        { "company": "TytoCare", "sector": "digital-health", "outcome": "active" },
-        { "company": "Scopio Labs", "sector": "diagnostics", "outcome": "active" },
-        { "company": "Emedgene", "sector": "genomics-omics", "outcome": "acquired" }
+        {
+          "company": "TytoCare",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Scopio Labs",
+          "sector": "diagnostics",
+          "outcome": "active"
+        },
+        {
+          "company": "Emedgene",
+          "sector": "genomics-omics",
+          "outcome": "acquired"
+        }
       ]
     },
-    "tags": ["digital-health-only", "seed-to-growth"],
+    "tags": [
+      "digital-health-only",
+      "seed-to-growth"
+    ],
     "summary": {
       "en": "Tel Aviv digital-health-only VC (founded 2015) that closed a $170M fund in 2020; invests selectively from late-seed/pre-seed through Series A and mid-growth in telehealth, diagnostics and genomics companies such as TytoCare and Scopio Labs."
     },
     "sources": [
-      { "url": "https://www.otv.vc/", "title": "OTV", "publisher": "OTV", "accessed": "undefined", "supports": "existence, thesis" },
-      { "url": "https://pharmaphorum.com/news/olive-tree-ventures-closes-170m-dedicated-digital-health", "title": "Olive Tree Ventures closes $170m dedicated digital health fund", "publisher": "pharmaphorum", "accessed": "undefined", "supports": "fund size, founding focus", "quote": "Olive Tree Ventures closes $170m dedicated digital health fund" },
-      { "url": "https://www.fiercebiotech.com/medtech/israel-s-otv-raises-170m-for-new-digital-health-venture-fund-plus-china-expansion", "title": "Israel's OTV raises $170M for new digital health venture fund, plus China expansion", "publisher": "Fierce Biotech", "accessed": "undefined", "supports": "fund size, founded 2015, portfolio examples" },
-      { "url": "https://www.otv.vc/our-selection-process", "title": "Our investment process is what sets us apart.", "publisher": "OTV", "accessed": "undefined", "supports": "stage focus (late seed, selective pre-seed, Series A and beyond)" }
+      {
+        "url": "https://www.otv.vc/",
+        "title": "OTV",
+        "publisher": "OTV",
+        "accessed": "undefined",
+        "supports": "existence, thesis"
+      },
+      {
+        "url": "https://pharmaphorum.com/news/olive-tree-ventures-closes-170m-dedicated-digital-health",
+        "title": "Olive Tree Ventures closes $170m dedicated digital health fund",
+        "publisher": "pharmaphorum",
+        "accessed": "undefined",
+        "supports": "fund size, founding focus",
+        "quote": "Olive Tree Ventures closes $170m dedicated digital health fund"
+      },
+      {
+        "url": "https://www.fiercebiotech.com/medtech/israel-s-otv-raises-170m-for-new-digital-health-venture-fund-plus-china-expansion",
+        "title": "Israel's OTV raises $170M for new digital health venture fund, plus China expansion",
+        "publisher": "Fierce Biotech",
+        "accessed": "undefined",
+        "supports": "fund size, founded 2015, portfolio examples"
+      },
+      {
+        "url": "https://www.otv.vc/our-selection-process",
+        "title": "Our investment process is what sets us apart.",
+        "publisher": "OTV",
+        "accessed": "undefined",
+        "supports": "stage focus (late seed, selective pre-seed, Series A and beyond)"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "OTV's public messaging leans mid-growth/Series A+; included in this seed/early slice because its own site explicitly lists 'Late Seed' and 'Selective Pre-Seed' as entry points and it began as an early-stage digital-health specialist in 2015.",
@@ -257,9 +474,13 @@
   },
   {
     "id": "il-trendlines-group",
-    "name": { "en": "The Trendlines Group" },
+    "name": {
+      "en": "The Trendlines Group"
+    },
     "type": "incubator",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 1993,
     "region": "israel",
@@ -267,23 +488,54 @@
     "hq_city": "Misgav",
     "website": "https://www.trendlines.com/",
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["israel"],
-      "sector_focus": ["medtech-devices", "life-science-tools"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "life-science-tools"
+      ],
       "thesis": "Publicly traded (SGX: 42T) Israeli seed-stage investor operating principally through Israeli government-licensed accelerators, including the Trendlines Medical Incubator; of 87 companies invested as of late 2025, life sciences is its largest single sector (48 investments), alongside a separate agrifood-tech incubator that is out of scope here."
     },
     "track_record": {
       "portfolio_count": 87
     },
-    "tags": ["publicly-traded", "iia-licensed-incubator"],
+    "tags": [
+      "publicly-traded",
+      "iia-licensed-incubator"
+    ],
     "summary": {
       "en": "Publicly traded (SGX-listed) Israeli seed-stage incubator group founded in 1993; its Trendlines Medical Incubator is a government-licensed medtech/life-sciences accelerator that has made the majority of its 87 portfolio investments in life sciences."
     },
     "sources": [
-      { "url": "https://www.trendlines.com/about-us/", "title": "About Us - The Trendlines Group", "publisher": "The Trendlines Group", "accessed": "undefined", "supports": "existence, incubator structure" },
-      { "url": "https://www.crunchbase.com/organization/trendlines-group", "title": "Trendlines Group - Crunchbase Company Profile & Funding", "publisher": "Crunchbase", "accessed": "undefined", "supports": "founding year 1993, HQ Misgav, seed-stage-investor positioning", "quote": "The Trendlines Group is a venture capital firm founded in 1993 and is primarily based out of Misgav, Israel." },
-      { "url": "https://www.cbinsights.com/investor/trendlines-medtech", "title": "Trendlines Medtech Portfolio Investments, Trendlines Medtech Funds, Trendlines Medtech Exits", "publisher": "CB Insights", "accessed": "undefined", "supports": "medtech incubator arm, life-sciences portfolio count" }
+      {
+        "url": "https://www.trendlines.com/about-us/",
+        "title": "About Us - The Trendlines Group",
+        "publisher": "The Trendlines Group",
+        "accessed": "undefined",
+        "supports": "existence, incubator structure"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/trendlines-group",
+        "title": "Trendlines Group - Crunchbase Company Profile & Funding",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "founding year 1993, HQ Misgav, seed-stage-investor positioning",
+        "quote": "The Trendlines Group is a venture capital firm founded in 1993 and is primarily based out of Misgav, Israel."
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/trendlines-medtech",
+        "title": "Trendlines Medtech Portfolio Investments, Trendlines Medtech Funds, Trendlines Medtech Exits",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "medtech incubator arm, life-sciences portfolio count"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Trendlines also runs an agrifood-tech incubator (out of scope for this medical slice); only its medical/life-sciences incubator arm and portfolio share are counted toward the biomedical nexus here.",
@@ -292,37 +544,81 @@
   },
   {
     "id": "il-medx-xelerator",
-    "name": { "en": "MEDX Xelerator" },
+    "name": {
+      "en": "MEDX Xelerator"
+    },
     "type": "incubator",
-    "subtypes": ["accelerator"],
+    "subtypes": [
+      "accelerator"
+    ],
     "status": "active",
     "founded_year": 2015,
     "region": "israel",
     "country": "Israel",
     "website": "https://medxelerator.com/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["israel"],
-      "sector_focus": ["medtech-devices", "digital-health", "surgical-robotics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health",
+        "surgical-robotics"
+      ],
       "thesis": "Israel Innovation Authority-licensed medical-device and digital-health incubator, established 2015 as a partnership between MEDX Venture Group, Boston Scientific, Intellectual Ventures and Sheba Medical Center; funds and mentors 14 pre-seed/seed-stage startups at a time in cardiovascular, urology, minimally invasive procedures, interventional oncology, neuro-vascular, medical robotics and women's health."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "software-samd"],
-      "indications": ["cardiovascular", "nephrology-urology", "oncology", "neurology", "womens-health"]
+      "modalities": [
+        "medical-hardware",
+        "software-samd"
+      ],
+      "indications": [
+        "cardiovascular",
+        "nephrology-urology",
+        "oncology",
+        "neurology",
+        "womens-health"
+      ]
     },
     "team_size": 13,
     "track_record": {
       "portfolio_count": 14
     },
-    "tags": ["iia-licensed-incubator", "corporate-backed", "sheba-partnered"],
+    "tags": [
+      "iia-licensed-incubator",
+      "corporate-backed",
+      "sheba-partnered"
+    ],
     "summary": {
       "en": "IIA-licensed medical-device/digital-health incubator (est. 2015) backed by Boston Scientific, Intellectual Ventures and Sheba Medical Center, running a portfolio of 14 pre-seed/seed-stage medtech startups spanning cardiovascular, urology, oncology and neuro-vascular devices."
     },
     "sources": [
-      { "url": "https://medxelerator.com/", "title": "Home - MEDX Xelerator", "publisher": "MEDX Xelerator", "accessed": "undefined", "supports": "existence, thesis" },
-      { "url": "https://www.mystrategist.com/medtech-strategist/article/an_israeli_medical_device_accelerator_in_war_time.html", "title": "An Israeli Medical Device Accelerator in Wartime", "publisher": "MedTech Strategist", "accessed": "undefined", "supports": "founding year 2015, partners, focus areas" },
-      { "url": "https://finder.startupnationcentral.org/investor_page/medx-xelerator", "title": "MEDX Xelerator - Israeli Incubator | Startup Nation Finder", "publisher": "Startup Nation Central", "accessed": "undefined", "supports": "classification as licensed incubator, portfolio count of 14 pre-seed/seed startups, team size" }
+      {
+        "url": "https://medxelerator.com/",
+        "title": "Home - MEDX Xelerator",
+        "publisher": "MEDX Xelerator",
+        "accessed": "undefined",
+        "supports": "existence, thesis"
+      },
+      {
+        "url": "https://www.mystrategist.com/medtech-strategist/article/an_israeli_medical_device_accelerator_in_war_time.html",
+        "title": "An Israeli Medical Device Accelerator in Wartime",
+        "publisher": "MedTech Strategist",
+        "accessed": "undefined",
+        "supports": "founding year 2015, partners, focus areas"
+      },
+      {
+        "url": "https://finder.startupnationcentral.org/investor_page/medx-xelerator",
+        "title": "MEDX Xelerator - Israeli Incubator | Startup Nation Finder",
+        "publisher": "Startup Nation Central",
+        "accessed": "undefined",
+        "supports": "classification as licensed incubator, portfolio count of 14 pre-seed/seed startups, team size"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Portfolio count (14) and team size (13) reflect a snapshot from an aggregator profile rather than the official site directly.",
@@ -331,10 +627,16 @@
   },
   {
     "id": "il-israel-biotech-fund",
-    "name": { "en": "Israel Biotech Fund" },
-    "aka": ["IBF"],
+    "name": {
+      "en": "Israel Biotech Fund"
+    },
+    "aka": [
+      "IBF"
+    ],
     "type": "vc",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "israel",
@@ -342,32 +644,82 @@
     "hq_city": "Rehovot",
     "website": "https://ibf.fund/",
     "capital": {
-      "aum": { "raw": "$200M+", "usd": 200000000, "currency": "USD" }
+      "aum": {
+        "raw": "$200M+",
+        "usd": 200000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["israel"],
-      "sector_focus": ["therapeutics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Rehovot-based biotech-only fund (started activity late 2015) investing exclusively in Israeli and Israeli-related therapeutics companies from seed through growth, drawing heavily on ties to the Weizmann Institute and Hebrew University plus a bench of ~30 pharma-executive venture advisors."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
-      "indications": ["oncology", "neurology", "rare-disease"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "neurology",
+        "rare-disease"
+      ],
       "science_platform_notes": "Strong ties to Weizmann Institute and Hebrew University for early-stage discovery sourcing; ~30 pharma/biotech-executive venture advisors support portfolio companies."
     },
     "track_record": {
       "portfolio_count": 16
     },
-    "tags": ["biotech-only", "academic-spinouts", "weizmann-hebrew-u"],
+    "tags": [
+      "biotech-only",
+      "academic-spinouts",
+      "weizmann-hebrew-u"
+    ],
     "summary": {
       "en": "Rehovot-headquartered biotech fund (active since late 2015, $200M+ managed) investing exclusively in Israeli therapeutics companies from seed through growth stage, sourced heavily from Weizmann Institute and Hebrew University research."
     },
     "sources": [
-      { "url": "https://ibf.fund/", "title": "Israel Biotech Fund", "publisher": "Israel Biotech Fund", "accessed": "undefined", "supports": "existence, thesis" },
-      { "url": "https://joltoo.com/investors/israel-biotech-fund", "title": "Israel Biotech Fund – $200M Seed/Series A/Series B+ Fund | Joltoo", "publisher": "Joltoo", "accessed": "undefined", "supports": "AUM, stage range (seed through growth)", "quote": "Israel Biotech Fund manages $200M+ focused exclusively on Israel's life sciences ecosystem" },
-      { "url": "https://tracxn.com/d/venture-capital/israelbiotechfund/__hAEkZ_Gceri6ajwDg-cwDH8TYuCHvBEeqAPdcHRqd-E", "title": "Israel Biotech Fund - 2026 Investor Profile, Portfolio, Team & Investment Trends - Tracxn", "publisher": "Tracxn", "accessed": "undefined", "supports": "founded year, HQ city Rehovot", "quote": "Founded in 2014, Israel Biotech Fund is a venture capital firm based in Rehovot, Israel." },
-      { "url": "https://finder.startupnationcentral.org/investor_page/israel-biotech-fund", "title": "Israel Biotech Fund - Israeli VC and Private Equity | Startup Nation Finder", "publisher": "Startup Nation Central", "accessed": "undefined", "supports": "portfolio count, academic ties, advisor network" }
+      {
+        "url": "https://ibf.fund/",
+        "title": "Israel Biotech Fund",
+        "publisher": "Israel Biotech Fund",
+        "accessed": "undefined",
+        "supports": "existence, thesis"
+      },
+      {
+        "url": "https://joltoo.com/investors/israel-biotech-fund",
+        "title": "Israel Biotech Fund – $200M Seed/Series A/Series B+ Fund | Joltoo",
+        "publisher": "Joltoo",
+        "accessed": "undefined",
+        "supports": "AUM, stage range (seed through growth)",
+        "quote": "Israel Biotech Fund manages $200M+ focused exclusively on Israel's life sciences ecosystem"
+      },
+      {
+        "url": "https://tracxn.com/d/venture-capital/israelbiotechfund/__hAEkZ_Gceri6ajwDg-cwDH8TYuCHvBEeqAPdcHRqd-E",
+        "title": "Israel Biotech Fund - 2026 Investor Profile, Portfolio, Team & Investment Trends - Tracxn",
+        "publisher": "Tracxn",
+        "accessed": "undefined",
+        "supports": "founded year, HQ city Rehovot",
+        "quote": "Founded in 2014, Israel Biotech Fund is a venture capital firm based in Rehovot, Israel."
+      },
+      {
+        "url": "https://finder.startupnationcentral.org/investor_page/israel-biotech-fund",
+        "title": "Israel Biotech Fund - Israeli VC and Private Equity | Startup Nation Finder",
+        "publisher": "Startup Nation Central",
+        "accessed": "undefined",
+        "supports": "portfolio count, academic ties, advisor network"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Fund invests across seed-through-growth stages rather than being seed-exclusive; included here because its earliest and largest activity is described as seed/Series-A therapeutics sourced from academic spinouts, with growth-stage follow-on as a secondary activity.",
@@ -376,9 +728,13 @@
   },
   {
     "id": "il-embarc-ventures",
-    "name": { "en": "embARC Ventures" },
+    "name": {
+      "en": "embARC Ventures"
+    },
     "type": "accelerator",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2024,
     "region": "israel",
@@ -388,7 +744,11 @@
     "program": {
       "length_weeks": 12,
       "cohort_size": "5-10",
-      "investment": { "raw": "$250,000 ($125,000 guaranteed + $125,000 convertible)", "usd": 250000, "currency": "USD" },
+      "investment": {
+        "raw": "$250,000 ($125,000 guaranteed + $125,000 convertible)",
+        "usd": 250000,
+        "currency": "USD"
+      },
       "equity_taken_pct": 7,
       "format": "in-person",
       "location": "Sheba Medical Center, Ramat Gan",
@@ -396,20 +756,52 @@
       "demo_day": null
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["israel", "global"],
-      "sector_focus": ["digital-health", "healthcare-services"],
+      "geo_focus": [
+        "israel",
+        "global"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "healthcare-services"
+      ],
       "thesis": "Launchpad and pre-seed/seed fund operated inside Chaim Sheba Medical Center (Israel's largest hospital), announced September 2024, giving healthtech founders guaranteed standardized-terms investment plus direct access to Sheba's clinical departments, data and international network."
     },
-    "tags": ["hospital-backed", "sheba-medical-center", "standardized-terms"],
+    "tags": [
+      "hospital-backed",
+      "sheba-medical-center",
+      "standardized-terms"
+    ],
     "summary": {
       "en": "Sheba Medical Center's healthtech launchpad (announced 2024) that runs ~3-month cohorts of 5-10 pre-seed/seed startups, guaranteeing $250,000 per company (7% equity for the first $125,000) plus mentoring and hospital access."
     },
     "sources": [
-      { "url": "https://sheba-global.com/sheba-medical-center-launches-embarc-ventures-launchpad-for-israeli-and-global-healthtech-startups/", "title": "Sheba Launches embARC Ventures to fund Global HealthTech Startups", "publisher": "Sheba Global", "accessed": "undefined", "supports": "founding, investment terms, cohort model", "quote": "guaranteed financial support of $250,000 for each selected company" },
-      { "url": "https://www.embarcventures.com/", "title": "Healthcare Startup Accelerator | Sheba Hospital | embARC Ventures", "publisher": "embARC Ventures", "accessed": "undefined", "supports": "existence, sector focus" },
-      { "url": "https://www.eureporter.co/health/2024/09/19/israels-sheba-medical-center-unveils-two-major-initiatives-set-to-bolster-regional-and-global-medtech-ecosystems/", "title": "Israel's Sheba Medical Center unveils two major initiatives set to bolster regional and global medtech ecosystems", "publisher": "EU Reporter", "accessed": "undefined", "supports": "launch date, terms (7% equity for $125,000)" }
+      {
+        "url": "https://sheba-global.com/sheba-medical-center-launches-embarc-ventures-launchpad-for-israeli-and-global-healthtech-startups/",
+        "title": "Sheba Launches embARC Ventures to fund Global HealthTech Startups",
+        "publisher": "Sheba Global",
+        "accessed": "undefined",
+        "supports": "founding, investment terms, cohort model",
+        "quote": "guaranteed financial support of $250,000 for each selected company"
+      },
+      {
+        "url": "https://www.embarcventures.com/",
+        "title": "Healthcare Startup Accelerator | Sheba Hospital | embARC Ventures",
+        "publisher": "embARC Ventures",
+        "accessed": "undefined",
+        "supports": "existence, sector focus"
+      },
+      {
+        "url": "https://www.eureporter.co/health/2024/09/19/israels-sheba-medical-center-unveils-two-major-initiatives-set-to-bolster-regional-and-global-medtech-ecosystems/",
+        "title": "Israel's Sheba Medical Center unveils two major initiatives set to bolster regional and global medtech ecosystems",
+        "publisher": "EU Reporter",
+        "accessed": "undefined",
+        "supports": "launch date, terms (7% equity for $125,000)"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Very new (announced Sept 2024); exact HQ neighborhood inferred from Sheba Medical Center's location (Ramat Gan/Tel Hashomer) since embARC's own materials say 'Tel Aviv' loosely.",
@@ -418,9 +810,13 @@
   },
   {
     "id": "il-futurx",
-    "name": { "en": "FutuRx" },
+    "name": {
+      "en": "FutuRx"
+    },
     "type": "incubator",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "israel",
@@ -428,27 +824,60 @@
     "hq_city": "Rehovot",
     "website": "https://www.futurx.co.il/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["israel"],
-      "sector_focus": ["therapeutics"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Israel Innovation Authority-licensed biopharma incubator, established January 2014 by OrbiMed Israel, Johnson & Johnson Innovation and Takeda (later joined by Leaps by Bayer), that creates and funds early-stage drug-development companies from concept through proof of concept."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
       "company_creation": true
     },
     "track_record": {
       "portfolio_count": 10
     },
-    "tags": ["iia-licensed-incubator", "corporate-backed", "company-creation"],
+    "tags": [
+      "iia-licensed-incubator",
+      "corporate-backed",
+      "company-creation"
+    ],
     "summary": {
       "en": "Rehovot-based biopharma incubator (est. 2014) founded by OrbiMed Israel, J&J Innovation and Takeda, later joined by Leaps by Bayer, that builds and funds early-stage drug-development ventures from concept to proof of concept; about 10 portfolio companies to date."
     },
     "sources": [
-      { "url": "https://www.futurx.co.il/", "title": "Mission - FutuRx", "publisher": "FutuRx", "accessed": "undefined", "supports": "existence, thesis, founders" },
-      { "url": "https://www.prnewswire.com/news-releases/first-companies-move-into-futurx-biotech-incubator-in-israel-288271591.html", "title": "First Companies Move into FutuRx Biotech Incubator in Israel", "publisher": "PR Newswire", "accessed": "undefined", "supports": "founding year 2014, IIA licensing" },
-      { "url": "https://www.cbinsights.com/company/futurx", "title": "FutuRx - Products, Competitors, Financials, Employees, Headquarters Locations", "publisher": "CB Insights", "accessed": "undefined", "supports": "portfolio count", "quote": "There are currently 10 portfolio companies in FutuRx" }
+      {
+        "url": "https://www.futurx.co.il/",
+        "title": "Mission - FutuRx",
+        "publisher": "FutuRx",
+        "accessed": "undefined",
+        "supports": "existence, thesis, founders"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/first-companies-move-into-futurx-biotech-incubator-in-israel-288271591.html",
+        "title": "First Companies Move into FutuRx Biotech Incubator in Israel",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "founding year 2014, IIA licensing"
+      },
+      {
+        "url": "https://www.cbinsights.com/company/futurx",
+        "title": "FutuRx - Products, Competitors, Financials, Employees, Headquarters Locations",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "portfolio count",
+        "quote": "There are currently 10 portfolio companies in FutuRx"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Leaps by Bayer joining as a later backer noted in secondary coverage but not cross-confirmed on the official site directly.",
@@ -457,62 +886,71 @@
   },
   {
     "id": "il-rad-biomed",
-    "name": { "en": "RAD BioMed Accelerator" },
-    "aka": ["RAD BioMed"],
+    "name": {
+      "en": "RAD BioMed Accelerator"
+    },
+    "aka": [
+      "RAD BioMed"
+    ],
     "type": "accelerator",
-    "subtypes": ["family-office"],
+    "subtypes": [
+      "family-office"
+    ],
     "status": "active",
     "region": "israel",
     "country": "Israel",
     "hq_city": "Tel Aviv",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["israel"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-it"],
+      "geo_focus": [
+        "israel"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-it"
+      ],
       "thesis": "Family-funded accelerator (launched by the RAD Group, a veteran Israeli tech-company builder with nine Nasdaq IPOs) investing in early-stage, preferably seed-stage, biomedical startups in biopharma, medical devices, diagnostics, industrial biotechnology and healthcare IT, providing infrastructure, scientific advisors and operational guidance; portfolio companies include technology licensed from Hadassah's Hadasit, Hebrew University's Yissum and Technion's T3 tech-transfer offices."
     },
-    "tags": ["family-office-backed", "academic-tech-transfer", "rad-group"],
+    "tags": [
+      "family-office-backed",
+      "academic-tech-transfer",
+      "rad-group"
+    ],
     "summary": {
       "en": "Tel Aviv-based seed-stage biomedical accelerator funded by the RAD Group family of companies, backing early biopharma, medical-device, diagnostics and healthcare-IT startups often built on IP licensed from Israeli university/hospital tech-transfer offices (Yissum, Hadasit, T3)."
     },
     "sources": [
-      { "url": "https://972vc.com/companies/rad-biomed-accelerator/", "title": "RAD BioMed Accelerator - 972VC", "publisher": "972VC", "accessed": "undefined", "supports": "HQ city, sector focus, seed stage, family-fund structure", "quote": "biopharma, medical devices, diagnostics, industrial biotechnology and healthcare IT" },
-      { "url": "https://il.linkedin.com/company/rad-biomed-accelerator", "title": "RAD BioMed | LinkedIn", "publisher": "LinkedIn", "accessed": "undefined", "supports": "existence, corroborates focus areas" },
-      { "url": "https://moebiusmedical.com/company/", "title": "Our Company - Moebius Medical", "publisher": "Moebius Medical", "accessed": "undefined", "supports": "example of academic tech-transfer-sourced portfolio company (Yissum/Hadasit/T3 licensed IP)" }
+      {
+        "url": "https://972vc.com/companies/rad-biomed-accelerator/",
+        "title": "RAD BioMed Accelerator - 972VC",
+        "publisher": "972VC",
+        "accessed": "undefined",
+        "supports": "HQ city, sector focus, seed stage, family-fund structure",
+        "quote": "biopharma, medical devices, diagnostics, industrial biotechnology and healthcare IT"
+      },
+      {
+        "url": "https://il.linkedin.com/company/rad-biomed-accelerator",
+        "title": "RAD BioMed | LinkedIn",
+        "publisher": "LinkedIn",
+        "accessed": "undefined",
+        "supports": "existence, corroborates focus areas"
+      },
+      {
+        "url": "https://moebiusmedical.com/company/",
+        "title": "Our Company - Moebius Medical",
+        "publisher": "Moebius Medical",
+        "accessed": "undefined",
+        "supports": "example of academic tech-transfer-sourced portfolio company (Yissum/Hadasit/T3 licensed IP)"
+      }
     ],
     "confidence": "low",
     "verification_notes": "Founding year not verified (sources only say 'more than 15 years of successful operations' as of RAD Group's ~2020s materials); no official radbiomed.com site was located, so website field omitted; Startup Nation Central's finder profile page returned HTTP 403 and could not be used as a source.",
-    "last_updated": "undefined",
-    "researched_by": "seed-early-micro-lifesci"
-  },
-  {
-    "id": "il-ngt3",
-    "name": { "en": "NGT3" },
-    "aka": ["New Generation Technology 3"],
-    "type": "incubator",
-    "subtypes": ["vc"],
-    "status": "active",
-    "region": "israel",
-    "country": "Israel",
-    "hq_city": "Nazareth",
-    "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "lead_or_follow": "lead",
-      "geo_focus": ["israel"],
-      "sector_focus": ["medtech-devices", "life-science-tools"],
-      "thesis": "Israel Innovation Authority-licensed technology incubator in Nazareth structured as a venture capital fund, investing in and supporting early-stage entrepreneurs in medical devices and life-science technologies, with an explicit social mission of Jewish-Arab collaboration among its founders, employees and portfolio teams."
-    },
-    "tags": ["iia-licensed-incubator", "jewish-arab-collaboration", "nazareth"],
-    "summary": {
-      "en": "Nazareth-based, IIA-licensed medtech/life-sciences incubator structured as a venture capital fund, notable for its Jewish-Arab collaboration mission alongside its early-stage medical-device investment focus."
-    },
-    "sources": [
-      { "url": "https://972vc.com/companies/ngt3-new-generation-technology/", "title": "NGT3 - New Generation Technology - 972VC", "publisher": "972VC", "accessed": "undefined", "supports": "existence, structure as VC fund, medical device/life science focus" },
-      { "url": "https://nocamels.com/2024/03/medtech-hub-fostering-underutilized-creativity-of-israeli-arabs/", "title": "MedTech hub fostering 'underutilized' creativity of Israeli arabs", "publisher": "NoCamels", "accessed": "undefined", "supports": "Nazareth location, Jewish-Arab collaboration mission" }
-    ],
-    "confidence": "low",
-    "verification_notes": "Founding year and fund size not located in available sources; classification as incubator-structured-as-VC-fund taken from secondary aggregator description, not a directly fetched official page.",
     "last_updated": "undefined",
     "researched_by": "seed-early-micro-lifesci"
   }

@@ -151,7 +151,7 @@
           "role": "participant",
           "round": "series-d",
           "source_url": "https://www.advancell.com.au/",
-          "entity_id": null
+          "entity_id": "us-fidelity-management-and-research"
         },
         {
           "name": "T. Rowe Price",
@@ -773,6 +773,52 @@
     "researched_by": "r8-anz"
   },
   {
+    "id": "anz-curlew-bio",
+    "name": {
+      "en": "Curlew Bio"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": 2025,
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Brisbane",
+    "website": "https://www.curlewbio.com/",
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/curlew-bio"
+    },
+    "profile": {
+      "what": "Preclinical biotech developing GPR183-inhibiting therapies to block pro-fibrotic macrophages across fibrotic diseases.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "development_stage": "preclinical"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Brisbane-founded (2025) preclinical biotech targeting GPR183 to reset pro-fibrotic macrophage biology across fibrotic disease."
+    },
+    "sources": [
+      {
+        "url": "https://www.linkedin.com/company/curlew-bio",
+        "title": "Curlew Bio company page",
+        "publisher": "LinkedIn",
+        "accessed": "2026-08-16",
+        "supports": "Business description, Brisbane HQ, founding year, headcount",
+        "quote": "Precision blockade of pro-fibrotic macrophages across a spectrum of diseases. Reset myeloid biology by preventing attraction and differentiation of pro-fibrotic macrophages through GPR183 inhibition."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Company's own website (curlewbio.com) is a pre-launch 'Launching Soon' page with no substantive content; all facts sourced from its LinkedIn listing instead. No investors could be sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "anz-curvebeam-ai",
     "name": {
       "en": "CurveBeam AI"
@@ -823,6 +869,52 @@
     "confidence": "medium",
     "last_updated": "2026-08-16",
     "researched_by": "r8-anz"
+  },
+  {
+    "id": "anz-cynata-therapeutics",
+    "name": {
+      "en": "Cynata Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "cell-gene-therapy"
+    ],
+    "status": "public",
+    "region": "australia-nz",
+    "country": "Australia",
+    "website": "https://cynata.com/",
+    "profile": {
+      "what": "Clinical-stage cell therapy company developing the Cymerus allogeneic, iPSC-derived mesenchymal stem cell manufacturing platform, with trials in indications including osteoarthritis and acute graft-versus-host disease.",
+      "modalities": [
+        "cell-therapy"
+      ],
+      "indications": [
+        "musculoskeletal-orthopedics",
+        "immunology-inflammation"
+      ],
+      "development_stage": "phase-2"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "ASX-listed (CYP) Australian clinical-stage cell therapy company built around its Cymerus induced-pluripotent-stem-cell-derived mesenchymal stem cell manufacturing platform."
+    },
+    "sources": [
+      {
+        "url": "https://stockhead.com.au/health/cynata-therapeutics/",
+        "title": "Cynata Therapeutics (ASX:CYP) coverage",
+        "publisher": "Stockhead",
+        "accessed": "2026-08-16",
+        "supports": "ASX ticker, stem-cell focus, osteoarthritis and acute GvHD trial indications",
+        "quote": "stem-cell stocks"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Company's own site (cynata.com) returned repeated HTTP 429 rate-limit errors and could not be fetched within budget; core business description and ASX listing corroborated via Stockhead news-aggregation page instead. Exact HQ city not sourced (Australia confirmed via ASX listing); development_stage of phase-2 is inferred from the osteoarthritis/aGvHD trial mentions, not a directly quoted statement.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "anz-dimerix",
@@ -1327,6 +1419,51 @@
     "researched_by": "r9-backlog-sweep"
   },
   {
+    "id": "anz-heartlab",
+    "name": {
+      "en": "HeartLab"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "medical-imaging",
+      "healthcare-it",
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2019,
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "hq_city": "Auckland",
+    "website": "https://www.heartlab.com",
+    "profile": {
+      "what": "Cloud-based cardiology imaging platform that consolidates cardiac images, measurements, structured reporting, and sharing into a single workspace for cardiac imaging teams.",
+      "modalities": [
+        "software-samd"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial"
+    },
+    "summary": {
+      "en": "New Zealand-founded cloud platform that unifies cardiac imaging workflows — images, measurements, structured reporting and sharing — for cardiology teams."
+    },
+    "sources": [
+      {
+        "url": "https://www.heartlab.com/about",
+        "title": "About HeartLab",
+        "publisher": "HeartLab",
+        "accessed": "2026-08-16",
+        "supports": "Product description, HQ location, founding year, founder",
+        "quote": "Make cardiac imaging work better for the people who rely on it every day."
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only the company's own About page could be fetched (no press, funding, or investor pages were reachable in this session). No funding or investor information found — omitted rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "anz-instantscripts",
     "name": {
       "en": "InstantScripts"
@@ -1374,6 +1511,48 @@
     "verification_notes": "Acquisition date and value not found in accessible sources.",
     "last_updated": "2026-08-16",
     "researched_by": "r8-anz"
+  },
+  {
+    "id": "anz-junofem",
+    "name": {
+      "en": "JunoFem"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "medtech-devices",
+      "femtech-womens-health"
+    ],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "New Zealand",
+    "website": "https://www.junofem.com",
+    "profile": {
+      "what": "New Zealand medtech company whose femfit pelvic-floor training system pairs a pressure-sensor intravaginal device with a mobile app to treat female urinary incontinence.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "womens-health"
+      ],
+      "development_stage": "commercial"
+    },
+    "summary": {
+      "en": "New Zealand femtech maker of the femfit real-time-feedback pelvic-floor training device."
+    },
+    "sources": [
+      {
+        "url": "https://www.junofem.com/",
+        "title": "JunoFem",
+        "publisher": "JunoFem",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, product",
+        "quote": "on a mission to free women from the stigma of urinary incontinence"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "anz-kitea-health",
@@ -1963,6 +2142,53 @@
     "confidence": "medium",
     "last_updated": "2026-08-16",
     "researched_by": "r8-anz"
+  },
+  {
+    "id": "anz-polyactiva",
+    "name": {
+      "en": "PolyActiva"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "medtech-devices"
+    ],
+    "status": "private",
+    "region": "australia-nz",
+    "country": "Australia",
+    "hq_city": "Notting Hill, Victoria",
+    "website": "https://polyactiva.com/",
+    "profile": {
+      "what": "Developer of biodegradable polymer implants (PREZIA platform) for sustained ophthalmic drug delivery, initially targeting glaucoma.",
+      "modalities": [
+        "drug-delivery",
+        "small-molecule"
+      ],
+      "indications": [
+        "ophthalmology"
+      ],
+      "development_stage": "phase-2"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "Australian-origin biodegradable-implant company whose PREZIA sustained drug-delivery platform is aimed first at glaucoma, now also expanding into pediatric retinal disease via a 2025 collaboration."
+    },
+    "sources": [
+      {
+        "url": "https://polyactiva.com/",
+        "title": "PolyActiva homepage / about",
+        "publisher": "PolyActiva",
+        "accessed": "2026-08-16",
+        "supports": "Company description, PREZIA platform, dual Fort Worth TX / Melbourne offices, 2025 RareSight collaboration",
+        "quote": "PolyActiva is focused on providing unique biodegradable implants with sustained drug delivery to improve patient outcomes and quality of life for patients suffering from ophthalmic diseases such as glaucoma."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Company site lists two offices — Fort Worth, TX, USA and Notting Hill, Victoria, Australia. Classified under Australia/anz- because PolyActiva originated as a Melbourne biodegradable-polymer spin-out; the Texas address appears to be a newer US commercial presence. Development stage inferred as phase-2 from general knowledge of the glaucoma implant program's public trial history; could not source a page confirming current phase within budget — treat with caution. No investor names could be sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "anz-powerhealth-solutions",
@@ -2868,7 +3094,7 @@
           "role": "lead",
           "round": "series-b",
           "source_url": "https://betakit.com/abcellera-secures-144-million-cad-series-b-funding-round/",
-          "entity_id": null
+          "entity_id": "us-orbimed"
         },
         {
           "name": "DCVC Bio",
@@ -3197,6 +3423,60 @@
     ]
   },
   {
+    "id": "ca-arbutus-medical",
+    "name": {
+      "en": "Arbutus Medical"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "private",
+    "founded_year": 2014,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Vancouver",
+    "website": "https://arbutusmedical.com",
+    "profile": {
+      "what": "Orthopedic-trauma surgical device maker whose TrakPak skeletal traction system and sterile-packed drill kits (built with DEWALT) simplify procedures and cut costs for hospitals worldwide.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "musculoskeletal-orthopedics"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "clearance",
+          "item": "orthopedic surgical drill and traction kits"
+        },
+        {
+          "body": "Health Canada",
+          "kind": "license",
+          "item": "orthopedic surgical drill and traction kits"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Vancouver medtech founded by orthopaedic trauma surgeons; products used across 40 countries in an estimated 85,000+ surgeries."
+    },
+    "sources": [
+      {
+        "url": "https://arbutusmedical.com/about/",
+        "title": "About",
+        "publisher": "Arbutus Medical",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding year, regulatory clearances, scale",
+        "quote": "enabled an estimated 85,000 surgeries and counting"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "ca-aspect-biosystems",
     "name": {
       "en": "Aspect Biosystems Ltd."
@@ -3443,7 +3723,7 @@
           "role": "lead",
           "round": "series-c-plus",
           "source_url": "https://betakit.com/benchsci-closes-95-million-cad-series-d-to-expand-ai-drug-discovery-platform/",
-          "entity_id": null
+          "entity_id": "eu-generation-investment-management"
         },
         {
           "name": "Inovia Capital",
@@ -3997,7 +4277,7 @@
           "role": "participant",
           "round": "series-c-plus",
           "source_url": "https://betakit.com/deep-genomics-secures-226-million-cad-led-by-softbank-as-it-scales-ai-drug-discovery-platform/",
-          "entity_id": null
+          "entity_id": "ca-cpp-investments"
         },
         {
           "name": "Fidelity Management & Research Company LLC",
@@ -4162,7 +4442,7 @@
           "role": "participant",
           "round": "series-b",
           "source_url": "https://betakit.com/telehealth-startup-dialogue-raises-40-million-to-fuel-european-expansion/",
-          "entity_id": null
+          "entity_id": "ca-portag3-ventures"
         },
         {
           "name": "First Ascent Ventures",
@@ -4784,7 +5064,7 @@
           "role": "participant",
           "round": "series-a",
           "source_url": "https://betakit.com/fluid-biomed-closes-27-million-usd-series-a-to-fund-expanded-human-clinical-studies/",
-          "entity_id": null
+          "entity_id": "us-shangbay-capital"
         },
         {
           "name": "METIS Innovative",
@@ -4950,6 +5230,58 @@
     "confidence": "high",
     "last_updated": "2026-08-16",
     "researched_by": "r9-canada-health"
+  },
+  {
+    "id": "ca-inversago-pharma",
+    "name": {
+      "en": "Inversago Pharma"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Montreal",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company developing peripherally-restricted CB1 receptor modulators for obesity, metabolic and fibrotic diseases.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "metabolic-obesity"
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2023,
+        "acquirer": "Novo Nordisk",
+        "value": {
+          "raw": "$1 billion",
+          "usd": 1000000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Montreal-headquartered CB1-modulator biotech acquired by Novo Nordisk for $1 billion in August 2023 to bolster its cardiometabolic pipeline."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Novo_Nordisk",
+        "title": "Novo Nordisk",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Acquisition date, deal value, HQ location",
+        "quote": "In August 2023, Novo agreed to acquire the Montreal-headquartered pharmaceutical company, Inversago Pharma for $1 billion"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Company's own site (inversagopharma.com) was unreachable (connection error) within budget; deal and HQ facts sourced from Novo Nordisk's Wikipedia page instead. Lead modality/indication description (CB1 modulator, obesity/metabolic/fibrotic disease) drawn from general public knowledge of the deal rather than a directly fetched quote — treat modality/indication tags as medium confidence.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "ca-kane-biotech",
@@ -5128,7 +5460,7 @@
           "role": "participant",
           "round": "growth",
           "source_url": "https://betakit.com/league-enters-2022-as-canadas-newest-unicorn-with-tdm-growth-partners-led-round/",
-          "entity_id": null
+          "entity_id": "ca-portag3-ventures"
         },
         {
           "name": "Real Ventures",
@@ -5142,7 +5474,7 @@
           "role": "participant",
           "round": "growth",
           "source_url": "https://betakit.com/league-enters-2022-as-canadas-newest-unicorn-with-tdm-growth-partners-led-round/",
-          "entity_id": null
+          "entity_id": "ca-manulife"
         },
         {
           "name": "BDC Capital",
@@ -5203,6 +5535,85 @@
     "confidence": "high",
     "last_updated": "2026-08-16",
     "researched_by": "r9-canada-health"
+  },
+  {
+    "id": "ca-maple",
+    "name": {
+      "en": "Maple"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "digital-health",
+      "healthcare-services"
+    ],
+    "status": "private",
+    "founded_year": 2015,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.getmaple.ca",
+    "profile": {
+      "what": "Virtual care platform connecting Canadians with doctors, nurse practitioners and specialists for online consultations, prescriptions, lab requisitions and medical notes."
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "SE Health",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Shoppers Drug Mart",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "MaRS",
+          "role": "unknown",
+          "entity_id": "ca-mars-discovery-district-incubator"
+        },
+        {
+          "name": "Global Excel Management",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "RBC",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Acton",
+          "role": "unknown",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Toronto-founded virtual-care platform giving Canadians on-demand access to doctors and specialists; reports reach to 8 million Canadians via 2,000+ practitioners."
+    },
+    "sources": [
+      {
+        "url": "https://www.getmaple.ca/about",
+        "title": "About Maple",
+        "publisher": "Maple",
+        "accessed": "2026-08-16",
+        "supports": "Founding year, founders, scale figures, investor/partner names",
+        "quote": "In 2015, three leaders in their own fields founded Maple"
+      },
+      {
+        "url": "https://www.getmaple.ca/about",
+        "title": "About Maple",
+        "publisher": "Maple",
+        "accessed": "2026-08-16",
+        "supports": "Investor/partner names",
+        "quote": "SE Health, Shoppers Drug Mart, MaRS, Global Excel Management, RBC, Acton"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "The About page lists 'SE Health, Shoppers Drug Mart, MaRS, Global Excel Management, RBC, Acton' without specifying whether each is an equity investor, corporate/channel partner, or ecosystem backer — recorded with role 'unknown' pending clarification. HQ city (Toronto) inferred from co-founder Dr. Brett Belchetz's bio ('a practicing physician in Toronto'), not stated explicitly as company HQ.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "ca-medicago",
@@ -5535,7 +5946,7 @@
           "role": "participant",
           "round": "series-a",
           "source_url": "https://betakit.com/today-in-funding-27-8-million-cto-ai-mindbeacon/",
-          "entity_id": null
+          "entity_id": "ca-manulife"
         },
         {
           "name": "TELUS Ventures",
@@ -5701,6 +6112,38 @@
     "aka": []
   },
   {
+    "id": "ca-neighbourly-pharmacy",
+    "name": {
+      "en": "Neighbourly Pharmacy"
+    },
+    "category": "healthcare-services",
+    "status": "unknown",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.neighbourlypharmacy.ca",
+    "profile": {
+      "what": "Acquires and operates a network of community pharmacies across Canada under their original local banner names, providing centralized back-office support while preserving local pharmacist-led identity, with a focus on strengthening rural pharmacy access."
+    },
+    "sources": [
+      {
+        "url": "https://www.neighbourlypharmacy.ca/",
+        "title": "Neighbourly Pharmacy homepage",
+        "publisher": "Neighbourly Pharmacy",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ address",
+        "quote": "Canada's Largest and Fastest-Growing Network of Community Pharmacies"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Public/private corporate status and founding year could not be confirmed from the fetched homepage (TSX listing pages returned no usable content via WebFetch); pharmacy-count figures on the site were placeholder values, not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b",
+    "sectors": [
+      "healthcare-services"
+    ]
+  },
+  {
     "id": "ca-nicoya",
     "name": {
       "en": "Nicoya"
@@ -5797,7 +6240,7 @@
     ],
     "sources": [
       {
-        "url": "https://nicoyalife.com/",
+        "url": "https://nicoyalife.com/about-us/",
         "title": "Nicoya Lifesciences homepage",
         "publisher": "Nicoya",
         "accessed": "2026-08-16",
@@ -5806,7 +6249,7 @@
       }
     ],
     "confidence": "medium",
-    "verification_notes": "Company site did not state an explicit HQ city in accessible pages, so hq_city is omitted rather than guessed.",
+    "verification_notes": "Company site did not state an explicit HQ city in accessible pages, so hq_city is omitted rather than guessed. Verification 2026-08-16: the quoted text lives on /about-us/, not the homepage; citation re-pointed.",
     "last_updated": "2026-08-16",
     "researched_by": "r9-canada-biotech",
     "sectors": [
@@ -6469,6 +6912,60 @@
     "researched_by": "r9-canada-health"
   },
   {
+    "id": "ca-radiosyn",
+    "name": {
+      "en": "RadioSyn"
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "life-science-tools"
+    ],
+    "status": "private",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Hamilton, Ontario",
+    "website": "https://www.radiosyn.com/",
+    "profile": {
+      "what": "Designs and manufactures a miniaturized, automated radiopharmaceutical synthesis platform — a shielded synthesizer using disposable microfluidic chips for end-to-end chemical and radiochemical reactions in research and clinical settings.",
+      "modalities": [
+        "radiopharmaceuticals",
+        "lab-automation"
+      ],
+      "development_stage": "unknown"
+    },
+    "people": [
+      {
+        "name": "Dr. Sam Sadeghi",
+        "role": "CEO / co-founder"
+      },
+      {
+        "name": "Dr. Ravi Selvaganapathy",
+        "role": "CTO / co-founder"
+      },
+      {
+        "name": "Shayan Jahangirifard",
+        "role": "Senior Engineer / co-founder"
+      }
+    ],
+    "summary": {
+      "en": "Hamilton, Ontario company building a miniaturized automated synthesis platform for radiopharmaceutical production."
+    },
+    "sources": [
+      {
+        "url": "https://www.radiosyn.com/",
+        "title": "RadioSyn",
+        "publisher": "RadioSyn",
+        "accessed": "2026-08-16",
+        "supports": "Company description, HQ address, founders, product",
+        "quote": "designing and manufacturing a miniaturized automated radiopharmaceutical synthesis platform"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Page indicates partnerships with CPDC and CMIE (Canadian Medical Innovation and Entrepreneurship) but no specific funding amounts or named investors were disclosed on the homepage; funding block omitted rather than guessed. Founding year not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "ca-repare-therapeutics",
     "name": {
       "en": "Repare Therapeutics Inc."
@@ -6767,6 +7264,68 @@
     "aka": []
   },
   {
+    "id": "ca-tatum-bioscience",
+    "name": {
+      "en": "TATUM Bioscience"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "cell-gene-therapy"
+    ],
+    "status": "private",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Sherbrooke, Quebec",
+    "website": "https://www.tatumbio.com/",
+    "profile": {
+      "what": "Developer of intratumorally injected 'nanofilament' immunotherapy designed to boost tumor visibility to the immune system and restore antitumor immune responses.",
+      "modalities": [
+        "cell-therapy",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "TVM Capital",
+          "role": "unknown",
+          "entity_id": "ca-tvm-capital-life-science"
+        },
+        {
+          "name": "BoxOne Ventures",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "CQDM",
+          "role": "unknown",
+          "entity_id": "ca-cqdm"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Sherbrooke, Quebec biotech developing intratumoral 'nanofilament' immune-engager immunotherapy for cancer, backed by TVM Capital, BoxOne Ventures and CQDM."
+    },
+    "sources": [
+      {
+        "url": "https://www.tatumbio.com/",
+        "title": "TATUM Bioscience homepage",
+        "publisher": "TATUM Bioscience",
+        "accessed": "2026-08-16",
+        "supports": "Company description, nanofilament platform, Sherbrooke/Canadian base, investor names via board bios",
+        "quote": "TATUM Bioscience is redefining cancer treatment with nanofilament immunotherapy. Our breakthrough technology boosts tumor visibility, restores immune function, and drives lasting antitumor responses."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city inferred as Sherbrooke from references to Sherbrooke-based accelerators on the site; not an explicit 'headquartered in' statement. Investor names come from board-member affiliations (TVM Capital, BoxOne Ventures) plus a listed supporter (CQDM), not a disclosed funding round; role/round left unknown.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "ca-theratechnologies",
     "name": {
       "en": "Theratechnologies Inc."
@@ -6871,6 +7430,64 @@
       "Thorasys Thoracic Medical Systems Inc."
     ],
     "funding": {}
+  },
+  {
+    "id": "ca-total-flow-medical",
+    "name": {
+      "en": "Total Flow Medical"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "private",
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Vancouver",
+    "profile": {
+      "what": "Developer of clinician-designed technology for cardiopulmonary bypass, addressing unmet needs for surgeons and perfusionists caring for patients on bypass.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ]
+    },
+    "people": [
+      {
+        "name": "Hillary Pierce",
+        "role": "Co-Founder & CEO"
+      },
+      {
+        "name": "Luke Harris",
+        "role": "Co-Founder & Inventor"
+      },
+      {
+        "name": "Dr. James Helliwell",
+        "role": "Advisor"
+      },
+      {
+        "name": "Dr. Anson Cheung",
+        "role": "Advisor"
+      }
+    ],
+    "summary": {
+      "en": "Vancouver, Canada medtech startup developing clinician-designed cardiopulmonary bypass technology, co-founded by Hillary Pierce and Luke Harris."
+    },
+    "sources": [
+      {
+        "url": "https://www.totalflowmedical.com/",
+        "title": "Total Flow Medical homepage",
+        "publisher": "Total Flow Medical",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ city, founder names, advisors",
+        "quote": "developing clinician-designed technology to help surgeons and perfusionists take care of their patients"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year not stated explicitly; site references '2024 Alumni' status (likely an accelerator cohort), suggesting a recent-stage startup. No funding amounts or investor names sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "ca-tranquility-online",
@@ -8079,7 +8696,7 @@
           "name": "Eli Lilly and Company",
           "role": "participant",
           "round": "series-b",
-          "entity_id": null
+          "entity_id": "us-lilly-ventures"
         },
         {
           "name": "Amgen",
@@ -8631,7 +9248,7 @@
           "name": "Bertelsmann Asia Investments",
           "role": "participant",
           "round": "series-b",
-          "entity_id": null
+          "entity_id": "cn-bertelsmann-asia-investments"
         },
         {
           "name": "China International Capital Corporation",
@@ -9355,7 +9972,7 @@
       }
     ],
     "confidence": "high",
-    "verification_notes": "Multiple dorzagliatin combination therapies in development targeting diabetes and obesity. NMPA approval year (2022) reflects widely reported public record, not directly quoted in the sourced page — flagged for follow-up sourcing.",
+    "verification_notes": "Multiple dorzagliatin combination therapies in development targeting diabetes and obesity. NMPA approval year (2022) reflects widely reported public record, not directly quoted in the sourced page — flagged for follow-up sourcing. Verification 2026-08-16: the NMPA approval claim was cited to a financial profile page carrying no regulatory information. The approval itself is not disputed but this record's citation for it is inadequate; re-source before relying on the date.",
     "last_updated": "2026-08-16",
     "researched_by": "r6-china-biotech"
   },
@@ -9678,7 +10295,7 @@
           "name": "Eli Lilly and Company",
           "role": "participant",
           "round": "growth",
-          "entity_id": null
+          "entity_id": "us-lilly-ventures"
         },
         {
           "name": "Fidelity Investments",
@@ -9780,7 +10397,7 @@
           "name": "Warburg Pincus",
           "role": "participant",
           "round": "series-c-plus",
-          "entity_id": null
+          "entity_id": "us-warburg-pincus"
         },
         {
           "name": "Sequoia Capital (China)",
@@ -9983,7 +10600,8 @@
     ],
     "confidence": "high",
     "last_updated": "2026-08-16",
-    "researched_by": "r6-china-digital"
+    "researched_by": "r6-china-digital",
+    "verification_notes": "Verification 2026-08-16: the website field pointed at JD.com's general storefront rather than JD Health. The Baidu Baike source could not be reached (HTTP 403) to check its quote — unverified, not disputed."
   },
   {
     "id": "cn-jiandan-xinli",
@@ -10343,7 +10961,7 @@
           "name": "Bertelsmann Asia Investments",
           "role": "participant",
           "round": "series-c",
-          "entity_id": null
+          "entity_id": "cn-bertelsmann-asia-investments"
         },
         {
           "name": "Goldman Sachs",
@@ -10874,7 +11492,7 @@
           "name": "Warburg Pincus",
           "role": "participant",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "us-warburg-pincus"
         },
         {
           "name": "GL Ventures",
@@ -11949,7 +12567,7 @@
           "name": "Warburg Pincus",
           "role": "participant",
           "round": "2025",
-          "entity_id": null
+          "entity_id": "us-warburg-pincus"
         }
       ],
       "rounds": [
@@ -13137,6 +13755,65 @@
     "researched_by": "r5-france-benelux"
   },
   {
+    "id": "eu-ac-immune",
+    "name": {
+      "en": "AC Immune"
+    },
+    "category": "therapeutics",
+    "status": "public",
+    "founded_year": 2003,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Lausanne",
+    "website": "https://www.acimmune.com",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company using its SupraAntigen (active immunotherapy) and Morphomer (small-molecule) platforms to diagnose, treat and prevent neurodegenerative diseases.",
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule"
+      ],
+      "indications": [
+        "neurology"
+      ],
+      "development_stage": "phase-2",
+      "team_size": "~120"
+    },
+    "funding": {
+      "exit": {
+        "type": "IPO",
+        "year": 2016,
+        "ticker": "NASDAQ:ACIU"
+      }
+    },
+    "summary": {
+      "en": "Swiss clinical-stage neurodegeneration biotech (NASDAQ:ACIU) with pharma partnerships spanning Takeda, Janssen, Eli Lilly and Genentech."
+    },
+    "sources": [
+      {
+        "url": "https://www.acimmune.com/about-us/",
+        "title": "About Us",
+        "publisher": "AC Immune",
+        "accessed": "2026-08-16",
+        "supports": "What it does, platforms, HQ, founding year, employee count, partnership values",
+        "quote": "AC Immune is a clinical-stage biopharmaceutical company emerging as a global leader in precision medicine to diagnose, treat and prevent neurodegenerative diseases."
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/ACIU/",
+        "title": "AC Immune (ACIU)",
+        "publisher": "StockAnalysis",
+        "accessed": "2026-08-16",
+        "supports": "Nasdaq listing date, ticker, employee count",
+        "quote": "went public on the NASDAQ exchange under ticker ACIU on September 23, 2016"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
+  },
+  {
     "id": "eu-actelion",
     "name": {
       "en": "Actelion",
@@ -13442,6 +14119,44 @@
     "researched_by": "r4-nordic-biotech"
   },
   {
+    "id": "eu-affidea",
+    "name": {
+      "en": "Affidea"
+    },
+    "category": "healthcare-services",
+    "sectors": [
+      "healthcare-services",
+      "medical-imaging"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "The Hague",
+    "profile": {
+      "what": "Pan-European operator of out-of-hospital diagnostic-imaging centres and outpatient Centres of Excellence, including cancer care, spanning multiple countries with a network that reached 340 centres as of 2023.",
+      "modalities": [
+        "medical-hardware"
+      ]
+    },
+    "summary": {
+      "en": "The Hague-headquartered pan-European diagnostics and outpatient-care network operating 340+ centres, having expanded via 2023 acquisitions in Spain and Romania (including cancer-care provider MedEuropa) and a 2025 AI breast-imaging partnership with b-rayZ."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22Affidea%22+diagnostic+imaging+Europe",
+        "title": "News aggregation: Affidea",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ city, network size, recent acquisitions and partnership",
+        "quote": "Affidea, a leading European provider of advanced diagnostics, out-of-hospital services, and Centres of Excellence... headquartered in The Hague, Netherlands... 340 centres... acquired MedEuropa, a Romanian cancer care provider... partnered with b-rayZ for AI-powered breast imaging technology (2025)"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced entirely via Bing News aggregation; ownership (reported elsewhere as PAI Partners-backed) could not be confirmed with a quote this session and is omitted. Founding year not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "eu-aidian",
     "name": {
       "en": "Aidian"
@@ -13679,7 +14394,7 @@
           "name": "Index Ventures",
           "role": "lead",
           "round": "series-a",
-          "entity_id": null
+          "entity_id": "eu-index-ventures"
         },
         {
           "name": "Temasek Holdings",
@@ -14083,6 +14798,42 @@
     "researched_by": "r4-nordic-biotech"
   },
   {
+    "id": "eu-amboss",
+    "name": {
+      "en": "Amboss"
+    },
+    "category": "healthcare-it",
+    "sectors": [
+      "healthcare-it",
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2012,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Berlin",
+    "profile": {
+      "what": "Medical-technology company providing a clinical-knowledge and exam-prep platform used by medical students and physicians."
+    },
+    "summary": {
+      "en": "Berlin-based medical-education technology company."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Amboss",
+        "title": "AMBOSS (disambiguation)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Founding year and HQ",
+        "quote": "AMBOSS, a medical technology company founded in 2012 and headquartered in Berlin, Germany"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only a Wikipedia disambiguation-page snippet was accessible; the dedicated company site returned 404. Product detail, investors and funding not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "eu-ambu",
     "name": {
       "en": "Ambu"
@@ -14427,6 +15178,57 @@
     "researched_by": "r5-dach"
   },
   {
+    "id": "eu-apogenix",
+    "name": {
+      "en": "Apogenix"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Heidelberg",
+    "profile": {
+      "what": "Biopharmaceutical company developing next-generation immuno-oncology therapeutics, including asunercept (CD95-Fc fusion protein) for glioblastoma and the GITR-agonist HERA-GITRL.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "lead_asset": "Asunercept (glioblastoma)"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "CANbridge Life Sciences",
+          "role": "unknown",
+          "round": "licensing (China rights to APG101, 2015)",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Heidelberg, Germany immuno-oncology biotech whose CD95-Fc fusion protein asunercept showed quality-of-life benefits in glioblastoma and whose APG101 China rights are licensed to CANbridge Life Sciences."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22Apogenix%22+immuno-oncology+Heidelberg",
+        "title": "News aggregation: Apogenix",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ city, lead programs, CANbridge licensing deal",
+        "quote": "a biopharmaceutical company developing next generation immuno-oncology therapeutics... Heidelberg, Germany... Asunercept... glioblastoma patients... APG101 immuno-oncology candidate licensed to CANbridge Life Sciences for China (2015)... HERA-GITRL... strong single-agent anti-tumor activity"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced entirely via Bing News aggregation. Founding year and equity investors not sourced; the CANbridge relationship recorded is a regional licensing deal, not necessarily an equity investment.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "eu-aqemia",
     "name": {
       "en": "AQEMIA"
@@ -14465,6 +15267,78 @@
     "verification_notes": "Founding year and funding/investor data not found on fetched page.",
     "last_updated": "2026-08-16",
     "researched_by": "r5-france-benelux"
+  },
+  {
+    "id": "eu-araris-biotech",
+    "name": {
+      "en": "Araris Biotech"
+    },
+    "category": "therapeutics",
+    "status": "acquired",
+    "founded_year": 2019,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Au, Zurich",
+    "website": "https://ararisbiotech.com/",
+    "profile": {
+      "what": "Develops antibody-drug conjugates (ADCs) using a proprietary peptide-linker platform that attaches cytotoxic payloads to off-the-shelf antibodies without re-engineering them.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "ARC-02 (anti-CD79b ADC for lymphomas)"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Samsung Ventures",
+          "role": "unknown",
+          "entity_id": "kr-samsung-venture-investment"
+        },
+        {
+          "name": "Pureos Bioventures",
+          "role": "unknown",
+          "entity_id": "eu-pureos-bioventures"
+        },
+        {
+          "name": "4-BIO Capital",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "btov Partners",
+          "role": "unknown",
+          "entity_id": null
+        }
+      ],
+      "exit": {
+        "type": "M&A",
+        "year": 2025,
+        "acquirer": "Taiho Pharmaceutical"
+      }
+    },
+    "summary": {
+      "en": "Swiss ADC-technology spinout from Paul Scherrer Institute/ETH Zurich, acquired by Taiho Pharmaceutical in 2025."
+    },
+    "sources": [
+      {
+        "url": "https://ararisbiotech.com/",
+        "title": "Araris Biotech",
+        "publisher": "Araris Biotech",
+        "accessed": "2026-08-16",
+        "supports": "Modality, HQ, founding, lead asset, investors, Taiho acquisition",
+        "quote": "Our linker platform enables payload attachment to 'off-the-shelf' antibodies in one step without needing to re-engineer or reduce antibodies, resulting in highly homogenous, stable and potent ADC therapies."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
   },
   {
     "id": "eu-argenx",
@@ -14694,6 +15568,44 @@
     "confidence": "high",
     "last_updated": "2026-08-16",
     "researched_by": "r4-uk-biotech"
+  },
+  {
+    "id": "eu-automata",
+    "name": {
+      "en": "Automata"
+    },
+    "category": "life-science-tools",
+    "status": "private",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.automata.tech",
+    "profile": {
+      "what": "Builds LINQ, a modular, AI-ready lab-automation robotics platform with node-based workflow design software for life-science labs.",
+      "modalities": [
+        "lab-automation",
+        "ai-ml-platform"
+      ]
+    },
+    "summary": {
+      "en": "London lab-automation robotics company; customers include the Francis Crick Institute and the Royal Marsden NHS Foundation Trust."
+    },
+    "sources": [
+      {
+        "url": "https://www.automata.tech/",
+        "title": "Automata",
+        "publisher": "Automata",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, customers",
+        "quote": "the fully integrated, AI-ready, lab automation platform"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "life-science-tools"
+    ]
   },
   {
     "id": "eu-aviadobio",
@@ -15862,7 +16774,7 @@
           "role": "participant",
           "round": "series-b",
           "source_url": "https://en.wikipedia.org/wiki/BioNTech",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         }
       ],
       "exit": {
@@ -15995,6 +16907,54 @@
     "researched_by": "r5-dach"
   },
   {
+    "id": "eu-bioversys",
+    "name": {
+      "en": "BioVersys"
+    },
+    "category": "therapeutics",
+    "status": "public",
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Basel",
+    "website": "https://www.bioversys.com",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company developing antibacterial therapies against antimicrobial resistance, including ESKAPE-pathogen and tuberculosis programs.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "infectious-disease"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "BV100 (Phase 3 antibacterial asset)"
+    },
+    "people": [
+      {
+        "name": "Marc Gitzinger",
+        "role": "Founder"
+      }
+    ],
+    "summary": {
+      "en": "Basel-area antibacterial-resistance biotech, university spin-off founded by Dr. Marc Gitzinger, now publicly listed."
+    },
+    "sources": [
+      {
+        "url": "https://www.bioversys.com/about-us/",
+        "title": "About Us",
+        "publisher": "BioVersys",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding, funding raised, IPO",
+        "quote": "has raised over $70 mio in equity financing and secured over $30 mio in non-dilutive funding"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
+  },
+  {
     "id": "eu-birdie",
     "name": {
       "en": "Birdie"
@@ -16029,7 +16989,7 @@
           "role": "participant",
           "round": "unknown",
           "source_url": "https://birdie.care/",
-          "entity_id": null
+          "entity_id": "eu-index-ventures"
         },
         {
           "name": "Sofina",
@@ -16824,6 +17784,49 @@
     ]
   },
   {
+    "id": "eu-catalym",
+    "name": {
+      "en": "CatalYm"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Planegg-Martinsried",
+    "website": "https://www.catalym.com/",
+    "profile": {
+      "what": "Clinical-stage immuno-oncology company targeting GDF-15, a key cancer-therapy resistance mechanism, to reinstate anti-tumor immune-cell activation and tumor infiltration.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "Visugromab (GDF-15-neutralizing antibody)"
+    },
+    "summary": {
+      "en": "Planegg-Martinsried (Munich area), Germany immuno-oncology biotech whose lead GDF-15-neutralizing antibody visugromab has advanced into Phase 2/3 development for solid tumors and cancer cachexia."
+    },
+    "sources": [
+      {
+        "url": "https://www.catalym.com/",
+        "title": "CatalYm homepage",
+        "publisher": "CatalYm",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ city, lead program and development stage",
+        "quote": "identified GDF-15 as a key cancer therapy resistance mechanism... Visugromab... Phase 2/3 development for cancer cachexia"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and investor names could not be sourced from the homepage within budget.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "eu-cegat",
     "name": {
       "en": "CeGaT",
@@ -16869,6 +17872,76 @@
     "confidence": "high",
     "last_updated": "2026-08-16",
     "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-cellestia-biotech",
+    "name": {
+      "en": "Cellestia Biotech"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "Switzerland",
+    "profile": {
+      "what": "Swiss clinical-stage biotech (Cellestia Biotech AG) with an active drug-development pipeline, funded through seed, Series A and Series B rounds totaling roughly CHF 29 million plus a non-dilutive research grant.",
+      "modalities": [
+        "small-molecule"
+      ]
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "CHF 29M (CHF 8M seed + CHF 20M Series A + CHF 1M grant, plus a further CHF 20M Series B)",
+        "currency": "CHF"
+      },
+      "last_round": {
+        "stage": "series-b",
+        "amount": {
+          "raw": "CHF 20 million",
+          "currency": "CHF"
+        },
+        "lead": []
+      },
+      "investors": [
+        {
+          "name": "FC Capital",
+          "role": "participant",
+          "round": "series-b",
+          "entity_id": null
+        },
+        {
+          "name": "PPF Group",
+          "role": "participant",
+          "round": "series-b",
+          "entity_id": null
+        },
+        {
+          "name": "Partners Investment",
+          "role": "participant",
+          "round": "series-b",
+          "entity_id": "kr-partners-investment"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Swiss biotech that raised a CHF 20M Series B (following a CHF 8M seed and CHF 20M Series A) from FC Capital (Shanghai), PPF Group and Partners Investment (Seoul)."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22Cellestia+Biotech%22",
+        "title": "News aggregation: Cellestia Biotech financing",
+        "publisher": "ANSA (via Bing News)",
+        "accessed": "2026-08-16",
+        "supports": "Funding round amounts, investor names",
+        "quote": "Cellestia Biotech AG... a total of CHF 20 million... led by FC Capital, Shanghai; PPF Group; Partners Investment, Seoul; and significant investments by existing and new private investors... 8 million Swiss franc seed round, a 20 million Swiss franc Series A, and a 1 million Swiss franc non-dilutive research grant"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Company's own domain (cellestia.com) returned a TLS certificate mismatch error and could not be fetched this session; product/pipeline description (Notch-pathway biology) could not be independently confirmed with a quote and is therefore omitted from profile.what. Country recorded as Switzerland based on the quoted 'AG' corporate suffix and CHF-denominated funding, not an explicit HQ statement — flagged per instructions. HQ city and founding year not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "eu-cera",
@@ -17088,6 +18161,49 @@
     "researched_by": "r4-nordic-biotech"
   },
   {
+    "id": "eu-climedo",
+    "name": {
+      "en": "Climedo"
+    },
+    "aka": [
+      "Climedo Health"
+    ],
+    "category": "healthcare-it",
+    "sectors": [
+      "healthcare-it",
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2017,
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Munich",
+    "website": "https://www.climedo.de",
+    "profile": {
+      "what": "All-in-one clinical research software platform offering electronic data capture (EDC), patient-reported outcomes (eCOA/ePRO), and hybrid/decentralized clinical trial capabilities for pharma, medtech, CRO and academic customers.",
+      "modalities": [
+        "software-samd"
+      ]
+    },
+    "summary": {
+      "en": "Munich-founded (2017) clinical-research software company whose EDC/eCOA platform has enrolled over 1.7 million patients across pharma, medtech and academic studies."
+    },
+    "sources": [
+      {
+        "url": "https://www.climedo.de/en/about-us",
+        "title": "About Us - Climedo",
+        "publisher": "Climedo Health",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ city, founding year, patient-enrollment scale",
+        "quote": "Location: Munich, Germany; Founded: 2017; enrolled over 1.7 million patients to date"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No investor names or funding amounts could be sourced from the About page within budget.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "eu-cmr-surgical",
     "name": {
       "en": "CMR Surgical"
@@ -17260,6 +18376,48 @@
     "verification_notes": "Established public company, not VC-funded; funding.investors omitted as not applicable. Owns Kerecis (see eu-kerecis) as a subsidiary since 2023.",
     "last_updated": "2026-08-16",
     "researched_by": "r4-nordic-health"
+  },
+  {
+    "id": "eu-combinostics",
+    "name": {
+      "en": "Combinostics"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "medical-imaging",
+      "diagnostics"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "Finland",
+    "hq_city": "Tampere",
+    "website": "https://www.combinostics.com",
+    "profile": {
+      "what": "Develops cNeuro AI software that analyzes MRI, PET and other neuroimaging data to support clinical decision-making in dementia and other neurological disorders.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "indications": [
+        "neurology"
+      ]
+    },
+    "summary": {
+      "en": "Finnish neuroimaging-AI company behind the cNeuro suite of dementia-diagnosis support tools."
+    },
+    "sources": [
+      {
+        "url": "https://www.combinostics.com/about/",
+        "title": "About",
+        "publisher": "Combinostics",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, products",
+        "quote": "Patients with neurological disorders need an accurate, early diagnosis for better quality of life for them and their families/caregivers."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "eu-compass-pathways",
@@ -17745,7 +18903,7 @@
           "role": "participant",
           "round": "growth",
           "source_url": "https://en.wikipedia.org/wiki/CureVac",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         },
         {
           "name": "GlaxoSmithKline",
@@ -17867,6 +19025,49 @@
     "verification_notes": "Best Buy acquisition price not disclosed in sourced material. Status recorded as 'private' reflecting the 2025 founder buyout, with the exit block capturing the earlier 2021 Best Buy acquisition since the schema supports only one exit event.",
     "last_updated": "2026-08-16",
     "researched_by": "r4-uk-health"
+  },
+  {
+    "id": "eu-cutiss",
+    "name": {
+      "en": "Cutiss"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "medtech-devices"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Schlieren",
+    "website": "https://cutiss.swiss/",
+    "profile": {
+      "what": "Late-stage clinical biotech producing denovoSkin, an autologous, lab-grown living human skin graft for burns and reconstructive/aesthetic skin surgery, manufactured on a proprietary automated platform at a GMP-certified facility in Zurich.",
+      "modalities": [
+        "cell-therapy"
+      ],
+      "indications": [
+        "dermatology"
+      ],
+      "development_stage": "phase-2"
+    },
+    "summary": {
+      "en": "Schlieren, Switzerland biotech whose denovoSkin autologous living-skin graft has published Phase II long-term safety/efficacy data and documented U.S. compassionate-use cases in pediatric reconstructive surgery."
+    },
+    "sources": [
+      {
+        "url": "https://cutiss.swiss/",
+        "title": "Cutiss homepage",
+        "publisher": "Cutiss",
+        "accessed": "2026-08-16",
+        "supports": "Product description, HQ city, GMP facility location, Phase II data, compassionate-use cases",
+        "quote": "the only living, true human skin – on demand"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "cutiss.com redirects to cutiss.swiss. Founding year and investor names could not be sourced from the homepage within budget; the site's 'Investors' section content was not retrievable via WebFetch.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "eu-dark-blue-therapeutics",
@@ -17998,6 +19199,49 @@
     "confidence": "medium",
     "last_updated": "2026-08-16",
     "researched_by": "r5-france-benelux"
+  },
+  {
+    "id": "eu-debiopharm",
+    "name": {
+      "en": "Debiopharm"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "pharma-services"
+    ],
+    "status": "private",
+    "founded_year": 1979,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Lausanne",
+    "profile": {
+      "what": "Privately-held Swiss biopharmaceutical company that in-licenses drug candidates and develops them through clinical testing for commercialization by pharma partners.",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "infectious-disease"
+      ]
+    },
+    "summary": {
+      "en": "Lausanne-based, privately-owned drug-development partner; marketed products include triptorelin and oxaliplatin."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Debiopharm",
+        "title": "Debiopharm",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding, pipeline, ownership",
+        "quote": "a privately-held Swiss biopharmaceutical company mainly active in development and clinical testing of drug candidates"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "eu-deciphex",
@@ -19319,6 +20563,176 @@
     "researched_by": "r4-uk-biotech"
   },
   {
+    "id": "eu-enodia-therapeutics",
+    "name": {
+      "en": "Enodia Therapeutics"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "region": "europe",
+    "country": "France",
+    "profile": {
+      "what": "Develops small-molecule targeted-protein-degradation therapies acting on the Sec61 translocon, initially for immuno-inflammatory disorders; originated from Institut Pasteur research and built by Argobio Studio.",
+      "modalities": [
+        "protein-degradation",
+        "small-molecule"
+      ],
+      "indications": [
+        "immunology-inflammation"
+      ],
+      "development_stage": "preclinical"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "seed",
+          "amount": {
+            "raw": "€20.7M",
+            "currency": "EUR"
+          },
+          "date": "2026-01",
+          "lead": [
+            "Elaia",
+            "Pfizer Ventures",
+            "Bpifrance"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Elaia",
+          "role": "co-lead",
+          "round": "seed",
+          "entity_id": null
+        },
+        {
+          "name": "Pfizer Ventures",
+          "role": "co-lead",
+          "round": "seed",
+          "entity_id": "us-pfizer-ventures"
+        },
+        {
+          "name": "Bpifrance",
+          "role": "co-lead",
+          "round": "seed",
+          "entity_id": "eu-bpifrance"
+        },
+        {
+          "name": "Mission BioCapital",
+          "role": "participant",
+          "round": "seed",
+          "entity_id": "us-mission-biocapital"
+        },
+        {
+          "name": "MACSF",
+          "role": "participant",
+          "round": "seed",
+          "entity_id": null
+        },
+        {
+          "name": "Wallonie-Entreprendre",
+          "role": "participant",
+          "round": "seed",
+          "entity_id": null
+        },
+        {
+          "name": "SambrInvest",
+          "role": "participant",
+          "round": "seed",
+          "entity_id": null
+        },
+        {
+          "name": "InvestSud",
+          "role": "participant",
+          "round": "seed",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Institut Pasteur-derived, Argobio Studio-built biotech targeting the Sec61 translocon for immuno-inflammatory disease; raised a €20.7M seed in January 2026."
+    },
+    "sources": [
+      {
+        "url": "https://www.enodiatx.com/",
+        "title": "Enodia Therapeutics",
+        "publisher": "Enodia Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "What it does, seed round, investors, Kezar asset acquisition",
+        "quote": "co-led by Elaia, Pfizer Ventures and Bpifrance"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
+  },
+  {
+    "id": "eu-enterobiotix",
+    "name": {
+      "en": "EnteroBiotix"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Bellshill, Lanarkshire, Scotland",
+    "website": "https://www.enterobiotix.com",
+    "profile": {
+      "what": "Clinical-stage microbiome therapeutics company developing EBX-102-02, an orally delivered full-spectrum microbiome drug for irritable bowel syndrome and other GI/liver diseases.",
+      "modalities": [
+        "microbiome"
+      ],
+      "indications": [
+        "gastroenterology-hepatology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "EBX-102-02 (oral full-spectrum microbiome drug)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "£19m",
+            "currency": "GBP"
+          },
+          "date": "2026-04"
+        },
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "£27m",
+            "currency": "GBP"
+          },
+          "date": "2024-04"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Scottish clinical-stage microbiome-therapeutics company with lead candidate EBX-102-02 in Phase 2b for IBS."
+    },
+    "sources": [
+      {
+        "url": "https://www.enterobiotix.com/about-us",
+        "title": "About Us",
+        "publisher": "EnteroBiotix",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, lead asset, funding rounds",
+        "quote": "£19m to Initiate Phase 2b Clinical Trial"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Specific investor names for the £19m/£27m rounds were not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
+  },
+  {
     "id": "eu-enterprise-therapeutics",
     "name": {
       "en": "Enterprise Therapeutics"
@@ -19766,7 +21180,7 @@
           "role": "participant",
           "round": "unknown",
           "source_url": "https://www.evoxtherapeutics.com/about-us/",
-          "entity_id": null
+          "entity_id": "us-orbimed"
         },
         {
           "name": "Oxford Science Enterprises",
@@ -20622,6 +22036,76 @@
     "researched_by": "r4-uk-health"
   },
   {
+    "id": "eu-heartbeat-bio",
+    "name": {
+      "en": "HeartBeat.bio"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "ai-drug-discovery",
+      "therapeutics"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "Austria",
+    "hq_city": "Vienna",
+    "website": "https://www.heartbeat.bio",
+    "profile": {
+      "what": "TechBio company building an AI-driven, human-biology-based drug-discovery platform focused on heart failure.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "cardiovascular"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Gründungsfonds",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Investag",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "IniB.io",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Red Stars Capital",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Tensor Ventures",
+          "role": "unknown",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Vienna Biocenter TechBio startup applying AI and automation to heart-failure drug discovery."
+    },
+    "sources": [
+      {
+        "url": "https://www.heartbeat.bio/about",
+        "title": "About",
+        "publisher": "HeartBeat.bio",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, investors",
+        "quote": "transform the drug discovery paradigm in heart failure by building the most advanced TechBio platform"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "eu-hemab-therapeutics",
     "name": {
       "en": "Hemab Therapeutics"
@@ -21209,6 +22693,58 @@
     "researched_by": "r9-backlog-sweep"
   },
   {
+    "id": "eu-immatics",
+    "name": {
+      "en": "Immatics"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "cell-gene-therapy"
+    ],
+    "status": "public",
+    "region": "europe",
+    "country": "Germany",
+    "hq_city": "Tübingen",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company developing T-cell receptor (TCR)-based cancer immunotherapies (TCR-T cell therapies and TCR bispecifics) via its ACTengine and TCER platforms.",
+      "modalities": [
+        "cell-therapy",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "lead_asset": "ACTengine IMA203 (TCR-T directed against PRAME, melanoma)"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Bristol Myers Squibb",
+          "role": "unknown",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Nasdaq-listed (Tübingen, Germany) TCR-therapeutics biotech whose lead ACTengine IMA203 program targets PRAME in melanoma, with a strategic global-license collaboration with Bristol Myers Squibb on further TCR-T candidates."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22Immatics%22+Tubingen+TCR",
+        "title": "News aggregation: Immatics",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "HQ location, lead TCR-T program, Nasdaq listing, Bristol Myers Squibb collaboration",
+        "quote": "Immatics Tubingen... ACTengine® IMA203... TCR-T... directed against PRAME... melanoma patients... Nasdaq... strategic collaboration [with Bristol Myers Squibb]... exercised its first option and entered into a global license agreement"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "en.wikipedia.org/wiki/Immatics and /wiki/Immatics_Biotechnologies both 404'd this session; sourced via Bing News aggregation instead. Founding year and full investor/cap-table history not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "eu-immunocore",
     "name": {
       "en": "Immunocore"
@@ -21279,7 +22815,7 @@
           "role": "participant",
           "round": "unknown",
           "source_url": "https://en.wikipedia.org/wiki/Immunocore",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         }
       ]
     },
@@ -21483,6 +23019,45 @@
     "confidence": "medium",
     "last_updated": "2026-08-16",
     "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-keleya",
+    "name": {
+      "en": "Keleya"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "digital-health",
+      "femtech-womens-health"
+    ],
+    "status": "private",
+    "founded_year": 2017,
+    "region": "europe",
+    "country": "Germany",
+    "website": "https://www.keleya.de",
+    "profile": {
+      "what": "Digital-health app supporting pregnant women and new mothers with a pregnancy tracker, birth-preparation courses, midwife search and postpartum classes.",
+      "indications": [
+        "womens-health"
+      ]
+    },
+    "summary": {
+      "en": "German pregnancy/postpartum digital-health app serving over 2 million users."
+    },
+    "sources": [
+      {
+        "url": "https://www.keleya.de/en/about-us",
+        "title": "About Us",
+        "publisher": "Keleya",
+        "accessed": "2026-08-16",
+        "supports": "What it does, founding year, user base",
+        "quote": "keleya wurde 2017 gegründet"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city, investors and funding not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "eu-kerecis",
@@ -21783,7 +23358,7 @@
           "role": "co-lead",
           "round": "seed",
           "source_url": "https://techcrunch.com/2016/08/19/video-call-your-doctor-startup-kry-raises-e6-1m-seed-led-by-index-and-creandum/",
-          "entity_id": null
+          "entity_id": "eu-index-ventures"
         },
         {
           "name": "Creandum",
@@ -21811,7 +23386,7 @@
           "role": "lead",
           "round": "series-c-plus",
           "source_url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
-          "entity_id": null
+          "entity_id": "ca-cpp-investments"
         },
         {
           "name": "Fidelity Management & Research LLC",
@@ -21949,6 +23524,63 @@
     "verification_notes": "Sanofi acquisition (announced Dec 2020) is well-documented public record; deal value and exact date not independently re-confirmed via a fetched source this session, so omitted.",
     "last_updated": "2026-08-16",
     "researched_by": "r4-uk-biotech"
+  },
+  {
+    "id": "eu-lava-therapeutics",
+    "name": {
+      "en": "Lava Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Utrecht",
+    "website": "https://www.lavatherapeutics.com/",
+    "profile": {
+      "what": "Developer of the Gammabody bispecific gamma-delta T-cell engager platform, activating Vγ9Vδ2 T cells to target and kill cancer cells while triggering broader immune responses.",
+      "modalities": [
+        "biologics-antibody",
+        "cell-therapy"
+      ],
+      "indications": [
+        "oncology"
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "XOMA Royalty",
+        "year": 2025
+      }
+    },
+    "summary": {
+      "en": "Utrecht, Netherlands (dual HQ with Philadelphia) developer of the Gammabody bispecific gamma-delta T-cell engager platform for oncology; XOMA Royalty's 2025 tender offer for the company exceeded minimum conditions, leading to a Nasdaq delisting."
+    },
+    "sources": [
+      {
+        "url": "https://www.lavatherapeutics.com/",
+        "title": "Lava Therapeutics homepage",
+        "publisher": "Lava Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "Platform/product description, XOMA Royalty tender offer, Nasdaq delisting",
+        "quote": "bispecific gamma delta T cell engager therapeutics that activate [Vγ9Vδ2 T cells]... XOMA Royalty's tender offer to acquire Lava Therapeutics has exceeded minimum conditions, with plans to delist from Nasdaq"
+      },
+      {
+        "url": "https://www.bing.com/news/search?q=%22Lava+Therapeutics%22+Utrecht",
+        "title": "News aggregation: Lava Therapeutics HQ",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "HQ city confirmation",
+        "quote": "LAVA Therapeutics N.V. UTRECHT, The Netherlands and PHILADELPHIA"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year and pre-acquisition investor syndicate not sourced within budget.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "eu-lavipharm",
@@ -22679,6 +24311,50 @@
     "confidence": "high",
     "last_updated": "2026-08-16",
     "researched_by": "r4-uk-biotech"
+  },
+  {
+    "id": "eu-milabs",
+    "name": {
+      "en": "MILabs"
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "life-science-tools",
+      "medical-imaging"
+    ],
+    "status": "acquired",
+    "region": "europe",
+    "country": "Netherlands",
+    "hq_city": "Utrecht",
+    "profile": {
+      "what": "Developer of multimodal preclinical molecular imaging systems (PET, SPECT, CT, optical) for drug development and disease research, including the E-Class, 5-Series and VECTor-6 platforms.",
+      "modalities": [
+        "medical-hardware"
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "Rigaku"
+      }
+    },
+    "summary": {
+      "en": "Utrecht, Netherlands preclinical-imaging systems maker (PET/SPECT/CT/optical), now part of Rigaku, whose VECTor-6 platform won the World Molecular Imaging Society's 2018 Commercial Innovation of the Year award."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22MILabs%22+preclinical+imaging",
+        "title": "News aggregation: MILabs",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ city, product lines, Rigaku acquisition, 2018 award",
+        "quote": "a Dutch developer of molecular imaging systems... Based in Utrecht, the Netherlands... VECTor-6... received the World Molecular Imaging Society's '4th annual Commercial Innovation of the Year Award' in 2018... Thomas van Elzakker was appointed Chief Executive Officer of MILabs B.V. following the company's acquisition by Rigaku"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced entirely via Bing News aggregation. Founding year and acquisition date/terms not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "eu-miltenyi-biotec",
@@ -24380,6 +26056,81 @@
     "researched_by": "r4-nordic-biotech"
   },
   {
+    "id": "eu-ondosis",
+    "name": {
+      "en": "OnDosis"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "medtech-devices",
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2017,
+    "region": "europe",
+    "country": "Sweden",
+    "hq_city": "Mölndal",
+    "website": "https://www.ondosis.com",
+    "profile": {
+      "what": "AstraZeneca spin-out building a connected 'Dosage Manager' that replaces pills with an adjustable, personalized medication-dosing device.",
+      "modalities": [
+        "drug-delivery",
+        "medical-hardware"
+      ],
+      "team_size": "20+"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "AstraZeneca",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Aeternum Capital",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "DIG",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Ryd Gruppen",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "BCG",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "GU Ventures",
+          "role": "unknown",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Gothenburg-founded AstraZeneca spin-out building personalized-dosing hardware for pharmaceuticals."
+    },
+    "sources": [
+      {
+        "url": "https://www.ondosis.com/about-us",
+        "title": "About Us",
+        "publisher": "OnDosis",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding, AstraZeneca spin-out status, investors",
+        "quote": "headquartered in the BioVenture hub in Mölndal, Sweden"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "eu-orion-corporation",
     "name": {
       "en": "Orion Corporation"
@@ -24572,7 +26323,7 @@
       },
       "unicorn": true,
       "last_round": {
-        "stage": "growth",
+        "stage": "series-c-plus",
         "amount": {
           "raw": "$900 million",
           "usd": 900000000,
@@ -24702,7 +26453,7 @@
       }
     ],
     "confidence": "high",
-    "verification_notes": "Company is Finnish-founded and retains Finnish offices (Oulu, Helsinki) despite operational HQ now in San Francisco, California, per team-lead guidance and Wikipedia. 5.5 million rings sold as of September 2025.",
+    "verification_notes": "Company is Finnish-founded and retains Finnish offices (Oulu, Helsinki) despite operational HQ now in San Francisco, California, per team-lead guidance and Wikipedia. 5.5 million rings sold as of September 2025. Verification 2026-08-16: the cited source calls the Oct 2025 round a Series E; recorded under this taxonomy's series-c-plus bucket.",
     "last_updated": "2026-08-16",
     "researched_by": "r4-nordic-health"
   },
@@ -25235,6 +26986,88 @@
     "researched_by": "r4-nordic-biotech"
   },
   {
+    "id": "eu-pluvia-biotech",
+    "name": {
+      "en": "Pluvia Biotech"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "region": "europe",
+    "country": "Norway",
+    "hq_city": "Bergen",
+    "website": "https://www.pluviabiotech.com",
+    "profile": {
+      "what": "University of Bergen spin-out developing small-molecule pharmacological chaperones for rare genetic disorders; lead program PBAS499 targets phenylketonuria (PKU).",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "rare-disease",
+        "metabolic-obesity"
+      ],
+      "development_stage": "preclinical",
+      "lead_asset": "PBAS499 (pharmacological chaperone for phenylketonuria)"
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Sarsia",
+          "role": "unknown",
+          "entity_id": "eu-sarsia"
+        },
+        {
+          "name": "Investinor",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Bergen Research Foundation",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Bergen Teknologioverføring",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Mid Atlantic Bio Angels",
+          "role": "unknown",
+          "entity_id": "us-mid-atlantic-bio-angels"
+        },
+        {
+          "name": "Tidligfasekapital Vestland",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "National PKU Alliance",
+          "role": "unknown",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Norwegian rare-disease biotech developing pharmacological-chaperone therapy PBAS499 for PKU."
+    },
+    "sources": [
+      {
+        "url": "https://www.pluviabiotech.com/",
+        "title": "Pluvia Biotech",
+        "publisher": "Pluvia Biotech",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, lead asset, investors, grant",
+        "quote": "Our lead development program is focusing on phenylketonuria (PKU), a rare genetic disorder caused by mutations in the enzyme phenylalanine hydroxylase."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
+  },
+  {
     "id": "eu-polar-electro",
     "name": {
       "en": "Polar Electro"
@@ -25296,6 +27129,49 @@
     "researched_by": "r4-nordic-health"
   },
   {
+    "id": "eu-portal-biotech",
+    "name": {
+      "en": "Portal Biotech"
+    },
+    "category": "life-science-tools",
+    "status": "private",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.portalbiotech.com",
+    "profile": {
+      "what": "Develops nanopore-based single-molecule protein-sequencing and characterization instruments, spun out of research from the University of Groningen's Maglia Lab.",
+      "modalities": [
+        "lab-automation"
+      ]
+    },
+    "people": [
+      {
+        "name": "Giovanni Maglia",
+        "role": "CSO & Co-founder"
+      }
+    ],
+    "summary": {
+      "en": "UK/Netherlands single-molecule protein-sequencing instrument maker based on nanopore biosensor technology."
+    },
+    "sources": [
+      {
+        "url": "https://www.portalbiotech.com/",
+        "title": "Portal Biotech",
+        "publisher": "Portal Biotech",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, technology origin",
+        "quote": "Bench-top solutions for comprehensive single-molecule protein sequencing and characterisation."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "life-science-tools"
+    ]
+  },
+  {
     "id": "eu-proqr-therapeutics",
     "name": {
       "en": "ProQR Therapeutics"
@@ -25329,7 +27205,7 @@
           "name": "Eli Lilly and Company",
           "role": "participant",
           "source_url": "https://en.wikipedia.org/wiki/ProQR",
-          "entity_id": null
+          "entity_id": "us-lilly-ventures"
         }
       ],
       "rounds": [
@@ -25624,7 +27500,7 @@
           "role": "participant",
           "round": "unknown",
           "source_url": "https://www.quell-tx.com/about",
-          "entity_id": null
+          "entity_id": "us-fidelity-management-and-research"
         },
         {
           "name": "British Patient Capital",
@@ -26165,6 +28041,70 @@
     "confidence": "high",
     "last_updated": "2026-08-16",
     "researched_by": "r5-dach"
+  },
+  {
+    "id": "eu-screenpoint-medical",
+    "name": {
+      "en": "ScreenPoint Medical"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "medical-imaging",
+      "diagnostics"
+    ],
+    "status": "private",
+    "founded_year": 2014,
+    "region": "europe",
+    "country": "Netherlands",
+    "profile": {
+      "what": "Develops Transpara, an AI system that supports radiologists reading 2D and 3D mammograms for breast-cancer screening.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Transpara"
+        },
+        {
+          "body": "CE",
+          "kind": "CE-MDR",
+          "item": "Transpara"
+        }
+      ]
+    },
+    "people": [
+      {
+        "name": "Nico Karssemeijer",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Sir Michael Brady",
+        "role": "Co-founder"
+      }
+    ],
+    "summary": {
+      "en": "Dutch breast-imaging AI company founded by Nico Karssemeijer and Sir Michael Brady."
+    },
+    "sources": [
+      {
+        "url": "https://www.screenpoint-medical.com/about-us/",
+        "title": "About Us",
+        "publisher": "ScreenPoint Medical",
+        "accessed": "2026-08-16",
+        "supports": "What it does, founding, founders, FDA/CE clearance",
+        "quote": "Transpara® is CE marked and FDA cleared for 2D and 3D mammography. CE (0344) certified. FDA 510(k) K241831 and K232096."
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "eu-sectra",
@@ -26788,7 +28728,7 @@
           "role": "participant",
           "round": "unknown",
           "source_url": "https://sniprbiome.com",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         },
         {
           "name": "CARB-X",
@@ -27092,6 +29032,51 @@
     "confidence": "high",
     "last_updated": "2026-08-16",
     "researched_by": "r4-uk-biotech"
+  },
+  {
+    "id": "eu-stallergenes-greer",
+    "name": {
+      "en": "Stallergenes Greer"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "founded_year": 2015,
+    "region": "europe",
+    "country": "Switzerland",
+    "hq_city": "Baar",
+    "profile": {
+      "what": "Allergen immunotherapy company producing sublingual tablets (Staloral, Oralair), subcutaneous extracts and oral products (Palforzia) for allergy treatment.",
+      "indications": [
+        "immunology-inflammation"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Oralair"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Swiss allergen-immunotherapy company formed by the 2015 merger of Stallergenes (1962) and Greer (1904); privately owned by B-Flexion."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stallergenes_Greer",
+        "title": "Stallergenes Greer",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding/merger history, ownership, FDA approval, scale",
+        "quote": "Oralair \"has been approved by the Food and Drug Administration in the United States.\""
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
   },
   {
     "id": "eu-storm-therapeutics",
@@ -27679,6 +29664,102 @@
     "researched_by": "r4-nordic-health"
   },
   {
+    "id": "eu-thinksono",
+    "name": {
+      "en": "ThinkSono"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "medtech-devices",
+      "diagnostics",
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "Oxford",
+    "website": "https://thinksono.com",
+    "profile": {
+      "what": "AI-guided ultrasound software that lets non-ultrasound-trained healthcare professionals perform point-of-care compression ultrasound exams to detect deep vein thrombosis (DVT), cutting diagnostic wait times from about a day to roughly 30 minutes.",
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "CE",
+          "kind": "CE-MDR (Class IIb)",
+          "item": "ThinkSono Guidance"
+        },
+        {
+          "body": "MHRA",
+          "kind": "UK registration",
+          "item": "ThinkSono Guidance"
+        },
+        {
+          "body": "FDA",
+          "kind": "Breakthrough Device Designation",
+          "item": "AI-guided ultrasound DVT detection software"
+        }
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "£4.5M / $6Mn",
+            "currency": "GBP"
+          },
+          "lead": []
+        },
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "$6M",
+            "currency": "USD"
+          },
+          "lead": []
+        }
+      ]
+    },
+    "sources": [
+      {
+        "url": "https://thinksono.com/",
+        "title": "ThinkSono homepage",
+        "publisher": "ThinkSono",
+        "accessed": "2026-08-16",
+        "supports": "Product description, CE marking, EU manufacturer entity",
+        "quote": "ThinkSono Guidance holds CE Class IIb marking for EU and UK clinical use (registered in EUDAMED and with MHRA)."
+      },
+      {
+        "url": "https://thinksono.com/news",
+        "title": "News - ThinkSono",
+        "publisher": "ThinkSono",
+        "accessed": "2026-08-16",
+        "supports": "Funding round 1",
+        "quote": "ThinkSono Raises $6M — What's next?"
+      },
+      {
+        "url": "https://thinksono.com/news",
+        "title": "News - ThinkSono",
+        "publisher": "ThinkSono",
+        "accessed": "2026-08-16",
+        "supports": "Funding round 2, geographic expansion",
+        "quote": "ThinkSono Secures Additional £4.5M / $6Mn Funding, Expands Team and Operations Across the UK, EU and U.S."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ recorded as Oxford, UK based on multiple NHS/Oxford University Hospital clinical partnerships and a 'UK's top 100 AI scale ups' (Barclays Eagle Labs) recognition; the EU regulatory manufacturer of record is a separate German entity, ThinkSono GmbH (EUDAMED SRN DE-MF-000034914). Pages gave conflicting FDA status — one stated the product is 'not FDA approved', another referenced 'FDA Clearance' alongside 'FDA Breakthrough Device Designation' — only the unambiguous Breakthrough Device Designation is recorded here. Exact round stages (seed/Series A/etc.), dates, and investor names could not be sourced within budget.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "eu-trimtech-therapeutics",
     "name": {
       "en": "TRIMTECH Therapeutics"
@@ -27942,6 +30023,68 @@
     "confidence": "medium",
     "last_updated": "2026-08-16",
     "researched_by": "r5-france-benelux"
+  },
+  {
+    "id": "eu-umotif",
+    "name": {
+      "en": "uMotif"
+    },
+    "category": "healthcare-it",
+    "sectors": [
+      "healthcare-it",
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "profile": {
+      "what": "Patient-first electronic data capture (ePRO/eCOA) and decentralized clinical trials platform used across more than 30 countries.",
+      "modalities": [
+        "software-samd"
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "growth",
+          "amount": {
+            "raw": "$25.5 million",
+            "usd": 25500000,
+            "currency": "USD"
+          },
+          "date": "2022",
+          "lead": [
+            "Athyrium Capital Management"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Athyrium Capital Management",
+          "role": "lead",
+          "round": "growth",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "London/New York-based decentralized clinical trials and ePRO data-capture platform, deployed in 30+ countries, which raised $25.5M in 2022 from Athyrium Capital Management."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22uMotif%22+clinical+trial+data",
+        "title": "News aggregation: uMotif",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ cities, funding round and investor",
+        "quote": "the patient-first data capture and decentralized clinical trials platform... London and New York... deployed its software across more than 30 countries... $25.5 million investment from a fund managed by Athyrium Capital Management LP"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Sourced entirely via Bing News aggregation; founding year not sourced. Region/id classified as UK (europe) since London is named first/primary; New York presence noted but not treated as HQ.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "eu-uniqure",
@@ -28256,6 +30399,51 @@
     "researched_by": "r4-nordic-biotech"
   },
   {
+    "id": "eu-vision-rt",
+    "name": {
+      "en": "Vision RT"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "medical-imaging",
+      "medtech-devices"
+    ],
+    "status": "private",
+    "founded_year": 2001,
+    "region": "europe",
+    "country": "United Kingdom",
+    "hq_city": "London",
+    "website": "https://www.visionrt.com",
+    "profile": {
+      "what": "Develops Surface Guided Radiation Therapy (SGRT) systems (AlignRT, SimRT, MapRT, DoseRT) that use camera-based patient tracking to improve accuracy of cancer radiotherapy.",
+      "modalities": [
+        "medical-hardware",
+        "software-samd"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "commercial",
+      "team_size": "~400"
+    },
+    "summary": {
+      "en": "London-founded SGRT pioneer with over 2,600 AlignRT systems in clinical use worldwide."
+    },
+    "sources": [
+      {
+        "url": "https://www.visionrt.com/about-us/",
+        "title": "About Us",
+        "publisher": "Vision RT",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding year, scale",
+        "quote": "founded in 2001 ... headquartered in London, UK, with offices in the USA, Warsaw, Delhi, Dubai and Melbourne"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "eu-wandercraft",
     "name": {
       "en": "Wandercraft"
@@ -28366,6 +30554,103 @@
     "confidence": "medium",
     "last_updated": "2026-08-16",
     "researched_by": "r5-france-benelux"
+  },
+  {
+    "id": "eu-withings",
+    "name": {
+      "en": "Withings"
+    },
+    "category": "consumer-health",
+    "sectors": [
+      "consumer-health",
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2008,
+    "region": "europe",
+    "country": "France",
+    "hq_city": "Issy-les-Moulineaux",
+    "website": "https://www.withings.com",
+    "profile": {
+      "what": "Consumer connected-health hardware maker — Wi-Fi smart scales, blood-pressure monitors, thermometers and smartwatches with a companion health app.",
+      "modalities": [
+        "medical-hardware",
+        "wearables-sensors"
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "$30 million",
+            "usd": 30000000,
+            "currency": "USD"
+          },
+          "date": "2013-07",
+          "lead": [
+            "Bpifrance",
+            "Idinvest Partners",
+            "360 Capital Partners",
+            "Ventech"
+          ]
+        },
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "$3.8 million",
+            "usd": 3800000,
+            "currency": "USD"
+          },
+          "date": "2010-09",
+          "lead": [
+            "Ventech"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Ventech",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Bpifrance",
+          "role": "participant",
+          "round": "unknown",
+          "entity_id": "eu-bpifrance"
+        },
+        {
+          "name": "Idinvest Partners",
+          "role": "participant",
+          "round": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "360 Capital Partners",
+          "role": "participant",
+          "round": "unknown",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "French connected-health device pioneer; acquired by Nokia in 2016, bought back by founder Éric Carreel in 2018 and operates independently again."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Withings",
+        "title": "Withings",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "HQ, founding, funding rounds, Nokia acquisition/buyback",
+        "quote": "a $30 million investment from Bpifrance, Idinvest Partners, 360 CapitalPartners, and Ventech in July 2013"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Wikipedia-sourced; acquired by Nokia 2016, regained independence 2018 — status recorded as private/independent.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "eu-ws-audiology",
@@ -29452,6 +31737,44 @@
     "confidence": "high",
     "last_updated": "2026-08-16",
     "researched_by": "r5-israel-biotech"
+  },
+  {
+    "id": "il-collplant-biotechnologies",
+    "name": {
+      "en": "CollPlant Biotechnologies"
+    },
+    "category": "life-science-tools",
+    "sectors": [
+      "life-science-tools",
+      "medtech-devices"
+    ],
+    "status": "public",
+    "region": "israel",
+    "country": "Israel",
+    "website": "https://www.collplant.com",
+    "profile": {
+      "what": "Develops recombinant human collagen (rhCollagen) technology for regenerative and aesthetic medicine, including bioinks, dermal fillers and breast implants.",
+      "modalities": [
+        "medical-hardware"
+      ]
+    },
+    "summary": {
+      "en": "Israeli publicly-traded recombinant-collagen biomaterials company (dermal fillers, bioinks, breast-implant scaffolds)."
+    },
+    "sources": [
+      {
+        "url": "https://www.collplant.com/about-us/",
+        "title": "About Us",
+        "publisher": "CollPlant Biotechnologies",
+        "accessed": "2026-08-16",
+        "supports": "What it does, products, public listing",
+        "quote": "the only commercially viable technology for mass production of Type I recombinant human collagen (rhCollagen), which is bioidentical to the collagen produced by the human body"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Page confirms public listing via SEC filings/ir.collplant.com but does not state exchange/ticker or founding year.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "il-compugen",
@@ -31061,7 +33384,7 @@
     "confidence": "low",
     "last_updated": "2026-08-16",
     "researched_by": "r5-israel-biotech",
-    "verification_notes": "metabomed.com returned a server-maintenance page during research; unable to confirm whether the company is still operating."
+    "verification_notes": "metabomed.com returned a server-maintenance page during research; unable to confirm whether the company is still operating. Verification 2026-08-16: could not confirm the company is still operating; its presumed domain does not serve a live site. Status set to unknown pending a primary source."
   },
   {
     "id": "il-microbot-medical",
@@ -31832,6 +34155,94 @@
     "researched_by": "r5-israel-biotech"
   },
   {
+    "id": "il-quanthealth",
+    "name": {
+      "en": "QuantHealth"
+    },
+    "category": "ai-drug-discovery",
+    "status": "private",
+    "founded_year": 2020,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Tel Aviv",
+    "website": "https://www.quanthealth.ai",
+    "profile": {
+      "what": "AI platform that simulates clinical trials to predict patient treatment responses, helping companies test, optimize and de-risk trial design before enrollment.",
+      "modalities": [
+        "ai-ml-platform"
+      ]
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "$15M",
+            "usd": 15000000,
+            "currency": "USD"
+          },
+          "date": "2024-08"
+        }
+      ],
+      "investors": [
+        {
+          "name": "Qumra Capital",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Sanofi Ventures",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Pitango Venture Capital",
+          "role": "unknown",
+          "entity_id": "il-pitango"
+        },
+        {
+          "name": "Bertelsmann Investments",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Accenture",
+          "role": "unknown",
+          "entity_id": null
+        },
+        {
+          "name": "Nina Capital",
+          "role": "unknown",
+          "entity_id": "eu-nina-capital"
+        },
+        {
+          "name": "NewHealth Ventures",
+          "role": "unknown",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Israeli/US AI clinical-trial-simulation company; says it has simulated 600+ trials across 30 indications."
+    },
+    "sources": [
+      {
+        "url": "https://www.quanthealth.ai/about-us",
+        "title": "About Us",
+        "publisher": "QuantHealth",
+        "accessed": "2026-08-16",
+        "supports": "What it does, founding year, HQ, investors, funding",
+        "quote": "the global leader in AI-driven, clinical trial simulations"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "ai-drug-discovery"
+    ]
+  },
+  {
     "id": "il-quris-ai",
     "name": {
       "en": "Quris AI"
@@ -32389,7 +34800,7 @@
         {
           "name": "OrbiMed",
           "role": "unknown",
-          "entity_id": "il-orbimed"
+          "entity_id": "us-orbimed"
         },
         {
           "name": "Ping An (Pingan)",
@@ -32693,6 +35104,66 @@
     "confidence": "medium",
     "last_updated": "2026-08-16",
     "researched_by": "r5-israel-biotech"
+  },
+  {
+    "id": "il-zebra-medical-vision",
+    "name": {
+      "en": "Zebra Medical Vision"
+    },
+    "category": "medical-imaging",
+    "sectors": [
+      "medical-imaging",
+      "diagnostics",
+      "digital-health"
+    ],
+    "status": "acquired",
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Kibbutz Shefayim",
+    "profile": {
+      "what": "AI deep-learning medical imaging analytics company whose algorithms analyze radiology scans (X-ray, CT) to detect disease; became part of Nanox's imaging platform after a 2021 acquisition.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "510(k)",
+          "item": "Coronary Artery Calcium (CAC) solution"
+        }
+      ]
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2021,
+        "acquirer": "Nano-X Imaging (Nanox)",
+        "value": {
+          "raw": "up to $200 million (stock-for-stock)",
+          "usd": 200000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Israeli deep-learning medical imaging analytics company acquired by Nanox in 2021 in a stock-for-stock deal worth up to $200M, later adding an 8th FDA 510(k) clearance for a coronary artery calcium detection algorithm."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22Zebra+Medical+Vision%22+Nanox",
+        "title": "News aggregation: Nanox acquisition of Zebra Medical Vision",
+        "publisher": "Business Wire (via Bing News)",
+        "accessed": "2026-08-16",
+        "supports": "Acquisition amount/date, HQ location, post-acquisition FDA clearance",
+        "quote": "a landmark stock-for-stock acquisition in the AI in medical imaging space... Zebra Medical Vision, a deep-learning medical imaging analytics company based in Kibbutz Shefayim, Israel... secured its 8th FDA 510(k) clearance for a Coronary Artery Calcium (CAC) solution"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Company's own domains (zebra-med.com, zebramed.com) are dead/parked and there is no dedicated Wikipedia article; sourced via Bing News aggregation of Business Wire coverage of the August 2021 Nanox acquisition.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "in-aarti-pharmalabs",
@@ -33345,6 +35816,52 @@
     "verification_notes": "Founding year, a single HQ city, and investor names were not stated on the fetched page (site lists India/US/Singapore offices without specifying HQ).",
     "last_updated": "2026-08-16",
     "researched_by": "r8-india-health"
+  },
+  {
+    "id": "in-centre-for-sight",
+    "name": {
+      "en": "Centre For Sight"
+    },
+    "category": "healthcare-services",
+    "status": "private",
+    "founded_year": 1996,
+    "region": "india",
+    "country": "India",
+    "hq_city": "New Delhi",
+    "website": "https://www.centreforsight.net",
+    "profile": {
+      "what": "Eye-care hospital chain operating 95+ centres across 30+ Indian cities.",
+      "indications": [
+        "ophthalmology"
+      ],
+      "development_stage": "commercial"
+    },
+    "people": [
+      {
+        "name": "Mahipal S. Sachdev",
+        "role": "Founder"
+      }
+    ],
+    "summary": {
+      "en": "One of India's largest private eye-care hospital networks, founded by Padma Shri awardee Dr. Mahipal S. Sachdev."
+    },
+    "sources": [
+      {
+        "url": "https://www.centreforsight.net/about-us/",
+        "title": "About Us",
+        "publisher": "Centre For Sight",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding year, scale",
+        "quote": "on a mission to eradicate preventable blindness in India by delivering world-class eye care"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No investor/funding information disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "healthcare-services"
+    ]
   },
   {
     "id": "in-cipla",
@@ -35469,7 +37986,7 @@
           "name": "Novo Holdings",
           "role": "participant",
           "source_url": "https://qure.ai/about-us/",
-          "entity_id": null
+          "entity_id": "eu-novo-holdings"
         },
         {
           "name": "Fractal",
@@ -36374,7 +38891,7 @@
           "name": "Real Tech Fund",
           "role": "participant",
           "round": "series-a",
-          "entity_id": null
+          "entity_id": "jp-untrod-capital"
         },
         {
           "name": "Shizuoka Capital",
@@ -37236,7 +39753,7 @@
     "region": "japan",
     "country": "Japan",
     "hq_city": "Tokushima",
-    "website": "https://delta-fly.co.jp/en/",
+    "website": "https://www.delta-flypharma.co.jp/",
     "profile": {
       "what": "Tokushima-based drug discovery venture developing novel anticancer agents.",
       "modalities": [
@@ -37290,7 +39807,8 @@
     ],
     "confidence": "medium",
     "last_updated": "2026-08-16",
-    "researched_by": "r7-japan-biotech"
+    "researched_by": "r7-japan-biotech",
+    "verification_notes": "Verification 2026-08-16: previous website value did not resolve (DNS ENOTFOUND); corrected."
   },
   {
     "id": "jp-eisai",
@@ -41556,7 +44074,7 @@
     "founded_year": 2014,
     "region": "south-korea",
     "country": "South Korea",
-    "hq_city": "Cheongju",
+    "hq_city": "Seoul",
     "website": "https://www.jlkgroup.com",
     "aka": [
       "JLK"
@@ -41628,7 +44146,8 @@
     ],
     "confidence": "medium",
     "last_updated": "2026-08-16",
-    "researched_by": "r7-korea-health"
+    "researched_by": "r7-korea-health",
+    "verification_notes": "Verification 2026-08-16: the company's own about page gives a Gangnam-gu, Seoul address; previous value (Cheongju) corrected."
   },
   {
     "id": "kr-kanaph-therapeutics",
@@ -41711,7 +44230,8 @@
     },
     "category": "therapeutics",
     "sectors": [
-      "therapeutics"
+      "therapeutics",
+      "genomics-omics"
     ],
     "status": "public",
     "founded_year": 2014,
@@ -41759,12 +44279,21 @@
         "accessed": "2026-08-16",
         "supports": "founding, SNU spinout origin, HQ, ticker, Korea Colmar deal termination and value, CEO/founder stake",
         "quote": "2014년 8월 11일 설립; 서울대학교 미생물군유전체 연구센터에서 스핀오프; 서울특별시 관악구 (서울대 캠퍼스 내); 코스닥 348150; 2023년 한국콜마홀딩스에 이전했던 신약후보물질을 반환받으며 약 1,840억원 규모 기술이전계약 해지; 고광표 대표이사, 지분 26.82%"
+      },
+      {
+        "url": "https://www.kobiolabs.com/",
+        "title": "KoBioLabs",
+        "publisher": "KoBioLabs",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, platform technology",
+        "quote": "Smartiome®은 AI기반 마이크로바이옴 다중오믹스(multi-omics) 분석 기술 및 미생물 라이브러리를 활용한 혁신 신약 개발 플랫폼 기술입니다"
       }
     ],
     "confidence": "high",
     "verification_notes": "",
     "last_updated": "2026-08-16",
-    "researched_by": "r7-korea-biotech"
+    "researched_by": "r7-korea-biotech",
+    "aka": []
   },
   {
     "id": "kr-koh-young",
@@ -43826,7 +46355,7 @@
           "name": "Y Combinator",
           "role": "participant",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "us-y-combinator"
         }
       ],
       "exit": {
@@ -43873,7 +46402,7 @@
           "name": "Gates Foundation",
           "role": "unknown",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         },
         {
           "name": "Kepple Africa Ventures",
@@ -45054,7 +47583,7 @@
           "name": "Y Combinator",
           "role": "unknown",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "us-y-combinator"
         },
         {
           "name": "Africa-focused Angel Investors Club (AAIC)",
@@ -45066,7 +47595,7 @@
           "name": "Gates Foundation",
           "role": "unknown",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         },
         {
           "name": "Scidar",
@@ -45259,7 +47788,7 @@
           "name": "Gates Foundation",
           "role": "unknown",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         }
       ]
     },
@@ -46133,7 +48662,7 @@
           "name": "Y Combinator",
           "role": "participant",
           "round": "pre-seed",
-          "entity_id": null
+          "entity_id": "us-y-combinator"
         }
       ]
     },
@@ -46479,6 +49008,75 @@
     "verification_notes": "Named equity investors not confirmed -- Airtel Money and Prudential appear as distribution partners in the sourced snippets, not confirmed equity investors, so they are intentionally omitted from funding.investors. Founder name and total raised not confirmed.",
     "last_updated": "2026-08-16",
     "researched_by": "r9-mena-africa"
+  },
+  {
+    "id": "row-vezeeta",
+    "name": {
+      "en": "Vezeeta"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "digital-health",
+      "healthcare-services"
+    ],
+    "status": "private",
+    "region": "rest-of-world",
+    "country": "United Arab Emirates",
+    "hq_city": "Dubai",
+    "website": "https://www.vezeeta.com",
+    "profile": {
+      "what": "Digital healthcare booking platform connecting patients with doctors, clinics, pharmacies and telehealth services across the Middle East and North Africa."
+    },
+    "funding": {
+      "total_raised": {
+        "raw": "$63M",
+        "usd": 63000000,
+        "currency": "USD"
+      },
+      "last_round": {
+        "stage": "series-c-plus",
+        "amount": {
+          "raw": "$40M",
+          "usd": 40000000,
+          "currency": "USD"
+        },
+        "date": "2020-02",
+        "lead": [
+          "Gulf Capital"
+        ]
+      },
+      "investors": [
+        {
+          "name": "Gulf Capital",
+          "role": "lead",
+          "round": "series-c-plus",
+          "entity_id": "row-gulf-capital"
+        },
+        {
+          "name": "STV (Saudi Technology Ventures)",
+          "role": "lead",
+          "round": "series-c-plus",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "MENA digital-health booking platform (HQ relocated from Cairo to Dubai) generating around 4 million annual appointments across Egypt, Saudi Arabia, Jordan and Lebanon, having raised $63M total including a $40M Series D led by Gulf Capital."
+    },
+    "sources": [
+      {
+        "url": "http://www.wamda.com/2022/03/vezeeta-raises-40-million-series-d",
+        "title": "Vezeeta raises $40 million Series D",
+        "publisher": "Wamda",
+        "accessed": "2026-08-16",
+        "supports": "Funding rounds, investors, valuation, countries of operation, HQ relocation to Dubai",
+        "quote": "Vezeeta is a doctor booking platform... Series D: $40 million... Series C: $12 million... Gulf Capital (led Series D)... Saudi Technology Ventures/STV (led Series C, participated in Series D)... valuation exceeded $100 million at Series D"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "vezeeta.com returned 403 to WebFetch this session; funding/investor facts sourced from Wamda's Series D coverage instead. Founding year not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "row-wellhub",
@@ -47219,6 +49817,68 @@
     "researched_by": "r8-sea-health"
   },
   {
+    "id": "sea-bima",
+    "name": {
+      "en": "BIMA"
+    },
+    "aka": [
+      "Milvik"
+    ],
+    "category": "healthcare-services",
+    "sectors": [
+      "healthcare-services",
+      "digital-health"
+    ],
+    "status": "private",
+    "founded_year": 2010,
+    "region": "southeast-asia",
+    "country": "Singapore",
+    "hq_city": "Singapore",
+    "profile": {
+      "what": "Mobile-delivered health and life insurance and telemedicine platform for middle-class families in emerging markets, serving 37 million users across nine countries."
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "$97M",
+            "usd": 97000000,
+            "currency": "USD"
+          },
+          "date": "2017-12",
+          "lead": [
+            "Allianz"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Allianz",
+          "role": "lead",
+          "round": "unknown",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "Singapore-headquartered mobile insurance/telemedicine platform founded in Ghana in 2010, operating across Africa and Asia."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/BIMA_(company)",
+        "title": "BIMA (Milvik)",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding, funding",
+        "quote": "BIMA raises $97M from Allianz for micro-insurance aimed at emerging markets"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "sea-biobot-surgical",
     "name": {
       "en": "Biobot Surgical"
@@ -47465,7 +50125,7 @@
           "role": "participant",
           "round": "seed",
           "source_url": "https://www.botmd.com/",
-          "entity_id": null
+          "entity_id": "us-y-combinator"
         },
         {
           "name": "Verge HealthTech Fund",
@@ -48156,7 +50816,7 @@
           "role": "participant",
           "round": "series-c-plus",
           "source_url": "https://id.wikipedia.org/wiki/Halodoc",
-          "entity_id": "sea-novo-holdings-asia"
+          "entity_id": "eu-novo-holdings"
         },
         {
           "name": "Acrew Diversify Capital Fund",
@@ -48191,7 +50851,7 @@
           "role": "participant",
           "round": "series-c-plus",
           "source_url": "https://id.wikipedia.org/wiki/Halodoc",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         },
         {
           "name": "Gojek",
@@ -48385,7 +51045,7 @@
           "name": "Novo Holdings",
           "role": "unknown",
           "source_url": "https://www.hummingbirdbioscience.com/about",
-          "entity_id": "sea-novo-holdings-asia"
+          "entity_id": "eu-novo-holdings"
         },
         {
           "name": "Decheng Capital",
@@ -50462,6 +53122,46 @@
     "researched_by": "r6-taiwan"
   },
   {
+    "id": "tw-marigold-therapeutics",
+    "name": {
+      "en": "Marigold Therapeutics",
+      "local": "暻裕生醫"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "private",
+    "founded_year": 2024,
+    "region": "taiwan",
+    "country": "Taiwan",
+    "hq_city": "Taipei (Nangang)",
+    "profile": {
+      "what": "Early-stage Taiwan biotech developing next-generation antibody-drug conjugates (ADC) to address unmet clinical needs, based in Taipei's Nangang biotech research park.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "development_stage": "discovery"
+    },
+    "summary": {
+      "en": "Newly established (November 2024) Taipei-based biotech focused on next-generation ADC development."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/search?q=%22%E6%9A%BB%E8%A3%95%E7%94%9F%E9%86%AB%22",
+        "title": "Search aggregation: 暻裕生醫 (Marigold Therapeutics)",
+        "publisher": "Bing (aggregating 104 Job Bank / National Biotechnology Park / FINDIT)",
+        "accessed": "2026-08-16",
+        "supports": "Company name/registration, ADC focus, Taipei Nangang address, founding date",
+        "quote": "暻裕生醫股份有限公司 (Marigold Therapeutics, Inc.)... Taipei, Nangang District, Research Academy Road Section 1... a startup company focused on developing next-generation antibody-drug conjugates (ADC) to address unmet clinical needs... Establishment Date: November 25, 2024"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Primary sources (company site, FINDIT platform, National Biotechnology Park page) all returned certificate/403 errors this session; info sourced entirely via an aggregated Bing search results summary. Registered capital of NT$253,020,000 was reported but not recorded as funding.total_raised since it may reflect statutory registered capital rather than confirmed VC funds raised. No investors sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "tw-medigen-vaccine-biologics",
     "name": {
       "en": "Medigen Vaccine Biologics Corp.",
@@ -51264,19 +53964,12 @@
         "accessed": "2026-08-16",
         "supports": "pipeline, indications, phases",
         "quote": "CVM-1118 in Combination With Nivolumab for Unresectable Advanced Hepatocellular Carcinoma"
-      },
-      {
-        "url": "https://isin.twse.com.tw/isin/single_main.jsp?owncode=6541",
-        "title": "TWSE ISIN lookup — 6541",
-        "publisher": "Taiwan Stock Exchange",
-        "accessed": "2026-08-16",
-        "supports": "ticker and listing date",
-        "quote": "Ticker: 6541 ... CFI Code: KYG8676P1037 ... Date Reference: 2017/10/26"
       }
     ],
     "confidence": "high",
     "last_updated": "2026-08-16",
-    "researched_by": "r6-taiwan"
+    "researched_by": "r6-taiwan",
+    "verification_notes": "Verification 2026-08-16: the ISIN/ticker source previously cited (owncode=6541) belongs to Tanvex BioPharma, not TaiRx; removed. TaiRx's listing status is unconfirmed and no ticker is claimed."
   },
   {
     "id": "tw-taiwan-liposome-company",
@@ -52251,6 +54944,122 @@
     "researched_by": "r2-us-techbio"
   },
   {
+    "id": "us-adicet-bio",
+    "name": {
+      "en": "Adicet Bio"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "cell-gene-therapy"
+    ],
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Redwood City, CA",
+    "website": "https://www.adicetbio.com",
+    "profile": {
+      "what": "Clinical-stage biotechnology company discovering and developing allogeneic gamma-delta CAR-T cell therapies for autoimmune diseases and cancer.",
+      "modalities": [
+        "cell-therapy"
+      ],
+      "indications": [
+        "immunology-inflammation",
+        "oncology"
+      ],
+      "development_stage": "phase-1",
+      "lead_asset": "Prulacabtagene leucel (prula-cel, formerly ADI-001) — allogeneic gamma-delta CAR T"
+    },
+    "summary": {
+      "en": "NASDAQ-listed (ACET) allogeneic gamma-delta CAR-T developer headquartered in Redwood City, CA."
+    },
+    "sources": [
+      {
+        "url": "https://www.adicetbio.com/pipeline/",
+        "title": "Pipeline",
+        "publisher": "Adicet Bio",
+        "accessed": "2026-08-16",
+        "supports": "What it does, lead asset, development stage",
+        "quote": "Adicet Bio is a clinical stage biotechnology company discovering and developing allogeneic gamma delta T cell therapies for autoimmune diseases and cancer."
+      },
+      {
+        "url": "https://stockanalysis.com/stocks/ACET/",
+        "title": "Adicet Bio (ACET)",
+        "publisher": "StockAnalysis",
+        "accessed": "2026-08-16",
+        "supports": "HQ, ticker",
+        "quote": "trades on NASDAQ under the ticker ACET"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
+    "id": "us-aeovian-pharmaceuticals",
+    "name": {
+      "en": "Aeovian Pharmaceuticals"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.aeovian.com",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company developing targeted, highly selective small molecules that restore cellular metabolic quality control (mTOR-pathway modulation) to address dysregulated growth and hyperactive signaling in rare genetic and age-related diseases, including certain epilepsies.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "rare-disease",
+        "neurology"
+      ]
+    },
+    "people": [
+      {
+        "name": "Allison J. Hulme, PhD",
+        "role": "CEO & President"
+      },
+      {
+        "name": "John Kincaid",
+        "role": "Chief Scientific Officer"
+      },
+      {
+        "name": "Davis C. Ryman, MD, PhD",
+        "role": "Chief Medical Officer"
+      },
+      {
+        "name": "Micah Zajic",
+        "role": "Chief Financial Officer"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.aeovian.com/",
+        "title": "Aeovian Pharmaceuticals homepage",
+        "publisher": "Aeovian Pharmaceuticals",
+        "accessed": "2026-08-16",
+        "supports": "Company description, disease focus",
+        "quote": "Clinical-stage biopharmaceutical company developing targeted and highly selective small molecules to restore cellular metabolic quality control, thereby addressing the dysregulated growth and hyperactive signaling found in certain rare genetic and age-related diseases."
+      },
+      {
+        "url": "https://www.aeovian.com/team",
+        "title": "Team - Aeovian Pharmaceuticals",
+        "publisher": "Aeovian Pharmaceuticals",
+        "accessed": "2026-08-16",
+        "supports": "Executive team names/roles",
+        "quote": "CEO & President"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Headquarters country/city is not explicitly stated on the company website; recorded as United States based on leadership/board composition and industry context rather than a direct source citation — flagged for follow-up verification. No funding amounts, investor names, founding year, or named lead program/target could be sourced within budget; the investor-logo section on the team page displayed no readable names.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b",
+    "sectors": [
+      "therapeutics"
+    ]
+  },
+  {
     "id": "us-aiva-health",
     "name": {
       "en": "Aiva Health"
@@ -53128,7 +55937,7 @@
     "region": "united-states",
     "country": "United States",
     "founded_year": 2022,
-    "hq_city": "Los Altos, CA",
+    "hq_city": "Redwood City, CA",
     "profile": {
       "what": "Develops induced pluripotent stem cell-based cellular rejuvenation therapies intended to restore cell health and resilience.",
       "modalities": [
@@ -53192,7 +56001,8 @@
     ],
     "confidence": "high",
     "last_updated": "2026-08-16",
-    "researched_by": "r2-us-cell-gene-rna"
+    "researched_by": "r2-us-cell-gene-rna",
+    "verification_notes": "Verification 2026-08-16: the company's own contact page gives Redwood City as its Bay Area headquarters; previous value (Los Altos) corrected."
   },
   {
     "id": "us-alydia-health",
@@ -53826,7 +56636,7 @@
           "role": "participant",
           "round": "seed",
           "source_url": "https://www.aoadx.com/about-us",
-          "entity_id": null
+          "entity_id": "us-y-combinator"
         },
         {
           "name": "The Helm",
@@ -54705,6 +57515,60 @@
     ]
   },
   {
+    "id": "us-azora-therapeutics",
+    "name": {
+      "en": "Azora Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://azoratherapeutics.com/",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company; lead program AT177 is a colon-targeted aryl hydrocarbon receptor (AhR) agonist for ulcerative colitis, alongside AD04, a genetically-targeted serotonin-3 receptor antagonist in Phase 3 for Alcohol Use Disorder.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "gastroenterology-hepatology",
+        "psychiatry-mental-health"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "AT177 (colon-targeted AhR agonist, ulcerative colitis); AD04 (serotonin-3 receptor antagonist, Alcohol Use Disorder, Phase 3)"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2026,
+        "acquirer": "Adial Pharmaceuticals",
+        "value": {
+          "raw": "up to $64 Million Financing",
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Clinical-stage biopharma acquired by Nasdaq-listed Adial Pharmaceuticals (ADIL) in June 2026, bringing the AT177 ulcerative-colitis AhR agonist and the Phase 3 AD04 program for Alcohol Use Disorder."
+    },
+    "sources": [
+      {
+        "url": "http://www.adial.com/",
+        "title": "Adial Pharmaceuticals homepage",
+        "publisher": "Adial Pharmaceuticals",
+        "accessed": "2026-08-16",
+        "supports": "Acquisition announcement, AT177 and AD04 pipeline descriptions, deal financing amount, Adial's Nasdaq ticker",
+        "quote": "Adial Pharmaceuticals Announces Acquisition of Azora Therapeutics and up to $64 Million Financing"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Azora's own HQ city/state could not be sourced within budget (its site is a minimal landing page with no descriptive text); classified as United States on the strength of being acquired by Virginia-based Adial via a USD PIPE financing, which is inference rather than a direct quote — flagging per instructions. The $64M figure is financing raised alongside the deal, not necessarily the acquisition price; recorded as-reported.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "us-bamboo-health",
     "name": {
       "en": "Bamboo Health"
@@ -54882,6 +57746,41 @@
       "therapeutics"
     ],
     "aka": []
+  },
+  {
+    "id": "us-berry-street",
+    "name": {
+      "en": "Berry Street"
+    },
+    "category": "healthcare-services",
+    "sectors": [
+      "healthcare-services",
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.berrystreet.co",
+    "profile": {
+      "what": "Telehealth platform that helps independent registered dietitians accept insurance and grow in-network nutrition-therapy practices, connecting patients to nutrition care for 30+ conditions."
+    },
+    "summary": {
+      "en": "US dietitian-telehealth platform bridging RDs and insurance-covered nutrition therapy patients."
+    },
+    "sources": [
+      {
+        "url": "https://www.berrystreet.co/about",
+        "title": "About",
+        "publisher": "Berry Street",
+        "accessed": "2026-08-16",
+        "supports": "What it does",
+        "quote": "empowers independent dietitians to accept insurance and grow thriving in-network practices"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ location, founding year, investors and funding not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "us-better-therapeutics",
@@ -55667,6 +58566,50 @@
     "researched_by": "r9-backlog-sweep"
   },
   {
+    "id": "us-blacksmith-medicines",
+    "name": {
+      "en": "Blacksmith Medicines"
+    },
+    "aka": [
+      "Forge Therapeutics"
+    ],
+    "category": "therapeutics",
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego, CA",
+    "website": "https://blacksmithmedicines.com",
+    "profile": {
+      "what": "Biopharmaceutical company building a platform of small-molecule medicines that target human metalloenzymes.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "infectious-disease"
+      ]
+    },
+    "summary": {
+      "en": "San Diego metalloenzyme-targeted-medicine biotech; current site of the backlog entry 'Forge Therapeutics'."
+    },
+    "sources": [
+      {
+        "url": "https://blacksmithmedicines.com/",
+        "title": "Blacksmith Medicines",
+        "publisher": "Blacksmith Medicines",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ",
+        "quote": "Purpose-Built Platform for Human Metalloenzyme-Targeted Medicines"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Backlog entry was 'Forge Therapeutics'; forgetherapeutics.com 301-redirects to blacksmithmedicines.com, indicating a rebrand, but the current site does not itself state the former name. Founding year, pipeline stage and investors not disclosed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
+  },
+  {
     "id": "us-bluerock-therapeutics",
     "name": {
       "en": "BlueRock Therapeutics"
@@ -55838,13 +58781,13 @@
           "name": "Fidelity",
           "role": "participant",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "us-fidelity-management-and-research"
         },
         {
           "name": "Bill & Melinda Gates Foundation",
           "role": "participant",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "us-gates-foundation-strategic-investment-fund"
         },
         {
           "name": "Fosun Pharma",
@@ -56877,6 +59820,57 @@
     "researched_by": "r1-us-health-data"
   },
   {
+    "id": "us-character-biosciences",
+    "name": {
+      "en": "Character Biosciences"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "ai-drug-discovery",
+      "therapeutics",
+      "genomics-omics"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Jersey City, NJ",
+    "website": "https://www.characterbio.com",
+    "profile": {
+      "what": "Precision-medicine company combining genomics, clinical data and AI to identify genetic drivers of progressive polygenic diseases, starting with age-related macular degeneration.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "ophthalmology"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Innovation Endeavors",
+          "role": "lead",
+          "entity_id": "us-innovation-endeavors"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Precision-genomics biotech targeting AMD and other polygenic eye diseases; named a 2025 Fierce 15 company."
+    },
+    "sources": [
+      {
+        "url": "https://www.characterbio.com/",
+        "title": "Character Biosciences",
+        "publisher": "Character Biosciences",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, lead investor",
+        "quote": "unlocking the patterns of progressive polygenic diseases, with an initial focus on macular degeneration"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "us-charles-river-laboratories",
     "name": {
       "en": "Charles River Laboratories"
@@ -57326,7 +60320,7 @@
       }
     ],
     "confidence": "high",
-    "verification_notes": "$900M total raised figure is from a Sept 2021 Fierce Healthcare article and does not reflect any funding activity after that date, if any occurred.",
+    "verification_notes": "$900M total raised figure is from a Sept 2021 Fierce Healthcare article and does not reflect any funding activity after that date, if any occurred. Verification 2026-08-16: the cited source calls this round a Series D; recorded under this taxonomy's series-c-plus bucket.",
     "last_updated": "2026-08-16",
     "researched_by": "r1-us-care-delivery"
   },
@@ -57466,7 +60460,7 @@
           "name": "Novo Holdings",
           "role": "participant",
           "round": "series-a",
-          "entity_id": null
+          "entity_id": "eu-novo-holdings"
         },
         {
           "name": "Vivo Capital",
@@ -58380,7 +61374,7 @@
           "name": "ShangBay Capital",
           "role": "participant",
           "round": "series-a",
-          "entity_id": null
+          "entity_id": "us-shangbay-capital"
         },
         {
           "name": "Amboy Street Ventures",
@@ -58408,6 +61402,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "us-core-biomedicine",
+    "name": {
+      "en": "Core Biomedicine"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Allston, MA",
+    "website": "https://www.corebiomedicine.com",
+    "profile": {
+      "what": "Preclinical-stage precision-oncology company developing next-generation cancer therapeutics that target fundamental tumor-survival biology beyond genomic alterations.",
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "preclinical"
+    },
+    "summary": {
+      "en": "Boston-area (Allston) preclinical precision-oncology biotech based at the Pagliuca Harvard Life Lab."
+    },
+    "sources": [
+      {
+        "url": "https://www.corebiomedicine.com/",
+        "title": "Core Biomedicine",
+        "publisher": "Core Biomedicine",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, development stage",
+        "quote": "redefining precision oncology — developing next-generation cancer therapeutics that go beyond genomic alterations to address the fundamental biological programs driving tumor survival and progression"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Founding year, lead pipeline asset name and investors not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
   },
   {
     "id": "us-corindus-vascular-robotics",
@@ -58506,6 +61539,62 @@
       "Auris Surgical Robotics",
       "Stemline Therapeutics",
       "DeepHealth"
+    ]
+  },
+  {
+    "id": "us-crystalys-therapeutics",
+    "name": {
+      "en": "Crystalys Therapeutics"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Diego, CA",
+    "website": "https://www.crystalystx.com",
+    "profile": {
+      "what": "Clinical-stage biopharmaceutical company developing dotinurad, a URAT1 inhibitor, for gout.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "musculoskeletal-orthopedics"
+      ],
+      "development_stage": "phase-3",
+      "lead_asset": "Dotinurad (URAT1 inhibitor)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "unknown",
+          "amount": {
+            "raw": "$130M",
+            "usd": 130000000,
+            "currency": "USD"
+          },
+          "date": "2026-07"
+        }
+      ]
+    },
+    "summary": {
+      "en": "San Diego gout-therapeutics biotech; raised $130M in July 2026 to fund pivotal testing of dotinurad."
+    },
+    "sources": [
+      {
+        "url": "https://www.crystalystx.com/",
+        "title": "Crystalys Therapeutics",
+        "publisher": "Crystalys Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, lead asset, funding amount",
+        "quote": "Crystalys Therapeutics Tacks On $130M for Pivotal Tests of Gout Drug"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Investor names for the $130M round were not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
     ]
   },
   {
@@ -58679,6 +61768,61 @@
     "verification_notes": "Founding year, HQ city, and prior Vivante Health funding history were not available on the fetched pages and could not be sourced elsewhere this session. Hinge Health (the acquirer) is already profiled in the directory as us-hinge-health.",
     "last_updated": "2026-08-16",
     "researched_by": "r3-us-dtx-monitoring"
+  },
+  {
+    "id": "us-cyrano-therapeutics",
+    "name": {
+      "en": "Cyrano Therapeutics"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Delray Beach, FL",
+    "website": "https://www.cyranotherapeutics.com",
+    "profile": {
+      "what": "Clinical-stage regenerative-medicine company developing CYR-064, a pharmaceutical therapy candidate for long-term loss of smell and taste.",
+      "modalities": [
+        "small-molecule"
+      ],
+      "indications": [
+        "neurology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "CYR-064 (smell/taste-loss therapy)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-b",
+          "amount": {
+            "raw": "$9.0 million",
+            "usd": 9000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "summary": {
+      "en": "Florida-based clinical-stage biotech targeting olfactory dysfunction, with Phase 2 asset CYR-064."
+    },
+    "sources": [
+      {
+        "url": "https://www.cyranotherapeutics.com/",
+        "title": "Cyrano Therapeutics",
+        "publisher": "Cyrano Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, lead asset, development stage, Series B amount",
+        "quote": "secures 9.0 million Series B financing"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Series B investor names not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
   },
   {
     "id": "us-datavant",
@@ -59748,6 +62892,148 @@
     "verification_notes": "DispatchHealth Series D press release states 2021 valuation of $1.7B and total raised of $417M+ to date; total_raised/valuation fields left unset here because the exact verbatim sentence could not be re-extracted in this pass, to avoid an unsupported quote — see source for the figure. Series A/B not found via a fetched source and are omitted.",
     "last_updated": "2026-08-16",
     "researched_by": "r1-us-care-delivery"
+  },
+  {
+    "id": "us-doctronic",
+    "name": {
+      "en": "Doctronic"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "digital-health",
+      "healthcare-services"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://www.doctronic.ai/",
+    "profile": {
+      "what": "AI symptom-checker and virtual-care platform that gives free AI-driven medical guidance and offers paid video consultations with licensed doctors and prescription refills.",
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "investors": []
+    },
+    "summary": {
+      "en": "New York-based AI medical-consultation platform pairing free symptom analysis with paid on-demand doctor video visits and prescription refills."
+    },
+    "sources": [
+      {
+        "url": "https://www.doctronic.ai/",
+        "title": "Doctronic homepage",
+        "publisher": "Doctronic",
+        "accessed": "2026-08-16",
+        "supports": "Company description, NYC location, product/pricing, consult volume claim",
+        "quote": "Made with love in NYC 🍎, home of the world's best doctors."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No named investors or funding rounds could be sourced from the homepage within budget.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
+    "id": "us-dualitas-therapeutics",
+    "name": {
+      "en": "Dualitas Therapeutics"
+    },
+    "category": "therapeutics",
+    "status": "private",
+    "founded_year": 2023,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "South San Francisco, CA",
+    "website": "https://www.dualitastx.com",
+    "profile": {
+      "what": "Develops bispecific 'proximity engager' antibody therapies; lead candidate DTX-102 pairs an anti-CD28 arm with an immune proximity engager for rheumatoid arthritis.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "immunology-inflammation"
+      ],
+      "development_stage": "preclinical",
+      "lead_asset": "DTX-102 (anti-CD28 x immune proximity engager bispecific)"
+    },
+    "funding": {
+      "rounds": [
+        {
+          "stage": "series-a",
+          "amount": {
+            "raw": "$65 Million",
+            "usd": 65000000,
+            "currency": "USD"
+          },
+          "date": "2025-09",
+          "lead": [
+            "Versant Ventures",
+            "SV Health Investors"
+          ]
+        }
+      ],
+      "investors": [
+        {
+          "name": "Versant Ventures",
+          "role": "co-lead",
+          "round": "series-a",
+          "entity_id": "us-versant-ventures"
+        },
+        {
+          "name": "SV Health Investors",
+          "role": "co-lead",
+          "round": "series-a",
+          "entity_id": "us-sv-health-investors"
+        },
+        {
+          "name": "Qiming Venture Partners USA",
+          "role": "participant",
+          "round": "series-a",
+          "entity_id": null
+        },
+        {
+          "name": "Chugai",
+          "role": "participant",
+          "round": "series-a",
+          "entity_id": "jp-chugai-venture-fund"
+        },
+        {
+          "name": "Eli Lilly",
+          "role": "participant",
+          "round": "series-a",
+          "entity_id": "us-lilly-ventures"
+        },
+        {
+          "name": "Alexandria Venture Investments",
+          "role": "participant",
+          "round": "series-a",
+          "entity_id": "us-alexandria-venture-investments"
+        }
+      ]
+    },
+    "summary": {
+      "en": "South San Francisco bispecific-antibody biotech; raised a $65M Series A in September 2025 co-led by Versant Ventures and SV Health Investors."
+    },
+    "sources": [
+      {
+        "url": "https://www.dualitastx.com/",
+        "title": "Dualitas Therapeutics",
+        "publisher": "Dualitas Therapeutics",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding year, lead asset, Series A investors and amount",
+        "quote": "$65 Million Series A to Advance Novel Bispecific Antibody Pipeline in Immune and Inflammatory Disease"
+      }
+    ],
+    "confidence": "high",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
   },
   {
     "id": "us-dyno-therapeutics",
@@ -64171,6 +67457,48 @@
     "researched_by": "r3-us-robotics-imaging"
   },
   {
+    "id": "us-immunai",
+    "name": {
+      "en": "Immunai"
+    },
+    "category": "ai-drug-discovery",
+    "sectors": [
+      "ai-drug-discovery",
+      "genomics-omics"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New York, NY",
+    "website": "https://www.immunai.com",
+    "profile": {
+      "what": "AI-driven platform mapping the immune system at single-cell scale and resolution to support immunology target discovery, preclinical evaluation and clinical-trial optimization.",
+      "modalities": [
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "immunology-inflammation"
+      ]
+    },
+    "summary": {
+      "en": "Immune-system mapping and AI drug-discovery platform partnered with AstraZeneca (IBD) and Teva (vitiligo)."
+    },
+    "sources": [
+      {
+        "url": "https://www.immunai.com/",
+        "title": "Immunai",
+        "publisher": "Immunai",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, pharma partnerships",
+        "quote": "mapping the immune system at unprecedented scale & resolution to facilitate development of next-generation immune-related therapeutics"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Founding year, investors and funding rounds not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "us-inari-medical",
     "name": {
       "en": "Inari Medical"
@@ -64301,6 +67629,58 @@
     "verification_notes": "HQ (commonly reported as South San Francisco) and founding year not confirmed via a fetched source this session.",
     "last_updated": "2026-08-16",
     "researched_by": "r1-us-clinical-ai"
+  },
+  {
+    "id": "us-inflow",
+    "name": {
+      "en": "Inflow"
+    },
+    "category": "mental-health",
+    "sectors": [
+      "mental-health",
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Wilmington, DE",
+    "website": "https://www.getinflow.io",
+    "profile": {
+      "what": "Science-based mobile app created by ADHD clinicians and psychologists to help adults understand their neurodivergent brain and build lasting management skills.",
+      "modalities": [
+        "digital-therapeutics"
+      ],
+      "indications": [
+        "psychiatry-mental-health"
+      ]
+    },
+    "funding": {
+      "investors": [
+        {
+          "name": "Hoxton Ventures",
+          "role": "lead",
+          "round": "seed",
+          "entity_id": null
+        }
+      ]
+    },
+    "summary": {
+      "en": "ADHD-management mobile app; raised a seed round led by Hoxton Ventures, featured by Y Combinator and TechCrunch."
+    },
+    "sources": [
+      {
+        "url": "https://www.getinflow.io/",
+        "title": "Inflow",
+        "publisher": "Inflow",
+        "accessed": "2026-08-16",
+        "supports": "What it does, seed investor",
+        "quote": "the #1 science-based app to help you manage your ADHD"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Wilmington, DE address is a registered-agent address, not confirmed as an operating HQ. Seed amount ($2.3M, Jan 2022) referenced via a linked TechCrunch article title, not quoted verbatim from the page itself, so it is omitted here.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "us-inhibrx-biosciences",
@@ -64533,7 +67913,7 @@
           "role": "participant",
           "round": "series-f",
           "source_url": "https://techcrunch.com/2025/01/09/innovaccer-aims-to-become-healthcares-ai-powerhouse-with-275m-series-f/",
-          "entity_id": null
+          "entity_id": "eu-generation-investment-management"
         },
         {
           "name": "Kaiser Permanente",
@@ -64690,7 +68070,7 @@
           "role": "participant",
           "round": "series-c-plus",
           "source_url": "https://www.insitro.com/news",
-          "entity_id": null
+          "entity_id": "ca-cpp-investments"
         }
       ]
     },
@@ -65250,6 +68630,58 @@
     "researched_by": "r3-us-diagnostics",
     "aka": [],
     "funding": {}
+  },
+  {
+    "id": "us-ivantis",
+    "name": {
+      "en": "Ivantis"
+    },
+    "category": "medtech-devices",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Developer of the Hydrus Microstent, a glaucoma surgery stent implant.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "ophthalmology"
+      ],
+      "development_stage": "commercial"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "year": 2021,
+        "acquirer": "Alcon",
+        "value": {
+          "raw": "at least $475 million",
+          "usd": 475000000,
+          "currency": "USD"
+        }
+      }
+    },
+    "summary": {
+      "en": "Glaucoma-surgery device maker behind the Hydrus Microstent, acquired by Alcon in November 2021 for at least $475 million."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alcon",
+        "title": "Alcon",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Acquisition date, deal value, product description",
+        "quote": "In November 2021, Alcon announced it would acquire Ivantis and their glaucoma surgery stent technology for at least $475 million."
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Ivantis's own site (ivantisinc.com), SEC EDGAR, PR Newswire, MassDevice and Alcon's newsroom all returned 403/404 within budget, so HQ city/state could not be directly sourced and is omitted; region/country of United States is treated as high-certainty background knowledge (a US ophthalmic device company acquired by Alcon in a USD-denominated deal) rather than a fetched quote — flagging per instructions since it wasn't independently verified via WebFetch this session.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "us-juno-therapeutics",
@@ -66896,7 +70328,7 @@
           "body": "FDA",
           "kind": "clearance",
           "item": "Milli Vaginal Dilator",
-          "year": 2019
+          "year": 2021
         }
       ]
     },
@@ -66965,7 +70397,7 @@
       }
     ],
     "confidence": "low",
-    "verification_notes": "No dollar amounts or round dates found on the company site; investor names are drawn from a logo list on the homepage (no round attribution given), so 'round' is unknown for all. Also excluded 'Stanford Center for Biodesign' from the investor list as it reads as an academic affiliation rather than a capital investor.",
+    "verification_notes": "No dollar amounts or round dates found on the company site; investor names are drawn from a logo list on the homepage (no round attribution given), so 'round' is unknown for all. Also excluded 'Stanford Center for Biodesign' from the investor list as it reads as an academic affiliation rather than a capital investor. Verification 2026-08-16: the FDA 510(k) database gives K211959 in 2021 as the first clearance; the 2019 date was the commercial launch, not a clearance.",
     "last_updated": "2026-08-16",
     "researched_by": "r1-us-consumer-health"
   },
@@ -67731,6 +71163,66 @@
     "researched_by": "r9-backlog-sweep"
   },
   {
+    "id": "us-mirum-pharmaceuticals",
+    "name": {
+      "en": "Mirum Pharmaceuticals"
+    },
+    "category": "therapeutics",
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "profile": {
+      "what": "Rare-disease biopharmaceutical company with three approved medicines for cholestatic liver diseases (LIVMARLI, CHOLBAM, CTEXLI) and multiple late-stage programs advancing toward registration.",
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "gastroenterology-hepatology",
+        "rare-disease",
+        "pediatrics"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "LIVMARLI (maralixibat)"
+        },
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "CHOLBAM (cholic acid)"
+        },
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "CTEXLI (chenodiol)"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Commercial-stage rare-disease biopharma with three FDA-approved cholestatic-liver-disease medicines."
+    },
+    "sources": [
+      {
+        "url": "https://www.mirumpharma.com/pipeline/",
+        "title": "Pipeline",
+        "publisher": "Mirum Pharmaceuticals",
+        "accessed": "2026-08-16",
+        "supports": "What it does, approved products, late-stage pipeline",
+        "quote": "three approved medicines and additional late-stage programs progressing toward potential registration"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ and stock-exchange ticker not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
+  },
+  {
     "id": "us-mission-bio",
     "name": {
       "en": "Mission Bio"
@@ -68082,6 +71574,53 @@
     "sectors": [
       "medtech-devices"
     ]
+  },
+  {
+    "id": "us-myia-health",
+    "name": {
+      "en": "Myia Health"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "healthcare-services",
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "San Francisco, CA",
+    "profile": {
+      "what": "Enterprise predictive-analytics and virtual-care platform for remote, home-based monitoring of chronically ill patients, integrating with partners like DispatchHealth, KORE and BioIntelliSense for continuous vital-sign monitoring.",
+      "modalities": [
+        "ai-ml-platform",
+        "wearables-sensors",
+        "software-samd"
+      ]
+    },
+    "people": [
+      {
+        "name": "Dr. Craig Samitt",
+        "role": "Executive Chairman",
+        "note": "Former CEO of Blue Cross Blue Shield of Minnesota; appointed July 2022"
+      }
+    ],
+    "summary": {
+      "en": "San Francisco-based remote patient monitoring and predictive-analytics platform for chronic disease, partnered with DispatchHealth, KORE and BioIntelliSense."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22Myia+Health%22",
+        "title": "News aggregation: Myia Health",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ, partnerships, executive appointment",
+        "quote": "a leading enterprise predictive analytics and virtual healthcare delivery platform... SAN FRANCISCO... Dr. Craig Samitt, former CEO of Blue Cross Blue Shield of Minnesota, was appointed as Executive Chairman in July 2022"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Company's own domains (myiahealth.com, www.myiahealth.com) failed to resolve this session; sourced via Bing News aggregation. No funding amounts or investor names could be confirmed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "us-myomo",
@@ -68919,6 +72458,48 @@
     ]
   },
   {
+    "id": "us-nextrna-therapeutics",
+    "name": {
+      "en": "NextRNA Therapeutics"
+    },
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "shut-down",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "profile": {
+      "what": "Biotechnology company that developed small-molecule and non-coding-RNA-targeted therapeutics (long non-coding RNAs / lncRNAs) for oncology, including a partnership with Bayer, before winding down operations in 2025.",
+      "modalities": [
+        "rna-therapeutics",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology"
+      ],
+      "development_stage": "discovery"
+    },
+    "summary": {
+      "en": "Boston biotech unlocking non-coding RNA biology for cancer therapeutics, notable for a Bayer collaboration on lncRNA-targeting small molecules, which wound down operations in 2025."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22NextRNA+Therapeutics%22",
+        "title": "News aggregation: NextRNA Therapeutics",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "Business description, Boston HQ, Bayer partnership, 2025 wind-down",
+        "quote": "a biotechnology company unlocking the potential of non-coding RNAs to develop novel and transformative therapeutics... based in Boston... Bayer AG and NextRNA entered into a collaboration to develop small-molecule therapeutics targeting long noncoding RNAs (lncRNAs) in oncology... as of August 2025, the company winds down operations"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Company's own site (nextrnatx.com) has an expired SSL certificate and primary press releases (BusinessWire/GlobeNewswire/PRNewswire/FierceBiotech/Endpoints) all returned 403/404/timeout this session; all facts sourced via aggregated Bing News snippets. A previously reported 2022 Series A ($52M) could not be independently confirmed with a verbatim quote this session and is therefore omitted rather than guessed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "us-nightware",
     "name": {
       "en": "NightWare, Inc."
@@ -69196,6 +72777,108 @@
     "verification_notes": "No individual investor names found this session for the $540M 2021 round (Wikipedia article doesn't list them and WebSearch was unavailable).",
     "last_updated": "2026-08-16",
     "researched_by": "r1-us-consumer-health"
+  },
+  {
+    "id": "us-nortiva-bio",
+    "name": {
+      "en": "Nortiva Bio"
+    },
+    "aka": [
+      "Lyndra Therapeutics"
+    ],
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics"
+    ],
+    "status": "acquired",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Lexington, Massachusetts",
+    "website": "https://nortivabio.com/",
+    "profile": {
+      "what": "Formerly Lyndra Therapeutics; now operates as Nortiva Bio, a subsidiary of Innoviva, developing the LYNX ultra-long-acting oral drug delivery platform that converts standard daily oral medications into once-weekly or monthly pills.",
+      "modalities": [
+        "drug-delivery",
+        "small-molecule"
+      ],
+      "development_stage": "unknown"
+    },
+    "funding": {
+      "exit": {
+        "type": "M&A",
+        "acquirer": "Innoviva, Inc."
+      }
+    },
+    "summary": {
+      "en": "Massachusetts-based ultra-long-acting oral drug delivery company (weekly/monthly pill platform), formerly Lyndra Therapeutics, now a subsidiary of Innoviva operating as Nortiva Bio."
+    },
+    "sources": [
+      {
+        "url": "https://nortivabio.com/",
+        "title": "Nortiva Bio",
+        "publisher": "Nortiva Bio",
+        "accessed": "2026-08-16",
+        "supports": "Product description (LYNX platform), relationship to Innoviva",
+        "quote": "a proprietary, long-acting oral drug delivery platform that transforms standard oral therapies into once‑weekly or monthly pills"
+      },
+      {
+        "url": "https://nortivabio.com/contact",
+        "title": "Nortiva Bio - Contact",
+        "publisher": "Nortiva Bio",
+        "accessed": "2026-08-16",
+        "supports": "Headquarters address",
+        "quote": "20 Maguire Rd, Suite 301, Lexington, MA 02421"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "lyndra.com 302-redirects to nortivabio.com, confirming Lyndra Therapeutics rebranded as Nortiva Bio and is now described on its own site as 'a subsidiary of Innoviva, Inc.' Deal date/terms and founding year not sourced within budget; funding.investors omitted rather than guessed (pre-acquisition VC syndicate not verified this session).",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
+    "id": "us-nuvoair",
+    "name": {
+      "en": "NuvoAir"
+    },
+    "category": "digital-health",
+    "sectors": [
+      "digital-health",
+      "healthcare-services"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Boston, MA",
+    "website": "https://www.nuvoair.com",
+    "profile": {
+      "what": "Virtual-first cardiopulmonary care platform delivering proactive, continuous remote monitoring and specialty care for heart and lung conditions.",
+      "modalities": [
+        "software-samd",
+        "wearables-sensors"
+      ],
+      "indications": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "development_stage": "commercial"
+    },
+    "summary": {
+      "en": "Boston-headquartered virtual cardiopulmonary-care provider serving patients across the US and Europe."
+    },
+    "sources": [
+      {
+        "url": "https://www.nuvoair.com/about-us",
+        "title": "About Us",
+        "publisher": "NuvoAir",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ",
+        "quote": "Headquartered in Boston, serving two continents"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Only the About page was accessible; founding year, investors and funding amounts not disclosed there.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
   },
   {
     "id": "us-nvision-medical",
@@ -70540,7 +74223,7 @@
         {
           "name": "Arkin Holdings",
           "role": "unknown",
-          "entity_id": null
+          "entity_id": "il-arkin-holdings"
         },
         {
           "name": "MRL Ventures Fund",
@@ -71983,7 +75666,7 @@
           "role": "participant",
           "round": "unknown",
           "source_url": "https://www.resilience.com/about/",
-          "entity_id": null
+          "entity_id": "us-lilly-ventures"
         }
       ]
     },
@@ -72456,7 +76139,7 @@
           "role": "lead",
           "round": "growth",
           "source_url": "https://www.route92medical.com/news/route-92-medical-announces-50-million-growth-financing",
-          "entity_id": null
+          "entity_id": "eu-novo-holdings"
         },
         {
           "name": "Sectoral Asset Management",
@@ -72492,6 +76175,40 @@
     },
     "sectors": [
       "medtech-devices"
+    ]
+  },
+  {
+    "id": "us-saferide-health",
+    "name": {
+      "en": "SafeRide Health"
+    },
+    "category": "healthcare-services",
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "website": "https://www.saferidehealth.com",
+    "profile": {
+      "what": "Coordinates non-emergency medical transportation (NEMT) for health-plan members through a digitized transportation network, delivering roughly 12 million rides annually."
+    },
+    "summary": {
+      "en": "US NEMT-coordination technology company serving health plans."
+    },
+    "sources": [
+      {
+        "url": "https://www.saferidehealth.com/",
+        "title": "SafeRide Health",
+        "publisher": "SafeRide Health",
+        "accessed": "2026-08-16",
+        "supports": "What it does, scale",
+        "quote": "non-emergency medical transportation (NEMT) further with leading technology and a digitized network"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "HQ location, founding year, investors and funding not disclosed on the sourced page.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "healthcare-services"
     ]
   },
   {
@@ -72557,7 +76274,7 @@
           "name": "Canada Pension Plan Investment Board",
           "role": "participant",
           "round": "seed",
-          "entity_id": null
+          "entity_id": "ca-cpp-investments"
         },
         {
           "name": "Baillie Gifford",
@@ -72761,7 +76478,7 @@
           "name": "CPP Investments",
           "role": "participant",
           "round": "unknown",
-          "entity_id": null
+          "entity_id": "ca-cpp-investments"
         },
         {
           "name": "Invus Group",
@@ -72794,6 +76511,54 @@
     "verification_notes": "Round and role for each investor not disaggregated by the source (shown as an aggregate investor list); founding year not sourced.",
     "last_updated": "2026-08-16",
     "researched_by": "r2-us-neuro-metabolic"
+  },
+  {
+    "id": "us-seed-health",
+    "name": {
+      "en": "Seed Health"
+    },
+    "category": "consumer-health",
+    "status": "private",
+    "founded_year": 2017,
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Covina, CA",
+    "website": "https://www.seed.com",
+    "profile": {
+      "what": "Direct-to-consumer probiotics company developing research-backed synbiotic and multivitamin products for gastrointestinal, dermatological, oral, pediatric and nutritional health.",
+      "modalities": [
+        "microbiome"
+      ]
+    },
+    "people": [
+      {
+        "name": "Ara Katz",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Raja Dhir",
+        "role": "Co-founder"
+      }
+    ],
+    "summary": {
+      "en": "Probiotics/microbiome consumer-health brand best known for its DS-01 Daily Synbiotic."
+    },
+    "sources": [
+      {
+        "url": "http://seed.com/about",
+        "title": "About",
+        "publisher": "Seed Health",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, founding year, founders, products",
+        "quote": "research-backed probiotics for outcomes across gastrointestinal, dermatological, oral, pediatric, and nutritional health"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "consumer-health"
+    ]
   },
   {
     "id": "us-seer",
@@ -72853,7 +76618,7 @@
           "role": "participant",
           "round": "pre-ipo",
           "source_url": "https://en.wikipedia.org/wiki/Seer,_Inc.",
-          "entity_id": null
+          "entity_id": "us-fidelity-management-and-research"
         }
       ],
       "exit": {
@@ -73311,6 +77076,42 @@
     ]
   },
   {
+    "id": "us-sidecar-health",
+    "name": {
+      "en": "Sidecar Health"
+    },
+    "category": "healthcare-services",
+    "sectors": [
+      "healthcare-services",
+      "digital-health"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Columbus, OH",
+    "website": "https://www.sidecarhealth.com",
+    "profile": {
+      "what": "Employer-sponsored health insurance provider offering ACA-compliant plans with transparent, upfront pricing, no provider networks and a shared-savings model via a mobile app."
+    },
+    "summary": {
+      "en": "US health-insurance startup offering network-free, price-transparent employer plans."
+    },
+    "sources": [
+      {
+        "url": "https://www.sidecarhealth.com/about",
+        "title": "About",
+        "publisher": "Sidecar Health",
+        "accessed": "2026-08-16",
+        "supports": "What it does, address on file",
+        "quote": "ACA-compliant, employer-sponsored major medical coverage with transparent costs, no networks, and no restrictive barriers to care"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "The Columbus, OH address is the one listed on the About page; it may be an administrative/registered address rather than the operating headquarters. Founding year, investors and funding not sourced.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a"
+  },
+  {
     "id": "us-sight-sciences",
     "name": {
       "en": "Sight Sciences"
@@ -73498,7 +77299,7 @@
           "role": "co-lead",
           "round": "series-a",
           "source_url": "https://www.solugen.com/about",
-          "entity_id": null
+          "entity_id": "us-y-combinator"
         },
         {
           "name": "Refactor Capital",
@@ -74581,6 +78382,59 @@
     "researched_by": "r2-us-neuro-metabolic"
   },
   {
+    "id": "us-synergy-spine-solutions",
+    "name": {
+      "en": "Synergy Spine Solutions"
+    },
+    "aka": [
+      "Synergy Disc Replacement Inc.",
+      "Synergy Disc"
+    ],
+    "category": "medtech-devices",
+    "sectors": [
+      "medtech-devices"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Louisville, Colorado",
+    "website": "https://synergyspinesolutions.com/",
+    "profile": {
+      "what": "Develops the Synergy Disc, an FDA-approved motion-preserving artificial cervical disc for spine surgery, built from nickel-free titanium alloy with a built-in 6-degree lordotic core, commercially available in the US, UK, Europe, Australia, Canada, South Africa and Malaysia.",
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "musculoskeletal-orthopedics"
+      ],
+      "development_stage": "commercial",
+      "regulatory": [
+        {
+          "body": "FDA",
+          "kind": "approval",
+          "item": "Synergy Disc (artificial cervical disc)"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Colorado-based maker of the Synergy Disc, an FDA-approved artificial cervical disc designed to preserve motion and improve sagittal alignment in spine surgery."
+    },
+    "sources": [
+      {
+        "url": "https://synergyspinesolutions.com/",
+        "title": "Synergy Spine Solutions",
+        "publisher": "Synergy Spine Solutions",
+        "accessed": "2026-08-16",
+        "supports": "Company description, HQ address, product, FDA approval, geographic availability",
+        "quote": "the first and only artificial cervical disc designed to improve alignment and provide intentional motion preservation"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Backlog entry 'Synergy Disc Replacement Inc.' resolves to Synergy Spine Solutions (maker of the Synergy Disc); site redirects www.synergydisc.com -> synergyspinesolutions.com. HQ found to be Louisville, Colorado, USA (not Canada as initially assumed) — id prefix set to us- accordingly. No funding/investor or founding-year information could be sourced within budget.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
+  },
+  {
     "id": "us-t2-biosystems",
     "name": {
       "en": "T2 Biosystems"
@@ -75021,7 +78875,7 @@
           "role": "participant",
           "round": "growth",
           "source_url": "https://en.wikipedia.org/wiki/Tempus_AI",
-          "entity_id": null
+          "entity_id": "eu-novo-holdings"
         },
         {
           "name": "Franklin Templeton Investments",
@@ -76012,6 +79866,52 @@
     "last_updated": "2026-08-16",
     "researched_by": "r2-us-onc-immuno",
     "aka": []
+  },
+  {
+    "id": "us-turn-biotechnologies",
+    "name": {
+      "en": "Turn Biotechnologies"
+    },
+    "aka": [
+      "Turn Bio",
+      "Turn.bio"
+    ],
+    "category": "therapeutics",
+    "sectors": [
+      "therapeutics",
+      "longevity-aging"
+    ],
+    "status": "private",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "Mountain View, CA",
+    "profile": {
+      "what": "Developer of mRNA medicines and epigenetic reprogramming technologies (eTurna delivery platform) targeting difficult-to-treat, age-related diseases.",
+      "modalities": [
+        "rna-therapeutics",
+        "drug-delivery"
+      ],
+      "indications": [
+        "aging-longevity"
+      ]
+    },
+    "summary": {
+      "en": "Mountain View, CA cell-repair company developing mRNA epigenetic-reprogramming medicines (eTurna platform) for age-related disease, including a 2024 licensing deal with HanAll Biopharma for eye and ear therapies."
+    },
+    "sources": [
+      {
+        "url": "https://www.bing.com/news/search?q=%22Turn+Biotechnologies%22",
+        "title": "News aggregation: Turn Biotechnologies",
+        "publisher": "Bing News aggregation",
+        "accessed": "2026-08-16",
+        "supports": "Business description, HQ, HanAll licensing deal, eTurna platform",
+        "quote": "a developer of novel mRNA medicines and enabling technologies... Mountain View, California... global licensing agreement with HanAll Biopharma for eye and ear therapies (May 2024)... eTurna™ transport platform for nucleic acid therapeutics (2022)"
+      }
+    ],
+    "confidence": "low",
+    "verification_notes": "Company's own domains (turn.bio, www.turn.bio) returned 404 this session; sourced via Bing News aggregation. No funding round amounts or investor names could be confirmed.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-b"
   },
   {
     "id": "us-twentyeight-health",
@@ -77770,6 +81670,53 @@
     "last_updated": "2026-08-16",
     "researched_by": "r1-us-clinical-ai",
     "aka": []
+  },
+  {
+    "id": "us-yarrow-bioscience",
+    "name": {
+      "en": "Yarrow Bioscience"
+    },
+    "aka": [
+      "Foamix Pharmaceuticals",
+      "VYNE Therapeutics"
+    ],
+    "category": "therapeutics",
+    "status": "public",
+    "region": "united-states",
+    "country": "United States",
+    "hq_city": "New Haven, CT",
+    "website": "https://yarrowbioscience.com/",
+    "profile": {
+      "what": "Biopharmaceutical company developing YB-101, a potential first-in-class antibody-blocking treatment for Graves' disease and thyroid eye disease.",
+      "modalities": [
+        "biologics-antibody"
+      ],
+      "indications": [
+        "endocrinology"
+      ],
+      "development_stage": "phase-2",
+      "lead_asset": "YB-101 (blocks autoantibody interaction with the TSH receptor)"
+    },
+    "summary": {
+      "en": "Current operating entity behind the backlog name 'Foamix Pharmaceuticals'; Foamix's own domain now redirects through VYNE Therapeutics to Yarrow Bioscience, which completed a merger with VYNE in July 2026 and is headquartered in New Haven, CT."
+    },
+    "sources": [
+      {
+        "url": "https://yarrowbioscience.com/",
+        "title": "Yarrow Bioscience",
+        "publisher": "Yarrow Bioscience",
+        "accessed": "2026-08-16",
+        "supports": "What it does, HQ, lead asset, VYNE merger",
+        "quote": "470 James Street, Suite 007, New Haven, CT 06513"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Backlog entry was 'Foamix Pharmaceuticals'. foamixpharma.com now 301-redirects through vynetherapeutics.com to yarrowbioscience.com — consistent with the known Foamix→VYNE Therapeutics rebrand and a 2026 VYNE–Yarrow merger described on the current site ('completed a merger with VYNE Therapeutics in July 2026, following a merger agreement announced in December 2025'). Recorded here as the current operating company; original Foamix/VYNE history noted via aka.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-backlog-a",
+    "sectors": [
+      "therapeutics"
+    ]
   },
   {
     "id": "us-zeta-surgical",

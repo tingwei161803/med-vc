@@ -1,7 +1,9 @@
 [
   {
     "id": "us-steelsky-ventures",
-    "name": { "en": "SteelSky Ventures" },
+    "name": {
+      "en": "SteelSky Ventures"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2019,
@@ -9,44 +11,110 @@
     "country": "United States",
     "hq_city": "Atlanta",
     "offices": [
-      { "country": "United States", "city": "Atlanta" },
-      { "country": "United States", "city": "New York" },
-      { "country": "United Arab Emirates", "city": "Dubai" }
+      {
+        "country": "United States",
+        "city": "Atlanta"
+      },
+      {
+        "country": "United States",
+        "city": "New York"
+      },
+      {
+        "country": "United Arab Emirates",
+        "city": "Dubai"
+      }
     ],
     "website": "https://steelskyventures.com/",
     "links": {
       "linkedin": "https://www.linkedin.com/company/steelsky-ventures"
     },
     "capital": {
-      "aum": { "raw": "$72M", "usd": 72000000, "currency": "USD" },
+      "aum": {
+        "raw": "$72M",
+        "usd": 72000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "SteelSky Ventures Fund", "vintage_year": 2022, "size": { "raw": "$72M", "usd": 72000000, "currency": "USD" } }
+        {
+          "name": "SteelSky Ventures Fund",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$72M",
+            "usd": 72000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "digital-health", "healthcare-services", "ai-drug-discovery"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "digital-health",
+        "healthcare-services",
+        "ai-drug-discovery"
+      ],
       "thesis": "Invests in companies improving access, care and outcomes in women's health, increasingly through AI-powered healthcare, with a focus on underserved communities."
     },
     "lifesci": {
-      "indications": ["womens-health"],
-      "modalities": ["digital-therapeutics", "ai-ml-platform", "software-samd"]
+      "indications": [
+        "womens-health"
+      ],
+      "modalities": [
+        "digital-therapeutics",
+        "ai-ml-platform",
+        "software-samd"
+      ]
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Midi Health", "sector": "women's health / menopause telehealth", "outcome": "active" },
-        { "company": "Twentyeight Health", "sector": "women's health telemedicine", "outcome": "active" },
-        { "company": "Origin", "sector": "pelvic floor / physical therapy", "outcome": "active" },
-        { "company": "Proov", "sector": "fertility diagnostics", "outcome": "active" }
+        {
+          "company": "Midi Health",
+          "sector": "women's health / menopause telehealth",
+          "outcome": "active"
+        },
+        {
+          "company": "Twentyeight Health",
+          "sector": "women's health telemedicine",
+          "outcome": "active"
+        },
+        {
+          "company": "Origin",
+          "sector": "pelvic floor / physical therapy",
+          "outcome": "active"
+        },
+        {
+          "company": "Proov",
+          "sector": "fertility diagnostics",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Maria Toler", "role": "Founding and Managing Partner" },
-      { "name": "Casey Albert", "role": "Managing Partner" }
+      {
+        "name": "Maria Toler",
+        "role": "Founding and Managing Partner"
+      },
+      {
+        "name": "Casey Albert",
+        "role": "Managing Partner"
+      }
     ],
-    "tags": ["femtech", "womens-health", "women-led", "atlanta"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "women-led",
+      "atlanta"
+    ],
     "summary": {
       "en": "Atlanta-based venture fund investing in women's healthcare, positioned at its 2022 close as one of the largest VC funds dedicated to women's health, with roughly $72M in assets under management."
     },
@@ -83,8 +151,13 @@
   },
   {
     "id": "us-foreground-capital",
-    "name": { "en": "Foreground Capital" },
-    "aka": ["RH Capital", "Rhia Ventures (RH Capital)"],
+    "name": {
+      "en": "Foreground Capital"
+    },
+    "aka": [
+      "RH Capital",
+      "Rhia Ventures (RH Capital)"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2024,
@@ -96,38 +169,105 @@
       "linkedin": "https://www.linkedin.com/company/foregroundcapital"
     },
     "capital": {
-      "aum": { "raw": "over $43M", "usd": 43000000, "currency": "USD" },
+      "aum": {
+        "raw": "over $43M",
+        "usd": 43000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "RH Capital Fund I", "vintage_year": 2019, "size": { "raw": "~$5M (proof of concept)", "usd": 5000000, "currency": "USD" } },
-        { "name": "RH Capital Fund II", "vintage_year": 2024, "size": { "raw": "$38.5M", "usd": 38500000, "currency": "USD" } }
+        {
+          "name": "RH Capital Fund I",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "~$5M (proof of concept)",
+            "usd": 5000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "RH Capital Fund II",
+          "vintage_year": 2024,
+          "size": {
+            "raw": "$38.5M",
+            "usd": 38500000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "therapeutics", "medtech-devices", "diagnostics", "digital-health", "consumer-health"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "consumer-health"
+      ],
       "thesis": "Impact-first venture firm dedicated to advancing women's health, with primary focus on reproductive, maternal and hormonal health and on health equity for historically underserved populations."
     },
     "lifesci": {
-      "indications": ["womens-health"],
+      "indications": [
+        "womens-health"
+      ],
       "science_platform_notes": "Invests across biopharma, devices, diagnostics, digital health and consumer health within women's health."
     },
     "track_record": {
       "portfolio_count": "22+",
       "notable_investments": [
-        { "company": "Cofertility", "sector": "fertility / egg freezing", "outcome": "active" },
-        { "company": "Millie", "sector": "maternity care", "outcome": "active" },
-        { "company": "Contraline", "sector": "male contraception", "outcome": "active" },
-        { "company": "Twentyeight Health", "sector": "women's health telemedicine", "outcome": "active" }
+        {
+          "company": "Cofertility",
+          "sector": "fertility / egg freezing",
+          "outcome": "active"
+        },
+        {
+          "company": "Millie",
+          "sector": "maternity care",
+          "outcome": "active"
+        },
+        {
+          "company": "Contraline",
+          "sector": "male contraception",
+          "outcome": "active"
+        },
+        {
+          "company": "Twentyeight Health",
+          "sector": "women's health telemedicine",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Elizabeth Bailey", "role": "Co-founder, Managing Partner" },
-      { "name": "Stasia Obremskey", "role": "Co-founder, Managing Partner" },
-      { "name": "Alice Zheng", "role": "Partner", "background": "MD" }
+      {
+        "name": "Elizabeth Bailey",
+        "role": "Co-founder, Managing Partner"
+      },
+      {
+        "name": "Stasia Obremskey",
+        "role": "Co-founder, Managing Partner"
+      },
+      {
+        "name": "Alice Zheng",
+        "role": "Partner",
+        "background": "MD"
+      }
     ],
-    "tags": ["femtech", "womens-health", "reproductive-health", "maternal-health", "impact", "women-led"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "reproductive-health",
+      "maternal-health",
+      "impact",
+      "women-led"
+    ],
     "summary": {
       "en": "Women's-health-dedicated VC launched in 2024 by the former RH Capital team (incubated by Rhia Ventures); continues to manage RH Capital Funds I and II, one of the largest early-stage women's health portfolios in the US."
     },
@@ -158,14 +298,19 @@
       }
     ],
     "confidence": "high",
-    "verification_notes": "Rebrand of RH Capital (originally incubated by Rhia Ventures, a San Francisco nonprofit); Foreground manages RH Capital Funds I and II. AUM figure (~$43M across Funds I & II) is from secondary reporting; Fund II close of >$40M is well documented.",
+    "verification_notes": "Rebrand of RH Capital (originally incubated by Rhia Ventures, a San Francisco nonprofit); Foreground manages RH Capital Funds I and II. AUM figure (~$43M across Funds I & II) is from secondary reporting; Fund II close of >$40M is well documented. Merged us-rh-capital into this record on 2026-08-16: foreground.vc states directly that the team 'co-founded and led Foreground's precursor funds at RH Capital' and that Foreground 'continues to manage RH Capital ",
     "last_updated": "undefined",
     "researched_by": "femtech-womens-health-vc"
   },
   {
     "id": "us-portfolia",
-    "name": { "en": "Portfolia" },
-    "aka": ["Portfolia FemTech Fund", "Portfolia Women's Health Fund"],
+    "name": {
+      "en": "Portfolia"
+    },
+    "aka": [
+      "Portfolia FemTech Fund",
+      "Portfolia Women's Health Fund"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2014,
@@ -175,33 +320,93 @@
     "website": "https://www.portfolia.co/",
     "capital": {
       "funds": [
-        { "name": "Portfolia FemTech Fund (I)", "vintage_year": 2018, "size": { "raw": null, "usd": null, "currency": "USD" } },
-        { "name": "Portfolia FemTech Fund III", "vintage_year": null, "size": { "raw": "$4.15M", "usd": 4150000, "currency": "USD" } },
-        { "name": "Portfolia Women's Health Fund IV", "vintage_year": null, "size": { "raw": null, "usd": null, "currency": "USD" } }
+        {
+          "name": "Portfolia FemTech Fund (I)",
+          "vintage_year": 2018,
+          "size": {
+            "raw": null,
+            "usd": null,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Portfolia FemTech Fund III",
+          "vintage_year": null,
+          "size": {
+            "raw": "$4.15M",
+            "usd": 4150000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Portfolia Women's Health Fund IV",
+          "vintage_year": null,
+          "size": {
+            "raw": null,
+            "usd": null,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "growth"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "digital-health", "consumer-health", "longevity-aging"],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "digital-health",
+        "consumer-health",
+        "longevity-aging"
+      ],
       "thesis": "Investor-led venture platform whose FemTech and Women's Health funds invest exclusively in emerging technologies, products and services focused on improving women's health and wellness across the female lifespan; women make up ~90% of its LPs."
     },
     "lifesci": {
-      "indications": ["womens-health", "aging-longevity"]
+      "indications": [
+        "womens-health",
+        "aging-longevity"
+      ]
     },
     "track_record": {
       "portfolio_count": "44 women's health companies",
       "notable_investments": [
-        { "company": "Maven Clinic", "sector": "women's & family health", "outcome": "unicorn" },
-        { "company": "Willow (breast pumps)", "sector": "maternal health devices", "outcome": "active" },
-        { "company": "Everly Health", "sector": "diagnostics", "outcome": "active" }
+        {
+          "company": "Maven Clinic",
+          "sector": "women's & family health",
+          "outcome": "unicorn"
+        },
+        {
+          "company": "Willow (breast pumps)",
+          "sector": "maternal health devices",
+          "outcome": "active"
+        },
+        {
+          "company": "Everly Health",
+          "sector": "diagnostics",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Trish Costello", "role": "Founder & CEO", "background": "Former co-founder, Kauffman Fellows Program" }
+      {
+        "name": "Trish Costello",
+        "role": "Founder & CEO",
+        "background": "Former co-founder, Kauffman Fellows Program"
+      }
     ],
-    "tags": ["femtech", "womens-health", "active-aging", "women-investors", "los"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "active-aging",
+      "women-investors",
+      "los"
+    ],
     "summary": {
       "en": "San Mateo-based venture platform (founded 2014) whose 2018 FemTech Fund was billed as the first VC fund focused exclusively on women's health; runs a series of FemTech / Women's Health and Active Aging funds backed largely by women LPs."
     },
@@ -238,7 +443,9 @@
   },
   {
     "id": "us-amboy-street-ventures",
-    "name": { "en": "Amboy Street Ventures" },
+    "name": {
+      "en": "Amboy Street Ventures"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2021,
@@ -251,32 +458,82 @@
       "crunchbase": "https://www.crunchbase.com/organization/amboy-street-ventures"
     },
     "capital": {
-      "current_fund": { "raw": "$20M", "usd": 20000000, "currency": "USD" },
+      "current_fund": {
+        "raw": "$20M",
+        "usd": 20000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Amboy Street Ventures Fund I", "vintage_year": 2023, "size": { "raw": "$20M", "usd": 20000000, "currency": "USD" } }
+        {
+          "name": "Amboy Street Ventures Fund I",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "$20M",
+            "usd": 20000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["United States", "Europe"],
-      "sector_focus": ["femtech-womens-health", "consumer-health", "digital-health", "medtech-devices"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States",
+        "Europe"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "consumer-health",
+        "digital-health",
+        "medtech-devices"
+      ],
       "thesis": "Describes itself as the world's first VC fund focused on women's health and sexual wellbeing for all genders; invests at Seed and Series A across sexual wellness, reproductive health and pelvic health."
     },
     "lifesci": {
-      "indications": ["womens-health"]
+      "indications": [
+        "womens-health"
+      ]
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Evvy", "sector": "vaginal microbiome testing", "outcome": "active" },
-        { "company": "Alloy", "sector": "menopause telehealth", "outcome": "active" },
-        { "company": "Hey Jane", "sector": "digital reproductive care", "outcome": "active" },
-        { "company": "Contraline", "sector": "male contraception", "outcome": "active" }
+        {
+          "company": "Evvy",
+          "sector": "vaginal microbiome testing",
+          "outcome": "active"
+        },
+        {
+          "company": "Alloy",
+          "sector": "menopause telehealth",
+          "outcome": "active"
+        },
+        {
+          "company": "Hey Jane",
+          "sector": "digital reproductive care",
+          "outcome": "active"
+        },
+        {
+          "company": "Contraline",
+          "sector": "male contraception",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Carli Sapir", "role": "Founding Partner" }
+      {
+        "name": "Carli Sapir",
+        "role": "Founding Partner"
+      }
     ],
-    "tags": ["femtech", "womens-health", "sexual-health", "women-led", "los-angeles"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "sexual-health",
+      "women-led",
+      "los-angeles"
+    ],
     "summary": {
       "en": "Los Angeles-based venture fund calling itself the world's first VC fund focused on women's health and sexual wellbeing; closed a debut $20M fund in 2023 investing at Seed and Series A."
     },
@@ -313,17 +570,27 @@
   },
   {
     "id": "us-avestria-ventures",
-    "name": { "en": "Avestria Ventures" },
+    "name": {
+      "en": "Avestria Ventures"
+    },
     "type": "vc",
-    "subtypes": ["micro-vc"],
+    "subtypes": [
+      "micro-vc"
+    ],
     "status": "active",
     "founded_year": 2018,
     "region": "united-states",
     "country": "United States",
     "hq_city": "San Francisco",
     "offices": [
-      { "country": "United States", "city": "San Francisco" },
-      { "country": "United States", "city": "Beverly Hills" }
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      },
+      {
+        "country": "United States",
+        "city": "Beverly Hills"
+      }
     ],
     "website": "https://www.avestria.vc/",
     "links": {
@@ -331,34 +598,97 @@
     },
     "capital": {
       "funds": [
-        { "name": "Avestria Ventures Fund I", "vintage_year": 2021, "size": { "raw": null, "usd": null, "currency": "USD" } },
-        { "name": "Avestria Ventures Fund II", "vintage_year": 2024, "size": { "raw": null, "usd": null, "currency": "USD" } }
+        {
+          "name": "Avestria Ventures Fund I",
+          "vintage_year": 2021,
+          "size": {
+            "raw": null,
+            "usd": null,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Avestria Ventures Fund II",
+          "vintage_year": 2024,
+          "size": {
+            "raw": null,
+            "usd": null,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "life-science-tools"
+      ],
       "thesis": "Invests in early-stage women's health and female-led life science companies, defining women's health as conditions affecting women exclusively (e.g., menopause), differently (e.g., cardiovascular disease) or disproportionately (e.g., Alzheimer's)."
     },
     "lifesci": {
-      "indications": ["womens-health"],
+      "indications": [
+        "womens-health"
+      ],
       "science_platform_notes": "Requires companies to be evidence-based, induce clinical or behavioral change, and have scalable commercialization plans."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Axena Health", "sector": "pelvic health devices", "outcome": "active" },
-        { "company": "May Health", "sector": "reproductive / fertility", "outcome": "active" },
-        { "company": "Alydia Health", "sector": "maternal hemorrhage device", "outcome": "acquired" },
-        { "company": "Uqora", "sector": "UTI consumer health", "outcome": "acquired" }
+        {
+          "company": "Axena Health",
+          "sector": "pelvic health devices",
+          "outcome": "active"
+        },
+        {
+          "company": "May Health",
+          "sector": "reproductive / fertility",
+          "outcome": "active"
+        },
+        {
+          "company": "Alydia Health",
+          "sector": "maternal hemorrhage device",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Uqora",
+          "sector": "UTI consumer health",
+          "outcome": "acquired"
+        }
       ]
     },
     "people": [
-      { "name": "Corinne Nevinny", "role": "Co-founder, General Partner" },
-      { "name": "Linda Greub", "role": "Co-founder, Managing Partner", "background": "CFA" },
-      { "name": "Tracy Dooley", "role": "Partner", "background": "MD" }
+      {
+        "name": "Corinne Nevinny",
+        "role": "Co-founder, General Partner"
+      },
+      {
+        "name": "Linda Greub",
+        "role": "Co-founder, Managing Partner",
+        "background": "CFA"
+      },
+      {
+        "name": "Tracy Dooley",
+        "role": "Partner",
+        "background": "MD"
+      }
     ],
-    "tags": ["femtech", "womens-health", "life-science", "women-led", "san-francisco"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "life-science",
+      "women-led",
+      "san-francisco"
+    ],
     "summary": {
       "en": "San Francisco Bay Area venture firm investing in early-stage women's health and female-led life science ventures; closed Fund I in 2021 and Fund II in July 2024."
     },
@@ -387,7 +717,9 @@
   },
   {
     "id": "us-femhealth-ventures",
-    "name": { "en": "FemHealth Ventures" },
+    "name": {
+      "en": "FemHealth Ventures"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2020,
@@ -400,25 +732,62 @@
       "crunchbase": "https://www.crunchbase.com/organization/femhealth-ventures"
     },
     "capital": {
-      "current_fund": { "raw": "$65M", "usd": 65000000, "currency": "USD" },
+      "current_fund": {
+        "raw": "$65M",
+        "usd": 65000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "FemHealth Ventures Fund II", "vintage_year": null, "size": { "raw": "$65M", "usd": 65000000, "currency": "USD" } }
+        {
+          "name": "FemHealth Ventures Fund II",
+          "vintage_year": null,
+          "size": {
+            "raw": "$65M",
+            "usd": 65000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "check_size": { "raw": "$500K–$5M", "usd_min": 500000, "usd_max": 5000000 },
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "$500K–$5M",
+        "usd_min": 500000,
+        "usd_max": 5000000
+      },
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health"
+      ],
       "thesis": "Invests in women's health using a structured framework targeting conditions that affect only women, affect mostly women, or are worse in women."
     },
     "lifesci": {
-      "indications": ["womens-health"]
+      "indications": [
+        "womens-health"
+      ]
     },
     "people": [
-      { "name": "Maneesha Ghiya", "role": "Founder & Managing Partner" }
+      {
+        "name": "Maneesha Ghiya",
+        "role": "Founder & Managing Partner"
+      }
     ],
-    "tags": ["femtech", "womens-health", "women-led", "new-york"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "women-led",
+      "new-york"
+    ],
     "summary": {
       "en": "New York-based women's health VC (founded 2020) targeting conditions unique to, predominant in, or worse in women; raised an oversubscribed $65M Fund II, investing $500K–$5M at Seed to Series A."
     },
@@ -447,7 +816,9 @@
   },
   {
     "id": "us-coyote-ventures",
-    "name": { "en": "Coyote Ventures" },
+    "name": {
+      "en": "Coyote Ventures"
+    },
     "type": "micro-vc",
     "status": "active",
     "founded_year": 2021,
@@ -460,25 +831,58 @@
       "crunchbase": "https://www.crunchbase.com/organization/coyote-ventures"
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "consumer-health", "digital-health"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "consumer-health",
+        "digital-health"
+      ],
       "thesis": "Early-stage fund investing in women's health and wellness innovation across physical, financial and emotional wellness, backing founders addressing historically marginalized health needs."
     },
     "lifesci": {
-      "indications": ["womens-health"]
+      "indications": [
+        "womens-health"
+      ]
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Hera Biotech", "sector": "endometriosis diagnostics", "outcome": "active" },
-        { "company": "Wile", "sector": "women's supplements", "outcome": "active" },
-        { "company": "Maude", "sector": "sexual wellness", "outcome": "active" }
+        {
+          "company": "Hera Biotech",
+          "sector": "endometriosis diagnostics",
+          "outcome": "active"
+        },
+        {
+          "company": "Wile",
+          "sector": "women's supplements",
+          "outcome": "active"
+        },
+        {
+          "company": "Maude",
+          "sector": "sexual wellness",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Jessica Karr", "role": "Founder & General Partner", "background": "Ex-Impossible Foods biochemist" }
+      {
+        "name": "Jessica Karr",
+        "role": "Founder & General Partner",
+        "background": "Ex-Impossible Foods biochemist"
+      }
     ],
-    "tags": ["femtech", "womens-health", "wellness", "women-led", "impact"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "wellness",
+      "women-led",
+      "impact"
+    ],
     "summary": {
       "en": "Early-stage fund founded in 2021 by Jessica Karr investing in women's health and wellness; an ImpactAssets 50 fund that has received backing from Bank of America."
     },
@@ -507,7 +911,9 @@
   },
   {
     "id": "us-astarte-ventures",
-    "name": { "en": "Astarte Ventures" },
+    "name": {
+      "en": "Astarte Ventures"
+    },
     "type": "vc",
     "status": "unknown",
     "founded_year": 2013,
@@ -515,32 +921,70 @@
     "country": "United States",
     "hq_city": "Ewing",
     "offices": [
-      { "country": "United States", "city": "Ewing, New Jersey" }
+      {
+        "country": "United States",
+        "city": "Ewing, New Jersey"
+      }
     ],
     "website": "http://astarteventures.net/",
     "links": {
       "crunchbase": "https://www.crunchbase.com/organization/astarte-ventures"
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "medtech-devices", "digital-health", "healthcare-services"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "medtech-devices",
+        "digital-health",
+        "healthcare-services"
+      ],
       "thesis": "Positioned as the first venture fund dedicated exclusively to the health and wellbeing of women and children, focused on early intervention and prevention, targeting women ages 25-65 as health decision-makers."
     },
     "lifesci": {
-      "indications": ["womens-health", "pediatrics"]
+      "indications": [
+        "womens-health",
+        "pediatrics"
+      ]
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Alydia Health", "sector": "maternal hemorrhage device", "outcome": "acquired by Organon (~$240M)" },
-        { "company": "Maven Clinic", "sector": "women's & family health", "outcome": "unicorn" },
-        { "company": "Materna Medical", "sector": "maternal / pelvic health devices", "outcome": "active" }
+        {
+          "company": "Alydia Health",
+          "sector": "maternal hemorrhage device",
+          "outcome": "acquired by Organon (~$240M)"
+        },
+        {
+          "company": "Maven Clinic",
+          "sector": "women's & family health",
+          "outcome": "unicorn"
+        },
+        {
+          "company": "Materna Medical",
+          "sector": "maternal / pelvic health devices",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Tracy Warren", "role": "Founder & Managing Partner" }
+      {
+        "name": "Tracy Warren",
+        "role": "Founder & Managing Partner"
+      }
     ],
-    "tags": ["femtech", "womens-health", "childrens-health", "maternal-health", "women-led", "new-jersey"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "childrens-health",
+      "maternal-health",
+      "women-led",
+      "new-jersey"
+    ],
     "summary": {
       "en": "New Jersey-based fund founded in 2013 by Tracy Warren, billed as the first VC fund dedicated exclusively to women's and children's health; early backer of Alydia Health, Maven Clinic and Materna Medical."
     },
@@ -569,7 +1013,9 @@
   },
   {
     "id": "us-emmeline-ventures",
-    "name": { "en": "Emmeline Ventures" },
+    "name": {
+      "en": "Emmeline Ventures"
+    },
     "type": "micro-vc",
     "status": "active",
     "founded_year": 2019,
@@ -581,21 +1027,54 @@
       "linkedin": "https://www.linkedin.com/company/emmeline-ventures"
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "check_size": { "raw": "$250K–$500K", "usd_min": 250000, "usd_max": 500000 },
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "mental-health", "consumer-health", "longevity-aging"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "check_size": {
+        "raw": "$250K–$500K",
+        "usd_min": 250000,
+        "usd_max": 500000
+      },
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "mental-health",
+        "consumer-health",
+        "longevity-aging"
+      ],
       "thesis": "Backs female founders building solutions that increase insight and agency for women across maternal, menstrual, pelvic, sexual, fertility, menopause and contraceptive health, plus conditions that disproportionately affect women; ~50% of the portfolio is FemTech / mental health / wellness."
     },
     "lifesci": {
-      "indications": ["womens-health", "psychiatry-mental-health", "aging-longevity"]
+      "indications": [
+        "womens-health",
+        "psychiatry-mental-health",
+        "aging-longevity"
+      ]
     },
     "people": [
-      { "name": "Naseem Sayani", "role": "Co-founder, General Partner" },
-      { "name": "La Keisha Landrum Pierre", "role": "Co-founder, General Partner" },
-      { "name": "Azin Radsan van Alebeek", "role": "Co-founder, General Partner" }
+      {
+        "name": "Naseem Sayani",
+        "role": "Co-founder, General Partner"
+      },
+      {
+        "name": "La Keisha Landrum Pierre",
+        "role": "Co-founder, General Partner"
+      },
+      {
+        "name": "Azin Radsan van Alebeek",
+        "role": "Co-founder, General Partner"
+      }
     ],
-    "tags": ["femtech", "womens-health", "female-founders", "women-led", "los-angeles"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "female-founders",
+      "women-led",
+      "los-angeles"
+    ],
     "summary": {
       "en": "Los Angeles-based, women-led pre-seed/seed fund (founded 2019) backing female founders across women's health, wealth and sustainability, with women's health as its largest thematic pillar and $250K–$500K checks."
     },
@@ -624,8 +1103,13 @@
   },
   {
     "id": "us-kidron-capital",
-    "name": { "en": "Kidron Capital Assets" },
-    "aka": ["KIDRON Capital", "Kidron Capital Assets LP"],
+    "name": {
+      "en": "Kidron Capital Assets"
+    },
+    "aka": [
+      "KIDRON Capital",
+      "Kidron Capital Assets LP"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2021,
@@ -633,30 +1117,73 @@
     "country": "United States",
     "hq_city": "Tel Aviv",
     "offices": [
-      { "country": "Israel", "city": "Tel Aviv" },
-      { "country": "United States", "city": "San Francisco Bay Area" }
+      {
+        "country": "Israel",
+        "city": "Tel Aviv"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco Bay Area"
+      }
     ],
     "website": "https://kidron-capital.com/",
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["United States", "Europe", "Israel"],
-      "sector_focus": ["femtech-womens-health", "medtech-devices", "diagnostics", "digital-health", "therapeutics", "healthcare-services"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "United States",
+        "Europe",
+        "Israel"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "therapeutics",
+        "healthcare-services"
+      ],
       "thesis": "First-of-its-kind fund dedicated to women's health, targeting untapped opportunities across Europe, the USA and Israel spanning medical devices, diagnostics, digital health, therapeutics and services."
     },
     "lifesci": {
-      "indications": ["womens-health"]
+      "indications": [
+        "womens-health"
+      ]
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Beyond Medicine", "sector": "longevity / menopause", "outcome": "active" },
-        { "company": "Portal", "sector": "oncology access for women", "outcome": "active" }
+        {
+          "company": "Beyond Medicine",
+          "sector": "longevity / menopause",
+          "outcome": "active"
+        },
+        {
+          "company": "Portal",
+          "sector": "oncology access for women",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Maria Gajda Horowitz", "role": "Founding and Managing Partner" },
-      { "name": "Anula Jayasuriya", "role": "Co-founding and Managing Partner", "background": "Harvard MD, PhD, MBA" }
+      {
+        "name": "Maria Gajda Horowitz",
+        "role": "Founding and Managing Partner"
+      },
+      {
+        "name": "Anula Jayasuriya",
+        "role": "Co-founding and Managing Partner",
+        "background": "Harvard MD, PhD, MBA"
+      }
     ],
-    "tags": ["femtech", "womens-health", "cross-border", "women-led"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "cross-border",
+      "women-led"
+    ],
     "summary": {
       "en": "Women's-health-dedicated VC (first close 2024) operating from bases in the US and Israel, investing across Europe, the USA and Israel; made inaugural investments in several US-based women's health companies."
     },
@@ -685,29 +1212,60 @@
   },
   {
     "id": "us-womens-health-fund",
-    "name": { "en": "The Women's Health Fund" },
-    "aka": ["WH1"],
+    "name": {
+      "en": "The Women's Health Fund"
+    },
+    "aka": [
+      "WH1"
+    ],
     "type": "vc",
-    "subtypes": ["fund-of-funds"],
+    "subtypes": [
+      "fund-of-funds"
+    ],
     "status": "active",
     "founded_year": 2025,
     "region": "united-states",
     "country": "United States",
     "website": "https://www.wh.fund/",
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "therapeutics", "diagnostics", "medtech-devices", "digital-health"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "therapeutics",
+        "diagnostics",
+        "medtech-devices",
+        "digital-health"
+      ],
       "thesis": "A market-building women's health fund of funds (WH1) that invests in experienced life-science fund managers plus direct co-investments (roughly 80% funds / 20% direct) to systematically build the women's health market."
     },
     "lifesci": {
-      "indications": ["womens-health"],
+      "indications": [
+        "womens-health"
+      ],
       "invests_public_markets": false
     },
     "people": [
-      { "name": "Jessica Federer", "role": "Founder / Managing Partner", "background": "Former Chief Digital Officer, Bayer" }
+      {
+        "name": "Jessica Federer",
+        "role": "Founder / Managing Partner",
+        "background": "Former Chief Digital Officer, Bayer"
+      }
     ],
-    "tags": ["femtech", "womens-health", "fund-of-funds", "life-sciences", "market-building"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "fund-of-funds",
+      "life-sciences",
+      "market-building"
+    ],
     "summary": {
       "en": "A 2025-launched women's health fund of funds (WH1) that channels capital into experienced life-science fund managers and direct co-investments to build the women's health market; founded by former Bayer CDO Jessica Federer."
     },
@@ -736,8 +1294,12 @@
   },
   {
     "id": "us-springbank-collective",
-    "name": { "en": "Springbank Collective" },
-    "aka": ["Springbank"],
+    "name": {
+      "en": "Springbank Collective"
+    },
+    "aka": [
+      "Springbank"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2019,
@@ -749,34 +1311,87 @@
       "linkedin": "https://www.linkedin.com/company/springbank-collective"
     },
     "capital": {
-      "current_fund": { "raw": "$35M", "usd": 35000000, "currency": "USD" },
+      "current_fund": {
+        "raw": "$35M",
+        "usd": 35000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Springbank Fund I", "vintage_year": null, "size": { "raw": "$35M", "usd": 35000000, "currency": "USD" } }
+        {
+          "name": "Springbank Fund I",
+          "vintage_year": null,
+          "size": {
+            "raw": "$35M",
+            "usd": 35000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["United States"],
-      "sector_focus": ["femtech-womens-health", "healthcare-services", "digital-health", "consumer-health"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "United States"
+      ],
+      "sector_focus": [
+        "femtech-womens-health",
+        "healthcare-services",
+        "digital-health",
+        "consumer-health"
+      ],
       "thesis": "Women-led fund investing in mission-critical infrastructure for women and working families across three themes — Career, Care, and Consumer — with women's health as a named focus area within Care."
     },
     "lifesci": {
-      "indications": ["womens-health"]
+      "indications": [
+        "womens-health"
+      ]
     },
     "track_record": {
       "portfolio_count": 32,
       "notable_investments": [
-        { "company": "Little Otter", "sector": "children's mental health", "outcome": "active" },
-        { "company": "Summer Health", "sector": "pediatric telehealth", "outcome": "active" },
-        { "company": "Wellthy", "sector": "caregiving support", "outcome": "active" }
+        {
+          "company": "Little Otter",
+          "sector": "children's mental health",
+          "outcome": "active"
+        },
+        {
+          "company": "Summer Health",
+          "sector": "pediatric telehealth",
+          "outcome": "active"
+        },
+        {
+          "company": "Wellthy",
+          "sector": "caregiving support",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Courtney Leimkuhler", "role": "Co-founder, Partner" },
-      { "name": "Elana Berkowitz", "role": "Co-founder, Partner" },
-      { "name": "Jen Koss", "role": "Co-founder, Partner" }
+      {
+        "name": "Courtney Leimkuhler",
+        "role": "Co-founder, Partner"
+      },
+      {
+        "name": "Elana Berkowitz",
+        "role": "Co-founder, Partner"
+      },
+      {
+        "name": "Jen Koss",
+        "role": "Co-founder, Partner"
+      }
     ],
-    "tags": ["femtech", "womens-health", "care-economy", "working-families", "women-led", "new-york"],
+    "tags": [
+      "femtech",
+      "womens-health",
+      "care-economy",
+      "working-families",
+      "women-led",
+      "new-york"
+    ],
     "summary": {
       "en": "New York-based, women-led fund (established 2019) that closed a $35M fund for infrastructure serving women and working families; women's health is one of its explicit investment themes alongside care and household financial wellness."
     },

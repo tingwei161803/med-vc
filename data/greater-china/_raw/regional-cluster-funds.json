@@ -12,12 +12,27 @@
     "country": "China",
     "hq_city": "Suzhou",
     "capital": {
-      "current_fund": { "raw": "60亿元", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "60亿元",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["Suzhou", "Jiangsu", "China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "synthetic-biology"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "Suzhou",
+        "Jiangsu",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "healthcare-services",
+        "synthetic-biology"
+      ],
       "thesis": "State-backed mother fund of funds dedicated to Suzhou's biopharma cluster (anchored around BioBAY), deploying RMB6bn into innovative drugs, drug R&D, medical devices, healthcare services and synthetic biology companies, one of three specialized industry funds (RMB13.5bn total) landed by Suzhou Chuangtou Group and Jiangsu Gaotou Group in 2024."
     },
     "track_record": {},
@@ -44,44 +59,6 @@
     "researched_by": "regional-cluster-funds"
   },
   {
-    "id": "cn-biobay-yuansheng-venture-capital",
-    "name": {
-      "en": "Yuansheng Venture Capital (BioBAY)",
-      "local": "元生创投"
-    },
-    "type": "vc",
-    "status": "active",
-    "founded_year": 2013,
-    "region": "greater-china",
-    "country": "China",
-    "hq_city": "Suzhou",
-    "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shenzhen" }
-    ],
-    "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
-      "thesis": "Spun out of BioBAY (Suzhou's biomedical industry park) as a market-oriented, biomedicine-only VC to seed and demonstrate investable projects for the park; initially concentrated 40-50% of its first fund in BioBAY-resident companies before expanding nationally with Beijing and Shenzhen offices while retaining exclusive focus on biomedicine."
-    },
-    "track_record": {},
-    "sources": [
-      {
-        "url": "https://www.vbdata.cn/1518871280",
-        "title": "三位顶级投资机构合伙人讲述：BioBAY如何用15年打造资本生态圈？",
-        "publisher": "动脉网 vbdata.cn",
-        "accessed": "undefined",
-        "supports": "founding year, rationale, BioBAY-affiliation, biomedicine-only focus, geographic expansion",
-        "quote": "成立元生的思路很清楚：当时，园区的政府引导基金...如果以BioBAY为主导，成立一个市场化的VC基金，会起到引导和示范作用"
-      }
-    ],
-    "confidence": "medium",
-    "verification_notes": "Now invests nationally beyond Suzhou; included here because it was founded by and remains headquartered at BioBAY as the park's flagship market-oriented biomedical VC vehicle.",
-    "last_updated": "undefined",
-    "researched_by": "regional-cluster-funds"
-  },
-  {
     "id": "cn-biobay-juming-venture-capital",
     "name": {
       "en": "Juming Venture Capital (BioBAY)",
@@ -94,9 +71,18 @@
     "country": "China",
     "hq_city": "Suzhou",
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["Suzhou", "China"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Suzhou",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "Co-founded by BioBAY and a Suzhou Industrial Park Chinese-capital consortium to provide capital to early- and mid-stage biomedical innovators within the park, complementing Yuansheng Venture Capital in BioBAY's capital ecosystem."
     },
     "track_record": {
@@ -122,21 +108,40 @@
       "en": "Hangzhou Taikun Biopharmaceutical Industry Fund",
       "local": "泰鲲基金（杭州泰格生物医药产业基金）"
     },
-    "aka": ["泰鲲母基金"],
+    "aka": [
+      "泰鲲母基金"
+    ],
     "type": "government-program",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2021,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Hangzhou",
     "capital": {
-      "current_fund": { "raw": "200亿元", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "200亿元",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["Hangzhou", "China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "digital-health", "consumer-health"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "Hangzhou",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "healthcare-services",
+        "digital-health",
+        "consumer-health"
+      ],
       "lead_or_follow": "both",
       "thesis": "Hangzhou's first city-level biopharma mother fund, jointly launched by CRO leader Tigermed (49% via Hangzhou Tigermed Equity Investment) and Hangzhou state investment platforms (Hangzhou Industrial Investment, Hangzhou High-tech Venture Investment), targeting innovative medical devices, biopharma, healthcare services, healthcare IT, digital therapeutics, smart manufacturing and nutrition/health across all company stages."
     },
@@ -176,12 +181,26 @@
     "country": "China",
     "hq_city": "Hangzhou",
     "capital": {
-      "current_fund": { "raw": "预期总规模超5亿元（首期2.1亿元）", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "预期总规模超5亿元（首期2.1亿元）",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["Hangzhou", "China"],
-      "sector_focus": ["therapeutics", "pharma-services"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Hangzhou",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "pharma-services"
+      ],
       "thesis": "State-owned Hangzhou Capital vehicle (managed by wholly-owned subsidiary Guoshun Investment) that converts local pharma research achievements into commercial ventures; LPs include Hangzhou Chanantou, the Taikun mother fund, listed drugmakers Betta Pharmaceuticals and Huadong Medicine, and the Xihu district industry fund."
     },
     "track_record": {},
@@ -212,12 +231,25 @@
     "country": "China",
     "hq_city": "Hangzhou",
     "capital": {
-      "current_fund": { "raw": "50亿元", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "50亿元",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["Hangzhou", "Zhejiang", "China"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "Hangzhou",
+        "Zhejiang",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "Zhejiang provincial industry fund dedicated to biomedicine and high-end medical devices, anchoring the Qiantang district's 'China Medicine Port' cluster; co-managed by Qiantang Industrial Group's Heda Financial Services (GP) and Zhejiang Jinkong's Jintou Shengyuan (GP)."
     },
     "track_record": {},
@@ -255,18 +287,41 @@
     "country": "China",
     "hq_city": "Wuhan",
     "capital": {
-      "aum": { "raw": "总规模31.6亿元（15只引导基金）", "usd": null, "currency": "CNY" }
+      "aum": {
+        "raw": "总规模31.6亿元（15只引导基金）",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["Wuhan", "China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "pharma-services"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Wuhan",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "pharma-services"
+      ],
       "thesis": "Cluster of 15 government guide funds seeded by Wuhan East Lake High-tech Development Zone to support biomedical and other strategic emerging industries within Optics Valley Biolake (光谷生物城), a founding-generation biotech park established in 2008, which has since backed 400+ portfolio companies and 20+ overseas listings including Simcere and Kintor Pharmaceutical."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Simcere Pharmaceutical Group", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Kintor Pharmaceutical", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "Simcere Pharmaceutical Group",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Kintor Pharmaceutical",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
     "sources": [
@@ -298,12 +353,27 @@
     "hq_city": "Wuhan",
     "website": "http://www.whovvc.com/",
     "capital": {
-      "aum": { "raw": "逾10亿元人民币（5支在管私募股权基金，截至2021年8月31日）", "usd": null, "currency": "CNY" }
+      "aum": {
+        "raw": "逾10亿元人民币（5支在管私募股权基金，截至2021年8月31日）",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["Wuhan", "China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "Wuhan",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "generalist-health"
+      ],
       "thesis": "Optics Valley-based private equity/VC manager jointly founded by Tianfeng Securities and a Wuhan Commerce Group investment platform; over 70% of its portfolio company count and invested capital is concentrated in biomedicine, making it one of Wuhan Biolake's most biomedicine-heavy VC managers."
     },
     "track_record": {},
@@ -328,22 +398,41 @@
       "local": "成都高新区创业天使投资基金（\"金熊猫\"创投生态）"
     },
     "type": "government-program",
-    "subtypes": ["angel-network"],
+    "subtypes": [
+      "angel-network"
+    ],
     "status": "active",
     "region": "greater-china",
     "country": "China",
     "hq_city": "Chengdu",
     "capital": {
-      "current_fund": { "raw": "五年计划总规模100亿元", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "五年计划总规模100亿元",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["Chengdu", "China"],
-      "sector_focus": ["cell-gene-therapy", "medtech-devices", "generalist-health"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "Chengdu",
+        "China"
+      ],
+      "sector_focus": [
+        "cell-gene-therapy",
+        "medtech-devices",
+        "generalist-health"
+      ],
       "thesis": "Chengdu High-tech Zone's non-profit, policy-driven angel mother fund ('Golden Panda' venture ecosystem) that has issued dedicated angel sub-funds for cell & gene therapy and high-end medical devices; biomedical deals made up roughly 20% of its 66 completed angel investments (RMB146M) as of end-2023."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "gene-therapy"]
+      "modalities": [
+        "cell-therapy",
+        "gene-therapy"
+      ]
     },
     "track_record": {
       "portfolio_count": "66 angel deals (RMB146M invested) as of Dec 2023, ~20% biomedical"
@@ -370,19 +459,34 @@
       "local": "蓉创先导并购基金"
     },
     "type": "growth-equity",
-    "subtypes": ["cvc"],
+    "subtypes": [
+      "cvc"
+    ],
     "status": "active",
     "founded_year": 2024,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Chengdu",
     "capital": {
-      "current_fund": { "raw": "20亿元", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "20亿元",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["growth"],
-      "geo_focus": ["Chengdu", "Sichuan", "China"],
-      "sector_focus": ["pharma-services", "therapeutics"],
+      "stages": [
+        "growth"
+      ],
+      "geo_focus": [
+        "Chengdu",
+        "Sichuan",
+        "China"
+      ],
+      "sector_focus": [
+        "pharma-services",
+        "therapeutics"
+      ],
       "thesis": "The first mid-western China biopharma M&A fund anchored by a listed 'chain leader' company (Chengdu Xiandao / HitGen), co-founded with Chengdu Kejichuang Investment Group and Chengdu High-tech Cesu Investment Group to roll up companies across pharmacodynamics, pharmacokinetics, small-molecule CDMO, preclinical CRO and drug manufacturing/sales."
     },
     "track_record": {},
@@ -421,16 +525,34 @@
     "country": "China",
     "hq_city": "Wuxi",
     "capital": {
-      "current_fund": { "raw": "40亿元", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "40亿元",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["Wuxi", "Jiangsu", "China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "cell-gene-therapy", "pharma-services"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "Wuxi",
+        "Jiangsu",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "cell-gene-therapy",
+        "pharma-services"
+      ],
       "thesis": "Provincial-municipal co-funded mother fund (25% Jiangsu Provincial Strategic Emerging Industry Mother Fund, 75% Wuxi city) deploying via a 'sub-fund + direct investment' model into innovative drugs, high-end APIs, TCM, cell & gene therapy, medical devices, medical support industries and consumer medical health to build out Wuxi's biopharma supply chain."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "gene-therapy"]
+      "modalities": [
+        "cell-therapy",
+        "gene-therapy"
+      ]
     },
     "track_record": {},
     "sources": [
@@ -459,12 +581,27 @@
     "country": "China",
     "hq_city": "Guangzhou",
     "capital": {
-      "aum": { "raw": "总认缴规模123亿元（17个子基金）", "usd": null, "currency": "CNY" }
+      "aum": {
+        "raw": "总认缴规模123亿元（17个子基金）",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["Guangzhou", "China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Guangzhou",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "generalist-health"
+      ],
       "thesis": "Fund-of-funds cluster run by Guangzhou Development Zone's state investment platform (高新区集团) dedicated to the Guangzhou International Bio-island, comprising 17 sub-funds with RMB12.3bn subscribed capital, prioritizing early-stage, small-ticket, long-duration hard-biotech investments ('投早、投小、投长期、投硬科技')."
     },
     "track_record": {},
@@ -494,9 +631,19 @@
     "country": "China",
     "hq_city": "Guangzhou",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["Guangzhou", "China"],
-      "sector_focus": ["therapeutics", "life-science-tools", "generalist-health"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "Guangzhou",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "life-science-tools",
+        "generalist-health"
+      ],
       "thesis": "Joint fund between Guangzhou's Baiyun district (via Guangzhou Financial Holdings, Baiyun Fintech Holdings and Baiyun Industry Investment Group) and Bio-island Laboratory, a Guangdong provincial lab, formed to commercialize seed- and early-stage sci-tech projects spun out of the lab and affiliated research institutes into strategic emerging and future industries including biomedicine."
     },
     "track_record": {},
@@ -528,9 +675,18 @@
     "country": "China",
     "hq_city": "Suzhou",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["Suzhou", "China"],
-      "sector_focus": ["therapeutics", "generalist-health"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "Suzhou",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "generalist-health"
+      ],
       "thesis": "Early biomedical investment fund jointly launched in 2013 by BioBAY and Suzhou state-owned investment holding company Xinjianyuan Holdings to provide capital support to early-stage innovative biomedical enterprises within Suzhou Industrial Park."
     },
     "track_record": {},

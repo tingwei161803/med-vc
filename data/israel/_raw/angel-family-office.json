@@ -1,10 +1,21 @@
 [
   {
     "id": "il-arkin-holdings",
-    "name": { "en": "Arkin Holdings" },
-    "aka": ["Arkin", "Arkin Bio Ventures", "Arkin Digital Health", "Sphera Healthcare Hedge Funds"],
+    "name": {
+      "en": "Arkin Holdings"
+    },
+    "aka": [
+      "Arkin",
+      "Arkin Bio Ventures",
+      "Arkin Digital Health",
+      "Sphera Healthcare Hedge Funds",
+      "Arkin Bio Ventures (Arkin Holdings)",
+      "Arkin Bio"
+    ],
     "type": "family-office",
-    "subtypes": ["crossover-fund"],
+    "subtypes": [
+      "crossover-fund"
+    ],
     "status": "active",
     "founded_year": 2009,
     "region": "israel",
@@ -15,17 +26,37 @@
       "crunchbase": "https://www.crunchbase.com/organization/arkin-holdings"
     },
     "capital": {
-      "aum": { "raw": "$1.5 billion healthcare portfolio (across 5 investment arms)", "usd": null, "currency": "USD" }
+      "aum": {
+        "raw": "$1.5 billion healthcare portfolio (across 5 investment arms)",
+        "usd": null,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["Israel", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "digital-health"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "Israel",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health"
+      ],
       "thesis": "Single-family office of pharma entrepreneur Mori Arkin (co-founder of Agis Industries, sold to Perrigo for $818M in 2005) that deploys permanent, patient family capital exclusively into pharmaceuticals, biotechnology and medical devices through dedicated arms: Arkin Bio (private biotech), Arkin Digital Health (early-stage digital health) and Sphera Healthcare Hedge Funds (public biotech, pre-IPO to public)."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "medical-hardware", "software-samd"],
-      "indications": ["oncology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware",
+        "software-samd"
+      ],
+      "indications": [
+        "oncology"
+      ],
       "company_creation": false,
       "invests_public_markets": true,
       "science_platform_notes": "Operates through multiple specialized investment arms (Arkin Bio Ventures, Arkin Digital Health, Sphera Healthcare Hedge Funds) covering private biotech, early-stage digital health and public/pre-IPO biotech equities."
@@ -33,17 +64,48 @@
     "track_record": {
       "portfolio_count": "54 companies (as of Aug 2025, across all Arkin Holdings arms)",
       "notable_investments": [
-        { "company": "Lutris Pharma", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Eleos Health", "sector": "digital-health", "outcome": "active" },
-        { "company": "Validic", "sector": "digital-health", "outcome": "active" },
-        { "company": "Gamida Cell", "sector": "cell-gene-therapy", "outcome": "IPO" }
+        {
+          "company": "Lutris Pharma",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Eleos Health",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Validic",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Gamida Cell",
+          "sector": "cell-gene-therapy",
+          "outcome": "IPO"
+        }
       ],
-      "co_investors": ["Kaiser Permanente Ventures", "Green Park & Golf Ventures", "Greycroft Partners", "SJF Ventures"]
+      "co_investors": [
+        "Kaiser Permanente Ventures",
+        "Green Park & Golf Ventures",
+        "Greycroft Partners",
+        "SJF Ventures"
+      ]
     },
     "people": [
-      { "name": "Mori (Moshe) Arkin", "role": "Founder & Chairman", "background": "Co-founder of Agis Industries (dermatological/generic pharma), sold to Perrigo for $818M in 2005" }
+      {
+        "name": "Mori (Moshe) Arkin",
+        "role": "Founder & Chairman",
+        "background": "Co-founder of Agis Industries (dermatological/generic pharma), sold to Perrigo for $818M in 2005"
+      }
     ],
-    "tags": ["family-office", "biotech", "digital-health", "medtech", "Herzliya"],
+    "tags": [
+      "family-office",
+      "biotech",
+      "digital-health",
+      "medtech",
+      "Herzliya"
+    ],
     "summary": {
       "en": "Herzliya-based single-family office founded by pharmaceutical entrepreneur Mori Arkin that invests family capital directly into biotech, medical devices and digital health, both privately (Arkin Bio, Arkin Digital Health) and in public biotech via its Sphera Healthcare Hedge Funds."
     },
@@ -81,14 +143,19 @@
       }
     ],
     "confidence": "high",
-    "verification_notes": "Multiple corroborating secondary sources plus official site; exact healthcare-portfolio AUM figure ($1.5B) sourced from Tracxn aggregator rather than a directly-quoted primary filing, so treat as approximate.",
+    "verification_notes": "Multiple corroborating secondary sources plus official site; exact healthcare-portfolio AUM figure ($1.5B) sourced from Tracxn aggregator rather than a directly-quoted primary filing, so treat as approximate. Merged il-arkin-bio-ventures into this record on 2026-08-16: arkin-capital.com describes 'Arkin Bio' as one of the arms/divisions within 'Arkin Health,' one of four investment arms of the single parent Arkin Capital entit",
     "last_updated": "undefined",
     "researched_by": "angel-family-office"
   },
   {
     "id": "il-club-d-innovation",
-    "name": { "en": "Club-D Innovation", "local": "קלאב-די" },
-    "aka": ["ClubD"],
+    "name": {
+      "en": "Club-D Innovation",
+      "local": "קלאב-די"
+    },
+    "aka": [
+      "ClubD"
+    ],
     "type": "angel-network",
     "subtypes": [],
     "status": "active",
@@ -96,25 +163,49 @@
     "region": "israel",
     "country": "Israel",
     "strategy": {
-      "stages": ["all"],
+      "stages": [
+        "all"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Israel"],
-      "sector_focus": ["digital-health", "medtech-devices", "healthcare-services"],
+      "geo_focus": [
+        "Israel"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "healthcare-services"
+      ],
       "thesis": "Israel's first medical-innovation angel club, established by the Israeli Medical Association (Histadrut HaRefuim, ~30,000 members) in partnership with healthtech VC eHealth Ventures, giving physicians and other medical professionals direct co-investment access to healthtech and medical-device startups, mostly via follow-on rounds alongside VCs."
     },
     "lifesci": {
-      "modalities": ["software-samd", "medical-hardware", "digital-therapeutics"],
+      "modalities": [
+        "software-samd",
+        "medical-hardware",
+        "digital-therapeutics"
+      ],
       "indications": [],
       "company_creation": false
     },
     "track_record": {
       "notable_investments": [],
-      "co_investors": ["eHealth Ventures"]
+      "co_investors": [
+        "eHealth Ventures"
+      ]
     },
     "people": [
-      { "name": "Noam Amir", "role": "CEO", "background": "Previously VP of Corporate Development and Legal at the Startup Innovation Incubator" }
+      {
+        "name": "Noam Amir",
+        "role": "CEO",
+        "background": "Previously VP of Corporate Development and Legal at the Startup Innovation Incubator"
+      }
     ],
-    "tags": ["angel-club", "physicians", "healthtech", "medical-devices", "Israeli Medical Association"],
+    "tags": [
+      "angel-club",
+      "physicians",
+      "healthtech",
+      "medical-devices",
+      "Israeli Medical Association"
+    ],
     "summary": {
       "en": "An angel investment club founded by the Israeli Medical Association and healthtech VC eHealth Ventures that lets physicians and medical professionals co-invest in Israeli healthtech and medical-device startups, targeting 5-10 deals per year."
     },
@@ -142,32 +233,58 @@
   },
   {
     "id": "il-claridge-israel",
-    "name": { "en": "Claridge Israel" },
+    "name": {
+      "en": "Claridge Israel"
+    },
     "aka": [],
     "type": "family-office",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "region": "israel",
     "country": "Israel",
     "hq_city": "Herzliya",
     "website": "https://claridgeil.com/",
     "strategy": {
-      "stages": ["growth"],
-      "check_size": { "raw": "$20 million to $50 million per transaction", "usd_min": 20000000, "usd_max": 50000000 },
+      "stages": [
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$20 million to $50 million per transaction",
+        "usd_min": 20000000,
+        "usd_max": 50000000
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["Israel"],
-      "sector_focus": ["digital-health"],
+      "geo_focus": [
+        "Israel"
+      ],
+      "sector_focus": [
+        "digital-health"
+      ],
       "thesis": "Israeli private-equity affiliate of Claridge Inc., the Bronfman family's primary investment vehicle; deploys permanent capital directly from the family balance sheet (no external blind-pool LPs) into growth-stage Israeli tech companies, with digital health as one of its five core sectors alongside enterprise software, cybersecurity, fintech and advanced manufacturing."
     },
     "lifesci": {
-      "modalities": ["software-samd", "ai-ml-platform"],
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform"
+      ],
       "indications": [],
       "company_creation": false
     },
     "people": [
-      { "name": "Oded Tal", "role": "Founding Managing Partner" }
+      {
+        "name": "Oded Tal",
+        "role": "Founding Managing Partner"
+      }
     ],
-    "tags": ["family-office", "digital-health", "Bronfman family", "growth-equity", "Herzliya"],
+    "tags": [
+      "family-office",
+      "digital-health",
+      "Bronfman family",
+      "growth-equity",
+      "Herzliya"
+    ],
     "summary": {
       "en": "Herzliya-based Israeli affiliate of the Bronfman family's Claridge Inc. investment vehicle, deploying $20-50M growth-stage checks from permanent family capital into Israeli tech companies, including digital health alongside its other core sectors.",
       "local": "זרוע ההשקעות הישראלית של קלאריג' (משפחת ברונפמן), משקיעה הון משפחתי צמית בחברות טכנולוגיה ישראליות בשלב צמיחה, ובכלל זה בריאות דיגיטלית."
