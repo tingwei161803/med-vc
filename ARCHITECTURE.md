@@ -257,6 +257,25 @@ uv run scripts/build_site.py       # 網站資料層
 連結圖的「兩邊都證實」與「被點名但尚未建檔」只能來自 `company-stats.json`：
 待辦清單根本沒有出現在前端 payload 裡，前端無從重算。頁面上直接寫明了這件事。
 
+### 資產版本綁定
+
+GitHub Pages 一律回 `Cache-Control: max-age=600`，而頁面原本用裸路徑引用資產，
+所以每次 deploy 後有十分鐘的窗口：回訪者可能拿到**新的 HTML 配上快取的舊 `data.js`**。
+這不是外觀問題——頁面清單住在 `data.js` 裡，新加的一頁不在舊的 `SITE_PAGES` 中，
+於是 `currentPage()` 退回 `PAGES[0]`，在新頁的網址底下**畫出首頁**。
+`/company-analysis` 上線那次就真的發生了。
+
+兩層修正：
+
+1. `build_site.py` 在最後把每個資產的**內容 hash** 寫進 `docs/*.html` 的 query string
+   （`data/data.js?v=5c94df64af`）。每份 HTML 因此指名它 build 當下的那一份資產，
+   快取到的舊頁面繼續載入它自己那組舊資產，新頁面則指向快取沒見過的網址。
+   只有真的變動的檔案會換 URL，所以改個 CSS 不會害使用者重載 4 MB 的資料層。
+   這讓 `docs/*.html` 裡的 `?v=` 成為 build 產物，其餘部分仍是手寫的。
+2. `currentPage()` 遇到不認識的 slug 改回傳 `null`（原本回 `PAGES[0]`），
+   `app.js` 據此畫出「你的版本比較舊」的說明與重抓按鈕。
+   **靜默地畫錯一頁，比明白地說「對不上」糟糕得多。**
+
 ---
 
 ## 7. 免責

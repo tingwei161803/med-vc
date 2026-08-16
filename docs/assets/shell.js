@@ -54,10 +54,17 @@
 
   function pageHref(p) { return p.slug === "home" ? "index.html" : p.slug + ".html"; }
   function currentSlug() { return document.body.getAttribute("data-page") || "home"; }
+  /* A slug with no entry in SITE_PAGES means the HTML and the data layer came
+     from different builds — in practice a cached data.js under newer HTML,
+     which is exactly what a visitor hits in the minutes after a deploy adds a
+     page. Falling back to PAGES[0] here rendered the homepage under the new
+     page's URL and title: a silent wrong answer that looks like the new page
+     is broken rather than like the copy is stale. Return null and let the
+     caller say what actually happened. */
   function currentPage() {
     var slug = currentSlug();
     for (var i = 0; i < PAGES.length; i++) if (PAGES[i].slug === slug) return PAGES[i];
-    return PAGES[0] || null;
+    return null;
   }
 
   /* ---------- onLang callback registry (app.js plugs in here) ---------- */
