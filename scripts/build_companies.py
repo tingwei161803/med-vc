@@ -297,17 +297,42 @@ class Resolver:
                 return next(iter(same)), f"{how}+region"
         return None, f"ambiguous-{how}:{len(cands)}"
 
+    @staticmethod
+    def _query_forms(name: str) -> list[str]:
+        """The whole name, then each half of a "Local (English)" pair.
+
+        Researchers record bilingual companies as "微医 (WeDoctor)" or
+        "康立明生物 (Creative Biosciences)", while the record itself splits them
+        across name.local and name.en. Neither half of the pair matches the
+        combined string, so a company that IS profiled sits in the backlog
+        looking unresearched. Trying each half costs nothing: _pick still
+        demands a unique hit, so a descriptive parenthetical like "OrbiMed
+        (India / Asia healthcare growth investing)" simply matches nothing.
+        """
+        forms = [name]
+        if (m := re.match(r"^(.*?)[（(]([^）)]+)[）)]\s*$", name.strip())):
+            forms += [m.group(1).strip(), m.group(2).strip()]
+        return [f for f in forms if f]
+
     def resolve(self, name: str, region: str | None = None) -> tuple[str | None, str]:
-        k = norm(name)
-        if not k:
+        if not norm(name):
             return None, "empty"
-        if (hit := self.aliases.get(k)):
-            return (hit, "alias") if hit in self.ids else (None, "alias-dangling")
-        if (s := self.strict.get(k)):
-            return self._pick(s, region, "exact")
-        c = core(name)
-        if c and (s := self.loose.get(c)):
-            return self._pick(s, region, "core")
+        for i, form in enumerate(self._query_forms(name)):
+            k = norm(form)
+            if not k:
+                continue
+            tag = "" if i == 0 else "+split"
+            if (hit := self.aliases.get(k)):
+                return (hit, "alias" + tag) if hit in self.ids else (None, "alias-dangling")
+            if (s := self.strict.get(k)):
+                got, how = self._pick(s, region, "exact")
+                if got:
+                    return got, how + tag
+            c = core(form)
+            if c and (s := self.loose.get(c)):
+                got, how = self._pick(s, region, "core")
+                if got:
+                    return got, how + tag
         return None, "unknown"
 
 
@@ -667,16 +692,36 @@ def main() -> None:
     n_dupe = sum(1 for c in collisions if c["verdict"] == "likely-duplicate")
     n_undet = sum(1 for c in collisions if c["verdict"] == "undetermined")
 
+    # Some unresolved portfolio names can never resolve, because they are not
+    # profileable operating companies — an investor named as a portfolio row, a
+    # fund vehicle, a factory, or a real company in an unrelated industry. They
+    # would otherwise sit at the top of the research backlog forever, and each
+    # round would rediscover them and file another `skipped` entry. Filtered out
+    # of the backlog with a reason, while the investor records that name them
+    # are left alone: the investment happened, and deleting it would lose a fact.
+    excl_path = DATA / "backlog_exclusions.json"
+    excluded = {}
+    if excl_path.exists():
+        excluded = {norm(k): (k, v) for k, v
+                    in json.loads(excl_path.read_text("utf-8")).get("not_a_company", {}).items()}
+    backlog, skipped_known = [], []
+    for n, k in unresolved_portfolio.most_common():
+        if (hit := excluded.get(norm(n))):
+            skipped_known.append({"name": n, "investors_naming_it": k, "reason": hit[1]})
+        else:
+            backlog.append({"name": n, "investors_naming_it": k})
+
     (ROOT / "reports").mkdir(exist_ok=True)
     (ROOT / "reports" / "links.json").write_text(json.dumps({
         "unresolved_investor_names": [
             {"name": n, "mentions": k, "reason": miss_reason.get(n, "")}
             for n, k in misses.most_common()],
-        "unresolved_portfolio_companies": [
-            {"name": n, "investors_naming_it": k}
-            for n, k in unresolved_portfolio.most_common()],
+        "unresolved_portfolio_companies": backlog,
+        "excluded_from_backlog": skipped_known,
         "investor_name_collisions": collisions,
     }, ensure_ascii=False, indent=2), "utf-8")
+    if skipped_known:
+        print(f"backlog exclusions applied: {len(skipped_known)} name(s) held out as not-a-company")
     print(f"name collisions: {len(collisions)} — {n_dupe} likely duplicates, "
           f"{len(collisions) - n_dupe - n_undet} per-region vehicles, {n_undet} undetermined")
 
