@@ -1,0 +1,232 @@
+{
+  "merges": [
+    {
+      "keep": "eu-biomedvc",
+      "drop": "eu-biomedpartners",
+      "reason": "biomedvc.com states outright: 'BioMedPartners is the predecessor of BiomedVC and was founded in 2002' and 'BiomedVC was founded in 2021 to continue the legacy of BioMedPartners.' Both directory records already share the identical website (biomedvc.com). BioMedPartners is now in wind-down/harvest mode; BiomedVC is the active current vehicle.",
+      "evidence_url": "https://biomedvc.com/",
+      "add_aka": ["BioMedPartners", "BioMedPartners AG"]
+    },
+    {
+      "keep": "cn-bioventure",
+      "drop": "cn-origin-capital",
+      "reason": "en.bioventure.com.cn is the English-language mirror of bioventure.com.cn, confirmed via the site's own CN/EN language toggle in the footer ('[CN](http://www.bioventure.com.cn/) / [EN](/)'). Both pages describe the identical company (registered name 苏州工业园区元生创业投资管理有限公司, founded 2013, Suzhou BioBAY) — cn-bioventure and cn-origin-capital are the same firm entered once per language version of its site.",
+      "evidence_url": "https://bioventure.com.cn/ ; https://en.bioventure.com.cn/",
+      "add_aka": ["Origin Capital", "YuanBio Venture Capital"]
+    },
+    {
+      "keep": "cn-bioventure",
+      "drop": "cn-biobay-yuansheng-venture-capital",
+      "reason": "cn-biobay-yuansheng-venture-capital's local name (元生创投, Suzhou, spun out of BioBAY) is the identical local name and identity confirmed live on bioventure.com.cn/en.bioventure.com.cn for cn-bioventure/cn-origin-capital above — same firm, same founding story (BioBAY-seeded biomedicine VC), entered a third time under the 'Yuansheng Venture Capital (BioBAY)' framing. Lower-confidence than the other two only in that cn-biobay-yuansheng-venture-capital itself has no website field to fetch directly, but the fetched bioventure.com.cn content matches its local name and origin story exactly.",
+      "evidence_url": "https://bioventure.com.cn/",
+      "add_aka": ["Yuansheng Venture Capital (BioBAY)", "Yuansheng Chuangtou", "元生创投"]
+    },
+    {
+      "keep": "us-bakar-biolabs",
+      "drop": "us-bakar-labs",
+      "reason": "bakarlabs.org and bio.bakarlabs.org both confirm 'Bakar Labs' reorganized into an umbrella organization comprising 'Bakar Bio Labs' (the life-science incubator at 2630 Bancroft Way, Berkeley, in the retrofitted Berkeley Art Museum building, opened 2021) plus a separate 'Bakar Labs for Energy & Materials' division. us-bakar-biolabs and us-bakar-labs both describe this identical bio-focused facility/opening — same address, same 2021 launch, same QB3 affiliation — just entered under 'Bakar BioLabs' vs 'Bakar Labs' naming.",
+      "evidence_url": "https://bakarlabs.org/ ; https://bio.bakarlabs.org/",
+      "add_aka": ["Bakar Labs", "QB3 Bakar Labs"]
+    },
+    {
+      "keep": "us-foreground-capital",
+      "drop": "us-rh-capital",
+      "reason": "foreground.vc states directly that the team 'co-founded and led Foreground's precursor funds at RH Capital' and that Foreground 'continues to manage RH Capital funds.' Foreground Capital is the explicit successor organization to RH Capital — same leadership, same women's-health/reproductive-health thesis, same portfolio continuity.",
+      "evidence_url": "https://foreground.vc/",
+      "add_aka": ["RH Capital"]
+    },
+    {
+      "keep": "il-arkin-holdings",
+      "drop": "il-arkin-bio-ventures",
+      "reason": "arkin-capital.com describes 'Arkin Bio' as one of the arms/divisions within 'Arkin Health,' one of four investment arms of the single parent Arkin Capital entity — not an independently incorporated fund with its own GPs. The site explicitly frames Arkin Health/Arkin Bio, Arkin Equity, Arkin Tech and Arkin Real Estate as components of one $2B+ multi-asset manager, not separate legal entities. This runs counter to the 'fund vs. parent, two legitimate records' hypothesis — the primary source treats them as one organization.",
+      "evidence_url": "https://arkin-capital.com/",
+      "add_aka": ["Arkin Bio Ventures", "Arkin Bio"]
+    },
+    {
+      "keep": "il-ngt-healthcare",
+      "drop": "il-ngt3",
+      "reason": "ngt-healthcare2.com's own team bios describe both 'NGT3' and 'NGT HealthCare II' as successive fund names of the same organization and management team (e.g. one bio says she 'Began her career at NGT3' while the current site brands itself 'NGT HealthCare II') — NGT3 is the earlier fund vintage, NGT HealthCare II is the current active branding of the same Nazareth incubator.",
+      "evidence_url": "https://ngt-healthcare2.com/",
+      "add_aka": ["NGT3", "New Generation Technology 3"]
+    },
+    {
+      "keep": "jp-untrod-capital",
+      "drop": "jp-realtech-fund",
+      "reason": "Both original records' own name fields already cross-reference each other in parentheses ('Real Tech Fund (UntroD Capital Japan)' / 'UntroD Capital Japan (Real Tech Fund)'), and their roster aka lists mutually contain each other's names. untrod.inc's own news section lists 'Real Tech Global Fund 2' as its current fund product, confirming UntroD Capital Japan is the present-day management-company name behind the Real Tech Fund brand (fund brand + GP company, one organization).",
+      "evidence_url": "https://untrod.inc/en/ ; https://www.realtech.fund/",
+      "add_aka": ["Real Tech Fund", "リアルテックファンド", "Real Tech Holdings"]
+    },
+    {
+      "keep": "eu-high-tech-gruenderfonds",
+      "drop": "eu-htgf",
+      "reason": "Identical name ('High-Tech Gründerfonds'), identical Bonn, Germany HQ. htgf.de confirms 'High-Tech Gründerfonds (HTGF)' as the current live entity name, matching eu-high-tech-gruenderfonds's fuller name/subtypes (government-program + vc) more closely than eu-htgf's thinner record.",
+      "evidence_url": "https://www.htgf.de/en/",
+      "add_aka": ["HTGF"]
+    }
+  ],
+  "distinct": [
+    {
+      "ids": ["in-amtz", "in-medivalley-aic"],
+      "reason": "AMTZ (Andhra Pradesh MedTech Zone) is the government-backed manufacturing/innovation zone; Medi Valley AIC is confirmed to be 'a legally distinct entity' — specifically an Atal Incubation Centre ('AIC-AMTZ Medivalley Incubation Council') funded by NITI Aayog under the Atal Innovation Mission, hosted at but organizationally separate from AMTZ, with its own accreditations (NABL, BIS, CDSCO).",
+      "evidence_url": "https://www.amtz.in ; https://www.medivalley-aic.in/"
+    },
+    {
+      "ids": ["eu-bio-angels-club", "eu-business-angels-connect"],
+      "reason": "Bio Angels Club is a Spain-based angel network (Spanish-language site, Spanish healthcare-company committee members); Business Angels Connect is Rotterdam/Netherlands-based. The only collision is the shared 'BAC' abbreviation — bioangelsclub.com makes no mention of Business Angels Connect. Two unrelated organizations in different countries.",
+      "evidence_url": "https://bioangelsclub.com/"
+    },
+    {
+      "ids": ["us-biogenerator-labs", "us-biogenerator-ventures"],
+      "reason": "Confirmed as distinct operational arms under the shared BioSTL/BioGenerator parent umbrella: BioGenerator Labs runs physical wet-lab facilities, grants and coaching; BioGenerator Ventures is the investment/VC-fellows arm. Structurally parallel to the Bakar Labs / Bakar BioLabs 'incubator vs fund' split, but here the site itself keeps the two as clearly separate operational sections.",
+      "evidence_url": "https://www.biogeneratorventures.com/biogenerator-labs"
+    },
+    {
+      "ids": ["cn-highlight-capital", "cn-loyal-valley-capital"],
+      "reason": "Highlight Capital (弘晖基金 / 'Honghui Capital') and Loyal Valley Capital (力鼎资本) are unrelated Chinese growth-equity/VC firms with completely different portfolios (Highlight: healthcare/tech-manufacturing; Loyal Valley: industrial automation, consumer, biopharma). Neither site mentions the other. NOTE: cn-highlight-capital's roster aka field lists 'Loyal Valley Capital' as an alias — this appears to be a data-entry error and should be removed; nothing on either firm's own site supports the association.",
+      "evidence_url": "https://www.hlc.com.cn/ ; https://en.loyalvalleycapital.com/"
+    },
+    {
+      "ids": ["us-mbc-biolabs", "us-mission-biocapital"],
+      "reason": "MBC BioLabs is a shared wet-lab incubator; Mission BioCapital is an investment fund (offices in SF and Cambridge, MA, investing from its fifth fund). mbcbiolabs.com's own footer lists Mission BioCapital as an affiliated fund partner, and missionbiocapital.com lists 'MBC BioLabs' as one of its Shared Labs connection points — a real, current partnership between a lab-space incubator and an investment fund, structurally parallel to Bakar Labs/BioGenerator, not a duplicate entry.",
+      "evidence_url": "https://mbcbiolabs.com/ ; https://www.missionbiocapital.com/"
+    },
+    {
+      "ids": ["us-mission-bay-capital", "us-mission-biocapital"],
+      "reason": "missionbaycapital.com presents itself as a live, separately-branded site (copyright 2022) with a 'Please Select Desired Website' chooser pointing to both the Mission Bay Capital site and a separate Mission BioCapital domain, explicitly indicating 'the two entities operate as related but separate fund vehicles rather than a rebrand.' NOTE: us-mission-biocapital's roster aka field lists 'Mission Bay Capital' as an alias, which appears imprecise — they are sibling/affiliated funds (both QB3/MBC-BioLabs-linked, both founded 2009), not the same legal fund.",
+      "evidence_url": "https://www.missionbaycapital.com/"
+    },
+    {
+      "ids": ["anz-brandon-capital", "anz-cureator"],
+      "reason": "brandonbiocatalyst.com confirms CUREator is 'funded by the Australian Government's Medical Research Future Fund (MRFF) through the Department of Health, Disability and Ageing' with its own independent assessment process, distinct from Brandon Capital's core MRCF fund — 'the CUREator, AbbVie Green & Gold and CSL RAI awards and investment opportunities remain separate programs, each with its own independent assessment process.' CUREator is a grant-funded incubator program administered through Brandon BioCatalyst's management infrastructure, not the same entity as the Brandon Capital VC fund. NOTE: anz-cureator's roster aka field lists 'MRCF; Medical Research Commercialisation Fund (MRCF)' — this appears to be an error; MRCF is Brandon Capital's own fund name, not CUREator's, per this source.",
+      "evidence_url": "https://brandonbiocatalyst.com/cureator-biomedtech-incubator/"
+    },
+    {
+      "ids": ["il-hadasit", "il-hadasit-bio-holdings"],
+      "reason": "hadasit.org.il explicitly states 'Hadasit is an investor in HBL rather than being the same entity' and describes them as 'independent organizations' — Hadasit is the Hadassah Medical Center's tech-transfer company; Hadasit Bio-Holdings (HBL, TASE-listed) is a separate publicly-traded holding company in which Hadasit is a large shareholder.",
+      "evidence_url": "https://www.hadasit.org.il/about/hadasit-bio-holdings/"
+    },
+    {
+      "ids": ["anz-csiro-innovation-fund", "anz-main-sequence-ventures"],
+      "reason": "CSIRO Innovation Fund is a government-seeded deep-tech fund; Main Sequence Ventures is the independent VC firm that manages it as GP (confirmed via joint CSIRO/Main Sequence branding on mseq.vc, and the record's own name already states '(managed by Main Sequence Ventures)'). This is a legitimate fund + managing-GP pair, not a duplicate — parallel to how MBC BioLabs / Mission BioCapital or Bakar Labs / BioGenerator pairs are kept distinct.",
+      "evidence_url": "https://www.mseq.vc/"
+    },
+    {
+      "ids": ["cn-6-dimensions-capital", "cn-tf-capital"],
+      "reason": "6 Dimensions Capital (formed from the 2017 WuXi Healthcare Ventures / Frontline BioVentures merger) and TF Capital (泰福资本, early-stage China biotech VC) are unrelated firms; tfcapital.net makes no mention of 6 Dimensions Capital. The existing roster aka field on cn-6-dimensions-capital already flags this explicitly: 'TF Capital (unrelated namesake, do not confuse)' — a prior curator had already resolved this; the collision is a pure name coincidence.",
+      "evidence_url": "https://www.tfcapital.net/"
+    },
+    {
+      "ids": ["cn-medfund", "cn-panacea-venture"],
+      "reason": "medfinecapital.com confirms Medfund's identity as '幂方健康基金 | Med-Fine Capital' (幂方 = Med-Fine/'Powerfun'). Panacea Venture's own recorded local name is 松禾湃恩 — a completely different Chinese name with no lexical relationship to 幂方. These are different firms. NOTE: cn-panacea-venture's roster aka field lists '幂方健康基金; 幂方资本' (Medfund's own Chinese names) — this looks like a data-entry error where Medfund's aliases were mistakenly copied onto the Panacea Venture record; recommend removing them. Separately, cn-panacea-venture's website field (panacea.vc) is now a dead/parked GoDaddy domain — a broken-link issue worth fixing independently of this dedup question.",
+      "evidence_url": "https://www.medfinecapital.com/mifang_web/index.html"
+    },
+    {
+      "ids": ["us-fairmount-funds", "us-fairmount-paragon"],
+      "reason": "Lower confidence: fairmount.com's homepage (all that was fetchable) doesn't mention Paragon at all, so this isn't a strong external confirmation either way. However, the directory's own thesis text is unambiguous: Paragon is described as Fairmount's in-house discovery engine that validates therapeutic concepts and then spins each into a standalone, separately-financed company (Apogee, Spyre, Oruka) via reverse merger — i.e. Paragon itself is a venture-studio/portfolio-generating vehicle, not an LP investment fund competing for the same 'investor' role as Fairmount. Keeping both records reflects two different functions (capital-allocating fund vs. asset-generating venture studio) under one sponsor.",
+      "evidence_url": "https://fairmount.com/"
+    },
+    {
+      "ids": ["us-startup-health", "us-startup-health-syndicate"],
+      "reason": "The syndicate is an AngelList-hosted investment vehicle ('the first AngelList syndicate focused exclusively on digital health') through which StartUp Health invests $25K alongside outside syndicate backers into StartUp Health Academy portfolio companies. AngelList syndicates are typically structured as legally distinct per-deal SPVs from their operator, so this is StartUp Health (the long-running moonshot portfolio/community) plus a separate co-investment vehicle it operates, not a duplicate entry.",
+      "evidence_url": "https://venture.angellist.com/startup-health/syndicate"
+    },
+    {
+      "ids": ["cn-yizhuang-international-biopharma", "cn-beijing-etown-capital"],
+      "reason": "Lower confidence: etowncapital.com lists six named subsidiaries (finance leasing, financing guarantee, industrial investment management, HK holdings, automotive investment, etc.) and does not explicitly name a dedicated biopharma subsidiary among them, though it does describe direct biopharmaceutical portfolio activity. Given cn-yizhuang-international-biopharma is explicitly described internally as the 'wholly state-owned biopharmaceutical investment arm' of the same 亦庄国投 (E-Town) government platform, this looks structurally parallel to the CR Pharma dual-fund case (parent investment platform + a dedicated sector-specific investment subsidiary) rather than a duplicate entry — but the fetched subsidiary list did not explicitly confirm it, so treat with some caution.",
+      "evidence_url": "https://www.etowncapital.com/"
+    }
+  ],
+  "aliases": [
+    {
+      "name": "Gates Foundation",
+      "entity_id": "us-gates-foundation-strategic-investment-fund",
+      "reason": "'Gates Foundation Strategic Investment Fund (SIF)' record already carries aka 'Bill & Melinda Gates Foundation Strategic Investments'; 'Gates Foundation' bare mentions in portfolio-company backing data almost certainly refer to this Strategic Investment Fund vehicle, which is the Gates Foundation's program-related/mission-related investing arm.",
+      "evidence_url": "https://www.gatesfoundation.org/about/how-we-work/strategic-investment-fund"
+    },
+    {
+      "name": "Bill & Melinda Gates Foundation",
+      "entity_id": "us-gates-foundation-strategic-investment-fund",
+      "reason": "Same as above — the formal foundation name maps to the same Strategic Investment Fund record for investment-backing purposes.",
+      "evidence_url": "https://www.gatesfoundation.org/about/how-we-work/strategic-investment-fund"
+    },
+    {
+      "name": "Fidelity",
+      "entity_id": "us-fidelity-management-and-research",
+      "reason": "'Fidelity' bare mentions in crossover/late-stage biotech rounds refer to Fidelity Management & Research Company, the mutual-fund manager (FMR) that makes these private biotech investments — matches the roster record exactly (aka 'FMR; Fidelity Investments'). Distinct from F-Prime Capital (us-f-prime-capital), Fidelity's separately-branded former-VC arm.",
+      "evidence_url": "https://www.fidelity.com"
+    },
+    {
+      "name": "OrbiMed",
+      "entity_id": "us-orbimed",
+      "reason": "Bare 'OrbiMed' (no country/region qualifier) should resolve to OrbiMed Advisors (us-orbimed), the New York-headquartered parent GP; OrbiMed Asia Partners, OrbiMed Israel and OrbiMed India are its regional/dedicated funds and should only be used when the source specifies that region.",
+      "evidence_url": "https://www.orbimed.com"
+    },
+    {
+      "name": "Novo Holdings",
+      "entity_id": "eu-novo-holdings",
+      "reason": "novoholdings.dk confirms Novo Holdings A/S (Danish CVR entity, Hellerup HQ) is the single global legal/investing entity. 'Novo Holdings US Inc.', 'Novo Holdings Equity Asia Pte. Ltd.' and 'Novo Holdings Equity UK Ltd' are described as providing 'consultancy services to Novo Holdings A/S, mainly within the areas of identifying, analysing and negotiating various investment opportunities' — i.e. regional deal-sourcing support, not independent investment decision-makers. 'Novo Seeds'/'Novo Holdings Seed Investments' is an internal strategy/team, not a separate fund. Bare 'Novo Holdings' should map to the parent entity, eu-novo-holdings (whose name matches exactly).",
+      "evidence_url": "https://novoholdings.dk/"
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "entity_id": "us-lilly-ventures",
+      "reason": "lilly.com/partners describes Lilly Ventures as the 'global investment arm' within Lilly's Catalyze360 partnership initiative — Eli Lilly and Company's direct biotech investments are made through this vehicle.",
+      "evidence_url": "https://www.lilly.com/partners"
+    }
+  ],
+  "unresolved": [
+    {
+      "ids": ["tw-affinity-capital-anfu", "tw-anpu-capital"],
+      "found": "Strong internal (not externally confirmed) evidence they are the same firm: identical local name (安富資本) on both records, tw-anpu-capital's own roster aka list literally includes 'Anfu Capital', both share aka '安富大健康基金', and both theses name a chairman/founder with near-identical transliterated names ('Linn Chuan' vs 'Lin Chun') tied to Lotus Pharmaceutical / Quanfu Biotech. Could not get external confirmation: affinity.com.tw returned 403 Forbidden on every attempt, news.gbimonthly.com's fetched content had no mention of either name, and crunchbase.com/organization/anpu-capital returned 403. Recommend a human check affinity.com.tw directly (blocked to automated fetch) before merging."
+    },
+    {
+      "ids": ["cn-cr-pharma-investment-fund", "cn-crpharma-industrial-investment-fund"],
+      "found": "Both share the identical local name 华润医药产业投资基金 but differ in HQ city (Beijing vs Shenzhen) and English qualifier ('Industry' vs 'Industrial'). crpharma-industrial's own aka notes a 2025 RMB500m vehicle managed by 'Shenzhen CR Capital,' suggesting these could be two different fund vintages/phases sharing one umbrella brand name (parallel to the Hangzhou Taikun case below) rather than a straight duplicate. Neither record has a website field, and I have no working search tool this session (WebSearch budget exhausted; Bing/DuckDuckGo/Baidu all blocked automated fetches with captchas or empty JS shells) to find one independently."
+    },
+    {
+      "ids": ["cn-hangzhou-taikun-biopharma-fund", "cn-hangzhou-taikun-fund"],
+      "found": "Near-identical local names (杭州泰鲲母基金 vs 泰鲲基金, both parenthetically '杭州泰格生物医药产业基金'), both founded 2021 in Hangzhou, both co-sponsored by Tigermed, and both roster aka lists include '泰鲲母基金'. Very likely the same fund entered twice with one scout dropping the '母' (mother-fund) character, but could also be a mother-fund + direct-investment-sub-fund pair. No website on either record; could not find an independent source (search engines blocked)."
+    },
+    {
+      "ids": ["cn-jiangsu-biopharma-suzhou-mother-fund", "cn-jiangsu-suzhou-biomedicine-mother-fund"],
+      "found": "Identical local name (江苏省生物医药（苏州）产业专项母基金) on both records, both RMB 6bn, both founded 2024, both Suzhou-based state mother funds — the strongest same-org signal of any pair in this batch. However neither record has a website, and I could not reach an independent government/news source to confirm (search engines blocked). Recommend treating as a near-certain duplicate pending a human search, but I'm not calling it a hard merge without a fetched source per the ground rules."
+    },
+    {
+      "ids": ["cn-longpan-capital", "cn-longpan-investment"],
+      "found": "Both share the identical local name 龙磐投资, same Beijing HQ, same vc type, overlapping thesis (innovative drugs + high-end medical devices). Neither record has a website or aka entries. I tried longpancapital.com (DNS failure), Baidu Baike (403), a Baidu search (blocked by CAPTCHA redirect), LinkedIn (404) and Qichacha (unreadable obfuscated response) — none succeeded. Could not verify externally this session; flagging as the highest-suspicion unresolved pair given the exact local-name match, matching your own example."
+    },
+    {
+      "ids": ["cn-bohe-angel-fund", "cn-mint-angel-fund"],
+      "found": "Both share identical local name 薄荷天使基金 (薄荷 literally translates to 'mint'), both founded 2015, both describe themselves as 'China's first' angel fund dedicated to biotech, and cn-bohe-angel-fund's own roster aka already lists 'Mint Angel Fund'. Very likely the same fund (transliterated name vs. translated name), but neither record has a website and no independent source was reachable this session (search blocked)."
+    },
+    {
+      "ids": ["cn-gaotejia-investment", "cn-gt-healthcare"],
+      "found": "Internal records match closely (both local name 高特佳投资, both founded 2001, both Shenzhen-rooted), but direct fetches of both live sites were inconclusive: szgig.com (Chinese-only, '高特佳投资集团', Shenzhen/Shanghai/Beijing/HK offices, '25 years' history) makes no mention of 'GT Healthcare'; gthcap.com ('GT Healthcare Capital Partners', HK/Shanghai offices) makes no mention of 'Gaotejia' or 'SZGIG'. Genuinely inconclusive given both fetches returned real content with no cross-reference either way — could be the same firm operating an English-branded international healthcare arm, or two separately-branded entities under a shared parent group."
+    },
+    {
+      "ids": ["cn-ping-an-capital", "cn-ping-an-innovation-investment-fund"],
+      "found": "Both are Ping An Group investment vehicles with overlapping healthcare/insurer-ecosystem theses. pingan.com/chuangxintouzi confirmed 'Ping An Innovation Investment Fund' (平安创新投资基金, RMB 1B phased VC fund under the Ping An Innovation Center) with no mention of Ping An Capital. But the recorded website for cn-ping-an-capital, pafund.pingan.com, actually renders as '平安财富' (Ping An Wealth) — a different-sounding product, suggesting the website field on that record may itself be stale/wrong, which undermines confidence in ruling this in or out. Flagging as both an unresolved dedup question and a separate data-quality issue (wrong website URL on cn-ping-an-capital) worth checking independently."
+    },
+    {
+      "ids": ["tw-deyang-biotech-venture-capital", "tw-sunsino-deryang-biotech"],
+      "found": "Both records carry the literally identical Chinese legal name 德陽生物科技創業投資 (tw-sunsino-deryang-biotech's own thesis explicitly names 'Der Yang Biotechnology Venture Capital' as Sunsino/Huayang Group's dedicated biotech vehicle, using the same characters as tw-deyang-biotech-venture-capital's registered name). Strong internal signal, but sunsino.com.tw returned 403 Forbidden on two separate attempts (with and without www prefix), so I could not independently confirm via a live source this session."
+    },
+    {
+      "ids": ["tw-h-spectrum", "tw-yonglin-health-foundation", "tw-foxconn-technology-hspectrum"],
+      "found": "A genuinely three-way lineage, not a simple pair: tw-yonglin-health-foundation (family-office) is the original 2016 founder of the H.Spectrum accelerator; tw-foxconn-technology-hspectrum (cvc) is the corporate group that took over operating it as 'H.SPECTRUM+' in 2022; tw-h-spectrum (accelerator, no website) is the accelerator brand/program itself, whose entire description is already substantively captured inside the other two records' theses. I did not get a fresh fetch on ylhealth.org or foxconntech.com.tw this session. This may be a case where tw-h-spectrum should be folded into whichever entity currently operates it (Foxconn), but Yonglin Health Foundation and Foxconn Technology Co. both clearly have identities/investment activity well beyond H.Spectrum (Yonglin's own TaiKang Biotech stake; Foxconn's broader precision-medicine push), so I'm not comfortable calling this without a source read. Recommend human judgment call rather than an agent merge here."
+    },
+    {
+      "ids": ["il-ourcrowd", "il-qure-ventures"],
+      "found": "Mixed evidence. Both roster records list 'OurCrowd Qure' as a shared aka. qureventures.com describes OurCrowd's role as providing 'global network, investment leadership and in-house medical expertise' giving Qure 'unparalleled deal access' — collaborative/backing language, not explicit same-entity language. ourcrowd.com/qure returned 404 (wrong path), so I could not read OurCrowd's own framing of the relationship. Genuinely unclear whether Qure Ventures is an independently-branded fund that OurCrowd anchors as an LP, or literally OurCrowd's in-house digital-health vehicle under a separate brand."
+    },
+    {
+      "ids": ["tw-national-development-fund", "tw-ndf-smart-healthcare-investment-program"],
+      "found": "tw-ndf-smart-healthcare-investment-program reads like an earmarked NT$10bn initiative deployed through NDF's existing appointed investment-project offices, rather than a separate legal fund — which would suggest merging it into the parent tw-national-development-fund. But ndc.gov.tw returned 403 Forbidden, so I could not confirm this reading against a live source."
+    },
+    {
+      "ids": ["tw-spark-taiwan", "tw-value-creation-program"],
+      "found": "Fetched exp.stpi.narl.org.tw (SPARK Taiwan's real landing page, reached via redirect from spark.org.tw) — it describes SPARK Taiwan as supervised by Taiwan's National Science and Technology Council (NSTC) and run by STPI, but makes no mention at all of '價創計畫' or MOEA's 'Value Creation from Academic R&D Program.' Given the fetched content actively contradicts rather than supports a shared identity (different supervising ministry — NSTC vs. MOEA — and no cross-reference), these look more likely to be genuinely distinct programs, but I'm listing this as unresolved rather than 'distinct' since the collision in your candidate list still needs an explanation I don't have (possibly a stale/incorrect aka entry worth a follow-up check)."
+    }
+  ],
+  "notes": "Two findings outside the given candidate list, surfaced while researching Job 2, worth a look: (1) The roster contains an exact-name cross-region duplicate that the same-region dedup check would not catch: 'Gates Foundation Strategic Investment Fund (SIF)' appears as both row-gates-foundation-strategic-investment-fund (region: rest-of-world) and us-gates-foundation-strategic-investment-fund (region: united-states) — same name, same aka 'Gates SIF'. Recommend reviewing for merge. (2) Several 'ambiguous-exact:2' entries in missing-investors.txt (SV Health Investors, Sanofi Ventures, Ally Bridge Group, Astellas Venture Management, Novartis Venture Fund/Novartis Biome) are NOT alias failures — they are firms with a legitimate europe-region record AND a united-states-region record under the identical name (e.g. eu-sv-health-investors / us-sv-health-investors), so the auto-linker can't disambiguate without knowing which region's portfolio company triggered the mention. I did not try to force-pick a region for these since I have no per-mention company context; they need the specific backing-data row, not a generic alias. (3) Caution: 'Index Ventures' should probably NOT be aliased to eu-medicxi despite an existing aka 'Index Ventures Life Sciences' on that record — Medicxi spun out of Index Ventures' life-sciences team as an independent fund in 2016, and the current, much larger, still-active 'Index Ventures' is a separate multi-sector firm not otherwise represented in the directory; blindly aliasing bare 'Index Ventures' mentions to Medicxi could misattribute a live Index Ventures deal to the wrong (defunct-as-such) entity. (4) 'GE Healthcare' (3 mentions, reason: unknown) is very likely us-ge-healthcare-ventures by standard parent-corp/CVC-arm naming convention, but I could not get a working fetch of either gehealthcareventures.com (DNS failure) or gehealthcare.com/about/ge-healthcare-ventures (403) to confirm per the evidence rule, so I left it out of the aliases list rather than guess."
+}

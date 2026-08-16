@@ -1,0 +1,332 @@
+{
+  "sampled": 75,
+  "by_region": {
+    "australia-nz": 4,
+    "canada": 5,
+    "greater-china": 8,
+    "europe": 10,
+    "israel": 6,
+    "india": 5,
+    "japan": 6,
+    "south-korea": 6,
+    "rest-of-world": 6,
+    "southeast-asia": 5,
+    "taiwan": 4,
+    "united-states": 10
+  },
+  "by_confidence": {
+    "medium": 23,
+    "low": 30,
+    "high": 22
+  },
+  "findings": [
+    {
+      "id": "tw-tairx",
+      "severity": "critical",
+      "field": "other",
+      "claim": "Source https://isin.twse.com.tw/isin/single_main.jsp?owncode=6541 is cited to support 'ticker and listing date' for TaiRx, Inc., with quote 'Ticker: 6541 ... CFI Code: KYG8676P1037 ... Date Reference: 2017/10/26'.",
+      "verdict": "refuted",
+      "what_i_found": "Independently verified via three sources (wantgoo.com/stock/6541, cnyes.com/twstock/6541, tw.stock.yahoo.com quote for 6541) that TWSE/TPEx code 6541 belongs to Tanvex BioPharma, Inc. (泰福-KY / 泰福生技), a Cayman-registered ('-KY' suffix matches the KYG8676P1037 ISIN prefix) biosimilar drug company — a completely different company from TaiRx, Inc. The clinicaltrials.gov data for TaiRx's actual pipeline (CVM-1118, TRX-818, TRX-920) is separately confirmed and accurate, but the stock-ticker source is for the wrong company entirely.",
+      "evidence_url": "https://www.wantgoo.com/stock/6541/major-investors",
+      "suggested_fix": "Remove the 6541 ISIN source and ticker claim from the TaiRx record (it belongs to Tanvex BioPharma). If TaiRx is in fact listed on TPEx under a different code, re-source that separately; otherwise treat TaiRx as unlisted/private for this dataset."
+    },
+    {
+      "id": "anz-advancell",
+      "severity": "major",
+      "field": "country",
+      "claim": "country: Australia, hq_city: Sydney",
+      "verdict": "confirmed",
+      "what_i_found": "AdvanCell's own site still lists Sydney/Brisbane/Adelaide offices, but it also carries a July/June 2026 press release: 'AdvanCell Establishes U.S. Global Headquarters and Secures Flagship Manufacturing Facility in Greater Boston.' The company itself now designates Boston as its 'U.S. global headquarters.' The record's Australia/Sydney classification is defensible (MRCF/Brandon Capital origin, remaining AU offices) and the analyst already flagged this in verification_notes, but it is a live, materially significant redomicile signal an audit should re-surface, not just a footnote — a reader could reasonably expect hq_city to reflect the now-current 'global HQ' designation or at least a dual-HQ note.",
+      "evidence_url": "https://www.advancell.com.au/",
+      "suggested_fix": "Add an explicit dual-HQ note (Sydney + Boston 'U.S. global headquarters') or revisit whether hq_city should be Boston going forward; keep monitoring for a formal redomicile announcement."
+    },
+    {
+      "id": "jp-delta-fly-pharma",
+      "severity": "major",
+      "field": "website",
+      "claim": "website: https://delta-fly.co.jp/en/",
+      "verdict": "refuted",
+      "what_i_found": "https://delta-fly.co.jp/en/, https://delta-fly.co.jp, and https://delta-fly-pharma.co.jp all fail DNS resolution (ENOTFOUND) — this domain does not exist at all. The Japanese Wikipedia infobox for デルタフライファーマ lists the real official site as https://www.delta-flypharma.co.jp/ (note: no hyphen before 'pharma'), which loads successfully and confirms the company (anticancer 'Module Technology' drug developer), matching the record's description. Company itself is real (TSE Growth ticker 4598, founded 2010-12-06) — only the URL in the record is wrong.",
+      "evidence_url": "https://www.delta-flypharma.co.jp/",
+      "suggested_fix": "Correct website field to https://www.delta-flypharma.co.jp/"
+    },
+    {
+      "id": "il-metabomed",
+      "severity": "major",
+      "field": "other",
+      "claim": "Metabomed implied to be an active, currently-operating drug-discovery company (category: ai-drug-discovery)",
+      "verdict": "refuted",
+      "what_i_found": "metabomed.com (the company's presumed domain; not listed as 'website' in the record, which correctly left website null) currently returns a 'SYSTEM UPGRADE IN PROGRESS' maintenance-style page referencing an unrelated service called 'SEO BLACKMOLES' with copyright year 2026, plus generic infra jargon ('crawler queue paused', 'CDN Synced') — this reads as a parked/repurposed expired-domain landing page, not a legitimate Metabomed corporate site. This corroborates the record's own verification_notes suspicion that the company may no longer be operating. The Pontifax portfolio page still lists/describes Metabomed, but that alone does not prove current operating status.",
+      "evidence_url": "https://metabomed.com",
+      "suggested_fix": "Flag record for a status check (possibly inactive/defunct); do not add metabomed.com as the company website; consider lowering confidence further or noting likely-defunct status explicitly."
+    },
+    {
+      "id": "kr-jlk",
+      "severity": "major",
+      "field": "other",
+      "claim": "hq_city is listed as \"Cheongju\"",
+      "verdict": "refuted",
+      "what_i_found": "JLK's own website (jlkgroup.com/about) lists its AI R&D Center at 서울특별시 강남구 테헤란로 33길 5, 제이엘케이타워 (Gangnam-gu, Seoul) as the address referenced throughout the site as the main corporate location, while the Cheongju address (충청북도 청주시...) is labeled a 'Korean Branch Office' / secondary site. Korean Wikipedia also describes the Seoul/Gangnam address as the R&D center and lists Cheongju plus Santa Clara and Tokyo as additional offices. The weight of evidence points to Seoul, not Cheongju, as the primary HQ, though it's possible Cheongju remains the legally registered head office (본점소재지) even if Seoul is the operating HQ — worth a direct DART/corporate-registry check before changing.",
+      "evidence_url": "https://www.jlkgroup.com/about",
+      "suggested_fix": "Change hq_city to \"Seoul\" (or verify against Korean corporate registry filing which city is the legally registered head office; if Cheongju is legal HQ but Seoul is de facto operating HQ, add a note clarifying this)."
+    },
+    {
+      "id": "us-materna-medical",
+      "severity": "major",
+      "field": "regulatory",
+      "claim": "regulatory: [{ body: 'FDA', kind: 'clearance', item: 'Milli Vaginal Dilator', year: 2019 }]",
+      "verdict": "refuted",
+      "what_i_found": "Queried the FDA openFDA 510(k) database directly (by applicant 'Materna Medical' and by device name 'vaginal dilator'). The only two Milli Vaginal Dilator 510(k) clearances on record are K211959 (decision date 2021-12-01) and K220035 (decision date 2023-02-27). No clearance from 2019 exists for this device or applicant in FDA's database. 2019 more likely reflects the product's initial commercial launch date (as stated elsewhere in the record's 'what' field), not its FDA clearance date.",
+      "evidence_url": "https://api.fda.gov/device/510k.json?search=applicant:%22Materna+Medical%22",
+      "suggested_fix": "Change regulatory.year to 2021 (first 510(k) clearance, K211959) and optionally add the 2023 supplemental clearance (K220035); keep 2019 only as the commercial-launch date in the 'what' field, not as an FDA clearance year."
+    },
+    {
+      "id": "us-altos-labs",
+      "severity": "major",
+      "field": "country",
+      "claim": "hq_city: 'Los Altos, CA'",
+      "verdict": "refuted",
+      "what_i_found": "Altos Labs' own website contact page (altoslabs.com/contact) lists its primary Bay Area office as '2600 Bridge Parkway, Redwood City, CA 94065', with additional (address-less) offices in San Diego, CA and Cambridge, UK. There is no Altos Labs address in Los Altos, CA anywhere on the company's own site; archventure.com's portfolio listing for Altos Labs also gives 'San Diego, CA', not Los Altos. 'Los Altos, CA' appears to be a mix-up stemming from the company's name (which Wikipedia notes references the city of Los Altos) rather than an actual office location.",
+      "evidence_url": "https://altoslabs.com/contact",
+      "suggested_fix": "Change hq_city to 'Redwood City, CA' (per the company's own listed Bay Area headquarters address)."
+    },
+    {
+      "id": "cn-jd-health",
+      "severity": "minor",
+      "field": "website",
+      "claim": "website: https://www.jd.com/",
+      "verdict": "refuted",
+      "what_i_found": "The listed website is JD.com's general e-commerce homepage (it even 301-redirected me to tw.jd.com, JD's Taiwan storefront), not a JD-Health-specific page. I also tried the natural subdomain health.jd.com, which itself 301-redirects back to www.jd.com — so there is no reachable JD-Health-specific landing page at either URL from outside China. The company and its financials are real and well documented (see Wikipedia source), but the 'website' field doesn't actually take a visitor to anything JD-Health-specific.",
+      "evidence_url": "https://www.jd.com/",
+      "suggested_fix": "Replace with JD Health's actual investor-relations or HKEX-listing page (6618.HK) or note that the consumer-facing site is geo-restricted to mainland China, if that's confirmed."
+    },
+    {
+      "id": "cn-jd-health",
+      "severity": "minor",
+      "field": "investors",
+      "claim": "Source quote '京东健康获得超过10亿美元的A轮融资...获超9亿美元B轮融资' cited from baike.baidu.com/item/京东健康",
+      "verdict": "unreachable",
+      "what_i_found": "baike.baidu.com returned HTTP 403 Forbidden — could not load the page to check whether the quote appears. This is not evidence the claim is wrong, just that it couldn't be independently re-verified this session. The Wikipedia source for JD Health's IPO details did check out cleanly.",
+      "evidence_url": "https://baike.baidu.com/item/京东健康",
+      "suggested_fix": "Re-verify pre-IPO Series A/B funding figures via an English-language source (e.g. Crunchbase, a press release, or a cached Baidu Baike snapshot) since Baidu Baike is not reliably fetchable."
+    },
+    {
+      "id": "ca-nicoya-lifesciences",
+      "severity": "minor",
+      "field": "other",
+      "claim": "Quote 'Founded in 2012, Nicoya has grown from a single bold project into a global life-sciences company' cited from https://nicoyalife.com/",
+      "verdict": "refuted",
+      "what_i_found": "The exact quote is real and verbatim — but it lives on https://nicoyalife.com/about-us/, not on the homepage URL (https://nicoyalife.com/) that sources[] cites. I fetched the homepage twice and it does not contain any founding-date text. Separately, I confirmed the 'Applied Photophysics acquisition' direction is correct: a June 10, 2025 Nicoya press release is headlined 'Nicoya Acquires Applied Photophysics,' so Nicoya is the acquirer, not the acquired — that part of the record checks out.",
+      "evidence_url": "https://nicoyalife.com/about-us/",
+      "suggested_fix": "Update the source URL to https://nicoyalife.com/about-us/ so the citation actually points at the page containing the quoted text."
+    },
+    {
+      "id": "cn-hua-medicine",
+      "severity": "minor",
+      "field": "regulatory",
+      "claim": "NMPA NDA approval for Dorzagliatin in 2022, sourced to stockanalysis.com/quote/hkg/2552/",
+      "verdict": "refuted",
+      "what_i_found": "The cited source (stockanalysis.com) contains no regulatory/approval information at all — it's a financial profile page, and the record's own verification_notes already flags this gap honestly. I independently found the claim to be TRUE via the company's own site (huamedicine.com, which self-identifies in Chinese as 华领医药/'Hualing Pharmaceuticals' — Hua Medicine's Chinese name), which states verbatim: '该产品2022年9月30日获得中国国家药品监督管理局（NMPA）的上市批准' (the product received NMPA market approval on September 30, 2022). So the fact is correct, but the citation attached to it in sources[] doesn't actually support it.",
+      "evidence_url": "https://www.huamedicine.com",
+      "suggested_fix": "Re-point the regulatory citation to huamedicine.com or a press release confirming the Sept 30, 2022 NMPA approval date, rather than the stockanalysis.com profile page."
+    },
+    {
+      "id": "ca-phenotips",
+      "severity": "minor",
+      "field": "other",
+      "claim": "Company name recorded as 'PhenoTips'",
+      "verdict": "confirmed",
+      "what_i_found": "The site's own footer/trademark line states 'PhenoTips® is a registered trademark of Gene42 Inc.' This suggests the actual operating/legal entity is Gene42 Inc., with PhenoTips being a product/brand name rather than the company's own name. Not necessarily wrong for a VC directory (products are often more recognizable than parent entity names), but worth a consistency check against how other product-vs-company records in the dataset are handled.",
+      "evidence_url": "https://phenotips.com/",
+      "suggested_fix": "Consider adding a note or renaming to 'Gene42 (PhenoTips)' for clarity, consistent with how the dataset treats other product-branded companies."
+    },
+    {
+      "id": "ca-careguide",
+      "severity": "minor",
+      "field": "other",
+      "claim": "Source cited as https://betakit.com/?s=CareGuide",
+      "verdict": "confirmed",
+      "what_i_found": "This is a live search-results query URL, not a permalink to a specific article. It happens to still render snippets that support every claim in the record (seed round, $6M Series A, RBC $1M debt financing, Nannies4Hire acquisition, HeartPayroll spinoff, founder John Philip Green quoted as 'an unorthodox entrepreneur', and the quoted 'CareGuide is known for its unorthodox approach to growth' appears verbatim in the 'CareGuide taps into Silicon Valley Bank...' article). Content is confirmed, but a search-query URL is a fragile citation — results could change or the search feature could be altered/removed.",
+      "evidence_url": "https://betakit.com/?s=CareGuide",
+      "suggested_fix": "Cite the specific BetaKit article permalinks (e.g. the Series A/Nannies4Hire piece and the HeartPayroll spinoff piece) instead of a search query URL."
+    },
+    {
+      "id": "ca-emergconnect",
+      "severity": "minor",
+      "field": "other",
+      "claim": "Source cited as https://betakit.com/?s=EmergConnect",
+      "verdict": "confirmed",
+      "what_i_found": "Same issue as CareGuide: a search-query URL rather than a direct article permalink. The underlying claims (Waterloo HQ, ER wait-time predictor, $350K CAD all-equity SAFE pre-seed) are all confirmed present in the search snippet from the article 'EmergConnect raises $350,000 to fund emergency room wait time predictor.'",
+      "evidence_url": "https://betakit.com/?s=EmergConnect",
+      "suggested_fix": "Cite the direct BetaKit article URL instead of the search query."
+    },
+    {
+      "id": "eu-oura",
+      "severity": "minor",
+      "field": "funding.last_round",
+      "claim": "last_round.stage = \"growth\" for the $900M / Oct 2025 round",
+      "verdict": "refuted",
+      "what_i_found": "The cited Wikipedia source (en.wikipedia.org/wiki/Oura_Health) explicitly labels this round 'a Series E funding round' of US$900 million reaching an $11B valuation, not a generic 'growth' round. The amount, date, and $11B valuation are all correct — only the stage label is imprecise.",
+      "evidence_url": "https://en.wikipedia.org/wiki/Oura_Health",
+      "suggested_fix": "Change last_round.stage from \"growth\" to \"series-e\" (or \"series-e/growth\") to match the primary source's own terminology."
+    },
+    {
+      "id": "eu-neuromod-devices",
+      "severity": "minor",
+      "field": "regulatory",
+      "claim": "regulatory[0] = {body: FDA, kind: De Novo, item: Lenire}",
+      "verdict": "unreachable",
+      "what_i_found": "The company's own site (the only cited source) never uses the term 'De Novo' — it markets Lenire only as 'FDA Approved' ('the first and only FDA Approved bimodal neuromodulation tinnitus treatment device'), which is itself imprecise/promotional language for a De Novo authorization. I attempted to confirm the specific De Novo pathway directly via FDA's accessdata.fda.gov De Novo database but got HTTP 404 on plausible URLs and could not locate the record within tool budget, so the specific 'De Novo' classification (as opposed to 510(k)/PMA) is unreachable/unverified from a primary regulator source in this pass, though it is directionally consistent with general knowledge of Lenire's 2023 FDA authorization.",
+      "evidence_url": "https://neuromod.com/",
+      "suggested_fix": "Cite FDA's De Novo database entry (DEN-number) directly for this claim, or add a verification_note flagging that the pathway detail is not sourced from the company site itself."
+    },
+    {
+      "id": "eu-sensyne-health",
+      "severity": "minor",
+      "field": "other",
+      "claim": "Source #2 url is a Wikipedia search-results page (en.wikipedia.org/w/index.php?search=Sensyne+Health+AIM+delisted+2023&title=Special:Search) rather than a direct article",
+      "verdict": "confirmed",
+      "what_i_found": "The quote ('...received 1,428,571 shares in the company in exchange for patient data') IS present, but it lives in the 'Great Ormond Street Hospital' Wikipedia article, surfaced only as a search snippet by the query URL, not on a page actually about Sensyne Health/AIM delisting. The search query itself ('Sensyne Health AIM delisted 2023') returns no dedicated article — i.e., there appears to be no standalone Wikipedia article confirming an AIM delisting/administration date.",
+      "evidence_url": "https://en.wikipedia.org/wiki/Great_Ormond_Street_Hospital",
+      "suggested_fix": "Replace the source URL with the direct article https://en.wikipedia.org/wiki/Great_Ormond_Street_Hospital, and keep the verification_notes caveat that no primary source for the exact wind-down/delisting date was found."
+    },
+    {
+      "id": "eu-sensyne-health",
+      "severity": "minor",
+      "field": "other",
+      "claim": "verification_notes implies the entity's status past 'Sensyne Health Holdings Limited' (name until Oct 2022) is uncertain/unconfirmed",
+      "verdict": "confirmed",
+      "what_i_found": "Companies House (company 09427409) shows the entity has since been renamed AGAIN, to 'ARCTURIS DATA HOLDINGS LIMITED', and its current status is 'Active' (not dissolved/in administration) as a private limited company — i.e. the legal shell persists post-Sensyne-Health under a new name, consistent with the business having wound down/been stripped for parts while the corporate entity itself was not liquidated.",
+      "evidence_url": "https://find-and-update.company-information.service.gov.uk/company/09427409",
+      "suggested_fix": "Update verification_notes to note the current legal name is Arcturis Data Holdings Limited (status: Active), which further corroborates that the Sensyne Health branded business no longer operates, without confirming an insolvency event."
+    },
+    {
+      "id": "eu-neko-health",
+      "severity": "minor",
+      "field": "website",
+      "claim": "website = https://www.neko.health",
+      "verdict": "unreachable",
+      "what_i_found": "WebFetch returned completely blank content for https://www.neko.health across 3 separate attempts (likely a JS-rendered SPA or bot-blocking, not a dead/parked domain). Company existence, operations, and every funding claim are independently and thoroughly corroborated by 1 Wikipedia article and 5 TechCrunch articles spanning Feb 2023 – Jul 2026, so this looks like a tool limitation rather than evidence of a problem with the record.",
+      "evidence_url": "https://www.neko.health",
+      "suggested_fix": "No record change needed; if re-auditing, verify the homepage with a JS-capable browser/tool instead of WebFetch."
+    },
+    {
+      "id": "cn-united-family-healthcare",
+      "severity": "minor",
+      "field": "sources",
+      "claim": "sources[0].supports includes \"investors\", attached to a quote string that only covers founding/acquisition/NYSE delisting facts",
+      "verdict": "confirmed",
+      "what_i_found": "The literal quoted string in the record does NOT contain the investor names (CPIC, Warburg Pincus). Re-fetching the same Baidu Baike page specifically for investor mentions confirms both ARE on the page, just in separate sentences not captured in the record's quote: \"2022年，中国太保入股新风医疗集团。\" (CPIC took a stake in 2022) and \"2025年3月，新风医疗/和睡家医疗深化与华平投资的战略合作，华平投资进一步增持和睡家医疗股权并进入其董事会\" (Warburg Pincus increased its stake and joined the board, March 2025). So the underlying claim is true and sourced on the same page, but the quote field as written doesn't substantiate it — a citation-completeness issue, not a factual error.",
+      "evidence_url": "https://baike.baidu.com/item/%E6%96%B0%E9%A3%8E%E5%8C%BB%E7%96%97",
+      "suggested_fix": "Extend the quote field to include the two investor sentences so it actually substantiates the \"investors\" support claim, e.g. append \"...2022年，中国太保入股新风医疗集团...2025年3月，...华平投资进一步增持和睡家医疗股权并进入其董事会\"."
+    },
+    {
+      "id": "jp-modalis-therapeutics",
+      "severity": "minor",
+      "field": "other",
+      "claim": "Quoted Japanese text 'CRISPR-GNDM®は当社が開発したエピゲノム編集技術で、DNAやヒストンの修飾を変えることで、遺伝子がオンまたはオフに切り替わることを可能にします' sourced from modalistx.com homepage",
+      "verdict": "refuted",
+      "what_i_found": "Fetching https://modalistx.com/ returned a different sentence describing CRISPR-GNDM: 'エピゲノム・エディターを、目的の細胞に効率良く送り届け、高い選択性をもって目的の遺伝子のON/OFFを行う' (efficient delivery to target cells with high selectivity), not the DNA/histone-modification wording quoted in the record. Both describe the same underlying technology but are not the same text — the record's exact quote could not be located on the current homepage content that was fetched.",
+      "evidence_url": "https://modalistx.com/",
+      "suggested_fix": "Re-check the exact quote against the live site (may be on a different page such as /technology, or the copy may have changed since the quote was captured) and update to match verbatim, or mark as paraphrase rather than a direct quote."
+    },
+    {
+      "id": "il-gamida-cell",
+      "severity": "minor",
+      "field": "other",
+      "claim": "Quoted text 'we are cell therapy pioneers working to turn cells into powerful therapeutics' attributed to gamida-cell.com homepage",
+      "verdict": "refuted",
+      "what_i_found": "Homepage text actually found: 'We put the needs and experiences of patients at the core of our mission and purpose, working to turn cells into powerful therapeutics.' Only the second half of the recorded quote ('working to turn cells into powerful therapeutics') matches; the 'we are cell therapy pioneers' clause was not present in the fetched content (it may exist elsewhere on the site, but was not confirmed).",
+      "evidence_url": "https://www.gamida-cell.com/",
+      "suggested_fix": "Verify the 'cell therapy pioneers' phrase exists on the site before keeping it in the quote, or trim the quote to only the confirmed portion."
+    },
+    {
+      "id": "il-sol-gel-technologies",
+      "severity": "minor",
+      "field": "other",
+      "claim": "Source https://stockanalysis.com/stocks/SLGL supports HQ, ticker, product pipeline via quote 'develops topical dermatological drugs for patients with severe skin conditions'",
+      "verdict": "unreachable",
+      "what_i_found": "stockanalysis.com/stocks/SLGL returned HTTP 403 Forbidden — could not verify the quote directly. However, the company's own site (sol-gel.com) independently confirms HQ (Ness Ziona, Israel), Twyneo/Epsolay products, and SGT-610 Phase 3 for Gorlin Syndrome, so the underlying facts are corroborated through another channel even though this specific source could not be reached.",
+      "evidence_url": "https://stockanalysis.com/stocks/SLGL",
+      "suggested_fix": "Consider swapping the 403-blocked stockanalysis.com source for a reliably fetchable one, or add sol-gel.com itself as a secondary source."
+    },
+    {
+      "id": "in-qure-ai",
+      "severity": "minor",
+      "field": "regulatory",
+      "claim": "'19th FDA clearance' quote/claim sourced from https://qure.ai/news-press-coverages/",
+      "verdict": "unreachable",
+      "what_i_found": "Both https://qure.ai/news-press-coverages/ and the no-trailing-slash variant returned HTTP 404. Could not confirm the '19th FDA clearance' quote directly from this URL. The general FDA-clearance track record is independently corroborated by the confirmed 'six new indications' newsroom post (qure.ai/newsroom/, dated 26 Feb 2026), so the regulatory claim is plausible but this specific source link is dead.",
+      "evidence_url": "https://qure.ai/news-press-coverages/",
+      "suggested_fix": "Find the current working URL for this press item (site navigation/URL structure may have changed) or replace/remove the dead source link."
+    },
+    {
+      "id": "kr-koh-young",
+      "severity": "minor",
+      "field": "regulatory",
+      "claim": "regulatory[0].item = \"Kymero brain surgery robot\", FDA approval, year 2025",
+      "verdict": "confirmed",
+      "what_i_found": "Korean Wikipedia confirms an FDA approval in February 2025 for the company's neurosurgery robot, but consistently spells/transliterates the product name as '카이메로' which romanizes as \"Kaimero\", not \"Kymero\" (an earlier 2020 entry about the world's first brain-surgery robot supply agreement uses the Latin-alphabet spelling \"KYMERO\"). The year (2025) and the FDA-approval fact are correct; only the romanization is inconsistent between the two spellings used across sources.",
+      "evidence_url": "https://ko.wikipedia.org/wiki/고영",
+      "suggested_fix": "Consider noting both spellings (Kymero/Kaimero) or confirming which is the company's official Latin-script brand name for its FDA submission."
+    },
+    {
+      "id": "row-ilara-health",
+      "severity": "minor",
+      "field": "investors",
+      "claim": "investor_names_sample: [\"Gates Foundation\"]",
+      "verdict": "confirmed",
+      "what_i_found": "Confirmed Gates Foundation funded Ilara Health, but per the Disrupt Africa archive, this was specifically a $1.1m grant (announced as improving maternal health outcomes), not an equity/venture investment, unlike the Series A and seed rounds. Listing it in investor_names_sample alongside what are presumably equity investors could imply it was a VC-style investor when it was a philanthropic grant-maker.",
+      "evidence_url": "https://old.disruptafrica.com/?s=Ilara+Health",
+      "suggested_fix": "Consider annotating Gates Foundation as a grant funder rather than an equity investor, or move it to a separate grants/non-dilutive-funding field if the schema supports one."
+    },
+    {
+      "id": "sea-automera",
+      "severity": "minor",
+      "field": "website",
+      "claim": "website: null (record notes automerabio.com \"could not be reached this session\")",
+      "verdict": "confirmed",
+      "what_i_found": "Attempted https://automerabio.com and got a DNS resolution failure (ENOTFOUND) — the domain does not currently resolve at all, which is a stronger signal than a transient fetch failure. This is consistent with, and reinforces, the record's own low-confidence rating and its choice to leave website null.",
+      "evidence_url": "https://automerabio.com",
+      "suggested_fix": "No change needed; optionally update verification_notes to state the domain does not resolve (NXDOMAIN) rather than \"could not be reached,\" and/or search for a possibly different official domain for the company."
+    },
+    {
+      "id": "us-cityblock-health",
+      "severity": "minor",
+      "field": "funding.last_round",
+      "claim": "last_round.stage: 'series-c-plus' for the $400M / Sept 2021 / SoftBank-led round",
+      "verdict": "refuted",
+      "what_i_found": "Vator.tv's Sept 3, 2021 article on this exact round (amount $400M, date, SoftBank as lead — all matching the record) explicitly calls it a 'Series D', not a Series C extension. The $192M March 2021 round (already correctly captured via the Forbes source) was the Series C / Series C-extension; the $400M round is a distinct, later round labeled Series D by contemporaneous press.",
+      "evidence_url": "https://vator.tv/2021-09-03-bringing-primary-care-to-underserved-populations-cityblock-raises-another-400m/",
+      "suggested_fix": "Change last_round.stage from 'series-c-plus' to 'series-d'."
+    },
+    {
+      "id": "us-cityblock-health",
+      "severity": "minor",
+      "field": "investors",
+      "claim": "investor_names_sample includes 'Redpoint Ventures' listed twice",
+      "verdict": "confirmed",
+      "what_i_found": "The investor_names_sample array literally contains 'Redpoint Ventures' as both the 6th and 8th entries — a duplicate, not two distinct investors. Redpoint Ventures itself is correctly identified as the Series B lead (confirmed via TechCrunch), but it should only appear once in the list.",
+      "evidence_url": "https://techcrunch.com/2019/04/11/public-health-startup-cityblock-raises-65m-series-b/",
+      "suggested_fix": "De-duplicate the investor_names_sample array."
+    },
+    {
+      "id": "us-cityblock-health",
+      "severity": "minor",
+      "field": "funding.total_raised",
+      "claim": "total_raised: 'about $900 million', sourced to fiercehealthcare.com article",
+      "verdict": "unreachable",
+      "what_i_found": "The cited FierceHealthcare URL returned HTTP 403 Forbidden this session and could not be loaded, so the 'about $900 million' quote could not be directly verified. It is plausible given the sum of publicly reported rounds (Series B $65M + Series C $160M(Dec 2020)/$192M(Mar 2021 ext.) + Series D $400M(Sept 2021), plus earlier seed/Series A), but this specific figure/source needs re-verification with a reachable source.",
+      "evidence_url": "https://www.fiercehealthcare.com/practices/cityblock-health-raises-another-mega-round-cash-banking-a-reported-400m",
+      "suggested_fix": "Re-fetch the FierceHealthcare source through an alternate method, or replace with another reachable source (e.g. a press release or Crunchbase-style aggregator) that states the $900M cumulative figure explicitly."
+    }
+  ],
+  "quote_check": {
+    "checked": 100,
+    "found_verbatim": 90,
+    "not_found": 6,
+    "unreachable": 4
+  },
+  "calibration": "NOT well calibrated, and in the opposite direction expected. Sample: 22 high-confidence, 23 medium-confidence, 30 low-confidence records. Records with >=1 finding: high 10/22 (45%), medium 6/23 (26%), low 10/30 (33%). High-confidence records had the HIGHEST flagged-issue rate of the three tiers, not the lowest. Critically, the single 'critical' severity finding in the entire sample (tw-tairx citing a different company's stock-ticker page as its source) is on a confidence:high record, and one of the six 'major' findings (us-altos-labs wrong HQ city) is also confidence:high. Several other high-confidence records had unreachable sources or citation/support mismatches (cn-jd-health, cn-united-family-healthcare, cn-hua-medicine, eu-neko-health, il-sol-gel-technologies, in-qure-ai). Low-confidence records did surface real issues (il-metabomed likely-defunct domain, us-materna-medical wrong FDA clearance year, eu-neuromod-devices FDA pathway overstatement) but not at a materially higher rate than high-confidence ones. Conclusion: the confidence field appears to reflect how much source material the researching agent found, not whether that material was correctly transcribed — it is not a reliable proxy for correctness and should not be used to deprioritize review of 'high' records.",
+  "notes": "Sample of 75 company records drawn from data/all-companies.json (1,193 total), stratified across all 12 regions with quotas weighted toward confidence:low, plus forced inclusion of the 10 largest total_raised/valuation records (cn-jd-health $5.4B, us-altos-labs $3.0B, eu-recipharm $2.1B, cn-united-family-healthcare $1.44B, eu-oura $1.2B, us-lifestance-health $1.2B, us-resilience $1.0B, eu-neko-health $1.0B, us-cityblock-health $900M) and one record already self-flagged in its own verification_notes (anz-advancell). Work was parallelized across 5 sub-agents (15 records each), each independently loading WebFetch and fetching company websites + every sources[] URL. Zero companies in the sample were dead/non-existent, and zero were miscategorized funds/accelerators — the dataset's basic integrity (real, disjoint operating companies) held up well. Errors instead cluster in: (1) HQ city/location drift as companies relocate/redomicile post-round (anz-advancell Boston HQ, us-altos-labs Redwood City not 'Los Altos', kr-jlk Seoul vs Cheongju); (2) source-quote mismatches where the citation doesn't literally contain the claimed support text even though the underlying fact is often still true elsewhere on the same domain (cn-hua-medicine, cn-united-family-healthcare, eu-sensyne-health); (3) one outright wrong source URL (tw-tairx pointing to a different company's stock listing page); (4) specific numeric/date drift on regulatory claims (us-materna-medical FDA clearance year off by 2, verified against openFDA 510(k) database) and funding round-stage labels (eu-oura 'growth' vs actual 'Series E', us-cityblock-health 'series-c-plus' vs actual 'Series D'). [chunk1] Chunk overall is in good shape — no dead domains, no fund/accelerator miscategorized as an operating company, and every 'what it does' description matched the live website. The most interesting pattern is a cluster of minor sourcing-hygiene issues rather than factual errors: (1) two BetaKit citations (CareGuide, EmergConnect) point at live search-query URLs instead of stable article permalinks — the content still checks out today but the citation is fragile; (2) the Nicoya founding-date quote is real but lives on a different page than the cited URL; (3) Hua Medicine's regulatory (NMPA/2022) claim is true but not actually supported by its cited source — it required an independent fetch of huamedicine.com to confirm. AdvanCell is the one record where a field (country/hq_city = Australia/Sydney) is defensible today but sits on a real, current tension: the company's own PR now calls Boston its 'U.S. global headquarters' as of June 2026, which is exactly the kind of fast-moving fact a periodic audit should keep re-checking. No investor name in this chunk looked implausible for its round (Sanofi Ventures/SV Health/Morningside/Brandon Capital for AdvanCell's radiopharma Series D; Hillhouse for JD Health; Wesfarmers Health directly confirmed as SiSU Health's owner on SiSU's own site, which is actually stronger confirmation than the record's own cautious verification_notes suggested). | [chunk2] This chunk is notably clean: all 15 companies exist, match their descriptions, and are genuine operating companies (none turned out to be a VC fund/accelerator miscategorized as a portfolio company). Every website resolved to the right company except neko.health, which returned blank content from WebFetch on 3 attempts despite being clearly live and well-covered by press (likely a JS-heavy SPA or bot-blocking issue with the fetch tool, not a dead domain). The eu-neko-health record is the standout for source rigor in this chunk — 6 sources, all independently confirmed near-verbatim, spanning a 2023-2026 funding history (Series A $65M -> Series B $260M -> Series C $700M) that is internally consistent and matches TechCrunch reporting exactly, including a round dated 2026-07 that is plausible given today's date (2026-08-16). No numeric/currency errors were found anywhere in this chunk (all $ amounts, dates, and valuations checked against primary/secondary sources matched exactly). The issues found are all citation-hygiene / precision problems (an imprecise funding-stage label on eu-oura, a search-URL-instead-of-article-URL source on eu-sensyne-health, a quote that doesn't cover everything its 'supports' field claims on cn-united-family-healthcare, and one regulatory sub-claim ('De Novo' pathway specifically) that couldn't be pinned to a primary FDA source) rather than any outright fabrication or contradiction. The already-present verification_notes/confidence fields in this chunk are generally well-calibrated — records the compiler was unsure about (cn-xiamen-yuanshen-rehab, eu-neuromod-devices, eu-novadip-biosciences, eu-sensyne-health, eu-synact-pharma, il-biond-biologics, il-cardiovalve, il-dariohealth) were correctly marked low/medium confidence. | [chunk3] This chunk (Israel, India, Japan, South Korea) was generally strong — most records are real operating companies whose homepage/Wikipedia sources substantiate the described business, HQ, and regulatory claims. The single most serious defect is jp-delta-fly-pharma: the recorded website (https://delta-fly.co.jp/en/) does not resolve at all (DNS failure), and neither does a couple of plausible variants tried; the real official site is https://www.delta-flypharma.co.jp/ (missing hyphen before 'pharma' in the record's URL) — an easy, high-confidence fix. il-metabomed is a soft red flag: its likely domain (metabomed.com) currently serves what looks like a parked/repurposed SEO-squatter page, consistent with the record's own suspicion that the company may be defunct; this is worth a status re-check rather than a URL fix. Two sources were blocked/dead (stockanalysis.com 403 for Sol-Gel, qure.ai/news-press-coverages 404 for Qure.ai) — both 'unreachable,' not contradicted, and both companies' core claims are independently corroborated elsewhere. Two quotes (il-gamida-cell, jp-modalis-therapeutics) did not appear verbatim on the fetched page — in both cases a related but textually different sentence was found instead, suggesting the quotes may have been paraphrased/reconstructed rather than copied exactly, though the underlying facts were not contradicted. Records that had self-flagged uncertainty in their own verification_notes (gamida-cell HQ/ticker/FDA status, medpeer delisting, molbio IPO status) were well-calibrated: where I could re-check them, the caution proved appropriate or the facts were further corroborated, not contradicted. Investor sanity checks (Pontifax for Metabomed, Temasek for Molbio, SoftBank Vision Fund 2 for AI Medical Service, the Kyoto University/Mitsubishi UFJ/Yakult trio for Delta-Fly Pharma, and the Sequoia/Lightspeed/Novo Holdings group for Qure.ai) all look like real, plausible investors for these rounds/company types. | [chunk4] This chunk (mostly South Korea + Rest-of-World/Africa-MENA + Southeast Asia operating companies) was noticeably cleaner than a typical chunk: no dead domains, no misclassified VC funds/accelerators masquerading as operating companies, and every funding figure I could check (Ilara Health's $5.585m build-up, Reliance Health's $40m Series B / $48m total, PureHealth's AED 14.9bn H1-2026 revenue, Mediclinic's £3.7bn take-private) reconciled exactly against the cited sources. The main recurring soft spot is HQ-city precision for Korean entries sourced mainly from Korean Wikipedia — JLK's hq_city (Cheongju) looks outdated/wrong relative to the company's own site (Seoul is now the primary address, Cheongju downgraded to a branch office); worth spot-checking other Korean-region hq_city fields sourced the same way. Several records (GenBody, Koh Young, Ilara Health, Mediclinic, mPharma, Reliance Health, Saudi German Hospitals) have website: null even though a plausible official domain likely exists and could be fetched in a future pass to raise confidence and cross-check hq_city/founding-year fields. Records with website: null were only checked against their listed sources, not against an independently-discovered official site, per the task's scope. | [chunk5] Overall this chunk is fairly clean on company existence/website/category (all 15 are real operating companies, no funds/accelerators mistakenly included, no dead domains). Two notable patterns: (1) Two Taiwan records cite TWSE/TPEx ISIN lookup pages (isin.twse.com.tw) for ticker/listing-date facts; one of the two (TaiRx, code 6541) is a source-attribution error pointing to Tanvex BioPharma instead — worth auditing any other records in the dataset that used the same isin.twse.com.tw pattern, since the page's Big5 encoding renders as mojibake when fetched directly, which may have caused whoever compiled the data to misread/mis-copy the company name it belongs to. (2) FDA's public openFDA 510(k) API (api.fda.gov/device/510k.json) is a fast, reliable, machine-readable way to independently verify medtech regulatory claims in this dataset (used successfully to confirm CureMetrix's K250754 and to refute Materna Medical's 2019 clearance-year claim) — worth using more systematically for other medtech/diagnostics records across chunks. Cerevel Therapeutics is worth flagging at the dataset level (not this record specifically) since it was fully acquired by AbbVie in Aug 2024 and no longer exists as an independent company — the record already handles this correctly in past tense, so no fix needed here, just a heads-up if the dataset's intent is 'currently operating, fundable' companies only."
+}

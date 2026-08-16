@@ -1,8 +1,12 @@
 [
   {
     "id": "jp-medventure-partners",
-    "name": { "en": "MedVenture Partners" },
-    "aka": ["MVP"],
+    "name": {
+      "en": "MedVenture Partners"
+    },
+    "aka": [
+      "MVP"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2013,
@@ -12,20 +16,50 @@
     "website": "https://www.medvp.co.jp/",
     "capital": {
       "funds": [
-        { "name": "MPI-1 Investment Business LPS (Fund I)", "vintage_year": 2013, "size": { "raw": "60億円規模", "usd": null, "currency": "JPY" } },
-        { "name": "MPI-2 Investment Business LPS (Fund II)", "vintage_year": 2019, "size": { "raw": "100億円規模", "usd": null, "currency": "JPY" } }
+        {
+          "name": "MPI-1 Investment Business LPS (Fund I)",
+          "vintage_year": 2013,
+          "size": {
+            "raw": "60億円規模",
+            "usd": null,
+            "currency": "JPY"
+          }
+        },
+        {
+          "name": "MPI-2 Investment Business LPS (Fund II)",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "100億円規模",
+            "usd": null,
+            "currency": "JPY"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Japan"],
-      "sector_focus": ["medtech-devices"],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "medtech-devices"
+      ],
       "thesis": "Japan's first dedicated medical-device incubation VC, established by INCJ and Mizuho Bank to build a commercialization model for Japan-origin medical device technology; backs seed-to-late-stage medtech ventures (catheters, stents, cardiovascular and other advanced controlled medical devices) with hands-on regulatory and commercialization support."
     },
     "lifesci": {
-      "modalities": ["medical-hardware"],
-      "indications": ["cardiovascular"],
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
       "company_creation": false,
       "invests_public_markets": false,
       "science_platform_notes": "Team combines medical-device industry operators and clinicians; Fund I focused heavily on cardiovascular catheters/stents."
@@ -33,9 +67,15 @@
     "track_record": {
       "portfolio_count": "12 companies (Fund I)",
       "notable_investments": [],
-      "co_investors": ["INCJ", "Mizuho Bank"]
+      "co_investors": [
+        "INCJ",
+        "Mizuho Bank"
+      ]
     },
-    "tags": ["medical-device-specialist", "nihonbashi-adjacent"],
+    "tags": [
+      "medical-device-specialist",
+      "nihonbashi-adjacent"
+    ],
     "summary": {
       "en": "Tokyo-based venture capital firm founded in 2013 that specializes exclusively in medical device startups, from seed through late stage, and pioneered a dedicated medical-device incubation fund model in Japan.",
       "local": "2013年設立、医療機器分野に特化した日本のベンチャーキャピタル。シード期からレイター期まで医療機器ベンチャーへ投資し、日本発の医療機器インキュベーションファンドのモデルを築いた。"
@@ -73,7 +113,10 @@
   },
   {
     "id": "jp-diamond-medino-capital",
-    "name": { "en": "Diamond Medino Capital", "local": "Diamond Medino Capital株式会社" },
+    "name": {
+      "en": "Diamond Medino Capital",
+      "local": "Diamond Medino Capital株式会社"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2022,
@@ -83,28 +126,59 @@
     "website": "https://diamondmedino.com/",
     "capital": {
       "funds": [
-        { "name": "DMC1号投資事業有限責任組合 (DMC Fund I)", "vintage_year": 2022, "size": { "raw": "40〜50億円(上限)", "usd": null, "currency": "JPY" } }
+        {
+          "name": "DMC1号投資事業有限責任組合 (DMC Fund I)",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "40〜50億円(上限)",
+            "usd": null,
+            "currency": "JPY"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Japan"],
-      "sector_focus": ["medtech-devices", "therapeutics"],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "therapeutics"
+      ],
       "thesis": "Healthcare (medical device and pharmaceutical) specialist VC founded and led by an active medical-school professor, pairing clinical/engineering (医工連携) expertise with finance to move Japan's basic medical technologies from academia to global commercialization."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "small-molecule"],
+      "modalities": [
+        "medical-hardware",
+        "small-molecule"
+      ],
       "indications": [],
       "company_creation": false,
       "invests_public_markets": false,
       "science_platform_notes": "Investment committee includes an active practicing medical professor (CEO), engineers, and finance professionals; hands-on venture-building support."
     },
-    "track_record": { "portfolio_count": null, "notable_investments": [], "co_investors": [] },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": [],
+      "co_investors": []
+    },
     "people": [
-      { "name": "Terumitsu Hasebe (長谷部光泉)", "role": "Representative / CEO", "background": "Active professor, Tokai University School of Medicine" }
+      {
+        "name": "Terumitsu Hasebe (長谷部光泉)",
+        "role": "Representative / CEO",
+        "background": "Active professor, Tokai University School of Medicine"
+      }
     ],
-    "tags": ["physician-led", "medtech-and-pharma"],
+    "tags": [
+      "physician-led",
+      "medtech-and-pharma"
+    ],
     "summary": {
       "en": "Tokyo (Marunouchi)-based venture capital firm founded in 2022 by an active medical-school professor, running a fund specialized in healthcare — medical devices and pharmaceuticals — from seed through mid-stage.",
       "local": "2022年設立、東京・丸の内拠点。現役医学部教授が率いる、医療機器・医薬品に特化したヘルスケア専門ベンチャーキャピタル。"
@@ -134,9 +208,14 @@
   },
   {
     "id": "jp-bio-engineering-capital",
-    "name": { "en": "Bio Engineering Capital", "local": "BioEngineeringCapital株式会社" },
+    "name": {
+      "en": "Bio Engineering Capital",
+      "local": "BioEngineeringCapital株式会社"
+    },
     "type": "vc",
-    "subtypes": ["venture-studio"],
+    "subtypes": [
+      "venture-studio"
+    ],
     "status": "active",
     "founded_year": 2024,
     "region": "japan",
@@ -144,25 +223,54 @@
     "hq_city": "Tokyo",
     "website": "https://bioengineering.capital/en/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Japan"],
-      "sector_focus": ["diagnostics", "digital-health", "cell-gene-therapy"],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "diagnostics",
+        "digital-health",
+        "cell-gene-therapy"
+      ],
       "thesis": "Nihonbashi-based VC and company-builder founded by ex-LPIXEL CEO Yuki Shimahara to create an entrepreneurial ecosystem around medical AI/DX (including AI-based diagnostic imaging) and regenerative medicine, co-founding and investing in startups alongside domain experts."
     },
     "lifesci": {
-      "modalities": ["software-samd", "ai-ml-platform", "cell-therapy"],
+      "modalities": [
+        "software-samd",
+        "ai-ml-platform",
+        "cell-therapy"
+      ],
       "indications": [],
       "company_creation": true,
       "invests_public_markets": false,
       "science_platform_notes": "Joint research agreement with Tokyo Medical and Dental University's Open Innovation Center; founder previously built LPIXEL, an AI medical-imaging company."
     },
-    "track_record": { "portfolio_count": null, "notable_investments": [], "co_investors": [] },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": [],
+      "co_investors": []
+    },
     "people": [
-      { "name": "Yuki Shimahara (島原佑基)", "role": "CEO / Co-founder", "background": "PhD; founder of LPIXEL Inc., an AI medical-imaging startup" },
-      { "name": "Mamoru Taniya", "role": "Chairperson / Director", "background": "35+ years in finance; angel investor" }
+      {
+        "name": "Yuki Shimahara (島原佑基)",
+        "role": "CEO / Co-founder",
+        "background": "PhD; founder of LPIXEL Inc., an AI medical-imaging startup"
+      },
+      {
+        "name": "Mamoru Taniya",
+        "role": "Chairperson / Director",
+        "background": "35+ years in finance; angel investor"
+      }
     ],
-    "tags": ["company-creation", "medical-ai-dx", "nihonbashi"],
+    "tags": [
+      "company-creation",
+      "medical-ai-dx",
+      "nihonbashi"
+    ],
     "summary": {
       "en": "Tokyo (Nihonbashi)-based venture capital firm and company-builder founded in 2024 by LPIXEL's former CEO, focused on creating and funding startups in medical AI/DX (including diagnostic imaging) and regenerative medicine.",
       "local": "2024年設立、東京・日本橋拠点。元LPIXEL社長が創業した、医療AI/DX（画像診断含む）と再生医療領域の起業支援・投資を行うVC兼カンパニークリエイション組織。"
@@ -192,46 +300,108 @@
   },
   {
     "id": "jp-beyond-next-ventures",
-    "name": { "en": "Beyond Next Ventures", "local": "ビヨンドネクストベンチャーズ株式会社" },
+    "name": {
+      "en": "Beyond Next Ventures",
+      "local": "ビヨンドネクストベンチャーズ株式会社"
+    },
     "type": "vc",
-    "subtypes": ["accelerator", "incubator"],
+    "subtypes": [
+      "accelerator",
+      "incubator"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "japan",
     "country": "Japan",
     "hq_city": "Tokyo",
-    "offices": [{ "country": "India", "city": "" }],
+    "offices": [
+      {
+        "country": "India",
+        "city": ""
+      }
+    ],
     "website": "https://beyondnextventures.com/",
     "capital": {
       "funds": [
-        { "name": "Fund I", "vintage_year": 2015, "size": { "raw": "55億円", "usd": null, "currency": "JPY" } },
-        { "name": "Fund II", "vintage_year": 2018, "size": { "raw": "165億円", "usd": null, "currency": "JPY" } },
-        { "name": "Fund III", "vintage_year": 2023, "size": { "raw": "250億円規模", "usd": null, "currency": "JPY" } }
+        {
+          "name": "Fund I",
+          "vintage_year": 2015,
+          "size": {
+            "raw": "55億円",
+            "usd": null,
+            "currency": "JPY"
+          }
+        },
+        {
+          "name": "Fund II",
+          "vintage_year": 2018,
+          "size": {
+            "raw": "165億円",
+            "usd": null,
+            "currency": "JPY"
+          }
+        },
+        {
+          "name": "Fund III",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "250億円規模",
+            "usd": null,
+            "currency": "JPY"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["Japan", "India"],
-      "sector_focus": ["medtech-devices", "digital-health", "life-science-tools"],
+      "geo_focus": [
+        "Japan",
+        "India"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health",
+        "life-science-tools"
+      ],
       "thesis": "Independent deep-tech VC and startup studio, active in medical devices and digital health since 2015 (ultra-compact/mobile medical devices, telemedicine, digital hospital), running the BRAVE acceleration program and the Beyond BioLAB TOKYO wet-lab in Nihonbashi to spin research seeds into companies."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "digital-therapeutics", "wearables-sensors"],
+      "modalities": [
+        "medical-hardware",
+        "digital-therapeutics",
+        "wearables-sensors"
+      ],
       "indications": [],
       "company_creation": true,
       "invests_public_markets": false,
       "science_platform_notes": "Operates Beyond BioLAB TOKYO wet-lab space (Nihonbashi) and the BRAVE deep-tech acceleration program; has run joint programs with National Cancer Center Japan on digital medical devices."
     },
-    "track_record": { "portfolio_count": "~80 companies across 3 funds", "notable_investments": [], "co_investors": [] },
+    "track_record": {
+      "portfolio_count": "~80 companies across 3 funds",
+      "notable_investments": [],
+      "co_investors": []
+    },
     "program": {
       "format": "in-person/hybrid",
       "location": "Nihonbashi, Tokyo",
       "lab_space": true,
       "demo_day": true,
-      "perks": ["Beyond BioLAB TOKYO wet-lab access"]
+      "perks": [
+        "Beyond BioLAB TOKYO wet-lab access"
+      ]
     },
-    "tags": ["deep-tech", "medical-device", "digital-health", "company-creation", "nihonbashi"],
+    "tags": [
+      "deep-tech",
+      "medical-device",
+      "digital-health",
+      "company-creation",
+      "nihonbashi"
+    ],
     "summary": {
       "en": "Tokyo-based deep-tech venture capital firm and accelerator, founded in 2014, that has been a leading early-stage investor in Japanese medical-device and digital-health startups since around 2015, combining fund investment with its BRAVE program and Nihonbashi wet-lab.",
       "local": "2014年設立の東京拠点ディープテックVC・アクセラレーター。2015年頃から医療機器・デジタルヘルス領域のアーリーステージ投資をリードし、BRAVEプログラムや日本橋のウェットラボを運営。"
@@ -261,8 +431,16 @@
   },
   {
     "id": "jp-untrod-capital",
-    "name": { "en": "UntroD Capital Japan (Real Tech Fund)", "local": "UntroD Capital Japan株式会社" },
-    "aka": ["Real Tech Fund", "リアルテックファンド", "Real Tech Holdings"],
+    "name": {
+      "en": "UntroD Capital Japan (Real Tech Fund)",
+      "local": "UntroD Capital Japan株式会社"
+    },
+    "aka": [
+      "Real Tech Fund",
+      "リアルテックファンド",
+      "Real Tech Holdings",
+      "Real Tech Fund (UntroD Capital Japan)"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2015,
@@ -271,18 +449,37 @@
     "hq_city": "Tokyo",
     "website": "https://untrod.inc/en/",
     "capital": {
-      "aum": { "raw": "AUM exceeding ¥30 billion across Real Tech Fund I-IV, Global Fund I-II, and Growth Fund I", "usd": null, "currency": "JPY" }
+      "aum": {
+        "raw": "AUM exceeding ¥30 billion across Real Tech Fund I-IV, Global Fund I-II, and Growth Fund I",
+        "usd": null,
+        "currency": "JPY"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "lead",
-      "geo_focus": ["Japan", "global"],
-      "sector_focus": ["medtech-devices", "medical-imaging", "life-science-tools"],
+      "geo_focus": [
+        "Japan",
+        "global"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "medical-imaging",
+        "life-science-tools"
+      ],
       "thesis": "Pioneering Japanese deep-tech ('real tech') VC since 2015, providing lead investment and hands-on support to seed/early-stage hard-science startups tackling societal and environmental challenges, with a track record of medical-device and diagnostics-adjacent investments."
     },
     "lifesci": {
-      "modalities": ["medical-hardware"],
-      "indications": ["cardiovascular"],
+      "modalities": [
+        "medical-hardware"
+      ],
+      "indications": [
+        "cardiovascular"
+      ],
       "company_creation": false,
       "invests_public_markets": false,
       "science_platform_notes": "Coined the term 'real tech' before 'deep tech' became common in Japan; portfolio includes AMI's AI-assisted ultrasonic stethoscope and ANSeeN's low-dose X-ray sensor."
@@ -290,12 +487,24 @@
     "track_record": {
       "portfolio_count": null,
       "notable_investments": [
-        { "company": "AMI", "sector": "medtech-devices", "outcome": "active" },
-        { "company": "ANSeeN", "sector": "medical-imaging", "outcome": "active" }
+        {
+          "company": "AMI",
+          "sector": "medtech-devices",
+          "outcome": "active"
+        },
+        {
+          "company": "ANSeeN",
+          "sector": "medical-imaging",
+          "outcome": "active"
+        }
       ],
       "co_investors": []
     },
-    "tags": ["deep-tech", "real-tech", "medical-imaging"],
+    "tags": [
+      "deep-tech",
+      "real-tech",
+      "medical-imaging"
+    ],
     "summary": {
       "en": "Tokyo-based deep-tech ('real tech') VC founded in 2015, managing over ¥30 billion across multiple Real Tech Funds, with a portfolio track record in medical devices such as an AI-assisted digital stethoscope and a low-radiation-dose X-ray sensor.",
       "local": "2015年設立の東京拠点ディープテック（リアルテック）VC。複数のリアルテックファンドで300億円超を運用し、AI聴診器やX線センサーなど医療機器分野への投資実績を持つ。"
@@ -319,13 +528,16 @@
       }
     ],
     "confidence": "medium",
-    "verification_notes": "UntroD (Real Tech Fund) is a generalist deep-tech investor across many hard-science domains, not medtech-exclusive; included for its verified, repeated medical-device/diagnostics portfolio activity. AUM figure reported in a partner-facing PDF, not independently cross-verified.",
+    "verification_notes": "UntroD (Real Tech Fund) is a generalist deep-tech investor across many hard-science domains, not medtech-exclusive; included for its verified, repeated medical-device/diagnostics portfolio activity. AUM figure reported in a partner-facing PDF, not independently cross-verified. Merged jp-realtech-fund into this record on 2026-08-16: Both original records' own name fields already cross-reference each other in parentheses ('Real Tech Fund (UntroD Capital Japan)' / 'UntroD Capital Japan (Real ",
     "last_updated": "undefined",
     "researched_by": "medtech-diagnostics-vc"
   },
   {
     "id": "jp-indee-capital",
-    "name": { "en": "INDEE Capital", "local": "INDEE Capital株式会社" },
+    "name": {
+      "en": "INDEE Capital",
+      "local": "INDEE Capital株式会社"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2024,
@@ -334,15 +546,37 @@
     "hq_city": "Tokyo",
     "website": "https://indee-capital.com/",
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Japan"],
-      "sector_focus": ["medtech-devices", "digital-health", "generalist-health"],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "digital-health",
+        "generalist-health"
+      ],
       "thesis": "Deep-tech-focused early-stage VC (subsidiary of innovation consultancy INDEE Japan) investing from pre-seed/seed in science-based startups across medical/healthcare, AI, and robotics, providing IP commercialization and business-model support alongside capital."
     },
-    "lifesci": { "modalities": [], "indications": [], "company_creation": null, "invests_public_markets": false },
-    "track_record": { "portfolio_count": null, "notable_investments": [], "co_investors": [] },
-    "tags": ["deep-tech", "early-stage", "spinoff"],
+    "lifesci": {
+      "modalities": [],
+      "indications": [],
+      "company_creation": null,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "portfolio_count": null,
+      "notable_investments": [],
+      "co_investors": []
+    },
+    "tags": [
+      "deep-tech",
+      "early-stage",
+      "spinoff"
+    ],
     "summary": {
       "en": "Tokyo-based deep-tech venture capital firm launched in July 2024 as the investment arm of innovation consultancy INDEE Japan, backing early-stage science-based startups including medical/healthcare ventures.",
       "local": "2024年7月設立、イノベーションコンサルティング企業INDEE Japanの投資子会社として発足したディープテックVC。医療・ヘルスケアを含む科学技術系アーリーステージ・スタートアップに投資。"
@@ -372,38 +606,96 @@
   },
   {
     "id": "jp-miyako-capital",
-    "name": { "en": "Miyako Capital", "local": "みやこキャピタル株式会社" },
+    "name": {
+      "en": "Miyako Capital",
+      "local": "みやこキャピタル株式会社"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2013,
     "region": "japan",
     "country": "Japan",
     "hq_city": "Kyoto",
-    "offices": [{ "country": "Japan", "city": "Tokyo" }, { "country": "United States", "city": "Silicon Valley" }],
+    "offices": [
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      },
+      {
+        "country": "United States",
+        "city": "Silicon Valley"
+      }
+    ],
     "website": "https://miyakocapital.com/",
     "capital": {
       "funds": [
-        { "name": "Fund I", "vintage_year": 2015, "size": { "raw": "73.3億円", "usd": null, "currency": "JPY" } },
-        { "name": "Fund II", "vintage_year": 2019, "size": { "raw": "142.1億円", "usd": null, "currency": "JPY" } },
-        { "name": "Fund III", "vintage_year": 2023, "size": { "raw": "93.6億円", "usd": null, "currency": "JPY" } }
+        {
+          "name": "Fund I",
+          "vintage_year": 2015,
+          "size": {
+            "raw": "73.3億円",
+            "usd": null,
+            "currency": "JPY"
+          }
+        },
+        {
+          "name": "Fund II",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "142.1億円",
+            "usd": null,
+            "currency": "JPY"
+          }
+        },
+        {
+          "name": "Fund III",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "93.6億円",
+            "usd": null,
+            "currency": "JPY"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Japan"],
-      "sector_focus": ["therapeutics", "medtech-devices", "life-science-tools"],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "life-science-tools"
+      ],
       "thesis": "Kyoto University-affiliated independent deep-tech VC investing since 2013 with a strong life-sciences bent — drug discovery, medical devices, and health-related services — commercializing academic IP from Kyoto University and other research institutions through to global exit."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "small-molecule"],
+      "modalities": [
+        "medical-hardware",
+        "small-molecule"
+      ],
       "indications": [],
       "company_creation": false,
       "invests_public_markets": false,
       "science_platform_notes": "HQ inside Kyoto University's International Science Innovation Building; leadership backgrounds emphasize life sciences and medical devices."
     },
-    "track_record": { "portfolio_count": "50+ companies", "notable_investments": [], "co_investors": [] },
-    "tags": ["university-affiliated", "kyoto", "life-science"],
+    "track_record": {
+      "portfolio_count": "50+ companies",
+      "notable_investments": [],
+      "co_investors": []
+    },
+    "tags": [
+      "university-affiliated",
+      "kyoto",
+      "life-science"
+    ],
     "summary": {
       "en": "Kyoto-based independent VC founded in 2013 and headquartered on the Kyoto University campus, with a long track record investing in life-science ventures spanning drug discovery, medical devices, and health services, alongside AI/IT and deep-tech deals.",
       "local": "2013年設立、京都大学キャンパス内に拠点を置く独立系VC。創薬・医療機器・健康関連サービスなどライフサイエンス領域を中心に、AI/IT等ディープテック分野にも投資。"
@@ -425,7 +717,10 @@
   },
   {
     "id": "jp-capital-medica-ventures",
-    "name": { "en": "Capital Medica Ventures", "local": "キャピタルメディカ・ベンチャーズ株式会社" },
+    "name": {
+      "en": "Capital Medica Ventures",
+      "local": "キャピタルメディカ・ベンチャーズ株式会社"
+    },
     "type": "vc",
     "status": "active",
     "founded_year": 2016,
@@ -434,26 +729,49 @@
     "hq_city": "Tokyo",
     "website": "https://capitalmedicaventures.com/",
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Japan"],
-      "sector_focus": ["healthcare-services", "medtech-devices"],
+      "geo_focus": [
+        "Japan"
+      ],
+      "sector_focus": [
+        "healthcare-services",
+        "medtech-devices"
+      ],
       "thesis": "Impact-investing VC spun out of the Capital Medica hospital-management group, backing broad healthcare/eldercare/wellbeing startups — including several medical-device makers — with hands-on support and Impact Measurement and Management (IMM) practice."
     },
     "lifesci": {
-      "modalities": ["medical-hardware", "digital-therapeutics"],
-      "indications": ["cardiovascular", "musculoskeletal-orthopedics"],
+      "modalities": [
+        "medical-hardware",
+        "digital-therapeutics"
+      ],
+      "indications": [
+        "cardiovascular",
+        "musculoskeletal-orthopedics"
+      ],
       "company_creation": false,
       "invests_public_markets": false
     },
     "track_record": {
       "portfolio_count": null,
       "notable_investments": [
-        { "company": "mediVR", "sector": "medtech-devices", "outcome": "active" }
+        {
+          "company": "mediVR",
+          "sector": "medtech-devices",
+          "outcome": "active"
+        }
       ],
       "co_investors": []
     },
-    "tags": ["impact-investing", "healthcare-services", "hospital-group-affiliated"],
+    "tags": [
+      "impact-investing",
+      "healthcare-services",
+      "hospital-group-affiliated"
+    ],
     "summary": {
       "en": "Tokyo-based venture capital firm founded in 2016 and affiliated with the Capital Medica hospital-management group, running impact funds for broad healthcare/eldercare startups whose portfolio includes VR-rehabilitation, vagus-nerve-stimulation cardiac, and phonocardiography medical-device makers.",
       "local": "2016年設立、病院経営グループ「キャピタルメディカ」系列の東京拠点VC。広義のヘルスケア・介護スタートアップ向けインパクトファンドを運営し、VRリハビリ機器や心臓病治療機器など医療機器企業にも投資。"

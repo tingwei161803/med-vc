@@ -1,8 +1,13 @@
 [
   {
     "id": "il-israel-biotech-fund",
-    "name": { "en": "Israel Biotech Fund", "local": "קרן ישראל ביוטק" },
-    "aka": ["IBF"],
+    "name": {
+      "en": "Israel Biotech Fund",
+      "local": "קרן ישראל ביוטק"
+    },
+    "aka": [
+      "IBF"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2014,
@@ -12,34 +17,89 @@
     "website": "https://ibf.fund/",
     "links": {
       "crunchbase": "https://www.crunchbase.com/organization/israel-biotechfund",
-      "other": ["https://finder.startupnationcentral.org/investor_page/israel-biotech-fund"]
+      "other": [
+        "https://finder.startupnationcentral.org/investor_page/israel-biotech-fund"
+      ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "series-c-plus"],
-      "geo_focus": ["Israel", "United States", "Europe"],
-      "sector_focus": ["therapeutics", "ai-drug-discovery"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus"
+      ],
+      "geo_focus": [
+        "Israel",
+        "United States",
+        "Europe"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "ai-drug-discovery"
+      ],
       "thesis": "Invests exclusively in Israeli and Israeli-related biotechnology and pharmaceutical companies developing drugs at or near clinical stages, aiming to maximize the value of Israeli therapeutic assets with a large bench of venture advisors."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "rna-therapeutics", "biologics-antibody"],
-      "indications": ["oncology", "rare-disease", "respiratory", "immunology-inflammation"],
+      "modalities": [
+        "small-molecule",
+        "rna-therapeutics",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "rare-disease",
+        "respiratory",
+        "immunology-inflammation"
+      ],
       "company_creation": null,
       "science_platform_notes": "Supported by a team of nearly 30 Venture Advisors comprising biopharma industry veterans."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "SpliSense", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Ayala Pharmaceuticals", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Nectin Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "MediWound", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "SpliSense",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Ayala Pharmaceuticals",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Nectin Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "MediWound",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
     "people": [
-      { "name": "David Sidransky", "role": "Co-Founder & Managing Partner", "background": "MD, oncology entrepreneur (Johns Hopkins)" },
-      { "name": "Yuval Cabilly", "role": "Co-Founder & Managing Partner", "background": "PhD" },
-      { "name": "Ido Zairi", "role": "Co-Founder & Managing Partner" }
+      {
+        "name": "David Sidransky",
+        "role": "Co-Founder & Managing Partner",
+        "background": "MD, oncology entrepreneur (Johns Hopkins)"
+      },
+      {
+        "name": "Yuval Cabilly",
+        "role": "Co-Founder & Managing Partner",
+        "background": "PhD"
+      },
+      {
+        "name": "Ido Zairi",
+        "role": "Co-Founder & Managing Partner"
+      }
     ],
-    "tags": ["therapeutics", "biopharma", "clinical-stage", "rehovot"],
+    "tags": [
+      "therapeutics",
+      "biopharma",
+      "clinical-stage",
+      "rehovot"
+    ],
     "summary": {
       "en": "Rehovot-based venture fund investing exclusively in Israeli and Israeli-related biotech companies developing drugs at or near clinical stages.",
       "local": "קרן הון סיכון מרחובות המשקיעה בלעדית בחברות ביוטק ישראליות המפתחות תרופות בשלבים קליניים."
@@ -68,78 +128,15 @@
     "researched_by": "therapeutics-biotech-vc"
   },
   {
-    "id": "il-arkin-bio-ventures",
-    "name": { "en": "Arkin Bio Ventures", "local": "ארקין ביו ונצ'רס" },
-    "aka": ["Arkin Bio", "Arkin Capital", "Arkin Holdings"],
-    "type": "vc",
-    "status": "active",
-    "region": "israel",
-    "country": "Israel",
-    "hq_city": "Herzliya",
-    "website": "https://arkin-holdings.com/",
-    "capital": {
-      "aum": { "raw": "over $600 million (biotech-focused assets)", "usd": 600000000, "currency": "USD" },
-      "current_fund": { "raw": "$100 million (Arkin Bio Ventures III)", "usd": 100000000, "currency": "USD" },
-      "funds": [
-        { "name": "Arkin Bio Ventures III", "size": { "raw": "$100 million", "usd": 100000000, "currency": "USD" } }
-      ]
-    },
-    "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "check_size": { "raw": "targets 10-12 companies globally per fund" },
-      "geo_focus": ["Israel", "United States", "Europe"],
-      "sector_focus": ["therapeutics"],
-      "thesis": "Backs late-preclinical to early-clinical therapeutics companies that can realistically reach clinical proof of concept with the capital provided, focused on oncology, immunology, inflammation and rare diseases."
-    },
-    "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
-      "indications": ["oncology", "immunology-inflammation", "rare-disease"],
-      "company_creation": false
-    },
-    "track_record": {
-      "notable_investments": [
-        { "company": "UroGen Pharma", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Keros Therapeutics", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Hi-Bio", "sector": "therapeutics", "outcome": "acquired" },
-        { "company": "cCAM Biotherapeutics", "sector": "therapeutics", "outcome": "acquired" }
-      ]
-    },
-    "people": [
-      { "name": "Pini Orbach", "role": "Managing Partner, Arkin Bio Ventures", "background": "PhD, pharma/biotech executive" }
-    ],
-    "tags": ["therapeutics", "oncology", "immunology", "rare-disease", "clinical-stage"],
-    "summary": {
-      "en": "The biotech venture arm of Moshe Arkin's Arkin Holdings, investing in late-preclinical to early-clinical therapeutics; over $600M in biotech assets across funds launched in 2016, 2020 and 2026.",
-      "local": "הזרוע הביוטכנולוגית של ארקין הולדינגס המשקיעה בחברות תרופות בשלב פרה-קליני מאוחר ועד קליני מוקדם."
-    },
-    "sources": [
-      {
-        "url": "https://www.bioxconomy.com/investment/arkin-capital-closes-100m-arkin-bio-ventures-iii-to-back-early-stage-biotech-firms",
-        "title": "Arkin Capital closes $100m Arkin Bio Ventures III",
-        "publisher": "Bioxconomy",
-        "accessed": "undefined",
-        "supports": "Fund III size $100M, over $600M biotech AUM, prior funds 2016/2020, focus areas, stage, managing partner",
-        "quote": "We plan to invest in more advanced early stage companies - late preclinical or early clinical - which, using the capital provided, can realistically achieve clinical proof of concept in patients."
-      },
-      {
-        "url": "https://www.ynetnews.com/business/article/s1kz40000bbx",
-        "title": "Israeli investor closes $100 million fund focused on next-generation biotech therapies",
-        "publisher": "Ynetnews",
-        "accessed": "undefined",
-        "supports": "Fund size, therapeutic focus on oncology/immunology/inflammation/rare diseases, exit track record",
-        "quote": "focus on oncology, immunology, inflammation, rare diseases, and other high-impact therapeutic areas"
-      }
-    ],
-    "confidence": "medium",
-    "verification_notes": "AUM and fund figures from reputable secondary trade press (Bioxconomy/Ynet); official Arkin Holdings site URL inferred and not fetched. Arkin Capital is a multi-asset firm; only its biotech/therapeutics arm is in scope here.",
-    "last_updated": "undefined",
-    "researched_by": "therapeutics-biotech-vc"
-  },
-  {
     "id": "il-shavit-capital",
-    "name": { "en": "Shavit Capital", "local": "שביט קפיטל" },
+    "name": {
+      "en": "Shavit Capital",
+      "local": "שביט קפיטל"
+    },
     "type": "growth-equity",
-    "subtypes": ["crossover-fund"],
+    "subtypes": [
+      "crossover-fund"
+    ],
     "status": "active",
     "founded_year": 2008,
     "region": "israel",
@@ -148,19 +145,42 @@
     "website": "https://www.shavitcapital.com/",
     "links": {
       "crunchbase": "https://www.crunchbase.com/organization/shavit-capital",
-      "other": ["https://finder.startupnationcentral.org/investor_page/shavit-capital-fund"]
+      "other": [
+        "https://finder.startupnationcentral.org/investor_page/shavit-capital-fund"
+      ]
     },
     "capital": {
-      "aum": { "raw": "over $500 million across five funds", "usd": 500000000, "currency": "USD" },
+      "aum": {
+        "raw": "over $500 million across five funds",
+        "usd": 500000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Shavit Capital Fund 5", "size": { "raw": "$100 million", "usd": 100000000, "currency": "USD" } }
+        {
+          "name": "Shavit Capital Fund 5",
+          "size": {
+            "raw": "$100 million",
+            "usd": 100000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-c-plus", "growth"],
-      "check_size": { "raw": "leads rounds of $20 million to $200 million" },
-      "geo_focus": ["Israel"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "stages": [
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "leads rounds of $20 million to $200 million"
+      },
+      "geo_focus": [
+        "Israel"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "Late-stage / mezzanine and pre-IPO investor in Israeli and Israeli-related life-science companies with proven products, backing firms expecting to raise larger amounts around an IPO or dual listing on a major exchange."
     },
     "lifesci": {
@@ -169,13 +189,34 @@
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Gamida Cell", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Kamada", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Foamix Pharmaceuticals", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "PolyPid", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "Gamida Cell",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Kamada",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Foamix Pharmaceuticals",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "PolyPid",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
-    "tags": ["late-stage", "pre-ipo", "life-sciences", "mezzanine"],
+    "tags": [
+      "late-stage",
+      "pre-ipo",
+      "life-sciences",
+      "mezzanine"
+    ],
     "summary": {
       "en": "Jerusalem-based late-stage/pre-IPO fund and one of the most active investors in late-stage Israeli life-science companies, leading rounds of $20M-$200M ahead of IPOs.",
       "local": "קרן שלב מאוחר מירושלים, מהמשקיעים הפעילים ביותר בחברות מדעי החיים הישראליות לקראת הנפקה."
@@ -205,25 +246,56 @@
   },
   {
     "id": "il-vlx-ventures",
-    "name": { "en": "VLX Ventures", "local": "VLX ונצ'רס" },
-    "aka": ["Van Leer Xenia Ventures", "VLX"],
+    "name": {
+      "en": "VLX Ventures",
+      "local": "VLX ונצ'רס"
+    },
+    "aka": [
+      "Van Leer Xenia Ventures",
+      "VLX"
+    ],
     "type": "incubator",
-    "subtypes": ["venture-studio"],
+    "subtypes": [
+      "venture-studio"
+    ],
     "status": "active",
     "region": "israel",
     "country": "Israel",
     "hq_city": "Jerusalem",
     "website": "https://vlx.co.il/",
-    "links": { "other": ["https://jnext.org.il/partners/vlx-ventures/", "https://972vc.com/companies/vlx-van-leer-xenia-ventures/"] },
+    "links": {
+      "other": [
+        "https://jnext.org.il/partners/vlx-ventures/",
+        "https://972vc.com/companies/vlx-van-leer-xenia-ventures/"
+      ]
+    },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["Israel"],
-      "sector_focus": ["therapeutics", "ai-drug-discovery", "diagnostics"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "Israel"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "ai-drug-discovery",
+        "diagnostics"
+      ],
       "thesis": "Jerusalem technological incubator (a 50/50 partnership of Xenia Venture Capital and Van Leer Ventures) that identifies cutting-edge science and builds biopharma therapeutic startups developing drugs for challenging diseases, combining deep biology with computational biology."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "cell-therapy", "ai-ml-platform"],
-      "indications": ["oncology", "ophthalmology", "infectious-disease", "neurology"],
+      "modalities": [
+        "small-molecule",
+        "cell-therapy",
+        "ai-ml-platform"
+      ],
+      "indications": [
+        "oncology",
+        "ophthalmology",
+        "infectious-disease",
+        "neurology"
+      ],
       "company_creation": true,
       "science_platform_notes": "Operates under the Israel Innovation Authority incubator program; portfolio spans pre-clinical to Phase 3 in biotech, computational biology and digital pharma."
     },
@@ -233,7 +305,13 @@
       "lab_space": true,
       "eligibility": "Early-stage biopharma / computational biology ventures"
     },
-    "tags": ["incubator", "biopharma", "therapeutics", "computational-biology", "jerusalem"],
+    "tags": [
+      "incubator",
+      "biopharma",
+      "therapeutics",
+      "computational-biology",
+      "jerusalem"
+    ],
     "summary": {
       "en": "Jerusalem biopharma incubator jointly run by Xenia Venture Capital and Van Leer Ventures under the Israel Innovation Authority program, building drug-developing startups for challenging diseases.",
       "local": "חממה ביו-פרמצבטית בירושלים בשותפות זניה וואן ליר, במסגרת רשות החדשנות, המקימה חברות לפיתוח תרופות."
@@ -263,9 +341,14 @@
   },
   {
     "id": "il-xenia-venture-capital",
-    "name": { "en": "Xenia Venture Capital", "local": "זניה הון סיכון" },
+    "name": {
+      "en": "Xenia Venture Capital",
+      "local": "זניה הון סיכון"
+    },
     "type": "vc",
-    "subtypes": ["incubator"],
+    "subtypes": [
+      "incubator"
+    ],
     "status": "active",
     "region": "israel",
     "country": "Israel",
@@ -273,12 +356,22 @@
     "website": "https://xenia.co.il/",
     "links": {
       "linkedin": "https://www.linkedin.com/company/xenia-ventures",
-      "other": ["https://finder.startupnationcentral.org/investor_page/xenia-venture-capital"]
+      "other": [
+        "https://finder.startupnationcentral.org/investor_page/xenia-venture-capital"
+      ]
     },
     "strategy": {
-      "stages": ["seed", "series-a"],
-      "geo_focus": ["Israel"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Israel"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "Publicly-traded (TASE) investment company investing mainly in Israeli life-science companies, providing capital plus mentoring, strategy and exit support; owns 50% of the VLX biopharma incubator."
     },
     "lifesci": {
@@ -287,12 +380,29 @@
     },
     "track_record": {
       "notable_investments": [
-        { "company": "PolyPid", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "BioProtect", "sector": "medtech-devices", "outcome": "active" },
-        { "company": "Medi-Tate", "sector": "medtech-devices", "outcome": "active" }
+        {
+          "company": "PolyPid",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "BioProtect",
+          "sector": "medtech-devices",
+          "outcome": "active"
+        },
+        {
+          "company": "Medi-Tate",
+          "sector": "medtech-devices",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["life-sciences", "tase-listed", "incubator-parent", "tel-aviv"],
+    "tags": [
+      "life-sciences",
+      "tase-listed",
+      "incubator-parent",
+      "tel-aviv"
+    ],
     "summary": {
       "en": "Tel Aviv, TASE-listed life-science investment company and 50% owner of the VLX biopharma incubator, investing mainly in Israeli life-science companies.",
       "local": "חברת השקעות במדעי החיים הנסחרת בבורסה בתל אביב, בעלת 50% מחממת VLX."
@@ -322,9 +432,15 @@
   },
   {
     "id": "il-futurx",
-    "name": { "en": "FutuRx", "local": "פיוצ'ר-איקס" },
+    "name": {
+      "en": "FutuRx",
+      "local": "פיוצ'ר-איקס"
+    },
     "type": "incubator",
-    "subtypes": ["accelerator", "venture-studio"],
+    "subtypes": [
+      "accelerator",
+      "venture-studio"
+    ],
     "status": "active",
     "region": "israel",
     "country": "Israel",
@@ -335,14 +451,28 @@
       "crunchbase": "https://www.crunchbase.com/organization/futurx"
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
-      "geo_focus": ["Israel"],
-      "sector_focus": ["therapeutics"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "geo_focus": [
+        "Israel"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Early-stage biopharma incubator dedicated to the inception of drug-developing ventures based on cutting-edge science, backed by global pharma/VC (J&J Innovation-JJDC, Takeda Ventures, OrbiMed Israel, Leaps by Bayer) plus the Israel Innovation Authority."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody"],
-      "indications": ["pain", "neurology", "oncology"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "pain",
+        "neurology",
+        "oncology"
+      ],
       "company_creation": true,
       "science_platform_notes": "Experts from Takeda, J&J and OrbiMed are involved in project selection and during the incubation period; ~20 companies established to date."
     },
@@ -355,12 +485,30 @@
     "track_record": {
       "portfolio_count": 20,
       "notable_investments": [
-        { "company": "Bsense Bio Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "XoNovo", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Protekt Therapeutics", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Bsense Bio Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "XoNovo",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Protekt Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["biotech-incubator", "biopharma", "drug-development", "ness-ziona", "iia"],
+    "tags": [
+      "biotech-incubator",
+      "biopharma",
+      "drug-development",
+      "ness-ziona",
+      "iia"
+    ],
     "summary": {
       "en": "Ness Ziona biotech incubator that founds early-stage biopharma companies developing drugs, backed by J&J Innovation, Takeda Ventures, OrbiMed Israel, Leaps by Bayer and the Israel Innovation Authority.",
       "local": "חממת ביוטק בנס ציונה המקימה חברות ביו-פארמה בשלב מוקדם, בגיבוי J&J, טקדה, אורבימד ורשות החדשנות."
@@ -390,9 +538,14 @@
   },
   {
     "id": "il-integra-holdings",
-    "name": { "en": "Integra Holdings", "local": "אינטגרה הולדינגס" },
+    "name": {
+      "en": "Integra Holdings",
+      "local": "אינטגרה הולדינגס"
+    },
     "type": "university-hospital-fund",
-    "subtypes": ["venture-studio"],
+    "subtypes": [
+      "venture-studio"
+    ],
     "status": "active",
     "founded_year": 2012,
     "region": "israel",
@@ -400,23 +553,48 @@
     "hq_city": "Jerusalem",
     "website": "https://www.integra-holdings.com/",
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["Israel"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Israel"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "Healthcare investment and company-creation firm formed by Yissum with the exclusive first right to examine and commercialize the most promising biomedical IP from the Hebrew University of Jerusalem, chiefly biopharmaceutical companies in clinical stages."
     },
     "lifesci": {
-      "indications": ["oncology", "neurology", "infectious-disease", "immunology-inflammation"],
+      "indications": [
+        "oncology",
+        "neurology",
+        "infectious-disease",
+        "immunology-inflammation"
+      ],
       "company_creation": true,
       "science_platform_notes": "Formed by Yissum, the Hebrew University's technology-transfer company; co-founded LAB555 with Evotec and Yissum to fast-track early-stage drug development."
     },
     "track_record": {
       "portfolio_count": 9,
       "notable_investments": [
-        { "company": "Avraham Pharmaceuticals", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Avraham Pharmaceuticals",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["hebrew-university", "yissum", "biopharma", "company-creation", "tech-transfer"],
+    "tags": [
+      "hebrew-university",
+      "yissum",
+      "biopharma",
+      "company-creation",
+      "tech-transfer"
+    ],
     "summary": {
       "en": "Biopharmaceutical holding and company-creation firm founded by Yissum with first rights to Hebrew University of Jerusalem biomedical IP, building drug-developing companies from inception to commercialization.",
       "local": "חברת אחזקות ביו-פרמצבטית שהוקמה על ידי ישום עם זכות ראשונים לקניין רוחני של האוניברסיטה העברית."
@@ -446,10 +624,18 @@
   },
   {
     "id": "il-clal-biotechnology-industries",
-    "name": { "en": "Clal Biotechnology Industries", "local": "כלל ביוטכנולוגיה" },
-    "aka": ["CBI", "Clal Biotech"],
+    "name": {
+      "en": "Clal Biotechnology Industries",
+      "local": "כלל ביוטכנולוגיה"
+    },
+    "aka": [
+      "CBI",
+      "Clal Biotech"
+    ],
     "type": "vc",
-    "subtypes": ["crossover-fund"],
+    "subtypes": [
+      "crossover-fund"
+    ],
     "status": "active",
     "region": "israel",
     "country": "Israel",
@@ -457,28 +643,59 @@
     "website": "https://www.cbi.co.il/",
     "links": {
       "linkedin": "https://www.linkedin.com/company/clal-biotechnology-industries",
-      "other": ["https://finder.startupnationcentral.org/investor_page/cbi"]
+      "other": [
+        "https://finder.startupnationcentral.org/investor_page/cbi"
+      ]
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["Israel", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "Israel",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "TASE-listed life-sciences holding company (backed by Clal Industries and Teva) that identifies and nurtures ventures developing proprietary solutions to unmet medical needs, holding a portfolio of ~15 biotech and medical-device companies."
     },
     "lifesci": {
-      "indications": ["oncology", "immunology-inflammation"],
+      "indications": [
+        "oncology",
+        "immunology-inflammation"
+      ],
       "invests_public_markets": true,
       "company_creation": true
     },
     "track_record": {
       "portfolio_count": "~15",
       "notable_investments": [
-        { "company": "MediWound", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Compugen", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Elicio Therapeutics", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "MediWound",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Compugen",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Elicio Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["life-sciences-holding", "tase-listed", "therapeutics", "tel-aviv"],
+    "tags": [
+      "life-sciences-holding",
+      "tase-listed",
+      "therapeutics",
+      "tel-aviv"
+    ],
     "summary": {
       "en": "Tel Aviv, TASE-listed life-sciences investment/holding company - Israel's largest - developing and holding a portfolio of biotech, pharma and medical-device companies addressing unmet medical needs.",
       "local": "חברת השקעות ואחזקות מדעי החיים הגדולה בישראל, הנסחרת בבורסה בתל אביב."
@@ -508,36 +725,81 @@
   },
   {
     "id": "il-hadasit-bio-holdings",
-    "name": { "en": "Hadasit Bio Holdings", "local": "הדסית ביו החזקות" },
-    "aka": ["HBL"],
+    "name": {
+      "en": "Hadasit Bio Holdings",
+      "local": "הדסית ביו החזקות"
+    },
+    "aka": [
+      "HBL"
+    ],
     "type": "university-hospital-fund",
-    "subtypes": ["crossover-fund"],
+    "subtypes": [
+      "crossover-fund"
+    ],
     "status": "active",
     "region": "israel",
     "country": "Israel",
     "hq_city": "Jerusalem",
     "website": "https://hbl.co.il/",
-    "links": { "other": ["https://finder.startupnationcentral.org/investor_page/hadasit-bio-holdings"] },
+    "links": {
+      "other": [
+        "https://finder.startupnationcentral.org/investor_page/hadasit-bio-holdings"
+      ]
+    },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "geo_focus": ["Israel"],
-      "sector_focus": ["therapeutics", "diagnostics"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "geo_focus": [
+        "Israel"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics"
+      ],
       "thesis": "Publicly-traded (TASE) subsidiary of Hadasit, the technology-transfer company of Hadassah University Hospital in Jerusalem, funding early-stage pharmaceutical companies through pre-clinical and Phase 1-2 development, focused on oncology, neurodegenerative and inflammatory diseases."
     },
     "lifesci": {
-      "modalities": ["cell-therapy", "biologics-antibody"],
-      "indications": ["oncology", "neurology", "immunology-inflammation"],
+      "modalities": [
+        "cell-therapy",
+        "biologics-antibody"
+      ],
+      "indications": [
+        "oncology",
+        "neurology",
+        "immunology-inflammation"
+      ],
       "invests_public_markets": true,
       "science_platform_notes": "Draws on drugs and cell-based therapies emerging from research at the Hadassah Medical Center."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "KAHR Medical", "sector": "therapeutics", "outcome": "active" },
-        { "company": "ProtAb", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Thrombotech", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "KAHR Medical",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "ProtAb",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Thrombotech",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["hadassah", "hospital-fund", "tech-transfer", "therapeutics", "tase-listed"],
+    "tags": [
+      "hadassah",
+      "hospital-fund",
+      "tech-transfer",
+      "therapeutics",
+      "tase-listed"
+    ],
     "summary": {
       "en": "TASE-listed investment vehicle of Hadassah University Hospital's tech-transfer arm, funding early-stage drug companies (oncology, neurodegenerative and inflammatory diseases) through pre-clinical and Phase 1-2.",
       "local": "חברת השקעות ציבורית של זרוע העברת הטכנולוגיה של בית החולים הדסה, המממנת חברות תרופות בשלב מוקדם."
@@ -567,8 +829,15 @@
   },
   {
     "id": "il-gibf",
-    "name": { "en": "Guangzhou Sino-Israel Biotech Investment Fund", "local": "קרן GIBF" },
-    "aka": ["GIBF", "Guangzhou-Israel Biotech Fund", "Sino-Israel Bio-Industry Investment Fund"],
+    "name": {
+      "en": "Guangzhou Sino-Israel Biotech Investment Fund",
+      "local": "קרן GIBF"
+    },
+    "aka": [
+      "GIBF",
+      "Guangzhou-Israel Biotech Fund",
+      "Sino-Israel Bio-Industry Investment Fund"
+    ],
     "type": "vc",
     "status": "active",
     "founded_year": 2016,
@@ -576,44 +845,122 @@
     "country": "Israel",
     "hq_city": "Tel Aviv",
     "offices": [
-      { "country": "Israel", "city": "Tel Aviv" },
-      { "country": "China", "city": "Guangzhou" }
+      {
+        "country": "Israel",
+        "city": "Tel Aviv"
+      },
+      {
+        "country": "China",
+        "city": "Guangzhou"
+      }
     ],
     "website": "https://gibf-bio.com/en/homepage",
-    "links": { "other": ["https://finder.startupnationcentral.org/investor_page/guangzhou-sino-israel-biotech-investment-fund-gibf"] },
+    "links": {
+      "other": [
+        "https://finder.startupnationcentral.org/investor_page/guangzhou-sino-israel-biotech-investment-fund-gibf"
+      ]
+    },
     "capital": {
-      "current_fund": { "raw": "$300 million (GIBF II)", "usd": 300000000, "currency": "USD" },
+      "current_fund": {
+        "raw": "$300 million (GIBF II)",
+        "usd": 300000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "GIBF I", "size": { "raw": "about $100 million", "usd": 100000000, "currency": "USD" } },
-        { "name": "GIBF II", "size": { "raw": "$300 million", "usd": 300000000, "currency": "USD" } }
+        {
+          "name": "GIBF I",
+          "size": {
+            "raw": "about $100 million",
+            "usd": 100000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "GIBF II",
+          "size": {
+            "raw": "$300 million",
+            "usd": 300000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "$5-20 million ticket", "usd_min": 5000000, "usd_max": 20000000 },
-      "geo_focus": ["Israel", "United States", "Europe", "China"],
-      "sector_focus": ["therapeutics"],
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$5-20 million ticket",
+        "usd_min": 5000000,
+        "usd_max": 20000000
+      },
+      "geo_focus": [
+        "Israel",
+        "United States",
+        "Europe",
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics"
+      ],
       "thesis": "Israeli-managed cross-border biotech fund (Tel Aviv + Guangzhou) that backs Western drug-development companies in Phase 2-3 clinical development and helps them establish China activities and run clinical trials in top-tier Chinese hospitals."
     },
     "lifesci": {
-      "modalities": ["biologics-antibody", "small-molecule"],
-      "indications": ["oncology", "infectious-disease"],
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule"
+      ],
+      "indications": [
+        "oncology",
+        "infectious-disease"
+      ],
       "company_creation": false,
       "science_platform_notes": "Provides China clinical-development and NMPA-submission support for portfolio companies."
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Nectin Therapeutics", "sector": "therapeutics", "outcome": "active" },
-        { "company": "BioVersys", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Biond Biologics", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Nectin Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "BioVersys",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Biond Biologics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Yehoshua (Shuki) Gleitman", "role": "Founding Partner & Chairman", "background": "Former Israel Chief Scientist" },
-      { "name": "Avner Lushi", "role": "Founding Partner & CEO" },
-      { "name": "Shlomo Noy", "role": "Founding Partner & Chief Medical Officer", "background": "Prof., MD" }
+      {
+        "name": "Yehoshua (Shuki) Gleitman",
+        "role": "Founding Partner & Chairman",
+        "background": "Former Israel Chief Scientist"
+      },
+      {
+        "name": "Avner Lushi",
+        "role": "Founding Partner & CEO"
+      },
+      {
+        "name": "Shlomo Noy",
+        "role": "Founding Partner & Chief Medical Officer",
+        "background": "Prof., MD"
+      }
     ],
-    "tags": ["china-israel", "cross-border", "drug-development", "clinical-stage", "tel-aviv"],
+    "tags": [
+      "china-israel",
+      "cross-border",
+      "drug-development",
+      "clinical-stage",
+      "tel-aviv"
+    ],
     "summary": {
       "en": "Israeli-managed Sino-Israel biotech fund with a Tel Aviv office, investing $5-20M tickets from a $300M second fund into Western Phase 2-3 drug developers seeking to expand into China.",
       "local": "קרן ביוטק סינית-ישראלית בניהול ישראלי עם משרד בתל אביב, המשקיעה בחברות תרופות מערביות בשלב קליני מתקדם."

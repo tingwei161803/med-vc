@@ -1,0 +1,111 @@
+[
+  {
+    "id": "cn-bertelsmann-asia-investments",
+    "name": {
+      "en": "Bertelsmann Asia Investments"
+    },
+    "aka": [
+      "BAI",
+      "BAI Capital"
+    ],
+    "type": "vc",
+    "subtypes": [
+      "growth-equity"
+    ],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "greater-china",
+    "country": "China",
+    "website": "https://www.bai-capital.com",
+    "capital": {
+      "funds": [
+        {
+          "name": "BAI Capital 2022 fund",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$700 million",
+            "usd": 700000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "lead_or_follow": "follow",
+      "geo_focus": [
+        "Greater China",
+        "Southeast Asia",
+        "Global"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "consumer-health"
+      ],
+      "thesis": "Originally Bertelsmann's wholly-owned Asia corporate-VC arm (est. 2008); rebranded BAI Capital after raising its first externally-backed $700M fund in 2022. Generalist China/Asia growth investor (retail, fintech, content, EVs) with a repeat pattern of digital-health and consumer-health deals (Chunyu Doctor, Keep) rather than a dedicated health practice."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Chunyu Doctor",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Keep",
+          "sector": "consumer-health",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "china-growth-equity",
+      "corporate-affiliate",
+      "generalist"
+    ],
+    "summary": {
+      "en": "China-focused growth investor founded 2008 as Bertelsmann's wholly-owned Asia CVC arm, rebranded BAI Capital after closing a $700M fund with external LPs in 2022; over 200 portfolio companies (Nio, Mobike) with a generalist tech/consumer mandate that has repeatedly touched digital health (Chunyu Doctor) and consumer health/fitness (Keep)."
+    },
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2022/07/24/bertelsmann-asia-bai-capital-700-million-fund/",
+        "title": "Bertelsmann's BAI Capital raises $700M fund for China's globalizing startups",
+        "publisher": "TechCrunch",
+        "accessed": "2026-08-16",
+        "supports": "Founding year (2008), 2022 rebrand/fund raise with external LPs, sector focus, portfolio scale",
+        "quote": "BAI Capital was established in 2008 as an investment arm of German media conglomerate Bertelsmann"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bertelsmann",
+        "title": "Bertelsmann",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Relationship to parent Bertelsmann Investments division",
+        "quote": "Bertelsmann Asia Investments, Bertelsmann Brazil Investments and Bertelsmann India Investments, three additional funds exist that are active in the growth regions defined by the holding"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city not confirmed this session (omitted rather than guessed); firm evolved from a wholly-owned Bertelsmann CVC arm to a fund manager with external LPs in 2022, so backing relationship is recorded as anchor-lp for the current structure rather than wholly-owned-cvc.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-investor-gaps-final",
+    "backing": {
+      "backers": [
+        {
+          "name": "Bertelsmann SE & Co. KGaA",
+          "kind": "conglomerate",
+          "relationship": "anchor-lp",
+          "note": "Originally Bertelsmann's wholly-owned Asia CVC arm (2008); since its 2022 $700M fund raise, Bertelsmann is the anchor LP alongside new external LPs (sovereign wealth funds, insurers, corporates).",
+          "evidence": "verified"
+        }
+      ]
+    }
+  }
+]

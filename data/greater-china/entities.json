@@ -2473,9 +2473,14 @@
       "local": "元生创投"
     },
     "aka": [
+      "Origin Capital",
+      "Origin Capital (YuanBio Venture Capital)",
+      "YuanBio Venture Capital",
       "Yuansheng Chuangtou",
       "Yuansheng Venture Capital",
+      "Yuansheng Venture Capital (BioBAY)",
       "元生创业投资",
+      "元生创投",
       "苏州工业园区元生创业投资管理有限公司"
     ],
     "type": "vc",
@@ -2572,7 +2577,7 @@
       }
     ],
     "confidence": "high",
-    "verification_notes": "Official site (bioventure.com.cn) confirmed to exist via search results but was not directly fetched; quantitative claims sourced from a reputable secondary aggregator (VCNEWS). Notable investment (康立明生物, a colorectal-cancer detection company) mentioned in secondary sources on the firm but not independently corroborated with a dedicated quote. [merged from duplicate research rows] [merged from duplicate research rows]",
+    "verification_notes": "Official site (bioventure.com.cn) confirmed to exist via search results but was not directly fetched; quantitative claims sourced from a reputable secondary aggregator (VCNEWS). Notable investment (康立明生物, a colorectal-cancer detection company) mentioned in secondary sources on the firm but not independently corroborated with a dedicated quote. Merged cn-origin-capital into this record on 2026-08-16: en.bioventure.com.cn is the English-language mirror of bioventure.com.cn, confirmed via the site's own CN/EN language toggle in the footer ('[CN](http://www.bio Merged cn-biobay-yuansheng-venture-capital into this record on 2026-08-16: cn-biobay-yuansheng-venture-capital's local name (元生创投, Suzhou, spun out of BioBAY) is the identical local name and identity confirmed live on bioventure.com.cn [merged from duplicate research rows] [merged from duplicate research rows]",
     "last_updated": "undefined",
     "researched_by": "diagnostics-tools-vc",
     "subtypes": [],
@@ -9707,6 +9712,115 @@
     }
   },
   {
+    "id": "cn-bertelsmann-asia-investments",
+    "name": {
+      "en": "Bertelsmann Asia Investments"
+    },
+    "aka": [
+      "BAI",
+      "BAI Capital"
+    ],
+    "type": "vc",
+    "subtypes": [
+      "growth-equity"
+    ],
+    "status": "active",
+    "founded_year": 2008,
+    "region": "greater-china",
+    "country": "China",
+    "website": "https://www.bai-capital.com",
+    "capital": {
+      "funds": [
+        {
+          "name": "BAI Capital 2022 fund",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "$700 million",
+            "usd": 700000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "lead_or_follow": "follow",
+      "geo_focus": [
+        "Greater China",
+        "Southeast Asia",
+        "Global"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "consumer-health"
+      ],
+      "thesis": "Originally Bertelsmann's wholly-owned Asia corporate-VC arm (est. 2008); rebranded BAI Capital after raising its first externally-backed $700M fund in 2022. Generalist China/Asia growth investor (retail, fintech, content, EVs) with a repeat pattern of digital-health and consumer-health deals (Chunyu Doctor, Keep) rather than a dedicated health practice."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Chunyu Doctor",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Keep",
+          "sector": "consumer-health",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "china-growth-equity",
+      "corporate-affiliate",
+      "generalist"
+    ],
+    "summary": {
+      "en": "China-focused growth investor founded 2008 as Bertelsmann's wholly-owned Asia CVC arm, rebranded BAI Capital after closing a $700M fund with external LPs in 2022; over 200 portfolio companies (Nio, Mobike) with a generalist tech/consumer mandate that has repeatedly touched digital health (Chunyu Doctor) and consumer health/fitness (Keep)."
+    },
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2022/07/24/bertelsmann-asia-bai-capital-700-million-fund/",
+        "title": "Bertelsmann's BAI Capital raises $700M fund for China's globalizing startups",
+        "publisher": "TechCrunch",
+        "accessed": "2026-08-16",
+        "supports": "Founding year (2008), 2022 rebrand/fund raise with external LPs, sector focus, portfolio scale",
+        "quote": "BAI Capital was established in 2008 as an investment arm of German media conglomerate Bertelsmann"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bertelsmann",
+        "title": "Bertelsmann",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Relationship to parent Bertelsmann Investments division",
+        "quote": "Bertelsmann Asia Investments, Bertelsmann Brazil Investments and Bertelsmann India Investments, three additional funds exist that are active in the growth regions defined by the holding"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "HQ city not confirmed this session (omitted rather than guessed); firm evolved from a wholly-owned Bertelsmann CVC arm to a fund manager with external LPs in 2022, so backing relationship is recorded as anchor-lp for the current structure rather than wholly-owned-cvc.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-investor-gaps-final",
+    "backing": {
+      "backers": [
+        {
+          "name": "Bertelsmann SE & Co. KGaA",
+          "kind": "conglomerate",
+          "relationship": "anchor-lp",
+          "note": "Originally Bertelsmann's wholly-owned Asia CVC arm (2008); since its 2022 $700M fund raise, Bertelsmann is the anchor LP alongside new external LPs (sovereign wealth funds, insurers, corporates).",
+          "evidence": "verified"
+        }
+      ]
+    }
+  },
+  {
     "id": "cn-jiangsu-biopharma-suzhou-mother-fund",
     "name": {
       "en": "Jiangsu Biopharmaceutical (Suzhou) Industry Specialized Mother Fund",
@@ -9761,60 +9875,6 @@
       }
     ],
     "confidence": "high",
-    "last_updated": "undefined",
-    "researched_by": "regional-cluster-funds"
-  },
-  {
-    "id": "cn-biobay-yuansheng-venture-capital",
-    "name": {
-      "en": "Yuansheng Venture Capital (BioBAY)",
-      "local": "元生创投"
-    },
-    "type": "vc",
-    "status": "active",
-    "founded_year": 2013,
-    "region": "greater-china",
-    "country": "China",
-    "hq_city": "Suzhou",
-    "offices": [
-      {
-        "country": "China",
-        "city": "Beijing"
-      },
-      {
-        "country": "China",
-        "city": "Shenzhen"
-      }
-    ],
-    "strategy": {
-      "stages": [
-        "seed",
-        "series-a",
-        "series-b"
-      ],
-      "geo_focus": [
-        "China"
-      ],
-      "sector_focus": [
-        "therapeutics",
-        "medtech-devices",
-        "generalist-health"
-      ],
-      "thesis": "Spun out of BioBAY (Suzhou's biomedical industry park) as a market-oriented, biomedicine-only VC to seed and demonstrate investable projects for the park; initially concentrated 40-50% of its first fund in BioBAY-resident companies before expanding nationally with Beijing and Shenzhen offices while retaining exclusive focus on biomedicine."
-    },
-    "track_record": {},
-    "sources": [
-      {
-        "url": "https://www.vbdata.cn/1518871280",
-        "title": "三位顶级投资机构合伙人讲述：BioBAY如何用15年打造资本生态圈？",
-        "publisher": "动脉网 vbdata.cn",
-        "accessed": "undefined",
-        "supports": "founding year, rationale, BioBAY-affiliation, biomedicine-only focus, geographic expansion",
-        "quote": "成立元生的思路很清楚：当时，园区的政府引导基金...如果以BioBAY为主导，成立一个市场化的VC基金，会起到引导和示范作用"
-      }
-    ],
-    "confidence": "medium",
-    "verification_notes": "Now invests nationally beyond Suzhou; included here because it was founded by and remains headquartered at BioBAY as the park's flagship market-oriented biomedical VC vehicle.",
     "last_updated": "undefined",
     "researched_by": "regional-cluster-funds"
   },
@@ -12290,94 +12350,6 @@
     ],
     "confidence": "high",
     "verification_notes": "Firm-wide (multi-sector) AUM >$10bn; healthcare-specific deployed capital >US$700m across 70+ projects is a 2018 figure and has since grown. Check-size range is firm-wide per Crunchbase.",
-    "last_updated": "undefined",
-    "researched_by": "tier1-lifesci-vc"
-  },
-  {
-    "id": "cn-origin-capital",
-    "name": {
-      "en": "Origin Capital (YuanBio Venture Capital)",
-      "local": "元生创投"
-    },
-    "aka": [
-      "YuanBio Venture Capital",
-      "元生创投",
-      "bioVENTURE"
-    ],
-    "type": "vc",
-    "subtypes": [],
-    "status": "active",
-    "founded_year": 2013,
-    "region": "greater-china",
-    "country": "China",
-    "hq_city": "Suzhou",
-    "offices": [
-      {
-        "country": "China",
-        "city": "Suzhou"
-      },
-      {
-        "country": "China",
-        "city": "Shanghai"
-      },
-      {
-        "country": "China",
-        "city": "Beijing"
-      }
-    ],
-    "website": "https://en.bioventure.com.cn/",
-    "capital": {
-      "aum": {
-        "raw": "USD 1.3 Billion",
-        "usd": 1300000000,
-        "currency": "USD"
-      }
-    },
-    "strategy": {
-      "stages": [
-        "seed",
-        "series-a",
-        "series-b",
-        "growth"
-      ],
-      "geo_focus": [
-        "China"
-      ],
-      "sector_focus": [
-        "therapeutics",
-        "medtech-devices",
-        "diagnostics",
-        "healthcare-services"
-      ],
-      "thesis": "Early- and growth-stage healthcare VC based in Suzhou BioBAY, investing in new drug R&D, medical devices, IVD/diagnostics, precision medicine and healthcare services; repeatedly ranked a top-10 China healthcare VC."
-    },
-    "lifesci": {
-      "modalities": [
-        "small-molecule",
-        "biologics-antibody",
-        "cell-therapy",
-        "medical-hardware"
-      ]
-    },
-    "track_record": {
-      "portfolio_count": "over 200 companies (19 listed on STAR Board, HKEX and Nasdaq)"
-    },
-    "summary": {
-      "en": "Suzhou BioBAY-based healthcare VC founded in 2013 with ~US$1.3bn AUM and 200+ portfolio companies (19 listed); a perennial top-10 China life-science investor across drugs, devices, IVD and services.",
-      "local": "位于苏州 BioBAY 的医疗健康创投,2013年成立,管理规模约13亿美元,投资逾200家企业(19家已上市),多年入选中国医疗健康 Top10 创投。"
-    },
-    "sources": [
-      {
-        "url": "https://en.bioventure.com.cn/",
-        "title": "YuanBio Venture Capital",
-        "publisher": "Origin Capital / 元生创投",
-        "accessed": "undefined",
-        "supports": "Founding year, AUM, portfolio, listed companies, sectors, Suzhou HQ",
-        "quote": "USD 1.3 Billion ... over 200 companies in our investment portfolio ... 19 of the companies are listed on the SRAT Board, HKEX and Nasdaq ... biotech, medical devices, IVD and healthcare services"
-      }
-    ],
-    "confidence": "high",
-    "verification_notes": "'SRAT Board' on the site is a typo for the STAR (科创板) Market. English brand is 'YuanBio Venture Capital'; commonly referenced in English as Origin Capital.",
     "last_updated": "undefined",
     "researched_by": "tier1-lifesci-vc"
   },

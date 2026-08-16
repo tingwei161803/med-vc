@@ -3321,6 +3321,146 @@
         }
       ],
       "notes": "Country coverage: UAE 3 (NMC Health, PureHealth, Cleveland Clinic Abu Dhabi), Saudi Arabia 1 (Saudi German Hospitals, MENA-wide operator HQ'd in Jeddah -- several other major Saudi names, e.g. Dr. Sulaiman Al Habib, Nahdi, Dallah, Mouwasat, SPIMACO, Tabuk Pharma, could not be sourced this session despite being large/known companies, purely due to lack of Wikipedia coverage and unreachable company/exchange sites via WebFetch), Jordan 2 (Hikma Pharmaceuticals, Altibbi), Turkey 2 (Acıbadem Healthcare Group, Eczacıbaşı Holding), South Africa 7 (Aspen Pharmacare, Discovery Limited, Netcare, Life Healthcare Group, Mediclinic International, Adcock Ingram, Quro Medical), Nigeria 5 (LifeBank, 54gene, Helium Health, Reliance Health, Remedial Health), Tunisia 1 (InstaDeep), Kenya 3 (Ilara Health, Turaco, Access Afya), Rwanda 1 (Kasha), Egypt 1 (Yodawy -- Ibnsina Pharma, Vezeeta, Rology, Chefaa, Cleopatra Hospital Group, Dawi Clinics all attempted but unsourceable this session), Ghana 2 (mPharma, Yemaachi Biotech), Morocco 1 (Sothema). Qatar: none found -- the only entities surfaced were Hamad Medical Corporation (a government/public health authority, not an investable operating company) and Mohamed Bin Hamad Holding (a diversified family holding company, not primarily healthcare); no venture-backed or listed Qatari health company was sourceable. Kuwait: none found -- Dar Al Shifa Hospital (KSE-listed) and other Kuwaiti health names returned no usable source in this session. Of the 29 companies delivered, 15 carry at least one named investor/acquirer in funding.investors or funding.exit (NMC Health, PureHealth [via M&A/acquisition history, not investors], Hikma, Altibbi, Acıbadem, Mediclinic, 54gene, Helium Health, Reliance Health, Remedial Health, InstaDeep, Ilara Health, Access Afya, Kasha; Quro Medical also names one investor). Development-finance-style investors specifically recorded: Gates Foundation (Helium Health, Ilara Health, Access Afya), U.S. DFC (Helium Health, Kasha), Swedfund (Kasha) -- i.e. DFI/philanthropic capital appears in 4 of the 8 African startups with any investor list, versus straightforwardly commercial VC in the rest (Adjuvant Capital, General Atlantic, Partech, AfricInvest, etc.), consistent with the brief's expectation that development finance is a real and recordable part of this geography's funding. The public/acquired majority of the list (NMC Health, PureHealth, Saudi German Hospitals, Hikma, Acıbadem, Eczacıbaşı, Aspen, Discovery, Netcare, Life Healthcare, Mediclinic, Adcock Ingram, InstaDeep, Sothema = 14 of 29) reflects that MENA/Africa's largest, most sourceable healthcare companies are listed conglomerates or M&A targets rather than venture-funded startups, exactly as expected for the thinnest venture geography in the directory. WebSearch was not used (session budget exhausted per instructions); all research used WebFetch against Wikipedia, company sites, and archived Disrupt Africa search-result pages, which limited depth on several private Saudi/Egyptian companies whose facts live mainly behind paywalled or blocked domains (Reuters, Zawya, Mubasher, Argaam, EGX.com.eg, and several company domains all returned errors)."
+    },
+    "r10-backlog-a": {
+      "wanted": [
+        "Genoox — Israeli genomics-analysis platform (Franklin); official site is a JS SPA and Wikipedia/press-release fetches all failed within budget.",
+        "Hyro — Israeli/US healthcare conversational-AI company; site returned 403, no alternate source found in budget.",
+        "Orum Therapeutics — US/Korea targeted-protein-degradation ADC company; got platform description from own site but no HQ, founding year or investor names.",
+        "Health2Sync (智抗糖) — Taiwan diabetes digital-health app; official site and Wikipedia both blocked/404 in budget.",
+        "LumiThera — dropped after About page redirected to an Alcon product page (myalcon.com/.../valeda-pbm/) suggesting an acquisition, but no source explicitly confirmed HQ/country or the acquisition itself within budget; worth a dedicated press-release search.",
+        "Medi-Tate (iTind) — dropped after the product page redirected into Olympus's professional site, suggesting acquisition by Olympus, but no explicit ownership/HQ confirmation sourced.",
+        "Keros Therapeutics — public US biotech (TGF-β platform, KER-065); own site described pipeline but not HQ/ticker despite two fetch attempts.",
+        "Emedgene — Illumina informatics product page confirms it's now part of Illumina's BioInsight portfolio, but no source confirmed its Israeli origin/HQ.",
+        "Healthee — Israeli-presumed AI health-benefits navigator; HQ/founding year/investors not found in budget.",
+        "Kasvu Therapeutics — neuroplastogen (TrkB) biotech with a good technology description but no sourced HQ, so it couldn't get a valid region/country.",
+        "MetaOptima, Fred IT Group, Acrux, Elastagen, Adherium — repeated 403/404s (Cloudflare-protected or JS-only sites); likely findable via SEC/ASX filings or press-release aggregators with more budget."
+      ],
+      "skipped": [
+        {
+          "name": "BiomX",
+          "reason": "Public entity (NYSE American: PHGE) no longer operates as the phage-therapy biotech named by investors — stockanalysis.com now describes PHGE as 'a defense and security technology holding company' with counter-drone, C2 and surveillance subsidiaries (Zorronet, DFSL, Motomea). Out of scope for a medical/health directory; flagged rather than profiled as a therapeutics company."
+        },
+        {
+          "name": "TaiMed Biologics (中裕新藥)",
+          "reason": "Already profiled as tw-taimed-biologics in existing-companies.tsv."
+        },
+        {
+          "name": "数坤科技 (Shukun Technology)",
+          "reason": "Already profiled as cn-shukun-technology in existing-companies.tsv."
+        },
+        {
+          "name": "Bugworks Research",
+          "reason": "Already profiled as in-bugworks-research in existing-companies.tsv (found while researching India-region candidates)."
+        },
+        {
+          "name": "API Holdings / PharmEasy",
+          "reason": "Already profiled as in-pharmeasy in existing-companies.tsv."
+        }
+      ],
+      "notes": "WebSearch was unavailable all session; DuckDuckGo (captcha-blocked) and Bing (returned unrelated cached results via WebFetch) were both tried and abandoned as search substitutes. Research relied on direct company-site guesses, Wikipedia, and a few investor-portfolio/press-aggregator pages. Several backlog entries turned out to be mid-rebrand/mid-merger (Foamix Pharmaceuticals -> VYNE Therapeutics -> Yarrow Bioscience; Forge Therapeutics -> Blacksmith Medicines) and are recorded under their current operating name with the backlog name in aka[], flagged in verification_notes. Investor names were matched to investor-roster.tsv spelling where a clear match existed (e.g. Pitango Venture Capital, Sanofi Ventures, Pfizer Ventures, Versant Ventures, SV Health Investors, Alexandria Venture Investments, Bpifrance, Investinor, Nina Capital, Sarsia); all others kept as reported by the source."
+    },
+    "r10-backlog-b": {
+      "wanted": [
+        "Saveo (India B2B pharmacy — company site redirects to curebay.com, suggesting a merger/rebrand into CureBay, but this could not be confirmed; both curebay.com and every search engine used this session returned no usable content)",
+        "Zi.Care (no fetchable page, Wikipedia article, or search-engine hit found under this exact name this session)",
+        "George Medicines (business description, GMRx2 triple-combination hypertension pill, NEJM stroke-outcomes trial, and Bausch Health/Arrotex licensing deals were all sourced via Bing News, but HQ city/country — required for the id prefix — could not be confirmed; georgemedicines.com/.org do not resolve and The George Institute's site returned 404 for its enterprise page)",
+        "Hola Health, Human, Augmented Bionics, Turn Biotechnologies funding/investors, Myia Health funding/investors, RAGE Biotech, Synthase Biotech, Saccade Analytics, CanProbe, Ostro, Cyclica, Fairhaven Pharmaceuticals, SQZ Biotechnologies — all unsourceable or only thinly sourced with plain WebFetch this session (dead/DNS-failing domains, 403s on SEC/press-release hosts, or names too generic to disambiguate); would benefit from a pass with WebSearch or Crunchbase/PitchBook access",
+        "DCx Biotherapeutics, Acerta Pharma, Clustermarket (rebranded to Calira, Oct 2025), Captain T Cell, Target Cells — business descriptions were partly sourced (DCx: MM-ADC platform, Amplitude VC as co-founding investor; Clustermarket: lab-scheduling SaaS, Tetra Partner Network member; Acerta Pharma: developed acalabrutinib, sold to AstraZeneca for $4B in 2015 then fully acquired 2021) but required HQ/country could not be confirmed with a quote this session, so all five were dropped rather than guessed",
+        "Corium (Corium Pharma Solutions/Corium International), Corvidia Therapeutics, Dracen Pharmaceuticals, Memo Therapeutics — solid business/deal descriptions sourced (Corium: transdermal-delivery CDMO, Gurnet Point Capital tender offer >$500M in 2018; Corvidia: AstraZeneca spin-off, acquired by Novo Nordisk for $725M in ~2018, asset ziltivekimab; Dracen: DRP-104/sirpiglenastat glutamine antagonist, Merck and Fibrolamellar Cancer Foundation collaborations; Memo: potravitug BK-polyomavirus antibody, just acquired by Ipsen) but none had a sourceable HQ city/country this session (memotx.com and coriumpharma.com are dead/parked domains) — dropped rather than guessed"
+      ],
+      "skipped": [
+        {
+          "name": "Flagship Pioneering",
+          "reason": "Venture-creation firm/studio (founds ~6-8 companies/year in-house), not a single operating company with one product — already correctly modeled as an investor entity (us-flagship-pioneering, sea-flagship-pioneering-apac, type 'venture-studio') in the investor directory. Profiling it again here would duplicate/misclassify it."
+        },
+        {
+          "name": "Kyulux",
+          "reason": "Confirmed via kyulux.com to be a pure OLED display-materials (TADF/Hyperfluorescence emitters) company with no medical/healthcare business — out of scope for this directory."
+        },
+        {
+          "name": "微医 (WeDoctor)",
+          "reason": "Already profiled in the directory as cn-wedoctor (existing-companies.tsv) — not re-profiled to avoid duplication."
+        },
+        {
+          "name": "ACT Genomics (行動基因)",
+          "reason": "Already profiled in the directory as tw-act-genomics (existing-companies.tsv) — not re-profiled to avoid duplication. Note for the investor-gap side: research this session found ACT Genomics' 2014 founding, its FDA 510(k) clearance for ACTOnco, Delta Electronics' shareholding, and Prenetics' December 2022 majority-stake acquisition, in case the existing record needs enrichment."
+        },
+        {
+          "name": "Brandon Capital BB6 Fund",
+          "reason": "Brandon Capital Partners is a life-sciences VC firm (brandoncapital.vc); 'BB6' is a fund vehicle of theirs, not an operating company. This is an investor-directory correction, not a company profile."
+        },
+        {
+          "name": "BioLumic",
+          "reason": "Confirmed via biolumic.com to be an agriculture-technology company (UV light treatment for seeds/seedlings to boost crop yields) — not a medical/biomedical company, out of scope for this directory."
+        },
+        {
+          "name": "Sanofi (Toronto flu vaccine facility)",
+          "reason": "Not a standalone operating company — this is a manufacturing facility/capital investment of Sanofi, a global pharma company already in scope as its own entity. No distinct legal/operating entity to profile separately."
+        },
+        {
+          "name": "Forbion Capital Fund III",
+          "reason": "This is a venture capital fund vehicle (Forbion Capital Partners' Fund III), not an operating company — belongs in the investor directory, not the company directory."
+        },
+        {
+          "name": "CurveBeam AI",
+          "reason": "Already profiled in the directory as anz-curvebeam-ai (existing-companies.tsv) — not re-profiled to avoid duplication."
+        }
+      ],
+      "notes": "Worked the even-numbered lines of unprofiled-companies.txt from line 2 through line 140 (mention counts 2 down to 1), i.e. the full top-50 even-numbered slice plus a second 20-line extension (lines 102-140) to get closer to the 40-50 target after the first slice yielded fewer sourceable companies than expected. WebSearch was unavailable all session; discovered that Bing's plain HTML endpoints (www.bing.com/search and www.bing.com/news/search) usually return real snippets for well-formed quoted queries — quality varies by query specificity and apparent geographic result-skew — and were used as a fallback once many direct-fetch and DuckDuckGo (CAPTCHA-walled) attempts failed, cited as sources where used with the caveat that they are search-engine aggregations of underlying press coverage rather than primary pages. Three backlog entries (WeDoctor, ACT Genomics, CurveBeam AI) found mid-research turned out to already exist in existing-companies.tsv despite being listed as 'unprofiled' — flagged in skipped[] rather than silently dropped, since that is itself a useful correction to the backlog list. A recurring failure mode this session: many companies had a well-sourced business/deal description but no sourceable HQ/country, which the schema requires for the id prefix — those were dropped into wanted[] rather than guessed, which is why the profiled count undershoots the raw number of companies that had *some* research yield."
+    },
+    "r10-investor-gaps-final": {
+      "notes": "Local-data cross-reference strategy: with WebSearch exhausted, I built an investor->portfolio-company index directly from data/all-companies.json (1,193 companies) to identify which directory companies actually name each candidate as an investor, then used those companies' own already-sourced investor source_url fields plus targeted WebFetch (official firm sites, Wikipedia, TechCrunch/BetaKit article pages — Google/Bing/DuckDuckGo were all blocked as expected) to verify org-level facts (HQ, founding year, type, sector focus). This is why every entity below cites at least one deal-level source drawn from this directory's own portfolio-company records in addition to an org-level source. Processed the full team-lead-flagged top-11 (10 became new entities; GE Healthcare resolved to an alias_fix). Beyond that, triaged the remaining 501 rows of missing-investors.txt structurally: cross-referenced against reports/research-backlog.json's 199 already-settled rejections (165 of the 512 rows matched exactly and were left untouched as settled, per instruction not to re-litigate) and flagged the roster-ambiguous rows (SV Health Investors, Sanofi Ventures, Ally Bridge Group, Astellas — all already exact-name matches in investor-roster.tsv) as not-gaps. Did not have remaining budget in this session to do full fetch-verified research on the rest of the ~336 untouched rows (mostly single-mention celebrities/athletes/angels, single-incidental-deal generalist pension/sovereign funds, and long-tail China state-owned/insurance conglomerates) — those are left unprocessed (neither entities nor rejected) for a future round rather than rejected without verification.",
+      "rejected": [
+        {
+          "name": "OrbiMed",
+          "reason": "Handled by another agent this round as an alias-consolidation case (already catalogued under us-orbimed / il-orbimed / cn-orbimed-asia-partners / in-orbimed-india) — out of scope per team-lead instruction."
+        },
+        {
+          "name": "Fidelity",
+          "reason": "Handled by another agent this round as an alias-consolidation case (already catalogued as us-fidelity-management-and-research / us-f-prime-capital) — out of scope per team-lead instruction."
+        },
+        {
+          "name": "Gates Foundation",
+          "reason": "Handled by another agent this round as an alias-consolidation case (already catalogued as us-gates-foundation-strategic-investment-fund / row-gates-foundation-strategic-investment-fund) — out of scope per team-lead instruction."
+        },
+        {
+          "name": "Bill & Melinda Gates Foundation",
+          "reason": "Same organization as 'Gates Foundation' — handled by another agent this round as an alias-consolidation case. Out of scope per team-lead instruction."
+        },
+        {
+          "name": "Bill and Melinda Gates Foundation",
+          "reason": "Same organization as 'Gates Foundation' (spelling variant) — handled by another agent this round as an alias-consolidation case. Out of scope per team-lead instruction."
+        },
+        {
+          "name": "Novo Holdings",
+          "reason": "Handled by another agent this round as an alias-consolidation case (already catalogued as eu-novo-holdings / us-novo-holdings / sea-novo-holdings-asia) — out of scope per team-lead instruction."
+        },
+        {
+          "name": "GE Healthcare",
+          "reason": "Not a gap — resolved as an aka of the already-catalogued us-ge-healthcare-ventures; see alias_fixes."
+        },
+        {
+          "name": "SV Health Investors",
+          "reason": "Already catalogued exactly as eu-sv-health-investors and us-sv-health-investors — not a gap, just an unlinked mention in company records."
+        },
+        {
+          "name": "SV Health Investors (Dementia Discovery Fund)",
+          "reason": "Dementia Discovery Fund is SV Health Investors' named sub-fund; parent SV Health Investors is already catalogued (eu-sv-health-investors / us-sv-health-investors). Not a new organization."
+        },
+        {
+          "name": "Sanofi Ventures",
+          "reason": "Already catalogued exactly as eu-sanofi-ventures and us-sanofi-ventures — not a gap."
+        },
+        {
+          "name": "Ally Bridge Group",
+          "reason": "Already catalogued exactly as cn-ally-bridge-group and us-ally-bridge-group — not a gap."
+        },
+        {
+          "name": "Astellas",
+          "reason": "Already catalogued as jp-astellas-venture-management / us-astellas-venture-management (aka 'Astellas Venture Capital'); the bare parent name refers to the same CVC arm — not a new organization."
+        }
+      ]
     }
   }
 }

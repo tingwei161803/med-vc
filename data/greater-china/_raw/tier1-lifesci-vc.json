@@ -1,45 +1,111 @@
 [
   {
     "id": "cn-qiming-venture-partners",
-    "name": { "en": "Qiming Venture Partners", "local": "启明创投" },
-    "aka": ["Qiming", "启明创投"],
+    "name": {
+      "en": "Qiming Venture Partners",
+      "local": "启明创投"
+    },
+    "aka": [
+      "Qiming",
+      "启明创投"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2006,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Suzhou" },
-      { "country": "Hong Kong", "city": "Hong Kong" },
-      { "country": "Singapore", "city": "Singapore" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Suzhou"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      },
+      {
+        "country": "Singapore",
+        "city": "Singapore"
+      }
     ],
     "website": "https://www.qimingvc.com/en",
-    "links": { "linkedin": "https://www.linkedin.com/company/qiming-venture-partners" },
+    "links": {
+      "linkedin": "https://www.linkedin.com/company/qiming-venture-partners"
+    },
     "capital": {
-      "aum": { "raw": "US$9.5 bn", "usd": 9500000000, "currency": "USD" }
+      "aum": {
+        "raw": "US$9.5 bn",
+        "usd": 9500000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "generalist-health"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "generalist-health"
+      ],
       "thesis": "One of China's leading dual-focus (technology + healthcare) VC firms; its healthcare practice backs innovative drugs, medical devices, IVD/diagnostics and digital health, and it runs a dedicated US healthcare team/fund (Qiming Venture Partners USA)."
     },
     "lifesci": {
-      "modalities": ["biologics-antibody", "small-molecule", "medical-hardware"],
-      "indications": ["oncology"]
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule",
+        "medical-hardware"
+      ],
+      "indications": [
+        "oncology"
+      ]
     },
     "track_record": {
       "portfolio_count": "580+",
       "notable_investments": [
-        { "company": "Zai Lab", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "CanSino Biologics", "sector": "vaccines", "outcome": "IPO" },
-        { "company": "Berry Genomics", "sector": "genomics-omics", "outcome": "IPO" },
-        { "company": "Sinocelltech", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Tigermed", "sector": "pharma-services", "outcome": "IPO" }
+        {
+          "company": "Zai Lab",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "CanSino Biologics",
+          "sector": "vaccines",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Berry Genomics",
+          "sector": "genomics-omics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Sinocelltech",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Tigermed",
+          "sector": "pharma-services",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -47,8 +113,22 @@
       "local": "中国头部创投之一，采取科技与医疗双轮驱动战略；医疗健康是其核心支柱，累计管理资本约95亿美元，投资逾580家企业。"
     },
     "sources": [
-      { "url": "https://www.qimingvc.com/en", "title": "Qiming Venture Partners", "publisher": "Qiming Venture Partners", "accessed": "undefined", "supports": "AUM, portfolio count, exits, dual tech/healthcare focus", "quote": "US$9.5 bn AUM Capital Raised ... 580+ Portfolio Companies ... 70+ IPOs ... 140 M&As or Other Exits" },
-      { "url": "https://www.qimingvcusa.com/about-us/", "title": "Qiming US | About Us", "publisher": "Qiming Venture Partners USA", "accessed": "undefined", "supports": "Founding year, offices, dedicated US healthcare fund", "quote": "Founded in 2006 ... offices in Shanghai, Beijing, Suzhou, Hong Kong in China, and Singapore" }
+      {
+        "url": "https://www.qimingvc.com/en",
+        "title": "Qiming Venture Partners",
+        "publisher": "Qiming Venture Partners",
+        "accessed": "undefined",
+        "supports": "AUM, portfolio count, exits, dual tech/healthcare focus",
+        "quote": "US$9.5 bn AUM Capital Raised ... 580+ Portfolio Companies ... 70+ IPOs ... 140 M&As or Other Exits"
+      },
+      {
+        "url": "https://www.qimingvcusa.com/about-us/",
+        "title": "Qiming US | About Us",
+        "publisher": "Qiming Venture Partners USA",
+        "accessed": "undefined",
+        "supports": "Founding year, offices, dedicated US healthcare fund",
+        "quote": "Founded in 2006 ... offices in Shanghai, Beijing, Suzhou, Hong Kong in China, and Singapore"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM and portfolio figures taken verbatim from the firm's official English site (as of Aug 2024). Founding year 2006 per Qiming US about page.",
@@ -57,47 +137,121 @@
   },
   {
     "id": "cn-lilly-asia-ventures",
-    "name": { "en": "Lilly Asia Ventures", "local": "礼来亚洲基金" },
-    "aka": ["LAV", "礼来亚洲基金"],
+    "name": {
+      "en": "Lilly Asia Ventures",
+      "local": "礼来亚洲基金"
+    },
+    "aka": [
+      "LAV",
+      "礼来亚洲基金"
+    ],
     "type": "vc",
-    "subtypes": ["crossover-fund"],
+    "subtypes": [
+      "crossover-fund"
+    ],
     "status": "active",
     "founded_year": 2008,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "Hong Kong", "city": "Hong Kong" },
-      { "country": "United States", "city": "Palo Alto" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      },
+      {
+        "country": "United States",
+        "city": "Palo Alto"
+      }
     ],
     "website": "https://www.lavfund.com/",
     "capital": {
-      "aum": { "raw": "approximately $4.5 billion across seven funds", "usd": 4500000000, "currency": "USD" },
+      "aum": {
+        "raw": "approximately $4.5 billion across seven funds",
+        "usd": 4500000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "Lilly Asia Ventures Fund VI", "vintage_year": 2021, "size": { "raw": "$1.35 billion", "usd": 1350000000, "currency": "USD" } },
-        { "name": "Lilly Asia Ventures Fund VII", "vintage_year": null, "size": { "raw": "USD 700m hard cap", "usd": 700000000, "currency": "USD" } }
+        {
+          "name": "Lilly Asia Ventures Fund VI",
+          "vintage_year": 2021,
+          "size": {
+            "raw": "$1.35 billion",
+            "usd": 1350000000,
+            "currency": "USD"
+          }
+        },
+        {
+          "name": "Lilly Asia Ventures Fund VII",
+          "vintage_year": null,
+          "size": {
+            "raw": "USD 700m hard cap",
+            "usd": 700000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "Independent biomedical VC (originally the corporate venture arm of Eli Lilly, independent since 2011) investing globally across the biomedical spectrum from seed stage to publicly traded companies in biopharmaceuticals, human therapeutics, medical devices and diagnostics."
     },
     "lifesci": {
-      "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "gene-therapy"],
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "cell-therapy",
+        "gene-therapy"
+      ],
       "invests_public_markets": true
     },
-    "track_record": { "portfolio_count": "326 total investments (per PitchBook)" },
+    "track_record": {
+      "portfolio_count": "326 total investments (per PitchBook)"
+    },
     "summary": {
       "en": "Shanghai-headquartered biomedical VC, one of Asia's premier life-science funds; spun out of Eli Lilly's corporate venture arm and independent since 2011, managing ~$4.5bn across seven funds.",
       "local": "总部位于上海的生物医药创投，亚洲头部生命科学基金之一；源自礼来公司的企业创投部门，2011年独立，管理约45亿美元、七期基金。"
     },
     "sources": [
-      { "url": "https://www.lavfund.com/", "title": "LAV", "publisher": "Lilly Asia Ventures", "accessed": "undefined", "supports": "Sector focus, seed-to-public strategy", "quote": "biopharmaceuticals, human therapeutics, medical devices, and diagnostics" },
-      { "url": "https://ionanalytics.com/insights/mergermarket/lilly-asia-ventures-closes-fund-vii-at-usd-700m-hard-cap/", "title": "Lilly Asia Ventures closes Fund VII at USD 700m hard cap", "publisher": "ION Analytics / Mergermarket", "accessed": "undefined", "supports": "Fund VII size", "quote": "Lilly Asia Ventures closes Fund VII at USD 700m hard cap" },
-      { "url": "https://inforcapital.com/companies/lilly-asia-ventures-lav/", "title": "Lilly Asia Ventures - Investor Profile", "publisher": "Infor Capital", "accessed": "undefined", "supports": "AUM, founding, independence, Fund VI size", "quote": "manages approximately $4.5 billion in assets across seven funds ... founded in 2008 as the corporate venture arm of Eli Lilly before becoming fully independent in 2011 ... Fund VI closed at $1.35 billion in 2021" }
+      {
+        "url": "https://www.lavfund.com/",
+        "title": "LAV",
+        "publisher": "Lilly Asia Ventures",
+        "accessed": "undefined",
+        "supports": "Sector focus, seed-to-public strategy",
+        "quote": "biopharmaceuticals, human therapeutics, medical devices, and diagnostics"
+      },
+      {
+        "url": "https://ionanalytics.com/insights/mergermarket/lilly-asia-ventures-closes-fund-vii-at-usd-700m-hard-cap/",
+        "title": "Lilly Asia Ventures closes Fund VII at USD 700m hard cap",
+        "publisher": "ION Analytics / Mergermarket",
+        "accessed": "undefined",
+        "supports": "Fund VII size",
+        "quote": "Lilly Asia Ventures closes Fund VII at USD 700m hard cap"
+      },
+      {
+        "url": "https://inforcapital.com/companies/lilly-asia-ventures-lav/",
+        "title": "Lilly Asia Ventures - Investor Profile",
+        "publisher": "Infor Capital",
+        "accessed": "undefined",
+        "supports": "AUM, founding, independence, Fund VI size",
+        "quote": "manages approximately $4.5 billion in assets across seven funds ... founded in 2008 as the corporate venture arm of Eli Lilly before becoming fully independent in 2011 ... Fund VI closed at $1.35 billion in 2021"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM (~$4.5bn) and Fund VI ($1.35bn) figures from reputable secondary profiles; Fund VII $700m hard cap from ION Analytics/Mergermarket. Official site confirms existence and sector focus but omits figures.",
@@ -106,34 +260,76 @@
   },
   {
     "id": "cn-orbimed-asia",
-    "name": { "en": "OrbiMed Asia", "local": "奥博资本(亚洲)" },
-    "aka": ["OrbiMed", "奥博资本"],
+    "name": {
+      "en": "OrbiMed Asia",
+      "local": "奥博资本(亚洲)"
+    },
+    "aka": [
+      "OrbiMed",
+      "奥博资本"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity", "crossover-fund"],
+    "subtypes": [
+      "growth-equity",
+      "crossover-fund"
+    ],
     "status": "active",
     "founded_year": 2007,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "Hong Kong", "city": "Hong Kong" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      }
     ],
     "website": "https://www.orbimed.com/",
     "capital": {
-      "aum": { "raw": "approximately $20 billion (firm-wide, worldwide)", "usd": 20000000000, "currency": "USD" }
+      "aum": {
+        "raw": "approximately $20 billion (firm-wide, worldwide)",
+        "usd": 20000000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["China", "India", "Asia"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "healthcare-services"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "China",
+        "India",
+        "Asia"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "healthcare-services"
+      ],
       "thesis": "The Asia arm of global healthcare investment firm OrbiMed; runs dedicated Asia healthcare funds investing across biopharmaceuticals, medical devices, diagnostics, digital health and healthcare services, with growth-stage focus in China and India."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"], "invests_public_markets": true },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ],
+      "invests_public_markets": true
+    },
     "track_record": {
       "portfolio_count": null,
       "notable_investments": [
-        { "company": "OrbiMed Asia Partners III", "sector": "fund", "outcome": "$551M close (2017)" }
+        {
+          "company": "OrbiMed Asia Partners III",
+          "sector": "fund",
+          "outcome": "$551M close (2017)"
+        }
       ]
     },
     "summary": {
@@ -141,8 +337,22 @@
       "local": "全球医疗健康专业投资机构 OrbiMed 的亚洲平台；2007年进入亚洲(上海、孟买),在亚洲医疗企业已投资逾20亿美元,全球管理规模约200亿美元。"
     },
     "sources": [
-      { "url": "https://www.orbimed.com/", "title": "OrbiMed Homepage", "publisher": "OrbiMed", "accessed": "undefined", "supports": "Firm-wide AUM, sector focus", "quote": "approximately $20 billion across public and private company investments worldwide ... From biopharmaceuticals to medical devices, digital health, diagnostics, and healthcare services" },
-      { "url": "https://www.orbimed.com/orbimed-launches-551-million-asia-private-equity-fund/", "title": "OrbiMed Launches $551 Million Asia Private Equity Fund", "publisher": "OrbiMed", "accessed": "undefined", "supports": "Asia Partners III fund size, China/India focus", "quote": "OrbiMed Asia Partners III, LP, with approximately $551 million in capital commitments ... focus on growth stage product- and services-oriented companies in China and India" }
+      {
+        "url": "https://www.orbimed.com/",
+        "title": "OrbiMed Homepage",
+        "publisher": "OrbiMed",
+        "accessed": "undefined",
+        "supports": "Firm-wide AUM, sector focus",
+        "quote": "approximately $20 billion across public and private company investments worldwide ... From biopharmaceuticals to medical devices, digital health, diagnostics, and healthcare services"
+      },
+      {
+        "url": "https://www.orbimed.com/orbimed-launches-551-million-asia-private-equity-fund/",
+        "title": "OrbiMed Launches $551 Million Asia Private Equity Fund",
+        "publisher": "OrbiMed",
+        "accessed": "undefined",
+        "supports": "Asia Partners III fund size, China/India focus",
+        "quote": "OrbiMed Asia Partners III, LP, with approximately $551 million in capital commitments ... focus on growth stage product- and services-oriented companies in China and India"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Global HQ is New York City; included here for its dedicated Asia healthcare funds and Shanghai/Hong Kong offices. ~$20bn AUM is firm-wide (not Asia-only); >$2bn is the reported figure invested in Asian healthcare. Asia expansion year 2007 per secondary sources.",
@@ -151,33 +361,78 @@
   },
   {
     "id": "cn-hongshan",
-    "name": { "en": "HongShan", "local": "红杉中国" },
-    "aka": ["HSG", "Sequoia Capital China", "红杉资本中国", "红杉"],
+    "name": {
+      "en": "HongShan",
+      "local": "红杉中国"
+    },
+    "aka": [
+      "HSG",
+      "Sequoia Capital China",
+      "红杉资本中国",
+      "红杉"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2005,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Beijing",
     "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shanghai" },
-      { "country": "Hong Kong", "city": "Hong Kong" }
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      }
     ],
     "website": "https://www.hongshan.com/",
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["China"],
-      "sector_focus": ["generalist-health", "therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "generalist-health",
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health"
+      ],
       "thesis": "One of China's largest and most prestigious venture/PE platforms (formerly Sequoia Capital China, rebranded HongShan in 2023); healthcare is one of its three core pillars alongside technology and consumer, with over 60% of medical cases invested at the early (seed / first 1-2 rounds) stage."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "medical-hardware"], "company_creation": false },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "cell-therapy",
+        "medical-hardware"
+      ],
+      "company_creation": false
+    },
     "track_record": {
       "portfolio_count": "1700+ companies (firm-wide)",
       "notable_investments": [
-        { "company": "New Industries Biomedical (Snibe)", "sector": "diagnostics", "outcome": "IPO" },
-        { "company": "Peijia Medical / BeiGene (healthcare portfolio)", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "New Industries Biomedical (Snibe)",
+          "sector": "diagnostics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Peijia Medical / BeiGene (healthcare portfolio)",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -185,8 +440,22 @@
       "local": "前身为红杉资本中国基金,2005年成立,大中华区旗舰创投/私募机构;医疗是三大核心领域之一,累计投资逾1700家企业(180+上市、140+独角兽),覆盖全阶段。"
     },
     "sources": [
-      { "url": "https://www.hongshan.com/about-us/", "title": "关于我们 - 红杉", "publisher": "HongShan", "accessed": "undefined", "supports": "Founding year, portfolio counts, three focus fields, full-stage strategy", "quote": "投资了逾1700家企业 ... 超过180家成员企业成功上市 ... 超过140家非上市公司已发展成为独角兽 ... 专注于投资科技、医疗、消费三大领域" },
-      { "url": "https://en.wikipedia.org/wiki/HongShan", "title": "HongShan - Wikipedia", "publisher": "Wikipedia", "accessed": "undefined", "supports": "Rebrand from Sequoia China in 2023, founding 2005", "quote": "previously the China investment arm of Sequoia Capital ... In June 2023 ... becoming completely independent with the ... English brand name HongShan" }
+      {
+        "url": "https://www.hongshan.com/about-us/",
+        "title": "关于我们 - 红杉",
+        "publisher": "HongShan",
+        "accessed": "undefined",
+        "supports": "Founding year, portfolio counts, three focus fields, full-stage strategy",
+        "quote": "投资了逾1700家企业 ... 超过180家成员企业成功上市 ... 超过140家非上市公司已发展成为独角兽 ... 专注于投资科技、医疗、消费三大领域"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/HongShan",
+        "title": "HongShan - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "Rebrand from Sequoia China in 2023, founding 2005",
+        "quote": "previously the China investment arm of Sequoia Capital ... In June 2023 ... becoming completely independent with the ... English brand name HongShan"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Generalist mega-firm included because healthcare is an explicit core pillar with a dedicated, highly active life-science practice. Did not include a precise firm-wide AUM figure — a widely cited '550 billion USD' figure appears to be a mistranslation of an RMB figure and could not be reliably verified.",
@@ -195,8 +464,15 @@
   },
   {
     "id": "cn-gl-ventures",
-    "name": { "en": "GL Ventures", "local": "高瓴创投" },
-    "aka": ["Hillhouse GL Ventures", "高瓴创投", "Gaoling Ventures"],
+    "name": {
+      "en": "GL Ventures",
+      "local": "高瓴创投"
+    },
+    "aka": [
+      "Hillhouse GL Ventures",
+      "高瓴创投",
+      "Gaoling Ventures"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -205,31 +481,80 @@
     "country": "China",
     "hq_city": "Beijing",
     "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shanghai" },
-      { "country": "Hong Kong", "city": "Hong Kong" }
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      }
     ],
     "website": "https://www.glventures.com.cn/",
     "capital": {
-      "current_fund": { "raw": "美元和人民币合计规模超过100亿元 (over RMB 10 billion, USD + RMB combined)", "usd": null, "currency": "CNY" }
+      "current_fund": {
+        "raw": "美元和人民币合计规模超过100亿元 (over RMB 10 billion, USD + RMB combined)",
+        "usd": null,
+        "currency": "CNY"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "ai-drug-discovery", "generalist-health"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "ai-drug-discovery",
+        "generalist-health"
+      ],
       "thesis": "Early-stage venture brand launched by Hillhouse (高瓴) in Feb 2020; biopharma & medical devices is one of its four core focus areas, backing early scientific teams building safer, more effective and affordable drugs, devices and medical services."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "ai-ml-platform"
+      ]
+    },
     "people": [
-      { "name": "Yi Nuoqing", "role": "Partner / Head of Biopharma & Medical Devices", "background": "高瓴联席首席投资官, leads GL Ventures healthcare" }
+      {
+        "name": "Yi Nuoqing",
+        "role": "Partner / Head of Biopharma & Medical Devices",
+        "background": "高瓴联席首席投资官, leads GL Ventures healthcare"
+      }
     ],
     "summary": {
       "en": "The dedicated early-stage venture arm of Hillhouse, launched in 2020; biopharma and medical devices is one of its four pillars and it rapidly became one of China's most active early-stage life-science investors.",
       "local": "高瓴于2020年推出的早期创投品牌;生物医药与医疗器械是其四大重点方向之一,迅速成为中国最活跃的早期生医投资机构之一。"
     },
     "sources": [
-      { "url": "https://www.thepaper.cn/newsDetail_forward_11455458", "title": "募资100亿+！高瓴创投火了", "publisher": "澎湃新闻 The Paper", "accessed": "undefined", "supports": "Fund size raised, number of deals, launch, healthcare focus", "quote": "高瓴创投已完成了美元和人民币合计规模超过100亿元的独立募资,一年火速投了200多个项目" },
-      { "url": "https://36kr.com/p/1725136879617", "title": "焦点分析 | 高瓴杀入VC", "publisher": "36氪", "accessed": "undefined", "supports": "GL Ventures is Hillhouse's independent early-stage VC brand launched Feb 2020", "quote": "高瓴创投（GL Ventures）是高瓴资本在2020年2月推出的独立VC品牌,专注于早期创业投资 ... 生物医药与医疗器械" }
+      {
+        "url": "https://www.thepaper.cn/newsDetail_forward_11455458",
+        "title": "募资100亿+！高瓴创投火了",
+        "publisher": "澎湃新闻 The Paper",
+        "accessed": "undefined",
+        "supports": "Fund size raised, number of deals, launch, healthcare focus",
+        "quote": "高瓴创投已完成了美元和人民币合计规模超过100亿元的独立募资,一年火速投了200多个项目"
+      },
+      {
+        "url": "https://36kr.com/p/1725136879617",
+        "title": "焦点分析 | 高瓴杀入VC",
+        "publisher": "36氪",
+        "accessed": "undefined",
+        "supports": "GL Ventures is Hillhouse's independent early-stage VC brand launched Feb 2020",
+        "quote": "高瓴创投（GL Ventures）是高瓴资本在2020年2月推出的独立VC品牌,专注于早期创业投资 ... 生物医药与医疗器械"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Parent Hillhouse/高瓴 also runs public-market and crossover strategies, but GL Ventures is the dedicated early-stage VC brand (in scope). RMB 10bn is the reported independent fundraise, not a currency-converted AUM.",
@@ -238,8 +563,16 @@
   },
   {
     "id": "cn-6-dimensions-capital",
-    "name": { "en": "6 Dimensions Capital", "local": "通和毓承" },
-    "aka": ["6D Capital", "通和毓承资本", "WuXi Healthcare Ventures", "Frontline BioVentures"],
+    "name": {
+      "en": "6 Dimensions Capital",
+      "local": "通和毓承"
+    },
+    "aka": [
+      "6D Capital",
+      "通和毓承资本",
+      "WuXi Healthcare Ventures",
+      "Frontline BioVentures"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -248,24 +581,70 @@
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "Hong Kong", "city": "Hong Kong" },
-      { "country": "United States", "city": "Boston" },
-      { "country": "United States", "city": "San Francisco" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      },
+      {
+        "country": "United States",
+        "city": "Boston"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco"
+      }
     ],
     "website": "http://www.6dimensionscapital.com/en/",
-    "capital": { "aum": { "raw": "$1.5 billion", "usd": 1500000000, "currency": "USD" } },
+    "capital": {
+      "aum": {
+        "raw": "$1.5 billion",
+        "usd": 1500000000,
+        "currency": "USD"
+      }
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-it"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-it"
+      ],
       "thesis": "Global healthcare and life-science VC/PE formed from the 2017 merger of WuXi Healthcare Ventures and Frontline BioVentures; invests early- and growth-stage in biologics, medical devices, in vitro diagnostics and healthcare IT."
     },
-    "lifesci": { "modalities": ["biologics-antibody", "small-molecule", "cell-therapy"] },
+    "lifesci": {
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule",
+        "cell-therapy"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "CStone Pharmaceuticals", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Viela Bio", "sector": "therapeutics", "outcome": "acquired" }
+        {
+          "company": "CStone Pharmaceuticals",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Viela Bio",
+          "sector": "therapeutics",
+          "outcome": "acquired"
+        }
       ]
     },
     "summary": {
@@ -273,8 +652,22 @@
       "local": "总部位于上海与波士顿的医疗健康创投,由通和资本与毓承资本(WuXi Healthcare Ventures 与 Frontline BioVentures)于2017年合并而成,管理规模约15亿美元。"
     },
     "sources": [
-      { "url": "https://www.cbinsights.com/investor/6-dimensions-capital", "title": "6 Dimensions Capital", "publisher": "CB Insights", "accessed": "undefined", "supports": "AUM, merger origin, sectors, offices", "quote": "emerged from the 2017 merger of WuXi Healthcare Ventures and Frontline BioVentures ... manages assets worth $1.5 billion" },
-      { "url": "https://www.finsmes.com/2017/10/6-dimensions-capital-to-raise-its-450m-first-venture-capital-fund.html", "title": "6 Dimensions Capital to Raise its $450M First Venture Capital Fund", "publisher": "FinSMEs", "accessed": "undefined", "supports": "First VC fund size", "quote": "6 Dimensions Capital to Raise its $450M First Venture Capital Fund" }
+      {
+        "url": "https://www.cbinsights.com/investor/6-dimensions-capital",
+        "title": "6 Dimensions Capital",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "AUM, merger origin, sectors, offices",
+        "quote": "emerged from the 2017 merger of WuXi Healthcare Ventures and Frontline BioVentures ... manages assets worth $1.5 billion"
+      },
+      {
+        "url": "https://www.finsmes.com/2017/10/6-dimensions-capital-to-raise-its-450m-first-venture-capital-fund.html",
+        "title": "6 Dimensions Capital to Raise its $450M First Venture Capital Fund",
+        "publisher": "FinSMEs",
+        "accessed": "undefined",
+        "supports": "First VC fund size",
+        "quote": "6 Dimensions Capital to Raise its $450M First Venture Capital Fund"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Official 'about us' page did not load during research; existence, merger origin, ~$1.5bn AUM and offices corroborated by CB Insights and FinSMEs. The Chinese entity 通和毓承 was itself formed by merging 通和资本 and 毓承资本.",
@@ -283,40 +676,99 @@
   },
   {
     "id": "cn-legend-capital",
-    "name": { "en": "Legend Capital", "local": "君联资本" },
-    "aka": ["君联资本", "Legend Capital Healthcare"],
+    "name": {
+      "en": "Legend Capital",
+      "local": "君联资本"
+    },
+    "aka": [
+      "君联资本",
+      "Legend Capital Healthcare"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2001,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Beijing",
     "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Shenzhen" },
-      { "country": "Hong Kong", "city": "Hong Kong" }
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "China",
+        "city": "Shenzhen"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      }
     ],
     "website": "https://www.legendcapital.com.cn/",
     "capital": {
-      "aum": { "raw": "over $10 billion (firm-wide)", "usd": 10000000000, "currency": "USD" }
+      "aum": {
+        "raw": "over $10 billion (firm-wide)",
+        "usd": 10000000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "$5 million to $100 million", "usd_min": 5000000, "usd_max": 100000000 },
-      "geo_focus": ["China"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$5 million to $100 million",
+        "usd_min": 5000000,
+        "usd_max": 100000000
+      },
+      "geo_focus": [
+        "China"
+      ],
       "lead_or_follow": "lead",
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services", "digital-health"],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services",
+        "digital-health"
+      ],
       "thesis": "The venture arm of Legend Holdings/Lenovo with a dedicated healthcare practice since 2007; invests in innovative drugs, biotech, medical devices, diagnostics, medical services and digital health, leading ~85% of its healthcare financings."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ]
+    },
     "track_record": {
       "portfolio_count": "70+ healthcare projects (as of Apr 2018)",
       "notable_investments": [
-        { "company": "Berry Genomics 贝瑞基因", "sector": "genomics-omics", "outcome": "IPO" },
-        { "company": "WuXi AppTec 药明康德", "sector": "pharma-services", "outcome": "IPO" },
-        { "company": "Nuwacell 士泽/华龄", "sector": "cell-gene-therapy", "outcome": "active" }
+        {
+          "company": "Berry Genomics 贝瑞基因",
+          "sector": "genomics-omics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "WuXi AppTec 药明康德",
+          "sector": "pharma-services",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Nuwacell 士泽/华龄",
+          "sector": "cell-gene-therapy",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -324,8 +776,22 @@
       "local": "联想控股旗下君联资本,2007年设立专门医疗团队;截至2018年4月已向70多家医疗企业投出超7亿美元,并在85%的融资中担任领投方。"
     },
     "sources": [
-      { "url": "https://startup.aliyun.com/info/1024062.html", "title": "君联资本10年医疗投资背后", "publisher": "阿里云创业频道", "accessed": "undefined", "supports": "Healthcare practice start year, capital deployed, projects, lead percentage", "quote": "截至2018年4月,君联资本医疗基金已经累计向70多家医疗板块的企业投出超过7亿美元 ... 85%的融资交易中君联资本是领投方" },
-      { "url": "https://www.crunchbase.com/organization/legend-capital", "title": "Legend Capital - Crunchbase", "publisher": "Crunchbase", "accessed": "undefined", "supports": "Founding year, firm-wide AUM, check size", "quote": "founded in 2001 ... manages over $10 billion ... check size range of $5 million to $100 million" }
+      {
+        "url": "https://startup.aliyun.com/info/1024062.html",
+        "title": "君联资本10年医疗投资背后",
+        "publisher": "阿里云创业频道",
+        "accessed": "undefined",
+        "supports": "Healthcare practice start year, capital deployed, projects, lead percentage",
+        "quote": "截至2018年4月,君联资本医疗基金已经累计向70多家医疗板块的企业投出超过7亿美元 ... 85%的融资交易中君联资本是领投方"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/legend-capital",
+        "title": "Legend Capital - Crunchbase",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founding year, firm-wide AUM, check size",
+        "quote": "founded in 2001 ... manages over $10 billion ... check size range of $5 million to $100 million"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Firm-wide (multi-sector) AUM >$10bn; healthcare-specific deployed capital >US$700m across 70+ projects is a 2018 figure and has since grown. Check-size range is firm-wide per Crunchbase.",
@@ -334,8 +800,14 @@
   },
   {
     "id": "cn-sherpa-healthcare-partners",
-    "name": { "en": "Sherpa Healthcare Partners", "local": "夏尔巴投资" },
-    "aka": ["夏尔巴投资", "Sherpa"],
+    "name": {
+      "en": "Sherpa Healthcare Partners",
+      "local": "夏尔巴投资"
+    },
+    "aka": [
+      "夏尔巴投资",
+      "Sherpa"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -344,27 +816,71 @@
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Beijing" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "China",
+        "city": "Beijing"
+      }
     ],
     "website": "https://www.sherpahp.com/",
     "capital": {
-      "aum": { "raw": "over US$1 billion raised across multiple USD and RMB funds (2011-2020, 4 vintages)", "usd": 1000000000, "currency": "USD" }
+      "aum": {
+        "raw": "over US$1 billion raised across multiple USD and RMB funds (2011-2020, 4 vintages)",
+        "usd": 1000000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "China healthcare-dedicated VC (team together since 2011, independent firm founded 2018) focused on early- to growth-stage companies in biotech/biopharma, medical devices/diagnostics and medical services."
     },
-    "lifesci": { "modalities": ["biologics-antibody", "cell-therapy", "gene-therapy"] },
+    "lifesci": {
+      "modalities": [
+        "biologics-antibody",
+        "cell-therapy",
+        "gene-therapy"
+      ]
+    },
     "track_record": {
       "portfolio_count": "100+ investments (team, 2011-2020)",
       "notable_investments": [
-        { "company": "Belief BioMed", "sector": "cell-gene-therapy", "outcome": "active" },
-        { "company": "Singleron Biotechnologies", "sector": "life-science-tools", "outcome": "active" },
-        { "company": "Cytek Biosciences", "sector": "life-science-tools", "outcome": "IPO" },
-        { "company": "EpimAb Biotherapeutics", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Belief BioMed",
+          "sector": "cell-gene-therapy",
+          "outcome": "active"
+        },
+        {
+          "company": "Singleron Biotechnologies",
+          "sector": "life-science-tools",
+          "outcome": "active"
+        },
+        {
+          "company": "Cytek Biosciences",
+          "sector": "life-science-tools",
+          "outcome": "IPO"
+        },
+        {
+          "company": "EpimAb Biotherapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -372,8 +888,22 @@
       "local": "专注中国医疗健康的创投,核心团队自2011年起共同投资(公司成立于2018年),历经四期基金累计投资逾10亿美元,覆盖生物医药、器械/诊断与医疗服务。"
     },
     "sources": [
-      { "url": "https://www.prnewswire.com/news-releases/sherpa-healthcare-partners-announces-the-successful-closing-of-oversubscribed-fund-ii-301337429.html", "title": "Sherpa Healthcare Partners Announces the Successful Closing of Oversubscribed Fund II", "publisher": "PR Newswire", "accessed": "undefined", "supports": "Fund II close, sector focus, portfolio", "quote": "The fund focuses on early- to growth-stage investments in China healthcare sector to cover companies in biotech/biopharma, medical devices/diagnostics, and medical services" },
-      { "url": "https://www.privateequityinternational.com/institution-profiles/sherpa-healthcare-partners.html", "title": "Sherpa Healthcare Partners | Institution Profile", "publisher": "Private Equity International", "accessed": "undefined", "supports": "Team history since 2011, 100+ investments, ~$1bn", "quote": "From 2011 to 2020, the team has gone through 4 vintage year cycles of multiple U.S dollar funds and RMB funds and made over 100 investments, with a total of 1 billion U.S dollars" }
+      {
+        "url": "https://www.prnewswire.com/news-releases/sherpa-healthcare-partners-announces-the-successful-closing-of-oversubscribed-fund-ii-301337429.html",
+        "title": "Sherpa Healthcare Partners Announces the Successful Closing of Oversubscribed Fund II",
+        "publisher": "PR Newswire",
+        "accessed": "undefined",
+        "supports": "Fund II close, sector focus, portfolio",
+        "quote": "The fund focuses on early- to growth-stage investments in China healthcare sector to cover companies in biotech/biopharma, medical devices/diagnostics, and medical services"
+      },
+      {
+        "url": "https://www.privateequityinternational.com/institution-profiles/sherpa-healthcare-partners.html",
+        "title": "Sherpa Healthcare Partners | Institution Profile",
+        "publisher": "Private Equity International",
+        "accessed": "undefined",
+        "supports": "Team history since 2011, 100+ investments, ~$1bn",
+        "quote": "From 2011 to 2020, the team has gone through 4 vintage year cycles of multiple U.S dollar funds and RMB funds and made over 100 investments, with a total of 1 billion U.S dollars"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Fund II size not publicly disclosed (announced only as 'oversubscribed'). The ~$1bn / 100+ investments figures describe the founding team's cumulative activity 2011-2020, spanning their prior firm.",
@@ -381,76 +911,88 @@
     "researched_by": "tier1-lifesci-vc"
   },
   {
-    "id": "cn-origin-capital",
-    "name": { "en": "Origin Capital (YuanBio Venture Capital)", "local": "元生创投" },
-    "aka": ["YuanBio Venture Capital", "元生创投", "bioVENTURE"],
-    "type": "vc",
-    "subtypes": [],
-    "status": "active",
-    "founded_year": 2013,
-    "region": "greater-china",
-    "country": "China",
-    "hq_city": "Suzhou",
-    "offices": [
-      { "country": "China", "city": "Suzhou" },
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Beijing" }
-    ],
-    "website": "https://en.bioventure.com.cn/",
-    "capital": { "aum": { "raw": "USD 1.3 Billion", "usd": 1300000000, "currency": "USD" } },
-    "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
-      "thesis": "Early- and growth-stage healthcare VC based in Suzhou BioBAY, investing in new drug R&D, medical devices, IVD/diagnostics, precision medicine and healthcare services; repeatedly ranked a top-10 China healthcare VC."
-    },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "medical-hardware"] },
-    "track_record": { "portfolio_count": "over 200 companies (19 listed on STAR Board, HKEX and Nasdaq)" },
-    "summary": {
-      "en": "Suzhou BioBAY-based healthcare VC founded in 2013 with ~US$1.3bn AUM and 200+ portfolio companies (19 listed); a perennial top-10 China life-science investor across drugs, devices, IVD and services.",
-      "local": "位于苏州 BioBAY 的医疗健康创投,2013年成立,管理规模约13亿美元,投资逾200家企业(19家已上市),多年入选中国医疗健康 Top10 创投。"
-    },
-    "sources": [
-      { "url": "https://en.bioventure.com.cn/", "title": "YuanBio Venture Capital", "publisher": "Origin Capital / 元生创投", "accessed": "undefined", "supports": "Founding year, AUM, portfolio, listed companies, sectors, Suzhou HQ", "quote": "USD 1.3 Billion ... over 200 companies in our investment portfolio ... 19 of the companies are listed on the SRAT Board, HKEX and Nasdaq ... biotech, medical devices, IVD and healthcare services" }
-    ],
-    "confidence": "high",
-    "verification_notes": "'SRAT Board' on the site is a typo for the STAR (科创板) Market. English brand is 'YuanBio Venture Capital'; commonly referenced in English as Origin Capital.",
-    "last_updated": "undefined",
-    "researched_by": "tier1-lifesci-vc"
-  },
-  {
     "id": "cn-vivo-capital",
-    "name": { "en": "Vivo Capital", "local": "维梧资本" },
-    "aka": ["维梧资本", "Vivo Ventures"],
+    "name": {
+      "en": "Vivo Capital",
+      "local": "维梧资本"
+    },
+    "aka": [
+      "维梧资本",
+      "Vivo Ventures"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity", "crossover-fund"],
+    "subtypes": [
+      "growth-equity",
+      "crossover-fund"
+    ],
     "status": "active",
     "founded_year": 1996,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Suzhou" },
-      { "country": "United States", "city": "Palo Alto" },
-      { "country": "Singapore", "city": "Singapore" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "China",
+        "city": "Suzhou"
+      },
+      {
+        "country": "United States",
+        "city": "Palo Alto"
+      },
+      {
+        "country": "Singapore",
+        "city": "Singapore"
+      }
     ],
     "website": "https://vivocapital.com/",
     "capital": {
-      "aum": { "raw": "$6.1bn Active AUM (Q4 2025)", "usd": 6100000000, "currency": "USD" }
+      "aum": {
+        "raw": "$6.1bn Active AUM (Q4 2025)",
+        "usd": 6100000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Global healthcare specialist with a multi-strategy platform (venture, private equity, public equity); runs a dedicated RMB fund in China (~RMB 10bn Suzhou healthcare fund, 2023) investing in domestic Chinese healthcare enterprises."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"], "invests_public_markets": true },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ],
+      "invests_public_markets": true
+    },
     "track_record": {
       "portfolio_count": "460+ global investments; 120+ IPOs and M&As",
       "notable_investments": [
-        { "company": "WuXi AppTec 药明康德", "sector": "pharma-services", "outcome": "IPO" },
-        { "company": "Sinovac Biotech", "sector": "vaccines", "outcome": "IPO" }
+        {
+          "company": "WuXi AppTec 药明康德",
+          "sector": "pharma-services",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Sinovac Biotech",
+          "sector": "vaccines",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -458,8 +1000,22 @@
       "local": "全球医疗健康专业投资机构,涵盖创投、私募与二级市场多策略,活跃管理规模约61亿美元;2023年在苏州设立约百亿元人民币基金,布局中国本土医疗企业。"
     },
     "sources": [
-      { "url": "https://vivocapital.com/", "title": "Vivo Capital | Healthcare Focused Investment Firm", "publisher": "Vivo Capital", "accessed": "undefined", "supports": "Active AUM, funds raised, investments, IPOs, multi-strategy", "quote": "$6.1bn Active AUM ... 16 Funds Raised ... 460+ Global Investments ... 120+ IPOs and M&As ... a multi-strategy investment platform covering venture capital, private equity and public equity strategies" },
-      { "url": "https://en.wikipedia.org/wiki/Vivo_Capital", "title": "Vivo Capital - Wikipedia", "publisher": "Wikipedia", "accessed": "undefined", "supports": "China RMB fund in Suzhou (2023), offices", "quote": "In December 2023, Vivo Capital announced the establishment of a healthcare industry investment fund of approximately 10 billion RMB in the Suzhou Industrial Park" }
+      {
+        "url": "https://vivocapital.com/",
+        "title": "Vivo Capital | Healthcare Focused Investment Firm",
+        "publisher": "Vivo Capital",
+        "accessed": "undefined",
+        "supports": "Active AUM, funds raised, investments, IPOs, multi-strategy",
+        "quote": "$6.1bn Active AUM ... 16 Funds Raised ... 460+ Global Investments ... 120+ IPOs and M&As ... a multi-strategy investment platform covering venture capital, private equity and public equity strategies"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Vivo_Capital",
+        "title": "Vivo Capital - Wikipedia",
+        "publisher": "Wikipedia",
+        "accessed": "undefined",
+        "supports": "China RMB fund in Suzhou (2023), offices",
+        "quote": "In December 2023, Vivo Capital announced the establishment of a healthcare industry investment fund of approximately 10 billion RMB in the Suzhou Industrial Park"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Global HQ is Palo Alto, California; included for its dedicated China RMB fund and Shanghai/Suzhou offices. Founding year ~1996 inferred from '30+ Years'/30th anniversary on the site (not an explicit year).",
@@ -468,45 +1024,119 @@
   },
   {
     "id": "cn-panacea-venture",
-    "name": { "en": "Panacea Venture", "local": "幂方资本" },
-    "aka": ["Panacea Capital", "幂方资本", "幂方健康基金"],
+    "name": {
+      "en": "Panacea Venture",
+      "local": "幂方资本"
+    },
+    "aka": [
+      "Panacea Capital",
+      "幂方资本",
+      "幂方健康基金"
+    ],
     "type": "vc",
-    "subtypes": ["crossover-fund"],
+    "subtypes": [
+      "crossover-fund"
+    ],
     "status": "active",
     "founded_year": 2017,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "Hong Kong", "city": "Hong Kong" },
-      { "country": "United States", "city": "Menlo Park" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      },
+      {
+        "country": "United States",
+        "city": "Menlo Park"
+      }
     ],
     "website": "https://www.panaceacapital.com/",
     "capital": {
       "funds": [
-        { "name": "Panacea Venture Healthcare Fund I", "vintage_year": 2019, "size": { "raw": "$180.5 million", "usd": 180500000, "currency": "USD" } }
+        {
+          "name": "Panacea Venture Healthcare Fund I",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "$180.5 million",
+            "usd": 180500000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["China", "United States", "Europe"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "ai-drug-discovery"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "United States",
+        "Europe"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "ai-drug-discovery"
+      ],
       "thesis": "Global life-science VC (founded by ex-KPCB China partners James Huang and Hai Mi) that incubates and invests in early-stage life-science companies, building and capturing value from company formation through expansion to public-market investing."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform"], "company_creation": true, "invests_public_markets": true },
-    "track_record": { "portfolio_count": "35+ companies (30+ private plus several public)" },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "ai-ml-platform"
+      ],
+      "company_creation": true,
+      "invests_public_markets": true
+    },
+    "track_record": {
+      "portfolio_count": "35+ companies (30+ private plus several public)"
+    },
     "people": [
-      { "name": "James Huang", "role": "Founding Managing Partner", "background": "ex-Managing Partner, Kleiner Perkins Caufield & Byers China" },
-      { "name": "Hai Mi", "role": "Managing Partner", "background": "ex-partner, KPCB China" }
+      {
+        "name": "James Huang",
+        "role": "Founding Managing Partner",
+        "background": "ex-Managing Partner, Kleiner Perkins Caufield & Byers China"
+      },
+      {
+        "name": "Hai Mi",
+        "role": "Managing Partner",
+        "background": "ex-partner, KPCB China"
+      }
     ],
     "summary": {
       "en": "Shanghai-based global life-science VC founded in 2017 by ex-KPCB China partners; raised three USD funds (first healthcare fund $180.5m in 2019) and invests from company formation through to public markets across the US, China and Europe.",
       "local": "总部位于上海的全球生命科学创投,2017年由前 KPCB 中国合伙人创立;已募集三期美元基金(首期医疗基金2019年1.805亿美元),投资横跨公司创建至二级市场,覆盖中美欧。"
     },
     "sources": [
-      { "url": "https://www.panaceacapital.com/", "title": "Panacea Capital", "publisher": "Panacea Venture", "accessed": "undefined", "supports": "Three USD funds, portfolio count, company-formation-to-public strategy", "quote": "Panacea Capital raised three USD funds ... investments in more than 30 private companies and several public companies ... We build and capture value from company formation to expansion stage to public market investing" },
-      { "url": "https://www.finsmes.com/2019/05/panacea-venture-raises-over-180m-for-first-healthcare-fund.html", "title": "Panacea Venture Raises Over $180M for First Healthcare Fund", "publisher": "FinSMEs", "accessed": "undefined", "supports": "First healthcare fund size and year", "quote": "Panacea Venture ... raised $180.5 million for its first healthcare fund in May 2019" }
+      {
+        "url": "https://www.panaceacapital.com/",
+        "title": "Panacea Capital",
+        "publisher": "Panacea Venture",
+        "accessed": "undefined",
+        "supports": "Three USD funds, portfolio count, company-formation-to-public strategy",
+        "quote": "Panacea Capital raised three USD funds ... investments in more than 30 private companies and several public companies ... We build and capture value from company formation to expansion stage to public market investing"
+      },
+      {
+        "url": "https://www.finsmes.com/2019/05/panacea-venture-raises-over-180m-for-first-healthcare-fund.html",
+        "title": "Panacea Venture Raises Over $180M for First Healthcare Fund",
+        "publisher": "FinSMEs",
+        "accessed": "undefined",
+        "supports": "First healthcare fund size and year",
+        "quote": "Panacea Venture ... raised $180.5 million for its first healthcare fund in May 2019"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Also invests in public biotech (crossover element) but is primarily an early-stage / company-creation life-science VC. Founders James Huang and Hai Mi per multiple secondary profiles.",
@@ -515,8 +1145,13 @@
   },
   {
     "id": "cn-cd-capital",
-    "name": { "en": "CD Capital", "local": "辰德资本" },
-    "aka": ["辰德资本"],
+    "name": {
+      "en": "CD Capital",
+      "local": "辰德资本"
+    },
+    "aka": [
+      "辰德资本"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -524,23 +1159,60 @@
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
-    "offices": [ { "country": "China", "city": "Shanghai" } ],
+    "offices": [
+      {
+        "country": "China",
+        "city": "Shanghai"
+      }
+    ],
     "website": "https://www.cd-healthinv.com/en/",
-    "capital": { "aum": { "raw": "over $1.4 billion across USD and RMB funds", "usd": 1400000000, "currency": "USD" } },
+    "capital": {
+      "aum": {
+        "raw": "over $1.4 billion across USD and RMB funds",
+        "usd": 1400000000,
+        "currency": "USD"
+      }
+    },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["medtech-devices", "therapeutics", "life-science-tools"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "therapeutics",
+        "life-science-tools"
+      ],
       "thesis": "MedTech- and life-science-focused venture capital firm making transformative investments in medical devices and life sciences, primarily in the China healthcare industry."
     },
-    "lifesci": { "modalities": ["medical-hardware", "small-molecule", "biologics-antibody"] },
-    "track_record": { "portfolio_count": "more than 90 companies" },
+    "lifesci": {
+      "modalities": [
+        "medical-hardware",
+        "small-molecule",
+        "biologics-antibody"
+      ]
+    },
+    "track_record": {
+      "portfolio_count": "more than 90 companies"
+    },
     "summary": {
       "en": "Shanghai-based MedTech- and life-science-focused VC founded in 2013, managing over $1.4bn across USD and RMB funds and backing 90+ companies in China's healthcare industry.",
       "local": "总部位于上海的医疗器械与生命科学创投,2013年成立,管理美元与人民币基金合计逾14亿美元,已投资90多家中国医疗健康企业。"
     },
     "sources": [
-      { "url": "https://www.cd-healthinv.com/about.html", "title": "About us - CD Capital", "publisher": "CD Capital", "accessed": "undefined", "supports": "Founding year, AUM, portfolio count, MedTech focus", "quote": "Established in 2013, CD Capital has managed over $1.4 billion across both USD funds and RMB funds ... has backed more than 90 great entrepreneurs and disruptive companies" }
+      {
+        "url": "https://www.cd-healthinv.com/about.html",
+        "title": "About us - CD Capital",
+        "publisher": "CD Capital",
+        "accessed": "undefined",
+        "supports": "Founding year, AUM, portfolio count, MedTech focus",
+        "quote": "Established in 2013, CD Capital has managed over $1.4 billion across both USD funds and RMB funds ... has backed more than 90 great entrepreneurs and disruptive companies"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM figure ($1.4bn) is from the firm's own About page; an earlier secondary source cited $600M, so the $1.4bn official figure is used as more current.",
@@ -549,34 +1221,88 @@
   },
   {
     "id": "cn-decheng-capital",
-    "name": { "en": "Decheng Capital", "local": "德诚资本" },
-    "aka": ["德诚资本"],
+    "name": {
+      "en": "Decheng Capital",
+      "local": "德诚资本"
+    },
+    "aka": [
+      "德诚资本"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2012,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "United States", "city": "Menlo Park" },
-      { "country": "United States", "city": "New York" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "United States",
+        "city": "Menlo Park"
+      },
+      {
+        "country": "United States",
+        "city": "New York"
+      }
     ],
     "website": "https://www.decheng.com/",
-    "capital": { "aum": { "raw": "Over $2.5 billion AUM", "usd": 2500000000, "currency": "USD" } },
+    "capital": {
+      "aum": {
+        "raw": "Over $2.5 billion AUM",
+        "usd": 2500000000,
+        "currency": "USD"
+      }
+    },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "diagnostics", "medtech-devices", "healthcare-services"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "medtech-devices",
+        "healthcare-services"
+      ],
       "thesis": "Life-science VC providing capital and strategic support to early-stage companies with revolutionary technologies and growth-stage healthcare companies, with a US-China cross-border strategy spanning biopharma, diagnostics, medical devices and healthcare services."
     },
-    "lifesci": { "modalities": ["gene-editing", "cell-therapy", "biologics-antibody", "small-molecule"] },
+    "lifesci": {
+      "modalities": [
+        "gene-editing",
+        "cell-therapy",
+        "biologics-antibody",
+        "small-molecule"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Mammoth Biosciences", "sector": "gene-editing", "outcome": "active" },
-        { "company": "Prometheus Biosciences", "sector": "therapeutics", "outcome": "acquired" },
-        { "company": "Cellares", "sector": "cell-gene-therapy", "outcome": "active" }
+        {
+          "company": "Mammoth Biosciences",
+          "sector": "gene-editing",
+          "outcome": "active"
+        },
+        {
+          "company": "Prometheus Biosciences",
+          "sector": "therapeutics",
+          "outcome": "acquired"
+        },
+        {
+          "company": "Cellares",
+          "sector": "cell-gene-therapy",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -584,7 +1310,14 @@
       "local": "专注中美跨境的生命科学创投,2012年成立,管理规模逾25亿美元,设有上海办公室,投资早期与成长期的生物医药、诊断、器械及医疗服务。"
     },
     "sources": [
-      { "url": "https://www.decheng.com/", "title": "Decheng Capital", "publisher": "Decheng Capital", "accessed": "undefined", "supports": "Founding year, AUM, offices, life-science focus", "quote": "Founded in 2012 ... Over $2.5 billion AUM ... early-stage life science companies with revolutionary technologies and growth stage healthcare companies" }
+      {
+        "url": "https://www.decheng.com/",
+        "title": "Decheng Capital",
+        "publisher": "Decheng Capital",
+        "accessed": "undefined",
+        "supports": "Founding year, AUM, offices, life-science focus",
+        "quote": "Founded in 2012 ... Over $2.5 billion AUM ... early-stage life science companies with revolutionary technologies and growth stage healthcare companies"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Registered HQ / primary US office in Menlo Park (Silicon Valley); included for its dedicated Shanghai office and China Life Sciences USD funds. Prometheus Biosciences acquired by Merck for $10.8bn (2023) per secondary sources.",
@@ -593,31 +1326,82 @@
   },
   {
     "id": "cn-highlight-capital",
-    "name": { "en": "HighLight Capital", "local": "弘晖基金" },
-    "aka": ["弘晖资本", "弘晖基金", "HLC"],
+    "name": {
+      "en": "HighLight Capital",
+      "local": "弘晖基金"
+    },
+    "aka": [
+      "弘晖资本",
+      "弘晖基金",
+      "HLC"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2014,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
-    "offices": [ { "country": "China", "city": "Shanghai" } ],
+    "offices": [
+      {
+        "country": "China",
+        "city": "Shanghai"
+      }
+    ],
     "website": "https://www.hlc.com.cn/",
-    "capital": { "aum": { "raw": "nearly 100 billion RMB (RMB and USD funds)", "usd": null, "currency": "CNY" } },
+    "capital": {
+      "aum": {
+        "raw": "nearly 100 billion RMB (RMB and USD funds)",
+        "usd": null,
+        "currency": "CNY"
+      }
+    },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "pharma-services", "consumer-health"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "pharma-services",
+        "consumer-health"
+      ],
       "thesis": "Healthcare-focused investment firm dedicated to leaders providing technology products and differentiated services for human health, spanning the bio industry chain (innovative drugs, CRO, bioengineering), health devices (consumables, diagnostics) and health consumption."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ]
+    },
     "track_record": {
       "portfolio_count": "200+ portfolio companies; 30+ IPOs",
       "notable_investments": [
-        { "company": "Mindray 迈瑞医疗", "sector": "medtech-devices", "outcome": "IPO" },
-        { "company": "United Imaging 联影医疗", "sector": "medical-imaging", "outcome": "IPO" },
-        { "company": "WuXi Biologics 药明生物", "sector": "pharma-services", "outcome": "IPO" }
+        {
+          "company": "Mindray 迈瑞医疗",
+          "sector": "medtech-devices",
+          "outcome": "IPO"
+        },
+        {
+          "company": "United Imaging 联影医疗",
+          "sector": "medical-imaging",
+          "outcome": "IPO"
+        },
+        {
+          "company": "WuXi Biologics 药明生物",
+          "sector": "pharma-services",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -625,9 +1409,30 @@
       "local": "总部位于上海的医疗健康投资机构,2014年成立,投资逾200家企业(30+ IPO),覆盖创新药、CRO、医疗器械、诊断及健康消费。"
     },
     "sources": [
-      { "url": "https://www.hlc.com.cn/en_index.aspx", "title": "弘晖基金", "publisher": "HighLight Capital", "accessed": "undefined", "supports": "Portfolio count, IPOs, healthcare + tech focus", "quote": "10+年 深耕中国 ... 200+ 被投企业 ... 30+ IPO ... 医疗健康 ... 科技制造" },
-      { "url": "https://www.vcnews.com/agency/highlightcapital", "title": "弘晖资本：简介、投资组合", "publisher": "VCNEWS", "accessed": "undefined", "supports": "Founding year, AUM, sub-sectors", "quote": "HighLight Capital was established in 2014 ... manages both RMB and USD denominated funds with total assets of nearly 100 billion RMB" },
-      { "url": "https://www.vbdata.cn/orgDetail/81b2b6e113254e7b82774b5d9e32858d", "title": "弘晖资本-动脉网", "publisher": "动脉网 vbdata", "accessed": "undefined", "supports": "Healthcare investment profile", "quote": "弘晖资本" }
+      {
+        "url": "https://www.hlc.com.cn/en_index.aspx",
+        "title": "弘晖基金",
+        "publisher": "HighLight Capital",
+        "accessed": "undefined",
+        "supports": "Portfolio count, IPOs, healthcare + tech focus",
+        "quote": "10+年 深耕中国 ... 200+ 被投企业 ... 30+ IPO ... 医疗健康 ... 科技制造"
+      },
+      {
+        "url": "https://www.vcnews.com/agency/highlightcapital",
+        "title": "弘晖资本：简介、投资组合",
+        "publisher": "VCNEWS",
+        "accessed": "undefined",
+        "supports": "Founding year, AUM, sub-sectors",
+        "quote": "HighLight Capital was established in 2014 ... manages both RMB and USD denominated funds with total assets of nearly 100 billion RMB"
+      },
+      {
+        "url": "https://www.vbdata.cn/orgDetail/81b2b6e113254e7b82774b5d9e32858d",
+        "title": "弘晖资本-动脉网",
+        "publisher": "动脉网 vbdata",
+        "accessed": "undefined",
+        "supports": "Healthcare investment profile",
+        "quote": "弘晖资本"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "AUM 'nearly RMB 100 billion' is from a secondary profile (VCNEWS) and may be overstated / include committed capital; the firm's official site does not publish an AUM figure. Now also invests in tech-manufacturing alongside healthcare.",
@@ -636,8 +1441,14 @@
   },
   {
     "id": "cn-yuanming-capital",
-    "name": { "en": "YuanMing Capital", "local": "元明资本" },
-    "aka": ["元明资本", "YuanMing"],
+    "name": {
+      "en": "YuanMing Capital",
+      "local": "元明资本"
+    },
+    "aka": [
+      "元明资本",
+      "YuanMing"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -646,24 +1457,67 @@
     "country": "China",
     "hq_city": "Beijing",
     "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shenzhen" },
-      { "country": "China", "city": "Suzhou" },
-      { "country": "United States", "city": "Boston" }
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Shenzhen"
+      },
+      {
+        "country": "China",
+        "city": "Suzhou"
+      },
+      {
+        "country": "United States",
+        "city": "Boston"
+      }
     ],
     "website": "https://www.yuanmingcap.cn/",
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Healthcare specialty VC focused on China-US cross-border investment in pharmaceutical R&D, innovative medical devices, diagnostics and high-end medical services."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "cell-therapy", "medical-hardware"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "cell-therapy",
+        "medical-hardware"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "JW Therapeutics 药明巨诺", "sector": "cell-gene-therapy", "outcome": "IPO" },
-        { "company": "CANbridge Life Sciences 北海康成", "sector": "therapeutics", "outcome": "IPO" },
-        { "company": "Ansun BioPharma", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "JW Therapeutics 药明巨诺",
+          "sector": "cell-gene-therapy",
+          "outcome": "IPO"
+        },
+        {
+          "company": "CANbridge Life Sciences 北海康成",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Ansun BioPharma",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -671,8 +1525,22 @@
       "local": "医疗健康专业创投,办公室分布于北京、深圳、苏州与波士顿,专注中美跨境投资,布局创新药、医疗器械、诊断及高端医疗服务。"
     },
     "sources": [
-      { "url": "https://www.yuanmingcap.cn/?_l=en", "title": "元明资本 YuanMing Capital", "publisher": "YuanMing Capital", "accessed": "undefined", "supports": "Offices, healthcare focus, cross-border", "quote": "Beijing, Shenzhen, Suzhou and Boston ... pharmaceutial research and development, innovative medical devices and high-end medical services" },
-      { "url": "https://www.cbinsights.com/investor/yuanming-capital", "title": "YuanMing Capital", "publisher": "CB Insights", "accessed": "undefined", "supports": "Investment count, portfolio companies", "quote": "YuanMing Capital has made 39 investments ... Ansun BioPharma, JW Therapeutics, CANbridge Life Sciences" }
+      {
+        "url": "https://www.yuanmingcap.cn/?_l=en",
+        "title": "元明资本 YuanMing Capital",
+        "publisher": "YuanMing Capital",
+        "accessed": "undefined",
+        "supports": "Offices, healthcare focus, cross-border",
+        "quote": "Beijing, Shenzhen, Suzhou and Boston ... pharmaceutial research and development, innovative medical devices and high-end medical services"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/yuanming-capital",
+        "title": "YuanMing Capital",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Investment count, portfolio companies",
+        "quote": "YuanMing Capital has made 39 investments ... Ansun BioPharma, JW Therapeutics, CANbridge Life Sciences"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Official site does not state founding year or AUM; investment count (39) and notable portfolio from CB Insights/Crunchbase. Founders cited (Fiona Gong, Lawrence Tian, Ming Jiang, Tina Yu) per secondary sources.",
@@ -681,37 +1549,95 @@
   },
   {
     "id": "cn-gt-healthcare",
-    "name": { "en": "GT Healthcare Capital Partners", "local": "高特佳投资" },
-    "aka": ["高特佳投资", "GTJA Investment Group (healthcare)", "高特佳"],
+    "name": {
+      "en": "GT Healthcare Capital Partners",
+      "local": "高特佳投资"
+    },
+    "aka": [
+      "高特佳投资",
+      "GTJA Investment Group (healthcare)",
+      "高特佳"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2001,
     "region": "greater-china",
     "country": "Hong Kong",
     "hq_city": "Shenzhen",
     "offices": [
-      { "country": "China", "city": "Shenzhen" },
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Nanjing" },
-      { "country": "Hong Kong", "city": "Hong Kong" }
+      {
+        "country": "China",
+        "city": "Shenzhen"
+      },
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Nanjing"
+      },
+      {
+        "country": "Hong Kong",
+        "city": "Hong Kong"
+      }
     ],
     "website": "https://www.gthcap.com/en/",
-    "capital": { "aum": { "raw": "over 20 billion yuan (含美元基金)", "usd": null, "currency": "CNY" } },
+    "capital": {
+      "aum": {
+        "raw": "over 20 billion yuan (含美元基金)",
+        "usd": null,
+        "currency": "CNY"
+      }
+    },
     "strategy": {
-      "stages": ["all"],
-      "geo_focus": ["China", "global"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "stages": [
+        "all"
+      ],
+      "geo_focus": [
+        "China",
+        "global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Shenzhen-founded, healthcare-specialist investment group covering the full cycle (angel, VC, PE, PIPE, M&A); known for its 博雅生物 buyout, it invests across pharma, devices, diagnostics and services in China and globally."
     },
-    "lifesci": { "modalities": ["biologics-antibody", "small-molecule", "medical-hardware"] },
+    "lifesci": {
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule",
+        "medical-hardware"
+      ]
+    },
     "track_record": {
       "portfolio_count": "150+ companies (80+ healthcare); 31 listed",
       "notable_investments": [
-        { "company": "Oxford Nanopore", "sector": "life-science-tools", "outcome": "IPO" },
-        { "company": "Exscientia", "sector": "ai-drug-discovery", "outcome": "IPO" },
-        { "company": "Boundless Bio", "sector": "therapeutics", "outcome": "IPO" }
+        {
+          "company": "Oxford Nanopore",
+          "sector": "life-science-tools",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Exscientia",
+          "sector": "ai-drug-discovery",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Boundless Bio",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        }
       ]
     },
     "summary": {
@@ -719,8 +1645,22 @@
       "local": "2001年创立于深圳的医疗健康专业投资集团,在香港及内地设有办公室,管理规模逾200亿元、25只医疗基金,投资150多家企业(80余家医疗、31家上市)。"
     },
     "sources": [
-      { "url": "https://www.gthcap.com/en/", "title": "GT Healthcare Capital Partners", "publisher": "GT Healthcare Capital Partners", "accessed": "undefined", "supports": "HK and Shanghai offices, global healthcare focus, portfolio", "quote": "GT Healthcare Capital Partners ... is an Asia-based private investment partnership that specializes in healthcare investments around the globe ... 22 Pottinger Street, Central, Hong Kong SAR" },
-      { "url": "https://www.szgig.com/", "title": "高特佳投资【专注医疗健康产业投资】", "publisher": "高特佳投资集团", "accessed": "undefined", "supports": "Founding year, AUM, fund count, portfolio, listings, offices", "quote": "高特佳投资集团 ... 管理资产规模超过200亿元 ... 25只医疗产业基金 ... 投资企业超过150家 ... 31家企业成功上市" }
+      {
+        "url": "https://www.gthcap.com/en/",
+        "title": "GT Healthcare Capital Partners",
+        "publisher": "GT Healthcare Capital Partners",
+        "accessed": "undefined",
+        "supports": "HK and Shanghai offices, global healthcare focus, portfolio",
+        "quote": "GT Healthcare Capital Partners ... is an Asia-based private investment partnership that specializes in healthcare investments around the globe ... 22 Pottinger Street, Central, Hong Kong SAR"
+      },
+      {
+        "url": "https://www.szgig.com/",
+        "title": "高特佳投资【专注医疗健康产业投资】",
+        "publisher": "高特佳投资集团",
+        "accessed": "undefined",
+        "supports": "Founding year, AUM, fund count, portfolio, listings, offices",
+        "quote": "高特佳投资集团 ... 管理资产规模超过200亿元 ... 25只医疗产业基金 ... 投资企业超过150家 ... 31家企业成功上市"
+      }
     ],
     "confidence": "high",
     "verification_notes": "Main HQ is Shenzhen (mainland China) with a Hong Kong office (22 Pottinger Street); country set to 'Hong Kong' for its HK partnership vehicle but note the group is Shenzhen-founded. English brand GT Healthcare; group also known as 高特佳投资集团.",
@@ -729,8 +1669,13 @@
   },
   {
     "id": "cn-3e-bioventures",
-    "name": { "en": "3E Bioventures Capital" },
-    "aka": ["3E Bioventures", "3EBio"],
+    "name": {
+      "en": "3E Bioventures Capital"
+    },
+    "aka": [
+      "3E Bioventures",
+      "3EBio"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -739,25 +1684,67 @@
     "country": "China",
     "hq_city": "Beijing",
     "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shanghai" },
-      { "country": "United States", "city": "San Francisco Bay Area" }
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "United States",
+        "city": "San Francisco Bay Area"
+      }
     ],
     "website": "https://www.3ebiovc.com/",
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "ai-drug-discovery", "medtech-devices", "diagnostics"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "ai-drug-discovery",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "Life-science-focused VC (name = Expertise, Efficiency, Execution) investing in global health innovators in biotech (new drugs, new modalities, drug-discovery platforms) and TechBio, across China and the US with dual-currency funds."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "ai-ml-platform"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "ai-ml-platform"
+      ]
+    },
     "summary": {
       "en": "Dual-currency life-science VC founded in 2015, with offices in Beijing, Shanghai and the SF Bay Area, investing early- and growth-stage in biotech and TechBio across China and the US.",
       "local": "2015年成立的双币生命科学创投,办公室位于北京、上海及旧金山湾区,投资中美两地生物科技与 TechBio 的早期及成长期企业。"
     },
     "sources": [
-      { "url": "https://www.3ebiovc.com/", "title": "3E Bioventures Capital", "publisher": "3E Bioventures Capital", "accessed": "undefined", "supports": "Focus on biotech/TechBio, dual-currency, offices", "quote": "actively investing in global leading health innovators, investing in Biotech (new drugs, new modalities, and drug discovery platforms) and in TechBio ... offices in Beijing, Shanghai, and the San Francisco Bay Area" },
-      { "url": "https://www.crunchbase.com/organization/3e-bioventures", "title": "3E Bioventures", "publisher": "Crunchbase", "accessed": "undefined", "supports": "Founding year and founder", "quote": "Founded in 2015 by Karen Liu" }
+      {
+        "url": "https://www.3ebiovc.com/",
+        "title": "3E Bioventures Capital",
+        "publisher": "3E Bioventures Capital",
+        "accessed": "undefined",
+        "supports": "Focus on biotech/TechBio, dual-currency, offices",
+        "quote": "actively investing in global leading health innovators, investing in Biotech (new drugs, new modalities, and drug discovery platforms) and in TechBio ... offices in Beijing, Shanghai, and the San Francisco Bay Area"
+      },
+      {
+        "url": "https://www.crunchbase.com/organization/3e-bioventures",
+        "title": "3E Bioventures",
+        "publisher": "Crunchbase",
+        "accessed": "undefined",
+        "supports": "Founding year and founder",
+        "quote": "Founded in 2015 by Karen Liu"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "AUM not publicly disclosed. Founding year (2015) and founder (Karen Liu) per Crunchbase; sector focus per official site.",
@@ -766,8 +1753,15 @@
   },
   {
     "id": "cn-jifeng-capital",
-    "name": { "en": "Jifeng Capital (JF Ventures)", "local": "济峰资本" },
-    "aka": ["济峰资本", "Jifeng Ventures", "JF"],
+    "name": {
+      "en": "Jifeng Capital (JF Ventures)",
+      "local": "济峰资本"
+    },
+    "aka": [
+      "济峰资本",
+      "Jifeng Ventures",
+      "JF"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -775,37 +1769,103 @@
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
-    "offices": [ { "country": "China", "city": "Shanghai" } ],
+    "offices": [
+      {
+        "country": "China",
+        "city": "Shanghai"
+      }
+    ],
     "website": "https://jifengventures.com/",
     "capital": {
-      "aum": { "raw": "about US$710 million (US$500M USD fund + RMB 1.45 billion fund)", "usd": 710000000, "currency": "USD" }
+      "aum": {
+        "raw": "about US$710 million (US$500M USD fund + RMB 1.45 billion fund)",
+        "usd": 710000000,
+        "currency": "USD"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services"
+      ],
       "thesis": "Healthcare-dedicated VC founded in 2015 by ex-Vivo Capital and ex-IDG Capital healthcare partners; invests in innovative drugs, devices, diagnostics and medical services in China."
     },
-    "lifesci": { "modalities": ["rna-therapeutics", "small-molecule", "biologics-antibody", "medical-hardware"] },
+    "lifesci": {
+      "modalities": [
+        "rna-therapeutics",
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ]
+    },
     "track_record": {
       "notable_investments": [
-        { "company": "Abogen Biosciences 艾博生物", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Imeik Technology 爱美客", "sector": "consumer-health", "outcome": "IPO" },
-        { "company": "Intco Medical 英科医疗", "sector": "medtech-devices", "outcome": "IPO" },
-        { "company": "VitalGen 天泽云泰", "sector": "cell-gene-therapy", "outcome": "active" }
+        {
+          "company": "Abogen Biosciences 艾博生物",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Imeik Technology 爱美客",
+          "sector": "consumer-health",
+          "outcome": "IPO"
+        },
+        {
+          "company": "Intco Medical 英科医疗",
+          "sector": "medtech-devices",
+          "outcome": "IPO"
+        },
+        {
+          "company": "VitalGen 天泽云泰",
+          "sector": "cell-gene-therapy",
+          "outcome": "active"
+        }
       ]
     },
     "people": [
-      { "name": "Yu Zhengkun 余征坤", "role": "Founding Managing Partner", "background": "ex-Partner, IDG Capital (healthcare)" },
-      { "name": "Zhao Jin 赵晋", "role": "Founding Managing Partner", "background": "ex-Managing Partner, Vivo Capital" }
+      {
+        "name": "Yu Zhengkun 余征坤",
+        "role": "Founding Managing Partner",
+        "background": "ex-Partner, IDG Capital (healthcare)"
+      },
+      {
+        "name": "Zhao Jin 赵晋",
+        "role": "Founding Managing Partner",
+        "background": "ex-Managing Partner, Vivo Capital"
+      }
     ],
     "summary": {
       "en": "Shanghai healthcare VC founded in 2015 by ex-Vivo and ex-IDG healthcare partners, managing ~US$710m (a $500m USD fund plus an RMB 1.45bn fund) across drugs, devices, diagnostics and services.",
       "local": "2015年由前维梧资本与前 IDG 资本的医疗合伙人创立的上海医疗健康创投,管理约7.1亿美元(含5亿美元基金及14.5亿元人民币基金),覆盖创新药、器械、诊断与服务。"
     },
     "sources": [
-      { "url": "https://jifengventures.com/", "title": "Jifeng Ventures", "publisher": "Jifeng Capital", "accessed": "undefined", "supports": "Founding year, healthcare VC positioning, portfolio", "quote": "Since its founding in 2015, Jifeng Ventures has attained outstanding investment achievement ... a preeminent healthcare venture capital firm" },
-      { "url": "https://www.howbuy.com/news/2021-08-05/5823579.html", "title": "济峰资本余征坤：投资医疗健康", "publisher": "好买财富 Howbuy", "accessed": "undefined", "supports": "AUM, USD and RMB fund sizes, founders", "quote": "团队目前管着约7.1亿美元的资金,其中包括规模为5亿美元的美元基金和规模为14.5亿元的人民币基金 ... 原维梧资本（VIVO Capital）管理合伙人赵晋和IDG资本合伙人余征坤" }
+      {
+        "url": "https://jifengventures.com/",
+        "title": "Jifeng Ventures",
+        "publisher": "Jifeng Capital",
+        "accessed": "undefined",
+        "supports": "Founding year, healthcare VC positioning, portfolio",
+        "quote": "Since its founding in 2015, Jifeng Ventures has attained outstanding investment achievement ... a preeminent healthcare venture capital firm"
+      },
+      {
+        "url": "https://www.howbuy.com/news/2021-08-05/5823579.html",
+        "title": "济峰资本余征坤：投资医疗健康",
+        "publisher": "好买财富 Howbuy",
+        "accessed": "undefined",
+        "supports": "AUM, USD and RMB fund sizes, founders",
+        "quote": "团队目前管着约7.1亿美元的资金,其中包括规模为5亿美元的美元基金和规模为14.5亿元的人民币基金 ... 原维梧资本（VIVO Capital）管理合伙人赵晋和IDG资本合伙人余征坤"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "AUM (~$710m) is a 2021 figure from reputable Chinese financial media; official site confirms founding year and healthcare focus but not AUM. English brand appears as 'Jifeng Ventures'.",
@@ -814,8 +1874,14 @@
   },
   {
     "id": "cn-dalton-venture",
-    "name": { "en": "Dalton Venture", "local": "道彤投资" },
-    "aka": ["道彤投资", "DoDor Capital"],
+    "name": {
+      "en": "Dalton Venture",
+      "local": "道彤投资"
+    },
+    "aka": [
+      "道彤投资",
+      "DoDor Capital"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -823,23 +1889,61 @@
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
-    "offices": [ { "country": "China", "city": "Shanghai" } ],
+    "offices": [
+      {
+        "country": "China",
+        "city": "Shanghai"
+      }
+    ],
     "website": "https://www.daltonventure.cn/",
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "geo_focus": ["China"],
-      "sector_focus": ["medtech-devices", "diagnostics", "healthcare-services", "surgical-robotics"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services",
+        "surgical-robotics"
+      ],
       "thesis": "Shanghai-based early-stage life-science VC focused on medical devices and innovative medical technology — cardiovascular, surgical robotics, ophthalmology, medical AI and key medical equipment/components — plus medical services and informatization."
     },
-    "lifesci": { "modalities": ["medical-hardware", "software-samd", "ai-ml-platform"] },
-    "track_record": { "portfolio_count": "over 50 medical innovation projects (end of 2024)" },
+    "lifesci": {
+      "modalities": [
+        "medical-hardware",
+        "software-samd",
+        "ai-ml-platform"
+      ]
+    },
+    "track_record": {
+      "portfolio_count": "over 50 medical innovation projects (end of 2024)"
+    },
     "summary": {
       "en": "Shanghai early-stage life-science VC founded in 2015, focused on medical devices and med-tech (cardiovascular, surgical robotics, ophthalmology, medical AI); 50+ projects by end-2024.",
       "local": "2015年成立的上海早期生命科学创投,专注医疗器械与创新医疗科技(心血管、手术机器人、眼科、医疗AI等);截至2024年底累计投资50多个医疗创新项目。"
     },
     "sources": [
-      { "url": "https://www.daltonventure.cn/", "title": "道彤投资 - Dalton Venture", "publisher": "Dalton Venture", "accessed": "undefined", "supports": "Medical device / med-tech focus", "quote": "道彤投资" },
-      { "url": "https://baike.baidu.com/item/%E9%81%93%E5%BD%A4%E6%8A%95%E8%B5%84/65126324", "title": "道彤投资_百度百科", "publisher": "百度百科", "accessed": "undefined", "supports": "Founding year, focus areas, portfolio count", "quote": "成立于2015年 ... 专注于生命科学领域的早期投资和并购 ... 截至2024年底,累计投资超过50个医疗创新项目" }
+      {
+        "url": "https://www.daltonventure.cn/",
+        "title": "道彤投资 - Dalton Venture",
+        "publisher": "Dalton Venture",
+        "accessed": "undefined",
+        "supports": "Medical device / med-tech focus",
+        "quote": "道彤投资"
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E9%81%93%E5%BD%A4%E6%8A%95%E8%B5%84/65126324",
+        "title": "道彤投资_百度百科",
+        "publisher": "百度百科",
+        "accessed": "undefined",
+        "supports": "Founding year, focus areas, portfolio count",
+        "quote": "成立于2015年 ... 专注于生命科学领域的早期投资和并购 ... 截至2024年底,累计投资超过50个医疗创新项目"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "AUM not disclosed; positioned as a specialist early-stage medtech/life-science VC rather than a mega-fund. Founding year and portfolio count from Baidu Baike corroborated by 36Kr/vbdata profiles.",
@@ -848,42 +1952,106 @@
   },
   {
     "id": "cn-bvcf",
-    "name": { "en": "BVCF (BioVeda China Fund)", "local": "百奥维达" },
-    "aka": ["BioVeda China Fund", "BVCF", "百奥维达"],
+    "name": {
+      "en": "BVCF (BioVeda China Fund)",
+      "local": "百奥维达"
+    },
+    "aka": [
+      "BioVeda China Fund",
+      "BVCF",
+      "百奥维达"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2005,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Beijing" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "China",
+        "city": "Beijing"
+      }
     ],
     "website": "https://bvcf.com/",
     "capital": {
-      "aum": { "raw": "approximately $722 million (five funds)", "usd": 722000000, "currency": "USD" },
+      "aum": {
+        "raw": "approximately $722 million (five funds)",
+        "usd": 722000000,
+        "currency": "USD"
+      },
       "funds": [
-        { "name": "BioVeda China Fund IV", "vintage_year": 2016, "size": { "raw": "targeting US$400 million", "usd": 400000000, "currency": "USD" } }
+        {
+          "name": "BioVeda China Fund IV",
+          "vintage_year": 2016,
+          "size": {
+            "raw": "targeting US$400 million",
+            "usd": 400000000,
+            "currency": "USD"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["series-b", "series-c-plus", "growth"],
-      "check_size": { "raw": "$100,000 to $5,000,000 (sweet spot ~$1.5M)", "usd_min": 100000, "usd_max": 5000000 },
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "life-science-tools"],
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "check_size": {
+        "raw": "$100,000 to $5,000,000 (sweet spot ~$1.5M)",
+        "usd_min": 100000,
+        "usd_max": 5000000
+      },
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "healthcare-services",
+        "life-science-tools"
+      ],
       "thesis": "One of China's earliest dedicated biomedical VCs (since 2005), focused on growth-stage equity investments in pharmaceuticals, biotech, traditional Chinese medicine, medical devices and healthcare services."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"] },
-    "track_record": { "portfolio_count": "nearly 50 companies" },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ]
+    },
+    "track_record": {
+      "portfolio_count": "nearly 50 companies"
+    },
     "summary": {
       "en": "Shanghai/Beijing biomedical VC operating since 2005, one of China's earliest dedicated life-science funds; has raised five funds (~$722m) investing in pharma, biotech, devices and healthcare services.",
       "local": "总部位于上海/北京的生物医药创投,自2005年运营,是中国最早的专业生命科学基金之一;已募集五期基金(约7.22亿美元),投资制药、生物技术、器械及医疗服务。"
     },
     "sources": [
-      { "url": "https://bvcf.com/", "title": "BioVeda China Fund (BVCF)", "publisher": "BVCF", "accessed": "undefined", "supports": "Since 2005, biomedical VC, Shanghai/Beijing offices", "quote": "since 2005 has been dedicated to creating and developing innovative global Chinese Life Sciences companies" },
-      { "url": "https://www.chinamoneynetwork.com/2016/04/15/chinas-bvcf-targets-400-million-for-its-fourth-fund", "title": "China's BVCF Targets $400 Million For Fourth Fund", "publisher": "China Money Network", "accessed": "undefined", "supports": "Fund IV target size", "quote": "China's BVCF Targets $400 Million For Its Fourth Fund" }
+      {
+        "url": "https://bvcf.com/",
+        "title": "BioVeda China Fund (BVCF)",
+        "publisher": "BVCF",
+        "accessed": "undefined",
+        "supports": "Since 2005, biomedical VC, Shanghai/Beijing offices",
+        "quote": "since 2005 has been dedicated to creating and developing innovative global Chinese Life Sciences companies"
+      },
+      {
+        "url": "https://www.chinamoneynetwork.com/2016/04/15/chinas-bvcf-targets-400-million-for-its-fourth-fund",
+        "title": "China's BVCF Targets $400 Million For Fourth Fund",
+        "publisher": "China Money Network",
+        "accessed": "undefined",
+        "supports": "Fund IV target size",
+        "quote": "China's BVCF Targets $400 Million For Its Fourth Fund"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "AUM figures vary across secondary databases ($188m to $722m); the $722m/~50-company figure and $100k-$5m check range are from aggregator profiles, while the Fund IV $400m target is from China Money Network (2016). Official site confirms 2005 founding and life-science focus.",
@@ -892,38 +2060,93 @@
   },
   {
     "id": "cn-huagai-capital",
-    "name": { "en": "Huagai Capital", "local": "华盖资本" },
-    "aka": ["华盖资本", "HUAGAI Capital"],
+    "name": {
+      "en": "Huagai Capital",
+      "local": "华盖资本"
+    },
+    "aka": [
+      "华盖资本",
+      "HUAGAI Capital"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2012,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Beijing",
     "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shanghai" }
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Shanghai"
+      }
     ],
     "website": "http://huagaicapital.com/",
-    "capital": { "aum": { "raw": "over 20 billion RMB (2024)", "usd": null, "currency": "CNY" } },
+    "capital": {
+      "aum": {
+        "raw": "over 20 billion RMB (2024)",
+        "usd": null,
+        "currency": "CNY"
+      }
+    },
     "strategy": {
-      "stages": ["series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "healthcare-services", "generalist-health"],
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "healthcare-services",
+        "generalist-health"
+      ],
       "thesis": "Private-equity/VC firm founded in 2012 whose flagship practice is healthcare; its founder created China's first RMB healthcare industry fund (at CCB International). Runs dedicated healthcare, TMT and culture funds."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ]
+    },
     "people": [
-      { "name": "Xu Xiaolin 许小林", "role": "Founder & Chairman", "background": "ex-GM of CCB International wealth management; founded China's first RMB healthcare industry fund" }
+      {
+        "name": "Xu Xiaolin 许小林",
+        "role": "Founder & Chairman",
+        "background": "ex-GM of CCB International wealth management; founded China's first RMB healthcare industry fund"
+      }
     ],
     "summary": {
       "en": "Beijing PE/VC firm founded in 2012 with healthcare as its flagship practice; managing over RMB 20bn, its founder built China's first RMB healthcare industry fund.",
       "local": "2012年成立的北京私募/创投机构,医疗健康为其旗舰业务;管理规模逾200亿元人民币,创始人许小林曾创立中国首只人民币医疗产业基金。"
     },
     "sources": [
-      { "url": "https://baike.baidu.com/item/%E8%AE%B8%E5%B0%8F%E6%9E%97/19711345", "title": "许小林", "publisher": "百度百科", "accessed": "undefined", "supports": "Founding year, AUM, funds, founder's first RMB healthcare fund", "quote": "华盖资本 ... 成立于2012年 ... 管理资产规模超过200亿元 ... 创立了中国第一支人民币医疗产业基金" },
-      { "url": "http://huagaicapital.com/", "title": "华盖资本-HUAGAI Capital", "publisher": "Huagai Capital", "accessed": "undefined", "supports": "Official site / existence", "quote": "华盖资本" }
+      {
+        "url": "https://baike.baidu.com/item/%E8%AE%B8%E5%B0%8F%E6%9E%97/19711345",
+        "title": "许小林",
+        "publisher": "百度百科",
+        "accessed": "undefined",
+        "supports": "Founding year, AUM, funds, founder's first RMB healthcare fund",
+        "quote": "华盖资本 ... 成立于2012年 ... 管理资产规模超过200亿元 ... 创立了中国第一支人民币医疗产业基金"
+      },
+      {
+        "url": "http://huagaicapital.com/",
+        "title": "华盖资本-HUAGAI Capital",
+        "publisher": "Huagai Capital",
+        "accessed": "undefined",
+        "supports": "Official site / existence",
+        "quote": "华盖资本"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Firm-wide AUM (>RMB 20bn) spans healthcare, TMT and culture funds; healthcare is the dominant/flagship practice. Official site did not fully load during research; details corroborated via Baidu Baike and Chinese financial media.",
@@ -932,8 +2155,14 @@
   },
   {
     "id": "cn-tf-capital",
-    "name": { "en": "TF Capital", "local": "泰福资本" },
-    "aka": ["泰福资本", "TF Capital"],
+    "name": {
+      "en": "TF Capital",
+      "local": "泰福资本"
+    },
+    "aka": [
+      "泰福资本",
+      "TF Capital"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -941,22 +2170,63 @@
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
-    "offices": [ { "country": "China", "city": "Shanghai" } ],
+    "offices": [
+      {
+        "country": "China",
+        "city": "Shanghai"
+      }
+    ],
     "website": "https://www.tfcapital.net/",
-    "capital": { "aum": { "raw": "approximately $1 billion", "usd": 1000000000, "currency": "USD" } },
+    "capital": {
+      "aum": {
+        "raw": "approximately $1 billion",
+        "usd": 1000000000,
+        "currency": "USD"
+      }
+    },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b", "series-c-plus"],
-      "geo_focus": ["China", "global"],
-      "sector_focus": ["therapeutics", "ai-drug-discovery"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b",
+        "series-c-plus"
+      ],
+      "geo_focus": [
+        "China",
+        "global"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "ai-drug-discovery"
+      ],
       "thesis": "Dual-currency VC specialized in early-stage biotech, partnering with founders building drug-discovery and biomedical-technology companies from inception to global impact."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "protein-degradation"] },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "protein-degradation"
+      ]
+    },
     "track_record": {
       "portfolio_count": "over 116 companies; 20 IPOs",
       "notable_investments": [
-        { "company": "LaNova Medicines 礼新医药", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Eccogene 诚益生物", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Regor Pharmaceuticals", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "LaNova Medicines 礼新医药",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Eccogene 诚益生物",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Regor Pharmaceuticals",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
     "summary": {
@@ -964,8 +2234,22 @@
       "local": "2014年成立于上海的双币生物科技创投,专注早期新药发现;管理规模约10亿美元,投资116+家企业、20个 IPO,代表案例包括礼新医药、诚益生物、Regor 等。"
     },
     "sources": [
-      { "url": "https://www.tfcapital.net/why-tf", "title": "Why TF - 泰福资本", "publisher": "TF Capital", "accessed": "undefined", "supports": "Founding year, dual-currency early-stage biotech focus", "quote": "Founded in Shanghai in 2014, TF Capital is a dual-currency, specialized in early-stage biotech investment firm" },
-      { "url": "https://www.cbinsights.com/investor/tf-capital", "title": "TF Capital", "publisher": "CB Insights", "accessed": "undefined", "supports": "AUM, portfolio count, IPOs", "quote": "managing approximately $1 billion in assets under management ... over 116 companies and has facilitated 20 initial public offerings" }
+      {
+        "url": "https://www.tfcapital.net/why-tf",
+        "title": "Why TF - 泰福资本",
+        "publisher": "TF Capital",
+        "accessed": "undefined",
+        "supports": "Founding year, dual-currency early-stage biotech focus",
+        "quote": "Founded in Shanghai in 2014, TF Capital is a dual-currency, specialized in early-stage biotech investment firm"
+      },
+      {
+        "url": "https://www.cbinsights.com/investor/tf-capital",
+        "title": "TF Capital",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "AUM, portfolio count, IPOs",
+        "quote": "managing approximately $1 billion in assets under management ... over 116 companies and has facilitated 20 initial public offerings"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Official 'Why TF' page confirms 2014 founding and early-stage biotech focus; some secondary sources cite 2013. AUM (~$1bn), 116 companies and 20 IPOs are from CB Insights.",
@@ -974,36 +2258,94 @@
   },
   {
     "id": "cn-lyfe-capital",
-    "name": { "en": "LYFE Capital", "local": "洲嶺资本" },
-    "aka": ["洲嶺资本", "洲岭资本", "LYFE"],
+    "name": {
+      "en": "LYFE Capital",
+      "local": "洲嶺资本"
+    },
+    "aka": [
+      "洲嶺资本",
+      "洲岭资本",
+      "LYFE"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2015,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "United States", "city": "Menlo Park" },
-      { "country": "South Korea", "city": "Seoul" },
-      { "country": "Japan", "city": "Tokyo" },
-      { "country": "Singapore", "city": "Singapore" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "United States",
+        "city": "Menlo Park"
+      },
+      {
+        "country": "South Korea",
+        "city": "Seoul"
+      },
+      {
+        "country": "Japan",
+        "city": "Tokyo"
+      },
+      {
+        "country": "Singapore",
+        "city": "Singapore"
+      }
     ],
     "website": "https://www.lyfecapital.com/",
-    "capital": { "aum": { "raw": "$2 Bn USD AUM", "usd": 2000000000, "currency": "USD" } },
+    "capital": {
+      "aum": {
+        "raw": "$2 Bn USD AUM",
+        "usd": 2000000000,
+        "currency": "USD"
+      }
+    },
     "strategy": {
-      "stages": ["series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China", "Sino-Pacific"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services", "digital-health", "pharma-services"],
+      "stages": [
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "Sino-Pacific"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services",
+        "digital-health",
+        "pharma-services"
+      ],
       "thesis": "Sino-Pacific healthcare investment firm founded in 2015 backing biopharma/CDMO, medtech and surgical robotics, diagnostics, healthcare services and digital health, focused on companies with established products accelerating growth, particularly in Greater China."
     },
-    "lifesci": { "modalities": ["biologics-antibody", "small-molecule", "medical-hardware"] },
+    "lifesci": {
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule",
+        "medical-hardware"
+      ]
+    },
     "track_record": {
       "portfolio_count": "108 investments; 20+ IPOs, 10+ M&As",
       "notable_investments": [
-        { "company": "Edge Medical 精锋医疗", "sector": "surgical-robotics", "outcome": "active" },
-        { "company": "Profound Bio", "sector": "therapeutics", "outcome": "acquired" }
+        {
+          "company": "Edge Medical 精锋医疗",
+          "sector": "surgical-robotics",
+          "outcome": "active"
+        },
+        {
+          "company": "Profound Bio",
+          "sector": "therapeutics",
+          "outcome": "acquired"
+        }
       ]
     },
     "summary": {
@@ -1011,8 +2353,22 @@
       "local": "总部位于上海的泛太平洋医疗健康创投,2015年成立,管理规模20亿美元,设有五个全球办公室;聚焦大中华区的生物医药/CDMO、医疗器械、手术机器人、诊断与数位健康。"
     },
     "sources": [
-      { "url": "https://www.lyfecapital.com/", "title": "LYFE Capital - Adding Value to Life", "publisher": "LYFE Capital", "accessed": "undefined", "supports": "AUM, offices, exits, healthcare sectors", "quote": "$2 Bn USD AUM ... 5 Global Offices ... 20+ IPOs ... 10+ M&As" },
-      { "url": "http://www.biospace.com/news/lyfe-capital-closes-298-million-china-healthcare/399748", "title": "LYFE Capital Closes $298 Million China Healthcare Fund", "publisher": "BioSpace", "accessed": "undefined", "supports": "China healthcare fund size", "quote": "LYFE Capital Closes $298 Million China Healthcare Fund" }
+      {
+        "url": "https://www.lyfecapital.com/",
+        "title": "LYFE Capital - Adding Value to Life",
+        "publisher": "LYFE Capital",
+        "accessed": "undefined",
+        "supports": "AUM, offices, exits, healthcare sectors",
+        "quote": "$2 Bn USD AUM ... 5 Global Offices ... 20+ IPOs ... 10+ M&As"
+      },
+      {
+        "url": "http://www.biospace.com/news/lyfe-capital-closes-298-million-china-healthcare/399748",
+        "title": "LYFE Capital Closes $298 Million China Healthcare Fund",
+        "publisher": "BioSpace",
+        "accessed": "undefined",
+        "supports": "China healthcare fund size",
+        "quote": "LYFE Capital Closes $298 Million China Healthcare Fund"
+      }
     ],
     "confidence": "high",
     "verification_notes": "AUM, offices and exit counts verbatim from the official site; founding year 2015 and $298m China healthcare fund from BioSpace. Also has a Palo Alto/Menlo Park US presence.",
@@ -1021,35 +2377,88 @@
   },
   {
     "id": "cn-cenova-ventures",
-    "name": { "en": "Cenova Capital", "local": "尚珹资本" },
-    "aka": ["Cenova Ventures", "尚珹资本", "Cenova"],
+    "name": {
+      "en": "Cenova Capital",
+      "local": "尚珹资本"
+    },
+    "aka": [
+      "Cenova Ventures",
+      "尚珹资本",
+      "Cenova"
+    ],
     "type": "vc",
-    "subtypes": ["growth-equity"],
+    "subtypes": [
+      "growth-equity"
+    ],
     "status": "active",
     "founded_year": 2010,
     "region": "greater-china",
     "country": "China",
     "hq_city": "Shanghai",
-    "offices": [ { "country": "China", "city": "Shanghai" } ],
+    "offices": [
+      {
+        "country": "China",
+        "city": "Shanghai"
+      }
+    ],
     "website": "http://www.cenovaventures.com/en/",
     "strategy": {
-      "stages": ["series-a", "series-b", "series-c-plus", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "healthcare-services", "digital-health"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "series-c-plus",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-services",
+        "digital-health"
+      ],
       "thesis": "One of China's earliest healthcare funds (since 2010), dedicated to early- and growth-stage investment in life sciences and healthcare — pharmaceuticals, biotech, medical devices, diagnostics, healthcare services and digital health."
     },
-    "lifesci": { "modalities": ["small-molecule", "biologics-antibody", "medical-hardware"] },
-    "track_record": { "portfolio_count": "over 50 companies (five funds under management)" },
+    "lifesci": {
+      "modalities": [
+        "small-molecule",
+        "biologics-antibody",
+        "medical-hardware"
+      ]
+    },
+    "track_record": {
+      "portfolio_count": "over 50 companies (five funds under management)"
+    },
     "people": [
-      { "name": "Jun Wu 吴劲", "role": "Founder", "background": "founded Cenova in 2010; early investor in China private healthcare services and digital health" }
+      {
+        "name": "Jun Wu 吴劲",
+        "role": "Founder",
+        "background": "founded Cenova in 2010; early investor in China private healthcare services and digital health"
+      }
     ],
     "summary": {
       "en": "Shanghai-based healthcare VC founded in 2010, one of China's earliest dedicated healthcare funds; manages five funds with 50+ investments across pharma, biotech, devices, diagnostics, services and digital health.",
       "local": "总部位于上海的医疗健康创投,2010年成立,是中国最早的专业医疗基金之一;管理五期基金,投资逾50家企业,覆盖制药、生物技术、器械、诊断、服务与数位健康。"
     },
     "sources": [
-      { "url": "https://www.cbinsights.com/investor/cenova-ventures", "title": "Cenova Ventures", "publisher": "CB Insights", "accessed": "undefined", "supports": "Founding year, founder, five funds, 50+ companies, sectors", "quote": "founded in 2010 by Dr Jun WU ... now has five funds under management with investments in over 50 companies in healthcare services, pharmaceuticals, medical devices and digital health" },
-      { "url": "https://www.swfinstitute.org/profile/5e39a615fcbe7e8ca72829dc", "title": "Cenova Capital - Biotech Venture Capital Firm, China", "publisher": "SWFI", "accessed": "undefined", "supports": "Shanghai HQ, healthcare/biotech VC", "quote": "Headquartered in Shanghai, Cenova Capital is one of the earliest healthcare funds dedicated to early and growth-stage investments in the life sciences and healthcare sectors in China" }
+      {
+        "url": "https://www.cbinsights.com/investor/cenova-ventures",
+        "title": "Cenova Ventures",
+        "publisher": "CB Insights",
+        "accessed": "undefined",
+        "supports": "Founding year, founder, five funds, 50+ companies, sectors",
+        "quote": "founded in 2010 by Dr Jun WU ... now has five funds under management with investments in over 50 companies in healthcare services, pharmaceuticals, medical devices and digital health"
+      },
+      {
+        "url": "https://www.swfinstitute.org/profile/5e39a615fcbe7e8ca72829dc",
+        "title": "Cenova Capital - Biotech Venture Capital Firm, China",
+        "publisher": "SWFI",
+        "accessed": "undefined",
+        "supports": "Shanghai HQ, healthcare/biotech VC",
+        "quote": "Headquartered in Shanghai, Cenova Capital is one of the earliest healthcare funds dedicated to early and growth-stage investments in the life sciences and healthcare sectors in China"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Official English site did not load during research (connection refused); founding year, founder, fund count and portfolio corroborated by CB Insights and SWFI. AUM not disclosed.",
@@ -1058,8 +2467,14 @@
   },
   {
     "id": "cn-quan-capital",
-    "name": { "en": "Quan Capital", "local": "泉创资本" },
-    "aka": ["泉创资本", "Quan"],
+    "name": {
+      "en": "Quan Capital",
+      "local": "泉创资本"
+    },
+    "aka": [
+      "泉创资本",
+      "Quan"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -1068,28 +2483,76 @@
     "country": "China",
     "hq_city": "Shanghai",
     "offices": [
-      { "country": "China", "city": "Shanghai" },
-      { "country": "United States", "city": "Palo Alto" },
-      { "country": "United States", "city": "Cambridge" }
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "United States",
+        "city": "Palo Alto"
+      },
+      {
+        "country": "United States",
+        "city": "Cambridge"
+      }
     ],
     "website": "https://www.quancapital.com/en/",
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["China", "United States"],
-      "sector_focus": ["therapeutics", "diagnostics", "life-science-tools", "genomics-omics"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China",
+        "United States"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "life-science-tools",
+        "genomics-omics"
+      ],
       "thesis": "Life-science VC with global vision and China strengths, investing in innovative early- and growth-stage companies in therapeutic biotech/pharma, enabling technologies/high-end specialty services, and companion diagnostics & precision medicine."
     },
-    "lifesci": { "modalities": ["biologics-antibody", "small-molecule", "cell-therapy", "rna-therapeutics"] },
+    "lifesci": {
+      "modalities": [
+        "biologics-antibody",
+        "small-molecule",
+        "cell-therapy",
+        "rna-therapeutics"
+      ]
+    },
     "people": [
-      { "name": "Marietta Wu", "role": "Managing Director", "background": "ex-Zai Lab, Burrill & Company, Edwards Lifesciences" }
+      {
+        "name": "Marietta Wu",
+        "role": "Managing Director",
+        "background": "ex-Zai Lab, Burrill & Company, Edwards Lifesciences"
+      }
     ],
     "summary": {
       "en": "Shanghai (Pudong)-based life-science VC founded in 2017 with US offices, investing early- and growth-stage in therapeutic biotech, enabling technologies and precision medicine across China and the US.",
       "local": "总部位于上海浦东的生命科学创投,2017年成立,在美国设有办公室,投资中美两地早期及成长期的治疗性生物医药、赋能技术与精准医疗。"
     },
     "sources": [
-      { "url": "https://cn.quancapital.com/en/about/", "title": "About Us | Quan Capital", "publisher": "Quan Capital", "accessed": "undefined", "supports": "Investment focus areas, stages, Shanghai office", "quote": "Therapeutic biotech/pharma, Enabling technologies/High-end specialty services, Companion diagnostic & Precision medicine ... innovative early and growth stage companies globally and in China" },
-      { "url": "https://www.quancapital.com/en/about/", "title": "Quan Capital", "publisher": "Quan Capital", "accessed": "undefined", "supports": "Founding year, offices", "quote": "founded in 2017 and is headquartered in Pudong, Shanghai ... offices in Palo Alto, California and Cambridge, Massachusetts" }
+      {
+        "url": "https://cn.quancapital.com/en/about/",
+        "title": "About Us | Quan Capital",
+        "publisher": "Quan Capital",
+        "accessed": "undefined",
+        "supports": "Investment focus areas, stages, Shanghai office",
+        "quote": "Therapeutic biotech/pharma, Enabling technologies/High-end specialty services, Companion diagnostic & Precision medicine ... innovative early and growth stage companies globally and in China"
+      },
+      {
+        "url": "https://www.quancapital.com/en/about/",
+        "title": "Quan Capital",
+        "publisher": "Quan Capital",
+        "accessed": "undefined",
+        "supports": "Founding year, offices",
+        "quote": "founded in 2017 and is headquartered in Pudong, Shanghai ... offices in Palo Alto, California and Cambridge, Massachusetts"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "AUM/fund size not disclosed on the official site. Founding year (2017) and offices from the site and secondary profiles.",
@@ -1098,8 +2561,15 @@
   },
   {
     "id": "cn-in-capital",
-    "name": { "en": "IN Capital", "local": "约印医疗基金" },
-    "aka": ["约印医疗基金", "IN CAPITAL", "约印创投"],
+    "name": {
+      "en": "IN Capital",
+      "local": "约印医疗基金"
+    },
+    "aka": [
+      "约印医疗基金",
+      "IN CAPITAL",
+      "约印创投"
+    ],
     "type": "vc",
     "subtypes": [],
     "status": "active",
@@ -1108,29 +2578,81 @@
     "country": "China",
     "hq_city": "Beijing",
     "offices": [
-      { "country": "China", "city": "Beijing" },
-      { "country": "China", "city": "Shanghai" },
-      { "country": "China", "city": "Hangzhou" }
+      {
+        "country": "China",
+        "city": "Beijing"
+      },
+      {
+        "country": "China",
+        "city": "Shanghai"
+      },
+      {
+        "country": "China",
+        "city": "Hangzhou"
+      }
     ],
     "website": "https://in-capital.cn/",
-    "capital": { "aum": { "raw": "5 RMB funds, total scale ~2 billion RMB", "usd": null, "currency": "CNY" } },
+    "capital": {
+      "aum": {
+        "raw": "5 RMB funds, total scale ~2 billion RMB",
+        "usd": null,
+        "currency": "CNY"
+      }
+    },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
-      "geo_focus": ["China"],
-      "sector_focus": ["medtech-devices", "therapeutics", "diagnostics", "healthcare-services", "digital-health"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "geo_focus": [
+        "China"
+      ],
+      "sector_focus": [
+        "medtech-devices",
+        "therapeutics",
+        "diagnostics",
+        "healthcare-services",
+        "digital-health"
+      ],
       "thesis": "Healthcare-dedicated VC founded by Zheng Yufen (ex-Qiming healthcare) focused on early- and growth-stage medical services, medical devices, biopharma, IVD and smart healthcare (WIT120), targeting unmet clinical needs."
     },
-    "lifesci": { "modalities": ["medical-hardware", "small-molecule", "biologics-antibody"] },
+    "lifesci": {
+      "modalities": [
+        "medical-hardware",
+        "small-molecule",
+        "biologics-antibody"
+      ]
+    },
     "people": [
-      { "name": "Zheng Yufen 郑玉芬", "role": "Founder & CEO", "background": "ex-medical investment director, Qiming Venture Partners; ex-medical partner, Tsing Capital" }
+      {
+        "name": "Zheng Yufen 郑玉芬",
+        "role": "Founder & CEO",
+        "background": "ex-medical investment director, Qiming Venture Partners; ex-medical partner, Tsing Capital"
+      }
     ],
     "summary": {
       "en": "Beijing healthcare VC founded by ex-Qiming healthcare investor Zheng Yufen, managing five RMB funds (~RMB 2bn) across medical services, devices, biopharma, IVD and smart healthcare.",
       "local": "由前启明创投医疗投资人郑玉芬创立的北京医疗健康创投,管理五只人民币基金(约20亿元),覆盖医疗服务、器械、生物医药、体外诊断及智慧医疗。"
     },
     "sources": [
-      { "url": "https://in-capital.cn/about/index", "title": "约印医疗基金-关于公司", "publisher": "IN Capital", "accessed": "undefined", "supports": "Healthcare focus, sectors, Beijing office", "quote": "IN CAPITAL is an asset management firm that emphasis on healthcare industry ... Healthcare Service, Medical Device, Biotechnology, In Vitro Diagnosis, WIT 120" },
-      { "url": "https://baike.baidu.com/item/%E7%BA%A6%E5%8D%B0%E5%8C%BB%E7%96%97%E5%9F%BA%E9%87%91/62223282", "title": "约印医疗基金_百度百科", "publisher": "百度百科", "accessed": "undefined", "supports": "Founder, number and size of funds, sectors", "quote": "约印医疗基金 ... 郑玉芬 ... 管理5只人民币基金,总规模约20亿元人民币" }
+      {
+        "url": "https://in-capital.cn/about/index",
+        "title": "约印医疗基金-关于公司",
+        "publisher": "IN Capital",
+        "accessed": "undefined",
+        "supports": "Healthcare focus, sectors, Beijing office",
+        "quote": "IN CAPITAL is an asset management firm that emphasis on healthcare industry ... Healthcare Service, Medical Device, Biotechnology, In Vitro Diagnosis, WIT 120"
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E7%BA%A6%E5%8D%B0%E5%8C%BB%E7%96%97%E5%9F%BA%E9%87%91/62223282",
+        "title": "约印医疗基金_百度百科",
+        "publisher": "百度百科",
+        "accessed": "undefined",
+        "supports": "Founder, number and size of funds, sectors",
+        "quote": "约印医疗基金 ... 郑玉芬 ... 管理5只人民币基金,总规模约20亿元人民币"
+      }
     ],
     "confidence": "medium",
     "verification_notes": "Founding year conflicts across sources (2010 vs 2015); Zheng Yufen founded the current fund brand around 2015 per multiple profiles, so 2015 used. AUM (~RMB 2bn / 5 funds) is a secondary figure and may have grown.",

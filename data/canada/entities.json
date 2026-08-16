@@ -6080,6 +6080,323 @@
     "researched_by": "pharma-bio-cvc"
   },
   {
+    "id": "ca-cpp-investments",
+    "name": {
+      "en": "CPP Investments"
+    },
+    "aka": [
+      "Canada Pension Plan Investment Board",
+      "Canadian Pension Plan Investment Board",
+      "CPPIB"
+    ],
+    "type": "growth-equity",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1997,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.cppinvestments.com",
+    "capital": {
+      "aum": {
+        "raw": "C$793.3 billion",
+        "currency": "CAD"
+      }
+    },
+    "strategy": {
+      "stages": [
+        "series-c-plus",
+        "growth"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "Global"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "therapeutics",
+        "ai-drug-discovery",
+        "cell-gene-therapy"
+      ],
+      "thesis": "Canada's national pension fund (C$793B AUM) invests directly into late-stage/growth private-company rounds across all sectors from its own balance sheet; no dedicated healthcare team is named publicly, but it has repeatedly led or joined large growth rounds for health/biotech companies as part of its diversified private-equity allocation (33% of AUM)."
+    },
+    "lifesci": {
+      "invests_public_markets": true,
+      "company_creation": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Kry / Livi",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "Insitro",
+          "sector": "ai-drug-discovery",
+          "outcome": "active"
+        },
+        {
+          "company": "Seaport Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Sana Biotechnology",
+          "sector": "cell-gene-therapy",
+          "outcome": "active"
+        },
+        {
+          "company": "Deep Genomics",
+          "sector": "ai-drug-discovery",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "pension-fund",
+      "direct-investing",
+      "growth-stage",
+      "generalist"
+    ],
+    "summary": {
+      "en": "Toronto-headquartered manager of Canada's C$793B national pension reserve, investing directly into late-stage private rounds worldwide; no dedicated health team, but a real repeat pattern of health/biotech growth investing (Kry/Livi, Insitro, Seaport Therapeutics, Sana Biotechnology, Deep Genomics) across 5 companies in this directory."
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CPP_Investments",
+        "title": "CPP Investments",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "AUM, asset-allocation mix, private-equity share",
+        "quote": "CPP Investments manages \"C$793.3 billion\" in assets on behalf of 22 million Canadians"
+      },
+      {
+        "url": "https://techcrunch.com/2021/04/27/kry-closes-312m-series-d-after-use-of-its-telehealth-tools-surged-100-yoy/",
+        "title": "Kry closes $312M Series D",
+        "publisher": "TechCrunch",
+        "accessed": "2026-08-16",
+        "supports": "CPP Investments led Kry/Livi Series D",
+        "quote": "$312M Series D"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No dedicated healthcare team/practice could be confirmed this session (Wikipedia describes a fully generalist mandate); inclusion rests on the 'real track record of multiple health investments' clause of the bar — 5 distinct health/biotech companies across 3 name variants (CPP Investments / Canada Pension Plan Investment Board / Canadian Pension Plan Investment Board) are independently catalogued in this directory as backed by this organization. Prior rounds rejected this name on a single-mention basis; this round's higher mention count changes that assessment.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-investor-gaps-final",
+    "backing": {
+      "backers": [
+        {
+          "name": "Government of Canada",
+          "kind": "government",
+          "relationship": "sponsor-gp",
+          "note": "Crown-mandated national pension fund manager, operationally independent of government but statutorily created to invest CPP contributions.",
+          "evidence": "inferred"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ca-portag3-ventures",
+    "name": {
+      "en": "Portag3 Ventures"
+    },
+    "aka": [
+      "Portage Ventures"
+    ],
+    "type": "vc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 2016,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.portag3.com",
+    "capital": {
+      "funds": [
+        {
+          "name": "Portag3 Ventures Fund II",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "$320 million",
+            "usd": 320000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
+      "lead_or_follow": "follow",
+      "geo_focus": [
+        "Canada",
+        "United States",
+        "Global"
+      ],
+      "sector_focus": [
+        "digital-health"
+      ],
+      "thesis": "Fintech-focused VC affiliated with Power Corporation of Canada (via subsidiaries Great-West Lifeco and IGM Financial); its fintech mandate overlaps with insurtech/health-benefits technology, producing repeat participation in Canadian digital-health platforms (Dialogue Health Technologies, League Inc.) that sit at the health-insurance/health-services intersection."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "Dialogue Health Technologies",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "League Inc.",
+          "sector": "digital-health",
+          "outcome": "active"
+        }
+      ]
+    },
+    "tags": [
+      "fintech-insurtech",
+      "power-corp-affiliate",
+      "canada"
+    ],
+    "summary": {
+      "en": "Toronto-based fintech VC affiliated with Power Corporation of Canada (Great-West Lifeco, IGM Financial); Canada's largest fintech-focused fund ($320M Fund II, 2019) with a repeat pattern of backing digital-health / health-benefits platforms at the insurtech intersection, including Dialogue Health Technologies and League Inc."
+    },
+    "sources": [
+      {
+        "url": "https://betakit.com/telehealth-startup-dialogue-raises-40-million-to-fuel-european-expansion/",
+        "title": "Telehealth startup Dialogue raises $40 million to fuel European expansion",
+        "publisher": "BetaKit",
+        "accessed": "2026-08-16",
+        "supports": "Portag3 Ventures investment in Dialogue Health Technologies",
+        "quote": "$40 million"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Power_Corporation_of_Canada",
+        "title": "Power Corporation of Canada",
+        "publisher": "Wikipedia",
+        "accessed": "2026-08-16",
+        "supports": "Portag3 Ventures' affiliation with Power Corp / Great-West Lifeco / IGM Financial and fintech fund launch",
+        "quote": "Portag3 Ventures, affiliate of Power Corp., creates Canada's largest fintech investment fund"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Primary mandate is fintech, not health; included on the strength of 2 repeat digital-health/insurtech-adjacent deals (Dialogue Health Technologies, League Inc.) found in this directory, consistent with team-lead guidance to treat this as a genuine gap.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-investor-gaps-final",
+    "backing": {
+      "backers": [
+        {
+          "name": "Power Corporation of Canada",
+          "kind": "financial-institution",
+          "relationship": "major-lp",
+          "note": "Portag3 is an affiliate of Power Corp, funded via subsidiaries Great-West Lifeco (insurer) and IGM Financial (asset manager).",
+          "evidence": "verified"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ca-manulife",
+    "name": {
+      "en": "Manulife"
+    },
+    "aka": [
+      "Manulife Financial Corporation",
+      "John Hancock"
+    ],
+    "type": "cvc",
+    "subtypes": [],
+    "status": "active",
+    "founded_year": 1887,
+    "region": "canada",
+    "country": "Canada",
+    "hq_city": "Toronto",
+    "website": "https://www.manulife.com",
+    "capital": {},
+    "strategy": {
+      "stages": [
+        "series-a",
+        "growth"
+      ],
+      "lead_or_follow": "follow",
+      "geo_focus": [
+        "Canada",
+        "United States"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "mental-health"
+      ],
+      "thesis": "Direct, balance-sheet strategic investments by the Toronto-headquartered life/health insurer into digital-health and mental-health platforms with clear commercial ties to its insurance business, rather than through a separately branded venture fund."
+    },
+    "lifesci": {
+      "company_creation": false,
+      "invests_public_markets": false
+    },
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "League Inc.",
+          "sector": "digital-health",
+          "outcome": "active"
+        },
+        {
+          "company": "MindBeacon",
+          "sector": "mental-health",
+          "outcome": "acquired"
+        }
+      ]
+    },
+    "tags": [
+      "insurer-cvc",
+      "balance-sheet-investor",
+      "canada"
+    ],
+    "summary": {
+      "en": "Toronto-based global life/health insurer (founded 1887) that has made direct strategic investments from its own balance sheet into Canadian digital-health platforms — League Inc.'s 2016 Series A ('insurance and finance strategics') and MindBeacon's Series A — rather than through a dedicated venture fund."
+    },
+    "sources": [
+      {
+        "url": "https://betakit.com/league-enters-2022-as-canadas-newest-unicorn-with-tdm-growth-partners-led-round/",
+        "title": "League enters 2022 as Canada's newest unicorn with TDM Growth Partners-led round",
+        "publisher": "BetaKit",
+        "accessed": "2026-08-16",
+        "supports": "Manulife as a notable past investor in League's Series A (insurance/finance strategics)",
+        "quote": "insurance and finance strategics"
+      },
+      {
+        "url": "https://betakit.com/today-in-funding-27-8-million-cto-ai-mindbeacon/",
+        "title": "Today in Funding: $27.8 million, CTO, AI (MindBeacon)",
+        "publisher": "BetaKit",
+        "accessed": "2026-08-16",
+        "supports": "Manulife as a Series A participant in MindBeacon",
+        "quote": "$27.8 million"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "No dedicated CVC vehicle or named investment team confirmed this session (Wikipedia describes only core insurance/wealth-management operations); inclusion rests on 2 independently-sourced direct balance-sheet health-tech investments.",
+    "last_updated": "2026-08-16",
+    "researched_by": "r10-investor-gaps-final",
+    "backing": {
+      "backers": [
+        {
+          "name": "Manulife Financial Corporation",
+          "kind": "payer-insurer",
+          "relationship": "balance-sheet-fund",
+          "note": "Investments made directly from the insurer's balance sheet, not through a separately branded fund vehicle.",
+          "evidence": "inferred"
+        }
+      ]
+    }
+  },
+  {
     "id": "ca-omers-growth-equity",
     "name": {
       "en": "OMERS Growth Equity"

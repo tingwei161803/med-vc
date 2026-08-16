@@ -1,7 +1,9 @@
 [
   {
     "id": "eu-eic-fund",
-    "name": { "en": "EIC Fund (European Innovation Council Fund)" },
+    "name": {
+      "en": "EIC Fund (European Innovation Council Fund)"
+    },
     "type": "government-program",
     "status": "active",
     "founded_year": 2020,
@@ -10,13 +12,30 @@
     "hq_city": "Brussels",
     "website": "https://eic.ec.europa.eu/eic-fund_en",
     "capital": {
-      "aum": { "raw": "over €4 billion (capitalisation)", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "over €4 billion (capitalisation)",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["European Union", "Horizon Europe associated countries"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "generalist-health"],
+      "geo_focus": [
+        "European Union",
+        "Horizon Europe associated countries"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "generalist-health"
+      ],
       "thesis": "The EIC Fund is the equity-investment arm of the European Commission's European Innovation Council, co-investing alongside private VCs in deep-tech scaleups graduating from EIC Accelerator grants, with dedicated portfolio categories for Health Biotechnology and Medical Technologies."
     },
     "lifesci": {
@@ -25,9 +44,16 @@
       "science_platform_notes": "Invests as equity co-investor into EIC Accelerator beneficiaries; a related 'Scaleup Europe Fund' compartment targets €100M+ growth tickets."
     },
     "track_record": {
-      "co_investors": ["European Investment Bank"]
+      "co_investors": [
+        "European Investment Bank"
+      ]
     },
-    "tags": ["EU", "supranational", "deep-tech", "biotech"],
+    "tags": [
+      "EU",
+      "supranational",
+      "deep-tech",
+      "biotech"
+    ],
     "summary": {
       "en": "The EIC Fund is the European Commission's €4bn+ venture capital vehicle backing EU deep-tech startups, including dedicated Health Biotechnology and Medical Technologies portfolio segments."
     },
@@ -47,7 +73,9 @@
   },
   {
     "id": "eu-eif",
-    "name": { "en": "European Investment Fund (EIF)" },
+    "name": {
+      "en": "European Investment Fund (EIF)"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -55,20 +83,43 @@
     "hq_city": "Luxembourg",
     "website": "https://www.eif.org",
     "capital": {
-      "aum": { "raw": "€143.7 billion in assets under management (Sifted, April 2025)", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "€143.7 billion in assets under management (Sifted, April 2025)",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Europe"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health", "life-science-tools", "generalist-health"],
+      "geo_focus": [
+        "Europe"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health",
+        "life-science-tools",
+        "generalist-health"
+      ],
       "thesis": "EIF is the EIB Group's venture-capital and SME-access-to-finance arm, acting as Europe's largest fund-of-funds LP; it co-created the Venture Centre of Excellence (VCoE) with EIT Health in 2020, a dedicated public-private co-investment platform for healthcare innovation."
     },
     "lifesci": {
       "invests_public_markets": false,
       "science_platform_notes": "Invests as LP into VC/PE funds and via direct co-investment/guarantee instruments; life sciences is one of its flagship thematic priorities alongside deeptech, greentech and defence."
     },
-    "tags": ["EU", "fund-of-funds", "LP", "SME finance"],
+    "tags": [
+      "EU",
+      "fund-of-funds",
+      "LP",
+      "SME finance"
+    ],
     "summary": {
       "en": "The European Investment Fund is the EU's principal fund-of-funds investor, channeling billions annually into European VC/PE funds, with life sciences and healthcare (via the EIT Health/EIF Venture Centre of Excellence) as a core thematic priority."
     },
@@ -96,8 +147,14 @@
   },
   {
     "id": "eu-bpifrance-biotech-medtech-vc-funds",
-    "name": { "en": "Bpifrance – Biotech & MedTech VC Funds (InnoBio, Medtech Innovation Fund, Rare Diseases Fund)" },
-    "aka": ["InnoBio", "Innobio 2", "Bpifrance Large Venture Santé"],
+    "name": {
+      "en": "Bpifrance – Biotech & MedTech VC Funds (InnoBio, Medtech Innovation Fund, Rare Diseases Fund)"
+    },
+    "aka": [
+      "InnoBio",
+      "Innobio 2",
+      "Bpifrance Large Venture Santé"
+    ],
     "type": "government-program",
     "status": "active",
     "founded_year": 2009,
@@ -107,26 +164,88 @@
     "website": "https://www.bpifrance.com/products/biotech-and-medtech-vc-funds/",
     "capital": {
       "funds": [
-        { "name": "InnoBio", "vintage_year": 2009, "size": { "raw": "€173m", "usd": null, "currency": "EUR" } },
-        { "name": "Innobio 2", "vintage_year": 2019, "size": { "raw": "€135m first close, target €200m+", "usd": null, "currency": "EUR" } },
-        { "name": "Rare Diseases Fund", "vintage_year": null, "size": { "raw": "€50m", "usd": null, "currency": "EUR" } },
-        { "name": "Medtech Innovation Fund", "vintage_year": null, "size": { "raw": "€150m", "usd": null, "currency": "EUR" } },
-        { "name": "Patient Autonome", "vintage_year": null, "size": { "raw": "€50m", "usd": null, "currency": "EUR" } }
+        {
+          "name": "InnoBio",
+          "vintage_year": 2009,
+          "size": {
+            "raw": "€173m",
+            "usd": null,
+            "currency": "EUR"
+          }
+        },
+        {
+          "name": "Innobio 2",
+          "vintage_year": 2019,
+          "size": {
+            "raw": "€135m first close, target €200m+",
+            "usd": null,
+            "currency": "EUR"
+          }
+        },
+        {
+          "name": "Rare Diseases Fund",
+          "vintage_year": null,
+          "size": {
+            "raw": "€50m",
+            "usd": null,
+            "currency": "EUR"
+          }
+        },
+        {
+          "name": "Medtech Innovation Fund",
+          "vintage_year": null,
+          "size": {
+            "raw": "€150m",
+            "usd": null,
+            "currency": "EUR"
+          }
+        },
+        {
+          "name": "Patient Autonome",
+          "vintage_year": null,
+          "size": {
+            "raw": "€50m",
+            "usd": null,
+            "currency": "EUR"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b"],
-      "check_size": { "raw": "up to €14M per company (Series A/B)", "usd_min": null, "usd_max": null },
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "check_size": {
+        "raw": "up to €14M per company (Series A/B)",
+        "usd_min": null,
+        "usd_max": null
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["France"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "digital-health"],
+      "geo_focus": [
+        "France"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "digital-health"
+      ],
       "thesis": "Bpifrance, France's public investment bank, operates a family of dedicated biotech/medtech VC funds (InnoBio, Medtech Innovation Fund, Rare Diseases Fund, Patient Autonome) that co-invest alongside private VCs in French life-science startups from seed through Series B."
     },
     "lifesci": {
-      "indications": ["rare-disease"],
+      "indications": [
+        "rare-disease"
+      ],
       "invests_public_markets": false
     },
-    "tags": ["France", "public investment bank", "biotech", "medtech"],
+    "tags": [
+      "France",
+      "public investment bank",
+      "biotech",
+      "medtech"
+    ],
     "summary": {
       "en": "Bpifrance runs several dedicated life-science VC vehicles — InnoBio (biotech/medtech), the Medtech Innovation Fund, a Rare Diseases Fund and Patient Autonome (digital/connected health) — as part of France's public investment bank strategy for biopharma and medtech company financing.",
       "local": "Bpifrance gère plusieurs fonds de capital-risque dédiés aux sciences de la vie (InnoBio, Medtech Innovation Fund, fonds Maladies Rares, Patient Autonome) pour financer les entreprises françaises de biotechnologie et de technologies médicales."
@@ -147,25 +266,56 @@
   },
   {
     "id": "eu-high-tech-gruenderfonds",
-    "name": { "en": "High-Tech Gründerfonds (HTGF)" },
+    "name": {
+      "en": "High-Tech Gründerfonds (HTGF)"
+    },
     "type": "government-program",
-    "subtypes": ["vc"],
+    "subtypes": [
+      "vc"
+    ],
     "status": "active",
     "founded_year": 2005,
     "region": "europe",
     "country": "Germany",
     "hq_city": "Bonn",
-    "offices": [{ "country": "Germany", "city": "Berlin" }, { "country": "Germany", "city": "Munich" }],
+    "offices": [
+      {
+        "country": "Germany",
+        "city": "Berlin"
+      },
+      {
+        "country": "Germany",
+        "city": "Munich"
+      }
+    ],
     "website": "https://www.htgf.de/en/",
     "capital": {
-      "aum": { "raw": "fund volume of over €2 billion across all funds (incl. HTGF Opportunity Fund, launched 2024)", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "fund volume of over €2 billion across all funds (incl. HTGF Opportunity Fund, launched 2024)",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a"],
-      "check_size": { "raw": "~€1,000,000 at seed, up to €30M in growth follow-on rounds", "usd_min": null, "usd_max": null },
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a"
+      ],
+      "check_size": {
+        "raw": "~€1,000,000 at seed, up to €30M in growth follow-on rounds",
+        "usd_min": null,
+        "usd_max": null
+      },
       "lead_or_follow": "lead",
-      "geo_focus": ["Germany"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "geo_focus": [
+        "Germany"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "HTGF is a public-private-partnership seed fund backed by the German Federal Ministry of Economic Affairs, KfW Banking Group and industrial corporates, with 'Life Sciences & Chemistry' as one of its core investment focus areas alongside deep tech and industrial/digital tech."
     },
     "lifesci": {
@@ -174,9 +324,15 @@
     },
     "track_record": {
       "portfolio_count": "approximately 790 companies since 2005",
-      "co_investors": ["KfW Banking Group"]
+      "co_investors": [
+        "KfW Banking Group"
+      ]
     },
-    "tags": ["Germany", "public-private partnership", "seed"],
+    "tags": [
+      "Germany",
+      "public-private partnership",
+      "seed"
+    ],
     "summary": {
       "en": "High-Tech Gründerfonds is Germany's federally-backed public-private seed fund (founded 2005, >€2bn across its funds) with Life Sciences & Chemistry as one of its five core sectors, funded by the Ministry of Economic Affairs, KfW and corporate LPs."
     },
@@ -200,27 +356,48 @@
     ],
     "confidence": "high",
     "last_updated": "undefined",
-    "researched_by": "government-program"
+    "researched_by": "government-program",
+    "aka": [
+      "High-Tech Gründerfonds",
+      "HTGF"
+    ],
+    "verification_notes": "Merged eu-htgf into this record on 2026-08-16: Identical name ('High-Tech Gründerfonds'), identical Bonn, Germany HQ. htgf.de confirms 'High-Tech Gründerfonds (HTGF)' as the current live entity name, matchin"
   },
   {
     "id": "eu-eifo",
-    "name": { "en": "EIFO (Denmark's Export and Investment Fund)", "local": "Danmarks Eksport- og Investeringsfond" },
+    "name": {
+      "en": "EIFO (Denmark's Export and Investment Fund)",
+      "local": "Danmarks Eksport- og Investeringsfond"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
     "country": "Denmark",
     "website": "https://www.eifo.dk/en/",
     "strategy": {
-      "stages": ["seed", "series-a"],
+      "stages": [
+        "seed",
+        "series-a"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Denmark", "Nordics"],
-      "sector_focus": ["therapeutics", "generalist-health"],
+      "geo_focus": [
+        "Denmark",
+        "Nordics"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "generalist-health"
+      ],
       "thesis": "EIFO, Denmark's national export credit agency and promotional bank, co-invests into early-stage Nordic life-science VC funds and companies as part of its broader innovation and growth-financing mandate."
     },
     "lifesci": {
       "invests_public_markets": false
     },
-    "tags": ["Denmark", "export credit agency", "promotional bank"],
+    "tags": [
+      "Denmark",
+      "export credit agency",
+      "promotional bank"
+    ],
     "summary": {
       "en": "EIFO is Denmark's state export-credit and investment fund, which has made direct commitments into early-stage European life-science VC funds as part of its innovation financing mandate.",
       "local": "EIFO er Danmarks statslige eksportkredit- og investeringsfond, der har investeret direkte i tidlige europæiske life science-venturefonde."
@@ -242,7 +419,9 @@
   },
   {
     "id": "eu-british-business-bank-lsip",
-    "name": { "en": "British Business Bank – Life Sciences Investment Programme (LSIP)" },
+    "name": {
+      "en": "British Business Bank – Life Sciences Investment Programme (LSIP)"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -250,13 +429,26 @@
     "hq_city": "Sheffield",
     "website": "https://www.british-business-bank.co.uk/finance-options/equity-finance/life-sciences-investment-programme",
     "capital": {
-      "current_fund": { "raw": "£250 million (increased from original £200m announcement)", "usd": null, "currency": "GBP" }
+      "current_fund": {
+        "raw": "£250 million (increased from original £200m announcement)",
+        "usd": null,
+        "currency": "GBP"
+      }
     },
     "strategy": {
-      "stages": ["growth"],
+      "stages": [
+        "growth"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["United Kingdom"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "generalist-health"],
+      "geo_focus": [
+        "United Kingdom"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "generalist-health"
+      ],
       "thesis": "LSIP is a British Business Bank programme that invests as a cornerstone LP into specialist UK life-sciences VC growth funds, addressing the late-stage equity finance gap for high-potential biotech/medtech companies and crowding in private capital."
     },
     "lifesci": {
@@ -264,11 +456,23 @@
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Nimbus Therapeutics", "sector": "therapeutics", "outcome": "acquired (Takeda, $4B upfront)" },
-        { "company": "Eyebio", "sector": "therapeutics", "outcome": "acquired (Merck, up to $3B)" }
+        {
+          "company": "Nimbus Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "acquired (Takeda, $4B upfront)"
+        },
+        {
+          "company": "Eyebio",
+          "sector": "therapeutics",
+          "outcome": "acquired (Merck, up to $3B)"
+        }
       ]
     },
-    "tags": ["UK", "growth equity", "cornerstone LP"],
+    "tags": [
+      "UK",
+      "growth equity",
+      "cornerstone LP"
+    ],
     "summary": {
       "en": "The Life Sciences Investment Programme is the British Business Bank's £250m cornerstone-LP initiative backing specialist UK life-sciences VC growth funds, which has already produced two major exits (Nimbus Therapeutics to Takeda, Eyebio to Merck)."
     },
@@ -296,7 +500,9 @@
   },
   {
     "id": "eu-invest-nl",
-    "name": { "en": "Invest-NL" },
+    "name": {
+      "en": "Invest-NL"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -304,16 +510,29 @@
     "hq_city": "Amsterdam",
     "website": "https://www.invest-nl.nl/en",
     "strategy": {
-      "check_size": { "raw": "€5–50 million", "usd_min": null, "usd_max": null },
+      "check_size": {
+        "raw": "€5–50 million",
+        "usd_min": null,
+        "usd_max": null
+      },
       "lead_or_follow": "both",
-      "geo_focus": ["Netherlands"],
-      "sector_focus": ["digital-health", "diagnostics", "medtech-devices"],
+      "geo_focus": [
+        "Netherlands"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "diagnostics",
+        "medtech-devices"
+      ],
       "thesis": "Invest-NL, the Dutch national financing institution, runs a dedicated Life Sciences & Health theme focused on digital health, personalized diagnostics, preventive healthcare and medical technology, investing €5-50M in equity/debt directly or via fund commitments, often alongside EIF and InvestEU."
     },
     "lifesci": {
       "invests_public_markets": false
     },
-    "tags": ["Netherlands", "national development bank"],
+    "tags": [
+      "Netherlands",
+      "national development bank"
+    ],
     "summary": {
       "en": "Invest-NL is the Netherlands' national investment institution, with Life Sciences & Health as one of its core strategic themes, financing digital health, diagnostics and medtech companies and funds with €5-50M tickets."
     },
@@ -333,7 +552,9 @@
   },
   {
     "id": "eu-kfw-capital-zukunftsfonds",
-    "name": { "en": "KfW Capital – Zukunftsfonds (Germany Future Fund)" },
+    "name": {
+      "en": "KfW Capital – Zukunftsfonds (Germany Future Fund)"
+    },
     "type": "government-program",
     "status": "active",
     "founded_year": 2021,
@@ -342,20 +563,38 @@
     "hq_city": "Frankfurt am Main",
     "website": "https://www.kfw-capital.de/Investment-focus/Zukunftsfonds-(Future-Fund)/",
     "capital": {
-      "aum": { "raw": "approximately EUR 10 billion available for VC expansion until 2030", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "approximately EUR 10 billion available for VC expansion until 2030",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Germany"],
-      "sector_focus": ["therapeutics", "generalist-health"],
+      "geo_focus": [
+        "Germany"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "generalist-health"
+      ],
       "thesis": "KfW Capital coordinates Germany's federal Zukunftsfonds, a ~€10bn fund-of-funds mandate that, via its 'Future Fund II' allocation, explicitly earmarks growth/innovation capital for BioTech alongside DeepTech and defence; roughly 22% of the VC funds it backs focus on life sciences."
     },
     "lifesci": {
       "invests_public_markets": false,
       "science_platform_notes": "Around one third of start-ups financed through KfW Capital's underlying VC funds work on bioeconomy/medicine-related sustainable solutions."
     },
-    "tags": ["Germany", "fund-of-funds", "federal government"],
+    "tags": [
+      "Germany",
+      "fund-of-funds",
+      "federal government"
+    ],
     "summary": {
       "en": "KfW Capital manages the German Federal Government's Zukunftsfonds (~€10bn through 2030), a fund-of-funds whose 'Future Fund II' tranche explicitly targets BioTech venture financing, with about 22% of its underlying VC funds focused on life sciences."
     },
@@ -383,7 +622,9 @@
   },
   {
     "id": "eu-cdti-innvierte",
-    "name": { "en": "CDTI – Innvierte" },
+    "name": {
+      "en": "CDTI – Innvierte"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -391,10 +632,23 @@
     "hq_city": "Madrid",
     "website": "https://www.cdti.es",
     "strategy": {
-      "stages": ["pre-seed", "seed", "series-a", "series-b"],
+      "stages": [
+        "pre-seed",
+        "seed",
+        "series-a",
+        "series-b"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Spain", "Europe"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "cell-gene-therapy"],
+      "geo_focus": [
+        "Spain",
+        "Europe"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "cell-gene-therapy"
+      ],
       "thesis": "Innvierte, run by Spain's innovation agency CDTI (Ministry of Science, Innovation and Universities), is a major LP and co-investor backing dedicated life-science VC funds (Asabys, Ysios' InceptionBio, Columbus) that fund Spanish/European biotech, advanced-therapy and medtech company creation and scale-up."
     },
     "lifesci": {
@@ -402,12 +656,28 @@
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Asabys Innvierte Tech Transfer Fund", "sector": "therapeutics", "outcome": "active" },
-        { "company": "InceptionBio (Ysios Capital)", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Columbus Innvierte Life Sciences Fund V", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Asabys Innvierte Tech Transfer Fund",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "InceptionBio (Ysios Capital)",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Columbus Innvierte Life Sciences Fund V",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["Spain", "innovation agency", "fund-of-funds"],
+    "tags": [
+      "Spain",
+      "innovation agency",
+      "fund-of-funds"
+    ],
     "summary": {
       "en": "CDTI's Innvierte programme is Spain's flagship public co-investment initiative for biotech/medtech, having backed life-science-specific VC funds including the €120M-target Asabys Tech Transfer fund (with EIF) and Ysios' €100M InceptionBio fund.",
       "local": "Innvierte, gestionado por CDTI, es la principal iniciativa pública española de coinversión en biotecnología y tecnología médica."
@@ -436,7 +706,10 @@
   },
   {
     "id": "eu-tesi",
-    "name": { "en": "Tesi (Finnish Industry Investment Ltd)", "local": "Suomen Teollisuussijoitus Oy" },
+    "name": {
+      "en": "Tesi (Finnish Industry Investment Ltd)",
+      "local": "Suomen Teollisuussijoitus Oy"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -444,10 +717,21 @@
     "hq_city": "Helsinki",
     "website": "https://tesi.fi/en/",
     "strategy": {
-      "stages": ["seed", "series-a", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "growth"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Finland"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "generalist-health"],
+      "geo_focus": [
+        "Finland"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "generalist-health"
+      ],
       "thesis": "Tesi is Finland's state-owned investment company with Health & Life Sciences as one of its named strategic investment themes, investing in specialist VC/PE funds (e.g. anchor investor in the €90M Innovestor Life Science fund) and directly in Finnish life-science companies."
     },
     "lifesci": {
@@ -455,10 +739,17 @@
     },
     "track_record": {
       "notable_investments": [
-        { "company": "Innovestor Life Science", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "Innovestor Life Science",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["Finland", "state-owned investment company"],
+    "tags": [
+      "Finland",
+      "state-owned investment company"
+    ],
     "summary": {
       "en": "Tesi is Finland's state-owned investment company that names Health & Life Sciences as a strategic theme, acting as an anchor LP in specialist funds such as the €90M Innovestor Life Science fund."
     },
@@ -478,7 +769,9 @@
   },
   {
     "id": "eu-isif",
-    "name": { "en": "Ireland Strategic Investment Fund (ISIF)" },
+    "name": {
+      "en": "Ireland Strategic Investment Fund (ISIF)"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -486,19 +779,38 @@
     "hq_city": "Dublin",
     "website": "https://www.isif.ie/",
     "capital": {
-      "aum": { "raw": "over €605m committed to life sciences funds to date", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "over €605m committed to life sciences funds to date",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["seed", "series-a", "series-b", "growth"],
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Ireland"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics", "life-science-tools"],
+      "geo_focus": [
+        "Ireland"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics",
+        "life-science-tools"
+      ],
       "thesis": "ISIF, Ireland's sovereign development fund managed by the NTMA, has committed over €605M to life-science and healthcare VC funds, including a strategic partnership targeting €100M with Sofinnova Partners, to grow Ireland's biotech/medtech ecosystem."
     },
     "lifesci": {
       "invests_public_markets": false
     },
-    "tags": ["Ireland", "sovereign development fund"],
+    "tags": [
+      "Ireland",
+      "sovereign development fund"
+    ],
     "summary": {
       "en": "ISIF is Ireland's sovereign development fund with a dedicated Life Sciences and Healthcare investment focus, having committed over €605M to life-science VC funds spanning medtech, biotech, diagnostics and life-science tools."
     },
@@ -526,7 +838,9 @@
   },
   {
     "id": "eu-enterprise-ireland",
-    "name": { "en": "Enterprise Ireland" },
+    "name": {
+      "en": "Enterprise Ireland"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -534,19 +848,35 @@
     "hq_city": "Dublin",
     "website": "https://enterprise.gov.ie",
     "capital": {
-      "current_fund": { "raw": "Irish Innovation Seed Fund (IISF): €90 million fund-of-funds (€30m Enterprise Ireland/DETE + €30m EIF + €30m ISIF)", "usd": null, "currency": "EUR" }
+      "current_fund": {
+        "raw": "Irish Innovation Seed Fund (IISF): €90 million fund-of-funds (€30m Enterprise Ireland/DETE + €30m EIF + €30m ISIF)",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Ireland"],
-      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "geo_focus": [
+        "Ireland"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "generalist-health"
+      ],
       "thesis": "Enterprise Ireland, Ireland's trade and innovation agency, co-funds the €90M Irish Innovation Seed Fund (IISF) fund-of-funds — alongside the EIF and ISIF — that targets pre-seed/seed VC funds across ICT, Life Sciences and Climate, complementing its own direct High Potential Start-Up equity support for Irish life-science companies."
     },
     "lifesci": {
       "invests_public_markets": false
     },
-    "tags": ["Ireland", "trade and innovation agency"],
+    "tags": [
+      "Ireland",
+      "trade and innovation agency"
+    ],
     "summary": {
       "en": "Enterprise Ireland is the Irish government's trade and innovation agency, co-funding the €90M Irish Innovation Seed Fund alongside the EIF and ISIF to seed pre-seed/seed VC funds across Life Sciences, ICT and Climate."
     },
@@ -566,30 +896,51 @@
   },
   {
     "id": "eu-lisa-life-science-austria",
-    "name": { "en": "LISA – Life Science Austria (aws)" },
+    "name": {
+      "en": "LISA – Life Science Austria (aws)"
+    },
     "type": "government-program",
-    "subtypes": ["incubator"],
+    "subtypes": [
+      "incubator"
+    ],
     "status": "active",
     "region": "europe",
     "country": "Austria",
     "hq_city": "Vienna",
     "website": "https://www.lifescienceaustria.at/our-services/aws-funding-for-the-life-sciences",
     "program": {
-      "investment": { "raw": "up to €300,000 (aws Preseed Deep Tech grant) and up to €1,000,000 (aws Deep Tech Seedfinancing, repayable)", "usd": null, "currency": "EUR" },
+      "investment": {
+        "raw": "up to €300,000 (aws Preseed Deep Tech grant) and up to €1,000,000 (aws Deep Tech Seedfinancing, repayable)",
+        "usd": null,
+        "currency": "EUR"
+      },
       "location": "Austria"
     },
     "strategy": {
-      "stages": ["pre-seed", "seed"],
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Austria"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": [
+        "Austria"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "LISA (Life Science Austria), operated by Austria's promotional bank aws, is the national company-creation program for biotech and medtech spinouts, combining non-dilutive pre-seed grants with repayable seed financing and incubation support."
     },
     "lifesci": {
       "company_creation": true,
       "invests_public_markets": false
     },
-    "tags": ["Austria", "promotional bank", "biotech", "medtech"],
+    "tags": [
+      "Austria",
+      "promotional bank",
+      "biotech",
+      "medtech"
+    ],
     "summary": {
       "en": "LISA (Life Science Austria) is the Austrian federal funding bank aws's national program for biotech/medtech company creation, offering pre-seed grants up to €300K and repayable seed financing up to €1M."
     },
@@ -609,7 +960,9 @@
   },
   {
     "id": "eu-scottish-national-investment-bank",
-    "name": { "en": "Scottish National Investment Bank" },
+    "name": {
+      "en": "Scottish National Investment Bank"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -617,23 +970,47 @@
     "hq_city": "Edinburgh",
     "website": "https://www.thebank.scot/",
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Scotland"],
-      "sector_focus": ["therapeutics", "medtech-devices"],
+      "geo_focus": [
+        "Scotland"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices"
+      ],
       "thesis": "The Scottish National Investment Bank is Scotland's state-owned mission bank with life sciences/human health named as an investment priority, providing patient debt and equity capital to Scottish biotech companies."
     },
     "lifesci": {
-      "modalities": ["microbiome", "biologics-antibody"],
+      "modalities": [
+        "microbiome",
+        "biologics-antibody"
+      ],
       "invests_public_markets": false
     },
     "track_record": {
       "notable_investments": [
-        { "company": "EnteroBiotix", "sector": "therapeutics", "outcome": "active" },
-        { "company": "Elasmogen", "sector": "therapeutics", "outcome": "active" }
+        {
+          "company": "EnteroBiotix",
+          "sector": "therapeutics",
+          "outcome": "active"
+        },
+        {
+          "company": "Elasmogen",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
       ]
     },
-    "tags": ["Scotland", "UK", "mission bank"],
+    "tags": [
+      "Scotland",
+      "UK",
+      "mission bank"
+    ],
     "summary": {
       "en": "The Scottish National Investment Bank is Scotland's state-owned development bank, naming life sciences/human health as an industry priority and backing biotech companies such as microbiome-therapeutics developer EnteroBiotix (£11M) and biologics developer Elasmogen."
     },
@@ -653,7 +1030,10 @@
   },
   {
     "id": "eu-sfpi-fpim",
-    "name": { "en": "SFPI-FPIM (Federal Holding and Investment Company)", "local": "Société Fédérale de Participations et d'Investissement / Federale Participatie- en Investeringsmaatschappij" },
+    "name": {
+      "en": "SFPI-FPIM (Federal Holding and Investment Company)",
+      "local": "Société Fédérale de Participations et d'Investissement / Federale Participatie- en Investeringsmaatschappij"
+    },
     "type": "government-program",
     "status": "active",
     "founded_year": 2006,
@@ -663,14 +1043,22 @@
     "website": "https://sfpim.be/en/",
     "strategy": {
       "lead_or_follow": "both",
-      "geo_focus": ["Belgium"],
-      "sector_focus": ["therapeutics", "generalist-health"],
+      "geo_focus": [
+        "Belgium"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "generalist-health"
+      ],
       "thesis": "SFPI-FPIM, Belgium's federal sovereign holding company formed in 2006, manages the federal government's equity stakes and lists life sciences among its historical core sectors alongside finance and aviation, deploying capital into Belgian biotech/pharma companies."
     },
     "lifesci": {
       "invests_public_markets": false
     },
-    "tags": ["Belgium", "sovereign holding company"],
+    "tags": [
+      "Belgium",
+      "sovereign holding company"
+    ],
     "summary": {
       "en": "SFPI-FPIM is Belgium's federal holding and investment company (Belgium's sovereign wealth fund), which lists life sciences among its historically focused sectors alongside finance and aviation."
     },
@@ -691,7 +1079,9 @@
   },
   {
     "id": "eu-cdp-venture-capital",
-    "name": { "en": "CDP Venture Capital SGR" },
+    "name": {
+      "en": "CDP Venture Capital SGR"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -699,23 +1089,55 @@
     "hq_city": "Rome",
     "website": "https://www.cdpventurecapital.it/en/cdp_venture_homepage.page",
     "capital": {
-      "aum": { "raw": "€1.8 billion", "usd": null, "currency": "EUR" },
+      "aum": {
+        "raw": "€1.8 billion",
+        "usd": null,
+        "currency": "EUR"
+      },
       "funds": [
-        { "name": "Large Venture Fund", "vintage_year": 2022, "size": { "raw": "€150m CDP Equity commitment, €700m fund target", "usd": null, "currency": "EUR" } },
-        { "name": "Indaco Bio", "vintage_year": null, "size": { "raw": "€95m", "usd": null, "currency": "EUR" } }
+        {
+          "name": "Large Venture Fund",
+          "vintage_year": 2022,
+          "size": {
+            "raw": "€150m CDP Equity commitment, €700m fund target",
+            "usd": null,
+            "currency": "EUR"
+          }
+        },
+        {
+          "name": "Indaco Bio",
+          "vintage_year": null,
+          "size": {
+            "raw": "€95m",
+            "usd": null,
+            "currency": "EUR"
+          }
+        }
       ]
     },
     "strategy": {
-      "stages": ["growth"],
+      "stages": [
+        "growth"
+      ],
       "lead_or_follow": "follow",
-      "geo_focus": ["Italy"],
-      "sector_focus": ["therapeutics", "ai-drug-discovery", "life-science-tools"],
+      "geo_focus": [
+        "Italy"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "ai-drug-discovery",
+        "life-science-tools"
+      ],
       "thesis": "CDP Venture Capital, Italy's National Innovation Fund (70% owned by sovereign promotional bank CDP Equity, 30% by Invitalia), backs late-stage biotech scale-ups through the €700M-target Large Venture Fund and life-science technology transfer via the €95M Indaco Bio fund (with EIF)."
     },
     "lifesci": {
       "invests_public_markets": false
     },
-    "tags": ["Italy", "sovereign promotional bank", "national innovation fund"],
+    "tags": [
+      "Italy",
+      "sovereign promotional bank",
+      "national innovation fund"
+    ],
     "summary": {
       "en": "CDP Venture Capital is Italy's state-backed National Innovation Fund (€1.8bn AUM), which supports biotech scale-ups via the €700M-target Large Venture Fund and life-science tech-transfer via the €95M Indaco Bio fund co-launched with the EIF."
     },
@@ -743,7 +1165,9 @@
   },
   {
     "id": "eu-investinor",
-    "name": { "en": "Investinor AS" },
+    "name": {
+      "en": "Investinor AS"
+    },
     "type": "government-program",
     "status": "active",
     "founded_year": 2008,
@@ -751,13 +1175,27 @@
     "country": "Norway",
     "hq_city": "Trondheim",
     "capital": {
-      "aum": { "raw": "NOK 4.2 billion (EUR ~525m) evergreen fund; ~NOK 8 billion in total assets", "usd": null, "currency": "NOK" }
+      "aum": {
+        "raw": "NOK 4.2 billion (EUR ~525m) evergreen fund; ~NOK 8 billion in total assets",
+        "usd": null,
+        "currency": "NOK"
+      }
     },
     "strategy": {
-      "stages": ["series-a", "series-b", "growth"],
+      "stages": [
+        "series-a",
+        "series-b",
+        "growth"
+      ],
       "lead_or_follow": "both",
-      "geo_focus": ["Norway"],
-      "sector_focus": ["therapeutics", "medtech-devices", "generalist-health"],
+      "geo_focus": [
+        "Norway"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "generalist-health"
+      ],
       "thesis": "Investinor is Norway's state-owned evergreen investment company, owned by the Ministry of Trade, Industry and Fisheries, which lists life sciences among its concentrated portfolio sectors alongside climate, marine and SaaS."
     },
     "lifesci": {
@@ -766,7 +1204,11 @@
     "track_record": {
       "portfolio_count": "120+ direct portfolio companies, 45+ fund commitments"
     },
-    "tags": ["Norway", "state-owned investment company", "evergreen fund"],
+    "tags": [
+      "Norway",
+      "state-owned investment company",
+      "evergreen fund"
+    ],
     "summary": {
       "en": "Investinor is Norway's state-owned evergreen venture/expansion capital investor (NOK 4.2bn fund, founded 2008), with life sciences as one of its concentrated sector focuses alongside climate, marine and software."
     },
@@ -787,7 +1229,9 @@
   },
   {
     "id": "eu-eib-health-life-sciences",
-    "name": { "en": "European Investment Bank (EIB) – Health & Life Sciences" },
+    "name": {
+      "en": "European Investment Bank (EIB) – Health & Life Sciences"
+    },
     "type": "government-program",
     "status": "active",
     "region": "europe",
@@ -795,19 +1239,33 @@
     "hq_city": "Luxembourg",
     "website": "https://www.eib.org/en/projects/topics/innovation-digital-and-human-capital/health-life-science/index",
     "capital": {
-      "aum": { "raw": "~€3.5 billion life sciences venture debt portfolio across 135 projects", "usd": null, "currency": "EUR" }
+      "aum": {
+        "raw": "~€3.5 billion life sciences venture debt portfolio across 135 projects",
+        "usd": null,
+        "currency": "EUR"
+      }
     },
     "strategy": {
       "lead_or_follow": "follow",
-      "geo_focus": ["European Union"],
-      "sector_focus": ["therapeutics", "medtech-devices", "diagnostics"],
+      "geo_focus": [
+        "European Union"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "diagnostics"
+      ],
       "thesis": "The EIB Group is the EU's development bank financing arm for life sciences, running a ~€3.5bn venture-debt portfolio across 135 projects and, together with the European Commission, launching the BioTechEU initiative to mobilise €10bn for EU biotech in 2026-27."
     },
     "lifesci": {
       "invests_public_markets": false,
       "science_platform_notes": "Primarily provides venture debt and project finance rather than equity; equity fund-of-funds activity for the EIB Group is carried out via its subsidiary EIF (listed separately)."
     },
-    "tags": ["EU", "development finance institution", "venture debt"],
+    "tags": [
+      "EU",
+      "development finance institution",
+      "venture debt"
+    ],
     "summary": {
       "en": "The European Investment Bank is the EU's development bank, financing the life-sciences sector primarily via venture debt (~€3.5bn portfolio, 135 projects) and, with the European Commission, launched the BioTechEU initiative to mobilise €10bn for biotech in 2026-27."
     },
