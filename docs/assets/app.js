@@ -6,7 +6,8 @@
    picks a renderer by <body data-page>'s layout, paints #page, wires it, and
    re-renders on language switch so nothing is ever left in one language.
 
-   Layouts: hub · directory · analysis · methodology  (data in window.MED_VC)
+   Layouts: hub · directory · companies · analysis · companyAnalysis · methodology
+   (data in window.MED_VC)
    ========================================================================= */
 (function () {
   "use strict";
@@ -73,12 +74,38 @@
         coInvestorHint: "is an investor. Companies here that it backed:",
         coEmptyNote: "This half of the directory is newer than the investor half and still filling in.",
         companiesN: "companies", linksN: "investor–company links",
-        secInvestors: "Investors", secCompanies: "Companies & the link graph",
-        capCoRegion: "Companies by region", capCoCategory: "Companies by sector",
-        capCoStatus: "By corporate status", capCoDev: "By stage of development",
         capLinks: "Link coverage",
         linkBoth: "Confirmed by both sides", linkCo: "Companies with a listed investor",
-        linkInv: "Investors with a profiled company", linkPending: "Named but not yet profiled"
+        linkInv: "Investors with a profiled company", linkPending: "Named but not yet profiled",
+
+        /* ---- company analysis page ---- */
+        goCompanyAnalysis: "See the company half",
+        goInvestorAnalysis: "See the investor half",
+        caUnicorns: "unicorns", caPublic: "publicly listed",
+        caExited: "with a recorded exit", caCleared: "with a regulatory clearance",
+        caBacked: "linked to a listed investor",
+        caSecBuild: "What they build", caSecStage: "How far along",
+        caSecVintage: "When they were founded", caSecGraph: "Who backs them",
+        caSecGaps: "What this page can't tell you",
+        caCapSector: "By sector", caCapModality: "By modality (top 12)",
+        caCapIndication: "By indication (top 12)", caCapRegion: "By region",
+        caCapMatrix: "Sector × region",
+        caMatrixNote: "Companies per sector and region. Shading is relative to the largest cell on a square-root scale, so small counts stay visible.",
+        caCapPipeline: "Clinical pipeline",
+        caPipelineNote: "Where each company's lead program sits today. A snapshot, not an attrition curve — nobody dropped out between these rungs, and only companies with a clinical stage on record appear at all.",
+        caCapStatus: "By corporate status",
+        caCapReg: "Regulatory clearances, by body",
+        caRegNote: "Companies holding at least one clearance, approval or designation from each body. Counted once per company, however many filings it has.",
+        caCapExit: "How they exited",
+        caExitNote: "Exit type is free text in the source records; these are folded buckets.",
+        caCapFounded: "Founding year",
+        caFoundedNote: "{n} of {total} companies have a founding year on record. The drop after 2019 is a sourcing artefact — young private companies are the hardest to document — not a real collapse in company formation.",
+        caCapMostBacked: "Most-backed companies", caCapMostActive: "Most active investors here",
+        caCapUnicorns: "Unicorns", caInvestorsUnit: "investors", caCompaniesUnit: "companies",
+        caGraphNote: "Both-sides corroboration and the backlog come from the build's link table; every other number on this page is counted live from the company records.",
+        caGapsNote: "Only {raised} of {total} companies ({pct}%) have a disclosed total raised, and {val} a valuation — which is why this page carries no funding-size chart. A distribution drawn from that slice would describe how easy the money was to source, not how the market works. {founded} have a founding year. Every record is rated for source confidence:",
+        exit_ipo: "IPO", exit_ma: "M&A", exit_spac: "SPAC", exit_merger: "Merger",
+        exit_spinoff: "Spin-off", exit_shutdown: "Shut down", exit_other: "Other"
       },
       zh: {
         pitch: "一份開放、逐筆帶來源的「醫療背後的錢」名錄,分成互相指向的兩半:一半是出錢的人 —— 生醫創投、藥廠與醫材企業創投、公私跨界基金、生醫加速器、大學與醫院基金、疾病基金會公益創投、政府計畫;另一半是拿錢的公司。兩邊之間的每一條連結都由資料解析而來,不是手寫的。",
@@ -127,12 +154,38 @@
         coInvestorHint: "是投資機構。名錄中它投過的公司:",
         coEmptyNote: "新創這一半比投資機構那一半年輕,仍在逐輪補齊中。",
         companiesN: "家新創", linksN: "條投資關係連結",
-        secInvestors: "投資機構", secCompanies: "新創與連結圖",
-        capCoRegion: "各地區新創數", capCoCategory: "依領域",
-        capCoStatus: "依公司狀態", capCoDev: "依發展階段",
         capLinks: "連結覆蓋率",
         linkBoth: "兩邊都證實", linkCo: "已連上投資人的公司",
-        linkInv: "已連上公司的機構", linkPending: "被點名但尚未建檔"
+        linkInv: "已連上公司的機構", linkPending: "被點名但尚未建檔",
+
+        /* ---- company analysis page ---- */
+        goCompanyAnalysis: "看新創那一半的分析",
+        goInvestorAnalysis: "看投資機構那一半的分析",
+        caUnicorns: "家獨角獸", caPublic: "家已上市",
+        caExited: "家有退出紀錄", caCleared: "家有法規核准",
+        caBacked: "家連得上名錄中的投資人",
+        caSecBuild: "它們在做什麼", caSecStage: "走到哪一步",
+        caSecVintage: "什麼時候成立的", caSecGraph: "背後是誰",
+        caSecGaps: "這頁答不了的事",
+        caCapSector: "依領域", caCapModality: "依治療模式(前 12)",
+        caCapIndication: "依適應症(前 12)", caCapRegion: "依地區",
+        caCapMatrix: "領域 × 地區",
+        caMatrixNote: "各領域在各地區的公司數。色深相對於最大格,採平方根刻度,讓小數字也看得見。",
+        caCapPipeline: "臨床管線階段",
+        caPipelineNote: "每家公司主力管線目前所在的階段。這是一張快照,不是淘汰曲線 —— 各階之間沒有誰被淘汰掉,而且只有紀錄中查得到臨床階段的公司才會出現在這裡。",
+        caCapStatus: "依公司狀態",
+        caCapReg: "依主管機關的核准",
+        caRegNote: "取得該機關至少一項核准 / 許可 / 認定的公司數。同一家公司不論有幾件申請都只算一次。",
+        caCapExit: "怎麼退出的",
+        caExitNote: "退出類型在原始紀錄中是自由文字,這裡歸併成幾個桶。",
+        caCapFounded: "成立年份",
+        caFoundedNote: "{total} 家公司中有 {n} 家查得到成立年份。2019 之後的下滑是查證難度造成的假象 —— 年輕的未上市公司最難溯源 —— 不是真的沒人在創業。",
+        caCapMostBacked: "投資人最多的公司", caCapMostActive: "在本名錄投得最多的機構",
+        caCapUnicorns: "獨角獸", caInvestorsUnit: "家機構", caCompaniesUnit: "家公司",
+        caGraphNote: "「兩邊都證實」與「被點名但尚未建檔」來自 build 階段的連結表;本頁其他數字都是直接從公司紀錄現算的。",
+        caGapsNote: "{total} 家公司中只有 {raised} 家({pct}%)查得到累計募資金額、{val} 家查得到估值 —— 所以這頁沒有募資規模圖表。用這麼小的樣本畫分佈,畫出來的是「這種數字有多難查」,不是市場真正的樣子。{founded} 家查得到成立年份。每一筆都有來源信心度評級:",
+        exit_ipo: "IPO 上市", exit_ma: "被併購", exit_spac: "SPAC", exit_merger: "合併",
+        exit_spinoff: "分拆", exit_shutdown: "結束營運", exit_other: "其他"
       }
     };
     function tt(k) { return (UI[state.lang] || UI.en)[k]; }
@@ -233,6 +286,222 @@
         return { slug: k, value: map[k], label: axis ? lab(axis, k) : k };
       }).sort(function (a, b) { return b.value - a.value; });
       return limit ? arr.slice(0, limit) : arr;
+    }
+    function panel(cap, series, accentVar, note) {
+      return '<section class="panel" data-item><h2 class="panel__title">' + esc(cap) + "</h2>" +
+        (note ? '<p class="panel__note">' + esc(note) + "</p>" : "") +
+        barsH(series, accentVar) + "</section>";
+    }
+
+    /* ---- a full-width link across to the sibling analysis page ---- */
+    function xpage(slug, label) {
+      var pg = null;
+      (L.pages || []).forEach(function (q) { if (q.slug === slug) pg = q; });
+      if (!pg) return "";
+      return '<a class="navcard navcard--solo" data-item href="' + esc(L.pageHref(pg)) + '">' +
+        '<span class="material-symbols-rounded navcard__icon" aria-hidden="true">' + esc(pg.icon || "label") + "</span>" +
+        '<span class="navcard__body"><span class="navcard__title">' + esc(label) + "</span>" +
+        '<span class="navcard__sub">' + esc(t(pg.subtitle)) + "</span></span>" +
+        '<span class="material-symbols-rounded navcard__go" aria-hidden="true">arrow_forward</span></a>';
+    }
+
+    /* ---- pipeline ladder ----
+       Rungs stay in clinical order rather than sorting by size, because the
+       shape is the point: a directory whose companies bunch at phase 2 looks
+       different from one that bunches at discovery, and sorting by count would
+       destroy exactly that signal. Bars are centred so the profile reads as a
+       silhouette. */
+    function funnel(rows) {
+      var max = Math.max.apply(null, rows.map(function (d) { return d.value; }).concat([1]));
+      return '<div class="funnel">' + rows.map(function (d) {
+        return '<div class="funnel__row" data-item>' +
+          '<span class="funnel__label">' + esc(d.label) + "</span>" +
+          '<span class="funnel__track"><span class="funnel__fill" style="width:' +
+            r(Math.max((d.value / max) * 100, d.value ? 2 : 0)) + '%"></span></span>' +
+          '<span class="funnel__value">' + esc(num(d.value)) + "</span></div>";
+      }).join("") + "</div>";
+    }
+
+    /* ---- heat matrix (row axis × column axis) ----
+       Intensity is sqrt-scaled: a linear ramp against a max of ~200 renders
+       every cell under 20 as indistinguishable white, which is most of the
+       table. The square root keeps small-but-nonzero cells legible while the
+       big cells still dominate. Empty cells get a dash, not a 0 — "no company
+       here" and "a company here we counted as zero" should not look alike. */
+    function matrix(cells, rowKeys, rowAxis, colKeys, colAxis) {
+      var max = 1;
+      rowKeys.forEach(function (rk) {
+        colKeys.forEach(function (ck) { max = Math.max(max, (cells[rk] || {})[ck] || 0); });
+      });
+      var hdr = "<tr><th scope=\"col\"></th>" + colKeys.map(function (ck) {
+        return '<th scope="col"><span>' + esc(lab(colAxis, ck)) + "</span></th>";
+      }).join("") + "</tr>";
+      var body = rowKeys.map(function (rk) {
+        return '<tr><th scope="row">' + esc(lab(rowAxis, rk)) + "</th>" + colKeys.map(function (ck) {
+          var v = (cells[rk] || {})[ck] || 0;
+          if (!v) return '<td class="matrix__zero">·</td>';
+          var i = Math.sqrt(v / max);
+          return '<td style="background:color-mix(in srgb, var(--primary) ' + r(i * 78) +
+            '%, transparent);color:' + (i > 0.62 ? "var(--on-primary)" : "inherit") + '">' + esc(num(v)) + "</td>";
+        }).join("") + "</tr>";
+      }).join("");
+      return '<div class="matrix-wrap"><table class="matrix"><thead>' + hdr +
+        "</thead><tbody>" + body + "</tbody></table></div>";
+    }
+
+    /* ---- vertical column histogram (for ordered buckets like years) ----
+       The bar sits inside a fixed-height slot so its percentage height has a
+       definite box to resolve against; sizing it against the column itself
+       would make the column's height depend on the bar and the bar's on the
+       column. */
+    function columns(rows) {
+      var max = Math.max.apply(null, rows.map(function (d) { return d.value; }).concat([1]));
+      return '<div class="cols">' + rows.map(function (d) {
+        return '<div class="col" data-item title="' + esc(d.label + ": " + num(d.value)) + '">' +
+          '<span class="col__n">' + esc(num(d.value)) + "</span>" +
+          '<span class="col__slot"><span class="col__bar" style="height:' +
+            r(Math.max((d.value / max) * 100, d.value ? 2 : 0)) + '%"></span></span>' +
+          '<span class="col__label">' + esc(d.label) + "</span></div>";
+      }).join("") + "</div>";
+    }
+
+    /* ---- ranked leaderboard, each row a deep link into the other pages ----
+       The value column takes numbers (formatted, with a unit) or strings (a
+       reported valuation like "€5.8 billion", printed verbatim — this corpus
+       keeps money in its reported form rather than inventing conversions). */
+    function board(cap, items, href, unit) {
+      var rows = items.map(function (x, i) {
+        var isNum = typeof x.value === "number";
+        var val = isNum ? num(x.value) : (x.value || "");
+        return '<li class="board__row" data-item><span class="board__rank">' + (i + 1) + "</span>" +
+          '<a class="board__name" href="' + esc(href) + "#" + esc(x.id) + '">' + esc(x.name) +
+            (x.sub ? '<span class="board__sub">' + esc(x.sub) + "</span>" : "") + "</a>" +
+          '<span class="board__val' + (isNum ? "" : " board__val--text") + '">' + esc(val) +
+            (unit && isNum ? '<span class="board__unit">' + esc(unit) + "</span>" : "") + "</span></li>";
+      }).join("");
+      return '<section class="panel" data-item><h2 class="panel__title">' + esc(cap) + "</h2>" +
+        '<ol class="board">' + rows + "</ol></section>";
+    }
+
+    /* ---- exit types are free text in the schema, so they need folding ----
+       The corpus holds "M&A", "M&A (take-private)", "SPAC", "SPAC merger /
+       IPO", "spinoff", "spin-off/IPO" and more. Order matters: the first rule
+       that matches wins, so shutdown is tested before anything that could also
+       read as a merger, and SPAC before IPO. */
+    function exitBucket(raw) {
+      var s = String(raw || "").toLowerCase();
+      if (!s) return "";
+      if (s.indexOf("shut") >= 0) return "shutdown";
+      if (s.indexOf("spac") >= 0) return "spac";
+      if (s.indexOf("ipo") >= 0 || s.indexOf("listing") >= 0) return "ipo";
+      if (s.indexOf("m&a") >= 0 || s.indexOf("acqui") >= 0 || s.indexOf("take-private") >= 0) return "ma";
+      if (s.indexOf("merg") >= 0) return "merger";
+      if (s.indexOf("spin") >= 0) return "spinoff";
+      return "other";
+    }
+    var EXIT_ORDER = ["ipo", "ma", "spac", "merger", "spinoff", "shutdown", "other"];
+
+    /* ---- founding-year buckets: one pre-1990 catch-all, then 5-year spans ----
+       A per-year axis from 1668 to 2025 is unreadable, and the long tail of
+       centuries-old pharma would flatten everything after it to nothing. */
+    function yearBucket(y) {
+      if (y < 1990) return { key: "0", label: "<1990", order: 0 };
+      // No clamp on the recent end: a trailing bucket holding a single company
+      // is the honest rendering, and it reinforces what the note says about
+      // young companies being the hardest to source.
+      var lo = Math.floor((y - 1990) / 5) * 5 + 1990;
+      return { key: String(lo), label: lo + "–" + String(lo + 4).slice(2), order: lo };
+    }
+
+    /* ---- company-side aggregation ----
+       Recomputed on every render rather than cached, because half of what it
+       produces is language-dependent labels and a cache would have to be
+       invalidated on every language switch anyway. Over ~1.3k records with a
+       handful of passes this costs single-digit milliseconds. */
+    function analyseCompanies() {
+      var A = {
+        byCat: {}, byRegion: {}, byStatus: {}, byModality: {}, byIndication: {},
+        catRegion: {}, bodyCos: {}, exitCts: {}, devCts: {},
+        unicorns: [], mostBacked: [], mostActive: [],
+        exited: 0, withReg: 0, withRaised: 0, withVal: 0, linked: 0,
+        founded: { n: 0, buckets: [] }
+      };
+      function bump(o, k) { if (k) o[k] = (o[k] || 0) + 1; }
+      var invCts = {}, yearCts = {}, confCts = {}, backed = [];
+
+      COMPANIES.forEach(function (c) {
+        bump(A.byCat, c.cat);
+        bump(A.byRegion, c.region);
+        bump(A.byStatus, c.status);
+        bump(confCts, c.conf);
+        bump(A.devCts, c.dev || "unknown");
+        (c.modalities || []).forEach(function (m) { bump(A.byModality, m); });
+        (c.indications || []).forEach(function (i) { bump(A.byIndication, i); });
+        if (c.cat && c.region) {
+          (A.catRegion[c.cat] = A.catRegion[c.cat] || {});
+          A.catRegion[c.cat][c.region] = (A.catRegion[c.cat][c.region] || 0) + 1;
+        }
+        // A regulator is counted once per company, not once per clearance —
+        // the question is "how many companies got past the FDA", and a company
+        // with six 510(k)s is still one company.
+        if ((c.reg || []).length) {
+          A.withReg++;
+          var bodies = {};
+          c.reg.forEach(function (rr) { if (rr[0]) bodies[rr[0]] = 1; });
+          Object.keys(bodies).forEach(function (b) { bump(A.bodyCos, b); });
+        }
+        if (c.exit) { A.exited++; bump(A.exitCts, exitBucket(c.exit.type)); }
+        if (c.raised) A.withRaised++;
+        if (c.val) A.withVal++;
+        if (c.founded) { A.founded.n++; bump(yearCts, yearBucket(c.founded).key); }
+        if (c.unicorn) A.unicorns.push(c);
+
+        var ids = {};
+        investorsOf(c).forEach(function (i) { if (i.id && ENT_BY_ID[i.id]) ids[i.id] = 1; });
+        var n = Object.keys(ids).length;
+        if (n) { A.linked++; backed.push({ c: c, n: n }); }
+        Object.keys(ids).forEach(function (id) { invCts[id] = (invCts[id] || 0) + 1; });
+      });
+
+      function coSub(c) {
+        return regionLab(c.region) + (c.cat ? " · " + lab("sectors", c.cat) : "");
+      }
+      A.mostBacked = backed.sort(function (a, b) {
+        return b.n - a.n || a.c.name.en.localeCompare(b.c.name.en);
+      }).slice(0, 12).map(function (x) {
+        return { id: x.c.id, name: x.c.name.en, sub: coSub(x.c), value: x.n };
+      });
+      A.mostActive = Object.keys(invCts).sort(function (a, b) {
+        return invCts[b] - invCts[a] || a.localeCompare(b);
+      }).slice(0, 12).map(function (id) {
+        var e = ENT_BY_ID[id];
+        return { id: id, name: e.name.en, sub: regionLab(e.region) + " · " + typeLab(e.type), value: invCts[id] };
+      });
+      A.unicorns = A.unicorns.sort(function (a, b) {
+        return a.region.localeCompare(b.region) || a.name.en.localeCompare(b.name.en);
+      }).map(function (c) {
+        return { id: c.id, name: c.name.en, sub: coSub(c), value: c.val || "" };
+      });
+
+      // Ordered rungs only: `commercial`, `pilot` and `unknown` are states, not
+      // steps on the clinical ladder, and stacking them on it would imply a
+      // progression that is not there. They are read off byStatus/devCts instead.
+      A.pipeline = ["discovery", "preclinical", "phase-1", "phase-2", "phase-3", "approved"]
+        .map(function (s) { return { slug: s, label: lab("devStages", s), value: A.devCts[s] || 0 }; });
+      A.byBody = statsSeries(A.bodyCos, null, 10);
+      A.byExit = EXIT_ORDER.filter(function (k) { return A.exitCts[k]; })
+        .map(function (k) { return { slug: k, label: tt("exit_" + k), value: A.exitCts[k] }; });
+      A.byConf = ["high", "medium", "low"].map(function (k) {
+        return { slug: k, label: t(CONF[k]), value: confCts[k] || 0 };
+      });
+      A.founded.buckets = Object.keys(yearCts).map(function (k) {
+        var y = k === "0" ? 0 : parseInt(k, 10);
+        return { order: y, label: y ? yearBucket(y).label : "<1990", value: yearCts[k] };
+      }).sort(function (a, b) { return a.order - b.order; });
+
+      A.catOrder = statsSeries(A.byCat).slice(0, 12).map(function (x) { return x.slug; });
+      A.regionOrder = statsSeries(A.byRegion).map(function (x) { return x.slug; });
+      return A;
     }
 
     /* ---- counter animation for hero stat tiles ---- */
@@ -428,7 +697,13 @@
           "</div>";
       },
 
-      /* ---------------- analysis (charts) ---------------- */
+      /* ---------------- analysis · the investor half ----------------
+         Company-side charts used to live at the bottom of this page. They now
+         have their own page: the questions are different (where capital sits
+         vs. what got built), and the company half has axes — development
+         stage, regulatory clearance, exit type — with no investor counterpart.
+         What stays here is the cross-half headline row, so a reader landing on
+         either analysis page still sees the size of both. */
       analysis: function (p) {
         var CO_N = CSTATS.total || 0;
         var tiles = [
@@ -443,35 +718,12 @@
             '<b class="stat__value" data-count="' + esc(String(x.v)) + '" data-suffix="' + esc(x.s) + '">0</b>' +
             '<span class="stat__label">' + esc(x.label) + "</span></div>";
         }).join("");
-        function panel(cap, series, accent) {
-          return '<section class="panel" data-item><h2 class="panel__title">' + esc(cap) + "</h2>" +
-            barsH(series, accent) + "</section>";
-        }
         var conf = ["high", "medium", "low"].map(function (c) {
           return { slug: c, value: (STATS.by_confidence || {})[c] || 0, label: t(CONF[c]) };
         });
 
-        /* The link graph deserves its own read-out, because its interesting
-           number is not the edge count but how much of it is corroborated:
-           an edge both sides assert is a stronger claim than either alone. */
-        var coverage = CO_N ? [
-          { slug: "both", value: CSTATS.edges_confirmed_both_sides || 0, label: tt("linkBoth") },
-          { slug: "linkedco", value: CSTATS.linked_companies || 0, label: tt("linkCo") },
-          { slug: "linkedinv", value: CSTATS.linked_investors || 0, label: tt("linkInv") },
-          { slug: "pending", value: CSTATS.unprofiled_portfolio_names || 0, label: tt("linkPending") }
-        ] : [];
-
-        var coPanels = CO_N
-          ? panel(tt("capCoCategory"), statsSeries(CSTATS.by_category || {}, "sectors", 12), "--primary") +
-            panel(tt("capCoRegion"), statsSeries(CSTATS.by_region || {}, "regions"), "--secondary") +
-            panel(tt("capCoStatus"), statsSeries(CSTATS.by_status || {}, "companyStatus"), "--tertiary") +
-            panel(tt("capCoDev"), statsSeries(CSTATS.by_development_stage || {}, "devStages"), "--primary") +
-            panel(tt("capLinks"), coverage, "--secondary")
-          : "";
-
         return head(p) +
           '<div class="stats">' + tiles + "</div>" +
-          '<h2 class="section-head">' + esc(tt("secInvestors")) + "</h2>" +
           '<div class="panels">' +
             panel(tt("capBy"), statsSeries(STATS.by_region || {}, "regions"), "--primary") +
             panel(tt("capType"), statsSeries(STATS.by_type || {}, "types"), "--secondary") +
@@ -480,10 +732,94 @@
             panel(tt("capIndication"), statsSeries(STATS.by_indication || {}, "indications", 10), "--secondary") +
             panel(tt("capConf"), conf, "--tertiary") +
           "</div>" +
-          (coPanels
-            ? '<h2 class="section-head">' + esc(tt("secCompanies")) + "</h2>" +
-              '<div class="panels">' + coPanels + "</div>"
-            : "");
+          (CO_N ? xpage("company-analysis", tt("goCompanyAnalysis")) : "");
+      },
+
+      /* ---------------- analysis · the company half ----------------
+         Everything here is derived from the shipped company array rather than
+         from precomputed stats, because the interesting questions on this side
+         are cross-tabs and leaderboards (sector × region, most-backed company)
+         that no single precomputed table holds. The one exception is the link
+         graph: `both-sides` corroboration and the research backlog cannot be
+         reconstructed on the client — the backlog isn't in the payload at all —
+         so those four numbers come from companyStats. */
+      companyAnalysis: function (p) {
+        var N = COMPANIES.length;
+        if (!N) {
+          return head(p) + '<div class="empty"><p>' + esc(tt("coNone")) + "</p>" +
+            '<p class="empty__note">' + esc(tt("coEmptyNote")) + "</p></div>";
+        }
+        var A = analyseCompanies();
+
+        var tiles = [
+          { v: N, label: tt("companiesN") },
+          { v: A.unicorns.length, label: tt("caUnicorns") },
+          { v: A.byStatus.public || 0, label: tt("caPublic") },
+          { v: A.exited, label: tt("caExited") },
+          { v: A.withReg, label: tt("caCleared") },
+          { v: A.linked, label: tt("caBacked") }
+        ].map(function (x) {
+          return '<div class="stat" data-item>' +
+            '<b class="stat__value" data-count="' + esc(String(x.v)) + '">0</b>' +
+            '<span class="stat__label">' + esc(x.label) + "</span></div>";
+        }).join("");
+
+        /* --- 1. what they build --- */
+        var build = '<h2 class="section-head">' + esc(tt("caSecBuild")) + "</h2>" +
+          '<div class="panels">' +
+            panel(tt("caCapSector"), statsSeries(A.byCat, "sectors"), "--primary") +
+            panel(tt("caCapModality"), statsSeries(A.byModality, "modalities", 12), "--tertiary") +
+            panel(tt("caCapIndication"), statsSeries(A.byIndication, "indications", 12), "--secondary") +
+            panel(tt("caCapRegion"), statsSeries(A.byRegion, "regions"), "--primary") +
+          "</div>" +
+          '<section class="panel panel--wide" data-item><h2 class="panel__title">' + esc(tt("caCapMatrix")) + "</h2>" +
+            '<p class="panel__note">' + esc(tt("caMatrixNote")) + "</p>" +
+            matrix(A.catRegion, A.catOrder, "sectors", A.regionOrder, "regions") + "</section>";
+
+        /* --- 2. how far along --- */
+        var pipe = '<h2 class="section-head">' + esc(tt("caSecStage")) + "</h2>" +
+          '<div class="panels">' +
+            '<section class="panel" data-item><h2 class="panel__title">' + esc(tt("caCapPipeline")) + "</h2>" +
+              '<p class="panel__note">' + esc(tt("caPipelineNote")) + "</p>" +
+              funnel(A.pipeline) + "</section>" +
+            panel(tt("caCapStatus"), statsSeries(A.byStatus, "companyStatus"), "--tertiary") +
+            panel(tt("caCapReg"), A.byBody, "--secondary", tt("caRegNote")) +
+            panel(tt("caCapExit"), A.byExit, "--primary", tt("caExitNote")) +
+          "</div>";
+
+        /* --- 3. vintage --- */
+        var vintage = '<h2 class="section-head">' + esc(tt("caSecVintage")) + "</h2>" +
+          '<section class="panel panel--wide" data-item><h2 class="panel__title">' + esc(tt("caCapFounded")) + "</h2>" +
+            '<p class="panel__note">' + esc(tt("caFoundedNote").replace("{n}", num(A.founded.n)).replace("{total}", num(N))) + "</p>" +
+            columns(A.founded.buckets) + "</section>";
+
+        /* --- 4. the link graph, read from the company side --- */
+        var coverage = [
+          { slug: "linkedco", value: A.linked, label: tt("linkCo") },
+          { slug: "both", value: CSTATS.edges_confirmed_both_sides || 0, label: tt("linkBoth") },
+          { slug: "linkedinv", value: CSTATS.linked_investors || 0, label: tt("linkInv") },
+          { slug: "pending", value: CSTATS.unprofiled_portfolio_names || 0, label: tt("linkPending") }
+        ];
+        var graph = '<h2 class="section-head">' + esc(tt("caSecGraph")) + "</h2>" +
+          '<div class="panels">' +
+            panel(tt("capLinks"), coverage, "--secondary", tt("caGraphNote")) +
+            board(tt("caCapMostBacked"), A.mostBacked, "companies.html", tt("caInvestorsUnit")) +
+            board(tt("caCapMostActive"), A.mostActive, "directory.html", tt("caCompaniesUnit")) +
+            (A.unicorns.length ? board(tt("caCapUnicorns"), A.unicorns, "companies.html", "") : "") +
+          "</div>";
+
+        /* --- 5. what this page cannot tell you --- */
+        var gaps = '<h2 class="section-head">' + esc(tt("caSecGaps")) + "</h2>" +
+          '<section class="panel panel--wide" data-item>' +
+            '<p class="panel__note panel__note--lead">' +
+              esc(tt("caGapsNote").replace("{raised}", num(A.withRaised)).replace("{val}", num(A.withVal))
+                .replace("{pct}", String(Math.round((A.withRaised / N) * 100)))
+                .replace("{founded}", num(A.founded.n)).replace("{total}", num(N))) + "</p>" +
+            barsH(A.byConf, "--tertiary") + "</section>";
+
+        return head(p) + '<div class="stats">' + tiles + "</div>" +
+          build + pipe + vintage + graph + gaps +
+          xpage("analysis", tt("goInvestorAnalysis"));
       },
 
       /* ---------------- methodology (article) ---------------- */
@@ -559,6 +895,7 @@
     var WIRE = {
       hub: function () { animateCounters(); },
       analysis: function () { animateCounters(); },
+      companyAnalysis: function () { animateCounters(); },
       methodology: function () {},
 
       directory: function (p) {
