@@ -12,7 +12,9 @@ Run:  uv run scripts/build_site.py
 """
 from __future__ import annotations
 
+import hashlib
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -280,3 +282,51 @@ OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(payload, "utf-8")
 kb = len(payload.encode("utf-8")) / 1024
 print(f"wrote {OUT.relative_to(ROOT)} — {len(entities)} entities, {kb:.0f} KB")
+
+
+# --------------------------------------------------------------------------
+# Pin every page to the exact assets it was built with.
+#
+# GitHub Pages serves everything with `Cache-Control: max-age=600` and the
+# pages referenced their assets by bare path, so for ten minutes after a deploy
+# a returning visitor could get NEW html alongside a CACHED data.js. That is
+# not a cosmetic skew: the page list lives in data.js, so a newly added page
+# was absent from SITE_PAGES and rendered as the homepage under its own URL.
+# It happened on the deploy that added /company-analysis.
+#
+# Content hashes in the query string make the mismatch impossible: each HTML
+# document names the exact build of each asset, so a cached page keeps loading
+# the assets it shipped with and a fresh page pulls URLs no cache has seen.
+# Only what actually changed gets a new URL, so the 4 MB data layer is not
+# re-downloaded when a stylesheet moves.
+#
+# This makes the `?v=` in docs/*.html a build output. The rest of each file is
+# still hand-maintained — the rewrite only ever touches those query strings.
+# --------------------------------------------------------------------------
+ASSETS = ["data/data.js", "assets/shell.js", "assets/app.js", "assets/styles.css"]
+DOCS = ROOT / "docs"
+
+_ver = {}
+for _rel in ASSETS:
+    _p = DOCS / _rel
+    if _p.exists():
+        _ver[_rel] = hashlib.sha1(_p.read_bytes()).hexdigest()[:10]
+
+_ref = re.compile(
+    r'((?:src|href)=")(' + "|".join(re.escape(a) for a in ASSETS) + r')(\?v=[0-9a-f]+)?(")'
+)
+
+
+def _stamp(m: re.Match) -> str:
+    v = _ver.get(m.group(2))
+    return m.group(1) + m.group(2) + (f"?v={v}" if v else "") + m.group(4)
+
+
+_touched = []
+for _html in sorted(DOCS.glob("*.html")):
+    _s = _html.read_text("utf-8")
+    _new = _ref.sub(_stamp, _s)
+    if _new != _s:
+        _html.write_text(_new, "utf-8")
+        _touched.append(_html.name)
+print(f"stamped asset versions into {len(_touched)} page(s): {', '.join(_touched) or 'none (already current)'}")

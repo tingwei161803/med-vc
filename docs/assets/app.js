@@ -105,7 +105,12 @@
         caGraphNote: "Both-sides corroboration and the backlog come from the build's link table; every other number on this page is counted live from the company records.",
         caGapsNote: "Only {raised} of {total} companies ({pct}%) have a disclosed total raised, and {val} a valuation — which is why this page carries no funding-size chart. A distribution drawn from that slice would describe how easy the money was to source, not how the market works. {founded} have a founding year. Every record is rated for source confidence:",
         exit_ipo: "IPO", exit_ma: "M&A", exit_spac: "SPAC", exit_merger: "Merger",
-        exit_spinoff: "Spin-off", exit_shutdown: "Shut down", exit_other: "Other"
+        exit_spinoff: "Spin-off", exit_shutdown: "Shut down", exit_other: "Other",
+
+        /* ---- shown when the HTML and the data layer are from different builds ---- */
+        staleTitle: "This page is newer than the copy your browser has.",
+        staleBody: "The site data cached in your browser is from an earlier build and does not know about this page yet. It expires on its own within a few minutes.",
+        staleBtn: "Fetch the current version"
       },
       zh: {
         pitch: "一份開放、逐筆帶來源的「醫療背後的錢」名錄,分成互相指向的兩半:一半是出錢的人 —— 生醫創投、藥廠與醫材企業創投、公私跨界基金、生醫加速器、大學與醫院基金、疾病基金會公益創投、政府計畫;另一半是拿錢的公司。兩邊之間的每一條連結都由資料解析而來,不是手寫的。",
@@ -185,7 +190,12 @@
         caGraphNote: "「兩邊都證實」與「被點名但尚未建檔」來自 build 階段的連結表;本頁其他數字都是直接從公司紀錄現算的。",
         caGapsNote: "{total} 家公司中只有 {raised} 家({pct}%)查得到累計募資金額、{val} 家查得到估值 —— 所以這頁沒有募資規模圖表。用這麼小的樣本畫分佈,畫出來的是「這種數字有多難查」,不是市場真正的樣子。{founded} 家查得到成立年份。每一筆都有來源信心度評級:",
         exit_ipo: "IPO 上市", exit_ma: "被併購", exit_spac: "SPAC", exit_merger: "合併",
-        exit_spinoff: "分拆", exit_shutdown: "結束營運", exit_other: "其他"
+        exit_spinoff: "分拆", exit_shutdown: "結束營運", exit_other: "其他",
+
+        /* ---- shown when the HTML and the data layer are from different builds ---- */
+        staleTitle: "這一頁比你瀏覽器裡的版本新。",
+        staleBody: "瀏覽器快取到的網站資料來自比較舊的一次 build,還不知道有這一頁。快取會在幾分鐘內自己過期。",
+        staleBtn: "抓最新版本"
       }
     };
     function tt(k) { return (UI[state.lang] || UI.en)[k]; }
@@ -1552,8 +1562,29 @@
       teardowns.forEach(function (fn) { try { fn(); } catch (e) {} });
       teardowns = [];
       var p = L.currentPage();
-      if (!p) { pageEl.innerHTML = '<p class="empty">No page data.</p>'; return; }
-      var fn = RENDERERS[p.layout] || RENDERERS.hub;
+      var fn = p && RENDERERS[p.layout];
+      /* No page entry, or an entry whose layout this build has no renderer
+         for: either way the HTML and the data layer disagree about what this
+         site contains. Say so instead of quietly painting some other page. */
+      if (!fn) {
+        pageEl.className = "page";
+        pageEl.innerHTML = '<div class="empty"><p>' + esc(tt("staleTitle")) + "</p>" +
+          '<p class="empty__note">' + esc(tt("staleBody")) + "</p>" +
+          '<p><button class="linkbtn" type="button" id="staleReload">' + esc(tt("staleBtn")) + "</button></p></div>";
+        var btn = document.getElementById("staleReload");
+        if (btn) {
+          btn.addEventListener("click", function () {
+            // A plain reload can be answered from the same stale cache entry,
+            // so re-request the data layer under a URL the cache has never
+            // seen, then reload to pick it up.
+            var s = document.createElement("script");
+            s.src = "data/data.js?cachebust=" + new Date().getTime();
+            s.onload = s.onerror = function () { location.reload(); };
+            document.head.appendChild(s);
+          });
+        }
+        return;
+      }
       pageEl.className = "page page--" + p.layout;
       pageEl.innerHTML = fn(p);
       var w = WIRE[p.layout];
