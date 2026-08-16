@@ -1,0 +1,31 @@
+{
+  "_comment": [
+    "Names that appear in some investor's track_record.notable_investments[] but",
+    "are NOT profileable operating companies, so they should not sit in the",
+    "company backlog inviting research that can only end in a `skipped` entry.",
+    "",
+    "Three kinds land here:",
+    "  * the name is an INVESTOR, not a company (an investor listing another",
+    "    investor as a notable investment is a data slip on the investor side,",
+    "    but the name still shows up as an unresolved portfolio company)",
+    "  * the name is a FUND VEHICLE or a FACILITY rather than an organization",
+    "  * the company is real but NOT MEDICAL, so it fails this directory's bar",
+    "",
+    "Each entry needs a reason. This is a research-scope decision, not a data",
+    "correction: the investor records that name these are left untouched, since",
+    "a fund genuinely did back them and deleting that would lose a real fact.",
+    "Only the backlog — the list of things worth researching — is filtered.",
+    "",
+    "Matching is on the normalized name, so script and punctuation variants of",
+    "the same name are covered by one entry."
+  ],
+  "not_a_company": {
+    "Flagship Pioneering": "A venture-creation firm, already catalogued as an investor (us-flagship-pioneering). Named as a portfolio company by two investors, which is a slip on their side.",
+    "Brandon Capital BB6 Fund": "A fund vehicle of Brandon Capital (anz-brandon-capital), not an operating company.",
+    "Forbion Capital Fund III": "A fund vehicle of Forbion, not an operating company.",
+    "Sanofi (Toronto flu vaccine facility)": "A manufacturing facility of an already-catalogued pharma company, not a distinct legal entity.",
+    "Kyulux": "Real company, but OLED emitter materials — a Kyushu University spinout with no medical business. Fails the directory's medical bar.",
+    "BioLumic": "Real company, but agricultural UV seed treatment. No human-health application.",
+    "Qover": "Generalist embedded-insurance provider; health is one product line among several rather than its focus."
+  }
+}
