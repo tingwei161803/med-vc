@@ -65,6 +65,14 @@ def norm_name(name: str) -> str:
     return " ".join(s.split())
 
 
+def _path_of(url: str | None) -> str:
+    """Normalized path, so '/', '' and '/index.html' all compare equal."""
+    if not url:
+        return ""
+    p = urlparse(url if "//" in url else f"https://{url}").path.lower().rstrip("/")
+    return "" if p in ("", "/index.html", "/index.htm", "/home") else p
+
+
 def norm_domain(url: str | None) -> str | None:
     """Registrable-ish domain: strip scheme/www/path. Returns None for shared platforms."""
     if not url:
@@ -96,8 +104,15 @@ def is_same_entity(a: dict, b: dict) -> bool:
     # ("Lilly Asia Ventures" vs "Lilly Asia Ventures (LAV)") or domains differ.
     if a.get("id") and a.get("id") == b.get("id"):
         return True
+    # The domain fuse only fires when both records point at the SAME PAGE, not
+    # merely the same host. An organization's programmes live on its own site —
+    # brandonbiocatalyst.com is Brandon BioCatalyst, brandonbiocatalyst.com/
+    # cureator-biomedtech-incubator is its incubator — and host-only matching
+    # merged the parent into its own programme, with the programme surviving.
+    # Where the host matches but the path does not, identity is not established
+    # and the name comparison below decides.
     da, db = norm_domain(a.get("website")), norm_domain(b.get("website"))
-    if da and db and da == db:
+    if da and db and da == db and _path_of(a.get("website")) == _path_of(b.get("website")):
         return True
     return norm_name(a["name"]["en"]) == norm_name(b["name"]["en"])
 # ========================================================================

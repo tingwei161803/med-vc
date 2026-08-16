@@ -622,19 +622,50 @@ def main() -> None:
     # especially productive on the Chinese records, where one firm entered
     # under both scripts previously looked like two unrelated rows.
     collisions = []
-    ent_name = {e["id"]: e["name"].get("en", "") for e in entities}
+    ent_by_id = {e["id"]: e for e in entities}
+
+    def _host(e: dict) -> str:
+        w = (e.get("website") or "").strip().lower()
+        return re.sub(r"^https?://(www\.)?", "", w).split("/")[0]
+
     for key, ids in sorted(inv_res.strict.items()):
-        if len(ids) > 1:
-            regions = {inv_res.region.get(i) for i in ids}
-            collisions.append({
-                "normalized": key,
-                "ids": sorted(ids),
-                "names": [ent_name.get(i, i) for i in sorted(ids)],
-                # Same firm, different geography, is legitimate — OrbiMed runs
-                # four regional vehicles. Same firm, SAME region, is a duplicate.
-                "verdict": "regional-vehicles" if len(regions) == len(ids) else "likely-duplicate",
-            })
+        if len(ids) < 2:
+            continue
+        rows = [ent_by_id[i] for i in sorted(ids) if i in ent_by_id]
+        regions = {r.get("region") for r in rows}
+        countries = {(r.get("country") or "").strip().lower() for r in rows if r.get("country")}
+        hosts = {h for r in rows if (h := _host(r))}
+
+        # `region` is a filing decision, not evidence about the organization.
+        # Two rounds of research can put one global foundation in `united-states`
+        # and `rest-of-world` purely by disagreeing, which is exactly what
+        # happened to the Gates Foundation SIF — same country, same city, same
+        # domain, two records. So region alone cannot clear a collision.
+        #
+        # What actually discriminates is the website and the country. A firm
+        # running genuinely separate regional teams (Boehringer Ingelheim
+        # Venture Fund, Sanofi Ventures) has offices in different countries;
+        # one organization entered twice has the same domain and the same
+        # country whatever region it got filed under.
+        if len(hosts) == 1 and len(countries) <= 1:
+            verdict = "likely-duplicate"          # one domain, one country
+        elif len(regions) < len(rows):
+            verdict = "likely-duplicate"          # two records in one region
+        elif len(countries) > 1 or len(hosts) > 1:
+            verdict = "regional-vehicles"         # separate countries or sites
+        else:
+            verdict = "undetermined"              # not enough to say either way
+
+        collisions.append({
+            "normalized": key,
+            "ids": sorted(ids),
+            "names": [r["name"].get("en", "") for r in rows],
+            "countries": sorted(countries),
+            "hosts": sorted(hosts),
+            "verdict": verdict,
+        })
     n_dupe = sum(1 for c in collisions if c["verdict"] == "likely-duplicate")
+    n_undet = sum(1 for c in collisions if c["verdict"] == "undetermined")
 
     (ROOT / "reports").mkdir(exist_ok=True)
     (ROOT / "reports" / "links.json").write_text(json.dumps({
@@ -646,8 +677,8 @@ def main() -> None:
             for n, k in unresolved_portfolio.most_common()],
         "investor_name_collisions": collisions,
     }, ensure_ascii=False, indent=2), "utf-8")
-    print(f"name collisions: {len(collisions)} ({n_dupe} look like duplicate records, "
-          f"{len(collisions) - n_dupe} look like per-region vehicles)")
+    print(f"name collisions: {len(collisions)} — {n_dupe} likely duplicates, "
+          f"{len(collisions) - n_dupe - n_undet} per-region vehicles, {n_undet} undetermined")
 
     print(f"\nwrote data/all-companies.json, data/links.json, data/company-stats.json")
     print(f"      reports/links.json  <- the backlog for the next round")

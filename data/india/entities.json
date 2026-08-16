@@ -4257,9 +4257,7 @@
     },
     "aka": [
       "BIRAC",
-      "DBT-BIRAC",
-      "Innovate in India (i3)",
-      "NBM"
+      "DBT-BIRAC"
     ],
     "type": "government-program",
     "subtypes": [
@@ -4391,29 +4389,6 @@
         "quote": "BIRAC fuels innovation with Rs. 4,200 crore funding across 15 lakh startups and entrepreneurs"
       },
       {
-        "url": "https://www.worldbank.org/en/news/feature/2025/11/24/india-s-biopharma-leap-the-world-bank-backed-national-biopharma-mission-is-transforming-health-innovation",
-        "title": "India's Biopharma Leap: World Bank-backed National Biopharma Mission",
-        "publisher": "World Bank",
-        "accessed": "undefined",
-        "supports": "founding, World Bank involvement, infrastructure built, startups catalyzed",
-        "quote": "The mission has catalyzed nearly 10,000 bio-based research startups since 2014 and supports development of vaccines, biosimilars, diagnostics, and cell therapies."
-      },
-      {
-        "url": "https://www.fisdom.com/national-biopharma-mission/",
-        "title": "National Biopharma Mission",
-        "publisher": "Fisdom",
-        "accessed": "undefined",
-        "supports": "founding year and $250M / $125M World Bank funding split",
-        "quote": "The National Biopharma Mission was established in 2017 with a total investment of $250 million, with the World Bank contributing half of the funds, totaling $125 million."
-      },
-      {
-        "url": "https://birac.nic.in/nationalbiopharmamission.php",
-        "title": "BIRAC - National Biopharma Mission",
-        "publisher": "BIRAC",
-        "accessed": "undefined",
-        "supports": "mission implemented by BIRAC under DBT"
-      },
-      {
         "url": "https://birac.nic.in/big.php",
         "title": "Biotechnology Ignition Grant Scheme (BIG)",
         "publisher": "BIRAC",
@@ -4471,7 +4446,7 @@
       }
     ],
     "confidence": "high",
-    "verification_notes": "AcE/SEED/LEAP fund sizes are drawn from mixed-vintage press figures (₹174.5cr across 16 daughter funds per one 2025 source vs ₹299cr/88 startups per an April 2024 figure) — treat exact totals as approximate and time-stamped. BIRAC-RDI Fund (₹2,000cr) was newly launched Feb 2026 and is not yet reflected in older aggregate totals. [merged from duplicate research rows] [merged from duplicate research rows] [merged from duplicate research rows] [merged from duplicate research rows]",
+    "verification_notes": "AcE/SEED/LEAP fund sizes are drawn from mixed-vintage press figures (₹174.5cr across 16 daughter funds per one 2025 source vs ₹299cr/88 startups per an April 2024 figure) — treat exact totals as approximate and time-stamped. BIRAC-RDI Fund (₹2,000cr) was newly launched Feb 2026 and is not yet reflected in older aggregate totals. [merged from duplicate research rows] [merged from duplicate research rows] [merged from duplicate research rows]",
     "last_updated": "undefined",
     "researched_by": "government-program",
     "tags": [],
@@ -4481,6 +4456,97 @@
         "currency": "INR"
       }
     }
+  },
+  {
+    "id": "in-national-biopharma-mission",
+    "name": {
+      "en": "National Biopharma Mission (Innovate in India / i3 Programme)"
+    },
+    "aka": [
+      "NBM",
+      "Innovate in India (i3)"
+    ],
+    "type": "government-program",
+    "status": "active",
+    "founded_year": 2017,
+    "region": "india",
+    "country": "India",
+    "website": "https://birac.nic.in/nationalbiopharmamission.php",
+    "capital": {
+      "current_fund": {
+        "raw": "$250 million total (Govt of India + World Bank), World Bank contributing $125 million",
+        "usd": 250000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": [
+        "pre-seed",
+        "seed"
+      ],
+      "lead_or_follow": "follow",
+      "geo_focus": [
+        "India"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "diagnostics",
+        "medtech-devices"
+      ],
+      "thesis": "A World Bank co-financed, DBT/BIRAC-implemented industry-academia mission ($250M total, launched 2017) to accelerate early discovery-to-development of vaccines, biosimilars, novel therapeutics, diagnostics and medical devices in India, building shared incubation, biomanufacturing and clinical-trial infrastructure alongside direct startup funding."
+    },
+    "lifesci": {
+      "modalities": [
+        "vaccines",
+        "biologics-antibody",
+        "cell-therapy"
+      ],
+      "indications": [
+        "infectious-disease"
+      ],
+      "company_creation": false,
+      "invests_public_markets": false,
+      "science_platform_notes": "Funded 100+ incubation centres, 25 specialised R&D/biomanufacturing facilities, 7 Regional Technology Transfer Offices, and clinical-trial capacity at 30 hospital + 10 field sites."
+    },
+    "track_record": {
+      "portfolio_count": "part of ~10,000 bio-based research startups supported since 2014 across BIRAC's mission portfolio",
+      "co_investors": [
+        "World Bank",
+        "BIRAC"
+      ]
+    },
+    "summary": {
+      "en": "National Biopharma Mission is a $250M World Bank co-financed Indian government mission (implemented via BIRAC/DBT) that funds industry-academia biopharmaceutical product development — vaccines, biosimilars, diagnostics and devices — from discovery through early clinical stages."
+    },
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/feature/2025/11/24/india-s-biopharma-leap-the-world-bank-backed-national-biopharma-mission-is-transforming-health-innovation",
+        "title": "India's Biopharma Leap: World Bank-backed National Biopharma Mission",
+        "publisher": "World Bank",
+        "accessed": "undefined",
+        "supports": "founding, World Bank involvement, infrastructure built, startups catalyzed",
+        "quote": "The mission has catalyzed nearly 10,000 bio-based research startups since 2014 and supports development of vaccines, biosimilars, diagnostics, and cell therapies."
+      },
+      {
+        "url": "https://www.fisdom.com/national-biopharma-mission/",
+        "title": "National Biopharma Mission",
+        "publisher": "Fisdom",
+        "accessed": "undefined",
+        "supports": "founding year and $250M / $125M World Bank funding split",
+        "quote": "The National Biopharma Mission was established in 2017 with a total investment of $250 million, with the World Bank contributing half of the funds, totaling $125 million."
+      },
+      {
+        "url": "https://birac.nic.in/nationalbiopharmamission.php",
+        "title": "BIRAC - National Biopharma Mission",
+        "publisher": "BIRAC",
+        "accessed": "undefined",
+        "supports": "mission implemented by BIRAC under DBT"
+      }
+    ],
+    "confidence": "medium",
+    "verification_notes": "Official BIRAC page (birac.nic.in/nationalbiopharmamission.php) returned HTTP 403 on direct fetch; funding figures cross-checked via World Bank feature article and a secondary financial-info site (Fisdom). NBM overlaps organizationally with BIRAC — listed separately here because it is a distinctly named, separately-financed ($250M) mission rather than a standard BIRAC scheme.",
+    "last_updated": "undefined",
+    "researched_by": "government-program"
   },
   {
     "id": "in-technology-development-board",
