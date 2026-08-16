@@ -126,11 +126,6 @@
       "reason": "unknown"
     },
     {
-      "name": "Menlo Ventures",
-      "mentions": 2,
-      "reason": "unknown"
-    },
-    {
       "name": "Invus",
       "mentions": 2,
       "reason": "unknown"
@@ -1081,6 +1076,11 @@
       "reason": "unknown"
     },
     {
+      "name": "European Investment Bank",
+      "mentions": 1,
+      "reason": "ambiguous-exact:2"
+    },
+    {
       "name": "Interactive VP",
       "mentions": 1,
       "reason": "unknown"
@@ -1209,6 +1209,11 @@
       "name": "Meitav Dash",
       "mentions": 1,
       "reason": "unknown"
+    },
+    {
+      "name": "Pitango Venture Capital",
+      "mentions": 1,
+      "reason": "ambiguous-exact:2"
     },
     {
       "name": "Bertelsmann Investments",
@@ -2765,10 +2770,6 @@
       "investors_naming_it": 1
     },
     {
-      "name": "Augmented Bionics",
-      "investors_naming_it": 1
-    },
-    {
       "name": "MetaOptima",
       "investors_naming_it": 1
     },
@@ -2809,6 +2810,10 @@
       "investors_naming_it": 1
     },
     {
+      "name": "Augmented Bionics",
+      "investors_naming_it": 1
+    },
+    {
       "name": "Jupiter Neurosciences",
       "investors_naming_it": 1
     },
@@ -2826,6 +2831,10 @@
     },
     {
       "name": "Synthase Biotech",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Que Oncology",
       "investors_naming_it": 1
     },
     {
@@ -3105,22 +3114,6 @@
       "investors_naming_it": 1
     },
     {
-      "name": "HoliStick Medical",
-      "investors_naming_it": 1
-    },
-    {
-      "name": "Artedrone",
-      "investors_naming_it": 1
-    },
-    {
-      "name": "PKMed",
-      "investors_naming_it": 1
-    },
-    {
-      "name": "Bariatek",
-      "investors_naming_it": 1
-    },
-    {
       "name": "Minoryx",
       "investors_naming_it": 1
     },
@@ -3234,6 +3227,22 @@
     },
     {
       "name": "Med Group",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "HoliStick Medical",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Artedrone",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "PKMed",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Bariatek",
       "investors_naming_it": 1
     },
     {
@@ -4229,10 +4238,6 @@
       "investors_naming_it": 1
     },
     {
-      "name": "Somite",
-      "investors_naming_it": 1
-    },
-    {
       "name": "Lin Health",
       "investors_naming_it": 1
     },
@@ -4378,6 +4383,10 @@
     },
     {
       "name": "Nectin Therapeutics",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Somite",
       "investors_naming_it": 1
     },
     {
@@ -5441,6 +5450,18 @@
       "investors_naming_it": 1
     },
     {
+      "name": "PharmaEssentia 藥華醫藥",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "TaiGen Biotechnology 中裕新藥",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Eirgenix 台康生技",
+      "investors_naming_it": 1
+    },
+    {
       "name": "Quanfu Biotech (全福生技)",
       "investors_naming_it": 1
     },
@@ -5489,7 +5510,15 @@
       "investors_naming_it": 1
     },
     {
-      "name": "安立璽榮生醫 (Elixiron Immunotherapeutics)",
+      "name": "AnHorn Medicines (安立璽榮 co-investor / 安衡?)",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Aprinoia Therapeutics",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Clearmind Biomedical",
       "investors_naming_it": 1
     },
     {
@@ -5506,6 +5535,14 @@
     },
     {
       "name": "永昕生醫 (Mycenax)",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "合一生技 (OneVax/Oneness Biotech)",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "醣基生醫 (Ohso Biotech / GlycoNex)",
       "investors_naming_it": 1
     },
     {
@@ -5526,6 +5563,26 @@
     },
     {
       "name": "TaiRx (台睿生技)",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "台康生技 (EirGenix)",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "C4 Therapeutics (US)",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Frequency Therapeutics (US)",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "Viracta Therapeutics (US)",
+      "investors_naming_it": 1
+    },
+    {
+      "name": "安立璽榮生醫 (Elixiron Immunotherapeutics)",
       "investors_naming_it": 1
     },
     {
@@ -6676,6 +6733,13 @@
         "Ally Bridge Group",
         "Ally Bridge Group"
       ],
+      "countries": [
+        "hong kong",
+        "united states"
+      ],
+      "hosts": [
+        "ally-bridge.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -6687,6 +6751,13 @@
       "names": [
         "Accelmed",
         "Accelmed Partners"
+      ],
+      "countries": [
+        "israel",
+        "united states"
+      ],
+      "hosts": [
+        "accelmed.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -6700,7 +6771,13 @@
         "Advent Life Sciences",
         "Advent Life Sciences"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "united kingdom"
+      ],
+      "hosts": [
+        "adventls.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "aic amtz medivalley",
@@ -6711,6 +6788,13 @@
       "names": [
         "Andhra Pradesh MedTech Zone (AMTZ)",
         "Medi Valley AIC (AIC-AMTZ)"
+      ],
+      "countries": [
+        "india"
+      ],
+      "hosts": [
+        "amtz.in",
+        "medivalley-aic.in"
       ],
       "verdict": "likely-duplicate"
     },
@@ -6724,6 +6808,13 @@
         "Ally Bridge Group",
         "Ally Bridge Group"
       ],
+      "countries": [
+        "hong kong",
+        "united states"
+      ],
+      "hosts": [
+        "ally-bridge.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -6735,6 +6826,13 @@
       "names": [
         "Affinity Capital (Anfu Capital)",
         "Anpu Capital"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "affinity.com.tw",
+        "gbimonthly.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -6748,6 +6846,13 @@
         "Apollo Health Ventures",
         "Apollo Health Ventures"
       ],
+      "countries": [
+        "germany",
+        "united states"
+      ],
+      "hosts": [
+        "apollo.vc"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -6759,6 +6864,13 @@
       "names": [
         "Astellas Venture Management",
         "Astellas Venture Management"
+      ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "astellasventure.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -6772,6 +6884,13 @@
         "Astellas Venture Management",
         "Astellas Venture Management"
       ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "astellasventure.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -6783,6 +6902,14 @@
       "names": [
         "Bio Angels Club",
         "Business Angels Connect"
+      ],
+      "countries": [
+        "netherlands",
+        "spain"
+      ],
+      "hosts": [
+        "bioangelsclub.com",
+        "businessangelsconnect.nl"
       ],
       "verdict": "likely-duplicate"
     },
@@ -6796,6 +6923,14 @@
         "BioAngels",
         "Mid Atlantic Bio Angels"
       ],
+      "countries": [
+        "india",
+        "united states"
+      ],
+      "hosts": [
+        "bioangels.net",
+        "bioangels.vc"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -6807,6 +6942,12 @@
       "names": [
         "BioGenerator Labs",
         "BioGenerator Ventures"
+      ],
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "biogeneratorventures.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -6820,7 +6961,32 @@
         "BioLabs",
         "BioLabs"
       ],
+      "countries": [
+        "france",
+        "united states"
+      ],
+      "hosts": [
+        "biolabs.io"
+      ],
       "verdict": "regional-vehicles"
+    },
+    {
+      "normalized": "biolabs nyu langone",
+      "ids": [
+        "us-biolabs",
+        "us-biolabs-nyu-langone"
+      ],
+      "names": [
+        "BioLabs",
+        "BioLabs @ NYU Langone"
+      ],
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "biolabs.io"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "biomedpartners",
@@ -6831,6 +6997,12 @@
       "names": [
         "BioMedPartners",
         "BiomedVC"
+      ],
+      "countries": [
+        "switzerland"
+      ],
+      "hosts": [
+        "biomedvc.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -6844,6 +7016,12 @@
         "BioMedPartners",
         "BiomedVC"
       ],
+      "countries": [
+        "switzerland"
+      ],
+      "hosts": [
+        "biomedvc.com"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -6856,7 +7034,13 @@
         "Boehringer Ingelheim Venture Fund",
         "Boehringer Ingelheim Venture Fund"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "germany"
+      ],
+      "hosts": [
+        "boehringer-ingelheim-venture.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "boehringer ingelheim venture fund",
@@ -6868,7 +7052,32 @@
         "Boehringer Ingelheim Venture Fund",
         "Boehringer Ingelheim Venture Fund"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "germany"
+      ],
+      "hosts": [
+        "boehringer-ingelheim-venture.com"
+      ],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "brandon biocatalyst",
+      "ids": [
+        "anz-brandon-biocatalyst",
+        "anz-brandon-capital"
+      ],
+      "names": [
+        "Brandon BioCatalyst",
+        "Brandon Capital (Brandon BioCatalyst)"
+      ],
+      "countries": [
+        "australia"
+      ],
+      "hosts": [
+        "brandonbiocatalyst.com",
+        "brandoncapital.vc"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "cbiv",
@@ -6880,7 +7089,13 @@
         "Cross-Border Impact Ventures",
         "Cross-Border Impact Ventures (CBIV)"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "canada"
+      ],
+      "hosts": [
+        "crossborder.ventures"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "chiesi ventures",
@@ -6891,6 +7106,13 @@
       "names": [
         "Chiesi Ventures",
         "Chiesi Ventures"
+      ],
+      "countries": [
+        "italy",
+        "united states"
+      ],
+      "hosts": [
+        "chiesiventures.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -6904,6 +7126,11 @@
         "CR-CP Life Science Fund",
         "CR-CP Life Science Fund"
       ],
+      "countries": [
+        "hong kong",
+        "thailand"
+      ],
+      "hosts": [],
       "verdict": "regional-vehicles"
     },
     {
@@ -6916,7 +7143,13 @@
         "Cross-Border Impact Ventures",
         "Cross-Border Impact Ventures (CBIV)"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "canada"
+      ],
+      "hosts": [
+        "crossborder.ventures"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "csiro innovation fund",
@@ -6928,19 +7161,53 @@
         "CSIRO Innovation Fund (managed by Main Sequence Ventures)",
         "Main Sequence Ventures"
       ],
+      "countries": [
+        "australia"
+      ],
+      "hosts": [
+        "csiro.au",
+        "mseq.vc"
+      ],
       "verdict": "likely-duplicate"
     },
     {
       "normalized": "dci partners",
       "ids": [
         "jp-dci-partners",
+        "tw-daiwa-taiwan-japan-biotech",
         "tw-dci-partners"
       ],
       "names": [
         "DCI Partners",
+        "Daiwa Taiwan-Japan Biotech Funds (DCI Partners)",
         "DCI Partners (Daiwa Taiwan-Japan Biotech Venture Fund)"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "japan",
+        "taiwan"
+      ],
+      "hosts": [
+        "daiwa-inv.co.jp"
+      ],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "dreamit ventures",
+      "ids": [
+        "us-dreamit-healthtech",
+        "us-dreamit-ventures"
+      ],
+      "names": [
+        "Dreamit HealthTech",
+        "Dreamit Ventures"
+      ],
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "dreamit.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "eisai innovation",
@@ -6952,7 +7219,34 @@
         "Eisai Corporate Venture Investment (Eisai Innovation, Inc.)",
         "Eisai Innovation, Inc."
       ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "eisai.com",
+        "eisaiinnovation.com"
+      ],
       "verdict": "regional-vehicles"
+    },
+    {
+      "normalized": "european investment bank",
+      "ids": [
+        "eu-eib-health-life-sciences",
+        "eu-european-investment-bank"
+      ],
+      "names": [
+        "European Investment Bank (EIB) – Health & Life Sciences",
+        "European Investment Bank"
+      ],
+      "countries": [
+        "european union",
+        "luxembourg"
+      ],
+      "hosts": [
+        "eib.org"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "fairmount funds management",
@@ -6963,6 +7257,13 @@
       "names": [
         "Fairmount Funds Management",
         "Paragon Therapeutics (Fairmount)"
+      ],
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "fairmountfunds.com",
+        "paragonlabs.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -6976,6 +7277,13 @@
         "Flagship Pioneering (Asia-Pacific)",
         "Flagship Pioneering"
       ],
+      "countries": [
+        "singapore",
+        "united states"
+      ],
+      "hosts": [
+        "flagshippioneering.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -6988,7 +7296,13 @@
         "Gates Foundation Strategic Investment Fund (SIF)",
         "Gates Foundation Strategic Investment Fund (SIF)"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "sif.gatesfoundation.org"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "gates foundation strategic investment fund sif",
@@ -7000,7 +7314,13 @@
         "Gates Foundation Strategic Investment Fund (SIF)",
         "Gates Foundation Strategic Investment Fund (SIF)"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "sif.gatesfoundation.org"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "gates sif",
@@ -7012,7 +7332,13 @@
         "Gates Foundation Strategic Investment Fund (SIF)",
         "Gates Foundation Strategic Investment Fund (SIF)"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "sif.gatesfoundation.org"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "gcc",
@@ -7024,7 +7350,13 @@
         "Grand Challenges Canada",
         "Grand Challenges Canada"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "canada"
+      ],
+      "hosts": [
+        "grandchallenges.ca"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "ghic",
@@ -7036,7 +7368,13 @@
         "Global Health Investment Corporation (GHIC)",
         "Global Health Investment Corporation (GHIC) / BARDA Ventures"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "ghicfunds.org"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "ghif",
@@ -7048,7 +7386,13 @@
         "Global Health Investment Corporation (GHIC)",
         "Global Health Investment Corporation (GHIC) / BARDA Ventures"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "ghicfunds.org"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "global health investment",
@@ -7060,7 +7404,13 @@
         "Global Health Investment Corporation (GHIC)",
         "Global Health Investment Corporation (GHIC) / BARDA Ventures"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "ghicfunds.org"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "grand challenges canada",
@@ -7072,7 +7422,13 @@
         "Grand Challenges Canada",
         "Grand Challenges Canada"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "canada"
+      ],
+      "hosts": [
+        "grandchallenges.ca"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "h spectrum",
@@ -7083,6 +7439,12 @@
       "names": [
         "H. Spectrum",
         "Yonglin Health Foundation"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "ylhealth.org"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7096,6 +7458,12 @@
         "Foxconn Technology Co. / H.Spectrum+",
         "H. Spectrum"
       ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "foxconntech.com.tw"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7107,6 +7475,13 @@
       "names": [
         "Hadasit / Hadasit Bio-Holdings",
         "Hadasit Bio Holdings"
+      ],
+      "countries": [
+        "israel"
+      ],
+      "hosts": [
+        "hadasit.org.il",
+        "hbl.co.il"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7120,6 +7495,13 @@
         "Hadasit / Hadasit Bio-Holdings",
         "Hadasit Bio Holdings"
       ],
+      "countries": [
+        "israel"
+      ],
+      "hosts": [
+        "hadasit.org.il",
+        "hbl.co.il"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7131,6 +7513,14 @@
       "names": [
         "IP Group Australia",
         "IP Group"
+      ],
+      "countries": [
+        "australia",
+        "united kingdom"
+      ],
+      "hosts": [
+        "ipgroupanz.com",
+        "ipgroupplc.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7144,6 +7534,14 @@
         "Kobe Biomedical Innovation Cluster (KBIC)",
         "KB Investment"
       ],
+      "countries": [
+        "japan",
+        "south korea"
+      ],
+      "hosts": [
+        "fbri-kobe.org",
+        "kbic.co.kr"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7156,7 +7554,13 @@
         "Leaps by Bayer",
         "Leaps by Bayer"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "germany"
+      ],
+      "hosts": [
+        "leaps.bayer.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "lightstone ventures",
@@ -7170,6 +7574,13 @@
         "Lightstone Ventures (Singapore)",
         "Lightstone Ventures"
       ],
+      "countries": [
+        "ireland",
+        "united states"
+      ],
+      "hosts": [
+        "lightstonevc.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7182,19 +7593,14 @@
         "Longevity Venture Partners",
         "Longevity Venture Partners"
       ],
+      "countries": [
+        "israel",
+        "united states"
+      ],
+      "hosts": [
+        "longevityventurepartners.com"
+      ],
       "verdict": "regional-vehicles"
-    },
-    {
-      "normalized": "loyal valley capital",
-      "ids": [
-        "cn-highlight-capital",
-        "cn-loyal-valley-capital"
-      ],
-      "names": [
-        "Highlight Capital (HLC)",
-        "Loyal Valley Capital"
-      ],
-      "verdict": "likely-duplicate"
     },
     {
       "normalized": "lsi",
@@ -7205,6 +7611,14 @@
       "names": [
         "LSI (Life Science Innovations Fund)",
         "Life Science Incubator"
+      ],
+      "countries": [
+        "poland",
+        "singapore"
+      ],
+      "hosts": [
+        "lifescienceincubator.com",
+        "lsifund.pl"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7218,6 +7632,13 @@
         "M Ventures",
         "M Ventures"
       ],
+      "countries": [
+        "germany",
+        "netherlands"
+      ],
+      "hosts": [
+        "m-ventures.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7229,6 +7650,13 @@
       "names": [
         "MBC BioLabs",
         "Mission BioCapital"
+      ],
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "mbcbiolabs.com",
+        "missionbiocapital.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7242,17 +7670,48 @@
         "Lumira Ventures",
         "MDS Capital Corp"
       ],
+      "countries": [
+        "canada"
+      ],
+      "hosts": [
+        "lumiraventures.com"
+      ],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "med fine capital",
+      "ids": [
+        "cn-med-fine-capital",
+        "cn-medfund"
+      ],
+      "names": [
+        "Med-Fine Capital",
+        "Medfund (Med-Fine Capital)"
+      ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [
+        "medfinecapital.com"
+      ],
       "verdict": "likely-duplicate"
     },
     {
       "normalized": "medical research commercialisation fund",
       "ids": [
-        "anz-brandon-capital",
-        "anz-cureator"
+        "anz-brandon-biocatalyst",
+        "anz-brandon-capital"
       ],
       "names": [
-        "Brandon Capital (Brandon BioCatalyst)",
-        "CUREator"
+        "Brandon BioCatalyst",
+        "Brandon Capital (Brandon BioCatalyst)"
+      ],
+      "countries": [
+        "australia"
+      ],
+      "hosts": [
+        "brandonbiocatalyst.com",
+        "brandoncapital.vc"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7266,6 +7725,13 @@
         "M Ventures",
         "M Ventures"
       ],
+      "countries": [
+        "germany",
+        "netherlands"
+      ],
+      "hosts": [
+        "m-ventures.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7278,6 +7744,10 @@
         "BOHE Angel Fund",
         "Mint Angel Fund"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [],
       "verdict": "likely-duplicate"
     },
     {
@@ -7289,6 +7759,13 @@
       "names": [
         "Mission Bay Capital",
         "Mission BioCapital"
+      ],
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "missionbaycapital.com",
+        "missionbiocapital.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7302,6 +7779,13 @@
         "MPM BioImpact (Asia)",
         "MPM BioImpact"
       ],
+      "countries": [
+        "singapore",
+        "united states"
+      ],
+      "hosts": [
+        "mpmbioimpact.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7314,17 +7798,31 @@
         "MPM BioImpact (Asia)",
         "MPM BioImpact"
       ],
+      "countries": [
+        "singapore",
+        "united states"
+      ],
+      "hosts": [
+        "mpmbioimpact.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
       "normalized": "mrcf",
       "ids": [
-        "anz-brandon-capital",
-        "anz-cureator"
+        "anz-brandon-biocatalyst",
+        "anz-brandon-capital"
       ],
       "names": [
-        "Brandon Capital (Brandon BioCatalyst)",
-        "CUREator"
+        "Brandon BioCatalyst",
+        "Brandon Capital (Brandon BioCatalyst)"
+      ],
+      "countries": [
+        "australia"
+      ],
+      "hosts": [
+        "brandonbiocatalyst.com",
+        "brandoncapital.vc"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7338,19 +7836,15 @@
         "MedVenture Partners",
         "MDA Venture Philanthropy (Muscular Dystrophy Association)"
       ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "mda.org",
+        "medvp.co.jp"
+      ],
       "verdict": "regional-vehicles"
-    },
-    {
-      "normalized": "ndf",
-      "ids": [
-        "tw-national-development-fund",
-        "tw-ndf-smart-healthcare-investment-program"
-      ],
-      "names": [
-        "National Development Fund, Executive Yuan",
-        "National Development Fund – Smart Healthcare Innovation & Entrepreneurship Investment Program"
-      ],
-      "verdict": "likely-duplicate"
     },
     {
       "normalized": "newton biocapital",
@@ -7361,6 +7855,13 @@
       "names": [
         "Newton Biocapital",
         "Newton Biocapital"
+      ],
+      "countries": [
+        "belgium",
+        "japan"
+      ],
+      "hosts": [
+        "newtonbiocapital.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7374,7 +7875,13 @@
         "Novartis Venture Fund",
         "Novartis Venture Fund"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "switzerland"
+      ],
+      "hosts": [
+        "nvfund.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "novo holdings",
@@ -7385,6 +7892,13 @@
       "names": [
         "Novo Holdings",
         "Novo Holdings (Asia)"
+      ],
+      "countries": [
+        "denmark",
+        "singapore"
+      ],
+      "hosts": [
+        "novoholdings.dk"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7398,6 +7912,13 @@
         "Olympus Innovation Ventures",
         "Olympus Innovation Ventures"
       ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "olympusamerica.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7410,6 +7931,13 @@
         "Olympus Innovation Ventures",
         "Olympus Innovation Ventures"
       ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "olympusamerica.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7421,6 +7949,14 @@
       "names": [
         "Ono Venture Investment, Inc.",
         "Ono Venture Investment, Inc."
+      ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "ono-pharma.com",
+        "onoventure.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7438,6 +7974,15 @@
         "OrbiMed (India / Asia healthcare growth investing)",
         "OrbiMed Advisors"
       ],
+      "countries": [
+        "china",
+        "india",
+        "israel",
+        "united states"
+      ],
+      "hosts": [
+        "orbimed.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7452,6 +7997,14 @@
         "OrbiMed (India / Asia healthcare growth investing)",
         "OrbiMed Advisors"
       ],
+      "countries": [
+        "india",
+        "israel",
+        "united states"
+      ],
+      "hosts": [
+        "orbimed.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7463,6 +8016,13 @@
       "names": [
         "OrbiMed Asia Partners",
         "OrbiMed (India / Asia healthcare growth investing)"
+      ],
+      "countries": [
+        "china",
+        "india"
+      ],
+      "hosts": [
+        "orbimed.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7476,6 +8036,13 @@
         "OurCrowd",
         "Qure Ventures"
       ],
+      "countries": [
+        "israel"
+      ],
+      "hosts": [
+        "ourcrowd.com",
+        "qureventures.com"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7488,7 +8055,33 @@
         "Ono Venture Investment, Inc.",
         "Ono Venture Investment, Inc."
       ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "ono-pharma.com",
+        "onoventure.com"
+      ],
       "verdict": "regional-vehicles"
+    },
+    {
+      "normalized": "pitango venture capital",
+      "ids": [
+        "il-pitango",
+        "il-pitango-healthtech"
+      ],
+      "names": [
+        "Pitango Venture Capital",
+        "Pitango HealthTech"
+      ],
+      "countries": [
+        "israel"
+      ],
+      "hosts": [
+        "pitango.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "pivotal bioventure partners",
@@ -7499,6 +8092,13 @@
       "names": [
         "Nan Fung Life Sciences",
         "Pivotal bioVenture Partners"
+      ],
+      "countries": [
+        "hong kong",
+        "united states"
+      ],
+      "hosts": [
+        "pivotallifesciences.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7512,7 +8112,32 @@
         "Quadria Capital",
         "Quadria Capital"
       ],
+      "countries": [
+        "india",
+        "singapore"
+      ],
+      "hosts": [
+        "quadriacapital.com"
+      ],
       "verdict": "regional-vehicles"
+    },
+    {
+      "normalized": "roche venture fund",
+      "ids": [
+        "eu-roche-venture-fund",
+        "us-roche-venture-fund"
+      ],
+      "names": [
+        "Roche Venture Fund",
+        "Roche Venture Fund"
+      ],
+      "countries": [
+        "switzerland"
+      ],
+      "hosts": [
+        "roche.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "sanofi ventures",
@@ -7523,6 +8148,13 @@
       "names": [
         "Sanofi Ventures",
         "Sanofi Ventures"
+      ],
+      "countries": [
+        "france",
+        "united states"
+      ],
+      "hosts": [
+        "sanofiventures.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7536,6 +8168,14 @@
         "Aju IB Investment",
         "Solasta Ventures"
       ],
+      "countries": [
+        "south korea",
+        "united states"
+      ],
+      "hosts": [
+        "ajuib.co.kr",
+        "solasta-ventures.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7547,6 +8187,13 @@
       "names": [
         "StartUp Health",
         "StartUp Health Syndicate"
+      ],
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "startuphealth.com",
+        "venture.angellist.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7560,6 +8207,13 @@
         "SV Health Investors",
         "SV Health Investors"
       ],
+      "countries": [
+        "united kingdom",
+        "united states"
+      ],
+      "hosts": [
+        "svhealthinvestors.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7571,6 +8225,13 @@
       "names": [
         "SV Health Investors",
         "SV Health Investors"
+      ],
+      "countries": [
+        "united kingdom",
+        "united states"
+      ],
+      "hosts": [
+        "svhealthinvestors.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7584,6 +8245,14 @@
         "Takeda Ventures (Takeda Center for External Innovation)",
         "Takeda Ventures, Inc."
       ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "takeda.com",
+        "takedaventures.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7595,6 +8264,13 @@
       "names": [
         "Terumo Ventures",
         "Terumo Ventures"
+      ],
+      "countries": [
+        "japan",
+        "united states"
+      ],
+      "hosts": [
+        "terumo.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7608,6 +8284,13 @@
         "6 Dimensions Capital",
         "TF Capital"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [
+        "6dimensionscapital.com",
+        "tfcapital.net"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7620,7 +8303,50 @@
         "The Trendlines Group",
         "Trendlines Medical Singapore"
       ],
+      "countries": [
+        "israel",
+        "singapore"
+      ],
+      "hosts": [
+        "trendlines.com"
+      ],
       "verdict": "regional-vehicles"
+    },
+    {
+      "normalized": "triventures arc",
+      "ids": [
+        "il-triventures",
+        "il-triventures-arc"
+      ],
+      "names": [
+        "Triventures",
+        "Triventures ARC"
+      ],
+      "countries": [
+        "israel"
+      ],
+      "hosts": [
+        "triventures.vc"
+      ],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "truffle capital",
+      "ids": [
+        "eu-truffle-capital",
+        "eu-truffle-capital-biomedtech"
+      ],
+      "names": [
+        "Truffle Capital",
+        "Truffle Capital (BioMedTech)"
+      ],
+      "countries": [
+        "france"
+      ],
+      "hosts": [
+        "truffle.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "tvm capital",
@@ -7631,6 +8357,14 @@
       "names": [
         "TVM Capital Life Science",
         "TVM Capital Life Science"
+      ],
+      "countries": [
+        "canada",
+        "germany"
+      ],
+      "hosts": [
+        "tvm-capital.com",
+        "tvm-lifescience.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7644,6 +8378,13 @@
         "TVM Capital Healthcare",
         "TVM Capital Healthcare"
       ],
+      "countries": [
+        "singapore",
+        "united arab emirates"
+      ],
+      "hosts": [
+        "tvmcapitalhealthcare.com"
+      ],
       "verdict": "regional-vehicles"
     },
     {
@@ -7655,6 +8396,14 @@
       "names": [
         "TVM Capital Life Science",
         "TVM Capital Life Science"
+      ],
+      "countries": [
+        "canada",
+        "germany"
+      ],
+      "hosts": [
+        "tvm-capital.com",
+        "tvm-lifescience.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7668,7 +8417,13 @@
         "U.S. International Development Finance Corporation (DFC) – Global Health & Prosperity Initiative",
         "U.S. International Development Finance Corporation (DFC) — Global Health"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "united states"
+      ],
+      "hosts": [
+        "dfc.gov"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "ucb ventures",
@@ -7680,7 +8435,13 @@
         "UCB Ventures",
         "UCB Ventures"
       ],
-      "verdict": "regional-vehicles"
+      "countries": [
+        "belgium"
+      ],
+      "hosts": [
+        "ucbventures.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "vivo capital",
@@ -7694,7 +8455,51 @@
         "Vivo Panda Fund (Vivo Capital Taiwan)",
         "Vivo Capital"
       ],
+      "countries": [
+        "china",
+        "taiwan",
+        "united states"
+      ],
+      "hosts": [
+        "vivocapital.com"
+      ],
       "verdict": "regional-vehicles"
+    },
+    {
+      "normalized": "yfy biotech",
+      "ids": [
+        "tw-yfy-biotech-ho-family",
+        "tw-yfy-biotech-tgb"
+      ],
+      "names": [
+        "YFY Biotech (Ho Shou-chuan Family)",
+        "YFY Biotech Management Company (Taiwan Global BioFund)"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "yfy.com"
+      ],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "上海幂方资产管理有限公司",
+      "ids": [
+        "cn-med-fine-capital",
+        "cn-medfund"
+      ],
+      "names": [
+        "Med-Fine Capital",
+        "Medfund (Med-Fine Capital)"
+      ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [
+        "medfinecapital.com"
+      ],
+      "verdict": "likely-duplicate"
     },
     {
       "normalized": "亦庄国投",
@@ -7705,6 +8510,12 @@
       "names": [
         "Beijing E-Town International Investment & Development (E-Town Capital)",
         "Beijing E-Town International Biopharmaceutical Investment Management (Yizhuang Guotou Biopharma)"
+      ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [
+        "etowncapital.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7718,6 +8529,13 @@
         "SPARK Taiwan",
         "Value Creation from Academic R&D Program (MOEA)"
       ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "moea.gov.tw",
+        "spark.org.tw"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7729,6 +8547,46 @@
       "names": [
         "China Resources Pharmaceutical Industry Investment Fund",
         "China Resources Pharmaceutical Industrial Investment Fund"
+      ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "台安生技",
+      "ids": [
+        "tw-taian-eminent-venture",
+        "tw-taian-technologies"
+      ],
+      "names": [
+        "Taian Technology / Eminent Venture Capital",
+        "TaiAn Technologies"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "taiantech.com"
+      ],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "大和企业投资",
+      "ids": [
+        "tw-daiwa-taiwan-japan-biotech",
+        "tw-dci-partners"
+      ],
+      "names": [
+        "Daiwa Taiwan-Japan Biotech Funds (DCI Partners)",
+        "DCI Partners (Daiwa Taiwan-Japan Biotech Venture Fund)"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "daiwa-inv.co.jp"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7742,6 +8600,13 @@
         "Affinity Capital (Anfu Capital)",
         "Anpu Capital"
       ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "affinity.com.tw",
+        "gbimonthly.com"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7753,6 +8618,13 @@
       "names": [
         "Affinity Capital (Anfu Capital)",
         "Anpu Capital"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "affinity.com.tw",
+        "gbimonthly.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7766,6 +8638,13 @@
         "Medfund (Med-Fine Capital)",
         "Panacea Venture"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [
+        "medfinecapital.com",
+        "panacea.vc"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7777,6 +8656,13 @@
       "names": [
         "Medfund (Med-Fine Capital)",
         "Panacea Venture"
+      ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [
+        "medfinecapital.com",
+        "panacea.vc"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7790,6 +8676,13 @@
         "Ping An Capital",
         "Ping An Innovation Investment Fund"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [
+        "pafund.pingan.com",
+        "pingan.com"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7801,6 +8694,30 @@
       "names": [
         "Deyang Biotech Venture Capital",
         "Sunsino Venture Group / Der Yang Biotechnology Venture Capital"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "sunsino.com.tw"
+      ],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "永丰余生技",
+      "ids": [
+        "tw-yfy-biotech-ho-family",
+        "tw-yfy-biotech-tgb"
+      ],
+      "names": [
+        "YFY Biotech (Ho Shou-chuan Family)",
+        "YFY Biotech Management Company (Taiwan Global BioFund)"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "yfy.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7814,6 +8731,10 @@
         "Jiangsu Biopharmaceutical (Suzhou) Industry Specialized Mother Fund",
         "Jiangsu Biomedicine (Suzhou) Industry Special Mother Fund"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [],
       "verdict": "likely-duplicate"
     },
     {
@@ -7826,6 +8747,10 @@
         "Jiangsu Biopharmaceutical (Suzhou) Industry Specialized Mother Fund",
         "Jiangsu Biomedicine (Suzhou) Industry Special Mother Fund"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [],
       "verdict": "likely-duplicate"
     },
     {
@@ -7838,6 +8763,10 @@
         "Hangzhou Taikun Biopharmaceutical Industry Mother Fund",
         "Hangzhou Taikun Biopharmaceutical Industry Fund"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [],
       "verdict": "likely-duplicate"
     },
     {
@@ -7849,6 +8778,13 @@
       "names": [
         "Vivo Capital",
         "Vivo Panda Fund (Vivo Capital Taiwan)"
+      ],
+      "countries": [
+        "china",
+        "taiwan"
+      ],
+      "hosts": [
+        "vivocapital.com"
       ],
       "verdict": "regional-vehicles"
     },
@@ -7862,17 +8798,45 @@
         "BOHE Angel Fund",
         "Mint Angel Fund"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [],
       "verdict": "likely-duplicate"
     },
     {
-      "normalized": "行政院国家发展基金",
+      "normalized": "钻石投资",
       "ids": [
-        "tw-national-development-fund",
-        "tw-ndf-smart-healthcare-investment-program"
+        "tw-diamond-bio-fund",
+        "tw-diamond-biofund"
       ],
       "names": [
-        "National Development Fund, Executive Yuan",
-        "National Development Fund – Smart Healthcare Innovation & Entrepreneurship Investment Program"
+        "Diamond Bio Fund (Diamond Biotech Investment)",
+        "Diamond Biofund"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "diamondbiofund.com"
+      ],
+      "verdict": "likely-duplicate"
+    },
+    {
+      "normalized": "钻石生技投资股份有限公司",
+      "ids": [
+        "tw-diamond-bio-fund",
+        "tw-diamond-biofund"
+      ],
+      "names": [
+        "Diamond Bio Fund (Diamond Biotech Investment)",
+        "Diamond Biofund"
+      ],
+      "countries": [
+        "taiwan"
+      ],
+      "hosts": [
+        "diamondbiofund.com"
       ],
       "verdict": "likely-duplicate"
     },
@@ -7886,6 +8850,14 @@
         "Gaotejia Investment (SZGIG)",
         "GT Healthcare Capital Partners"
       ],
+      "countries": [
+        "china",
+        "hong kong"
+      ],
+      "hosts": [
+        "gthcap.com",
+        "szgig.com"
+      ],
       "verdict": "likely-duplicate"
     },
     {
@@ -7898,6 +8870,10 @@
         "Longpan Capital",
         "Longpan Investment"
       ],
+      "countries": [
+        "china"
+      ],
+      "hosts": [],
       "verdict": "likely-duplicate"
     }
   ]

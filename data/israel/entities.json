@@ -2903,9 +2903,7 @@
       "en": "Pitango Venture Capital"
     },
     "aka": [
-      "Pitango HealthTech",
-      "Pitango VC",
-      "Pitango Venture Capital (HealthTech arm)"
+      "Pitango VC"
     ],
     "type": "vc",
     "subtypes": [],
@@ -2972,25 +2970,7 @@
       "invests_public_markets": false,
       "science_platform_notes": "HealthTech fund/team is a distinct vertical within the generalist Pitango platform, separate from Pitango First and Pitango Growth."
     },
-    "track_record": {
-      "notable_investments": [
-        {
-          "company": "TScan Therapeutics",
-          "sector": "therapeutics",
-          "outcome": "IPO"
-        },
-        {
-          "company": "QuantHealth",
-          "sector": "ai-drug-discovery",
-          "outcome": "active"
-        },
-        {
-          "company": "Somite",
-          "sector": "therapeutics",
-          "outcome": "active"
-        }
-      ]
-    },
+    "track_record": {},
     "summary": {
       "en": "Pitango is Israel's largest generalist VC platform, with a dedicated Pitango HealthTech fund (two vintages, $150M + $175M) investing in biopharma, digital health and medtech alongside its early-stage and growth funds."
     },
@@ -3016,58 +2996,12 @@
         "publisher": "Globes",
         "accessed": "undefined",
         "supports": "Pitango raised $300M combined across early-stage (First) and healthcare (HealthTech) funds"
-      },
-      {
-        "url": "https://www.pitango.com/healthtech/",
-        "title": "HealthTech – Pitango",
-        "publisher": "Pitango",
-        "accessed": "undefined",
-        "supports": "Focus on digital medicine, medical devices, biopharma, AI healthcare; leadership"
-      },
-      {
-        "url": "https://www.finsmes.com/2023/09/pitango-healthtech-holds-first-close-of-second-fund-at-175m.html",
-        "title": "Pitango HealthTech Holds First Close Of Second Fund, at $175M",
-        "publisher": "FinSMEs",
-        "accessed": "undefined",
-        "supports": "HealthTech II fund size",
-        "quote": "Pitango HealthTech Holds First Close Of Second Fund, at $175M"
-      },
-      {
-        "url": "https://www.timesofisrael.com/pitango-pulls-in-175-million-to-invest-in-israeli-health-tech-startups/",
-        "title": "Pitango pulls in $175 million to invest in Israeli health tech startups",
-        "publisher": "The Times of Israel",
-        "accessed": "undefined",
-        "supports": "$175M health-tech fund",
-        "quote": "Pitango pulls in $175 million to invest in Israeli health tech startups"
-      },
-      {
-        "url": "https://en.globes.co.il/en/article-pitango-closes-300m-for-early-stage-and-healthcare-vc-funds-1001525720",
-        "title": "Pitango closes $300m for early-stage, healthcare VC funds",
-        "publisher": "Globes",
-        "accessed": "undefined",
-        "supports": "HealthTech among two new $300M funds"
       }
     ],
     "confidence": "high",
-    "verification_notes": "Founded year (1993) and total AUM (>$3B across First/Growth/HealthTech) are corroborated by multiple secondary sources (Wikipedia, MedCity News) surfaced in search but not individually re-fetched; treated as reliable given convergence. [merged from duplicate research rows]",
+    "verification_notes": "Founded year (1993) and total AUM (>$3B across First/Growth/HealthTech) are corroborated by multiple secondary sources (Wikipedia, MedCity News) surfaced in search but not individually re-fetched; treated as reliable given convergence.",
     "last_updated": "undefined",
-    "researched_by": "generalist-with-health",
-    "tags": [],
-    "people": [
-      {
-        "name": "Ittai Harel",
-        "role": "Managing Partner"
-      },
-      {
-        "name": "Hila Karah",
-        "role": "Partner"
-      },
-      {
-        "name": "Jonathan Glazer",
-        "role": "Partner",
-        "background": "MD"
-      }
-    ]
+    "researched_by": "generalist-with-health"
   },
   {
     "id": "il-ourcrowd",
@@ -5166,36 +5100,17 @@
         "accessed": "undefined",
         "supports": "ARC fund launch; Sheba partnership",
         "quote": "Triventures, Sheba Medical Center Launch Seed-Stage Digital Healthcare Fund"
-      },
-      {
-        "url": "https://www.triventures.vc/arc/",
-        "title": "ARC - Triventures",
-        "publisher": "Triventures",
-        "accessed": "undefined",
-        "supports": "existence, partnership structure",
-        "quote": "Triventures ARC, a seed stage fund, has an exclusive collaboration with ARC, the innovation arm of the Sheba Medical Center."
-      },
-      {
-        "url": "https://www.forbes.com/sites/startupnationcentral/2018/12/27/vc-brings-the-cash-hospital-opens-its-data-israelis-launch-45m-medical-innovation-fund/",
-        "title": "Israeli VC, Hospital Launch $45M Medical Innovation Fund",
-        "publisher": "Forbes (Startup Nation Central)",
-        "accessed": "undefined",
-        "supports": "fund size, founding year, focus areas",
-        "quote": "Sheba Medical Center has a $45M venture capital fund called Triventures ARC... Through the Triventures ARC fund, start-ups will access Israeli healthcare company Sheba Medical Center's medical data infrastructure, clinical and research staff and access to capital."
       }
     ],
-    "confidence": "high",
-    "verification_notes": "Fund has broadened beyond pure medtech into fintech/cybersecurity in recent years per its own site; included here for its foundational and continuing medical device/diagnostics focus. Exact current fund size not disclosed. [merged from duplicate research rows] [merged from duplicate research rows] [merged from duplicate research rows]",
+    "confidence": "medium",
+    "verification_notes": "Fund has broadened beyond pure medtech into fintech/cybersecurity in recent years per its own site; included here for its foundational and continuing medical device/diagnostics focus. Exact current fund size not disclosed. [merged from duplicate research rows] [merged from duplicate research rows]",
     "last_updated": "undefined",
     "researched_by": "medtech-diagnostics-vc",
     "aka": [
-      "ARC Innovation Fund",
-      "Sheba ARC / Triventures partnership",
       "Triventures ARC"
     ],
     "subtypes": [
-      "micro-vc",
-      "vc"
+      "micro-vc"
     ]
   },
   {
@@ -6817,6 +6732,140 @@
     "researched_by": "therapeutics-biotech-vc"
   },
   {
+    "id": "il-pitango-healthtech",
+    "name": {
+      "en": "Pitango HealthTech",
+      "local": "פיטנגו הלת'טק"
+    },
+    "aka": [
+      "Pitango HealthTech",
+      "Pitango Venture Capital (HealthTech arm)"
+    ],
+    "type": "vc",
+    "status": "active",
+    "founded_year": 2019,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Herzliya",
+    "website": "https://www.pitango.com/healthtech/",
+    "capital": {
+      "funds": [
+        {
+          "name": "Pitango HealthTech II",
+          "vintage_year": 2023,
+          "size": {
+            "raw": "$175M",
+            "usd": 175000000,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "strategy": {
+      "stages": [
+        "seed",
+        "series-a",
+        "series-b"
+      ],
+      "lead_or_follow": "both",
+      "geo_focus": [
+        "israel",
+        "united-states",
+        "europe"
+      ],
+      "sector_focus": [
+        "therapeutics",
+        "medtech-devices",
+        "digital-health",
+        "ai-drug-discovery",
+        "diagnostics"
+      ],
+      "thesis": "Dedicated life-sciences arm of Pitango Venture Capital, specializing in breakthrough ventures across digital medicine, medical devices, biopharma and AI-driven healthcare."
+    },
+    "lifesci": {
+      "modalities": [
+        "ai-ml-platform",
+        "software-samd",
+        "biologics-antibody",
+        "medical-hardware"
+      ]
+    },
+    "people": [
+      {
+        "name": "Ittai Harel",
+        "role": "Managing Partner"
+      },
+      {
+        "name": "Hila Karah",
+        "role": "Partner"
+      },
+      {
+        "name": "Jonathan Glazer",
+        "role": "Partner",
+        "background": "MD"
+      }
+    ],
+    "track_record": {
+      "notable_investments": [
+        {
+          "company": "TScan Therapeutics",
+          "sector": "therapeutics",
+          "outcome": "IPO"
+        },
+        {
+          "company": "QuantHealth",
+          "sector": "ai-drug-discovery",
+          "outcome": "active"
+        },
+        {
+          "company": "Somite",
+          "sector": "therapeutics",
+          "outcome": "active"
+        }
+      ]
+    },
+    "summary": {
+      "en": "Pitango HealthTech is the dedicated life-sciences fund of Pitango Venture Capital, backing breakthrough digital-medicine, medtech, biopharma and AI-healthcare companies.",
+      "local": "פיטנגו הלת'טק היא הזרוע הייעודית של קרן פיטנגו להשקעות במדעי החיים, הרפואה הדיגיטלית, המכשור הרפואי והבריאות מבוססת AI."
+    },
+    "sources": [
+      {
+        "url": "https://www.pitango.com/healthtech/",
+        "title": "HealthTech – Pitango",
+        "publisher": "Pitango",
+        "accessed": "undefined",
+        "supports": "Focus on digital medicine, medical devices, biopharma, AI healthcare; leadership"
+      },
+      {
+        "url": "https://www.finsmes.com/2023/09/pitango-healthtech-holds-first-close-of-second-fund-at-175m.html",
+        "title": "Pitango HealthTech Holds First Close Of Second Fund, at $175M",
+        "publisher": "FinSMEs",
+        "accessed": "undefined",
+        "supports": "HealthTech II fund size",
+        "quote": "Pitango HealthTech Holds First Close Of Second Fund, at $175M"
+      },
+      {
+        "url": "https://www.timesofisrael.com/pitango-pulls-in-175-million-to-invest-in-israeli-health-tech-startups/",
+        "title": "Pitango pulls in $175 million to invest in Israeli health tech startups",
+        "publisher": "The Times of Israel",
+        "accessed": "undefined",
+        "supports": "$175M health-tech fund",
+        "quote": "Pitango pulls in $175 million to invest in Israeli health tech startups"
+      },
+      {
+        "url": "https://en.globes.co.il/en/article-pitango-closes-300m-for-early-stage-and-healthcare-vc-funds-1001525720",
+        "title": "Pitango closes $300m for early-stage, healthcare VC funds",
+        "publisher": "Globes",
+        "accessed": "undefined",
+        "supports": "HealthTech among two new $300M funds"
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "Pitango is a large generalist VC (>$2.8B committed across funds); this entry covers its dedicated HealthTech life-sciences arm, first launched 2019. HealthTech II ($175M) held first close in 2023.",
+    "last_updated": "undefined",
+    "researched_by": "tier1-lifesci-vc"
+  },
+  {
     "id": "il-almeda-ventures",
     "name": {
       "en": "Almeda Ventures",
@@ -7772,6 +7821,78 @@
     ],
     "confidence": "medium",
     "verification_notes": "HQ city (Ramat Gan) taken from Bar-Ilan University's general location; not independently re-verified via a dedicated address source.",
+    "last_updated": "undefined",
+    "researched_by": "university-hospital-fund"
+  },
+  {
+    "id": "il-triventures-arc",
+    "name": {
+      "en": "Triventures ARC",
+      "local": "טריוונצ'רס ARC"
+    },
+    "aka": [
+      "ARC Innovation Fund",
+      "Sheba ARC / Triventures partnership"
+    ],
+    "type": "university-hospital-fund",
+    "subtypes": [
+      "vc"
+    ],
+    "status": "active",
+    "founded_year": 2018,
+    "region": "israel",
+    "country": "Israel",
+    "hq_city": "Ramat Gan",
+    "website": "https://www.triventures.vc/arc/",
+    "capital": {
+      "current_fund": {
+        "raw": "$45 million (target)",
+        "usd": 45000000,
+        "currency": "USD"
+      }
+    },
+    "strategy": {
+      "stages": [
+        "seed"
+      ],
+      "sector_focus": [
+        "digital-health",
+        "medtech-devices",
+        "diagnostics",
+        "healthcare-it"
+      ],
+      "geo_focus": [
+        "Israel"
+      ],
+      "thesis": "Seed-stage digital-health fund created via an exclusive partnership between Sheba Medical Center's ARC Innovation Center and venture firm Triventures - the first tie-up of its kind between an Israeli hospital system and a VC fund; portfolio companies get access to Sheba's clinical data, physicians and 25 years of longitudinal patient records alongside capital."
+    },
+    "lifesci": {
+      "science_platform_notes": "Focus areas include personalized healthcare, virtual hospital, big data/AI, smart medical devices, clinical/financial workflow management and healthcare cybersecurity, sourced via Sheba's ARC Innovation Center ('Accelerate, Redesign, Collaborate')."
+    },
+    "summary": {
+      "en": "Triventures ARC is a $45M-target seed-stage digital-health fund run in exclusive partnership between Sheba Medical Center's ARC Innovation Center and VC firm Triventures, giving portfolio companies access to Sheba's clinical data and physicians.",
+      "local": "טריוונצ'רס ARC היא קרן הון סיכון בשלב הזרעה בתחום הבריאות הדיגיטלית, בשיתוף בלעדי בין מרכז החדשנות ARC של המרכז הרפואי שיבא לחברת טריוונצ'רס."
+    },
+    "sources": [
+      {
+        "url": "https://www.triventures.vc/arc/",
+        "title": "ARC - Triventures",
+        "publisher": "Triventures",
+        "accessed": "undefined",
+        "supports": "existence, partnership structure",
+        "quote": "Triventures ARC, a seed stage fund, has an exclusive collaboration with ARC, the innovation arm of the Sheba Medical Center."
+      },
+      {
+        "url": "https://www.forbes.com/sites/startupnationcentral/2018/12/27/vc-brings-the-cash-hospital-opens-its-data-israelis-launch-45m-medical-innovation-fund/",
+        "title": "Israeli VC, Hospital Launch $45M Medical Innovation Fund",
+        "publisher": "Forbes (Startup Nation Central)",
+        "accessed": "undefined",
+        "supports": "fund size, founding year, focus areas",
+        "quote": "Sheba Medical Center has a $45M venture capital fund called Triventures ARC... Through the Triventures ARC fund, start-ups will access Israeli healthcare company Sheba Medical Center's medical data infrastructure, clinical and research staff and access to capital."
+      }
+    ],
+    "confidence": "high",
+    "verification_notes": "The fund is co-managed by independent VC firm Triventures rather than solely by Sheba/ARC; included in this slice because it is a dedicated fund tied to a specific hospital's innovation arm, with 'vc' listed as a secondary subtype given Triventures' operating role.",
     "last_updated": "undefined",
     "researched_by": "university-hospital-fund"
   },

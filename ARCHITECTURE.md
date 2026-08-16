@@ -183,11 +183,18 @@ med-vc/
 
 | 情況 | 判定 | 意義 |
 | --- | --- | --- |
-| 同名、**不同**地區 | `regional-vehicles` | 合法。OrbiMed 有美/以/印/中四支基金，都叫 OrbiMed |
-| 同名、**同一**地區 | `likely-duplicate` | 資料重複，要修 |
+| 同網域 **且** 同國家 | `likely-duplicate` | 同一個組織被建了兩次 |
+| 同一地區內有兩筆 | `likely-duplicate` | 資料重複，要修 |
+| 不同國家 **或** 不同網域 | `regional-vehicles` | 合法。Boehringer Ingelheim Venture Fund 歐/美各有團隊 |
+| 其餘 | `undetermined` | 證據不足以判斷，不猜 |
+
+**`region` 不能單獨當作判準**，這是踩過的坑：早期版本只看地區，把「同名不同地區」一律判為合法的區域分支。
+但 Gates Foundation Strategic Investment Fund 被兩輪 agent 分別歸到 `rest-of-world` 和 `united-states`——
+同國家、同城市、同網域，就是同一個組織被建了兩次。地區是**歸檔決定**，不是關於組織身分的證據；
+真正能區分的是官網網域與國家。改用這組判準後，原本被放行的 46 組裡有 17 組其實是重複。
 
 繁簡折疊上線後這份報表特別有產出：原本因為一邊寫繁體、一邊寫簡體而看起來毫不相干的兩筆，
-折疊後才撞在一起。目前 115 組撞名中，63 組是合法的區域分支，52 組是待修的重複紀錄。
+折疊後才撞在一起。
 
 ---
 
