@@ -252,9 +252,18 @@ SITE_PAGES = [
      "subtitle": {"en": "The medical and biomedical companies these investors fund — every one linked to its backers",
                   "zh": "被這些機構投資的醫療生醫公司 —— 每一家都連得回它的投資人"}},
     {"slug": "analysis", "layout": "analysis", "icon": "monitoring",
-     "title": {"en": "Analysis", "zh": "分析"},
+     "title": {"en": "Investor analysis", "zh": "機構分析"},
      "subtitle": {"en": "The shape of medical venture capital, by the numbers",
                   "zh": "用數字看醫療創投的樣貌"}},
+    # The two halves get one analysis page each rather than one page with two
+    # sections. They answer different questions — an investor page is about
+    # where capital sits, a company page is about what got built and how far it
+    # got — and the company half has axes (development stage, regulatory
+    # clearance, exit type) that have no investor-side counterpart at all.
+    {"slug": "company-analysis", "layout": "companyAnalysis", "icon": "query_stats",
+     "title": {"en": "Company analysis", "zh": "新創分析"},
+     "subtitle": {"en": "What these companies build, how far along they are, and who backs them",
+                  "zh": "這些公司在做什麼、走到哪一步、背後是誰"}},
     {"slug": "methodology", "layout": "methodology", "icon": "menu_book",
      "title": {"en": "Methodology", "zh": "方法論"},
      "subtitle": {"en": "How this dataset was built, sourced, and verified",

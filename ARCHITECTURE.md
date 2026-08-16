@@ -228,6 +228,37 @@ uv run scripts/build_site.py       # 網站資料層
 
 ---
 
+## 6.5 網站頁面與統計數字的來源
+
+頁面清單是資料，不是散在各處的 HTML：`scripts/build_site.py` 的 `SITE_PAGES` 定義
+`slug` / `layout` / `icon` / 雙語標題，`shell.js` 據此畫導覽列，`app.js` 用 `layout`
+挑 renderer。每個 `docs/<slug>.html` 只是一層殼——`<body data-page="…">` 加三個
+`<script>`，其他全由 shell + app 注入。**加一頁 = SITE_PAGES 加一筆 + 複製一份殼 +
+`RENDERERS` / `WIRE` 各加一個 key**，導覽列與首頁入口卡會自動長出來。
+
+| layout | 頁面 | 做什麼 |
+| --- | --- | --- |
+| `hub` | `/` | 全站數字 + 入口卡（從 `SITE_PAGES` 自動生成） |
+| `directory` | `/directory` | 機構名錄 |
+| `companies` | `/companies` | 公司名錄（跟 `directory` 同一套互動模型） |
+| `analysis` | `/analysis` | 機構分析 |
+| `companyAnalysis` | `/company-analysis` | 新創分析 |
+| `methodology` | `/methodology` | 方法論長文 |
+
+**兩個分析頁的數字來源不同，這是刻意的。** 機構分析讀 `stats.json`（build 階段算好）；
+新創分析除了連結圖那四個數字之外，**全部在瀏覽器端從 `MED_VC.companies` 現算**。
+理由是這半邊要的是交叉表與排行榜（領域 × 地區、投資人最多的公司），沒有哪一張預先算好的
+表裝得下；而且既然公司陣列本來就整包送到前端了，現算不用多付一毛 payload。
+
+代價是同一個數字有兩套實作。所以它們必須對得起來——`linked_companies` / `edges` /
+`linked_investors` 三個數字，Python 端與瀏覽器端各自獨立算出 **717 / 1,497 / 646**，
+完全一致。改任何一邊的解析邏輯時，這組數字就是回歸測試。
+
+連結圖的「兩邊都證實」與「被點名但尚未建檔」只能來自 `company-stats.json`：
+待辦清單根本沒有出現在前端 payload 裡，前端無從重算。頁面上直接寫明了這件事。
+
+---
+
 ## 7. 免責
 
 非官方整理，僅供研究參考。金額 / 股權 / 錄取率等數字以各機構官方公開資料為準，引用前請依 `sources` 自行查證。

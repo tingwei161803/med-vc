@@ -21,8 +21,22 @@
 
 兩個互通的名錄：**投資機構**與**被投公司**。
 多軸篩選（地區 × 類型 × 健康子領域 × 治療模式 × 適應症 × 階段 × 背後金主）· 全文搜尋 ·
-中英雙語切換 · 深淺色模式 · 點卡片看完整詳情與**來源 quote 佐證** · 分析圖表儀表板 · CSV 匯出。
+中英雙語切換 · 深淺色模式 · 點卡片看完整詳情與**來源 quote 佐證** · CSV 匯出。
 純靜態 HTML/CSS/JS（Material Design 3、零 build），由 `docs/` 經 GitHub Pages 部署。
+
+六個頁面，兩半各有自己的分析儀表板：
+
+| 頁面 | 內容 |
+| --- | --- |
+| [`/`](https://med-vc.peteraim.com/) 總覽 | 全站數字與入口 |
+| [`/directory`](https://med-vc.peteraim.com/directory) 投資機構 | 1,680 家機構，多軸篩選 |
+| [`/companies`](https://med-vc.peteraim.com/companies) 新創 | 1,279 家公司，同一套篩選介面 |
+| [`/analysis`](https://med-vc.peteraim.com/analysis) 機構分析 | 錢在哪：地區 / 類型 / 子領域 / 治療模式 / 適應症 / 信心度 |
+| [`/company-analysis`](https://med-vc.peteraim.com/company-analysis) 新創分析 | 做了什麼、走到哪：領域 × 地區熱區圖 · 臨床管線階段 · 法規核准 · 退出方式 · 成立年份 · 投資人排行 |
+| [`/methodology`](https://med-vc.peteraim.com/methodology) 方法論 | 資料怎麼蒐集、溯源、查核 |
+
+兩個分析頁刻意分開而不是一頁兩段：問的問題不同（錢在哪 vs 做出了什麼），
+而且公司那半有**發展階段、法規核准、退出方式**這些機構半邊根本沒有對應欄位的維度。
 
 > 網站資料層由 `uv run scripts/build_site.py` 從 `data/all-entities.json` + `data/all-companies.json` + `data/links.json` 產生。
 
