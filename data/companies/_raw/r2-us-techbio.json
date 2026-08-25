@@ -16,7 +16,10 @@
     "hq_city": "Boston, MA",
     "website": "https://www.ginkgobioworks.com",
     "profile": {
-      "what": "Synthetic-biology foundry that engineers custom organisms (cells, enzymes, DNA) as a platform service for other biotech, industrial and pharma companies.",
+      "what": {
+        "en": "Synthetic-biology foundry that engineers custom organisms (cells, enzymes, DNA) as a platform service for other biotech, industrial and pharma companies.",
+        "zh": "合成生物學代工廠,為其他生技、工業與製藥公司量身打造工程化生物體(細胞、酵素、DNA),以平台服務形式提供。"
+      },
       "modalities": [
         "lab-automation",
         "ai-ml-platform"
@@ -97,7 +100,10 @@
     "hq_city": "Salt Lake City, UT",
     "website": "https://www.recursion.com",
     "profile": {
-      "what": "AI-driven drug discovery company that runs automated cell-imaging experiments at scale and mines a >50-petabyte proprietary biological dataset to identify drug targets and design molecules.",
+      "what": {
+        "en": "AI-driven drug discovery company that runs automated cell-imaging experiments at scale and mines a >50-petabyte proprietary biological dataset to identify drug targets and design molecules.",
+        "zh": "AI 驅動的藥物探索公司,大規模執行自動化細胞影像實驗,並從超過 50 PB 的自有生物資料集中挖掘藥物標靶、設計分子。"
+      },
       "modalities": [
         "ai-ml-platform",
         "small-molecule"
@@ -153,7 +159,10 @@
     "hq_city": "New York, NY",
     "website": "https://www.schrodinger.com",
     "profile": {
-      "what": "Computational platform (physics-based simulation plus ML) for molecular design, licensed to pharma/biotech/materials companies and also used to advance Schrödinger's own drug pipeline.",
+      "what": {
+        "en": "Computational platform (physics-based simulation plus ML) for molecular design, licensed to pharma/biotech/materials companies and also used to advance Schrödinger's own drug pipeline.",
+        "zh": "分子設計的運算平台(以物理為基礎的模擬加上 ML),授權給製藥、生技與材料公司,同時也用來推進 Schrödinger 自家的藥物研發管線。"
+      },
       "modalities": [
         "ai-ml-platform",
         "small-molecule"
@@ -201,7 +210,10 @@
     "hq_city": "Chicago, IL",
     "website": "https://www.tempus.com",
     "profile": {
-      "what": "Uses genomic sequencing and AI to power precision-medicine diagnostics across oncology, cardiology, radiology and mental health.",
+      "what": {
+        "en": "Uses genomic sequencing and AI to power precision-medicine diagnostics across oncology, cardiology, radiology and mental health.",
+        "zh": "以基因體定序與 AI 支援腫瘤、心臟科、放射科與心理健康領域的精準醫療診斷。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -312,7 +324,10 @@
     "hq_city": "Pleasanton, CA",
     "website": "https://www.10xgenomics.com",
     "profile": {
-      "what": "Designs and manufactures single-cell and spatial-omics sequencing instruments and reagent kits for life-science research.",
+      "what": {
+        "en": "Designs and manufactures single-cell and spatial-omics sequencing instruments and reagent kits for life-science research.",
+        "zh": "為生命科學研究設計並生產單細胞與空間多體學的定序儀器與試劑套組。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -362,7 +377,10 @@
     "hq_city": "Redwood City, CA",
     "website": "https://www.seer.bio",
     "profile": {
-      "what": "Proteomics company whose Proteograph platform uses engineered nanoparticles to enable deep, unbiased protein profiling from biological samples.",
+      "what": {
+        "en": "Proteomics company whose Proteograph platform uses engineered nanoparticles to enable deep, unbiased protein profiling from biological samples.",
+        "zh": "蛋白體學公司,其 Proteograph 平台以工程化奈米顆粒,從生物檢體做深度、無偏差的蛋白質剖析。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -448,7 +466,10 @@
     "hq_city": "Menlo Park, CA",
     "website": "https://grail.com",
     "profile": {
-      "what": "Develops the Galleri multi-cancer early detection (MCED) blood test that screens for evidence of multiple cancer types from a single blood draw.",
+      "what": {
+        "en": "Develops the Galleri multi-cancer early detection (MCED) blood test that screens for evidence of multiple cancer types from a single blood draw.",
+        "zh": "開發 Galleri 多癌症早期偵測(MCED)血液檢測,單次抽血即可篩檢多種癌症的跡證。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -506,7 +527,10 @@
     "hq_city": "Palo Alto, CA",
     "website": "https://guardanthealth.com",
     "profile": {
-      "what": "Precision-oncology company whose liquid-biopsy blood tests detect cancer-related mutations for screening, treatment selection and monitoring.",
+      "what": {
+        "en": "Precision-oncology company whose liquid-biopsy blood tests detect cancer-related mutations for screening, treatment selection and monitoring.",
+        "zh": "精準腫瘤公司,其液態切片血液檢測可偵測癌症相關突變,用於篩檢、治療選擇與追蹤監測。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -620,7 +644,10 @@
     "hq_city": "Austin, TX",
     "website": "https://www.natera.com",
     "profile": {
-      "what": "Clinical genetic-testing company built on cell-free DNA (cfDNA) technology, serving women's health, oncology and organ-health testing.",
+      "what": {
+        "en": "Clinical genetic-testing company built on cell-free DNA (cfDNA) technology, serving women's health, oncology and organ-health testing.",
+        "zh": "以游離 DNA(cfDNA)技術為基礎的臨床基因檢測公司,服務涵蓋女性健康、腫瘤與器官健康檢測。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -675,7 +702,10 @@
     "hq_city": "Vancouver, WA",
     "website": "https://www.absci.com",
     "profile": {
-      "what": "Generative-AI platform for designing and wet-lab-validating antibody therapeutics, paired with an in-house pipeline (lead program ABS-201 for androgenetic alopecia).",
+      "what": {
+        "en": "Generative-AI platform for designing and wet-lab-validating antibody therapeutics, paired with an in-house pipeline (lead program ABS-201 for androgenetic alopecia).",
+        "zh": "設計抗體療法並以濕實驗驗證的生成式 AI 平台,同時擁有自家研發管線(主力管線 ABS-201 用於雄性禿)。"
+      },
       "modalities": [
         "ai-ml-platform",
         "biologics-antibody"
@@ -724,7 +754,10 @@
     "hq_city": "Radnor, PA",
     "website": "https://www.certara.com",
     "profile": {
-      "what": "Biosimulation and model-informed drug-development software and services used across preclinical research, clinical trials and regulatory submissions.",
+      "what": {
+        "en": "Biosimulation and model-informed drug-development software and services used across preclinical research, clinical trials and regulatory submissions.",
+        "zh": "生物模擬與模型導向藥物開發的軟體與服務,應用於臨床前研究、臨床試驗與法規送件。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -778,7 +811,10 @@
     "hq_city": "Seattle, WA",
     "website": "https://www.nautilus.bio",
     "profile": {
-      "what": "Development-stage proteomics company building the Nautilus Voyager Platform — instruments, reagents and software for single-molecule protein analysis at scale.",
+      "what": {
+        "en": "Development-stage proteomics company building the Nautilus Voyager Platform — instruments, reagents and software for single-molecule protein analysis at scale.",
+        "zh": "開發階段的蛋白體學公司,正在打造 Nautilus Voyager Platform——用於大規模單分子蛋白質分析的儀器、試劑與軟體。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -825,7 +861,10 @@
     "hq_city": "Seattle, WA",
     "website": "https://www.adaptivebiotech.com",
     "profile": {
-      "what": "Immune-medicine platform that reads and translates the adaptive immune system at scale (immunosequencing) for both diagnostics — e.g. the clonoSEQ minimal-residual-disease test — and drug discovery.",
+      "what": {
+        "en": "Immune-medicine platform that reads and translates the adaptive immune system at scale (immunosequencing) for both diagnostics — e.g. the clonoSEQ minimal-residual-disease test — and drug discovery.",
+        "zh": "免疫醫學平台,大規模解讀並轉譯適應性免疫系統(免疫定序),同時用於診斷(例如 clonoSEQ 微量殘存疾病檢測)與藥物探索。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -883,7 +922,10 @@
     "hq_city": "Branford, CT",
     "website": "https://quantum-si.com",
     "profile": {
-      "what": "Develops a single-molecule, semiconductor-chip protein-sequencing platform (Platinum / Platinum Pro) for next-generation proteomics.",
+      "what": {
+        "en": "Develops a single-molecule, semiconductor-chip protein-sequencing platform (Platinum / Platinum Pro) for next-generation proteomics.",
+        "zh": "開發單分子、半導體晶片式的蛋白質定序平台(Platinum / Platinum Pro),用於次世代蛋白體學。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -929,7 +971,10 @@
     "hq_city": "Fremont, CA",
     "website": "https://www.personalis.com",
     "profile": {
-      "what": "Cancer genomics company offering NeXT Personal, a tumor-informed liquid-biopsy test for minimal-residual-disease detection and monitoring, and ImmunoID NeXT tissue profiling.",
+      "what": {
+        "en": "Cancer genomics company offering NeXT Personal, a tumor-informed liquid-biopsy test for minimal-residual-disease detection and monitoring, and ImmunoID NeXT tissue profiling.",
+        "zh": "癌症基因體學公司,提供以腫瘤資訊為依據的液態切片檢測 NeXT Personal,用於微量殘存疾病偵測與追蹤,以及 ImmunoID NeXT 組織剖析。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -978,7 +1023,10 @@
     "hq_city": "South San Francisco, CA",
     "website": "https://www.veracyte.com",
     "profile": {
-      "what": "Genomic-diagnostics company offering sequencing-based classifiers for thyroid, prostate, bladder, breast and lung cancers.",
+      "what": {
+        "en": "Genomic-diagnostics company offering sequencing-based classifiers for thyroid, prostate, bladder, breast and lung cancers.",
+        "zh": "基因體診斷公司,提供甲狀腺、攝護腺、膀胱、乳房與肺部癌症的定序分類檢測。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -1028,7 +1076,10 @@
     "hq_city": "South San Francisco, CA",
     "website": "https://www.twistbioscience.com",
     "profile": {
-      "what": "Manufactures synthetic DNA at scale using semiconductor-based synthesis — genes, oligo pools, NGS tools and antibody libraries — for drug discovery, diagnostics and data-storage applications.",
+      "what": {
+        "en": "Manufactures synthetic DNA at scale using semiconductor-based synthesis — genes, oligo pools, NGS tools and antibody libraries — for drug discovery, diagnostics and data-storage applications.",
+        "zh": "以半導體式合成技術大規模生產合成 DNA——基因、寡核苷酸池、NGS 工具與抗體庫——供藥物探索、診斷與資料儲存應用。"
+      },
       "modalities": [
         "lab-automation"
       ],
@@ -1083,7 +1134,10 @@
     "hq_city": "Redwood City, CA",
     "website": "https://www.codexis.com",
     "profile": {
-      "what": "Protein-engineering company whose CodeEvolver platform designs enzymes used in pharmaceutical, RNAi therapeutics manufacturing, food and other industrial applications.",
+      "what": {
+        "en": "Protein-engineering company whose CodeEvolver platform designs enzymes used in pharmaceutical, RNAi therapeutics manufacturing, food and other industrial applications.",
+        "zh": "蛋白質工程公司,其 CodeEvolver 平台設計酵素,應用於製藥、RNAi 療法製造、食品與其他工業領域。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -1141,7 +1195,10 @@
     "hq_city": "South San Francisco, CA",
     "website": "https://www.standardbio.com",
     "profile": {
-      "what": "Develops instruments, consumables and assays for proteomics and genomics research, including the SomaScan protein-measurement platform.",
+      "what": {
+        "en": "Develops instruments, consumables and assays for proteomics and genomics research, including the SomaScan protein-measurement platform.",
+        "zh": "開發蛋白體學與基因體學研究用的儀器、耗材與檢測,包括 SomaScan 蛋白質量測平台。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -1187,7 +1244,10 @@
     "hq_city": "Wilmington, MA",
     "website": "https://www.criver.com",
     "profile": {
-      "what": "Contract research organization (CRO) providing preclinical and clinical laboratory services — toxicology, safety testing and research models — for drug, vaccine and medical-device development.",
+      "what": {
+        "en": "Contract research organization (CRO) providing preclinical and clinical laboratory services — toxicology, safety testing and research models — for drug, vaccine and medical-device development.",
+        "zh": "委託研究(CRO)機構,提供臨床前與臨床實驗室服務——毒理、安全性試驗與研究模型(research models)——支援藥物、疫苗與醫療器材開發。"
+      },
       "development_stage": "commercial"
     },
     "funding": {
@@ -1238,7 +1298,10 @@
     "hq_city": "Houston, TX",
     "website": "https://www.solugen.com",
     "profile": {
-      "what": "Runs 'Bioforge' biomanufacturing plants that combine enzymatic and chemical processes to make bio-based specialty chemicals as sustainable replacements for petroleum-derived products.",
+      "what": {
+        "en": "Runs 'Bioforge' biomanufacturing plants that combine enzymatic and chemical processes to make bio-based specialty chemicals as sustainable replacements for petroleum-derived products.",
+        "zh": "經營「Bioforge」生物製造廠,結合酵素與化學製程生產生物基特用化學品,做為石油衍生產品的永續替代方案。"
+      },
       "modalities": [
         "lab-automation"
       ],
@@ -1420,7 +1483,10 @@
     "hq_city": "Blue Ash, OH",
     "website": "https://www.resilience.com",
     "profile": {
-      "what": "Biopharmaceutical CDMO (contract development and manufacturing organization) offering end-to-end development, scale-up and manufacturing across biologics, cell therapy, gene therapy and complex drug products.",
+      "what": {
+        "en": "Biopharmaceutical CDMO (contract development and manufacturing organization) offering end-to-end development, scale-up and manufacturing across biologics, cell therapy, gene therapy and complex drug products.",
+        "zh": "生物製藥委託開發暨製造(CDMO)公司,提供生物製劑、細胞治療、基因治療與複雜藥品的端到端開發、放大與生產。"
+      },
       "development_stage": "commercial"
     },
     "funding": {
@@ -1525,7 +1591,10 @@
     "hq_city": "Boulder, CO",
     "website": "https://www.enveda.com",
     "profile": {
-      "what": "Uses mass-spectrometry and AI to read and translate the chemistry of natural compounds at scale, aiming to discover medicines faster than traditional drug discovery.",
+      "what": {
+        "en": "Uses mass-spectrometry and AI to read and translate the chemistry of natural compounds at scale, aiming to discover medicines faster than traditional drug discovery.",
+        "zh": "運用質譜與 AI 大規模解讀並轉譯天然化合物的化學組成,目標是比傳統藥物探索更快找到藥品。"
+      },
       "modalities": [
         "ai-ml-platform",
         "small-molecule"
@@ -1645,7 +1714,10 @@
     "hq_city": "Berkeley, CA",
     "website": "https://www.glyphic.bio",
     "profile": {
-      "what": "Developing Protein Sequencing by Expansion (ProSE), a de novo high-throughput proteome sequencing technology able to discriminate all 20 amino acids and post-translational modifications with single-molecule sensitivity.",
+      "what": {
+        "en": "Developing Protein Sequencing by Expansion (ProSE), a de novo high-throughput proteome sequencing technology able to discriminate all 20 amino acids and post-translational modifications with single-molecule sensitivity.",
+        "zh": "開發 Protein Sequencing by Expansion(ProSE),一種從頭高通量的蛋白體定序技術,能以單分子靈敏度分辨全部 20 種胺基酸與轉譯後修飾。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -1685,7 +1757,10 @@
     "hq_city": "Somerville, MA",
     "website": "https://generatebiomedicines.com",
     "profile": {
-      "what": "Uses machine learning and biological engineering ('generative biology') to design protein-based medicines across multiple therapeutic modalities, spanning immunology, oncology and infectious disease.",
+      "what": {
+        "en": "Uses machine learning and biological engineering ('generative biology') to design protein-based medicines across multiple therapeutic modalities, spanning immunology, oncology and infectious disease.",
+        "zh": "運用機器學習與生物工程(「生成式生物學」)設計蛋白質藥品,橫跨多種治療模式,涵蓋免疫、腫瘤與感染症。"
+      },
       "modalities": [
         "ai-ml-platform",
         "biologics-antibody"
@@ -1745,7 +1820,10 @@
     "hq_city": "South San Francisco, CA",
     "website": "https://www.insitro.com",
     "profile": {
-      "what": "Machine-learning-driven drug discovery and development company applying causal human biology models across ALS, metabolic disease and cancer.",
+      "what": {
+        "en": "Machine-learning-driven drug discovery and development company applying causal human biology models across ALS, metabolic disease and cancer.",
+        "zh": "機器學習驅動的藥物探索與開發公司,將因果性的人類生物學模型應用於 ALS、代謝疾病與癌症。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -1804,7 +1882,10 @@
     "hq_city": "Watertown, MA",
     "website": "https://www.dynotx.com",
     "profile": {
-      "what": "AI platform for designing high-performance AAV gene-delivery vehicles ('CapsidMap') licensed to gene-therapy partners.",
+      "what": {
+        "en": "AI platform for designing high-performance AAV gene-delivery vehicles ('CapsidMap') licensed to gene-therapy partners.",
+        "zh": "設計高效能 AAV 基因遞送載體的 AI 平台(CapsidMap),並授權給基因治療合作夥伴。"
+      },
       "modalities": [
         "ai-ml-platform",
         "gene-therapy"
@@ -1845,7 +1926,10 @@
     "hq_city": "South San Francisco, CA",
     "website": "https://www.xaira.com",
     "profile": {
-      "what": "Builds predictive and agentic AI models spanning the full drug discovery and development process.",
+      "what": {
+        "en": "Builds predictive and agentic AI models spanning the full drug discovery and development process.",
+        "zh": "打造涵蓋藥物探索與開發全流程的預測型與代理式(agentic)AI 模型。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -1886,7 +1970,10 @@
     "hq_city": "New York, NY",
     "website": "https://paige.ai",
     "profile": {
-      "what": "AI-assisted digital pathology company offering diagnostic applications and foundation models to help pathologists identify and classify cancer from tissue samples.",
+      "what": {
+        "en": "AI-assisted digital pathology company offering diagnostic applications and foundation models to help pathologists identify and classify cancer from tissue samples.",
+        "zh": "AI 輔助的數位病理公司,提供診斷應用與基礎模型,協助病理醫師從組織檢體辨識並分類癌症。"
+      },
       "modalities": [
         "ai-ml-platform",
         "software-samd"
@@ -1931,7 +2018,10 @@
     "hq_city": "San Mateo, CA",
     "website": "https://www.bighatbio.com",
     "profile": {
-      "what": "Antibody-therapeutics platform ('Milliner') that integrates machine learning, automation and synthetic biology to discover and engineer antibodies from target through the clinic.",
+      "what": {
+        "en": "Antibody-therapeutics platform ('Milliner') that integrates machine learning, automation and synthetic biology to discover and engineer antibodies from target through the clinic.",
+        "zh": "抗體新藥開發平台(Milliner),整合機器學習、自動化與合成生物學,從標靶一路到臨床階段探索並工程化抗體。"
+      },
       "modalities": [
         "ai-ml-platform",
         "biologics-antibody",

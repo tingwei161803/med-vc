@@ -14,7 +14,10 @@
     "country": "Israel",
     "website": "https://www.tytocare.com",
     "profile": {
-      "what": "Handheld, app-guided device (Home Smart Clinic / Pro Smart Clinic) that lets patients or clinicians replicate an in-person physical exam remotely — heart, lungs, skin, ears, throat and abdomen — for telehealth visits, backed by FDA-cleared AI algorithms that flag abnormal findings.",
+      "what": {
+        "en": "Handheld, app-guided device (Home Smart Clinic / Pro Smart Clinic) that lets patients or clinicians replicate an in-person physical exam remotely — heart, lungs, skin, ears, throat and abdomen — for telehealth visits, backed by FDA-cleared AI algorithms that flag abnormal findings.",
+        "zh": "手持式、由 App 引導的裝置(Home Smart Clinic / Pro Smart Clinic),讓患者或臨床人員遠距重現實體理學檢查——心臟、肺部、皮膚、耳朵、喉嚨與腹部——供遠距醫療看診使用,並搭載通過 FDA 核准、可標示異常發現的 AI 演算法。"
+      },
       "modalities": [
         "medical-hardware",
         "software-samd",
@@ -133,7 +136,10 @@
     "country": "United States",
     "website": "https://www.chaidiscovery.com",
     "profile": {
-      "what": "Develops Chai-1, a multi-modal AI foundation model for molecular structure prediction that unifies proteins, small molecules, DNA, RNA and glycosylation, released open-source (Apache 2.0) with a commercial partnership track for drug discovery.",
+      "what": {
+        "en": "Develops Chai-1, a multi-modal AI foundation model for molecular structure prediction that unifies proteins, small molecules, DNA, RNA and glycosylation, released open-source (Apache 2.0) with a commercial partnership track for drug discovery.",
+        "zh": "開發 Chai-1,一套用於分子結構預測的多模態 AI 基礎模型,統一處理蛋白質、小分子、DNA、RNA 與醣基化,以開源(Apache 2.0)釋出,並設有面向藥物探索的商業合作管道。"
+      },
       "modalities": [
         "ai-ml-platform"
       ]
@@ -174,7 +180,10 @@
     "country": "New Zealand",
     "website": "https://www.tokueyes.com",
     "profile": {
-      "what": "AI models that read retinal photographs to screen for systemic disease risk — BioAge (biological-age assessment), CLAiR (cardiovascular risk) and MyKidneyAI (chronic kidney disease detection in diabetics) — built on a dataset of 4.3M+ retinal images.",
+      "what": {
+        "en": "AI models that read retinal photographs to screen for systemic disease risk — BioAge (biological-age assessment), CLAiR (cardiovascular risk) and MyKidneyAI (chronic kidney disease detection in diabetics) — built on a dataset of 4.3M+ retinal images.",
+        "zh": "以 AI 模型判讀視網膜照片、篩檢全身性疾病風險——BioAge(生物年齡評估)、CLAiR(心血管風險)與 MyKidneyAI(糖尿病患者的慢性腎臟病偵測)——建立在超過 430 萬張視網膜影像的資料集上。"
+      },
       "modalities": [
         "ai-ml-platform",
         "software-samd"
@@ -237,7 +246,10 @@
     "country": "France",
     "website": "https://imchecktherapeutics.com",
     "profile": {
-      "what": "Develops immunotherapeutic antibodies targeting butyrophilin (BTN) and BTN-like (BTNL) checkpoint molecules to activate gamma-delta T cells against cancer, infectious and autoimmune disease; lead candidate ICT01 is in first-line AML trials.",
+      "what": {
+        "en": "Develops immunotherapeutic antibodies targeting butyrophilin (BTN) and BTN-like (BTNL) checkpoint molecules to activate gamma-delta T cells against cancer, infectious and autoimmune disease; lead candidate ICT01 is in first-line AML trials.",
+        "zh": "開發免疫治療抗體,鎖定 butyrophilin(BTN)與 BTN-like(BTNL)檢查點分子以活化 gamma-delta T 細胞,對抗癌症、感染症與自體免疫疾病;主力候選藥物 ICT01 正進行第一線 AML 臨床試驗。"
+      },
       "modalities": [
         "biologics-antibody"
       ],
@@ -303,7 +315,10 @@
     "country": "United States",
     "website": "https://www.enzo.health",
     "profile": {
-      "what": "AI-native electronic health record and workflow platform purpose-built for home health agencies, automating eligibility verification, care coordination, scheduling, OASIS documentation, coding, billing and quality assurance.",
+      "what": {
+        "en": "AI-native electronic health record and workflow platform purpose-built for home health agencies, automating eligibility verification, care coordination, scheduling, OASIS documentation, coding, billing and quality assurance.",
+        "zh": "AI 原生的電子病歷與工作流程平台,專為居家照護機構打造,自動化資格查核、照護協調、排班、OASIS 文件、編碼、帳務與品質管理。"
+      },
       "modalities": [
         "ai-ml-platform",
         "software-samd"
@@ -389,7 +404,10 @@
     "hq_city": "Boston, MA",
     "website": "https://www.nimbustx.com",
     "profile": {
-      "what": "Small-molecule drug discovery company built around computational structure-based design for highly selective targets across oncology, immunology and metabolic disease; sold two clinical-stage programs to Big Pharma (Gilead 2016, Takeda 2023) while advancing its own pipeline.",
+      "what": {
+        "en": "Small-molecule drug discovery company built around computational structure-based design for highly selective targets across oncology, immunology and metabolic disease; sold two clinical-stage programs to Big Pharma (Gilead 2016, Takeda 2023) while advancing its own pipeline.",
+        "zh": "小分子藥物探索公司,以計算式的結構導向設計打造腫瘤、免疫與代謝疾病的高選擇性標靶藥物;曾將兩項臨床階段計畫賣給大藥廠(2016 年 Gilead、2023 年 Takeda),同時推進自有研發管線。"
+      },
       "modalities": [
         "small-molecule"
       ],
@@ -451,7 +469,10 @@
     "country": "Germany",
     "website": "https://www.humanoo.com",
     "profile": {
-      "what": "Corporate wellness / employee-engagement platform combining fitness, nutrition and mental-health content with HR analytics for employers."
+      "what": {
+        "en": "Corporate wellness / employee-engagement platform combining fitness, nutrition and mental-health content with HR analytics for employers.",
+        "zh": "企業健康促進/員工參與平台,結合健身、營養與心理健康內容,並為企業雇主提供人資分析。"
+      }
     },
     "funding": {
       "investors": [
@@ -503,7 +524,10 @@
     "country": "Italy",
     "website": "https://www.aliatherapeutics.com",
     "profile": {
-      "what": "Gene-editing company developing treatments for genetic diseases, working to unlock new therapeutic targets and tissues while improving editing safety.",
+      "what": {
+        "en": "Gene-editing company developing treatments for genetic diseases, working to unlock new therapeutic targets and tissues while improving editing safety.",
+        "zh": "基因編輯公司,開發遺傳疾病的療法,致力於開拓新的治療標靶與組織,同時提升編輯的安全性。"
+      },
       "modalities": [
         "gene-editing"
       ],
@@ -563,7 +587,10 @@
     "country": "Hong Kong",
     "website": "https://www.prenetics.com",
     "profile": {
-      "what": "Health-sciences company spanning genetic testing/diagnostics and consumer health products, including its IM8 health-supplements brand.",
+      "what": {
+        "en": "Health-sciences company spanning genetic testing/diagnostics and consumer health products, including its IM8 health-supplements brand.",
+        "zh": "健康科學公司,業務橫跨基因檢測/診斷與消費者健康產品,包括旗下的 IM8 保健食品品牌。"
+      },
       "modalities": [
         "ai-ml-platform"
       ]
@@ -624,7 +651,10 @@
     "country": "Israel",
     "website": "https://www.vectoriousmedtech.com",
     "profile": {
-      "what": "Implantable V-LAP sensor placed in the heart's interatrial septum to continuously measure left atrial pressure and transmit daily readings, enabling physician-guided self-management of chronic heart failure.",
+      "what": {
+        "en": "Implantable V-LAP sensor placed in the heart's interatrial septum to continuously measure left atrial pressure and transmit daily readings, enabling physician-guided self-management of chronic heart failure.",
+        "zh": "可植入的 V-LAP 感測器置於心臟的心房中隔,持續量測左心房壓力並每日回傳讀數,讓慢性心衰竭患者在醫師指導下自我管理。"
+      },
       "modalities": [
         "medical-hardware",
         "wearables-sensors"
@@ -679,7 +709,10 @@
     "hq_city": "Tel Aviv",
     "website": "https://lutris-pharma.com",
     "profile": {
-      "what": "Clinical-stage biopharmaceutical company developing LUT014, a topical B-RAF inhibitor for acneiform rash caused by EGFR-inhibitor cancer therapies.",
+      "what": {
+        "en": "Clinical-stage biopharmaceutical company developing LUT014, a topical B-RAF inhibitor for acneiform rash caused by EGFR-inhibitor cancer therapies.",
+        "zh": "臨床階段生物製藥公司,開發 LUT014——一款外用 B-RAF 抑制劑,治療 EGFR 抑制劑抗癌療法引起的痤瘡樣皮疹。"
+      },
       "modalities": [
         "small-molecule",
         "drug-delivery"
@@ -721,7 +754,10 @@
     "country": "Israel",
     "website": "https://www.biondbio.com",
     "profile": {
-      "what": "Immuno-oncology biologics company developing first-in-class antibodies against novel immune-evasion pathways, led by BND-22 (anti-ILT2).",
+      "what": {
+        "en": "Immuno-oncology biologics company developing first-in-class antibodies against novel immune-evasion pathways, led by BND-22 (anti-ILT2).",
+        "zh": "免疫腫瘤生物製劑公司,開發鎖定新型免疫逃脫路徑的 first-in-class 抗體,以 BND-22(抗 ILT2)為主力。"
+      },
       "modalities": [
         "biologics-antibody"
       ],
@@ -776,7 +812,10 @@
     "region": "united-states",
     "country": "United States",
     "profile": {
-      "what": "Oncology care-management platform combining EHR data, electronic patient-reported outcomes (ePROs) and evidence-based guidelines to generate personalized cancer-care plans and symptom monitoring.",
+      "what": {
+        "en": "Oncology care-management platform combining EHR data, electronic patient-reported outcomes (ePROs) and evidence-based guidelines to generate personalized cancer-care plans and symptom monitoring.",
+        "zh": "腫瘤照護管理平台,結合電子病歷資料、電子病人自述結果(ePRO)與實證指引,產生個人化的癌症照護計畫與症狀監測。"
+      },
       "modalities": [
         "software-samd",
         "ai-ml-platform"
@@ -822,7 +861,10 @@
     "hq_city": "Cambridge, MA",
     "website": "https://www.citytx.com",
     "profile": {
-      "what": "RNA interference (RNAi) therapeutics company engineering novel siRNA trigger chemistries and precision tissue-targeting ligands to reach cell types beyond the liver.",
+      "what": {
+        "en": "RNA interference (RNAi) therapeutics company engineering novel siRNA trigger chemistries and precision tissue-targeting ligands to reach cell types beyond the liver.",
+        "zh": "RNA 干擾(RNAi)新藥開發公司,設計新型 siRNA trigger 化學結構與精準組織標靶配體,以觸及肝臟以外的細胞類型。"
+      },
       "modalities": [
         "rna-therapeutics"
       ],
@@ -908,7 +950,10 @@
     "region": "united-states",
     "country": "United States",
     "profile": {
-      "what": "Virtual behavioral-health provider delivering structured, short-term therapy and psychiatry programs for anxiety, depression and related conditions, integrated with payers.",
+      "what": {
+        "en": "Virtual behavioral-health provider delivering structured, short-term therapy and psychiatry programs for anxiety, depression and related conditions, integrated with payers.",
+        "zh": "線上行為健康服務商,提供結構化的短期治療與精神醫學療程,處理焦慮、憂鬱及相關疾病,並與支付方整合。"
+      },
       "indications": [
         "psychiatry-mental-health"
       ]
@@ -969,7 +1014,10 @@
     "country": "United States",
     "website": "https://www.ascertain.com",
     "profile": {
-      "what": "Healthcare AI platform automating administrative workflows for provider organizations — prior authorizations, referrals, eligibility checks, denials/appeals and care coordination.",
+      "what": {
+        "en": "Healthcare AI platform automating administrative workflows for provider organizations — prior authorizations, referrals, eligibility checks, denials/appeals and care coordination.",
+        "zh": "醫療 AI 平台,為醫療院所自動化行政流程——事前審查、轉診、資格查核、拒付/申訴與照護協調。"
+      },
       "modalities": [
         "ai-ml-platform"
       ]
@@ -1023,7 +1071,10 @@
     "country": "United States",
     "website": "https://www.joinmidi.com",
     "profile": {
-      "what": "Virtual clinic specializing in perimenopause and menopause care, offering personalized hormone-therapy and GLP-1 prescriptions, supplements and lab work through insurance-covered and self-pay virtual visits.",
+      "what": {
+        "en": "Virtual clinic specializing in perimenopause and menopause care, offering personalized hormone-therapy and GLP-1 prescriptions, supplements and lab work through insurance-covered and self-pay virtual visits.",
+        "zh": "專攻更年期前期與更年期照護的線上診所,透過保險給付或自費的線上看診提供個人化荷爾蒙療法與 GLP-1 處方、補充品與檢驗。"
+      },
       "indications": [
         "womens-health",
         "endocrinology"
@@ -1080,7 +1131,10 @@
     "hq_city": "Seattle, WA",
     "website": "https://www.oisinbio.com",
     "profile": {
-      "what": "Develops redosable genetic medicines targeting aging biology — including senescent-cell clearance, targeted fat removal and muscle building — via its Fusogenix non-viral Proteo-Lipid Vehicle delivery platform.",
+      "what": {
+        "en": "Develops redosable genetic medicines targeting aging biology — including senescent-cell clearance, targeted fat removal and muscle building — via its Fusogenix non-viral Proteo-Lipid Vehicle delivery platform.",
+        "zh": "開發可重複給藥的基因醫藥,鎖定老化生物學——包括清除衰老細胞、標靶去除脂肪與增肌——透過其 Fusogenix 非病毒型 Proteo-Lipid Vehicle 遞送平台。"
+      },
       "modalities": [
         "gene-therapy",
         "drug-delivery"
@@ -1136,7 +1190,10 @@
     "hq_city": "Emeryville, CA",
     "website": "https://www.faunabio.com",
     "profile": {
-      "what": "Uses comparative genomics from extreme-adapted animal species (hibernators, etc.) and its proprietary Convergence platform to find novel human drug targets for metabolic and age-related disease.",
+      "what": {
+        "en": "Uses comparative genomics from extreme-adapted animal species (hibernators, etc.) and its proprietary Convergence platform to find novel human drug targets for metabolic and age-related disease.",
+        "zh": "運用極端環境適應動物(如冬眠動物)的比較基因體學與自有的 Convergence 平台,尋找代謝與老化相關疾病的新型人類藥物標靶。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],
@@ -1199,7 +1256,10 @@
     "country": "United States",
     "website": "https://www.photys.com",
     "profile": {
-      "what": "'Proximity-based therapeutics' company running three modality platforms — PROTAC-based protein degradation, PHICS phosphorylation control, and tPRIME protein-expression restoration — against autoimmune, inflammatory, oncology and cardiometabolic targets.",
+      "what": {
+        "en": "'Proximity-based therapeutics' company running three modality platforms — PROTAC-based protein degradation, PHICS phosphorylation control, and tPRIME protein-expression restoration — against autoimmune, inflammatory, oncology and cardiometabolic targets.",
+        "zh": "主打「鄰近效應療法」(proximity-based therapeutics)的公司,運作三個模式平台——以 PROTAC 為基礎的蛋白降解、PHICS 磷酸化調控,以及 tPRIME 蛋白表現回復——鎖定自體免疫、發炎、腫瘤與心臟代謝標靶。"
+      },
       "modalities": [
         "protein-degradation",
         "small-molecule"
@@ -1286,7 +1346,10 @@
     "hq_city": "Beijing",
     "website": "https://www.shukun.com",
     "profile": {
-      "what": "AI-assisted diagnosis and treatment company whose 'Shukun Kun' multimodal medical large language model powers 'Digital Doctor' AI agents across cardiac, brain, chest, abdominal, breast and musculoskeletal imaging for hospitals and primary-care providers.",
+      "what": {
+        "en": "AI-assisted diagnosis and treatment company whose 'Shukun Kun' multimodal medical large language model powers 'Digital Doctor' AI agents across cardiac, brain, chest, abdominal, breast and musculoskeletal imaging for hospitals and primary-care providers.",
+        "zh": "AI 輔助診斷與治療公司,以自家「Shukun Kun」多模態醫療大型語言模型驅動「Digital Doctor」AI agent,涵蓋心臟、腦部、胸部、腹部、乳房與骨骼肌肉影像,服務醫院與基層醫療院所。"
+      },
       "modalities": [
         "ai-ml-platform",
         "software-samd"
@@ -1351,7 +1414,10 @@
     "hq_city": "Huntington Beach, CA",
     "website": "https://www.bivacor.com",
     "profile": {
-      "what": "Total Artificial Heart (TAH) — an electro-mechanical rotary blood pump with a single magnetically levitated rotor that simultaneously drives systemic and pulmonary circulation — as a bridge-to-transplant for end-stage biventricular heart failure.",
+      "what": {
+        "en": "Total Artificial Heart (TAH) — an electro-mechanical rotary blood pump with a single magnetically levitated rotor that simultaneously drives systemic and pulmonary circulation — as a bridge-to-transplant for end-stage biventricular heart failure.",
+        "zh": "全人工心臟(TAH)——一款採用單一磁浮轉子的電動機械式旋轉血液幫浦,可同時驅動體循環與肺循環——作為末期雙心室心衰竭患者的移植前橋接方案。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -1410,7 +1476,10 @@
     "country": "United States",
     "website": "https://pendulumlife.com",
     "profile": {
-      "what": "Develops next-generation, oxygen-sensitive anaerobic probiotic strains sold as medical/clinical-grade probiotics, including a glucose-control product clinically shown to improve A1C in type 2 diabetes.",
+      "what": {
+        "en": "Develops next-generation, oxygen-sensitive anaerobic probiotic strains sold as medical/clinical-grade probiotics, including a glucose-control product clinically shown to improve A1C in type 2 diabetes.",
+        "zh": "開發新一代對氧氣敏感的厭氧益生菌菌株,以醫療/臨床級益生菌販售,包括一款經臨床證實可改善第二型糖尿病 A1C 的血糖控制產品。"
+      },
       "modalities": [
         "microbiome"
       ],
@@ -1462,7 +1531,10 @@
     "hq_city": "Fitzroy, Victoria",
     "website": "https://www.dimerix.com",
     "profile": {
-      "what": "Clinical-stage biopharmaceutical company with a portfolio of drug candidates for inflammatory diseases, including kidney and respiratory conditions.",
+      "what": {
+        "en": "Clinical-stage biopharmaceutical company with a portfolio of drug candidates for inflammatory diseases, including kidney and respiratory conditions.",
+        "zh": "臨床階段生物製藥公司,擁有一系列針對發炎疾病的候選藥物,涵蓋腎臟與呼吸道疾病。"
+      },
       "modalities": [
         "small-molecule"
       ],
@@ -1512,7 +1584,10 @@
     "country": "United States",
     "website": "https://www.nexhealth.com",
     "profile": {
-      "what": "Patient-engagement platform automating front-office operations for medical and dental practices — online scheduling, digital intake, payments and insurance verification — via an EHR-integration API (NexHealth Synchronizer) connecting to 60+ EHR systems.",
+      "what": {
+        "en": "Patient-engagement platform automating front-office operations for medical and dental practices — online scheduling, digital intake, payments and insurance verification — via an EHR-integration API (NexHealth Synchronizer) connecting to 60+ EHR systems.",
+        "zh": "患者互動平台,為醫療與牙科診所自動化前台作業——線上預約、數位報到、支付與保險查驗——透過串接 60 多種電子病歷系統的整合 API(NexHealth Synchronizer)。"
+      },
       "modalities": [
         "software-samd"
       ],
@@ -1559,7 +1634,10 @@
     "country": "Australia",
     "website": "https://www.healthmatch.io",
     "profile": {
-      "what": "Clinical-trial patient-recruitment platform that matches patients to relevant trials.",
+      "what": {
+        "en": "Clinical-trial patient-recruitment platform that matches patients to relevant trials.",
+        "zh": "臨床試驗受試者招募平台,為患者媒合合適的試驗。"
+      },
       "modalities": [
         "software-samd"
       ]
@@ -1605,7 +1683,10 @@
     "hq_city": "Waterloo, NSW",
     "website": "https://www.sonder.io",
     "profile": {
-      "what": "Employee-wellbeing app combining 24/7 mental-health counselling, telehealth medical support (nurses/GPs) and personal-safety tools (journey tracking, critical-incident response) in a single platform for employers.",
+      "what": {
+        "en": "Employee-wellbeing app combining 24/7 mental-health counselling, telehealth medical support (nurses/GPs) and personal-safety tools (journey tracking, critical-incident response) in a single platform for employers.",
+        "zh": "員工身心福祉 App,在單一平台整合 24/7 心理健康諮商、遠距醫療支援(護理人員/家醫)與人身安全工具(行程追蹤、重大事件應變),供企業雇主使用。"
+      },
       "indications": [
         "psychiatry-mental-health"
       ],
@@ -1653,7 +1734,10 @@
     "hq_city": "Melbourne",
     "website": "https://www.mindsethealth.com",
     "profile": {
-      "what": "AI-powered digital-therapeutic apps that train the brain-body axis via validated behavioral programs, spanning IBS (Nerva), menopause (Evia), mental health (Claria) and chronic pain (Relio).",
+      "what": {
+        "en": "AI-powered digital-therapeutic apps that train the brain-body axis via validated behavioral programs, spanning IBS (Nerva), menopause (Evia), mental health (Claria) and chronic pain (Relio).",
+        "zh": "AI 驅動的數位療法 App,以經驗證的行為方案訓練腦-身軸,涵蓋腸躁症(Nerva)、更年期(Evia)、心理健康(Claria)與慢性疼痛(Relio)。"
+      },
       "modalities": [
         "digital-therapeutics"
       ],
@@ -1709,7 +1793,10 @@
     "hq_city": "Auckland",
     "website": "https://www.formus.com",
     "profile": {
-      "what": "AI-automated 3D pre-operative planning software for joint-replacement surgery, converting medical scans into interactive 3D models for patient-specific implant selection and placement; flagship product Formus Hip.",
+      "what": {
+        "en": "AI-automated 3D pre-operative planning software for joint-replacement surgery, converting medical scans into interactive 3D models for patient-specific implant selection and placement; flagship product Formus Hip.",
+        "zh": "AI 自動化的 3D 術前規劃軟體,用於人工關節置換手術,把醫學掃描影像轉成互動式 3D 模型,供個人化的植入物選擇與置放;旗艦產品為 Formus Hip。"
+      },
       "modalities": [
         "software-samd",
         "ai-ml-platform"
@@ -1768,7 +1855,10 @@
     "country": "Australia",
     "website": "https://www.chemist2u.com.au",
     "profile": {
-      "what": "On-demand pharmacy delivery platform connecting customers to local Australian pharmacies, with a digital script wallet and supported treatment programs for weight loss and menopause.",
+      "what": {
+        "en": "On-demand pharmacy delivery platform connecting customers to local Australian pharmacies, with a digital script wallet and supported treatment programs for weight loss and menopause.",
+        "zh": "隨選藥品配送平台,串接顧客與澳洲在地藥局,並提供數位處方箋錢包,以及減重與更年期的支援治療方案。"
+      },
       "development_stage": "commercial"
     },
     "funding": {
@@ -1811,7 +1901,10 @@
     "hq_city": "Auckland",
     "website": "https://www.kiteahealth.com",
     "profile": {
-      "what": "Implantable pressure sensor that continuously monitors cerebrospinal-fluid dynamics for hydrocephalus patients, giving patients and clinicians real-time data as an alternative to unchanged 1950s-era shunt systems.",
+      "what": {
+        "en": "Implantable pressure sensor that continuously monitors cerebrospinal-fluid dynamics for hydrocephalus patients, giving patients and clinicians real-time data as an alternative to unchanged 1950s-era shunt systems.",
+        "zh": "可植入式壓力感測器,持續監測水腦症患者的腦脊髓液動態,為患者與臨床人員提供即時數據,作為 1950 年代以來未曾改變的分流管系統之外的選擇。"
+      },
       "modalities": [
         "medical-hardware",
         "wearables-sensors"
@@ -1868,7 +1961,10 @@
     "hq_city": "Docklands, Victoria",
     "website": "https://www.sisuhealthgroup.com",
     "profile": {
-      "what": "Self-service health-screening kiosks ('SiSU Health Stations') offering free five-minute health checks (including blood pressure) in pharmacies, workplaces and events, with results delivered on-screen and via a companion app.",
+      "what": {
+        "en": "Self-service health-screening kiosks ('SiSU Health Stations') offering free five-minute health checks (including blood pressure) in pharmacies, workplaces and events, with results delivered on-screen and via a companion app.",
+        "zh": "自助式健康篩檢站(「SiSU Health Stations」),在藥局、職場與活動現場提供五分鐘免費健康檢查(含血壓),結果直接顯示於螢幕並透過搭配的 app 呈現。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -1924,7 +2020,10 @@
     "hq_city": "Los Angeles, CA",
     "website": "https://www.canaryhealth.com",
     "profile": {
-      "what": "Peer-led digital-therapeutics programs for chronic-disease self-management ('Better Choices, Better Health') and caregiver support ('Building Better Caregivers'), aimed at improving medication adherence and reducing healthcare costs.",
+      "what": {
+        "en": "Peer-led digital-therapeutics programs for chronic-disease self-management ('Better Choices, Better Health') and caregiver support ('Building Better Caregivers'), aimed at improving medication adherence and reducing healthcare costs.",
+        "zh": "由同儕帶領的數位療法計畫,涵蓋慢性病自我管理(「Better Choices, Better Health」)與照顧者支持(「Building Better Caregivers」),目標是提升用藥順從性並降低醫療成本。"
+      },
       "modalities": [
         "digital-therapeutics"
       ],
@@ -1969,7 +2068,10 @@
     "country": "New Zealand",
     "website": "https://www.respiraq.com",
     "profile": {
-      "what": "Active Humidifier System for ventilated patients — a compact HME-scale device using patented smart material to capture moisture from exhaled breath and release it on inhalation, eliminating external water supply needs.",
+      "what": {
+        "en": "Active Humidifier System for ventilated patients — a compact HME-scale device using patented smart material to capture moisture from exhaled breath and release it on inhalation, eliminating external water supply needs.",
+        "zh": "為使用呼吸器患者設計的 Active Humidifier System——體積與 HME 相當的裝置,以專利智慧材料從呼氣中捕捉水分、於吸氣時釋放,免除外部供水需求。"
+      },
       "modalities": [
         "medical-hardware"
       ],
@@ -2019,7 +2121,10 @@
     "country": "Australia",
     "website": "https://www.everlab.com.au",
     "profile": {
-      "what": "Preventive-health and longevity clinic platform combining blood work, genetic testing, imaging and clinician consultations to identify health risks before symptoms appear.",
+      "what": {
+        "en": "Preventive-health and longevity clinic platform combining blood work, genetic testing, imaging and clinician consultations to identify health risks before symptoms appear.",
+        "zh": "預防醫學與長壽診所平台,結合血液檢驗、基因檢測、影像與臨床人員諮詢,在症狀出現前找出健康風險。"
+      },
       "modalities": [
         "ai-ml-platform"
       ],

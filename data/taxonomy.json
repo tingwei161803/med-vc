@@ -80,31 +80,38 @@
   "stages": [
     {
       "slug": "pre-seed",
-      "label_en": "Pre-seed / company creation"
+      "label_en": "Pre-seed / company creation",
+      "label_zh": "Pre-seed/公司創建"
     },
     {
       "slug": "seed",
-      "label_en": "Seed"
+      "label_en": "Seed",
+      "label_zh": "種子輪"
     },
     {
       "slug": "series-a",
-      "label_en": "Series A"
+      "label_en": "Series A",
+      "label_zh": "A 輪"
     },
     {
       "slug": "series-b",
-      "label_en": "Series B"
+      "label_en": "Series B",
+      "label_zh": "B 輪"
     },
     {
       "slug": "series-c-plus",
-      "label_en": "Series C and later"
+      "label_en": "Series C and later",
+      "label_zh": "C 輪以後"
     },
     {
       "slug": "growth",
-      "label_en": "Growth / late-stage / pre-IPO"
+      "label_en": "Growth / late-stage / pre-IPO",
+      "label_zh": "成長期/後期/Pre-IPO"
     },
     {
       "slug": "all",
-      "label_en": "Multi-stage / all stages"
+      "label_en": "Multi-stage / all stages",
+      "label_zh": "跨階段/全階段"
     }
   ],
   "sectors": [
@@ -212,157 +219,195 @@
   "modalities": [
     {
       "slug": "small-molecule",
-      "label_en": "Small molecule"
+      "label_en": "Small molecule",
+      "label_zh": "小分子藥物"
     },
     {
       "slug": "biologics-antibody",
-      "label_en": "Biologics / Antibodies (incl. ADC, bispecifics)"
+      "label_en": "Biologics / Antibodies (incl. ADC, bispecifics)",
+      "label_zh": "生物製劑/抗體(含 ADC、雙特異性抗體)"
     },
     {
       "slug": "cell-therapy",
-      "label_en": "Cell therapy"
+      "label_en": "Cell therapy",
+      "label_zh": "細胞治療"
     },
     {
       "slug": "gene-therapy",
-      "label_en": "Gene therapy"
+      "label_en": "Gene therapy",
+      "label_zh": "基因治療"
     },
     {
       "slug": "gene-editing",
-      "label_en": "Gene editing"
+      "label_en": "Gene editing",
+      "label_zh": "基因編輯"
     },
     {
       "slug": "rna-therapeutics",
-      "label_en": "RNA therapeutics (mRNA, siRNA, ASO)"
+      "label_en": "RNA therapeutics (mRNA, siRNA, ASO)",
+      "label_zh": "RNA 療法(mRNA、siRNA、ASO)"
     },
     {
       "slug": "vaccines",
-      "label_en": "Vaccines"
+      "label_en": "Vaccines",
+      "label_zh": "疫苗"
     },
     {
       "slug": "microbiome",
-      "label_en": "Microbiome"
+      "label_en": "Microbiome",
+      "label_zh": "微生物體"
     },
     {
       "slug": "radiopharmaceuticals",
-      "label_en": "Radiopharmaceuticals"
+      "label_en": "Radiopharmaceuticals",
+      "label_zh": "放射性藥物"
     },
     {
       "slug": "protein-degradation",
-      "label_en": "Targeted protein degradation"
+      "label_en": "Targeted protein degradation",
+      "label_zh": "標靶蛋白降解"
     },
     {
       "slug": "drug-delivery",
-      "label_en": "Drug delivery"
+      "label_en": "Drug delivery",
+      "label_zh": "藥物遞送"
     },
     {
       "slug": "neurotech-bci",
-      "label_en": "Neurotech / Brain-computer interface"
+      "label_en": "Neurotech / Brain-computer interface",
+      "label_zh": "神經科技/腦機介面"
     },
     {
       "slug": "digital-therapeutics",
-      "label_en": "Digital therapeutics (DTx)"
+      "label_en": "Digital therapeutics (DTx)",
+      "label_zh": "數位療法(DTx)"
     },
     {
       "slug": "medical-hardware",
-      "label_en": "Medical hardware / Devices"
+      "label_en": "Medical hardware / Devices",
+      "label_zh": "醫療硬體/醫材"
     },
     {
       "slug": "software-samd",
-      "label_en": "Software as a medical device (SaMD)"
+      "label_en": "Software as a medical device (SaMD)",
+      "label_zh": "醫療器材軟體(SaMD)"
     },
     {
       "slug": "ai-ml-platform",
-      "label_en": "AI/ML platform"
+      "label_en": "AI/ML platform",
+      "label_zh": "AI/機器學習平台"
     },
     {
       "slug": "wearables-sensors",
-      "label_en": "Wearables / Biosensors"
+      "label_en": "Wearables / Biosensors",
+      "label_zh": "穿戴裝置/生物感測器"
     },
     {
       "slug": "lab-automation",
-      "label_en": "Lab automation / Robotics"
+      "label_en": "Lab automation / Robotics",
+      "label_zh": "實驗室自動化/機器人"
     }
   ],
   "indications": [
     {
       "slug": "oncology",
-      "label_en": "Oncology"
+      "label_en": "Oncology",
+      "label_zh": "腫瘤"
     },
     {
       "slug": "neurology",
-      "label_en": "Neurology / CNS"
+      "label_en": "Neurology / CNS",
+      "label_zh": "神經/中樞神經"
     },
     {
       "slug": "psychiatry-mental-health",
-      "label_en": "Psychiatry / Mental health"
+      "label_en": "Psychiatry / Mental health",
+      "label_zh": "精神醫學/心理健康"
     },
     {
       "slug": "cardiovascular",
-      "label_en": "Cardiovascular"
+      "label_en": "Cardiovascular",
+      "label_zh": "心血管"
     },
     {
       "slug": "metabolic-obesity",
-      "label_en": "Metabolic / Obesity / Diabetes"
+      "label_en": "Metabolic / Obesity / Diabetes",
+      "label_zh": "代謝/肥胖/糖尿病"
     },
     {
       "slug": "immunology-inflammation",
-      "label_en": "Immunology / Inflammation"
+      "label_en": "Immunology / Inflammation",
+      "label_zh": "免疫/發炎"
     },
     {
       "slug": "infectious-disease",
-      "label_en": "Infectious disease"
+      "label_en": "Infectious disease",
+      "label_zh": "感染症"
     },
     {
       "slug": "rare-disease",
-      "label_en": "Rare / Genetic disease"
+      "label_en": "Rare / Genetic disease",
+      "label_zh": "罕見/遺傳疾病"
     },
     {
       "slug": "ophthalmology",
-      "label_en": "Ophthalmology"
+      "label_en": "Ophthalmology",
+      "label_zh": "眼科"
     },
     {
       "slug": "dermatology",
-      "label_en": "Dermatology"
+      "label_en": "Dermatology",
+      "label_zh": "皮膚科"
     },
     {
       "slug": "respiratory",
-      "label_en": "Respiratory"
+      "label_en": "Respiratory",
+      "label_zh": "呼吸道"
     },
     {
       "slug": "nephrology-urology",
-      "label_en": "Nephrology / Urology"
+      "label_en": "Nephrology / Urology",
+      "label_zh": "腎臟/泌尿"
     },
     {
       "slug": "gastroenterology-hepatology",
-      "label_en": "GI / Hepatology"
+      "label_en": "GI / Hepatology",
+      "label_zh": "腸胃/肝膽"
     },
     {
       "slug": "womens-health",
-      "label_en": "Women's health"
+      "label_en": "Women's health",
+      "label_zh": "女性健康"
     },
     {
       "slug": "pediatrics",
-      "label_en": "Pediatrics"
+      "label_en": "Pediatrics",
+      "label_zh": "兒科"
     },
     {
       "slug": "aging-longevity",
-      "label_en": "Aging / Longevity"
+      "label_en": "Aging / Longevity",
+      "label_zh": "老化/長壽"
     },
     {
       "slug": "pain",
-      "label_en": "Pain"
+      "label_en": "Pain",
+      "label_zh": "疼痛"
     },
     {
       "slug": "musculoskeletal-orthopedics",
-      "label_en": "Musculoskeletal / Orthopedics"
+      "label_en": "Musculoskeletal / Orthopedics",
+      "label_zh": "骨骼肌肉/骨科"
     },
     {
       "slug": "hematology",
-      "label_en": "Hematology"
+      "label_en": "Hematology",
+      "label_zh": "血液"
     },
     {
       "slug": "endocrinology",
-      "label_en": "Endocrinology"
+      "label_en": "Endocrinology",
+      "label_zh": "內分泌"
     }
   ],
   "regions": [

@@ -32,6 +32,7 @@
         browse: "Browse the directory", explore: "Explore",
         search: "Search name, thesis, company, city…",
         filters: "Filters", reset: "Reset", results: "results", result: "result",
+        showing900: "showing 900",
         exportCsv: "Export CSV", noResults: "No investors match these filters.",
         clearAll: "Clear all filters",
         axisRegion: "Region", axisType: "Type", axisSector: "Sector",
@@ -117,6 +118,7 @@
         browse: "瀏覽名錄", explore: "前往",
         search: "搜尋機構名、論點、被投公司、城市…",
         filters: "篩選", reset: "重設", results: "筆結果", result: "筆結果",
+        showing900: "顯示前 900 筆",
         exportCsv: "匯出 CSV", noResults: "沒有符合這些條件的機構。",
         clearAll: "清除所有篩選",
         axisRegion: "地區", axisType: "類型", axisSector: "子領域",
@@ -220,6 +222,16 @@
     DB.entities.forEach(function (e) { ENT_BY_ID[e.id] = e; });
     var CO_BY_ID = Object.create(null);
     COMPANIES.forEach(function (c) { CO_BY_ID[c.id] = c; });
+
+    /* `what` is the one free-text field that renders on the card, so it ships
+       as {en, zh}. Search has to look at BOTH sides: a reader on the Chinese
+       page still types "oncology" as often as "腫瘤", and matching only the
+       displayed language would silently halve the result set. */
+    function whatSearch(w) {
+      if (!w) return "";
+      if (typeof w === "string") return w;
+      return (w.en || "") + " " + (w.zh || "");
+    }
 
     /* A company's full investor list is the union of two sources: the names on
        its own record, and edges asserted only by an investor's portfolio page.
@@ -1020,7 +1032,7 @@
           emptyEl.hidden = visible.length !== 0;
           paintContext();
           countEl.textContent = num(visible.length) + " " + (visible.length === 1 ? tt("result") : tt("results")) +
-            (visible.length > 900 ? " · showing 900" : "");
+            (visible.length > 900 ? " · " + tt("showing900") : "");
           [].forEach.call(grid.querySelectorAll(".ecard[data-slug]"), function (c) {
             var slug = c.dataset.slug;
             c.addEventListener("click", function () { openItem(slug); });
@@ -1281,7 +1293,7 @@
           if (!arrHit(sel.modality, c.modalities)) return false;
           if (!arrHit(sel.indication, c.indications)) return false;
           if (q) {
-            var hay = (c.name.en + " " + (c.name.local || "") + " " + (c.what || "") + " " +
+            var hay = (c.name.en + " " + (c.name.local || "") + " " + whatSearch(c.what) + " " +
               (c.summary || "") + " " + (c.city || "") + " " + (c.country || "") + " " +
               (c.lead || "") + " " +
               (c.sectors || []).join(" ") + " " +
@@ -1320,7 +1332,7 @@
               '<span class="dot dot--' + esc(c.conf) + '" title="' + esc(t(CONF[c.conf] || {})) + '"></span></div>' +
             '<div class="ecard__meta">' + stat +
               (loc ? '<span class="ecard__loc">' + loc + "</span>" : "") + raised + "</div>" +
-            (c.what ? '<p class="ecard__what">' + esc(c.what) + "</p>" : "") +
+            (t(c.what) ? '<p class="ecard__what">' + esc(t(c.what)) + "</p>" : "") +
             invLine +
             (tags || dev ? '<div class="ecard__tags">' + tags + dev + "</div>" : "") +
             "</article>";
@@ -1330,7 +1342,7 @@
           var hit = function (s) { return (s || "").toLowerCase().indexOf(q) !== -1; };
           if (hit(c.name.en) || hit(c.name.local)) return 0;
           if (investorsOf(c).some(function (i) { return hit(i.name); })) return 1;
-          if (hit(c.what)) return 2;
+          if (hit(whatSearch(c.what))) return 2;
           return 3;
         }
 
@@ -1347,7 +1359,7 @@
           paintContext();
           countEl.textContent = num(visible.length) + " " +
             (visible.length === 1 ? tt("coCount1") : tt("coCount")) +
-            (visible.length > 900 ? " · showing 900" : "");
+            (visible.length > 900 ? " · " + tt("showing900") : "");
           [].forEach.call(grid.querySelectorAll(".ecard[data-slug]"), function (el) {
             var slug = el.dataset.slug;
             el.addEventListener("click", function () { openItem(slug); });
@@ -1451,7 +1463,7 @@
             row("coExit", exitHtml) +
             row("confidence", '<span class="dot dot--' + esc(c.conf) + '"></span> ' + esc(t(CONF[c.conf] || {})));
 
-          var blurb = c.what ? '<p class="dlg__thesis">' + esc(c.what) + "</p>"
+          var blurb = t(c.what) ? '<p class="dlg__thesis">' + esc(t(c.what)) + "</p>"
             : (c.summary ? '<p class="dlg__thesis">' + esc(c.summary) + "</p>" : "");
 
           var sources = (c.sources || []).length
@@ -1591,7 +1603,8 @@
       if (w) w(p);
     }
 
-    L.onLang(render);
+    /* Rendered once. The language is fixed by the URL for the life of the
+       page, so there is no language switch left to re-render for. */
     render();
   }
 
