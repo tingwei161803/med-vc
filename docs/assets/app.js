@@ -1603,7 +1603,8 @@
       if (w) w(p);
     }
 
-    L.onLang(render);
+    /* Rendered once. The language is fixed by the URL for the life of the
+       page, so there is no language switch left to re-render for. */
     render();
   }
 
