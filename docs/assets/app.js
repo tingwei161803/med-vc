@@ -32,6 +32,7 @@
         browse: "Browse the directory", explore: "Explore",
         search: "Search name, thesis, company, city…",
         filters: "Filters", reset: "Reset", results: "results", result: "result",
+        showing900: "showing 900",
         exportCsv: "Export CSV", noResults: "No investors match these filters.",
         clearAll: "Clear all filters",
         axisRegion: "Region", axisType: "Type", axisSector: "Sector",
@@ -117,6 +118,7 @@
         browse: "瀏覽名錄", explore: "前往",
         search: "搜尋機構名、論點、被投公司、城市…",
         filters: "篩選", reset: "重設", results: "筆結果", result: "筆結果",
+        showing900: "顯示前 900 筆",
         exportCsv: "匯出 CSV", noResults: "沒有符合這些條件的機構。",
         clearAll: "清除所有篩選",
         axisRegion: "地區", axisType: "類型", axisSector: "子領域",
@@ -1030,7 +1032,7 @@
           emptyEl.hidden = visible.length !== 0;
           paintContext();
           countEl.textContent = num(visible.length) + " " + (visible.length === 1 ? tt("result") : tt("results")) +
-            (visible.length > 900 ? " · showing 900" : "");
+            (visible.length > 900 ? " · " + tt("showing900") : "");
           [].forEach.call(grid.querySelectorAll(".ecard[data-slug]"), function (c) {
             var slug = c.dataset.slug;
             c.addEventListener("click", function () { openItem(slug); });
@@ -1357,7 +1359,7 @@
           paintContext();
           countEl.textContent = num(visible.length) + " " +
             (visible.length === 1 ? tt("coCount1") : tt("coCount")) +
-            (visible.length > 900 ? " · showing 900" : "");
+            (visible.length > 900 ? " · " + tt("showing900") : "");
           [].forEach.call(grid.querySelectorAll(".ecard[data-slug]"), function (el) {
             var slug = el.dataset.slug;
             el.addEventListener("click", function () { openItem(slug); });

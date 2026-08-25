@@ -51,9 +51,9 @@ def vocab(key, label_en="label_en", label_zh="label_zh"):
 TAXONOMY = {
     "types": vocab("types"),
     "sectors": vocab("sectors"),
-    "modalities": [{"slug": m["slug"], "en": m["label_en"], "zh": m["label_en"]} for m in tax["modalities"]],
-    "indications": [{"slug": i["slug"], "en": i["label_en"], "zh": i["label_en"]} for i in tax["indications"]],
-    "stages": [{"slug": s["slug"], "en": s["label_en"], "zh": s.get("label_en")} for s in tax["stages"]],
+    "modalities": vocab("modalities"),
+    "indications": vocab("indications"),
+    "stages": vocab("stages"),
     "regions": vocab("regions"),
     "backerKinds": vocab("backer_kinds"),
     "backerRels": vocab("backer_relationships"),
