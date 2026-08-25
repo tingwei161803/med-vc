@@ -126,7 +126,7 @@ med-vc/
 另立一套分類就得維護映射表，而映射表一定會漂移。
 
 - **身份**：`name{en,local}` · `aka`（改名前的舊名，連結解析器會用到）· `category` · `sectors` · `status`（private/public/acquired/merged/shut-down）· `founded_year` · `region` · `country` · `hq_city` · `website`
-- **在做什麼**：`profile.what`（一句話，具體可查證）· `development_stage`（藥物走臨床期別，器材/軟體走 pilot→commercial）· `lead_asset` · `regulatory[]`（真的拿到的核准，不含申請中）
+- **在做什麼**：`profile.what{en,zh}`（一句話，具體可查證。卡片上唯一會顯示的散文欄位，所以兩種語言都要有——只在點開詳情才看得到的散文不在此列）· `development_stage`（藥物走臨床期別，器材/軟體走 pilot→commercial）· `lead_asset` · `regulatory[]`（真的拿到的核准，不含申請中）
 - **募資**：`funding.total_raised` · `valuation` · `unicorn` · `last_round` · `rounds[]` · **`investors[]`** · `exit`
 - **佐證 meta**：與 entity 同構
 
