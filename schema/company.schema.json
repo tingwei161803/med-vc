@@ -61,8 +61,13 @@
       "description": "What the company actually does and how far along it is.",
       "properties": {
         "what": {
-          "type": "string",
-          "description": "One sentence, concrete and checkable. 'Ambient AI scribe that drafts clinical notes from the patient visit' — not 'transforming healthcare with AI'."
+          "type": "object",
+          "required": ["en"],
+          "description": "One sentence, concrete and checkable. 'Ambient AI scribe that drafts clinical notes from the patient visit' — not 'transforming healthcare with AI'. This is the only free text that renders on the company card itself, so it carries both languages rather than staying in the language it was researched in.",
+          "properties": {
+            "en": { "type": "string", "description": "English, as researched" },
+            "zh": { "type": "string", "description": "Traditional Chinese. Company, brand and product names keep their original form." }
+          }
         },
         "modalities": {
           "type": "array",

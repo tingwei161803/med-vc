@@ -221,6 +221,16 @@
     var CO_BY_ID = Object.create(null);
     COMPANIES.forEach(function (c) { CO_BY_ID[c.id] = c; });
 
+    /* `what` is the one free-text field that renders on the card, so it ships
+       as {en, zh}. Search has to look at BOTH sides: a reader on the Chinese
+       page still types "oncology" as often as "腫瘤", and matching only the
+       displayed language would silently halve the result set. */
+    function whatSearch(w) {
+      if (!w) return "";
+      if (typeof w === "string") return w;
+      return (w.en || "") + " " + (w.zh || "");
+    }
+
     /* A company's full investor list is the union of two sources: the names on
        its own record, and edges asserted only by an investor's portfolio page.
        Merging here rather than at build time keeps the payload from carrying
@@ -1281,7 +1291,7 @@
           if (!arrHit(sel.modality, c.modalities)) return false;
           if (!arrHit(sel.indication, c.indications)) return false;
           if (q) {
-            var hay = (c.name.en + " " + (c.name.local || "") + " " + (c.what || "") + " " +
+            var hay = (c.name.en + " " + (c.name.local || "") + " " + whatSearch(c.what) + " " +
               (c.summary || "") + " " + (c.city || "") + " " + (c.country || "") + " " +
               (c.lead || "") + " " +
               (c.sectors || []).join(" ") + " " +
@@ -1320,7 +1330,7 @@
               '<span class="dot dot--' + esc(c.conf) + '" title="' + esc(t(CONF[c.conf] || {})) + '"></span></div>' +
             '<div class="ecard__meta">' + stat +
               (loc ? '<span class="ecard__loc">' + loc + "</span>" : "") + raised + "</div>" +
-            (c.what ? '<p class="ecard__what">' + esc(c.what) + "</p>" : "") +
+            (t(c.what) ? '<p class="ecard__what">' + esc(t(c.what)) + "</p>" : "") +
             invLine +
             (tags || dev ? '<div class="ecard__tags">' + tags + dev + "</div>" : "") +
             "</article>";
@@ -1330,7 +1340,7 @@
           var hit = function (s) { return (s || "").toLowerCase().indexOf(q) !== -1; };
           if (hit(c.name.en) || hit(c.name.local)) return 0;
           if (investorsOf(c).some(function (i) { return hit(i.name); })) return 1;
-          if (hit(c.what)) return 2;
+          if (hit(whatSearch(c.what))) return 2;
           return 3;
         }
 
@@ -1451,7 +1461,7 @@
             row("coExit", exitHtml) +
             row("confidence", '<span class="dot dot--' + esc(c.conf) + '"></span> ' + esc(t(CONF[c.conf] || {})));
 
-          var blurb = c.what ? '<p class="dlg__thesis">' + esc(c.what) + "</p>"
+          var blurb = t(c.what) ? '<p class="dlg__thesis">' + esc(t(c.what)) + "</p>"
             : (c.summary ? '<p class="dlg__thesis">' + esc(c.summary) + "</p>" : "");
 
           var sources = (c.sources || []).length

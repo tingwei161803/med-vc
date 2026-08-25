@@ -5,8 +5,10 @@
 
 Projects data/all-entities.json + taxonomy.json into a trimmed, render-ready
 window.MED_VC global plus window.SITE_META / window.SITE_PAGES for the multipage
-shell. Bilingual labels come from taxonomy.json (label_zh); entity free-text
-(summary/thesis) stays in its researched language.
+shell. Bilingual labels come from taxonomy.json (label_zh). Company `what` ships
+as an {en, zh} pair because it renders on the card, i.e. in the page's visible
+content; the free text that only ever appears inside the detail dialog
+(entity summary/thesis) stays in the language it was researched in.
 
 Run:  uv run scripts/build_site.py
 """
@@ -65,6 +67,21 @@ def money(m):
         return None
     raw = m.get("raw")
     return raw or None
+
+
+def bilingual(v):
+    """Ship a {en, zh} pair the renderer can pick from, dropping empty sides.
+
+    Older records may still hold a bare string; those ship as English only and
+    the renderer falls back to it, so a half-translated dataset degrades to the
+    English sentence rather than to a blank card.
+    """
+    if isinstance(v, str):
+        return {"en": v} if v else None
+    if not isinstance(v, dict):
+        return None
+    out = {k: v[k] for k in ("en", "zh") if v.get(k)}
+    return out or None
 
 
 def trim(e):
@@ -149,7 +166,7 @@ def trim_company(c):
         "status": c.get("status", ""),
         "website": c.get("website", ""),
         "conf": c.get("confidence", ""),
-        "what": p.get("what", ""),
+        "what": bilingual(p.get("what")),
         "dev": p.get("development_stage", ""),
         "lead": p.get("lead_asset", ""),
         "modalities": p.get("modalities", []) or [],
